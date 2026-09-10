@@ -964,3 +964,59 @@ do everything else from `tools/manifest.py` and `tools/index_sheet.py` offline.
 
 There is no ark→container resolver: `dam-antenati/.../resolve`, `/ark/`, and `?ark=` all 404, and the
 WordPress JSON is behind the same block. The container id has to come from the record page's live DOM.
+
+---
+
+## 10 September 2026 — Scilla act 228, and the index that lied
+
+### The act
+
+**Scilla, Nati 1861, atto 228** (`an_ua2002933`, image 117), declared 23 December 1861:
+
+> …Comune di **Scilla**, Distretto di **Reggio**, Provincia della Prima Calabria Ulteriore, è comparso
+> **Francesco Antonio Arena**, **figli di Filippo**, di anni **quarantadue**, di professione
+> **marinaro**, domiciliato in Scilla… è nat[o] da **Serafina Arlotta**, di anni **ventotto**…
+> nel giorno **venti** del mese di Dicembre… il nome di **Rocco**.
+> Witnesses: Giuseppe Idone, 64; Francesco Antonio Polì, 70, proprietario. Parish note: baptised 23rd.
+
+**Three generations**: **Filippo Arena** → **Francesco Antonio Arena** (b. c. 1819, *marinaro*) →
+**Rocco Arena** (b. 20 Dec 1861). Sailors, like the Prostamo of Briatico — both coastal families the
+tree records as neither.
+
+### THE CORRECTION: the index's parents column was misaligned
+
+Earlier today this archive read the 1861 index as giving Rocco Arena's parents as
+**«Giuseppe e Zirilli Grazia»**, and noted that the rare surname *Zirilli* agreed with the tree's
+*Giovana Zirilli* while both forenames did not. **It was filed as a candidate, not a join**, with the
+words *"read the act itself before joining"*.
+
+**The act says Francesco Antonio Arena and Serafina Arlotta.** The parents column had slipped by one
+row: the Scilla index is a wide ruled table photographed across a gutter, and once the columns are
+cropped apart with `index_sheet.py`, **the row a name sits on is not reliably the row its parents sit
+on**.
+
+**Never read parentage off a cropped index column. Use the index to get the act number, then read the
+act.** The parents column is a finding aid, not evidence.
+
+That caution is the only reason the archive does not now carry a wrong set of great-great-grandparents
+— and it is the same mistake as the *Venerio* reading earlier the same day, caught this time because
+the entry was flagged instead of merged.
+
+### An unresolved conflict
+
+| | |
+|---|---|
+| **Tree** | Rocco Arena b. 1861, son of **Orazio Arena** and **Giovana Zirilli** — no source |
+| **Register** | Rocco Arena b. **20 December 1861**, son of **Francesco Antonio Arena**, marinaro, and **Serafina Arlotta** — atto 228 |
+
+The 1861 register holds **exactly one Rocco Arena** and **neither parent matches**. Either the tree's
+parents are wrong or its birth year is. Given the tree has already proved six years out on Salvatore
+Mazza and six on Orazio Mazza, **the year is the likelier error** — but that is a hypothesis, and the
+Arena line stays where it is until a record settles it.
+
+### Method: Scilla scans are low resolution
+
+Native size is **1934 × 1410** for a full opening — roughly half the Sicilian scans, and the IIIF
+server refuses any request above 100%: *"Requests for scales in excess of 100% are not allowed."*
+Ask for `/full/` on a `pct:` region rather than naming a width, and check `info.json` before
+requesting a size. Two acts per image; act = 210 + 2 × (image − 108) in the 1861 volume.

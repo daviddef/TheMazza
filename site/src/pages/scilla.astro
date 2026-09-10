@@ -48,37 +48,82 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
 
   <section class="blk">
     <div class="lab">The registers, opened 10 September 2026</div>
-    <h2 style="margin-top:.4rem">An index that names the parents</h2>
+    <h2 style="margin-top:.4rem">An index that names the parents — and misleads</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Scilla is <strong>not</strong> in FamilySearch's full-text corpus — four searches place-matched
-      to it returned nothing, and its Calabrian holdings are Catanzaro and Vibo Valentia. But
-      <strong>Antenati has 57 volumes</strong> from the Archivio di Stato di Reggio Calabria, births
-      from <strong>1850</strong>.</p>
-      <p>And the pre-unification <em>Stato civile della restaurazione</em> index is laid out far better
-      than the Italian one that replaced it. Its columns are
-      <strong>N. d'ord · Cognomi e Nomi dei nati · Patria · Professione · NOMI E COGNOMI DEI GENITORI ·
-      giorno della nascita</strong>. <strong>The index names the parents.</strong> A whole year's
-      Arena households can be read off one opening without opening a single act.</p>
+      <p>Scilla is <strong>not</strong> in FamilySearch's full-text corpus — four searches
+      place-matched to it returned nothing, and its Calabrian holdings are Catanzaro and Vibo
+      Valentia. But <strong>Antenati has 57 volumes</strong> from the Archivio di Stato di Reggio
+      Calabria, births from <strong>1850</strong>; marriages run <strong>1905–1913 only</strong>.</p>
+      <p>The pre-unification <em>Stato civile della restaurazione</em> index is laid out far better
+      than the Italian one that replaced it. Its columns are <strong>N. d'ord · Cognomi e Nomi dei
+      nati · Patria · Professione · NOMI E COGNOMI DEI GENITORI · giorno della nascita</strong>.
+      <strong>The index names the parents</strong> — a whole year's households of one surname read off
+      a single opening.</p>
+      <p><strong>And it will mislead you if you trust it.</strong> See below.</p>
     </div>
-    <figure style="margin:1.4rem 0 0">
-      <img src={u("/plates/scilla-1861-index-A.jpg")} alt="The A section of the 1861 Scilla birth index"
-           style="border:1px solid var(--rule);border-radius:3px;width:100%" />
-      <figcaption class="cap">Scilla, Nati 1861, annual index, letter A — Archivio di Stato di Reggio
-      Calabria (Antenati <code>an_ua2002933</code>).</figcaption>
-    </figure>
-    <div class="scroll" style="margin-top:20px">
-      <table>
-        <thead><tr><th class="m">Act</th><th>Child</th><th>Father</th><th>Mother</th><th>Standing</th></tr></thead>
-        <tbody>{reads.map((r) => (
-          <tr><td class="m">{r.year}/{r.act}</td><td><strong>{r.name}</strong></td>
-              <td>{r.father}</td><td>{r.mother}</td>
-              <td>{r.status === "candidate" ? <span class="chip inf">candidate</span> : <span class="chip">context</span>}</td></tr>))}
-        </tbody>
-      </table>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Act 228 of 1861</div>
+    <h2 style="margin-top:.4rem">Rocco Arena, born 20 December 1861</h2>
+    <div class="hero-plate" style="margin-top:1.2rem">
+      <img src={u("/plates/scilla-act228-arena-rocco.jpg")} alt="Scilla birth register 1861, act 228" />
+      <div>
+        <blockquote style="margin:0 0 .9rem">L'anno mille ottocento sessant<strong>uno</strong> il dì
+        <strong>ventitre</strong> del mese di <strong>Dicembre</strong>… Comune di <strong>Scilla</strong>,
+        Distretto di <strong>Reggio</strong>, Provincia della Prima Calabria Ulteriore, è comparso
+        <strong>Francesco Antonio Arena</strong>, <strong>figli di Filippo</strong>, di anni
+        <strong>quarantadue</strong>, di professione <strong>marinaro</strong>, domiciliato in Scilla…
+        è nat[o] da <strong>Serafina Arlotta</strong>, di anni <strong>ventotto</strong>… nel giorno
+        <strong>venti</strong> del mese di Dicembre… il nome di <strong>Rocco</strong>.</blockquote>
+        <p><strong>Three generations in one act:</strong> <strong>Filippo Arena</strong>, his son
+        <strong>Francesco Antonio Arena</strong> — born about 1819, and a <em>marinaro</em>, a sailor —
+        and the boy <strong>Rocco</strong>. Witnessed by Giuseppe Idone, 64, and Francesco Antonio
+        Polì, 70, <em>proprietario</em>; the parish note records the baptism on the 23rd.</p>
+        <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
+        della restaurazione, Scilla, Nati 1861, atto 228 — Antenati <code>an_ua2002933</code>, image 117.</p>
+      </div>
     </div>
-    {reads.filter((r) => r.status === "candidate").map((r) => (
-      <p class="note" style="margin-top:20px"><strong>{r.name}, act {r.act} of {r.year}.</strong> {r.note}</p>
-    ))}
+  </section>
+
+  <section class="blk">
+    <div class="lab">A correction, in the open</div>
+    <h2 style="margin-top:.4rem">The index said something else, and the caution caught it</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Reading the 1861 index, this archive recorded Rocco Arena's parents as
+      <strong>«Giuseppe e Zirilli Grazia»</strong> — and noted that while the rare surname
+      <em>Zirilli</em> agreed with the family tree's <em>Giovana Zirilli</em>, both forenames did not.
+      It was filed as a <strong>candidate, not a join</strong>, with the words <em>"read the act
+      itself before joining"</em>.</p>
+      <p><strong>The act says Francesco Antonio Arena and Serafina Arlotta.</strong> The index's
+      parents column had been misaligned by one row: it is a wide ruled table photographed across a
+      gutter, and once the columns are cropped apart the row a name sits on is not reliably the row
+      its parents sit on.</p>
+      <p><strong>That caution is the only reason the archive does not now carry a wrong set of
+      great-great-grandparents.</strong> Had the surname agreement been treated as sufficient — as
+      the <a href={u("/register-1879")}>Venerio reading</a> was, earlier the same day — it would have
+      been merged and published.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">And an unresolved conflict</div>
+    <h2 style="margin-top:.4rem">This is not the tree's Rocco Arena</h2>
+    <div class="rec" style="margin-top:16px">
+      <div class="k">The tree says</div>
+      <div class="v">Rocco Arena, b. 1861, son of <strong>Orazio Arena</strong> and
+      <strong>Giovana Zirilli</strong></div><div class="w">no source</div>
+      <div class="k">The register says</div>
+      <div class="v">Rocco Arena, b. <strong>20 December 1861</strong>, son of
+      <strong>Francesco Antonio Arena</strong>, marinaro, and <strong>Serafina Arlotta</strong></div>
+      <div class="w">atto 228</div>
+    </div>
+    <p class="note" style="margin-top:22px">The 1861 Scilla register contains <strong>exactly one
+    Rocco Arena</strong>, and <strong>neither parent matches</strong>. So either the tree's parents
+    are wrong, or its birth year is. This archive has already found the same tree
+    <strong>six years out</strong> on Salvatore Mazza's birth and six on Orazio Mazza's, so the year
+    is the likelier error — but that is a hypothesis, not a finding, and the Arena line stays where it
+    was until a record settles it. <a href={u("/open-questions")}>The queue →</a></p>
   </section>
 
   <section class="blk" style="border-bottom:0">

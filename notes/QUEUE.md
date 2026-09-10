@@ -143,7 +143,13 @@ Antenati has a "Richieste di certificati" page for exactly this.
       Giovana Zirilli; the rare surname matches, the forenames do not). **Read act 228 before joining.**
 - [x] **The Bourbon-era Scilla index NAMES THE PARENTS** — a surname sweep there is far cheaper than
       in Sicily. Use it.
-- [ ] **Read act 228 of 1861** to settle the Arena candidate.
+- [x] **Act 228 of 1861 READ.** Rocco Arena b. 20 Dec 1861, son of **Francesco Antonio Arena**,
+      42, marinaro, **son of Filippo**, and **Serafina Arlotta**, 28. THREE generations of Arena.
+      The index's parents column had been misaligned — NEVER read parentage off a cropped index.
+- [ ] **UNRESOLVED: this is not the tree's Rocco Arena.** Tree says Orazio × Giovana Zirilli;
+      register says Francesco Antonio × Serafina Arlotta, and 1861 holds only one Rocco Arena.
+      Either the tree's parents are wrong or its birth year is. Check Scilla births either side of
+      1861 for a second Rocco Arena before deciding.
 - [ ] Sweep the remaining Scilla indexes for Arena, Polistena, Donato, Pontillo:
       Giovanni Arena b.1870, Giuseppe Arena b.1892, Giovanni Polistena b.1883, Michele Donato b.1851.
       Scilla marriages 1905–1913 may catch Giovanni Polistena × Nunziata Donato.
