@@ -15,9 +15,17 @@ Updated 10 September 2026, the day the archive was built.
 - [x] **Salvatore d. 19 September 1929**, frazione Vena, Contrada Grotta Nicodemo (Morti 1929 atto 9).
 - [x] **Married Maria Nicotra, 25 April 1898**, parish of Piedimonte Etneo.
 - [x] **A new generation: MARIANO MAZZA**, b. c. 1815–20.
-- [ ] **ROSARIO MAZZA'S MARRIAGE (c. 1870)** — would name Mariano with an age and a wife, and is now
-      the document that would join the hundred and ten. PE marriages 1866–1872 unchecked; FamilySearch
-      also holds parish marriages Antenati lacks.
+- [x] **THE HUNDRED AND TEN ARE JOINED** — five records prove the tree's Rosario Mazza b.1850 is
+      Salvatore's father. Components 14 → 10; main component 479 → 581.
+- [ ] **ROSARIO MAZZA'S MARRIAGE (c. 1870)** — still wanted: it would name Mariano with an age and a
+      wife, and would independently confirm the join. PE marriages 1866–1872 unchecked; FamilySearch
+      holds parish marriages Antenati lacks.
+- [ ] **Gaetano (b. 1880) and Santo (b. c. 1882)** — Rosario's sons, absent from the family tree.
+      Send to Michael.
+- [ ] **Maria Nicotra's mother**: «Monti Venera» (1898 proclamation) vs «Venera Cassaneti»
+      (Queensland death register). Resolve.
+- [ ] **Mazza Veneranda × Mariano Cavallaro, 1 Oct 1920** — another sibling of Sebastiano, and
+      probably the link to the Brisbane Cavallaro.
 - [ ] **Mariano Mazza** — his own marriage and death. The new frontier.
 - [ ] **Mazza Giovanni, b. 1875 act 64** — declarant at Salvatore's death aged 54. Read the act to
       confirm him as Rosario's son.

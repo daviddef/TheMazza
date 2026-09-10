@@ -366,14 +366,14 @@
      "comp": 1
     },
     {
-     "id": "@I22@",
-     "slug": "rosario-mazza-3",
+     "id": "@I23@",
+     "slug": "rosario-mazza",
      "name": "Rosario Mazza",
      "surname": "Mazza",
-     "born": null,
+     "born": 1850,
      "died": null,
      "datesHidden": false,
-     "birthPlace": "",
+     "birthPlace": "Piedimonte Etneo, Catania, Sicily",
      "comp": 1
     },
     {
@@ -476,6 +476,10 @@
     },
     {
      "name": "Italy",
+     "n": 1
+    },
+    {
+     "name": "Piedimonte Etneo, Catania, Sicily",
      "n": 1
     }
    ]

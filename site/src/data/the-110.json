@@ -1,0 +1,58 @@
+{
+ "join": {
+  "keep": "@I23@",
+  "drop": "@I22@",
+  "who": "Rosario Mazza",
+  "basis": "documented",
+  "evidence": "The export holds this man twice: as an undated stub who is Salvatore Mazza's father (@I22@, component 1), and as \"Rosario Mazza b. 1850 of Piedimonte Etneo\" married to a Leonarda with no surname, heading the 110-person component 2 (@I23@). FIVE independent records make them one man. (1) Nati 1873 atto 3: Salvatore Mazza born 5 Jan 1873 to ROSARIO MAZZA DI MARIANO, 28, and LEONARDA BONANNO. (2) Marriage proclamation 1898: Mazza Salvatore, 25, son of Rosario, 53, and Bonanno Leonarda. (3) Marriage proclamation 1902: Mazza GIOVANNI, 27, son of Rosario, 55, and Bonanno Leonarda. (4) Marriage proclamation 1910: Mazza IGNAZIO, 23, son of Rosario, 65, and Bonanno Leonarda, both parents present and consenting. (5) Nati 1877 atto 168: ORAZIO Mazza born to Rosario, 31, and Leonarda. The tree's @I23@ has exactly these sons - Orazio, Ignazio, Giovanni - by a wife called Leonarda. Rosario's ages give a birth about 1845; the tree says 1850.",
+  "date": "10 September 2026"
+ },
+ "rosario": {
+  "name": "Rosario Mazza",
+  "slug": "rosario-mazza",
+  "treeBorn": 1850,
+  "wife": "Leonarda"
+ },
+ "children": [
+  {
+   "name": "Salvatore Mazza",
+   "slug": "salvatore-mazza",
+   "born": "5 January 1873",
+   "note": "Nati 1873, atto 3 — Rosario, 28; and the marriage proclamation of 1898, where Salvatore is 25 and Rosario 53.",
+   "treeBorn": 1879
+  },
+  {
+   "name": "Orazio Mazza",
+   "slug": "orazio-mazza",
+   "born": "21 October 1877",
+   "note": "Nati 1877, atto 168 — Rosario, 31, of via Grotta Nicodemo. The tree dates him 1883.",
+   "treeBorn": 1883
+  },
+  {
+   "name": "Ignazio Mazza",
+   "slug": "ignazio-mazza",
+   "born": "about 1887",
+   "note": "Marriage proclamation 1910 — Ignazio, 23, son of Rosario, 65, and Bonanno Leonarda, BOTH PARENTS PRESENT AND CONSENTING. The tree dates him 1885 and has him dying in America.",
+   "treeBorn": 1885
+  },
+  {
+   "name": "Giovanni Mazza",
+   "slug": "giovanni-mazza-3",
+   "born": "about 1875",
+   "note": "Marriage proclamation 1902 — Giovanni, 27, son of Rosario, 55, and Bonanno Leonarda. Almost certainly the Mazza Giovanni of the 1875 index, act 64, and the Mazza Giovanni, 54, who declared Salvatore's death in 1929.",
+   "treeBorn": null
+  }
+ ],
+ "undocumented": [
+  {
+   "name": "Gaetano Mazza",
+   "born": "5 May 1880",
+   "note": "Nati 1880, atto 66 — Rosario, 32, of Via S. Basile. Not in the family tree at all."
+  },
+  {
+   "name": "Santo Mazza",
+   "born": "about 8 April 1882",
+   "note": "Parish baptism: «Sancturi Mazza natus die 8 ex Rosario e Leonarda Bonanno jug.» Probably the Mazza Santo of the 1882 index, act 75. Not in the family tree."
+  }
+ ]
+}

@@ -839,6 +839,12 @@
   },
   "children": [
    {
+    "id": "@I4@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza",
+    "living": false
+   },
+   {
     "id": "@I159@",
     "name": "Orazio Mazza",
     "slug": "orazio-mazza",
@@ -1558,7 +1564,7 @@
    {
     "id": "@I493@",
     "name": "Rosario Mazza",
-    "slug": "rosario-mazza-4",
+    "slug": "rosario-mazza-3",
     "living": false
    }
   ],
@@ -4172,22 +4178,6 @@
    }
   ],
   "place": "Brisbane, Queensland",
-  "born": null
- },
- {
-  "name": "Rosario Mazza",
-  "head": "rosario-mazza-3",
-  "headId": "@I22@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@I4@",
-    "name": "Salvatore Mazza",
-    "slug": "salvatore-mazza",
-    "living": false
-   }
-  ],
-  "place": "",
   "born": null
  },
  {
@@ -7325,7 +7315,7 @@
  },
  {
   "name": "Rosario Mazza & Anna Cassanite",
-  "head": "rosario-mazza-4",
+  "head": "rosario-mazza-3",
   "headId": "@I493@",
   "spouse": {
    "id": "@I537@",
@@ -7762,7 +7752,7 @@
    {
     "id": "@I493@",
     "name": "Rosario Mazza",
-    "slug": "rosario-mazza-4",
+    "slug": "rosario-mazza-3",
     "living": false
    }
   ],
@@ -7803,7 +7793,7 @@
   "spouse": {
    "id": "@I493@",
    "name": "Rosario Mazza",
-   "slug": "rosario-mazza-4",
+   "slug": "rosario-mazza-3",
    "living": false
   },
   "children": [
@@ -7868,7 +7858,7 @@
    {
     "id": "@I571@",
     "name": "Rosario Mazza",
-    "slug": "rosario-mazza-5",
+    "slug": "rosario-mazza-4",
     "living": false
    },
    {
@@ -7934,7 +7924,7 @@
    {
     "id": "@I493@",
     "name": "Rosario Mazza",
-    "slug": "rosario-mazza-4",
+    "slug": "rosario-mazza-3",
     "living": false
    },
    {
@@ -8275,7 +8265,7 @@
  },
  {
   "name": "Rosario Mazza",
-  "head": "rosario-mazza-5",
+  "head": "rosario-mazza-4",
   "headId": "@I571@",
   "spouse": null,
   "children": [

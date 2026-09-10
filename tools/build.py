@@ -359,6 +359,26 @@ for n, xs in by_name.items():
 
 LOOSE_WHY = {}
 
+# ---------------------------------------------------------------------------
+# DOCUMENTED JOINS
+#
+# The automatic rules above merge only on evidence found INSIDE the export.
+# Some identifications rest on evidence from outside it — a register act, a
+# marriage proclamation — and those cannot be derived, only declared. They are
+# declared here, one line per join, each carrying its citation, and they are
+# applied last so they can override the automatic caution.
+#
+# This is deliberately a separate mechanism. An automatic merge is a rule; a
+# documented join is an ARGUMENT, and the archive publishes the argument.
+# See data/documented-joins.tsv and /the-hundred-and-ten.
+# ---------------------------------------------------------------------------
+DOCUMENTED_JOINS = []
+_dj = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "documented-joins.tsv")
+if os.path.exists(_dj):
+    import csv as _csv
+    for _r in _csv.DictReader(open(_dj), delimiter="\t"):
+        DOCUMENTED_JOINS.append(_r)
+
 # second pass: names that differ only by a middle name or initial
 loose = collections.defaultdict(list)
 for x in I:
@@ -389,6 +409,13 @@ for k, xs in loose.items():
                     + ", ".join(bits))
                 union(a2, b2)
 
+# third pass: joins argued from records outside the export
+for _j in DOCUMENTED_JOINS:
+    a2, b2 = _j["keep"], _j["drop"]
+    if a2 in I and b2 in I:
+        LOOSE_WHY[frozenset((a2, b2))] = "documented join — " + _j["evidence"][:160] + "…"
+        union(a2, b2)
+
 clusters = collections.defaultdict(list)
 for x in I:
     clusters[find(x)].append(x)
@@ -406,15 +433,21 @@ for root, xs in clusters.items():
                                "same name and same birth year" if birth_year(best)
                                else "same name and the same family around them")})
 
+# Components are computed on the CANONICAL graph, after merging. A merge is a
+# claim that two records are one person, so it necessarily rejoins whatever
+# those records were attached to — and the component count has to reflect that
+# or the site would go on calling the family two families after the archive had
+# argued they are one.
 adj = collections.defaultdict(set)
 for fx, f in F.items():
-    mem = [k["val"] for k in f["kids"] if k["tag"] in ("HUSB", "WIFE", "CHIL") and k["val"] in I]
+    mem = [canonical.get(k["val"], k["val"]) for k in f["kids"]
+           if k["tag"] in ("HUSB", "WIFE", "CHIL") and k["val"] in I]
     for a in mem:
         for b in mem:
             if a != b:
                 adj[a].add(b)
 seen, comps = set(), []
-for x in I:
+for x in {canonical.get(z, z) for z in I}:
     if x in seen:
         continue
     st, comp = [x], []
@@ -432,6 +465,8 @@ comp_of = {}
 for idx, c in enumerate(comps, 1):
     for x in c:
         comp_of[x] = idx
+for z in I:                      # every original id inherits its canonical's component
+    comp_of.setdefault(z, comp_of.get(canonical.get(z, z), 0))
 
 # ------------------------------------------------------------------ families
 

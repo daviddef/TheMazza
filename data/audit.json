@@ -1,26 +1,22 @@
 {
  "stats": {
   "exported": 614,
-  "people": 597,
-  "duplicates": 17,
+  "people": 596,
+  "duplicates": 18,
   "unresolvedNames": 58,
   "suppressLiving": false,
   "living": 0,
-  "presumedLiving": 415,
-  "written": 597,
+  "presumedLiving": 414,
+  "written": 596,
   "withDeath": 68,
   "datesHidden": 133,
   "ageThreshold": 80,
-  "deceased": 597,
+  "deceased": 596,
   "families": 212,
   "sources": 39,
   "components": [
-   479,
-   111,
-   6,
-   4,
-   4,
-   2,
+   581,
+   7,
    1,
    1,
    1,
@@ -69,6 +65,15 @@
     "@I21@"
    ],
    "why": "same name and same birth year"
+  },
+  {
+   "name": "Rosario Mazza",
+   "year": 1850,
+   "kept": "@I23@",
+   "dropped": [
+    "@I22@"
+   ],
+   "why": "documented join — The export holds this man twice: as an undated stub who is Salvatore Mazza's father (@I22@, component 1), and as \"Rosario Mazza b. 1850 of Piedimonte Etneo\" mar…"
   },
   {
    "name": "Mattea Prostamo",

@@ -1,0 +1,114 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import d from "../data/the-110.json";
+import stats from "../data/stats.json";
+import focus from "../data/focus.json";
+const M = focus.Mazza.groups[0];
+---
+<Base title="The Hundred and Ten" eyebrow="Answered, 10 September 2026"
+      dek="From the day this archive was built its largest open question was a hundred and ten Piedimonte Etneo Mazza joined to the family by nothing at all. They are Salvatore's brothers' descendants.">
+
+  <section class="blk">
+    <p class="lede">The export this archive was built from was <strong>fourteen disconnected
+    pieces</strong>. The largest held the family. The second held <strong>a hundred and ten Mazza of
+    Piedimonte Etneo</strong> — a complete kindred with its own marriages, children and cousins —
+    headed by a <strong>Rosario Mazza born 1850</strong>, married to a <strong>Leonarda</strong> with
+    no surname, and attached to Michael Mazza's line by <em>nothing</em>.</p>
+    <p class="lede" style="margin-top:1rem">Separately, the family tree gave Salvatore Mazza a father
+    called <strong>Rosario</strong> about whom one thing was asserted and nothing was known. Two
+    Rosario Mazza in one small town. The archive refused to merge them for a day, on the grounds that
+    <a href={u("/method")}>a shared name is not evidence</a>.</p>
+    <p class="lede" style="margin-top:1rem"><strong>Five records now say they are one man.</strong></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The argument</div>
+    <h2 style="margin-top:.4rem">Rosario Mazza and Leonarda Bonanno, and their sons</h2>
+    <p class="dek" style="margin:.9rem 0 1.4rem">An Italian marriage proclamation states the ages of
+    <em>both the bride and groom and their parents</em>. Three of them, across twelve years, name the
+    same couple and give Rosario's age each time — 53 in 1898, 55 in 1902, 65 in 1910. Two birth acts
+    do the same — 28 in 1873, 31 in 1877, 32 in 1880. <strong>One man, born about 1845, married to
+    Leonarda Bonanno, of Piedimonte Etneo.</strong></p>
+
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Son</th><th class="m">Born, by the records</th><th class="m">The tree says</th><th>Evidence</th></tr></thead>
+        <tbody>{d.children.map((c) => (
+          <tr>
+            <td><a href={u("/people/" + c.slug)}><strong>{c.name}</strong></a></td>
+            <td class="m">{c.born}</td>
+            <td class="m">{c.treeBorn || "—"}</td>
+            <td>{c.note}</td>
+          </tr>))}
+          {d.undocumented.map((e) => (
+            <tr>
+              <td>{e.name}</td><td class="m">{e.born}</td>
+              <td class="m" style="color:var(--ink-3)">not in the tree</td>
+              <td>{e.note}</td>
+            </tr>))}
+        </tbody>
+      </table>
+    </div>
+
+    <p class="note" style="margin-top:24px"><strong>The tree's Rosario has three sons — Orazio,
+    Ignazio and Giovanni — by a wife called Leonarda.</strong> The register gives Rosario and
+    Leonarda Bonanno six sons, and three of them are Orazio, Giovanni and Ignazio. The fourth is
+    <P n="Salvatore Mazza" />, who sailed nothing and stayed put, and whose son
+    <P n="Sebastiano Mazza" /> took the <em>Toscana</em> to Australia in 1949.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">And the name that seals it</div>
+    <h2 style="margin-top:.4rem">Mariano</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Salvatore's act of birth calls his father <strong>«Rosario Mazza di Mariano»</strong> — son
+      of Mariano. Nothing in the family tree names a Mariano in that generation.</p>
+      <p>But the tree's unjoined hundred and ten contains a <strong>Mariano Mazza</strong>, and he is
+      a <strong>son of Orazio</strong> — Rosario's son. Under the Sicilian naming custom a man's
+      first son takes his own father's father's name, so Orazio naming a boy <em>Mariano</em> is
+      exactly what you would expect if Orazio's grandfather was Mariano.</p>
+      <p><strong>The custom and the document agree — and this time the document was read twice.</strong>
+      Earlier today this archive built the same kind of argument on the name <em>Venerio</em> and had
+      to <a href={u("/register-1879")}>withdraw it</a>, because the reading underneath it was wrong.
+      «Di Mariano» is written plainly, in a clerk's careful hand, and the Mariano in the tree was
+      entered by a relative who had never seen the act.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">What changed in the archive</div>
+    <h2 style="margin-top:.4rem">Fourteen pieces became ten</h2>
+    <div class="grid g3">
+      <div class="stat"><div class="n">581</div><div class="l">people now in one connected family, up from 479</div></div>
+      <div class="stat"><div class="n">{M.n}</div><div class="l">Mazza in a single descent group, where there were six</div></div>
+      <div class="stat"><div class="n">106</div><div class="l">of the hundred and ten come through Orazio alone</div></div>
+    </div>
+    <p class="note" style="margin-top:24px">Every one of the hundred and ten descends from, or married
+    into, Rosario Mazza. They are the families of <strong>Michael Rocco Mazza's great-great-uncles</strong>
+    — the brothers Salvatore left behind when his son took ship. <a href={u("/mazza")}>The Mazza →</a></p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <div class="lab">How the archive made the join</div>
+    <h2 style="margin-top:.4rem">A declared argument, not an automatic rule</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>This build merges two records automatically only on evidence found <em>inside</em> the
+      export — a shared birth year, or the same family standing around them. That rule was written
+      after an earlier version fused four undated Rosario Mazza on the strength of the name alone and
+      <a href={u("/method")}>manufactured a pedigree</a>. It would never have made this join, and it
+      was right not to.</p>
+      <p>So this join is <strong>declared</strong>, in <code>data/documented-joins.tsv</code>, with
+      its citation attached, and applied after the automatic rules as an explicit override. The
+      difference matters: <strong>an automatic merge is a rule; a documented join is an argument</strong>,
+      and an argument has to be published so it can be attacked.</p>
+      <blockquote style="margin-top:1rem">{d.join.evidence}</blockquote>
+      <p style="margin-top:1rem"><strong>What would overturn it:</strong> Rosario Mazza's own act of
+      marriage, or his death act, naming a father who is not Mariano — or a second Rosario Mazza of
+      Piedimonte Etneo, born about 1845, married to a second Leonarda Bonanno, with sons of the same
+      four names. The archive would rather that possibility were tested than assumed away.
+      <a href={u("/open-questions")}>The queue →</a></p>
+    </div>
+  </section>
+</Base>

@@ -16,21 +16,21 @@
   },
   "town": "Piedimonte Etneo, Catania, Sicily",
   "depth": 4,
-  "reach": 1875,
+  "reach": 1850,
   "line": [
    {
     "gen": 0,
-    "id": "@I22@",
-    "slug": "rosario-mazza-3",
+    "id": "@I23@",
+    "slug": "rosario-mazza",
     "name": "Rosario Mazza",
     "surname": "Mazza",
     "living": false,
-    "born": null,
+    "born": 1850,
     "died": null,
-    "birthPlace": "",
+    "birthPlace": "Piedimonte Etneo, Catania, Sicily",
     "deathPlace": "",
     "burialPlace": "",
-    "spouse": ""
+    "spouse": "Leonarda"
    },
    {
     "gen": 1,

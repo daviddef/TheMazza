@@ -7,7 +7,7 @@ const main = comps.filter((c) => c.n > 1);
 const singles = comps.filter((c) => c.n === 1);
 ---
 <Base title="The Fourteen Pieces" eyebrow="The different lines, joined and unjoined"
-      dek="This archive was built from a file that looks like one family tree and is not. It is fourteen separate pieces, and only one of them reaches the children.">
+      dek="The export arrived as fourteen separate pieces. Reading the Sicilian registers joined the largest two, and it is ten now — but the point of the page is unchanged: a file that draws as one tree is not necessarily one family.">
 
   <section class="blk">
     <p class="lede">Open a GEDCOM in any family-tree program and it draws every person on one canvas.
@@ -46,13 +46,11 @@ const singles = comps.filter((c) => c.n === 1);
           </p>
         </div>
       </div>
-      {c.comp === 2 && (
-        <p class="note" style="margin-top:20px"><strong>This is the one that matters.</strong> A
-        hundred and ten people, almost all born in the same small town on the flank of Etna as
-        Salvatore Mazza, headed by a <strong>Rosario Mazza born in 1850</strong> — the right name in
-        the right place at the right time to be Salvatore's father. Joining them would add six
-        generations to the surname line in a single document.
-        <a href={u("/open-questions")}>The document that would do it →</a></p>
+      {c.comp === 1 && (
+        <p class="note" style="margin-top:20px"><strong>This component grew by a hundred and two
+        people on 10 September 2026.</strong> The second piece of the export — a hundred and ten
+        Piedimonte Etneo Mazza attached to nothing — was proved to descend from Rosario Mazza, and
+        joined here. <a href={u("/the-hundred-and-ten")}>The argument →</a></p>
       )}
       {c.comp === 3 && (
         <p class="note" style="margin-top:20px">The <strong>Mazzitelli of New York</strong> — six

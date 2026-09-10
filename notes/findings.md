@@ -788,3 +788,68 @@ own marriage act, naming Mariano with an age and a wife.
 undocumented year in a family tree. What broke it was the Queensland death index → the parish marriage
 → the civil death act, each naming Salvatore's parents, until three records converged on a birth year
 and the register could be opened at the right page.
+
+---
+
+## 10 September 2026 — THE HUNDRED AND TEN, JOINED
+
+The archive's largest open question, closed the day it opened.
+
+### The five records
+
+| Record | What it says |
+|---|---|
+| **Nati 1873, atto 3** | Salvatore Mazza b. 5 Jan 1873, Contrada Terremorte, to **«Rosario Mazza DI MARIANO», 28**, and **Leonarda Bonanno di Gaetano** |
+| **Marriage proclamation 1898** | Mazza Salvatore, **25**, son of **Rosario, 53**, and **Bonanno Leonarda** — marries Nicotra Maria, 22, daughter of Giovanni, 50, and **Monti Venera** |
+| **Marriage proclamation 1902** | Mazza **Giovanni, 27**, son of **Rosario, 55**, and **Bonanno Leonarda** — marries Costanzo Maria, 20 |
+| **Marriage proclamation 1910** | Mazza **Ignazio, 23**, son of **Rosario, 65**, and **Bonanno Leonarda** — *both parents present and consenting* — marries Strano Concetta, 21 |
+| **Nati 1877 atto 168 · Nati 1880 atto 66 · parish baptism** | **Orazio** (1877), **Gaetano** (1880) and **Santo** (c. 1882) to the same couple |
+
+Rosario's age across six records: **28 (1873), 31 (1877), 32 (1880), 53 (1898), 55 (1902), 65 (1910)**
+— one man, born about **1845**.
+
+### The match
+
+The tree's unattached **Rosario Mazza b. 1850** has a wife called **Leonarda** with no surname, and
+three sons: **Orazio, Ignazio, Giovanni**. The register gives **Rosario × Leonarda Bonanno** six sons,
+three of them **Orazio, Giovanni, Ignazio** — and a fourth, **Salvatore**, who is Michael Mazza's
+great-great-grandfather.
+
+**And the name that seals it:** Salvatore's act calls his father *«Rosario Mazza di Mariano»*. The
+tree's hundred and ten contain a **Mariano Mazza** — a **son of Orazio**. Under the Sicilian naming
+custom that is exactly what Orazio's boy would be called if Orazio's grandfather was Mariano.
+*(This time the reading was checked twice; the «Venerio» inference earlier today was withdrawn for
+exactly this reason.)*
+
+### What it did to the archive
+
+- Components: **14 → 10**. Main component: **479 → 581 people**.
+- Mazza descent groups: **6 → 3**; the largest is now **110 people, 1850–1952, Piedimonte Etneo to Brisbane**.
+- **106 of the 110 descend from Orazio alone.**
+- They are the families of **Michael Rocco Mazza's great-great-uncles**.
+
+### The mechanism: documented joins
+
+The automatic merge rules require evidence **inside** the export — a shared birth year, or the same
+family standing around a person. They would never have made this join, and they were right not to:
+an earlier build fused four undated Rosario Mazza on the name alone and manufactured a pedigree.
+
+So this join is **declared**, in `data/documented-joins.tsv`, with its citation, applied after the
+automatic rules as an explicit override, and published in full.
+**An automatic merge is a rule; a documented join is an argument, and an argument has to be
+published so it can be attacked.**
+
+**What would overturn it:** Rosario's own marriage or death act naming a father who is not Mariano —
+or a second Rosario Mazza of Piedimonte Etneo, born about 1845, married to a second Leonarda Bonanno,
+with sons of the same four names.
+
+### A loose end
+
+The 1898 proclamation gives Maria Nicotra's mother as **Monti Venera**; the Queensland death register
+gives **Venera Cassaneti**. One of them is wrong, or she is recorded under two names. Unresolved.
+
+### Also worth chasing
+
+- **Gaetano (1880)** and **Santo (c. 1882)** are Rosario's sons and are **not in the family tree at all**.
+- **Mazza Veneranda, daughter of Salvatore and Maria Nicotra, married Mariano Cavallaro on 1 October
+  1920** — another sibling of Sebastiano, and very likely the link to the Brisbane Cavallaro.

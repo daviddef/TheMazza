@@ -9,7 +9,8 @@ import { people } from "../lib/people.js";
 const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
 const more = [
   ["/ancestors", "The ancestors of Mia and Rocco", "Sixty-two people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, five per cent complete by the seventh generation, and one thread at the tenth."],
-  ["/mazza", "The Mazza", "A hundred and twenty bearers of the name in six descent groups that no record joins. The surname this archive is named for is the most fragmented thing in it."],
+  ["/the-hundred-and-ten", "The hundred and ten", "The archive's largest open question, answered on the day it was built: a hundred and ten Piedimonte Etneo Mazza who turned out to be the families of Michael Rocco Mazza's great-great-uncles."],
+  ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1815, to two children born in Brisbane."],
   ["/arena", "The Arena", "Thirty-nine Arena of Scilla in a single unbroken family — the counter-example, and the reason a surname tells you least about a family."],
   ["/lines", "The four quarters", "Michael Rocco Mazza has four grandparents and they came from four different places. Three towns in the south of Italy, and the shipping line that brought all four to one suburb of Brisbane."],
   ["/briatico", "Briatico", "The deepest line in the archive, and the one that does not carry the name. Nine generations of Prostamo in a Calabrian coastal comune, back to a man born in 1697."],
@@ -39,12 +40,13 @@ const more = [
     Only {stats.withDeath} of them have a death recorded anywhere — which is a measure of how much of
     this tree is still undated rather than of who is still alive.</p>
     <blockquote>
-      The family takes its name from its <strong>shallowest</strong> line. The Mazza of Piedimonte
-      Etneo can be followed back four generations before the record stops at a man with no dates at
-      all. The line that reaches furthest — nine generations, to <strong>1697</strong> — is the
-      <a href={u("/briatico")}>Prostamo of Briatico</a>, and it comes in through a grandmother.
-      That is worth saying plainly, because a surname is a poor guide to where a family actually
-      comes from.
+      This archive opened with the Mazza name reaching back <strong>four generations</strong> and
+      stopping at a man with no dates at all, while the Calabrian
+      <a href={u("/briatico")}>Prostamo</a> ran nine generations to <strong>1697</strong>.
+      One day in the Sicilian registers took the Mazza to <strong>seven generations</strong> and
+      <a href={u("/the-name-line")}>Mariano Mazza, born about 1815</a> — and joined
+      <a href={u("/the-hundred-and-ten")}>a hundred and ten cousins</a> to the line.
+      <strong>The deepest line is still a grandmother's.</strong>
     </blockquote>
   </section>
 
@@ -103,11 +105,11 @@ const more = [
         <em>Roma</em>, the <em>Palermo</em>. <a href={u("/crossings")}>The crossings →</a></p>
       </div>
       <div class="card">
-        <h3>A tree that was two trees</h3>
-        <p>The export this archive was built from is not one tree but
-        <strong>{stats.components.length}</strong> disconnected pieces. The largest holds
-        {" "}{stats.components[0]} people; the second holds {stats.components[1]} Piedimonte Etneo
-        Mazza joined to nothing at all. <a href={u("/open-questions")}>Why that matters →</a></p>
+        <h3>The hundred and ten, joined</h3>
+        <p>The export arrived as fourteen disconnected pieces, the second holding
+        <strong>110 Piedimonte Etneo Mazza attached to this family by nothing</strong>. Five register
+        acts proved them the descendants of Salvatore's brothers.
+        <a href={u("/the-hundred-and-ten")}>The argument →</a></p>
       </div>
       <div class="card">
         <h3>Fifty-eight names it refuses to merge</h3>

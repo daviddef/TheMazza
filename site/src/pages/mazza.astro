@@ -15,7 +15,7 @@ const big = apart.reduce((a, g) => a + g.n, 0);
     <div class="grid g3">
       <div class="stat"><div class="n">{M.total}</div><div class="l">people called Mazza in the tree</div></div>
       <div class="stat"><div class="n">{M.groups.length}</div><div class="l">separate descent groups</div></div>
-      <div class="stat"><div class="n">{big}</div><div class="l">of them joined to the family by nothing</div></div>
+      <div class="stat"><div class="n">{big}</div><div class="l">still joined to the family by nothing</div></div>
     </div>
   </section>
 
@@ -70,13 +70,12 @@ const big = apart.reduce((a, g) => a + g.n, 0);
 
   <section class="blk">
     <div class="lab">Groups 2 to {M.groups.length}</div>
-    <h2 style="margin-top:.4rem">The {big} who share the name and nothing else — yet</h2>
-    <p class="dek" style="margin:.9rem 0 1.4rem">These are not strangers in another province. Most of
-    them were born in <strong>the same small town on the flank of Etna</strong> as Salvatore Mazza,
-    and the largest group is headed by a <strong>Rosario Mazza born in 1850</strong> — the right name
-    in the right place at the right time to be Salvatore's father. The archive still does not join
-    them, because "the right name in the right place" is a probability and a descent needs a document.
-    <a href={u("/open-questions")}>The document that would settle it →</a></p>
+    <h2 style="margin-top:.4rem">The {big} who still share the name and nothing else</h2>
+    <p class="dek" style="margin:.9rem 0 1.4rem">The big one is gone: the hundred and ten Piedimonte
+    Etneo Mazza who once sat here unattached are now <a href={u("/the-hundred-and-ten")}>part of group
+    one</a>, proved the descendants of Salvatore's brothers by five register acts. What is left are
+    fragments — a handful of people entered with no parent, spouse or child, who cannot be placed
+    either way.</p>
 
     <div class="stack">
       {apart.map((g, i) => (
