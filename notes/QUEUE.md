@@ -9,7 +9,22 @@ Updated 10 September 2026, the day the archive was built.
 - [x] **The Nudgee register** — 19 burials with plots and exact dates; 6 corrections to the tree;
       the four grandparents found in consecutive plots V-1026 to V-1029.
 
-## 0. BLOCKED BY DIGITISATION — order from the archive
+## 0. DONE — SALVATORE FOUND, 10 September 2026
+- [x] **Salvatore Mazza b. 5 January 1873**, Contrada Terremorte, Piedimonte Etneo (Nati 1873 atto 3).
+      Father **Rosario Mazza DI MARIANO**, 28; mother **Leonarda Bonanno di Gaetano**.
+- [x] **Salvatore d. 19 September 1929**, frazione Vena, Contrada Grotta Nicodemo (Morti 1929 atto 9).
+- [x] **Married Maria Nicotra, 25 April 1898**, parish of Piedimonte Etneo.
+- [x] **A new generation: MARIANO MAZZA**, b. c. 1815–20.
+- [ ] **ROSARIO MAZZA'S MARRIAGE (c. 1870)** — would name Mariano with an age and a wife, and is now
+      the document that would join the hundred and ten. PE marriages 1866–1872 unchecked; FamilySearch
+      also holds parish marriages Antenati lacks.
+- [ ] **Mariano Mazza** — his own marriage and death. The new frontier.
+- [ ] **Mazza Giovanni, b. 1875 act 64** — declarant at Salvatore's death aged 54. Read the act to
+      confirm him as Rosario's son.
+- [ ] **Mazza Veneranda, daughter of Salvatore and Maria Nicotra, m. Mariano Cavallaro 1 Oct 1920** —
+      another sibling, and the link to the Brisbane Cavallaro.
+
+## (superseded) BLOCKED BY DIGITISATION — order from the archive
 Antenati's Piedimonte Etneo holdings **stop where we need them**: marriages end at **1893**, and
 births **1898–1900 are not digitised**. The two acts that would date Salvatore are therefore offline:
 - [ ] **Salvatore Mazza × Maria Concetta Nicotra, marriage c. 1897**, Piedimonte Etneo.

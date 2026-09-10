@@ -699,3 +699,92 @@ man**, and he is in none of the digitised registers.
 Domenica Prostamo's birth, Antonio Micale's, Venera Cavallaro's death and Santa Polistena's death.
 A birth year with no source behind it is a family estimate until a record says otherwise — and
 "Salvatore Mazza, born 1879" has no source behind it.
+
+---
+
+## 10 September 2026 — SALVATORE FOUND. The Mazza name line goes back to Mariano.
+
+**FamilySearch came back**, and its full-text search over Piedimonte Etneo did in twenty minutes what
+eight Antenati registers could not.
+
+### Why Antenati alone could never have found him
+
+FamilySearch holds Piedimonte Etneo material Antenati does not: **parish registers** (Baptism,
+Marriage, Death Certificate, Confirmation — undated series), **marriage proclamations 1896**, and
+civil series running **1909–1924, 1911–1920, 1912–1921, 1921–1929, 1922–1929**. Antenati's marriages
+stop at 1893 and its births at 1885.
+
+Endpoint, exactly as `familysearch-fulltext-method` records it:
+
+```
+/service/search/fulltext/search?count=25&m.defaultFacets=on&m.queryRequireDefault=on
+  &offset=0&q.anyPlace=Piedimonte%20Etneo&q.text=Mazza%20Nicotra
+```
+
+Each hit returns `content.textDocument` — the full machine transcription of the page. Mine it with a
+regex and keep the context.
+
+### Three records that converged
+
+**1. The parish marriage, 25 April 1898** (Latin):
+
+> …pro matrimonio contrahendo inter **Salvatore Mazza filium Rosarii et Leonarda Bonanno** sponsum ex
+> una parte et inter **Maria Nicotram filiam Joannis et Venera** … sponsam ex altera.
+
+**2. The civil death act, Piedimonte Etneo, Morti 1929, atto 9**, declared 20 September 1929:
+
+> …è morto **Mazza Salvatore di anni cinquantasei**, contadino, residente in questa Frazione **Vena**,
+> **nato in questo Comune**, **da fu Rosario** già contadino… **e da Bonanno Leonarda**, contadina…
+> **Marito di Nicotra Maria**. — in **Contrada Grotta Nicodemo**.
+> Declarants: Pennisi Michele, 62, of Linguaglossa; **Mazza Giovanni, 54** — almost certainly the
+> Mazza Giovanni of the 1875 index, act 64, and therefore Salvatore's brother.
+
+Aged 56 on 19 September 1929 ⇒ born **late 1872 or early 1873**. That is what pointed at the volume.
+
+**3. THE BIRTH ACT — Piedimonte Etneo, Nati 1873, atto 3** (`an_ua83486`, images 3–4):
+
+> L'anno milleottocentosettantatre nel giorno **sei** [Gennaro]… è comparso **Rosario Mazza DI
+> MARIANO**, di anni **ventotto**, bracciante, qui domiciliato… un bambino di sesso maschile… nato
+> **il giorno cinque corrente Gennaro** alle ore sette antemeridiane, dalla di lui moglie **Leonarda
+> Bonanno di Gaetano**… **Contrada Terremorte**… al quale figlio dichiara di dare il nome di
+> **Salvadore**.
+> Witnesses: Pasquale Pagano di Natale, 21; Salvadore Calì fu Rosario, 23, braccianti.
+
+### The Mazza name line, as it now stands
+
+| Gen | | |
+|---|---|---|
+| 1 | **Mariano Mazza** | b. c. 1815–20. Named only as Rosario's father. |
+| 2 | **Rosario Mazza** | b. c. 1844–45 (28 in Jan 1873, 31 in Oct 1877, 32 in May 1880) × **Leonarda Bonanno di Gaetano** |
+| 3 | **Salvatore Mazza** | **b. 5 January 1873**, Contrada Terremorte — **d. 19 September 1929**, frazione Vena × **Maria Nicotra**, m. 25 Apr 1898 |
+| 4 | **Sebastiano Mazza** | b. 22 Oct 1920 – d. 2 Apr 2002. The *Toscana*, 1949. |
+| 5–7 | Frank · Michael Rocco · **Mia and Rocco Francesco** | dates withheld |
+
+**Four generations this morning, seven tonight**, and every Sicilian step is a document.
+
+### Two corrections to the family tree
+
+- **Salvatore was born 1873, not 1879** — six years out, which is exactly why eight consecutive
+  registers came back empty.
+- **He died at Piedimonte Etneo, not Catania.**
+
+### A correction to THIS archive
+
+The mother's surname. My direct readings of the 1877 and 1880 birth acts gave **Bonaccorso**. The
+1873 birth act, the 1898 parish marriage and the 1929 death act all give **Bonanno**. Three sources
+against two readings: **Bonanno is probably right and I misread twice.** Recorded as Bonanno with the
+variance stated.
+
+### What it does to the hundred and ten
+
+The tree's unjoined cluster is headed by a **Rosario Mazza b. 1850** and contains a **Mariano Mazza**.
+The register gives **Rosario b. c. 1844 whose father was Mariano**. That is a *second* independent
+correspondence on top of the Orazio one. **Still not the joining document** — that would be Rosario's
+own marriage act, naming Mariano with an age and a wife.
+
+### Method
+
+**Work from a different record, not a deeper sweep.** Eight registers were read on the strength of one
+undocumented year in a family tree. What broke it was the Queensland death index → the parish marriage
+→ the civil death act, each naming Salvatore's parents, until three records converged on a birth year
+and the register could be opened at the right page.

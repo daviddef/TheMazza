@@ -1,0 +1,104 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import spine from "../data/sicily-spine.json";
+---
+<Base title="The Mazza Name Line" eyebrow="Piedimonte Etneo, from about 1815"
+      dek="On the morning this archive was built the Mazza name reached back four generations and stopped at a man with no dates. It now runs seven, and every step in Sicily is a document.">
+
+  <section class="blk">
+    <p class="lede">The archive opened with an embarrassment: <strong>the family took its name from
+    its shallowest line.</strong> The Mazza of Piedimonte Etneo could be followed back four
+    generations to a <P n="Rosario Mazza" /> about whom exactly one thing was asserted — that he
+    fathered Salvatore — while the Calabrian <a href={u("/briatico")}>Prostamo</a> ran nine
+    generations to 1697.</p>
+    <p class="lede" style="margin-top:1rem">That is no longer true. On <strong>10 September
+    2026</strong> the Sicilian registers gave up Salvatore's act of birth, and with it his father's
+    age, his father's street, and his father's father.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The act that did it</div>
+    <h2 style="margin-top:.4rem">Piedimonte Etneo, Nati 1873, atto 3</h2>
+    <div class="hero-plate" style="margin-top:1.2rem">
+      <img src={u("/plates/act3-salvatore-mazza.jpg")} alt="Piedimonte Etneo birth register 1873, act 3" />
+      <div>
+        <blockquote style="margin:0 0 .9rem">…è comparso <strong>Rosario Mazza di Mariano</strong>,
+        di anni <strong>ventotto</strong>, bracciante, qui domiciliato, il quale mi ha presentato un
+        bambino di sesso maschile che dichiara essergli nato <strong>il giorno cinque corrente
+        Gennaro</strong> alle ore sette antemeridiane, dalla di lui moglie <strong>Leonarda Bonanno
+        di Gaetano</strong>, seco lui domiciliata nella casa di sua abitazione sita in questo Comune
+        <strong>Contrada Terremorte</strong>, al quale figlio dichiara di dare il nome di
+        <strong>Salvadore</strong>.</blockquote>
+        <p><strong>Three things in one sentence.</strong> Salvatore Mazza was born on
+        <strong>5 January 1873</strong> — not 1879, as the family tree has always said. His father
+        Rosario was <strong>twenty-eight</strong>, which puts Rosario's own birth about 1844.
+        And Rosario is <strong>«di Mariano»</strong> — son of a <strong>Mariano Mazza</strong> whom
+        nothing in this archive had ever named.</p>
+        <p style="margin-top:.8rem" class="small">Archivio di Stato di Catania, Stato civile
+        italiano, Piedimonte Etneo, Nati 1873, atto 3 — Antenati <code>an_ua83486</code>, images 3–4.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The line, generation by generation</h2>
+    <div class="stack" style="margin-top:24px">
+      {spine.map((g) => (
+        <div class="linerow">
+          <div>
+            <div class="lab">Generation {g.gen}</div>
+            <div style="font-size:24px;line-height:1.15;margin-top:8px">{g.name}</div>
+            <div class="mono" style="margin-top:6px;color:var(--ink-3)">
+              {g.born !== "—" ? g.born : ""}{g.died && g.died !== "—" ? ` – ${g.died}` : ""}
+            </div>
+          </div>
+          <div>
+            {g.bornNote !== "—" && <p class="qw">{g.bornNote}</p>}
+            {g.spouse !== "—" && (
+              <p class="qn" style="margin-top:10px">Married <strong>{g.spouse}</strong>.
+              {g.spouseNote !== "—" ? " " + g.spouseNote : ""}</p>
+            )}
+            <p class="ab"><strong>Source:</strong> {g.source}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">How the tree was wrong, and why it mattered</div>
+    <h2 style="margin-top:.4rem">Six years, and eight wasted registers</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The family tree gives Salvatore Mazza as <strong>born 1879 at Piedimonte Etneo, died 1929 at
+      Catania</strong>. Acting on that, this archive read the birth registers of Piedimonte Etneo for
+      <strong>1875, 1876, 1877, 1878, 1879, 1880, 1881 and 1882</strong>, and those of Mascali and
+      Giarre for 1879, and found no Salvatore Mazza in any of them.</p>
+      <p>He was born in <strong>1873</strong>, six years earlier, and he died at
+      <strong>Piedimonte Etneo</strong>, not Catania — in the frazione of <strong>Vena</strong>, at
+      Contrada Grotta Nicodemo, on <strong>19 September 1929</strong>, aged fifty-six.</p>
+      <p><strong>The lesson is about search strategy, not about the tree.</strong> Eight registers
+      were read on the strength of one undocumented year. What actually broke it open was working
+      from a <em>different</em> record — the Queensland death index, which gave Salvatore's son
+      Rosario a birth year of 1899 and his wife her full name — and then finding the parish marriage
+      of 1898 and the civil death act of 1929, each of which names Salvatore's parents. <strong>Three
+      records converged on the man before the register was opened at the right page.</strong></p>
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <div class="lab">And what it does to the hundred and ten</div>
+    <h2 style="margin-top:.4rem">Mariano</h2>
+    <p class="dek" style="margin-top:.9rem">The <a href={u("/components")}>second component</a> of the
+    family tree — the hundred and ten Piedimonte Etneo Mazza joined to this family by nothing — is
+    headed by a <strong>Rosario Mazza born 1850</strong>, and it contains a
+    <strong>Mariano Mazza</strong>.</p>
+    <p class="dek" style="margin-top:1rem">The register now gives a <strong>Rosario Mazza born about
+    1844</strong> whose father was <strong>Mariano</strong>. That is a second, independent
+    correspondence on top of the Orazio one — and it is the strongest reason yet to think the two
+    halves are one family. <strong>It is still not the document that joins them.</strong> What would
+    do that is <strong>Rosario's own marriage act</strong>, which would name Mariano with an age and
+    a wife. <a href={u("/open-questions")}>The queue →</a></p>
+  </section>
+</Base>
