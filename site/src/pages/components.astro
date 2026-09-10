@@ -1,0 +1,103 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import comps from "../data/components.json";
+import stats from "../data/stats.json";
+const main = comps.filter((c) => c.n > 1);
+const singles = comps.filter((c) => c.n === 1);
+---
+<Base title="The Fourteen Pieces" eyebrow="The different lines, joined and unjoined"
+      dek="This archive was built from a file that looks like one family tree and is not. It is fourteen separate pieces, and only one of them reaches the children.">
+
+  <section class="blk">
+    <p class="lede">Open a GEDCOM in any family-tree program and it draws every person on one canvas.
+    That canvas is a <em>rendering choice</em>, not a finding. Underneath, the file is a graph — and
+    this one falls into <strong>{comps.length} disconnected pieces</strong> with no edge of any kind
+    between them.</p>
+    <p class="lede" style="margin-top:1rem">Naming the pieces is not pedantry. The second one holds
+    <strong>{comps[1].n} people</strong> — a complete Piedimonte Etneo kindred with its own marriages,
+    children and cousins — and the difference between "they are probably related" and "they are
+    related" is the entire discipline.</p>
+  </section>
+
+  {main.map((c) => (
+    <section class="blk">
+      <div class="lab">Component {c.comp}{c.onSpine ? " · the line that reaches Mia and Rocco" : " · joined to nothing"}</div>
+      <h2 style="margin-top:.4rem;font-size:28px">
+        {c.n} {c.n === 1 ? "person" : "people"}
+        {c.towns.length ? <span style="color:var(--ink-3)"> — {c.towns[0].name}</span> : null}
+      </h2>
+      <div class="meta" style="margin-top:14px">
+        <span><b>{c.dated}</b> of {c.n} carry a date</span>
+        {c.earliest && <span>{c.earliest}–{c.latest}</span>}
+        <span><b>{c.onSpine}</b> ancestors of the children</span>
+      </div>
+      <div class="grid two" style="margin-top:18px">
+        <div>
+          <h3 class="lab">Surnames</h3>
+          <p style="font-family:var(--sans);font-size:13.5px;line-height:1.9;margin-top:8px;color:var(--ink-2)">
+            {c.surnames.map((s, i) => (<>{i > 0 && " · "}<strong>{s.name}</strong> {s.n}</>))}
+          </p>
+        </div>
+        <div>
+          <h3 class="lab">Places</h3>
+          <p style="font-family:var(--sans);font-size:13.5px;line-height:1.9;margin-top:8px;color:var(--ink-2)">
+            {c.towns.map((t, i) => (<>{i > 0 && " · "}{t.name} <span style="color:var(--ink-3)">{t.n}</span></>))}
+          </p>
+        </div>
+      </div>
+      {c.comp === 2 && (
+        <p class="note" style="margin-top:20px"><strong>This is the one that matters.</strong> A
+        hundred and ten people, almost all born in the same small town on the flank of Etna as
+        Salvatore Mazza, headed by a <strong>Rosario Mazza born in 1850</strong> — the right name in
+        the right place at the right time to be Salvatore's father. Joining them would add six
+        generations to the surname line in a single document.
+        <a href={u("/open-questions")}>The document that would do it →</a></p>
+      )}
+      {c.comp === 3 && (
+        <p class="note" style="margin-top:20px">The <strong>Mazzitelli of New York</strong> — six
+        people, all dated, 1886–1926, and attached to this family by nothing but having been entered
+        in the same tree. They belong to the <a href={u("/crossings")}>first emigration</a>.</p>
+      )}
+      {c.comp === 5 && (
+        <p class="note" style="margin-top:20px">A fragment of the <strong>Buenos Aires</strong>
+        Prostamo — the branch that went to Argentina rather than Australia, and the least documented
+        thing in the archive.</p>
+      )}
+      <details style="margin-top:18px">
+        <summary style="font-family:var(--sans);font-size:12.5px;cursor:pointer;color:var(--accent)">
+          List all {c.n}</summary>
+        <div class="scroll" style="margin-top:14px">
+          <table>
+            <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th></tr></thead>
+            <tbody>{c.people.map((x) => (
+              <tr><td><a href={u("/people/" + x.slug)}>{x.name}</a></td>
+                  <td class="m">{x.datesHidden ? "withheld"
+                    : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
+                  <td>{x.birthPlace || "—"}</td></tr>))}
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+  ))}
+
+  <section class="blk" style="border-bottom:0">
+    <div class="lab">Components {singles.map((c) => c.comp).join(", ")}</div>
+    <h2 style="margin-top:.4rem">{singles.length} people joined to nobody at all</h2>
+    <p class="dek" style="margin:.8rem 0 1.2rem">Entered in the tree with no parent, no spouse and no
+    child. Usually a note-to-self somebody made and never finished — but each is a real name, and
+    dropping them would make the archive look tidier than the source is.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Comp</th><th class="m">Dates</th><th>Placed at</th></tr></thead>
+        <tbody>{singles.map((c) => c.people.map((x) => (
+          <tr><td><a href={u("/people/" + x.slug)}>{x.name}</a></td>
+              <td class="m">{c.comp}</td>
+              <td class="m">{x.datesHidden ? "withheld" : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
+              <td>{x.birthPlace || "—"}</td></tr>)))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Base>

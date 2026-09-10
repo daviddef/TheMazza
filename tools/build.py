@@ -375,6 +375,14 @@ def children(x):
             out += [c["val"] for c in kids(f, "CHIL") if c["val"] in I]
     return out
 
+def siblings(x):
+    """Everyone sharing a parent-family with x, x excluded."""
+    fc = kid(I[x], "FAMC")
+    if not fc or fc["val"] not in F:
+        return []
+    f = F[fc["val"]]
+    return [c["val"] for c in kids(f, "CHIL") if c["val"] in I and c["val"] != x]
+
 def spouses(x):
     out = []
     for k in kids(I[x], "FAMS"):
@@ -466,11 +474,12 @@ def link(x):
 for r in records:
     x = r["id"]
     orig = [z for z in I if canonical[z] == x]
-    par, ch, sp = [], [], []
+    par, ch, sp, sib = [], [], [], []
     for o in orig:
         par += parents(o)
         ch += children(o)
         sp += spouses(o)
+        sib += siblings(o)
     def uniq(ids):
         out, s = [], set()
         for i2 in ids:
@@ -480,6 +489,7 @@ for r in records:
                 out.append(link(c))
         return [z for z in out if z]
     r["parents"], r["children"], r["spouses"] = uniq(par), uniq(ch), uniq(sp)
+    r["siblings"] = uniq(sib)
 
 os.makedirs(OUT, exist_ok=True)
 json.dump(records, open(f"{OUT}/people.json", "w"), indent=1, ensure_ascii=False)

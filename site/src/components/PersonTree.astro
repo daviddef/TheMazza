@@ -1,0 +1,181 @@
+---
+/* A person drawn with the people they belong to: parents above, the couple in
+ * the middle, children below, siblings beside. Ported from The Falco Archive.
+ *
+ * The provenance rule is the same and the answer is different. In the Falco
+ * archive an edge can come from a register act that has been read. Here,
+ * EVERY relationship comes from Michael Mazza's family tree and NONE of them
+ * has yet been proved by a record. The chart says so on every edge rather than
+ * letting a confident diagram imply otherwise.
+ *
+ * What can be marked is the person: an ancestor of the two children the archive
+ * is for, and whether any record about them has actually been read.
+ *
+ * Dates for anyone 80 or younger are absent from the data, not hidden here.
+ */
+import { u } from "../lib/url.js";
+import { bySlug } from "../lib/people.js";
+
+const { person: p } = Astro.props;
+
+const get = (b) => (p[b] || []).map((e) => ({ ...e, rec: bySlug.get(e.slug) }));
+const parents  = get("parents");
+const spouses  = get("spouses");
+const children = get("children");
+const siblings = get("siblings");
+
+const dates = (r) => {
+  if (!r) return "";
+  if (r.datesHidden) return "";
+  if (r.born && r.died) return `${r.born} – ${r.died}`;
+  if (r.born) return `b. ${r.born}`;
+  if (r.died) return `d. ${r.died}`;
+  return "";
+};
+const cls = (r) => r && r.records && r.records.length ? "via-register"
+                 : r && r.onSpine ? "via-line" : "via-tree";
+const via = (r) => r && r.records && r.records.length ? "tree + a record read"
+                 : r && r.onSpine ? "tree — an ancestor" : "family tree";
+
+/* Names repeat relentlessly in these three towns, and the archive refuses to
+   merge on a name. Where two people in one row answer to the same name, say so
+   — it is usually a dead child's name given again, and it is also exactly how
+   a records-matcher invents one person out of two. */
+const clash = (rows) => {
+  const seen = {};
+  for (const r of rows) seen[r.name] = (seen[r.name] || 0) + 1;
+  return Object.entries(seen).filter(([, n]) => n > 1).map(([n]) => n);
+};
+const clashChildren = clash(children);
+const clashOther = [...new Set([...clash(siblings), ...clash(parents), ...clash(spouses)])];
+const has = parents.length || spouses.length || children.length || siblings.length;
+---
+{has ? (
+<figure class="ptree">
+  {parents.length ? (
+    <div class="tier">
+      <div class="lab">{parents.length === 1 ? "Parent" : "Parents"}</div>
+      <div class="row">
+        {parents.map((e) => (
+          <a class={"node " + cls(e.rec)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
+            <span class="nm">{e.name}</span>
+            {dates(e.rec) ? <span class="dt">{dates(e.rec)}</span> : null}
+            <span class="via">{via(e.rec)}</span>
+          </a>
+        ))}
+      </div>
+      <div class="drop" aria-hidden="true"></div>
+    </div>
+  ) : null}
+
+  <div class="tier self">
+    <div class="row">
+      <div class="node me">
+        <span class="nm">{p.name}</span>
+        {dates(p) ? <span class="dt">{dates(p)}</span> : null}
+        {p.ancGen ? <span class="via gen">generation {p.ancGen} above the children</span> : null}
+        {p.datesHidden ? <span class="via living">dates withheld — 80 or younger</span> : null}
+      </div>
+      {spouses.map((e) => (
+        <a class={"node spouse " + cls(e.rec)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
+          <span class="mar">married</span>
+          <span class="nm">{e.name}</span>
+          {dates(e.rec) ? <span class="dt">{dates(e.rec)}</span> : null}
+          <span class="via">{via(e.rec)}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  {children.length ? (
+    <div class="tier">
+      <div class="drop up" aria-hidden="true"></div>
+      <div class="lab">{children.length === 1 ? "Child" : `${children.length} children`}</div>
+      <div class="row">
+        {children.map((e) => (
+          <a class={"node " + cls(e.rec)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
+            <span class="nm">{e.name}</span>
+            {dates(e.rec) ? <span class="dt">{dates(e.rec)}</span> : null}
+            <span class="via">{via(e.rec)}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  ) : null}
+
+  {siblings.length ? (
+    <div class="tier sibs">
+      <div class="lab">{siblings.length === 1 ? "Sibling" : `${siblings.length} siblings`}</div>
+      <div class="row">
+        {siblings.map((e) => (
+          <a class={"node small " + cls(e.rec)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
+            <span class="nm">{e.name}</span>
+            {dates(e.rec) ? <span class="dt">{dates(e.rec)}</span> : null}
+          </a>
+        ))}
+      </div>
+    </div>
+  ) : null}
+
+  <figcaption>
+    <span class="key"><i class="sw line"></i> an ancestor of Mia and Rocco</span>
+    <span class="key"><i class="sw register"></i> a record about them has been read</span>
+    <span class="key"><i class="sw tree"></i> from the family tree, unverified</span>
+    <p class="warn"><strong>Every relationship drawn here comes from the family tree, and not one of
+    them has yet been proved by a record.</strong> That is the honest state of this archive:
+    the chart shows what Michael Mazza's tree asserts, and the colour tells you only whether anything
+    at all has been read about the person at the other end.
+    <a href={u("/method")}>The method →</a></p>
+    {clashChildren.length ? (
+      <p class="warn"><strong>Two children here carry one name</strong> — {clashChildren.join(", ")}.
+      In these towns that is usually not an error: <strong>a child who died was very often replaced
+      by a later child given the same name.</strong> It is also exactly how a records-matcher invents
+      one person out of two, which is why they are kept apart here and the reader is told.</p>
+    ) : null}
+    {clashOther.length ? (
+      <p class="warn"><strong>More than one person in this row carries the same name</strong> —
+      {" " + clashOther.join(", ")}. That is what the source says. <strong>This archive does not merge
+      records on a name</strong>, so they are drawn separately even where one duplicated entry is the
+      likelier explanation. <a href={u("/open-questions")}>The 58 names it refuses to merge →</a></p>
+    ) : null}
+  </figcaption>
+</figure>
+) : null}
+
+<style is:global>
+  .ptree{margin:0 0 1.4rem;padding:1rem 1rem .8rem;border:1px solid var(--rule);border-radius:.4rem;
+         background:var(--panel)}
+  .ptree .tier{position:relative}
+  .ptree .lab{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.13em;
+              text-transform:uppercase;color:var(--ink-2);margin:.2rem 0 .45rem}
+  .ptree .row{display:flex;flex-wrap:wrap;gap:.5rem;align-items:stretch}
+  .ptree .node{display:flex;flex-direction:column;gap:.1rem;min-width:9.5rem;
+               padding:.45rem .6rem;border:1px solid var(--rule);border-radius:.3rem;
+               text-decoration:none;color:inherit;background:var(--ground)}
+  .ptree a.node:hover{border-color:var(--accent)}
+  .ptree .node.me{border-width:2px;border-color:var(--ink)}
+  .ptree .node.small{min-width:8rem;padding:.35rem .5rem}
+  .ptree .nm{font-weight:600;line-height:1.2}
+  .ptree .dt{font-family:var(--mono);font-size:11px;color:var(--ink-2)}
+  .ptree .mar{font-family:var(--sans);font-size:9px;letter-spacing:.13em;text-transform:uppercase;
+              color:var(--ink-2)}
+  .ptree .via{font-family:var(--sans);font-size:9px;letter-spacing:.1em;text-transform:uppercase;
+              color:var(--ink-3);margin-top:.15rem}
+  /* provenance said in colour AND in words — colour alone is no use to a reader
+     who cannot see it */
+  .ptree .via-register .via{color:var(--accent)}
+  .ptree .node.via-register{border-left:3px solid var(--accent)}
+  .ptree .node.via-tree{border-left:3px dotted var(--ink-3)}
+  .ptree .node.via-line{border-left:3px solid var(--terra)}
+  .ptree .via.gen{color:var(--terra);font-weight:600}
+  .ptree .via.living{font-style:italic}
+  .ptree .drop{height:.9rem;margin-left:1.4rem;border-left:1px solid var(--rule)}
+  .ptree .sibs{margin-top:.9rem;padding-top:.7rem;border-top:1px dashed var(--rule)}
+  .ptree figcaption{margin-top:.9rem;padding-top:.6rem;border-top:1px solid var(--rule);
+                    font-family:var(--sans);font-size:11px;color:var(--ink-2)}
+  .ptree .key{display:inline-flex;align-items:center;gap:.35rem;margin-right:1rem}
+  .ptree .sw{width:.85rem;height:0;border-top:3px solid var(--accent);display:inline-block}
+  .ptree .sw.tree{border-top-style:dotted;border-top-color:var(--ink-3)}
+  .ptree .sw.line{border-top-color:var(--terra);border-top-width:4px}
+  .ptree .warn{margin:.5rem 0 0;line-height:1.5;max-width:86ch}
+</style>

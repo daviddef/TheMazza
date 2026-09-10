@@ -1,129 +1,177 @@
 ---
 import Base from "../../layouts/Base.astro";
 import P from "../../components/P.astro";
+import PersonTree from "../../components/PersonTree.astro";
 import { u } from "../../lib/url.js";
-import { people, span, homeOf } from "../../lib/people.js";
+import { people, norm } from "../../lib/people.js";
 import stats from "../../data/stats.json";
 import nudgee from "../../data/nudgee.json";
 import ships from "../../data/ships.json";
+import components from "../../data/components.json";
 
 export function getStaticPaths() {
-  /* Everyone in the tree gets a page. The living-suppression rule is switched
-     off while the archive is being got right — see /method. */
+  /* Everyone in the tree gets a page. The living-suppression rule is off while
+     the archive is being got right; dates for anyone 80 or younger are absent
+     from the data rather than hidden here. See /method. */
   return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
-const rel = (list) => (list || []).filter(Boolean);
+
 const grave = nudgee.burials.find((b) => b.slug === p.slug);
 const fixes = nudgee.corrections.filter((c) => c.slug === p.slug);
 const ship = ships.find((s) => s.slug === p.slug);
+const comp = components.find((c) => c.comp === p.comp);
+const sameName = people.filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name));
+const edges = ["parents", "spouses", "children", "siblings"].flatMap((b) => p[b] || []);
+const home = p.birthPlace || p.deathPlace || p.burialPlace || "";
 const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
              christened: "Christened", lived: "Lived", arrival: "Arrived", departure: "Left" };
----
-<Base title={p.name} eyebrow={span(p) || "Dates unrecorded"}
-      dek={homeOf(p) ? `Of ${homeOf(p)}.` : "The archive records this person by name and relationship only; no place is attached to them."}>
 
-  {p.comp === 2 && (
-    <p class="note" style="margin-bottom:26px">This person belongs to the
-    <strong> second component</strong> of the family tree — a group of {stats.components[1]} Piedimonte
-    Etneo Mazza that is <em>not joined</em> to the rest of the archive by any record.
-    They are almost certainly kin. The archive does not yet say how.
+const dek = p.ancGen === 0 || p.onSpine
+  ? (p.ancGen ? `An ancestor of Mia and Rocco — generation ${p.ancGen} above them.`
+              : "One of the two children this archive is for.")
+  : home ? `Of ${home}.`
+  : edges.length ? "Known from the family tree. No record has been read for this person."
+  : "Named in this archive, with no relationship recorded for them yet.";
+---
+<Base title={p.name}
+      eyebrow={p.datesHidden ? "Dates withheld"
+        : ([p.born, p.died].filter(Boolean).join("–") || p.surname || "Dates unrecorded")}
+      dek={dek}>
+
+  <PersonTree person={p} />
+
+  {p.comp !== 1 && comp && (
+    <p class="note" style="margin-bottom:26px">This person is in
+    <strong> component {p.comp}</strong> of the export — a group of {comp.n}
+    {comp.towns.length ? ` mostly of ${comp.towns[0].name}` : ""} that
+    <strong> no record joins</strong> to the line reaching Mia and Rocco.
+    They are very probably kin. The archive does not yet say how.
     <a href={u("/open-questions")}>Why →</a></p>
   )}
 
-  <div class="grid two" style="gap:34px">
-    <div>
-      <h2 style="font-size:20px">What is recorded</h2>
+  <div class="grid two">
+    <div class="card">
+      <h3>What is recorded</h3>
       {p.events && p.events.length ? (
-        <div class="rec" style="margin-top:14px">
-          {p.events.map((e) => (<>
+        <div class="rec" style="margin-top:12px">
+          {p.events.filter((e) => e.place || (e.what !== "lived" && e.date)).map((e) => (<>
             <div class="k">{EV[e.what] || e.what}</div>
             <div class="v">{e.place || "—"}</div>
-            <div class="w">{e.date || (e.year ? String(e.year) : "")}</div>
+            <div class="w">{e.date || (p.datesHidden ? "withheld" : "")}</div>
           </>))}
         </div>
       ) : (
-        <p class="dek" style="margin-top:12px">Nothing but a name and a place in the family.
-        This person is known only because someone else's record names them.</p>
+        <p class="small" style="margin-top:10px">Nothing but a name and a place in the family. This
+        person is known only because somebody else's record names them.</p>
       )}
-
-      {ship && (
-        <>
-          <h3 class="lab" style="margin-top:26px">The crossing</h3>
-          <div class="rec" style="margin-top:10px">
-            <div class="k">Ship</div><div class="v"><strong><em>{ship.ship.charAt(0) + ship.ship.slice(1).toLowerCase()}</em></strong></div><div class="w">{ship.confidence}</div>
-            <div class="k">Sailed from</div><div class="v">{ship.naaFrom}</div><div class="w"></div>
-            <div class="k">Arrived</div><div class="v">{ship.naaPort}</div><div class="w">{ship.naaDate}</div>
-            <div class="k">NAA item</div><div class="v"><a href={`https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?Number=${ship.itemId}`} rel="noopener">{ship.itemId}</a></div><div class="w"></div>
-          </div>
-          <p class="cap">{ship.note} — National Archives of Australia, passenger arrivals index
-          1898–1972, read 10 September 2026. <a href={u("/crossings")}>The crossings →</a></p>
-        </>
-      )}
-
-      {grave && (
-        <>
-          <h3 class="lab" style="margin-top:26px">In the burial register</h3>
-          <div class="rec" style="margin-top:10px">
-            <div class="k">Plot</div><div class="v"><strong>{grave.plot}</strong></div><div class="w">{grave.cemetery}</div>
-            <div class="k">Born</div><div class="v">{grave.birth || "—"}</div><div class="w"></div>
-            <div class="k">Died</div><div class="v">{grave.death || "—"}</div><div class="w"></div>
-            <div class="k">Interred</div><div class="v">{grave.interment || "—"}</div><div class="w"></div>
-            <div class="k">Entered as</div><div class="v">{grave.registerName}</div><div class="w"></div>
-          </div>
-          <p class="cap">Brisbane Catholic Cemeteries deceased register, read 10 September 2026.
-          <a href={u("/nudgee")}>Nudgee →</a></p>
-          {fixes.length > 0 && (
-            <p class="note" style="margin-top:16px">The register <strong>corrects the family tree</strong>
-            here: {fixes.map((c, i) => (<>{i > 0 && "; "}{c.field === "birth" ? "born" : "died"}
-            {" "}<span style="text-decoration:line-through;color:var(--ink-3)">{c.was}</span> → <strong>{c.now}</strong></>))}.
-            The site uses the register.</p>
-          )}
-        </>
-      )}
-
-      {p.sources && p.sources.length > 0 && (
-        <>
-          <h3 class="lab" style="margin-top:26px">Cited to</h3>
-          <ul style="margin:10px 0 0;padding-left:18px;font-family:var(--sans);font-size:13px;line-height:1.6;color:var(--ink-2)">
-            {p.sources.map((s) => <li>{s}</li>)}
-          </ul>
-        </>
+      {p.datesHidden && (
+        <p class="small" style="margin-top:14px"><strong>Dates withheld on purpose.</strong> This
+        person would be {stats.ageThreshold} or younger today and the tree records no death for them.
+        Their dates are <strong>stripped in the build</strong> — they are not in this page's HTML and
+        not recoverable from this site. See <a href={u("/method")}>Method</a>.</p>
       )}
     </div>
 
-    <div>
-      <h2 style="font-size:20px">Family</h2>
-      {rel(p.parents).length > 0 && (<>
-        <h3 class="lab" style="margin-top:16px">Parents</h3>
-        <p style="font-size:16px;margin-top:6px">{rel(p.parents).map((r, i) => (<>
-          {i > 0 && " · "}<P n={r.name} /></>))}</p>
-      </>)}
-      {rel(p.spouses).length > 0 && (<>
-        <h3 class="lab" style="margin-top:16px">Married</h3>
-        <p style="font-size:16px;margin-top:6px">{rel(p.spouses).map((r, i) => (<>
-          {i > 0 && " · "}<P n={r.name} /></>))}</p>
-      </>)}
-      {rel(p.children).length > 0 && (<>
-        <h3 class="lab" style="margin-top:16px">Children ({rel(p.children).length})</h3>
-        <p style="font-size:16px;margin-top:6px;line-height:1.8">{rel(p.children).map((r, i) => (<>
-          {i > 0 && " · "}<P n={r.name} /></>))}</p>
-      </>)}
-      {!rel(p.parents).length && !rel(p.spouses).length && !rel(p.children).length && (
-        <p class="dek" style="margin-top:12px">No family is recorded around this person.</p>
+    <div class="card">
+      <h3>Where this comes from</h3>
+      <p class="small">
+        {edges.length
+          ? <span><strong>All {edges.length}</strong> of the relationships drawn above come from
+            <strong> Michael Mazza's family tree</strong>, and none of them has been proved by a
+            record this archive has read.</span>
+          : <span>No relationship is recorded for this person.</span>}
+      </p>
+      {p.records && p.records.length ? (
+        <>
+          <p class="small" style="margin-top:12px"><strong>{p.records.length} record{p.records.length === 1 ? " has" : "s have"} been
+          read about them:</strong></p>
+          <ul style="margin:.4rem 0 0;padding-left:18px;font-family:var(--sans);font-size:13px;line-height:1.6;color:var(--ink-2)">
+            {p.records.map((r) => (
+              <li><a href={u(r.href)}>{r.what}</a> <span style="color:var(--ink-3)">— {r.kind}</span></li>
+            ))}
+          </ul>
+        </>
+      ) : (
+        <p class="small" style="margin-top:12px"><strong>No record has been read for this person.</strong>
+        {" "}What is known of them is what the tree asserts, and it is <strong>unverified</strong>.</p>
       )}
-
-      {p.photos && p.photos.length > 0 && (<>
-        <h3 class="lab" style="margin-top:26px">Photographs</h3>
-        <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(140px,1fr));margin-top:10px">
-          {p.photos.map((f) => (
-            <img src={u("/plates/" + f)} alt={`${p.name}`} style="border:1px solid var(--rule);border-radius:3px" />
-          ))}
-        </div>
-        <p class="cap">From the family's own MyHeritage tree, contributed by Michael Mazza.</p>
-      </>)}
+      {p.onSpine && (
+        <p class="small" style="margin-top:12px"><a href={u("/ancestors")}>See this generation on the ancestors page →</a></p>
+      )}
+      <p class="small" style="margin-top:12px"><strong>Component {p.comp}</strong> ·
+        <a href={u("/people") + "?q=" + encodeURIComponent(p.surname)}> every {p.surname || "person"} in the archive →</a></p>
     </div>
   </div>
 
-  <p style="margin-top:40px"><a href={u("/people")}>← everyone in the archive</a></p>
+  {grave && (
+    <section class="blk">
+      <div class="lab">Read from the register</div>
+      <h2 style="margin-top:.4rem;font-size:26px">The burial</h2>
+      <div class="rec" style="margin-top:14px">
+        <div class="k">Plot</div><div class="v"><strong>{grave.plot}</strong></div><div class="w">{grave.cemetery}</div>
+        <div class="k">Born</div><div class="v">{grave.birth || "—"}</div><div class="w"></div>
+        <div class="k">Died</div><div class="v">{grave.death || "—"}</div><div class="w"></div>
+        <div class="k">Interred</div><div class="v">{grave.interment || "—"}</div><div class="w"></div>
+        <div class="k">Entered as</div><div class="v">{grave.registerName}</div><div class="w"></div>
+      </div>
+      <p class="cap">Brisbane Catholic Cemeteries deceased register, read 10 September 2026.
+      <a href={u("/nudgee")}> Nudgee →</a></p>
+      {fixes.length > 0 && (
+        <p class="note" style="margin-top:16px">The register <strong>corrects the family tree</strong>
+        here: {fixes.map((c, i) => (<>{i > 0 && "; "}{c.field === "birth" ? "born" : "died"}
+        {" "}<span style="text-decoration:line-through;color:var(--ink-3)">{c.was}</span> → <strong>{c.now}</strong></>))}.
+        The site uses the register.</p>
+      )}
+    </section>
+  )}
+
+  {ship && (
+    <section class="blk">
+      <div class="lab">Read from the passenger index</div>
+      <h2 style="margin-top:.4rem;font-size:26px">The crossing</h2>
+      <div class="rec" style="margin-top:14px">
+        <div class="k">Ship</div><div class="v"><strong><em>{ship.ship.charAt(0) + ship.ship.slice(1).toLowerCase()}</em></strong></div><div class="w">{ship.confidence}</div>
+        <div class="k">Sailed from</div><div class="v">{ship.naaFrom}</div><div class="w"></div>
+        <div class="k">Arrived</div><div class="v">{ship.naaPort}</div><div class="w">{ship.naaDate}</div>
+        <div class="k">NAA item</div><div class="v"><a href={`https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?Number=${ship.itemId}`} rel="noopener">{ship.itemId}</a></div><div class="w"></div>
+      </div>
+      <p class="cap">{ship.note} — National Archives of Australia, passenger arrivals index
+      1898–1972, read 10 September 2026. <a href={u("/crossings")}>The crossings →</a></p>
+    </section>
+  )}
+
+  {p.photos && p.photos.length > 0 && (
+    <section class="blk">
+      <h2 style="font-size:26px">Photographs</h2>
+      <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(190px,1fr));margin-top:14px">
+        {p.photos.map((f) => (
+          <img src={u("/plates/" + f)} alt={p.name}
+               style="border:1px solid var(--rule);border-radius:3px;display:block;width:100%" />
+        ))}
+      </div>
+      <p class="cap">From the family's own tree, contributed by Michael Mazza and relatives. Almost
+      none are captioned — <strong>identifications are the most valuable thing you can send.</strong></p>
+    </section>
+  )}
+
+  {sameName.length > 0 && (
+    <section class="blk">
+      <h2 style="font-size:26px">Others of the same name</h2>
+      <p class="small" style="margin-top:8px">These three towns repeat their names relentlessly — this
+      archive holds four men called Rosario Mazza and four called Giuseppe Arena.
+      <strong> These are different people, kept apart on purpose rather than merged into one.</strong>
+      <a href={u("/method")}> Why →</a></p>
+      <ul style="margin:.8rem 0 0;padding-left:18px;font-family:var(--sans);font-size:13.5px;line-height:1.8">
+        {sameName.map((q) => (
+          <li><a href={u("/people/" + q.slug)}>{q.name}</a>
+            <span style="color:var(--ink-3)"> — {q.datesHidden ? "dates withheld"
+              : ([q.born, q.died].filter(Boolean).join("–") || "undated")}
+              {q.birthPlace ? `, ${q.birthPlace}` : ""}, component {q.comp}</span></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <p class="small" style="margin-top:2rem"><a href={u("/people")}>← All {stats.people} people</a></p>
 </Base>
