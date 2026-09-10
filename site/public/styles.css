@@ -815,17 +815,23 @@ li{margin:5px 0}
 /* the hero, for pages that have a painting to lead with */
 .fhero{position:relative;margin:0 0 10px;border-radius:14px;overflow:hidden;
   background:var(--panel-2)}
-.fhero img{width:100%;height:clamp(240px,34vw,420px);object-fit:cover;display:block}
+.fhero img{width:100%;height:clamp(260px,32vw,470px);object-fit:cover;
+  object-position:50% 42%;display:block}
+/* The Mazza hero is a 3:1 panorama whose subject — Chianalea and the castle —
+   sits on the LEFT, where the Falco hero's left-to-right scrim would bury it.
+   So the scrim is anchored to the bottom instead: the whole strait stays
+   visible, and the type still has something dark to sit on. */
 .fhero .cap{position:absolute;inset:0;display:flex;flex-direction:column;
-  justify-content:flex-end;padding:30px clamp(20px,4vw,46px) 30px;
-  background:linear-gradient(90deg,rgba(24,18,12,.86) 0%,rgba(24,18,12,.62) 38%,rgba(24,18,12,.12) 78%,transparent 100%)}
+  justify-content:flex-end;padding:30px clamp(20px,4vw,46px) 28px;
+  background:linear-gradient(to top,rgba(18,24,30,.90) 0%,rgba(18,24,30,.72) 26%,
+    rgba(18,24,30,.34) 52%,rgba(18,24,30,.10) 74%,transparent 100%)}
 .fhero .kick{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;
   text-transform:uppercase;color:#E3C489}
 .fhero h1{color:#FBF7EF;font-size:clamp(30px,5vw,56px);line-height:1.05;
-  margin-top:10px;max-width:17ch}
-.fhero .sub{font-family:var(--sans);font-size:15px;color:#E4DACB;margin-top:12px;
-  max-width:56ch;line-height:1.6}
-@media(max-width:640px){.fhero .cap{background:linear-gradient(to top,rgba(24,18,12,.9),rgba(24,18,12,.5) 60%,rgba(24,18,12,.2))}}
+  margin-top:10px;max-width:20ch;text-shadow:0 1px 24px rgba(10,14,18,.55)}
+.fhero .sub{font-family:var(--sans);font-size:15px;color:#DFE6E9;margin-top:12px;
+  max-width:64ch;line-height:1.6;text-shadow:0 1px 14px rgba(10,14,18,.6)}
+
 
 /* the generation spine keeps working under the new tokens */
 .spine::before{background:linear-gradient(transparent,var(--ochre) 12%,var(--terra))}

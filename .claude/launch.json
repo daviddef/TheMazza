@@ -5,7 +5,7 @@
       "name": "archive",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev", "--prefix", "site"],
-      "port": 4324
+      "port": 4326
     }
   ]
 }
