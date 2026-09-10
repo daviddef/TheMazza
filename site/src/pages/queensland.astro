@@ -1,0 +1,111 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import qld from "../data/qld-bdm.json";
+const deaths = qld.filter((r) => r.type === "death");
+const marr = qld.filter((r) => r.type === "marriage");
+---
+<Base title="The Queensland Register" eyebrow="Read 10 September 2026"
+      dek="The Registry's historical index is free, it is authoritative, and — the part that matters — it can be searched by a father's or a mother's name. One search returned three of Sebastiano Mazza's siblings.">
+
+  <section class="blk">
+    <p class="lede">The Queensland Registry of Births, Deaths and Marriages publishes a searchable
+    historical index: <strong>deaths to 1996, marriages to 1951, births to 1926</strong>. Every death
+    and birth entry carries <strong>the names of both parents</strong>, and the search box will take a
+    parent's name as the query.</p>
+    <p class="lede" style="margin-top:1rem">That turns it from a lookup into a <em>reconstruction
+    tool</em>. Searching <strong>"Salvatore Mazza"</strong> in the father field returns the deaths of
+    his children — and each of those names their mother, which is how a family asserted by the tree
+    became a family on the record.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The finding</div>
+    <h2 style="margin-top:.4rem">Michele Mazza was Sebastiano's brother</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><P n="Michele Mazza" bold={true} /> landed at Brisbane on the <em>Palermo</em> on
+      <strong>21 April 1925</strong>, aged about sixteen, and died the following year. The family tree
+      asserted he was kin and produced nothing to show it. The archive has carried the question since
+      the day it was built: <em>was he the reason they chose Queensland?</em></p>
+      <p>The Registry's index answers it:</p>
+      <blockquote style="margin:1rem 0"><strong>Michali Mazza</strong> · death registration
+      <strong>14 November 1926</strong> · <strong>1926/C/3983</strong> ·
+      father <strong>Salvatori Mazza</strong> · mother <strong>Maria Lecota</strong>.</blockquote>
+      <p><em>Lecota</em> is the index's rendering of <strong>Nicotra</strong> — and the same search
+      returns <strong>Rosario Mazza, born 1899</strong>, whose parents are given in full as
+      <strong>Salvatore Mazza and Maria Concetta Nicotra</strong>. The same couple, spelled properly.</p>
+      <p>So <strong>Michele Mazza was a son of Salvatore Mazza and Maria Nicotra</strong>, and
+      therefore <P n="Sebastiano Mazza" />'s <strong>elder brother</strong>. He came out first, alone,
+      at sixteen. He was dead within nineteen months. <strong>Twenty-four years later his family
+      followed him to the port he had landed at.</strong></p>
+      <p class="note" style="margin-top:1.2rem">The archive should say what it still cannot: whether
+      anyone was waiting for Sebastiano in 1949, and whether the family knew where the boy was buried.
+      The index gives a date and a registration number, not a grave. <strong>C</strong> in the
+      registration means a country event — he did not die in Brisbane.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Four deaths, and what each one proves</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th class="m">Date</th><th>Name</th><th class="m">Registration</th><th>Father</th><th>Mother</th></tr></thead>
+        <tbody>{deaths.map((r) => (
+          <tr>
+            <td class="m">{r.date}</td>
+            <td><strong>{r.name}</strong></td>
+            <td class="m">{r.reg}</td>
+            <td>{r.father}</td>
+            <td>{r.mother}</td>
+          </tr>))}
+        </tbody>
+      </table>
+    </div>
+    <div class="stack" style="margin-top:22px">
+      {deaths.map((r) => (
+        <p class="qn" style="max-width:88ch"><b>{r.name}</b> — {r.note}</p>
+      ))}
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>And two marriages</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th class="m">Date</th><th>Name</th><th>Married</th><th class="m">Registration</th></tr></thead>
+        <tbody>{marr.map((r) => (
+          <tr><td class="m">{r.date}</td><td><strong>{r.name}</strong></td>
+              <td>{r.spouse}</td><td class="m">{r.reg}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+    <div class="stack" style="margin-top:22px">
+      {marr.map((r) => <p class="qn" style="max-width:88ch"><b>{r.name}</b> — {r.note}</p>)}
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Where it points next</div>
+    <h2 style="margin-top:.4rem">Rosario, born 1899, dates his father</h2>
+    <p class="dek" style="margin-top:.9rem">This archive still cannot find
+    <strong>Salvatore Mazza's birth</strong> — six years of the Piedimonte Etneo register, plus
+    Mascali and Giarre, and he is in none of them.</p>
+    <p class="dek" style="margin-top:1rem">The Queensland index has just handed over the way in.
+    <strong>Rosario Mazza was born in 1899</strong> to Salvatore and Maria Concetta Nicotra. An
+    Italian birth act states the declaring father's <strong>age</strong>. Find Rosario's act of birth
+    — Piedimonte Etneo, 1899 — and it dates Salvatore to within a year or two, which turns a blind
+    sweep of the register into a single lookup. <a href={u("/open-questions")}>The queue →</a></p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Method</h2>
+    <p class="dek" style="margin-top:.8rem">
+    <code>familyhistory.bdm.qld.gov.au</code> — free to search, no account needed; images are paid and
+    were not bought. The form's useful fields are <strong>Father's/parent's name(s)</strong> and
+    <strong>Mother's/parent's name(s)</strong>, which work on births and deaths only. Search the
+    <em>parent</em>, not the person, when you are trying to find siblings. Spellings in the index are
+    as the clerk wrote them — <em>Michali</em>, <em>Salvatori</em>, <em>Lecota</em>,
+    <em>Postamo</em> — so search loosely and expect the surname you want to be mangled.</p>
+  </section>
+</Base>

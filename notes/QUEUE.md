@@ -9,6 +9,11 @@ Updated 10 September 2026, the day the archive was built.
 - [x] **The Nudgee register** — 19 burials with plots and exact dates; 6 corrections to the tree;
       the four grandparents found in consecutive plots V-1026 to V-1029.
 
+## 0. NEXT: Piedimonte Etneo, Nati 1899 — the Rosario Mazza act
+- [ ] Rosario Mazza was born **1899** to Salvatore Mazza and Maria Concetta Nicotra (proved from the
+      Queensland death index). An Italian birth act gives the declaring father's **AGE**. This dates
+      Salvatore to within a year or two and turns the blind sweep into one lookup. **DO THIS FIRST.**
+
 ## 1. The join that would add six generations — HIGHEST VALUE
 - [x] **Piedimonte Etneo, Nati 1879 (an_ua83492) READ.** Salvatore Mazza is **NOT IN IT**. Two Mazza
       births that year: Rosaria (act 167, father Pasquale) and Venerio (act 205). Act 167 transcribed.
@@ -64,11 +69,12 @@ Updated 10 September 2026, the day the archive was built.
 - [ ] Briatico parish registers, Diocese of Mileto–Nicotera–Tropea; Catanzaro state archive
       pre-unification series. The 1783 Calabrian earthquake destroyed much of the province's archives.
 
-## 4. Michele Mazza, 1925–1926
-- [ ] His **Queensland death registration, 1926** — names parents, and would settle whether he was
-      Sebastiano's brother, cousin, or unrelated. If kin, the 1949 migration is a chain reaching back
-      to a boy who did not survive it.
-- [ ] His **1925 Fremantle passenger record** — names next of kin and a destination address.
+## 4. Michele Mazza, 1925–1926 — ANSWERED
+- [x] **Queensland death registration 1926/C/3983, 14 Nov 1926** — father Salvatori Mazza, mother
+      "Maria Lecota" (= Nicotra). **He was Sebastiano's elder brother.**
+- [ ] Where is he buried? The "C" code means a country registration, not Brisbane. Not at Nudgee.
+- [ ] His **1925 Brisbane passenger record** (NAA) — names next of kin and a destination address,
+      which would say whether anyone was already here.
 
 ## 5. The Buenos Aires Prostamo
 - [ ] 23 Argentine events, no crossing. **CEMLA** immigration database; Buenos Aires civil registry.

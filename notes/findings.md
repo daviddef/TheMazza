@@ -548,3 +548,60 @@ right-hand column, and `pct:52,44,46,40` recovered it in full.
 
 **And magnify before trusting a forename.** «Senzio» at full-page scale looked like «Venerio». One
 IIIF crop at `pct:40,17,34,10` settled it.
+
+---
+
+## 10 September 2026 — the Queensland register: Michele was his brother
+
+**Source: `familyhistory.bdm.qld.gov.au`** — the Registry's historical index. Free, no account,
+deaths to 1996, marriages to 1951, births to 1926. **Every birth and death entry names both parents,
+and the form will search on a PARENT'S name.** That makes it a reconstruction tool rather than a
+lookup: search the father, get the children.
+
+### Michele Mazza, answered
+
+> **Michali Mazza** · death registration **14 November 1926** · **1926/C/3983** ·
+> father **Salvatori Mazza** · mother **Maria Lecota**
+
+*Lecota* is the index's rendering of **Nicotra**. The same father-search returns:
+
+> **Rosario Mazza**, born **1899** · died **19 March 1986** · **1986/2455** ·
+> father **Salvatore Mazza** · mother **Maria Concetta Nicotra**
+
+Same couple, spelled properly. So **Michele Mazza was a son of Salvatore Mazza and Maria Nicotra —
+Sebastiano's elder brother.** He came out alone at sixteen, on the *Palermo*, and was dead within
+nineteen months. **Twenty-four years later the family followed him to the port he had landed at.**
+The registration code **C** means a country event: he did not die in Brisbane.
+
+### Three more confirmations
+
+| Registration | What it proves |
+|---|---|
+| **Maria Nicotra Mazza**, d. 24 Sep 1963, 1963/B/61348, father **John Nicotra**, mother **Venera Cassaneti** | The tree's parentage for her, exactly. Matches her Nudgee interment of 25 Sep 1963, plot V-0044. |
+| **Mary Rosa Mazza**, d. 3 Aug 1968, 1968/B/936, father **Sebastiano Mazza**, mother **Domenica Postamo** | Sebastiano × Domenica, and their daughter, who was sixteen. Matches Nudgee V-0165. |
+| **Maria Mazza** m. **Rosario Coco**, 2 Dec 1939, 1939/C/4207 | Closes this archive's Nudgee identification of "Maria Coco, 1922–2012" as Maria Mazza. |
+
+Also **Rosario Mazza m. Annie Vergina Di Mauro, 8 Jan 1949** (1949/B/20688) — not in the tree, and
+unresolved against the Angela buried beside him at Nudgee.
+
+### Salvatore Mazza and Maria Concetta Nicotra — the household now documented
+
+| Child | Born | Died |
+|---|---|---|
+| **Rosario** | 1899 | 19 Mar 1986, Brisbane |
+| **Michele** | c. 1909 | 14 Nov 1926, Queensland |
+| **Sebastiano** | 1920 | 2 Apr 2002, Brisbane |
+| **Maria** | 1922 | m. Rosario Coco 1939; d. 2012 |
+
+### And the way in to Salvatore's own birth
+
+Salvatore is still absent from six years of the Piedimonte Etneo register. But **Rosario was born in
+1899**, and an Italian birth act states the declaring father's **age**. Find **Piedimonte Etneo,
+Nati 1899, the Rosario Mazza act** and it dates Salvatore to within a year or two — turning a blind
+sweep into a single lookup. **That is the next Antenati target.**
+
+### Method
+
+Search the **parent**, not the person, when hunting siblings. The index spells names as the clerk
+wrote them — *Michali*, *Salvatori*, *Lecota*, *Postamo* — so search loosely and expect the surname
+you want to be mangled. Images are paid; none were bought, and none were needed.
