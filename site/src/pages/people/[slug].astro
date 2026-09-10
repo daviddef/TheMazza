@@ -5,6 +5,7 @@ import { u } from "../../lib/url.js";
 import { people, span, homeOf } from "../../lib/people.js";
 import stats from "../../data/stats.json";
 import nudgee from "../../data/nudgee.json";
+import ships from "../../data/ships.json";
 
 export function getStaticPaths() {
   /* Only the dead get a page. A living person has nothing to put on one —
@@ -16,6 +17,7 @@ const { p } = Astro.props;
 const rel = (list) => (list || []).filter(Boolean);
 const grave = nudgee.burials.find((b) => b.slug === p.slug);
 const fixes = nudgee.corrections.filter((c) => c.slug === p.slug);
+const ship = ships.find((s) => s.slug === p.slug);
 const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
              christened: "Christened", lived: "Lived", arrival: "Arrived", departure: "Left" };
 ---
@@ -44,6 +46,20 @@ const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
       ) : (
         <p class="dek" style="margin-top:12px">Nothing but a name and a place in the family.
         This person is known only because someone else's record names them.</p>
+      )}
+
+      {ship && (
+        <>
+          <h3 class="lab" style="margin-top:26px">The crossing</h3>
+          <div class="rec" style="margin-top:10px">
+            <div class="k">Ship</div><div class="v"><strong><em>{ship.ship.charAt(0) + ship.ship.slice(1).toLowerCase()}</em></strong></div><div class="w">{ship.confidence}</div>
+            <div class="k">Sailed from</div><div class="v">{ship.naaFrom}</div><div class="w"></div>
+            <div class="k">Arrived</div><div class="v">{ship.naaPort}</div><div class="w">{ship.naaDate}</div>
+            <div class="k">NAA item</div><div class="v"><a href={`https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?Number=${ship.itemId}`} rel="noopener">{ship.itemId}</a></div><div class="w"></div>
+          </div>
+          <p class="cap">{ship.note} — National Archives of Australia, passenger arrivals index
+          1898–1972, read 10 September 2026. <a href={u("/crossings")}>The crossings →</a></p>
+        </>
       )}
 
       {grave && (

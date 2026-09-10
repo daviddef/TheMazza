@@ -17,12 +17,18 @@ Updated 10 September 2026, the day the archive was built.
       → **Antenati, Archivio di Stato di Catania, Piedimonte Etneo, Nati 1879.**
 - [ ] Failing that: **Rosario Mazza's marriage act**, Piedimonte Etneo, c. 1875.
 
-## 2. The ships
-- [ ] Eighteen crossings, **not one names a vessel**. NAA RecordSearch series **K269** (Fremantle
-      inwards, 1898–1963) is arranged by ship and date — and the dates are known: 4 Oct 1949,
-      Mar 1951, May 1951, 28 May 1950, 10 Oct 1957. Set the category dropdown FIRST on
-      `NameSearch.aspx` (it postbacks and clears the name field). See `australian-records-method`.
-- [ ] Brisbane arrivals 17 Jun 1949, 6 Oct 1953, Dec 1953.
+## 2. The ships — nine down, nine to go
+- [x] **Nine crossings named** from the NAA passenger arrivals index: *Toscana*, *Surriento* (twice),
+      *Roma*, *Palermo*, *Napoli*, *Ravello*, *Sydney*. See findings.
+- [ ] **Domenica Prostamo, March 1951** — not in the index under Prostamo or Mazza. Search the
+      **voyage** instead: a Genoa sailing reaching Fremantle in March 1951, then read the manifest for
+      the family group. She had a son under three with her.
+- [ ] The other eight unnamed crossings, including Michael Antonio Polistena (28 May 1950) and the
+      whole American wave.
+- [ ] **Order the manifests.** Item 9243236 (*Toscana*, 4 Oct 1949) and 30133845 (*Surriento*,
+      23 Sep 1953) would give ages, occupations, destination addresses and next of kin.
+- [ ] **Who is Francesca Prostamo?** She is on the *Roma* with Francessco on 10 Oct 1957 and is not
+      in the family tree at all.
 - [ ] Confirm the **Napoli** against the 2 August 1906 New York manifest — FindMyPast's index gives
       the ship but not the arrival date, so the identification is not yet closed.
 

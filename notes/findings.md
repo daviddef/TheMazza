@@ -122,3 +122,60 @@ that looks a month or two out.
   gave the *Napoli*.
 - **Brisbane Catholic Cemeteries: works**, no login, POST form. The single most productive source of
   the day.
+
+---
+
+## 10 September 2026 — the ships
+
+Source: **National Archives of Australia, passenger arrivals index 1898–1972** (`PassengerSearch.aspx`),
+read as a guest, no login. The index is arranged by **voyage**: one item is one ship on one date, and
+every passenger aboard shares the item number.
+
+18 surnames swept, then 18 targeted name searches. **Nine of the eighteen crossings now have a named
+vessel.**
+
+| Date | Who | Ship | From | To | NAA item |
+|---|---|---|---|---|---|
+| 21 Apr 1925 | Michele Mazza | ***Palermo*** | Messina | **Brisbane** | 12260784 |
+| 8 May 1949 | Carmelo Armanno | ***Napoli*** | Naples | Australia | 9245202 |
+| 17 Jun 1949 | Antonino Polistena | ***Surriento*** | **Naples** | Australia | 9245788 |
+| 4 Oct 1949 | Sebastiano Mazza | ***Toscana*** | Genoa | Melbourne | 9243236 |
+| 13 May 1951 | Mariano Cavallaro | ***Ravello*** | **Messina** | **Brisbane** | 30133235 |
+| 23 Sep 1953 | Venera Cavallaro | ***Surriento*** | Italy | **Fremantle** | 30133845 |
+| 23 Sep 1953 | Luciano Cavallaro | ***Surriento*** | Italy | **Fremantle** | 30133845 |
+| 27 Dec 1953 | Rocco Arena | ***Sydney*** | Genoa | Fremantle | 32967991 |
+| 10 Oct 1957 | Francessco Prostamo | ***Roma*** | Genoa | Fremantle | 30132189 |
+
+### The Surriento lesson
+
+The tree has Venera and Luciano Cavallaro arriving at **Brisbane on 6 October 1953**. The index has
+them at **Fremantle on 23 September 1953**, on one item. **Both are true.** A ship out of Italy made
+Fremantle first and worked round the coast; a family remembers the day they got off, not the day the
+ship first touched Australia. Neither date is wrong and the archive keeps both — the same reconciliation
+applies to Rocco Arena (Fremantle 27 Dec 1953, Brisbane "December 1953") and probably to Mariano
+Cavallaro.
+
+### Corrections
+
+- **Michele Mazza** — the tree says Fremantle, from "Italy". The index says **Brisbane**, from
+  **Messina**, on the *Palermo*. He arrived at the port his family would settle in twenty-four years
+  later, which makes the "was he the reason?" question sharper, not weaker.
+- **Antonino Polistena** — embarked at **Naples**, not Genoa.
+- **Mariano Cavallaro** — **Brisbane**, from **Messina**, not Fremantle from Genoa.
+- **Francessco Prostamo** — date, port and embarkation all confirmed exactly. A **Francesca Prostamo**
+  is on the same voyage and is **not in the family tree**.
+
+### Not found
+
+**Domenica Prostamo**, March 1951, is not in the index under Prostamo *or* under Mazza. She travelled
+as a married woman with a son under three; the index is transcribed from handwritten manifests and
+she is probably under a misspelling. **Search the voyage, not the person** — find the Genoa sailing
+reaching Fremantle in March 1951 and read the manifest for the family group.
+
+### Method note
+
+`PassengerSearch.aspx` POSTs to an interstitial `PleaseWait.aspx`, whose body auto-submits an empty
+form to `PassengerSearch_Result.aspx`. So a scripted sweep is: GET the form for its `__VIEWSTATE`,
+POST the search, then POST empty to `PassengerSearch_Result.aspx` and parse. Session cookies carry
+the query. Results are paginated at 20, so a bare surname sweep truncates — use given names for
+anything specific.

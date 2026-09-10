@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import crossings from "../data/crossings.json";
+import ships from "../data/ships.json";
+const shipOf = new Map(ships.map((s) => [s.slug, s]));
 const wave1 = crossings.filter((c) => (c.year || 0) < 1940);
 const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
 ---
@@ -51,6 +53,47 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
         </tbody>
       </table>
     </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">10 September 2026 — the National Archives passenger index</div>
+    <h2 style="margin-top:.4rem">Nine of them now have a ship</h2>
+    <p class="dek" style="margin:.9rem 0 1.4rem">The NAA passenger arrivals index, 1898–1972, is
+    arranged by <strong>voyage</strong>: one item is one ship on one date, and every passenger aboard
+    shares the item number. Searching it by name and date turned nine of these eighteen crossings from
+    a date into a named vessel.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Who</th><th class="m">Date</th><th>Ship</th><th>From</th><th>Arrived</th><th class="m">NAA item</th><th>Confidence</th></tr></thead>
+        <tbody>{ships.map((s) => (
+          <tr>
+            <td><a href={u("/people/" + s.slug)}>{s.name}</a></td>
+            <td class="m">{s.naaDate}</td>
+            <td><strong><em>{s.ship.charAt(0) + s.ship.slice(1).toLowerCase()}</em></strong></td>
+            <td>{s.naaFrom}</td>
+            <td>{s.naaPort}</td>
+            <td class="m"><a href={`https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?Number=${s.itemId}`} rel="noopener">{s.itemId}</a></td>
+            <td>{s.confidence === "documented"
+              ? <span class="chip doc">documented</span>
+              : <span class="chip inf">inferred</span>}</td>
+          </tr>))}
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="lab" style="margin-top:32px">Where the index corrects the tree</h3>
+    <div class="stack" style="margin-top:14px">
+      {ships.filter((s) => s.note).map((s) => (
+        <p class="qn" style="max-width:88ch"><b>{s.name}</b> — {s.note}</p>
+      ))}
+    </div>
+
+    <p class="note" style="margin-top:26px">The most instructive of these is the
+    <em>Surriento</em>. The tree has <P n="Venera Cavallaro" /> and <P n="Luciano Cavallaro" /> arriving
+    at <strong>Brisbane on 6 October 1953</strong>; the index has them at <strong>Fremantle on
+    23 September 1953</strong>, on one item. Both are true. A ship out of Italy made Fremantle first
+    and worked round the coast, and a family remembers the day they got off — not the day the ship
+    first touched Australia. <strong>Neither date is wrong, and the archive keeps both.</strong></p>
   </section>
 
   <section class="blk">
