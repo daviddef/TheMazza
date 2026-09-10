@@ -41,13 +41,6 @@ const Q = [
     where: "CEMLA; Registro Civil, Buenos Aires.",
   },
   {
-    q: "Nudgee: plots, sections and dates",
-    why: "Thirteen burials, no plot numbers, and most without a date.",
-    body: "The tree records the cemetery and stops. The burial register would give section, plot and exact date for all thirteen — and would confirm or correct every Australian death year in this archive. The Falco archive corrected a death by three years this way.",
-    test: "Nudgee Catholic Cemetery burial register / Brisbane Catholic Cemeteries search.",
-    where: "Nudgee Cemetery, Banyo, Brisbane.",
-  },
-  {
     q: "Who were the Polistena of Arneytown?",
     why: "Burial in a veterans' cemetery is earned, and the archive knows nothing about it.",
     body: "Three Polistena lie at the Brigadier General William C. Doyle Veterans Memorial Cemetery in New Jersey. That means American military service. Their relationship to the Scilla Polistena who reached Brisbane in 1949 is asserted and untested.",
@@ -58,6 +51,22 @@ const Q = [
 ---
 <Base title="Open Questions" eyebrow="What this archive does not know"
       dek="Written down, with the document that would settle each one and where that document is. A question with no test beside it is a wish, not a research plan.">
+
+  <section class="blk">
+    <div class="qrow">
+      <div>
+        <div class="lab">Answered — 10 September 2026</div>
+        <div class="qq" style="margin-top:8px">Nudgee: plots, sections and dates</div>
+        <p class="qn" style="margin-top:0"><b>Closed the day the archive was built.</b></p>
+      </div>
+      <div>
+        <p class="qw">The Archdiocese's own deceased register gave a plot, a register number and exact
+        dates for <strong>19</strong> people here, corrected the tree in six places, and showed that
+        all four grandparents lie in <strong>consecutive plots V-1026 to V-1029</strong>.
+        <a href={u("/nudgee")}>The register →</a></p>
+      </div>
+    </div>
+  </section>
 
   {Q.map((x, i) => (
     <section class="blk">

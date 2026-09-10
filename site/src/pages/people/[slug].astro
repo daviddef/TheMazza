@@ -4,6 +4,7 @@ import P from "../../components/P.astro";
 import { u } from "../../lib/url.js";
 import { people, span, homeOf } from "../../lib/people.js";
 import stats from "../../data/stats.json";
+import nudgee from "../../data/nudgee.json";
 
 export function getStaticPaths() {
   /* Only the dead get a page. A living person has nothing to put on one —
@@ -13,6 +14,8 @@ export function getStaticPaths() {
 }
 const { p } = Astro.props;
 const rel = (list) => (list || []).filter(Boolean);
+const grave = nudgee.burials.find((b) => b.slug === p.slug);
+const fixes = nudgee.corrections.filter((c) => c.slug === p.slug);
 const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
              christened: "Christened", lived: "Lived", arrival: "Arrived", departure: "Left" };
 ---
@@ -41,6 +44,27 @@ const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
       ) : (
         <p class="dek" style="margin-top:12px">Nothing but a name and a place in the family.
         This person is known only because someone else's record names them.</p>
+      )}
+
+      {grave && (
+        <>
+          <h3 class="lab" style="margin-top:26px">In the burial register</h3>
+          <div class="rec" style="margin-top:10px">
+            <div class="k">Plot</div><div class="v"><strong>{grave.plot}</strong></div><div class="w">{grave.cemetery}</div>
+            <div class="k">Born</div><div class="v">{grave.birth || "—"}</div><div class="w"></div>
+            <div class="k">Died</div><div class="v">{grave.death || "—"}</div><div class="w"></div>
+            <div class="k">Interred</div><div class="v">{grave.interment || "—"}</div><div class="w"></div>
+            <div class="k">Entered as</div><div class="v">{grave.registerName}</div><div class="w"></div>
+          </div>
+          <p class="cap">Brisbane Catholic Cemeteries deceased register, read 10 September 2026.
+          <a href={u("/nudgee")}>Nudgee →</a></p>
+          {fixes.length > 0 && (
+            <p class="note" style="margin-top:16px">The register <strong>corrects the family tree</strong>
+            here: {fixes.map((c, i) => (<>{i > 0 && "; "}{c.field === "birth" ? "born" : "died"}
+            {" "}<span style="text-decoration:line-through;color:var(--ink-3)">{c.was}</span> → <strong>{c.now}</strong></>))}.
+            The site uses the register.</p>
+          )}
+        </>
       )}
 
       {p.sources && p.sources.length > 0 && (

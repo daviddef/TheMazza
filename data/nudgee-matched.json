@@ -1,0 +1,1267 @@
+{
+ "matched": [
+  {
+   "row": {
+    "regno": "8b40d700-0649-4454-b5fc-c76b179b7646",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Coco",
+    "given": "Maria",
+    "birth": "1922-10-01",
+    "death": "2012-06-25",
+    "interment": "2012-06-29",
+    "plot": "CHAP-117-A3"
+   },
+   "slug": "maria-mazza",
+   "name": "Maria Mazza",
+   "id": "@I79@",
+   "treeBorn": 1922,
+   "treeDied": 2012,
+   "score": 4,
+   "why": "birth year 1922 agrees; death year 2012 agrees"
+  },
+  {
+   "row": {
+    "regno": "91a76ab3-9904-4fb6-933e-5ca5b427a82f",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Micale",
+    "given": "Antonio",
+    "birth": "1924-03-01",
+    "death": "2016-09-24",
+    "interment": "2016-09-28",
+    "plot": "CHAP-207-CL"
+   },
+   "slug": "antonio-micale",
+   "name": "Antonio Micale",
+   "id": "@I294@",
+   "treeBorn": 1923,
+   "treeDied": 2016,
+   "score": 3,
+   "why": "birth year 1924 vs tree 1923; death year 2016 agrees"
+  },
+  {
+   "row": {
+    "regno": "75156c68-96b6-4b28-9cea-bcefe3ef2be5",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Micale",
+    "given": "Antonia",
+    "birth": "1927-01-17",
+    "death": "2000-01-29",
+    "interment": "2000-02-03",
+    "plot": "CHAP-207-CR"
+   },
+   "slug": "maria-antonia-tropeia",
+   "name": "Maria Antonia Tropeia",
+   "id": "@I295@",
+   "treeBorn": 1927,
+   "treeDied": 2000,
+   "score": 4,
+   "why": "birth year 1927 agrees; death year 2000 agrees"
+  },
+  {
+   "row": {
+    "regno": "799f51eb-ea9c-4e4f-bc73-4ecc0c5ab08c",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Pagano",
+    "given": "Luciano",
+    "birth": "",
+    "death": "",
+    "interment": "1970-06-24",
+    "plot": "V-0036"
+   },
+   "slug": "luciano-pagano",
+   "name": "Luciano Pagano",
+   "id": "@I350@",
+   "treeBorn": 1894,
+   "treeDied": 1970,
+   "score": 2,
+   "why": "death year 1970 agrees"
+  },
+  {
+   "row": {
+    "regno": "336d3787-c3b1-4e4b-98a6-9c5ac6d9bd13",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Mazza",
+    "given": "Maria",
+    "birth": "",
+    "death": "",
+    "interment": "1963-09-25",
+    "plot": "V-0044"
+   },
+   "slug": "maria-nicotra",
+   "name": "Maria Nicotra",
+   "id": "@I5@",
+   "treeBorn": 1875,
+   "treeDied": 1963,
+   "score": 2,
+   "why": "death year 1963 agrees"
+  },
+  {
+   "row": {
+    "regno": "cdd6254f-12a0-43d0-80a8-736fd5c75af6",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Mazza",
+    "given": "Angela",
+    "birth": "",
+    "death": "",
+    "interment": "1973-01-13",
+    "plot": "V-0116"
+   },
+   "slug": "angela-cupo",
+   "name": "Angela Cupo",
+   "id": "@I78@",
+   "treeBorn": 1900,
+   "treeDied": 1973,
+   "score": 2,
+   "why": "death year 1973 agrees"
+  },
+  {
+   "row": {
+    "regno": "7c43b45f-f376-40f3-9c53-d396c700fb02",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Mazza",
+    "given": "Rosario",
+    "birth": "",
+    "death": "",
+    "interment": "1986-03-22",
+    "plot": "V-0117"
+   },
+   "slug": "rosario-mazza-1899",
+   "name": "Rosario Mazza",
+   "id": "@I37@",
+   "treeBorn": 1899,
+   "treeDied": 1986,
+   "score": 2,
+   "why": "death year 1986 agrees"
+  },
+  {
+   "row": {
+    "regno": "f36f553c-23fb-4bd3-9dc9-19b462c9bee7",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Mazza",
+    "given": "Maria",
+    "birth": "",
+    "death": "",
+    "interment": "1968-08-10",
+    "plot": "V-0165"
+   },
+   "slug": "mary-rosa-mazza",
+   "name": "Mary rosa Mazza",
+   "id": "@I33@",
+   "treeBorn": 1952,
+   "treeDied": 1968,
+   "score": 2,
+   "why": "death year 1968 agrees"
+  },
+  {
+   "row": {
+    "regno": "d73ff459-da95-4444-9e89-11811b1afe07",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Cavallaro",
+    "given": "Venera",
+    "birth": "1916-03-29",
+    "death": "2013-09-06",
+    "interment": "2013-09-12",
+    "plot": "V-0395"
+   },
+   "slug": "venera-cavallaro",
+   "name": "Venera Cavallaro",
+   "id": "@I36@",
+   "treeBorn": 1916,
+   "treeDied": 2013,
+   "score": 4,
+   "why": "birth year 1916 agrees; death year 2013 agrees"
+  },
+  {
+   "row": {
+    "regno": "2d63f1b9-eb8c-4c02-a3c6-4553114419e9",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Armanno",
+    "given": "Carmelo",
+    "birth": "1924-10-22",
+    "death": "2019-04-28",
+    "interment": "2019-05-03",
+    "plot": "V-0718"
+   },
+   "slug": "carmelo-armanno",
+   "name": "Carmelo Armanno",
+   "id": "@I53@",
+   "treeBorn": 1924,
+   "treeDied": 2019,
+   "score": 4,
+   "why": "birth year 1924 agrees; death year 2019 agrees"
+  },
+  {
+   "row": {
+    "regno": "e46ff9f7-67fa-4e8a-9538-f5ce5d91b703",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Armanno",
+    "given": "Angelina",
+    "birth": "1933-04-20",
+    "death": "2008-10-09",
+    "interment": "2008-10-15",
+    "plot": "V-0719"
+   },
+   "slug": "angelina-pagano",
+   "name": "Angelina Pagano",
+   "id": "@I54@",
+   "treeBorn": 1933,
+   "treeDied": 2008,
+   "score": 4,
+   "why": "birth year 1933 agrees; death year 2008 agrees"
+  },
+  {
+   "row": {
+    "regno": "07484f22-a63a-41db-badf-7d20fc29dfe8",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Mazza",
+    "given": "Sebastiano",
+    "birth": "1920-10-22",
+    "death": "2002-04-02",
+    "interment": "2002-04-05",
+    "plot": "V-1026"
+   },
+   "slug": "sebastiano-mazza",
+   "name": "Sebastiano Mazza",
+   "id": "@I2@",
+   "treeBorn": 1920,
+   "treeDied": 2002,
+   "score": 4,
+   "why": "birth year 1920 agrees; death year 2002 agrees"
+  },
+  {
+   "row": {
+    "regno": "83e1d637-d089-4587-b879-200a7dd74a62",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Mazza",
+    "given": "Domenica",
+    "birth": "1928-05-03",
+    "death": "2010-01-29",
+    "interment": "2010-02-04",
+    "plot": "V-1027"
+   },
+   "slug": "domenica-prostamo",
+   "name": "Domenica Prostamo",
+   "id": "@I3@",
+   "treeBorn": 1928,
+   "treeDied": 2010,
+   "score": 4,
+   "why": "birth year 1928 agrees; death year 2010 agrees"
+  },
+  {
+   "row": {
+    "regno": "34e54e96-953d-42ed-9638-00b60b969a99",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Arena",
+    "given": "Angelina",
+    "birth": "1925-01-22",
+    "death": "2018-09-18",
+    "interment": "2018-09-26",
+    "plot": "V-1028"
+   },
+   "slug": "angela-polistena",
+   "name": "Angela Polistena",
+   "id": "@I29@",
+   "treeBorn": 1925,
+   "treeDied": 2018,
+   "score": 4,
+   "why": "birth year 1925 agrees; death year 2018 agrees"
+  },
+  {
+   "row": {
+    "regno": "707451ef-e4df-4dc9-886c-8c47ec0208b5",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Arena",
+    "given": "Rocco",
+    "birth": "1924-10-12",
+    "death": "1999-10-29",
+    "interment": "1999-11-01",
+    "plot": "V-1029"
+   },
+   "slug": "rocco-arena-1924",
+   "name": "Rocco Arena",
+   "id": "@I28@",
+   "treeBorn": 1924,
+   "treeDied": 1999,
+   "score": 4,
+   "why": "birth year 1924 agrees; death year 1999 agrees"
+  },
+  {
+   "row": {
+    "regno": "1aad632d-87ac-4767-918a-d87a0b118849",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Bova",
+    "given": "Giovanna",
+    "birth": "1918-12-13",
+    "death": "2012-07-31",
+    "interment": "2012-08-04",
+    "plot": "V-1038"
+   },
+   "slug": "giovanna-polistena",
+   "name": "Giovanna Polistena",
+   "id": "@I133@",
+   "treeBorn": 1918,
+   "treeDied": null,
+   "score": 2,
+   "why": "birth year 1918 agrees"
+  },
+  {
+   "row": {
+    "regno": "6bd51dda-2a02-4193-a8a9-997877e654d5",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Bova",
+    "given": "Rocco",
+    "birth": "1916-08-25",
+    "death": "2002-05-28",
+    "interment": "2002-06-01",
+    "plot": "V-1039"
+   },
+   "slug": "rocco-bova",
+   "name": "Rocco Bova",
+   "id": "@I154@",
+   "treeBorn": 1916,
+   "treeDied": 2000,
+   "score": 2,
+   "why": "birth year 1916 agrees"
+  },
+  {
+   "row": {
+    "regno": "e968938c-bb57-49d5-860b-3ff447b9d2a5",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Arena",
+    "given": "Clemente",
+    "birth": "1929-07-15",
+    "death": "2002-06-13",
+    "interment": "2002-06-17",
+    "plot": "V-1338"
+   },
+   "slug": "clemente-arena",
+   "name": "Clemente Arena",
+   "id": "@I252@",
+   "treeBorn": 1929,
+   "treeDied": null,
+   "score": 2,
+   "why": "birth year 1929 agrees"
+  },
+  {
+   "row": {
+    "regno": "40525b31-2a30-4640-ab89-1aef78ca3104",
+    "cemetery": "Nudgee Cemetery",
+    "surname": "Arena",
+    "given": "Mario Salvatore",
+    "birth": "1937-03-07",
+    "death": "2012-08-18",
+    "interment": "2012-08-24",
+    "plot": "V-1456"
+   },
+   "slug": "mario-salvatore-arena",
+   "name": "Mario Salvatore Arena",
+   "id": "@I254@",
+   "treeBorn": 1937,
+   "treeDied": 2012,
+   "score": 4,
+   "why": "birth year 1937 agrees; death year 2012 agrees"
+  }
+ ],
+ "rows": [
+  {
+   "regno": "cdd6254f-12a0-43d0-80a8-736fd5c75af6",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Angela",
+   "birth": "",
+   "death": "",
+   "interment": "1973-01-13",
+   "plot": "V-0116"
+  },
+  {
+   "regno": "d85578c2-f1a0-421f-bc64-897124a00ee3",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Antonio",
+   "birth": "1923-12-14",
+   "death": "2015-04-08",
+   "interment": "2015-04-14",
+   "plot": "CHAP-307-R1"
+  },
+  {
+   "regno": "83e1d637-d089-4587-b879-200a7dd74a62",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Domenica",
+   "birth": "1928-05-03",
+   "death": "2010-01-29",
+   "interment": "2010-02-04",
+   "plot": "V-1027"
+  },
+  {
+   "regno": "d0cd2def-2af0-486a-b29b-d5a3eb4e62c8",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Josephine",
+   "birth": "1908-06-23",
+   "death": "1978-02-22",
+   "interment": "1978-02-24",
+   "plot": "V-0634"
+  },
+  {
+   "regno": "f36f553c-23fb-4bd3-9dc9-19b462c9bee7",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Maria",
+   "birth": "",
+   "death": "",
+   "interment": "1968-08-10",
+   "plot": "V-0165"
+  },
+  {
+   "regno": "336d3787-c3b1-4e4b-98a6-9c5ac6d9bd13",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Maria",
+   "birth": "",
+   "death": "",
+   "interment": "1963-09-25",
+   "plot": "V-0044"
+  },
+  {
+   "regno": "a2858f2f-f871-47b3-93ba-ec49f6759354",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Mario",
+   "birth": "1899-09-20",
+   "death": "1986-06-08",
+   "interment": "1986-06-11",
+   "plot": "V-0635"
+  },
+  {
+   "regno": "7c43b45f-f376-40f3-9c53-d396c700fb02",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Rosario",
+   "birth": "",
+   "death": "",
+   "interment": "1986-03-22",
+   "plot": "V-0117"
+  },
+  {
+   "regno": "07484f22-a63a-41db-badf-7d20fc29dfe8",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Sebastiano",
+   "birth": "1920-10-22",
+   "death": "2002-04-02",
+   "interment": "2002-04-05",
+   "plot": "V-1026"
+  },
+  {
+   "regno": "c7b1685a-4bc3-4978-9e34-e2c9e00910a2",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazza",
+   "given": "Zina",
+   "birth": "1923-02-05",
+   "death": "2012-11-27",
+   "interment": "2012-12-03",
+   "plot": "CHAP-307-R2"
+  },
+  {
+   "regno": "060615e2-080c-4947-aaad-9df42ccaf6ba",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazzarelli",
+   "given": "Carmine",
+   "birth": "",
+   "death": "2001-02-26",
+   "interment": "2001-03-02",
+   "plot": "CHAP-162-B4"
+  },
+  {
+   "regno": "6b829a24-4f68-458f-a744-9fae2e1bd444",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Mazzaroli",
+   "given": "Fert",
+   "birth": "1925-09-27",
+   "death": "2021-04-12",
+   "interment": "2021-04-21",
+   "plot": "CHAP-318-A4"
+  },
+  {
+   "regno": "34e54e96-953d-42ed-9638-00b60b969a99",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Arena",
+   "given": "Angelina",
+   "birth": "1925-01-22",
+   "death": "2018-09-18",
+   "interment": "2018-09-26",
+   "plot": "V-1028"
+  },
+  {
+   "regno": "e968938c-bb57-49d5-860b-3ff447b9d2a5",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Arena",
+   "given": "Clemente",
+   "birth": "1929-07-15",
+   "death": "2002-06-13",
+   "interment": "2002-06-17",
+   "plot": "V-1338"
+  },
+  {
+   "regno": "ca38f4e2-a11b-4d10-b589-a8495e6c6a23",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Arena",
+   "given": "Ellen",
+   "birth": "",
+   "death": "1928-06-05",
+   "interment": "1928-06-07",
+   "plot": "F-06-34"
+  },
+  {
+   "regno": "226ea308-3b91-4802-b3fc-418f97216bdc",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Arena",
+   "given": "Francesco",
+   "birth": "1940-09-19",
+   "death": "2020-09-19",
+   "interment": "2020-09-25",
+   "plot": "CHAP-296-C4"
+  },
+  {
+   "regno": "ff04c873-5063-4f2a-9ff3-fe167f2e1689",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Arena",
+   "given": "Josephine",
+   "birth": "",
+   "death": "",
+   "interment": "1975-11-17",
+   "plot": "CHAP-001/2-L1B"
+  },
+  {
+   "regno": "40525b31-2a30-4640-ab89-1aef78ca3104",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Arena",
+   "given": "Mario Salvatore",
+   "birth": "1937-03-07",
+   "death": "2012-08-18",
+   "interment": "2012-08-24",
+   "plot": "V-1456"
+  },
+  {
+   "regno": "707451ef-e4df-4dc9-886c-8c47ec0208b5",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Arena",
+   "given": "Rocco",
+   "birth": "1924-10-12",
+   "death": "1999-10-29",
+   "interment": "1999-11-01",
+   "plot": "V-1029"
+  },
+  {
+   "regno": "0887d978-70e1-4642-aa0f-d90b039f053b",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Arena",
+   "given": "Vincent",
+   "birth": "",
+   "death": "",
+   "interment": "1975-11-17",
+   "plot": "CHAP-001/2-L1C"
+  },
+  {
+   "regno": "22738390-55ba-468c-aed0-62e322f01b3c",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Polistena",
+   "given": "Giuseppe",
+   "birth": "1944-11-27",
+   "death": "2024-02-24",
+   "interment": "2024-02-29",
+   "plot": "CHAP-366-B2"
+  },
+  {
+   "regno": "12b1808f-d93b-46bb-b076-74546050f251",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Polistena",
+   "given": "Mary",
+   "birth": "1959-05-16",
+   "death": "2021-07-24",
+   "interment": "2021-08-05",
+   "plot": "10A-649"
+  },
+  {
+   "regno": "d75748bd-3cb9-4ac6-89aa-727fecfc3113",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Polistena",
+   "given": "Michele",
+   "birth": "1933-12-06",
+   "death": "2004-07-22",
+   "interment": "2004-07-26",
+   "plot": "V-1183"
+  },
+  {
+   "regno": "c964cc32-35e2-42b4-80e5-2faf1a03b07e",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Nicotra",
+   "given": "Giuseppe",
+   "birth": "1915-12-06",
+   "death": "2004-03-03",
+   "interment": "2004-03-08",
+   "plot": "CHAP-130-D4"
+  },
+  {
+   "regno": "cb30d5ab-bd46-4f2a-b1b8-e4fc95f45d99",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Nicotra",
+   "given": "Giuseppe",
+   "birth": "1912-02-26",
+   "death": "2004-01-17",
+   "interment": "2004-01-20",
+   "plot": "V-0720"
+  },
+  {
+   "regno": "ea6443a1-badf-4c48-ae9d-c772420cd7d6",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Nicotra",
+   "given": "Rosina",
+   "birth": "1917-06-09",
+   "death": "2009-11-05",
+   "interment": "2009-11-12",
+   "plot": "CHAP-130-D3"
+  },
+  {
+   "regno": "25015e83-3985-48ee-96ff-87f33f73ab2b",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Nicotra",
+   "given": "Rosina",
+   "birth": "1921-04-23",
+   "death": "2021-01-07",
+   "interment": "2021-01-29",
+   "plot": "V-0721"
+  },
+  {
+   "regno": "5f21bc94-4524-439d-96c4-dd1c00b974db",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Nicotra",
+   "given": "Salvatore",
+   "birth": "1942-05-12",
+   "death": "2022-08-14",
+   "interment": "2022-08-25",
+   "plot": "V-1605"
+  },
+  {
+   "regno": "e41d82b8-8052-4d0d-8b34-79364144ec40",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Alfio",
+   "birth": "1922-11-09",
+   "death": "2017-02-25",
+   "interment": "2017-03-02",
+   "plot": "CHAP-249-A2"
+  },
+  {
+   "regno": "ab14197b-84d1-4fc7-aec5-ad61cfd93f99",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Baby Dion",
+   "birth": "2001-10-01",
+   "death": "2001-10-13",
+   "interment": "2001-10-19",
+   "plot": "V-0158"
+  },
+  {
+   "regno": "10a30b28-befb-4676-862b-b41a0d45551f",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Baby Rosario",
+   "birth": "",
+   "death": "",
+   "interment": "1963-04-05",
+   "plot": "K-2-256"
+  },
+  {
+   "regno": "d76a1bea-b567-4b7a-822e-8c4ce50afdfd",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Leonardo",
+   "birth": "",
+   "death": "1992-04-16",
+   "interment": "1992-04-21",
+   "plot": "CHAP-153-C2"
+  },
+  {
+   "regno": "22ec0df3-ffd9-4086-8490-8a65915aa3dc",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Margaret",
+   "birth": "1951-11-01",
+   "death": "2021-09-03",
+   "interment": "2021-11-11",
+   "plot": "LA-3169"
+  },
+  {
+   "regno": "f2b1a3dd-4745-4f1c-bc9c-cc10e7def59d",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Maria",
+   "birth": "1913-10-15",
+   "death": "2006-05-06",
+   "interment": "2006-05-10",
+   "plot": "CHAP-153-C1"
+  },
+  {
+   "regno": "99e60e1d-b8f4-47e8-88e4-753efa25b013",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Mario",
+   "birth": "",
+   "death": "",
+   "interment": "1973-03-13",
+   "plot": "V-0394"
+  },
+  {
+   "regno": "181f5603-0998-41fb-b519-fe85c5d3245b",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Rosario",
+   "birth": "1938-11-12",
+   "death": "2017-06-20",
+   "interment": "2017-06-27",
+   "plot": "CHAP-240-A4"
+  },
+  {
+   "regno": "aee9ff31-b88a-4198-b4d2-43eebc476b56",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Santo",
+   "birth": "1934-11-01",
+   "death": "2016-01-21",
+   "interment": "2016-01-28",
+   "plot": "V-1337"
+  },
+  {
+   "regno": "d73ff459-da95-4444-9e89-11811b1afe07",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Venera",
+   "birth": "1916-03-29",
+   "death": "2013-09-06",
+   "interment": "2013-09-12",
+   "plot": "V-0395"
+  },
+  {
+   "regno": "8f22b034-d7c6-406d-b64f-47c5b2e110d7",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Venerando",
+   "birth": "",
+   "death": "",
+   "interment": "1968-06-20",
+   "plot": "V-0037"
+  },
+  {
+   "regno": "8449af99-2b7d-4183-82d0-289b43a39e16",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Vincenzina",
+   "birth": "1940-03-31",
+   "death": "2023-02-06",
+   "interment": "2023-02-15",
+   "plot": "V-1336"
+  },
+  {
+   "regno": "2d36bf2f-64ec-4ac3-9f77-1c00a2df5fa4",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Cavallaro",
+   "given": "Vittoria",
+   "birth": "1928-02-06",
+   "death": "2005-01-05",
+   "interment": "2005-01-10",
+   "plot": "CHAP-249-A1"
+  },
+  {
+   "regno": "e46ff9f7-67fa-4e8a-9538-f5ce5d91b703",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Armanno",
+   "given": "Angelina",
+   "birth": "1933-04-20",
+   "death": "2008-10-09",
+   "interment": "2008-10-15",
+   "plot": "V-0719"
+  },
+  {
+   "regno": "2d63f1b9-eb8c-4c02-a3c6-4553114419e9",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Armanno",
+   "given": "Carmelo",
+   "birth": "1924-10-22",
+   "death": "2019-04-28",
+   "interment": "2019-05-03",
+   "plot": "V-0718"
+  },
+  {
+   "regno": "61a55cfa-5cb4-41ea-90bf-113715e68fae",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Armanno",
+   "given": "Mario",
+   "birth": "1926-04-26",
+   "death": "2015-10-31",
+   "interment": "2015-11-06",
+   "plot": "CHAP-215-C1"
+  },
+  {
+   "regno": "f1c322eb-cf77-462d-9a0a-60c9427290a1",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Armanno",
+   "given": "Rosaria",
+   "birth": "1933-09-09",
+   "death": "2022-11-11",
+   "interment": "2022-11-23",
+   "plot": "CHAP-215-C2"
+  },
+  {
+   "regno": "75156c68-96b6-4b28-9cea-bcefe3ef2be5",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Antonia",
+   "birth": "1927-01-17",
+   "death": "2000-01-29",
+   "interment": "2000-02-03",
+   "plot": "CHAP-207-CR"
+  },
+  {
+   "regno": "91a76ab3-9904-4fb6-933e-5ca5b427a82f",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Antonio",
+   "birth": "1924-03-01",
+   "death": "2016-09-24",
+   "interment": "2016-09-28",
+   "plot": "CHAP-207-CL"
+  },
+  {
+   "regno": "f8e1a1af-3afe-4556-a395-8872ee7ddbec",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Carmelo",
+   "birth": "1935-03-30",
+   "death": "1984-08-15",
+   "interment": "1984-08-27",
+   "plot": "V-0819"
+  },
+  {
+   "regno": "f60f2b48-5818-492e-8945-458ea4e7defb",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Francesco",
+   "birth": "1905-08-24",
+   "death": "1975-06-04",
+   "interment": "1975-06-06",
+   "plot": "V-0507"
+  },
+  {
+   "regno": "fb6c3b4f-87cd-42cf-b5e6-b6b243882b9b",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Gladys",
+   "birth": "1926-08-17",
+   "death": "2021-11-25",
+   "interment": "2021-12-01",
+   "plot": "CHAP-276-D2"
+  },
+  {
+   "regno": "37433efa-d6e0-4f4c-9d54-d61b85169356",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Joseph",
+   "birth": "1924-08-12",
+   "death": "2007-12-04",
+   "interment": "2007-12-10",
+   "plot": "CHAP-046-L1"
+  },
+  {
+   "regno": "12b653e1-5ef2-4753-9a65-509ecb5c8625",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Lucia",
+   "birth": "1934-03-07",
+   "death": "2016-09-09",
+   "interment": "2016-09-14",
+   "plot": "CHAP-102-B1"
+  },
+  {
+   "regno": "f036f5d4-3a72-442f-9d6e-379e134304b6",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Rosa",
+   "birth": "",
+   "death": "1980-11-04",
+   "interment": "1980-11-06",
+   "plot": "CHAP-046-R1"
+  },
+  {
+   "regno": "5b871d37-4cc4-4aa8-b671-bc5e79a57795",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Salvatore",
+   "birth": "1922-04-22",
+   "death": "2006-05-03",
+   "interment": "2006-05-08",
+   "plot": "CHAP-102-A1"
+  },
+  {
+   "regno": "14712d2c-ae47-47b9-9845-5517d815bd7b",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Micale",
+   "given": "Sarina",
+   "birth": "1910-01-12",
+   "death": "2005-10-16",
+   "interment": "2005-10-21",
+   "plot": "V-0508"
+  },
+  {
+   "regno": "9a812c5d-7846-4818-a922-299b1e971627",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Pagano",
+   "given": "Alfio",
+   "birth": "1931-11-15",
+   "death": "",
+   "interment": "2008-03-26",
+   "plot": "CHAP-203-L3"
+  },
+  {
+   "regno": "5c720474-872d-4c03-8f26-b47952916afd",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Pagano",
+   "given": "Angelo",
+   "birth": "1926-07-29",
+   "death": "2013-03-09",
+   "interment": "2013-03-14",
+   "plot": "V-1078"
+  },
+  {
+   "regno": "e2d734cd-a907-49e7-ba60-fb2fb4413a49",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Pagano",
+   "given": "Carmela",
+   "birth": "1924-10-10",
+   "death": "2010-11-02",
+   "interment": "2010-11-09",
+   "plot": "V-1007"
+  },
+  {
+   "regno": "d5a585ab-9072-4909-908b-0db31706409c",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Pagano",
+   "given": "Domenico",
+   "birth": "1927-02-05",
+   "death": "2022-06-17",
+   "interment": "2022-06-27",
+   "plot": "V-1006"
+  },
+  {
+   "regno": "799f51eb-ea9c-4e4f-bc73-4ecc0c5ab08c",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Pagano",
+   "given": "Luciano",
+   "birth": "",
+   "death": "",
+   "interment": "1970-06-24",
+   "plot": "V-0036"
+  },
+  {
+   "regno": "2853ddfe-21ea-40c3-ad73-e1e769177d33",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Pagano",
+   "given": "Maria",
+   "birth": "",
+   "death": "",
+   "interment": "1963-07-02",
+   "plot": "V-0035"
+  },
+  {
+   "regno": "a003d1a8-a3d3-44db-8438-f89cbf34d0a3",
+   "cemetery": "Nudgee Crematorium",
+   "surname": "Pagano",
+   "given": "Paolo",
+   "birth": "1939-03-12",
+   "death": "2020-01-11",
+   "interment": "2020-01-15",
+   "plot": "Contact Office"
+  },
+  {
+   "regno": "a5c9daaf-64d9-491e-afbd-b5cd81869dde",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Pagano",
+   "given": "Rocco",
+   "birth": "1952-03-02",
+   "death": "2019-07-01",
+   "interment": "2019-07-08",
+   "plot": "CHAP-309-D1"
+  },
+  {
+   "regno": "eebbf810-03d8-486a-9375-07abc8ab0762",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Donato",
+   "given": "Giovanni",
+   "birth": "1940-06-10",
+   "death": "2023-04-17",
+   "interment": "2023-04-26",
+   "plot": "CHAP-320-B2"
+  },
+  {
+   "regno": "be9c8ab2-d60a-4474-8c8f-1557ea04ed51",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Donato",
+   "given": "Guiseppe",
+   "birth": "1936-09-20",
+   "death": "2013-06-03",
+   "interment": "2013-06-14",
+   "plot": "CHAP-320-B3"
+  },
+  {
+   "regno": "493907d9-046f-4041-a7ff-5be5a6419ec0",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Donato",
+   "given": "Nunzio",
+   "birth": "1917-07-26",
+   "death": "1994-04-20",
+   "interment": "1994-04-22",
+   "plot": "LA-1562"
+  },
+  {
+   "regno": "ea23ba22-7b4f-40e9-9850-a5bada6ccc00",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Donato",
+   "given": "Renee",
+   "birth": "1927-05-02",
+   "death": "2019-10-30",
+   "interment": "2019-11-05",
+   "plot": "LA-1562"
+  },
+  {
+   "regno": "1492d223-cbfa-4fc8-8fb3-ce9c7f1fee6b",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Donato",
+   "given": "Rosa",
+   "birth": "1907-10-25",
+   "death": "1998-07-18",
+   "interment": "1998-07-21",
+   "plot": "V-0552"
+  },
+  {
+   "regno": "1aad632d-87ac-4767-918a-d87a0b118849",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Bova",
+   "given": "Giovanna",
+   "birth": "1918-12-13",
+   "death": "2012-07-31",
+   "interment": "2012-08-04",
+   "plot": "V-1038"
+  },
+  {
+   "regno": "6bd51dda-2a02-4193-a8a9-997877e654d5",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Bova",
+   "given": "Rocco",
+   "birth": "1916-08-25",
+   "death": "2002-05-28",
+   "interment": "2002-06-01",
+   "plot": "V-1039"
+  },
+  {
+   "regno": "818568e1-6f19-4875-a479-b3ed1d98312e",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Alfia",
+   "birth": "1899-11-02",
+   "death": "1973-01-06",
+   "interment": "1974-08-28",
+   "plot": "V-0429"
+  },
+  {
+   "regno": "6ddca1d4-29f9-44da-b42e-802043a9f36e",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Alfio",
+   "birth": "1949-10-22",
+   "death": "2020-07-28",
+   "interment": "2020-08-07",
+   "plot": "V-1571"
+  },
+  {
+   "regno": "c9c07909-703d-4831-98eb-62e04a766924",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Alfio",
+   "birth": "1901-11-09",
+   "death": "1995-11-20",
+   "interment": "1995-11-24",
+   "plot": "V-1255"
+  },
+  {
+   "regno": "c6518bcd-8660-469e-9be7-ae2fe375cd22",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Angela",
+   "birth": "1898-12-26",
+   "death": "1966-02-03",
+   "interment": "1966-05-02",
+   "plot": "V-0013"
+  },
+  {
+   "regno": "a81add76-7df9-443e-8cf0-9c8f4d43fe58",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Angelo",
+   "birth": "1931-06-22",
+   "death": "2017-06-06",
+   "interment": "2017-06-15",
+   "plot": "CHAP-158-C1"
+  },
+  {
+   "regno": "0ae75c38-59ca-4205-bb17-039fdac9f0e4",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Angelo",
+   "birth": "1909-11-14",
+   "death": "1991-10-18",
+   "interment": "1991-10-21",
+   "plot": "CHAP-135-D2"
+  },
+  {
+   "regno": "13ef0b07-911e-41a6-862a-b9ec8f034083",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Ignazio",
+   "birth": "1912-04-22",
+   "death": "1980-12-21",
+   "interment": "1980-12-24",
+   "plot": "CHAP-081-R2"
+  },
+  {
+   "regno": "8b40d700-0649-4454-b5fc-c76b179b7646",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Maria",
+   "birth": "1922-10-01",
+   "death": "2012-06-25",
+   "interment": "2012-06-29",
+   "plot": "CHAP-117-A3"
+  },
+  {
+   "regno": "e0b2273f-1572-47ff-addf-f5004f62482a",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Maria",
+   "birth": "1923-05-30",
+   "death": "2007-03-30",
+   "interment": "2007-04-04",
+   "plot": "CHAP-081-L2"
+  },
+  {
+   "regno": "b5fe7645-20f7-42da-9514-cb2bbf4b333c",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Orazia",
+   "birth": "1923-09-04",
+   "death": "2013-09-28",
+   "interment": "2013-10-04",
+   "plot": "A3CHP15-16/18-L4"
+  },
+  {
+   "regno": "7782d73c-296b-439a-a722-c2602d3775d0",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Rosaria",
+   "birth": "1935-01-10",
+   "death": "2001-11-07",
+   "interment": "2001-11-12",
+   "plot": "CHAP-158-B1"
+  },
+  {
+   "regno": "cdd0c3e0-b35b-4098-bbc9-5680a8ef0619",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Rosario",
+   "birth": "1905-04-06",
+   "death": "1998-07-18",
+   "interment": "1998-07-22",
+   "plot": "A3CHP15-16/18-R4"
+  },
+  {
+   "regno": "194629ba-85fd-457b-ab46-a707c14d7a12",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Rosario",
+   "birth": "1912-02-14",
+   "death": "1998-05-12",
+   "interment": "1995-05-16",
+   "plot": "CHAP-117-A4"
+  },
+  {
+   "regno": "6f9aa3e9-6483-4d08-8aa5-79f4ca61d344",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Santina",
+   "birth": "1923-05-13",
+   "death": "2001-06-23",
+   "interment": "2001-06-27",
+   "plot": "CHAP-135-D1"
+  },
+  {
+   "regno": "e499e15e-27cd-44a3-8938-37af428ed0b8",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Santo",
+   "birth": "1947-01-02",
+   "death": "2014-04-20",
+   "interment": "2014-04-26",
+   "plot": "CHAP-273-B4"
+  },
+  {
+   "regno": "f9ad49c9-4cf0-43ea-ad42-b22e951ed60b",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Coco",
+   "given": "Sebastiano",
+   "birth": "1893-07-09",
+   "death": "1962-02-26",
+   "interment": "1962-06-29",
+   "plot": "V-0012"
+  },
+  {
+   "regno": "46a6241d-2379-428f-a1e9-9d3f373bd08a",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Napoli",
+   "given": "Nicholas",
+   "birth": "",
+   "death": "",
+   "interment": "1965-07-07",
+   "plot": "8A-380"
+  },
+  {
+   "regno": "bdcf2d08-0302-4d72-949a-d31ec89aab00",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Napoliello",
+   "given": "Erminia",
+   "birth": "1930-12-01",
+   "death": "1997-07-27",
+   "interment": "1997-07-30",
+   "plot": "CHAP-181-B3"
+  },
+  {
+   "regno": "e08fb11c-dd77-49c4-90c1-3f4e91c68d1b",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Napoliello",
+   "given": "Luciano",
+   "birth": "1930-11-14",
+   "death": "2003-09-06",
+   "interment": "2003-09-10",
+   "plot": "CHAP-181-B2"
+  },
+  {
+   "regno": "91671c9e-3cb4-4066-b24d-72f8be33517f",
+   "cemetery": "Nudgee Cemetery",
+   "surname": "Napoliello",
+   "given": "Rocco",
+   "birth": "1957-08-07",
+   "death": "1968-04-16",
+   "interment": "1968-04-18",
+   "plot": "CHAP-181-B4"
+  }
+ ]
+}

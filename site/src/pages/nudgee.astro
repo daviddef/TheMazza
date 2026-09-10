@@ -1,38 +1,113 @@
 ---
 import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import nudgee from "../data/nudgee.json";
 import burials from "../data/burials.json";
-const nudgee = burials.filter((b) => b.place.includes("Nudgee"));
+const { burials: documented, corrections, quarterRow } = nudgee;
 const other = burials.filter((b) => !b.place.includes("Nudgee"));
 ---
 <Base title="Nudgee" eyebrow="Nudgee Catholic Cemetery, Brisbane"
-      dek="Thirteen of this family are buried in one cemetery on the northern side of Brisbane — including all four of Michael Rocco Mazza's grandparents' generation who died in Australia.">
+      dek="Nineteen of this family are buried here with a plot number and an exact date — and four of those plots are consecutive.">
 
   <section class="blk">
-    <p class="lede">Nudgee Cemetery, beside the Holy Cross church at Banyo, has been the Catholic
-    burying ground of northern Brisbane since the 1860s. It is where post-war Italian Brisbane went,
-    and it is why this archive keeps meeting the same ground from a different direction: <strong>five
-    Falco of Arienzo</strong> lie here too, and <a href="https://daviddef.github.io/TheFalco/">that
-    archive</a> found them independently.</p>
-    <p class="lede" style="margin-top:1rem">Two families with nothing in common in Italy — one from
-    Campania, three from Calabria and Sicily — buried within the same fence in Queensland. That is
-    not a family connection. It is what a migration looks like from the outside.</p>
+    <p class="lede">Nudgee Cemetery, beside Holy Cross church at Banyo, has been the Catholic burying
+    ground of northern Brisbane since the 1860s. It is run by the Archdiocese, not the city council,
+    which is why it does not appear in the Brisbane City Council grave search and why the family tree
+    recorded the cemetery but never a plot.</p>
+    <p class="lede" style="margin-top:1rem">The Archdiocese keeps its own register, and it was read on
+    <strong>10 September 2026</strong>. It supplies a plot, a register number, a date of birth, a date
+    of death and a date of interment for <strong>{documented.length}</strong> people in this
+    archive — and it corrects the family tree in <strong>{corrections.length}</strong> places.</p>
   </section>
 
   <section class="blk">
-    <h2>The thirteen</h2>
-    <div class="scroll" style="margin-top:16px">
+    <div class="lab">The finding</div>
+    <h2 style="margin-top:.4rem">Four plots in a row</h2>
+    <p class="dek" style="margin:.9rem 0 1.4rem">Michael Rocco Mazza's four grandparents were born in
+    three towns — <a href={u("/piedimonte-etneo")}>Piedimonte Etneo</a> on Etna,
+    <a href={u("/briatico")}>Briatico</a> on the Tyrrhenian coast, and
+    <a href={u("/scilla")}>Scilla</a> on the strait — about six hundred kilometres apart, in families
+    that had never met. They arrived in Australia between 1949 and 1953 on four different sailings.
+    They are buried in <strong>four consecutive plots</strong>.</p>
+
+    <div class="rec">
+      {quarterRow.map((o) => (<>
+        <div class="k">{o.plot}</div>
+        <div class="v">
+          <a href={u("/people/" + o.slug)} style="color:inherit"><strong>{o.name}</strong></a>
+          {o.registerName.toLowerCase() !== o.name.toLowerCase() &&
+            <span style="color:var(--ink-3)"> — entered in the register as {o.registerName}</span>}
+        </div>
+        <div class="w">{o.birth} – {o.death}</div>
+      </>))}
+    </div>
+
+    <p class="note" style="margin-top:24px">Two married couples, side by side, in the order they
+    died: <P n="Rocco Arena" /> in 1999, <P n="Sebastiano Mazza" /> in 2002,
+    <P n="Domenica Prostamo" /> in 2010, <P n="Angela Polistena" /> in 2018. Nineteen years between
+    the first burial and the last, and the plots were held.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Where the register beats the tree</div>
+    <h2 style="margin-top:.4rem">{corrections.length} corrections</h2>
+    <p class="dek" style="margin:.8rem 0 1.4rem">A burial register is a contemporary administrative
+    record made by the people who did the burying. A family tree is a recollection typed in later.
+    Where they disagree, this archive believes the register — and shows you both, so you can disagree
+    with it.</p>
+    <div class="scroll">
       <table>
-        <thead><tr><th>Name</th><th class="m">Born</th><th class="m">Died</th></tr></thead>
-        <tbody>{nudgee.sort((a, b) => (a.died || 9999) - (b.died || 9999)).map((b) => (
-          <tr><td><a href={u("/people/" + b.slug)}>{b.who}</a></td>
-              <td class="m">{b.born || "—"}</td><td class="m">{b.died || "—"}</td></tr>))}
+        <thead><tr><th>Person</th><th>Field</th><th>The tree said</th><th>The register says</th><th class="m">Plot</th></tr></thead>
+        <tbody>{corrections.map((c) => (
+          <tr>
+            <td><a href={u("/people/" + c.slug)}>{c.name}</a></td>
+            <td>{c.field === "birth" ? "Born" : "Died"}</td>
+            <td style="color:var(--ink-3);text-decoration:line-through">{c.was}</td>
+            <td><strong>{c.now}</strong></td>
+            <td class="m">{c.plot}</td>
+          </tr>))}
         </tbody>
       </table>
     </div>
-    <p class="cap">The tree records the cemetery but not the plot, the section or, for most of them,
-    the date. Nudgee's burial register would supply all three, and would confirm or correct every
-    death year in this table. It has not been consulted yet.</p>
+    <p class="note" style="margin-top:22px"><strong>One of these is not a mistake but a format.</strong>
+    The tree gives <P n="Venera Cavallaro" />'s death as <em>9 June 2013</em>; the register says
+    <em>6 September 2013</em>. 9/6 and 6/9 — a date written day-first and read month-first, or the
+    reverse. It is the commonest single error in transcribed genealogy and it is worth checking every
+    time a date in this archive looks a month or two out.</p>
+  </section>
+
+  <section class="blk">
+    <h2>The nineteen</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th class="m">Plot</th><th>In the register as</th><th>In this archive</th><th class="m">Born</th><th class="m">Died</th><th class="m">Interred</th></tr></thead>
+        <tbody>{documented.map((o) => (
+          <tr>
+            <td class="m">{o.plot}</td>
+            <td>{o.registerName}</td>
+            <td><a href={u("/people/" + o.slug)}>{o.name}</a></td>
+            <td class="m">{o.birth || "—"}</td>
+            <td class="m">{o.death || "—"}</td>
+            <td class="m">{o.interment || "—"}</td>
+          </tr>))}
+        </tbody>
+      </table>
+    </div>
+    <p class="cap">Brisbane Catholic Cemeteries deceased register (Nudgee), searched 10 September 2026.
+    Women appear under their married names — <P n="Domenica Prostamo" /> is entered as Domenica Mazza,
+    <P n="Angela Polistena" /> as Angelina Arena — which is why a search on a maiden name returns
+    nothing and why the archive matches on the spouse's surname too.</p>
+  </section>
+
+  <section class="blk">
+    <h2>The Falco lie here too</h2>
+    <p class="dek" style="margin-top:.8rem">This archive keeps meeting the same ground from a
+    different direction: <strong>five Falco of Arienzo</strong> are buried at Nudgee, and
+    <a href="https://daviddef.github.io/TheFalco/">that archive</a> found them independently, in the
+    same register, using the same endpoint. Two families with nothing whatever in common in Italy —
+    one from Campania, three from Calabria and Sicily — inside the same fence in Queensland. That is
+    not a family connection. It is what a migration looks like from the outside.</p>
   </section>
 
   <section class="blk" style="border-bottom:0">
@@ -49,6 +124,7 @@ const other = burials.filter((b) => !b.place.includes("Nudgee"));
     <p class="note" style="margin-top:20px">Three of them are at <strong>Arneytown, New Jersey</strong>
     — the Brigadier General William C. Doyle Veterans Memorial Cemetery. Burial there requires
     American military service. The Polistena who went to New York in the first wave produced at least
-    two servicemen, and the archive knows nothing else about them.</p>
+    two servicemen, and the archive knows nothing else about them.
+    <a href={u("/open-questions")}>Open question →</a></p>
   </section>
 </Base>
