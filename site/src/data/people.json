@@ -69,12 +69,6 @@
     "name": "Robert Sebastian Mazza",
     "slug": "robert-sebastian-mazza",
     "living": false
-   },
-   {
-    "id": "@I20@",
-    "name": "Michael Mazza",
-    "slug": "michael-mazza",
-    "living": false
    }
   ],
   "spouses": [
@@ -1776,63 +1770,6 @@
   "ancGen": null
  },
  {
-  "id": "@I20@",
-  "slug": "michael-mazza",
-  "name": "Michael Mazza",
-  "given": "Michael",
-  "surname": "Mazza",
-  "sex": "M",
-  "living": false,
-  "presumedLiving": true,
-  "comp": 4,
-  "datesHidden": true,
-  "born": null,
-  "died": null,
-  "events": [
-   {
-    "what": "born",
-    "tag": "BIRT",
-    "date": "",
-    "year": null,
-    "place": "Brisbane, Queensland"
-   }
-  ],
-  "birthPlace": "Brisbane, Queensland",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [
-   "michael-mazza-1.jpg"
-  ],
-  "parents": [
-   {
-    "id": "@I1@",
-    "name": "Frank Mazza",
-    "slug": "frank-mazza",
-    "living": false
-   },
-   {
-    "id": "@I25@",
-    "name": "Nancy Arena",
-    "slug": "nancy-arena",
-    "living": false
-   }
-  ],
-  "children": [],
-  "spouses": [],
-  "siblings": [
-   {
-    "id": "@I27@",
-    "name": "Angela Mazza",
-    "slug": "angela-mazza",
-    "living": false
-   }
-  ],
-  "records": [],
-  "onSpine": false,
-  "ancGen": null
- },
- {
   "id": "@I22@",
   "slug": "rosario-mazza-3",
   "name": "Rosario Mazza",
@@ -2025,21 +1962,15 @@
   ],
   "children": [
    {
-    "id": "@I20@",
-    "name": "Michael Mazza",
-    "slug": "michael-mazza",
+    "id": "@I26@",
+    "name": "Michael Rocco Mazza",
+    "slug": "michael-rocco-mazza",
     "living": false
    },
    {
     "id": "@I27@",
     "name": "Angela Mazza",
     "slug": "angela-mazza",
-    "living": false
-   },
-   {
-    "id": "@I26@",
-    "name": "Michael Rocco Mazza",
-    "slug": "michael-rocco-mazza",
     "living": false
    }
   ],
@@ -2206,12 +2137,6 @@
    }
   ],
   "siblings": [
-   {
-    "id": "@I20@",
-    "name": "Michael Mazza",
-    "slug": "michael-mazza",
-    "living": false
-   },
    {
     "id": "@I26@",
     "name": "Michael Rocco Mazza",
@@ -9864,12 +9789,6 @@
     "name": "Joseph A Polistena",
     "slug": "joseph-a-polistena",
     "living": false
-   },
-   {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
-    "living": false
    }
   ],
   "siblings": [
@@ -10004,6 +9923,12 @@
     "name": "Giuseppa D'Ascoli",
     "slug": "giuseppa-dascoli",
     "living": false
+   },
+   {
+    "id": "@I139@",
+    "name": "Giuseppi Polistena",
+    "slug": "giuseppi-polistena",
+    "living": false
    }
   ],
   "children": [
@@ -10034,7 +9959,38 @@
     "living": false
    }
   ],
-  "siblings": [],
+  "siblings": [
+   {
+    "id": "@I144@",
+    "name": "Freddy Polistena",
+    "slug": "freddy-polistena",
+    "living": false
+   },
+   {
+    "id": "@I145@",
+    "name": "Nunziatta Polistena",
+    "slug": "nunziatta-polistena-2",
+    "living": false
+   },
+   {
+    "id": "@I146@",
+    "name": "Antonio Polistena",
+    "slug": "antonio-polistena-3",
+    "living": false
+   },
+   {
+    "id": "@I147@",
+    "name": "Gaiatano Polistena",
+    "slug": "gaiatano-polistena",
+    "living": false
+   },
+   {
+    "id": "@I148@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena-4",
+    "living": false
+   }
+  ],
   "records": [],
   "onSpine": false,
   "ancGen": null
@@ -10127,12 +10083,6 @@
     "id": "@I144@",
     "name": "Freddy Polistena",
     "slug": "freddy-polistena",
-    "living": false
-   },
-   {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
     "living": false
    },
    {
@@ -10989,9 +10939,9 @@
     "living": false
    },
    {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
+    "id": "@I129@",
+    "name": "Joseph A Polistena",
+    "slug": "joseph-a-polistena",
     "living": false
    },
    {
@@ -11240,106 +11190,6 @@
   "ancGen": null
  },
  {
-  "id": "@I143@",
-  "slug": "joseph-polistena",
-  "name": "Joseph Polistena",
-  "given": "Joseph",
-  "surname": "Polistena",
-  "sex": "M",
-  "living": false,
-  "presumedLiving": false,
-  "comp": 1,
-  "datesHidden": false,
-  "born": 1916,
-  "died": 2012,
-  "events": [
-   {
-    "what": "born",
-    "tag": "BIRT",
-    "date": "1916",
-    "year": 1916,
-    "place": "Scilla, Reggio Calabria"
-   },
-   {
-    "what": "died",
-    "tag": "DEAT",
-    "date": "15 February 2012",
-    "year": 2012,
-    "place": ""
-   },
-   {
-    "what": "buried",
-    "tag": "BURI",
-    "date": "",
-    "year": null,
-    "place": "Arneytown, Burlington County, New Jersey"
-   }
-  ],
-  "birthPlace": "Scilla, Reggio Calabria",
-  "deathPlace": "",
-  "burialPlace": "Arneytown, Burlington County, New Jersey",
-  "sources": [],
-  "photos": [],
-  "parents": [
-   {
-    "id": "@I139@",
-    "name": "Giuseppi Polistena",
-    "slug": "giuseppi-polistena",
-    "living": false
-   },
-   {
-    "id": "@I131@",
-    "name": "Giuseppa D'Ascoli",
-    "slug": "giuseppa-dascoli",
-    "living": false
-   }
-  ],
-  "children": [],
-  "spouses": [
-   {
-    "id": "@I128@",
-    "name": "Santa Polistena",
-    "slug": "santa-polistena",
-    "living": false
-   }
-  ],
-  "siblings": [
-   {
-    "id": "@I144@",
-    "name": "Freddy Polistena",
-    "slug": "freddy-polistena",
-    "living": false
-   },
-   {
-    "id": "@I145@",
-    "name": "Nunziatta Polistena",
-    "slug": "nunziatta-polistena-2",
-    "living": false
-   },
-   {
-    "id": "@I146@",
-    "name": "Antonio Polistena",
-    "slug": "antonio-polistena-3",
-    "living": false
-   },
-   {
-    "id": "@I147@",
-    "name": "Gaiatano Polistena",
-    "slug": "gaiatano-polistena",
-    "living": false
-   },
-   {
-    "id": "@I148@",
-    "name": "Giovanni Polistena",
-    "slug": "giovanni-polistena-4",
-    "living": false
-   }
-  ],
-  "records": [],
-  "onSpine": false,
-  "ancGen": null
- },
- {
   "id": "@I144@",
   "slug": "freddy-polistena",
   "name": "Freddy Polistena",
@@ -11384,9 +11234,9 @@
   "spouses": [],
   "siblings": [
    {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
+    "id": "@I129@",
+    "name": "Joseph A Polistena",
+    "slug": "joseph-a-polistena",
     "living": false
    },
    {
@@ -11461,9 +11311,9 @@
     "living": false
    },
    {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
+    "id": "@I129@",
+    "name": "Joseph A Polistena",
+    "slug": "joseph-a-polistena",
     "living": false
    },
    {
@@ -11539,9 +11389,9 @@
     "living": false
    },
    {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
+    "id": "@I129@",
+    "name": "Joseph A Polistena",
+    "slug": "joseph-a-polistena",
     "living": false
    },
    {
@@ -11610,9 +11460,9 @@
     "living": false
    },
    {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
+    "id": "@I129@",
+    "name": "Joseph A Polistena",
+    "slug": "joseph-a-polistena",
     "living": false
    },
    {
@@ -11688,9 +11538,9 @@
     "living": false
    },
    {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
+    "id": "@I129@",
+    "name": "Joseph A Polistena",
+    "slug": "joseph-a-polistena",
     "living": false
    },
    {

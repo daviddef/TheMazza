@@ -53,7 +53,7 @@
  },
  {
   "name": "Brisbane, Queensland",
-  "born": 79,
+  "born": 78,
   "died": 20,
   "buried": 0,
   "lived": 5,
@@ -68,7 +68,6 @@
    "robert-sebastian-mazza",
    "ranee-turner",
    "jack-mazza",
-   "michael-mazza",
    "nancy-arena",
    "michael-rocco-mazza",
    "angela-mazza",
@@ -99,13 +98,14 @@
    "carmela-prostamo-1976",
    "maria-rosa-prostamo-1956",
    "francesco-prostamo-1961",
-   "tony-prostamo"
+   "tony-prostamo",
+   "kristina-prostamo"
   ],
-  "n": 104
+  "n": 103
  },
  {
   "name": "Scilla, Reggio Calabria",
-  "born": 71,
+  "born": 70,
   "died": 8,
   "buried": 0,
   "lived": 0,
@@ -133,7 +133,6 @@
    "teressa-polistena",
    "michael-antonio-polistena",
    "giuseppi-polistena",
-   "joseph-polistena",
    "rocco-bova",
    "peter-bova",
    "peter-bova",
@@ -151,9 +150,10 @@
    "giuseppe-arena-1932",
    "giuseppe-arena-1932",
    "mario-salvatore-arena",
-   "concetta-russo"
+   "concetta-russo",
+   "domenico-donato"
   ],
-  "n": 79
+  "n": 78
  },
  {
   "name": "Piedimonte Etneo, Catania, Sicily",
@@ -572,21 +572,6 @@
   "n": 4
  },
  {
-  "name": "Arneytown, Burlington County, New Jersey",
-  "born": 0,
-  "died": 0,
-  "buried": 3,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "santa-polistena",
-   "joseph-a-polistena",
-   "joseph-polistena"
-  ],
-  "n": 3
- },
- {
   "name": "Great Britain",
   "born": 3,
   "died": 0,
@@ -626,6 +611,20 @@
   "who": [
    "rosario-coco",
    "luciano-pagano"
+  ],
+  "n": 2
+ },
+ {
+  "name": "Arneytown, Burlington County, New Jersey",
+  "born": 0,
+  "died": 0,
+  "buried": 2,
+  "lived": 0,
+  "first": null,
+  "last": null,
+  "who": [
+   "santa-polistena",
+   "joseph-a-polistena"
   ],
   "n": 2
  },

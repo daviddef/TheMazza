@@ -1241,9 +1241,9 @@
     "living": false
    },
    {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
+    "id": "@I129@",
+    "name": "Joseph A Polistena",
+    "slug": "joseph-a-polistena",
     "living": false
    },
    {
@@ -1295,12 +1295,6 @@
     "id": "@I144@",
     "name": "Freddy Polistena",
     "slug": "freddy-polistena",
-    "living": false
-   },
-   {
-    "id": "@I143@",
-    "name": "Joseph Polistena",
-    "slug": "joseph-polistena",
     "living": false
    },
    {
@@ -4121,12 +4115,6 @@
     "name": "Robert Sebastian Mazza",
     "slug": "robert-sebastian-mazza",
     "living": false
-   },
-   {
-    "id": "@I20@",
-    "name": "Michael Mazza",
-    "slug": "michael-mazza",
-    "living": false
    }
   ],
   "place": "Brisbane, Queensland",
@@ -4247,21 +4235,15 @@
   },
   "children": [
    {
-    "id": "@I20@",
-    "name": "Michael Mazza",
-    "slug": "michael-mazza",
+    "id": "@I26@",
+    "name": "Michael Rocco Mazza",
+    "slug": "michael-rocco-mazza",
     "living": false
    },
    {
     "id": "@I27@",
     "name": "Angela Mazza",
     "slug": "angela-mazza",
-    "living": false
-   },
-   {
-    "id": "@I26@",
-    "name": "Michael Rocco Mazza",
-    "slug": "michael-rocco-mazza",
     "living": false
    }
   ],

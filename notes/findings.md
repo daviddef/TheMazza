@@ -234,3 +234,35 @@ That contrast is the finding. It is not that the Arena were better recorded: *Ar
 archive through one household somebody had worked on, and *Mazza* entered as a surname. **The name a
 family is known by tells you least about it** — and group 2's Rosario Mazza, born 1850 in the same
 small town as Salvatore, remains the highest-value join in the archive.
+
+---
+
+## 10 September 2026 — two more merge bugs, found from a grave in New Jersey
+
+Chasing the three Polistena buried at **Arneytown, New Jersey** turned up a duplicate the build had
+refused to merge:
+
+> **Joseph A Polistena** (b. 1917) and **Joseph Polistena** (b. 1916) — same parents (Giuseppi
+> Polistena & Giuseppa D'Ascoli), same wife (Santa Polistena), **the same full death date,
+> 15 February 2012**, and the same grave. One man.
+
+The merge rule keyed on the **exact normalised name**, so a **single middle initial** defeated it
+entirely. The same bug was hiding **Michael Mazza / Michael Rocco Mazza** — same parents, both born
+1988 — which is the very duplicate that was spotted by hand on the first pass of this archive and
+then quietly refused by the code.
+
+**The fix.** Names are compared a second time at a looser key — *surname plus first forename*, middle
+names and initials dropped. Because that test is weaker, the corroboration required is stronger:
+
+- an identical **full** death date (day, month and year); **or**
+- identical parents **and** identical spouse; **or**
+- the same birth year **plus** identical parents or identical spouse.
+
+A shared surname and forename alone still prove nothing. Dry-run across all 614 exported individuals,
+the widened rule finds **exactly two** further people — the two above — and no false positives.
+Duplicates merged: 15 → **17**. People: 599 → **597**.
+
+**The lesson worth keeping**: the first rule was written to stop over-merging, and it did. It then
+under-merged in the one shape it could not see. Both failures come from treating *the name string* as
+the unit — the unit is the person, and the evidence for identity is the family and the dates around
+them.

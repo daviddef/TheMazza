@@ -1,17 +1,17 @@
 {
  "stats": {
   "exported": 614,
-  "people": 599,
-  "duplicates": 15,
+  "people": 597,
+  "duplicates": 17,
   "unresolvedNames": 58,
   "suppressLiving": false,
   "living": 0,
-  "presumedLiving": 416,
-  "written": 599,
-  "withDeath": 69,
-  "datesHidden": 134,
+  "presumedLiving": 415,
+  "written": 597,
+  "withDeath": 68,
+  "datesHidden": 133,
   "ageThreshold": 80,
-  "deceased": 599,
+  "deceased": 597,
   "families": 212,
   "sources": 39,
   "components": [
@@ -53,6 +53,15 @@
    "why": "same name and same birth year"
   },
   {
+   "name": "Michael Rocco Mazza",
+   "year": 1988,
+   "kept": "@I26@",
+   "dropped": [
+    "@I20@"
+   ],
+   "why": "names differing only by a middle name or initial — the same parents, the same birth year (1988)"
+  },
+  {
    "name": "Angela Mazza",
    "year": 1990,
    "kept": "@I27@",
@@ -87,6 +96,15 @@
     "@I151@"
    ],
    "why": "same name and same birth year"
+  },
+  {
+   "name": "Joseph A Polistena",
+   "year": 1917,
+   "kept": "@I129@",
+   "dropped": [
+    "@I143@"
+   ],
+   "why": "names differing only by a middle name or initial — the same full death date (15 February 2012)"
   },
   {
    "name": "Giuseppa D'Ascoli",

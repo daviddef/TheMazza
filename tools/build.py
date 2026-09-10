@@ -223,6 +223,26 @@ def is_dead(x):
 def norm_name(x):
     return re.sub(r"[^a-z]", "", nm(x).lower())
 
+def name_key(x):
+    """Surname plus FIRST forename — middle names and initials dropped.
+
+    "Joseph A Polistena" and "Joseph Polistena" are one man: same wife, same
+    death date, same grave at Arneytown. An exact-name rule cannot see that,
+    because a single middle initial makes the two strings differ. So names are
+    compared at this looser key as well — and a match on the looser key demands
+    correspondingly stronger corroboration below.
+    """
+    toks = [t for t in re.sub(r"[^A-Za-z ]", " ", given(x)).split() if len(t) > 1]
+    return (re.sub(r"[^a-z]", "", surname(x).lower()),
+            re.sub(r"[^a-z]", "", toks[0].lower()) if toks else "")
+
+def death_date_str(x):
+    """A full death date — day, month and year — or empty. Highly specific."""
+    e = kid(I[x], "DEAT")
+    d = val(e, "DATE") if e else ""
+    ok = d and re.search(r"\d{4}", d) and re.search(r"[A-Za-z]{3}", d)
+    return d.strip().upper() if ok else ""
+
 def richness(x):
     """How much the export actually knows about this copy of a person."""
     i = I[x]
@@ -276,6 +296,35 @@ def same_person(a, b):
     return bool(_fam_names(a, "up") & _fam_names(b, "up")) or \
            bool(_fam_names(a, "down") & _fam_names(b, "down"))
 
+def same_person_loose(a, b):
+    """Same surname and first forename, differing only in middle names.
+
+    Because the name test is weaker here, the corroboration has to be stronger
+    than for an exact-name match. One of:
+      * an identical FULL death date — day, month and year;
+      * identical parents AND identical spouse;
+      * the same birth year AND either identical parents or identical spouse.
+    A shared surname and forename on their own prove nothing at all.
+    """
+    if norm_name(a) == norm_name(b):
+        return False                         # the exact rule already owns this
+    ka, kb = name_key(a), name_key(b)
+    if not (ka[0] and ka[1]) or ka != kb:
+        return False
+    da, db = death_date_str(a), death_date_str(b)
+    pa, pb = _fam_names(a, "up"), _fam_names(b, "up")
+    sa, sb = _fam_names(a, "down"), _fam_names(b, "down")
+    ya, yb = birth_year(a), birth_year(b)
+    same_par = bool(pa) and pa == pb
+    same_sp = bool(sa) and sa == sb
+    if da and db and da == db:
+        return True
+    if same_par and same_sp:
+        return True
+    if ya and yb and ya == yb and (same_par or same_sp):
+        return True
+    return False
+
 # union-find over pairs that pass same_person
 parent_uf = {x: x for x in I}
 def find(x):
@@ -308,6 +357,38 @@ for n, xs in by_name.items():
                            "ids": sorted(roots),
                            "why": "same name, no shared date and no shared family — left as separate people"})
 
+LOOSE_WHY = {}
+
+# second pass: names that differ only by a middle name or initial
+loose = collections.defaultdict(list)
+for x in I:
+    k = name_key(x)
+    if k[0] and k[1]:
+        loose[k].append(x)
+for k, xs in loose.items():
+    if len(xs) < 2:
+        continue
+    for a_i in range(len(xs)):
+        for b_i in range(a_i + 1, len(xs)):
+            if same_person_loose(xs[a_i], xs[b_i]):
+                a2, b2 = xs[a_i], xs[b_i]
+                da, db = death_date_str(a2), death_date_str(b2)
+                pa, pb = _fam_names(a2, "up"), _fam_names(b2, "up")
+                sa, sb = _fam_names(a2, "down"), _fam_names(b2, "down")
+                bits = []
+                if da and db and da == db:
+                    bits.append(f"the same full death date ({pretty_date(da)})")
+                if pa and pa == pb:
+                    bits.append("the same parents")
+                if sa and sa == sb:
+                    bits.append("the same spouse")
+                if birth_year(a2) and birth_year(a2) == birth_year(b2):
+                    bits.append(f"the same birth year ({birth_year(a2)})")
+                LOOSE_WHY[frozenset((a2, b2))] = (
+                    "names differing only by a middle name or initial — "
+                    + ", ".join(bits))
+                union(a2, b2)
+
 clusters = collections.defaultdict(list)
 for x in I:
     clusters[find(x)].append(x)
@@ -320,8 +401,10 @@ for root, xs in clusters.items():
     if len(xs) > 1:
         duplicates.append({"name": nm(best), "year": birth_year(best),
                            "kept": best, "dropped": [x for x in xs if x != best],
-                           "why": "same name and same birth year" if birth_year(best)
-                                  else "same name and the same family around them"})
+                           "why": next(
+                               (w for pair, w in LOOSE_WHY.items() if pair <= set(xs)),
+                               "same name and same birth year" if birth_year(best)
+                               else "same name and the same family around them")})
 
 adj = collections.defaultdict(set)
 for fx, f in F.items():

@@ -1,10 +1,10 @@
 [
  {
   "comp": 1,
-  "n": 469,
+  "n": 468,
   "earliest": 1697,
   "latest": 1970,
-  "dated": 200,
+  "dated": 199,
   "towns": [
    {
     "name": "Briatico, Vibo Valentia, Calabria",
@@ -16,7 +16,7 @@
    },
    {
     "name": "Scilla, Reggio Calabria",
-    "n": 71
+    "n": 70
    },
    {
     "name": "Buenos Aires, Argentina",
@@ -30,7 +30,7 @@
    },
    {
     "name": "Polistena",
-    "n": 46
+    "n": 45
    },
    {
     "name": "Arena",
@@ -1174,15 +1174,6 @@
     "died": null,
     "datesHidden": false,
     "birthPlace": ""
-   },
-   {
-    "slug": "joseph-polistena",
-    "name": "Joseph Polistena",
-    "surname": "Polistena",
-    "born": 1916,
-    "died": 2012,
-    "datesHidden": false,
-    "birthPlace": "Scilla, Reggio Calabria"
    },
    {
     "slug": "rocco-bova",
@@ -5571,37 +5562,6 @@
     "died": null,
     "datesHidden": false,
     "birthPlace": ""
-   }
-  ]
- },
- {
-  "comp": 4,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [
-   {
-    "name": "Brisbane, Queensland",
-    "n": 1
-   }
-  ],
-  "surnames": [
-   {
-    "name": "Mazza",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "michael-mazza",
-    "name": "Michael Mazza",
-    "surname": "Mazza",
-    "born": null,
-    "died": null,
-    "datesHidden": true,
-    "birthPlace": "Brisbane, Queensland"
    }
   ]
  },
