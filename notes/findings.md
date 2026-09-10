@@ -491,3 +491,60 @@ right), so the act→image mapping must be **calibrated per volume** — `tools/
 the left margins of four images so one look establishes the offset. `tools/build_acts.py` turns the
 transcribed acts into households; key households on **names only**, since a clerk may call the same
 woman *contadina* one year and *industriosa* the next.
+
+---
+
+## 10 September 2026 (later) — the father named, and a correction
+
+**Correction first.** The previous entry gave Salvatore Mazza's father as **Venerio**, read from
+atto 5 of 1876, and inferred that Salvatore's son *Venerio* (1879) was named for his paternal
+grandfather in the ordinary Sicilian way. **Both were wrong.**
+
+**Matrimoni 1874, atto 26** (`an_ua83395`, image 24), 19 July 1874, spells the name out in full:
+
+> …sono comparsi **Antonino Mazza**, di anni **trentuno**, bracciante, qui nato, domiciliato e
+> residente, **figlio d'Innocenzio**, bracciante, **e di Domenica Cavallaro**, industriosa, ivi
+> domiciliata — e **Rosa Raiti**, di anni **venti**, industriosa, qui nata… figlia di **Giuseppe**,
+> bracciante, e di **Agata Pennisi**, industriosa.
+> Witnesses: **Angelo Russo fu Venero**, 40, bracciante; **Felice Russo fu Angelo**, 60, bracciante.
+
+Magnified, atto 5 of 1876 reads **«…o di Senzio…»** — the standard Sicilian contraction of
+**Innocenzio**, not *Venerio*. The two acts agree; the first reading did not.
+
+**The naming inference is withdrawn.** Where the name *Venerio* comes from is now open — the
+Cavallaro side, a godparent, or a generation nobody has reached.
+
+### What is now established
+
+**INNOCENZIO MAZZA × DOMENICA CAVALLARO**, a couple of the 1810s–20s, both recorded as living at
+Piedimonte Etneo in the 1870s. Two documented sons:
+
+| Son | Age at marriage | Born | Married | Act |
+|---|---|---|---|---|
+| **Salvatore Mazza** | 34, Jan 1876 | c. 1841 | **Concetta Sciacca**, 19, *fu Antonino Sciacca × Rosaria Greco* | Matrimoni 1876, atto 5 |
+| **Antonino Mazza** | 31, Jul 1874 | c. 1843 | **Rosa Raiti**, 20, *Giuseppe Raiti × Agata Pennisi* | Matrimoni 1874, atto 26 |
+
+**Salvatore and Antonino are brothers** — two independent acts, two years apart, naming the same
+mother. This is the first proved sibling relationship in the Sicilian line.
+
+Note also **Raiti**: a surname that appears in the tree's unjoined 110-person cluster.
+
+### Rosario is still unattached
+
+Rosario Mazza (b. c. 1846–48, × Leonarda Bonaccorso) does **not** appear in the marriage indexes for
+**1873, 1874, 1875 or 1876** — 1874 has only Antonino, 1876 only Salvatore. So either he married
+**1872 or earlier**, or **in his bride's comune**, which is the commoner practice. Bonaccorso is a
+Catania-area name; Fiumefreddo, Calatabiano, Linguaglossa and Castiglione are the neighbours to try.
+
+**Alternative route:** Rosario's own **death act** would name his parents, and death registers carry
+the same alphabetical annual index. That is probably cheaper than sweeping six comuni of marriages.
+
+### Method note
+
+**Conservation cards are the real obstacle**, not Cloudflare. Black cards laid across an opening hide
+whole columns in the 1873 and 1874 index scans and in several act pages. The workaround is to crop
+the *other* half of the opening: act 26's left column is buried, but the same text runs again in the
+right-hand column, and `pct:52,44,46,40` recovered it in full.
+
+**And magnify before trusting a forename.** «Senzio» at full-page scale looked like «Venerio». One
+IIIF crop at `pct:40,17,34,10` settled it.

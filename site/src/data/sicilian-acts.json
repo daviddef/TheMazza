@@ -77,12 +77,26 @@
    "ark": "an_ua83397",
    "img": "7",
    "subject": "Salvatore Mazza & Concetta Sciacca",
-   "father": "Venerio Mazza",
+   "father": "Innocenzio Mazza",
    "fatherAge": "—",
    "mother": "Cavallaro Domenica",
    "street": "—",
    "date": "16 January 1876",
-   "note": "Read in full. THE KEY ACT. Salvatore, 34, bracciante, born and resident Piedimonte Etneo, son of Venerio and of Domenica Cavallaro. Concetta Sciacca, 19, contadina, daughter of the late Antonino Sciacca and Rosaria Greco."
+   "note": "Read in full. THE KEY ACT. Salvatore, 34, bracciante, born and resident Piedimonte Etneo, son of Innocenzio and of Domenica Cavallaro — the father's name written in the contracted form «Senzio». Concetta Sciacca, 19, contadina, daughter of the late Antonino Sciacca and Rosaria Greco."
+  },
+  {
+   "kind": "marriage",
+   "year": "1874",
+   "act": "26",
+   "ark": "an_ua83395",
+   "img": "24",
+   "subject": "Antonino Mazza & Rosa Raiti",
+   "father": "Innocenzio Mazza",
+   "fatherAge": "—",
+   "mother": "Cavallaro Domenica",
+   "street": "—",
+   "date": "19 July 1874",
+   "note": "Read in full. Antonino Mazza, 31, bracciante, born and resident Piedimonte Etneo, «figlio d'Innocenzio, bracciante, e di Domenica Cavallaro, industriosa». Rosa Raiti, 20, industriosa, daughter of Giuseppe Raiti, bracciante, and Agata Pennisi. Witnesses Angelo Russo fu Venero, 40, and Felice Russo fu Angelo, 60. THIS IS THE ACT THAT SPELLS THE FATHER'S NAME IN FULL and makes Salvatore and Antonino brothers."
   }
  ],
  "households": [
@@ -197,7 +211,35 @@
   },
   {
    "f": "matr1876-act5-mazza-sciacca.jpg",
-   "t": "Marriage act 5, 16 January 1876 — Salvatore Mazza, son of Venerio and Domenica Cavallaro, marries Concetta Sciacca"
+   "t": "Marriage act 5, 16 January 1876 — Salvatore Mazza, son of Innocenzio and Domenica Cavallaro, marries Concetta Sciacca"
+  },
+  {
+   "f": "matr1874-act26-mazza-raiti.jpg",
+   "t": "Marriage act 26, 19 July 1874 — Antonino Mazza, 31, «figlio d'Innocenzio… e di Domenica Cavallaro», marries Rosa Raiti"
+  },
+  {
+   "f": "matr1876-act5-father-detail.jpg",
+   "t": "Act 5 of 1876, magnified: «…o di Senzio…» — the contraction of Innocenzio that this archive first misread as Venerio"
   }
- ]
+ ],
+ "parents": {
+  "father": "Innocenzio Mazza",
+  "mother": "Domenica Cavallaro",
+  "sons": [
+   {
+    "name": "Salvatore Mazza",
+    "born": "c. 1841",
+    "age": "34 in January 1876",
+    "wife": "Concetta Sciacca",
+    "act": "Matrimoni 1876, atto 5"
+   },
+   {
+    "name": "Antonino Mazza",
+    "born": "c. 1843",
+    "age": "31 in July 1874",
+    "wife": "Rosa Raiti",
+    "act": "Matrimoni 1874, atto 26"
+   }
+  ]
+ }
 }

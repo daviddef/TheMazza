@@ -20,11 +20,20 @@ Updated 10 September 2026, the day the archive was built.
 - [x] **Acts 1877/164, 1877/168 and 1880/66 READ** — three households reconstructed.
 - [x] **PE MARRIAGES 1875 and 1876 READ.** Atto 5 of 1876: **Salvatore Mazza, son of VENERIO MAZZA
       and DOMENICA CAVALLARO**, marries Concetta Sciacca. A generation above the tree.
-- [ ] **ROSARIO MAZZA'S MARRIAGE — the keystone.** Not in 1875 or 1876, so **1874 or earlier**;
-      volumes exist from 1866 (an_ua83386). If his parents are Venerio and Domenica Cavallaro, he and
-      Salvatore are brothers and the hundred and ten join a documented couple. **DO THIS NEXT.**
-- [ ] **Venerio Mazza × Domenica Cavallaro** — their marriage (c. 1835–40, pre-civil-registration in
-      Sicily, so parish) and any other children. The new frontier.
+- [x] **Antonino Mazza's marriage READ** (1874, atto 26) — «figlio d'Innocenzio e di Domenica
+      Cavallaro». Proves Salvatore and Antonino BROTHERS, and corrects the father's name.
+- [ ] **ROSARIO MAZZA'S PARENTS — the keystone.** His marriage is **not** in PE 1873, 1874, 1875 or
+      1876. Two routes:
+      (a) **his death act** — names parents, and death volumes carry the same annual index. Probably
+          cheapest. Try PE Morti from c. 1900 onward.
+      (b) **the bride's comune** — Leonarda Bonaccorso; try Fiumefreddo, Calatabiano, Linguaglossa,
+          Castiglione di Sicilia, and PE marriages 1866–1872.
+- [ ] **Innocenzio Mazza × Domenica Cavallaro** — their own marriage (c. 1835–40). Sicilian civil
+      registration starts 1820, so it may be in PE Matrimoni; otherwise parish. The new frontier.
+- [ ] **Is Pasquale Mazza (b. c.1829) a third brother, or their father's brother?** His marriage or
+      death act would say.
+- [ ] **Raiti** appears in the tree's unjoined 110 AND as Antonino's wife's surname. Check whether
+      that is the same kindred.
 - [ ] **Piedimonte Etneo Nati 1875, 1876, 1883 onward** — Salvatore is still missing.
 - [ ] The fathers behind 1882/24 (Pietro) and 1882/75 (Santo).
 - [ ] **Catania**, where Salvatore died in 1929.
