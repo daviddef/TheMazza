@@ -98,11 +98,11 @@ const dek = p.ancGen === 0 || p.onSpine
       )}
       {p.corrections && p.corrections.length ? (
         <div class="note" style="margin-top:14px">
-          <strong>The register contradicts the tree about this person.</strong>
+          <strong>What a register says about this person, which the tree does not.</strong>
           {p.corrections.map((c) => <p style="margin-top:.5rem">{c}</p>)}
-          <p style="margin-top:.5rem" class="small">The chart above still draws the tree as it
-          stands. This archive does not silently rewrite what it was given —
-          <a href={u("/scilla")}> the act is here</a>.</p>
+          <p style="margin-top:.5rem" class="small">Where the two disagree, <strong>the chart above
+          still draws the tree as it stands</strong>. This archive does not silently rewrite what it
+          was given — <a href={u("/scilla")}>the acts are here</a>.</p>
         </div>
       ) : null}
       {p.onSpine && (

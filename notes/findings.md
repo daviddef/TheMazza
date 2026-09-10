@@ -1176,3 +1176,54 @@ first. This low resolution is also why the 1861 index's parents column misled th
 2. **Scilla, Nati 1845–1860 — a Donato.** Same index, same method.
 3. **Scilla, Matrimoni 1899, atto 62** — Arena Domenico × Arena Maria, named in act 81's margin.
 4. **Scilla, Matrimoni 1905–1912** — eight volumes; Polistena × Donato is not in 1913.
+
+### Scilla, Nati 1859, atto 46 (`an_ua2002928`, container `5vEYzey`, image 156)
+
+Opened looking for **Giovanni Arena**, whom act 230 of 1892 had just relocated from 1870 to about
+1859. **He is not there.** The A section holds exactly three Arena births:
+
+| act | child | parents | date |
+|---|---|---|---|
+| 46 | Arena **Domenico** | **Orazio e Zirilli Giovanna** | 10 February |
+| 111 | Arena Maria | Giosafatto e Longordo Rosaria | 1 May |
+| 205 | Arena Annunziato | Santo e Gioffrè Giovanna | 15 September |
+
+**Act 46 is worth more than the act that was wanted.** Orazio Arena and Giovanna Zirilli are the
+couple the tree names as Rocco Arena's parents, and until now the archive had found **neither of
+them in any register**. The 1861 act said Francesco Antonio Arena and Serafina Arlotta, and the
+honest reading for a day was that the tree might have invented them. **It did not.** They were at
+Scilla and having children.
+
+This does **not** make Rocco their son — 1861 holds exactly one Rocco Arena and he is Francesco
+Antonio's. What it does is move the likely error from the *parents* to the *year*, which is now a
+bounded, findable thing.
+
+*(Note: the 1892 birth index carries an Arena Giovanna **di Annunziato** at act 222 — probably this
+act-205 boy's daughter, thirty-three years on.)*
+
+### A tree duplicate, flagged and deliberately not merged
+
+The export gives Orazio Arena **two wives**: `@I374@` Giovanna Zirilli b. 1827, mother of Guiseppe;
+`@I455@` Giovana Zirilli, undated, mother of Rocco. Same husband record. That is the classic
+signature of an accidental duplicate, and act 46 shows a single couple.
+
+**Not merged.** Surname endogamy at Scilla is an observed fact, not a theory: the 1913 marriage index
+alone has **Bueti × Bueti, Cambareri × Cambareri, Larizza × Larizza and Vizzari × Vizzari**. A second
+wife of the same surname is exactly the sort of thing that happens here. The test is Rocco Arena's
+actual birth act, which will name his mother.
+
+### Method: getting every ark in a series in ONE page load
+
+The `search-registry` listing has a hidden page-size control, `#search_size`, with a **100** option.
+Setting it and dispatching a `change` event navigates to the same URL plus **`&s_size=100`** — so a
+55-volume series comes back on one page instead of six.
+
+    https://antenati.cultura.gov.it/search-registry/?tipologia=Nati&serie=<id>&s_size=100
+
+Scilla series ids: **Stato civile italiano, Nati = 16594786** (39 vols, 1866–1904);
+**Stato civile della restaurazione, Nati = 2002440** (55 vols, 1816–1865).
+All 55 restaurazione arks are now in **`data/scilla-arks.tsv`** — they are *not* computable from the
+year, because that series interleaves Nati, Morti and Matrimoni and the gaps run 2–4.
+
+**This is the single most useful Antenati technique this archive has found**, given that the portal
+rate-limits at roughly three page loads: it turns "one load per year" into "one load per series".

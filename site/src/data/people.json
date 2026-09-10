@@ -9423,10 +9423,18 @@
    }
   ],
   "siblings": [],
-  "records": [],
+  "records": [
+   {
+    "kind": "negative search",
+    "what": "Scilla, Nati 1851 — the complete D section, and no Donato in it",
+    "href": "/scilla"
+   }
+  ],
   "onSpine": true,
   "ancGen": 5,
-  "corrections": []
+  "corrections": [
+   "The tree puts his birth at Scilla in 1851. The 1851 index's D block is complete and holds no Donato. His eldest son was born 1878, so his birth sits somewhere around 1848-1858."
+  ]
  },
  {
   "id": "@I123@",
@@ -26538,10 +26546,18 @@
    }
   ],
   "siblings": [],
-  "records": [],
+  "records": [
+   {
+    "kind": "birth register",
+    "what": "Scilla, Nati 1859, atto 46 — a son Domenico, born 10 February 1859",
+    "href": "/scilla"
+   }
+  ],
   "onSpine": true,
   "ancGen": 6,
-  "corrections": []
+  "corrections": [
+   "The tree gives him no source at all. Act 46 of 1859 records him and Giovanna Zirilli as the parents of a son Domenico at Scilla — the first record of this couple the archive has found. It does not confirm Rocco Arena as their son."
+  ]
  },
  {
   "id": "@I372@",
@@ -26687,10 +26703,18 @@
    }
   ],
   "siblings": [],
-  "records": [],
+  "records": [
+   {
+    "kind": "birth register",
+    "what": "Scilla, Nati 1859, atto 46 — named as the mother, with Orazio Arena",
+    "href": "/scilla"
+   }
+  ],
   "onSpine": false,
   "ancGen": null,
-  "corrections": []
+  "corrections": [
+   "See the duplicate record for Giovana Zirilli. The archive has left them unmerged pending Rocco Arena's actual birth act."
+  ]
  },
  {
   "id": "@I375@",
@@ -31773,10 +31797,18 @@
    }
   ],
   "siblings": [],
-  "records": [],
+  "records": [
+   {
+    "kind": "birth register",
+    "what": "Scilla, Nati 1859, atto 46 — named as the mother, with Orazio Arena",
+    "href": "/scilla"
+   }
+  ],
   "onSpine": true,
   "ancGen": 6,
-  "corrections": []
+  "corrections": [
+   "The export carries her twice as Orazio Arena's wife: undated here, and as Giovanna Zirilli b. 1827 with a son Guiseppe. Act 46 shows a single couple at Scilla in 1859. The two records have NOT been merged, because surname endogamy at Scilla is common enough that a second wife of the same surname is a real possibility."
+  ]
  },
  {
   "id": "@I456@",
