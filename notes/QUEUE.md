@@ -138,7 +138,14 @@ Antenati has a "Richieste di certificati" page for exactly this.
 ## 9. Scilla — route confirmed, sweep outstanding
 - [x] **FamilySearch does NOT hold Scilla.** Zero place-matched records; its Calabrian full text is
       Catanzaro/Vibo Valentia only.
-- [ ] **Antenati DOES**: Archivio di Stato di Reggio Calabria, 57 volumes, births from 1850
-      (`an_ua2002898`+). Sweep the annual indexes for Arena, Polistena, Donato, Pontillo.
+- [x] **Scilla Nati 1861 index READ** (`an_ua2002933`). **Arena Rocco, act 228, of Giuseppe Arena
+      and Grazia Zirilli** — a CANDIDATE for the tree's Rocco Arena b.1861 (tree says Orazio ×
+      Giovana Zirilli; the rare surname matches, the forenames do not). **Read act 228 before joining.**
+- [x] **The Bourbon-era Scilla index NAMES THE PARENTS** — a surname sweep there is far cheaper than
+      in Sicily. Use it.
+- [ ] **Read act 228 of 1861** to settle the Arena candidate.
+- [ ] Sweep the remaining Scilla indexes for Arena, Polistena, Donato, Pontillo:
+      Giovanni Arena b.1870, Giuseppe Arena b.1892, Giovanni Polistena b.1883, Michele Donato b.1851.
+      Scilla marriages 1905–1913 may catch Giovanni Polistena × Nunziata Donato.
       Targets: Giuseppe Arena b.1892, Giovanni Arena b.1870, Rocco Arena b.1861, Orazio Arena b.1821;
       Giovanni Polistena b.1883, Antonio Polistena, Giovanna Pontillo; Michele Donato b.1851.

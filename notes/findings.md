@@ -921,3 +921,46 @@ crossings remain unnamed. FindMyPast still has until **16 September**.
 Without `c.collectionId=on&f.collectionId=<CID>` the `q.anyPlace` term is only weakly weighted and
 results flood with the whole region — Ganzirri, Nicotera, Limbadi, Torre di Faro. Get the IDs from
 the response's own `facets[0].facets`, each carrying a ready-made `params` string.
+
+---
+
+## 10 September 2026 — Scilla opened
+
+**FamilySearch does not hold Scilla** (four place-matched searches, zero records; its Calabrian full
+text is Catanzaro/Vibo Valentia). **Antenati does**: Archivio di Stato di Reggio Calabria, **57
+volumes**, births from **1850**. Scilla *marriages* on Antenati run **1905–1913 only**.
+
+### The Bourbon index names the parents
+
+The pre-unification *Stato civile della restaurazione* annual index at Scilla is laid out far better
+than the Italian one that replaced it:
+
+> **N. d'ord · Cognomi e Nomi dei nati · Patria · Professione · NOMI E COGNOMI DEI GENITORI ·
+> giorno della nascita**
+
+**A whole year's households of one surname can be read off a single opening, with parentage, without
+opening any act.** That makes a Scilla surname sweep dramatically cheaper than the Sicilian one —
+and it is the single most useful thing learned about these registers today.
+
+### First read: Scilla, Nati 1861 (`an_ua2002933`, 134 images)
+
+| Act | Child | Father | Mother |
+|---|---|---|---|
+| **228** | **Arena Rocco** | **Giuseppe Arena** | **Grazia Zirilli** |
+| 209 | Arena Domenica | Santo Arena | Gioffrè (forename unclear) |
+
+**A candidate, not a join.** The tree gives Rocco Arena b.1861 as the son of **Orazio** Arena and
+**Giovana Zirilli**. The index gives **Giuseppe** and **Grazia Zirilli**. The mother's surname —
+**Zirilli**, not a common name — matches; both forenames do not. Either the tree has the forenames
+wrong, which it has done repeatedly today, or this is a different Rocco Arena. **Read the act itself
+before joining.** After the Venerio episode this archive does not merge on a partial match.
+
+### Rate limiting
+
+Antenati now trips at roughly **three page loads**, and takes 15–20 minutes to clear — noticeably
+tighter than earlier in the day, which suggests a cumulative daily budget rather than a burst limit.
+Images remain unlimited. Plan the whole sweep before starting it: **one page load per volume**, and
+do everything else from `tools/manifest.py` and `tools/index_sheet.py` offline.
+
+There is no ark→container resolver: `dam-antenati/.../resolve`, `/ark/`, and `?ark=` all 404, and the
+WordPress JSON is behind the same block. The container id has to come from the record page's live DOM.

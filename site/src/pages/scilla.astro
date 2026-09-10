@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import { dead } from "../lib/people.js";
 import places from "../data/places.json";
+import reads from "../data/scilla-reads.json";
 const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
   .some((x) => (x || "").startsWith("Scilla")));
 const pl = places.find((x) => x.name.startsWith("Scilla")) || {};
@@ -43,6 +44,41 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     <p style="font-family:var(--sans);font-size:14px;line-height:2;margin-top:.8rem">
       {surnames.map((s, i) => <>{i > 0 && " · "}<strong>{s}</strong></>)}
     </p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The registers, opened 10 September 2026</div>
+    <h2 style="margin-top:.4rem">An index that names the parents</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Scilla is <strong>not</strong> in FamilySearch's full-text corpus — four searches place-matched
+      to it returned nothing, and its Calabrian holdings are Catanzaro and Vibo Valentia. But
+      <strong>Antenati has 57 volumes</strong> from the Archivio di Stato di Reggio Calabria, births
+      from <strong>1850</strong>.</p>
+      <p>And the pre-unification <em>Stato civile della restaurazione</em> index is laid out far better
+      than the Italian one that replaced it. Its columns are
+      <strong>N. d'ord · Cognomi e Nomi dei nati · Patria · Professione · NOMI E COGNOMI DEI GENITORI ·
+      giorno della nascita</strong>. <strong>The index names the parents.</strong> A whole year's
+      Arena households can be read off one opening without opening a single act.</p>
+    </div>
+    <figure style="margin:1.4rem 0 0">
+      <img src={u("/plates/scilla-1861-index-A.jpg")} alt="The A section of the 1861 Scilla birth index"
+           style="border:1px solid var(--rule);border-radius:3px;width:100%" />
+      <figcaption class="cap">Scilla, Nati 1861, annual index, letter A — Archivio di Stato di Reggio
+      Calabria (Antenati <code>an_ua2002933</code>).</figcaption>
+    </figure>
+    <div class="scroll" style="margin-top:20px">
+      <table>
+        <thead><tr><th class="m">Act</th><th>Child</th><th>Father</th><th>Mother</th><th>Standing</th></tr></thead>
+        <tbody>{reads.map((r) => (
+          <tr><td class="m">{r.year}/{r.act}</td><td><strong>{r.name}</strong></td>
+              <td>{r.father}</td><td>{r.mother}</td>
+              <td>{r.status === "candidate" ? <span class="chip inf">candidate</span> : <span class="chip">context</span>}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+    {reads.filter((r) => r.status === "candidate").map((r) => (
+      <p class="note" style="margin-top:20px"><strong>{r.name}, act {r.act} of {r.year}.</strong> {r.note}</p>
+    ))}
   </section>
 
   <section class="blk" style="border-bottom:0">
