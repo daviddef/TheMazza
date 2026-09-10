@@ -1066,3 +1066,85 @@ Bourbon-era index's separate parents column, which is not. Use it to confirm you
 person before pulling the act.
 
 Three acts per image in this volume: act = 202 + 3 × (image − 72).
+
+---
+
+## 10 September 2026, evening — the Scilla sweep pays off
+
+### Scilla, Nati 1892, atto 230 (`an_ua16601257`, container `5Yb6no7`, image 79)
+
+The single most useful act this archive has read at Scilla.
+
+> L'anno mille-ottocento-novant**adue**, addì **nove** di **Ottobre**, a ore ante meridiane **dieci**
+> e minuti **quindici**… Avanti di me **Minasi Luigi, assessore funzionante da Sindaco**… Comune di
+> **Scilla** è comparso **Giovanni Arena**, di anni **trentatré**, **pescatore**, domiciliato in
+> Scilla, il quale mi ha dichiarato che alle ore ante meridiane **undici** e minuti **trenta** del dì
+> **sei** del corrente mese, nella casa posta in **Via Grotte** al numero **settantacinque**, da
+> **Concetta Russo** sua moglie, **filatrice**, seco lui convivente… è nato un bambino di sesso
+> maschile… a cui dà il nome di **Giuseppe**. Testimoni: **Perina**…
+
+**Confirms** Giuseppe Arena b. 1892 (now with a day: **6 October**) and his mother **Concetta Russo**.
+**Corrects** his father: Giovanni Arena is **33** in October 1892, so born about **1859**, where the
+tree says 1870 — eleven years out. **Adds** Giovanni's trade (**pescatore**) and the address,
+**Via Grotte 75** — the same lane where Giovanni Polistena was born in 1883 at number 47.
+
+### Scilla, Nati 1870, atto 81 (`an_ua16601232`, container `wWqVnPB`, image 19)
+
+Read *before* act 230, as the obvious way to reach Giovanni Arena. The 1870 index gave three Arena
+births — Camillo di Antonio (53), **Domenico-Giovanni-Camillo di Giuseppe (81)**, Antonino di
+Giuseppe (257) — and only one carried the name Giovanni.
+
+> …è comparso **Giuseppe Arena di Domenico**, di anni **trenta**, **cordaio**, domiciliato e
+> residente in Scilla… dalla di lui moglie **Serafina Vita di Giovanni**, di anni **venti**, donna di
+> casa… in questo Comune, **Centro Acquagrande**, al quale figlio dichiara dare i nomi di
+> **Domenico-Giovanni-Camillo**. Testimoni: Giuseppe Idone fu Rocco, 72; Candeloro Ciccone di
+> Domenico, 30, servienti. *La parola interlineata Domenico deve leggersi Giuseppe.*
+>
+> ANNOTAZIONE: *…Arena Domenico… nel dì **trenta novembre milleottocentonovantanove**, nel Comune di
+> Scilla, contrasse matrimonio con **Arena Maria**, ivi nata nel **1869**, N.° 166, e N.° 62 Registro
+> dei matrimonii. — Reggio Cal. 23 Gennajo 1900.*
+
+**It is the wrong man.** The margin calls him **Arena Domenico** and marries him to **Arena Maria**,
+not Concetta Russo; naming custom agrees (Domenico = father's father, Giovanni only mother's father);
+and act 230 then settles it by making the tree's Giovanni eleven years older. **It was tempting** —
+the tree's Giovanni named his first son Giuseppe, exactly as custom predicts if his father were a
+Giuseppe — which is precisely why it was held as a candidate and not merged.
+
+Three Arena generations regardless: **Domenico → Giuseppe (b. c.1840, *cordaio*) →
+Domenico-Giovanni-Camillo (b. 24 April 1870, Centro Acquagrande)**.
+
+**The mother's surname is VITA, not Sita.** Confirmed independently by the 1913 marriage index, which
+carries three Vita entries (acts 27, 10, 15) and no Sita at all. *Method note: when a surname read
+from a single act looks doubtful, the same comune's index for another year is a free second opinion.*
+
+### Scilla, Matrimoni 1913 — the entire index transcribed (`an_ua16594965`, container `5K7arD3`)
+
+Antenati's Scilla marriages run **1905–1913 only**. The images are **not rate-limited** (only the
+HTML is), so all eleven index openings, images 75–85, came down for nothing. **58 marriages,
+77 surnames**, in `data/scilla-matr-1913.tsv`.
+
+**The negatives are the finding: no Arena, no Donato, no Polistena, no Mazza married at Scilla in
+1913.** The Polistena × Donato marriage this archive wanted — four of Angela Polistena's grandparents
+in one act — is either outside 1905–13 or was not celebrated at Scilla. Eight volumes left in the
+window.
+
+Commonest surnames: Bueti 6, Catalano 4, Oliveri 4, Bellantoni 3, Cambareri 3, Infantino 3,
+Ciccone 3, Scarfone 3.
+
+**One index entry read as a possible *Mazza* bride** (no. 32) — which would have put the Sicilian
+surname in Calabria. The act itself (atto 31, 20 September 1913) says **Muzzi**: Majori Carmelo, 27,
+*falegname*, born Gallico, of Vincenzo and Morelli Caterina, married **Muzzi Santa Maria**, 24,
+*casalinga*, of Scilla, daughter of Carmelo and Marino Maria. **Read the act, not the index** —
+the third time that rule has earned its keep here.
+
+### Method: how to get an Antenati ark without guessing
+
+The volume page carries a link `search-registry/?tipologia=Nati&serie=<id>` that lists **every**
+volume in the series with its ark. Scilla, Stato civile italiano, Nati = **serie 16594786**, 39
+volumes. The listing's year facet gives the doubled years — **1866 (2), 1875 (2), 1884 (2),
+1885 (2)** — so the ark is computable exactly:
+
+    ark(Y) = an_ua16601229 + (Y - 1867) + (doubled years in [1867, Y-1])
+
+Checked against two known volumes: 1883 → 1246 ✓, 1870 → 1232 ✓. Predicted 1892 → **1257**, and the
+page confirmed *Registro: 1892*. **Two page loads for the whole series instead of one per year.**

@@ -5,6 +5,7 @@ import { u } from "../lib/url.js";
 import { dead } from "../lib/people.js";
 import places from "../data/places.json";
 import reads from "../data/scilla-reads.json";
+import m13 from "../data/scilla-matr-1913.json";
 const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
   .some((x) => (x || "").startsWith("Scilla")));
 const pl = places.find((x) => x.name.startsWith("Scilla")) || {};
@@ -115,6 +116,84 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
   </section>
 
   <section class="blk">
+    <div class="lab">Act 230 of 1892</div>
+    <h2 style="margin-top:.4rem">Giuseppe Arena, born 6 October 1892 — and his father is eleven years older than the tree says</h2>
+    <div class="hero-plate" style="margin-top:1.2rem">
+      <img src={u("/plates/scilla-act230-arena-giuseppe-1892.jpg")} alt="Scilla birth register 1892, act 230" />
+      <div>
+        <blockquote style="margin:0 0 .9rem">L'anno mille-ottocento-novant<strong>adue</strong>, addì
+        <strong>nove</strong> di <strong>Ottobre</strong>… è comparso <strong>Giovanni Arena</strong>,
+        di anni <strong>trentatré</strong>, <strong>pescatore</strong>, domiciliato in
+        <strong>Scilla</strong>, il quale mi ha dichiarato che alle ore ante meridiane
+        <strong>undici</strong> e minuti <strong>trenta</strong> del dì <strong>sei</strong> del
+        corrente mese, nella casa posta in <strong>Via Grotte</strong> al numero
+        <strong>settantacinque</strong>, da <strong>Concetta Russo</strong> sua moglie,
+        <strong>filatrice</strong>, seco lui convivente… è nato un bambino di sesso maschile… a cui
+        dà il nome di <strong>Giuseppe</strong>.</blockquote>
+        <p>This is the most useful act the Scilla sweep has produced. It is
+        <P n="Rocco Arena" />'s father, and it <strong>confirms the tree on two points and corrects
+        it on a third</strong>.</p>
+        <div class="rec" style="margin-top:14px">
+          <div class="k">Confirmed</div>
+          <div class="v"><strong>Giuseppe Arena</strong>, born <strong>6 October 1892</strong> at
+          Scilla — the tree had the year, the register gives the day</div><div class="w">agrees</div>
+          <div class="k">Confirmed</div>
+          <div class="v">his mother <strong>Concetta Russo</strong>, a <em>filatrice</em> — a
+          spinner</div><div class="w">agrees</div>
+          <div class="k">Corrected</div>
+          <div class="v"><strong>Giovanni Arena is thirty-three</strong> in October 1892, so he was
+          born about <strong>1859</strong>. The tree says <strong>1870</strong>.</div>
+          <div class="w">eleven years</div>
+        </div>
+        <p style="margin-top:1rem">It also gives Giovanni something the tree never did: a trade.
+        He is a <strong>pescatore</strong>, a fisherman — and the house is on
+        <strong>Via Grotte</strong>, the same lane at Chianalea where
+        <a href={u("/people/giovanni-polistena")}>Giovanni Polistena</a> was born nine years earlier
+        at number 47. Two of this family's four Calabrian quarters begin in the same street.</p>
+        <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
+        italiano, Scilla, Nati 1892, atto 230 — Antenati <code>an_ua16601257</code>, container
+        <code>5Yb6no7</code>, image 79.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Act 81 of 1870</div>
+    <h2 style="margin-top:.4rem">The Arena boy who was not the one we wanted</h2>
+    <div class="hero-plate" style="margin-top:1.2rem">
+      <img src={u("/plates/scilla-act81-arena-1870.jpg")} alt="Scilla birth register 1870, act 81" />
+      <div>
+        <p>Before act 230 was found, the obvious way to reach Giovanni Arena was to open
+        <strong>Scilla, Nati 1870</strong> and look for him. The annual index gave three Arena births
+        that year, and exactly one with <em>Giovanni</em> among his names:</p>
+        <blockquote style="margin:.9rem 0">…è comparso <strong>Giuseppe Arena di Domenico</strong>, di
+        anni <strong>trenta</strong>, <strong>cordaio</strong>, domiciliato e residente in Scilla…
+        dalla di lui moglie <strong>Serafina Vita di Giovanni</strong>, di anni <strong>venti</strong>,
+        donna di casa… in questo Comune, <strong>Centro Acquagrande</strong>, al quale figlio dichiara
+        dare i nomi di <strong>Domenico-Giovanni-Camillo</strong>.</blockquote>
+        <p>Three Arena generations in one act — <strong>Domenico</strong>, his son
+        <strong>Giuseppe</strong> born about 1840, and the boy. And it was tempting: the tree's
+        Giovanni Arena named his own first son <strong>Giuseppe</strong>, which is exactly what
+        Calabrian naming custom would predict if his father were a Giuseppe.</p>
+        <p style="margin-top:.8rem"><strong>It is the wrong man, and three things say so.</strong>
+        The marginal annotation records that he married at Scilla on <strong>30 November 1899</strong>
+        to <strong>Arena Maria</strong>, born there in 1869 — not to Concetta Russo. The annotation
+        calls him <strong>Arena Domenico</strong>, not Giovanni, which the naming custom also
+        predicts: Domenico was his father's father, Giovanni only his mother's. And act 230 then
+        settled it outright by making the tree's Giovanni eleven years older than this child.</p>
+        <p style="margin-top:.8rem">His father's trade is worth keeping too. <strong>Giuseppe Arena
+        was a <em>cordaio</em>, a ropemaker</strong> — the first man in the Calabrian lines this
+        archive has found who does not work the water, though rope is not far from boats.</p>
+        <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
+        italiano, Scilla, Nati 1870, atto 81 — Antenati <code>an_ua16601232</code>, container
+        <code>wWqVnPB</code>, image 19. The mother's surname <strong>Vita</strong> is a real Scilla
+        surname, not a misreading of <em>Sita</em>: it appears three times in the 1913 marriage index
+        below, and <em>Sita</em> never.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
     <div class="lab">What the registers keep saying</div>
     <h2 style="margin-top:.4rem">They were sea families</h2>
     <div class="prose" style="margin-top:1rem">
@@ -124,9 +203,16 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <div class="v"><strong>Francesco Antonio Arena</strong> — <em>marinaro</em></div><div class="w">sailor</div>
         <div class="k">Scilla, 1883</div>
         <div class="v"><strong>Camillo Antonio Polistena</strong> — <em>pescatore</em></div><div class="w">fisherman</div>
+        <div class="k">Scilla, 1892</div>
+        <div class="v"><strong>Giovanni Arena</strong> — <em>pescatore</em></div><div class="w">fisherman</div>
         <div class="k">Briatico, 1886</div>
         <div class="v"><strong>Alfonso Prostamo</strong> and his father <strong>Domenico</strong> — <em>marinari</em></div><div class="w">sailors</div>
       </div>
+      <p style="margin-top:1.2rem">There is now <strong>one exception</strong>, and it is worth
+      naming rather than hiding: <strong>Giuseppe Arena</strong>, in 1870, is a <em>cordaio</em> —
+      a ropemaker. He is a different Arena household from the tree's, and rope is a harbour trade,
+      but he is not on the water. A pattern that admits an exception is a stronger claim than one
+      that has never met one.</p>
       <p style="margin-top:1.2rem"><strong>The family tree records not one of them as anything.</strong>
       Two provinces, three families, and the same trade — which is exactly what you would expect of
       Chianalea and the Costa degli Dei, and exactly what an undated pedigree cannot tell you.
@@ -134,6 +220,63 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <em>braccianti</em> and <em>contadini</em> to a man. <strong>The archive can now say what these
       people did, which it could not this morning.</strong></p>
     </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Scilla, Matrimoni 1913 — the whole index</div>
+    <h2 style="margin-top:.4rem">Fifty-eight marriages, and four surnames that are not among them</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Antenati's Scilla marriage series runs <strong>1905–1913 only</strong>. The 1913 volume's
+      container was already in hand, and — unlike the portal's HTML, which rate-limits after about
+      three page loads — <strong>the IIIF images are not throttled at all</strong>. So all eleven
+      index openings came down for nothing, and the year is transcribed here in full.</p>
+      <p>The reason for opening it was <a href={u("/people/giovanni-polistena")}>Giovanni
+      Polistena</a>'s marriage to <strong>Nunziata Donato</strong>, which would name four of
+      <P n="Angela Polistena" />'s grandparents in a single act. <strong>It is not here.</strong>
+      Neither is any Arena, any Donato, or any Mazza:</p>
+      <div class="rec" style="margin-top:16px">
+        {Object.entries(m13.wanted).map(([k, v]) => (
+          <>
+            <div class="k">{k}</div>
+            <div class="v">{v === 0
+              ? <>absent — <strong>no {k} married at Scilla in 1913</strong></>
+              : <>{v} {v === 1 ? "marriage" : "marriages"}</>}</div>
+            <div class="w">{v === 0 ? "closes a search" : "of 58"}</div>
+          </>
+        ))}
+      </div>
+      <p style="margin-top:1.2rem"><strong>A negative result is still a result</strong>, and this one
+      is cheap to state and expensive to re-derive. The Polistena–Donato marriage is either outside
+      1905–13, or it was not celebrated at Scilla. Eight volumes remain in the window; this archive
+      has done one.</p>
+      <p style="margin-top:.8rem">The surname distribution is its own small finding. Fifty-eight
+      couples produced <strong>{m13.surnames.length} surnames</strong>, and the commonest of them —
+      {m13.surnames.slice(0, 6).map(([n, c], i) => <>{i > 0 && ", "}<strong>{n}</strong> ({c})</>)} —
+      is the population the Arena, Polistena and Donato households were marrying into.</p>
+    </div>
+    <div class="scroll" style="margin-top:20px">
+      <table>
+        <thead><tr><th>Groom</th><th>of</th><th>Bride</th><th>of</th><th class="m">Date</th><th class="m">Act</th></tr></thead>
+        <tbody>
+          {m13.rows.map((r) => (
+            <tr>
+              <td>{r.groom}</td><td class="small">{r.groomFather}</td>
+              <td>{r.bride}</td><td class="small">{r.brideFather}</td>
+              <td class="m">{r.date}</td>
+              <td class="m">{r.act}{r.parte !== "—" && r.parte !== "I" ? " · " + r.parte : ""}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:22px">One entry was worth opening the act for. Index no. 32 read
+    as a possible <strong>Mazza</strong> bride — which would have put the Sicilian surname in Scilla,
+    a genuinely surprising thing. <strong>Act 31 says <em>Muzzi</em>.</strong> Majori Carmelo, 27, a
+    carpenter born at Gallico, married <strong>Muzzi Santa Maria</strong>, 24, of Scilla, on
+    20 September 1913. Read the act, not the index.</p>
+    <p class="small" style="margin-top:14px">Archivio di Stato di Reggio Calabria, Stato civile
+    italiano, Scilla, Matrimoni 1913 — Antenati <code>an_ua16594965</code>, container
+    <code>5K7arD3</code>, index at images 75–85.</p>
   </section>
 
   <section class="blk">

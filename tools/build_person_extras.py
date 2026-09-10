@@ -11,11 +11,15 @@ the nineteen in the Nudgee burial register, the nine in the NAA passenger index,
 and the eleven the tree itself cites a source for. This writes that back onto
 people.json so the chart can show it.
 """
-import json
+import csv, json
 
 PATH = "site/src/data/people.json"
 P = json.load(open(PATH))
 by_slug = {p["slug"]: p for p in P}
+
+READS = {}
+for r in csv.DictReader(open("data/read-people.tsv"), delimiter="\t"):
+    READS.setdefault(r["slug"], []).append(r)
 
 nudgee = {b["slug"]: b for b in json.load(open("site/src/data/nudgee.json"))["burials"]}
 ships = {s["slug"]: s for s in json.load(open("site/src/data/ships.json"))}
@@ -40,10 +44,14 @@ for p in P:
                      "href": "/crossings"})
     for src in p.get("sources", []):
         recs.append({"kind": "cited in the tree", "what": src, "href": "/sources"})
+    for r in READS.get(p["slug"], []):
+        recs.append({"kind": r["kind"], "what": r["what"], "href": r["href"]})
     p["records"] = recs
+    p["corrections"] = [r["correction"] for r in READS.get(p["slug"], []) if r["correction"]]
     p["onSpine"] = p["id"] in spine
     p["ancGen"] = gen_of.get(p["id"])
 
 json.dump(P, open(PATH, "w"), indent=1, ensure_ascii=False)
 print(f"{sum(1 for p in P if p['records'])} people carry a record that has been read; "
-      f"{sum(1 for p in P if p['onSpine'])} are ancestors of Mia and Rocco")
+      f"{sum(1 for p in P if p['onSpine'])} are ancestors of Mia and Rocco; "
+      f"{sum(1 for p in P if p['corrections'])} carry a correction the registers forced")
