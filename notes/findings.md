@@ -1148,3 +1148,31 @@ volumes. The listing's year facet gives the doubled years — **1866 (2), 1875 (
 
 Checked against two known volumes: 1883 → 1246 ✓, 1870 → 1232 ✓. Predicted 1892 → **1257**, and the
 page confirmed *Registro: 1892*. **Two page loads for the whole series instead of one per year.**
+
+### Scilla, Nati 1851 (`an_ua2002901`, container `LeJQDD6`, 131 images, index at 123–131)
+
+The Bourbon-era *Tavola annuale alfabetica de' Nati* — the index that names both parents.
+**No Donato in it.** The D block runs entries **65–75**: seven Di Franco, two Dormì, one De Marco,
+one De Alessandro. Entry 64 is the last C, entry 76 begins the F, so the block is complete.
+
+**Michele Donato is not born at Scilla in 1851.** His eldest son was born 1878, so his birth sits
+somewhere around 1848–1858. Given the tree has now been six years out twice and **eleven years out
+on Giovanni Arena**, the year is the likelier error.
+
+The A section of the same index holds **one** Arena birth — Arena Maria, of Pasquale. The Scilla
+Arena were not a numerous family in the 1850s.
+
+**Technical note: these scans are small.** About **1034 × 1473** and **1991 × 1480**, against
+4659 × 3741 for the Italian-era volumes. The IIIF request must ask for `/full/` (or `pct:` +
+`/full/`), never a width — a width larger than native returns **403 Forbidden**. Check `info.json`
+first. This low resolution is also why the 1861 index's parents column misled this archive earlier.
+
+### The queue this leaves
+
+1. **Scilla, Nati ~1859 — Giovanni Arena.** The best lead in the archive: the Bourbon index names
+   parents, so one opening gives his father and mother outright. The restaurazione arks are **not**
+   computable — that series interleaves Nati, Morti and Matrimoni, so consecutive Nati years jump by
+   2–4 — meaning one portal page load per year.
+2. **Scilla, Nati 1845–1860 — a Donato.** Same index, same method.
+3. **Scilla, Matrimoni 1899, atto 62** — Arena Domenico × Arena Maria, named in act 81's margin.
+4. **Scilla, Matrimoni 1905–1912** — eight volumes; Polistena × Donato is not in 1913.
