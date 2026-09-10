@@ -410,3 +410,84 @@ because every volume carries an alphabetical *Indice Annuale* in its last pages.
 **Watch for conservation sheets.** Several of these scans have a black card laid over half the
 opening, hiding whole columns — 1878's M section is only readable because it falls on the *other*
 index page.
+
+---
+
+## 10 September 2026 — items 1–5: Rosario found, and a generation above him
+
+David asked for the five Piedimonte Etneo follow-ups to be run together. Salvatore is still missing.
+Everything else changed.
+
+### The key act: marriage 5 of 1876
+
+**Piedimonte Etneo, Matrimoni 1876, atto 5** (`an_ua83397`, image 7) — 16 January 1876, 7.05 p.m.
+
+> 1° **Mazza Salvatore**, di anni **trentaquattro**; **bracciante**, nato in Piedimonte Etneo,
+> residente in Piedimonte Etneo, **figlio di Venerio**, residente in Piedimonte Etneo, **e di
+> Cavallaro Domenica**…
+> 2° **Sciacca Concetta**, di anni **diciannove**; contadina, nata in Piedimonte Etneo, **figlia del
+> fu Antonino**… **e di Greco Rosaria**.
+
+**VENERIO MAZZA × DOMENICA CAVALLARO** — a couple of the 1810s–20s, the earliest Mazza this archive
+can name from a document, and **entirely absent from Michael Mazza's family tree**.
+
+It also explains a name: three years later Salvatore's son is christened **Venerio**. In Sicily the
+first son takes the paternal grandfather's name. **The custom and the document agree.**
+
+### Rosario Mazza, documented at last
+
+| | |
+|---|---|
+| **Rosario Mazza** | aged **31** in Oct 1877, **32** in May 1880 → born **c. 1846–48**, *bracciante* |
+| wife | **Leonarda Bonaccorso** (contadina / industriosa) |
+| sons | **Orazio**, 21 Oct 1877 (act 168) · **Gaetano**, 5 May 1880 (act 66) |
+| streets | via Grotta Nicodemo (1877) · Via S. Basilio (1880) |
+
+The archive carried Rosario as a name with one asserted fact. He now has an age, a trade, a wife,
+two sons and two streets.
+
+### Three households, from six acts
+
+| Father | Born | Wife | Children | Streets |
+|---|---|---|---|---|
+| **Pasquale Mazza** | c. 1829 | **Concetta Greco** | Antonino (1877/164), Rosaria (1879/167) | via Cappello Campagna → Via Terremorte |
+| **Salvatore Mazza** | c. 1841–45 | **Concetta Sciacca** | Venerio (1879/205) | Via Terremorte |
+| **Rosario Mazza** | c. 1846–48 | **Leonarda Bonaccorso** | Orazio (1877/168), Gaetano (1880/66) | via Grotta Nicodemo, Via S. Basilio |
+
+Plus **Mazza Antonino, 35** (b. c.1844) witnessing act 205 — a fourth adult Mazza man. Pasquale,
+Antonino, Salvatore and Rosario were born c.1829, c.1844, c.1845 and c.1846: **the last three within
+two years of each other, which is what brothers look like.**
+
+### The join to the hundred and ten
+
+The tree's second component is headed by **Rosario Mazza b. 1850**, and among his children it lists
+an **Orazio**. The register gives **Rosario Mazza b. c.1846–48** of the same town whose son is
+**Orazio**. Right man, right decade, right town, right child's name — **far stronger than a shared
+surname, and still not proof**: the tree dates Orazio to 1883, the register to 1877.
+
+**What closes it: Rosario's own marriage act.** If his parents are Venerio Mazza and Domenica
+Cavallaro, he and Salvatore are brothers and the whole kindred is one family. **Not in the 1875 or
+1876 marriage registers** — both read — so **1874 or earlier**.
+
+### Two corrections
+
+1. **The index is not the act.** The 1877 index lists act 168 as *Mazza Grazia*; the act says
+   **Orazio**, a boy. An index is a clerk's abstract and it can be wrong.
+2. **A misreading of mine, caught by a second document.** From act 205 alone this archive gave
+   Salvatore's wife as *Greco Concetta*, producing an absurdity — two women of that name on one
+   street bearing children six weeks apart. The 1876 marriage index settles it: Salvatore married
+   **Concetta Sciacca**. Pasquale is the one married to Concetta Greco, confirmed twice.
+   **The absurdity was the tell.**
+
+### Also found
+
+- **1882**: Mazza Pietro (act 24) and Mazza Santo (act 75) — fathers not yet read.
+- Marriage volumes exist at Piedimonte Etneo from **1866** (`an_ua83386` onward).
+
+### Method
+
+Volumes run **two acts per image at 1879 but three at 1877** (two on the left page, one on the
+right), so the act→image mapping must be **calibrated per volume** — `tools/act_locate.py` stacks
+the left margins of four images so one look establishes the offset. `tools/build_acts.py` turns the
+transcribed acts into households; key households on **names only**, since a clerk may call the same
+woman *contadina* one year and *industriosa* the next.

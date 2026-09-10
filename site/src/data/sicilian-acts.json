@@ -1,0 +1,203 @@
+{
+ "acts": [
+  {
+   "kind": "birth",
+   "year": "1877",
+   "act": "164",
+   "ark": "an_ua83490",
+   "img": "75",
+   "subject": "Antonino Mazza",
+   "father": "Pasquale Mazza",
+   "fatherAge": "48",
+   "mother": "Greco Concetta (contadina)",
+   "street": "via Cappello Campagna",
+   "date": "18 October 1877",
+   "note": "Read in full. Married Russo Rosaria di Salvatore, 12 Jan 1905."
+  },
+  {
+   "kind": "birth",
+   "year": "1877",
+   "act": "168",
+   "ark": "an_ua83490",
+   "img": "76",
+   "subject": "Orazio Mazza",
+   "father": "Rosario Mazza",
+   "fatherAge": "31",
+   "mother": "Bonaccorso Leonarda (contadina)",
+   "street": "via Grotta Nicodemo",
+   "date": "21 October 1877",
+   "note": "Read in full. The annual index miscopies the name as \"Grazia\"; the act says ORAZIO. Married Mangano Maria at Fiumefreddo, 22 Feb 1927."
+  },
+  {
+   "kind": "birth",
+   "year": "1879",
+   "act": "167",
+   "ark": "an_ua83492",
+   "img": "74",
+   "subject": "Rosaria Mazza",
+   "father": "Pasquale Mazza",
+   "fatherAge": "50",
+   "mother": "Greco Concetta (industriosa)",
+   "street": "Via Terremorte",
+   "date": "28 October 1879",
+   "note": "Read in full. Married Giuseppe Monforte fu Salvatore, 26 Apr 1903."
+  },
+  {
+   "kind": "birth",
+   "year": "1879",
+   "act": "205",
+   "ark": "an_ua83493",
+   "img": "12",
+   "subject": "Venerio Mazza",
+   "father": "Salvatore Mazza",
+   "fatherAge": "34",
+   "mother": "Sciacca Concetta (industriosa)",
+   "street": "Via Terremorte",
+   "date": "12 December 1879",
+   "note": "Read in full. Witness Mazza Antonino, 35. Married Greco Rosaria di Carmelo, 16 Nov 1908."
+  },
+  {
+   "kind": "birth",
+   "year": "1880",
+   "act": "66",
+   "ark": "an_ua83494",
+   "img": "30",
+   "subject": "Gaetano Mazza",
+   "father": "Rosario Mazza",
+   "fatherAge": "32",
+   "mother": "Bonaccorso Leonarda (industriosa)",
+   "street": "Via S. Basilio",
+   "date": "5 May 1880",
+   "note": "Read in full. Witnesses Dimauro Salvatore 22 and Zappalà Sebastiano 24, both braccianti."
+  },
+  {
+   "kind": "marriage",
+   "year": "1876",
+   "act": "5",
+   "ark": "an_ua83397",
+   "img": "7",
+   "subject": "Salvatore Mazza & Concetta Sciacca",
+   "father": "Venerio Mazza",
+   "fatherAge": "—",
+   "mother": "Cavallaro Domenica",
+   "street": "—",
+   "date": "16 January 1876",
+   "note": "Read in full. THE KEY ACT. Salvatore, 34, bracciante, born and resident Piedimonte Etneo, son of Venerio and of Domenica Cavallaro. Concetta Sciacca, 19, contadina, daughter of the late Antonino Sciacca and Rosaria Greco."
+  }
+ ],
+ "households": [
+  {
+   "father": "Pasquale Mazza",
+   "mother": "Greco Concetta",
+   "occupations": [
+    "contadina",
+    "industriosa"
+   ],
+   "fatherBorn": "c. 1829",
+   "streets": [
+    "Via Terremorte",
+    "via Cappello Campagna"
+   ],
+   "children": [
+    {
+     "name": "Antonino Mazza",
+     "date": "18 October 1877",
+     "act": "164",
+     "year": "1877",
+     "ark": "an_ua83490",
+     "note": "Read in full. Married Russo Rosaria di Salvatore, 12 Jan 1905."
+    },
+    {
+     "name": "Rosaria Mazza",
+     "date": "28 October 1879",
+     "act": "167",
+     "year": "1879",
+     "ark": "an_ua83492",
+     "note": "Read in full. Married Giuseppe Monforte fu Salvatore, 26 Apr 1903."
+    }
+   ]
+  },
+  {
+   "father": "Salvatore Mazza",
+   "mother": "Sciacca Concetta",
+   "occupations": [
+    "industriosa"
+   ],
+   "fatherBorn": "c. 1845",
+   "streets": [
+    "Via Terremorte"
+   ],
+   "children": [
+    {
+     "name": "Venerio Mazza",
+     "date": "12 December 1879",
+     "act": "205",
+     "year": "1879",
+     "ark": "an_ua83493",
+     "note": "Read in full. Witness Mazza Antonino, 35. Married Greco Rosaria di Carmelo, 16 Nov 1908."
+    }
+   ]
+  },
+  {
+   "father": "Rosario Mazza",
+   "mother": "Bonaccorso Leonarda",
+   "occupations": [
+    "contadina",
+    "industriosa"
+   ],
+   "fatherBorn": "c. 1846–1848",
+   "streets": [
+    "Via S. Basilio",
+    "via Grotta Nicodemo"
+   ],
+   "children": [
+    {
+     "name": "Orazio Mazza",
+     "date": "21 October 1877",
+     "act": "168",
+     "year": "1877",
+     "ark": "an_ua83490",
+     "note": "Read in full. The annual index miscopies the name as \"Grazia\"; the act says ORAZIO. Married Mangano Maria at Fiumefreddo, 22 Feb 1927."
+    },
+    {
+     "name": "Gaetano Mazza",
+     "date": "5 May 1880",
+     "act": "66",
+     "year": "1880",
+     "ark": "an_ua83494",
+     "note": "Read in full. Witnesses Dimauro Salvatore 22 and Zappalà Sebastiano 24, both braccianti."
+    }
+   ]
+  }
+ ],
+ "plates": [
+  {
+   "f": "act164-mazza-antonino.jpg",
+   "t": "Act 164, 1877 — the birth of Antonino Mazza to Pasquale Mazza, 48, and Concetta Greco, of via Cappello Campagna"
+  },
+  {
+   "f": "act168-mazza-orazio.jpg",
+   "t": "Act 168, 1877 — the birth of Orazio Mazza to Rosario Mazza, 31, and Leonarda Bonaccorso"
+  },
+  {
+   "f": "act168-rosario-lower.jpg",
+   "t": "Act 168 continued — via Grotta Nicodemo, and the 1927 marriage annotation"
+  },
+  {
+   "f": "act167-mazza-rosaria.jpg",
+   "t": "Act 167, 1879 — the birth of Rosaria Mazza, Via Terremorte"
+  },
+  {
+   "f": "act205-mazza-venerio.jpg",
+   "t": "Act 205, 1879 — the birth of Venerio Mazza to Salvatore Mazza, 34, and Concetta Sciacca"
+  },
+  {
+   "f": "act66-mazza-gaetano.jpg",
+   "t": "Act 66, 1880 — the birth of Gaetano Mazza to Rosario Mazza, 32, Via S. Basilio"
+  },
+  {
+   "f": "matr1876-act5-mazza-sciacca.jpg",
+   "t": "Marriage act 5, 16 January 1876 — Salvatore Mazza, son of Venerio and Domenica Cavallaro, marries Concetta Sciacca"
+  }
+ ]
+}

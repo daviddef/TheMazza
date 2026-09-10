@@ -16,11 +16,17 @@ Updated 10 September 2026, the day the archive was built.
 - [x] **Piedimonte Etneo Nati 1877, 1878, 1880, 1881 indexes READ** — five Mazza births in all,
       none of them Salvatore.
 - [x] **Mascali 1879 and Giarre 1879 indexes READ** — no Mazza in either.
-- [ ] **Piedimonte Etneo Nati 1875, 1876, and 1882 onward** — the year may be further out than two.
-- [ ] **Piedimonte Etneo MARRIAGES** — the marriage of Salvatore Mazza × Concetta Greco (c. 1870)
-      names both fathers, and is now the fastest route to Rosario. **Highest-value remaining.**
-- [ ] **The acts behind 1877/164, 1877/168 and 1880/66** — three more Mazza households for the cost
-      of three IIIF crops.
+- [x] **1882 index READ** — Mazza Pietro (24), Mazza Santo (75). No Salvatore.
+- [x] **Acts 1877/164, 1877/168 and 1880/66 READ** — three households reconstructed.
+- [x] **PE MARRIAGES 1875 and 1876 READ.** Atto 5 of 1876: **Salvatore Mazza, son of VENERIO MAZZA
+      and DOMENICA CAVALLARO**, marries Concetta Sciacca. A generation above the tree.
+- [ ] **ROSARIO MAZZA'S MARRIAGE — the keystone.** Not in 1875 or 1876, so **1874 or earlier**;
+      volumes exist from 1866 (an_ua83386). If his parents are Venerio and Domenica Cavallaro, he and
+      Salvatore are brothers and the hundred and ten join a documented couple. **DO THIS NEXT.**
+- [ ] **Venerio Mazza × Domenica Cavallaro** — their marriage (c. 1835–40, pre-civil-registration in
+      Sicily, so parish) and any other children. The new frontier.
+- [ ] **Piedimonte Etneo Nati 1875, 1876, 1883 onward** — Salvatore is still missing.
+- [ ] The fathers behind 1882/24 (Pietro) and 1882/75 (Santo).
 - [ ] **Catania**, where Salvatore died in 1929.
 - [ ] **Test the compressed-generation hypothesis.** Salvatore Mazza of Via Terremorte, b. c.1845,
       is a father in 1879. Is he an ancestor rather than the man the tree calls b.1879?

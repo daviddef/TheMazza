@@ -3,133 +3,150 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import births from "../data/mazza-births.json";
-const found = births.filter((b) => b.found);
-const nulls = births.filter((b) => !b.found);
+import acts from "../data/sicilian-acts.json";
+const { households, plates } = acts;
+const ros = households.find((h) => h.father.startsWith("Rosario"));
+const sal = households.find((h) => h.father.startsWith("Salvatore"));
+const pas = households.find((h) => h.father.startsWith("Pasquale"));
+const plate = (f) => plates.find((p) => p.f === f);
 ---
 <Base title="The Sicilian Registers" eyebrow="Read 10 September 2026"
-      dek="Nine annual indexes across three comuni, hunting one man. He is not in any of them — and five other Mazza births are, two of them read in full.">
+      dek="Nine annual indexes and six acts, hunting one man. He is still missing — and in looking for him the archive found Rosario, and a generation above him nobody knew was there.">
 
   <section class="blk">
     <p class="lede">The family tree says <strong>Salvatore Mazza was born at Piedimonte Etneo in
-    1879</strong>. He is the second generation of the surname line, and his act of birth would name
-    his father <P n="Rosario Mazza" /> with an age and a trade — the one document that could join the
-    <a href={u("/mazza")}>hundred and ten unattached Mazza</a> to this family.</p>
-    <p class="lede" style="margin-top:1rem">The volumes exist, they are digitised, and their
-    alphabetical indexes have now been read. <strong>He is not in any of them.</strong></p>
+    1879</strong>, son of a <P n="Rosario Mazza" /> about whom exactly one thing was known: that he
+    existed. Finding Salvatore's act of birth was supposed to name Rosario and settle everything.</p>
+    <p class="lede" style="margin-top:1rem"><strong>Salvatore is not in the register</strong> — not in
+    1877, 1878, 1879, 1880, 1881 or 1882 at Piedimonte Etneo, nor at Mascali or Giarre in 1879.
+    But the five Mazza births that <em>are</em> there, and one marriage act, have between them built
+    <strong>three documented households</strong> and reached <strong>a generation the family tree
+    does not contain at all</strong>.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The finding</div>
+    <h2 style="margin-top:.4rem">Venerio Mazza and Domenica Cavallaro</h2>
+    <p class="dek" style="margin:.9rem 0 1.4rem">A birth act names a father. <strong>A marriage act
+    names both fathers and both mothers</strong> — which is why one marriage was worth more than five
+    births. On <strong>16 January 1876</strong> at seven in the evening, in the town hall of
+    Piedimonte Etneo:</p>
+    <div class="hero-plate">
+      <img src={u("/plates/matr1876-act5-mazza-sciacca.jpg")} alt="Piedimonte Etneo marriage register 1876, act 5" />
+      <div>
+        <blockquote style="margin:0 0 .9rem">1° <strong>Mazza Salvatore</strong>, di anni
+        <strong>trentaquattro</strong>; <strong>bracciante</strong>, nato in Piedimonte Etneo,
+        residente in Piedimonte Etneo, <strong>figlio di Venerio</strong>, residente in Piedimonte
+        Etneo, <strong>e di Cavallaro Domenica</strong>… 2° <strong>Sciacca Concetta</strong>, di
+        anni <strong>diciannove</strong>; contadina, nata in Piedimonte Etneo,
+        <strong>figlia del fu Antonino</strong>… <strong>e di Greco Rosaria</strong>.</blockquote>
+        <p><strong>Venerio Mazza and Domenica Cavallaro</strong> — a couple of the 1810s or 1820s, and
+        the earliest Mazza this archive can name from a document. Nothing in Michael Mazza's family
+        tree reaches them.</p>
+        <p style="margin-top:.8rem">And it explains a name. Three years later Salvatore's first
+        recorded son was christened <strong>Venerio</strong> — a rare name, and in Sicily the first
+        son takes the paternal grandfather's. <strong>The naming custom and the document agree.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Three households, reconstructed from the acts</div>
+    <h2 style="margin-top:.4rem">The Mazza of Piedimonte Etneo, 1877–1880</h2>
+    <p class="dek" style="margin:.9rem 0 1.4rem">All of them <em>braccianti</em> — day-labourers —
+    and all within a few streets of each other.</p>
+    <div class="stack">
+      {households.map((h) => (
+        <div class="house">
+          <div style="font-size:21px;line-height:1.25">
+            <strong>{h.father}</strong> <span style="color:var(--ink-3)">({h.fatherBorn})</span>
+            {" × "}<strong>{h.mother}</strong>
+          </div>
+          <div class="mono" style="margin-top:5px;color:var(--ink-3)">{h.streets.join(" · ")}</div>
+          <div class="evlist" style="margin-top:12px">
+            {h.children.map((c) => (
+              <div><b>{c.date.split(" ").slice(-1)}</b>{c.name} — act {c.act}, {c.date}</div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+    <p class="note" style="margin-top:24px"><strong>Rosario is real, and he is here.</strong> Aged
+    <strong>31</strong> in October 1877 and <strong>32</strong> in May 1880 — born about
+    <strong>1846–48</strong> — a bracciante, married to <strong>Leonarda Bonaccorso</strong>, with
+    sons <strong>Orazio</strong> and <strong>Gaetano</strong>. The archive has carried him as a name
+    with a single asserted fact attached. He now has an age, a trade, a wife, two children and three
+    streets.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Why this matters for the hundred and ten</div>
+    <h2 style="margin-top:.4rem">The join, and what still holds it open</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The <a href={u("/components")}>second component</a> of the family tree — a hundred and ten
+      Piedimonte Etneo Mazza joined to this family by nothing — is headed by a
+      <strong>Rosario Mazza born 1850</strong>, and among his children the tree lists an
+      <strong>Orazio</strong>.</p>
+      <p>The register gives a <strong>Rosario Mazza born about 1846–48</strong>, of the same small
+      town, whose son is <strong>Orazio</strong>. That is a far better correspondence than a shared
+      surname — the right man, the right decade, the right town, and the right child's name.
+      <strong>It is still not proof.</strong> The tree dates Orazio to 1883; the register to 1877.
+      Two Rosario Mazza with two sons called Orazio in one town is unlikely, but this archive has
+      already been burned once by assuming that unlikely means impossible.</p>
+      <p><strong>What would close it:</strong> Rosario Mazza's own marriage act. It would give his
+      parents — and if they are <em>Venerio Mazza and Domenica Cavallaro</em>, then Rosario and
+      Salvatore are brothers, the whole Via Terremorte kindred is one family, and the tree's hundred
+      and ten hang off a documented couple. It is <strong>not</strong> in the 1875 or 1876 marriage
+      registers, both of which have been read, so it is 1874 or earlier.</p>
+    </div>
   </section>
 
   <section class="blk">
     <h2>What was read</h2>
     <div class="scroll" style="margin-top:16px">
       <table>
-        <thead><tr><th class="m">Year</th><th>Comune</th><th class="m">Act</th><th>Mazza birth</th><th>Father</th><th>Where the act says they lived</th></tr></thead>
+        <thead><tr><th class="m">Year</th><th>Comune</th><th class="m">Act</th><th>Mazza birth</th><th>Father</th><th>Mother</th></tr></thead>
         <tbody>{births.map((b) => (
           <tr>
-            <td class="m">{b.year}</td>
-            <td>{b.comune}</td>
-            <td class="m">{b.act}</td>
+            <td class="m">{b.year}</td><td>{b.comune}</td><td class="m">{b.act}</td>
             <td>{b.found ? <strong>{b.name}</strong> : <span style="color:var(--ink-3)">no Mazza in the index</span>}</td>
             <td>{b.father !== "—" ? `${b.father}, ${b.fatherAge}` : "—"}</td>
-            <td>{b.street !== "—" ? b.street : "—"}</td>
+            <td>{b.mother !== "—" ? b.mother : "—"}</td>
           </tr>))}
         </tbody>
       </table>
     </div>
-    <p class="cap">Nine annual indexes: Piedimonte Etneo 1877–1881, Mascali 1879, Giarre 1879.
-    Archivio di Stato di Catania, Stato civile italiano, via the Antenati portal. Every one of these
-    volumes carries an alphabetical <em>Indice Annuale</em> in its last pages, which is how five years
-    of one comune and two more comunes were checked without reading a single register through.</p>
+    <p class="cap">Piedimonte Etneo births 1877–1882 and the 1879 supplement; Mascali 1879; Giarre
+    1879; Piedimonte Etneo marriages 1875 and 1876. Archivio di Stato di Catania, Stato civile
+    italiano, via Antenati. Every volume carries an alphabetical <em>Indice Annuale</em> in its last
+    pages — which is how twelve volumes were checked without reading one of them through.</p>
   </section>
 
   <section class="blk">
-    <div class="lab">The finding</div>
-    <h2 style="margin-top:.4rem">No Salvatore — but three Mazza men on one street</h2>
-    <p class="dek" style="margin:.9rem 0 1.4rem">The two 1879 acts were read in full, and between them
-    they document a Mazza kindred living on <strong>Via Terremorte</strong> in Piedimonte Etneo:</p>
-    <div class="rec">
-      <div class="k">Act 167</div>
-      <div class="v"><strong>Mazza Pasquale</strong>, <strong>fifty</strong> — born about 1829 — a
-      <em>bracciante</em>, with his wife <strong>Greco Concetta</strong>, <em>industriosa</em>.
-      Daughter <strong>Rosaria</strong> born 28 October 1879 at half past six in the morning.</div>
-      <div class="w">29 Oct 1879</div>
-      <div class="k">Act 205</div>
-      <div class="v"><strong>Mazza Salvatore</strong>, <strong>thirty-four</strong> — born about 1845 —
-      a <em>bracciante</em>, with his wife <strong>Greco Concetta</strong>, <em>industriosa</em>.
-      Son <strong>Venerio</strong> born 12 December 1879 at half past five in the morning.</div>
-      <div class="w">14 Dec 1879</div>
-      <div class="k">Witness</div>
-      <div class="v"><strong>Mazza Antonino</strong>, <strong>thirty-five</strong> — born about 1844 —
-      a <em>bracciante</em> of the same comune, who signs act 205.</div>
-      <div class="w">14 Dec 1879</div>
-    </div>
-    <p class="note" style="margin-top:24px"><strong>And an oddity the archive will not smooth over.</strong>
-    Two different men — Pasquale, fifty, and Salvatore, thirty-four — each declare a child born on
-    <strong>Via Terremorte</strong> to a wife named <strong>Greco Concetta</strong>, six weeks apart.
-    One woman cannot have borne both. So either they are two women of the same very common name
-    married to two Mazza men on one street — brothers, or cousins, which is entirely ordinary in a
-    Sicilian town — or one of the two acts has been misread. The acts are reproduced below so anyone
-    can check.</p>
-  </section>
-
-  <section class="blk">
-    <div class="lab">Act 167 · Piedimonte Etneo, Nati 1879</div>
-    <h2 style="margin-top:.4rem">Rosaria Mazza, 28 October 1879</h2>
-    <div class="hero-plate" style="margin-top:1.2rem">
-      <img src={u("/plates/act167-mazza-rosaria.jpg")} alt="Piedimonte Etneo birth register 1879, act 167" />
-      <div>
-        <blockquote style="margin:0 0 .9rem">…è comparso <strong>Mazza Pasquale</strong>, di anni
-        <strong>cinquanta</strong>, <strong>bracciante</strong>, domiciliato in Piedimonte Etneo… del
-        dì <strong>ventotto</strong>… nella casa posta in <strong>Via Terremorte</strong> al numero
-        senza, da <strong>Greco Concetta, industriosa, sua moglie, seco lui convivente</strong>… è
-        nato un bambino di sesso femminino… a cui dà il nome di <strong>Rosaria</strong>.</blockquote>
-        <p>A note added in the margin twenty-four years later records that she
-        <strong>married Giuseppe Monforte, son of the late Salvatore, on 26 April 1903</strong>.</p>
-        <p class="small" style="margin-top:.8rem">Archivio di Stato di Catania, Stato civile italiano,
-        Piedimonte Etneo, Nati 1879, atto 167 — Antenati <code>an_ua83492</code>, image 74.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="blk">
-    <div class="lab">Act 205 · Piedimonte Etneo, Nati 1879, volume 2</div>
-    <h2 style="margin-top:.4rem">Venerio Mazza, 12 December 1879</h2>
-    <div class="hero-plate" style="margin-top:1.2rem">
-      <img src={u("/plates/act205-mazza-venerio.jpg")} alt="Piedimonte Etneo birth register 1879, act 205" />
-      <div>
-        <blockquote style="margin:0 0 .9rem">…è comparso <strong>Mazza Salvatore</strong>, di anni
-        <strong>trentaquattro</strong>, <strong>bracciante</strong>, domiciliato in Piedimonte Etneo…
-        del dì <strong>dodici</strong>… nella casa posta in <strong>Via Terremorte</strong> al numero
-        senza, da <strong>Greco Concetta, industriosa, sua moglie</strong>… è nato un bambino di sesso
-        mascolino… a cui dà il nome di <strong>Venerio</strong>.</blockquote>
-        <p>Witnessed by <strong>Mazza Antonino</strong>, thirty-five, a <em>bracciante</em>, and
-        <strong>Morabito Angelo</strong>, thirty-eight. A marginal note records Venerio's marriage to
-        <strong>Rosaria Greco, daughter of Carmelo, on 16 November 1908</strong>.</p>
-        <p class="small" style="margin-top:.8rem">Antenati <code>an_ua83493</code> — the 1879
-        supplement, segnatura 8957. The main volume ran out of pages around act 175; the annual index
-        covers both books, which is why act 205 is indexed in one and written in the other.</p>
-      </div>
+    <h2>The acts</h2>
+    <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr));margin-top:16px">
+      {plates.map((p) => (
+        <figure style="margin:0">
+          <img src={u("/plates/" + p.f)} alt={p.t}
+               style="border:1px solid var(--rule);border-radius:3px;display:block;width:100%" />
+          <figcaption class="cap">{p.t}</figcaption>
+        </figure>
+      ))}
     </div>
   </section>
 
   <section class="blk" style="border-bottom:0">
-    <h2>What the null means</h2>
+    <h2>Two corrections this made</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Salvatore Mazza's birth — "1879, Piedimonte Etneo" — is <strong>disputed</strong>: asserted in
-      the family record, and absent from <strong>five consecutive years</strong> of the register that
-      should hold it, and from the two neighbouring comuni the family also appears in. What remains:</p>
-      <ul style="font-family:var(--sans);font-size:14px;line-height:1.75;color:var(--ink-2);padding-left:20px">
-        <li><strong>A wider year range at Piedimonte Etneo</strong> — 1875, 1876, and 1882 onward. The
-        volumes are digitised and each carries its own index, so this is index reads, not volume reads.</li>
-        <li><strong>Catania itself</strong>, where he died in 1929, and where a large town's registers
-        are a much bigger job.</li>
-        <li><strong>That the tree has a generation compressed.</strong> There <em>is</em> a Salvatore
-        Mazza of Piedimonte Etneo — a day-labourer of Via Terremorte, born about 1845 — but he is a
-        father in 1879, not a newborn. Whether he is an ancestor, and how, is exactly the kind of thing
-        a marriage act would settle.</li>
-      </ul>
-      <p style="margin-top:14px">Until one of those lands, the head of the Mazza line stays where it
-      was: a man called Rosario about whom one fact is known.
-      <a href={u("/open-questions")}>The queue →</a></p>
+      <p><strong>The index is not the act.</strong> The 1877 annual index lists act 168 as
+      <em>Mazza Grazia</em>. The act itself says <strong>Orazio</strong> — a boy, not a girl. An index
+      is a clerk's abstract and it can be wrong; the act is the record.</p>
+      <p><strong>And a misreading of my own, corrected by a second document.</strong> Reading act 205
+      alone, this archive gave Salvatore Mazza's wife as <em>Greco Concetta</em> — which produced an
+      absurdity, two women of that name on one street bearing children six weeks apart. The 1876
+      marriage index settles it: Salvatore married <strong>Concetta Sciacca</strong>. It is
+      <strong>Pasquale</strong> whose wife is Concetta Greco, and that is confirmed twice, in 1877 and
+      1879. Two documents beat one, and the absurdity was the tell.</p>
     </div>
   </section>
 </Base>
