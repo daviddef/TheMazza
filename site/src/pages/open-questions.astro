@@ -9,8 +9,8 @@ const Q = [
     q: "Does Rosario Mazza join the hundred and ten?",
     why: "Still the highest-value question — and the obvious answer has now been eliminated.",
     body: `Sebastiano Mazza's grandfather is a man called Rosario Mazza about whom exactly one thing is known: that he fathered Salvatore Mazza, said to be born at Piedimonte Etneo in 1879. Separately, the tree holds a complete Piedimonte Etneo Mazza kindred of ${stats.components[1]} people headed by a Rosario Mazza born in 1850. The two Rosarios are not joined by anything — and the register that was supposed to join them does not contain Salvatore at all.`,
-    test: "Salvatore Mazza's act of birth was the test, and on 10 September 2026 the register was read. HE IS NOT IN IT — the 1879 births of Piedimonte Etneo contain exactly two Mazza, Rosaria at act 167 and Venerio at act 205, and no Salvatore. So the next tests are: the supplement volume an_ua83493, which holds act 205 and the late registrations; then 1875-1885 either side; then Mascali and Giarre, where this family also appears.",
-    where: "Antenati — Archivio di Stato di Catania. Read: Nati 1879, an_ua83492. Not yet read: the supplement an_ua83493, and 1875-1878, 1880-1885.",
+    test: "All three follow-ups were run on 10 September 2026 and all three came back empty: the 1879 supplement, the surrounding years 1877-1881, and the neighbouring comuni Mascali and Giarre. What is left is the wider year range at Piedimonte Etneo (1875, 1876, 1882 onward), Catania itself where he died in 1929 — and the real possibility that the tree has a generation compressed, since there IS a Salvatore Mazza of Via Terremorte, born about 1845, who is a father in 1879 rather than a newborn. A marriage act would settle it.",
+    where: "Antenati — Archivio di Stato di Catania. Read: Piedimonte Etneo Nati 1877-1881 and the 1879 supplement; Mascali 1879; Giarre 1879. Not read: PE 1875, 1876, 1882+; Catania; marriages.",
   },
   {
     q: "Which ships? — nine down, nine to go",
@@ -72,16 +72,17 @@ const Q = [
     <div class="qrow">
       <div>
         <div class="lab">Answered — 10 September 2026</div>
-        <div class="qq" style="margin-top:8px">Is Salvatore Mazza in the 1879 Piedimonte Etneo births?</div>
-        <p class="qn" style="margin-top:0"><b>No. A negative, and a useful one.</b></p>
+        <div class="qq" style="margin-top:8px">Is Salvatore Mazza in the Sicilian birth registers?</div>
+        <p class="qn" style="margin-top:0"><b>Not in nine indexes across three comuni. A negative, and a useful one.</b></p>
       </div>
       <div>
-        <p class="qw">The volume was read: <strong>an_ua83492</strong>, Archivio di Stato di Catania,
-        81 images, alphabetical index at pages 72–73. Under <strong>M</strong> there are twenty-three
-        entries and <strong>exactly two Mazza</strong> — Rosaria at act 167 and Venerio at act 205.
-        <strong>No Salvatore.</strong> Act 167 was transcribed and belongs to a different household:
-        Pasquale Mazza, fifty, a bracciante of Via Terremorte, and his wife Concetta Greco.
-        <a href={u("/register-1879")}>The register →</a></p>
+        <p class="qw">Nine annual indexes read — <strong>Piedimonte Etneo 1877, 1878, 1879, 1880,
+        1881</strong>, plus <strong>Mascali 1879</strong> and <strong>Giarre 1879</strong>. Five Mazza
+        births in all of them: Antonino and Grazia (1877), Rosaria and Venerio (1879), Gaetano (1880);
+        <strong>none in 1878, 1881, Mascali or Giarre</strong>. <strong>No Salvatore anywhere.</strong>
+        The two 1879 acts were transcribed in full and document three Mazza men — Pasquale (b. c.1829),
+        Salvatore (b. c.1845) and Antonino (b. c.1844), all braccianti of
+        <strong>Via Terremorte</strong>. <a href={u("/register-1879")}>The registers →</a></p>
       </div>
     </div>
   </section>

@@ -330,3 +330,83 @@ record, unsupported by the register that should contain it. Three live possibili
 
 Until one of those is settled the head of the Mazza line stays where it was — a man called Rosario
 about whom exactly one thing is known.
+
+---
+
+## 10 September 2026 — all three follow-ups run, all three empty
+
+David asked for the three routes out of the 1879 null to be taken together. They were, and none of
+them found Salvatore Mazza.
+
+### 1. The 1879 supplement — act 205 read
+
+**`an_ua83493`**, segnatura 8957 suppl. 2, **18 images**, acts ~183–218 at two to an image. The main
+volume ran out of pages around act 175; the annual index covers both books, which is why act 205 is
+indexed in one and written in the other.
+
+> **Act 205.** L'anno milleottocento **settantanove**, addì **quattordici** di **Dicembre**… è
+> comparso **Mazza Salvatore**, di anni **trentaquattro**, **bracciante**, domiciliato in Piedimonte
+> Etneo… del dì **dodici**… nella casa posta in **Via Terremorte** al numero senza, da **Greco
+> Concetta, industriosa, sua moglie**… è nato un bambino di sesso mascolino… a cui dà il nome di
+> **Venerio**.
+> Witnesses: **Mazza Antonino**, 35, bracciante; **Morabito Angelo**, 38, bracciante.
+> Marginal note: married **Rosaria Greco di Carmelo**, 16 November 1908.
+
+### 2. The surrounding years at Piedimonte Etneo
+
+| Year | Ark | Mazza births in the annual index |
+|---|---|---|
+| 1877 | an_ua83490 | **Antonino** (act 164), **Grazia** (act 168) |
+| 1878 | an_ua83491 | **none** |
+| 1879 | an_ua83492 / 83493 | **Rosaria** (167), **Venerio** (205) |
+| 1880 | an_ua83494 | **Gaetano** (act 66) |
+| 1881 | an_ua83495 | **none** |
+
+### 3. The neighbouring comuni
+
+- **Mascali 1879** (`an_ua81758`, 85 images) — **no Mazza in the index at all.**
+- **Giarre 1879** (`an_ua80924`, 128 images) — **no Mazza in the index at all.**
+
+### What was found instead: three Mazza men on one street
+
+The two 1879 acts, read in full, document a Mazza kindred of **day-labourers on Via Terremorte**:
+
+| | Born about | Trade |
+|---|---|---|
+| **Mazza Pasquale**, 50 in Oct 1879 | c. 1829 | bracciante |
+| **Mazza Salvatore**, 34 in Dec 1879 | c. 1845 | bracciante |
+| **Mazza Antonino**, 35 in Dec 1879 (witness) | c. 1844 | bracciante |
+
+**None of them is Rosario.**
+
+### An oddity left standing
+
+Pasquale (50) and Salvatore (34) each declare a child born on **Via Terremorte** to a wife named
+**Greco Concetta**, **six weeks apart** — 28 October and 12 December 1879. One woman cannot have
+borne both. Either they are two women of the same very common name married to two Mazza men on one
+street (brothers or cousins — entirely ordinary in a Sicilian town), or one act has been misread.
+Both plates are published so anyone can check.
+
+### The live hypothesis now
+
+There **is** a Salvatore Mazza of Piedimonte Etneo, a bracciante of Via Terremorte born about
+**1845** — but he is a *father* in 1879, not a newborn. The tree may have a **generation
+compressed**. What would settle it is a **marriage act**, which names both fathers.
+
+Remaining: PE 1875, 1876 and 1882 onward; the PE marriage registers; the acts behind index entries
+164, 168 and 66; and Catania, where Salvatore died in 1929.
+
+### Method addendum
+
+Nine indexes across three comuni cost **~14 browser navigations and no register read-throughs**,
+because every volume carries an alphabetical *Indice Annuale* in its last pages. The working recipe:
+
+1. Browser once per volume to lift the container id from the live DOM.
+2. `tools/manifest.py <container>` — the manifest serves fine to **curl**.
+3. `tools/index_sheet.py <imageId>` — crops the four index columns server-side via IIIF `pct:` and
+   stacks them into one readable sheet. The index is normally at **n−2** or **n−3**.
+4. Calibrate act → image on any one page (**two acts per image**), then crop the act.
+
+**Watch for conservation sheets.** Several of these scans have a black card laid over half the
+opening, hiding whole columns — 1878's M section is only readable because it falls on the *other*
+index page.

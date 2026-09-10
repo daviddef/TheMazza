@@ -12,13 +12,18 @@ Updated 10 September 2026, the day the archive was built.
 ## 1. The join that would add six generations — HIGHEST VALUE
 - [x] **Piedimonte Etneo, Nati 1879 (an_ua83492) READ.** Salvatore Mazza is **NOT IN IT**. Two Mazza
       births that year: Rosaria (act 167, father Pasquale) and Venerio (act 205). Act 167 transcribed.
-- [ ] **The 1879 supplement, `an_ua83493`** (segnatura 8957, suppl. 2) — holds act 205, Mazza Venerio,
-      and the late registrations. The obvious next step.
-- [ ] **Piedimonte Etneo Nati 1875–1878 and 1880–1885** — if the year in the tree is wrong. All ten
-      volumes are digitised; each has an alphabetical index in its last pages, so this is ten index
-      reads, not ten volume reads.
-- [ ] **Mascali and Giarre** — if the town is wrong. Salvatore died at Catania; the family appears at
-      both towns.
+- [x] **The 1879 supplement `an_ua83493` READ** — act 205 is Mazza Venerio, father Salvatore, 34.
+- [x] **Piedimonte Etneo Nati 1877, 1878, 1880, 1881 indexes READ** — five Mazza births in all,
+      none of them Salvatore.
+- [x] **Mascali 1879 and Giarre 1879 indexes READ** — no Mazza in either.
+- [ ] **Piedimonte Etneo Nati 1875, 1876, and 1882 onward** — the year may be further out than two.
+- [ ] **Piedimonte Etneo MARRIAGES** — the marriage of Salvatore Mazza × Concetta Greco (c. 1870)
+      names both fathers, and is now the fastest route to Rosario. **Highest-value remaining.**
+- [ ] **The acts behind 1877/164, 1877/168 and 1880/66** — three more Mazza households for the cost
+      of three IIIF crops.
+- [ ] **Catania**, where Salvatore died in 1929.
+- [ ] **Test the compressed-generation hypothesis.** Salvatore Mazza of Via Terremorte, b. c.1845,
+      is a father in 1879. Is he an ancestor rather than the man the tree calls b.1879?
 - [ ] Failing all of that: **Rosario Mazza's marriage act**, Piedimonte Etneo, c. 1875.
 - [ ] **Who is Pasquale Mazza?** b. c. 1829, bracciante, Via Terremorte, m. Concetta Greco. A second
       documented Mazza household in the town, not in the family tree at all. Does he connect to
