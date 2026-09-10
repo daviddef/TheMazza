@@ -92,8 +92,15 @@ Antenati has a "Richieste di certificati" page for exactly this.
 - [ ] Confirm the **Napoli** against the 2 August 1906 New York manifest — FindMyPast's index gives
       the ship but not the arrival date, so the identification is not yet closed.
 
-## 3. Above Franco Antonino Prostamo (b. c. 1697)
-- [ ] **First verify the 1697 date is a document and not a family estimate.** It carries no source.
+## 3. Above Domenico Prostamo — the 1697 AUDITED
+- [x] **Audited 10 Sep 2026.** Documented to **Domenico Prostamo**, marinaro, dead before Jan 1886,
+      × Giovanna Ventrice. **Alfonso b. c.1862, not 1858.** Both were SAILORS, not contadini.
+- [x] **The four generations above Domenico (1785, 1760, 1726, 1697) have NO source and are NOT
+      testable online.** Civil registration starts 1809; FamilySearch Briatico starts 1880; the 1783
+      earthquake destroyed much of the province's archives.
+- [ ] **Francessco Prostamo b. 16 Nov 1900** — should be reachable, FamilySearch Briatico runs to 1910.
+- [ ] Briatico parish registers, Diocese of Mileto–Nicotera–Tropea; Catanzaro pre-unification series.
+      **Not online — must be ordered.**
 - [ ] Briatico parish registers, Diocese of Mileto–Nicotera–Tropea; Catanzaro state archive
       pre-unification series. The 1783 Calabrian earthquake destroyed much of the province's archives.
 
@@ -126,3 +133,12 @@ Antenati has a "Richieste di certificati" page for exactly this.
 - [ ] **58 shared names** left unmerged. Each needs a record, not a judgement call.
 - [ ] The photographs are almost entirely **uncaptioned**. Michael and his relatives could identify
       most of them in an afternoon; that is the cheapest large gain available.
+
+
+## 9. Scilla — route confirmed, sweep outstanding
+- [x] **FamilySearch does NOT hold Scilla.** Zero place-matched records; its Calabrian full text is
+      Catanzaro/Vibo Valentia only.
+- [ ] **Antenati DOES**: Archivio di Stato di Reggio Calabria, 57 volumes, births from 1850
+      (`an_ua2002898`+). Sweep the annual indexes for Arena, Polistena, Donato, Pontillo.
+      Targets: Giuseppe Arena b.1892, Giovanni Arena b.1870, Rocco Arena b.1861, Orazio Arena b.1821;
+      Giovanni Polistena b.1883, Antonio Polistena, Giovanna Pontillo; Michele Donato b.1851.

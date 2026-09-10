@@ -7,12 +7,14 @@ const spine = spineData.spine;
 const kids = spineData.children;
 ---
 <Base title="The Spine" eyebrow="Eleven generations"
-      dek="The longest unbroken descent this archive can follow: from a man born at Briatico in 1697 to two children born in Brisbane in 2017 and 2019. It runs through the surname for only the last two steps.">
+      dek="The longest descent the family tree asserts: from a man said to be born at Briatico in 1697 to two children born in Brisbane. Its top four generations carry no source — see Testing the 1697.">
 
-  <p class="note">This is not the Mazza line. It is the <strong>deepest</strong> line, and it belongs
-  to the <a href={u("/briatico")}>Prostamo of Briatico</a> — eight generations of them — before it
-  turns into a Mazza line at all, by the marriage of <P n="Domenica Prostamo" /> in Brisbane. Archives
-  usually draw the surname because the surname is easy. This one draws the evidence.</p>
+  <p class="note">This is not the Mazza line — for that see <a href={u("/the-name-line")}>the Mazza
+  name line</a>, which is documented at every Sicilian step. This is the <strong>longest</strong>
+  line, and it belongs to the <a href={u("/briatico")}>Prostamo of Briatico</a>.
+  <strong>Read it with the audit beside it:</strong> the archive has documented this descent back to
+  Domenico Prostamo, and the four generations above him — 1785, 1760, 1726, 1697 — rest on the family
+  tree alone. <a href={u("/briatico-tested")}>Testing the 1697 →</a></p>
 
   <div class="stack" style="margin-top:38px">
     {spine.map((g, i) => (

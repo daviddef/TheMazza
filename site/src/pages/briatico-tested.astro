@@ -1,0 +1,93 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import line from "../data/briatico-line.json";
+const doc = line.filter((r) => r.status.startsWith("DOCUMENTED"));
+const un = line.filter((r) => r.status === "UNTESTED");
+---
+<Base title="Testing the 1697" eyebrow="The Prostamo line, audited"
+      dek="The archive's largest claim is eleven generations to Franco Antonino Prostamo, born at Briatico about 1697. Four of those generations rest on nothing at all, and they are not testable online.">
+
+  <section class="blk">
+    <p class="lede">This archive has said since the day it opened that its deepest line is the
+    <a href={u("/briatico")}>Prostamo of Briatico</a> — <strong>nine generations to 1697</strong>,
+    reached through a grandmother, and deeper than the surname it is named for.</p>
+    <p class="lede" style="margin-top:1rem">On 10 September 2026 the same family tree was found to be
+    <strong>six years out</strong> on Salvatore Mazza's birth, <strong>six years out</strong> on
+    Orazio's, <strong>four</strong> on Alfonso Prostamo's, and wrong about the town where Salvatore
+    died. A tree with that error rate is not a source, and the 1697 rests on it entirely.</p>
+    <p class="lede" style="margin-top:1rem"><strong>So it was audited.</strong></p>
+  </section>
+
+  <section class="blk">
+    <h2>Generation by generation</h2>
+    <div class="scroll" style="margin-top:18px">
+      <table>
+        <thead><tr><th class="m">Gen</th><th>Who</th><th class="m">Born</th><th>Standing</th><th>What supports it</th></tr></thead>
+        <tbody>{line.map((r) => (
+          <tr>
+            <td class="m">{r.gen}</td>
+            <td><strong>{r.name}</strong></td>
+            <td class="m">{r.born}</td>
+            <td>{r.status.startsWith("DOCUMENTED")
+              ? <span class="chip doc">{r.status.includes("WRONG") ? "documented — tree wrong" : "documented"}</span>
+              : r.status === "UNTESTED"
+              ? <span class="chip lore">untested</span>
+              : <span class="chip inf">tree only</span>}</td>
+            <td>{r.evidence}</td>
+          </tr>))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">What was found</div>
+    <h2 style="margin-top:.4rem">Two generations proved, and a sailor</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><strong>Alfonso Prostamo's marriage</strong> — proclaimed 16 January 1886, celebrated
+      21 May 1887 — does the work of two generations at once:</p>
+      <blockquote style="margin:.9rem 0">…è comparso <strong>Prostamo Alfonso</strong>, di anni
+      <strong>ventiquattro</strong>, <strong>Marinaro</strong>, residente in Briatico,
+      <strong>figlio del fu Domenico</strong>, Marinaro, residente in vita in Briatico, e di
+      <strong>Ventrice Giovanna</strong>, Filatrice, residente in Briatico. È pure comparsa
+      <strong>Melluso Caterina</strong>, di anni <strong>ventuno</strong>, contadina, figlia di
+      <strong>Leone</strong>…</blockquote>
+      <p>The clerk adds that the couple produced <em>«la copia dell'atto di morte di Prostamo
+      Domenico, genitore dello sposo»</em>, and that <strong>Giovanna Ventrice appeared in person to
+      give her consent</strong> — a widow, standing in the Casa Comunale at Briatico in January 1886,
+      putting her mark to her son's marriage.</p>
+      <p><strong>They were sailors.</strong> Both Alfonso and his father Domenico are
+      <em>marinari</em>, not <em>contadini</em> — which is what you would expect of a family on the
+      Tyrrhenian coast, and which the family tree does not record.</p>
+      <p><strong>And Alfonso was born about 1862, not 1858.</strong> Twenty-four in January 1886,
+      twenty-five in May 1887. Four years out, in the same direction as every other tree date this
+      archive has tested.</p>
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <div class="lab">The verdict</div>
+    <h2 style="margin-top:.4rem">The 1697 is not proved, and it is not currently provable</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The line is now <strong>documented as far back as {doc.length > 0 ? "Domenico Prostamo" : ""},
+      dead before 1886</strong>. Above him, <strong>four generations — {un.map((r) => r.born).join(", ")} —
+      have no source whatever.</strong></p>
+      <p>They are also, for now, <strong>untestable</strong>. Italian civil registration begins in
+      1809; everything above Domenico is parish material. FamilySearch's Briatico full text covers
+      <strong>1880–1910</strong>. Antenati's Catanzaro holdings for these comuni do not reach the
+      eighteenth century either. And the <strong>Calabrian earthquake of 1783</strong> destroyed
+      archives across the province — which is the very reason a line claiming to reach 1697 there
+      should have been treated sceptically from the start.</p>
+      <p><strong>What this changes on the site.</strong> The archive will go on saying the Prostamo
+      are its deepest line, because they are. It will stop saying <em>nine generations to 1697</em>
+      as though that were established. The honest statement is: <strong>documented to Domenico
+      Prostamo, a sailor of Briatico dead before 1886; asserted, by a family tree of demonstrated
+      unreliability, for four generations above him.</strong></p>
+      <p><strong>What would settle it:</strong> the parish registers of Briatico, held by the Diocese
+      of Mileto–Nicotera–Tropea, and the pre-unification series at the Archivio di Stato di
+      Catanzaro. Neither is online. <a href={u("/open-questions")}>The queue →</a></p>
+    </div>
+  </section>
+</Base>

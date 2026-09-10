@@ -4,10 +4,16 @@ An evidence-first family archive for the **Mazza** family of **Piedimonte Etneo*
 Catania, Sicily) — and of **Briatico** and **Scilla** in Calabria, of New York and Buenos Aires,
 and of Brisbane.
 
-> The family takes its name from its **shallowest** line. The Mazza of Piedimonte Etneo can be
-> followed back four generations before the record stops at a man with no dates at all. The line
-> that reaches furthest — **nine generations, to 1697** — is the Prostamo of Briatico, and it comes
-> in through a grandmother. **A surname is a poor guide to where a family actually comes from.**
+> The Mazza name reached back **four generations** when this archive opened, stopping at a man with
+> no dates at all. One day in the Sicilian registers took it to **seven generations** and
+> **Mariano Mazza and Maria Catalano**, and joined **a hundred and ten cousins** to the line —
+> every Sicilian step a document.
+>
+> The same day cost the archive its other headline. The Calabrian **Prostamo of Briatico** were said
+> to run nine generations to **1697**. Audited, they are **documented to Domenico Prostamo, a sailor
+> dead before 1886**, and **asserted for four generations above him** by a tree already shown to be
+> six years out on two Sicilian births. **A surname is a poor guide to where a family comes from —
+> and an undated pedigree is a poor guide to anything.**
 
 Built from a MyHeritage tree contributed by **Michael Mazza**, exported 9 September 2026.
 Sister archive to [The Falco Archive](https://github.com/daviddef/TheFalco).

@@ -853,3 +853,71 @@ gives **Venera Cassaneti**. One of them is wrong, or she is recorded under two n
 - **Gaetano (1880)** and **Santo (c. 1882)** are Rosario's sons and are **not in the family tree at all**.
 - **Mazza Veneranda, daughter of Salvatore and Maria Nicotra, married Mariano Cavallaro on 1 October
   1920** — another sibling of Sebastiano, and very likely the link to the Brisbane Cavallaro.
+
+---
+
+## 10 September 2026 — items 2, 1, 4 and 5
+
+### 2. THE 1697 AUDITED — and it does not survive
+
+The archive's largest claim was **nine generations of Prostamo to 1697**. FamilySearch's Briatico
+full text (1880–1910, Catanzaro collection **2043789**; Calabria collections **M9J1-9RW** deaths,
+**M9J1-S99** births, **M9J1-SHC** marriages) documents **two generations and no more**:
+
+> **Marriage proclamation, 16 January 1886 / marriage, 21 May 1887, Briatico.**
+> è comparso **Prostamo Alfonso**, di anni **ventiquattro**, **MARINARO**, residente in Briatico,
+> **figlio del fu Domenico**, Marinaro, residente in vita in Briatico, e di **Ventrice Giovanna**,
+> Filatrice… È pure comparsa **Melluso Caterina**, di anni **ventuno**, contadina, figlia di **Leone**…
+> «la copia dell'atto di morte di **Prostamo Domenico**, genitore dello sposo»… «È altresì comparsa la
+> genitrice dello sposo **Ventrice Giovanna**, la quale dona il suo pieno consenso».
+
+| Gen | | Standing |
+|---|---|---|
+| 1697 Franco Antonino · 1726 Antonino · 1760 Pasquale · 1785 Antonino | | **UNTESTED — no source at all** |
+| **Domenico Prostamo** | *marinaro*, dead before Jan 1886, × Giovanna Ventrice | **DOCUMENTED** |
+| **Alfonso Prostamo** | b. **c. 1862** (24 in Jan 1886, 25 in May 1887), *marinaro*, × Caterina Melluso 21 May 1887 | **DOCUMENTED — tree says 1858, four years out** |
+
+**They were sailors, not farmers** — both Alfonso and Domenico are *marinari*, which the tree does not
+record and which is exactly what a Tyrrhenian coastal family should be.
+
+**The four generations above Domenico are not merely unproved — they are not testable online.**
+Civil registration starts 1809; FamilySearch's Briatico corpus starts 1880; and the **1783 Calabrian
+earthquake** destroyed archives across the province. The site now says
+*documented to Domenico Prostamo, asserted for four generations above him.*
+
+### 1. MARIANO — done, from a death act rather than a marriage
+
+> **Piedimonte Etneo, Morti, 15 November 1924, frazione Presa.** …è morto **Mazza Rosario di anni
+> settantanove**, contadino… Contrada **S. Basilio**… **da fu Mariano già contadino**… **e da fu
+> Catalano Maria già casalinga**… **Marito di Bonanno Leonarda**.
+
+**MARIANO MAZZA × MARIA CATALANO** — generation one now has a couple, both dead by 1924.
+**Rosario Mazza: b. c. 1845, d. 15 November 1924, aged 79.** His age is now attested **seven** times
+— 28 (1873), 31 (1877), 32 (1880), 53 (1898), 55 (1902), 65 (1910), 79 (1924) — and every one agrees.
+
+I went looking for his marriage; his death act gave the same information and his own death besides.
+**Worth remembering: a death act names parents too, and is often easier to find than a marriage.**
+
+### 4. SCILLA — FamilySearch does not hold it; Antenati does
+
+Four searches place-matched to Scilla returned **zero** records whose `recordPlace` contains Scilla —
+the apparent 1866–1928 coverage was the region flooding in through weak place-weighting, exactly as
+`familysearch-fulltext-method` warns. **FamilySearch's Calabrian full text is concentrated on
+Catanzaro / Vibo Valentia, not Reggio Calabria.**
+
+**Antenati does hold Scilla**: Archivio di Stato di Reggio Calabria, **57 volumes**, 39 in the Stato
+civile italiano series, births from **1850** (`an_ua2002898` onward). The Arena and Polistena sweep is
+therefore an Antenati job and remains to be done. Targets: Giuseppe Arena b.1892, Giovanni Arena
+b.1870, Rocco Arena b.1861, Orazio Arena b.1821; Giovanni Polistena b.1883, Antonio Polistena,
+Giovanna Pontillo; Michele Donato b.1851.
+
+### 5. THE SHIPS — blocked
+
+NAA RecordSearch returned *Session expired* and an exception page on every entry point tried. Nine
+crossings remain unnamed. FindMyPast still has until **16 September**.
+
+### Method: the collection filter is what makes full text usable
+
+Without `c.collectionId=on&f.collectionId=<CID>` the `q.anyPlace` term is only weakly weighted and
+results flood with the whole region — Ganzirri, Nicotera, Limbadi, Torre di Faro. Get the IDs from
+the response's own `facets[0].facets`, each carrying a ready-made `params` string.
