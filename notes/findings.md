@@ -179,3 +179,58 @@ form to `PassengerSearch_Result.aspx`. So a scripted sweep is: GET the form for 
 POST the search, then POST empty to `PassengerSearch_Result.aspx` and parse. Session cookies carry
 the query. Results are paginated at 20, so a bare surname sweep truncates — use given names for
 anything specific.
+
+---
+
+## 10 September 2026 — the publication rules changed, and the focus sharpened
+
+**Living-person suppression switched off.** The inherited Falco rule (a living person is named and
+carries nothing else) was catching **416 of 599 people**, including the whole undated Piedimonte
+Etneo cluster, because its test reads "no death recorded" as "possibly alive". In a tree reaching
+1697 that is wrong far more often than it is right — only **69 people** in this tree have a death
+recorded anywhere. It is now a switch (`SUPPRESS_LIVING`), not a deletion.
+
+**Replaced by a date rule.** *Dates are withheld for anyone who would be 80 or younger today and
+whose death is not recorded* — **134 people**. Names, places, families, photographs and records are
+all published; only dates are held back, and they are stripped in the build rather than hidden by the
+page, so they are not in the HTML. Anyone the tree records as dead keeps their dates: Mary Rosa Mazza
+died at sixteen, and an archive that will not say so is not telling the truth about this family.
+Boundary verified — born 1946 (age 80) withheld, born 1945 (age 81) shown, zero leaks in the JSON.
+
+### The ancestors of Mia and Rocco, counted
+
+62 people across 10 generations, against 2,046 possible:
+
+| Gen | Who | Found | Possible | % |
+|---|---|---|---|---|
+| 1 | parents | 2 | 2 | 100 |
+| 2 | grandparents | 4 | 4 | 100 |
+| 3 | great-grandparents | 4 | 8 | 50 |
+| 4 | 2× great | 8 | 16 | 50 |
+| 5 | 3× great | 15 | 32 | 47 |
+| 6 | 4× great | 12 | 64 | 19 |
+| 7 | 5× great | 7 | 128 | 5.5 |
+| 8 | 6× great | 6 | 256 | 2.3 |
+| 9 | 7× great | 2 | 512 | 0.4 |
+| 10 | 8× great | 2 | 1024 | 0.2 |
+
+Half of the missing half at generation 3 is the **D'Arcy** side, through the children's mother,
+carried here only as far as her parents — that family has its own research and is not duplicated.
+
+### The names, compared
+
+**Mazza — 120 bearers, 6 descent groups, no record joining them.**
+
+| Group | People | Component | Span | Town |
+|---|---|---|---|---|
+| 1 | 26 | 1 | 1879–1952 | Brisbane / Piedimonte Etneo — **the line to the children** |
+| 2 | **86** | 2 | 1850–1885 | Piedimonte Etneo — headed by a **Rosario Mazza b. 1850** |
+| 3 | 5 | 2 | undated | — |
+| 4–6 | 1 each | 8, 9, 10 | undated | fragments joined to nothing |
+
+**Arena — 39 bearers, ONE unbroken family**, 1821–1937, all of Scilla.
+
+That contrast is the finding. It is not that the Arena were better recorded: *Arena* entered this
+archive through one household somebody had worked on, and *Mazza* entered as a surname. **The name a
+family is known by tells you least about it** — and group 2's Rosario Mazza, born 1850 in the same
+small town as Salvatore, remains the highest-value join in the archive.

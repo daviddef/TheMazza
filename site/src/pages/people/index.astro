@@ -7,14 +7,14 @@ const rows = [...people].sort((a, b) =>
 const surnames = [...new Set(people.map((p) => p.surname).filter(Boolean))].sort();
 ---
 <Base title="The People" eyebrow="Everyone in the archive"
-      dek={`All ${people.length} people recorded here, living and dead. The living carry a name and nothing else — no dates, no places, no records. That is deliberate.`}>
+      dek={`All ${people.length} people in the tree. Only ${people.filter((p) => p.died).length} of them have a death recorded anywhere — the rest are undated rather than necessarily alive.`}>
   <div class="filters">
     <label>Search <input id="q" type="search" placeholder="name or place" style="font-family:var(--sans);font-size:13px;padding:5px 8px;border:1px solid var(--rule-strong);border-radius:2px;background:var(--panel);color:var(--ink)" /></label>
     <label>Surname
       <select id="sn"><option value="">all</option>{surnames.map((s) => <option>{s}</option>)}</select>
     </label>
     <label>Show
-      <select id="st"><option value="">everyone</option><option value="dead">the dead only</option><option value="living">the living only</option></select>
+      <select id="st"><option value="">everyone</option><option value="dated">with dates</option><option value="undated">undated</option></select>
     </label>
     <span class="count" id="count"></span>
   </div>
@@ -24,11 +24,11 @@ const surnames = [...new Set(people.map((p) => p.surname).filter(Boolean))].sort
     <thead><tr><th>Name</th><th class="m">Dates</th><th>Place</th><th>Status</th></tr></thead>
     <tbody id="tb">
       {rows.map((p) => (
-        <tr data-n={(p.name + " " + (homeOf(p) || "")).toLowerCase()} data-s={p.surname || ""} data-l={p.living ? "living" : "dead"}>
-          <td>{p.living ? p.name : <a href={u("/people/" + p.slug)}>{p.name}</a>}</td>
+        <tr data-n={(p.name + " " + (homeOf(p) || "")).toLowerCase()} data-s={p.surname || ""} data-l={(p.born || p.died) ? "dated" : "undated"}>
+          <td><a href={u("/people/" + p.slug)}>{p.name}</a></td>
           <td class="m">{span(p)}</td>
           <td>{homeOf(p)}</td>
-          <td>{p.living ? <span class="chip lore">living — name only</span> : <span class="chip doc">recorded</span>}</td>
+          <td>{p.died ? <span class="chip doc">death recorded</span> : p.born ? <span class="chip inf">born {p.born}</span> : <span class="chip lore">undated</span>}</td>
         </tr>
       ))}
     </tbody>

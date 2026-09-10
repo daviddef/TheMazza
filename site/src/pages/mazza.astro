@@ -1,0 +1,117 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import focus from "../data/focus.json";
+const M = focus.Mazza;
+const spine = M.groups.filter((g) => g.onSpine.length);
+const apart = M.groups.filter((g) => !g.onSpine.length);
+const big = apart.reduce((a, g) => a + g.n, 0);
+---
+<Base title="The Mazza" eyebrow={`${M.total} bearers, ${M.groups.length} descent groups`}
+      dek="The surname this archive is named for is also the most fragmented thing in it. A hundred and twenty Mazza sit in six groups that no record joins to each other.">
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{M.total}</div><div class="l">people called Mazza in the tree</div></div>
+      <div class="stat"><div class="n">{M.groups.length}</div><div class="l">separate descent groups</div></div>
+      <div class="stat"><div class="n">{big}</div><div class="l">of them joined to the family by nothing</div></div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>What the name is</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><em>Mazza</em> is the Italian for a club, a mace or a mallet, from the Latin
+      <em>mattea</em>. It became a surname in every available way at once: as a nickname for a strong
+      or a violent man, as a trade name for someone who swung a maul, and — most commonly — from the
+      medieval personal name <em>Mazzo</em>, a short form of Giacomazzo, Tommazzo and the like.</p>
+      <p>It is among the most widespread surnames in Italy and it was <strong>coined independently,
+      many times over</strong>, from Lombardy to Sicily. There is no founding Mazza family. That is
+      not a disclaimer — it is the operative fact of this page, and it is why the six groups below
+      are kept apart rather than drawn as one tree.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Group 1</div>
+    <h2 style="margin-top:.4rem">The line that reaches the children</h2>
+    {spine.map((g) => (
+      <div>
+        <div class="meta" style="margin:1rem 0 1.2rem">
+          <span><b>{g.n}</b> people</span>
+          <span>{g.earliest || "····"}–{g.latest || "····"}</span>
+          <span>{g.towns.join(" · ")}</span>
+          <span>component {g.component}</span>
+        </div>
+        <p class="dek" style="max-width:80ch">Five generations and then it stops:
+        <P n="Rosario Mazza" /> — of whom one single fact is known, that he fathered Salvatore —
+        then <P n="Salvatore Mazza" /> born at Piedimonte Etneo in 1879, <P n="Sebastiano Mazza" />
+        who sailed on the <em>Toscana</em> in 1949, and down to
+        <strong>Mia</strong> and <strong>Rocco Francesco</strong>. It is the
+        <a href={u("/lines")}>shallowest of the four quarters</a> by five generations.</p>
+        <div class="scroll" style="margin-top:20px">
+          <table>
+            <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>On the spine</th></tr></thead>
+            <tbody>{g.people.map((x) => (
+              <tr>
+                <td><a href={u("/people/" + x.slug)}>{x.name}</a></td>
+                <td class="m">{x.datesHidden ? <span style="color:var(--ink-3)">withheld</span>
+                  : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
+                <td>{x.birthPlace || "—"}</td>
+                <td>{g.onSpine.includes(x.name) ? <span class="chip doc">ancestor</span> : ""}</td>
+              </tr>))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    ))}
+  </section>
+
+  <section class="blk">
+    <div class="lab">Groups 2 to {M.groups.length}</div>
+    <h2 style="margin-top:.4rem">The {big} who share the name and nothing else — yet</h2>
+    <p class="dek" style="margin:.9rem 0 1.4rem">These are not strangers in another province. Most of
+    them were born in <strong>the same small town on the flank of Etna</strong> as Salvatore Mazza,
+    and the largest group is headed by a <strong>Rosario Mazza born in 1850</strong> — the right name
+    in the right place at the right time to be Salvatore's father. The archive still does not join
+    them, because "the right name in the right place" is a probability and a descent needs a document.
+    <a href={u("/open-questions")}>The document that would settle it →</a></p>
+
+    <div class="stack">
+      {apart.map((g, i) => (
+        <div>
+          <h3 style="font-size:21px">Group {i + 2}
+            <span class="mono" style="font-size:12px;color:var(--ink-3);margin-left:12px">
+              {g.n} {g.n === 1 ? "person" : "people"} · component {g.component}
+              {g.earliest ? ` · ${g.earliest}–${g.latest}` : " · undated"}
+              {g.towns.length ? ` · ${g.towns[0]}` : ""}
+            </span>
+          </h3>
+          {g.n > 3 ? (
+            <div class="evlist" style="margin-top:12px">
+              {g.people.map((x) => (
+                <div><b>{x.born || "····"}</b><a href={u("/people/" + x.slug)}>{x.name}</a></div>
+              ))}
+            </div>
+          ) : (
+            <p style="font-family:var(--sans);font-size:13.5px;margin-top:8px;color:var(--ink-2)">
+              {g.people.map((x, j) => (<>{j > 0 && " · "}<a href={u("/people/" + x.slug)}>{x.name}</a></>))}
+              {" "}— a fragment with no parents and no children recorded, joined to nothing.
+            </p>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Compare the Arena</h2>
+    <p class="dek" style="margin-top:.8rem">Thirty-nine <a href={u("/arena")}>Arena</a> in this tree
+    form <strong>one single unbroken family</strong>, 1821 to 1937, all of Scilla. A hundred and
+    twenty Mazza form six groups. That is not because the Arena were better recorded — it is because
+    <em>Arena</em> arrived in this archive through one household that had been worked on, and
+    <em>Mazza</em> arrived as a surname. <strong>The name a family is known by tells you least about
+    it.</strong></p>
+  </section>
+</Base>

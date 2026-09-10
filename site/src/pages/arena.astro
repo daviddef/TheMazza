@@ -1,0 +1,69 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import focus from "../data/focus.json";
+const A = focus.Arena;
+const g = A.groups[0];
+const dated = g.people.filter((x) => x.born);
+---
+<Base title="The Arena" eyebrow={`${A.total} bearers, one family`}
+      dek="Thirty-nine Arena of Scilla, in a single unbroken descent from 1821 — the cleanest line in this archive, and the counter-example to the Mazza.">
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{A.total}</div><div class="l">people called Arena in the tree</div></div>
+      <div class="stat"><div class="n">{A.groups.length}</div><div class="l">descent group — all of them, one family</div></div>
+      <div class="stat"><div class="n">{g.earliest}</div><div class="l">the earliest of them, at Scilla</div></div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>What the name is</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><em>Arena</em> is <em>sand</em> — the Latin <em>harena</em>, the sanded floor of an
+      amphitheatre and, long before that, simply a sandy place. As a surname it is topographical:
+      a family from the shore, or from a place called Arena. There is a comune of that name in the
+      province of Vibo Valentia, forty kilometres from <a href={u("/briatico")}>Briatico</a>, though
+      nothing connects these Arena to it.</p>
+      <p>It is <strong>very common across Calabria and Sicily</strong> — common enough that a shared
+      Arena surname, on its own, is worth nothing at all. This archive holds
+      <strong>four separate Giuseppe Arena</strong> with no dates between them, and keeps all four
+      apart. <a href={u("/open-questions")}>Why →</a></p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>One family, six generations</h2>
+    <p class="dek" style="margin:.8rem 0 1.4rem">Every Arena in this tree is connected to every other
+    by parent, child or marriage. They are the family of <a href={u("/scilla")}>Scilla</a> that
+    <P n="Rocco Arena" /> came out of — the man who sailed on the <em>Sydney</em> out of Genoa at the
+    end of December 1953 and is buried in plot <strong>V-1029</strong> at
+    <a href={u("/nudgee")}>Nudgee</a>, beside his wife.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>On the spine</th></tr></thead>
+        <tbody>{g.people.map((x) => (
+          <tr>
+            <td><a href={u("/people/" + x.slug)}>{x.name}</a></td>
+            <td class="m">{x.datesHidden ? <span style="color:var(--ink-3)">withheld</span>
+              : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
+            <td>{x.birthPlace || "—"}</td>
+            <td>{g.onSpine.includes(x.name) ? <span class="chip doc">ancestor</span> : ""}</td>
+          </tr>))}
+        </tbody>
+      </table>
+    </div>
+    <p class="cap">{dated.length} of the {A.total} carry a birth year. The rest are known because
+    somebody else's record names them.</p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>And the Polistena beside them</h2>
+    <p class="dek" style="margin-top:.8rem">The other Scilla family. <P n="Rocco Arena" /> married
+    <P n="Angela Polistena" />, born in the same town within fifteen months of him, and they married
+    in Queensland. <em>Polistena</em> is a <strong>toponymic</strong> — from the town of Polistena in
+    the province of Reggio Calabria — so the name records a family that had already moved once, and
+    was named for having done it. <a href={u("/scilla")}>Scilla →</a></p>
+  </section>
+</Base>

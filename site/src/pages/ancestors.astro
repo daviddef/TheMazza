@@ -1,0 +1,88 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import anc from "../data/ancestors.json";
+const { generations, anchors, total } = anc;
+const label = (g) => ["", "parents", "grandparents", "great-grandparents",
+  "2× great-grandparents", "3× great-grandparents", "4× great-grandparents",
+  "5× great-grandparents", "6× great-grandparents", "7× great-grandparents",
+  "8× great-grandparents"][g] || `generation ${g}`;
+---
+<Base title="The Ancestors" eyebrow={`${total} people, ten generations`}
+      dek="Everyone standing behind Mia Josephine Mazza and Rocco Francesco Mazza — counted honestly, generation by generation, against the number there ought to be.">
+
+  <section class="blk">
+    <p class="lede">This archive exists for two children born in Brisbane in <strong>2017</strong> and
+    <strong>2019</strong>. A pedigree drawn downward from an ancestor decides in advance which line
+    matters. Drawn upward from them, it simply reports who is actually behind them — and, just as
+    usefully, <strong>how much is missing</strong>.</p>
+    <p class="lede" style="margin-top:1rem">Every person has 2 parents, 4 grandparents, 8
+    great-grandparents, and 1,024 ancestors ten generations back. This is what the tree can actually
+    name.</p>
+  </section>
+
+  <section class="blk">
+    <h2>How complete each generation is</h2>
+    <div class="scroll" style="margin-top:18px">
+      <table>
+        <thead><tr><th class="m">Gen</th><th>Who they are</th><th class="m">Found</th><th class="m">Possible</th><th>Completeness</th><th>Where they were born</th></tr></thead>
+        <tbody>{generations.map((r) => {
+          const pct = Math.round(1000 * r.found / r.possible) / 10;
+          return (
+          <tr>
+            <td class="m">{r.gen}</td>
+            <td>{label(r.gen)}</td>
+            <td class="m">{r.found}</td>
+            <td class="m">{r.possible}</td>
+            <td>
+              <span style="display:inline-block;vertical-align:middle;width:120px;height:8px;background:var(--panel-2);border-radius:2px;overflow:hidden">
+                <span style={`display:block;height:8px;width:${Math.max(pct, 1)}%;background:var(--terra)`}></span>
+              </span>
+              <span class="mono" style="margin-left:9px">{pct}%</span>
+            </td>
+            <td>{r.towns.map((t) => t.name.split(",")[0]).join(" · ") || "—"}</td>
+          </tr>);
+        })}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:24px">The shape of that column is the whole story. The archive is
+    <strong>complete</strong> for parents and grandparents, <strong>half complete</strong> for the two
+    generations above, and then it falls off a cliff: <strong>5.5%</strong> at the seventh generation
+    and <strong>0.2%</strong> at the tenth. What survives that far is a single thread — the
+    <a href={u("/briatico")}>Prostamo of Briatico</a>. Everything else has already stopped.</p>
+    <p class="note" style="margin-top:16px">Half of the missing half at generation three is not
+    Italian at all. It is the <strong>D'Arcy</strong> side, through the children's mother, which this
+    archive carries only as far as her parents. That family has
+    <a href={u("/open-questions")}>its own research</a> and is not duplicated here.</p>
+  </section>
+
+  {generations.map((r) => (
+    <section class="blk">
+      <div class="lab">Generation {r.gen} · {r.found} of {r.possible}</div>
+      <h2 style="margin-top:.4rem;font-size:26px">{label(r.gen).charAt(0).toUpperCase() + label(r.gen).slice(1)}</h2>
+      <div class="scroll" style="margin-top:16px">
+        <table>
+          <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>Line</th></tr></thead>
+          <tbody>{r.people.map((x) => (
+            <tr>
+              <td><a href={u("/people/" + x.slug)}>{x.name}</a></td>
+              <td class="m">{x.datesHidden ? <span style="color:var(--ink-3)">withheld</span>
+                : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
+              <td>{x.birthPlace || "—"}</td>
+              <td>{x.surname}</td>
+            </tr>))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Where it ends</h2>
+    <p class="dek" style="margin-top:.8rem">At the tenth generation there are two people and they are
+    <P n="Franco Antonino Prostamo" /> and <P n="Agnere Polito" />, born at Briatico about 1697 and
+    1699. Everything above them is unsearched. <a href={u("/direct-line")}>The spine →</a></p>
+  </section>
+</Base>

@@ -8,10 +8,9 @@ import nudgee from "../../data/nudgee.json";
 import ships from "../../data/ships.json";
 
 export function getStaticPaths() {
-  /* Only the dead get a page. A living person has nothing to put on one —
-     the build never emitted their dates, places or records — and generating
-     an empty page for them would only invite someone to fill it in. */
-  return people.filter((p) => !p.living).map((p) => ({ params: { slug: p.slug }, props: { p } }));
+  /* Everyone in the tree gets a page. The living-suppression rule is switched
+     off while the archive is being got right — see /method. */
+  return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
 const rel = (list) => (list || []).filter(Boolean);

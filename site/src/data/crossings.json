@@ -11,6 +11,17 @@
   "year": 1894
  },
  {
+  "who": "Generosa Costa",
+  "slug": "generosa-costa",
+  "born": null,
+  "from": "Italy",
+  "left": "",
+  "leftDate": "",
+  "arrived": "",
+  "arrivedDate": "1894",
+  "year": 1894
+ },
+ {
   "who": "Domenica Anile",
   "slug": "domenica-anile",
   "born": 1880,
@@ -176,6 +187,17 @@
   "year": 1953
  },
  {
+  "who": "Luciano Cavallaro",
+  "slug": "luciano-cavallaro",
+  "born": 1945,
+  "from": "Catania, Sicily",
+  "left": "Genoa, Liguria",
+  "leftDate": "",
+  "arrived": "Brisbane, Queensland",
+  "arrivedDate": "6 October 1953",
+  "year": 1953
+ },
+ {
   "who": "Francessco Prostamo",
   "slug": "francessco-prostamo",
   "born": 1900,
@@ -196,5 +218,16 @@
   "arrived": "Miami, Florida, USA",
   "arrivedDate": "18 June 1961",
   "year": 1961
+ },
+ {
+  "who": "Salvatore Mazza",
+  "slug": "salvatore-mazza-1948",
+  "born": null,
+  "from": "Briatico, Vibo Valentia, Calabria",
+  "left": "Genoa, Liguria",
+  "leftDate": "",
+  "arrived": "Fremantle, Western Australia",
+  "arrivedDate": "",
+  "year": null
  }
 ]

@@ -104,15 +104,20 @@ for h in hh:
 uniq.sort(key=lambda h: (h["born"] or 9999))
 json.dump(uniq, open(f"{OUT}/households.json", "w"), indent=1, ensure_ascii=False)
 
-# ------------------------------------------------------------------- living
-living = sorted([{"name": p["name"], "surname": p["surname"], "slug": p["slug"]}
-                 for p in P if p["living"]], key=lambda r: (r["surname"], r["name"]))
+# ------------------------------------------------- presumed living (reference)
+# Not suppressed any more, but still worth naming: these are the people the tree
+# gives no death for. Most are simply undated rather than alive.
+living = sorted([{"name": p["name"], "surname": p["surname"], "slug": p["slug"],
+                  "born": p.get("born"), "undated": not p.get("born")}
+                 for p in P if p.get("presumedLiving")],
+                key=lambda r: (r["surname"], r["name"]))
 json.dump(living, open(f"{OUT}/living.json", "w"), indent=1, ensure_ascii=False)
 
 # -------------------------------------------------------------------- stats
 audit = json.load(open("data/audit.json"))
 stats = audit["stats"]
-stats.update({"places": len(places), "surnames": len(families),
+stats.update({"noDeathRecord": len(living),
+              "places": len(places), "surnames": len(families),
               "crossings": len(crossings), "burials": len(bur),
               "households": len(uniq),
               "nudgee": sum(1 for b in bur if "Nudgee" in b["place"])})
@@ -120,7 +125,7 @@ json.dump(stats, open(f"{OUT}/stats.json", "w"), indent=1)
 json.dump(audit.get("unresolved", []), open(f"{OUT}/unresolved.json", "w"), indent=1, ensure_ascii=False)
 
 print(f"places {len(places)}  surnames {len(families)}  crossings {len(crossings)}  "
-      f"burials {len(bur)} (Nudgee {stats['nudgee']})  households {len(uniq)}  living {len(living)}")
+      f"burials {len(bur)} (Nudgee {stats['nudgee']})  households {len(uniq)}  presumed-living {len(living)}")
 print("\ntop places:", [(p['name'], p['n']) for p in places[:8]])
 print("\ncrossings:")
 for c in crossings:

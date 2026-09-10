@@ -7,13 +7,12 @@ const withPhotos = dead.filter((p) => p.photos && p.photos.length)
 const n = withPhotos.reduce((a, p) => a + p.photos.length, 0);
 ---
 <Base title="Documents" eyebrow={`${n} images, ${withPhotos.length} people`}
-      dek="The photographs and papers held in the family's own tree, saved down before the links expired. Images of living people are not published.">
+      dek="The photographs and papers held in the family's own tree, saved down before the links expired.">
 
   <p class="note">These came out of the MyHeritage export as signed links that were due to expire on
   <strong>16 September 2026</strong>. They were downloaded on 10 September and are now held in the
   repository, so the archive no longer depends on a URL that dies. Of 133 images,
-  <strong>{n}</strong> belong to people who are dead and appear here; the remaining 60 belong to
-  living people and are kept out of the build entirely.</p>
+  all <strong>{n}</strong> now appear here.</p>
 
   <p class="note" style="margin-top:18px">Almost none of these are captioned in the tree. Who is in
   them, when, and where is mostly unknown — and family photographs are exactly the thing a relative

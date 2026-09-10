@@ -4,10 +4,13 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import stats from "../data/stats.json";
 import places from "../data/places.json";
-import { dead, living } from "../lib/people.js";
+import { people } from "../lib/people.js";
 
 const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
 const more = [
+  ["/ancestors", "The ancestors of Mia and Rocco", "Sixty-two people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, five per cent complete by the seventh generation, and one thread at the tenth."],
+  ["/mazza", "The Mazza", "A hundred and twenty bearers of the name in six descent groups that no record joins. The surname this archive is named for is the most fragmented thing in it."],
+  ["/arena", "The Arena", "Thirty-nine Arena of Scilla in a single unbroken family — the counter-example, and the reason a surname tells you least about a family."],
   ["/lines", "The four quarters", "Michael Rocco Mazza has four grandparents and they came from four different places. Three towns in the south of Italy, and the shipping line that brought all four to one suburb of Brisbane."],
   ["/briatico", "Briatico", "The deepest line in the archive, and the one that does not carry the name. Nine generations of Prostamo in a Calabrian coastal comune, back to a man born in 1697."],
   ["/piedimonte-etneo", "Piedimonte Etneo", "The town on the north-east flank of Etna that gave the family its surname — and the shallowest line of the four."],
@@ -32,8 +35,9 @@ const more = [
   <section class="blk">
     <p class="lede">This is an archive of <strong>the Mazza of Brisbane</strong> — and of the three
     southern Italian towns they came out of, none of which had heard of the other two. It is not a
-    pedigree. Of the {stats.people} people recorded here, {stats.deceased} are dead and can be written
-    about; the other {stats.living} are living, and carry a name and nothing else.</p>
+    pedigree: of the {stats.people} people recorded here, all but a handful never continued the line.
+    Only {stats.withDeath} of them have a death recorded anywhere — which is a measure of how much of
+    this tree is still undated rather than of who is still alive.</p>
     <blockquote>
       The family takes its name from its <strong>shallowest</strong> line. The Mazza of Piedimonte
       Etneo can be followed back four generations before the record stops at a man with no dates at
@@ -128,11 +132,12 @@ const more = [
 
   <section class="blk" style="border-bottom:0">
     <div class="lab">A standing rule</div>
-    <h2 style="margin-top:.4rem">The living are named, and nothing else</h2>
-    <p class="dek" style="margin-top:.8rem">{stats.living} people in this tree are alive, or cannot be
-    shown to be dead. This site publishes their <strong>name</strong>. It does not publish their birth
-    date, their age, where they live, who they married or any record about them — those fields exist
-    in the family tree and are dropped by the build before the site is generated. A removal request is
-    honoured within days, without argument and without requiring a reason.</p>
+    <h2 style="margin-top:.4rem">Dates are withheld for anyone {stats.ageThreshold} or younger</h2>
+    <p class="dek" style="margin-top:.8rem">Everyone in this tree is written up in full — name,
+    places, family, photographs, records. But <strong>{stats.datesHidden} people</strong> who would be
+    {stats.ageThreshold} or younger today, and whose death is not recorded, have their
+    <strong>dates withheld</strong>. Those dates are stripped in the build, not hidden by the page:
+    they are not in the HTML and not recoverable from this site. A removal request is honoured within
+    days, without argument and without requiring a reason. <a href={u("/method")}>The method →</a></p>
   </section>
 </Base>

@@ -1,0 +1,898 @@
+{
+ "anchors": [
+  {
+   "id": "@I363@",
+   "slug": "mia-josephine-mazza",
+   "name": "Mia Josephine Mazza",
+   "surname": "Mazza",
+   "born": null,
+   "died": null,
+   "datesHidden": true,
+   "birthPlace": "Brisbane, Queensland",
+   "comp": 1
+  },
+  {
+   "id": "@I364@",
+   "slug": "rocco-francesco-mazza",
+   "name": "Rocco Francesco Mazza",
+   "surname": "Mazza",
+   "born": null,
+   "died": null,
+   "datesHidden": true,
+   "birthPlace": "Brisbane, Queensland",
+   "comp": 1
+  }
+ ],
+ "generations": [
+  {
+   "gen": 1,
+   "possible": 2,
+   "found": 2,
+   "people": [
+    {
+     "id": "@I362@",
+     "slug": "stefanie-darcy",
+     "name": "Stefanie D'Arcy",
+     "surname": "D'Arcy",
+     "born": null,
+     "died": null,
+     "datesHidden": true,
+     "birthPlace": "Brisbane, Queensland",
+     "comp": 1
+    },
+    {
+     "id": "@I26@",
+     "slug": "michael-rocco-mazza",
+     "name": "Michael Rocco Mazza",
+     "surname": "Mazza",
+     "born": null,
+     "died": null,
+     "datesHidden": true,
+     "birthPlace": "Brisbane, Queensland",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Brisbane, Queensland",
+     "n": 2
+    }
+   ]
+  },
+  {
+   "gen": 2,
+   "possible": 4,
+   "found": 4,
+   "people": [
+    {
+     "id": "@I25@",
+     "slug": "nancy-arena",
+     "name": "Nancy Arena",
+     "surname": "Arena",
+     "born": null,
+     "died": null,
+     "datesHidden": true,
+     "birthPlace": "Brisbane, Queensland",
+     "comp": 1
+    },
+    {
+     "id": "@I365@",
+     "slug": "ian-darcy",
+     "name": "Ian D'Arcy",
+     "surname": "D'Arcy",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "",
+     "comp": 1
+    },
+    {
+     "id": "@I366@",
+     "slug": "josephine-falco",
+     "name": "Josephine Falco",
+     "surname": "Falco",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "",
+     "comp": 1
+    },
+    {
+     "id": "@I1@",
+     "slug": "frank-mazza",
+     "name": "Frank Mazza",
+     "surname": "Mazza",
+     "born": null,
+     "died": null,
+     "datesHidden": true,
+     "birthPlace": "Brisbane, Queensland",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Brisbane, Queensland",
+     "n": 2
+    }
+   ]
+  },
+  {
+   "gen": 3,
+   "possible": 8,
+   "found": 4,
+   "people": [
+    {
+     "id": "@I28@",
+     "slug": "rocco-arena-1924",
+     "name": "Rocco Arena",
+     "surname": "Arena",
+     "born": 1924,
+     "died": 1999,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I2@",
+     "slug": "sebastiano-mazza",
+     "name": "Sebastiano Mazza",
+     "surname": "Mazza",
+     "born": 1920,
+     "died": 2002,
+     "datesHidden": false,
+     "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+     "comp": 1
+    },
+    {
+     "id": "@I29@",
+     "slug": "angela-polistena",
+     "name": "Angela Polistena",
+     "surname": "Polistena",
+     "born": 1925,
+     "died": 2018,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I3@",
+     "slug": "domenica-prostamo",
+     "name": "Domenica Prostamo",
+     "surname": "Prostamo",
+     "born": 1928,
+     "died": 2010,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Scilla, Reggio Calabria",
+     "n": 2
+    },
+    {
+     "name": "Piedimonte Etneo, Catania, Sicily",
+     "n": 1
+    },
+    {
+     "name": "Briatico, Vibo Valentia, Calabria",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "gen": 4,
+   "possible": 16,
+   "found": 8,
+   "people": [
+    {
+     "id": "@I246@",
+     "slug": "anna-arena",
+     "name": "Anna Arena",
+     "surname": "Arena",
+     "born": 1893,
+     "died": 1962,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I245@",
+     "slug": "giuseppe-arena",
+     "name": "Giuseppe Arena",
+     "surname": "Arena",
+     "born": 1892,
+     "died": 1984,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I121@",
+     "slug": "nunnziata-donato",
+     "name": "Nunnziata Donato",
+     "surname": "Donato",
+     "born": 1892,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I4@",
+     "slug": "salvatore-mazza",
+     "name": "Salvatore Mazza",
+     "surname": "Mazza",
+     "born": 1879,
+     "died": 1929,
+     "datesHidden": false,
+     "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+     "comp": 1
+    },
+    {
+     "id": "@I7@",
+     "slug": "maria-rosa-melluso-1907",
+     "name": "Maria Rosa Melluso",
+     "surname": "Melluso",
+     "born": 1907,
+     "died": 1994,
+     "datesHidden": false,
+     "birthPlace": "New York, New York",
+     "comp": 1
+    },
+    {
+     "id": "@I5@",
+     "slug": "maria-nicotra",
+     "name": "Maria Nicotra",
+     "surname": "Nicotra",
+     "born": 1875,
+     "died": 1963,
+     "datesHidden": false,
+     "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+     "comp": 1
+    },
+    {
+     "id": "@I120@",
+     "slug": "giovanni-polistena",
+     "name": "Giovanni Polistena",
+     "surname": "Polistena",
+     "born": 1883,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I6@",
+     "slug": "francessco-prostamo",
+     "name": "Francessco Prostamo",
+     "surname": "Prostamo",
+     "born": 1900,
+     "died": 1983,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Scilla, Reggio Calabria",
+     "n": 4
+    },
+    {
+     "name": "Piedimonte Etneo, Catania, Sicily",
+     "n": 2
+    },
+    {
+     "name": "New York, New York",
+     "n": 1
+    },
+    {
+     "name": "Briatico, Vibo Valentia, Calabria",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "gen": 5,
+   "possible": 32,
+   "found": 15,
+   "people": [
+    {
+     "id": "@I8@",
+     "slug": "domenica-anile",
+     "name": "Domenica Anile",
+     "surname": "Anile",
+     "born": 1880,
+     "died": 1970,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I247@",
+     "slug": "giovanni-arena",
+     "name": "Giovanni Arena",
+     "surname": "Arena",
+     "born": 1870,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I248@",
+     "slug": "rocco-arena",
+     "name": "Rocco Arena",
+     "surname": "Arena",
+     "born": 1861,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I359@",
+     "slug": "venera-cassaneti",
+     "name": "Venera Cassaneti",
+     "surname": "Cassaneti",
+     "born": null,
+     "died": 1925,
+     "datesHidden": false,
+     "birthPlace": "",
+     "comp": 1
+    },
+    {
+     "id": "@I249@",
+     "slug": "generosa-costa",
+     "name": "Generosa Costa",
+     "surname": "Costa",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Italy",
+     "comp": 1
+    },
+    {
+     "id": "@I122@",
+     "slug": "michele-donato",
+     "name": "Michele Donato",
+     "surname": "Donato",
+     "born": 1851,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I22@",
+     "slug": "rosario-mazza-3",
+     "name": "Rosario Mazza",
+     "surname": "Mazza",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "",
+     "comp": 1
+    },
+    {
+     "id": "@I11@",
+     "slug": "caterina-melluso",
+     "name": "Caterina Melluso",
+     "surname": "Melluso",
+     "born": 1860,
+     "died": 1957,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I9@",
+     "slug": "domenico-melluso",
+     "name": "Domenico Melluso",
+     "surname": "Melluso",
+     "born": 1875,
+     "died": 1919,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I358@",
+     "slug": "john-nicotra",
+     "name": "John Nicotra",
+     "surname": "Nicotra",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "",
+     "comp": 1
+    },
+    {
+     "id": "@I124@",
+     "slug": "antonio-polistena-2",
+     "name": "Antonio Polistena",
+     "surname": "Polistena",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I125@",
+     "slug": "giovanna-pontillo",
+     "name": "Giovanna Pontillo",
+     "surname": "Pontillo",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I10@",
+     "slug": "alfonso-prostamo",
+     "name": "Alfonso Prostamo",
+     "surname": "Prostamo",
+     "born": 1858,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I255@",
+     "slug": "concetta-russo",
+     "name": "Concetta Russo",
+     "surname": "Russo",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I123@",
+     "slug": "maria-sofi",
+     "name": "Maria Sofi",
+     "surname": "Sofi",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Scilla, Reggio Calabria",
+     "n": 7
+    },
+    {
+     "name": "Briatico, Vibo Valentia, Calabria",
+     "n": 4
+    },
+    {
+     "name": "Italy",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "gen": 6,
+   "possible": 64,
+   "found": 12,
+   "people": [
+    {
+     "id": "@I370@",
+     "slug": "francesco-anile",
+     "name": "Francesco Anile",
+     "surname": "Anile",
+     "born": 1843,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I371@",
+     "slug": "orazio-arena",
+     "name": "Orazio Arena",
+     "surname": "Arena",
+     "born": 1821,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I369@",
+     "slug": "saveria-barbuto",
+     "name": "Saveria Barbuto",
+     "surname": "Barbuto",
+     "born": 1845,
+     "died": 1892,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I355@",
+     "slug": "domenico-donato-2",
+     "name": "Domenico Donato",
+     "surname": "Donato",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "",
+     "comp": 1
+    },
+    {
+     "id": "@I410@",
+     "slug": "fillipo-melluso",
+     "name": "Fillipo Melluso",
+     "surname": "Melluso",
+     "born": 1855,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I126@",
+     "slug": "giuseppi-pontillo",
+     "name": "Giuseppi Pontillo",
+     "surname": "Pontillo",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I127@",
+     "slug": "nunziatta-pontillo",
+     "name": "Nunziatta Pontillo",
+     "surname": "Pontillo",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I217@",
+     "slug": "domenico-prostamo-1820",
+     "name": "Domenico Prostamo",
+     "surname": "Prostamo",
+     "born": 1820,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I356@",
+     "slug": "annunziata-sofi",
+     "name": "Annunziata Sofi",
+     "surname": "Sofi",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "",
+     "comp": 1
+    },
+    {
+     "id": "@I218@",
+     "slug": "giovanna-ventrice",
+     "name": "Giovanna Ventrice",
+     "surname": "Ventrice",
+     "born": 1825,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I411@",
+     "slug": "rosa-vitrale",
+     "name": "Rosa Vitrale",
+     "surname": "Vitrale",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I455@",
+     "slug": "giovana-zirilli",
+     "name": "Giovana Zirilli",
+     "surname": "Zirilli",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Briatico, Vibo Valentia, Calabria",
+     "n": 5
+    },
+    {
+     "name": "Scilla, Reggio Calabria",
+     "n": 3
+    },
+    {
+     "name": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "gen": 7,
+   "possible": 128,
+   "found": 7,
+   "people": [
+    {
+     "id": "@I375@",
+     "slug": "antonio-anile-3",
+     "name": "Antonio Anile",
+     "surname": "Anile",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I372@",
+     "slug": "giuseppe-arena-3",
+     "name": "Giuseppe Arena",
+     "surname": "Arena",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Scilla, Reggio Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I382@",
+     "slug": "antonio-barbuto",
+     "name": "Antonio Barbuto",
+     "surname": "Barbuto",
+     "born": 1806,
+     "died": 1876,
+     "datesHidden": false,
+     "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I383@",
+     "slug": "domenica-birroca",
+     "name": "Domenica Birroca",
+     "surname": "Birroca",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I377@",
+     "slug": "carmela-collia",
+     "name": "Carmela Collia",
+     "surname": "Collia",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I220@",
+     "slug": "maria-fragala",
+     "name": "Maria Fragala",
+     "surname": "Fragala",
+     "born": 1789,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I219@",
+     "slug": "antonino-prostamo-1785",
+     "name": "Antonino Prostamo",
+     "surname": "Prostamo",
+     "born": 1785,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Briatico, Vibo Valentia, Calabria",
+     "n": 5
+    },
+    {
+     "name": "Scilla, Reggio Calabria",
+     "n": 1
+    },
+    {
+     "name": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "gen": 8,
+   "possible": 256,
+   "found": 6,
+   "people": [
+    {
+     "id": "@I378@",
+     "slug": "fortunato-anile-2",
+     "name": "Fortunato Anile",
+     "surname": "Anile",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "",
+     "comp": 1
+    },
+    {
+     "id": "@I389@",
+     "slug": "giuseppe-barbuto",
+     "name": "Giuseppe Barbuto",
+     "surname": "Barbuto",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Potenzioni, Catanzaro Calabria, Italy",
+     "comp": 1
+    },
+    {
+     "id": "@I222@",
+     "slug": "caterina-di-meio",
+     "name": "Caterina Di Meio",
+     "surname": "Di Meio",
+     "born": 1762,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I379@",
+     "slug": "antonia-grasso",
+     "name": "Antonia Grasso",
+     "surname": "Grasso",
+     "born": 1809,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I390@",
+     "slug": "saveria-lesto",
+     "name": "Saveria Lesto",
+     "surname": "Lesto",
+     "born": null,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I221@",
+     "slug": "pasquale-prostamo",
+     "name": "Pasquale Prostamo",
+     "surname": "Prostamo",
+     "born": 1760,
+     "died": 1829,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Briatico, Vibo Valentia, Calabria",
+     "n": 2
+    },
+    {
+     "name": "Potenzioni, Catanzaro Calabria, Italy",
+     "n": 1
+    },
+    {
+     "name": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
+     "n": 1
+    },
+    {
+     "name": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "gen": 9,
+   "possible": 512,
+   "found": 2,
+   "people": [
+    {
+     "id": "@I223@",
+     "slug": "antonino-prostamo",
+     "name": "Antonino Prostamo",
+     "surname": "Prostamo",
+     "born": 1726,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I224@",
+     "slug": "caterina-scangiaterra",
+     "name": "Caterina Scangiaterra",
+     "surname": "Scangiaterra",
+     "born": 1746,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Briatico, Vibo Valentia, Calabria",
+     "n": 2
+    }
+   ]
+  },
+  {
+   "gen": 10,
+   "possible": 1024,
+   "found": 2,
+   "people": [
+    {
+     "id": "@I227@",
+     "slug": "agnere-polito",
+     "name": "Agnere Polito",
+     "surname": "Polito",
+     "born": 1699,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    },
+    {
+     "id": "@I226@",
+     "slug": "franco-antonino-prostamo",
+     "name": "Franco Antonino Prostamo",
+     "surname": "Prostamo",
+     "born": 1697,
+     "died": null,
+     "datesHidden": false,
+     "birthPlace": "Briatico, Vibo Valentia, Calabria",
+     "comp": 1
+    }
+   ],
+   "towns": [
+    {
+     "name": "Briatico, Vibo Valentia, Calabria",
+     "n": 2
+    }
+   ]
+  }
+ ],
+ "total": 62,
+ "deepest": 10
+}

@@ -124,10 +124,10 @@
    "slug": "frank-mazza",
    "name": "Frank Mazza",
    "surname": "Mazza",
-   "living": true,
+   "living": false,
    "born": null,
    "died": null,
-   "birthPlace": "",
+   "birthPlace": "Brisbane, Queensland",
    "deathPlace": "",
    "burialPlace": "",
    "spouse": "Nancy Arena"
@@ -138,10 +138,10 @@
    "slug": "michael-rocco-mazza",
    "name": "Michael Rocco Mazza",
    "surname": "Mazza",
-   "living": true,
+   "living": false,
    "born": null,
    "died": null,
-   "birthPlace": "",
+   "birthPlace": "Brisbane, Queensland",
    "deathPlace": "",
    "burialPlace": "",
    "spouse": "Stefanie D'Arcy"
@@ -152,13 +152,13 @@
    "id": "@I363@",
    "name": "Mia Josephine Mazza",
    "slug": "mia-josephine-mazza",
-   "living": true
+   "living": false
   },
   {
    "id": "@I364@",
    "name": "Rocco Francesco Mazza",
    "slug": "rocco-francesco-mazza",
-   "living": true
+   "living": false
   }
  ],
  "proband": {
@@ -167,10 +167,10 @@
   "slug": "michael-rocco-mazza",
   "name": "Michael Rocco Mazza",
   "surname": "Mazza",
-  "living": true,
+  "living": false,
   "born": null,
   "died": null,
-  "birthPlace": "",
+  "birthPlace": "Brisbane, Queensland",
   "deathPlace": "",
   "burialPlace": "",
   "spouse": "Stefanie D'Arcy"

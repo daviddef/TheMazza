@@ -160,13 +160,63 @@ def death_year(x):
 def has_death(x):
     return bool(kid(I[x], "DEAT") or kid(I[x], "BURI"))
 
-CENTENARY = 1926  # anyone born after this and not recorded dead is treated as living
+CENTENARY = 1926
+
+# ---------------------------------------------------------------------------
+# PUBLISHING THE LIVING
+#
+# The Falco rule was that a living person carries a name and nothing else.
+# David turned it off for this archive on 10 September 2026: most of the people
+# in this tree are in fact long dead, and the test below was catching them —
+# 416 of 599, in a tree that reaches 1697 — because it treats "no dates at all"
+# as "possibly alive". The whole unjoined Piedimonte Etneo cluster fell into it.
+#
+# So the suppression is a SWITCH, not a deletion. `presumedLiving` is still
+# computed and still recorded on every person, so turning it back on is one
+# line rather than a rebuild.
+# ---------------------------------------------------------------------------
+SUPPRESS_LIVING = False
+
+# ---------------------------------------------------------------------------
+# HIDING DATES
+#
+# David's rule, 10 September 2026: "hide dates for anyone that's 80 and younger
+# in age." It replaces the blunt living/dead split with a graduated one — the
+# whole archive is readable, and only the dates of people who might still be
+# alive are withheld.
+#
+# Applied to a person whose death is NOT recorded and who would be 80 or under
+# today. Someone the tree records as dead keeps their dates: a death date is a
+# documented fact about a person who no longer has an interest in privacy, and
+# withholding it would gut the archive (Mary Rosa Mazza died at sixteen).
+#
+# Names, places, relationships, households, photographs and record citations
+# are unaffected. Only DATES are withheld — and they are stripped in the build,
+# not hidden by the page, so they never reach the HTML.
+# ---------------------------------------------------------------------------
+THIS_YEAR = 2026
+AGE_THRESHOLD = 80
+
+def hide_dates(x):
+    if has_death(x):
+        return False
+    y = birth_year(x)
+    if not y:
+        return False          # nothing to hide
+    return (THIS_YEAR - y) <= AGE_THRESHOLD
+
+def presumed_living(x):
+    """Not a claim that they are alive — only that the tree cannot show they died."""
+    if has_death(x):
+        return False
+    y = birth_year(x)
+    if y:
+        return y >= CENTENARY
+    return True          # no dates at all: unknown, not necessarily alive
 
 def is_dead(x):
-    if has_death(x):
-        return True
-    y = birth_year(x)
-    return bool(y and y < CENTENARY)
+    """Whether the archive will write about this person in full."""
+    return True if not SUPPRESS_LIVING else not presumed_living(x)
 
 # ------------------------------------------------------ duplicates & components
 
@@ -370,7 +420,7 @@ def src_of(x):
 photos = {}
 if os.path.exists("data/photo-manifest.json"):
     for m in json.load(open("data/photo-manifest.json")):
-        if m.get("dead") and os.path.exists(m.get("path", "")):
+        if os.path.exists(m.get("path", "")) and (m.get("dead") or not SUPPRESS_LIVING):
             photos.setdefault(m["xref"], []).append(m["file"])
 
 # ---------------------------------------------------------------- the records
@@ -380,14 +430,22 @@ def record(x):
     rec = {
         "id": x, "slug": slug_of[x], "name": nm(x),
         "given": given(x), "surname": surname(x),
-        "sex": val(I[x], "SEX"), "living": not dead,
+        "sex": val(I[x], "SEX"),
+        "living": presumed_living(x) if SUPPRESS_LIVING else False,
+        "presumedLiving": presumed_living(x),
         "comp": comp_of.get(x, 0),
     }
     if not dead:
         return rec  # NAME ONLY. No dates, no places, no records, no photographs.
     ev = events(x)
+    hide = hide_dates(x)
+    if hide:
+        # keep the event and its place; drop every date on it
+        ev = [{**e, "date": "", "year": None} for e in ev]
     rec.update({
-        "born": birth_year(x), "died": death_year(x),
+        "datesHidden": hide,
+        "born": None if hide else birth_year(x),
+        "died": None if hide else death_year(x),
         "events": ev,
         "birthPlace": next((e["place"] for e in ev if e["tag"] == "BIRT" and e["place"]), ""),
         "deathPlace": next((e["place"] for e in ev if e["tag"] == "DEAT" and e["place"]), ""),
@@ -430,7 +488,13 @@ stats = {
     "exported": len(I), "people": len(records),
     "duplicates": sum(len(d["dropped"]) for d in duplicates),
     "unresolvedNames": len(unresolved),
+    "suppressLiving": SUPPRESS_LIVING,
     "living": sum(1 for r in records if r["living"]),
+    "presumedLiving": sum(1 for r in records if r.get("presumedLiving")),
+    "written": sum(1 for r in records if not r["living"]),
+    "withDeath": sum(1 for r in records if r.get("died")),
+    "datesHidden": sum(1 for r in records if r.get("datesHidden")),
+    "ageThreshold": AGE_THRESHOLD,
     "deceased": sum(1 for r in records if not r["living"]),
     "families": len(F), "sources": len(S),
     "components": [len(c) for c in comps],

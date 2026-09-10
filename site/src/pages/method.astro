@@ -27,18 +27,28 @@ import stats from "../data/stats.json";
   </section>
 
   <section class="blk">
-    <h2>The living</h2>
+    <h2>Dates, and who does not get one</h2>
     <div class="prose" style="margin-top:1rem">
-      <p><strong>{stats.living} of the {stats.people} people here are living</strong>, or cannot be
-      shown to be dead. They are named, and that is all. No birth date, no age, no address, no
-      marriage, no photograph, no record link. Those fields exist in the family tree and are
-      <em>dropped by the build</em> before the site is generated — they are not hidden by CSS, not
-      gated behind a login, not present in the HTML.</p>
-      <p>The test is deliberately cautious: a person counts as living unless the tree records a death
-      or burial, <em>or</em> they were born before 1926 and would therefore be over a hundred. Where
-      the tree has no dates at all — which is true of most of the unjoined Piedimonte Etneo group —
-      the person is treated as living. That over-protects some people who died long ago, and that is
-      the right way round to be wrong.</p>
+      <p>The companion <a href="https://daviddef.github.io/TheFalco/">Falco archive</a> names living
+      relatives and publishes nothing else about them at all. That rule was tried here first and it
+      failed badly: the test it rests on treats a person as possibly alive unless the tree records a
+      death — and <strong>{stats.presumedLiving} of these {stats.people} people have no death
+      recorded</strong>, because most of this tree is <em>undated</em>, not <em>alive</em>. Only
+      {stats.withDeath} people in it have a death anywhere. Suppressing seven-tenths of an archive
+      makes it unreadable without making anybody safer.</p>
+      <p>So this archive uses a narrower rule, set by David on 10 September 2026:</p>
+      <blockquote><strong>Anyone who would be {stats.ageThreshold} or younger today, and whose death
+      is not recorded, has their dates withheld.</strong> Their name, their places, their family,
+      their photographs and their records are all published. Only the dates are held back.</blockquote>
+      <p>That covers <strong>{stats.datesHidden}</strong> people. It deliberately does <em>not</em>
+      cover anyone the tree records as dead: a death date is a documented fact about a person with no
+      remaining interest in privacy, and withholding it would gut the archive — Mary Rosa Mazza died
+      at sixteen, and an archive that will not say so is not telling the truth about this family.</p>
+      <p>The withheld dates are <strong>stripped in the build</strong>, not hidden by the page. They
+      are not in the HTML, not in the JSON the page loads, and not recoverable from the published
+      site. Both rules are switches in <code>tools/build.py</code> —
+      <code>SUPPRESS_LIVING</code> and <code>AGE_THRESHOLD</code> — so either can be tightened in one
+      line and a rebuild.</p>
       <p>A removal request is honoured within days, without argument and without requiring a reason.</p>
     </div>
   </section>

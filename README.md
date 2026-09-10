@@ -14,19 +14,25 @@ Sister archive to [The Falco Archive](https://github.com/daviddef/TheFalco).
 
 ## What is here
 
-- **599 people** (183 recorded, 416 living), 280 households,
-  42 places, 123 surnames.
+- **599 people**, 280 households, 63 places, 123 surnames.
+  Only **69** of them have a death recorded anywhere — a measure of how undated this
+  tree still is, not of who is alive.
+- **The ancestors of Mia and Rocco.** 62 people across 10 generations, counted
+  against the 2,046 there ought to be: **complete** for grandparents, **50%** at the third generation,
+  **5.5%** at the seventh, **0.2%** at the tenth. What survives that far is one thread.
 - **The four quarters.** Michael Rocco Mazza's four grandparents were born 1920–1928 in three towns
-  that had no connection to each other, and all four were in Queensland by 1954. The lines behind
-  them reach 1875, 1697, 1821, 1851 respectively.
-- **Eleven generations** from Franco Antonino Prostamo, born at Briatico about 1697, to two children
-  born in Brisbane in 2017 and 2019.
-- **Two emigrations, fifty years apart.** Briatico and Scilla went to **New York** from 1906 — three
-  of them off the same ship on 2 August 1906. Their relatives went to **Fremantle and Brisbane**
-  1949–1957, every one of them out of Genoa. A third branch went to **Buenos Aires**.
-- **Thirteen burials at Nudgee**, Brisbane — the same Catholic cemetery that holds five of the Falco.
+  that had no connection to each other, and all four were in Queensland by 1954.
+- **Four plots in a row.** Those same four grandparents lie in **consecutive plots V-1026 to V-1029**
+  at Nudgee, buried in the order they died — nineteen years between the first and the last.
+- **Nine ships, named.** The tree recorded eighteen crossings and no vessel. The NAA passenger index
+  gave nine: the *Toscana* out of Genoa for Sebastiano Mazza, 4 October 1949; the *Surriento*; the
+  *Roma*; the *Palermo* that landed a sixteen-year-old Michele Mazza at Brisbane in 1925.
+- **The Mazza and the Arena as names.** 120 Mazza in **6
+  descent groups that no record joins**; 39 Arena in **one unbroken family**.
+  The surname the archive is named for is the most fragmented thing in it.
+- **Two emigrations, fifty years apart** — New York from 1906, Fremantle and Brisbane 1949–1957 —
+  and a third branch to **Buenos Aires**.
 - **133 family photographs**, downloaded before the MyHeritage links expired on 16 September 2026.
-  The 73 belonging to the dead are published; the 60 belonging to the living are not.
 
 ## What it refuses to claim
 
@@ -54,9 +60,16 @@ Rosario Mazza and four called Giuseppe Arena. 15 genuine duplicates were merged;
 Most of this archive currently sits at a fourth level the Falco archive did not need: **asserted by
 the family tree**. Converting those assertions into documents is the work.
 
-**Living people are named and nothing more** — no dates, no places, no records, no photographs.
-Those fields are dropped by the build, not hidden by the page. A removal request is honoured within
-days, without argument and without requiring a reason.
+**Dates are withheld for anyone 80 or younger.** Everyone in the tree is written
+up in full — name, places, family, photographs, records — but the **134 people** who
+would be 80 or younger today, and whose death is not recorded, have their dates held
+back. Those dates are stripped in the build, not hidden by the page: they are not in the HTML and not
+recoverable from the published site. People the tree records as dead keep their dates.
+
+The blunter Falco rule — living people named and nothing else — is a switch
+(`SUPPRESS_LIVING` in `tools/build.py`) and is currently **off**, because the test underneath it
+treated 416 of 599 people as possibly alive in a family reaching back to
+1697. A removal request is honoured within days, without argument and without requiring a reason.
 
 ## Running it
 

@@ -367,7 +367,7 @@
    "id": "@I383@",
    "name": "Domenica Birroca",
    "slug": "domenica-birroca",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -388,14 +388,14 @@
    "id": "@I378@",
    "name": "Fortunato Anile",
    "slug": "fortunato-anile-2",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I375@",
     "name": "Antonio Anile",
     "slug": "antonio-anile-3",
-    "living": true
+    "living": false
    }
   ],
   "place": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
@@ -481,7 +481,7 @@
    "id": "@I455@",
    "name": "Giovana Zirilli",
    "slug": "giovana-zirilli",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -835,7 +835,7 @@
    "id": "@I24@",
    "name": "Leonarda",
    "slug": "leonarda",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -868,7 +868,7 @@
    "id": "@I123@",
    "name": "Maria Sofi",
    "slug": "maria-sofi",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -893,13 +893,13 @@
     "id": "@I256@",
     "name": "Domenico Donato",
     "slug": "domenico-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I257@",
     "name": "Santa Donato",
     "slug": "santa-donato",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -913,7 +913,7 @@
    "id": "@I411@",
    "name": "Rosa Vitrale",
    "slug": "rosa-vitrale",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -1048,7 +1048,7 @@
    "id": "@I249@",
    "name": "Generosa Costa",
    "slug": "generosa-costa",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -1081,7 +1081,7 @@
    "id": "@I255@",
    "name": "Concetta Russo",
    "slug": "concetta-russo",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -1094,19 +1094,19 @@
     "id": "@I260@",
     "name": "Clemente Arena",
     "slug": "clemente-arena-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I261@",
     "name": "Fortunata Arena",
     "slug": "fortunata-arena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I262@",
     "name": "Maria Arena",
     "slug": "maria-arena-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -1178,7 +1178,7 @@
     "id": "@I39@",
     "name": "Giovanni Mazza",
     "slug": "giovanni-mazza-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "Piedimonte Etneo, Catania, Sicily",
@@ -1250,25 +1250,25 @@
     "id": "@I145@",
     "name": "Nunziatta Polistena",
     "slug": "nunziatta-polistena-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I146@",
     "name": "Antonio Polistena",
     "slug": "antonio-polistena-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I147@",
     "name": "Gaiatano Polistena",
     "slug": "gaiatano-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I148@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-4",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -1307,25 +1307,25 @@
     "id": "@I145@",
     "name": "Nunziatta Polistena",
     "slug": "nunziatta-polistena-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I146@",
     "name": "Antonio Polistena",
     "slug": "antonio-polistena-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I147@",
     "name": "Gaiatano Polistena",
     "slug": "gaiatano-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I148@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-4",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -1397,7 +1397,7 @@
     "id": "@I39@",
     "name": "Giovanni Mazza",
     "slug": "giovanni-mazza-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "Piedimonte Etneo, Catania, Sicily",
@@ -1528,44 +1528,44 @@
    "id": "@I531@",
    "name": "Maria 2nd Wife",
    "slug": "maria-2nd-wife",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I545@",
     "name": "Grazia Mazza",
     "slug": "grazia-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I546@",
     "name": "Lucia Mazza",
     "slug": "lucia-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I490@",
     "name": "Mariano Mazza",
     "slug": "mariano-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I491@",
     "name": "leonardo Mazza",
     "slug": "leonardo-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I492@",
     "name": "leonarda Mazza",
     "slug": "leonarda-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I493@",
     "name": "Rosario Mazza",
     "slug": "rosario-mazza-4",
-    "living": true
+    "living": false
    }
   ],
   "place": "Piedimonte Etneo, Catania, Sicily",
@@ -1586,7 +1586,7 @@
     "id": "@I61@",
     "name": "Angela Tomsic",
     "slug": "angela-tomsic",
-    "living": true
+    "living": false
    }
   ],
   "place": "Austria",
@@ -1632,7 +1632,7 @@
     "id": "@I399@",
     "name": "Dominick Mazzitelli",
     "slug": "dominick-mazzitelli-1926",
-    "living": true
+    "living": false
    }
   ],
   "place": "Italy",
@@ -1665,31 +1665,31 @@
     "id": "@I300@",
     "name": "Giuseppe Prostamo",
     "slug": "giuseppe-prostamo-1927",
-    "living": true
+    "living": false
    },
    {
     "id": "@I302@",
     "name": "Mattea Prostamo",
     "slug": "mattea-prostamo-1934",
-    "living": true
+    "living": false
    },
    {
     "id": "@I303@",
     "name": "Francesco Prostamo",
     "slug": "francesco-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I304@",
     "name": "Concetta Prostamo",
     "slug": "concetta-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I305@",
     "name": "Giovanna Prostamo",
     "slug": "giovanna-prostamo-1938",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -1779,7 +1779,7 @@
     "id": "@I251@",
     "name": "Antonio Arena",
     "slug": "antonio-arena-1926",
-    "living": true
+    "living": false
    },
    {
     "id": "@I252@",
@@ -1830,7 +1830,7 @@
     "id": "@I251@",
     "name": "Antonio Arena",
     "slug": "antonio-arena-1926",
-    "living": true
+    "living": false
    },
    {
     "id": "@I252@",
@@ -1862,7 +1862,7 @@
    "id": "@I408@",
    "name": "Maria Pagano",
    "slug": "maria-pagano",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -1890,7 +1890,7 @@
     "id": "@I61@",
     "name": "Angela Tomsic",
     "slug": "angela-tomsic",
-    "living": true
+    "living": false
    }
   ],
   "place": "Austria",
@@ -1923,31 +1923,31 @@
     "id": "@I300@",
     "name": "Giuseppe Prostamo",
     "slug": "giuseppe-prostamo-1927",
-    "living": true
+    "living": false
    },
    {
     "id": "@I302@",
     "name": "Mattea Prostamo",
     "slug": "mattea-prostamo-1934",
-    "living": true
+    "living": false
    },
    {
     "id": "@I303@",
     "name": "Francesco Prostamo",
     "slug": "francesco-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I304@",
     "name": "Concetta Prostamo",
     "slug": "concetta-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I305@",
     "name": "Giovanna Prostamo",
     "slug": "giovanna-prostamo-1938",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -1995,7 +1995,7 @@
     "id": "@I181@",
     "name": "Mattea Prostamo",
     "slug": "mattea-prostamo-1926",
-    "living": true
+    "living": false
    },
    {
     "id": "@I3@",
@@ -2013,7 +2013,7 @@
     "id": "@I49@",
     "name": "Antonio Giacomo Prostamo",
     "slug": "antonio-giacomo-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I50@",
@@ -2025,13 +2025,13 @@
     "id": "@I51@",
     "name": "Francesca Prostamo",
     "slug": "francesca-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I52@",
     "name": "Saveria Prostamo",
     "slug": "saveria-prostamo",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -2085,13 +2085,13 @@
     "id": "@I285@",
     "name": "Rocco Donato",
     "slug": "rocco-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I286@",
     "name": "Deborah Donato",
     "slug": "deborah-donato",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2112,7 +2112,7 @@
     "id": "@I181@",
     "name": "Mattea Prostamo",
     "slug": "mattea-prostamo-1926",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -2133,13 +2133,13 @@
     "id": "@I264@",
     "name": "Domenica Polistena",
     "slug": "domenica-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I265@",
     "name": "Maria Polistena",
     "slug": "maria-polistena-1945",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2160,7 +2160,7 @@
     "id": "@I181@",
     "name": "Mattea Prostamo",
     "slug": "mattea-prostamo-1926",
-    "living": true
+    "living": false
    }
   ],
   "place": "Buenos Aires, Argentina",
@@ -2181,13 +2181,13 @@
     "id": "@I185@",
     "name": "Alfonso Prostamo",
     "slug": "alfonso-prostamo-1926",
-    "living": true
+    "living": false
    },
    {
     "id": "@I186@",
     "name": "Mattea Prostamo",
     "slug": "mattea-prostamo-1928",
-    "living": true
+    "living": false
    }
   ],
   "place": "Buenos Aires, Argentina",
@@ -2208,13 +2208,13 @@
     "id": "@I185@",
     "name": "Alfonso Prostamo",
     "slug": "alfonso-prostamo-1926",
-    "living": true
+    "living": false
    },
    {
     "id": "@I186@",
     "name": "Mattea Prostamo",
     "slug": "mattea-prostamo-1928",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -2241,13 +2241,13 @@
     "id": "@I285@",
     "name": "Rocco Donato",
     "slug": "rocco-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I286@",
     "name": "Deborah Donato",
     "slug": "deborah-donato",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2268,7 +2268,7 @@
     "id": "@I181@",
     "name": "Mattea Prostamo",
     "slug": "mattea-prostamo-1926",
-    "living": true
+    "living": false
    },
    {
     "id": "@I3@",
@@ -2286,7 +2286,7 @@
     "id": "@I49@",
     "name": "Antonio Giacomo Prostamo",
     "slug": "antonio-giacomo-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I50@",
@@ -2298,13 +2298,13 @@
     "id": "@I51@",
     "name": "Francesca Prostamo",
     "slug": "francesca-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I52@",
     "name": "Saveria Prostamo",
     "slug": "saveria-prostamo",
-    "living": true
+    "living": false
    }
   ],
   "place": "New York, New York",
@@ -2325,13 +2325,13 @@
     "id": "@I199@",
     "name": "Alfonso Prostamo",
     "slug": "alfonso-prostamo-1928",
-    "living": true
+    "living": false
    },
    {
     "id": "@I201@",
     "name": "Maria G Prostamo",
     "slug": "maria-g-prostamo",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -2352,7 +2352,7 @@
     "id": "@I199@",
     "name": "Alfonso Prostamo",
     "slug": "alfonso-prostamo-1928",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -2373,7 +2373,7 @@
     "id": "@I77@",
     "name": "Luciano Cavallaro",
     "slug": "luciano-cavallaro",
-    "living": true
+    "living": false
    }
   ],
   "place": "Mascali, Catania, Sicily",
@@ -2394,13 +2394,13 @@
     "id": "@I264@",
     "name": "Domenica Polistena",
     "slug": "domenica-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I265@",
     "name": "Maria Polistena",
     "slug": "maria-polistena-1945",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2427,7 +2427,7 @@
     "id": "@I96@",
     "name": "Sidora Giammona",
     "slug": "sidora-giammona",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -2448,19 +2448,19 @@
     "id": "@I85@",
     "name": "Mary Coco",
     "slug": "mary-coco",
-    "living": true
+    "living": false
    },
    {
     "id": "@I86@",
     "name": "Tony Coco",
     "slug": "tony-coco",
-    "living": true
+    "living": false
    },
    {
     "id": "@I87@",
     "name": "Ross Coco",
     "slug": "ross-coco",
-    "living": true
+    "living": false
    }
   ],
   "place": "Sicily",
@@ -2487,7 +2487,7 @@
     "id": "@I96@",
     "name": "Sidora Giammona",
     "slug": "sidora-giammona",
-    "living": true
+    "living": false
    }
   ],
   "place": "Catania, Sicily",
@@ -2508,7 +2508,7 @@
     "id": "@I77@",
     "name": "Luciano Cavallaro",
     "slug": "luciano-cavallaro",
-    "living": true
+    "living": false
    }
   ],
   "place": "Piedimonte Etneo, Catania, Sicily",
@@ -2535,13 +2535,13 @@
     "id": "@I156@",
     "name": "Peter Bova",
     "slug": "peter-bova-1950",
-    "living": true
+    "living": false
    },
    {
     "id": "@I157@",
     "name": "John Bova",
     "slug": "john-bova",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2562,19 +2562,19 @@
     "id": "@I132@",
     "name": "Josephine Polistena",
     "slug": "josephine-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I152@",
     "name": "Nancy Polistena",
     "slug": "nancy-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I153@",
     "name": "Maria Polistena",
     "slug": "maria-polistena-1956",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scillla",
@@ -2588,14 +2588,14 @@
    "id": "@I412@",
    "name": "Rosa Polistena",
    "slug": "rosa-polistena",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I413@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-5",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2622,13 +2622,13 @@
     "id": "@I156@",
     "name": "Peter Bova",
     "slug": "peter-bova-1950",
-    "living": true
+    "living": false
    },
    {
     "id": "@I157@",
     "name": "John Bova",
     "slug": "john-bova",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2642,26 +2642,26 @@
    "id": "@I314@",
    "name": "Anna Delorenzo",
    "slug": "anna-delorenzo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I315@",
     "name": "Laura Prostamo",
     "slug": "laura-prostamo-1953",
-    "living": true
+    "living": false
    },
    {
     "id": "@I316@",
     "name": "Maria Teresa Prostamo",
     "slug": "maria-teresa-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I317@",
     "name": "Domenico Prostamo",
     "slug": "domenico-prostamo-1958",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -2682,7 +2682,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-1948",
-    "living": true
+    "living": false
    },
    {
     "id": "@I33@",
@@ -2694,13 +2694,13 @@
     "id": "@I1@",
     "name": "Frank Mazza",
     "slug": "frank-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I34@",
     "name": "Giovanni Mazza",
     "slug": "giovanni-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "Piedimonte Etneo, Catania, Sicily",
@@ -2721,19 +2721,19 @@
     "id": "@I132@",
     "name": "Josephine Polistena",
     "slug": "josephine-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I152@",
     "name": "Nancy Polistena",
     "slug": "nancy-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I153@",
     "name": "Maria Polistena",
     "slug": "maria-polistena-1956",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2754,19 +2754,19 @@
     "id": "@I85@",
     "name": "Mary Coco",
     "slug": "mary-coco",
-    "living": true
+    "living": false
    },
    {
     "id": "@I86@",
     "name": "Tony Coco",
     "slug": "tony-coco",
-    "living": true
+    "living": false
    },
    {
     "id": "@I87@",
     "name": "Ross Coco",
     "slug": "ross-coco",
-    "living": true
+    "living": false
    }
   ],
   "place": "Catania, Sicily",
@@ -2780,38 +2780,38 @@
    "id": "@I464@",
    "name": "Giovanna",
    "slug": "giovanna",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I465@",
     "name": "Giuseppe Arena",
     "slug": "giuseppe-arena-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I466@",
     "name": "Anna Arena",
     "slug": "anna-arena-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I467@",
     "name": "Virgole Arena",
     "slug": "virgole-arena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I468@",
     "name": "Auora Arena",
     "slug": "auora-arena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I469@",
     "name": "Annunciata Arena",
     "slug": "annunciata-arena",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2825,7 +2825,7 @@
    "id": "@I416@",
    "name": "Giovanni Bova",
    "slug": "giovanni-bova",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -2838,13 +2838,13 @@
     "id": "@I418@",
     "name": "Annunziata Bova",
     "slug": "annunziata-bova",
-    "living": true
+    "living": false
    },
    {
     "id": "@I419@",
     "name": "Antonio Bova",
     "slug": "antonio-bova",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2865,7 +2865,7 @@
     "id": "@I40@",
     "name": "Carmelina Micale",
     "slug": "carmelina-micale",
-    "living": true
+    "living": false
    }
   ],
   "place": "Giarre, Catania, Sicily",
@@ -2886,19 +2886,19 @@
     "id": "@I111@",
     "name": "Anna Arena",
     "slug": "anna-arena-1955",
-    "living": true
+    "living": false
    },
    {
     "id": "@I25@",
     "name": "Nancy Arena",
     "slug": "nancy-arena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I112@",
     "name": "Giuseppi Arena",
     "slug": "giuseppi-arena",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2919,13 +2919,13 @@
     "id": "@I12@",
     "name": "Connie Armanno",
     "slug": "connie-armanno",
-    "living": true
+    "living": false
    },
    {
     "id": "@I55@",
     "name": "Vennero Armanno",
     "slug": "vennero-armanno",
-    "living": true
+    "living": false
    }
   ],
   "place": "Piedimonte Etneo, Catania, Sicily",
@@ -2946,19 +2946,19 @@
     "id": "@I111@",
     "name": "Anna Arena",
     "slug": "anna-arena-1955",
-    "living": true
+    "living": false
    },
    {
     "id": "@I25@",
     "name": "Nancy Arena",
     "slug": "nancy-arena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I112@",
     "name": "Giuseppi Arena",
     "slug": "giuseppi-arena",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -2972,26 +2972,26 @@
    "id": "@I300@",
    "name": "Giuseppe Prostamo",
    "slug": "giuseppe-prostamo-1927",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I309@",
     "name": "Maria Rosa Prostamo",
     "slug": "maria-rosa-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I310@",
     "name": "Margarita Prostamo",
     "slug": "margarita-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I311@",
     "name": "Domenico Prostamo",
     "slug": "domenico-prostamo-1952",
-    "living": true
+    "living": false
    }
   ],
   "place": "Catanzaro, Calabria",
@@ -3012,16 +3012,100 @@
     "id": "@I107@",
     "name": "Loretta Mazza",
     "slug": "loretta-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I108@",
     "name": "Quinto Pellagrini",
     "slug": "quinto-pellagrini",
-    "living": true
+    "living": false
    }
   ],
   "place": "Tully, Queensland",
+  "born": 1926
+ },
+ {
+  "name": "Alfonso Prostamo & Concetta Melluso",
+  "head": "alfonso-prostamo-1926",
+  "headId": "@I185@",
+  "spouse": {
+   "id": "@I188@",
+   "name": "Concetta Melluso",
+   "slug": "concetta-melluso",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I189@",
+    "name": "Giuseppina Prostamo",
+    "slug": "giuseppina-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I190@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1960",
+    "living": false
+   },
+   {
+    "id": "@I191@",
+    "name": "Pasquale Prostamo",
+    "slug": "pasquale-prostamo-1962",
+    "living": false
+   }
+  ],
+  "place": "Buenos Aires, Argentina",
+  "born": 1926
+ },
+ {
+  "name": "Antonio Arena & Maria Russo",
+  "head": "antonio-arena-1926",
+  "headId": "@I251@",
+  "spouse": {
+   "id": "@I470@",
+   "name": "Maria Russo",
+   "slug": "maria-russo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I471@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-5",
+    "living": false
+   },
+   {
+    "id": "@I472@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-4",
+    "living": false
+   },
+   {
+    "id": "@I473@",
+    "name": "Rocco Arena",
+    "slug": "rocco-arena-3",
+    "living": false
+   },
+   {
+    "id": "@I474@",
+    "name": "Clemente Arena",
+    "slug": "clemente-arena-3",
+    "living": false
+   },
+   {
+    "id": "@I475@",
+    "name": "Giovanni Arena",
+    "slug": "giovanni-arena-3",
+    "living": false
+   },
+   {
+    "id": "@I476@",
+    "name": "Francesco Arena",
+    "slug": "francesco-arena",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
   "born": 1926
  },
  {
@@ -3039,10 +3123,76 @@
     "id": "@I40@",
     "name": "Carmelina Micale",
     "slug": "carmelina-micale",
-    "living": true
+    "living": false
    }
   ],
   "place": "Giarre, Catania, Sicily",
+  "born": 1927
+ },
+ {
+  "name": "Giuseppe Prostamo & Livia Pallariello",
+  "head": "giuseppe-prostamo-1927",
+  "headId": "@I300@",
+  "spouse": {
+   "id": "@I308@",
+   "name": "Livia Pallariello",
+   "slug": "livia-pallariello",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I309@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I310@",
+    "name": "Margarita Prostamo",
+    "slug": "margarita-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I311@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1952",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1927
+ },
+ {
+  "name": "Anna Delorenzo & Alfonso Prostamo",
+  "head": "anna-delorenzo",
+  "headId": "@I314@",
+  "spouse": {
+   "id": "@I301@",
+   "name": "Alfonso Prostamo",
+   "slug": "alfonso-prostamo-1918",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I315@",
+    "name": "Laura Prostamo",
+    "slug": "laura-prostamo-1953",
+    "living": false
+   },
+   {
+    "id": "@I316@",
+    "name": "Maria Teresa Prostamo",
+    "slug": "maria-teresa-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I317@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1958",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
   "born": 1927
  },
  {
@@ -3060,7 +3210,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-1948",
-    "living": true
+    "living": false
    },
    {
     "id": "@I33@",
@@ -3072,13 +3222,79 @@
     "id": "@I1@",
     "name": "Frank Mazza",
     "slug": "frank-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I34@",
     "name": "Giovanni Mazza",
     "slug": "giovanni-mazza",
-    "living": true
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1928
+ },
+ {
+  "name": "Concetta Melluso & Alfonso Prostamo",
+  "head": "concetta-melluso",
+  "headId": "@I188@",
+  "spouse": {
+   "id": "@I185@",
+   "name": "Alfonso Prostamo",
+   "slug": "alfonso-prostamo-1926",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I189@",
+    "name": "Giuseppina Prostamo",
+    "slug": "giuseppina-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I190@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1960",
+    "living": false
+   },
+   {
+    "id": "@I191@",
+    "name": "Pasquale Prostamo",
+    "slug": "pasquale-prostamo-1962",
+    "living": false
+   }
+  ],
+  "place": "Buenos Aires, Argentina",
+  "born": 1928
+ },
+ {
+  "name": "Alfonso Prostamo & Giuseppa Melluso",
+  "head": "alfonso-prostamo-1928",
+  "headId": "@I199@",
+  "spouse": {
+   "id": "@I202@",
+   "name": "Giuseppa Melluso",
+   "slug": "giuseppa-melluso",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I195@",
+    "name": "Teresa Prostamo",
+    "slug": "teresa-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I204@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1958",
+    "living": false
+   },
+   {
+    "id": "@I205@",
+    "name": "Domenica Prostamo",
+    "slug": "domenica-prostamo-1960",
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -3092,32 +3308,32 @@
    "id": "@I477@",
    "name": "Carmella",
    "slug": "carmella",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I478@",
     "name": "Giuseppe Arena",
     "slug": "giuseppe-arena-6",
-    "living": true
+    "living": false
    },
    {
     "id": "@I479@",
     "name": "Anna Arena",
     "slug": "anna-arena-5",
-    "living": true
+    "living": false
    },
    {
     "id": "@I480@",
     "name": "Rocco Arena",
     "slug": "rocco-arena-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I481@",
     "name": "Tina Arena",
     "slug": "tina-arena",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -3138,25 +3354,25 @@
     "id": "@I57@",
     "name": "Frank Prostamo",
     "slug": "frank-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I58@",
     "name": "Gregory Prostamo",
     "slug": "gregory-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I59@",
     "name": "Maria Prostamo",
     "slug": "maria-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I60@",
     "name": "Carmela Prostamo",
     "slug": "carmela-prostamo-1976",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
@@ -3183,10 +3399,43 @@
     "id": "@I100@",
     "name": "Leonarda Giammona",
     "slug": "leonarda-giammona",
-    "living": true
+    "living": false
    }
   ],
   "place": "Catania, Sicily",
+  "born": 1930
+ },
+ {
+  "name": "Giuseppa Melluso & Alfonso Prostamo",
+  "head": "giuseppa-melluso",
+  "headId": "@I202@",
+  "spouse": {
+   "id": "@I199@",
+   "name": "Alfonso Prostamo",
+   "slug": "alfonso-prostamo-1928",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I195@",
+    "name": "Teresa Prostamo",
+    "slug": "teresa-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I204@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1958",
+    "living": false
+   },
+   {
+    "id": "@I205@",
+    "name": "Domenica Prostamo",
+    "slug": "domenica-prostamo-1960",
+    "living": false
+   }
+  ],
+  "place": "Buenos Aires, Argentina",
   "born": 1930
  },
  {
@@ -3197,20 +3446,20 @@
    "id": "@I484@",
    "name": "Peppina Arena",
    "slug": "peppina-arena",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I486@",
     "name": "Anna Arena",
     "slug": "anna-arena-6",
-    "living": true
+    "living": false
    },
    {
     "id": "@I485@",
     "name": "Francesco Arena",
     "slug": "francesco-arena-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -3231,13 +3480,13 @@
     "id": "@I12@",
     "name": "Connie Armanno",
     "slug": "connie-armanno",
-    "living": true
+    "living": false
    },
    {
     "id": "@I55@",
     "name": "Vennero Armanno",
     "slug": "vennero-armanno",
-    "living": true
+    "living": false
    }
   ],
   "place": "Piedimonte Etneo, Catania, Sicily",
@@ -3251,30 +3500,157 @@
    "id": "@I425@",
    "name": "Teresa Donato",
    "slug": "teresa-donato",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I427@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-1957",
-    "living": true
+    "living": false
    },
    {
     "id": "@I426@",
     "name": "Domenico Polistena",
     "slug": "domenico-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I428@",
     "name": "Antonio Polistena",
     "slug": "antonio-polistena",
-    "living": true
+    "living": false
    }
   ],
   "place": "Scilla, Reggio Calabria",
   "born": 1933
+ },
+ {
+  "name": "Giuseppa Melluso",
+  "head": "giuseppa-melluso-1933",
+  "headId": "@I194@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I195@",
+    "name": "Teresa Prostamo",
+    "slug": "teresa-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I196@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1957",
+    "living": false
+   },
+   {
+    "id": "@I197@",
+    "name": "Domenica Prostamo",
+    "slug": "domenica-prostamo-1959",
+    "living": false
+   }
+  ],
+  "place": "Buenos Aires, Argentina",
+  "born": 1933
+ },
+ {
+  "name": "Antonio Giacomo Prostamo & Angela Tomsic",
+  "head": "antonio-giacomo-prostamo",
+  "headId": "@I49@",
+  "spouse": {
+   "id": "@I61@",
+   "name": "Angela Tomsic",
+   "slug": "angela-tomsic",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I62@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo-1956",
+    "living": false
+   },
+   {
+    "id": "@I64@",
+    "name": "Tony Prostamo",
+    "slug": "tony-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I65@",
+    "name": "Kristina Prostamo",
+    "slug": "kristina-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I63@",
+    "name": "Francesco Prostamo",
+    "slug": "francesco-prostamo-1961",
+    "living": false
+   },
+   {
+    "id": "@I66@",
+    "name": "Steven Prostamo",
+    "slug": "steven-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1934
+ },
+ {
+  "name": "Mario Napoli & Mary Coco",
+  "head": "mario-napoli",
+  "headId": "@I88@",
+  "spouse": {
+   "id": "@I85@",
+   "name": "Mary Coco",
+   "slug": "mary-coco",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I89@",
+    "name": "Furtuna Napoli",
+    "slug": "furtuna-napoli",
+    "living": false
+   },
+   {
+    "id": "@I90@",
+    "name": "Anthony Napoli",
+    "slug": "anthony-napoli",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1934
+ },
+ {
+  "name": "Francesco Prostamo & Raffaela",
+  "head": "francesco-prostamo",
+  "headId": "@I303@",
+  "spouse": {
+   "id": "@I319@",
+   "name": "Raffaela",
+   "slug": "raffaela",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I62@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo-1956",
+    "living": false
+   },
+   {
+    "id": "@I323@",
+    "name": "Antonia Prostamo",
+    "slug": "antonia-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1935
  },
  {
   "name": "Maria Melluso & Domenico Prostamo",
@@ -3291,29 +3667,185 @@
     "id": "@I57@",
     "name": "Frank Prostamo",
     "slug": "frank-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I58@",
     "name": "Gregory Prostamo",
     "slug": "gregory-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I59@",
     "name": "Maria Prostamo",
     "slug": "maria-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I60@",
     "name": "Carmela Prostamo",
     "slug": "carmela-prostamo-1976",
-    "living": true
+    "living": false
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
   "born": 1936
+ },
+ {
+  "name": "Rocco Calarco & Domenica Polistena",
+  "head": "rocco-calarco",
+  "headId": "@I266@",
+  "spouse": {
+   "id": "@I264@",
+   "name": "Domenica Polistena",
+   "slug": "domenica-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I267@",
+    "name": "Sam Calarco",
+    "slug": "sam-calarco",
+    "living": false
+   },
+   {
+    "id": "@I268@",
+    "name": "Giovanni Calarco",
+    "slug": "giovanni-calarco",
+    "living": false
+   },
+   {
+    "id": "@I269@",
+    "name": "Giuseppe Calarco",
+    "slug": "giuseppe-calarco",
+    "living": false
+   },
+   {
+    "id": "@I452@",
+    "name": "Fortunato Calarco",
+    "slug": "fortunato-calarco",
+    "living": false
+   },
+   {
+    "id": "@I453@",
+    "name": "Peter Calarco",
+    "slug": "peter-calarco",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1936
+ },
+ {
+  "name": "Raffaele Sanfedele & Maria Polistena",
+  "head": "raffaele-sanfedele",
+  "headId": "@I270@",
+  "spouse": {
+   "id": "@I265@",
+   "name": "Maria Polistena",
+   "slug": "maria-polistena-1945",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I271@",
+    "name": "Domenica Sanfedele",
+    "slug": "domenica-sanfedele",
+    "living": false
+   },
+   {
+    "id": "@I272@",
+    "name": "Nino Sanfedele",
+    "slug": "nino-sanfedele",
+    "living": false
+   },
+   {
+    "id": "@I273@",
+    "name": "Giovanni Sanfedele",
+    "slug": "giovanni-sanfedele",
+    "living": false
+   },
+   {
+    "id": "@I274@",
+    "name": "Concetta Sanfedele",
+    "slug": "concetta-sanfedele",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1936
+ },
+ {
+  "name": "Angela Tomsic & Antonio Giacomo Prostamo",
+  "head": "angela-tomsic",
+  "headId": "@I61@",
+  "spouse": {
+   "id": "@I49@",
+   "name": "Antonio Giacomo Prostamo",
+   "slug": "antonio-giacomo-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I62@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo-1956",
+    "living": false
+   },
+   {
+    "id": "@I64@",
+    "name": "Tony Prostamo",
+    "slug": "tony-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I65@",
+    "name": "Kristina Prostamo",
+    "slug": "kristina-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I63@",
+    "name": "Francesco Prostamo",
+    "slug": "francesco-prostamo-1961",
+    "living": false
+   },
+   {
+    "id": "@I66@",
+    "name": "Steven Prostamo",
+    "slug": "steven-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Postuman, Veneto, Italy",
+  "born": 1937
+ },
+ {
+  "name": "Raffaela & Francesco Prostamo",
+  "head": "raffaela",
+  "headId": "@I319@",
+  "spouse": {
+   "id": "@I303@",
+   "name": "Francesco Prostamo",
+   "slug": "francesco-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I62@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo-1956",
+    "living": false
+   },
+   {
+    "id": "@I323@",
+    "name": "Antonia Prostamo",
+    "slug": "antonia-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Catanzaro, Calabria",
+  "born": 1938
  },
  {
   "name": "Francesco Trungadi & Francesca Prostamo",
@@ -3323,30 +3855,243 @@
    "id": "@I51@",
    "name": "Francesca Prostamo",
    "slug": "francesca-prostamo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I68@",
     "name": "Antonietta Trungadi",
     "slug": "antonietta-trungadi",
-    "living": true
+    "living": false
    },
    {
     "id": "@I69@",
     "name": "Maria Rosa Trungadi",
     "slug": "maria-rosa-trungadi",
-    "living": true
+    "living": false
    },
    {
     "id": "@I70@",
     "name": "Barbara Trungadi",
     "slug": "barbara-trungadi",
-    "living": true
+    "living": false
    }
   ],
   "place": "Bagnara Calabra, Calabria, Italy",
   "born": 1940
+ },
+ {
+  "name": "Mary Coco & Mario Napoli",
+  "head": "mary-coco",
+  "headId": "@I85@",
+  "spouse": {
+   "id": "@I88@",
+   "name": "Mario Napoli",
+   "slug": "mario-napoli",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I89@",
+    "name": "Furtuna Napoli",
+    "slug": "furtuna-napoli",
+    "living": false
+   },
+   {
+    "id": "@I90@",
+    "name": "Anthony Napoli",
+    "slug": "anthony-napoli",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": 1940
+ },
+ {
+  "name": "Domenica Polistena & Rocco Calarco",
+  "head": "domenica-polistena",
+  "headId": "@I264@",
+  "spouse": {
+   "id": "@I266@",
+   "name": "Rocco Calarco",
+   "slug": "rocco-calarco",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I267@",
+    "name": "Sam Calarco",
+    "slug": "sam-calarco",
+    "living": false
+   },
+   {
+    "id": "@I268@",
+    "name": "Giovanni Calarco",
+    "slug": "giovanni-calarco",
+    "living": false
+   },
+   {
+    "id": "@I269@",
+    "name": "Giuseppe Calarco",
+    "slug": "giuseppe-calarco",
+    "living": false
+   },
+   {
+    "id": "@I452@",
+    "name": "Fortunato Calarco",
+    "slug": "fortunato-calarco",
+    "living": false
+   },
+   {
+    "id": "@I453@",
+    "name": "Peter Calarco",
+    "slug": "peter-calarco",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1940
+ },
+ {
+  "name": "Robert Bradaley Noble & Sailowama Quaiuci",
+  "head": "robert-bradaley-noble",
+  "headId": "@I287@",
+  "spouse": {
+   "id": "@I288@",
+   "name": "Sailowama Quaiuci",
+   "slug": "sailowama-quaiuci",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I278@",
+    "name": "Lynette Noble",
+    "slug": "lynette-noble",
+    "living": false
+   }
+  ],
+  "place": "Newcastle, New South Wales, Australia",
+  "born": 1942
+ },
+ {
+  "name": "Francesca Prostamo & Francesco Trungadi",
+  "head": "francesca-prostamo",
+  "headId": "@I51@",
+  "spouse": {
+   "id": "@I67@",
+   "name": "Francesco Trungadi",
+   "slug": "francesco-trungadi",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I68@",
+    "name": "Antonietta Trungadi",
+    "slug": "antonietta-trungadi",
+    "living": false
+   },
+   {
+    "id": "@I69@",
+    "name": "Maria Rosa Trungadi",
+    "slug": "maria-rosa-trungadi",
+    "living": false
+   },
+   {
+    "id": "@I70@",
+    "name": "Barbara Trungadi",
+    "slug": "barbara-trungadi",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1945
+ },
+ {
+  "name": "Luciano Cavallaro & Marilyn",
+  "head": "luciano-cavallaro",
+  "headId": "@I77@",
+  "spouse": {
+   "id": "@I81@",
+   "name": "Marilyn",
+   "slug": "marilyn",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I82@",
+    "name": "Fillipo Cavallaro",
+    "slug": "fillipo-cavallaro",
+    "living": false
+   },
+   {
+    "id": "@I83@",
+    "name": "Richard Cavallaro",
+    "slug": "richard-cavallaro",
+    "living": false
+   }
+  ],
+  "place": "Catania, Sicily",
+  "born": 1945
+ },
+ {
+  "name": "Tony Coco & lina Lanzfami",
+  "head": "tony-coco",
+  "headId": "@I86@",
+  "spouse": {
+   "id": "@I103@",
+   "name": "lina Lanzfami",
+   "slug": "lina-lanzfami",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I104@",
+    "name": "Maria Coco",
+    "slug": "maria-coco",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": 1945
+ },
+ {
+  "name": "Maria Polistena & Raffaele Sanfedele",
+  "head": "maria-polistena-1945",
+  "headId": "@I265@",
+  "spouse": {
+   "id": "@I270@",
+   "name": "Raffaele Sanfedele",
+   "slug": "raffaele-sanfedele",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I271@",
+    "name": "Domenica Sanfedele",
+    "slug": "domenica-sanfedele",
+    "living": false
+   },
+   {
+    "id": "@I272@",
+    "name": "Nino Sanfedele",
+    "slug": "nino-sanfedele",
+    "living": false
+   },
+   {
+    "id": "@I273@",
+    "name": "Giovanni Sanfedele",
+    "slug": "giovanni-sanfedele",
+    "living": false
+   },
+   {
+    "id": "@I274@",
+    "name": "Concetta Sanfedele",
+    "slug": "concetta-sanfedele",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1945
  },
  {
   "name": "Frank Mazza & Nancy Arena",
@@ -3356,35 +4101,35 @@
    "id": "@I25@",
    "name": "Nancy Arena",
    "slug": "nancy-arena",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I26@",
     "name": "Michael Rocco Mazza",
     "slug": "michael-rocco-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I27@",
     "name": "Angela Mazza",
     "slug": "angela-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I13@",
     "name": "Robert Sebastian Mazza",
     "slug": "robert-sebastian-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I20@",
     "name": "Michael Mazza",
     "slug": "michael-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3395,23 +4140,23 @@
    "id": "@I404@",
    "name": "Leon Calahorra",
    "slug": "leon-calahorra",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I405@",
     "name": "Stefanie Calahorra",
     "slug": "stefanie-calahorra",
-    "living": true
+    "living": false
    },
    {
     "id": "@I13@",
     "name": "Robert Sebastian Mazza",
     "slug": "robert-sebastian-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3422,23 +4167,23 @@
    "id": "@I30@",
    "name": "Renee Turner",
    "slug": "renee-turner",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I31@",
     "name": "Jack Carmelo Calahorra",
     "slug": "jack-carmelo-calahorra",
-    "living": true
+    "living": false
    },
    {
     "id": "@I351@",
     "name": "Luca Francesco Calahorra",
     "slug": "luca-francesco-calahorra",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3498,29 +4243,29 @@
    "id": "@I1@",
    "name": "Frank Mazza",
    "slug": "frank-mazza",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I20@",
     "name": "Michael Mazza",
     "slug": "michael-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I27@",
     "name": "Angela Mazza",
     "slug": "angela-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I26@",
     "name": "Michael Rocco Mazza",
     "slug": "michael-rocco-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3531,23 +4276,23 @@
    "id": "@I362@",
    "name": "Stefanie D'Arcy",
    "slug": "stefanie-darcy",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I363@",
     "name": "Mia Josephine Mazza",
     "slug": "mia-josephine-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I364@",
     "name": "Rocco Francesco Mazza",
     "slug": "rocco-francesco-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3558,17 +4303,17 @@
    "id": "@I360@",
    "name": "Reinhard Muller",
    "slug": "reinhard-muller",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I361@",
     "name": "Josef Muller",
     "slug": "josef-muller",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3579,23 +4324,23 @@
    "id": "@I13@",
    "name": "Robert Sebastian Mazza",
    "slug": "robert-sebastian-mazza",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I31@",
     "name": "Jack Carmelo Calahorra",
     "slug": "jack-carmelo-calahorra",
-    "living": true
+    "living": false
    },
    {
     "id": "@I351@",
     "name": "Luca Francesco Calahorra",
     "slug": "luca-francesco-calahorra",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Moree, New South Wales, Australia",
   "born": null
  },
  {
@@ -3606,29 +4351,29 @@
    "id": "@I40@",
    "name": "Carmelina Micale",
    "slug": "carmelina-micale",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I42@",
     "name": "Domenica Rita Mazza",
     "slug": "domenica-rita-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I41@",
     "name": "Sebastian Michael Mazza",
     "slug": "sebastian-michael-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I43@",
     "name": "Anthony John Mazza",
     "slug": "anthony-john-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Briatico, Vibo Valentia, Calabria",
   "born": null
  },
  {
@@ -3639,23 +4384,23 @@
    "id": "@I44@",
    "name": "Alfina Pennisi",
    "slug": "alfina-pennisi",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I45@",
     "name": "Jiani Mazza",
     "slug": "jiani-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I46@",
     "name": "Maria Rosa Mazza",
     "slug": "maria-rosa-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3666,29 +4411,29 @@
    "id": "@I32@",
    "name": "Salvatore Mazza",
    "slug": "salvatore-mazza-1948",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I42@",
     "name": "Domenica Rita Mazza",
     "slug": "domenica-rita-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I41@",
     "name": "Sebastian Michael Mazza",
     "slug": "sebastian-michael-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I43@",
     "name": "Anthony John Mazza",
     "slug": "anthony-john-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3699,20 +4444,20 @@
    "id": "@I34@",
    "name": "Giovanni Mazza",
    "slug": "giovanni-mazza",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I45@",
     "name": "Jiani Mazza",
     "slug": "jiani-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I46@",
     "name": "Maria Rosa Mazza",
     "slug": "maria-rosa-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -3726,95 +4471,17 @@
    "id": "@I109@",
    "name": "Rachel",
    "slug": "rachel",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I110@",
     "name": "Ruben Mazza",
     "slug": "ruben-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Antonio Giacomo Prostamo & Angela Tomsic",
-  "head": "antonio-giacomo-prostamo",
-  "headId": "@I49@",
-  "spouse": {
-   "id": "@I61@",
-   "name": "Angela Tomsic",
-   "slug": "angela-tomsic",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I62@",
-    "name": "Maria Rosa Prostamo",
-    "slug": "maria-rosa-prostamo-1956",
-    "living": true
-   },
-   {
-    "id": "@I64@",
-    "name": "Tony Prostamo",
-    "slug": "tony-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I65@",
-    "name": "Kristina Prostamo",
-    "slug": "kristina-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I63@",
-    "name": "Francesco Prostamo",
-    "slug": "francesco-prostamo-1961",
-    "living": true
-   },
-   {
-    "id": "@I66@",
-    "name": "Steven Prostamo",
-    "slug": "steven-prostamo",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Francesca Prostamo & Francesco Trungadi",
-  "head": "francesca-prostamo",
-  "headId": "@I51@",
-  "spouse": {
-   "id": "@I67@",
-   "name": "Francesco Trungadi",
-   "slug": "francesco-trungadi",
-   "living": false
-  },
-  "children": [
-   {
-    "id": "@I68@",
-    "name": "Antonietta Trungadi",
-    "slug": "antonietta-trungadi",
-    "living": true
-   },
-   {
-    "id": "@I69@",
-    "name": "Maria Rosa Trungadi",
-    "slug": "maria-rosa-trungadi",
-    "living": true
-   },
-   {
-    "id": "@I70@",
-    "name": "Barbara Trungadi",
-    "slug": "barbara-trungadi",
-    "living": true
-   }
-  ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3825,35 +4492,35 @@
    "id": "@I71@",
    "name": "Tonino Panella",
    "slug": "tonino-panella",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I72@",
     "name": "Anunziata Panella",
     "slug": "anunziata-panella",
-    "living": true
+    "living": false
    },
    {
     "id": "@I73@",
     "name": "Maria Rosa Panella",
     "slug": "maria-rosa-panella",
-    "living": true
+    "living": false
    },
    {
     "id": "@I74@",
     "name": "Francesco Panella",
     "slug": "francesco-panella",
-    "living": true
+    "living": false
    },
    {
     "id": "@I75@",
     "name": "Domenico (Twin) Panella",
     "slug": "domenico-twin-panella",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Briatico, Vibo Valentia, Calabria",
   "born": null
  },
  {
@@ -3866,10 +4533,10 @@
     "id": "@I403@",
     "name": "Rocco Armanno",
     "slug": "rocco-armanno",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3880,29 +4547,29 @@
    "id": "@I198@",
    "name": "Claire",
    "slug": "claire",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I214@",
     "name": "Mara G Prostamo",
     "slug": "mara-g-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I215@",
     "name": "Michael John Prostamo",
     "slug": "michael-john-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I216@",
     "name": "Stella Prostamo",
     "slug": "stella-prostamo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3913,17 +4580,17 @@
    "id": "@I212@",
    "name": "Deena Longhurst",
    "slug": "deena-longhurst",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I213@",
     "name": "Katie Prostamo",
     "slug": "katie-prostamo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3934,23 +4601,23 @@
    "id": "@I209@",
    "name": "Roy",
    "slug": "roy",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I210@",
     "name": "Natasha",
     "slug": "natasha",
-    "living": true
+    "living": false
    },
    {
     "id": "@I211@",
     "name": "Dominic",
     "slug": "dominic",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -3961,68 +4628,23 @@
    "id": "@I206@",
    "name": "Brett",
    "slug": "brett",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I207@",
     "name": "Travis",
     "slug": "travis",
-    "living": true
+    "living": false
    },
    {
     "id": "@I208@",
     "name": "Jasmine",
     "slug": "jasmine",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Angela Tomsic & Antonio Giacomo Prostamo",
-  "head": "angela-tomsic",
-  "headId": "@I61@",
-  "spouse": {
-   "id": "@I49@",
-   "name": "Antonio Giacomo Prostamo",
-   "slug": "antonio-giacomo-prostamo",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I62@",
-    "name": "Maria Rosa Prostamo",
-    "slug": "maria-rosa-prostamo-1956",
-    "living": true
-   },
-   {
-    "id": "@I64@",
-    "name": "Tony Prostamo",
-    "slug": "tony-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I65@",
-    "name": "Kristina Prostamo",
-    "slug": "kristina-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I63@",
-    "name": "Francesco Prostamo",
-    "slug": "francesco-prostamo-1961",
-    "living": true
-   },
-   {
-    "id": "@I66@",
-    "name": "Steven Prostamo",
-    "slug": "steven-prostamo",
-    "living": true
-   }
-  ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4033,23 +4655,23 @@
    "id": "@I166@",
    "name": "Lisa Brown",
    "slug": "lisa-brown",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I167@",
     "name": "Dane Prostamo",
     "slug": "dane-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I168@",
     "name": "Elle Prostamo",
     "slug": "elle-prostamo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4060,23 +4682,23 @@
    "id": "@I170@",
    "name": "Putu Nuniarti",
    "slug": "putu-nuniarti",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I172@",
     "name": "Joshua Adi Prostamo",
     "slug": "joshua-adi-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I171@",
     "name": "Nathan Prostamo",
     "slug": "nathan-prostamo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4087,23 +4709,23 @@
    "id": "@I161@",
    "name": "Iian Whitaker",
    "slug": "iian-whitaker",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I162@",
     "name": "Laura Whitaker",
     "slug": "laura-whitaker",
-    "living": true
+    "living": false
    },
    {
     "id": "@I163@",
     "name": "Thomas Whitaker",
     "slug": "thomas-whitaker",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4114,23 +4736,23 @@
    "id": "@I291@",
    "name": "Salvatore Poleo",
    "slug": "salvatore-poleo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I292@",
     "name": "Sara Poleo",
     "slug": "sara-poleo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I293@",
     "name": "Alice Poleo",
     "slug": "alice-poleo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4143,16 +4765,16 @@
     "id": "@I352@",
     "name": "Tomas",
     "slug": "tomas",
-    "living": true
+    "living": false
    },
    {
     "id": "@I353@",
     "name": "Patrick",
     "slug": "patrick",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Milan, Lombardy",
   "born": null
  },
  {
@@ -4163,62 +4785,35 @@
    "id": "@I52@",
    "name": "Saveria Prostamo",
    "slug": "saveria-prostamo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I72@",
     "name": "Anunziata Panella",
     "slug": "anunziata-panella",
-    "living": true
+    "living": false
    },
    {
     "id": "@I73@",
     "name": "Maria Rosa Panella",
     "slug": "maria-rosa-panella",
-    "living": true
+    "living": false
    },
    {
     "id": "@I74@",
     "name": "Francesco Panella",
     "slug": "francesco-panella",
-    "living": true
+    "living": false
    },
    {
     "id": "@I75@",
     "name": "Domenico (Twin) Panella",
     "slug": "domenico-twin-panella",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Luciano Cavallaro & Marilyn",
-  "head": "luciano-cavallaro",
-  "headId": "@I77@",
-  "spouse": {
-   "id": "@I81@",
-   "name": "Marilyn",
-   "slug": "marilyn",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I82@",
-    "name": "Fillipo Cavallaro",
-    "slug": "fillipo-cavallaro",
-    "living": true
-   },
-   {
-    "id": "@I83@",
-    "name": "Richard Cavallaro",
-    "slug": "richard-cavallaro",
-    "living": true
-   }
-  ],
-  "place": "",
+  "place": "San Costantino Calabro, Vibo Valentia, Calabria",
   "born": null
  },
  {
@@ -4229,68 +4824,20 @@
    "id": "@I77@",
    "name": "Luciano Cavallaro",
    "slug": "luciano-cavallaro",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I82@",
     "name": "Fillipo Cavallaro",
     "slug": "fillipo-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I83@",
     "name": "Richard Cavallaro",
     "slug": "richard-cavallaro",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Mary Coco & Mario Napoli",
-  "head": "mary-coco",
-  "headId": "@I85@",
-  "spouse": {
-   "id": "@I88@",
-   "name": "Mario Napoli",
-   "slug": "mario-napoli",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I89@",
-    "name": "Furtuna Napoli",
-    "slug": "furtuna-napoli",
-    "living": true
-   },
-   {
-    "id": "@I90@",
-    "name": "Anthony Napoli",
-    "slug": "anthony-napoli",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Tony Coco & lina Lanzfami",
-  "head": "tony-coco",
-  "headId": "@I86@",
-  "spouse": {
-   "id": "@I103@",
-   "name": "lina Lanzfami",
-   "slug": "lina-lanzfami",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I104@",
-    "name": "Maria Coco",
-    "slug": "maria-coco",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4304,47 +4851,20 @@
    "id": "@I105@",
    "name": "Liella Coffin",
    "slug": "liella-coffin",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I113@",
     "name": "Loretta Coco",
     "slug": "loretta-coco",
-    "living": true
+    "living": false
    },
    {
     "id": "@I114@",
     "name": "Domenic Coco",
     "slug": "domenic-coco",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Mario Napoli & Mary Coco",
-  "head": "mario-napoli",
-  "headId": "@I88@",
-  "spouse": {
-   "id": "@I85@",
-   "name": "Mary Coco",
-   "slug": "mary-coco",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I89@",
-    "name": "Furtuna Napoli",
-    "slug": "furtuna-napoli",
-    "living": true
-   },
-   {
-    "id": "@I90@",
-    "name": "Anthony Napoli",
-    "slug": "anthony-napoli",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4358,23 +4878,23 @@
    "id": "@I91@",
    "name": "Nick Spinelli",
    "slug": "nick-spinelli",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I93@",
     "name": "Allana Spenelli",
     "slug": "allana-spenelli",
-    "living": true
+    "living": false
    },
    {
     "id": "@I92@",
     "name": "Cortney Spenelli",
     "slug": "cortney-spenelli",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4385,23 +4905,23 @@
    "id": "@I115@",
    "name": "Debbie Trabucco",
    "slug": "debbie-trabucco",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I116@",
     "name": "Alexandra Napoli",
     "slug": "alexandra-napoli",
-    "living": true
+    "living": false
    },
    {
     "id": "@I117@",
     "name": "Briana Napoli",
     "slug": "briana-napoli",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4412,23 +4932,23 @@
    "id": "@I89@",
    "name": "Furtuna Napoli",
    "slug": "furtuna-napoli",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I93@",
     "name": "Allana Spenelli",
     "slug": "allana-spenelli",
-    "living": true
+    "living": false
    },
    {
     "id": "@I92@",
     "name": "Cortney Spenelli",
     "slug": "cortney-spenelli",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4452,7 +4972,7 @@
     "id": "@I100@",
     "name": "Leonarda Giammona",
     "slug": "leonarda-giammona",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4466,17 +4986,17 @@
    "id": "@I101@",
    "name": "Salvatore Tripoti",
    "slug": "salvatore-tripoti",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I102@",
     "name": "Federica",
     "slug": "federica",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4487,14 +5007,14 @@
    "id": "@I100@",
    "name": "Leonarda Giammona",
    "slug": "leonarda-giammona",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I102@",
     "name": "Federica",
     "slug": "federica",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4508,14 +5028,14 @@
    "id": "@I86@",
    "name": "Tony Coco",
    "slug": "tony-coco",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I104@",
     "name": "Maria Coco",
     "slug": "maria-coco",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4529,20 +5049,20 @@
    "id": "@I87@",
    "name": "Ross Coco",
    "slug": "ross-coco",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I113@",
     "name": "Loretta Coco",
     "slug": "loretta-coco",
-    "living": true
+    "living": false
    },
    {
     "id": "@I114@",
     "name": "Domenic Coco",
     "slug": "domenic-coco",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4563,13 +5083,13 @@
     "id": "@I107@",
     "name": "Loretta Mazza",
     "slug": "loretta-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I108@",
     "name": "Quinto Pellagrini",
     "slug": "quinto-pellagrini",
-    "living": true
+    "living": false
    }
   ],
   "place": "Melbourne, Victoria",
@@ -4583,14 +5103,14 @@
    "id": "@I118@",
    "name": "Emma",
    "slug": "emma",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I119@",
     "name": "Luke Pellagrini",
     "slug": "luke-pellagrini",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4604,14 +5124,14 @@
    "id": "@I45@",
    "name": "Jiani Mazza",
    "slug": "jiani-mazza",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I110@",
     "name": "Ruben Mazza",
     "slug": "ruben-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4625,23 +5145,23 @@
    "id": "@I90@",
    "name": "Anthony Napoli",
    "slug": "anthony-napoli",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I116@",
     "name": "Alexandra Napoli",
     "slug": "alexandra-napoli",
-    "living": true
+    "living": false
    },
    {
     "id": "@I117@",
     "name": "Briana Napoli",
     "slug": "briana-napoli",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -4652,14 +5172,14 @@
    "id": "@I108@",
    "name": "Quinto Pellagrini",
    "slug": "quinto-pellagrini",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I119@",
     "name": "Luke Pellagrini",
     "slug": "luke-pellagrini",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4698,16 +5218,16 @@
     "id": "@I256@",
     "name": "Domenico Donato",
     "slug": "domenico-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I257@",
     "name": "Santa Donato",
     "slug": "santa-donato",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -4718,7 +5238,7 @@
    "id": "@I125@",
    "name": "Giovanna Pontillo",
    "slug": "giovanna-pontillo",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -4737,34 +5257,34 @@
     "id": "@I138@",
     "name": "Fransceco Polistena",
     "slug": "fransceco-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I357@",
     "name": "Teresa Polistena",
     "slug": "teresa-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I487@",
     "name": "Santa Polistena",
     "slug": "santa-polistena-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I140@",
     "name": "Nunziatta Polistena",
     "slug": "nunziatta-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I141@",
     "name": "Benadetta Polistena",
     "slug": "benadetta-polistena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -4775,7 +5295,7 @@
    "id": "@I124@",
    "name": "Antonio Polistena",
    "slug": "antonio-polistena-2",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -4794,34 +5314,34 @@
     "id": "@I138@",
     "name": "Fransceco Polistena",
     "slug": "fransceco-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I357@",
     "name": "Teresa Polistena",
     "slug": "teresa-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I487@",
     "name": "Santa Polistena",
     "slug": "santa-polistena-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I140@",
     "name": "Nunziatta Polistena",
     "slug": "nunziatta-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I141@",
     "name": "Benadetta Polistena",
     "slug": "benadetta-polistena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -4832,17 +5352,17 @@
    "id": "@I127@",
    "name": "Nunziatta Pontillo",
    "slug": "nunziatta-pontillo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I125@",
     "name": "Giovanna Pontillo",
     "slug": "giovanna-pontillo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -4853,17 +5373,17 @@
    "id": "@I126@",
    "name": "Giuseppi Pontillo",
    "slug": "giuseppi-pontillo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I125@",
     "name": "Giovanna Pontillo",
     "slug": "giovanna-pontillo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -4874,20 +5394,20 @@
    "id": "@I446@",
    "name": "Maria",
    "slug": "maria",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I447@",
     "name": "Camillo Polistena",
     "slug": "camillo-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I448@",
     "name": "Giovanna Polistena",
     "slug": "giovanna-polistena-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -4901,23 +5421,23 @@
    "id": "@I65@",
    "name": "Kristina Prostamo",
    "slug": "kristina-prostamo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I162@",
     "name": "Laura Whitaker",
     "slug": "laura-whitaker",
-    "living": true
+    "living": false
    },
    {
     "id": "@I163@",
     "name": "Thomas Whitaker",
     "slug": "thomas-whitaker",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Great Britain",
   "born": null
  },
  {
@@ -4928,23 +5448,23 @@
    "id": "@I63@",
    "name": "Francesco Prostamo",
    "slug": "francesco-prostamo-1961",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I167@",
     "name": "Dane Prostamo",
     "slug": "dane-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I168@",
     "name": "Elle Prostamo",
     "slug": "elle-prostamo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Gold Coast, Queensland",
   "born": null
  },
  {
@@ -4955,117 +5475,23 @@
    "id": "@I64@",
    "name": "Tony Prostamo",
    "slug": "tony-prostamo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I172@",
     "name": "Joshua Adi Prostamo",
     "slug": "joshua-adi-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I171@",
     "name": "Nathan Prostamo",
     "slug": "nathan-prostamo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Alfonso Prostamo & Concetta Melluso",
-  "head": "alfonso-prostamo-1926",
-  "headId": "@I185@",
-  "spouse": {
-   "id": "@I188@",
-   "name": "Concetta Melluso",
-   "slug": "concetta-melluso",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I189@",
-    "name": "Giuseppina Prostamo",
-    "slug": "giuseppina-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I190@",
-    "name": "Antonino Prostamo",
-    "slug": "antonino-prostamo-1960",
-    "living": true
-   },
-   {
-    "id": "@I191@",
-    "name": "Pasquale Prostamo",
-    "slug": "pasquale-prostamo-1962",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Concetta Melluso & Alfonso Prostamo",
-  "head": "concetta-melluso",
-  "headId": "@I188@",
-  "spouse": {
-   "id": "@I185@",
-   "name": "Alfonso Prostamo",
-   "slug": "alfonso-prostamo-1926",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I189@",
-    "name": "Giuseppina Prostamo",
-    "slug": "giuseppina-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I190@",
-    "name": "Antonino Prostamo",
-    "slug": "antonino-prostamo-1960",
-    "living": true
-   },
-   {
-    "id": "@I191@",
-    "name": "Pasquale Prostamo",
-    "slug": "pasquale-prostamo-1962",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Giuseppa Melluso",
-  "head": "giuseppa-melluso-1933",
-  "headId": "@I194@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@I195@",
-    "name": "Teresa Prostamo",
-    "slug": "teresa-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I196@",
-    "name": "Giuseppe Prostamo",
-    "slug": "giuseppe-prostamo-1957",
-    "living": true
-   },
-   {
-    "id": "@I197@",
-    "name": "Domenica Prostamo",
-    "slug": "domenica-prostamo-1959",
-    "living": true
-   }
-  ],
-  "place": "",
+  "place": "Bali, Indonesia",
   "born": null
  },
  {
@@ -5076,62 +5502,29 @@
    "id": "@I57@",
    "name": "Frank Prostamo",
    "slug": "frank-prostamo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I214@",
     "name": "Mara G Prostamo",
     "slug": "mara-g-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I215@",
     "name": "Michael John Prostamo",
     "slug": "michael-john-prostamo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I216@",
     "name": "Stella Prostamo",
     "slug": "stella-prostamo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Alfonso Prostamo & Giuseppa Melluso",
-  "head": "alfonso-prostamo-1928",
-  "headId": "@I199@",
-  "spouse": {
-   "id": "@I202@",
-   "name": "Giuseppa Melluso",
-   "slug": "giuseppa-melluso",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I195@",
-    "name": "Teresa Prostamo",
-    "slug": "teresa-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I204@",
-    "name": "Giuseppe Prostamo",
-    "slug": "giuseppe-prostamo-1958",
-    "living": true
-   },
-   {
-    "id": "@I205@",
-    "name": "Domenica Prostamo",
-    "slug": "domenica-prostamo-1960",
-    "living": true
-   }
-  ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -5149,40 +5542,7 @@
     "id": "@I201@",
     "name": "Maria G Prostamo",
     "slug": "maria-g-prostamo",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Giuseppa Melluso & Alfonso Prostamo",
-  "head": "giuseppa-melluso",
-  "headId": "@I202@",
-  "spouse": {
-   "id": "@I199@",
-   "name": "Alfonso Prostamo",
-   "slug": "alfonso-prostamo-1928",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I195@",
-    "name": "Teresa Prostamo",
-    "slug": "teresa-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I204@",
-    "name": "Giuseppe Prostamo",
-    "slug": "giuseppe-prostamo-1958",
-    "living": true
-   },
-   {
-    "id": "@I205@",
-    "name": "Domenica Prostamo",
-    "slug": "domenica-prostamo-1960",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -5196,23 +5556,23 @@
    "id": "@I60@",
    "name": "Carmela Prostamo",
    "slug": "carmela-prostamo-1976",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I207@",
     "name": "Travis",
     "slug": "travis",
-    "living": true
+    "living": false
    },
    {
     "id": "@I208@",
     "name": "Jasmine",
     "slug": "jasmine",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -5223,23 +5583,23 @@
    "id": "@I59@",
    "name": "Maria Prostamo",
    "slug": "maria-prostamo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I210@",
     "name": "Natasha",
     "slug": "natasha",
-    "living": true
+    "living": false
    },
    {
     "id": "@I211@",
     "name": "Dominic",
     "slug": "dominic",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -5250,17 +5610,17 @@
    "id": "@I58@",
    "name": "Gregory Prostamo",
    "slug": "gregory-prostamo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I213@",
     "name": "Katie Prostamo",
     "slug": "katie-prostamo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -5273,7 +5633,7 @@
     "id": "@I198@",
     "name": "Claire",
     "slug": "claire",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -5287,17 +5647,17 @@
    "id": "@I244@",
    "name": "Sandy Mortimer",
    "slug": "sandy-mortimer",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I30@",
     "name": "Renee Turner",
     "slug": "renee-turner",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Lismore, New South Wales, Australia",
   "born": null
  },
  {
@@ -5308,17 +5668,17 @@
    "id": "@I243@",
    "name": "John Turner",
    "slug": "john-turner",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I30@",
     "name": "Renee Turner",
     "slug": "renee-turner",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Lismore, New South Wales, Australia",
   "born": null
  },
  {
@@ -5351,58 +5711,7 @@
     "living": false
    }
   ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Antonio Arena & Maria Russo",
-  "head": "antonio-arena-1926",
-  "headId": "@I251@",
-  "spouse": {
-   "id": "@I470@",
-   "name": "Maria Russo",
-   "slug": "maria-russo",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I471@",
-    "name": "Giuseppe Arena",
-    "slug": "giuseppe-arena-5",
-    "living": true
-   },
-   {
-    "id": "@I472@",
-    "name": "Anna Arena",
-    "slug": "anna-arena-4",
-    "living": true
-   },
-   {
-    "id": "@I473@",
-    "name": "Rocco Arena",
-    "slug": "rocco-arena-3",
-    "living": true
-   },
-   {
-    "id": "@I474@",
-    "name": "Clemente Arena",
-    "slug": "clemente-arena-3",
-    "living": true
-   },
-   {
-    "id": "@I475@",
-    "name": "Giovanni Arena",
-    "slug": "giovanni-arena-3",
-    "living": true
-   },
-   {
-    "id": "@I476@",
-    "name": "Francesco Arena",
-    "slug": "francesco-arena",
-    "living": true
-   }
-  ],
-  "place": "",
+  "place": "Italy",
   "born": null
  },
  {
@@ -5426,22 +5735,22 @@
     "id": "@I260@",
     "name": "Clemente Arena",
     "slug": "clemente-arena-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I261@",
     "name": "Fortunata Arena",
     "slug": "fortunata-arena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I262@",
     "name": "Maria Arena",
     "slug": "maria-arena-2",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -5452,47 +5761,47 @@
    "id": "@I439@",
    "name": "Rosina",
    "slug": "rosina",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I440@",
     "name": "Micelle Donato",
     "slug": "micelle-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I441@",
     "name": "Peppino Donato",
     "slug": "peppino-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I442@",
     "name": "Teresa Donato",
     "slug": "teresa-donato-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I443@",
     "name": "Giovanni Donato",
     "slug": "giovanni-donato-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I444@",
     "name": "Tattina Donato",
     "slug": "tattina-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I445@",
     "name": "Madelena Donato",
     "slug": "madelena-donato",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -5503,185 +5812,17 @@
    "id": "@I437@",
    "name": "Salvatore",
    "slug": "salvatore",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I438@",
     "name": "Peppe Donato",
     "slug": "peppe-donato",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Domenica Polistena & Rocco Calarco",
-  "head": "domenica-polistena",
-  "headId": "@I264@",
-  "spouse": {
-   "id": "@I266@",
-   "name": "Rocco Calarco",
-   "slug": "rocco-calarco",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I267@",
-    "name": "Sam Calarco",
-    "slug": "sam-calarco",
-    "living": true
-   },
-   {
-    "id": "@I268@",
-    "name": "Giovanni Calarco",
-    "slug": "giovanni-calarco",
-    "living": true
-   },
-   {
-    "id": "@I269@",
-    "name": "Giuseppe Calarco",
-    "slug": "giuseppe-calarco",
-    "living": true
-   },
-   {
-    "id": "@I452@",
-    "name": "Fortunato Calarco",
-    "slug": "fortunato-calarco",
-    "living": true
-   },
-   {
-    "id": "@I453@",
-    "name": "Peter Calarco",
-    "slug": "peter-calarco",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Maria Polistena & Raffaele Sanfedele",
-  "head": "maria-polistena-1945",
-  "headId": "@I265@",
-  "spouse": {
-   "id": "@I270@",
-   "name": "Raffaele Sanfedele",
-   "slug": "raffaele-sanfedele",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I271@",
-    "name": "Domenica Sanfedele",
-    "slug": "domenica-sanfedele",
-    "living": true
-   },
-   {
-    "id": "@I272@",
-    "name": "Nino Sanfedele",
-    "slug": "nino-sanfedele",
-    "living": true
-   },
-   {
-    "id": "@I273@",
-    "name": "Giovanni Sanfedele",
-    "slug": "giovanni-sanfedele",
-    "living": true
-   },
-   {
-    "id": "@I274@",
-    "name": "Concetta Sanfedele",
-    "slug": "concetta-sanfedele",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Rocco Calarco & Domenica Polistena",
-  "head": "rocco-calarco",
-  "headId": "@I266@",
-  "spouse": {
-   "id": "@I264@",
-   "name": "Domenica Polistena",
-   "slug": "domenica-polistena",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I267@",
-    "name": "Sam Calarco",
-    "slug": "sam-calarco",
-    "living": true
-   },
-   {
-    "id": "@I268@",
-    "name": "Giovanni Calarco",
-    "slug": "giovanni-calarco",
-    "living": true
-   },
-   {
-    "id": "@I269@",
-    "name": "Giuseppe Calarco",
-    "slug": "giuseppe-calarco",
-    "living": true
-   },
-   {
-    "id": "@I452@",
-    "name": "Fortunato Calarco",
-    "slug": "fortunato-calarco",
-    "living": true
-   },
-   {
-    "id": "@I453@",
-    "name": "Peter Calarco",
-    "slug": "peter-calarco",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Raffaele Sanfedele & Maria Polistena",
-  "head": "raffaele-sanfedele",
-  "headId": "@I270@",
-  "spouse": {
-   "id": "@I265@",
-   "name": "Maria Polistena",
-   "slug": "maria-polistena-1945",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I271@",
-    "name": "Domenica Sanfedele",
-    "slug": "domenica-sanfedele",
-    "living": true
-   },
-   {
-    "id": "@I272@",
-    "name": "Nino Sanfedele",
-    "slug": "nino-sanfedele",
-    "living": true
-   },
-   {
-    "id": "@I273@",
-    "name": "Giovanni Sanfedele",
-    "slug": "giovanni-sanfedele",
-    "living": true
-   },
-   {
-    "id": "@I274@",
-    "name": "Concetta Sanfedele",
-    "slug": "concetta-sanfedele",
-    "living": true
-   }
-  ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -5692,23 +5833,23 @@
    "id": "@I275@",
    "name": "Luciano Ottaviano",
    "slug": "luciano-ottaviano",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I276@",
     "name": "Marcello Ottaviano",
     "slug": "marcello-ottaviano",
-    "living": true
+    "living": false
    },
    {
     "id": "@I277@",
     "name": "Monica Ottaviano",
     "slug": "monica-ottaviano",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Sydney, New South Wales",
   "born": null
  },
  {
@@ -5719,44 +5860,23 @@
    "id": "@I271@",
    "name": "Domenica Sanfedele",
    "slug": "domenica-sanfedele",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I276@",
     "name": "Marcello Ottaviano",
     "slug": "marcello-ottaviano",
-    "living": true
+    "living": false
    },
    {
     "id": "@I277@",
     "name": "Monica Ottaviano",
     "slug": "monica-ottaviano",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Robert Bradaley Noble & Sailowama Quaiuci",
-  "head": "robert-bradaley-noble",
-  "headId": "@I287@",
-  "spouse": {
-   "id": "@I288@",
-   "name": "Sailowama Quaiuci",
-   "slug": "sailowama-quaiuci",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I278@",
-    "name": "Lynette Noble",
-    "slug": "lynette-noble",
-    "living": true
-   }
-  ],
-  "place": "",
+  "place": "Sydney, New South Wales",
   "born": null
  },
  {
@@ -5767,17 +5887,17 @@
    "id": "@I287@",
    "name": "Robert Bradaley Noble",
    "slug": "robert-bradaley-noble",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I278@",
     "name": "Lynette Noble",
     "slug": "lynette-noble",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Fiji",
   "born": null
  },
  {
@@ -5788,143 +5908,23 @@
    "id": "@I68@",
    "name": "Antonietta Trungadi",
    "slug": "antonietta-trungadi",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I292@",
     "name": "Sara Poleo",
     "slug": "sara-poleo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I293@",
     "name": "Alice Poleo",
     "slug": "alice-poleo",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Giuseppe Prostamo & Livia Pallariello",
-  "head": "giuseppe-prostamo-1927",
-  "headId": "@I300@",
-  "spouse": {
-   "id": "@I308@",
-   "name": "Livia Pallariello",
-   "slug": "livia-pallariello",
-   "living": false
-  },
-  "children": [
-   {
-    "id": "@I309@",
-    "name": "Maria Rosa Prostamo",
-    "slug": "maria-rosa-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I310@",
-    "name": "Margarita Prostamo",
-    "slug": "margarita-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I311@",
-    "name": "Domenico Prostamo",
-    "slug": "domenico-prostamo-1952",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Francesco Prostamo & Raffaela",
-  "head": "francesco-prostamo",
-  "headId": "@I303@",
-  "spouse": {
-   "id": "@I319@",
-   "name": "Raffaela",
-   "slug": "raffaela",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I62@",
-    "name": "Maria Rosa Prostamo",
-    "slug": "maria-rosa-prostamo-1956",
-    "living": true
-   },
-   {
-    "id": "@I323@",
-    "name": "Antonia Prostamo",
-    "slug": "antonia-prostamo",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Anna Delorenzo & Alfonso Prostamo",
-  "head": "anna-delorenzo",
-  "headId": "@I314@",
-  "spouse": {
-   "id": "@I301@",
-   "name": "Alfonso Prostamo",
-   "slug": "alfonso-prostamo-1918",
-   "living": false
-  },
-  "children": [
-   {
-    "id": "@I315@",
-    "name": "Laura Prostamo",
-    "slug": "laura-prostamo-1953",
-    "living": true
-   },
-   {
-    "id": "@I316@",
-    "name": "Maria Teresa Prostamo",
-    "slug": "maria-teresa-prostamo",
-    "living": true
-   },
-   {
-    "id": "@I317@",
-    "name": "Domenico Prostamo",
-    "slug": "domenico-prostamo-1958",
-    "living": true
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
-  "name": "Raffaela & Francesco Prostamo",
-  "head": "raffaela",
-  "headId": "@I319@",
-  "spouse": {
-   "id": "@I303@",
-   "name": "Francesco Prostamo",
-   "slug": "francesco-prostamo",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I62@",
-    "name": "Maria Rosa Prostamo",
-    "slug": "maria-rosa-prostamo-1956",
-    "living": true
-   },
-   {
-    "id": "@I323@",
-    "name": "Antonia Prostamo",
-    "slug": "antonia-prostamo",
-    "living": true
-   }
-  ],
-  "place": "",
+  "place": "Briatico, Vibo Valentia, Calabria",
   "born": null
  },
  {
@@ -5935,7 +5935,7 @@
    "id": "@I356@",
    "name": "Annunziata Sofi",
    "slug": "annunziata-sofi",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -5956,7 +5956,7 @@
    "id": "@I355@",
    "name": "Domenico Donato",
    "slug": "domenico-donato-2",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -6014,13 +6014,13 @@
     "id": "@I526@",
     "name": "Venera Nicotra",
     "slug": "venera-nicotra",
-    "living": true
+    "living": false
    },
    {
     "id": "@I527@",
     "name": "Nina Nicotra",
     "slug": "nina-nicotra",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6034,7 +6034,7 @@
    "id": "@I358@",
    "name": "John Nicotra",
    "slug": "john-nicotra",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -6071,13 +6071,13 @@
     "id": "@I526@",
     "name": "Venera Nicotra",
     "slug": "venera-nicotra",
-    "living": true
+    "living": false
    },
    {
     "id": "@I527@",
     "name": "Nina Nicotra",
     "slug": "nina-nicotra",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6091,17 +6091,17 @@
    "id": "@I27@",
    "name": "Angela Mazza",
    "slug": "angela-mazza",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I361@",
     "name": "Josef Muller",
     "slug": "josef-muller",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -6112,23 +6112,23 @@
    "id": "@I26@",
    "name": "Michael Rocco Mazza",
    "slug": "michael-rocco-mazza",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I363@",
     "name": "Mia Josephine Mazza",
     "slug": "mia-josephine-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I364@",
     "name": "Rocco Francesco Mazza",
     "slug": "rocco-francesco-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -6139,20 +6139,20 @@
    "id": "@I366@",
    "name": "Josephine Falco",
    "slug": "josephine-falco",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I362@",
     "name": "Stefanie D'Arcy",
     "slug": "stefanie-darcy",
-    "living": true
+    "living": false
    },
    {
     "id": "@I500004@",
     "name": "Cristina D'Arcy",
     "slug": "cristina-darcy",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6166,20 +6166,20 @@
    "id": "@I365@",
    "name": "Ian D'Arcy",
    "slug": "ian-darcy",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I362@",
     "name": "Stefanie D'Arcy",
     "slug": "stefanie-darcy",
-    "living": true
+    "living": false
    },
    {
     "id": "@I500004@",
     "name": "Cristina D'Arcy",
     "slug": "cristina-darcy",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6193,17 +6193,17 @@
    "id": "@I368@",
    "name": "Irene Waters",
    "slug": "irene-waters",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I360@",
     "name": "Reinhard Muller",
     "slug": "reinhard-muller",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -6214,17 +6214,17 @@
    "id": "@I367@",
    "name": "Neal Muller",
    "slug": "neal-muller",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I360@",
     "name": "Reinhard Muller",
     "slug": "reinhard-muller",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Boonah, Queensland, Australia",
   "born": null
  },
  {
@@ -6240,7 +6240,7 @@
     "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -6251,7 +6251,7 @@
    "id": "@I377@",
    "name": "Carmela Collia",
    "slug": "carmela-collia",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -6267,7 +6267,7 @@
     "living": false
    }
   ],
-  "place": "",
+  "place": "Briatico, Vibo Valentia, Calabria",
   "born": null
  },
  {
@@ -6278,7 +6278,7 @@
    "id": "@I375@",
    "name": "Antonio Anile",
    "slug": "antonio-anile-3",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -6288,7 +6288,7 @@
     "living": false
    }
   ],
-  "place": "",
+  "place": "Briatico, Vibo Valentia, Calabria",
   "born": null
  },
  {
@@ -6306,7 +6306,7 @@
     "id": "@I375@",
     "name": "Antonio Anile",
     "slug": "antonio-anile-3",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6330,7 +6330,7 @@
     "living": false
    }
   ],
-  "place": "",
+  "place": "Briatico, Vibo Valentia, Calabria",
   "born": null
  },
  {
@@ -6341,7 +6341,7 @@
    "id": "@I390@",
    "name": "Saveria Lesto",
    "slug": "saveria-lesto",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -6351,7 +6351,7 @@
     "living": false
    }
   ],
-  "place": "",
+  "place": "Potenzioni, Catanzaro Calabria, Italy",
   "born": null
  },
  {
@@ -6362,7 +6362,7 @@
    "id": "@I389@",
    "name": "Giuseppe Barbuto",
    "slug": "giuseppe-barbuto",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -6372,7 +6372,7 @@
     "living": false
    }
   ],
-  "place": "",
+  "place": "Potenzoni (Briatico), Vibo Valentia, Calabria",
   "born": null
  },
  {
@@ -6383,14 +6383,14 @@
    "id": "@I12@",
    "name": "Connie Armanno",
    "slug": "connie-armanno",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I405@",
     "name": "Stefanie Calahorra",
     "slug": "stefanie-calahorra",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6435,7 +6435,7 @@
     "living": false
    }
   ],
-  "place": "",
+  "place": "Briatico, Vibo Valentia, Calabria",
   "born": null
  },
  {
@@ -6453,7 +6453,7 @@
     "id": "@I413@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-5",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6467,20 +6467,20 @@
    "id": "@I489@",
    "name": "Maria Nostro",
    "slug": "maria-nostro",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I415@",
     "name": "Rosanna Polistena",
     "slug": "rosanna-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I414@",
     "name": "Tonino Polistena",
     "slug": "tonino-polistena",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6494,17 +6494,17 @@
    "id": "@I458@",
    "name": "Caterina Scaramano",
    "slug": "caterina-scaramano",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I459@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-6",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -6515,17 +6515,17 @@
    "id": "@I456@",
    "name": "Giuseppe Paladino",
    "slug": "giuseppe-paladino",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I457@",
     "name": "Antonio",
     "slug": "antonio",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -6549,13 +6549,13 @@
     "id": "@I418@",
     "name": "Annunziata Bova",
     "slug": "annunziata-bova",
-    "living": true
+    "living": false
    },
    {
     "id": "@I419@",
     "name": "Antonio Bova",
     "slug": "antonio-bova",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6569,23 +6569,23 @@
    "id": "@I420@",
    "name": "Cosimo Scura",
    "slug": "cosimo-scura",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I421@",
     "name": "Giovanni Scura",
     "slug": "giovanni-scura",
-    "living": true
+    "living": false
    },
    {
     "id": "@I422@",
     "name": "Francesco Scura",
     "slug": "francesco-scura",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -6596,35 +6596,35 @@
    "id": "@I423@",
    "name": "Enza Provvidenza",
    "slug": "enza-provvidenza",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I460@",
     "name": "Aurora Bova",
     "slug": "aurora-bova",
-    "living": true
+    "living": false
    },
    {
     "id": "@I461@",
     "name": "Giovanni Bova",
     "slug": "giovanni-bova-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I462@",
     "name": "Marco Bova",
     "slug": "marco-bova",
-    "living": true
+    "living": false
    },
    {
     "id": "@I424@",
     "name": "Maria Ellena Bova",
     "slug": "maria-ellena-bova",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -6635,23 +6635,23 @@
    "id": "@I418@",
    "name": "Annunziata Bova",
    "slug": "annunziata-bova",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I421@",
     "name": "Giovanni Scura",
     "slug": "giovanni-scura",
-    "living": true
+    "living": false
    },
    {
     "id": "@I422@",
     "name": "Francesco Scura",
     "slug": "francesco-scura",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Cosenza, Calabria, Italy",
   "born": null
  },
  {
@@ -6662,35 +6662,35 @@
    "id": "@I419@",
    "name": "Antonio Bova",
    "slug": "antonio-bova",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I460@",
     "name": "Aurora Bova",
     "slug": "aurora-bova",
-    "living": true
+    "living": false
    },
    {
     "id": "@I461@",
     "name": "Giovanni Bova",
     "slug": "giovanni-bova-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I462@",
     "name": "Marco Bova",
     "slug": "marco-bova",
-    "living": true
+    "living": false
    },
    {
     "id": "@I424@",
     "name": "Maria Ellena Bova",
     "slug": "maria-ellena-bova",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -6708,22 +6708,22 @@
     "id": "@I427@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-1957",
-    "living": true
+    "living": false
    },
    {
     "id": "@I426@",
     "name": "Domenico Polistena",
     "slug": "domenico-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I428@",
     "name": "Antonio Polistena",
     "slug": "antonio-polistena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -6734,23 +6734,23 @@
    "id": "@I429@",
    "name": "Alfina",
    "slug": "alfina",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I430@",
     "name": "Jessica Polistena",
     "slug": "jessica-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I431@",
     "name": "Stefanie Polistena",
     "slug": "stefanie-polistena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -6761,29 +6761,29 @@
    "id": "@I432@",
    "name": "Mary",
    "slug": "mary",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I433@",
     "name": "Natalie Polistena",
     "slug": "natalie-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I434@",
     "name": "Michael Polistena",
     "slug": "michael-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I435@",
     "name": "Rebecca Polistena",
     "slug": "rebecca-polistena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "brookly, New York City, New York, USA",
   "born": null
  },
  {
@@ -6794,20 +6794,20 @@
    "id": "@I427@",
    "name": "Giovanni Polistena",
    "slug": "giovanni-polistena-1957",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I430@",
     "name": "Jessica Polistena",
     "slug": "jessica-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I431@",
     "name": "Stefanie Polistena",
     "slug": "stefanie-polistena",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6821,29 +6821,29 @@
    "id": "@I428@",
    "name": "Antonio Polistena",
    "slug": "antonio-polistena",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I433@",
     "name": "Natalie Polistena",
     "slug": "natalie-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I434@",
     "name": "Michael Polistena",
     "slug": "michael-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I435@",
     "name": "Rebecca Polistena",
     "slug": "rebecca-polistena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -6854,14 +6854,14 @@
    "id": "@I257@",
    "name": "Santa Donato",
    "slug": "santa-donato",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I438@",
     "name": "Peppe Donato",
     "slug": "peppe-donato",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6875,44 +6875,44 @@
    "id": "@I256@",
    "name": "Domenico Donato",
    "slug": "domenico-donato",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I440@",
     "name": "Micelle Donato",
     "slug": "micelle-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I441@",
     "name": "Peppino Donato",
     "slug": "peppino-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I442@",
     "name": "Teresa Donato",
     "slug": "teresa-donato-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I443@",
     "name": "Giovanni Donato",
     "slug": "giovanni-donato-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I444@",
     "name": "Tattina Donato",
     "slug": "tattina-donato",
-    "living": true
+    "living": false
    },
    {
     "id": "@I445@",
     "name": "Madelena Donato",
     "slug": "madelena-donato",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6926,20 +6926,20 @@
    "id": "@I138@",
    "name": "Fransceco Polistena",
    "slug": "fransceco-polistena",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I447@",
     "name": "Camillo Polistena",
     "slug": "camillo-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I448@",
     "name": "Giovanna Polistena",
     "slug": "giovanna-polistena-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -6953,23 +6953,23 @@
    "id": "@I449@",
    "name": "Pauline",
    "slug": "pauline",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I450@",
     "name": "Francesco Polistena",
     "slug": "francesco-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I451@",
     "name": "Polistena",
     "slug": "polistena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -6980,23 +6980,23 @@
    "id": "@I447@",
    "name": "Camillo Polistena",
    "slug": "camillo-polistena",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I450@",
     "name": "Francesco Polistena",
     "slug": "francesco-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I451@",
     "name": "Polistena",
     "slug": "polistena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Brisbane, Queensland",
   "born": null
  },
  {
@@ -7012,7 +7012,7 @@
     "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -7044,14 +7044,14 @@
    "id": "@I415@",
    "name": "Rosanna Polistena",
    "slug": "rosanna-polistena",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I457@",
     "name": "Antonio",
     "slug": "antonio",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7065,14 +7065,14 @@
    "id": "@I414@",
    "name": "Tonino Polistena",
    "slug": "tonino-polistena",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I459@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-6",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7093,31 +7093,31 @@
     "id": "@I465@",
     "name": "Giuseppe Arena",
     "slug": "giuseppe-arena-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I466@",
     "name": "Anna Arena",
     "slug": "anna-arena-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I467@",
     "name": "Virgole Arena",
     "slug": "virgole-arena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I468@",
     "name": "Auora Arena",
     "slug": "auora-arena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I469@",
     "name": "Annunciata Arena",
     "slug": "annunciata-arena",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7131,47 +7131,47 @@
    "id": "@I251@",
    "name": "Antonio Arena",
    "slug": "antonio-arena-1926",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I471@",
     "name": "Giuseppe Arena",
     "slug": "giuseppe-arena-5",
-    "living": true
+    "living": false
    },
    {
     "id": "@I472@",
     "name": "Anna Arena",
     "slug": "anna-arena-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I473@",
     "name": "Rocco Arena",
     "slug": "rocco-arena-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I474@",
     "name": "Clemente Arena",
     "slug": "clemente-arena-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I475@",
     "name": "Giovanni Arena",
     "slug": "giovanni-arena-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I476@",
     "name": "Francesco Arena",
     "slug": "francesco-arena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Scilla, Reggio Calabria",
   "born": null
  },
  {
@@ -7189,25 +7189,25 @@
     "id": "@I478@",
     "name": "Giuseppe Arena",
     "slug": "giuseppe-arena-6",
-    "living": true
+    "living": false
    },
    {
     "id": "@I479@",
     "name": "Anna Arena",
     "slug": "anna-arena-5",
-    "living": true
+    "living": false
    },
    {
     "id": "@I480@",
     "name": "Rocco Arena",
     "slug": "rocco-arena-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I481@",
     "name": "Tina Arena",
     "slug": "tina-arena",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7228,13 +7228,13 @@
     "id": "@I486@",
     "name": "Anna Arena",
     "slug": "anna-arena-6",
-    "living": true
+    "living": false
    },
    {
     "id": "@I485@",
     "name": "Francesco Arena",
     "slug": "francesco-arena-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7248,23 +7248,23 @@
    "id": "@I413@",
    "name": "Giovanni Polistena",
    "slug": "giovanni-polistena-5",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I415@",
     "name": "Rosanna Polistena",
     "slug": "rosanna-polistena",
-    "living": true
+    "living": false
    },
    {
     "id": "@I414@",
     "name": "Tonino Polistena",
     "slug": "tonino-polistena",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Reggio di Calabria, Calabria, Italy",
   "born": null
  },
  {
@@ -7277,28 +7277,28 @@
     "id": "@I499@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I500@",
     "name": "Rosa Mazza",
     "slug": "rosa-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I501@",
     "name": "Antonina Mazza",
     "slug": "antonina-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I502@",
     "name": "Orazio Mazza",
     "slug": "orazio-mazza-2",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7311,34 +7311,34 @@
     "id": "@I496@",
     "name": "Rosario",
     "slug": "rosario",
-    "living": true
+    "living": false
    },
    {
     "id": "@I494@",
     "name": "Sudora",
     "slug": "sudora",
-    "living": true
+    "living": false
    },
    {
     "id": "@I495@",
     "name": "Gaetano",
     "slug": "gaetano",
-    "living": true
+    "living": false
    },
    {
     "id": "@I497@",
     "name": "Concetto",
     "slug": "concetto",
-    "living": true
+    "living": false
    },
    {
     "id": "@I498@",
     "name": "Giuseppa Mazza",
     "slug": "giuseppa-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7349,14 +7349,14 @@
    "id": "@I537@",
    "name": "Anna Cassanite",
    "slug": "anna-cassanite",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I538@",
     "name": "Nina Mazza",
     "slug": "nina-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I539@",
@@ -7368,46 +7368,46 @@
     "id": "@I540@",
     "name": "Gaetana Mazza",
     "slug": "gaetana-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I541@",
     "name": "Carmela Mazza",
     "slug": "carmela-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I542@",
     "name": "Orazio Mazza",
     "slug": "orazio-mazza-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I543@",
     "name": "Maria Mazza",
     "slug": "maria-mazza-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I544@",
     "name": "Gina Mazza",
     "slug": "gina-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I587@",
     "name": "Ivan Mazza",
     "slug": "ivan-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I588@",
     "name": "Alessandro Mazza",
     "slug": "alessandro-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7420,10 +7420,10 @@
     "id": "@I503@",
     "name": "Rosa",
     "slug": "rosa",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7436,13 +7436,13 @@
     "id": "@I504@",
     "name": "Paolo",
     "slug": "paolo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I505@",
     "name": "Angelo",
     "slug": "angelo",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7458,34 +7458,34 @@
     "id": "@I506@",
     "name": "Umberto Mazza",
     "slug": "umberto-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I507@",
     "name": "Maria Mazza",
     "slug": "maria-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I508@",
     "name": "Gerardo Mazza",
     "slug": "gerardo-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I509@",
     "name": "Paolo Mazza",
     "slug": "paolo-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I510@",
     "name": "Pietro Mazza",
     "slug": "pietro-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7498,10 +7498,10 @@
     "id": "@I520@",
     "name": "Leonardo Mazza",
     "slug": "leonardo-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7514,16 +7514,16 @@
     "id": "@I513@",
     "name": "Giuseppina Mazza",
     "slug": "giuseppina-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I514@",
     "name": "Graziella Mazza",
     "slug": "graziella-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7534,17 +7534,17 @@
    "id": "@I518@",
    "name": "Raiti",
    "slug": "raiti",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I519@",
     "name": "Rosaria Raiti",
     "slug": "rosaria-raiti",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7557,22 +7557,22 @@
     "id": "@I515@",
     "name": "Valeria Mazza",
     "slug": "valeria-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I516@",
     "name": "Leo Mazza",
     "slug": "leo-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I517@",
     "name": "Francesca Mazza",
     "slug": "francesca-mazza",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7585,16 +7585,16 @@
     "id": "@I511@",
     "name": "Serena Mazza",
     "slug": "serena-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I512@",
     "name": "Umberto Mazza",
     "slug": "umberto-mazza-2",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Piedimonte Etneo, Catania, Sicily",
   "born": null
  },
  {
@@ -7605,14 +7605,14 @@
    "id": "@I501@",
    "name": "Antonina Mazza",
    "slug": "antonina-mazza",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I519@",
     "name": "Rosaria Raiti",
     "slug": "rosaria-raiti",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7626,7 +7626,7 @@
    "id": "@I522@",
    "name": "Francesca Barbargallo",
    "slug": "francesca-barbargallo",
-   "living": true
+   "living": false
   },
   "children": [
    {
@@ -7639,37 +7639,37 @@
     "id": "@I523@",
     "name": "Alfio Cavallaro",
     "slug": "alfio-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I532@",
     "name": "Maria Cavallaro",
     "slug": "maria-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I533@",
     "name": "Anna Cavallaro",
     "slug": "anna-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I534@",
     "name": "Peppina Cavallaro",
     "slug": "peppina-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I535@",
     "name": "Vita Cavallaro",
     "slug": "vita-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I536@",
     "name": "Vernera Cavallaro",
     "slug": "vernera-cavallaro",
-    "living": true
+    "living": false
    }
   ],
   "place": "Mascali, Catania, Sicily",
@@ -7696,37 +7696,37 @@
     "id": "@I523@",
     "name": "Alfio Cavallaro",
     "slug": "alfio-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I532@",
     "name": "Maria Cavallaro",
     "slug": "maria-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I533@",
     "name": "Anna Cavallaro",
     "slug": "anna-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I534@",
     "name": "Peppina Cavallaro",
     "slug": "peppina-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I535@",
     "name": "Vita Cavallaro",
     "slug": "vita-cavallaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I536@",
     "name": "Vernera Cavallaro",
     "slug": "vernera-cavallaro",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7742,10 +7742,10 @@
     "id": "@I524@",
     "name": "Luciano Cavallaro",
     "slug": "luciano-cavallaro-3",
-    "living": true
+    "living": false
    }
   ],
-  "place": "",
+  "place": "Mascali, Catania, Sicily",
   "born": null
  },
  {
@@ -7763,25 +7763,25 @@
     "id": "@I490@",
     "name": "Mariano Mazza",
     "slug": "mariano-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I491@",
     "name": "leonardo Mazza",
     "slug": "leonardo-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I492@",
     "name": "leonarda Mazza",
     "slug": "leonarda-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I493@",
     "name": "Rosario Mazza",
     "slug": "rosario-mazza-4",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7802,13 +7802,13 @@
     "id": "@I545@",
     "name": "Grazia Mazza",
     "slug": "grazia-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I546@",
     "name": "Lucia Mazza",
     "slug": "lucia-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7822,14 +7822,14 @@
    "id": "@I493@",
    "name": "Rosario Mazza",
    "slug": "rosario-mazza-4",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I538@",
     "name": "Nina Mazza",
     "slug": "nina-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I539@",
@@ -7841,31 +7841,31 @@
     "id": "@I540@",
     "name": "Gaetana Mazza",
     "slug": "gaetana-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I541@",
     "name": "Carmela Mazza",
     "slug": "carmela-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I542@",
     "name": "Orazio Mazza",
     "slug": "orazio-mazza-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I543@",
     "name": "Maria Mazza",
     "slug": "maria-mazza-3",
-    "living": true
+    "living": false
    },
    {
     "id": "@I544@",
     "name": "Gina Mazza",
     "slug": "gina-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7881,25 +7881,25 @@
     "id": "@I570@",
     "name": "Anna Mazza",
     "slug": "anna-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I571@",
     "name": "Rosario Mazza",
     "slug": "rosario-mazza-5",
-    "living": true
+    "living": false
    },
    {
     "id": "@I572@",
     "name": "Lorenza Mazza",
     "slug": "lorenza-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I573@",
     "name": "Angelo Mazza",
     "slug": "angelo-mazza-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7931,13 +7931,13 @@
     "id": "@I566@",
     "name": "Giovanni Mazza",
     "slug": "giovanni-mazza-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I567@",
     "name": "Antonella Mazza",
     "slug": "antonella-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7953,19 +7953,19 @@
     "id": "@I493@",
     "name": "Rosario Mazza",
     "slug": "rosario-mazza-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I585@",
     "name": "Annalisa Mazza",
     "slug": "annalisa-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I586@",
     "name": "Alberto Mazza",
     "slug": "alberto-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -7981,19 +7981,19 @@
     "id": "@I592@",
     "name": "Sabina Mazza",
     "slug": "sabina-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I593@",
     "name": "Luigi Mazza",
     "slug": "luigi-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I594@",
     "name": "Alessandro Mazza",
     "slug": "alessandro-mazza-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8009,19 +8009,19 @@
     "id": "@I600@",
     "name": "Roberto Mazza",
     "slug": "roberto-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I601@",
     "name": "Egidio Mazza",
     "slug": "egidio-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I602@",
     "name": "Gianluca Mazza",
     "slug": "gianluca-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8037,19 +8037,19 @@
     "id": "@I552@",
     "name": "Pina Mazza",
     "slug": "pina-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I553@",
     "name": "Maria Mazza",
     "slug": "maria-mazza-5",
-    "living": true
+    "living": false
    },
    {
     "id": "@I554@",
     "name": "Sebestiano Mazza",
     "slug": "sebestiano-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8065,31 +8065,31 @@
     "id": "@I547@",
     "name": "Maria Mazza",
     "slug": "maria-mazza-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I548@",
     "name": "Orazio Mazza",
     "slug": "orazio-mazza-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I549@",
     "name": "Seby Mazza",
     "slug": "seby-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I550@",
     "name": "Pina Mazza",
     "slug": "pina-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I551@",
     "name": "Alfio Mazza",
     "slug": "alfio-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8103,20 +8103,20 @@
    "id": "@I609@",
    "name": "Sebastiano Barbagallo",
    "slug": "sebastiano-barbagallo",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I555@",
     "name": "Leo Mazza",
     "slug": "leo-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I556@",
     "name": "Vera Mazza",
     "slug": "vera-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8132,13 +8132,13 @@
     "id": "@I557@",
     "name": "Maragrazia Mazza",
     "slug": "maragrazia-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I558@",
     "name": "Stefania Mazza",
     "slug": "stefania-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8154,13 +8154,13 @@
     "id": "@I559@",
     "name": "Giovanni Lungo",
     "slug": "giovanni-lungo",
-    "living": true
+    "living": false
    },
    {
     "id": "@I560@",
     "name": "F Mazza",
     "slug": "f-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8174,20 +8174,20 @@
    "id": "@I606@",
    "name": "Tonino Mazzaro",
    "slug": "tonino-mazzaro",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I607@",
     "name": "Fabiana Mazzaro",
     "slug": "fabiana-mazzaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I608@",
     "name": "Mazzaro",
     "slug": "mazzaro",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8203,13 +8203,13 @@
     "id": "@I562@",
     "name": "Rosalia Mazza",
     "slug": "rosalia-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I563@",
     "name": "Filippo Mazza",
     "slug": "filippo-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8225,13 +8225,13 @@
     "id": "@I564@",
     "name": "Angelo Mazza",
     "slug": "angelo-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I565@",
     "name": "Cristian Mazza",
     "slug": "cristian-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8247,7 +8247,7 @@
     "id": "@I568@",
     "name": "Valentina Mazza",
     "slug": "valentina-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8263,7 +8263,7 @@
     "id": "@I569@",
     "name": "Cristian Mazza",
     "slug": "cristian-mazza-2",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8279,13 +8279,13 @@
     "id": "@I582@",
     "name": "Francesca Mazza",
     "slug": "francesca-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I583@",
     "name": "Riccardo Mazza",
     "slug": "riccardo-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8301,19 +8301,19 @@
     "id": "@I579@",
     "name": "Federica Mazza",
     "slug": "federica-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I580@",
     "name": "Alessia Mazza",
     "slug": "alessia-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I581@",
     "name": "Sofia Mazza",
     "slug": "sofia-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8329,13 +8329,13 @@
     "id": "@I577@",
     "name": "Nando Mazza",
     "slug": "nando-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I578@",
     "name": "Fabio Mazza",
     "slug": "fabio-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8351,19 +8351,19 @@
     "id": "@I574@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-4",
-    "living": true
+    "living": false
    },
    {
     "id": "@I575@",
     "name": "Lorenzo Mazza",
     "slug": "lorenzo-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I576@",
     "name": "Andrea Mazza",
     "slug": "andrea-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8379,13 +8379,13 @@
     "id": "@I589@",
     "name": "Greta Mazza",
     "slug": "greta-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I590@",
     "name": "Emilio Mazza",
     "slug": "emilio-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8401,7 +8401,7 @@
     "id": "@I591@",
     "name": "Tommaso Mazza",
     "slug": "tommaso-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8417,19 +8417,19 @@
     "id": "@I595@",
     "name": "Davide Mazza",
     "slug": "davide-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I596@",
     "name": "Daniele Mazza",
     "slug": "daniele-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I597@",
     "name": "Gabriele Mazza",
     "slug": "gabriele-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8445,13 +8445,13 @@
     "id": "@I598@",
     "name": "Chiara Mazza",
     "slug": "chiara-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I599@",
     "name": "Cristina Mazza",
     "slug": "cristina-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8467,7 +8467,7 @@
     "id": "@I605@",
     "name": "Carola Mazza",
     "slug": "carola-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8483,13 +8483,13 @@
     "id": "@I603@",
     "name": "Francesco Mazza",
     "slug": "francesco-mazza",
-    "living": true
+    "living": false
    },
    {
     "id": "@I604@",
     "name": "Mazza",
     "slug": "mazza-3",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8503,20 +8503,20 @@
    "id": "@I556@",
    "name": "Vera Mazza",
    "slug": "vera-mazza",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I607@",
     "name": "Fabiana Mazzaro",
     "slug": "fabiana-mazzaro",
-    "living": true
+    "living": false
    },
    {
     "id": "@I608@",
     "name": "Mazzaro",
     "slug": "mazzaro",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
@@ -8530,20 +8530,20 @@
    "id": "@I552@",
    "name": "Pina Mazza",
    "slug": "pina-mazza-2",
-   "living": true
+   "living": false
   },
   "children": [
    {
     "id": "@I555@",
     "name": "Leo Mazza",
     "slug": "leo-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I556@",
     "name": "Vera Mazza",
     "slug": "vera-mazza",
-    "living": true
+    "living": false
    }
   ],
   "place": "",
