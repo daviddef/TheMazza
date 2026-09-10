@@ -1,0 +1,132 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import stats from "../data/stats.json";
+import places from "../data/places.json";
+import { dead, living } from "../lib/people.js";
+
+const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
+const more = [
+  ["/lines", "The four quarters", "Michael Rocco Mazza has four grandparents and they came from four different places. Three towns in the south of Italy, and the shipping line that brought all four to one suburb of Brisbane."],
+  ["/briatico", "Briatico", "The deepest line in the archive, and the one that does not carry the name. Nine generations of Prostamo in a Calabrian coastal comune, back to a man born in 1697."],
+  ["/piedimonte-etneo", "Piedimonte Etneo", "The town on the north-east flank of Etna that gave the family its surname — and the shallowest line of the four."],
+  ["/scilla", "Scilla", "Homer's Scylla, and a fishing village on the Strait of Messina. The Arena and the Polistena came from here."],
+  ["/crossings", "The crossings", "Eighteen recorded arrivals and departures, in two distinct waves fifty years apart: New York before the Great War, Fremantle and Brisbane after the second."],
+  ["/nudgee", "Nudgee", "Thirteen of this family are buried in one Brisbane cemetery — the same ground that holds five of the Falco."],
+  ["/name", "The name", "Mazza is one of the commonest surnames in Italy, and it was coined many times over. What that means for anyone searching it."],
+  ["/open-questions", "Open questions", "What this archive does not know, written down — including the one identification that would add six generations and a hundred and eleven people."],
+];
+---
+<Base title="The Mazza Archive" bare={true}>
+  <figure class="fhero">
+    <img src={u("/hero/scilla-strait.jpg")} alt="Scilla on the Strait of Messina at dawn, with Etna across the water" />
+    <figcaption class="cap">
+      <div class="kick">A family history, kept honestly</div>
+      <h1>Three towns, one strait, and a suburb of Brisbane.</h1>
+      <p class="sub">Piedimonte Etneo · Briatico · Scilla · New York · Buenos Aires · Brisbane —
+      a family assembled from three corners of the Italian south, and the ships that carried it.</p>
+    </figcaption>
+  </figure>
+
+  <section class="blk">
+    <p class="lede">This is an archive of <strong>the Mazza of Brisbane</strong> — and of the three
+    southern Italian towns they came out of, none of which had heard of the other two. It is not a
+    pedigree. Of the {stats.people} people recorded here, {stats.deceased} are dead and can be written
+    about; the other {stats.living} are living, and carry a name and nothing else.</p>
+    <blockquote>
+      The family takes its name from its <strong>shallowest</strong> line. The Mazza of Piedimonte
+      Etneo can be followed back four generations before the record stops at a man with no dates at
+      all. The line that reaches furthest — nine generations, to <strong>1697</strong> — is the
+      <a href={u("/briatico")}>Prostamo of Briatico</a>, and it comes in through a grandmother.
+      That is worth saying plainly, because a surname is a poor guide to where a family actually
+      comes from.
+    </blockquote>
+  </section>
+
+  <section class="blk">
+    <h2>Where they came from</h2>
+    <p class="dek" style="margin:.7rem 0 1.4rem">Four grandparents, three towns, and about six hundred
+    kilometres of coast between the furthest two. Nothing in the Italian record joins these families
+    to each other. They were joined in Queensland.</p>
+    <div class="grid two">
+      <a class="cardlink" href={u("/briatico")}>
+        <div class="nm">Briatico</div>
+        <div class="alt">Vibo Valentia, Calabria · {p("Briatico").n} events · from 1697</div>
+        <p class="txt">Prostamo, Melluso, Anile, Barbuto, Ventrice. A comune on the Tyrrhenian coast
+        that sent people to New York, to Buenos Aires and to Brisbane in three separate departures.</p>
+      </a>
+      <a class="cardlink" href={u("/scilla")}>
+        <div class="nm">Scilla</div>
+        <div class="alt">Reggio Calabria · {p("Scilla").n} events · from 1821</div>
+        <p class="txt">Arena, Polistena, Donato. The rock and the fishing quarter at the northern
+        gate of the Strait of Messina — the whirlpool of the <em>Odyssey</em>.</p>
+      </a>
+      <a class="cardlink" href={u("/piedimonte-etneo")}>
+        <div class="nm">Piedimonte Etneo</div>
+        <div class="alt">Catania, Sicily · {p("Piedimonte").n} events · from 1879</div>
+        <p class="txt">Mazza, Nicotra. Literally <em>the foot of the mountain</em>: a town on the
+        north-east flank of Etna, and the origin of the surname this archive is named for.</p>
+      </a>
+      <a class="cardlink" href={u("/brisbane")}>
+        <div class="nm">Brisbane</div>
+        <div class="alt">Queensland · {p("Brisbane").n} events · from 1925</div>
+        <p class="txt">Where the four lines met. Thirteen of them lie at
+        <a href={u("/nudgee")}>Nudgee</a> — the same cemetery as the Falco.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Four things this archive has established</h2>
+    <div class="grid two" style="margin-top:1rem">
+      <div class="card">
+        <h3>A line to 1697</h3>
+        <p>Nine generations of <P n="Franco Antonino Prostamo" bold={true} />'s descendants at
+        Briatico, ending in a Brisbane kitchen. It is the deepest thing in the archive and it does
+        not carry the surname. <a href={u("/direct-line")}>The spine →</a></p>
+      </div>
+      <div class="card">
+        <h3>Two crossings, not one</h3>
+        <p>This family emigrated twice. Briatico and Scilla went to <strong>New York</strong> from
+        1906; forty years later their relatives went to <strong>Fremantle and Brisbane</strong>,
+        every one of them out of Genoa. <a href={u("/crossings")}>The crossings →</a></p>
+      </div>
+      <div class="card">
+        <h3>A tree that was two trees</h3>
+        <p>The export this archive was built from is not one tree but
+        <strong>{stats.components.length}</strong> disconnected pieces. The largest holds
+        {" "}{stats.components[0]} people; the second holds {stats.components[1]} Piedimonte Etneo
+        Mazza joined to nothing at all. <a href={u("/open-questions")}>Why that matters →</a></p>
+      </div>
+      <div class="card">
+        <h3>Fifty-eight names it refuses to merge</h3>
+        <p>Four men called Rosario Mazza, four called Giuseppe Arena, none with a date between them.
+        The archive keeps them apart rather than inventing a descent.
+        <a href={u("/method")}>The method →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Elsewhere in the archive</h2>
+    <div class="grid two" style="margin-top:1rem">
+      {more.map(([href, t, d]) => (
+        <a class="cardlink" href={u(href)}>
+          <div class="nm">{t}</div>
+          <p class="small" style="margin-top:.4rem">{d}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <div class="lab">A standing rule</div>
+    <h2 style="margin-top:.4rem">The living are named, and nothing else</h2>
+    <p class="dek" style="margin-top:.8rem">{stats.living} people in this tree are alive, or cannot be
+    shown to be dead. This site publishes their <strong>name</strong>. It does not publish their birth
+    date, their age, where they live, who they married or any record about them — those fields exist
+    in the family tree and are dropped by the build before the site is generated. A removal request is
+    honoured within days, without argument and without requiring a reason.</p>
+  </section>
+</Base>

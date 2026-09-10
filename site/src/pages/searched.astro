@@ -1,0 +1,50 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+const done = [
+  ["10 Sep 2026", "MyHeritage GEDCOM export", "614 individuals, 212 families, 39 cited sources, 133 images.", "Parsed in full. 15 duplicate records merged on evidence; 58 shared names left deliberately unmerged; 14 disconnected components identified."],
+  ["10 Sep 2026", "The 133 tree images", "Signed MyHeritage links, due to expire 16 September 2026.", "All 133 downloaded and stored in the repository. 73 belong to the dead and are published; 60 belong to the living and are excluded from the build."],
+  ["10 Sep 2026", "Component analysis", "Is this one family tree?", "No. It is 14 pieces. The largest holds 479 people; the second holds 111 Piedimonte Etneo Mazza joined to the rest by nothing. Recorded, not papered over."],
+  ["10 Sep 2026", "Ancestral reconstruction from the living generation upward", "Rather than downward from an assumed founder.", "Michael Rocco Mazza has 59 recorded ancestors across 9 generations. The four quarters reach 1697, 1821, 1851 and 1879 respectively."],
+];
+const notyet = [
+  ["Antenati — Catania, Piedimonte Etneo", "Births 1879 (Salvatore Mazza); marriages c. 1875.", "The single highest-value search in the archive."],
+  ["Antenati — Catanzaro / Vibo Valentia, Briatico", "The whole Prostamo, Melluso and Anile descent, 1809 onward.", "Would convert eight asserted generations into documented ones."],
+  ["Antenati — Reggio Calabria, Scilla", "Arena, Polistena and Donato, 1809 onward.", ""],
+  ["National Archives of Australia — RecordSearch", "Fremantle and Brisbane arrivals, 1925 and 1949–1957.", "Would name the ships. Eighteen crossings, no vessel recorded."],
+  ["Queensland BDM historical index", "Michele Mazza's death, 1926; the Nudgee generation's deaths.", ""],
+  ["Nudgee Catholic Cemetery burial register", "Thirteen burials, no plot numbers.", ""],
+  ["CEMLA — Argentine immigration", "The Buenos Aires Prostamo.", ""],
+  ["FamilySearch full-text search", "Piedimonte Etneo and Briatico parish registers.", "The technique that broke the Falco line open."],
+];
+---
+<Base title="What Has Been Read" eyebrow="And what has not"
+      dek="A search that found nothing is still a result: it stops the next person repeating it. This page records both what has been done and what is still outstanding.">
+
+  <section class="blk">
+    <h2>Done</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th class="m">When</th><th>What</th><th>Scope</th><th>Result</th></tr></thead>
+        <tbody>{done.map(([w, t, s, r]) => (
+          <tr><td class="m">{w}</td><td>{t}</td><td>{s}</td><td>{r}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Not yet read</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">No Italian civil register has been opened for this
+    family. That is the honest headline of this archive on the day it was built.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Source</th><th>What would be looked for</th><th>Note</th></tr></thead>
+        <tbody>{notyet.map(([t, s, n]) => (
+          <tr><td>{t}</td><td>{s}</td><td>{n}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:24px"><a href={u("/open-questions")}>The questions each of these would answer →</a></p>
+  </section>
+</Base>

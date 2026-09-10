@@ -1,0 +1,41 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import { dead } from "../lib/people.js";
+const withPhotos = dead.filter((p) => p.photos && p.photos.length)
+  .sort((a, b) => (a.born || 9999) - (b.born || 9999));
+const n = withPhotos.reduce((a, p) => a + p.photos.length, 0);
+---
+<Base title="Documents" eyebrow={`${n} images, ${withPhotos.length} people`}
+      dek="The photographs and papers held in the family's own tree, saved down before the links expired. Images of living people are not published.">
+
+  <p class="note">These came out of the MyHeritage export as signed links that were due to expire on
+  <strong>16 September 2026</strong>. They were downloaded on 10 September and are now held in the
+  repository, so the archive no longer depends on a URL that dies. Of 133 images,
+  <strong>{n}</strong> belong to people who are dead and appear here; the remaining 60 belong to
+  living people and are kept out of the build entirely.</p>
+
+  <p class="note" style="margin-top:18px">Almost none of these are captioned in the tree. Who is in
+  them, when, and where is mostly unknown — and family photographs are exactly the thing a relative
+  can identify in seconds. <strong>Corrections and identifications are the most valuable thing you can
+  send.</strong></p>
+
+  {withPhotos.map((p) => (
+    <section class="blk" id={p.slug}>
+      <h2 style="font-size:24px">
+        <a href={u("/people/" + p.slug)} style="color:inherit">{p.name}</a>
+      </h2>
+      <div class="mono" style="margin-top:4px;color:var(--ink-3)">
+        {[p.born, p.died].filter(Boolean).join("–")}{p.birthPlace ? ` · ${p.birthPlace}` : ""}
+      </div>
+      <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin-top:16px">
+        {p.photos.map((f) => (
+          <figure style="margin:0">
+            <img src={u("/plates/" + f)} alt={p.name}
+                 style="border:1px solid var(--rule);border-radius:3px;display:block;width:100%" />
+          </figure>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>

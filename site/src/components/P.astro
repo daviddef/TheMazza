@@ -1,0 +1,37 @@
+---
+/* <P n="Vincenzo Falco" /> — a person mentioned in the prose.
+ *
+ * Links to their page when the archive has exactly one person of that name,
+ * to the filtered roster when several answer to it, to the register when there
+ * is no page but there are records, and to nothing at all when the archive
+ * cannot back the name up. See src/lib/links.js for why.
+ *
+ * Slots override the label: <P n="Giuseppe Falco">him</P>.
+ */
+import { personLink } from "../lib/links.js";
+const { n, bold = false } = Astro.props;
+const l = personLink(n);
+const label = Astro.slots.has("default") ? null : n;
+---
+{l ? (
+  <a href={l.href} title={l.title} class={"pl pl-" + l.kind}>
+    {label ? (bold ? <strong>{label}</strong> : label) : <slot />}
+  </a>
+) : (
+  bold ? <strong>{label ?? ""}<slot /></strong> : <>{label}<slot /></>
+)}
+
+<style is:global>
+  /* A person link should read as prose, not as a button. The dotted rule says
+     "there is more behind this name" without shouting. */
+  a.pl { color: inherit; text-decoration: none;
+         border-bottom: 1px solid color-mix(in srgb, currentColor 28%, transparent); }
+  a.pl:hover { border-bottom-color: currentColor; }
+  /* A name shared by several people is marked differently on purpose: it goes
+     to a list, not to a person, and the reader should know that before clicking. */
+  a.pl-several { border-bottom-style: dashed; }
+  /* A generation of the direct line, and a living relative who has a name here
+     and nothing else, are both worth marking as different destinations. */
+  a.pl-gen { border-bottom-width: 2px; }
+  a.pl-living { border-bottom-style: dotted; }
+</style>

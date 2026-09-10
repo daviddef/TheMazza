@@ -1,0 +1,90 @@
+---
+import Base from "../../layouts/Base.astro";
+import P from "../../components/P.astro";
+import { u } from "../../lib/url.js";
+import { people, span, homeOf } from "../../lib/people.js";
+import stats from "../../data/stats.json";
+
+export function getStaticPaths() {
+  /* Only the dead get a page. A living person has nothing to put on one —
+     the build never emitted their dates, places or records — and generating
+     an empty page for them would only invite someone to fill it in. */
+  return people.filter((p) => !p.living).map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const rel = (list) => (list || []).filter(Boolean);
+const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
+             christened: "Christened", lived: "Lived", arrival: "Arrived", departure: "Left" };
+---
+<Base title={p.name} eyebrow={span(p) || "Dates unrecorded"}
+      dek={homeOf(p) ? `Of ${homeOf(p)}.` : "The archive records this person by name and relationship only; no place is attached to them."}>
+
+  {p.comp === 2 && (
+    <p class="note" style="margin-bottom:26px">This person belongs to the
+    <strong> second component</strong> of the family tree — a group of {stats.components[1]} Piedimonte
+    Etneo Mazza that is <em>not joined</em> to the rest of the archive by any record.
+    They are almost certainly kin. The archive does not yet say how.
+    <a href={u("/open-questions")}>Why →</a></p>
+  )}
+
+  <div class="grid two" style="gap:34px">
+    <div>
+      <h2 style="font-size:20px">What is recorded</h2>
+      {p.events && p.events.length ? (
+        <div class="rec" style="margin-top:14px">
+          {p.events.map((e) => (<>
+            <div class="k">{EV[e.what] || e.what}</div>
+            <div class="v">{e.place || "—"}</div>
+            <div class="w">{e.date || (e.year ? String(e.year) : "")}</div>
+          </>))}
+        </div>
+      ) : (
+        <p class="dek" style="margin-top:12px">Nothing but a name and a place in the family.
+        This person is known only because someone else's record names them.</p>
+      )}
+
+      {p.sources && p.sources.length > 0 && (
+        <>
+          <h3 class="lab" style="margin-top:26px">Cited to</h3>
+          <ul style="margin:10px 0 0;padding-left:18px;font-family:var(--sans);font-size:13px;line-height:1.6;color:var(--ink-2)">
+            {p.sources.map((s) => <li>{s}</li>)}
+          </ul>
+        </>
+      )}
+    </div>
+
+    <div>
+      <h2 style="font-size:20px">Family</h2>
+      {rel(p.parents).length > 0 && (<>
+        <h3 class="lab" style="margin-top:16px">Parents</h3>
+        <p style="font-size:16px;margin-top:6px">{rel(p.parents).map((r, i) => (<>
+          {i > 0 && " · "}<P n={r.name} /></>))}</p>
+      </>)}
+      {rel(p.spouses).length > 0 && (<>
+        <h3 class="lab" style="margin-top:16px">Married</h3>
+        <p style="font-size:16px;margin-top:6px">{rel(p.spouses).map((r, i) => (<>
+          {i > 0 && " · "}<P n={r.name} /></>))}</p>
+      </>)}
+      {rel(p.children).length > 0 && (<>
+        <h3 class="lab" style="margin-top:16px">Children ({rel(p.children).length})</h3>
+        <p style="font-size:16px;margin-top:6px;line-height:1.8">{rel(p.children).map((r, i) => (<>
+          {i > 0 && " · "}<P n={r.name} /></>))}</p>
+      </>)}
+      {!rel(p.parents).length && !rel(p.spouses).length && !rel(p.children).length && (
+        <p class="dek" style="margin-top:12px">No family is recorded around this person.</p>
+      )}
+
+      {p.photos && p.photos.length > 0 && (<>
+        <h3 class="lab" style="margin-top:26px">Photographs</h3>
+        <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(140px,1fr));margin-top:10px">
+          {p.photos.map((f) => (
+            <img src={u("/plates/" + f)} alt={`${p.name}`} style="border:1px solid var(--rule);border-radius:3px" />
+          ))}
+        </div>
+        <p class="cap">From the family's own MyHeritage tree, contributed by Michael Mazza.</p>
+      </>)}
+    </div>
+  </div>
+
+  <p style="margin-top:40px"><a href={u("/people")}>← everyone in the archive</a></p>
+</Base>

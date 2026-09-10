@@ -1,0 +1,82 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import crossings from "../data/crossings.json";
+const wave1 = crossings.filter((c) => (c.year || 0) < 1940);
+const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
+---
+<Base title="The Crossings" eyebrow="Eighteen recorded arrivals and departures"
+      dek="This family emigrated twice, in two waves half a century apart, to opposite sides of the world. The first went to America. The second went to Australia. Both left from the same three towns.">
+
+  <section class="blk">
+    <h2>The first wave — America, 1894–1926</h2>
+    <p class="dek" style="margin:.8rem 0 1.2rem">Out of <a href={u("/briatico")}>Briatico</a> and
+    <a href={u("/scilla")}>Scilla</a>, through Naples, Palermo and Messina, into New York and New
+    Orleans. This is the classic Italian emigration and this family was fully part of it. Three of
+    them — <P n="Fillipo Melluso" />, <P n="Domenica Anile" /> and <P n="Concetta Anile" /> — came
+    off the same ship at New York on <strong>2 August 1906</strong>.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Who</th><th class="m">Born</th><th>From</th><th>Left</th><th>Arrived</th><th class="m">Date</th></tr></thead>
+        <tbody>{wave1.map((c) => (
+          <tr><td><a href={u("/people/" + c.slug)}>{c.who}</a></td>
+              <td class="m">{c.born || ""}</td><td>{c.from || "—"}</td>
+              <td>{c.left || "—"}</td><td>{c.arrived || "—"}</td>
+              <td class="m">{c.arrivedDate}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:22px">One of them went home again. <P n="Maria Rosa Melluso" />
+    was <strong>born in New York on 14 October 1907</strong>, left it as a child in 1914, came back
+    through the port on 30 June 1926 — and died at Briatico in 1994. An American citizen by birth who
+    spent almost her whole life in a Calabrian coastal town, and whose granddaughter's children are
+    Australian.</p>
+  </section>
+
+  <section class="blk">
+    <h2>The second wave — Australia, 1949–1961</h2>
+    <p class="dek" style="margin:.8rem 0 1.2rem">Every single one of these sailed from
+    <strong>Genoa</strong>. That is not a coincidence of record-keeping: post-war assisted migration to
+    Australia was run out of the northern ports under the 1951 Italian–Australian migration agreement,
+    and a Calabrian or Sicilian family travelled the length of the country to board.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Who</th><th class="m">Born</th><th>From</th><th>Left</th><th>Arrived</th><th class="m">Date</th></tr></thead>
+        <tbody>{wave2.map((c) => (
+          <tr><td><a href={u("/people/" + c.slug)}>{c.who}</a></td>
+              <td class="m">{c.born || ""}</td><td>{c.from || "—"}</td>
+              <td>{c.left || "—"}</td><td>{c.arrived || "—"}</td>
+              <td class="m">{c.arrivedDate}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>What the order of arrival says</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><strong>June 1949</strong> — <P n="Angela Polistena" /> and <P n="Antonino Polistena" /> reach
+      Brisbane together. <strong>October 1949</strong> — <P n="Sebastiano Mazza" /> reaches Fremantle,
+      alone. <strong>May 1950</strong> — <P n="Michael Antonio Polistena" />. <strong>March 1951</strong> —
+      <P n="Domenica Prostamo" /> follows with a son not yet three years old. <strong>1953</strong> —
+      <P n="Rocco Arena" />, and the Cavallaro. <strong>1957</strong> — <P n="Francessco Prostamo" />,
+      aged fifty-six, last of all.</p>
+      <p>That is the standard shape of chain migration and it can be read straight off the dates: a
+      man goes first, works, and sends for his wife and child eighteen months later; the wife's
+      relatives follow; the grandfather comes last, when there is somewhere for him to arrive. What
+      the archive cannot yet say is <em>which ships</em>. Not one of these eighteen crossings names a
+      vessel. <a href={u("/open-questions")}>That is the first thing to fix →</a></p>
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>And a third destination</h2>
+    <p class="dek" style="margin-top:.8rem">A branch of the Briatico Prostamo went to
+    <strong>Buenos Aires</strong>. The archive holds twenty-three Argentine events — births from 1903
+    through to 1962, and the death of <P n="Giuseppe Prostamo" /> there. No crossing is recorded for
+    any of them, so how and when they went is unknown. Argentina took more Calabrians than Australia
+    ever did; this branch is a normal part of that, and it is the least documented thing in the
+    archive.</p>
+  </section>
+</Base>

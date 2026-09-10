@@ -1,0 +1,72 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import { people } from "../lib/people.js";
+import crossings from "../data/crossings.json";
+import burials from "../data/burials.json";
+const here = people.filter((p) => !p.living && [p.birthPlace, p.deathPlace, p.burialPlace]
+  .some((x) => (x || "").includes("Queensland")));
+const au = crossings.filter((c) => /Fremantle|Brisbane/.test(c.arrived));
+---
+<Base title="Brisbane" eyebrow="Queensland"
+      dek="Where four families from three towns became one. Every arrival in this archive after the Second World War came through Genoa, and every one of them landed at Fremantle or Brisbane between 1949 and 1957.">
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{au.length}</div><div class="l">recorded arrivals in Australia</div></div>
+      <div class="stat"><div class="n">1925</div><div class="l">the first of them, and he did not survive the year after</div></div>
+      <div class="stat"><div class="n">{burials.filter((b) => b.place.includes("Nudgee")).length}</div><div class="l">buried at <a href={u("/nudgee")} style="color:inherit">Nudgee</a></div></div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The first one out</h2>
+    <p class="dek" style="margin-top:.8rem"><P n="Michele Mazza" bold={true} /> was born at Catania in
+    1909 and landed at <strong>Fremantle on 21 April 1925</strong>, aged about sixteen. He died in
+    <strong>Queensland the following year</strong>. He is the earliest Australian arrival in this
+    archive and the shortest life in it, and he came out a full twenty-four years before the family
+    that followed him.</p>
+    <p class="dek" style="margin-top:1rem">Whether he was the reason the others chose Queensland —
+    whether there was already a Mazza name at an address in Brisbane when
+    <P n="Sebastiano Mazza" /> stepped off at Fremantle in 1949 — is not something the archive can
+    presently answer. It is a good question and it is written down.
+    <a href={u("/open-questions")}>Open questions →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>The post-war arrivals</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Who</th><th class="m">Born</th><th>Left</th><th>Arrived</th><th class="m">Date</th></tr></thead>
+        <tbody>
+          {au.map((c) => (
+            <tr><td><a href={u("/people/" + c.slug)}>{c.who}</a></td>
+                <td class="m">{c.born || ""}</td>
+                <td>{c.left || "—"}</td><td>{c.arrived}</td>
+                <td class="m">{c.arrivedDate}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="cap">Fremantle was the first Australian landfall for ships out of the Suez route; a
+    Brisbane-bound migrant was frequently disembarked and recorded there, then continued east.
+    A Fremantle arrival in this table is not evidence that the person settled in Western Australia.</p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Everyone the archive places in Queensland</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>Died</th><th>Buried</th></tr></thead>
+        <tbody>
+          {here.sort((a, b) => (a.born || 9999) - (b.born || 9999)).map((p) => (
+            <tr><td><a href={u("/people/" + p.slug)}>{p.name}</a></td>
+                <td class="m">{[p.born, p.died].filter(Boolean).join("–")}</td>
+                <td>{p.birthPlace}</td><td>{p.deathPlace}</td><td>{p.burialPlace}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Base>

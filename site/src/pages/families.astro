@@ -1,0 +1,33 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import families from "../data/families.json";
+const major = families.filter((f) => f.n >= 4);
+const minor = families.filter((f) => f.n < 4);
+---
+<Base title="The Families" eyebrow={`${families.length} surnames`}
+      dek="Every surname the archive records, how many people carry it, where they were, and how far back the record goes for each.">
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Surname</th><th class="m">People</th><th class="m">Recorded</th><th class="m">Span</th><th>Where</th></tr></thead>
+      <tbody>{major.map((f) => (
+        <tr>
+          <td>{f.surname}</td>
+          <td class="m">{f.n}</td>
+          <td class="m">{f.dead} of {f.n}</td>
+          <td class="m">{f.first ? `${f.first}–${f.last}` : "—"}</td>
+          <td>{f.places.join(" · ") || "—"}</td>
+        </tr>))}
+      </tbody>
+    </table>
+  </div>
+  <section class="blk" style="border-bottom:0;margin-top:30px">
+    <h3 class="lab">Recorded once, twice or three times</h3>
+    <p style="font-family:var(--sans);font-size:13.5px;line-height:2;margin-top:12px;color:var(--ink-2)">
+      {minor.map((f, i) => <>{i > 0 && " · "}{f.surname}</>)}
+    </p>
+    <p class="cap">A surname appearing once is usually somebody who married in and left no further
+    trace in this tree. They are kept because dropping them would quietly make the family look more
+    endogamous than it was.</p>
+  </section>
+</Base>

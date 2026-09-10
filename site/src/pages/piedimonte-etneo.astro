@@ -1,0 +1,82 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import { people, dead } from "../lib/people.js";
+import stats from "../data/stats.json";
+const here = people.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
+  .some((x) => (x || "").startsWith("Piedimonte")));
+const orphans = people.filter((p) => p.comp === 2);
+---
+<Base title="Piedimonte Etneo" eyebrow="Catania, Sicily"
+      dek="The town on the north-east flank of Etna that gave this family its surname — and, of the four quarters, the one the archive knows least about.">
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{here.length}</div><div class="l">people placed at Piedimonte Etneo</div></div>
+      <div class="stat"><div class="n">1879</div><div class="l">the earliest Mazza birth with a date</div></div>
+      <div class="stat"><div class="n">{stats.components[1]}</div><div class="l">Mazza here who are joined to nothing</div></div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The town</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><em>Piedimonte Etneo</em> means the foot of the mountain, and it is exactly that: a comune of
+      the province of Catania standing on the north-eastern slope of <strong>Etna</strong>, above
+      Fiumefreddo and the Alcantara valley, looking out at the Ionian Sea. The neighbouring towns in
+      this archive — <strong>Mascali</strong>, <strong>Giarre</strong>, <strong>Linguaglossa</strong>'s
+      side of the mountain — are all within a few kilometres.</p>
+      <p>Living on Etna is a recurring administrative fact, not a metaphor. In
+      <strong>1928</strong> the eruption that destroyed the town of Mascali — the only town Etna has
+      swallowed whole in modern times — happened eight years after <P n="Sebastiano Mazza" /> was
+      born here, and the archive records Mascali as a birthplace for people in this family.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The line that carries the name, and stops</h2>
+    <p class="dek" style="margin:.8rem 0 1.2rem">Three men, and then nothing.</p>
+    <div class="rec">
+      <div class="k">Generation 3</div>
+      <div class="v"><P n="Rosario Mazza" /> — no dates, no places, no record. He exists only because
+      his son's record names him.</div><div class="w">—</div>
+      <div class="k">Generation 2</div>
+      <div class="v"><P n="Salvatore Mazza" /> — born at Piedimonte Etneo, died at Catania.
+      Married <P n="Maria Nicotra" />.</div><div class="w">1879–1929</div>
+      <div class="k">Generation 1</div>
+      <div class="v"><P n="Sebastiano Mazza" /> — born here, arrived Fremantle 4 October 1949,
+      died at Brisbane and buried at <a href={u("/nudgee")}>Nudgee</a>.</div><div class="w">1920–2002</div>
+    </div>
+    <p class="note" style="margin-top:22px">Four generations. It is the shortest of the
+    <a href={u("/lines")}>four quarters</a> by five generations, and the surname the whole archive is
+    named after runs out at a man about whom precisely one fact is known: that he was Salvatore's
+    father.</p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>The hundred and eleven</h2>
+    <p class="dek" style="margin-top:.8rem">The family tree also contains
+    <strong>{orphans.length} Mazza of Piedimonte Etneo</strong> — Mariano, Leonardo, Orazio, Umberto,
+    Giuseppa, Serena, Graziella and the rest — who form a complete little world of their own:
+    parents, children, marriages, cousins. <strong>Not one record joins them to Sebastiano's line.</strong></p>
+    <p class="dek" style="margin-top:1rem">They are almost certainly the same family. A town of a few
+    thousand people does not produce two unrelated Mazza kindreds. But "almost certainly" is not a
+    document, and the join has to be made by a record rather than by an assumption — most likely by
+    the birth act of <strong>Salvatore Mazza, 1879</strong>, which would name his father Rosario and
+    his father's age, or by <strong>Rosario's own marriage act</strong>. Until then this archive keeps
+    them apart and says why. <a href={u("/open-questions")}>The open questions →</a></p>
+    <div class="scroll" style="margin-top:22px">
+      <table>
+        <thead><tr><th>Name</th><th>Placed at</th><th>Status</th></tr></thead>
+        <tbody>
+          {orphans.slice(0, 200).map((p) => (
+            <tr><td>{p.living ? p.name : <a href={u("/people/" + p.slug)}>{p.name}</a>}</td>
+                <td>{p.birthPlace || "—"}</td>
+                <td><span class="chip inf">unjoined</span></td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Base>

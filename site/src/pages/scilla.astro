@@ -1,0 +1,66 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import { dead } from "../lib/people.js";
+import places from "../data/places.json";
+const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
+  .some((x) => (x || "").startsWith("Scilla")));
+const pl = places.find((x) => x.name.startsWith("Scilla")) || {};
+const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort();
+---
+<Base title="Scilla" eyebrow="Reggio Calabria"
+      dek="The rock at the northern gate of the Strait of Messina, and the fishing quarter beneath it. Two of the four grandparents were born here, four years apart, and did not marry until Brisbane.">
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{here.length}</div><div class="l">people recorded at Scilla</div></div>
+      <div class="stat"><div class="n">{pl.first || "1821"}</div><div class="l">the earliest birth named here</div></div>
+      <div class="stat"><div class="n">2</div><div class="l">of the four quarters begin here</div></div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The place</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Scilla is the <em>Scylla</em> of the <em>Odyssey</em> — the rock opposite the whirlpool of
+      Charybdis, at the narrowest point of the strait that separates Calabria from Sicily. The
+      <strong>Castello Ruffo</strong> sits on the headland; below it, on the water, is
+      <strong>Chianalea</strong>, a lane of houses built straight into the sea where the boats are
+      moored at the doors. This was a swordfishing town, and it still is.</p>
+      <p>The geography is the point for this family. From Chianalea you can see
+      <a href={u("/piedimonte-etneo")}>Etna</a> on a clear morning. The Scilla families and the
+      Piedimonte Etneo family were looking at each other across thirty kilometres of water for
+      generations — and met on the other side of the world.</p>
+      <p>Scilla was levelled by the <strong>1783 earthquake</strong> and the tsunami that followed it,
+      when a wave took a large part of the population off the beach at Marina Grande. As at
+      <a href={u("/briatico")}>Briatico</a>, that is why the record here begins where it does.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The families</h2>
+    <p style="font-family:var(--sans);font-size:14px;line-height:2;margin-top:.8rem">
+      {surnames.map((s, i) => <>{i > 0 && " · "}<strong>{s}</strong></>)}
+    </p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Everyone the archive places here</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>Died</th></tr></thead>
+        <tbody>
+          {here.sort((a, b) => (a.born || 9999) - (b.born || 9999)).map((p) => (
+            <tr>
+              <td><a href={u("/people/" + p.slug)}>{p.name}</a></td>
+              <td class="m">{[p.born, p.died].filter(Boolean).join("–")}</td>
+              <td>{p.birthPlace}</td>
+              <td>{p.deathPlace}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Base>

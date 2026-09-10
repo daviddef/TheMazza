@@ -1,0 +1,59 @@
+---
+import Base from "../../layouts/Base.astro";
+import { u } from "../../lib/url.js";
+import { people, span, homeOf } from "../../lib/people.js";
+const rows = [...people].sort((a, b) =>
+  (a.surname || "zzz").localeCompare(b.surname || "zzz") || a.name.localeCompare(b.name));
+const surnames = [...new Set(people.map((p) => p.surname).filter(Boolean))].sort();
+---
+<Base title="The People" eyebrow="Everyone in the archive"
+      dek={`All ${people.length} people recorded here, living and dead. The living carry a name and nothing else — no dates, no places, no records. That is deliberate.`}>
+  <div class="filters">
+    <label>Search <input id="q" type="search" placeholder="name or place" style="font-family:var(--sans);font-size:13px;padding:5px 8px;border:1px solid var(--rule-strong);border-radius:2px;background:var(--panel);color:var(--ink)" /></label>
+    <label>Surname
+      <select id="sn"><option value="">all</option>{surnames.map((s) => <option>{s}</option>)}</select>
+    </label>
+    <label>Show
+      <select id="st"><option value="">everyone</option><option value="dead">the dead only</option><option value="living">the living only</option></select>
+    </label>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="scroll" style="margin-top:20px">
+  <table>
+    <thead><tr><th>Name</th><th class="m">Dates</th><th>Place</th><th>Status</th></tr></thead>
+    <tbody id="tb">
+      {rows.map((p) => (
+        <tr data-n={(p.name + " " + (homeOf(p) || "")).toLowerCase()} data-s={p.surname || ""} data-l={p.living ? "living" : "dead"}>
+          <td>{p.living ? p.name : <a href={u("/people/" + p.slug)}>{p.name}</a>}</td>
+          <td class="m">{span(p)}</td>
+          <td>{homeOf(p)}</td>
+          <td>{p.living ? <span class="chip lore">living — name only</span> : <span class="chip doc">recorded</span>}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var q = document.getElementById("q"), sn = document.getElementById("sn"),
+          st = document.getElementById("st"), tb = document.getElementById("tb"),
+          c = document.getElementById("count");
+      var rows = [].slice.call(tb.querySelectorAll("tr"));
+      var params = new URLSearchParams(location.search);
+      if (params.get("q")) q.value = params.get("q");
+      function run() {
+        var t = q.value.trim().toLowerCase(), s = sn.value, l = st.value, n = 0;
+        rows.forEach(function (r) {
+          var ok = (!t || r.dataset.n.indexOf(t) > -1) &&
+                   (!s || r.dataset.s === s) && (!l || r.dataset.l === l);
+          r.hidden = !ok; if (ok) n++;
+        });
+        c.textContent = n + " of " + rows.length;
+      }
+      [q, sn, st].forEach(function (e) { e.addEventListener("input", run); });
+      run();
+    })();
+  </script>
+</Base>

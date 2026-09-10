@@ -1,0 +1,93 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import stats from "../data/stats.json";
+import unresolved from "../data/unresolved.json";
+const Q = [
+  {
+    q: "Does Rosario Mazza join the hundred and eleven?",
+    why: "This is the highest-value question in the archive by a wide margin.",
+    body: `Sebastiano Mazza's grandfather is a man called Rosario Mazza about whom exactly one thing is known: that he fathered Salvatore Mazza, born at Piedimonte Etneo in 1879. Separately, the tree holds a complete Piedimonte Etneo Mazza kindred of ${stats.components[1]} people — six further generations of them — headed by a Rosario Mazza born in 1850. The two Rosarios are not joined by anything.`,
+    test: "Salvatore Mazza's act of birth, Piedimonte Etneo, 1879. A Sicilian birth act names the father, gives his age and his trade, and is signed at the comune. If it names Rosario at about twenty-nine, the 1850 man is him, and the archive gains six generations and 111 relatives in a single document. If it names him at forty-five, they are two men and the join is refused permanently.",
+    where: "Antenati — Stato civile, Catania, Piedimonte Etneo, Nati 1879.",
+  },
+  {
+    q: "Which ships?",
+    why: "Eighteen crossings are recorded and not one names a vessel.",
+    body: "The archive knows that Sebastiano Mazza landed at Fremantle on 4 October 1949 and that Domenica Prostamo followed in March 1951 with a child under three. It does not know what they sailed on. Ship names are the detail families actually want, and they are recoverable.",
+    test: "National Archives of Australia series K269 (Fremantle) and the Queensland arrival indexes, searched by date. The Falco archive recovered a 1964 Brisbane arrival this way — ship, date, item number, forty-two digitised pages.",
+    where: "NAA RecordSearch; Fremantle Passenger Lists 1897–1963.",
+  },
+  {
+    q: "Above Franco Antonino Prostamo, born about 1697",
+    why: "The deepest point of the archive, and it stops at an assertion.",
+    body: "The Prostamo descent at Briatico runs eight generations and is the best thing in this tree — but nothing above 1697 has been looked for, and the 1697 date itself carries no source. Italian civil registration begins in 1809; before that the record is parish, and the Calabrian earthquake of 1783 destroyed a great deal of it.",
+    test: "The parish registers of Briatico held by the Diocese of Mileto–Nicotera–Tropea, and the Catanzaro state archive's pre-unification series. First, though: verify that the 1697 birth is a document and not a family estimate.",
+    where: "Antenati — Catanzaro; diocesan archive, Mileto.",
+  },
+  {
+    q: "Was Michele Mazza the reason they chose Queensland?",
+    why: "A sixteen-year-old arrives in 1925 and dies within a year. Twenty-four years later the family follows him to the same state.",
+    body: "Michele Mazza, born at Catania in 1909, landed at Fremantle on 21 April 1925 and died in Queensland in 1926. His relationship to Sebastiano Mazza is asserted by the tree and not documented. If he was a brother or a first cousin, then the 1949 migration is a chain reaching back to a boy who did not survive it — and the archive should say so. If he is unrelated, the coincidence should be retired.",
+    test: "Michele Mazza's Queensland death registration, 1926 — which names parents. And his 1925 passenger record, which names next of kin and a destination address.",
+    where: "Queensland BDM historical index; NAA / Fremantle passenger lists.",
+  },
+  {
+    q: "The Buenos Aires Prostamo",
+    why: "Twenty-three Argentine events and not one crossing.",
+    body: "A branch of the Briatico Prostamo was in Buenos Aires from at least 1903, with children born there into the 1960s, and Giuseppe Prostamo died there. Nothing records how or when they went, or how they relate to the Brisbane line beyond the tree's assertion.",
+    test: "CEMLA's Argentine immigration database, and the Buenos Aires civil registry. The Lerena archive has already worked this ground.",
+    where: "CEMLA; Registro Civil, Buenos Aires.",
+  },
+  {
+    q: "Nudgee: plots, sections and dates",
+    why: "Thirteen burials, no plot numbers, and most without a date.",
+    body: "The tree records the cemetery and stops. The burial register would give section, plot and exact date for all thirteen — and would confirm or correct every Australian death year in this archive. The Falco archive corrected a death by three years this way.",
+    test: "Nudgee Catholic Cemetery burial register / Brisbane Catholic Cemeteries search.",
+    where: "Nudgee Cemetery, Banyo, Brisbane.",
+  },
+  {
+    q: "Who were the Polistena of Arneytown?",
+    why: "Burial in a veterans' cemetery is earned, and the archive knows nothing about it.",
+    body: "Three Polistena lie at the Brigadier General William C. Doyle Veterans Memorial Cemetery in New Jersey. That means American military service. Their relationship to the Scilla Polistena who reached Brisbane in 1949 is asserted and untested.",
+    test: "U.S. WWII draft cards and enlistment records — both already cited in the tree — plus the VA gravesite locator, which gives service branch and dates.",
+    where: "NARA; VA National Gravesite Locator.",
+  },
+];
+---
+<Base title="Open Questions" eyebrow="What this archive does not know"
+      dek="Written down, with the document that would settle each one and where that document is. A question with no test beside it is a wish, not a research plan.">
+
+  {Q.map((x, i) => (
+    <section class="blk">
+      <div class="qrow">
+        <div>
+          <div class="lab">Question {i + 1}</div>
+          <div class="qq" style="margin-top:8px">{x.q}</div>
+          <p class="qn" style="margin-top:0"><b>{x.why}</b></p>
+        </div>
+        <div>
+          <p class="qw">{x.body}</p>
+          <p class="qn"><b>The test:</b> {x.test}</p>
+          <p class="ab"><strong>Where:</strong> {x.where}</p>
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <section class="blk" style="border-bottom:0">
+    <h2>{unresolved.length} names the archive will not merge</h2>
+    <p class="dek" style="margin:.8rem 0 1.4rem">Each of these is a name carried by two or more people
+    in the tree with no shared date and no shared family to tell them apart. They are kept separate.
+    Resolving any of them needs a record, not a judgement call. See <a href={u("/method")}>the method</a>.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Kept apart as</th><th>Why</th></tr></thead>
+        <tbody>{unresolved.map((r) => (
+          <tr><td>{r.name}</td><td class="m">{r.copies} people</td><td>{r.why}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,178 @@
+{
+ "quarters": [
+  "Sebastiano Mazza",
+  "Domenica Prostamo",
+  "Rocco Arena",
+  "Angela Polistena"
+ ],
+ "spine": [
+  {
+   "gen": 9,
+   "id": "@I226@",
+   "slug": "franco-antonino-prostamo",
+   "name": "Franco Antonino Prostamo",
+   "surname": "Prostamo",
+   "living": false,
+   "born": 1697,
+   "died": null,
+   "birthPlace": "Briatico, Vibo Valentia, Calabria",
+   "deathPlace": "",
+   "burialPlace": "",
+   "spouse": "Agnere Polito"
+  },
+  {
+   "gen": 8,
+   "id": "@I223@",
+   "slug": "antonino-prostamo",
+   "name": "Antonino Prostamo",
+   "surname": "Prostamo",
+   "living": false,
+   "born": 1726,
+   "died": null,
+   "birthPlace": "Briatico, Vibo Valentia, Calabria",
+   "deathPlace": "",
+   "burialPlace": "",
+   "spouse": "Caterina Scangiaterra"
+  },
+  {
+   "gen": 7,
+   "id": "@I221@",
+   "slug": "pasquale-prostamo",
+   "name": "Pasquale Prostamo",
+   "surname": "Prostamo",
+   "living": false,
+   "born": 1760,
+   "died": 1829,
+   "birthPlace": "Briatico, Vibo Valentia, Calabria",
+   "deathPlace": "Pizzo, Vibo Valentia, Calabria",
+   "burialPlace": "",
+   "spouse": "Caterina Di Meio"
+  },
+  {
+   "gen": 6,
+   "id": "@I219@",
+   "slug": "antonino-prostamo-1785",
+   "name": "Antonino Prostamo",
+   "surname": "Prostamo",
+   "living": false,
+   "born": 1785,
+   "died": null,
+   "birthPlace": "Briatico, Vibo Valentia, Calabria",
+   "deathPlace": "",
+   "burialPlace": "",
+   "spouse": "Maria Fragala"
+  },
+  {
+   "gen": 5,
+   "id": "@I217@",
+   "slug": "domenico-prostamo-1820",
+   "name": "Domenico Prostamo",
+   "surname": "Prostamo",
+   "living": false,
+   "born": 1820,
+   "died": null,
+   "birthPlace": "Briatico, Vibo Valentia, Calabria",
+   "deathPlace": "",
+   "burialPlace": "",
+   "spouse": "Giovanna Ventrice"
+  },
+  {
+   "gen": 4,
+   "id": "@I10@",
+   "slug": "alfonso-prostamo",
+   "name": "Alfonso Prostamo",
+   "surname": "Prostamo",
+   "living": false,
+   "born": 1858,
+   "died": null,
+   "birthPlace": "Briatico, Vibo Valentia, Calabria",
+   "deathPlace": "",
+   "burialPlace": "",
+   "spouse": "Caterina Melluso"
+  },
+  {
+   "gen": 3,
+   "id": "@I6@",
+   "slug": "francessco-prostamo",
+   "name": "Francessco Prostamo",
+   "surname": "Prostamo",
+   "living": false,
+   "born": 1900,
+   "died": 1983,
+   "birthPlace": "Briatico, Vibo Valentia, Calabria",
+   "deathPlace": "Briatico, Vibo Valentia, Calabria",
+   "burialPlace": "",
+   "spouse": "Maria Rosa Melluso"
+  },
+  {
+   "gen": 2,
+   "id": "@I3@",
+   "slug": "domenica-prostamo",
+   "name": "Domenica Prostamo",
+   "surname": "Prostamo",
+   "living": false,
+   "born": 1928,
+   "died": 2010,
+   "birthPlace": "Briatico, Vibo Valentia, Calabria",
+   "deathPlace": "Brisbane, Queensland",
+   "burialPlace": "Nudgee, Brisbane, Queensland",
+   "spouse": "Sebastiano Mazza"
+  },
+  {
+   "gen": 1,
+   "id": "@I1@",
+   "slug": "frank-mazza",
+   "name": "Frank Mazza",
+   "surname": "Mazza",
+   "living": true,
+   "born": null,
+   "died": null,
+   "birthPlace": "",
+   "deathPlace": "",
+   "burialPlace": "",
+   "spouse": "Nancy Arena"
+  },
+  {
+   "gen": 0,
+   "id": "@I26@",
+   "slug": "michael-rocco-mazza",
+   "name": "Michael Rocco Mazza",
+   "surname": "Mazza",
+   "living": true,
+   "born": null,
+   "died": null,
+   "birthPlace": "",
+   "deathPlace": "",
+   "burialPlace": "",
+   "spouse": "Stefanie D'Arcy"
+  }
+ ],
+ "children": [
+  {
+   "id": "@I363@",
+   "name": "Mia Josephine Mazza",
+   "slug": "mia-josephine-mazza",
+   "living": true
+  },
+  {
+   "id": "@I364@",
+   "name": "Rocco Francesco Mazza",
+   "slug": "rocco-francesco-mazza",
+   "living": true
+  }
+ ],
+ "proband": {
+  "gen": 0,
+  "id": "@I26@",
+  "slug": "michael-rocco-mazza",
+  "name": "Michael Rocco Mazza",
+  "surname": "Mazza",
+  "living": true,
+  "born": null,
+  "died": null,
+  "birthPlace": "",
+  "deathPlace": "",
+  "burialPlace": "",
+  "spouse": "Stefanie D'Arcy"
+ }
+}

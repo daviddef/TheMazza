@@ -1,0 +1,71 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import spineData from "../data/spine.json";
+const spine = spineData.spine;
+const kids = spineData.children;
+---
+<Base title="The Spine" eyebrow="Eleven generations"
+      dek="The longest unbroken descent this archive can follow: from a man born at Briatico in 1697 to two children born in Brisbane in 2017 and 2019. It runs through the surname for only the last two steps.">
+
+  <p class="note">This is not the Mazza line. It is the <strong>deepest</strong> line, and it belongs
+  to the <a href={u("/briatico")}>Prostamo of Briatico</a> — eight generations of them — before it
+  turns into a Mazza line at all, by the marriage of <P n="Domenica Prostamo" /> in Brisbane. Archives
+  usually draw the surname because the surname is easy. This one draws the evidence.</p>
+
+  <div class="stack" style="margin-top:38px">
+    {spine.map((g, i) => (
+      <div class="linerow" id={`gen-${g.gen}`}>
+        <div>
+          <div class="lab">Generation {spine.length - i} of {spine.length}</div>
+          <div style="font-size:26px;line-height:1.15;margin-top:8px">
+            {g.living ? g.name : <a href={u("/people/" + g.slug)} style="color:inherit">{g.name}</a>}
+          </div>
+          <div class="mono" style="margin-top:6px;color:var(--ink-3)">
+            {g.living ? "living — name only" : [g.born, g.died].filter(Boolean).join("–") || "dates unrecorded"}
+          </div>
+        </div>
+        <div>
+          {g.living ? (
+            <p class="qw">A living person. This archive publishes their name and nothing else — no
+            dates, no places, no records. See <a href={u("/method")}>the method</a>.</p>
+          ) : (<>
+            <p class="qw">
+              {g.birthPlace && <>Born at <strong>{g.birthPlace}</strong>{g.born ? ` in ${g.born}` : ""}. </>}
+              {g.deathPlace && <>Died at <strong>{g.deathPlace}</strong>{g.died ? ` in ${g.died}` : ""}. </>}
+              {!g.birthPlace && !g.deathPlace && <>No place is attached to this generation; they are known
+              from the record of the generation below.</>}
+            </p>
+            {g.spouse && <p class="qn" style="margin-top:8px">Married <P n={g.spouse} />.</p>}
+            {g.burialPlace && <p class="qn">Buried at {g.burialPlace}.</p>}
+          </>)}
+        </div>
+      </div>
+    ))}
+
+    <div class="linerow">
+      <div>
+        <div class="lab">Generation {spine.length + 1}</div>
+        <div style="font-size:26px;line-height:1.15;margin-top:8px">
+          {kids.map((c) => c.name).join(" · ")}
+        </div>
+        <div class="mono" style="margin-top:6px;color:var(--ink-3)">living — names only</div>
+      </div>
+      <div>
+        <p class="qw">The two children this archive was assembled for. Between them and
+        <P n="Franco Antonino Prostamo" /> of Briatico there are <strong>ten</strong> generations, three
+        countries and about sixteen thousand kilometres.</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="blk" style="margin-top:40px">
+    <h2>Where it stops, and why</h2>
+    <p class="dek" style="margin-top:.8rem">Above <P n="Franco Antonino Prostamo" /> the tree is empty.
+    He was born about 1697, which puts his own baptism in a parish register kept at Briatico under the
+    Kingdom of Naples — well before civil registration began there in 1809. Nothing above him has been
+    looked for yet, and the archive should not pretend otherwise.
+    <a href={u("/open-questions")}>What is being looked for →</a></p>
+  </section>
+</Base>

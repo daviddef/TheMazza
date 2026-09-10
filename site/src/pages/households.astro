@@ -1,0 +1,47 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import households from "../data/households.json";
+const dated = households.filter((h) => h.born);
+const undated = households.filter((h) => !h.born);
+---
+<Base title="Households" eyebrow={`${households.length} households`}
+      dek="The family reassembled as households rather than as a pedigree — a couple and the children recorded to them. Living members are named and nothing more.">
+  <p class="note">A household here is a reconstruction, not a document. It says: these people are
+  recorded as the children of this couple. It does not claim they all lived under one roof, or that
+  the list is complete — infant deaths in particular go unrecorded in a tree built from indexes.</p>
+
+  <section class="blk">
+    <h2>Dated households</h2>
+    <div class="stack" style="margin-top:20px">
+      {dated.map((h) => (
+        <div class="house">
+          <div style="font-size:19px;line-height:1.25">{h.name}</div>
+          <div class="mono" style="margin-top:4px;color:var(--ink-3)">
+            {h.born ? `head b. ${h.born}` : ""}{h.place ? ` · ${h.place}` : ""}
+          </div>
+          <div class="evlist" style="margin-top:12px">
+            {h.children.map((c) => (
+              <div><b>child</b>{c.living ? c.name : <a href={u("/people/" + c.slug)}>{c.name}</a>}</div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Undated households</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">{undated.length} couples with children and no date on
+    the head. Most belong to the unjoined <a href={u("/piedimonte-etneo")}>Piedimonte Etneo</a> group.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Household</th><th class="m">Children</th></tr></thead>
+        <tbody>{undated.map((h) => (
+          <tr><td>{h.name}</td><td class="m">{h.children.length}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</Base>

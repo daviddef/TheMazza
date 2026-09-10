@@ -1,0 +1,8552 @@
+[
+ {
+  "name": "Franco Antonino Prostamo & Agnere Polito",
+  "head": "franco-antonino-prostamo",
+  "headId": "@I226@",
+  "spouse": {
+   "id": "@I227@",
+   "name": "Agnere Polito",
+   "slug": "agnere-polito",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I223@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1697
+ },
+ {
+  "name": "Agnere Polito & Franco Antonino Prostamo",
+  "head": "agnere-polito",
+  "headId": "@I227@",
+  "spouse": {
+   "id": "@I226@",
+   "name": "Franco Antonino Prostamo",
+   "slug": "franco-antonino-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I223@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1699
+ },
+ {
+  "name": "Antonino Prostamo & Caterina Scangiaterra",
+  "head": "antonino-prostamo",
+  "headId": "@I223@",
+  "spouse": {
+   "id": "@I224@",
+   "name": "Caterina Scangiaterra",
+   "slug": "caterina-scangiaterra",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I221@",
+    "name": "Pasquale Prostamo",
+    "slug": "pasquale-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I228@",
+    "name": "Nicola Prostamo",
+    "slug": "nicola-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I237@",
+    "name": "Franco Ant Prostamo",
+    "slug": "franco-ant-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I239@",
+    "name": "Angela Prostamo",
+    "slug": "angela-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I500003@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1726
+ },
+ {
+  "name": "Caterina Scangiaterra & Antonino Prostamo",
+  "head": "caterina-scangiaterra",
+  "headId": "@I224@",
+  "spouse": {
+   "id": "@I223@",
+   "name": "Antonino Prostamo",
+   "slug": "antonino-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I221@",
+    "name": "Pasquale Prostamo",
+    "slug": "pasquale-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I228@",
+    "name": "Nicola Prostamo",
+    "slug": "nicola-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I237@",
+    "name": "Franco Ant Prostamo",
+    "slug": "franco-ant-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I239@",
+    "name": "Angela Prostamo",
+    "slug": "angela-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I500003@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1746
+ },
+ {
+  "name": "Pasquale Prostamo & Caterina Di Meio",
+  "head": "pasquale-prostamo",
+  "headId": "@I221@",
+  "spouse": {
+   "id": "@I222@",
+   "name": "Caterina Di Meio",
+   "slug": "caterina-di-meio",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I219@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1785",
+    "living": false
+   },
+   {
+    "id": "@I500002@",
+    "name": "Giorgio Prostamo Di Maio",
+    "slug": "giorgio-prostamo-di-maio",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1760
+ },
+ {
+  "name": "Caterina Di Meio & Pasquale Prostamo",
+  "head": "caterina-di-meio",
+  "headId": "@I222@",
+  "spouse": {
+   "id": "@I221@",
+   "name": "Pasquale Prostamo",
+   "slug": "pasquale-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I219@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1785",
+    "living": false
+   },
+   {
+    "id": "@I500002@",
+    "name": "Giorgio Prostamo Di Maio",
+    "slug": "giorgio-prostamo-di-maio",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1762
+ },
+ {
+  "name": "Nicola Prostamo & Giuseppa Muzzi",
+  "head": "nicola-prostamo",
+  "headId": "@I228@",
+  "spouse": {
+   "id": "@I230@",
+   "name": "Giuseppa Muzzi",
+   "slug": "giuseppa-muzzi",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I231@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1796",
+    "living": false
+   },
+   {
+    "id": "@I232@",
+    "name": "Elizabetta Prostamo",
+    "slug": "elizabetta-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I233@",
+    "name": "Izabella Prostamo",
+    "slug": "izabella-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1768
+ },
+ {
+  "name": "Antonino Prostamo & Maria Fragala",
+  "head": "antonino-prostamo-1785",
+  "headId": "@I219@",
+  "spouse": {
+   "id": "@I220@",
+   "name": "Maria Fragala",
+   "slug": "maria-fragala",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I217@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1820",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1785
+ },
+ {
+  "name": "Maria Fragala & Antonino Prostamo",
+  "head": "maria-fragala",
+  "headId": "@I220@",
+  "spouse": {
+   "id": "@I219@",
+   "name": "Antonino Prostamo",
+   "slug": "antonino-prostamo-1785",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I217@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1820",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1789
+ },
+ {
+  "name": "Antonino Prostamo & Caterina Marmorato",
+  "head": "antonino-prostamo-1796",
+  "headId": "@I231@",
+  "spouse": {
+   "id": "@I234@",
+   "name": "Caterina Marmorato",
+   "slug": "caterina-marmorato",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I335@",
+    "name": "Nicola Prostamo",
+    "slug": "nicola-prostamo-1820",
+    "living": false
+   },
+   {
+    "id": "@I339@",
+    "name": "Sebastiano Prostamo",
+    "slug": "sebastiano-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I343@",
+    "name": "Foca Prostamo",
+    "slug": "foca-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1796
+ },
+ {
+  "name": "Giuseppa Muzzi & Nicola Prostamo",
+  "head": "giuseppa-muzzi",
+  "headId": "@I230@",
+  "spouse": {
+   "id": "@I228@",
+   "name": "Nicola Prostamo",
+   "slug": "nicola-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I231@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1796",
+    "living": false
+   },
+   {
+    "id": "@I232@",
+    "name": "Elizabetta Prostamo",
+    "slug": "elizabetta-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I233@",
+    "name": "Izabella Prostamo",
+    "slug": "izabella-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Pizzo, Vibo Valentia, Calabria",
+  "born": 1799
+ },
+ {
+  "name": "Caterina Marmorato & Antonino Prostamo",
+  "head": "caterina-marmorato",
+  "headId": "@I234@",
+  "spouse": {
+   "id": "@I231@",
+   "name": "Antonino Prostamo",
+   "slug": "antonino-prostamo-1796",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I335@",
+    "name": "Nicola Prostamo",
+    "slug": "nicola-prostamo-1820",
+    "living": false
+   },
+   {
+    "id": "@I339@",
+    "name": "Sebastiano Prostamo",
+    "slug": "sebastiano-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I343@",
+    "name": "Foca Prostamo",
+    "slug": "foca-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Pizzo, Vibo Valentia, Calabria",
+  "born": 1802
+ },
+ {
+  "name": "Antonio Barbuto & Domenica Birroca",
+  "head": "antonio-barbuto",
+  "headId": "@I382@",
+  "spouse": {
+   "id": "@I383@",
+   "name": "Domenica Birroca",
+   "slug": "domenica-birroca",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I369@",
+    "name": "Saveria Barbuto",
+    "slug": "saveria-barbuto",
+    "living": false
+   }
+  ],
+  "place": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+  "born": 1806
+ },
+ {
+  "name": "Antonia Grasso & Fortunato Anile",
+  "head": "antonia-grasso",
+  "headId": "@I379@",
+  "spouse": {
+   "id": "@I378@",
+   "name": "Fortunato Anile",
+   "slug": "fortunato-anile-2",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I375@",
+    "name": "Antonio Anile",
+    "slug": "antonio-anile-3",
+    "living": true
+   }
+  ],
+  "place": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
+  "born": 1809
+ },
+ {
+  "name": "Domenico Prostamo & Giovanna Ventrice",
+  "head": "domenico-prostamo-1820",
+  "headId": "@I217@",
+  "spouse": {
+   "id": "@I218@",
+   "name": "Giovanna Ventrice",
+   "slug": "giovanna-ventrice",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I324@",
+    "name": "Antonio Prostamo",
+    "slug": "antonio-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I326@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I328@",
+    "name": "Pasquale Prostamo",
+    "slug": "pasquale-prostamo-1857",
+    "living": false
+   },
+   {
+    "id": "@I10@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I330@",
+    "name": "Laura Prostamo",
+    "slug": "laura-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I332@",
+    "name": "Carmela Prostamo",
+    "slug": "carmela-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1820
+ },
+ {
+  "name": "Nicola Prostamo & Maria Teresa Santoro",
+  "head": "nicola-prostamo-1820",
+  "headId": "@I335@",
+  "spouse": {
+   "id": "@I336@",
+   "name": "Maria Teresa Santoro",
+   "slug": "maria-teresa-santoro",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I337@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1850",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1820
+ },
+ {
+  "name": "Orazio Arena & Giovana Zirilli",
+  "head": "orazio-arena",
+  "headId": "@I371@",
+  "spouse": {
+   "id": "@I455@",
+   "name": "Giovana Zirilli",
+   "slug": "giovana-zirilli",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I248@",
+    "name": "Rocco Arena",
+    "slug": "rocco-arena",
+    "living": false
+   },
+   {
+    "id": "@I373@",
+    "name": "Guiseppe Arena",
+    "slug": "guiseppe-arena",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1821
+ },
+ {
+  "name": "Giovanna Ventrice & Domenico Prostamo",
+  "head": "giovanna-ventrice",
+  "headId": "@I218@",
+  "spouse": {
+   "id": "@I217@",
+   "name": "Domenico Prostamo",
+   "slug": "domenico-prostamo-1820",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I324@",
+    "name": "Antonio Prostamo",
+    "slug": "antonio-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I326@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I328@",
+    "name": "Pasquale Prostamo",
+    "slug": "pasquale-prostamo-1857",
+    "living": false
+   },
+   {
+    "id": "@I10@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I330@",
+    "name": "Laura Prostamo",
+    "slug": "laura-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I332@",
+    "name": "Carmela Prostamo",
+    "slug": "carmela-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1825
+ },
+ {
+  "name": "Maria Teresa Santoro & Nicola Prostamo",
+  "head": "maria-teresa-santoro",
+  "headId": "@I336@",
+  "spouse": {
+   "id": "@I335@",
+   "name": "Nicola Prostamo",
+   "slug": "nicola-prostamo-1820",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I337@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1850",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1825
+ },
+ {
+  "name": "Sebastiano Prostamo & Giovanna Perri",
+  "head": "sebastiano-prostamo",
+  "headId": "@I339@",
+  "spouse": {
+   "id": "@I340@",
+   "name": "Giovanna Perri",
+   "slug": "giovanna-perri",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I341@",
+    "name": "Rocco Prostamo",
+    "slug": "rocco-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1825
+ },
+ {
+  "name": "Foca Prostamo & Maria Teresa Fragala",
+  "head": "foca-prostamo",
+  "headId": "@I343@",
+  "spouse": {
+   "id": "@I344@",
+   "name": "Maria Teresa Fragala",
+   "slug": "maria-teresa-fragala",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I345@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1858",
+    "living": false
+   },
+   {
+    "id": "@I346@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1860",
+    "living": false
+   },
+   {
+    "id": "@I348@",
+    "name": "Andrea Prostamo",
+    "slug": "andrea-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1826
+ },
+ {
+  "name": "Giovanna Zirilli & Orazio Arena",
+  "head": "giovanna-zirilli",
+  "headId": "@I374@",
+  "spouse": {
+   "id": "@I371@",
+   "name": "Orazio Arena",
+   "slug": "orazio-arena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I373@",
+    "name": "Guiseppe Arena",
+    "slug": "guiseppe-arena",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": 1827
+ },
+ {
+  "name": "Giovanna Perri & Sebastiano Prostamo",
+  "head": "giovanna-perri",
+  "headId": "@I340@",
+  "spouse": {
+   "id": "@I339@",
+   "name": "Sebastiano Prostamo",
+   "slug": "sebastiano-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I341@",
+    "name": "Rocco Prostamo",
+    "slug": "rocco-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1830
+ },
+ {
+  "name": "Maria Teresa Fragala & Foca Prostamo",
+  "head": "maria-teresa-fragala",
+  "headId": "@I344@",
+  "spouse": {
+   "id": "@I343@",
+   "name": "Foca Prostamo",
+   "slug": "foca-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I345@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1858",
+    "living": false
+   },
+   {
+    "id": "@I346@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1860",
+    "living": false
+   },
+   {
+    "id": "@I348@",
+    "name": "Andrea Prostamo",
+    "slug": "andrea-prostamo",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1830
+ },
+ {
+  "name": "Francesco Anile & Saveria Barbuto",
+  "head": "francesco-anile",
+  "headId": "@I370@",
+  "spouse": {
+   "id": "@I369@",
+   "name": "Saveria Barbuto",
+   "slug": "saveria-barbuto",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I386@",
+    "name": "Carmela Anile",
+    "slug": "carmela-anile",
+    "living": false
+   },
+   {
+    "id": "@I385@",
+    "name": "Antonio Anile",
+    "slug": "antonio-anile",
+    "living": false
+   },
+   {
+    "id": "@I388@",
+    "name": "Antonio Anile",
+    "slug": "antonio-anile-1873",
+    "living": false
+   },
+   {
+    "id": "@I387@",
+    "name": "Giuseppe Anile",
+    "slug": "giuseppe-anile",
+    "living": false
+   },
+   {
+    "id": "@I8@",
+    "name": "Domenica Anile",
+    "slug": "domenica-anile",
+    "living": false
+   },
+   {
+    "id": "@I384@",
+    "name": "Fortunata Lucia Anile",
+    "slug": "fortunata-lucia-anile",
+    "living": false
+   },
+   {
+    "id": "@I400@",
+    "name": "Concetta Anile",
+    "slug": "concetta-anile",
+    "living": false
+   },
+   {
+    "id": "@I381@",
+    "name": "Nunziata (Nancy) Mary Anile",
+    "slug": "nunziata-nancy-mary-anile",
+    "living": false
+   }
+  ],
+  "place": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+  "born": 1843
+ },
+ {
+  "name": "Saveria Barbuto & Francesco Anile",
+  "head": "saveria-barbuto",
+  "headId": "@I369@",
+  "spouse": {
+   "id": "@I370@",
+   "name": "Francesco Anile",
+   "slug": "francesco-anile",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I386@",
+    "name": "Carmela Anile",
+    "slug": "carmela-anile",
+    "living": false
+   },
+   {
+    "id": "@I385@",
+    "name": "Antonio Anile",
+    "slug": "antonio-anile",
+    "living": false
+   },
+   {
+    "id": "@I388@",
+    "name": "Antonio Anile",
+    "slug": "antonio-anile-1873",
+    "living": false
+   },
+   {
+    "id": "@I387@",
+    "name": "Giuseppe Anile",
+    "slug": "giuseppe-anile",
+    "living": false
+   },
+   {
+    "id": "@I8@",
+    "name": "Domenica Anile",
+    "slug": "domenica-anile",
+    "living": false
+   },
+   {
+    "id": "@I384@",
+    "name": "Fortunata Lucia Anile",
+    "slug": "fortunata-lucia-anile",
+    "living": false
+   },
+   {
+    "id": "@I400@",
+    "name": "Concetta Anile",
+    "slug": "concetta-anile",
+    "living": false
+   },
+   {
+    "id": "@I381@",
+    "name": "Nunziata (Nancy) Mary Anile",
+    "slug": "nunziata-nancy-mary-anile",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1845
+ },
+ {
+  "name": "Rosario Mazza & Leonarda",
+  "head": "rosario-mazza",
+  "headId": "@I23@",
+  "spouse": {
+   "id": "@I24@",
+   "name": "Leonarda",
+   "slug": "leonarda",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I159@",
+    "name": "Orazio Mazza",
+    "slug": "orazio-mazza",
+    "living": false
+   },
+   {
+    "id": "@I160@",
+    "name": "Ignazio Mazza",
+    "slug": "ignazio-mazza",
+    "living": false
+   },
+   {
+    "id": "@I354@",
+    "name": "Giovanni Mazza",
+    "slug": "giovanni-mazza-3",
+    "living": false
+   }
+  ],
+  "place": "Piedimonte Etneo, Catania, Sicily",
+  "born": 1850
+ },
+ {
+  "name": "Michele Donato & Maria Sofi",
+  "head": "michele-donato",
+  "headId": "@I122@",
+  "spouse": {
+   "id": "@I123@",
+   "name": "Maria Sofi",
+   "slug": "maria-sofi",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I258@",
+    "name": "Giovanni Donato",
+    "slug": "giovanni-donato",
+    "living": false
+   },
+   {
+    "id": "@I121@",
+    "name": "Nunnziata Donato",
+    "slug": "nunnziata-donato",
+    "living": false
+   },
+   {
+    "id": "@I259@",
+    "name": "Concetta Donato",
+    "slug": "concetta-donato",
+    "living": false
+   },
+   {
+    "id": "@I256@",
+    "name": "Domenico Donato",
+    "slug": "domenico-donato",
+    "living": true
+   },
+   {
+    "id": "@I257@",
+    "name": "Santa Donato",
+    "slug": "santa-donato",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1851
+ },
+ {
+  "name": "Fillipo Melluso & Rosa Vitrale",
+  "head": "fillipo-melluso",
+  "headId": "@I410@",
+  "spouse": {
+   "id": "@I411@",
+   "name": "Rosa Vitrale",
+   "slug": "rosa-vitrale",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I9@",
+    "name": "Domenico Melluso",
+    "slug": "domenico-melluso",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1855
+ },
+ {
+  "name": "Alfonso Prostamo & Caterina Melluso",
+  "head": "alfonso-prostamo",
+  "headId": "@I10@",
+  "spouse": {
+   "id": "@I11@",
+   "name": "Caterina Melluso",
+   "slug": "caterina-melluso",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I173@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1889",
+    "living": false
+   },
+   {
+    "id": "@I175@",
+    "name": "Giovanna Prostamo",
+    "slug": "giovanna-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I176@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I6@",
+    "name": "Francessco Prostamo",
+    "slug": "francessco-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I177@",
+    "name": "Leone Prostamo",
+    "slug": "leone-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I178@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1904",
+    "living": false
+   },
+   {
+    "id": "@I179@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1907",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1858
+ },
+ {
+  "name": "Caterina Melluso & Alfonso Prostamo",
+  "head": "caterina-melluso",
+  "headId": "@I11@",
+  "spouse": {
+   "id": "@I10@",
+   "name": "Alfonso Prostamo",
+   "slug": "alfonso-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I173@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1889",
+    "living": false
+   },
+   {
+    "id": "@I175@",
+    "name": "Giovanna Prostamo",
+    "slug": "giovanna-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I176@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I6@",
+    "name": "Francessco Prostamo",
+    "slug": "francessco-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I177@",
+    "name": "Leone Prostamo",
+    "slug": "leone-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I178@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1904",
+    "living": false
+   },
+   {
+    "id": "@I179@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1907",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1860
+ },
+ {
+  "name": "Rocco Arena & Generosa Costa",
+  "head": "rocco-arena",
+  "headId": "@I248@",
+  "spouse": {
+   "id": "@I249@",
+   "name": "Generosa Costa",
+   "slug": "generosa-costa",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I246@",
+    "name": "Anna Arena",
+    "slug": "anna-arena",
+    "living": false
+   },
+   {
+    "id": "@I289@",
+    "name": "Maria Arena",
+    "slug": "maria-arena",
+    "living": false
+   },
+   {
+    "id": "@I290@",
+    "name": "Antonio Arena",
+    "slug": "antonio-arena",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1861
+ },
+ {
+  "name": "Giovanni Arena & Concetta Russo",
+  "head": "giovanni-arena",
+  "headId": "@I247@",
+  "spouse": {
+   "id": "@I255@",
+   "name": "Concetta Russo",
+   "slug": "concetta-russo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I245@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena",
+    "living": false
+   },
+   {
+    "id": "@I260@",
+    "name": "Clemente Arena",
+    "slug": "clemente-arena-2",
+    "living": true
+   },
+   {
+    "id": "@I261@",
+    "name": "Fortunata Arena",
+    "slug": "fortunata-arena",
+    "living": true
+   },
+   {
+    "id": "@I262@",
+    "name": "Maria Arena",
+    "slug": "maria-arena-2",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1870
+ },
+ {
+  "name": "Guiseppi Polistena & Giuseppa D'Ascoli",
+  "head": "guiseppi-polistena",
+  "headId": "@I130@",
+  "spouse": {
+   "id": "@I131@",
+   "name": "Giuseppa D'Ascoli",
+   "slug": "giuseppa-dascoli",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I129@",
+    "name": "Joseph A Polistena",
+    "slug": "joseph-a-polistena",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1874
+ },
+ {
+  "name": "Maria Nicotra & Salvatore Mazza",
+  "head": "maria-nicotra",
+  "headId": "@I5@",
+  "spouse": {
+   "id": "@I4@",
+   "name": "Salvatore Mazza",
+   "slug": "salvatore-mazza",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I37@",
+    "name": "Rosario Mazza",
+    "slug": "rosario-mazza-1899",
+    "living": false
+   },
+   {
+    "id": "@I38@",
+    "name": "Michele Mazza",
+    "slug": "michele-mazza",
+    "living": false
+   },
+   {
+    "id": "@I35@",
+    "name": "Leonarda Mazza",
+    "slug": "leonarda-mazza",
+    "living": false
+   },
+   {
+    "id": "@I36@",
+    "name": "Venera Cavallaro",
+    "slug": "venera-cavallaro",
+    "living": false
+   },
+   {
+    "id": "@I2@",
+    "name": "Sebastiano Mazza",
+    "slug": "sebastiano-mazza",
+    "living": false
+   },
+   {
+    "id": "@I39@",
+    "name": "Giovanni Mazza",
+    "slug": "giovanni-mazza-2",
+    "living": true
+   }
+  ],
+  "place": "Piedimonte Etneo, Catania, Sicily",
+  "born": 1875
+ },
+ {
+  "name": "Domenico Melluso & Domenica Anile",
+  "head": "domenico-melluso",
+  "headId": "@I9@",
+  "spouse": {
+   "id": "@I8@",
+   "name": "Domenica Anile",
+   "slug": "domenica-anile",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I297@",
+    "name": "Francesco Melluso",
+    "slug": "francesco-melluso",
+    "living": false
+   },
+   {
+    "id": "@I298@",
+    "name": "Fillipo Melluso",
+    "slug": "fillipo-melluso-1903",
+    "living": false
+   },
+   {
+    "id": "@I7@",
+    "name": "Maria Rosa Melluso",
+    "slug": "maria-rosa-melluso-1907",
+    "living": false
+   },
+   {
+    "id": "@I296@",
+    "name": "Saveria Melluso",
+    "slug": "saveria-melluso",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1875
+ },
+ {
+  "name": "Giuseppi Polistena & Giuseppa D'Ascoli",
+  "head": "giuseppi-polistena",
+  "headId": "@I139@",
+  "spouse": {
+   "id": "@I131@",
+   "name": "Giuseppa D'Ascoli",
+   "slug": "giuseppa-dascoli",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I144@",
+    "name": "Freddy Polistena",
+    "slug": "freddy-polistena",
+    "living": false
+   },
+   {
+    "id": "@I143@",
+    "name": "Joseph Polistena",
+    "slug": "joseph-polistena",
+    "living": false
+   },
+   {
+    "id": "@I145@",
+    "name": "Nunziatta Polistena",
+    "slug": "nunziatta-polistena-2",
+    "living": true
+   },
+   {
+    "id": "@I146@",
+    "name": "Antonio Polistena",
+    "slug": "antonio-polistena-3",
+    "living": true
+   },
+   {
+    "id": "@I147@",
+    "name": "Gaiatano Polistena",
+    "slug": "gaiatano-polistena",
+    "living": true
+   },
+   {
+    "id": "@I148@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena-4",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1875
+ },
+ {
+  "name": "Giuseppa D'Ascoli & Guiseppi Polistena",
+  "head": "giuseppa-dascoli",
+  "headId": "@I131@",
+  "spouse": {
+   "id": "@I130@",
+   "name": "Guiseppi Polistena",
+   "slug": "guiseppi-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I129@",
+    "name": "Joseph A Polistena",
+    "slug": "joseph-a-polistena",
+    "living": false
+   },
+   {
+    "id": "@I144@",
+    "name": "Freddy Polistena",
+    "slug": "freddy-polistena",
+    "living": false
+   },
+   {
+    "id": "@I143@",
+    "name": "Joseph Polistena",
+    "slug": "joseph-polistena",
+    "living": false
+   },
+   {
+    "id": "@I145@",
+    "name": "Nunziatta Polistena",
+    "slug": "nunziatta-polistena-2",
+    "living": true
+   },
+   {
+    "id": "@I146@",
+    "name": "Antonio Polistena",
+    "slug": "antonio-polistena-3",
+    "living": true
+   },
+   {
+    "id": "@I147@",
+    "name": "Gaiatano Polistena",
+    "slug": "gaiatano-polistena",
+    "living": true
+   },
+   {
+    "id": "@I148@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena-4",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1876
+ },
+ {
+  "name": "Giovanni Donato & Giovanna Benedetto",
+  "head": "giovanni-donato",
+  "headId": "@I258@",
+  "spouse": {
+   "id": "@I280@",
+   "name": "Giovanna Benedetto",
+   "slug": "giovanna-benedetto",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I281@",
+    "name": "Michele Donato",
+    "slug": "michele-donato-1900",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1878
+ },
+ {
+  "name": "Salvatore Mazza & Maria Nicotra",
+  "head": "salvatore-mazza",
+  "headId": "@I4@",
+  "spouse": {
+   "id": "@I5@",
+   "name": "Maria Nicotra",
+   "slug": "maria-nicotra",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I37@",
+    "name": "Rosario Mazza",
+    "slug": "rosario-mazza-1899",
+    "living": false
+   },
+   {
+    "id": "@I38@",
+    "name": "Michele Mazza",
+    "slug": "michele-mazza",
+    "living": false
+   },
+   {
+    "id": "@I35@",
+    "name": "Leonarda Mazza",
+    "slug": "leonarda-mazza",
+    "living": false
+   },
+   {
+    "id": "@I36@",
+    "name": "Venera Cavallaro",
+    "slug": "venera-cavallaro",
+    "living": false
+   },
+   {
+    "id": "@I2@",
+    "name": "Sebastiano Mazza",
+    "slug": "sebastiano-mazza",
+    "living": false
+   },
+   {
+    "id": "@I39@",
+    "name": "Giovanni Mazza",
+    "slug": "giovanni-mazza-2",
+    "living": true
+   }
+  ],
+  "place": "Piedimonte Etneo, Catania, Sicily",
+  "born": 1879
+ },
+ {
+  "name": "Domenica Anile & Domenico Melluso",
+  "head": "domenica-anile",
+  "headId": "@I8@",
+  "spouse": {
+   "id": "@I9@",
+   "name": "Domenico Melluso",
+   "slug": "domenico-melluso",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I297@",
+    "name": "Francesco Melluso",
+    "slug": "francesco-melluso",
+    "living": false
+   },
+   {
+    "id": "@I298@",
+    "name": "Fillipo Melluso",
+    "slug": "fillipo-melluso-1903",
+    "living": false
+   },
+   {
+    "id": "@I7@",
+    "name": "Maria Rosa Melluso",
+    "slug": "maria-rosa-melluso-1907",
+    "living": false
+   },
+   {
+    "id": "@I296@",
+    "name": "Saveria Melluso",
+    "slug": "saveria-melluso",
+    "living": false
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1880
+ },
+ {
+  "name": "Giovanna Benedetto & Giovanni Donato",
+  "head": "giovanna-benedetto",
+  "headId": "@I280@",
+  "spouse": {
+   "id": "@I258@",
+   "name": "Giovanni Donato",
+   "slug": "giovanni-donato",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I281@",
+    "name": "Michele Donato",
+    "slug": "michele-donato-1900",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1880
+ },
+ {
+  "name": "Giovanni Polistena & Nunnziata Donato",
+  "head": "giovanni-polistena",
+  "headId": "@I120@",
+  "spouse": {
+   "id": "@I121@",
+   "name": "Nunnziata Donato",
+   "slug": "nunnziata-donato",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I134@",
+    "name": "Antonino Polistena",
+    "slug": "antonino-polistena",
+    "living": false
+   },
+   {
+    "id": "@I133@",
+    "name": "Giovanna Polistena",
+    "slug": "giovanna-polistena",
+    "living": false
+   },
+   {
+    "id": "@I128@",
+    "name": "Santa Polistena",
+    "slug": "santa-polistena",
+    "living": false
+   },
+   {
+    "id": "@I135@",
+    "name": "Maria Polistena",
+    "slug": "maria-polistena",
+    "living": false
+   },
+   {
+    "id": "@I29@",
+    "name": "Angela Polistena",
+    "slug": "angela-polistena",
+    "living": false
+   },
+   {
+    "id": "@I136@",
+    "name": "Teressa Polistena",
+    "slug": "teressa-polistena",
+    "living": false
+   },
+   {
+    "id": "@I137@",
+    "name": "Michael Antonio Polistena",
+    "slug": "michael-antonio-polistena",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1883
+ },
+ {
+  "name": "Orazio Mazza & Maria 2nd Wife",
+  "head": "orazio-mazza",
+  "headId": "@I159@",
+  "spouse": {
+   "id": "@I531@",
+   "name": "Maria 2nd Wife",
+   "slug": "maria-2nd-wife",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I545@",
+    "name": "Grazia Mazza",
+    "slug": "grazia-mazza",
+    "living": true
+   },
+   {
+    "id": "@I546@",
+    "name": "Lucia Mazza",
+    "slug": "lucia-mazza",
+    "living": true
+   },
+   {
+    "id": "@I490@",
+    "name": "Mariano Mazza",
+    "slug": "mariano-mazza",
+    "living": true
+   },
+   {
+    "id": "@I491@",
+    "name": "leonardo Mazza",
+    "slug": "leonardo-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I492@",
+    "name": "leonarda Mazza",
+    "slug": "leonarda-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I493@",
+    "name": "Rosario Mazza",
+    "slug": "rosario-mazza-4",
+    "living": true
+   }
+  ],
+  "place": "Piedimonte Etneo, Catania, Sicily",
+  "born": 1883
+ },
+ {
+  "name": "Ignazio Tomsic & Maria Fatur",
+  "head": "ignazio-tomsic",
+  "headId": "@I164@",
+  "spouse": {
+   "id": "@I165@",
+   "name": "Maria Fatur",
+   "slug": "maria-fatur",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I61@",
+    "name": "Angela Tomsic",
+    "slug": "angela-tomsic",
+    "living": true
+   }
+  ],
+  "place": "Austria",
+  "born": 1886
+ },
+ {
+  "name": "Dominick Mazzitelli",
+  "head": "dominick-mazzitelli",
+  "headId": "@I394@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I393@",
+    "name": "Josephine Mazzitelli",
+    "slug": "josephine-mazzitelli",
+    "living": false
+   },
+   {
+    "id": "@I396@",
+    "name": "Mary Mazzitelli",
+    "slug": "mary-mazzitelli",
+    "living": false
+   },
+   {
+    "id": "@I397@",
+    "name": "Frances Mazzitelli",
+    "slug": "frances-mazzitelli",
+    "living": false
+   },
+   {
+    "id": "@I395@",
+    "name": "Joseph Mazzitelli",
+    "slug": "joseph-mazzitelli",
+    "living": false
+   },
+   {
+    "id": "@I398@",
+    "name": "Yolada Mazzitelli",
+    "slug": "yolada-mazzitelli",
+    "living": false
+   },
+   {
+    "id": "@I399@",
+    "name": "Dominick Mazzitelli",
+    "slug": "dominick-mazzitelli-1926",
+    "living": true
+   }
+  ],
+  "place": "Italy",
+  "born": 1886
+ },
+ {
+  "name": "Domenico Prostamo & Maria Rosa Melluso",
+  "head": "domenico-prostamo-1889",
+  "headId": "@I173@",
+  "spouse": {
+   "id": "@I174@",
+   "name": "Maria Rosa Melluso",
+   "slug": "maria-rosa-melluso",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I301@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1918",
+    "living": false
+   },
+   {
+    "id": "@I299@",
+    "name": "Caterina Prostamo",
+    "slug": "caterina-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I300@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1927",
+    "living": true
+   },
+   {
+    "id": "@I302@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo-1934",
+    "living": true
+   },
+   {
+    "id": "@I303@",
+    "name": "Francesco Prostamo",
+    "slug": "francesco-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I304@",
+    "name": "Concetta Prostamo",
+    "slug": "concetta-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I305@",
+    "name": "Giovanna Prostamo",
+    "slug": "giovanna-prostamo-1938",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1889
+ },
+ {
+  "name": "Nunnziata Donato & Giovanni Polistena",
+  "head": "nunnziata-donato",
+  "headId": "@I121@",
+  "spouse": {
+   "id": "@I120@",
+   "name": "Giovanni Polistena",
+   "slug": "giovanni-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I134@",
+    "name": "Antonino Polistena",
+    "slug": "antonino-polistena",
+    "living": false
+   },
+   {
+    "id": "@I133@",
+    "name": "Giovanna Polistena",
+    "slug": "giovanna-polistena",
+    "living": false
+   },
+   {
+    "id": "@I128@",
+    "name": "Santa Polistena",
+    "slug": "santa-polistena",
+    "living": false
+   },
+   {
+    "id": "@I135@",
+    "name": "Maria Polistena",
+    "slug": "maria-polistena",
+    "living": false
+   },
+   {
+    "id": "@I29@",
+    "name": "Angela Polistena",
+    "slug": "angela-polistena",
+    "living": false
+   },
+   {
+    "id": "@I136@",
+    "name": "Teressa Polistena",
+    "slug": "teressa-polistena",
+    "living": false
+   },
+   {
+    "id": "@I137@",
+    "name": "Michael Antonio Polistena",
+    "slug": "michael-antonio-polistena",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1892
+ },
+ {
+  "name": "Giuseppe Arena & Anna Arena",
+  "head": "giuseppe-arena",
+  "headId": "@I245@",
+  "spouse": {
+   "id": "@I246@",
+   "name": "Anna Arena",
+   "slug": "anna-arena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I250@",
+    "name": "Giovanni Arena",
+    "slug": "giovanni-arena-1922",
+    "living": false
+   },
+   {
+    "id": "@I28@",
+    "name": "Rocco Arena",
+    "slug": "rocco-arena-1924",
+    "living": false
+   },
+   {
+    "id": "@I251@",
+    "name": "Antonio Arena",
+    "slug": "antonio-arena-1926",
+    "living": true
+   },
+   {
+    "id": "@I252@",
+    "name": "Clemente Arena",
+    "slug": "clemente-arena",
+    "living": false
+   },
+   {
+    "id": "@I253@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-1932",
+    "living": false
+   },
+   {
+    "id": "@I254@",
+    "name": "Mario Salvatore Arena",
+    "slug": "mario-salvatore-arena",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1892
+ },
+ {
+  "name": "Anna Arena & Giuseppe Arena",
+  "head": "anna-arena",
+  "headId": "@I246@",
+  "spouse": {
+   "id": "@I245@",
+   "name": "Giuseppe Arena",
+   "slug": "giuseppe-arena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I250@",
+    "name": "Giovanni Arena",
+    "slug": "giovanni-arena-1922",
+    "living": false
+   },
+   {
+    "id": "@I28@",
+    "name": "Rocco Arena",
+    "slug": "rocco-arena-1924",
+    "living": false
+   },
+   {
+    "id": "@I251@",
+    "name": "Antonio Arena",
+    "slug": "antonio-arena-1926",
+    "living": true
+   },
+   {
+    "id": "@I252@",
+    "name": "Clemente Arena",
+    "slug": "clemente-arena",
+    "living": false
+   },
+   {
+    "id": "@I253@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-1932",
+    "living": false
+   },
+   {
+    "id": "@I254@",
+    "name": "Mario Salvatore Arena",
+    "slug": "mario-salvatore-arena",
+    "living": false
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1893
+ },
+ {
+  "name": "Luciano Pagano & Maria Pagano",
+  "head": "luciano-pagano",
+  "headId": "@I350@",
+  "spouse": {
+   "id": "@I408@",
+   "name": "Maria Pagano",
+   "slug": "maria-pagano",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I54@",
+    "name": "Angelina Pagano",
+    "slug": "angelina-pagano",
+    "living": false
+   }
+  ],
+  "place": "Sicily",
+  "born": 1894
+ },
+ {
+  "name": "Maria Fatur & Ignazio Tomsic",
+  "head": "maria-fatur",
+  "headId": "@I165@",
+  "spouse": {
+   "id": "@I164@",
+   "name": "Ignazio Tomsic",
+   "slug": "ignazio-tomsic",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I61@",
+    "name": "Angela Tomsic",
+    "slug": "angela-tomsic",
+    "living": true
+   }
+  ],
+  "place": "Austria",
+  "born": 1895
+ },
+ {
+  "name": "Maria Rosa Melluso & Domenico Prostamo",
+  "head": "maria-rosa-melluso",
+  "headId": "@I174@",
+  "spouse": {
+   "id": "@I173@",
+   "name": "Domenico Prostamo",
+   "slug": "domenico-prostamo-1889",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I301@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1918",
+    "living": false
+   },
+   {
+    "id": "@I299@",
+    "name": "Caterina Prostamo",
+    "slug": "caterina-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I300@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1927",
+    "living": true
+   },
+   {
+    "id": "@I302@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo-1934",
+    "living": true
+   },
+   {
+    "id": "@I303@",
+    "name": "Francesco Prostamo",
+    "slug": "francesco-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I304@",
+    "name": "Concetta Prostamo",
+    "slug": "concetta-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I305@",
+    "name": "Giovanna Prostamo",
+    "slug": "giovanna-prostamo-1938",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1895
+ },
+ {
+  "name": "Rosario Mazza & Angela Cupo",
+  "head": "rosario-mazza-1899",
+  "headId": "@I37@",
+  "spouse": {
+   "id": "@I78@",
+   "name": "Angela Cupo",
+   "slug": "angela-cupo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I79@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza",
+    "living": false
+   },
+   {
+    "id": "@I80@",
+    "name": "Carmela Mazza",
+    "slug": "carmela-mazza",
+    "living": false
+   }
+  ],
+  "place": "Catania, Sicily",
+  "born": 1899
+ },
+ {
+  "name": "Francessco Prostamo & Maria Rosa Melluso",
+  "head": "francessco-prostamo",
+  "headId": "@I6@",
+  "spouse": {
+   "id": "@I7@",
+   "name": "Maria Rosa Melluso",
+   "slug": "maria-rosa-melluso-1907",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I181@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo-1926",
+    "living": true
+   },
+   {
+    "id": "@I3@",
+    "name": "Domenica Prostamo",
+    "slug": "domenica-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I48@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1930",
+    "living": false
+   },
+   {
+    "id": "@I49@",
+    "name": "Antonio Giacomo Prostamo",
+    "slug": "antonio-giacomo-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I50@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1936",
+    "living": false
+   },
+   {
+    "id": "@I51@",
+    "name": "Francesca Prostamo",
+    "slug": "francesca-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I52@",
+    "name": "Saveria Prostamo",
+    "slug": "saveria-prostamo",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1900
+ },
+ {
+  "name": "Angela Cupo & Rosario Mazza",
+  "head": "angela-cupo",
+  "headId": "@I78@",
+  "spouse": {
+   "id": "@I37@",
+   "name": "Rosario Mazza",
+   "slug": "rosario-mazza-1899",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I79@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza",
+    "living": false
+   },
+   {
+    "id": "@I80@",
+    "name": "Carmela Mazza",
+    "slug": "carmela-mazza",
+    "living": false
+   }
+  ],
+  "place": "Catania, Sicily",
+  "born": 1900
+ },
+ {
+  "name": "Michele Donato & Cosima Perina",
+  "head": "michele-donato-1900",
+  "headId": "@I281@",
+  "spouse": {
+   "id": "@I282@",
+   "name": "Cosima Perina",
+   "slug": "cosima-perina",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I283@",
+    "name": "Giovanni Donato",
+    "slug": "giovanni-donato-1925",
+    "living": false
+   },
+   {
+    "id": "@I285@",
+    "name": "Rocco Donato",
+    "slug": "rocco-donato",
+    "living": true
+   },
+   {
+    "id": "@I286@",
+    "name": "Deborah Donato",
+    "slug": "deborah-donato",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1900
+ },
+ {
+  "name": "Leone Prostamo & Anna Vallone",
+  "head": "leone-prostamo",
+  "headId": "@I177@",
+  "spouse": {
+   "id": "@I180@",
+   "name": "Anna Vallone",
+   "slug": "anna-vallone",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I181@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo-1926",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1902
+ },
+ {
+  "name": "Concetta Donato & Giovanni Polistena",
+  "head": "concetta-donato",
+  "headId": "@I259@",
+  "spouse": {
+   "id": "@I263@",
+   "name": "Giovanni Polistena",
+   "slug": "giovanni-polistena-1909",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I264@",
+    "name": "Domenica Polistena",
+    "slug": "domenica-polistena",
+    "living": true
+   },
+   {
+    "id": "@I265@",
+    "name": "Maria Polistena",
+    "slug": "maria-polistena-1945",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1902
+ },
+ {
+  "name": "Anna Vallone & Leone Prostamo",
+  "head": "anna-vallone",
+  "headId": "@I180@",
+  "spouse": {
+   "id": "@I177@",
+   "name": "Leone Prostamo",
+   "slug": "leone-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I181@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo-1926",
+    "living": true
+   }
+  ],
+  "place": "Buenos Aires, Argentina",
+  "born": 1903
+ },
+ {
+  "name": "Giuseppina Limards & Antonino Prostamo",
+  "head": "giuseppina-limards",
+  "headId": "@I184@",
+  "spouse": {
+   "id": "@I178@",
+   "name": "Antonino Prostamo",
+   "slug": "antonino-prostamo-1904",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I185@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1926",
+    "living": true
+   },
+   {
+    "id": "@I186@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo-1928",
+    "living": true
+   }
+  ],
+  "place": "Buenos Aires, Argentina",
+  "born": 1903
+ },
+ {
+  "name": "Antonino Prostamo & Giuseppina Limards",
+  "head": "antonino-prostamo-1904",
+  "headId": "@I178@",
+  "spouse": {
+   "id": "@I184@",
+   "name": "Giuseppina Limards",
+   "slug": "giuseppina-limards",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I185@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1926",
+    "living": true
+   },
+   {
+    "id": "@I186@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo-1928",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1904
+ },
+ {
+  "name": "Cosima Perina & Michele Donato",
+  "head": "cosima-perina",
+  "headId": "@I282@",
+  "spouse": {
+   "id": "@I281@",
+   "name": "Michele Donato",
+   "slug": "michele-donato-1900",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I283@",
+    "name": "Giovanni Donato",
+    "slug": "giovanni-donato-1925",
+    "living": false
+   },
+   {
+    "id": "@I285@",
+    "name": "Rocco Donato",
+    "slug": "rocco-donato",
+    "living": true
+   },
+   {
+    "id": "@I286@",
+    "name": "Deborah Donato",
+    "slug": "deborah-donato",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1905
+ },
+ {
+  "name": "Maria Rosa Melluso & Francessco Prostamo",
+  "head": "maria-rosa-melluso-1907",
+  "headId": "@I7@",
+  "spouse": {
+   "id": "@I6@",
+   "name": "Francessco Prostamo",
+   "slug": "francessco-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I181@",
+    "name": "Mattea Prostamo",
+    "slug": "mattea-prostamo-1926",
+    "living": true
+   },
+   {
+    "id": "@I3@",
+    "name": "Domenica Prostamo",
+    "slug": "domenica-prostamo",
+    "living": false
+   },
+   {
+    "id": "@I48@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1930",
+    "living": false
+   },
+   {
+    "id": "@I49@",
+    "name": "Antonio Giacomo Prostamo",
+    "slug": "antonio-giacomo-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I50@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1936",
+    "living": false
+   },
+   {
+    "id": "@I51@",
+    "name": "Francesca Prostamo",
+    "slug": "francesca-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I52@",
+    "name": "Saveria Prostamo",
+    "slug": "saveria-prostamo",
+    "living": true
+   }
+  ],
+  "place": "New York, New York",
+  "born": 1907
+ },
+ {
+  "name": "Giuseppe Prostamo & Teresa Grasso",
+  "head": "giuseppe-prostamo-1907",
+  "headId": "@I179@",
+  "spouse": {
+   "id": "@I193@",
+   "name": "Teresa Grasso",
+   "slug": "teresa-grasso",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I199@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1928",
+    "living": true
+   },
+   {
+    "id": "@I201@",
+    "name": "Maria G Prostamo",
+    "slug": "maria-g-prostamo",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1907
+ },
+ {
+  "name": "Teresa Grasso & Giuseppe Prostamo",
+  "head": "teresa-grasso",
+  "headId": "@I193@",
+  "spouse": {
+   "id": "@I179@",
+   "name": "Giuseppe Prostamo",
+   "slug": "giuseppe-prostamo-1907",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I199@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1928",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1907
+ },
+ {
+  "name": "Mariano Cavallaro & Venera Cavallaro",
+  "head": "mariano-cavallaro",
+  "headId": "@I76@",
+  "spouse": {
+   "id": "@I36@",
+   "name": "Venera Cavallaro",
+   "slug": "venera-cavallaro",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I77@",
+    "name": "Luciano Cavallaro",
+    "slug": "luciano-cavallaro",
+    "living": true
+   }
+  ],
+  "place": "Mascali, Catania, Sicily",
+  "born": 1909
+ },
+ {
+  "name": "Giovanni Polistena & Concetta Donato",
+  "head": "giovanni-polistena-1909",
+  "headId": "@I263@",
+  "spouse": {
+   "id": "@I259@",
+   "name": "Concetta Donato",
+   "slug": "concetta-donato",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I264@",
+    "name": "Domenica Polistena",
+    "slug": "domenica-polistena",
+    "living": true
+   },
+   {
+    "id": "@I265@",
+    "name": "Maria Polistena",
+    "slug": "maria-polistena-1945",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1909
+ },
+ {
+  "name": "Leonarda Mazza & Giovanni Giammona",
+  "head": "leonarda-mazza",
+  "headId": "@I35@",
+  "spouse": {
+   "id": "@I94@",
+   "name": "Giovanni Giammona",
+   "slug": "giovanni-giammona",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I95@",
+    "name": "Peppino Giammona",
+    "slug": "peppino-giammona",
+    "living": false
+   },
+   {
+    "id": "@I96@",
+    "name": "Sidora Giammona",
+    "slug": "sidora-giammona",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": 1910
+ },
+ {
+  "name": "Rosario Coco & Maria Mazza",
+  "head": "rosario-coco",
+  "headId": "@I84@",
+  "spouse": {
+   "id": "@I79@",
+   "name": "Maria Mazza",
+   "slug": "maria-mazza",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I85@",
+    "name": "Mary Coco",
+    "slug": "mary-coco",
+    "living": true
+   },
+   {
+    "id": "@I86@",
+    "name": "Tony Coco",
+    "slug": "tony-coco",
+    "living": true
+   },
+   {
+    "id": "@I87@",
+    "name": "Ross Coco",
+    "slug": "ross-coco",
+    "living": true
+   }
+  ],
+  "place": "Sicily",
+  "born": 1910
+ },
+ {
+  "name": "Giovanni Giammona & Leonarda Mazza",
+  "head": "giovanni-giammona",
+  "headId": "@I94@",
+  "spouse": {
+   "id": "@I35@",
+   "name": "Leonarda Mazza",
+   "slug": "leonarda-mazza",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I95@",
+    "name": "Peppino Giammona",
+    "slug": "peppino-giammona",
+    "living": false
+   },
+   {
+    "id": "@I96@",
+    "name": "Sidora Giammona",
+    "slug": "sidora-giammona",
+    "living": true
+   }
+  ],
+  "place": "Catania, Sicily",
+  "born": 1910
+ },
+ {
+  "name": "Venera Cavallaro & Mariano Cavallaro",
+  "head": "venera-cavallaro",
+  "headId": "@I36@",
+  "spouse": {
+   "id": "@I76@",
+   "name": "Mariano Cavallaro",
+   "slug": "mariano-cavallaro",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I77@",
+    "name": "Luciano Cavallaro",
+    "slug": "luciano-cavallaro",
+    "living": true
+   }
+  ],
+  "place": "Piedimonte Etneo, Catania, Sicily",
+  "born": 1916
+ },
+ {
+  "name": "Rocco Bova & Giovanna Polistena",
+  "head": "rocco-bova",
+  "headId": "@I154@",
+  "spouse": {
+   "id": "@I133@",
+   "name": "Giovanna Polistena",
+   "slug": "giovanna-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I155@",
+    "name": "Peter Bova",
+    "slug": "peter-bova",
+    "living": false
+   },
+   {
+    "id": "@I156@",
+    "name": "Peter Bova",
+    "slug": "peter-bova-1950",
+    "living": true
+   },
+   {
+    "id": "@I157@",
+    "name": "John Bova",
+    "slug": "john-bova",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1916
+ },
+ {
+  "name": "Joseph A Polistena & Santa Polistena",
+  "head": "joseph-a-polistena",
+  "headId": "@I129@",
+  "spouse": {
+   "id": "@I128@",
+   "name": "Santa Polistena",
+   "slug": "santa-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I132@",
+    "name": "Josephine Polistena",
+    "slug": "josephine-polistena",
+    "living": true
+   },
+   {
+    "id": "@I152@",
+    "name": "Nancy Polistena",
+    "slug": "nancy-polistena",
+    "living": true
+   },
+   {
+    "id": "@I153@",
+    "name": "Maria Polistena",
+    "slug": "maria-polistena-1956",
+    "living": true
+   }
+  ],
+  "place": "Scillla",
+  "born": 1917
+ },
+ {
+  "name": "Antonino Polistena & Rosa Polistena",
+  "head": "antonino-polistena",
+  "headId": "@I134@",
+  "spouse": {
+   "id": "@I412@",
+   "name": "Rosa Polistena",
+   "slug": "rosa-polistena",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I413@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena-5",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1917
+ },
+ {
+  "name": "Giovanna Polistena & Rocco Bova",
+  "head": "giovanna-polistena",
+  "headId": "@I133@",
+  "spouse": {
+   "id": "@I154@",
+   "name": "Rocco Bova",
+   "slug": "rocco-bova",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I155@",
+    "name": "Peter Bova",
+    "slug": "peter-bova",
+    "living": false
+   },
+   {
+    "id": "@I156@",
+    "name": "Peter Bova",
+    "slug": "peter-bova-1950",
+    "living": true
+   },
+   {
+    "id": "@I157@",
+    "name": "John Bova",
+    "slug": "john-bova",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1918
+ },
+ {
+  "name": "Alfonso Prostamo & Anna Delorenzo",
+  "head": "alfonso-prostamo-1918",
+  "headId": "@I301@",
+  "spouse": {
+   "id": "@I314@",
+   "name": "Anna Delorenzo",
+   "slug": "anna-delorenzo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I315@",
+    "name": "Laura Prostamo",
+    "slug": "laura-prostamo-1953",
+    "living": true
+   },
+   {
+    "id": "@I316@",
+    "name": "Maria Teresa Prostamo",
+    "slug": "maria-teresa-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I317@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1958",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1918
+ },
+ {
+  "name": "Sebastiano Mazza & Domenica Prostamo",
+  "head": "sebastiano-mazza",
+  "headId": "@I2@",
+  "spouse": {
+   "id": "@I3@",
+   "name": "Domenica Prostamo",
+   "slug": "domenica-prostamo",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I32@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1948",
+    "living": true
+   },
+   {
+    "id": "@I33@",
+    "name": "Mary rosa Mazza",
+    "slug": "mary-rosa-mazza",
+    "living": false
+   },
+   {
+    "id": "@I1@",
+    "name": "Frank Mazza",
+    "slug": "frank-mazza",
+    "living": true
+   },
+   {
+    "id": "@I34@",
+    "name": "Giovanni Mazza",
+    "slug": "giovanni-mazza",
+    "living": true
+   }
+  ],
+  "place": "Piedimonte Etneo, Catania, Sicily",
+  "born": 1920
+ },
+ {
+  "name": "Santa Polistena & Joseph A Polistena",
+  "head": "santa-polistena",
+  "headId": "@I128@",
+  "spouse": {
+   "id": "@I129@",
+   "name": "Joseph A Polistena",
+   "slug": "joseph-a-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I132@",
+    "name": "Josephine Polistena",
+    "slug": "josephine-polistena",
+    "living": true
+   },
+   {
+    "id": "@I152@",
+    "name": "Nancy Polistena",
+    "slug": "nancy-polistena",
+    "living": true
+   },
+   {
+    "id": "@I153@",
+    "name": "Maria Polistena",
+    "slug": "maria-polistena-1956",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1920
+ },
+ {
+  "name": "Maria Mazza & Rosario Coco",
+  "head": "maria-mazza",
+  "headId": "@I79@",
+  "spouse": {
+   "id": "@I84@",
+   "name": "Rosario Coco",
+   "slug": "rosario-coco",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I85@",
+    "name": "Mary Coco",
+    "slug": "mary-coco",
+    "living": true
+   },
+   {
+    "id": "@I86@",
+    "name": "Tony Coco",
+    "slug": "tony-coco",
+    "living": true
+   },
+   {
+    "id": "@I87@",
+    "name": "Ross Coco",
+    "slug": "ross-coco",
+    "living": true
+   }
+  ],
+  "place": "Catania, Sicily",
+  "born": 1922
+ },
+ {
+  "name": "Giovanni Arena & Giovanna",
+  "head": "giovanni-arena-1922",
+  "headId": "@I250@",
+  "spouse": {
+   "id": "@I464@",
+   "name": "Giovanna",
+   "slug": "giovanna",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I465@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-4",
+    "living": true
+   },
+   {
+    "id": "@I466@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-3",
+    "living": true
+   },
+   {
+    "id": "@I467@",
+    "name": "Virgole Arena",
+    "slug": "virgole-arena",
+    "living": true
+   },
+   {
+    "id": "@I468@",
+    "name": "Auora Arena",
+    "slug": "auora-arena",
+    "living": true
+   },
+   {
+    "id": "@I469@",
+    "name": "Annunciata Arena",
+    "slug": "annunciata-arena",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1922
+ },
+ {
+  "name": "Maria Polistena & Giovanni Bova",
+  "head": "maria-polistena",
+  "headId": "@I135@",
+  "spouse": {
+   "id": "@I416@",
+   "name": "Giovanni Bova",
+   "slug": "giovanni-bova",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I417@",
+    "name": "Maria Grazia Bova",
+    "slug": "maria-grazia-bova",
+    "living": false
+   },
+   {
+    "id": "@I418@",
+    "name": "Annunziata Bova",
+    "slug": "annunziata-bova",
+    "living": true
+   },
+   {
+    "id": "@I419@",
+    "name": "Antonio Bova",
+    "slug": "antonio-bova",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1923
+ },
+ {
+  "name": "Antonio Micale & Maria Antonia Tropeia",
+  "head": "antonio-micale",
+  "headId": "@I294@",
+  "spouse": {
+   "id": "@I295@",
+   "name": "Maria Antonia Tropeia",
+   "slug": "maria-antonia-tropeia",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I40@",
+    "name": "Carmelina Micale",
+    "slug": "carmelina-micale",
+    "living": true
+   }
+  ],
+  "place": "Giarre, Catania, Sicily",
+  "born": 1923
+ },
+ {
+  "name": "Rocco Arena & Angela Polistena",
+  "head": "rocco-arena-1924",
+  "headId": "@I28@",
+  "spouse": {
+   "id": "@I29@",
+   "name": "Angela Polistena",
+   "slug": "angela-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I111@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-1955",
+    "living": true
+   },
+   {
+    "id": "@I25@",
+    "name": "Nancy Arena",
+    "slug": "nancy-arena",
+    "living": true
+   },
+   {
+    "id": "@I112@",
+    "name": "Giuseppi Arena",
+    "slug": "giuseppi-arena",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1924
+ },
+ {
+  "name": "Carmelo Armanno & Angelina Pagano",
+  "head": "carmelo-armanno",
+  "headId": "@I53@",
+  "spouse": {
+   "id": "@I54@",
+   "name": "Angelina Pagano",
+   "slug": "angelina-pagano",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I12@",
+    "name": "Connie Armanno",
+    "slug": "connie-armanno",
+    "living": true
+   },
+   {
+    "id": "@I55@",
+    "name": "Vennero Armanno",
+    "slug": "vennero-armanno",
+    "living": true
+   }
+  ],
+  "place": "Piedimonte Etneo, Catania, Sicily",
+  "born": 1924
+ },
+ {
+  "name": "Angela Polistena & Rocco Arena",
+  "head": "angela-polistena",
+  "headId": "@I29@",
+  "spouse": {
+   "id": "@I28@",
+   "name": "Rocco Arena",
+   "slug": "rocco-arena-1924",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I111@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-1955",
+    "living": true
+   },
+   {
+    "id": "@I25@",
+    "name": "Nancy Arena",
+    "slug": "nancy-arena",
+    "living": true
+   },
+   {
+    "id": "@I112@",
+    "name": "Giuseppi Arena",
+    "slug": "giuseppi-arena",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1925
+ },
+ {
+  "name": "Livia Pallariello & Giuseppe Prostamo",
+  "head": "livia-pallariello",
+  "headId": "@I308@",
+  "spouse": {
+   "id": "@I300@",
+   "name": "Giuseppe Prostamo",
+   "slug": "giuseppe-prostamo-1927",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I309@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I310@",
+    "name": "Margarita Prostamo",
+    "slug": "margarita-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I311@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1952",
+    "living": true
+   }
+  ],
+  "place": "Catanzaro, Calabria",
+  "born": 1925
+ },
+ {
+  "name": "Carmela Mazza & Franco Pellagrini",
+  "head": "carmela-mazza",
+  "headId": "@I80@",
+  "spouse": {
+   "id": "@I106@",
+   "name": "Franco Pellagrini",
+   "slug": "franco-pellagrini",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I107@",
+    "name": "Loretta Mazza",
+    "slug": "loretta-mazza",
+    "living": true
+   },
+   {
+    "id": "@I108@",
+    "name": "Quinto Pellagrini",
+    "slug": "quinto-pellagrini",
+    "living": true
+   }
+  ],
+  "place": "Tully, Queensland",
+  "born": 1926
+ },
+ {
+  "name": "Maria Antonia Tropeia & Antonio Micale",
+  "head": "maria-antonia-tropeia",
+  "headId": "@I295@",
+  "spouse": {
+   "id": "@I294@",
+   "name": "Antonio Micale",
+   "slug": "antonio-micale",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I40@",
+    "name": "Carmelina Micale",
+    "slug": "carmelina-micale",
+    "living": true
+   }
+  ],
+  "place": "Giarre, Catania, Sicily",
+  "born": 1927
+ },
+ {
+  "name": "Domenica Prostamo & Sebastiano Mazza",
+  "head": "domenica-prostamo",
+  "headId": "@I3@",
+  "spouse": {
+   "id": "@I2@",
+   "name": "Sebastiano Mazza",
+   "slug": "sebastiano-mazza",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I32@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1948",
+    "living": true
+   },
+   {
+    "id": "@I33@",
+    "name": "Mary rosa Mazza",
+    "slug": "mary-rosa-mazza",
+    "living": false
+   },
+   {
+    "id": "@I1@",
+    "name": "Frank Mazza",
+    "slug": "frank-mazza",
+    "living": true
+   },
+   {
+    "id": "@I34@",
+    "name": "Giovanni Mazza",
+    "slug": "giovanni-mazza",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1928
+ },
+ {
+  "name": "Clemente Arena & Carmella",
+  "head": "clemente-arena",
+  "headId": "@I252@",
+  "spouse": {
+   "id": "@I477@",
+   "name": "Carmella",
+   "slug": "carmella",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I478@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-6",
+    "living": true
+   },
+   {
+    "id": "@I479@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-5",
+    "living": true
+   },
+   {
+    "id": "@I480@",
+    "name": "Rocco Arena",
+    "slug": "rocco-arena-4",
+    "living": true
+   },
+   {
+    "id": "@I481@",
+    "name": "Tina Arena",
+    "slug": "tina-arena",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1929
+ },
+ {
+  "name": "Domenico Prostamo & Maria Melluso",
+  "head": "domenico-prostamo-1930",
+  "headId": "@I48@",
+  "spouse": {
+   "id": "@I56@",
+   "name": "Maria Melluso",
+   "slug": "maria-melluso",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I57@",
+    "name": "Frank Prostamo",
+    "slug": "frank-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I58@",
+    "name": "Gregory Prostamo",
+    "slug": "gregory-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I59@",
+    "name": "Maria Prostamo",
+    "slug": "maria-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I60@",
+    "name": "Carmela Prostamo",
+    "slug": "carmela-prostamo-1976",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1930
+ },
+ {
+  "name": "Peppino Giammona & Carmela",
+  "head": "peppino-giammona",
+  "headId": "@I95@",
+  "spouse": {
+   "id": "@I98@",
+   "name": "Carmela",
+   "slug": "carmela",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I99@",
+    "name": "Giovanni Giammona",
+    "slug": "giovanni-giammona-1970",
+    "living": false
+   },
+   {
+    "id": "@I100@",
+    "name": "Leonarda Giammona",
+    "slug": "leonarda-giammona",
+    "living": true
+   }
+  ],
+  "place": "Catania, Sicily",
+  "born": 1930
+ },
+ {
+  "name": "Giuseppe Arena & Peppina Arena",
+  "head": "giuseppe-arena-1932",
+  "headId": "@I253@",
+  "spouse": {
+   "id": "@I484@",
+   "name": "Peppina Arena",
+   "slug": "peppina-arena",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I486@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-6",
+    "living": true
+   },
+   {
+    "id": "@I485@",
+    "name": "Francesco Arena",
+    "slug": "francesco-arena-2",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1932
+ },
+ {
+  "name": "Angelina Pagano & Carmelo Armanno",
+  "head": "angelina-pagano",
+  "headId": "@I54@",
+  "spouse": {
+   "id": "@I53@",
+   "name": "Carmelo Armanno",
+   "slug": "carmelo-armanno",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I12@",
+    "name": "Connie Armanno",
+    "slug": "connie-armanno",
+    "living": true
+   },
+   {
+    "id": "@I55@",
+    "name": "Vennero Armanno",
+    "slug": "vennero-armanno",
+    "living": true
+   }
+  ],
+  "place": "Piedimonte Etneo, Catania, Sicily",
+  "born": 1933
+ },
+ {
+  "name": "Michael Antonio Polistena & Teresa Donato",
+  "head": "michael-antonio-polistena",
+  "headId": "@I137@",
+  "spouse": {
+   "id": "@I425@",
+   "name": "Teresa Donato",
+   "slug": "teresa-donato",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I427@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena-1957",
+    "living": true
+   },
+   {
+    "id": "@I426@",
+    "name": "Domenico Polistena",
+    "slug": "domenico-polistena",
+    "living": true
+   },
+   {
+    "id": "@I428@",
+    "name": "Antonio Polistena",
+    "slug": "antonio-polistena",
+    "living": true
+   }
+  ],
+  "place": "Scilla, Reggio Calabria",
+  "born": 1933
+ },
+ {
+  "name": "Maria Melluso & Domenico Prostamo",
+  "head": "maria-melluso",
+  "headId": "@I56@",
+  "spouse": {
+   "id": "@I48@",
+   "name": "Domenico Prostamo",
+   "slug": "domenico-prostamo-1930",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I57@",
+    "name": "Frank Prostamo",
+    "slug": "frank-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I58@",
+    "name": "Gregory Prostamo",
+    "slug": "gregory-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I59@",
+    "name": "Maria Prostamo",
+    "slug": "maria-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I60@",
+    "name": "Carmela Prostamo",
+    "slug": "carmela-prostamo-1976",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1936
+ },
+ {
+  "name": "Francesco Trungadi & Francesca Prostamo",
+  "head": "francesco-trungadi",
+  "headId": "@I67@",
+  "spouse": {
+   "id": "@I51@",
+   "name": "Francesca Prostamo",
+   "slug": "francesca-prostamo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I68@",
+    "name": "Antonietta Trungadi",
+    "slug": "antonietta-trungadi",
+    "living": true
+   },
+   {
+    "id": "@I69@",
+    "name": "Maria Rosa Trungadi",
+    "slug": "maria-rosa-trungadi",
+    "living": true
+   },
+   {
+    "id": "@I70@",
+    "name": "Barbara Trungadi",
+    "slug": "barbara-trungadi",
+    "living": true
+   }
+  ],
+  "place": "Bagnara Calabra, Calabria, Italy",
+  "born": 1940
+ },
+ {
+  "name": "Frank Mazza & Nancy Arena",
+  "head": "frank-mazza",
+  "headId": "@I1@",
+  "spouse": {
+   "id": "@I25@",
+   "name": "Nancy Arena",
+   "slug": "nancy-arena",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I26@",
+    "name": "Michael Rocco Mazza",
+    "slug": "michael-rocco-mazza",
+    "living": true
+   },
+   {
+    "id": "@I27@",
+    "name": "Angela Mazza",
+    "slug": "angela-mazza",
+    "living": true
+   },
+   {
+    "id": "@I13@",
+    "name": "Robert Sebastian Mazza",
+    "slug": "robert-sebastian-mazza",
+    "living": true
+   },
+   {
+    "id": "@I20@",
+    "name": "Michael Mazza",
+    "slug": "michael-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Connie Armanno & Leon Calahorra",
+  "head": "connie-armanno",
+  "headId": "@I12@",
+  "spouse": {
+   "id": "@I404@",
+   "name": "Leon Calahorra",
+   "slug": "leon-calahorra",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I405@",
+    "name": "Stefanie Calahorra",
+    "slug": "stefanie-calahorra",
+    "living": true
+   },
+   {
+    "id": "@I13@",
+    "name": "Robert Sebastian Mazza",
+    "slug": "robert-sebastian-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Robert Sebastian Mazza & Renee Turner",
+  "head": "robert-sebastian-mazza",
+  "headId": "@I13@",
+  "spouse": {
+   "id": "@I30@",
+   "name": "Renee Turner",
+   "slug": "renee-turner",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I31@",
+    "name": "Jack Carmelo Calahorra",
+    "slug": "jack-carmelo-calahorra",
+    "living": true
+   },
+   {
+    "id": "@I351@",
+    "name": "Luca Francesco Calahorra",
+    "slug": "luca-francesco-calahorra",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosario Mazza",
+  "head": "rosario-mazza-3",
+  "headId": "@I22@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I4@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Leonarda & Rosario Mazza",
+  "head": "leonarda",
+  "headId": "@I24@",
+  "spouse": {
+   "id": "@I23@",
+   "name": "Rosario Mazza",
+   "slug": "rosario-mazza",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I159@",
+    "name": "Orazio Mazza",
+    "slug": "orazio-mazza",
+    "living": false
+   },
+   {
+    "id": "@I160@",
+    "name": "Ignazio Mazza",
+    "slug": "ignazio-mazza",
+    "living": false
+   },
+   {
+    "id": "@I354@",
+    "name": "Giovanni Mazza",
+    "slug": "giovanni-mazza-3",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Nancy Arena & Frank Mazza",
+  "head": "nancy-arena",
+  "headId": "@I25@",
+  "spouse": {
+   "id": "@I1@",
+   "name": "Frank Mazza",
+   "slug": "frank-mazza",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I20@",
+    "name": "Michael Mazza",
+    "slug": "michael-mazza",
+    "living": true
+   },
+   {
+    "id": "@I27@",
+    "name": "Angela Mazza",
+    "slug": "angela-mazza",
+    "living": true
+   },
+   {
+    "id": "@I26@",
+    "name": "Michael Rocco Mazza",
+    "slug": "michael-rocco-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Michael Rocco Mazza & Stefanie D'Arcy",
+  "head": "michael-rocco-mazza",
+  "headId": "@I26@",
+  "spouse": {
+   "id": "@I362@",
+   "name": "Stefanie D'Arcy",
+   "slug": "stefanie-darcy",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I363@",
+    "name": "Mia Josephine Mazza",
+    "slug": "mia-josephine-mazza",
+    "living": true
+   },
+   {
+    "id": "@I364@",
+    "name": "Rocco Francesco Mazza",
+    "slug": "rocco-francesco-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Angela Mazza & Reinhard Muller",
+  "head": "angela-mazza",
+  "headId": "@I27@",
+  "spouse": {
+   "id": "@I360@",
+   "name": "Reinhard Muller",
+   "slug": "reinhard-muller",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I361@",
+    "name": "Josef Muller",
+    "slug": "josef-muller",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Renee Turner & Robert Sebastian Mazza",
+  "head": "renee-turner",
+  "headId": "@I30@",
+  "spouse": {
+   "id": "@I13@",
+   "name": "Robert Sebastian Mazza",
+   "slug": "robert-sebastian-mazza",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I31@",
+    "name": "Jack Carmelo Calahorra",
+    "slug": "jack-carmelo-calahorra",
+    "living": true
+   },
+   {
+    "id": "@I351@",
+    "name": "Luca Francesco Calahorra",
+    "slug": "luca-francesco-calahorra",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Salvatore Mazza & Carmelina Micale",
+  "head": "salvatore-mazza-1948",
+  "headId": "@I32@",
+  "spouse": {
+   "id": "@I40@",
+   "name": "Carmelina Micale",
+   "slug": "carmelina-micale",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I42@",
+    "name": "Domenica Rita Mazza",
+    "slug": "domenica-rita-mazza",
+    "living": true
+   },
+   {
+    "id": "@I41@",
+    "name": "Sebastian Michael Mazza",
+    "slug": "sebastian-michael-mazza",
+    "living": true
+   },
+   {
+    "id": "@I43@",
+    "name": "Anthony John Mazza",
+    "slug": "anthony-john-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giovanni Mazza & Alfina Pennisi",
+  "head": "giovanni-mazza",
+  "headId": "@I34@",
+  "spouse": {
+   "id": "@I44@",
+   "name": "Alfina Pennisi",
+   "slug": "alfina-pennisi",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I45@",
+    "name": "Jiani Mazza",
+    "slug": "jiani-mazza",
+    "living": true
+   },
+   {
+    "id": "@I46@",
+    "name": "Maria Rosa Mazza",
+    "slug": "maria-rosa-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Carmelina Micale & Salvatore Mazza",
+  "head": "carmelina-micale",
+  "headId": "@I40@",
+  "spouse": {
+   "id": "@I32@",
+   "name": "Salvatore Mazza",
+   "slug": "salvatore-mazza-1948",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I42@",
+    "name": "Domenica Rita Mazza",
+    "slug": "domenica-rita-mazza",
+    "living": true
+   },
+   {
+    "id": "@I41@",
+    "name": "Sebastian Michael Mazza",
+    "slug": "sebastian-michael-mazza",
+    "living": true
+   },
+   {
+    "id": "@I43@",
+    "name": "Anthony John Mazza",
+    "slug": "anthony-john-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Alfina Pennisi & Giovanni Mazza",
+  "head": "alfina-pennisi",
+  "headId": "@I44@",
+  "spouse": {
+   "id": "@I34@",
+   "name": "Giovanni Mazza",
+   "slug": "giovanni-mazza",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I45@",
+    "name": "Jiani Mazza",
+    "slug": "jiani-mazza",
+    "living": true
+   },
+   {
+    "id": "@I46@",
+    "name": "Maria Rosa Mazza",
+    "slug": "maria-rosa-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Jiani Mazza & Rachel",
+  "head": "jiani-mazza",
+  "headId": "@I45@",
+  "spouse": {
+   "id": "@I109@",
+   "name": "Rachel",
+   "slug": "rachel",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I110@",
+    "name": "Ruben Mazza",
+    "slug": "ruben-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Antonio Giacomo Prostamo & Angela Tomsic",
+  "head": "antonio-giacomo-prostamo",
+  "headId": "@I49@",
+  "spouse": {
+   "id": "@I61@",
+   "name": "Angela Tomsic",
+   "slug": "angela-tomsic",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I62@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo-1956",
+    "living": true
+   },
+   {
+    "id": "@I64@",
+    "name": "Tony Prostamo",
+    "slug": "tony-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I65@",
+    "name": "Kristina Prostamo",
+    "slug": "kristina-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I63@",
+    "name": "Francesco Prostamo",
+    "slug": "francesco-prostamo-1961",
+    "living": true
+   },
+   {
+    "id": "@I66@",
+    "name": "Steven Prostamo",
+    "slug": "steven-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Francesca Prostamo & Francesco Trungadi",
+  "head": "francesca-prostamo",
+  "headId": "@I51@",
+  "spouse": {
+   "id": "@I67@",
+   "name": "Francesco Trungadi",
+   "slug": "francesco-trungadi",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I68@",
+    "name": "Antonietta Trungadi",
+    "slug": "antonietta-trungadi",
+    "living": true
+   },
+   {
+    "id": "@I69@",
+    "name": "Maria Rosa Trungadi",
+    "slug": "maria-rosa-trungadi",
+    "living": true
+   },
+   {
+    "id": "@I70@",
+    "name": "Barbara Trungadi",
+    "slug": "barbara-trungadi",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Saveria Prostamo & Tonino Panella",
+  "head": "saveria-prostamo",
+  "headId": "@I52@",
+  "spouse": {
+   "id": "@I71@",
+   "name": "Tonino Panella",
+   "slug": "tonino-panella",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I72@",
+    "name": "Anunziata Panella",
+    "slug": "anunziata-panella",
+    "living": true
+   },
+   {
+    "id": "@I73@",
+    "name": "Maria Rosa Panella",
+    "slug": "maria-rosa-panella",
+    "living": true
+   },
+   {
+    "id": "@I74@",
+    "name": "Francesco Panella",
+    "slug": "francesco-panella",
+    "living": true
+   },
+   {
+    "id": "@I75@",
+    "name": "Domenico (Twin) Panella",
+    "slug": "domenico-twin-panella",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Vennero Armanno",
+  "head": "vennero-armanno",
+  "headId": "@I55@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I403@",
+    "name": "Rocco Armanno",
+    "slug": "rocco-armanno",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Frank Prostamo & Claire",
+  "head": "frank-prostamo",
+  "headId": "@I57@",
+  "spouse": {
+   "id": "@I198@",
+   "name": "Claire",
+   "slug": "claire",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I214@",
+    "name": "Mara G Prostamo",
+    "slug": "mara-g-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I215@",
+    "name": "Michael John Prostamo",
+    "slug": "michael-john-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I216@",
+    "name": "Stella Prostamo",
+    "slug": "stella-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Gregory Prostamo & Deena Longhurst",
+  "head": "gregory-prostamo",
+  "headId": "@I58@",
+  "spouse": {
+   "id": "@I212@",
+   "name": "Deena Longhurst",
+   "slug": "deena-longhurst",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I213@",
+    "name": "Katie Prostamo",
+    "slug": "katie-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Prostamo & Roy",
+  "head": "maria-prostamo",
+  "headId": "@I59@",
+  "spouse": {
+   "id": "@I209@",
+   "name": "Roy",
+   "slug": "roy",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I210@",
+    "name": "Natasha",
+    "slug": "natasha",
+    "living": true
+   },
+   {
+    "id": "@I211@",
+    "name": "Dominic",
+    "slug": "dominic",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Carmela Prostamo & Brett",
+  "head": "carmela-prostamo-1976",
+  "headId": "@I60@",
+  "spouse": {
+   "id": "@I206@",
+   "name": "Brett",
+   "slug": "brett",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I207@",
+    "name": "Travis",
+    "slug": "travis",
+    "living": true
+   },
+   {
+    "id": "@I208@",
+    "name": "Jasmine",
+    "slug": "jasmine",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Angela Tomsic & Antonio Giacomo Prostamo",
+  "head": "angela-tomsic",
+  "headId": "@I61@",
+  "spouse": {
+   "id": "@I49@",
+   "name": "Antonio Giacomo Prostamo",
+   "slug": "antonio-giacomo-prostamo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I62@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo-1956",
+    "living": true
+   },
+   {
+    "id": "@I64@",
+    "name": "Tony Prostamo",
+    "slug": "tony-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I65@",
+    "name": "Kristina Prostamo",
+    "slug": "kristina-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I63@",
+    "name": "Francesco Prostamo",
+    "slug": "francesco-prostamo-1961",
+    "living": true
+   },
+   {
+    "id": "@I66@",
+    "name": "Steven Prostamo",
+    "slug": "steven-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Francesco Prostamo & Lisa Brown",
+  "head": "francesco-prostamo-1961",
+  "headId": "@I63@",
+  "spouse": {
+   "id": "@I166@",
+   "name": "Lisa Brown",
+   "slug": "lisa-brown",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I167@",
+    "name": "Dane Prostamo",
+    "slug": "dane-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I168@",
+    "name": "Elle Prostamo",
+    "slug": "elle-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Tony Prostamo & Putu Nuniarti",
+  "head": "tony-prostamo",
+  "headId": "@I64@",
+  "spouse": {
+   "id": "@I170@",
+   "name": "Putu Nuniarti",
+   "slug": "putu-nuniarti",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I172@",
+    "name": "Joshua Adi Prostamo",
+    "slug": "joshua-adi-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I171@",
+    "name": "Nathan Prostamo",
+    "slug": "nathan-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Kristina Prostamo & Iian Whitaker",
+  "head": "kristina-prostamo",
+  "headId": "@I65@",
+  "spouse": {
+   "id": "@I161@",
+   "name": "Iian Whitaker",
+   "slug": "iian-whitaker",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I162@",
+    "name": "Laura Whitaker",
+    "slug": "laura-whitaker",
+    "living": true
+   },
+   {
+    "id": "@I163@",
+    "name": "Thomas Whitaker",
+    "slug": "thomas-whitaker",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Antonietta Trungadi & Salvatore Poleo",
+  "head": "antonietta-trungadi",
+  "headId": "@I68@",
+  "spouse": {
+   "id": "@I291@",
+   "name": "Salvatore Poleo",
+   "slug": "salvatore-poleo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I292@",
+    "name": "Sara Poleo",
+    "slug": "sara-poleo",
+    "living": true
+   },
+   {
+    "id": "@I293@",
+    "name": "Alice Poleo",
+    "slug": "alice-poleo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Rosa Trungadi",
+  "head": "maria-rosa-trungadi",
+  "headId": "@I69@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I352@",
+    "name": "Tomas",
+    "slug": "tomas",
+    "living": true
+   },
+   {
+    "id": "@I353@",
+    "name": "Patrick",
+    "slug": "patrick",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Tonino Panella & Saveria Prostamo",
+  "head": "tonino-panella",
+  "headId": "@I71@",
+  "spouse": {
+   "id": "@I52@",
+   "name": "Saveria Prostamo",
+   "slug": "saveria-prostamo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I72@",
+    "name": "Anunziata Panella",
+    "slug": "anunziata-panella",
+    "living": true
+   },
+   {
+    "id": "@I73@",
+    "name": "Maria Rosa Panella",
+    "slug": "maria-rosa-panella",
+    "living": true
+   },
+   {
+    "id": "@I74@",
+    "name": "Francesco Panella",
+    "slug": "francesco-panella",
+    "living": true
+   },
+   {
+    "id": "@I75@",
+    "name": "Domenico (Twin) Panella",
+    "slug": "domenico-twin-panella",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Luciano Cavallaro & Marilyn",
+  "head": "luciano-cavallaro",
+  "headId": "@I77@",
+  "spouse": {
+   "id": "@I81@",
+   "name": "Marilyn",
+   "slug": "marilyn",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I82@",
+    "name": "Fillipo Cavallaro",
+    "slug": "fillipo-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I83@",
+    "name": "Richard Cavallaro",
+    "slug": "richard-cavallaro",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Marilyn & Luciano Cavallaro",
+  "head": "marilyn",
+  "headId": "@I81@",
+  "spouse": {
+   "id": "@I77@",
+   "name": "Luciano Cavallaro",
+   "slug": "luciano-cavallaro",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I82@",
+    "name": "Fillipo Cavallaro",
+    "slug": "fillipo-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I83@",
+    "name": "Richard Cavallaro",
+    "slug": "richard-cavallaro",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Mary Coco & Mario Napoli",
+  "head": "mary-coco",
+  "headId": "@I85@",
+  "spouse": {
+   "id": "@I88@",
+   "name": "Mario Napoli",
+   "slug": "mario-napoli",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I89@",
+    "name": "Furtuna Napoli",
+    "slug": "furtuna-napoli",
+    "living": true
+   },
+   {
+    "id": "@I90@",
+    "name": "Anthony Napoli",
+    "slug": "anthony-napoli",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Tony Coco & lina Lanzfami",
+  "head": "tony-coco",
+  "headId": "@I86@",
+  "spouse": {
+   "id": "@I103@",
+   "name": "lina Lanzfami",
+   "slug": "lina-lanzfami",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I104@",
+    "name": "Maria Coco",
+    "slug": "maria-coco",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Ross Coco & Liella Coffin",
+  "head": "ross-coco",
+  "headId": "@I87@",
+  "spouse": {
+   "id": "@I105@",
+   "name": "Liella Coffin",
+   "slug": "liella-coffin",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I113@",
+    "name": "Loretta Coco",
+    "slug": "loretta-coco",
+    "living": true
+   },
+   {
+    "id": "@I114@",
+    "name": "Domenic Coco",
+    "slug": "domenic-coco",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Mario Napoli & Mary Coco",
+  "head": "mario-napoli",
+  "headId": "@I88@",
+  "spouse": {
+   "id": "@I85@",
+   "name": "Mary Coco",
+   "slug": "mary-coco",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I89@",
+    "name": "Furtuna Napoli",
+    "slug": "furtuna-napoli",
+    "living": true
+   },
+   {
+    "id": "@I90@",
+    "name": "Anthony Napoli",
+    "slug": "anthony-napoli",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Furtuna Napoli & Nick Spinelli",
+  "head": "furtuna-napoli",
+  "headId": "@I89@",
+  "spouse": {
+   "id": "@I91@",
+   "name": "Nick Spinelli",
+   "slug": "nick-spinelli",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I93@",
+    "name": "Allana Spenelli",
+    "slug": "allana-spenelli",
+    "living": true
+   },
+   {
+    "id": "@I92@",
+    "name": "Cortney Spenelli",
+    "slug": "cortney-spenelli",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Anthony Napoli & Debbie Trabucco",
+  "head": "anthony-napoli",
+  "headId": "@I90@",
+  "spouse": {
+   "id": "@I115@",
+   "name": "Debbie Trabucco",
+   "slug": "debbie-trabucco",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I116@",
+    "name": "Alexandra Napoli",
+    "slug": "alexandra-napoli",
+    "living": true
+   },
+   {
+    "id": "@I117@",
+    "name": "Briana Napoli",
+    "slug": "briana-napoli",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Nick Spinelli & Furtuna Napoli",
+  "head": "nick-spinelli",
+  "headId": "@I91@",
+  "spouse": {
+   "id": "@I89@",
+   "name": "Furtuna Napoli",
+   "slug": "furtuna-napoli",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I93@",
+    "name": "Allana Spenelli",
+    "slug": "allana-spenelli",
+    "living": true
+   },
+   {
+    "id": "@I92@",
+    "name": "Cortney Spenelli",
+    "slug": "cortney-spenelli",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Carmela & Peppino Giammona",
+  "head": "carmela",
+  "headId": "@I98@",
+  "spouse": {
+   "id": "@I95@",
+   "name": "Peppino Giammona",
+   "slug": "peppino-giammona",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I99@",
+    "name": "Giovanni Giammona",
+    "slug": "giovanni-giammona-1970",
+    "living": false
+   },
+   {
+    "id": "@I100@",
+    "name": "Leonarda Giammona",
+    "slug": "leonarda-giammona",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Leonarda Giammona & Salvatore Tripoti",
+  "head": "leonarda-giammona",
+  "headId": "@I100@",
+  "spouse": {
+   "id": "@I101@",
+   "name": "Salvatore Tripoti",
+   "slug": "salvatore-tripoti",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I102@",
+    "name": "Federica",
+    "slug": "federica",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Salvatore Tripoti & Leonarda Giammona",
+  "head": "salvatore-tripoti",
+  "headId": "@I101@",
+  "spouse": {
+   "id": "@I100@",
+   "name": "Leonarda Giammona",
+   "slug": "leonarda-giammona",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I102@",
+    "name": "Federica",
+    "slug": "federica",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "lina Lanzfami & Tony Coco",
+  "head": "lina-lanzfami",
+  "headId": "@I103@",
+  "spouse": {
+   "id": "@I86@",
+   "name": "Tony Coco",
+   "slug": "tony-coco",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I104@",
+    "name": "Maria Coco",
+    "slug": "maria-coco",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Liella Coffin & Ross Coco",
+  "head": "liella-coffin",
+  "headId": "@I105@",
+  "spouse": {
+   "id": "@I87@",
+   "name": "Ross Coco",
+   "slug": "ross-coco",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I113@",
+    "name": "Loretta Coco",
+    "slug": "loretta-coco",
+    "living": true
+   },
+   {
+    "id": "@I114@",
+    "name": "Domenic Coco",
+    "slug": "domenic-coco",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Franco Pellagrini & Carmela Mazza",
+  "head": "franco-pellagrini",
+  "headId": "@I106@",
+  "spouse": {
+   "id": "@I80@",
+   "name": "Carmela Mazza",
+   "slug": "carmela-mazza",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I107@",
+    "name": "Loretta Mazza",
+    "slug": "loretta-mazza",
+    "living": true
+   },
+   {
+    "id": "@I108@",
+    "name": "Quinto Pellagrini",
+    "slug": "quinto-pellagrini",
+    "living": true
+   }
+  ],
+  "place": "Melbourne, Victoria",
+  "born": null
+ },
+ {
+  "name": "Quinto Pellagrini & Emma",
+  "head": "quinto-pellagrini",
+  "headId": "@I108@",
+  "spouse": {
+   "id": "@I118@",
+   "name": "Emma",
+   "slug": "emma",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I119@",
+    "name": "Luke Pellagrini",
+    "slug": "luke-pellagrini",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rachel & Jiani Mazza",
+  "head": "rachel",
+  "headId": "@I109@",
+  "spouse": {
+   "id": "@I45@",
+   "name": "Jiani Mazza",
+   "slug": "jiani-mazza",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I110@",
+    "name": "Ruben Mazza",
+    "slug": "ruben-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Debbie Trabucco & Anthony Napoli",
+  "head": "debbie-trabucco",
+  "headId": "@I115@",
+  "spouse": {
+   "id": "@I90@",
+   "name": "Anthony Napoli",
+   "slug": "anthony-napoli",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I116@",
+    "name": "Alexandra Napoli",
+    "slug": "alexandra-napoli",
+    "living": true
+   },
+   {
+    "id": "@I117@",
+    "name": "Briana Napoli",
+    "slug": "briana-napoli",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Emma & Quinto Pellagrini",
+  "head": "emma",
+  "headId": "@I118@",
+  "spouse": {
+   "id": "@I108@",
+   "name": "Quinto Pellagrini",
+   "slug": "quinto-pellagrini",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I119@",
+    "name": "Luke Pellagrini",
+    "slug": "luke-pellagrini",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Sofi & Michele Donato",
+  "head": "maria-sofi",
+  "headId": "@I123@",
+  "spouse": {
+   "id": "@I122@",
+   "name": "Michele Donato",
+   "slug": "michele-donato",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I258@",
+    "name": "Giovanni Donato",
+    "slug": "giovanni-donato",
+    "living": false
+   },
+   {
+    "id": "@I121@",
+    "name": "Nunnziata Donato",
+    "slug": "nunnziata-donato",
+    "living": false
+   },
+   {
+    "id": "@I259@",
+    "name": "Concetta Donato",
+    "slug": "concetta-donato",
+    "living": false
+   },
+   {
+    "id": "@I256@",
+    "name": "Domenico Donato",
+    "slug": "domenico-donato",
+    "living": true
+   },
+   {
+    "id": "@I257@",
+    "name": "Santa Donato",
+    "slug": "santa-donato",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Antonio Polistena & Giovanna Pontillo",
+  "head": "antonio-polistena-2",
+  "headId": "@I124@",
+  "spouse": {
+   "id": "@I125@",
+   "name": "Giovanna Pontillo",
+   "slug": "giovanna-pontillo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I139@",
+    "name": "Giuseppi Polistena",
+    "slug": "giuseppi-polistena",
+    "living": false
+   },
+   {
+    "id": "@I120@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena",
+    "living": false
+   },
+   {
+    "id": "@I138@",
+    "name": "Fransceco Polistena",
+    "slug": "fransceco-polistena",
+    "living": true
+   },
+   {
+    "id": "@I357@",
+    "name": "Teresa Polistena",
+    "slug": "teresa-polistena",
+    "living": true
+   },
+   {
+    "id": "@I487@",
+    "name": "Santa Polistena",
+    "slug": "santa-polistena-2",
+    "living": true
+   },
+   {
+    "id": "@I140@",
+    "name": "Nunziatta Polistena",
+    "slug": "nunziatta-polistena",
+    "living": true
+   },
+   {
+    "id": "@I141@",
+    "name": "Benadetta Polistena",
+    "slug": "benadetta-polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giovanna Pontillo & Antonio Polistena",
+  "head": "giovanna-pontillo",
+  "headId": "@I125@",
+  "spouse": {
+   "id": "@I124@",
+   "name": "Antonio Polistena",
+   "slug": "antonio-polistena-2",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I139@",
+    "name": "Giuseppi Polistena",
+    "slug": "giuseppi-polistena",
+    "living": false
+   },
+   {
+    "id": "@I120@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena",
+    "living": false
+   },
+   {
+    "id": "@I138@",
+    "name": "Fransceco Polistena",
+    "slug": "fransceco-polistena",
+    "living": true
+   },
+   {
+    "id": "@I357@",
+    "name": "Teresa Polistena",
+    "slug": "teresa-polistena",
+    "living": true
+   },
+   {
+    "id": "@I487@",
+    "name": "Santa Polistena",
+    "slug": "santa-polistena-2",
+    "living": true
+   },
+   {
+    "id": "@I140@",
+    "name": "Nunziatta Polistena",
+    "slug": "nunziatta-polistena",
+    "living": true
+   },
+   {
+    "id": "@I141@",
+    "name": "Benadetta Polistena",
+    "slug": "benadetta-polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giuseppi Pontillo & Nunziatta Pontillo",
+  "head": "giuseppi-pontillo",
+  "headId": "@I126@",
+  "spouse": {
+   "id": "@I127@",
+   "name": "Nunziatta Pontillo",
+   "slug": "nunziatta-pontillo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I125@",
+    "name": "Giovanna Pontillo",
+    "slug": "giovanna-pontillo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Nunziatta Pontillo & Giuseppi Pontillo",
+  "head": "nunziatta-pontillo",
+  "headId": "@I127@",
+  "spouse": {
+   "id": "@I126@",
+   "name": "Giuseppi Pontillo",
+   "slug": "giuseppi-pontillo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I125@",
+    "name": "Giovanna Pontillo",
+    "slug": "giovanna-pontillo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Fransceco Polistena & Maria",
+  "head": "fransceco-polistena",
+  "headId": "@I138@",
+  "spouse": {
+   "id": "@I446@",
+   "name": "Maria",
+   "slug": "maria",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I447@",
+    "name": "Camillo Polistena",
+    "slug": "camillo-polistena",
+    "living": true
+   },
+   {
+    "id": "@I448@",
+    "name": "Giovanna Polistena",
+    "slug": "giovanna-polistena-2",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Iian Whitaker & Kristina Prostamo",
+  "head": "iian-whitaker",
+  "headId": "@I161@",
+  "spouse": {
+   "id": "@I65@",
+   "name": "Kristina Prostamo",
+   "slug": "kristina-prostamo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I162@",
+    "name": "Laura Whitaker",
+    "slug": "laura-whitaker",
+    "living": true
+   },
+   {
+    "id": "@I163@",
+    "name": "Thomas Whitaker",
+    "slug": "thomas-whitaker",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Lisa Brown & Francesco Prostamo",
+  "head": "lisa-brown",
+  "headId": "@I166@",
+  "spouse": {
+   "id": "@I63@",
+   "name": "Francesco Prostamo",
+   "slug": "francesco-prostamo-1961",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I167@",
+    "name": "Dane Prostamo",
+    "slug": "dane-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I168@",
+    "name": "Elle Prostamo",
+    "slug": "elle-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Putu Nuniarti & Tony Prostamo",
+  "head": "putu-nuniarti",
+  "headId": "@I170@",
+  "spouse": {
+   "id": "@I64@",
+   "name": "Tony Prostamo",
+   "slug": "tony-prostamo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I172@",
+    "name": "Joshua Adi Prostamo",
+    "slug": "joshua-adi-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I171@",
+    "name": "Nathan Prostamo",
+    "slug": "nathan-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Alfonso Prostamo & Concetta Melluso",
+  "head": "alfonso-prostamo-1926",
+  "headId": "@I185@",
+  "spouse": {
+   "id": "@I188@",
+   "name": "Concetta Melluso",
+   "slug": "concetta-melluso",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I189@",
+    "name": "Giuseppina Prostamo",
+    "slug": "giuseppina-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I190@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1960",
+    "living": true
+   },
+   {
+    "id": "@I191@",
+    "name": "Pasquale Prostamo",
+    "slug": "pasquale-prostamo-1962",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Concetta Melluso & Alfonso Prostamo",
+  "head": "concetta-melluso",
+  "headId": "@I188@",
+  "spouse": {
+   "id": "@I185@",
+   "name": "Alfonso Prostamo",
+   "slug": "alfonso-prostamo-1926",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I189@",
+    "name": "Giuseppina Prostamo",
+    "slug": "giuseppina-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I190@",
+    "name": "Antonino Prostamo",
+    "slug": "antonino-prostamo-1960",
+    "living": true
+   },
+   {
+    "id": "@I191@",
+    "name": "Pasquale Prostamo",
+    "slug": "pasquale-prostamo-1962",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giuseppa Melluso",
+  "head": "giuseppa-melluso-1933",
+  "headId": "@I194@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I195@",
+    "name": "Teresa Prostamo",
+    "slug": "teresa-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I196@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1957",
+    "living": true
+   },
+   {
+    "id": "@I197@",
+    "name": "Domenica Prostamo",
+    "slug": "domenica-prostamo-1959",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Claire & Frank Prostamo",
+  "head": "claire",
+  "headId": "@I198@",
+  "spouse": {
+   "id": "@I57@",
+   "name": "Frank Prostamo",
+   "slug": "frank-prostamo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I214@",
+    "name": "Mara G Prostamo",
+    "slug": "mara-g-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I215@",
+    "name": "Michael John Prostamo",
+    "slug": "michael-john-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I216@",
+    "name": "Stella Prostamo",
+    "slug": "stella-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Alfonso Prostamo & Giuseppa Melluso",
+  "head": "alfonso-prostamo-1928",
+  "headId": "@I199@",
+  "spouse": {
+   "id": "@I202@",
+   "name": "Giuseppa Melluso",
+   "slug": "giuseppa-melluso",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I195@",
+    "name": "Teresa Prostamo",
+    "slug": "teresa-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I204@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1958",
+    "living": true
+   },
+   {
+    "id": "@I205@",
+    "name": "Domenica Prostamo",
+    "slug": "domenica-prostamo-1960",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "unknow & Giuseppe Prostamo",
+  "head": "unknow",
+  "headId": "@I200@",
+  "spouse": {
+   "id": "@I179@",
+   "name": "Giuseppe Prostamo",
+   "slug": "giuseppe-prostamo-1907",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I201@",
+    "name": "Maria G Prostamo",
+    "slug": "maria-g-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giuseppa Melluso & Alfonso Prostamo",
+  "head": "giuseppa-melluso",
+  "headId": "@I202@",
+  "spouse": {
+   "id": "@I199@",
+   "name": "Alfonso Prostamo",
+   "slug": "alfonso-prostamo-1928",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I195@",
+    "name": "Teresa Prostamo",
+    "slug": "teresa-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I204@",
+    "name": "Giuseppe Prostamo",
+    "slug": "giuseppe-prostamo-1958",
+    "living": true
+   },
+   {
+    "id": "@I205@",
+    "name": "Domenica Prostamo",
+    "slug": "domenica-prostamo-1960",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Brett & Carmela Prostamo",
+  "head": "brett",
+  "headId": "@I206@",
+  "spouse": {
+   "id": "@I60@",
+   "name": "Carmela Prostamo",
+   "slug": "carmela-prostamo-1976",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I207@",
+    "name": "Travis",
+    "slug": "travis",
+    "living": true
+   },
+   {
+    "id": "@I208@",
+    "name": "Jasmine",
+    "slug": "jasmine",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Roy & Maria Prostamo",
+  "head": "roy",
+  "headId": "@I209@",
+  "spouse": {
+   "id": "@I59@",
+   "name": "Maria Prostamo",
+   "slug": "maria-prostamo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I210@",
+    "name": "Natasha",
+    "slug": "natasha",
+    "living": true
+   },
+   {
+    "id": "@I211@",
+    "name": "Dominic",
+    "slug": "dominic",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Deena Longhurst & Gregory Prostamo",
+  "head": "deena-longhurst",
+  "headId": "@I212@",
+  "spouse": {
+   "id": "@I58@",
+   "name": "Gregory Prostamo",
+   "slug": "gregory-prostamo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I213@",
+    "name": "Katie Prostamo",
+    "slug": "katie-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "John Corones",
+  "head": "john-corones",
+  "headId": "@I241@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I198@",
+    "name": "Claire",
+    "slug": "claire",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "John Turner & Sandy Mortimer",
+  "head": "john-turner",
+  "headId": "@I243@",
+  "spouse": {
+   "id": "@I244@",
+   "name": "Sandy Mortimer",
+   "slug": "sandy-mortimer",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I30@",
+    "name": "Renee Turner",
+    "slug": "renee-turner",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Sandy Mortimer & John Turner",
+  "head": "sandy-mortimer",
+  "headId": "@I244@",
+  "spouse": {
+   "id": "@I243@",
+   "name": "John Turner",
+   "slug": "john-turner",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I30@",
+    "name": "Renee Turner",
+    "slug": "renee-turner",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Generosa Costa & Rocco Arena",
+  "head": "generosa-costa",
+  "headId": "@I249@",
+  "spouse": {
+   "id": "@I248@",
+   "name": "Rocco Arena",
+   "slug": "rocco-arena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I246@",
+    "name": "Anna Arena",
+    "slug": "anna-arena",
+    "living": false
+   },
+   {
+    "id": "@I289@",
+    "name": "Maria Arena",
+    "slug": "maria-arena",
+    "living": false
+   },
+   {
+    "id": "@I290@",
+    "name": "Antonio Arena",
+    "slug": "antonio-arena",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Antonio Arena & Maria Russo",
+  "head": "antonio-arena-1926",
+  "headId": "@I251@",
+  "spouse": {
+   "id": "@I470@",
+   "name": "Maria Russo",
+   "slug": "maria-russo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I471@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-5",
+    "living": true
+   },
+   {
+    "id": "@I472@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-4",
+    "living": true
+   },
+   {
+    "id": "@I473@",
+    "name": "Rocco Arena",
+    "slug": "rocco-arena-3",
+    "living": true
+   },
+   {
+    "id": "@I474@",
+    "name": "Clemente Arena",
+    "slug": "clemente-arena-3",
+    "living": true
+   },
+   {
+    "id": "@I475@",
+    "name": "Giovanni Arena",
+    "slug": "giovanni-arena-3",
+    "living": true
+   },
+   {
+    "id": "@I476@",
+    "name": "Francesco Arena",
+    "slug": "francesco-arena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Concetta Russo & Giovanni Arena",
+  "head": "concetta-russo",
+  "headId": "@I255@",
+  "spouse": {
+   "id": "@I247@",
+   "name": "Giovanni Arena",
+   "slug": "giovanni-arena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I245@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena",
+    "living": false
+   },
+   {
+    "id": "@I260@",
+    "name": "Clemente Arena",
+    "slug": "clemente-arena-2",
+    "living": true
+   },
+   {
+    "id": "@I261@",
+    "name": "Fortunata Arena",
+    "slug": "fortunata-arena",
+    "living": true
+   },
+   {
+    "id": "@I262@",
+    "name": "Maria Arena",
+    "slug": "maria-arena-2",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Domenico Donato & Rosina",
+  "head": "domenico-donato",
+  "headId": "@I256@",
+  "spouse": {
+   "id": "@I439@",
+   "name": "Rosina",
+   "slug": "rosina",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I440@",
+    "name": "Micelle Donato",
+    "slug": "micelle-donato",
+    "living": true
+   },
+   {
+    "id": "@I441@",
+    "name": "Peppino Donato",
+    "slug": "peppino-donato",
+    "living": true
+   },
+   {
+    "id": "@I442@",
+    "name": "Teresa Donato",
+    "slug": "teresa-donato-2",
+    "living": true
+   },
+   {
+    "id": "@I443@",
+    "name": "Giovanni Donato",
+    "slug": "giovanni-donato-3",
+    "living": true
+   },
+   {
+    "id": "@I444@",
+    "name": "Tattina Donato",
+    "slug": "tattina-donato",
+    "living": true
+   },
+   {
+    "id": "@I445@",
+    "name": "Madelena Donato",
+    "slug": "madelena-donato",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Santa Donato & Salvatore",
+  "head": "santa-donato",
+  "headId": "@I257@",
+  "spouse": {
+   "id": "@I437@",
+   "name": "Salvatore",
+   "slug": "salvatore",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I438@",
+    "name": "Peppe Donato",
+    "slug": "peppe-donato",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Domenica Polistena & Rocco Calarco",
+  "head": "domenica-polistena",
+  "headId": "@I264@",
+  "spouse": {
+   "id": "@I266@",
+   "name": "Rocco Calarco",
+   "slug": "rocco-calarco",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I267@",
+    "name": "Sam Calarco",
+    "slug": "sam-calarco",
+    "living": true
+   },
+   {
+    "id": "@I268@",
+    "name": "Giovanni Calarco",
+    "slug": "giovanni-calarco",
+    "living": true
+   },
+   {
+    "id": "@I269@",
+    "name": "Giuseppe Calarco",
+    "slug": "giuseppe-calarco",
+    "living": true
+   },
+   {
+    "id": "@I452@",
+    "name": "Fortunato Calarco",
+    "slug": "fortunato-calarco",
+    "living": true
+   },
+   {
+    "id": "@I453@",
+    "name": "Peter Calarco",
+    "slug": "peter-calarco",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Polistena & Raffaele Sanfedele",
+  "head": "maria-polistena-1945",
+  "headId": "@I265@",
+  "spouse": {
+   "id": "@I270@",
+   "name": "Raffaele Sanfedele",
+   "slug": "raffaele-sanfedele",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I271@",
+    "name": "Domenica Sanfedele",
+    "slug": "domenica-sanfedele",
+    "living": true
+   },
+   {
+    "id": "@I272@",
+    "name": "Nino Sanfedele",
+    "slug": "nino-sanfedele",
+    "living": true
+   },
+   {
+    "id": "@I273@",
+    "name": "Giovanni Sanfedele",
+    "slug": "giovanni-sanfedele",
+    "living": true
+   },
+   {
+    "id": "@I274@",
+    "name": "Concetta Sanfedele",
+    "slug": "concetta-sanfedele",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rocco Calarco & Domenica Polistena",
+  "head": "rocco-calarco",
+  "headId": "@I266@",
+  "spouse": {
+   "id": "@I264@",
+   "name": "Domenica Polistena",
+   "slug": "domenica-polistena",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I267@",
+    "name": "Sam Calarco",
+    "slug": "sam-calarco",
+    "living": true
+   },
+   {
+    "id": "@I268@",
+    "name": "Giovanni Calarco",
+    "slug": "giovanni-calarco",
+    "living": true
+   },
+   {
+    "id": "@I269@",
+    "name": "Giuseppe Calarco",
+    "slug": "giuseppe-calarco",
+    "living": true
+   },
+   {
+    "id": "@I452@",
+    "name": "Fortunato Calarco",
+    "slug": "fortunato-calarco",
+    "living": true
+   },
+   {
+    "id": "@I453@",
+    "name": "Peter Calarco",
+    "slug": "peter-calarco",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Raffaele Sanfedele & Maria Polistena",
+  "head": "raffaele-sanfedele",
+  "headId": "@I270@",
+  "spouse": {
+   "id": "@I265@",
+   "name": "Maria Polistena",
+   "slug": "maria-polistena-1945",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I271@",
+    "name": "Domenica Sanfedele",
+    "slug": "domenica-sanfedele",
+    "living": true
+   },
+   {
+    "id": "@I272@",
+    "name": "Nino Sanfedele",
+    "slug": "nino-sanfedele",
+    "living": true
+   },
+   {
+    "id": "@I273@",
+    "name": "Giovanni Sanfedele",
+    "slug": "giovanni-sanfedele",
+    "living": true
+   },
+   {
+    "id": "@I274@",
+    "name": "Concetta Sanfedele",
+    "slug": "concetta-sanfedele",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Domenica Sanfedele & Luciano Ottaviano",
+  "head": "domenica-sanfedele",
+  "headId": "@I271@",
+  "spouse": {
+   "id": "@I275@",
+   "name": "Luciano Ottaviano",
+   "slug": "luciano-ottaviano",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I276@",
+    "name": "Marcello Ottaviano",
+    "slug": "marcello-ottaviano",
+    "living": true
+   },
+   {
+    "id": "@I277@",
+    "name": "Monica Ottaviano",
+    "slug": "monica-ottaviano",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Luciano Ottaviano & Domenica Sanfedele",
+  "head": "luciano-ottaviano",
+  "headId": "@I275@",
+  "spouse": {
+   "id": "@I271@",
+   "name": "Domenica Sanfedele",
+   "slug": "domenica-sanfedele",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I276@",
+    "name": "Marcello Ottaviano",
+    "slug": "marcello-ottaviano",
+    "living": true
+   },
+   {
+    "id": "@I277@",
+    "name": "Monica Ottaviano",
+    "slug": "monica-ottaviano",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Robert Bradaley Noble & Sailowama Quaiuci",
+  "head": "robert-bradaley-noble",
+  "headId": "@I287@",
+  "spouse": {
+   "id": "@I288@",
+   "name": "Sailowama Quaiuci",
+   "slug": "sailowama-quaiuci",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I278@",
+    "name": "Lynette Noble",
+    "slug": "lynette-noble",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Sailowama Quaiuci & Robert Bradaley Noble",
+  "head": "sailowama-quaiuci",
+  "headId": "@I288@",
+  "spouse": {
+   "id": "@I287@",
+   "name": "Robert Bradaley Noble",
+   "slug": "robert-bradaley-noble",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I278@",
+    "name": "Lynette Noble",
+    "slug": "lynette-noble",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Salvatore Poleo & Antonietta Trungadi",
+  "head": "salvatore-poleo",
+  "headId": "@I291@",
+  "spouse": {
+   "id": "@I68@",
+   "name": "Antonietta Trungadi",
+   "slug": "antonietta-trungadi",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I292@",
+    "name": "Sara Poleo",
+    "slug": "sara-poleo",
+    "living": true
+   },
+   {
+    "id": "@I293@",
+    "name": "Alice Poleo",
+    "slug": "alice-poleo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giuseppe Prostamo & Livia Pallariello",
+  "head": "giuseppe-prostamo-1927",
+  "headId": "@I300@",
+  "spouse": {
+   "id": "@I308@",
+   "name": "Livia Pallariello",
+   "slug": "livia-pallariello",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I309@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I310@",
+    "name": "Margarita Prostamo",
+    "slug": "margarita-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I311@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1952",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Francesco Prostamo & Raffaela",
+  "head": "francesco-prostamo",
+  "headId": "@I303@",
+  "spouse": {
+   "id": "@I319@",
+   "name": "Raffaela",
+   "slug": "raffaela",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I62@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo-1956",
+    "living": true
+   },
+   {
+    "id": "@I323@",
+    "name": "Antonia Prostamo",
+    "slug": "antonia-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Anna Delorenzo & Alfonso Prostamo",
+  "head": "anna-delorenzo",
+  "headId": "@I314@",
+  "spouse": {
+   "id": "@I301@",
+   "name": "Alfonso Prostamo",
+   "slug": "alfonso-prostamo-1918",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I315@",
+    "name": "Laura Prostamo",
+    "slug": "laura-prostamo-1953",
+    "living": true
+   },
+   {
+    "id": "@I316@",
+    "name": "Maria Teresa Prostamo",
+    "slug": "maria-teresa-prostamo",
+    "living": true
+   },
+   {
+    "id": "@I317@",
+    "name": "Domenico Prostamo",
+    "slug": "domenico-prostamo-1958",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Raffaela & Francesco Prostamo",
+  "head": "raffaela",
+  "headId": "@I319@",
+  "spouse": {
+   "id": "@I303@",
+   "name": "Francesco Prostamo",
+   "slug": "francesco-prostamo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I62@",
+    "name": "Maria Rosa Prostamo",
+    "slug": "maria-rosa-prostamo-1956",
+    "living": true
+   },
+   {
+    "id": "@I323@",
+    "name": "Antonia Prostamo",
+    "slug": "antonia-prostamo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Domenico Donato & Annunziata Sofi",
+  "head": "domenico-donato-2",
+  "headId": "@I355@",
+  "spouse": {
+   "id": "@I356@",
+   "name": "Annunziata Sofi",
+   "slug": "annunziata-sofi",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I122@",
+    "name": "Michele Donato",
+    "slug": "michele-donato",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Annunziata Sofi & Domenico Donato",
+  "head": "annunziata-sofi",
+  "headId": "@I356@",
+  "spouse": {
+   "id": "@I355@",
+   "name": "Domenico Donato",
+   "slug": "domenico-donato-2",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I122@",
+    "name": "Michele Donato",
+    "slug": "michele-donato",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "John Nicotra & Venera Cassaneti",
+  "head": "john-nicotra",
+  "headId": "@I358@",
+  "spouse": {
+   "id": "@I359@",
+   "name": "Venera Cassaneti",
+   "slug": "venera-cassaneti",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I525@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I5@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I500001@",
+    "name": "Antonina Nicotra",
+    "slug": "antonina-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I528@",
+    "name": "Angela Nicotra",
+    "slug": "angela-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I529@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I526@",
+    "name": "Venera Nicotra",
+    "slug": "venera-nicotra",
+    "living": true
+   },
+   {
+    "id": "@I527@",
+    "name": "Nina Nicotra",
+    "slug": "nina-nicotra",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Venera Cassaneti & John Nicotra",
+  "head": "venera-cassaneti",
+  "headId": "@I359@",
+  "spouse": {
+   "id": "@I358@",
+   "name": "John Nicotra",
+   "slug": "john-nicotra",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I525@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I5@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I500001@",
+    "name": "Antonina Nicotra",
+    "slug": "antonina-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I528@",
+    "name": "Angela Nicotra",
+    "slug": "angela-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I529@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra",
+    "living": false
+   },
+   {
+    "id": "@I526@",
+    "name": "Venera Nicotra",
+    "slug": "venera-nicotra",
+    "living": true
+   },
+   {
+    "id": "@I527@",
+    "name": "Nina Nicotra",
+    "slug": "nina-nicotra",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Reinhard Muller & Angela Mazza",
+  "head": "reinhard-muller",
+  "headId": "@I360@",
+  "spouse": {
+   "id": "@I27@",
+   "name": "Angela Mazza",
+   "slug": "angela-mazza",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I361@",
+    "name": "Josef Muller",
+    "slug": "josef-muller",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Stefanie D'Arcy & Michael Rocco Mazza",
+  "head": "stefanie-darcy",
+  "headId": "@I362@",
+  "spouse": {
+   "id": "@I26@",
+   "name": "Michael Rocco Mazza",
+   "slug": "michael-rocco-mazza",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I363@",
+    "name": "Mia Josephine Mazza",
+    "slug": "mia-josephine-mazza",
+    "living": true
+   },
+   {
+    "id": "@I364@",
+    "name": "Rocco Francesco Mazza",
+    "slug": "rocco-francesco-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Ian D'Arcy & Josephine Falco",
+  "head": "ian-darcy",
+  "headId": "@I365@",
+  "spouse": {
+   "id": "@I366@",
+   "name": "Josephine Falco",
+   "slug": "josephine-falco",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I362@",
+    "name": "Stefanie D'Arcy",
+    "slug": "stefanie-darcy",
+    "living": true
+   },
+   {
+    "id": "@I500004@",
+    "name": "Cristina D'Arcy",
+    "slug": "cristina-darcy",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Josephine Falco & Ian D'Arcy",
+  "head": "josephine-falco",
+  "headId": "@I366@",
+  "spouse": {
+   "id": "@I365@",
+   "name": "Ian D'Arcy",
+   "slug": "ian-darcy",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I362@",
+    "name": "Stefanie D'Arcy",
+    "slug": "stefanie-darcy",
+    "living": true
+   },
+   {
+    "id": "@I500004@",
+    "name": "Cristina D'Arcy",
+    "slug": "cristina-darcy",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Neal Muller & Irene Waters",
+  "head": "neal-muller",
+  "headId": "@I367@",
+  "spouse": {
+   "id": "@I368@",
+   "name": "Irene Waters",
+   "slug": "irene-waters",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I360@",
+    "name": "Reinhard Muller",
+    "slug": "reinhard-muller",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Irene Waters & Neal Muller",
+  "head": "irene-waters",
+  "headId": "@I368@",
+  "spouse": {
+   "id": "@I367@",
+   "name": "Neal Muller",
+   "slug": "neal-muller",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I360@",
+    "name": "Reinhard Muller",
+    "slug": "reinhard-muller",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giuseppe Arena",
+  "head": "giuseppe-arena-3",
+  "headId": "@I372@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I371@",
+    "name": "Orazio Arena",
+    "slug": "orazio-arena",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Antonio Anile & Carmela Collia",
+  "head": "antonio-anile-3",
+  "headId": "@I375@",
+  "spouse": {
+   "id": "@I377@",
+   "name": "Carmela Collia",
+   "slug": "carmela-collia",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I370@",
+    "name": "Francesco Anile",
+    "slug": "francesco-anile",
+    "living": false
+   },
+   {
+    "id": "@I376@",
+    "name": "Fortunato Anile",
+    "slug": "fortunato-anile",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Carmela Collia & Antonio Anile",
+  "head": "carmela-collia",
+  "headId": "@I377@",
+  "spouse": {
+   "id": "@I375@",
+   "name": "Antonio Anile",
+   "slug": "antonio-anile-3",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I370@",
+    "name": "Francesco Anile",
+    "slug": "francesco-anile",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Fortunato Anile & Antonia Grasso",
+  "head": "fortunato-anile-2",
+  "headId": "@I378@",
+  "spouse": {
+   "id": "@I379@",
+   "name": "Antonia Grasso",
+   "slug": "antonia-grasso",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I375@",
+    "name": "Antonio Anile",
+    "slug": "antonio-anile-3",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Domenica Birroca & Antonio Barbuto",
+  "head": "domenica-birroca",
+  "headId": "@I383@",
+  "spouse": {
+   "id": "@I382@",
+   "name": "Antonio Barbuto",
+   "slug": "antonio-barbuto",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I369@",
+    "name": "Saveria Barbuto",
+    "slug": "saveria-barbuto",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giuseppe Barbuto & Saveria Lesto",
+  "head": "giuseppe-barbuto",
+  "headId": "@I389@",
+  "spouse": {
+   "id": "@I390@",
+   "name": "Saveria Lesto",
+   "slug": "saveria-lesto",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I382@",
+    "name": "Antonio Barbuto",
+    "slug": "antonio-barbuto",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Saveria Lesto & Giuseppe Barbuto",
+  "head": "saveria-lesto",
+  "headId": "@I390@",
+  "spouse": {
+   "id": "@I389@",
+   "name": "Giuseppe Barbuto",
+   "slug": "giuseppe-barbuto",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I382@",
+    "name": "Antonio Barbuto",
+    "slug": "antonio-barbuto",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Leon Calahorra & Connie Armanno",
+  "head": "leon-calahorra",
+  "headId": "@I404@",
+  "spouse": {
+   "id": "@I12@",
+   "name": "Connie Armanno",
+   "slug": "connie-armanno",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I405@",
+    "name": "Stefanie Calahorra",
+    "slug": "stefanie-calahorra",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Pagano & Luciano Pagano",
+  "head": "maria-pagano",
+  "headId": "@I408@",
+  "spouse": {
+   "id": "@I350@",
+   "name": "Luciano Pagano",
+   "slug": "luciano-pagano",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I54@",
+    "name": "Angelina Pagano",
+    "slug": "angelina-pagano",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosa Vitrale & Fillipo Melluso",
+  "head": "rosa-vitrale",
+  "headId": "@I411@",
+  "spouse": {
+   "id": "@I410@",
+   "name": "Fillipo Melluso",
+   "slug": "fillipo-melluso",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I9@",
+    "name": "Domenico Melluso",
+    "slug": "domenico-melluso",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosa Polistena & Antonino Polistena",
+  "head": "rosa-polistena",
+  "headId": "@I412@",
+  "spouse": {
+   "id": "@I134@",
+   "name": "Antonino Polistena",
+   "slug": "antonino-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I413@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena-5",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giovanni Polistena & Maria Nostro",
+  "head": "giovanni-polistena-5",
+  "headId": "@I413@",
+  "spouse": {
+   "id": "@I489@",
+   "name": "Maria Nostro",
+   "slug": "maria-nostro",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I415@",
+    "name": "Rosanna Polistena",
+    "slug": "rosanna-polistena",
+    "living": true
+   },
+   {
+    "id": "@I414@",
+    "name": "Tonino Polistena",
+    "slug": "tonino-polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Tonino Polistena & Caterina Scaramano",
+  "head": "tonino-polistena",
+  "headId": "@I414@",
+  "spouse": {
+   "id": "@I458@",
+   "name": "Caterina Scaramano",
+   "slug": "caterina-scaramano",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I459@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena-6",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosanna Polistena & Giuseppe Paladino",
+  "head": "rosanna-polistena",
+  "headId": "@I415@",
+  "spouse": {
+   "id": "@I456@",
+   "name": "Giuseppe Paladino",
+   "slug": "giuseppe-paladino",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I457@",
+    "name": "Antonio",
+    "slug": "antonio",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giovanni Bova & Maria Polistena",
+  "head": "giovanni-bova",
+  "headId": "@I416@",
+  "spouse": {
+   "id": "@I135@",
+   "name": "Maria Polistena",
+   "slug": "maria-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I417@",
+    "name": "Maria Grazia Bova",
+    "slug": "maria-grazia-bova",
+    "living": false
+   },
+   {
+    "id": "@I418@",
+    "name": "Annunziata Bova",
+    "slug": "annunziata-bova",
+    "living": true
+   },
+   {
+    "id": "@I419@",
+    "name": "Antonio Bova",
+    "slug": "antonio-bova",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Annunziata Bova & Cosimo Scura",
+  "head": "annunziata-bova",
+  "headId": "@I418@",
+  "spouse": {
+   "id": "@I420@",
+   "name": "Cosimo Scura",
+   "slug": "cosimo-scura",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I421@",
+    "name": "Giovanni Scura",
+    "slug": "giovanni-scura",
+    "living": true
+   },
+   {
+    "id": "@I422@",
+    "name": "Francesco Scura",
+    "slug": "francesco-scura",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Antonio Bova & Enza Provvidenza",
+  "head": "antonio-bova",
+  "headId": "@I419@",
+  "spouse": {
+   "id": "@I423@",
+   "name": "Enza Provvidenza",
+   "slug": "enza-provvidenza",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I460@",
+    "name": "Aurora Bova",
+    "slug": "aurora-bova",
+    "living": true
+   },
+   {
+    "id": "@I461@",
+    "name": "Giovanni Bova",
+    "slug": "giovanni-bova-2",
+    "living": true
+   },
+   {
+    "id": "@I462@",
+    "name": "Marco Bova",
+    "slug": "marco-bova",
+    "living": true
+   },
+   {
+    "id": "@I424@",
+    "name": "Maria Ellena Bova",
+    "slug": "maria-ellena-bova",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Cosimo Scura & Annunziata Bova",
+  "head": "cosimo-scura",
+  "headId": "@I420@",
+  "spouse": {
+   "id": "@I418@",
+   "name": "Annunziata Bova",
+   "slug": "annunziata-bova",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I421@",
+    "name": "Giovanni Scura",
+    "slug": "giovanni-scura",
+    "living": true
+   },
+   {
+    "id": "@I422@",
+    "name": "Francesco Scura",
+    "slug": "francesco-scura",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Enza Provvidenza & Antonio Bova",
+  "head": "enza-provvidenza",
+  "headId": "@I423@",
+  "spouse": {
+   "id": "@I419@",
+   "name": "Antonio Bova",
+   "slug": "antonio-bova",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I460@",
+    "name": "Aurora Bova",
+    "slug": "aurora-bova",
+    "living": true
+   },
+   {
+    "id": "@I461@",
+    "name": "Giovanni Bova",
+    "slug": "giovanni-bova-2",
+    "living": true
+   },
+   {
+    "id": "@I462@",
+    "name": "Marco Bova",
+    "slug": "marco-bova",
+    "living": true
+   },
+   {
+    "id": "@I424@",
+    "name": "Maria Ellena Bova",
+    "slug": "maria-ellena-bova",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Teresa Donato & Michael Antonio Polistena",
+  "head": "teresa-donato",
+  "headId": "@I425@",
+  "spouse": {
+   "id": "@I137@",
+   "name": "Michael Antonio Polistena",
+   "slug": "michael-antonio-polistena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I427@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena-1957",
+    "living": true
+   },
+   {
+    "id": "@I426@",
+    "name": "Domenico Polistena",
+    "slug": "domenico-polistena",
+    "living": true
+   },
+   {
+    "id": "@I428@",
+    "name": "Antonio Polistena",
+    "slug": "antonio-polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giovanni Polistena & Alfina",
+  "head": "giovanni-polistena-1957",
+  "headId": "@I427@",
+  "spouse": {
+   "id": "@I429@",
+   "name": "Alfina",
+   "slug": "alfina",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I430@",
+    "name": "Jessica Polistena",
+    "slug": "jessica-polistena",
+    "living": true
+   },
+   {
+    "id": "@I431@",
+    "name": "Stefanie Polistena",
+    "slug": "stefanie-polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Antonio Polistena & Mary",
+  "head": "antonio-polistena",
+  "headId": "@I428@",
+  "spouse": {
+   "id": "@I432@",
+   "name": "Mary",
+   "slug": "mary",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I433@",
+    "name": "Natalie Polistena",
+    "slug": "natalie-polistena",
+    "living": true
+   },
+   {
+    "id": "@I434@",
+    "name": "Michael Polistena",
+    "slug": "michael-polistena",
+    "living": true
+   },
+   {
+    "id": "@I435@",
+    "name": "Rebecca Polistena",
+    "slug": "rebecca-polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Alfina & Giovanni Polistena",
+  "head": "alfina",
+  "headId": "@I429@",
+  "spouse": {
+   "id": "@I427@",
+   "name": "Giovanni Polistena",
+   "slug": "giovanni-polistena-1957",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I430@",
+    "name": "Jessica Polistena",
+    "slug": "jessica-polistena",
+    "living": true
+   },
+   {
+    "id": "@I431@",
+    "name": "Stefanie Polistena",
+    "slug": "stefanie-polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Mary & Antonio Polistena",
+  "head": "mary",
+  "headId": "@I432@",
+  "spouse": {
+   "id": "@I428@",
+   "name": "Antonio Polistena",
+   "slug": "antonio-polistena",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I433@",
+    "name": "Natalie Polistena",
+    "slug": "natalie-polistena",
+    "living": true
+   },
+   {
+    "id": "@I434@",
+    "name": "Michael Polistena",
+    "slug": "michael-polistena",
+    "living": true
+   },
+   {
+    "id": "@I435@",
+    "name": "Rebecca Polistena",
+    "slug": "rebecca-polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Salvatore & Santa Donato",
+  "head": "salvatore",
+  "headId": "@I437@",
+  "spouse": {
+   "id": "@I257@",
+   "name": "Santa Donato",
+   "slug": "santa-donato",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I438@",
+    "name": "Peppe Donato",
+    "slug": "peppe-donato",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosina & Domenico Donato",
+  "head": "rosina",
+  "headId": "@I439@",
+  "spouse": {
+   "id": "@I256@",
+   "name": "Domenico Donato",
+   "slug": "domenico-donato",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I440@",
+    "name": "Micelle Donato",
+    "slug": "micelle-donato",
+    "living": true
+   },
+   {
+    "id": "@I441@",
+    "name": "Peppino Donato",
+    "slug": "peppino-donato",
+    "living": true
+   },
+   {
+    "id": "@I442@",
+    "name": "Teresa Donato",
+    "slug": "teresa-donato-2",
+    "living": true
+   },
+   {
+    "id": "@I443@",
+    "name": "Giovanni Donato",
+    "slug": "giovanni-donato-3",
+    "living": true
+   },
+   {
+    "id": "@I444@",
+    "name": "Tattina Donato",
+    "slug": "tattina-donato",
+    "living": true
+   },
+   {
+    "id": "@I445@",
+    "name": "Madelena Donato",
+    "slug": "madelena-donato",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria & Fransceco Polistena",
+  "head": "maria",
+  "headId": "@I446@",
+  "spouse": {
+   "id": "@I138@",
+   "name": "Fransceco Polistena",
+   "slug": "fransceco-polistena",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I447@",
+    "name": "Camillo Polistena",
+    "slug": "camillo-polistena",
+    "living": true
+   },
+   {
+    "id": "@I448@",
+    "name": "Giovanna Polistena",
+    "slug": "giovanna-polistena-2",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Camillo Polistena & Pauline",
+  "head": "camillo-polistena",
+  "headId": "@I447@",
+  "spouse": {
+   "id": "@I449@",
+   "name": "Pauline",
+   "slug": "pauline",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I450@",
+    "name": "Francesco Polistena",
+    "slug": "francesco-polistena",
+    "living": true
+   },
+   {
+    "id": "@I451@",
+    "name": "Polistena",
+    "slug": "polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Pauline & Camillo Polistena",
+  "head": "pauline",
+  "headId": "@I449@",
+  "spouse": {
+   "id": "@I447@",
+   "name": "Camillo Polistena",
+   "slug": "camillo-polistena",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I450@",
+    "name": "Francesco Polistena",
+    "slug": "francesco-polistena",
+    "living": true
+   },
+   {
+    "id": "@I451@",
+    "name": "Polistena",
+    "slug": "polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Petro Bova",
+  "head": "petro-bova",
+  "headId": "@I454@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I154@",
+    "name": "Rocco Bova",
+    "slug": "rocco-bova",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giovana Zirilli & Orazio Arena",
+  "head": "giovana-zirilli",
+  "headId": "@I455@",
+  "spouse": {
+   "id": "@I371@",
+   "name": "Orazio Arena",
+   "slug": "orazio-arena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I248@",
+    "name": "Rocco Arena",
+    "slug": "rocco-arena",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giuseppe Paladino & Rosanna Polistena",
+  "head": "giuseppe-paladino",
+  "headId": "@I456@",
+  "spouse": {
+   "id": "@I415@",
+   "name": "Rosanna Polistena",
+   "slug": "rosanna-polistena",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I457@",
+    "name": "Antonio",
+    "slug": "antonio",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Caterina Scaramano & Tonino Polistena",
+  "head": "caterina-scaramano",
+  "headId": "@I458@",
+  "spouse": {
+   "id": "@I414@",
+   "name": "Tonino Polistena",
+   "slug": "tonino-polistena",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I459@",
+    "name": "Giovanni Polistena",
+    "slug": "giovanni-polistena-6",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giovanna & Giovanni Arena",
+  "head": "giovanna",
+  "headId": "@I464@",
+  "spouse": {
+   "id": "@I250@",
+   "name": "Giovanni Arena",
+   "slug": "giovanni-arena-1922",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I465@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-4",
+    "living": true
+   },
+   {
+    "id": "@I466@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-3",
+    "living": true
+   },
+   {
+    "id": "@I467@",
+    "name": "Virgole Arena",
+    "slug": "virgole-arena",
+    "living": true
+   },
+   {
+    "id": "@I468@",
+    "name": "Auora Arena",
+    "slug": "auora-arena",
+    "living": true
+   },
+   {
+    "id": "@I469@",
+    "name": "Annunciata Arena",
+    "slug": "annunciata-arena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Russo & Antonio Arena",
+  "head": "maria-russo",
+  "headId": "@I470@",
+  "spouse": {
+   "id": "@I251@",
+   "name": "Antonio Arena",
+   "slug": "antonio-arena-1926",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I471@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-5",
+    "living": true
+   },
+   {
+    "id": "@I472@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-4",
+    "living": true
+   },
+   {
+    "id": "@I473@",
+    "name": "Rocco Arena",
+    "slug": "rocco-arena-3",
+    "living": true
+   },
+   {
+    "id": "@I474@",
+    "name": "Clemente Arena",
+    "slug": "clemente-arena-3",
+    "living": true
+   },
+   {
+    "id": "@I475@",
+    "name": "Giovanni Arena",
+    "slug": "giovanni-arena-3",
+    "living": true
+   },
+   {
+    "id": "@I476@",
+    "name": "Francesco Arena",
+    "slug": "francesco-arena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Carmella & Clemente Arena",
+  "head": "carmella",
+  "headId": "@I477@",
+  "spouse": {
+   "id": "@I252@",
+   "name": "Clemente Arena",
+   "slug": "clemente-arena",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I478@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-6",
+    "living": true
+   },
+   {
+    "id": "@I479@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-5",
+    "living": true
+   },
+   {
+    "id": "@I480@",
+    "name": "Rocco Arena",
+    "slug": "rocco-arena-4",
+    "living": true
+   },
+   {
+    "id": "@I481@",
+    "name": "Tina Arena",
+    "slug": "tina-arena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Peppina Arena & Giuseppe Arena",
+  "head": "peppina-arena",
+  "headId": "@I484@",
+  "spouse": {
+   "id": "@I253@",
+   "name": "Giuseppe Arena",
+   "slug": "giuseppe-arena-1932",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I486@",
+    "name": "Anna Arena",
+    "slug": "anna-arena-6",
+    "living": true
+   },
+   {
+    "id": "@I485@",
+    "name": "Francesco Arena",
+    "slug": "francesco-arena-2",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Nostro & Giovanni Polistena",
+  "head": "maria-nostro",
+  "headId": "@I489@",
+  "spouse": {
+   "id": "@I413@",
+   "name": "Giovanni Polistena",
+   "slug": "giovanni-polistena-5",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I415@",
+    "name": "Rosanna Polistena",
+    "slug": "rosanna-polistena",
+    "living": true
+   },
+   {
+    "id": "@I414@",
+    "name": "Tonino Polistena",
+    "slug": "tonino-polistena",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "leonardo Mazza",
+  "head": "leonardo-mazza-2",
+  "headId": "@I491@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I499@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-3",
+    "living": true
+   },
+   {
+    "id": "@I500@",
+    "name": "Rosa Mazza",
+    "slug": "rosa-mazza",
+    "living": true
+   },
+   {
+    "id": "@I501@",
+    "name": "Antonina Mazza",
+    "slug": "antonina-mazza",
+    "living": true
+   },
+   {
+    "id": "@I502@",
+    "name": "Orazio Mazza",
+    "slug": "orazio-mazza-2",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "leonarda Mazza",
+  "head": "leonarda-mazza-2",
+  "headId": "@I492@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I496@",
+    "name": "Rosario",
+    "slug": "rosario",
+    "living": true
+   },
+   {
+    "id": "@I494@",
+    "name": "Sudora",
+    "slug": "sudora",
+    "living": true
+   },
+   {
+    "id": "@I495@",
+    "name": "Gaetano",
+    "slug": "gaetano",
+    "living": true
+   },
+   {
+    "id": "@I497@",
+    "name": "Concetto",
+    "slug": "concetto",
+    "living": true
+   },
+   {
+    "id": "@I498@",
+    "name": "Giuseppa Mazza",
+    "slug": "giuseppa-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosario Mazza & Anna Cassanite",
+  "head": "rosario-mazza-4",
+  "headId": "@I493@",
+  "spouse": {
+   "id": "@I537@",
+   "name": "Anna Cassanite",
+   "slug": "anna-cassanite",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I538@",
+    "name": "Nina Mazza",
+    "slug": "nina-mazza",
+    "living": true
+   },
+   {
+    "id": "@I539@",
+    "name": "Rosa Curcuruto Mazza",
+    "slug": "rosa-curcuruto-mazza",
+    "living": false
+   },
+   {
+    "id": "@I540@",
+    "name": "Gaetana Mazza",
+    "slug": "gaetana-mazza",
+    "living": true
+   },
+   {
+    "id": "@I541@",
+    "name": "Carmela Mazza",
+    "slug": "carmela-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I542@",
+    "name": "Orazio Mazza",
+    "slug": "orazio-mazza-3",
+    "living": true
+   },
+   {
+    "id": "@I543@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-3",
+    "living": true
+   },
+   {
+    "id": "@I544@",
+    "name": "Gina Mazza",
+    "slug": "gina-mazza",
+    "living": true
+   },
+   {
+    "id": "@I587@",
+    "name": "Ivan Mazza",
+    "slug": "ivan-mazza",
+    "living": true
+   },
+   {
+    "id": "@I588@",
+    "name": "Alessandro Mazza",
+    "slug": "alessandro-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Sudora",
+  "head": "sudora",
+  "headId": "@I494@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I503@",
+    "name": "Rosa",
+    "slug": "rosa",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosario",
+  "head": "rosario",
+  "headId": "@I496@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I504@",
+    "name": "Paolo",
+    "slug": "paolo",
+    "living": true
+   },
+   {
+    "id": "@I505@",
+    "name": "Angelo",
+    "slug": "angelo",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giuseppa Mazza",
+  "head": "giuseppa-mazza",
+  "headId": "@I498@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I506@",
+    "name": "Umberto Mazza",
+    "slug": "umberto-mazza",
+    "living": true
+   },
+   {
+    "id": "@I507@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I508@",
+    "name": "Gerardo Mazza",
+    "slug": "gerardo-mazza",
+    "living": true
+   },
+   {
+    "id": "@I509@",
+    "name": "Paolo Mazza",
+    "slug": "paolo-mazza",
+    "living": true
+   },
+   {
+    "id": "@I510@",
+    "name": "Pietro Mazza",
+    "slug": "pietro-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Salvatore Mazza",
+  "head": "salvatore-mazza-3",
+  "headId": "@I499@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I520@",
+    "name": "Leonardo Mazza",
+    "slug": "leonardo-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosa Mazza",
+  "head": "rosa-mazza",
+  "headId": "@I500@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I513@",
+    "name": "Giuseppina Mazza",
+    "slug": "giuseppina-mazza",
+    "living": true
+   },
+   {
+    "id": "@I514@",
+    "name": "Graziella Mazza",
+    "slug": "graziella-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Antonina Mazza & Raiti",
+  "head": "antonina-mazza",
+  "headId": "@I501@",
+  "spouse": {
+   "id": "@I518@",
+   "name": "Raiti",
+   "slug": "raiti",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I519@",
+    "name": "Rosaria Raiti",
+    "slug": "rosaria-raiti",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Orazio Mazza",
+  "head": "orazio-mazza-2",
+  "headId": "@I502@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I515@",
+    "name": "Valeria Mazza",
+    "slug": "valeria-mazza",
+    "living": true
+   },
+   {
+    "id": "@I516@",
+    "name": "Leo Mazza",
+    "slug": "leo-mazza",
+    "living": true
+   },
+   {
+    "id": "@I517@",
+    "name": "Francesca Mazza",
+    "slug": "francesca-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Mazza",
+  "head": "maria-mazza-2",
+  "headId": "@I507@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I511@",
+    "name": "Serena Mazza",
+    "slug": "serena-mazza",
+    "living": true
+   },
+   {
+    "id": "@I512@",
+    "name": "Umberto Mazza",
+    "slug": "umberto-mazza-2",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Raiti & Antonina Mazza",
+  "head": "raiti",
+  "headId": "@I518@",
+  "spouse": {
+   "id": "@I501@",
+   "name": "Antonina Mazza",
+   "slug": "antonina-mazza",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I519@",
+    "name": "Rosaria Raiti",
+    "slug": "rosaria-raiti",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Luciano Cavallaro & Francesca Barbargallo",
+  "head": "luciano-cavallaro-2",
+  "headId": "@I521@",
+  "spouse": {
+   "id": "@I522@",
+   "name": "Francesca Barbargallo",
+   "slug": "francesca-barbargallo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I76@",
+    "name": "Mariano Cavallaro",
+    "slug": "mariano-cavallaro",
+    "living": false
+   },
+   {
+    "id": "@I523@",
+    "name": "Alfio Cavallaro",
+    "slug": "alfio-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I532@",
+    "name": "Maria Cavallaro",
+    "slug": "maria-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I533@",
+    "name": "Anna Cavallaro",
+    "slug": "anna-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I534@",
+    "name": "Peppina Cavallaro",
+    "slug": "peppina-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I535@",
+    "name": "Vita Cavallaro",
+    "slug": "vita-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I536@",
+    "name": "Vernera Cavallaro",
+    "slug": "vernera-cavallaro",
+    "living": true
+   }
+  ],
+  "place": "Mascali, Catania, Sicily",
+  "born": null
+ },
+ {
+  "name": "Francesca Barbargallo & Luciano Cavallaro",
+  "head": "francesca-barbargallo",
+  "headId": "@I522@",
+  "spouse": {
+   "id": "@I521@",
+   "name": "Luciano Cavallaro",
+   "slug": "luciano-cavallaro-2",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I76@",
+    "name": "Mariano Cavallaro",
+    "slug": "mariano-cavallaro",
+    "living": false
+   },
+   {
+    "id": "@I523@",
+    "name": "Alfio Cavallaro",
+    "slug": "alfio-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I532@",
+    "name": "Maria Cavallaro",
+    "slug": "maria-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I533@",
+    "name": "Anna Cavallaro",
+    "slug": "anna-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I534@",
+    "name": "Peppina Cavallaro",
+    "slug": "peppina-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I535@",
+    "name": "Vita Cavallaro",
+    "slug": "vita-cavallaro",
+    "living": true
+   },
+   {
+    "id": "@I536@",
+    "name": "Vernera Cavallaro",
+    "slug": "vernera-cavallaro",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Alfio Cavallaro",
+  "head": "alfio-cavallaro",
+  "headId": "@I523@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I524@",
+    "name": "Luciano Cavallaro",
+    "slug": "luciano-cavallaro-3",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosa 1 st wife & Orazio Mazza",
+  "head": "rosa-1-st-wife",
+  "headId": "@I530@",
+  "spouse": {
+   "id": "@I159@",
+   "name": "Orazio Mazza",
+   "slug": "orazio-mazza",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I490@",
+    "name": "Mariano Mazza",
+    "slug": "mariano-mazza",
+    "living": true
+   },
+   {
+    "id": "@I491@",
+    "name": "leonardo Mazza",
+    "slug": "leonardo-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I492@",
+    "name": "leonarda Mazza",
+    "slug": "leonarda-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I493@",
+    "name": "Rosario Mazza",
+    "slug": "rosario-mazza-4",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria 2nd Wife & Orazio Mazza",
+  "head": "maria-2nd-wife",
+  "headId": "@I531@",
+  "spouse": {
+   "id": "@I159@",
+   "name": "Orazio Mazza",
+   "slug": "orazio-mazza",
+   "living": false
+  },
+  "children": [
+   {
+    "id": "@I545@",
+    "name": "Grazia Mazza",
+    "slug": "grazia-mazza",
+    "living": true
+   },
+   {
+    "id": "@I546@",
+    "name": "Lucia Mazza",
+    "slug": "lucia-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Anna Cassanite & Rosario Mazza",
+  "head": "anna-cassanite",
+  "headId": "@I537@",
+  "spouse": {
+   "id": "@I493@",
+   "name": "Rosario Mazza",
+   "slug": "rosario-mazza-4",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I538@",
+    "name": "Nina Mazza",
+    "slug": "nina-mazza",
+    "living": true
+   },
+   {
+    "id": "@I539@",
+    "name": "Rosa Curcuruto Mazza",
+    "slug": "rosa-curcuruto-mazza",
+    "living": false
+   },
+   {
+    "id": "@I540@",
+    "name": "Gaetana Mazza",
+    "slug": "gaetana-mazza",
+    "living": true
+   },
+   {
+    "id": "@I541@",
+    "name": "Carmela Mazza",
+    "slug": "carmela-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I542@",
+    "name": "Orazio Mazza",
+    "slug": "orazio-mazza-3",
+    "living": true
+   },
+   {
+    "id": "@I543@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-3",
+    "living": true
+   },
+   {
+    "id": "@I544@",
+    "name": "Gina Mazza",
+    "slug": "gina-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Nina Mazza",
+  "head": "nina-mazza",
+  "headId": "@I538@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I570@",
+    "name": "Anna Mazza",
+    "slug": "anna-mazza",
+    "living": true
+   },
+   {
+    "id": "@I571@",
+    "name": "Rosario Mazza",
+    "slug": "rosario-mazza-5",
+    "living": true
+   },
+   {
+    "id": "@I572@",
+    "name": "Lorenza Mazza",
+    "slug": "lorenza-mazza",
+    "living": true
+   },
+   {
+    "id": "@I573@",
+    "name": "Angelo Mazza",
+    "slug": "angelo-mazza-2",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosa Curcuruto Mazza",
+  "head": "rosa-curcuruto-mazza",
+  "headId": "@I539@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I561@",
+    "name": "Angela Mazza",
+    "slug": "angela-mazza-2",
+    "living": false
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Gaetana Mazza",
+  "head": "gaetana-mazza",
+  "headId": "@I540@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I566@",
+    "name": "Giovanni Mazza",
+    "slug": "giovanni-mazza-4",
+    "living": true
+   },
+   {
+    "id": "@I567@",
+    "name": "Antonella Mazza",
+    "slug": "antonella-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Orazio Mazza",
+  "head": "orazio-mazza-3",
+  "headId": "@I542@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I493@",
+    "name": "Rosario Mazza",
+    "slug": "rosario-mazza-4",
+    "living": true
+   },
+   {
+    "id": "@I585@",
+    "name": "Annalisa Mazza",
+    "slug": "annalisa-mazza",
+    "living": true
+   },
+   {
+    "id": "@I586@",
+    "name": "Alberto Mazza",
+    "slug": "alberto-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Mazza",
+  "head": "maria-mazza-3",
+  "headId": "@I543@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I592@",
+    "name": "Sabina Mazza",
+    "slug": "sabina-mazza",
+    "living": true
+   },
+   {
+    "id": "@I593@",
+    "name": "Luigi Mazza",
+    "slug": "luigi-mazza",
+    "living": true
+   },
+   {
+    "id": "@I594@",
+    "name": "Alessandro Mazza",
+    "slug": "alessandro-mazza-2",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Gina Mazza",
+  "head": "gina-mazza",
+  "headId": "@I544@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I600@",
+    "name": "Roberto Mazza",
+    "slug": "roberto-mazza",
+    "living": true
+   },
+   {
+    "id": "@I601@",
+    "name": "Egidio Mazza",
+    "slug": "egidio-mazza",
+    "living": true
+   },
+   {
+    "id": "@I602@",
+    "name": "Gianluca Mazza",
+    "slug": "gianluca-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Grazia Mazza",
+  "head": "grazia-mazza",
+  "headId": "@I545@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I552@",
+    "name": "Pina Mazza",
+    "slug": "pina-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I553@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-5",
+    "living": true
+   },
+   {
+    "id": "@I554@",
+    "name": "Sebestiano Mazza",
+    "slug": "sebestiano-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Lucia Mazza",
+  "head": "lucia-mazza",
+  "headId": "@I546@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I547@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-4",
+    "living": true
+   },
+   {
+    "id": "@I548@",
+    "name": "Orazio Mazza",
+    "slug": "orazio-mazza-4",
+    "living": true
+   },
+   {
+    "id": "@I549@",
+    "name": "Seby Mazza",
+    "slug": "seby-mazza",
+    "living": true
+   },
+   {
+    "id": "@I550@",
+    "name": "Pina Mazza",
+    "slug": "pina-mazza",
+    "living": true
+   },
+   {
+    "id": "@I551@",
+    "name": "Alfio Mazza",
+    "slug": "alfio-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Pina Mazza & Sebastiano Barbagallo",
+  "head": "pina-mazza-2",
+  "headId": "@I552@",
+  "spouse": {
+   "id": "@I609@",
+   "name": "Sebastiano Barbagallo",
+   "slug": "sebastiano-barbagallo",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I555@",
+    "name": "Leo Mazza",
+    "slug": "leo-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I556@",
+    "name": "Vera Mazza",
+    "slug": "vera-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Mazza",
+  "head": "maria-mazza-5",
+  "headId": "@I553@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I557@",
+    "name": "Maragrazia Mazza",
+    "slug": "maragrazia-mazza",
+    "living": true
+   },
+   {
+    "id": "@I558@",
+    "name": "Stefania Mazza",
+    "slug": "stefania-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Sebestiano Mazza",
+  "head": "sebestiano-mazza",
+  "headId": "@I554@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I559@",
+    "name": "Giovanni Lungo",
+    "slug": "giovanni-lungo",
+    "living": true
+   },
+   {
+    "id": "@I560@",
+    "name": "F Mazza",
+    "slug": "f-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Vera Mazza & Tonino Mazzaro",
+  "head": "vera-mazza",
+  "headId": "@I556@",
+  "spouse": {
+   "id": "@I606@",
+   "name": "Tonino Mazzaro",
+   "slug": "tonino-mazzaro",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I607@",
+    "name": "Fabiana Mazzaro",
+    "slug": "fabiana-mazzaro",
+    "living": true
+   },
+   {
+    "id": "@I608@",
+    "name": "Mazzaro",
+    "slug": "mazzaro",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Angela Mazza",
+  "head": "angela-mazza-2",
+  "headId": "@I561@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I562@",
+    "name": "Rosalia Mazza",
+    "slug": "rosalia-mazza",
+    "living": true
+   },
+   {
+    "id": "@I563@",
+    "name": "Filippo Mazza",
+    "slug": "filippo-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Filippo Mazza",
+  "head": "filippo-mazza",
+  "headId": "@I563@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I564@",
+    "name": "Angelo Mazza",
+    "slug": "angelo-mazza",
+    "living": true
+   },
+   {
+    "id": "@I565@",
+    "name": "Cristian Mazza",
+    "slug": "cristian-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giovanni Mazza",
+  "head": "giovanni-mazza-4",
+  "headId": "@I566@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I568@",
+    "name": "Valentina Mazza",
+    "slug": "valentina-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Antonella Mazza",
+  "head": "antonella-mazza",
+  "headId": "@I567@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I569@",
+    "name": "Cristian Mazza",
+    "slug": "cristian-mazza-2",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Anna Mazza",
+  "head": "anna-mazza",
+  "headId": "@I570@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I582@",
+    "name": "Francesca Mazza",
+    "slug": "francesca-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I583@",
+    "name": "Riccardo Mazza",
+    "slug": "riccardo-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Rosario Mazza",
+  "head": "rosario-mazza-5",
+  "headId": "@I571@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I579@",
+    "name": "Federica Mazza",
+    "slug": "federica-mazza",
+    "living": true
+   },
+   {
+    "id": "@I580@",
+    "name": "Alessia Mazza",
+    "slug": "alessia-mazza",
+    "living": true
+   },
+   {
+    "id": "@I581@",
+    "name": "Sofia Mazza",
+    "slug": "sofia-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Lorenza Mazza",
+  "head": "lorenza-mazza",
+  "headId": "@I572@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I577@",
+    "name": "Nando Mazza",
+    "slug": "nando-mazza",
+    "living": true
+   },
+   {
+    "id": "@I578@",
+    "name": "Fabio Mazza",
+    "slug": "fabio-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Angelo Mazza",
+  "head": "angelo-mazza-2",
+  "headId": "@I573@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I574@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-4",
+    "living": true
+   },
+   {
+    "id": "@I575@",
+    "name": "Lorenzo Mazza",
+    "slug": "lorenzo-mazza",
+    "living": true
+   },
+   {
+    "id": "@I576@",
+    "name": "Andrea Mazza",
+    "slug": "andrea-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Annalisa Mazza",
+  "head": "annalisa-mazza",
+  "headId": "@I585@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I589@",
+    "name": "Greta Mazza",
+    "slug": "greta-mazza",
+    "living": true
+   },
+   {
+    "id": "@I590@",
+    "name": "Emilio Mazza",
+    "slug": "emilio-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Alberto Mazza",
+  "head": "alberto-mazza",
+  "headId": "@I586@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I591@",
+    "name": "Tommaso Mazza",
+    "slug": "tommaso-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Luigi Mazza",
+  "head": "luigi-mazza",
+  "headId": "@I593@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I595@",
+    "name": "Davide Mazza",
+    "slug": "davide-mazza",
+    "living": true
+   },
+   {
+    "id": "@I596@",
+    "name": "Daniele Mazza",
+    "slug": "daniele-mazza",
+    "living": true
+   },
+   {
+    "id": "@I597@",
+    "name": "Gabriele Mazza",
+    "slug": "gabriele-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Alessandro Mazza",
+  "head": "alessandro-mazza-2",
+  "headId": "@I594@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I598@",
+    "name": "Chiara Mazza",
+    "slug": "chiara-mazza",
+    "living": true
+   },
+   {
+    "id": "@I599@",
+    "name": "Cristina Mazza",
+    "slug": "cristina-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Roberto Mazza",
+  "head": "roberto-mazza",
+  "headId": "@I600@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I605@",
+    "name": "Carola Mazza",
+    "slug": "carola-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Gianluca Mazza",
+  "head": "gianluca-mazza",
+  "headId": "@I602@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I603@",
+    "name": "Francesco Mazza",
+    "slug": "francesco-mazza",
+    "living": true
+   },
+   {
+    "id": "@I604@",
+    "name": "Mazza",
+    "slug": "mazza-3",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Tonino Mazzaro & Vera Mazza",
+  "head": "tonino-mazzaro",
+  "headId": "@I606@",
+  "spouse": {
+   "id": "@I556@",
+   "name": "Vera Mazza",
+   "slug": "vera-mazza",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I607@",
+    "name": "Fabiana Mazzaro",
+    "slug": "fabiana-mazzaro",
+    "living": true
+   },
+   {
+    "id": "@I608@",
+    "name": "Mazzaro",
+    "slug": "mazzaro",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Sebastiano Barbagallo & Pina Mazza",
+  "head": "sebastiano-barbagallo",
+  "headId": "@I609@",
+  "spouse": {
+   "id": "@I552@",
+   "name": "Pina Mazza",
+   "slug": "pina-mazza-2",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I555@",
+    "name": "Leo Mazza",
+    "slug": "leo-mazza-2",
+    "living": true
+   },
+   {
+    "id": "@I556@",
+    "name": "Vera Mazza",
+    "slug": "vera-mazza",
+    "living": true
+   }
+  ],
+  "place": "",
+  "born": null
+ }
+]

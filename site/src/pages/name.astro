@@ -1,0 +1,67 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import families from "../data/families.json";
+const f = (s) => families.find((x) => x.surname === s) || { n: 0 };
+const rows = ["Mazza", "Prostamo", "Polistena", "Arena", "Nicotra", "Melluso", "Anile", "Donato", "Cavallaro", "Bova"];
+---
+<Base title="The Name" eyebrow="Mazza, and the nine names around it"
+      dek="What the surnames in this archive mean, roughly how common they are, and — the useful part — how much that tells you about whether two people who share one are related.">
+
+  <section class="blk">
+    <h2>Mazza</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><em>Mazza</em> is the Italian for a club, a mace or a mallet, from the Latin <em>mattea</em>.
+      As a surname it was coined in all the usual ways at once: as a nickname for a strong or a
+      violent man, as a trade name for someone who worked with a mallet or a maul, and — most often —
+      from the medieval personal name <em>Mazzo</em>, itself a short form of names like Giacomazzo and
+      Tommazzo.</p>
+      <p>It is one of the most widespread surnames in Italy, found from Lombardy to Sicily, and
+      <strong>it was coined independently many times over</strong>. There is no founding Mazza family.
+      Two Mazza households in the same Sicilian town are much more likely to be related than two Mazza
+      in different provinces — but "much more likely" is a probability, and this archive does not
+      publish probabilities as descents. That is precisely the situation at
+      <a href={u("/piedimonte-etneo")}>Piedimonte Etneo</a>, where {f("Mazza").n} Mazza sit in two
+      groups that no record joins.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The others</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Here</th><th>Where it belongs</th><th>What it is</th></tr></thead>
+        <tbody>
+          <tr><td>Prostamo</td><td class="m">{f("Prostamo").n}</td><td>Briatico, Vibo Valentia</td>
+            <td><strong>Rare, and concentrated.</strong> Almost the whole Italian distribution sits in a few Calabrian comuni around Vibo Valentia. A rare surname in one small place is the best gift a genealogist gets: two Prostamo of Briatico almost certainly <em>are</em> related.</td></tr>
+          <tr><td>Polistena</td><td class="m">{f("Polistena").n}</td><td>Scilla, Reggio Calabria</td>
+            <td>A <strong>toponymic</strong> — from the town of Polistena in the province of Reggio Calabria. It marks a family that moved <em>from</em> there, and was named for having done so.</td></tr>
+          <tr><td>Arena</td><td class="m">{f("Arena").n}</td><td>Scilla, Reggio Calabria</td>
+            <td>Very common across Calabria and Sicily; from <em>arena</em>, sand — a place-name element. Common enough that a shared Arena surname is worth nothing on its own. The archive holds four undated Giuseppe Arena and keeps them apart.</td></tr>
+          <tr><td>Nicotra</td><td class="m">{f("Nicotra").n}</td><td>Piedimonte Etneo, Catania</td>
+            <td>Strongly eastern Sicilian, and heavily concentrated around Catania — which is exactly where this archive finds it.</td></tr>
+          <tr><td>Melluso</td><td class="m">{f("Melluso").n}</td><td>Briatico</td>
+            <td>Southern, both Sicilian and Calabrian; probably from <em>mele</em>, honey, or a diminutive of a personal name.</td></tr>
+          <tr><td>Anile</td><td class="m">{f("Anile").n}</td><td>Briatico / Potenzoni</td>
+            <td>Calabrian and uncommon, clustered in the Vibo Valentia area.</td></tr>
+          <tr><td>Donato</td><td class="m">{f("Donato").n}</td><td>Scilla</td>
+            <td>From the personal name Donato — "given". Common everywhere in the south.</td></tr>
+          <tr><td>Cavallaro</td><td class="m">{f("Cavallaro").n}</td><td>Scilla / Brisbane</td>
+            <td>A trade name: a horseman, a groom, a keeper of horses.</td></tr>
+          <tr><td>Bova</td><td class="m">{f("Bova").n}</td><td>Reggio Calabria</td>
+            <td>Another toponymic — Bova is a Greek-speaking comune in the far south of Calabria.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Why this page exists</h2>
+    <p class="dek" style="margin-top:.8rem">Because the single commonest error in family history is
+    treating a surname as a family. It is not one. It is a label that was attached, independently, to
+    unrelated people, in different centuries, for different reasons — and then inherited. The useful
+    question is never "are they both Mazza?" It is <strong>"how rare is the name, and how small is the
+    place?"</strong> By that measure the strongest evidence in this archive belongs not to Mazza at all
+    but to <strong>Prostamo of Briatico</strong>: a rare name in one comune, eight generations deep.</p>
+  </section>
+</Base>

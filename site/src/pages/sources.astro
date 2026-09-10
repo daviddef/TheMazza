@@ -1,0 +1,70 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import stats from "../data/stats.json";
+const cited = [
+  ["The family tree", [
+    ["Mazza Family Tree, MyHeritage", "Exported 9 September 2026 from the Defranceski family site. 614 individuals, 212 families, 133 photographs. Contributed by Michael Mazza and relatives.", "The spine of this archive, and the thing every other source is being used to test."],
+  ]],
+  ["United States records (via Ancestry indexes cited in the tree)", [
+    ["New York Passenger Lists, 1820–1957", "", "The 1906 and 1913 arrivals of the Melluso, Anile and Arena."],
+    ["New York, New York — Birth, Marriage and Death indexes, 1862–1965", "Six separate index series.", "Maria Rosa Melluso's New York birth, 14 October 1907; the Anile marriage of 21 December 1907 at Manhattan."],
+    ["United States Federal Census, 1900 · 1920 · 1930 · 1940 · 1950", "", "The American households of the first wave."],
+    ["U.S. World War II Draft Registration Cards, 1942; Army Enlistment Records, 1938–1946", "", "The Polistena servicemen buried at Arneytown."],
+    ["Social Security Death Index; U.S. Public Records Index; Naturalization Records Indexes", "", "American deaths and naturalisations."],
+    ["New Orleans, Louisiana Passenger Lists, 1813–1963", "", "Michele Donato, 11 March 1908, out of Palermo."],
+    ["Florida Arriving and Departing Passenger Lists, 1898–1963", "", "Francesco Melluso, Miami, 18 June 1961."],
+  ]],
+  ["Australian records (via Ancestry indexes cited in the tree)", [
+    ["Australia, Death Index, 1787–1985", "", "Queensland deaths."],
+    ["Australia Cemetery Index, 1808–2007; Find a Grave Index", "", "The Nudgee burials."],
+    ["Australia, Electoral Rolls, 1903–1980", "", "Addresses and occupations after arrival."],
+    ["Fremantle, Western Australia, Passenger Lists, 1897–1963", "", "The 1925, 1949, 1950, 1951 and 1957 arrivals."],
+  ]],
+  ["Italian records", [
+    ["Italy, Find a Grave Index", "", "Briatico burials."],
+    ["“I Melluso”", "A relative's compiled research, cited in the tree without a reference.", "Parts of the Melluso descent at Briatico. Unverified."],
+  ]],
+];
+---
+<Base title="Sources" eyebrow={`${stats.sources} sources cited in the tree`}
+      dek="What this archive currently rests on — and, just as importantly, what it does not yet rest on.">
+
+  <p class="note">Read this page with the <a href={u("/method")}>method</a> beside it. Almost every
+  source below is an <strong>index</strong> cited by the family tree, not a document this archive has
+  seen. An index entry is a real source and a weak one: it proves a name was written somewhere, and it
+  does not show you the handwriting, the parents, the ages or the address. Of the
+  {stats.sources} sources named in the export, <strong>only 11 individuals carry a citation at all</strong>.</p>
+
+  {cited.map(([group, rows]) => (
+    <section class="blk">
+      <h2>{group}</h2>
+      <div class="scroll" style="margin-top:16px">
+        <table>
+          <thead><tr><th>Source</th><th>What it is</th><th>Used for</th></tr></thead>
+          <tbody>{rows.map(([t, d, use]) => (
+            <tr><td>{t}</td><td>{d}</td><td>{use}</td></tr>))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  <section class="blk" style="border-bottom:0">
+    <h2>What is not here yet</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>No Italian civil register has been read for this family. That is the largest single gap, and
+      it is a closeable one. The <strong>Antenati</strong> portal of the Italian state archives holds
+      the <em>stato civile</em> from 1809 for the provinces this family comes from, and it is free:</p>
+      <ul style="font-family:var(--sans);font-size:14px;line-height:1.75;color:var(--ink-2);padding-left:20px">
+        <li><strong>Catania</strong> — for Piedimonte Etneo, Mascali and Giarre.</li>
+        <li><strong>Catanzaro / Vibo Valentia</strong> — for Briatico, Potenzoni, Mandaradoni, San Costantino and Pizzo.</li>
+        <li><strong>Reggio Calabria</strong> — for Scilla.</li>
+      </ul>
+      <p style="margin-top:14px">Nor has the <strong>Nudgee Cemetery burial register</strong> been
+      consulted, nor the <strong>National Archives of Australia</strong> passenger records that would
+      name the ships. Each of those is listed as a task.
+      <a href={u("/open-questions")}>The queue →</a></p>
+    </div>
+  </section>
+</Base>

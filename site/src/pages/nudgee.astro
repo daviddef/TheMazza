@@ -1,0 +1,54 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import burials from "../data/burials.json";
+const nudgee = burials.filter((b) => b.place.includes("Nudgee"));
+const other = burials.filter((b) => !b.place.includes("Nudgee"));
+---
+<Base title="Nudgee" eyebrow="Nudgee Catholic Cemetery, Brisbane"
+      dek="Thirteen of this family are buried in one cemetery on the northern side of Brisbane — including all four of Michael Rocco Mazza's grandparents' generation who died in Australia.">
+
+  <section class="blk">
+    <p class="lede">Nudgee Cemetery, beside the Holy Cross church at Banyo, has been the Catholic
+    burying ground of northern Brisbane since the 1860s. It is where post-war Italian Brisbane went,
+    and it is why this archive keeps meeting the same ground from a different direction: <strong>five
+    Falco of Arienzo</strong> lie here too, and <a href="https://daviddef.github.io/TheFalco/">that
+    archive</a> found them independently.</p>
+    <p class="lede" style="margin-top:1rem">Two families with nothing in common in Italy — one from
+    Campania, three from Calabria and Sicily — buried within the same fence in Queensland. That is
+    not a family connection. It is what a migration looks like from the outside.</p>
+  </section>
+
+  <section class="blk">
+    <h2>The thirteen</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Born</th><th class="m">Died</th></tr></thead>
+        <tbody>{nudgee.sort((a, b) => (a.died || 9999) - (b.died || 9999)).map((b) => (
+          <tr><td><a href={u("/people/" + b.slug)}>{b.who}</a></td>
+              <td class="m">{b.born || "—"}</td><td class="m">{b.died || "—"}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+    <p class="cap">The tree records the cemetery but not the plot, the section or, for most of them,
+    the date. Nudgee's burial register would supply all three, and would confirm or correct every
+    death year in this table. It has not been consulted yet.</p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Buried elsewhere</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Name</th><th>Place</th><th class="m">Died</th></tr></thead>
+        <tbody>{other.map((b) => (
+          <tr><td><a href={u("/people/" + b.slug)}>{b.who}</a></td>
+              <td>{b.place}</td><td class="m">{b.died || "—"}</td></tr>))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:20px">Three of them are at <strong>Arneytown, New Jersey</strong>
+    — the Brigadier General William C. Doyle Veterans Memorial Cemetery. Burial there requires
+    American military service. The Polistena who went to New York in the first wave produced at least
+    two servicemen, and the archive knows nothing else about them.</p>
+  </section>
+</Base>

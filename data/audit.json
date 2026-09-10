@@ -1,0 +1,746 @@
+{
+ "stats": {
+  "exported": 614,
+  "people": 599,
+  "duplicates": 15,
+  "unresolvedNames": 58,
+  "living": 416,
+  "deceased": 183,
+  "families": 212,
+  "sources": 39,
+  "components": [
+   479,
+   111,
+   6,
+   4,
+   4,
+   2,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "photos": 73,
+  "earliest": 1697
+ },
+ "duplicates": [
+  {
+   "name": "Frank Mazza",
+   "year": 1955,
+   "kept": "@I1@",
+   "dropped": [
+    "@I16@"
+   ],
+   "why": "same name and same birth year"
+  },
+  {
+   "name": "Nancy Arena",
+   "year": 1956,
+   "kept": "@I25@",
+   "dropped": [
+    "@I19@"
+   ],
+   "why": "same name and same birth year"
+  },
+  {
+   "name": "Angela Mazza",
+   "year": 1990,
+   "kept": "@I27@",
+   "dropped": [
+    "@I21@"
+   ],
+   "why": "same name and same birth year"
+  },
+  {
+   "name": "Mattea Prostamo",
+   "year": 1926,
+   "kept": "@I181@",
+   "dropped": [
+    "@I47@"
+   ],
+   "why": "same name and same birth year"
+  },
+  {
+   "name": "Maria Rosa Prostamo",
+   "year": 1956,
+   "kept": "@I62@",
+   "dropped": [
+    "@I322@"
+   ],
+   "why": "same name and same birth year"
+  },
+  {
+   "name": "Santa Polistena",
+   "year": 1920,
+   "kept": "@I128@",
+   "dropped": [
+    "@I151@"
+   ],
+   "why": "same name and same birth year"
+  },
+  {
+   "name": "Giuseppa D'Ascoli",
+   "year": 1876,
+   "kept": "@I131@",
+   "dropped": [
+    "@I142@"
+   ],
+   "why": "same name and same birth year"
+  },
+  {
+   "name": "Teresa Prostamo",
+   "year": 1955,
+   "kept": "@I195@",
+   "dropped": [
+    "@I203@"
+   ],
+   "why": "same name and same birth year"
+  },
+  {
+   "name": "Carmela Collia",
+   "year": null,
+   "kept": "@I377@",
+   "dropped": [
+    "@I380@"
+   ],
+   "why": "same name and the same family around them"
+  },
+  {
+   "name": "Domenica Birroca",
+   "year": null,
+   "kept": "@I383@",
+   "dropped": [
+    "@I391@"
+   ],
+   "why": "same name and the same family around them"
+  },
+  {
+   "name": "Dominick Mazzitelli",
+   "year": 1886,
+   "kept": "@I394@",
+   "dropped": [
+    "@I392@"
+   ],
+   "why": "same name and same birth year"
+  },
+  {
+   "name": "Mary",
+   "year": null,
+   "kept": "@I432@",
+   "dropped": [
+    "@I463@"
+   ],
+   "why": "same name and the same family around them"
+  },
+  {
+   "name": "Tina Arena",
+   "year": null,
+   "kept": "@I481@",
+   "dropped": [
+    "@I482@"
+   ],
+   "why": "same name and the same family around them"
+  },
+  {
+   "name": "Santa Polistena",
+   "year": null,
+   "kept": "@I487@",
+   "dropped": [
+    "@I488@"
+   ],
+   "why": "same name and the same family around them"
+  },
+  {
+   "name": "Rosario Mazza",
+   "year": null,
+   "kept": "@I493@",
+   "dropped": [
+    "@I584@"
+   ],
+   "why": "same name and the same family around them"
+  }
+ ],
+ "unresolved": [
+  {
+   "name": "Domenica Prostamo",
+   "copies": 3,
+   "ids": [
+    "@I197@",
+    "@I205@",
+    "@I3@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Salvatore Mazza",
+   "copies": 4,
+   "ids": [
+    "@I32@",
+    "@I499@",
+    "@I4@",
+    "@I574@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Maria Rosa Melluso",
+   "copies": 2,
+   "ids": [
+    "@I174@",
+    "@I7@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Alfonso Prostamo",
+   "copies": 5,
+   "ids": [
+    "@I10@",
+    "@I185@",
+    "@I199@",
+    "@I301@",
+    "@I50@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Mazza",
+   "copies": 3,
+   "ids": [
+    "@I17@",
+    "@I18@",
+    "@I604@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Angela Mazza",
+   "copies": 2,
+   "ids": [
+    "@I21@",
+    "@I561@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Rosario Mazza",
+   "copies": 5,
+   "ids": [
+    "@I22@",
+    "@I23@",
+    "@I37@",
+    "@I493@",
+    "@I571@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Rocco Arena",
+   "copies": 4,
+   "ids": [
+    "@I248@",
+    "@I28@",
+    "@I473@",
+    "@I480@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giovanni Mazza",
+   "copies": 4,
+   "ids": [
+    "@I34@",
+    "@I354@",
+    "@I39@",
+    "@I566@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Leonarda Mazza",
+   "copies": 2,
+   "ids": [
+    "@I35@",
+    "@I492@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Mattea Prostamo",
+   "copies": 4,
+   "ids": [
+    "@I176@",
+    "@I186@",
+    "@I302@",
+    "@I47@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Domenico Prostamo",
+   "copies": 6,
+   "ids": [
+    "@I173@",
+    "@I217@",
+    "@I311@",
+    "@I317@",
+    "@I48@",
+    "@I500003@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Carmela Prostamo",
+   "copies": 2,
+   "ids": [
+    "@I332@",
+    "@I60@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Maria Rosa Prostamo",
+   "copies": 2,
+   "ids": [
+    "@I309@",
+    "@I62@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Francesco Prostamo",
+   "copies": 2,
+   "ids": [
+    "@I303@",
+    "@I63@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Luciano Cavallaro",
+   "copies": 3,
+   "ids": [
+    "@I521@",
+    "@I524@",
+    "@I77@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Maria Mazza",
+   "copies": 5,
+   "ids": [
+    "@I507@",
+    "@I543@",
+    "@I547@",
+    "@I553@",
+    "@I79@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Carmela Mazza",
+   "copies": 2,
+   "ids": [
+    "@I541@",
+    "@I80@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giovanni Giammona",
+   "copies": 2,
+   "ids": [
+    "@I94@",
+    "@I99@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Anna Arena",
+   "copies": 6,
+   "ids": [
+    "@I111@",
+    "@I246@",
+    "@I466@",
+    "@I472@",
+    "@I479@",
+    "@I486@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giovanni Polistena",
+   "copies": 6,
+   "ids": [
+    "@I120@",
+    "@I148@",
+    "@I263@",
+    "@I413@",
+    "@I427@",
+    "@I459@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Michele Donato",
+   "copies": 2,
+   "ids": [
+    "@I122@",
+    "@I281@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Antonio Polistena",
+   "copies": 3,
+   "ids": [
+    "@I124@",
+    "@I146@",
+    "@I428@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Santa Polistena",
+   "copies": 2,
+   "ids": [
+    "@I128@",
+    "@I487@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giovanna Polistena",
+   "copies": 2,
+   "ids": [
+    "@I133@",
+    "@I448@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Maria Polistena",
+   "copies": 3,
+   "ids": [
+    "@I135@",
+    "@I153@",
+    "@I265@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Nunziatta Polistena",
+   "copies": 2,
+   "ids": [
+    "@I140@",
+    "@I145@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Peter Bova",
+   "copies": 2,
+   "ids": [
+    "@I155@",
+    "@I156@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Orazio Mazza",
+   "copies": 4,
+   "ids": [
+    "@I159@",
+    "@I502@",
+    "@I542@",
+    "@I548@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giovanna Prostamo",
+   "copies": 2,
+   "ids": [
+    "@I175@",
+    "@I305@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Antonino Prostamo",
+   "copies": 8,
+   "ids": [
+    "@I178@",
+    "@I190@",
+    "@I219@",
+    "@I223@",
+    "@I231@",
+    "@I337@",
+    "@I345@",
+    "@I346@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giuseppe Prostamo",
+   "copies": 5,
+   "ids": [
+    "@I179@",
+    "@I196@",
+    "@I204@",
+    "@I300@",
+    "@I326@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Pasquale Prostamo",
+   "copies": 3,
+   "ids": [
+    "@I191@",
+    "@I221@",
+    "@I328@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Nicola Prostamo",
+   "copies": 3,
+   "ids": [
+    "@I192@",
+    "@I228@",
+    "@I335@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giuseppa Melluso",
+   "copies": 2,
+   "ids": [
+    "@I194@",
+    "@I202@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giuseppe Arena",
+   "copies": 6,
+   "ids": [
+    "@I245@",
+    "@I253@",
+    "@I372@",
+    "@I465@",
+    "@I471@",
+    "@I478@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giovanni Arena",
+   "copies": 3,
+   "ids": [
+    "@I247@",
+    "@I250@",
+    "@I475@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Antonio Arena",
+   "copies": 2,
+   "ids": [
+    "@I251@",
+    "@I290@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Clemente Arena",
+   "copies": 3,
+   "ids": [
+    "@I252@",
+    "@I260@",
+    "@I474@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Domenico Donato",
+   "copies": 2,
+   "ids": [
+    "@I256@",
+    "@I355@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giovanni Donato",
+   "copies": 3,
+   "ids": [
+    "@I258@",
+    "@I283@",
+    "@I443@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Maria Arena",
+   "copies": 2,
+   "ids": [
+    "@I262@",
+    "@I289@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Fillipo Melluso",
+   "copies": 2,
+   "ids": [
+    "@I298@",
+    "@I410@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Laura Prostamo",
+   "copies": 2,
+   "ids": [
+    "@I315@",
+    "@I330@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Antonio Anile",
+   "copies": 3,
+   "ids": [
+    "@I375@",
+    "@I385@",
+    "@I388@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Fortunato Anile",
+   "copies": 2,
+   "ids": [
+    "@I376@",
+    "@I378@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Dominick Mazzitelli",
+   "copies": 2,
+   "ids": [
+    "@I392@",
+    "@I399@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Giovanni Bova",
+   "copies": 2,
+   "ids": [
+    "@I416@",
+    "@I461@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Teresa Donato",
+   "copies": 2,
+   "ids": [
+    "@I425@",
+    "@I442@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Francesco Arena",
+   "copies": 2,
+   "ids": [
+    "@I476@",
+    "@I485@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "leonardo Mazza",
+   "copies": 2,
+   "ids": [
+    "@I491@",
+    "@I520@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Umberto Mazza",
+   "copies": 2,
+   "ids": [
+    "@I506@",
+    "@I512@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Leo Mazza",
+   "copies": 2,
+   "ids": [
+    "@I516@",
+    "@I555@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Francesca Mazza",
+   "copies": 2,
+   "ids": [
+    "@I517@",
+    "@I582@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Pina Mazza",
+   "copies": 2,
+   "ids": [
+    "@I550@",
+    "@I552@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Angelo Mazza",
+   "copies": 2,
+   "ids": [
+    "@I564@",
+    "@I573@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Cristian Mazza",
+   "copies": 2,
+   "ids": [
+    "@I565@",
+    "@I569@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  },
+  {
+   "name": "Alessandro Mazza",
+   "copies": 2,
+   "ids": [
+    "@I588@",
+    "@I594@"
+   ],
+   "why": "same name, no shared date and no shared family — left as separate people"
+  }
+ ]
+}

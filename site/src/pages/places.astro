@@ -1,0 +1,32 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import places from "../data/places.json";
+const byCountry = {};
+for (const p of places) {
+  const c = /Queensland|New South Wales|Victoria|Western Australia|Australia/.test(p.name) ? "Australia"
+    : /New York|New Jersey|Louisiana|Florida|USA|United States/.test(p.name) ? "United States"
+    : /Argentina/.test(p.name) ? "Argentina"
+    : /Great Britain|England/.test(p.name) ? "United Kingdom" : "Italy";
+  (byCountry[c] ||= []).push(p);
+}
+const order = ["Italy", "Australia", "United States", "Argentina", "United Kingdom"];
+---
+<Base title="Places" eyebrow={`${places.length} places`}
+      dek="Every place this archive can attach to a person, with the years it covers and how many events fall there.">
+  {order.filter((c) => byCountry[c]).map((c) => (
+    <section class="blk">
+      <h2>{c}</h2>
+      <div class="scroll" style="margin-top:16px">
+        <table>
+          <thead><tr><th>Place</th><th class="m">Events</th><th class="m">Born</th><th class="m">Died</th><th class="m">Buried</th><th class="m">Span</th></tr></thead>
+          <tbody>{byCountry[c].map((p) => (
+            <tr><td>{p.name}</td><td class="m">{p.n}</td><td class="m">{p.born || ""}</td>
+                <td class="m">{p.died || ""}</td><td class="m">{p.buried || ""}</td>
+                <td class="m">{p.first ? `${p.first}–${p.last}` : ""}</td></tr>))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+</Base>

@@ -1,0 +1,54 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import quarters from "../data/quarters.json";
+---
+<Base title="The Four Quarters" eyebrow="Four grandparents, three towns"
+      dek="Every person has four grandparents, and they are the honest unit of a family history: four separate families, four separate depths of evidence, and no reason at all for them to be equal.">
+
+  <p class="note">These four were born within eight years of each other — 1920, 1924, 1925, 1928 —
+  in three towns that had no connection whatsoever. Two of them are about six hundred kilometres
+  apart. All four were in Queensland by 1954.</p>
+
+  <div class="stack" style="margin-top:38px">
+    {quarters.map((q) => (
+      <div>
+        <div class="linerow">
+          <div>
+            <div class="lab">{q.town}</div>
+            <div style="font-size:28px;line-height:1.15;margin-top:8px">
+              <a href={u("/people/" + q.grandparent.slug)} style="color:inherit">{q.grandparent.name}</a>
+            </div>
+            <div class="mono" style="margin-top:6px;color:var(--ink-3)">
+              {[q.grandparent.born, q.grandparent.died].filter(Boolean).join("–")}
+            </div>
+          </div>
+          <div>
+            <div class="meta" style="margin-bottom:12px">
+              <span><b>{q.depth}</b> generations deep</span>
+              <span>reaches <b>{q.reach || "—"}</b></span>
+              <span><b>{q.line.length}</b> in the direct chain</span>
+            </div>
+            <div class="evlist">
+              {q.line.map((r) => (
+                <div><b>{r.born || "····"}</b>
+                  {r.living ? r.name : <a href={u("/people/" + r.slug)}>{r.name}</a>}</div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <section class="blk" style="margin-top:20px">
+    <h2>The quarters are not equal, and that is the finding</h2>
+    <p class="dek" style="margin-top:.8rem">One quarter reaches 1697 and eight generations. Another
+    stops after three, at a man with no dates at all. This is not because one family was more
+    important — it is because <strong>Calabrian civil registration survives better than Sicilian</strong>
+    for these particular comuni, and because the Briatico line has been worked on by relatives in
+    Italy and Argentina for years while the Sicilian line has not.
+    Depth of pedigree measures the archive, not the ancestors.</p>
+  </section>
+</Base>

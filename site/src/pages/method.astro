@@ -1,0 +1,77 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import stats from "../data/stats.json";
+---
+<Base title="Method" eyebrow="How this archive decides what it knows"
+      dek="An archive is only worth reading if it says which of its claims are documents, which are inferences, and which are things the family remembers. These are the rules, and they are the same rules as The Falco Archive.">
+
+  <section class="blk">
+    <h2>Confidence</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <tbody>
+          <tr><td><span class="chip doc">Documented</span></td><td>A named source with a reference, and where possible the scan.</td></tr>
+          <tr><td><span class="chip inf">Inferred</span></td><td>A reasoned conclusion from documented facts, with the reasoning written out so it can be overturned.</td></tr>
+          <tr><td><span class="chip">Superseded</span></td><td>Asserted in the family record, and now displaced by a document that says otherwise.</td></tr>
+          <tr><td><span class="chip">Disputed</span></td><td>Asserted in the family record but unsupported, or contradicted, by what can be seen.</td></tr>
+          <tr><td><span class="chip lore">Family lore</span></td><td>Told, remembered, not corroborated. Kept because it is precious; labelled because pretending otherwise is how family myths become family history.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:22px">Almost everything in this archive is currently at a
+    <strong>fourth</strong> level that the Falco archive did not need: <em>asserted by the family
+    tree</em>. The tree this site was built from is a MyHeritage tree contributed by Michael Mazza and
+    relatives. Where it cites Ancestry indexes, this site says so; where it cites nothing — which is
+    most of it — this site says that too. Converting those assertions into documents is the work.</p>
+  </section>
+
+  <section class="blk">
+    <h2>The living</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><strong>{stats.living} of the {stats.people} people here are living</strong>, or cannot be
+      shown to be dead. They are named, and that is all. No birth date, no age, no address, no
+      marriage, no photograph, no record link. Those fields exist in the family tree and are
+      <em>dropped by the build</em> before the site is generated — they are not hidden by CSS, not
+      gated behind a login, not present in the HTML.</p>
+      <p>The test is deliberately cautious: a person counts as living unless the tree records a death
+      or burial, <em>or</em> they were born before 1926 and would therefore be over a hundred. Where
+      the tree has no dates at all — which is true of most of the unjoined Piedimonte Etneo group —
+      the person is treated as living. That over-protects some people who died long ago, and that is
+      the right way round to be wrong.</p>
+      <p>A removal request is honoured within days, without argument and without requiring a reason.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Why the archive refuses to merge {stats.unresolvedNames} names</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The export contains four men called <strong>Rosario Mazza</strong>, four called
+      <strong>Giuseppe Arena</strong>, three called <strong>Orazio Mazza</strong> and four called
+      <strong>Maria Mazza</strong> — most of them with no date of any kind. In three southern Italian
+      towns where the same fifteen forenames circulate for two centuries, and where a grandson is
+      named for his grandfather by rule, that is exactly what you would expect.</p>
+      <p>An earlier version of this build merged people on <em>name and name alone</em>. It fused four
+      unrelated Rosario Mazza stubs into one man and produced an <strong>eleven-generation Mazza
+      descent</strong> that no record supports — a pedigree manufactured by a bug. The rule now is:</p>
+      <blockquote>A shared name is not evidence. Two records are the same person only if they give the
+      <strong>same birth year</strong>, or if they sit in the <strong>same place in the family</strong> —
+      the same parents, or the same spouse and children. Anything less is recorded as an open question
+      and left as two people.</blockquote>
+      <p>Under that rule {stats.duplicates} genuine duplicates were merged — including the whole of
+      Frank Mazza's household, which the tree holds twice — and
+      <strong>{stats.unresolvedNames} shared names were left standing apart</strong>. The archive would
+      rather be visibly incomplete than invisibly wrong.</p>
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>One tree, or {stats.components.length} pieces?</h2>
+    <p class="dek" style="margin-top:.8rem">The export is not a tree. It is
+    <strong>{stats.components.length} disconnected components</strong>: one of {stats.components[0]}
+    people, one of {stats.components[1]}, and twelve fragments. A family-tree program will draw them on
+    one canvas and let you believe they are one family. This site labels every person with the
+    component they belong to and refuses to imply a join that no record makes.
+    <a href={u("/open-questions")}>What it would take to join them →</a></p>
+  </section>
+</Base>

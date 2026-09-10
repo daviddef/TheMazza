@@ -1,0 +1,76 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import { dead } from "../lib/people.js";
+import places from "../data/places.json";
+const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
+  .some((x) => (x || "").startsWith("Briatico") || (x || "").includes("(Briatico)")));
+const pl = places.find((x) => x.name.startsWith("Briatico")) || {};
+const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort();
+---
+<Base title="Briatico" eyebrow="Vibo Valentia, Calabria"
+      dek="The deepest line in this archive, and the one that does not carry the surname. A small comune on the Tyrrhenian coast of Calabria that sent its people to three different continents.">
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{here.length}</div><div class="l">people recorded at Briatico or its hamlets</div></div>
+      <div class="stat"><div class="n">{pl.first || "1697"}</div><div class="l">the earliest birth the archive can name here</div></div>
+      <div class="stat"><div class="n">8</div><div class="l">generations of Prostamo, unbroken</div></div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The town</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Briatico stands on the Tyrrhenian coast about ten kilometres north of Vibo Valentia, on the
+      stretch Italians call the <em>Costa degli Dei</em>. The town the family left is not quite the
+      town on the map today: old Briatico was wrecked by the <strong>Calabrian earthquake of 1783</strong>
+      and again in <strong>1905</strong>, and the modern comune is a rebuilding, a little inland of the
+      ruins. Its hamlets — <strong>Potenzoni</strong>, <strong>Mandaradoni</strong>, <strong>San Costantino</strong>
+      — appear in this archive as birthplaces in their own right, which is how Calabrian registers
+      recorded them.</p>
+      <p>That 1783 earthquake matters for a practical reason. It destroyed archives across the
+      province, and it is one of the reasons a line that reaches <strong>1697</strong> here is
+      unusual enough to be worth checking rather than assuming.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The families</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">{surnames.length} surnames are recorded at Briatico in
+    this archive. Five of them are ancestral to the Brisbane family.</p>
+    <p style="font-family:var(--sans);font-size:14px;line-height:2">
+      {surnames.map((s, i) => <>{i > 0 && " · "}<strong>{s}</strong></>)}
+    </p>
+  </section>
+
+  <section class="blk">
+    <h2>Everyone the archive places here</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>Died</th></tr></thead>
+        <tbody>
+          {here.sort((a, b) => (a.born || 9999) - (b.born || 9999)).map((p) => (
+            <tr>
+              <td><a href={u("/people/" + p.slug)}>{p.name}</a></td>
+              <td class="m">{[p.born, p.died].filter(Boolean).join("–")}</td>
+              <td>{p.birthPlace}</td>
+              <td>{p.deathPlace}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Three departures</h2>
+    <p class="dek" style="margin-top:.8rem">Briatico did not empty in one direction. The
+    <P n="Fillipo Melluso" /> and <P n="Domenica Anile" /> households sailed from Naples to
+    <strong>New York</strong> on 2 August 1906. A Prostamo branch went to <strong>Buenos Aires</strong>,
+    where children were being born from 1926 into the 1960s. And in <strong>1951</strong>
+    <P n="Domenica Prostamo" /> left Genoa for Fremantle with an infant son.
+    <a href={u("/crossings")}>The crossings →</a></p>
+  </section>
+</Base>
