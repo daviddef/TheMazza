@@ -1,0 +1,107 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import reads from "../data/reads.json";
+const M = ["Morabito Salvatore 4","Morabito Sebastiana 14","Messina Salvatore 16","Monforte Salvatore 39",
+  "Masano Giuseppa 18","Molino Domenica 56","Malfitana Giovanna 61","Masano Rosaria 67",
+  "Musumeci Rosaria 80","Masano Grazia 89","Musumeci Maria 107","Musumeci Salvatore 112",
+  "Moschella Carmela 113","Musumeci Venera 133","Monti Salvatore 153","Mangano Rosa 159",
+  "Mazza Rosaria 167","Messina Giovanni 180","Musumeci Giuseppa 190","Messina Francesco 124",
+  "Mangeri Salvatore 199","Masano Sebastiano 201","Mazza Venerio 205"];
+---
+<Base title="Piedimonte Etneo, Births 1879" eyebrow="The register read, 10 September 2026"
+      dek="The volume that should hold Salvatore Mazza's birth. It does not.">
+
+  <section class="blk">
+    <p class="lede">The family tree says <strong>Salvatore Mazza was born at Piedimonte Etneo in
+    1879</strong>. He is the grandfather of <P n="Sebastiano Mazza" />, the second generation of the
+    surname line, and his act of birth would name his father <P n="Rosario Mazza" /> with an age and
+    a trade — which is the one document that could join the
+    <a href={u("/mazza")}>hundred and ten unattached Mazza</a> to this family.</p>
+    <p class="lede" style="margin-top:1rem">The volume exists, it is digitised, and it has now been
+    read. <strong>He is not in it.</strong></p>
+  </section>
+
+  <section class="blk">
+    <h2>The volume</h2>
+    <div class="rec" style="margin-top:16px">
+      <div class="k">Archive</div><div class="v">Archivio di Stato di Catania</div><div class="w"></div>
+      <div class="k">Series</div><div class="v">Stato civile italiano › Piedimonte Etneo › Nati</div><div class="w">1879</div>
+      <div class="k">Shelf-mark</div><div class="v">segnatura 8956</div><div class="w"></div>
+      <div class="k">Ark</div><div class="v"><a href="https://antenati.cultura.gov.it/ark:/12657/an_ua83492" rel="noopener">an_ua83492 ↗</a></div><div class="w">81 images</div>
+      <div class="k">Supplement</div><div class="v"><a href="https://antenati.cultura.gov.it/ark:/12657/an_ua83493" rel="noopener">an_ua83493 ↗</a> — segnatura 8957, suppl. 2</div><div class="w">not yet read</div>
+      <div class="k">Index</div><div class="v">Indice annuale, alphabetical, pages 72–73 (images 79–80)</div><div class="w"></div>
+    </div>
+    <p class="cap">Two acts to an image, act 126 on image 54 and act 167 on image 74 — which is how
+    the index entry was turned into a page number without reading the book.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The finding</div>
+    <h2 style="margin-top:.4rem">Two Mazza births in 1879, and neither is Salvatore</h2>
+    <p class="dek" style="margin:.9rem 0 1.2rem">The annual index covers the whole year for the
+    comune. Under <strong>M</strong> it carries twenty-three entries, and exactly two of them are
+    Mazza:</p>
+    <div class="evlist" style="margin-bottom:20px">
+      {M.map((s) => {
+        const n = s.split(" ").pop(), nm = s.slice(0, -n.length - 1);
+        const isMazza = nm.startsWith("Mazza");
+        return <div><b>{n}</b>{isMazza ? <strong style="color:var(--terra)">{nm}</strong> : nm}</div>;
+      })}
+    </div>
+    <figure style="margin:0">
+      <img src={u("/plates/pe-1879-index-M.jpg")} alt="The M section of the 1879 annual index"
+           style="border:1px solid var(--rule);border-radius:3px;max-width:520px;width:100%" />
+      <figcaption class="cap">Piedimonte Etneo, Nati 1879, Indice annuale, page 72 — Archivio di
+      Stato di Catania (Antenati an_ua83492, image 79).</figcaption>
+    </figure>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Act 167</div>
+    <h2 style="margin-top:.4rem">Rosaria Mazza, 28 October 1879</h2>
+    <div class="hero-plate" style="margin-top:1.2rem">
+      <img src={u("/plates/act167-mazza-rosaria.jpg")} alt="Piedimonte Etneo birth register 1879, act 167" />
+      <div>
+        <blockquote style="margin:0 0 .9rem">L'anno milleottocentosettanta<strong>nove</strong>, addì
+        <strong>ventinove</strong> di <strong>Ottobre</strong>… è comparso <strong>Mazza Pasquale</strong>,
+        di anni <strong>cinquanta</strong>, <strong>bracciante</strong>, domiciliato in Piedimonte
+        Etneo… nella casa posta in <strong>Via Terremorte</strong>… da <strong>Greco Concetta,
+        industriosa, sua moglie, seco lui convivente</strong>… è nato un bambino di sesso femminino…
+        a cui dà il nome di <strong>Rosaria</strong>.</blockquote>
+        <p>A second Mazza household at Piedimonte Etneo, and a complete one: <strong>Pasquale Mazza</strong>,
+        born about <strong>1829</strong>, a day-labourer, living on <strong>Via Terremorte</strong>
+        with his wife <strong>Concetta Greco</strong>. Their daughter was born at half past six on the
+        morning of the 28th and registered the next morning at twenty-five past nine.</p>
+        <p style="margin-top:.8rem">A note added in the margin twenty-four years later records that
+        she <strong>married Giuseppe Monforte, son of the late Salvatore, on 26 April 1903</strong>.</p>
+        <p style="margin-top:.8rem"><strong>He is not Rosario.</strong> This household does not join
+        the line — but it is a documented Mazza family of the right town in the right decade, and it
+        is the first Italian record this archive has read for any of them.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>What it means</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The tree's claim that Salvatore Mazza was born at Piedimonte Etneo in 1879 is now
+      <strong>disputed</strong> — asserted in the family record and not supported by the register that
+      should contain it. Three things could be true:</p>
+      <ul style="font-family:var(--sans);font-size:14px;line-height:1.75;color:var(--ink-2);padding-left:20px">
+        <li><strong>The year is wrong.</strong> Most likely. 1879 in the tree carries no source, and a
+        year either side has not been checked. The volumes for 1875–1885 are all digitised.</li>
+        <li><strong>The town is wrong.</strong> Salvatore died at <em>Catania</em> in 1929, and the
+        family also appears at <strong>Mascali</strong> and <strong>Giarre</strong>, both within a few
+        kilometres.</li>
+        <li><strong>He is in the supplement.</strong> Act 205 — <strong>Mazza Venerio</strong> — sits
+        in the second volume, which has not been read. <em>Venerio</em> is not <em>Salvatore</em>, but
+        the supplement holds the late and irregular registrations and deserves reading in full.</li>
+      </ul>
+      <p style="margin-top:14px">Until one of those is settled, the head of the Mazza line stays where
+      it is: a man called Rosario about whom one fact is known.
+      <a href={u("/open-questions")}>The queue →</a></p>
+    </div>
+  </section>
+</Base>

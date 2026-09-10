@@ -10,12 +10,19 @@ Updated 10 September 2026, the day the archive was built.
       the four grandparents found in consecutive plots V-1026 to V-1029.
 
 ## 1. The join that would add six generations — HIGHEST VALUE
-- [ ] **Salvatore Mazza's act of birth, Piedimonte Etneo, 1879.** It names his father Rosario, with
-      Rosario's age and trade. If Rosario is about 29, he is the Rosario Mazza born 1850 who heads the
-      unjoined 111-person Piedimonte Etneo cluster, and the Mazza line gains six generations in one
-      document. If he is about 45, they are two men and the join is refused permanently.
-      → **Antenati, Archivio di Stato di Catania, Piedimonte Etneo, Nati 1879.**
-- [ ] Failing that: **Rosario Mazza's marriage act**, Piedimonte Etneo, c. 1875.
+- [x] **Piedimonte Etneo, Nati 1879 (an_ua83492) READ.** Salvatore Mazza is **NOT IN IT**. Two Mazza
+      births that year: Rosaria (act 167, father Pasquale) and Venerio (act 205). Act 167 transcribed.
+- [ ] **The 1879 supplement, `an_ua83493`** (segnatura 8957, suppl. 2) — holds act 205, Mazza Venerio,
+      and the late registrations. The obvious next step.
+- [ ] **Piedimonte Etneo Nati 1875–1878 and 1880–1885** — if the year in the tree is wrong. All ten
+      volumes are digitised; each has an alphabetical index in its last pages, so this is ten index
+      reads, not ten volume reads.
+- [ ] **Mascali and Giarre** — if the town is wrong. Salvatore died at Catania; the family appears at
+      both towns.
+- [ ] Failing all of that: **Rosario Mazza's marriage act**, Piedimonte Etneo, c. 1875.
+- [ ] **Who is Pasquale Mazza?** b. c. 1829, bracciante, Via Terremorte, m. Concetta Greco. A second
+      documented Mazza household in the town, not in the family tree at all. Does he connect to
+      Rosario, or to the 110?
 
 ## 2. The ships — nine down, nine to go
 - [x] **Nine crossings named** from the NAA passenger arrivals index: *Toscana*, *Surriento* (twice),

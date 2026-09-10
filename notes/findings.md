@@ -266,3 +266,67 @@ Duplicates merged: 15 → **17**. People: 599 → **597**.
 under-merged in the one shape it could not see. Both failures come from treating *the name string* as
 the unit — the unit is the person, and the evidence for identity is the family and the dates around
 them.
+
+---
+
+## 10 September 2026 — the 1879 register read, and a useful null
+
+**Antenati came back.** Method note first, because it has changed since the Falco work:
+
+- The **HTML pages remain Cloudflare-blocked to curl** (403), so search and record pages need the browser.
+- The **IIIF images now serve directly to curl** with a `Referer: https://antenati.cultura.gov.it/`
+  header. The Falco note recorded them as blocked from curl *and* the browser, readable only inside
+  the Mirador viewer. They are not any more. **Reading a register is now an ordinary download.**
+- **Rate limiting is severe and it is on the HTML, not the images.** Eight rapid same-origin fetches
+  produced a blanket 403 across the whole site — including the home page — that took well over
+  twenty minutes to clear, and a second burst re-triggered it. Navigate slowly; fetch images freely.
+
+### Piedimonte Etneo has no name index
+
+`/search-nominative/?cognome=Mazza&localita=Piedimonte Etneo` returns *"Nessun risultato trovato"*
+with the explanation that only part of the registers are indexed. Same as Arienzo. Images only.
+
+### The volume
+
+**Piedimonte Etneo, Stato civile italiano, Nati 1879** — Archivio di Stato di Catania, segnatura
+8956, ark **`an_ua83492`**, **81 images**. Two acts to an image (act 126 on image 54, act 167 on
+image 74), an **alphabetical Indice Annuale on pages 72–73** (images 79–80), back cover on 81.
+A **supplement volume** exists: segnatura 8957 suppl. 2, ark **`an_ua83493`** — not yet read.
+
+### The finding: a null
+
+The M section of the annual index carries twenty-three entries and **exactly two Mazza**:
+
+> **Mazza Rosaria — act 167** · **Mazza Venerio — act 205**
+
+**There is no Salvatore Mazza in the 1879 births of Piedimonte Etneo.**
+
+The index covers the whole year including acts filed in the supplement, which is why act 205 appears
+there although the main volume stops around act 175.
+
+### Act 167, transcribed
+
+> L'anno milleottocentosettanta**nove**, addì **ventinove** di **Ottobre**, a ore antimeridiane nove
+> e minuti venticinque… è comparso **Mazza Pasquale**, di anni **cinquanta**, **bracciante**,
+> domiciliato in Piedimonte Etneo… alle ore antimeridiane sei e minuti trenta del dì **ventotto**…
+> nella casa posta in **Via Terremorte** al numero senza, da **Greco Concetta, industriosa, sua
+> moglie, seco lui convivente**… è nato un bambino di sesso femminino… a cui dà il nome di **Rosaria**.
+
+A marginal note added in 1903: she **married Giuseppe Monforte, son of the late Salvatore, on
+26 April 1903**.
+
+So there is a **second Mazza household at Piedimonte Etneo**: **Pasquale Mazza** (b. c. 1829, a
+day-labourer) and **Concetta Greco**, of **Via Terremorte**. It is not Rosario's, and it does not
+join the line — but it is the **first Italian record this archive has read for any Mazza**.
+
+### What the null means
+
+Salvatore Mazza's birth — "1879, Piedimonte Etneo" — is now **disputed**: asserted in the family
+record, unsupported by the register that should contain it. Three live possibilities, in order:
+
+1. **The year is wrong.** The tree's 1879 carries no source. 1875–1885 are all digitised.
+2. **The town is wrong.** He died at *Catania*; the family also appears at **Mascali** and **Giarre**.
+3. **He is in the supplement**, `an_ua83493`, which holds the late and irregular registrations.
+
+Until one of those is settled the head of the Mazza line stays where it was — a man called Rosario
+about whom exactly one thing is known.
