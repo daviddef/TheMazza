@@ -1,5 +1,70 @@
 [
  {
+  "year": "1879",
+  "comune": "Giarre",
+  "act": "—",
+  "name": "(none)",
+  "father": "—",
+  "fatherAge": "—",
+  "mother": "—",
+  "street": "—",
+  "ark": "an_ua80924",
+  "note": "No Mazza in the 1879 index at all.",
+  "found": false
+ },
+ {
+  "year": "1879",
+  "comune": "Mascali",
+  "act": "—",
+  "name": "(none)",
+  "father": "—",
+  "fatherAge": "—",
+  "mother": "—",
+  "street": "—",
+  "ark": "an_ua81758",
+  "note": "No Mazza in the 1879 index at all.",
+  "found": false
+ },
+ {
+  "year": "1875",
+  "comune": "Piedimonte Etneo",
+  "act": "64",
+  "name": "Mazza Giovanni",
+  "father": "—",
+  "fatherAge": "—",
+  "mother": "—",
+  "street": "—",
+  "ark": "an_ua83488",
+  "note": "Index only; act not yet read.",
+  "found": true
+ },
+ {
+  "year": "1876",
+  "comune": "Piedimonte Etneo",
+  "act": "41",
+  "name": "Mazza Grazia",
+  "father": "—",
+  "fatherAge": "—",
+  "mother": "—",
+  "street": "—",
+  "ark": "an_ua83489",
+  "note": "Index only. NB the 1877 index miscopied an Orazio as «Grazia», so this reading is not safe until the act is read.",
+  "found": true
+ },
+ {
+  "year": "1876",
+  "comune": "Piedimonte Etneo",
+  "act": "142",
+  "name": "Mazza Domenica",
+  "father": "—",
+  "fatherAge": "—",
+  "mother": "—",
+  "street": "—",
+  "ark": "an_ua83489",
+  "note": "Index only; act not yet read.",
+  "found": true
+ },
+ {
   "year": "1877",
   "comune": "Piedimonte Etneo",
   "act": "164",
@@ -88,32 +153,6 @@
   "street": "—",
   "ark": "an_ua83495",
   "note": "No Mazza in the 1881 index at all.",
-  "found": false
- },
- {
-  "year": "1879",
-  "comune": "Mascali",
-  "act": "—",
-  "name": "(none)",
-  "father": "—",
-  "fatherAge": "—",
-  "mother": "—",
-  "street": "—",
-  "ark": "an_ua81758",
-  "note": "No Mazza in the 1879 index at all.",
-  "found": false
- },
- {
-  "year": "1879",
-  "comune": "Giarre",
-  "act": "—",
-  "name": "(none)",
-  "father": "—",
-  "fatherAge": "—",
-  "mother": "—",
-  "street": "—",
-  "ark": "an_ua80924",
-  "note": "No Mazza in the 1879 index at all.",
   "found": false
  }
 ]

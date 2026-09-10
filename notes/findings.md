@@ -638,3 +638,64 @@ War.** That is the service that earned the plot; Santa is buried with him as his
 **Standing warning for this archive:** it draws on Australian, Italian and American records at once,
 and those three traditions write dates differently. Any date that looks a month or two out is a
 transposition until proved otherwise.
+
+---
+
+## 10 September 2026 (later still) — eight years clear, and the wall
+
+### PE births 1875 and 1876 read
+
+| Year | Mazza births |
+|---|---|
+| 1875 | **Mazza Giovanni** (act 64) |
+| 1876 | **Mazza Grazia** (41), **Mazza Domenica** (142) |
+
+**No Salvatore.** With 1877–1882 already read, that is **eight consecutive years of the Piedimonte
+Etneo birth register with no Salvatore Mazza in them**, plus Mascali and Giarre for 1879.
+
+*Caution on the 1876 "Grazia":* the 1877 index miscopied an **Orazio** as *Grazia*. Index readings of
+that name are not safe until the act is read.
+
+### The wall: what Antenati does NOT hold for Piedimonte Etneo
+
+| Series | Coverage |
+|---|---|
+| Nati, *Stato civile della restaurazione* | 1860–1865 (an_ua72404+) |
+| Nati, *Stato civile italiano* | 1866–1885 (an_ua83479+) |
+| **Matrimoni** | **1866–1893 only** (an_ua83386–83414) |
+| Nati 1898–1900 | **not digitised** — "Nessun risultato trovato" |
+
+**This closes both of the good routes.** Salvatore married Maria Concetta Nicotra about **1897**;
+their son Rosario was born **1899**. Either act states Salvatore's age. **Neither is on Antenati.**
+They must be ordered from the **Archivio di Stato di Catania** or requested from the **comune of
+Piedimonte Etneo**.
+
+### A negative worth recording: the 1875 Maria Nicotra is someone else
+
+The 1875 index carries **Nicotra Maria, act 34**, and the tree gives Salvatore's wife as Maria
+Nicotra born 1875 at Piedimonte Etneo. The act was read:
+
+> …è comparso **Alfio Nicotra**, di anni **sessantotto**; bracciante… nella casa posta in **via San
+> Basile**… da **Angela Previtera sua moglie**, giornaliera… è nato un bambino di sesso femminino…
+> a cui dà il nome di **Maria**.
+> Margin: married **Giuseppe Nicito fu Vincenzo**, 19 July 1911.
+
+Daughter of **Alfio Nicotra (b. c. 1807) and Angela Previtera** — not of **John Nicotra and Venera
+Cassaneti**, whom the Queensland death register names as our Maria's parents. **Different woman.**
+Two Maria Nicotra born in one small town within a few years is exactly what this archive keeps
+running into.
+
+Worth noting anyway: the Nicotra of act 34 lived on **via San Basile** — the same street as Rosario
+Mazza in 1880.
+
+### Where this leaves it
+
+The Sicilian line is now **documented back to Innocenzio Mazza × Domenica Cavallaro** through
+Salvatore (b. c.1841) and Antonino (b. c.1843) — but **the Salvatore who married Maria Nicotra and
+fathered Rosario (1899), Michele (c.1909), Sebastiano (1920) and Maria (1922) is a different, younger
+man**, and he is in none of the digitised registers.
+
+**The tree's dates are the weak link, not the search.** This archive has now corrected the tree on
+Domenica Prostamo's birth, Antonio Micale's, Venera Cavallaro's death and Santa Polistena's death.
+A birth year with no source behind it is a family estimate until a record says otherwise — and
+"Salvatore Mazza, born 1879" has no source behind it.

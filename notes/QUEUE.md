@@ -9,10 +9,15 @@ Updated 10 September 2026, the day the archive was built.
 - [x] **The Nudgee register** — 19 burials with plots and exact dates; 6 corrections to the tree;
       the four grandparents found in consecutive plots V-1026 to V-1029.
 
-## 0. NEXT: Piedimonte Etneo, Nati 1899 — the Rosario Mazza act
-- [ ] Rosario Mazza was born **1899** to Salvatore Mazza and Maria Concetta Nicotra (proved from the
-      Queensland death index). An Italian birth act gives the declaring father's **AGE**. This dates
-      Salvatore to within a year or two and turns the blind sweep into one lookup. **DO THIS FIRST.**
+## 0. BLOCKED BY DIGITISATION — order from the archive
+Antenati's Piedimonte Etneo holdings **stop where we need them**: marriages end at **1893**, and
+births **1898–1900 are not digitised**. The two acts that would date Salvatore are therefore offline:
+- [ ] **Salvatore Mazza × Maria Concetta Nicotra, marriage c. 1897**, Piedimonte Etneo.
+- [ ] **Rosario Mazza, born 1899**, Piedimonte Etneo — the act states his father's age.
+Both must be **ordered from the Archivio di Stato di Catania**, or requested from the **comune**.
+Antenati has a "Richieste di certificati" page for exactly this.
+- [ ] **Retry FamilySearch** — its Catania civil-registration holdings may run later than Antenati's,
+      and its full-text search would find Salvatore by name. It was IP-blocked all of 10 September.
 
 ## 1. The join that would add six generations — HIGHEST VALUE
 - [x] **Piedimonte Etneo, Nati 1879 (an_ua83492) READ.** Salvatore Mazza is **NOT IN IT**. Two Mazza
