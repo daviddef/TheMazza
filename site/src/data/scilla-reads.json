@@ -8,7 +8,17 @@
    "mother": "Serafina Arlotta, 28",
    "ark": "an_ua2002933",
    "status": "documented",
-   "note": "ACT READ IN FULL. Declared 23 December 1861 at Scilla, Distretto di Reggio, by the father himself. Witnesses Giuseppe Idone, 64, and Francesco Antonio Poli, 70, proprietario. The parish note records the baptism of Rocco Arena on the 23rd. Gives THREE generations: Filippo Arena, his son Francesco Antonio (b. c.1819, a SAILOR), and Rocco."
+   "note": "Declared 23 December 1861 at Scilla, Distretto di Reggio, by the father. Witnesses Giuseppe Idone, 64, and Francesco Antonio Poli, 70, proprietario; parish note records the baptism on the 23rd. Gives THREE generations: Filippo Arena, his son Francesco Antonio (b. c.1819), and Rocco. CONFLICTS WITH THE TREE, which makes Rocco the son of Orazio Arena and Giovana Zirilli. The 1861 register holds only one Rocco Arena."
+  },
+  {
+   "year": "1883",
+   "act": "206",
+   "name": "Giovanni Polistena, b. 16 September 1883",
+   "father": "Camillo Antonio Polistena, 48, pescatore",
+   "mother": "Giovanna Romano, filatrice",
+   "ark": "an_ua16601246",
+   "status": "documented",
+   "note": "Born at half past nine in the evening at Via Grotte 47, Scilla; declared next morning by the father before Minasi Raffaele, assessore. The father's name AGREES with the tree's \"Antonio Polistena\" and dates him to about 1835. The mother does NOT: the register says Giovanna ROMANO, the tree says Giovanna PONTILLO. The tree also gives that Giovanna Pontillo two parents both surnamed Pontillo, which looks like an error in the tree rather than a second marriage."
   },
   {
    "year": "1861",
@@ -18,17 +28,18 @@
    "mother": "—",
    "ark": "an_ua2002933",
    "status": "index only",
-   "note": "Another Arena birth at Scilla in 1861, not in the family tree. Parentage not read — see the correction note below before trusting any parents column read off this index."
+   "note": "Another Arena birth at Scilla in 1861, not in the family tree. Parentage not read."
   }
  ],
  "correction": {
   "what": "This archive read the 1861 index as giving Rocco Arena's parents as «Giuseppe e Zirilli Grazia». The act says Francesco Antonio Arena and Serafina Arlotta. The index's parents column had been misaligned by one row.",
-  "why": "The Scilla index is a wide ruled table photographed across a gutter, and the row a name sits on is not always the row its parents sit on once the columns are cropped apart. The fix is to read the act, which is what the entry was flagged for.",
-  "lesson": "It was recorded as a CANDIDATE, not a join, precisely because the forenames did not match the family tree — and that caution is what caught it. Had it been merged on the surname agreement alone, the archive would now carry a wrong set of great-great-grandparents."
+  "why": "The Scilla index is a wide ruled table photographed across a gutter, and once the columns are cropped apart the row a name sits on is not reliably the row its parents sit on.",
+  "lesson": "It was recorded as a CANDIDATE, not a join, precisely because the forenames did not match the family tree — and that caution is what caught it."
  },
- "conflict": {
-  "tree": "Rocco Arena b. 1861, son of ORAZIO ARENA and GIOVANA ZIRILLI",
-  "register": "Rocco Arena b. 20 December 1861, son of FRANCESCO ANTONIO ARENA, marinaro, and SERAFINA ARLOTTA",
-  "reading": "The 1861 Scilla register contains exactly one Rocco Arena and neither parent matches the tree. Either the tree's parents are wrong, or its birth year is — and this archive has already found that tree six years out on Salvatore Mazza's birth and six on Orazio Mazza's. The year is the likelier error. Unresolved either way."
+ "sea": {
+  "arena": "Francesco Antonio Arena, 1861 — MARINARO",
+  "polistena": "Camillo Antonio Polistena, 1883 — PESCATORE",
+  "prostamo": "Alfonso and Domenico Prostamo, Briatico 1886 — MARINARI",
+  "point": "Three families, two provinces, and every man the registers name works the sea. The family tree records none of them as anything."
  }
 }

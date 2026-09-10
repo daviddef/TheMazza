@@ -1020,3 +1020,49 @@ Native size is **1934 × 1410** for a full opening — roughly half the Sicilian
 server refuses any request above 100%: *"Requests for scales in excess of 100% are not allowed."*
 Ask for `/full/` on a `pct:` region rather than naming a width, and check `info.json` before
 requesting a size. Two acts per image; act = 210 + 2 × (image − 108) in the 1861 volume.
+
+---
+
+## 10 September 2026 — Scilla, act 206: the Polistena documented, and a trade
+
+### Scilla, Nati 1883, atto 206 (`an_ua16601246`, image 73)
+
+> L'anno milleottocento ottant**atre**, addì **diciassette** di **Settembre**, a ore antimeridiane
+> nove… Avanti di me **Minasi Raffaele, Assessore, pel Sindaco assente**, Uffiziale dello Stato Civile
+> del Comune di **Scilla**, è comparso **Camillo Antonio Polistena**, di anni **quarantotto**,
+> **pescatore**, domiciliato in questo Comune… alle ore pomeridiane nove e minuti trenta, del dì
+> **sedici** del corrente mese, nella casa posta in **Via Grotte** al numero **quarantasette**, da
+> **Giovanna Romano** sua moglie, **filatrice**, seco lui convivente… è nato un bambino di sesso
+> maschile… a cui dà il nome di **Giovanni**.
+
+**Giovanni Polistena — Angela Polistena's father — born 16 September 1883, Via Grotte 47, Scilla**,
+that is, in **Chianalea**, the lane of houses standing in the water.
+
+| | Tree | Register |
+|---|---|---|
+| Father | Antonio Polistena | **Camillo Antonio Polistena**, 48 → b. c. **1835**, *pescatore* ✓ agrees |
+| Mother | Giovanna **Pontillo** | **Giovanna Romano**, *filatrice* ✗ **conflicts** |
+
+The tree also gives its Giovanna Pontillo two parents **both surnamed Pontillo**, which reads like an
+error in the tree rather than a second marriage. **Giovanna Romano** is the documented mother.
+
+### The finding that runs across all of it: they were sea families
+
+| Where | Who | Trade |
+|---|---|---|
+| Scilla, 1861 | **Francesco Antonio Arena** | *marinaro* — sailor |
+| Scilla, 1883 | **Camillo Antonio Polistena** | *pescatore* — fisherman |
+| Briatico, 1886 | **Alfonso Prostamo** and his father **Domenico** | *marinari* — sailors |
+
+**Two provinces, three families, one trade — and the family tree records none of them as anything.**
+The Sicilian Mazza, up on the mountain, are *braccianti* and *contadini* to a man. Until today this
+archive could not say what a single one of these people did for a living.
+
+### The Scilla index format, again
+
+The post-1866 Scilla index is **«Casato e Nome» + «di [father's forename]»** — *"Polistena Giovanni
+di Camillo Ant.°"*. That half-parentage sits on the same line as the name and is reliable, unlike the
+Bourbon-era index's separate parents column, which is not. Use it to confirm you have the right
+person before pulling the act.
+
+Three acts per image in this volume: act = 202 + 3 × (image − 72).

@@ -150,8 +150,14 @@ Antenati has a "Richieste di certificati" page for exactly this.
       register says Francesco Antonio × Serafina Arlotta, and 1861 holds only one Rocco Arena.
       Either the tree's parents are wrong or its birth year is. Check Scilla births either side of
       1861 for a second Rocco Arena before deciding.
-- [ ] Sweep the remaining Scilla indexes for Arena, Polistena, Donato, Pontillo:
-      Giovanni Arena b.1870, Giuseppe Arena b.1892, Giovanni Polistena b.1883, Michele Donato b.1851.
-      Scilla marriages 1905–1913 may catch Giovanni Polistena × Nunziata Donato.
+- [x] **Scilla Nati 1883 atto 206 READ.** Giovanni Polistena b. 16 Sep 1883, Via Grotte 47,
+      son of **Camillo Antonio Polistena, 48, PESCATORE** (b. c.1835) and **Giovanna Romano**,
+      filatrice. Father agrees with the tree; **mother conflicts — tree says Pontillo.**
+- [ ] **Resolve Giovanna Romano vs Giovanna Pontillo.** Camillo Antonio Polistena's marriage would
+      settle it. The tree gives its Giovanna Pontillo two parents both surnamed Pontillo, which looks
+      like a tree error.
+- [ ] Still to sweep: **Giovanni Arena b.1870, Giuseppe Arena b.1892, Michele Donato b.1851**;
+      and Scilla marriages 1905–1913 for Giovanni Polistena × Nunziata Donato.
+- [ ] **Camillo Antonio Polistena b. c.1835** — his own birth act, if Scilla births reach 1835.
       Targets: Giuseppe Arena b.1892, Giovanni Arena b.1870, Rocco Arena b.1861, Orazio Arena b.1821;
       Giovanni Polistena b.1883, Antonio Polistena, Giovanna Pontillo; Michele Donato b.1851.
