@@ -80,10 +80,12 @@ Updated 10 September 2026, the day the archive was built.
 - [ ] 23 Argentine events, no crossing. **CEMLA** immigration database; Buenos Aires civil registry.
       The Lerena archive has already worked this ground.
 
-## 6. The Polistena of Arneytown, New Jersey
-- [ ] Three burials in a veterans' cemetery means American military service. US WWII draft cards and
-      enlistment records are already cited in the tree; the **VA National Gravesite Locator** gives
-      branch and service dates.
+## 6. The Polistena of Arneytown, New Jersey — ANSWERED
+- [x] **VA Nationwide Gravesite Locator**: Joseph Polistena, **PFC US Army, World War II**,
+      1917–2012, Section O3 Site 8647; Santa Polistena, 1920–2008, same site, "wife of". TWO people,
+      ONE plot — not three. Confirms the middle-initial merge; corrects Santa's death to 8 Sep 2008.
+- [ ] Joseph's **WWII draft card / enlistment record** would give his unit and his New York address.
+- [ ] How do these Polistena join the Scilla Polistena who reached Brisbane in 1949? Still asserted.
 
 ## 7. Blocked, retry later
 - [ ] **Antenati** — 403 everywhere on 10 Sep 2026, including its home page. Known to rate-limit to a

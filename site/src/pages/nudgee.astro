@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import nudgee from "../data/nudgee.json";
 import burials from "../data/burials.json";
+import arneytown from "../data/arneytown.json";
 const { burials: documented, corrections, quarterRow } = nudgee;
 const other = burials.filter((b) => !b.place.includes("Nudgee"));
 ---
@@ -121,10 +122,28 @@ const other = burials.filter((b) => !b.place.includes("Nudgee"));
         </tbody>
       </table>
     </div>
-    <p class="note" style="margin-top:20px">Three of them are at <strong>Arneytown, New Jersey</strong>
-    — the Brigadier General William C. Doyle Veterans Memorial Cemetery. Burial there requires
-    American military service. The Polistena who went to New York in the first wave produced at least
-    two servicemen, and the archive knows nothing else about them.
-    <a href={u("/open-questions")}>Open question →</a></p>
+    <div class="lab" style="margin-top:34px">Answered — 10 September 2026</div>
+    <h3 style="font-size:22px;margin-top:.4rem">Arneytown, New Jersey: one soldier, one grave</h3>
+    <p class="dek" style="margin:.8rem 0 1.2rem">The tree records <strong>three</strong> Polistena at
+    the Brigadier General William C. Doyle Veterans Memorial Cemetery. The
+    <a href="https://gravelocator.cem.va.gov/" rel="noopener">VA's Nationwide Gravesite Locator</a>
+    records <strong>two people, in one plot</strong>:</p>
+    <div class="rec">
+      {arneytown.map((a) => (<>
+        <div class="k">{a.plot.replace("Section ", "").replace("Site ", "")}</div>
+        <div class="v"><strong>{a.name}</strong>{a.rank !== "—" ? <> — <strong>{a.rank}</strong>, {a.war}</> : null}</div>
+        <div class="w">{a.born} – {a.died}</div>
+      </>))}
+    </div>
+    <p class="note" style="margin-top:20px"><strong>Joseph Polistena served as a Private First Class
+    in the United States Army in the Second World War</strong> — that is the service that earned the
+    plot. Santa is entered as <em>wife of</em>, in the same site.</p>
+    <p class="note" style="margin-top:16px">It also settles two things this archive had open.
+    The tree's <strong>"Joseph A Polistena"</strong> and <strong>"Joseph Polistena"</strong> are
+    <strong>one man</strong> — which is exactly what the build's middle-initial merge rule concluded
+    from the shared death date, before the VA confirmed it. And Santa's death, given in the tree as
+    <strong>9 August 2008</strong>, is <strong>8 September 2008</strong>: the American
+    <em>09/08/2008</em> read day-first. <strong>That is the second date-format error found in this
+    archive today</strong>, after <P n="Venera Cavallaro" />'s.</p>
   </section>
 </Base>

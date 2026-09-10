@@ -605,3 +605,36 @@ sweep into a single lookup. **That is the next Antenati target.**
 Search the **parent**, not the person, when hunting siblings. The index spells names as the clerk
 wrote them — *Michali*, *Salvatori*, *Lecota*, *Postamo* — so search loosely and expect the surname
 you want to be mangled. Images are paid; none were bought, and none were needed.
+
+---
+
+## 10 September 2026 — Arneytown: one soldier, one grave
+
+**Source: the VA's Nationwide Gravesite Locator** (`gravelocator.cem.va.gov`). Free. The search form
+POSTs to `/ngl/result` with `lastName`, `firstName`, `middleName`, each with an `…Opt` matching mode,
+plus optional `cemetery` and birth/death month and year — so it can be driven directly.
+
+The family tree places **three** Polistena at the Brigadier General William C. Doyle Veterans
+Memorial Cemetery, Wrightstown, New Jersey. The register holds **two people in one plot**:
+
+> **POLISTENA, JOSEPH** — **PFC US ARMY**, **World War II** — 29 January 1917 – 15 February 2012 —
+> **Section O3, Site 8647**
+> **POLISTENA, SANTA** — 17 December 1920 – 8 September 2008 — **Section O3, Site 8647** —
+> *"WIFE OF POLISTENA, JOSEPH"*
+
+**Joseph Polistena served as a Private First Class in the United States Army in the Second World
+War.** That is the service that earned the plot; Santa is buried with him as his wife.
+
+### Two things it settles
+
+1. **The tree's "Joseph A Polistena" and "Joseph Polistena" are one man** — which is exactly what
+   this build's middle-initial merge rule concluded from the shared full death date, *before* the VA
+   confirmed it. The rule was right, and now it is corroborated by an independent record.
+2. **Santa's death is 8 September 2008, not 9 August.** The tree read the American **09/08/2008**
+   day-first. **That is the second date-format error found in this archive today**, after Venera
+   Cavallaro's 9 June / 6 September. Both are the same failure in opposite directions, and both were
+   caught by a second source rather than by inspection.
+
+**Standing warning for this archive:** it draws on Australian, Italian and American records at once,
+and those three traditions write dates differently. Any date that looks a month or two out is a
+transposition until proved otherwise.
