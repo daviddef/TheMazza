@@ -1227,3 +1227,73 @@ year, because that series interleaves Nati, Morti and Matrimoni and the gaps run
 
 **This is the single most useful Antenati technique this archive has found**, given that the portal
 rate-limits at roughly three page loads: it turns "one load per year" into "one load per series".
+
+---
+
+## 13 September 2026 — the children's acts
+
+A method that should have been obvious three days ago: **when a man cannot be found, read his
+children's birth acts.** An Italian birth act names the declaring father *with an age*. Two men who
+had resisted a direct search fell out of volumes that were already open.
+
+### Scilla, Nati 1892, atto 162 — Annunziata Donato (`an_ua16601257`, container `5Yb6no7`, image 56)
+
+Cost **zero** extra portal page loads: the 1892 volume was already in hand for act 230.
+
+> …è comparso **Michele Donato**, di anni **trentasei**, **pescatore**, domiciliato in **Scilla**…
+> alle ore pomeridiane **quattro** e minuti **trenta** del dì **sei** del corrente mese, nella casa
+> posta in **Via Grotte** al numero **trentuno**, da **Maria Sofi** sua moglie, **filatrice**, seco
+> lui convivente… a cui dà i nomi di **Annunziata**. Testimoni: **Arlotta Giuseppe**, 56, pescatore;
+> **Ponte Antonio**, 38, pescatore.
+
+- **Michele Donato is 36 in July 1892 → born about 1856, not 1851.** That is exactly why the 1851
+  index had no Donato in it. Five years out, the same shape of error as everywhere else in this tree.
+- **Maria Sofi confirmed** as the tree has her.
+- **Trade: pescatore** — the tree records none.
+- The marginal annotation gives a death **the tree does not have at all**: Annunziata Donato
+  **died at Scilla on 26 August 1975**, death act 30 of that year, aged 83. Her daughters Angela and
+  Giovanna Polistena are in the Nudgee register in Brisbane. **Their mother never left.**
+- Witness **Arlotta** is the surname of Rocco Arena's mother in act 228 of 1861 — thirty-one years
+  and two families apart, on the same few hundred metres of shore.
+
+### Scilla, Nati 1893, atto 22 — Anna Arena (`an_ua16601258`, container `w9WVxa9`, image 9)
+
+The ark was **computed** from the series rule, not looked up; the title page confirmed *Registro: 1893*.
+
+> …è comparsa **Giovanna Zumbo**, di anni **sessanta**, **levatrice**… nella casa posta in **Via
+> Acquagrande** al numero **quarantuno**, da **Costa Generosa**, **filatrice**, moglie di **Arena
+> Rocco**, **marinaro**, ambedue domiciliati in Scilla… a cui dà il nome di **Anna**.
+
+**The trick fails here, and the first line says why**: the declarant is the **midwife**, not the
+father, and a midwife's declaration carries no parental ages. Rocco Arena's birth year is still open.
+
+What it does give:
+- Anna Arena's date **17 January 1893** and her mother **Generosa Costa** — both exactly as the tree.
+- Rocco Arena's trade: **marinaro**.
+
+**That last point cuts against the archive's own hypothesis and is recorded as such.** The Rocco
+Arena of act 228 of 1861 is the son of **Francesco Antonio Arena, also a marinaro**, and trades
+passed father to son. Weak evidence — but it points *away* from "tree's parents right, year wrong"
+and *toward* "tree's year right, parents wrong". Both can be true at once: Orazio Arena and Giovanna
+Zirilli are certainly real (act 46 of 1859) **and** Rocco may simply not be their son.
+
+### Two Arena households, two quarters
+
+| street | man | trade | year |
+|---|---|---|---|
+| **Via Grotte 75** | Giovanni Arena | *pescatore* | 1892 |
+| **Via Acquagrande 41** | Rocco Arena | *marinaro* | 1893 |
+| **Centro Acquagrande** | Giuseppe Arena | *cordaio* | 1870 |
+
+Giuseppe Arena of Via Grotte and Anna Arena of Via Acquagrande married each other. Both are
+great-grandparents in this archive.
+
+And **Via Grotte** now carries three of the four Calabrian quarters: Polistena at no. 47 (1883),
+Donato at no. 31 (1892), Arena at no. 75 (1892). They were neighbours in Chianalea.
+
+### A correction to a correction
+
+The previous entry said act 230 "confirmed the year and gave the day" for Giuseppe Arena. That was
+too generous. **The tree says 10 June 1892; the register says 6 October 1892** — the year agrees and
+the date does not. The 1892 index holds only one Arena Giuseppe and his mother is Concetta Russo, so
+it is certainly the same child. Corrected on the page and on his person page.
