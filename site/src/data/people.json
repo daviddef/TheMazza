@@ -1172,7 +1172,13 @@
     "living": false
    }
   ],
-  "records": [],
+  "records": [
+   {
+    "kind": "passenger manifest",
+    "what": "Ellis Island, 2 August 1906 — the Luisiana, aged 26, line 27",
+    "href": "/crossings"
+   }
+  ],
   "onSpine": true,
   "ancGen": 5,
   "corrections": []
@@ -21966,10 +21972,18 @@
     "living": false
    }
   ],
-  "records": [],
+  "records": [
+   {
+    "kind": "passenger manifest",
+    "what": "Ellis Island, 2 August 1906 — the Luisiana, aged 3, line 28",
+    "href": "/crossings"
+   }
+  ],
   "onSpine": false,
   "ancGen": null,
-  "corrections": []
+  "corrections": [
+   "Indexed as 'Foloppo Melluso Anile': the transcriber ran his surname into his mother's. He is on the line immediately after Domenica Anile, whose son he is."
+  ]
  },
  {
   "id": "@I299@",
@@ -28562,10 +28576,18 @@
     "living": false
    }
   ],
-  "records": [],
+  "records": [
+   {
+    "kind": "passenger manifest",
+    "what": "Ellis Island, 2 August 1906 — the Luisiana, line 26",
+    "href": "/crossings"
+   }
+  ],
   "onSpine": false,
   "ancGen": null,
-  "corrections": []
+  "corrections": [
+   "The manifest makes her twenty-one; the tree gives her birth as 1888, which would make her eighteen. She is the only Concetta Anile on the voyage and the tree already claimed this date and the port of Naples."
+  ]
  },
  {
   "id": "@I401@",
