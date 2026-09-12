@@ -1,0 +1,82 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import corrections from "../data/corrections.json";
+---
+<Base title="For Michael" eyebrow={corrections.count + " things the records say differently"}
+      dek="Every place where a document and the family tree disagree, or where a document says something the tree does not say at all — with the source for each, so every line can be checked.">
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{corrections.count}</div><div class="l">corrections and additions</div></div>
+      <div class="stat"><div class="n">{corrections.documented}</div><div class="l">rest on a document that has been read</div></div>
+      <div class="stat"><div class="n">0</div><div class="l">changed in the tree or the charts</div></div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="prose">
+      <p><strong>This page is addressed to the person who built the tree.</strong> An archive that
+      only ever agrees with its source is not doing any work — so here is the list of places where
+      this one disagrees, in the open, with the citation attached to every line.</p>
+      <p><strong>Nothing here has been applied.</strong> The charts on this site draw Michael's
+      export exactly as it was given, because it is his research and the corrections are proposals,
+      not edits. Three of the twenty-seven are marked <em>candidate</em> or <em>flagged</em> rather
+      than documented, which means the archive thinks it is probably right and is telling you it is
+      not certain.</p>
+      <p>The commonest single error is not a wrong name. <strong>It is a wrong year</strong> — and
+      almost always a birth year, on a person the tree could not date from a document. Giovanni
+      Arena is out by eleven years, Michele Donato by five, Salvatore Mazza by six. That pattern is
+      worth knowing when you look at any other undated birth in the tree.</p>
+    </div>
+  </section>
+
+  {corrections.groups.map((g) => (
+    <section class="blk">
+      <div class="lab">{g.kind}</div>
+      <div class="scroll" style="margin-top:14px">
+        <table>
+          <thead><tr><th>Who</th><th>The tree says</th><th>The record says</th><th>Source</th></tr></thead>
+          <tbody>
+            {g.rows.map((r) => (
+              <tr>
+                <td>{r.slug && r.slug !== "—"
+                  ? <a href={u("/people/" + r.slug)}><strong>{r.who}</strong></a>
+                  : <strong>{r.who}</strong>}
+                  {r.confidence !== "documented" && <><br /><span class="small" style="color:var(--ink-3)">{r.confidence}</span></>}
+                </td>
+                <td class="small">{r.treeSays}</td>
+                <td>{r.recordSays}</td>
+                <td class="small">{r.source}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  <section class="blk" style="border-bottom:0">
+    <h2>How to read the confidence</h2>
+    <div class="rec" style="margin-top:16px">
+      <div class="k">documented</div>
+      <div class="v">A record has been read and it says this. You can open the citation and see it.</div>
+      <div class="w">24</div>
+      <div class="k">inferred</div>
+      <div class="v">No record names this person, but one names someone travelling on the same day
+      or the same ship, and the inference is short.</div><div class="w">1</div>
+      <div class="k">candidate</div>
+      <div class="v">The best match in an index, with something still not quite right about it —
+      a spelling, an age. Probably correct. Not proved.</div><div class="w">1</div>
+      <div class="k">flagged</div>
+      <div class="v">A problem identified and deliberately <em>not</em> resolved, because resolving
+      it would need a record nobody has read yet.</div><div class="w">1</div>
+    </div>
+    <p class="note" style="margin-top:22px">The full reasoning for each of these sits on the page it
+    came from — <a href={u("/scilla")}>Scilla</a> for the Calabrian registers,
+    <a href={u("/crossings")}>The Crossings</a> for the manifests,
+    <a href={u("/nudgee")}>Nudgee</a> for the burials and
+    <a href={u("/queensland")}>Queensland</a> for the BDM index. Where this archive has been
+    <em>wrong</em>, that is on <a href={u("/method")}>Method</a>, which is the more useful page.</p>
+  </section>
+</Base>

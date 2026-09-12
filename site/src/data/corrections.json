@@ -1,0 +1,314 @@
+{
+ "count": 27,
+ "documented": 24,
+ "groups": [
+  {
+   "kind": "Parentage",
+   "rows": [
+    {
+     "kind": "Parentage",
+     "who": "Rocco Arena",
+     "slug": "rocco-arena",
+     "treeSays": "Son of Orazio Arena and Giovana Zirilli",
+     "recordSays": "The 1861 Scilla register holds exactly one Rocco Arena and his parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA. Three things now agree that the year 1861 is right and the parents are not: the register, the trade (both Rocco and Francesco Antonio are marinari), and an American manifest that makes him 39 in March 1900.",
+     "source": "Scilla, Nati 1861, atto 228; Nati 1893 atto 22; Ellis Island, 21 March 1900",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Parentage",
+     "who": "Giovanni Polistena",
+     "slug": "giovanni-polistena",
+     "treeSays": "Mother Giovanna Pontillo",
+     "recordSays": "The birth act names the mother as GIOVANNA ROMANO. The father agrees -- Camillo Antonio Polistena. Pontillo is a real Scilla surname, so the name is plausible, but it is not what the act says.",
+     "source": "Scilla, Nati 1883, atto 206",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Birth year",
+   "rows": [
+    {
+     "kind": "Birth year",
+     "who": "Giovanni Arena",
+     "slug": "giovanni-arena",
+     "treeSays": "Born 1870 at Scilla",
+     "recordSays": "Born about 1859. He is thirty-three in his son's birth act of October 1892.",
+     "source": "Scilla, Nati 1892, atto 230",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth year",
+     "who": "Michele Donato",
+     "slug": "michele-donato",
+     "treeSays": "Born 1851 at Scilla",
+     "recordSays": "Born about 1856. Thirty-six in his daughter's birth act of July 1892, and fifty-two on the New Orleans manifest of 1908 -- two independent records agreeing.",
+     "source": "Scilla, Nati 1892, atto 162; New Orleans passenger list 1908",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Birth date",
+   "rows": [
+    {
+     "kind": "Birth date",
+     "who": "Giuseppe Arena",
+     "slug": "giuseppe-arena",
+     "treeSays": "Born 10 June 1892",
+     "recordSays": "Born 6 October 1892 at Via Grotte 75, declared on the 9th. The year is right; the day is not.",
+     "source": "Scilla, Nati 1892, atto 230",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth date",
+     "who": "Salvatore Mazza",
+     "slug": "salvatore-mazza",
+     "treeSays": "Born 1879",
+     "recordSays": "Born 5 January 1873 at Piedimonte Etneo. Six years out.",
+     "source": "FamilySearch full-text, Piedimonte Etneo Nati 1873 atto 3",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Death date",
+   "rows": [
+    {
+     "kind": "Death date",
+     "who": "Salvatore Mazza",
+     "slug": "salvatore-mazza",
+     "treeSays": "Died 1929",
+     "recordSays": "Died 19 September 1929.",
+     "source": "FamilySearch full-text, death act",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Death -- missing entirely",
+   "rows": [
+    {
+     "kind": "Death -- missing entirely",
+     "who": "Nunnziata Donato",
+     "slug": "nunnziata-donato",
+     "treeSays": "No death recorded",
+     "recordSays": "Died at Scilla on 26 August 1975, death act 30 of that year, aged 83. Her daughters Angela and Giovanna are buried at Nudgee in Brisbane; she never left Scilla.",
+     "source": "Marginal annotation on Scilla, Nati 1892, atto 162",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Missing people",
+   "rows": [
+    {
+     "kind": "Missing people",
+     "who": "Gaetano Mazza and Santo Mazza",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "Two more sons of Rosario Mazza: Gaetano born 1880 and Santo about 1882.",
+     "source": "Piedimonte Etneo registers",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people",
+     "who": "Teresa Anile and Francesco Anile",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "A Teresa Anile aged 20 and a one-year-old Francesco Anile are on the Luisiana with Domenica and Concetta on 2 August 1906, on consecutive lines. Five people crossed that day; the tree remembers three.",
+     "source": "Ellis Island, the Luisiana, 2 August 1906",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Relationship",
+   "rows": [
+    {
+     "kind": "Relationship",
+     "who": "Michele Mazza and Rosario Mazza",
+     "slug": "—",
+     "treeSays": "Unconnected",
+     "recordSays": "Both proved to be sons of Salvatore Mazza and Maria Concetta Nicotra, and therefore Sebastiano's brothers.",
+     "source": "Queensland BDM historical index",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Duplicate record",
+   "rows": [
+    {
+     "kind": "Duplicate record",
+     "who": "Giovanna Zirilli",
+     "slug": "giovana-zirilli",
+     "treeSays": "Orazio Arena has two wives, \"Giovanna Zirilli\" b.1827 and \"Giovana Zirilli\" undated",
+     "recordSays": "Almost certainly one woman entered twice. NOT merged here, because surname endogamy at Scilla is common enough that a second wife of the same surname is genuinely possible -- the 1913 marriage index alone has Bueti marrying Bueti and Vizzari marrying Vizzari.",
+     "source": "Scilla, Nati 1856 atto 180 and 1859 atto 46",
+     "confidence": "flagged"
+    }
+   ]
+  },
+  {
+   "kind": "Crossing date",
+   "rows": [
+    {
+     "kind": "Crossing date",
+     "who": "Anna Arena",
+     "slug": "anna-arena",
+     "treeSays": "Crossed in 1894, aged one",
+     "recordSays": "Crossed on 23 MAY 1899 aged six, on the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father.",
+     "source": "Ellis Island, the Archimede",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Crossing -- ship named",
+   "rows": [
+    {
+     "kind": "Crossing -- ship named",
+     "who": "Fillipo Melluso",
+     "slug": "fillipo-melluso-1903",
+     "treeSays": "2 August 1906, no ship",
+     "recordSays": "The LUISIANA. He is three years old, on the line immediately after his mother Domenica Anile, and indexed as \"Foloppo Melluso Anile\".",
+     "source": "Ellis Island, the Luisiana",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Crossing -- ship named",
+     "who": "Domenica Anile and Concetta Anile",
+     "slug": "domenica-anile",
+     "treeSays": "2 August 1906, no ship",
+     "recordSays": "The LUISIANA, lines 26 and 27. Domenica's age on the manifest is 26, which matches her birth of 20 February 1880 exactly.",
+     "source": "Ellis Island, the Luisiana",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Crossing -- ship named",
+     "who": "Angela Polistena",
+     "slug": "angela-polistena",
+     "treeSays": "17 June 1949, no ship",
+     "recordSays": "The SURRIENTO. She is not indexed, but her brother Antonino is, arriving on that exact date.",
+     "source": "NAA passenger arrivals index, item 9245788",
+     "confidence": "inferred"
+    },
+    {
+     "kind": "Crossing -- ship named",
+     "who": "Domenica Prostamo",
+     "slug": "domenica-prostamo",
+     "treeSays": "March 1951, no ship",
+     "recordSays": "Probably the UGOLINO VIVALDI, 1 March 1951 out of Genoa, indexed under her married name as \"MAZZA Domenico\" -- one letter from Domenica. Her son Salvatore, born 1948, was two, which matches the family account of a son not yet three.",
+     "source": "NAA passenger arrivals index, item 30133197",
+     "confidence": "candidate"
+    }
+   ]
+  },
+  {
+   "kind": "Crossing -- missing entirely",
+   "rows": [
+    {
+     "kind": "Crossing -- missing entirely",
+     "who": "Francesca Prostamo",
+     "slug": "francesca-prostamo",
+     "treeSays": "No crossing recorded",
+     "recordSays": "She sailed on the ROMA with her father Francessco, reaching Fremantle on 10 October 1957, aged twelve. She had been noted on his voyage and wrongly flagged as \"not in the family tree\" -- she is in it, as his daughter.",
+     "source": "NAA passenger arrivals index, item 30132189",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Port",
+   "rows": [
+    {
+     "kind": "Port",
+     "who": "Michele Mazza",
+     "slug": "michele-mazza",
+     "treeSays": "Arrived Fremantle, from Italy",
+     "recordSays": "Arrived BRISBANE, 21 April 1925, on the Palermo out of MESSINA.",
+     "source": "NAA passenger arrivals index",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Port",
+     "who": "Antonino Polistena",
+     "slug": "antonino-polistena",
+     "treeSays": "Embarked at Genoa",
+     "recordSays": "Embarked at NAPLES, on the Surriento.",
+     "source": "NAA passenger arrivals index",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Trade -- missing entirely",
+   "rows": [
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Giovanni Arena",
+     "slug": "giovanni-arena",
+     "treeSays": "No occupation",
+     "recordSays": "PESCATORE, a fisherman. Living at Via Grotte 75, Scilla, in 1892.",
+     "source": "Scilla, Nati 1892, atto 230",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Michele Donato",
+     "slug": "michele-donato",
+     "treeSays": "No occupation",
+     "recordSays": "PESCATORE, a fisherman. Living at Via Grotte 31, Scilla, in 1892.",
+     "source": "Scilla, Nati 1892, atto 162",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Camillo Antonio Polistena",
+     "slug": "antonio-polistena-2",
+     "treeSays": "No occupation, and named only as \"Antonio\"",
+     "recordSays": "CAMILLO ANTONIO POLISTENA, pescatore, aged 48 in 1883 so born about 1835. Living at Via Grotte 47, Scilla.",
+     "source": "Scilla, Nati 1883, atto 206",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Rocco Arena",
+     "slug": "rocco-arena",
+     "treeSays": "No occupation",
+     "recordSays": "MARINARO, a sailor. Living at Via Acquagrande 41, Scilla, in 1893.",
+     "source": "Scilla, Nati 1893, atto 22",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Generosa Costa",
+     "slug": "generosa-costa",
+     "treeSays": "No occupation",
+     "recordSays": "FILATRICE, a spinner.",
+     "source": "Scilla, Nati 1893, atto 22",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Maria Sofi",
+     "slug": "maria-sofi",
+     "treeSays": "No occupation",
+     "recordSays": "FILATRICE, a spinner.",
+     "source": "Scilla, Nati 1892, atto 162",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Concetta Russo",
+     "slug": "concetta-russo",
+     "treeSays": "No occupation",
+     "recordSays": "FILATRICE, a spinner.",
+     "source": "Scilla, Nati 1892, atto 230",
+     "confidence": "documented"
+    }
+   ]
+  }
+ ]
+}
