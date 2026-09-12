@@ -1297,3 +1297,43 @@ The previous entry said act 230 "confirmed the year and gave the day" for Giusep
 too generous. **The tree says 10 June 1892; the register says 6 October 1892** — the year agrees and
 the date does not. The 1892 index holds only one Arena Giuseppe and his mother is Concetta Russo, so
 it is certainly the same child. Corrected on the page and on his person page.
+
+### Scilla, Nati 1856 — the year the Tavola is a separate volume
+
+1856 has **two** arks, and they are not two halves of the year: `an_ua2002917` (container `wR8JBDp`,
+107 images) holds the **acts**, running to act 200 on 8 November with **no index at all**;
+`an_ua2002920` (container `04rZDNY`, **34 images**) is the **Tavola annuale**, at images 26–32.
+Worth knowing before spending a page load looking for an index that is not there.
+
+**A section, complete (nine entries):** Arena Francesca (28, *Giosafatto e Longordo Rosaria* — the
+same couple as act 111 of 1859), Arlotta Maria Concetta (75), Arlotta Rocco (83), Arbitrio Domenico
+(128), Arbitrio Francesco (141), Amendola Francesco (158), **Arena Domenico (180, *Orazio e Zirilli
+Giovanna*, 3 September)**, Arbitrio Domenico (175), Alfonzetti Concetta (238).
+
+- **Orazio Arena and Giovanna Zirilli have a SECOND son Domenico**, three years before act 46 of
+  1859. The first almost certainly died in infancy and the name was reused — ordinary practice, and
+  further confirmation that this couple was real and reproducing at Scilla through the 1850s.
+- **No Rocco Arena of any parentage in 1856**, and none in 1859. Orazio's Rocco is in neither.
+
+### The Donato are not at Scilla in the 1850s
+
+Three complete D blocks, each bounded by the last C above and the first F below:
+
+| year | D entries | Donato? |
+|---|---|---|
+| 1851 | 65–75 — seven Di Franco, two Dormì, De Marco, De Alessandro | **none** |
+| 1856 | 24–235 — Denisi, six Difranco, two Dormì, D'Elia, De Nava, De Marco | **none** |
+| 1859 | 73–275 — six De Franco, two Dormì, De Ciccio, De Elia, D'Ignoto | **none** |
+
+Meanwhile the **1892** index has *two* Donato households: **Donato Annunziata di Michele** (162) and
+**Donato Domenico di Rocco** (38).
+
+**The question has changed shape.** Not *"which year was Michele Donato born at Scilla?"* but
+**"when did the Donato come to Scilla, and from where?"** On this evidence the surname arrives
+between 1859 and 1892, and Michele was probably born in another comune. His sailing from **Palermo**
+in 1908 is at least consistent with a mobile family.
+
+Three sampled years is not a proof — 1852–55, 1857, 1858 and 1860–65 are unread. But the next move is
+his **marriage**, not his birth: a marriage act names the groom's *comune of birth* outright. His
+eldest son was born 1878, so the marriage is about 1875–77 — **outside** Antenati's Scilla marriage
+series, which begins at 1905. That means the Reggio Calabria *processetti* or another comune.
