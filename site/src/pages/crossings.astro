@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import crossings from "../data/crossings.json";
 import ships from "../data/ships.json";
+import ellis from "../data/ellis.json";
 const shipOf = new Map(ships.map((s) => [s.slug, s]));
 const wave1 = crossings.filter((c) => (c.year || 0) < 1940);
 const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
@@ -34,6 +35,132 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
     through the port on 30 June 1926 — and died at Briatico in 1994. An American citizen by birth who
     spent almost her whole life in a Calabrian coastal town, and whose granddaughter's children are
     Australian.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The Ellis Island and New Orleans manifests, read 13 September 2026</div>
+    <h2 style="margin-top:.4rem">An age is a birth year, and this family's birth years keep being wrong</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Two men this archive had failed to find in Italian registers left records in America. That
+      turned out to be the way in, because <strong>an arrival manifest records an age</strong> — and
+      an age converts to a birth year, which is precisely the thing the family tree keeps getting
+      wrong. The Statue of Liberty Foundation's Arrival Records Collection is free, needs no account
+      for the index, and covers New Orleans as well as Ellis Island.</p>
+    </div>
+
+    <div class="rec" style="margin-top:20px">
+      <div class="k">CONFIRMED</div>
+      <div class="v"><strong><P n="Rocco Arena" /></strong> — Ellis Island, <strong>21 March
+      1900</strong>, off the <em>Trave</em> out of Genoa. Last residence <strong>Scilla</strong>,
+      married, <strong>aged 39</strong>, indexed year of birth <strong>1861</strong>. Recorded as a
+      <strong>US citizen</strong>.</div><div class="w">the tree was right</div>
+      <div class="k">CONFIRMED</div>
+      <div class="v"><strong><P n="Michele Donato" /></strong> — New Orleans, <strong>1908</strong>,
+      off the <em>Liguria</em>, <strong>aged 52</strong> — a birth about <strong>1856</strong>.</div>
+      <div class="w">the tree was wrong</div>
+      <div class="k">CORRECTED</div>
+      <div class="v"><strong><P n="Anna Arena" /></strong> — Ellis Island, <strong>23 May 1899</strong>,
+      off the <em>Archimede</em> out of Naples, <strong>aged 6</strong>. The tree puts her crossing in
+      <strong>1894</strong>, when she was one year old.</div><div class="w">five years</div>
+    </div>
+
+    <div class="prose" style="margin-top:1.6rem">
+      <h3 style="margin-bottom:.6rem">Michele Donato: two independent witnesses to 1856</h3>
+      <p>The tree puts his birth at Scilla in <strong>1851</strong>. His daughter's birth act makes
+      him <strong>36 in July 1892</strong>. This manifest makes him <strong>52 in 1908</strong>.
+      <strong>Both give about 1856, and neither supports 1851</strong> — which is exactly why the
+      1851 index had no Donato in it. It is the only New Orleans arrival among forty-nine Michele
+      Donato records in the collection, and it matches the port and the year the tree already
+      claimed.</p>
+      <p style="margin-top:.8rem">It also settles a doubt this archive raised three days ago. Having
+      found no Donato in the Scilla birth indexes for 1851, 1856 or 1859, the working hypothesis was
+      that <em>the surname arrived at Scilla late and Michele was born elsewhere</em>.
+      <strong>Fifteen Donato gave Scilla as their last residence at Ellis Island</strong> between
+      1893 and 1921. They were unquestionably a Scilla family. Where Michele was <em>born</em> is
+      still open — but "the Donato are not really of Scilla" is not the answer.</p>
+
+      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Rocco Arena: the conflict resolves, against
+      the tree's parents rather than its dates</h3>
+      <p>This archive has spent three days on a single contradiction. The tree makes
+      <P n="Rocco Arena" /> — born 1861 — the son of <P n="Orazio Arena" /> and Giovana Zirilli.
+      <a href={u("/scilla")}>Act 228 of the 1861 Scilla register</a> says <strong>Francesco Antonio
+      Arena</strong>, <em>marinaro</em>, and <strong>Serafina Arlotta</strong>, and 1861 holds
+      <strong>exactly one</strong> Rocco Arena. Either the parents were wrong or the year was.</p>
+      <p><strong>Three independent strands now point the same way.</strong></p>
+      <div class="rec" style="margin-top:14px">
+        <div class="k">The register</div>
+        <div class="v">1861 contains one Rocco Arena, and he is Francesco Antonio's</div>
+        <div class="w">atto 228</div>
+        <div class="k">The trade</div>
+        <div class="v">Rocco is a <em>marinaro</em> in 1893; Francesco Antonio is a <em>marinaro</em>
+        in 1861. These trades passed from father to son.</div><div class="w">atto 22 / 1893</div>
+        <div class="k">The manifest</div>
+        <div class="v">A Rocco Arena of Scilla, married, <strong>aged 39 in March 1900</strong> — born
+        about <strong>1861</strong>, from a source that has never seen this family tree</div>
+        <div class="w">the Trave</div>
+      </div>
+      <p style="margin-top:1.2rem">The tree's <strong>year is right</strong>. What is almost certainly
+      wrong is the <strong>parentage</strong> — and Orazio Arena and Giovanna Zirilli, who are
+      <a href={u("/scilla")}>documented twice over</a> as a real Scilla couple, are simply a
+      different household that the tree attached him to.</p>
+      <p class="note" style="margin-top:20px"><strong>One honest caveat.</strong> Manifest ages are
+      approximate and the indexed "year of birth" is derived from the age, not copied from a
+      document. A man born on 20 December 1861 would be <strong>38</strong> in March 1900, not 39 —
+      so this is a year loose. It does not pin the date. What it does do is rule out the alternative
+      the archive was entertaining, that Rocco's birth was years away from 1861 and hiding in another
+      volume. <strong>The chart still draws the tree as it stands</strong>, because this archive does
+      not rewrite what it was given on the balance of evidence — it records the balance instead.</p>
+
+      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Who took a six-year-old across the Atlantic</h3>
+      <p>Anna Arena crossed on the <em>Archimede</em> on 23 May 1899, aged six. On the
+      <strong>same film, the same frame, the line immediately above hers</strong>, is
+      <strong>Giavanni Arena, 45, married, of Scilla</strong>. She travelled with him, not with her
+      father — who arrived ten months later, and as an American citizen. Her brother Antonio had
+      been born in New York in 1895.</p>
+      <p><strong>So the order runs backwards from what the tree implies.</strong> Rocco Arena was
+      in America first and for long enough to naturalise; his six-year-old daughter was brought over
+      in 1899 by another Arena; and the family later went home to Scilla, where Anna married Giuseppe
+      Arena and their son Rocco was born in 1924.</p>
+
+      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The Polistena and the Donato were already
+      together in 1903</h3>
+      <p>On the <em>Sicilian Prince</em>, 12 August 1903, line 1 is <strong>Annunziata Polistena,
+      17</strong>, and line 2 is <strong>Giovanni Donato, 16</strong> — both of Scilla, side by side
+      on the same page. Further down the same manifest, lines 28 and 29, are <strong>Giuseppe
+      Polistena, 30</strong>, and <strong>Maria Polistena, 27</strong>, a married couple.</p>
+      <p><strong>Giovanni Polistena did not marry Nunziata Donato until about 1916.</strong> Thirteen
+      years earlier two teenagers from those families were crossing the Atlantic on consecutive lines
+      of one ship's manifest. And in 1901 on the <em>Neustria</em>, Pasquale Donato and Lorenjo Costa
+      of Scilla are two lines apart — Costa being <P n="Generosa Costa" />'s surname. These were not
+      three families who happened to marry; they were neighbours who moved together.</p>
+    </div>
+
+    <div class="scroll" style="margin-top:22px">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Arrived</th><th>Port</th><th class="m">Age</th><th class="m">→ born</th><th>Ship</th><th class="m">Line</th></tr></thead>
+        <tbody>
+          {ellis.rows.map((r) => (
+            <tr>
+              <td><strong>{r.name}</strong></td>
+              <td class="m">{r.arrived}</td>
+              <td>{r.port}</td>
+              <td class="m">{r.age}</td>
+              <td class="m">{r.birthYear}</td>
+              <td><em>{r.ship}</em></td>
+              <td class="m">{r.line} · {r.film}/{r.frame}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="small" style="margin-top:14px">Statue of Liberty &amp; Ellis Island Foundation, Arrival
+    Records Collection — <em>New York, Passenger Arrival Lists (Ellis Island), 1892–1925</em> and
+    <em>Louisiana, New Orleans Passenger Lists, 1820–1945</em> (NARA T905). Every row carries a
+    FamilySearch ark for the manifest page itself; <strong>the images have not been read</strong>,
+    only the index, because they need a FamilySearch account this browser is no longer signed in to.
+    The images are where the <em>place of birth</em> and <em>nearest relative left behind</em>
+    columns are — which is where Michele Donato's birthplace and Rocco Arena's father are most
+    likely to be written down.</p>
   </section>
 
   <section class="blk">

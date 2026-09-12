@@ -9441,7 +9441,7 @@
   "onSpine": true,
   "ancGen": 5,
   "corrections": [
-   "The tree puts his birth at Scilla in 1851. Act 162 of 1892 makes him THIRTY-SIX in July 1892, so born about 1856 -- and gives him a trade the tree does not record, pescatore. But the Scilla birth indexes for 1851, 1856 and 1859 each hold a complete D section and NONE of them has a Donato in it, while 1892 has two Donato households. On this evidence the surname arrives at Scilla between 1859 and 1892 and he was probably born in another comune."
+   "The tree puts his birth at Scilla in 1851. Act 162 of 1892 makes him THIRTY-SIX in July 1892, so born about 1856 -- and gives him a trade the tree does not record, pescatore. But the Scilla birth indexes for 1851, 1856 and 1859 each hold a complete D section and NONE of them has a Donato in it, while 1892 has two Donato households. On this evidence the surname arrives at Scilla between 1859 and 1892 and he was probably born in another comune. CONFIRMED INDEPENDENTLY: the New Orleans manifest of 1908 records him aged 52, off the Liguria -- a birth about 1856, agreeing with act 162 and not with the tree's 1851. And the 'Donato arrived at Scilla late' hypothesis is dead: fifteen Donato gave Scilla as their last residence at Ellis Island between 1893 and 1921."
   ]
  },
  {
@@ -18009,7 +18009,9 @@
   ],
   "onSpine": true,
   "ancGen": 4,
-  "corrections": []
+  "corrections": [
+   "The tree puts her crossing to America in 1894, when she was one. The Ellis Island manifest puts it at 23 MAY 1899, aged six, off the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father, who arrived ten months later as a US citizen."
+  ]
  },
  {
   "id": "@I247@",
@@ -18192,15 +18194,15 @@
     "href": "/crossings"
    },
    {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1893, atto 22 — named as Anna Arena's father, a marinaro",
+    "kind": "passenger manifest",
+    "what": "Ellis Island, 21 March 1900 — the Trave out of Genoa, aged 39, of Scilla, a US citizen",
     "href": "/scilla"
    }
   ],
   "onSpine": true,
   "ancGen": 5,
   "corrections": [
-   "The register gives his parents as Francesco Antonio Arena, marinaro, and Serafina Arlotta. The tree gives Orazio Arena and Giovana Zirilli. Neither matches, and the year holds only one Rocco Arena. Act 22 of 1893 adds a trade the tree does not record -- MARINARO, a sailor -- and that cuts AGAINST the archive's hypothesis rather than for it, since the Rocco Arena of act 228 is the son of Francesco Antonio Arena, also a marinaro. The act carries no age for him: it was declared by the midwife, not the father."
+   "THE CONFLICT RESOLVES. The tree makes him the son of Orazio Arena and Giovana Zirilli; act 228 of 1861 says Francesco Antonio Arena, marinaro, and Serafina Arlotta, and 1861 holds exactly one Rocco Arena. Three independent strands now favour the register: 1861 has only that one Rocco; Rocco is a marinaro in 1893 and Francesco Antonio is a marinaro in 1861, a trade passed father to son; and this manifest gives a Rocco Arena of Scilla, married, aged 39 in March 1900 -- born about 1861. THE TREE'S YEAR IS RIGHT AND ITS PARENTS ARE ALMOST CERTAINLY WRONG. Manifest ages are approximate, so this is a year loose and does not pin the date; what it rules out is a birth far from 1861. He was also in America long enough to naturalise."
   ]
  },
  {
@@ -18279,11 +18281,18 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1893, atto 22 — named as the mother, a filatrice",
     "href": "/scilla"
+   },
+   {
+    "kind": "passenger manifest",
+    "what": "Ellis Island — sought among the Costa of Scilla, not found",
+    "href": "/crossings"
    }
   ],
   "onSpine": true,
   "ancGen": 5,
-  "corrections": []
+  "corrections": [
+   "Four Costa gave Scilla as their last residence at Ellis Island and none is Generosa. Her crossing, which the tree dates to 1894, is not in the index under that name."
+  ]
  },
  {
   "id": "@I250@",
