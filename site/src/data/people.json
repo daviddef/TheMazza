@@ -429,11 +429,23 @@
     "kind": "burial register",
     "what": "Brisbane Catholic Cemeteries register — plot V-1027",
     "href": "/nudgee"
+   },
+   {
+    "kind": "passenger index",
+    "what": "NAA passenger arrivals index — the Ugolino Vivaldi, 01 Mar 1951",
+    "href": "/crossings"
+   },
+   {
+    "kind": "passenger index",
+    "what": "NAA passenger arrivals — the Ugolino Vivaldi, 1 March 1951, out of Genoa (candidate)",
+    "href": "/crossings"
    }
   ],
   "onSpine": true,
   "ancGen": 3,
-  "corrections": []
+  "corrections": [
+   "She is not in the index under Prostamo, and the only Domenica Mazza arrived in 1968. The best fit is MAZZA DOMENICO, 1 March 1951, ex Genoa -- right month, right year, right port of embarkation, right married surname, one letter out on the given name. Recorded as a candidate."
+  ]
  },
  {
   "id": "@I4@",
@@ -2428,11 +2440,23 @@
     "kind": "burial register",
     "what": "Brisbane Catholic Cemeteries register — plot V-1028",
     "href": "/nudgee"
+   },
+   {
+    "kind": "passenger index",
+    "what": "NAA passenger arrivals index — the Surriento, 17 Jun 1949",
+    "href": "/crossings"
+   },
+   {
+    "kind": "passenger index",
+    "what": "NAA passenger arrivals — the Surriento, arriving 17 June 1949, with her brother",
+    "href": "/crossings"
    }
   ],
   "onSpine": true,
   "ancGen": 3,
-  "corrections": []
+  "corrections": [
+   "Not in the index under her own name. Her brother Antonino IS, on the Surriento arriving 17 June 1949 -- the exact date the tree gives for her."
+  ]
  },
  {
   "id": "@I30@",
@@ -2670,10 +2694,23 @@
     "living": false
    }
   ],
-  "records": [],
+  "records": [
+   {
+    "kind": "passenger index",
+    "what": "NAA passenger arrivals index — the Ugolino Vivaldi, 01 Mar 1951",
+    "href": "/crossings"
+   },
+   {
+    "kind": "passenger index",
+    "what": "NAA passenger arrivals — placed on his mother's March 1951 voyage",
+    "href": "/crossings"
+   }
+  ],
   "onSpine": false,
   "ancGen": null,
-  "corrections": []
+  "corrections": [
+   "Born at Briatico in 1948, so two years old in March 1951, which matches the family account that Domenica Prostamo followed her husband with a son not yet three. Infants are routinely not indexed separately."
+  ]
  },
  {
   "id": "@I33@",
@@ -4304,10 +4341,18 @@
     "living": false
    }
   ],
-  "records": [],
+  "records": [
+   {
+    "kind": "passenger index",
+    "what": "NAA passenger arrivals — the Roma, Fremantle, 10 October 1957, with her father",
+    "href": "/crossings"
+   }
+  ],
   "onSpine": false,
   "ancGen": null,
-  "corrections": []
+  "corrections": [
+   "A Francesca Prostamo had been noted on Francessco Prostamo's voyage and flagged as 'not in the family tree'. She IS in the tree: she is his daughter, born 1945 at Briatico, and she was twelve. What the tree lacks is her crossing, not her."
+  ]
  },
  {
   "id": "@I52@",

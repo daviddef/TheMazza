@@ -64,6 +64,22 @@
   "year": 1949
  },
  {
+  "slug": "angela-polistena",
+  "who": "Angela Polistena",
+  "treeDate": "17 June 1949",
+  "treePort": "Brisbane, Queensland",
+  "treeFrom": "Genoa, Liguria",
+  "naaDate": "17 Jun 1949",
+  "naaPort": "Australia",
+  "ship": "SURRIENTO",
+  "naaFrom": "Naples",
+  "itemId": "9245788",
+  "confidence": "inferred",
+  "note": "Not in the index under her own name. Her BROTHER Antonino Polistena is, on the SURRIENTO arriving 17 June 1949 -- the exact date the tree gives for Angela. Brother and sister arriving on the same day arrived on the same ship. The same item also carries an ARENA ANTONINA, which is worth noting: Angela would marry Rocco Arena.",
+  "name": "Angela Polistena",
+  "year": 1949
+ },
+ {
   "slug": "mariano-cavallaro",
   "who": "Mariano Cavallaro",
   "treeDate": "May 1951",
@@ -77,6 +93,38 @@
   "confidence": "inferred",
   "note": "The tree gives only the month. Corrects the port of arrival to Brisbane and the embarkation to Messina.",
   "name": "Mariano Cavallaro",
+  "year": 1951
+ },
+ {
+  "slug": "domenica-prostamo",
+  "who": "Domenica Prostamo",
+  "treeDate": "March 1951",
+  "treePort": "Fremantle, Western Australia",
+  "treeFrom": "Genoa, Liguria",
+  "naaDate": "01 Mar 1951",
+  "naaPort": "Australia",
+  "ship": "UGOLINO VIVALDI",
+  "naaFrom": "Genoa",
+  "itemId": "30133197",
+  "confidence": "candidate",
+  "note": "NOT found under Prostamo, and the only Domenica Mazza in the index arrived in 1968. This is the best fit in the whole index and it is a good one: the right MONTH, the right YEAR, the right port of embarkation (Genoa), and the right MARRIED surname -- she married Sebastiano Mazza. The index reads the given name as DOMENICO, one letter from Domenica, which is an ordinary slip when transcribing a handwritten manifest. It is the only Mazza on the voyage. Recorded as a candidate, not a documented identification.",
+  "name": "Domenica Prostamo",
+  "year": 1951
+ },
+ {
+  "slug": "salvatore-mazza-1948",
+  "who": "Salvatore Mazza",
+  "treeDate": "—",
+  "treePort": "Fremantle, Western Australia",
+  "treeFrom": "Genoa, Liguria",
+  "naaDate": "01 Mar 1951",
+  "naaPort": "Australia",
+  "ship": "UGOLINO VIVALDI",
+  "naaFrom": "Genoa",
+  "itemId": "30133197",
+  "confidence": "inferred",
+  "note": "Born at Briatico in 1948; the tree records a Fremantle arrival out of Genoa with no date. The family story is that Domenica Prostamo followed her husband in March 1951 WITH A SON NOT YET THREE. A boy born in 1948 is two in March 1951. He is not separately indexed, which is normal for infants, but he belongs on his mother's voyage.",
+  "name": "Salvatore Mazza",
   "year": 1951
  },
  {
@@ -139,7 +187,7 @@
   "naaFrom": "Genoa",
   "itemId": "30132189",
   "confidence": "documented",
-  "note": "Exact date, port and embarkation all agree. A Francesca Prostamo is on the same voyage — not in the family tree.",
+  "note": "Exact date, port and embarkation all agree. The Francesca Prostamo on the same voyage is now IDENTIFIED: she is his daughter, born 1945 at Briatico, aged twelve. The tree records no crossing for her at all -- she travelled with her father.",
   "name": "Francessco Prostamo",
   "year": 1957
  }

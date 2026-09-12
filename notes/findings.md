@@ -1337,3 +1337,77 @@ Three sampled years is not a proof — 1852–55, 1857, 1858 and 1860–65 are u
 his **marriage**, not his birth: a marriage act names the groom's *comune of birth* outright. His
 eldest son was born 1878, so the marriage is about 1875–77 — **outside** Antenati's Scilla marriage
 series, which begins at 1905. That means the Reggio Calabria *processetti* or another comune.
+
+---
+
+## 13 September 2026, second run — America, and the NAA comes back up
+
+### The Ellis Island and New Orleans index
+
+Free, no account needed for the index, and it covers **New Orleans as well as Ellis Island**. The
+insight is blunt: **an arrival manifest records an age**, and an age is a birth year, and birth years
+are what this tree keeps getting wrong. Endpoint reverse-engineered from the site's own Quick View:
+`POST /wp-admin/admin-ajax.php` with `action=passenger_quick_view&passenger_id=<id>&nonce=<n>`,
+which returns line number, film, frame and a **FamilySearch image ark**.
+
+| who | arrived | age | → born | ship | note |
+|---|---|---|---|---|---|
+| **Rocco Arena** | Ellis Is., 21 Mar 1900 | **39** | **1861** | *Trave* ex Genoa | married, **US citizen** |
+| **Michele Donato** | **New Orleans**, 1908 | **52** | **1856** | *Liguria* | T905/19/763 |
+| **Anna Arena** | Ellis Is., 23 May 1899 | **6** | 1893 | *Archimede* ex Naples | line 4 |
+| Giavanni Arena | Ellis Is., 23 May 1899 | 45 | 1854 | *Archimede* | **line 3 — with Anna** |
+
+**ROCCO ARENA RESOLVES THE THREE-DAY CONTRADICTION, AGAINST THE DIRECTION THE ARCHIVE WAS LEANING.**
+Three strands now agree: 1861 holds exactly one Rocco Arena and he is Francesco Antonio's; Rocco is a
+*marinaro* in 1893 and Francesco Antonio a *marinaro* in 1861; and an American clerk who never saw
+this tree wrote down an age that gives 1861. **The tree's year is right; its parents are wrong.**
+Caveat recorded on the page: manifest ages are approximate and a man born 20 December 1861 would be
+38, not 39, in March 1900. It does not pin the date — it rules out a birth years away from 1861.
+
+**MICHELE DONATO: second independent witness to 1856.** And the "Donato arrived at Scilla late"
+hypothesis is **dead** — fifteen Donato gave Scilla as their last residence at Ellis Island between
+1893 and 1921. They were a Scilla family. Where *he* was born is still open.
+
+**ANNA ARENA crossed in 1899, not 1894**, aged six not one — and on the line immediately above hers,
+same film and frame, is Giavanni Arena, 45, of Scilla. She travelled with him. Her father had
+arrived earlier and was already naturalised; her brother Antonio was born in New York in 1895.
+
+**The families were already travelling together.** On the *Sicilian Prince*, 12 August 1903:
+line 1 **Annunziata Polistena, 17**, line 2 **Giovanni Donato, 16**, both of Scilla — thirteen years
+before a Polistena married a Donato. Lines 28–29, Giuseppe and Maria Polistena, a married couple.
+And on the *Neustria*, 13 March 1901, Pasquale Donato and Lorenjo Costa are two lines apart.
+
+### NAA RecordSearch is back
+
+It returned "session expired" for a whole day on 10 September. On 13 September it works normally.
+
+- **DOMENICA PROSTAMO — best candidate found.** Not under Prostamo; the only Domenica *Mazza* in the
+  index arrived 1968. But **MAZZA Domenico, 1 March 1951, UGOLINO VIVALDI ex GENOA, item 30133197**
+  is the right month, year, embarkation port and *married* surname, one letter out on the given name
+  — an ordinary slip off a handwritten manifest. The only Mazza on the voyage. **Candidate, not a
+  documented identification.**
+- **SALVATORE MAZZA b. 1948** placed on the same voyage. The family account has Domenica following
+  her husband *with a son not yet three*; a boy born 1948 is two in March 1951. Infants are routinely
+  not indexed.
+- **FRANCESCA PROSTAMO — the open question answered.** She was flagged as "on the *Roma* with
+  Francessco and not in the family tree". **She is in the tree**: his daughter, born 1945 at
+  Briatico, aged twelve. What was missing was her crossing, not her.
+- **ANGELA POLISTENA** is not indexed, but her **brother Antonino** is, on the **SURRIENTO arriving
+  17 June 1949** — the exact date the tree gives for her. Same day, same ship. The same item also
+  carries an **ARENA Antonina**, which is worth a note: Angela would marry an Arena.
+- **MICHAEL ANTONIO POLISTENA** (28 May 1950, Fremantle): **not in the index** under Polistena.
+
+### Scilla, Nati 1875 — Giuseppi Polistena is not there
+
+1875 is a third doubled year where the two arks are not two halves: `an_ua16601237` (container
+`5K7aGNQ`, 57 images) is Parte I + Parte II with no index; `an_ua16601238` (container `w9WVGVa`,
+37 images) carries the **Indice annuale at images 34–37**.
+
+The complete P section holds **exactly two Polistena**: *Polistena Vittoria di Francesco* (119) and
+*Polistina Giovanni di Salvatore* (235). **Neither is Camillo Antonio's, and there is no Giuseppe.**
+The Ellis Island manifest makes Giuseppe Polistena thirty in August 1903, so **about 1873** — the
+next volume is `an_ua16601235`.
+
+The same P section carries **Pontillo Annunziato di Domenico**, which at least confirms *Pontillo* as
+a genuine Scilla surname — so the tree's "Giovanna Pontillo" is a plausible name even though act 206
+of 1883 says the mother was Giovanna **Romano**.
