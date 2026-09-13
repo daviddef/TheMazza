@@ -1,6 +1,6 @@
 {
- "count": 34,
- "documented": 30,
+ "count": 35,
+ "documented": 31,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -39,6 +39,15 @@
      "treeSays": "Not in the tree",
      "recordSays": "FILIPPO ARENA b. 14 February 1852, DOMENICO ARENA b. 24 March 1853 and GIUSEPPE ARENA b. 5 March 1860 are all sons of Francesco Antonio Arena and Serafina Arlotta -- Rocco's elder brothers. The eldest is named FILIPPO for his grandfather, exactly as Calabrian custom predicts, which is a third independent support for the Filippo Arena generation. Separately, TERESA ARENA b. 17 October 1853 is a daughter of Orazio Arena and Giovanna Zirilli -- Orazio's earliest known child, and the tree gives him no daughters at all.",
      "source": "Scilla, Nati 1852 atto 48; Nati 1853 atti 2 and 6; Nati 1860 atto 45",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people — TWO NEW GENERATIONS",
+     "who": "Giovanni Arena b.1854, Rocco's brother",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "The Ellis Island manifest of 23 May 1899 states it outright: Giovanni Arena, 45, a sailor, sails to join 'BROTHER ROCCO, N. YORK, MULBERRY ST', and the six-year-old on the next line is entered not by surname but as 'NIECE, Anna Arena'. So Giovanni is Rocco Arena's brother and Anna is Rocco's daughter -- both stated on the document. His age matches the Arena Giovanni born at Scilla on 20 April 1854 exactly, though that act names the mother Rosa Arlotta where Rocco's names her Serafina.",
+     "source": "Ellis Island, the Archimede, 23 May 1899; Scilla, Nati 1854 atto 1",
      "confidence": "documented"
     }
    ]
@@ -222,7 +231,7 @@
      "who": "Anna Arena",
      "slug": "anna-arena",
      "treeSays": "Crossed in 1894, aged one",
-     "recordSays": "Crossed on 23 MAY 1899 aged six, on the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father.",
+     "recordSays": "Crossed on 23 MAY 1899 aged six, on the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father. THE IMAGE names the man she travelled with as her UNCLE -- her line begins with the word 'Niece' -- and he was going to join 'brother Rocco' at Mulberry Street, New York.",
      "source": "Ellis Island, the Archimede",
      "confidence": "documented"
     }

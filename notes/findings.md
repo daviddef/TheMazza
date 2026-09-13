@@ -1663,3 +1663,33 @@ The father's name moves *towards* the tree: *Camillo Antonio* in the act, *Anton
 sixteen years and one ocean later. His wife **Maria Sofi** is confirmed by name.
 
 **And Giovanni Polistena has a crossing the tree does not record at all.**
+
+### The Archimede, 23 May 1899 — the manifest names the relationships
+
+`3:1:3Q9M-C9TH-X9BL-2`, 5438 × 3911, list Z-25, lines 3 and 4.
+
+> **3 · Arena Giovanni**, 45, married, **Sailor** — going to join: **"brother Rocco, N. York, Mulberry St"**
+> **4 · "Niece, Anna Arena"**, 6, occupation **none**
+
+**Line 4 does not begin with a surname. It begins with the word "Niece."** And line 3's
+join-a-relative column says *brother Rocco*. So the document states, twice over and without any
+inference from this archive:
+
+- **Giovanni Arena is Rocco Arena's BROTHER** — a sibling the family tree does not have.
+- **Anna Arena is Rocco's daughter**, brought over by her uncle at six.
+- **Rocco Arena was living on MULBERRY STREET, New York**, in May 1899.
+
+His age of 45 matches **Arena Giovanni, b. Scilla 20 April 1854** to the day. **One loose end:** that
+act names the mother **Rosa** Arlotta where Rocco's names her **Serafina** Arlotta. The father in both
+is written *"Ant.º"* — exactly how the 1852 act writes Francesco Antonio.
+
+### The Trave, 21 March 1900 — and a bounded negative
+
+`3:1:3Q9M-C9TH-F86F`, 4839 × 3923, page 117, line 27: **Arena Rocco**, 39, married, **Sailor**,
+nationality **"Citizen U.S.A."**, last residence **Scilla**, carrying **$50**.
+
+The trade confirms the *marinaro* of act 22 of 1893.
+
+**Note for anyone repeating this: the 1900 form has no parental columns.** It cannot name Rocco's
+father, and no amount of re-reading will make it. That question needs a different record — his
+marriage, or a death record.
