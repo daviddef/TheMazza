@@ -2257,3 +2257,54 @@ by index: they need either a full read of ~200 openings or the parish registers.
 That also bounds **Giovanni Arlotta × Maria Costa**: he is 75 in 1854, so born c.1779. A marriage in
 the civil window 1816–1828 would make him 37–49 — which reads as a *second* marriage — and anything
 earlier is pre-civil and parish-only.
+
+## 13 September 2026 — Scilla civil marriages: the coverage note was wrong, and it cost three searches
+
+**The correction.** This archive recorded Scilla's Antenati marriages as "restaurazione to 1865,
+then 1905–1913". The *Stato civile italiano* series (**serie 16594786**) actually holds:
+
+| tipologia | volumes | range |
+|---|---|---|
+| Matrimoni | **48** | **1866–1913, unbroken** |
+| Matrimoni, pubblicazioni | 46 | the banns — name the parents |
+| Morti | 81 | |
+| Cittadinanze | 51 | |
+| Nati | 39 | 1866–1904 |
+
+Arks are **not** computable (they step by 2, then by 1, and 1911–13 sit at a *lower* ark than 1910).
+The full list is in `data/scilla-arks-italiano.tsv`. Every volume ends with an **Indice Annuale**
+pairing both spouses against the act number, in surname blocks.
+
+**Scilla, Matrimoni 1885, atto 73 — 12 September 1885.** *Arena Giuseppe*, 25, **marinaro**, born
+Scilla, **figlio di FRANCESCO ANTONIO e di SERAFINA ARLOTTA** × *Martello Maria*, 24, **filatrice**,
+**figlia di PAOLO, residente in AMERICA**, e di *Giovanna Chirico*. Witnesses Bellantoni Domenico 45
+*civile*, Ciccone Candeloro 45 *guardia*. Both spouses illiterate.
+
+**Scilla, Matrimoni 1885, atto 86 — 29 October 1885, 10.53 a.m.** *Arena Giovanni*, **31**,
+**marinaro**, born Scilla, **figlio di ANTONIO e di SERAFINA ARLOTTA** × *Russo Concetta*, **26**,
+**filatrice**, **figlia di LEONARDO e di ANGELA BAGNATO**. Witnesses Cardona Antonio 30 *civile*,
+Minasi Francesco 31 *proprietario*. *Meno della sposa perché illetterata.*
+
+→ **Two of Rocco's brothers married seven weeks apart in 1885.** Act 73 writes the father's name out
+in full, which proves *Antonio Arena* = Francesco Antonio.
+
+→ **Three Giovanni Arena collapse into one.** 31 in Oct 1885 = b. 1854 = act 76 of 30 April 1854 =
+the *pescatore* of act 230 of 1892 (entered as 33, three years out) = the 1899 manifest's "brother
+Rocco". **The birth search failed because it trusted a declared age** and read 1857–1860 instead of
+1854. Retracted in `data/name-evidence.tsv` and on `/scilla`.
+
+**A genuine second Giovanni Arena stays apart:** act 94 of 1885 marries *Filippo Arena*, 28,
+*pescatore*, **figlio del fu GIOVANNI e di NATALIZIA LONGORDO** — right name, right age to be Rocco's
+eldest brother, wrong parents. At least four Arena households at Scilla in 1885.
+
+**Rocco Arena × Generosa Costa — nine years read, not found.** Indexes read for 1885, 1886, 1887,
+1889, 1890, 1891, 1892, 1893, 1894. **1888 cannot be read**: the volume carries the archivist's slip
+*VOLUME DANNEGGIATO DALL'UMIDITÀ — VOLUME LACERO — IMPOSSIBILE FARE MEGLIO*, and the damage falls
+on the top-left of the index where the A entries are. 1888 is the open year and fits the census's
+"married ten years" within two. Beware *Arena Rocco Maria × Lico M. Concetta*, act 12 of 1891.
+
+**Now unblocked by the coverage correction, and unsearched:** Michele Donato's marriage (c.1875–77),
+Giovanni Polistena × Nunziata Donato, and the whole *pubblicazioni* series, which names parents.
+
+**Calibration for the 1885 volume:** two acts to an opening, `act = 37 + 2*(image-20)`, the left page
+carrying the odd act. Acts 73→img 38, 85/86→img 44, 93/94→img 48, 103→img 53.

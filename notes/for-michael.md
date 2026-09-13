@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 58 items, 54 of them resting on a document that has been read.
+For **Michael Mazza**. 62 items, 58 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -33,7 +33,7 @@ inference any more.
 - **Francesco Antonio Arena**, b. 25 November 1819, *marinaro* × **Serafina Arlotta**, b. 13 June 1830
 - and Rocco's three elder brothers — Filippo (1852), Domenico (1853), Giuseppe (1860)
 
-In all, **13 documented people** are missing from your export.
+In all, **17 documented people** are missing from your export.
 
 **4. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
 **Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)** — two of
@@ -114,6 +114,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** Son of Orazio Arena and Giovanna Zirilli
 - **The record says:** Born 5 March 1860 to FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA. He is Rocco's brother, and both were attached to the wrong father.
 - **Source:** Scilla, Nati 1860, atto 45
+
+### Giovanni Arena (Rocco's brother)
+
+- **The tree says:** Not in the tree as Rocco's brother
+- **The record says:** SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA, named in his own marriage act. So he is ROCCO ARENA'S FULL BROTHER -- which is what the 1899 manifest says, where he sails to join 'brother Rocco' and enters six-year-old Anna as his NIECE.
+- **Source:** Scilla, Matrimoni 1885, atto 86; Nati 1854, atto 76
 
 
 ## Birth year
@@ -199,6 +205,12 @@ Mazza by six, Rosario Mazza by five.
 - **The record says:** BORN 7 NOVEMBER 1843 at Piedimonte Etneo, at eight in the morning, in her parents' own house. Act 101 of the births of 1843. So she was TWENTY-SEVEN when she married in April 1871, not twenty-six as her own marriage act says.
 - **Source:** Piedimonte Etneo, Nati 1843, atto 101
 
+### Giovanni Arena (Rocco's brother)
+
+- **The tree says:** Born 1870
+- **The record says:** BORN 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS earlier than the tree says. This archive previously corrected him to 'about 1859' from his son's birth act of 1892, which makes him thirty-three. His MARRIAGE act of 1885 makes him THIRTY-ONE, which is 1854, and his own birth act of 1854 gives the day. The 1892 age is three years out; the birth act is the authority.
+- **Source:** Scilla, Nati 1854 atto 76; Matrimoni 1885 atto 86
+
 
 ## Death date
 
@@ -237,6 +249,18 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** No marriage recorded
 - **The record says:** MARRIED 30 APRIL 1871 at Piedimonte Etneo, act 14, at four in the afternoon. Both single, both born and living there, both braccianti.
 - **Source:** Piedimonte Etneo, Matrimoni 1871, atto 14
+
+### Giovanni Arena and Concetta Russo
+
+- **The tree says:** No marriage date
+- **The record says:** MARRIED 29 OCTOBER 1885 at Scilla, act 86, at ten fifty-three in the morning. He 31, marinaro; she 26, FILATRICE, daughter of LEONARDO RUSSO and ANGELA BAGNATO. The bride could not sign the register.
+- **Source:** Scilla, Matrimoni 1885, atto 86
+
+### Giuseppe Arena and Maria Martello
+
+- **The tree says:** No marriage recorded
+- **The record says:** MARRIED 12 SEPTEMBER 1885 at Scilla, act 73. He 25, marinaro, son of FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA; she 24, filatrice, daughter of PAOLO MARTELLO -- ALREADY LIVING IN AMERICA IN 1885 -- and GIOVANNA CHIRICO.
+- **Source:** Scilla, Matrimoni 1885, atto 73
 
 
 ## Parents -- missing entirely

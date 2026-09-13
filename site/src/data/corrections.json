@@ -1,6 +1,6 @@
 {
- "count": 58,
- "documented": 54,
+ "count": 62,
+ "documented": 58,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -107,6 +107,15 @@
      "treeSays": "Son of Orazio Arena and Giovanna Zirilli",
      "recordSays": "Born 5 March 1860 to FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA. He is Rocco's brother, and both were attached to the wrong father.",
      "source": "Scilla, Nati 1860, atto 45",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Parentage",
+     "who": "Giovanni Arena (Rocco's brother)",
+     "slug": "—",
+     "treeSays": "Not in the tree as Rocco's brother",
+     "recordSays": "SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA, named in his own marriage act. So he is ROCCO ARENA'S FULL BROTHER -- which is what the 1899 manifest says, where he sails to join 'brother Rocco' and enters six-year-old Anna as his NIECE.",
+     "source": "Scilla, Matrimoni 1885, atto 86; Nati 1854, atto 76",
      "confidence": "documented"
     }
    ]
@@ -234,6 +243,15 @@
      "treeSays": "No birth recorded",
      "recordSays": "BORN 7 NOVEMBER 1843 at Piedimonte Etneo, at eight in the morning, in her parents' own house. Act 101 of the births of 1843. So she was TWENTY-SEVEN when she married in April 1871, not twenty-six as her own marriage act says.",
      "source": "Piedimonte Etneo, Nati 1843, atto 101",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth date",
+     "who": "Giovanni Arena (Rocco's brother)",
+     "slug": "—",
+     "treeSays": "Born 1870",
+     "recordSays": "BORN 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS earlier than the tree says. This archive previously corrected him to 'about 1859' from his son's birth act of 1892, which makes him thirty-three. His MARRIAGE act of 1885 makes him THIRTY-ONE, which is 1854, and his own birth act of 1854 gives the day. The 1892 age is three years out; the birth act is the authority.",
+     "source": "Scilla, Nati 1854 atto 76; Matrimoni 1885 atto 86",
      "confidence": "documented"
     }
    ]
@@ -591,6 +609,24 @@
      "treeSays": "No marriage recorded",
      "recordSays": "MARRIED 30 APRIL 1871 at Piedimonte Etneo, act 14, at four in the afternoon. Both single, both born and living there, both braccianti.",
      "source": "Piedimonte Etneo, Matrimoni 1871, atto 14",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Marriage -- missing entirely",
+     "who": "Giovanni Arena and Concetta Russo",
+     "slug": "—",
+     "treeSays": "No marriage date",
+     "recordSays": "MARRIED 29 OCTOBER 1885 at Scilla, act 86, at ten fifty-three in the morning. He 31, marinaro; she 26, FILATRICE, daughter of LEONARDO RUSSO and ANGELA BAGNATO. The bride could not sign the register.",
+     "source": "Scilla, Matrimoni 1885, atto 86",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Marriage -- missing entirely",
+     "who": "Giuseppe Arena and Maria Martello",
+     "slug": "—",
+     "treeSays": "No marriage recorded",
+     "recordSays": "MARRIED 12 SEPTEMBER 1885 at Scilla, act 73. He 25, marinaro, son of FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA; she 24, filatrice, daughter of PAOLO MARTELLO -- ALREADY LIVING IN AMERICA IN 1885 -- and GIOVANNA CHIRICO.",
+     "source": "Scilla, Matrimoni 1885, atto 73",
      "confidence": "documented"
     }
    ]
