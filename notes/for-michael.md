@@ -1,31 +1,30 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 32 items, 28 of them resting on a document that has been read.
+For **Michael Mazza**. 33 items, 29 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts on the site draw your export exactly
 as you gave it. These are proposals with the source attached to each one, so you can check any
 of them yourself and reject the ones you disagree with.
 
-Items marked *candidate*, *inferred* or *flagged* mean the archive thinks it is probably right and
-is telling you it is not certain. One item is marked *RETRACTED* — something the archive claimed
-and has since withdrawn.
+## The big one, and why it holds
 
-## The two biggest items, first
+**Rocco and Giuseppe are not Orazio Arena's sons.** The register gives Francesco Antonio Arena and
+Serafina Arlotta a Giuseppe (5 March 1860) and a Rocco (20 December 1861). Your tree gives Orazio
+Arena exactly two children and they are Rocco and Guiseppe — the same pair, same order, on the
+wrong father.
 
-**1. Rocco and Giuseppe are not Orazio Arena's sons.** The register gives Francesco Antonio Arena
-and Serafina Arlotta a Giuseppe on 5 March 1860 and a Rocco on 20 December 1861. Your tree gives
-Orazio Arena exactly two children and they are Rocco and Guiseppe — the same pair, same order, on
-the wrong father. Orazio's real children, across four years of the register, are Domenico, Domenico
-and Maria Annunziata.
+**That opened two generations you do not have**, and then a third thing confirmed them. Act 228
+calls Francesco Antonio *figlio di Filippo*; the 1819 index gives his birth on 25 November 1819 to
+**Filippo Arena and Domenica Costa**. And when the archive later swept 1852 looking for Rocco's
+brothers, it found that Francesco Antonio's **first son, born 14 February 1852, is called FILIPPO**
+— exactly who Calabrian custom says he should be named for. Nobody went looking for that; it fell
+out of a search run for another reason.
 
-**2. That opens two generations you do not have.** Act 228 calls Francesco Antonio *figlio di
-Filippo*, and the 1819 index gives his birth on 25 November 1819 to **Filippo Arena and Domenica
-Costa**. Those two are great-great-great-great-grandparents of Mia and Rocco, and they are not in
-the export at all.
+So Rocco has three elder brothers you do not have — Filippo (1852), Domenico (1853), Giuseppe
+(1860) — and two more generations above him.
 
-**Good news about Orazio, separately.** Your date for him — 1821 — appears to be right. Act 10 of
-the 1821 Scilla index is an Orazio Arena born 14 December 1821, son of a Giuseppe Arena. He is a
-real, well documented Scilla man. He simply is not Rocco's father.
+**Orazio Arena is fine, separately.** Your date for him, 1821, is probably right, and he has a
+daughter Teresa born 17 October 1853 that the tree does not record. He simply is not Rocco's father.
 
 **And a pattern worth knowing.** The commonest error is not a wrong name — it is a wrong birth
 year, on people the tree could not date from a document. Giovanni Arena is out by eleven years,
@@ -50,6 +49,12 @@ Michele Donato by five, Salvatore Mazza by six.
 - **The tree says:** Not in the tree
 - **The record says:** Rocco Arena's mother, aged 28 in December 1861 so born about 1833. Her own birth act has not been read yet.
 - **Source:** Scilla, Nati 1861, atto 228
+
+### Rocco Arena's three brothers and a cousin
+
+- **The tree says:** Not in the tree
+- **The record says:** FILIPPO ARENA b. 14 February 1852, DOMENICO ARENA b. 24 March 1853 and GIUSEPPE ARENA b. 5 March 1860 are all sons of Francesco Antonio Arena and Serafina Arlotta -- Rocco's elder brothers. The eldest is named FILIPPO for his grandfather, exactly as Calabrian custom predicts, which is a third independent support for the Filippo Arena generation. Separately, TERESA ARENA b. 17 October 1853 is a daughter of Orazio Arena and Giovanna Zirilli -- Orazio's earliest known child, and the tree gives him no daughters at all.
+- **Source:** Scilla, Nati 1852 atto 48; Nati 1853 atti 2 and 6; Nati 1860 atto 45
 
 ## Parentage
 
@@ -150,7 +155,7 @@ Michele Donato by five, Salvatore Mazza by six.
 ### Orazio Arena  *(candidate)*
 
 - **The tree says:** Nothing above him
-- **The record says:** THIS ARCHIVE WITHDRAWS ITS OWN INFERENCE. From Orazio naming two sons Domenico, naming custom suggested his father was a Domenico Arena. Two Orazio Arena births at Scilla now say otherwise: act 10 of 1821 gives him a father GIUSEPPE (and the tree's own year, 1821, exactly), and act 1 of 1833 gives a different Orazio a father BONAVENTURA. Neither is a Domenico. The mistake was not the custom but the assumption behind it: the first child this archive had FOUND was not necessarily his FIRST child. The years 1850-1855 are unread, and a son Giuseppe in one of them would restore the custom exactly. Recorded as a candidate: ORAZIO ARENA b. 14 DECEMBER 1821, son of Giuseppe Arena and a Teresa.
+- **The record says:** THIS ARCHIVE WITHDRAWS ITS OWN INFERENCE. From Orazio naming two sons Domenico, naming custom suggested his father was a Domenico Arena. Two Orazio Arena births at Scilla now say otherwise: act 10 of 1821 gives him a father GIUSEPPE (and the tree's own year, 1821, exactly), and act 1 of 1833 gives a different Orazio a father BONAVENTURA. Neither is a Domenico. The mistake was not the custom but the assumption behind it: the first child this archive had FOUND was not necessarily his FIRST child. The years 1850-1855 are unread, and a son Giuseppe in one of them would restore the custom exactly. Recorded as a candidate: ORAZIO ARENA b. 14 DECEMBER 1821, son of Giuseppe Arena and a Teresa. FURTHER EVIDENCE, BOTH WAYS: Orazio's earliest known child is a DAUGHTER, Teresa, born 17 October 1853. Custom names the first daughter for her paternal grandmother, and act 10 of 1821 makes Orazio's mother a Teresa -- which SUPPORTS the 1821 candidate. But that same act makes his father a Giuseppe, and Orazio's first son is Domenico, with 1852-1855 now read and no earlier son. The two halves disagree and the archive is not picking one.
 - **Source:** Scilla, Nati 1821 atto 10; Nati 1833 atto 1
 
 ## Crossing date
