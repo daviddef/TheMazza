@@ -1547,3 +1547,37 @@ children before him**, so the marriage should sit in 1858 or early 1859. It is i
 is *celebrated*, usually the **bride's** parish. If Serafina Arlotta was not of Scilla, the act is in
 her comune — and that would also explain why her birth has not turned up. Two specific, findable
 things instead of open ground.
+
+### Scilla, Nati 1833 and 1821 — a retraction
+
+**1833** (`an_ua2002847`, container `5B6RQPk`, Tavola at 94–100). A section, six entries:
+
+> **1 · Arena Orazio · Bonaventura e Romano Marianna · 4 Febraro 1833**
+
+**No Serafina Arlotta** — two Arlotta births in the year and both male (Gaetano di Pasquale;
+Giuseppantonio di Giovanni e Costa Maria). Act 228 makes her 28, so 1833 is the year her age points
+to. Together with the missing marriage in 1858 and 1859, that supports the reading that
+**Serafina Arlotta was not of Scilla**: her marriage would be registered in her own comune, and so
+would her birth.
+
+**1821** (`an_ua2002812`, container `04rZVeY`, Tavola at 94–99). A section, ten entries, three Arena:
+
+> **10 · Arena Orazio · Gius.<sup>e</sup> e M[igliara?] Teresa · 14 X<sup>bre</sup>**
+
+**The tree dates Orazio Arena to 1821 and gives no source. Here is an Orazio Arena born 14 December
+1821.** Much the better of the two candidates.
+
+**And this retracts one of this archive's own inferences.** Earlier the same day it argued, labelled
+as a lead, that because Orazio's first son is Domenico twice, naming custom made *his* father a
+Domenico Arena. **Neither candidate's father is a Domenico** — 1821 gives Giuseppe, 1833 gives
+Bonaventura.
+
+**The failure is instructive and the custom is probably fine.** What was wrong was the assumption
+underneath it: that the first child *this archive had found* was Orazio's *first* child. The Scilla
+indexes for **1850–1855 are unread**. A son Giuseppe in one of them — named for a paternal
+grandfather Giuseppe, exactly as act 10 of 1821 predicts — would restore the custom perfectly and
+leave Domenico as the second son, named for Giovanna Zirilli's father.
+
+**The rule:** naming custom is only as good as your knowledge of birth order, and a register read
+from 1856 onward cannot give you the birth order of a couple who married before 1856. Never infer
+from a partial sweep.

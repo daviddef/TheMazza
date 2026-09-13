@@ -7,7 +7,8 @@ as you gave it. These are proposals with the source attached to each one, so you
 of them yourself and reject the ones you disagree with.
 
 Items marked *candidate*, *inferred* or *flagged* mean the archive thinks it is probably right and
-is telling you it is not certain.
+is telling you it is not certain. One item is marked *RETRACTED* — something the archive claimed
+and has since withdrawn.
 
 ## The two biggest items, first
 
@@ -21,6 +22,10 @@ and Maria Annunziata.
 Filippo*, and the 1819 index gives his birth on 25 November 1819 to **Filippo Arena and Domenica
 Costa**. Those two are great-great-great-great-grandparents of Mia and Rocco, and they are not in
 the export at all.
+
+**Good news about Orazio, separately.** Your date for him — 1821 — appears to be right. Act 10 of
+the 1821 Scilla index is an Orazio Arena born 14 December 1821, son of a Giuseppe Arena. He is a
+real, well documented Scilla man. He simply is not Rocco's father.
 
 **And a pattern worth knowing.** The commonest error is not a wrong name — it is a wrong birth
 year, on people the tree could not date from a document. Giovanni Arena is out by eleven years,
@@ -140,13 +145,13 @@ Michele Donato by five, Salvatore Mazza by six.
 - **The record says:** Almost certainly one woman entered twice. NOT merged here, because surname endogamy at Scilla is common enough that a second wife of the same surname is genuinely possible -- the 1913 marriage index alone has Bueti marrying Bueti and Vizzari marrying Vizzari. NOTE: whichever way that resolves, neither Zirilli record should carry Rocco or Giuseppe as a child -- they belong to Serafina Arlotta.
 - **Source:** Scilla, Nati 1856 atto 180 and 1859 atto 46
 
-## Generation -- a lead, not a finding
+## Generation — a lead, RETRACTED
 
-### Orazio Arena  *(flagged)*
+### Orazio Arena  *(candidate)*
 
 - **The tree says:** Nothing above him
-- **The record says:** His first son is named DOMENICO, twice. Calabrian naming custom gives the first son his father's father's name, so Orazio Arena's father was probably a Domenico Arena. This is an inference from custom, NOT a record -- it is written down as the thing to look for.
-- **Source:** Scilla, Nati 1856 atto 180 and 1859 atto 46
+- **The record says:** THIS ARCHIVE WITHDRAWS ITS OWN INFERENCE. From Orazio naming two sons Domenico, naming custom suggested his father was a Domenico Arena. Two Orazio Arena births at Scilla now say otherwise: act 10 of 1821 gives him a father GIUSEPPE (and the tree's own year, 1821, exactly), and act 1 of 1833 gives a different Orazio a father BONAVENTURA. Neither is a Domenico. The mistake was not the custom but the assumption behind it: the first child this archive had FOUND was not necessarily his FIRST child. The years 1850-1855 are unread, and a son Giuseppe in one of them would restore the custom exactly. Recorded as a candidate: ORAZIO ARENA b. 14 DECEMBER 1821, son of Giuseppe Arena and a Teresa.
+- **Source:** Scilla, Nati 1821 atto 10; Nati 1833 atto 1
 
 ## Crossing date
 

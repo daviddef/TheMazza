@@ -192,16 +192,16 @@
    ]
   },
   {
-   "kind": "Generation -- a lead, not a finding",
+   "kind": "Generation — a lead, RETRACTED",
    "rows": [
     {
-     "kind": "Generation -- a lead, not a finding",
+     "kind": "Generation — a lead, RETRACTED",
      "who": "Orazio Arena",
      "slug": "orazio-arena",
      "treeSays": "Nothing above him",
-     "recordSays": "His first son is named DOMENICO, twice. Calabrian naming custom gives the first son his father's father's name, so Orazio Arena's father was probably a Domenico Arena. This is an inference from custom, NOT a record -- it is written down as the thing to look for.",
-     "source": "Scilla, Nati 1856 atto 180 and 1859 atto 46",
-     "confidence": "flagged"
+     "recordSays": "THIS ARCHIVE WITHDRAWS ITS OWN INFERENCE. From Orazio naming two sons Domenico, naming custom suggested his father was a Domenico Arena. Two Orazio Arena births at Scilla now say otherwise: act 10 of 1821 gives him a father GIUSEPPE (and the tree's own year, 1821, exactly), and act 1 of 1833 gives a different Orazio a father BONAVENTURA. Neither is a Domenico. The mistake was not the custom but the assumption behind it: the first child this archive had FOUND was not necessarily his FIRST child. The years 1850-1855 are unread, and a son Giuseppe in one of them would restore the custom exactly. Recorded as a candidate: ORAZIO ARENA b. 14 DECEMBER 1821, son of Giuseppe Arena and a Teresa.",
+     "source": "Scilla, Nati 1821 atto 10; Nati 1833 atto 1",
+     "confidence": "candidate"
     }
    ]
   },
