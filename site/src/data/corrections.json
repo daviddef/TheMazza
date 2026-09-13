@@ -1,6 +1,6 @@
 {
- "count": 41,
- "documented": 37,
+ "count": 45,
+ "documented": 41,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -122,6 +122,15 @@
      "recordSays": "Born about 1856. Thirty-six in his daughter's birth act of July 1892, and fifty-two on the New Orleans manifest of 1908 -- and the New Orleans manifest image names him a SAILOR whose nearest relative is 'Wife Maria Sofi, Via Grotte, Scilla' -- three independent witnesses agreeing.",
      "source": "Scilla, Nati 1892, atto 162; New Orleans passenger list 1908",
      "confidence": "documented"
+    },
+    {
+     "kind": "Birth year",
+     "who": "Rosario Mazza",
+     "slug": "rosario-mazza",
+     "treeSays": "Born 1850",
+     "recordSays": "Born 1845 at Piedimonte Etneo. His death act makes him SEVENTY-NINE in November 1924. This archive had already derived 1845 from the ages the marriage proclamations gave him in 1898, 1902 and 1910; the death act agrees.",
+     "source": "Italy, Catania, Catania, Civil Registration (Tribunale), 1866-1929",
+     "confidence": "documented"
     }
    ]
   },
@@ -182,6 +191,15 @@
      "recordSays": "Died at Scilla on 26 August 1975, death act 30 of that year, aged 83. Her daughters Angela and Giovanna are buried at Nudgee in Brisbane; she never left Scilla.",
      "source": "Marginal annotation on Scilla, Nati 1892, atto 162",
      "confidence": "documented"
+    },
+    {
+     "kind": "Death -- missing entirely",
+     "who": "Rosario Mazza",
+     "slug": "rosario-mazza",
+     "treeSays": "No death recorded",
+     "recordSays": "DIED 15 NOVEMBER 1924 at PRESA, Piedimonte Etneo, aged seventy-nine, a CONTADINO; certificate 15. His death act also names his father MARIANO and his mother MARIA CATALANO, and his wife Leonarda Bonanno.",
+     "source": "Italy, Catania, Catania, Civil Registration (Tribunale), 1866-1929",
+     "confidence": "documented"
     }
    ]
   },
@@ -204,6 +222,15 @@
      "treeSays": "Not in the tree",
      "recordSays": "A Teresa Anile aged 20 and a one-year-old boy are on the Luisiana with Domenica and Concetta on 2 August 1906, on consecutive lines. Five people crossed that day; the tree remembers three. AND THE ONE-YEAR-OLD IS NOT AN ANILE: the manifest's name column writes MELLUSO against the children and Anile only against the women, so he is FRANCESCO MELLUSO, Domenica's younger son, going to his father. The whole party was joining 'Domenico Melluso, 2173 First Ave, N.Y.'",
      "source": "Ellis Island, the Luisiana, 2 August 1906 — manifest image",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people",
+     "who": "Mariano Mazza, son of Rosario",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "The Acireale diocesan registers name ROSARIO MAZZA and LEONARDA BONANNO as the parents of a MARIANUM MAZZA -- a son called for his paternal grandfather, exactly as Sicilian custom predicts of a first son.",
+     "source": "Italy, Catania, Diocesi di Acireale, Catholic Church Records, 1560-1950",
      "confidence": "documented"
     }
    ]
@@ -433,6 +460,15 @@
      "treeSays": "No occupation",
      "recordSays": "FILATRICE, a spinner.",
      "source": "Scilla, Nati 1892, atto 230",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Rosario Mazza",
+     "slug": "rosario-mazza",
+     "treeSays": "No occupation",
+     "recordSays": "CONTADINO -- a peasant farmer. Which sets the Sicilian Mazza against the Calabrian Arena exactly: four generations of Arena sailors on the water at Scilla, and the Mazza contadini on the mountain at Piedimonte.",
+     "source": "Italy, Catania, Catania, Civil Registration (Tribunale), 1866-1929",
      "confidence": "documented"
     }
    ]

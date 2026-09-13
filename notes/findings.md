@@ -2020,3 +2020,59 @@ Arena, Francesco Antonio, Serafina Arlotta or Domenica Costa. It claimed six gen
 all tree-derived. It now leads with the line **as the acts have it**, marks the three generations that
 cannot be drawn on any chart here, carries the Orazio correction with all five supports, and replaces
 the old assertion that the surname is common with the evidence for it.
+
+---
+
+## 13 September 2026, ninth run — SICILY
+
+The Mazza are the archive's namesake and its oldest unfinished business. Calabria ran hot for a
+fortnight while Piedimonte Etneo sat untouched. One afternoon on FamilySearch put that right.
+
+### Rosario Mazza's death act — `1:1:XWTK-5R8Q`
+
+*Italy, Catania, Catania, Civil Registration (Tribunale), 1866–1929*
+
+> **Rosario Mazza**, **79**, *contadino*, born **Piedimonte Etneo**, died **15 November 1924** at
+> **Presa, Piedimonte Etneo** — certificate **15**
+> father **Mariano** · mother **Maria Catalano** · wife **Leonarda Bonanno**
+
+- **The tree gives him no death at all.** Now dated.
+- **The tree says born 1850. He was born 1845** — and this archive had *already derived 1845* from
+  the ages in the marriage proclamations of 1898, 1902 and 1910. **The death act agrees with the
+  reconstruction and not with the tree.**
+- **Trade: *contadino*.** Which sets the two halves of this family against each other exactly — four
+  generations of **Arena sailors** on the water at Scilla, and the **Mazza contadini** on the
+  mountain at Piedimonte.
+
+### The name line stops being an inference
+
+The archive reached **Mariano Mazza × Maria Catalano** by reading *"di Mariano"* off marriage
+proclamations and assembling a generation nobody had claimed. Careful work — and still an inference.
+
+**Rosario's death act names both of them outright.** The deepest Sicilian generation is now a
+documented fact.
+
+### A son nobody had
+
+The Acireale diocesan registers name Rosario Mazza and Leonarda Bonanno as parents of a
+**Marianum Mazza** — a son called for his paternal grandfather, exactly as custom predicts of a first
+son. Not in the family tree.
+
+### Why "Rosario" finds nothing in the parish register
+
+Piedimonte Etneo's parish marriage register runs **1777–1911** and is in the full-text corpus, so the
+1870 marriage ought to be reachable. **It is not.**
+
+- **These registers are in Latin. Rosario is *ROGERIUS*.** Salvatore's 1898 parish marriage reads
+  *Salvator Mazza*, son of ***Rogerius* Mazza** and *Leonarda Bonanno*.
+- **And even "Rogerius Mazza" returns zero**, because the OCR of the hand is close to unusable. What
+  works on these images is the **AI-extracted household index**, not the page transcript.
+
+The marriage is very probably there. **It will have to be browsed, not searched.**
+
+### A two-way conflict becomes a three-way one
+
+The same parish record names Maria Nicotra's mother **Venera Cosentino**. The archive already held
+**Monti Venera** (1898 civil proclamation) and **Venera Cassaneti** (Queensland death index).
+**Three surnames for one woman**, only the given name *Venera* constant. *Cassaneti* and *Cosentino*
+may be one word badly read twice. Unresolved — and worse than it was this morning.

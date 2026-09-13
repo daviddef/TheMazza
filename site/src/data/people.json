@@ -1867,10 +1867,18 @@
    }
   ],
   "siblings": [],
-  "records": [],
+  "records": [
+   {
+    "kind": "death record",
+    "what": "Italy, Catania — died 15 November 1924 at Presa, Piedimonte Etneo, aged 79",
+    "href": "/mazza"
+   }
+  ],
   "onSpine": true,
   "ancGen": 5,
-  "corrections": []
+  "corrections": [
+   "The tree gives him no death and dates his birth to 1850. The death act gives 15 NOVEMBER 1924, an age of SEVENTY-NINE (so born 1845, as this archive had already derived from the marriage proclamations), a trade -- CONTADINO -- and, crucially, BOTH HIS PARENTS: Mariano and Maria Catalano. The deepest Sicilian generation was an inference until this act; it is now documented."
+  ]
  },
  {
   "id": "@I24@",
