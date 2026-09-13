@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 29 items, 25 of them resting on a document that has been read.
+For **Michael Mazza**. 32 items, 28 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts on the site draw your export exactly
 as you gave it. These are proposals with the source attached to each one, so you can check any
@@ -9,13 +9,42 @@ of them yourself and reject the ones you disagree with.
 Items marked *candidate*, *inferred* or *flagged* mean the archive thinks it is probably right and
 is telling you it is not certain.
 
-**The commonest error is not a wrong name — it is a wrong birth year**, on people the tree could
-not date from a document. Giovanni Arena is out by eleven years, Michele Donato by five,
-Salvatore Mazza by six.
+## The two biggest items, first
 
-**The largest single correction is the Arena parentage.** Rocco and Giuseppe are not Orazio Arena's
-sons. They are Francesco Antonio Arena and Serafina Arlotta's, and the register has both of their
-births. Orazio's own children turn out to be three quite different people.
+**1. Rocco and Giuseppe are not Orazio Arena's sons.** The register gives Francesco Antonio Arena
+and Serafina Arlotta a Giuseppe on 5 March 1860 and a Rocco on 20 December 1861. Your tree gives
+Orazio Arena exactly two children and they are Rocco and Guiseppe — the same pair, same order, on
+the wrong father. Orazio's real children, across four years of the register, are Domenico, Domenico
+and Maria Annunziata.
+
+**2. That opens two generations you do not have.** Act 228 calls Francesco Antonio *figlio di
+Filippo*, and the 1819 index gives his birth on 25 November 1819 to **Filippo Arena and Domenica
+Costa**. Those two are great-great-great-great-grandparents of Mia and Rocco, and they are not in
+the export at all.
+
+**And a pattern worth knowing.** The commonest error is not a wrong name — it is a wrong birth
+year, on people the tree could not date from a document. Giovanni Arena is out by eleven years,
+Michele Donato by five, Salvatore Mazza by six.
+
+## Missing people — TWO NEW GENERATIONS
+
+### Filippo Arena and Domenica Costa
+
+- **The tree says:** Not in the tree
+- **The record says:** FILIPPO ARENA and DOMENICA COSTA, married by 1819 at Scilla. They are Francesco Antonio Arena's parents, Rocco Arena's grandparents, and great-great-great-great-grandparents of Mia and Rocco. Filippo is named TWICE and independently: the 1819 Tavola gives his son as 'Filippo e Dom.ca Costa', and act 228 of 1861 calls Francesco Antonio 'figlio di Filippo'.
+- **Source:** Scilla, Nati 1819 atto 186; Nati 1861 atto 228
+
+### Francesco Antonio Arena
+
+- **The tree says:** Not in the tree
+- **The record says:** Born 25 NOVEMBER 1819 at Scilla, a MARINARO. Act 228 of 1861 makes him forty-two on 23 December 1861, and a birth on 25 November 1819 makes him forty-two years and one month -- exact. He is Rocco Arena's father, and the tree has Rocco under Orazio Arena instead.
+- **Source:** Scilla, Nati 1819 atto 186; Nati 1860 atto 45; Nati 1861 atto 228
+
+### Serafina Arlotta
+
+- **The tree says:** Not in the tree
+- **The record says:** Rocco Arena's mother, aged 28 in December 1861 so born about 1833. Her own birth act has not been read yet.
+- **Source:** Scilla, Nati 1861, atto 228
 
 ## Parentage
 

@@ -12,9 +12,10 @@ export is drawn exactly as it was given.
 import csv, json, collections
 
 rows = list(csv.DictReader(open("data/corrections.tsv"), delimiter="\t"))
-ORDER = ["Parentage", "Birth year", "Birth date", "Death date",
-         "Death -- missing entirely", "Missing people", "Relationship",
-         "Duplicate record", "Crossing date", "Crossing -- ship named",
+ORDER = ["Missing people — TWO NEW GENERATIONS", "Parentage", "Birth year", "Birth date",
+         "Death date", "Death -- missing entirely", "Missing people", "Relationship",
+         "Duplicate record", "Generation -- a lead, not a finding",
+         "Crossing date", "Crossing -- ship named",
          "Crossing -- missing entirely", "Port", "Trade -- missing entirely"]
 groups = collections.OrderedDict()
 for k in ORDER:

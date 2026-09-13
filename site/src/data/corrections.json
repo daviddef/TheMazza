@@ -1,7 +1,39 @@
 {
- "count": 29,
- "documented": 25,
+ "count": 32,
+ "documented": 28,
  "groups": [
+  {
+   "kind": "Missing people — TWO NEW GENERATIONS",
+   "rows": [
+    {
+     "kind": "Missing people — TWO NEW GENERATIONS",
+     "who": "Filippo Arena and Domenica Costa",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "FILIPPO ARENA and DOMENICA COSTA, married by 1819 at Scilla. They are Francesco Antonio Arena's parents, Rocco Arena's grandparents, and great-great-great-great-grandparents of Mia and Rocco. Filippo is named TWICE and independently: the 1819 Tavola gives his son as 'Filippo e Dom.ca Costa', and act 228 of 1861 calls Francesco Antonio 'figlio di Filippo'.",
+     "source": "Scilla, Nati 1819 atto 186; Nati 1861 atto 228",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people — TWO NEW GENERATIONS",
+     "who": "Francesco Antonio Arena",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "Born 25 NOVEMBER 1819 at Scilla, a MARINARO. Act 228 of 1861 makes him forty-two on 23 December 1861, and a birth on 25 November 1819 makes him forty-two years and one month -- exact. He is Rocco Arena's father, and the tree has Rocco under Orazio Arena instead.",
+     "source": "Scilla, Nati 1819 atto 186; Nati 1860 atto 45; Nati 1861 atto 228",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people — TWO NEW GENERATIONS",
+     "who": "Serafina Arlotta",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "Rocco Arena's mother, aged 28 in December 1861 so born about 1833. Her own birth act has not been read yet.",
+     "source": "Scilla, Nati 1861, atto 228",
+     "confidence": "documented"
+    }
+   ]
+  },
   {
    "kind": "Parentage",
    "rows": [
@@ -154,6 +186,20 @@
      "slug": "giovana-zirilli",
      "treeSays": "Orazio Arena has two wives, \"Giovanna Zirilli\" b.1827 and \"Giovana Zirilli\" undated",
      "recordSays": "Almost certainly one woman entered twice. NOT merged here, because surname endogamy at Scilla is common enough that a second wife of the same surname is genuinely possible -- the 1913 marriage index alone has Bueti marrying Bueti and Vizzari marrying Vizzari. NOTE: whichever way that resolves, neither Zirilli record should carry Rocco or Giuseppe as a child -- they belong to Serafina Arlotta.",
+     "source": "Scilla, Nati 1856 atto 180 and 1859 atto 46",
+     "confidence": "flagged"
+    }
+   ]
+  },
+  {
+   "kind": "Generation -- a lead, not a finding",
+   "rows": [
+    {
+     "kind": "Generation -- a lead, not a finding",
+     "who": "Orazio Arena",
+     "slug": "orazio-arena",
+     "treeSays": "Nothing above him",
+     "recordSays": "His first son is named DOMENICO, twice. Calabrian naming custom gives the first son his father's father's name, so Orazio Arena's father was probably a Domenico Arena. This is an inference from custom, NOT a record -- it is written down as the thing to look for.",
      "source": "Scilla, Nati 1856 atto 180 and 1859 atto 46",
      "confidence": "flagged"
     }
@@ -316,20 +362,6 @@
      "recordSays": "FILATRICE, a spinner.",
      "source": "Scilla, Nati 1892, atto 230",
      "confidence": "documented"
-    }
-   ]
-  },
-  {
-   "kind": "Generation -- a lead, not a finding",
-   "rows": [
-    {
-     "kind": "Generation -- a lead, not a finding",
-     "who": "Orazio Arena",
-     "slug": "orazio-arena",
-     "treeSays": "Nothing above him",
-     "recordSays": "His first son is named DOMENICO, twice. Calabrian naming custom gives the first son his father's father's name, so Orazio Arena's father was probably a Domenico Arena. This is an inference from custom, NOT a record -- it is written down as the thing to look for.",
-     "source": "Scilla, Nati 1856 atto 180 and 1859 atto 46",
-     "confidence": "flagged"
     }
    ]
   }

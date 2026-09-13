@@ -1496,3 +1496,54 @@ nobody merges him with the man we want.
 
 Next move: his **marriage to Concetta Russo** (about 1890), which names the groom's comune of birth.
 Antenati's Scilla marriages run 1905–1913 only, so that means the Reggio Calabria *processetti*.
+
+---
+
+## 13 September 2026, third run — the Arena line goes back two more generations
+
+### Scilla, Nati 1819, atto 186 — Filippo Arena and Domenica Costa
+
+`an_ua2002808`, container `58rKlpd`, 121 images, **Tavola at images 115–121**. The 1819 index is
+headed *"TAVOLA annuale alfabetica de' nati in questo Comune di Scilla nell'anno 1819"* and has a
+five-entry A section. The fifth:
+
+> **5 · Arena Francesco · Filippo e Dom.<sup>ca</sup> Costa · 25 9<sup>bre</sup> · 186**
+
+Act 228 of 1861 makes Francesco Antonio Arena **42** on 23 December 1861 and calls him
+*figlio di Filippo*. A birth on **25 November 1819** makes him forty-two years and one month.
+**Exact.**
+
+The direct line of Mia and Rocco now runs:
+
+**Filippo Arena × Domenica Costa** → **Francesco Antonio Arena** (b. 25 Nov 1819, *marinaro*) ×
+**Serafina Arlotta** → **Rocco Arena** (b. 20 Dec 1861, *marinaro*) × Generosa Costa →
+**Anna Arena** (b. 1893) → Rocco Arena (b. 1924) → Nancy Arena → Mia and Rocco.
+
+**Four of those people are not in the export at all.** Recorded in `data/documented-additions.tsv`
+and on `/corrections`, because the charts draw the tree as given and these cannot go on them.
+
+Worth a note and no more: Francesco Antonio's mother is a **Costa**, and three generations later his
+grandson married **Generosa Costa**. On present evidence a coincidence of a common Scilla surname.
+
+### The marriage is not at Scilla
+
+All **54** Scilla *restaurazione* **Matrimoni** arks, 1816–1865, fetched in **one page load** with
+`s_size=100` and added to `data/scilla-arks.tsv` (the file now carries a `tipologia` column and 109
+arks). Series id for Scilla under the restaurazione fondo is **2002440**; `tipologia=Matrimoni`
+filters it.
+
+The marriage Tavola is the most efficient document in the system: **two rows per marriage, groom
+above bride, with a parents column for each** — four parents per opening.
+
+- **Matrimoni 1859** (`an_ua2002639`, container `LzjPNeG`, Tavola at 77–80): A section has **one**
+  entry, a Messinese groom. No Arena.
+- **Matrimoni 1858** (`an_ua2002637`, container `wQYJq7q`, Tavola at 73–76): A section has **one**
+  entry. No Arena.
+
+Giuseppe was born 5 March 1860 and the birth indexes for 1856–1859 show the couple with **no
+children before him**, so the marriage should sit in 1858 or early 1859. It is in neither.
+
+**The likeliest explanation is an assumption, not a gap.** An Italian marriage is registered where it
+is *celebrated*, usually the **bride's** parish. If Serafina Arlotta was not of Scilla, the act is in
+her comune — and that would also explain why her birth has not turned up. Two specific, findable
+things instead of open ground.
