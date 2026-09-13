@@ -1,106 +1,73 @@
 {
- "note": "The four quarters and the families they married. State is derived, not assigned by hand: a line is DRAWN where this archive publishes a chart of it, DRAWABLE where there are enough people to chart and no chart yet, and a ROUTE where there are too few. Where most of a family's people are recorded without a proved join to anyone else, it is a WEB, because that is what the evidence is.",
+ "note": "A tree with invented joins in it is worse than no tree, so none of these has any. Each line is drawn in the form its own evidence supports. Four quarters, four different depths of proof.",
  "rows": [
   {
-   "name": "Mazza",
+   "name": "Prostamo — out of Briatico",
    "ours": true,
    "state": "drawn",
-   "depth": "118 people, 1850–2012",
-   "what": "One of the four quarters this archive is built from.",
-   "gap": null,
-   "href": "/mazza/",
-   "cta": "Open the family →"
+   "depth": "Nine generations, 1697 to now — the deepest line in the whole estate",
+   "what": "Nine straight generations born, married and buried in one small Calabrian town without leaving it. Franco Antonino of 1697 is the oldest person any of the seven archives can name.",
+   "gap": "And the top of it is a family chart, not a register. Briatico's books have not been read; the solid evidence starts far lower down.",
+   "href": "/briatico/",
+   "cta": "Briatico, and what is being tested →"
   },
   {
-   "name": "Prostamo",
-   "ours": true,
-   "state": "drawable",
-   "depth": "84 people, 1697–2010",
-   "what": "One of the four quarters this archive is built from.",
-   "gap": "No chart of this family has been drawn yet.",
-   "href": "/families/",
-   "cta": "Open the family →"
-  },
-  {
-   "name": "Polistena",
-   "ours": true,
-   "state": "drawable",
-   "depth": "45 people, 1874–2018",
-   "what": "One of the four quarters this archive is built from.",
-   "gap": "No chart of this family has been drawn yet.",
-   "href": "/families/",
-   "cta": "Open the family →"
-  },
-  {
-   "name": "Arena",
+   "name": "Mazza — out of Piedimonte Etneo",
    "ours": true,
    "state": "drawn",
-   "depth": "39 people, 1821–2012",
-   "what": "One of the four quarters this archive is built from.",
+   "depth": "The name the archive carries, at the foot of Etna",
+   "what": "Civil acts read image by image off the Antenati films. Each one carries the father's age, which is how a birth year is recovered for a man with no birth act of his own.",
    "gap": null,
-   "href": "/arena/",
-   "cta": "Open the family →"
+   "href": "/piedimonte-etneo/",
+   "cta": "Piedimonte Etneo →"
   },
   {
-   "name": "Donato",
-   "ours": false,
-   "state": "drawable",
-   "depth": "20 people, 1851–1933",
-   "what": "Married into the line; 20 people of the name are recorded here.",
-   "gap": "No chart of this family has been drawn yet.",
-   "href": "/families/",
-   "cta": "Open the family →"
+   "name": "Arena — out of Scilla",
+   "ours": true,
+   "state": "drawn",
+   "depth": "43 acts read from the Scilla register, from 1861",
+   "what": "A fishing town on the strait, with a castle on a rock. In 1892 two Arenas married each other here, which is what a town of that size does to a family tree.",
+   "gap": null,
+   "href": "/scilla/",
+   "cta": "Scilla →"
   },
   {
-   "name": "Cavallaro",
-   "ours": false,
-   "state": "drawable",
-   "depth": "13 people, 1909–2013",
-   "what": "Married into the line; 13 people of the name are recorded here.",
-   "gap": "No chart of this family has been drawn yet.",
-   "href": "/families/",
-   "cta": "Open the family →"
+   "name": "Polistena — also out of Scilla",
+   "ours": true,
+   "state": "drawn",
+   "depth": "The fourth quarter, from the same town as the third",
+   "what": "Two of the four quarters come out of one Calabrian town and did not know it until the acts were read side by side.",
+   "gap": "Antonino Polistena's crossing was missed for years because the Australian index had filed him under a shortened version of his name.",
+   "href": "/scilla/",
+   "cta": "Scilla →"
   },
   {
-   "name": "Bova",
-   "ours": false,
-   "state": "drawable",
-   "depth": "13 people, 1916–2000",
-   "what": "Married into the line; 13 people of the name are recorded here.",
-   "gap": "No chart of this family has been drawn yet.",
-   "href": "/families/",
-   "cta": "Open the family →"
-  },
-  {
-   "name": "Melluso",
-   "ours": false,
-   "state": "drawable",
-   "depth": "12 people, 1855–1994",
-   "what": "Married into the line; 12 people of the name are recorded here.",
-   "gap": "No chart of this family has been drawn yet.",
-   "href": "/families/",
-   "cta": "Open the family →"
-  },
-  {
-   "name": "Anile",
-   "ours": false,
-   "state": "drawable",
-   "depth": "12 people, 1838–1980",
-   "what": "Married into the line; 12 people of the name are recorded here.",
-   "gap": "No chart of this family has been drawn yet.",
-   "href": "/families/",
-   "cta": "Open the family →"
-  },
-  {
-   "name": "Nicotra",
+   "name": "Where the four met",
    "ours": false,
    "state": "route",
-   "depth": "8 people, 1836–1963",
-   "what": "Married into the line; 8 people of the name are recorded here.",
-   "gap": "No chart of this family has been drawn yet.",
-   "href": "/families/",
-   "cta": "Open the family →"
+   "depth": "Four graves in a row at Nudgee — V-1026 to V-1029",
+   "what": "Born in three towns that had never heard of each other, and buried side by side in the order they died, nineteen years between the first and the last.",
+   "gap": null,
+   "href": "/nudgee/",
+   "cta": "Nudgee →"
   }
  ],
- "close": "Four quarters, four different depths of proof — Prostamo reaches 1697 on a family chart, the Sicilian acts reach 1877 on paper."
+ "close": "The form is checked, not asserted: a line counts as drawn only where this archive actually publishes a chart of it. Prostamo reaches 1697 on a family chart; the Sicilian acts reach 1877 on paper. The difference between those two numbers is the whole job.",
+ "doors": [
+  [
+   "/families/",
+   "All the families",
+   "Everyone the four quarters married."
+  ],
+  [
+   "/register/",
+   "The register",
+   "107 records, read one at a time."
+  ],
+  [
+   "/timeline/",
+   "The timeline",
+   "90 dated events, each carrying what it rests on."
+  ]
+ ]
 }
