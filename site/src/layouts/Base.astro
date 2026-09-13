@@ -1,6 +1,8 @@
 ---
 import { u } from "../lib/url.js";
 import SiblingArchives from "@daviddef/archive-kit/components/SiblingArchives.astro";
+import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
+import ring from "@daviddef/archive-kit/data/archives.json";
 const { title, description = "", dek, eyebrow, bare } = Astro.props;
 const SITE = "The Mazza Archive";
 const nav = [
@@ -23,6 +25,10 @@ const nav = [
 ];
 const here = Astro.url.pathname.replace(/\/$/, "");
 const on = (h) => here === u(h).replace(/\/$/, "");
+/* which of the seven this is, worked out the same way the ring does */
+const thisArchive = ring.archives.find(
+  (a) => a.base === (import.meta.env.BASE_URL || "/").replace(/\/$/, "")
+);
 ---
 <html lang="en" data-base={u("")}>
 <head>
@@ -91,6 +97,7 @@ const on = (h) => here === u(h).replace(/\/$/, "");
       <a href="https://github.com/daviddef/TheMazza">The repository</a> ·
       <a href="https://daviddef.github.io/TheFalco/">The Falco Archive</a> ·
       Corrections are the most valuable thing you can send</p>
+    <VisitCount code={thisArchive?.counter} />
   </div>
 </footer>
 
