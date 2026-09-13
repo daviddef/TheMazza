@@ -1866,3 +1866,23 @@ crossing.
 - **The Australian passenger index corroborated the NAA exactly** — the same five Prostamo, and
   **still no Domenica in 1951**. Two independent indexes now agree, which strengthens the reading
   that she travelled under her married name.
+
+### Filippo Arena's marriage — not 1818, not 1819, and that deduces something
+
+- **Matrimoni 1818** (`an_ua2002516`, container `LPaGar8`, Tavola 41–43). **This year's Tavola is
+  alphabetised by the groom's GIVEN NAME** — A = Antonio, Antonino; C = Cosimo; D = Domenico, Diego.
+  So Filippo sits under **F**, which holds Francesco Migliarino, Francesco Polimeni, **Filippo
+  Pizzarello** and Francesco La Valle. **No Filippo Arena.**
+- **Matrimoni 1819** (`an_ua2002520`, container `0AJEJ8b`, Tavola 75–79). **This year is alphabetised
+  by SURNAME.** The A section holds exactly one entry — *Arlotta Grazio × Papalia Giovanna*,
+  8 February. **No Arena.**
+
+**The convention changes from year to year.** That is a trap: hunting "Arena" in the A section of an
+1818-style table finds nothing and proves nothing. Recorded to memory.
+
+**What the two negatives deduce.** Francesco Arena was born **25 November 1819**, so even a February
+1819 marriage could have produced him — and neither year holds one. **The marriage is 1817 or
+earlier, which means Francesco was not their first child.** There should be elder children of Filippo
+Arena and Domenica Costa in the birth registers of **1816, 1817 and 1818** — arks `an_ua2002801`,
+`an_ua2002803`, `an_ua2002805`, all already in `data/scilla-arks.tsv`. That is the next move, and it
+is a bounded one.
