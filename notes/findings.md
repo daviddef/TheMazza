@@ -2463,3 +2463,34 @@ was *residente in America*, seven years before Rocco first sailed.
 sequence numbered from 1 again**, dated across 1888 — a Parte II of its own. The main series runs
 earlier in the volume. Since the act only corroborates what the marriage act already states, it was
 left; images 30–44 are the place to look.
+
+## 14 September 2026 — two more acts, and the Via Grotte neighbourhood
+
+**Calibration, Scilla Morti 1895:** four acts to an opening; `act = 69 + 4*(image − 20)` is right at
+image 20 but drifts by one opening lower down — check the printed *Numero* before trusting it.
+
+**Morti 1895, atto 133 — ARENA ORAZIO.** 31 August 1895, 10.30 a.m., **Via Acquagrande 70**. Aged
+**65**, *pescatore*, son of **the late ANTONIO, proprietario**, and **the late SERAFINA DELUCA,
+filatrice**; **husband of CONCETTA MARIA NESTRO**. Declared by becchini Sgarlata Giovanni 56 and
+Tesoriere Domenico 39; witnesses Perina Raffaele 65 and **Sofi Michelangelo 62**.
+→ **Not the tree's Orazio Arena** (whose wife is Giovanna Zirilli). A third Arena household, born
+c.1830 — the right generation to be mistaken for Francesco Antonio, which is probably how the tree's
+error began.
+→ **Three Serafinas now**: Serafina Arlotta (ours), Serafina Deluca (here), Serafina Bellantoni (act
+2). *A given name is not an identification* — this archive has been caught by that twice.
+
+**Morti 1895, atto 2 — ARLOTTA DOMENICO**, nine months old, **Via Grotte 60**, son of Giovanni
+Arlotta *marinaro* and Serafina Bellantoni. Witnesses **Romano Francesco 60** and **Sofi Nunzio 53**.
+→ Not our Giovanni Arlotta (b. c.1779). **The address is the finding.**
+
+### Via Grotte 60, 70, 75
+
+The Arlotta at 60. Giovanni Arena and Concetta Russo losing Fortunato at 70 in 1891. Their Giuseppe
+born at 75 in 1892. **The Arena and the Arlotta were a few doors apart in one lane** — which explains
+the Arlotta witnesses, the Arlotta who declared Giovanni Arena's birth in 1854, and the Rocco Arlotta
+lodging with Rocco Arena in Manhattan in 1900. Rocco's own daughter Anna was born round the corner at
+**Via Acquagrande 41**, and Orazio Arena died at **Via Acquagrande 70**.
+
+**Also:** `/what-changed` brought up to date, and the two comune requests consolidated into one letter
+at `notes/requests/scilla-comune.md` (the Polistena × Donato marriage of c.1916 and Nunziata Donato's
+death act of 1975 — both inside the closed period).
