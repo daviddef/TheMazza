@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import corrections from "../data/corrections.json";
+import additions from "../data/additions.json";
 ---
 <Base title="For Michael" eyebrow={corrections.count + " things the records say differently"}
       dek="Every place where a document and the family tree disagree, or where a document says something the tree does not say at all — with the source for each, so every line can be checked.">
@@ -55,6 +56,33 @@ import corrections from "../data/corrections.json";
       </div>
     </section>
   ))}
+
+  <section class="blk">
+    <div class="lab">People the records prove and the export does not contain</div>
+    <h2 style="margin-top:.4rem">{additions.length} people who cannot appear on any chart here</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Every chart on this site is drawn from Michael's export. These people are not in it — so
+      they cannot be drawn, however well documented they are. Four of them are direct ancestors of
+      Mia and Rocco.</p>
+    </div>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th class="m">Gen</th><th>Name</th><th class="m">Born</th><th>Trade</th><th>Parents</th><th>Source</th></tr></thead>
+        <tbody>
+          {additions.map((a) => (
+            <tr>
+              <td class="m">{a.gen}</td>
+              <td><strong>{a.name}</strong></td>
+              <td class="m">{a.born}</td>
+              <td>{a.trade !== "—" ? <em>{a.trade}</em> : ""}</td>
+              <td class="small">{a.father !== "—" ? a.father + (a.mother !== "—" ? " × " + a.mother : "") : ""}</td>
+              <td class="small">{a.source}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
 
   <section class="blk" style="border-bottom:0">
     <h2>How to read the confidence</h2>

@@ -15,8 +15,17 @@
  */
 import { u } from "../lib/url.js";
 import { bySlug } from "../lib/people.js";
+import disputed from "../data/disputed.json";
 
 const { person: p } = Astro.props;
+
+/* Where a record this archive has read contradicts an edge the tree draws, the
+   chart says so ON THE EDGE. The tree is still drawn exactly as given -- it is
+   Michael's research and this archive does not silently rewrite it -- but a
+   reader should not have to find the prose on another page to learn that the
+   line they are looking at is disputed. */
+const dis = disputed[p.slug] || {};
+const disp = (slug) => dis[slug] || null;
 
 const get = (b) => (p[b] || []).map((e) => ({ ...e, rec: bySlug.get(e.slug) }));
 const parents  = get("parents");
@@ -32,8 +41,9 @@ const dates = (r) => {
   if (r.died) return `d. ${r.died}`;
   return "";
 };
-const cls = (r) => r && r.records && r.records.length ? "via-register"
-                 : r && r.onSpine ? "via-line" : "via-tree";
+const cls = (r, slug) => (disp(slug) ? "disputed " : "") +
+                 (r && r.records && r.records.length ? "via-register"
+                 : r && r.onSpine ? "via-line" : "via-tree");
 const via = (r) => r && r.records && r.records.length ? "tree + a record read"
                  : r && r.onSpine ? "tree — an ancestor" : "family tree";
 
@@ -57,10 +67,10 @@ const has = parents.length || spouses.length || children.length || siblings.leng
       <div class="lab">{parents.length === 1 ? "Parent" : "Parents"}</div>
       <div class="row">
         {parents.map((e) => (
-          <a class={"node " + cls(e.rec)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
+          <a class={"node " + cls(e.rec, e.slug)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
             <span class="nm">{e.name}</span>
             {dates(e.rec) ? <span class="dt">{dates(e.rec)}</span> : null}
-            <span class="via">{via(e.rec)}</span>
+            <span class="via">{disp(e.slug) ? disp(e.slug).short : via(e.rec)}</span>
           </a>
         ))}
       </div>
@@ -77,7 +87,7 @@ const has = parents.length || spouses.length || children.length || siblings.leng
         {p.datesHidden ? <span class="via living">dates withheld — 80 or younger</span> : null}
       </div>
       {spouses.map((e) => (
-        <a class={"node spouse " + cls(e.rec)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
+        <a class={"node spouse " + cls(e.rec, e.slug)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
           <span class="mar">married</span>
           <span class="nm">{e.name}</span>
           {dates(e.rec) ? <span class="dt">{dates(e.rec)}</span> : null}
@@ -93,10 +103,10 @@ const has = parents.length || spouses.length || children.length || siblings.leng
       <div class="lab">{children.length === 1 ? "Child" : `${children.length} children`}</div>
       <div class="row">
         {children.map((e) => (
-          <a class={"node " + cls(e.rec)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
+          <a class={"node " + cls(e.rec, e.slug)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
             <span class="nm">{e.name}</span>
             {dates(e.rec) ? <span class="dt">{dates(e.rec)}</span> : null}
-            <span class="via">{via(e.rec)}</span>
+            <span class="via">{disp(e.slug) ? disp(e.slug).short : via(e.rec)}</span>
           </a>
         ))}
       </div>
@@ -108,7 +118,7 @@ const has = parents.length || spouses.length || children.length || siblings.leng
       <div class="lab">{siblings.length === 1 ? "Sibling" : `${siblings.length} siblings`}</div>
       <div class="row">
         {siblings.map((e) => (
-          <a class={"node small " + cls(e.rec)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
+          <a class={"node small " + cls(e.rec, e.slug)} href={u("/people/" + e.slug)} title={"Recorded by: " + via(e.rec)}>
             <span class="nm">{e.name}</span>
             {dates(e.rec) ? <span class="dt">{dates(e.rec)}</span> : null}
           </a>
@@ -139,6 +149,18 @@ const has = parents.length || spouses.length || children.length || siblings.leng
       likelier explanation. <a href={u("/open-questions")}>The 58 names it refuses to merge →</a></p>
     ) : null}
   </figcaption>
+  {Object.keys(dis).length ? (
+    <figcaption class="disputed-note">
+      <strong>One or more of the lines above is contradicted by a record this archive has read.</strong>
+      <ul>
+        {Object.entries(dis).map(([slug, d]) => (
+          <li><a href={u("/people/" + slug)}>{slug.replace(/-/g, " ")}</a> — {d.why}</li>
+        ))}
+      </ul>
+      <p>The chart still draws the family tree exactly as it was given. This archive does not
+      silently rewrite someone else's research — it marks the edge and shows its working.</p>
+    </figcaption>
+  ) : null}
 </figure>
 ) : null}
 
@@ -166,6 +188,15 @@ const has = parents.length || spouses.length || children.length || siblings.leng
   .ptree .via-register .via{color:var(--accent)}
   .ptree .node.via-register{border-left:3px solid var(--accent)}
   .ptree .node.via-tree{border-left:3px dotted var(--ink-3)}
+  .ptree .node.disputed{border-left:3px solid #b3261e;background:rgba(179,38,30,.045)}
+  .ptree .node.disputed .via{color:#b3261e;font-weight:600}
+  .ptree .node.disputed .nm::after{content:" ⚠";color:#b3261e;font-weight:700}
+  .ptree .disputed-note{margin-top:18px;padding:14px 16px;border-left:3px solid #b3261e;
+    background:rgba(179,38,30,.05);font-family:var(--sans);font-size:13px;line-height:1.6;color:var(--ink-2)}
+  .ptree .disputed-note ul{margin:.5rem 0 .6rem;padding-left:18px}
+  .ptree .disputed-note li{margin-bottom:.4rem}
+  .ptree .disputed-note li a{text-transform:capitalize}
+  .ptree .disputed-note p{margin:0;color:var(--ink-3)}
   .ptree .node.via-line{border-left:3px solid var(--terra)}
   .ptree .via.gen{color:var(--terra);font-weight:600}
   .ptree .via.living{font-style:italic}

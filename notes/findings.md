@@ -1800,3 +1800,23 @@ misread its own digits and theorised about the document instead.
 **The rule:** when a record does not match, **re-check your own reading before you theorise about the
 record.** The previous session's note, which sent a future reader hunting a nonexistent *atti di
 matrimonio* series, has been replaced.
+
+### The charts now carry the corrections (item 15)
+
+Until today the archive knew Rocco Arena's drawn parentage was wrong and said so in prose on four
+pages, while `PersonTree` went on drawing the line to Orazio without a mark on it. The site was
+quietly telling two stories.
+
+**Fixed.** `data/disputed-edges.tsv` lists edges a read record contradicts; `PersonTree` marks those
+nodes in red with a ⚠, replaces the provenance label with *"a record says otherwise"*, and prints a
+caption under the chart explaining each one. Five edges over seven people:
+
+- Rocco Arena ↔ Orazio Arena, and ↔ Giovana Zirilli
+- Guiseppe Arena ↔ Orazio Arena, and ↔ Giovanna Zirilli
+- Giovanni Polistena ↔ Giovanna Pontillo
+
+**The tree is still drawn exactly as given.** This archive does not silently rewrite someone else's
+research — it marks the edge and shows its working.
+
+`/corrections` now also lists the **ten people the records prove and the export does not contain**,
+four of them direct ancestors, since no chart here can ever show them.
