@@ -1,0 +1,136 @@
+---
+/* Every record this archive has actually read, in one place.
+   Assembled from the seven files the reading was recorded in, rather than
+   written by hand, so it cannot fall behind the work. */
+import Base from "../layouts/Base.astro";
+import Evidence from "../components/Evidence.astro";
+import { u } from "../lib/url.js";
+import scilla from "../data/scilla-reads.json";
+import sicilianActs from "../data/sicilian-acts.json";
+import qld from "../data/qld-bdm.json";
+import sicily from "../data/sicily-reads.json";
+import fmp from "../data/findmypast.json";
+import ships from "../data/ships.json";
+import nudgee from "../data/nudgee.json";
+
+const groups = [
+  {
+    id: "scilla",
+    title: "Scilla — the civil register",
+    where: "Reggio Calabria",
+    note: "Birth and marriage acts read image by image off the Antenati films. The Arena and Polistena quarters both come out of this one town, so these are the acts that separate them.",
+    cols: ["Year", "Act", "Who", "Father", "Mother", ""],
+    rows: scilla.map(r => [r.year, r.act, r.name, r.father, r.mother, r.status]),
+  },
+  {
+    id: "piedimonte",
+    title: "Piedimonte Etneo — the civil register",
+    where: "Catania, Sicily",
+    note: "The Mazza acts. Each one carries the father's age, which is how a birth year can be recovered for a man who has no birth act of his own.",
+    cols: ["Year", "Act", "Kind", "Subject", "Father", ""],
+    rows: sicilianActs.acts.map(r => [r.year, r.act, r.kind, r.subject, `${r.father}${r.fatherAge ? `, ${r.fatherAge}` : ""}`, "documented"]),
+  },
+  {
+    id: "qld",
+    title: "Queensland births, deaths and marriages",
+    where: "the Australian end",
+    note: "Index entries, with the registration number, so each can be ordered as a certificate. Where the index garbles a name the garble is kept and named.",
+    cols: ["Date", "Kind", "Name", "Registration", "Parents", ""],
+    rows: qld.map(r => [r.date, r.type, r.name, r.reg, [r.father, r.mother].filter(Boolean).join(" × "), "documented"]),
+  },
+  {
+    id: "sicily",
+    title: "Sicily — records found for people who had none",
+    where: "Piedimonte Etneo and around",
+    note: "Each of these closed a hole the family tree had left open.",
+    cols: ["Who", "What", "Detail", "Source", ""],
+    rows: sicily.map(r => [r.who, r.what, r.detail, r.source, r.status]),
+  },
+  {
+    id: "fmp",
+    title: "FindMyPast — the New York years",
+    where: "New York County",
+    note: "The branch that went to America rather than to Australia, and what became of it.",
+    cols: ["", "What", "Result", "Reference"],
+    rows: fmp.map(r => [r.kind, r.what, r.result, r.note]),
+  },
+  {
+    id: "ships",
+    title: "Passenger records",
+    where: "National Archives of Australia",
+    note: "The family tree recorded eighteen crossings and not one ship's name. These are the ones the index gave back — and where the tree and the record disagree, both are shown.",
+    cols: ["Who", "Ship", "Sailed from", "Arrived", "The tree said", ""],
+    rows: ships.map(r => [r.who, r.ship, r.naaFrom, `${r.naaDate}${r.naaPort ? `, ${r.naaPort}` : ""}`,
+      r.treeDate === r.naaDate && r.treePort === r.naaPort ? "the same" : `${r.treeDate}, ${r.treePort}`,
+      "documented"]),
+  },
+  {
+    id: "nudgee",
+    title: "Nudgee Cemetery burial register",
+    where: "Brisbane",
+    note: "Including the four consecutive plots — V-1026 to V-1029 — that hold the four Italian great-grandparents, buried in the order they died.",
+    cols: ["Name", "In the register as", "Plot", "Born", "Died"],
+    rows: nudgee.burials.map(r => [r.name, r.registerName, r.plot, r.birth, r.death]),
+  },
+];
+
+const total = groups.reduce((n, g) => n + g.rows.length, 0);
+const isLevel = v => ["documented", "inferred", "probable", "family", "disputed", "untested"].includes(String(v));
+---
+<Base title="Register"
+  eyebrow={`${total} records, read one at a time`}
+  dek="Every record this archive has actually put its eyes on, with what it says and where it is. Assembled from the files the reading was recorded in, so it cannot fall behind the work.">
+
+  <section class="blk">
+    <p class="prose">A family tree is not evidence. These are the documents behind it — civil acts
+    from two Italian towns, a Queensland index, a passenger list, a cemetery register — and the
+    point of listing them together is that you can see how few there still are against how much the
+    tree asserts. What is <em>not</em> here is on <a href={u("/searched/")}>Searched</a> and
+    <a href={u("/open-questions/")}>Open questions</a>.</p>
+
+    <div class="scroll" style="margin-top:18px">
+      <table>
+        <tbody>
+          {groups.map(g => (
+            <tr>
+              <td><a href={`#${g.id}`}>{g.title}</a></td>
+              <td class="dim">{g.where}</td>
+              <td class="mono">{g.rows.length}</td>
+            </tr>
+          ))}
+          <tr><td><strong>All of it</strong></td><td class="dim"></td><td class="mono"><strong>{total}</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  {groups.map(g => (
+    <section class="blk" id={g.id}>
+      <div class="lab">{g.where}</div>
+      <h2>{g.title} <span class="dim mono">{g.rows.length}</span></h2>
+      <p class="prose" style="margin-top:.6rem">{g.note}</p>
+      <div class="scroll" style="margin-top:16px">
+        <table>
+          <thead>
+            <tr>{g.cols.map(c => <th>{c}</th>)}</tr>
+          </thead>
+          <tbody>
+            {g.rows.map(r => (
+              <tr>
+                {r.map(cell => (
+                  <td>{isLevel(cell) ? <Evidence level={cell} /> : (cell || <span class="dim">—</span>)}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  ))}
+
+  <section class="blk">
+    <p class="prose dim">Every row here is a document somebody read. Where a row carries a
+    confidence it is the one the reader recorded at the time, in the
+    <a href={u("/method/#ladder")}>five words</a> this archive shares with its six siblings.</p>
+  </section>
+</Base>

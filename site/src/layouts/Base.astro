@@ -14,7 +14,8 @@ const nav = [
                   ["/crossings", "The Crossings"],
                   ["/nudgee", "Nudgee"]]],
   ["Names", [["/name", "The Names"], ["/mazza", "The Mazza"], ["/arena", "The Arena"]]],
-  ["Sources", [["/documents", "Documents"], ["/register-1879", "The Sicilian Registers"],
+  ["Sources", [["/register", "The Register"], ["/timeline", "Timeline"],
+               ["/documents", "Documents"], ["/register-1879", "The Sicilian Registers"],
                ["/queensland", "The Queensland Register"],
                ["/sources", "Sources"], ["/method", "Method"],
                ["/corrections", "For Michael"],
@@ -50,7 +51,7 @@ const on = (h) => here === u(h).replace(/\/$/, "");
           </div>
         </details>
       ))}
-      <a class="findbtn" href={u("/documents/")}>Documents</a>
+      <a class="findbtn" href={u("/search/")} aria-label="Search the archive">Search</a>
     </nav>
   </div>
   <div class="drawer" id="drawer" hidden>
