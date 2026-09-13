@@ -1,28 +1,32 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 39 items, 35 of them resting on a document that has been read.
+For **Michael Mazza**. 41 items, 37 of them resting on a document that has been read.
 
-**None of this has been applied to your tree.** The charts on the site draw your export exactly as
-you gave it — but where a record contradicts a line, the chart now marks that line in red and says
-why underneath it.
+**None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
+but where a record contradicts a line, the chart now marks that line and says why underneath it.
 
 ## The three biggest things
 
-**1. Rocco and Giuseppe are not Orazio Arena's sons.** They are **Francesco Antonio Arena** and
-**Serafina Arlotta**'s — the register gives that couple a Giuseppe (5 March 1860) and a Rocco
-(20 December 1861), the same pair your tree gives Orazio. Five separate things now agree: the
-sibling pair; Francesco Antonio's first son named FILIPPO for his own father; an ARLOTTA lodging
-with Rocco in New York in 1900; Rocco naming a daughter SERAFINA there in 1898; and the marriage
-act itself.
+**1. Rocco and Giuseppe are not Orazio Arena's sons.** They belong to **Francesco Antonio Arena**
+and **Serafina Arlotta** — the register gives that couple a Giuseppe (5 March 1860) and a Rocco
+(20 December 1861), the same pair your tree gives Orazio, same order, wrong father. Five separate
+things agree: the sibling pair; Francesco Antonio's first son named FILIPPO for his own father; an
+ARLOTTA lodging with Rocco in New York in 1900; Rocco naming a daughter SERAFINA there in 1898; and
+the marriage act of 1851, which names all four parents at once.
 
-**2. Four generations you do not have.** The marriage act of 7 February 1851 names all four
-parents at once: **Filippo Arena** (marinaro) and **Domenica Costa**, and **Giovanni Arlotta**
-(marinaro) and **Maria Costa**. Francesco Antonio was 31 and born 25 November 1819. Rocco also has
-three elder brothers you do not have. Ten documented people in all are missing from your export.
+**2. Four generations you do not have**, and they are sailors to a man:
+
+- **Filippo Arena** (*marinaro*) × **Domenica Costa**, married by 1817
+- **Giovanni Arlotta** (*marinaro*) × **Maria Costa**
+- **Francesco Antonio Arena**, b. 25 November 1819, *marinaro* × **Serafina Arlotta**, b. 13 June 1830
+- and Rocco's three elder brothers — Filippo (1852), Domenico (1853), Giuseppe (1860)
+
+In all, **10 documented people** are missing from your export.
 
 **3. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
-**Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)**. They
-married in **1890**.
+**Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)** — two of
+them baptised at Our Lady of Loretto in Little Italy. They married in **1890**, and Rocco crossed
+the Atlantic four times: 1892, 1894 (probable), 1900 and 1913.
 
 **A pattern worth knowing.** The commonest error is a wrong birth year on someone the tree could
 not date from a document: Giovanni Arena out by eleven years, Michele Donato by five, Salvatore
@@ -45,8 +49,8 @@ Mazza by six.
 ### Serafina Arlotta
 
 - **The tree says:** Not in the tree
-- **The record says:** Rocco Arena's mother, aged 28 in December 1861 so born about 1833. Her own birth act has not been read yet.
-- **Source:** Scilla, Nati 1861, atto 228
+- **The record says:** Rocco Arena's mother, BORN 13 JUNE 1830 at Scilla to GIOVANNI ARLOTTA, a marinaro, and MARIA COSTA. Confirmed twice: the marriage act of 7 February 1851 makes her twenty and names those parents, and her own birth act of 1830 names them again. Note that act 228 of 1861 makes her 28, which would give 1833 -- she was 31, and register ages are the loosest thing in them.
+- **Source:** Scilla, Nati 1830 atto 2; Matrimoni 1851 atto 13; Nati 1861 atto 228
 
 ### Rocco Arena's three brothers and a cousin
 
@@ -63,8 +67,8 @@ Mazza by six.
 ### Three New York children of Rocco Arena and Generosa Costa
 
 - **The tree says:** Not in the tree
-- **The record says:** SARAFINA ARENA b. 14 August 1898 at Manhattan, DIED 30 JANUARY 1900 aged seventeen months and buried the next day; CLEMENTINA ARENA b. 18 December 1900 at Manhattan; ANTONINO ARENA b. 12 October 1902 at Manhattan. All three to Rocco Arena and Generosa Costa. Sarafina's name matters on its own: Rocco's mother was SERAFINA ARLOTTA, so he named a daughter for her in New York -- a third separate thing pointing at the parentage the archive reassigned.
-- **Source:** New York, New York City Births 1846-1909; NYC Municipal Deaths 1795-1949
+- **The record says:** SARAFINA ARENA b. 14 August 1898 at Manhattan, DIED 30 JANUARY 1900 aged seventeen months and buried the next day; CLEMENTINA ARENA b. 18 December 1900 at Manhattan; ANTONINO ARENA b. 12 October 1902 at Manhattan. All three to Rocco Arena and Generosa Costa. Sarafina's name matters on its own: Rocco's mother was SERAFINA ARLOTTA, so he named a daughter for her in New York -- a third separate thing pointing at the parentage the archive reassigned. Two of them were BAPTISED AT OUR LADY OF LORETTO in Little Italy -- Sarafina in 1898, Clementina in 1901 -- which gives the family's New York parish as well as its street. Clementina also has a crossing of her own, Ellis Island 1921, aged twenty.
+- **Source:** New York, New York City Births 1846-1909; NYC Municipal Deaths 1795-1949; New York Roman Catholic Parish Baptisms
 
 ### Giovanni Arlotta and Maria Costa
 
@@ -150,11 +154,11 @@ Mazza by six.
 - **The record says:** Two more sons of Rosario Mazza: Gaetano born 1880 and Santo about 1882.
 - **Source:** Piedimonte Etneo registers
 
-### Teresa Anile and Francesco Anile
+### Teresa Anile, and Francesco MELLUSO (not Anile)
 
 - **The tree says:** Not in the tree
-- **The record says:** A Teresa Anile aged 20 and a one-year-old Francesco Anile are on the Luisiana with Domenica and Concetta on 2 August 1906, on consecutive lines. Five people crossed that day; the tree remembers three.
-- **Source:** Ellis Island, the Luisiana, 2 August 1906
+- **The record says:** A Teresa Anile aged 20 and a one-year-old boy are on the Luisiana with Domenica and Concetta on 2 August 1906, on consecutive lines. Five people crossed that day; the tree remembers three. AND THE ONE-YEAR-OLD IS NOT AN ANILE: the manifest's name column writes MELLUSO against the children and Anile only against the women, so he is FRANCESCO MELLUSO, Domenica's younger son, going to his father. The whole party was joining 'Domenico Melluso, 2173 First Ave, N.Y.'
+- **Source:** Ellis Island, the Luisiana, 2 August 1906 — manifest image
 
 ## Relationship
 
@@ -195,6 +199,18 @@ Mazza by six.
 - **The tree says:** Crossed in 1894, aged one
 - **The record says:** Crossed on 23 MAY 1899 aged six, on the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father. THE IMAGE names the man she travelled with as her UNCLE -- her line begins with the word 'Niece' -- and he was going to join 'brother Rocco' at Mulberry Street, New York.
 - **Source:** Ellis Island, the Archimede
+
+### Rocco Arena
+
+- **The tree says:** Arrived 12 September 1913, departed Messina
+- **The record says:** Arrived 11 SEPTEMBER 1913 -- one day earlier -- on the SAN GUGLIELMO. The port of embarkation, MESSINA, is exactly as the tree has it. He was 52 and entered as a US citizen. On the same ship the same day was ROCCO POLISTENA, 44, of Scilla, four frames away: a generation later, Anna Arena's son Rocco married Angela Polistena.
+- **Source:** Ellis Island, the San Guglielmo, 11 September 1913
+
+### Rocco Arena — his first crossing
+
+- **The tree says:** Arrived 1892, no date, no ship
+- **The record says:** Arrived 24 MAY 1892 off the S.S. ELYSIA out of NAPLES, aged 31, occupation SEAMAN. The 1900 census gives the year and nothing else; this dates it to the day, names the ship and the port, and adds a fourth independent statement that he worked the water.
+- **Source:** United States, Italians to America Index, 1855-1900
 
 ## Crossing -- ship named
 
@@ -296,8 +312,9 @@ Mazza by six.
 
 ---
 
-There are also **10 people** the records prove and your export does not contain,
-listed in full on the site. Four are direct ancestors of Mia and Rocco.
+Full reasoning is on the site — **The Arena** and **Scilla** for the Calabrian registers,
+**The Crossings** for the manifests and censuses, **Nudgee** for the burials.
+Where the archive has been *wrong*, that is on **Method**.
 
 https://daviddef.github.io/TheMazza/corrections/
 
