@@ -3,43 +3,122 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import focus from "../data/focus.json";
+import additions from "../data/additions.json";
+import nameEvidence from "../data/name-evidence.json";
 const A = focus.Arena;
 const g = A.groups[0];
 const dated = g.people.filter((x) => x.born);
+const arenaAdds = additions.filter((a) => /Arena|Arlotta|Costa/.test(a.name));
+
+/* The documented descent, as the registers give it — not as the export draws it.
+   Four of these people are not in the family tree at all. */
+const line = [
+  { gen: 7, who: "Filippo Arena × Domenica Costa",
+    what: "married by 1817. Filippo a marinaro.",
+    src: "Nati 1819 atto 186; Matrimoni 1851 atto 13", inTree: false },
+  { gen: 7, who: "Giovanni Arlotta × Maria Costa",
+    what: "Serafina's parents. Giovanni a marinaro.",
+    src: "Matrimoni 1851 atto 13", inTree: false },
+  { gen: 6, who: "Francesco Antonio Arena × Serafina Arlotta",
+    what: "b. 25 November 1819, a marinaro; married 7 February 1851, celebrated on the 16th.",
+    src: "Nati 1819 atto 186; Matrimoni 1851 atto 13", inTree: false },
+  { gen: 5, who: "Rocco Arena × Generosa Costa",
+    what: "b. 20 December 1861, a marinaro; married 1890; four crossings to America.",
+    src: "Nati 1861 atto 228; Nati 1893 atto 22; US census 1900", inTree: true },
+  { gen: 4, who: "Anna Arena × Giuseppe Arena",
+    what: "b. 17 January 1893 at Via Acquagrande 41; he b. 6 October 1892 at Via Grotte 75.",
+    src: "Nati 1893 atto 22; Nati 1892 atto 230", inTree: true },
+  { gen: 3, who: "Rocco Arena × Angela Polistena",
+    what: "b. 1924 at Scilla; married in Queensland; buried at Nudgee, plot V-1029.",
+    src: "Nudgee register", inTree: true },
+];
 ---
-<Base title="The Arena" eyebrow={`${A.total} bearers, one family`}
-      dek="Thirty-nine Arena of Scilla, in a single unbroken descent from 1821 — the cleanest line in this archive, and the counter-example to the Mazza.">
+<Base title="The Arena" eyebrow={`${A.total} in the tree, and ${arenaAdds.length} the registers add`}
+      dek="The Arena of Scilla were sailors for at least four generations. The family tree has two of those generations and the wrong father at the top of them — the registers have the rest.">
 
   <section class="blk">
     <div class="grid g3">
       <div class="stat"><div class="n">{A.total}</div><div class="l">people called Arena in the tree</div></div>
-      <div class="stat"><div class="n">{A.groups.length}</div><div class="l">descent group — all of them, one family</div></div>
-      <div class="stat"><div class="n">{g.earliest}</div><div class="l">the earliest of them, at Scilla</div></div>
+      <div class="stat"><div class="n">1819</div><div class="l">the earliest with a documented birth</div></div>
+      <div class="stat"><div class="n">{arenaAdds.length}</div><div class="l">proved by record, absent from the tree</div></div>
     </div>
   </section>
 
   <section class="blk">
-    <h2>What the name is</h2>
+    <div class="lab">What the registers give</div>
+    <h2 style="margin-top:.4rem">The line, as the acts have it</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Every line below rests on an act that has been read. <strong>The first three rows are not in
+      Michael Mazza's family tree at all</strong> — they cannot be drawn on any chart on this site,
+      so they are written out here instead.</p>
+    </div>
+    <div class="rec" style="margin-top:18px">
+      {line.map((r) => (
+        <>
+          <div class="k">gen {r.gen}</div>
+          <div class="v"><strong>{r.who}</strong> — {r.what}<br />
+            <span class="small" style="color:var(--ink-3)">{r.src}</span></div>
+          <div class="w">{r.inTree ? "" : "not in the tree"}</div>
+        </>
+      ))}
+    </div>
+    <p class="note" style="margin-top:22px"><strong>Four generations of sailors, and a fifth
+    alongside.</strong> Filippo Arena is a <em>marinaro</em>; his son Francesco Antonio is a
+    <em>marinaro</em>; his grandson Rocco is a <em>marinaro</em> in 1893 and gives his trade as
+    <em>Seaman</em> on the ship that took him to New York in 1892. Serafina Arlotta's father Giovanni
+    is a <em>marinaro</em> too. <strong>The family tree records not one of them as anything.</strong></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">A correction the charts now carry</div>
+    <h2 style="margin-top:.4rem">Rocco and Giuseppe are not Orazio Arena's sons</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The tree gives <P n="Orazio Arena" /> exactly two children, <strong>Rocco</strong> and
+      <strong>Guiseppe</strong>. The register gives <strong>Francesco Antonio Arena and Serafina
+      Arlotta</strong> a Giuseppe on 5 March 1860 and a Rocco on 20 December 1861 — the same pair, in
+      the same order, on the wrong father.</p>
+      <p><strong>Five separate things now agree.</strong> The sibling pair itself. Francesco
+      Antonio's first son being named <strong>Filippo</strong>, for his own father, exactly as
+      Calabrian custom predicts. An <strong>Arlotta</strong> lodging with Rocco in New York in 1900.
+      Rocco naming a daughter <strong>Serafina</strong> there in 1898. And the marriage act of 1851,
+      which names all four parents at once.</p>
+      <p>Meanwhile Orazio Arena's own children — across four years of the register — are
+      <strong>Teresa</strong> (1853), <strong>Domenico</strong> (1856), <strong>Domenico</strong>
+      again (1859) and <strong>Maria Annunziata</strong> (1860). Neither a Rocco nor a Giuseppe
+      among them. He is a real, well documented Scilla man who was handed another household's
+      family. <a href={u("/scilla")}>The acts →</a></p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>What the name is, and why it proves nothing</h2>
     <div class="prose" style="margin-top:1rem">
       <p><em>Arena</em> is <em>sand</em> — the Latin <em>harena</em>, the sanded floor of an
-      amphitheatre and, long before that, simply a sandy place. As a surname it is topographical:
-      a family from the shore, or from a place called Arena. There is a comune of that name in the
+      amphitheatre and, long before that, simply a sandy place. As a surname it is topographical: a
+      family from the shore, or from a place called Arena. There is a comune of that name in the
       province of Vibo Valentia, forty kilometres from <a href={u("/briatico")}>Briatico</a>, though
       nothing connects these Arena to it.</p>
-      <p>It is <strong>very common across Calabria and Sicily</strong> — common enough that a shared
-      Arena surname, on its own, is worth nothing at all. This archive holds
-      <strong>four separate Giuseppe Arena</strong> with no dates between them, and keeps all four
-      apart. <a href={u("/open-questions")}>Why →</a></p>
+      <p>It is <strong>very common across Calabria and Sicily</strong>, and this archive can now put
+      numbers on that rather than merely asserting it:</p>
+      <div class="rec" style="margin-top:16px">
+        {["Rocco Arena", "Giovanni Arena", "Domenico Arena"].filter((n) => nameEvidence[n]).map((n) => (
+          <>
+            <div class="k">{n}</div>
+            <div class="v">{nameEvidence[n]}</div>
+            <div class="w"></div>
+          </>
+        ))}
+      </div>
+      <p style="margin-top:1.2rem"><a href={u("/open-questions")}>The full list of names left
+      unmerged →</a></p>
     </div>
   </section>
 
   <section class="blk">
-    <h2>One family, six generations</h2>
-    <p class="dek" style="margin:.8rem 0 1.4rem">Every Arena in this tree is connected to every other
-    by parent, child or marriage. They are the family of <a href={u("/scilla")}>Scilla</a> that
-    <P n="Rocco Arena" /> came out of — the man who sailed on the <em>Sydney</em> out of Genoa at the
-    end of December 1953 and is buried in plot <strong>V-1029</strong> at
-    <a href={u("/nudgee")}>Nudgee</a>, beside his wife.</p>
+    <h2>Everyone called Arena in the tree</h2>
+    <p class="dek" style="margin:.8rem 0 1.2rem">Every Arena in the export is connected to every
+    other by parent, child or marriage — one descent group, which is what makes this the cleanest
+    line in the archive and the counter-example to the <a href={u("/mazza")}>Mazza</a>.</p>
     <div class="scroll">
       <table>
         <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>On the spine</th></tr></thead>
@@ -64,6 +143,11 @@ const dated = g.people.filter((x) => x.born);
     <P n="Angela Polistena" />, born in the same town within fifteen months of him, and they married
     in Queensland. <em>Polistena</em> is a <strong>toponymic</strong> — from the town of Polistena in
     the province of Reggio Calabria — so the name records a family that had already moved once, and
-    was named for having done it. <a href={u("/scilla")}>Scilla →</a></p>
+    was named for having done it.</p>
+    <p class="note" style="margin-top:18px">The two families were together long before that wedding.
+    On <strong>11 September 1913</strong> an Arena and a Polistena came off the
+    <em>San Guglielmo</em> at Ellis Island on the same day, four frames apart on the same manifest —
+    Rocco Arena, 52, and Rocco Polistena, 44, both of Scilla.
+    <a href={u("/crossings")}>The crossings →</a></p>
   </section>
 </Base>
