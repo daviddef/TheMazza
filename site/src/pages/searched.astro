@@ -30,9 +30,56 @@ const notyet = [
   ["CEMLA — Argentine immigration", "The Buenos Aires Prostamo.", ""],
   ["FamilySearch full-text search", "Piedimonte Etneo and Briatico parish registers.", "The technique that broke the Falco line open."],
 ];
+import fmp from "../data/findmypast.json";
+import P from "../components/P.astro";
 ---
 <Base title="What Has Been Read" eyebrow="And what has not"
       dek="A search that found nothing is still a result: it stops the next person repeating it. This page records both what has been done and what is still outstanding.">
+
+  <section class="blk">
+    <div class="lab">FindMyPast — a six-day trial, spent</div>
+    <h2 style="margin-top:.4rem">What a paid subscription was actually worth here</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The trial expires on 16 September 2026, so it was swept systematically rather than browsed.
+      <strong>It is recorded in full, negatives included</strong> — the most useful thing a search can
+      do for the next person is stop them repeating it, and two of the negatives below would
+      otherwise cost someone a subscription to discover.</p>
+      <div class="rec" style="margin-top:18px">
+        {fmp.map((r) => (
+          <>
+            <div class="k">{r.kind.toLowerCase()}</div>
+            <div class="v"><strong>{r.what}</strong> — {r.result}</div>
+            <div class="w"></div>
+          </>
+        ))}
+      </div>
+      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The find: the family's New York parish</h3>
+      <p>Two of Rocco Arena and Generosa Costa's New York children were baptised at
+      <strong>Our Lady of Loretto</strong> — <P n="Sarafina Arena" /> in 1898 and Clementina in 1901.
+      Loretto was <em>the</em> Italian parish of Little Italy, on Elizabeth Street, a few minutes'
+      walk from the <strong>Mulberry Street</strong> address the 1899 manifest gives for Rocco.</p>
+      <p>So the archive now knows not just the street but the church. <strong>The transcripts are
+      locked</strong> behind a tier above the trial — and they would carry the
+      <strong>godparents</strong>, who in an Italian parish are almost always kin. That is the single
+      most valuable thing still sitting behind a paywall.</p>
+      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The negative worth most</h3>
+      <p><strong>The "Italy Births, Marriages and Deaths 1806–1900" sets do not cover Scilla.</strong>
+      The test was clean: <strong>zero Polistena</strong> across all three, for a surname with six
+      emigrants in the Ellis Island index alone. They are FamilySearch-derived and their Italian
+      coverage runs to Sicily and the north, not Reggio Calabria. Anyone hoping to shortcut the
+      Antenati work through a subscription site should know that before paying.</p>
+      <p>The same sets were tried for the archive's oldest Sicilian question —
+      <P n="Rosario Mazza" />'s marriage to Leonarda Bonanno, about 1870. <strong>No Leonarda Bonanno
+      marriage exists in the set</strong>, and no Mariano Mazza birth, though 110 Nicotra marriages
+      show it does reach the Catania area. That question stays where it was.</p>
+      <p class="note" style="margin-top:20px"><strong>Method, for whoever comes next.</strong>
+      FindMyPast's search runs on a GraphQL endpoint —
+      <code>POST /titan/marshal/graphql</code>, <code>recordSearch(filters, order, pageNumber)</code>
+      under <code>root {"{"} search {"}"}</code>. Driving that directly turns a twelve-page click-through
+      into one loop, and the <code>RecordMetadataId</code> filter restricts a search to a single
+      record set. The whole sweep above cost a few minutes rather than an afternoon.</p>
+    </div>
+  </section>
 
   <section class="blk">
     <h2>Done</h2>

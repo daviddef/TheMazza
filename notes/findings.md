@@ -1820,3 +1820,49 @@ research — it marks the edge and shows its working.
 
 `/corrections` now also lists the **ten people the records prove and the export does not contain**,
 four of them direct ancestors, since no chart here can ever show them.
+
+---
+
+## 13 September 2026, seventh run — FindMyPast, swept before it expires
+
+Trial ends 16 September, so it was swept systematically. **Driven through the site's own GraphQL
+endpoint** rather than clicked: `POST /titan/marshal/graphql`, operation `RecordSearch`, with
+`root { search { recordSearch(filters, order, pageNumber) { numberOfRecords numberOfNextPages
+records { id fields { fieldId value } } } } }`. `filters` are `[{field, values, variants}]` and
+**`order` is required even as null** — omitting it returns a 500 from the upstream. The
+`RecordMetadataId` filter restricts to a single record set. That turned twelve pages of clicking
+into one loop.
+
+### The find — the family's New York parish
+
+| | |
+|---|---|
+| **Sarafina Arena** | baptised **1898**, **Our Lady of Loretto**, New York County |
+| **Clementina Arena** | baptised **1901**, **Our Lady of Loretto** |
+
+**Our Lady of Loretto was *the* Italian parish of Little Italy**, on Elizabeth Street — a few
+minutes from the **Mulberry Street** address the 1899 manifest gives for Rocco. The archive now has
+the street *and* the church.
+
+**The transcripts are locked** behind a tier above the trial. They would carry the **godparents**,
+who in an Italian parish are almost always kin. That is the most valuable thing still behind a
+paywall.
+
+Also new: **Clementina Arena, Ellis Island, 1921**, aged twenty — by then the family had gone home to
+Scilla, so she was returning to the country she was born in. The tree has neither her nor the
+crossing.
+
+### The negatives, which are worth more than they look
+
+- **The "Italy Births / Marriages / Deaths 1806–1900" sets DO NOT COVER SCILLA.** Clean test:
+  **zero Polistena** across all three, for a surname with six emigrants in the Ellis index alone.
+  FamilySearch-derived, Sicilian and northern, not Reggio Calabria. **Do not pay for this expecting
+  Scilla.**
+- **No Leonarda Bonanno marriage** in Italy Marriages, and no Mariano Mazza birth — though 110
+  Nicotra marriages show the set does reach the Catania area. Rosario Mazza's marriage stays open.
+- **No Rocco Arena in the 1910 US census**, which supports the family returning to Scilla between
+  Antonino's birth in October 1902 and 1910.
+- **Queensland Marriages stops at 1939**, before most of this family's Queensland marriages.
+- **The Australian passenger index corroborated the NAA exactly** — the same five Prostamo, and
+  **still no Domenica in 1951**. Two independent indexes now agree, which strengthens the reading
+  that she travelled under her married name.
