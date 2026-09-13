@@ -1978,3 +1978,45 @@ loosely taken and Arena is a common name.
 
 Also noted, not yet pulled: a **United States City and Business Directories** entry for a Rocco Arena
 in New York City, **1899–1900** — which would give a street address to set beside Mulberry Street.
+
+---
+
+## 13 September 2026, eighth run — Serafina Arlotta dated, and the Arena page rebuilt
+
+### Scilla, Nati 1830, atto 2 — Serafina Arlotta
+
+`an_ua2002840`, container `LaNd12r`, Tavola at images 119–125. The A section holds four entries:
+
+> **2 · Arlotta Serafina · Giovanni, e Costa Maria · 13 Giugno**
+
+**Born 13 June 1830**, she was twenty years and seven months on her wedding day — act 13 of 1851 says
+**twenty**. Exact. Rocco Arena's mother now has a birth date, and **Giovanni Arlotta and Maria Costa
+are documented twice over**, from two independent acts twenty-one years apart.
+
+**And it corrects an age this archive was carrying.** Act 228 of 1861 makes Serafina **28**, which
+would put her birth in 1833 — recorded here as such. She was **31**. Register ages are the loosest
+thing in them, which is why a birth act beats an age every time.
+
+The same A section carries *Arena Errico, di Bonaventura e **Terranova** Marianna* — where act 1 of
+1833 gave *Orazio Arena di Bonaventura e **Romano** Marianna*. Same father, same wife's given name,
+two different surnames for her. One of the two indexes misreads her; neither man is in this line.
+
+### Two negatives, and a trap that enlarges a target
+
+- **Matrimoni 1829** (`an_ua2002548`): alphabetised by surname and **the table opens at B**. No A
+  section at all, so **no Arlotta groom in 1829**. Serafina was born June 1830, so the marriage is
+  1829 or earlier; 1829 is now excluded.
+- **Nati 1818** (`an_ua2002805`): **the same given-name trap as the 1818 marriages, in the birth
+  register.** The Tavola is alphabetised by the **child's given name** — A is *Antonia, Antonino,
+  Antonio, Anna, Angela* — so an Arena child sits under whatever forename he was given and
+  **cannot be found by turning to A**. Locating Filippo Arena's elder children in 1816–18 means
+  reading **all seven index openings of each year**, not one section. Still bounded, but four times
+  the size this archive assumed. Written to memory.
+
+### /arena rebuilt
+
+The page was written before any of this fortnight's work and contained **zero** mentions of Filippo
+Arena, Francesco Antonio, Serafina Arlotta or Domenica Costa. It claimed six generations from 1821,
+all tree-derived. It now leads with the line **as the acts have it**, marks the three generations that
+cannot be drawn on any chart here, carries the Orazio correction with all five supports, and replaces
+the old assertion that the surname is common with the evidence for it.
