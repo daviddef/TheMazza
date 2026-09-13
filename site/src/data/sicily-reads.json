@@ -36,10 +36,10 @@
  },
  {
   "who": "Rosario Mazza x Leonarda Bonanno",
-  "what": "THEIR MARRIAGE — THE REGISTER IS LOCATED, THE ACT IS NOT YET FOUND",
-  "detail": "BROWSED, AND THE RANGE IS NOW PINNED. Film 007490025, 2,976 images, the Piedimonte Etneo parish registers. Calibration by reading pages: IMAGE 919 = 1898 (Salvatore's marriage), IMAGE 849 = 1888 (entries 65-70), IMAGE 723 = LATE 1869 (entries 74-79, Die 22 Novembris 1869). That is roughly seven images per year, so 1870 opens at about IMAGE 724-726 and the marriage of Rosario and Leonarda, which their eldest child dates to about 1870-72, should lie in IMAGES 724-745. NAVIGATION NOTES FOR WHOEVER CONTINUES: the ark in the URL identifies the image, and the '?i=' parameter does NOT move you -- it reverts. The 'Enter Image number' box does work but commits on click or blur rather than on Enter alone, and the URL lags behind the viewer. The fast way to scan is not the Latin page but the AI-EXTRACTED IMAGE INDEX panel below the viewer, which tabulates Name, Father's Name and Mother's Name for every entry on the opening.",
-  "source": "Piedimonte Etneo parish register, Marriage Records 1777-1911",
-  "status": "partial — range pinned"
+  "what": "THEIR MARRIAGE — FOUND. PIEDIMONTE ETNEO, 30 APRIL 1871, ATTO 14",
+  "detail": "The act the archive has wanted for a fortnight. On 30 APRIL 1871, at four in the afternoon in the casa comunale of Piedimonte Etneo, before Barone Mariano, sindaco, ROSARIO MAZZA and LEONARDA BONANNO were married. Both are called CELIBI -- neither had been married before -- both BORN AND RESIDENT there, and both BRACCIANTI: she worked the land alongside him. He is entered as twenty-six, she as twenty-six. HIS PARENTS ARE NAMED: figlio di MARIANO e di MARIA CATALANO. HERS ARE NAMED FOR THE FIRST TIME ANYWHERE: figlia di GAETANO e d'ANNA CAVALLARO. Witnesses: Salvatore Greco, 38, calzolaio, and Antonino Di Lava fu Giuseppe, 46, bracciante. Act 15 follows at half past four the same afternoon, so the register was doing a run of weddings that day. The parish register was the wrong door: the film's own index held no marriage for the pair. Civil registration began in 1866, so an 1871 marriage is a CIVIL act, and the civil act is the one that names all four parents.",
+  "source": "Piedimonte Etneo, Matrimoni 1871, atto 14 — Antenati ark an_ua83392, images 13-14",
+  "status": "documented"
  },
  {
   "who": "Rosario Mazza's children in the parish registers",
@@ -47,5 +47,26 @@
   "detail": "The Acireale diocesan registers carry several children of Rosario Mazza and Leonarda Bonanno, and the father's name is transcribed differently almost every time: ROGERIUS Mazza with a son Salvator; ROSARIUS Mazza with a son HORATIUS (Orazio); JOANNES Mazza with LEONORA Bonanno and a son Joannem (Giovanni); GASPARE Mazza with Leonarda Bonanno and a son SANTO. The last is the more interesting: SANTO MAZZA is one of the two sons this archive found missing from the family tree, and here is a parish record of him. The lesson for searching these registers is that the given name is unreliable and the WIFE'S name is the stable handle.",
   "source": "Italy, Catania, Diocesi di Acireale, Catholic Church Records, 1560-1950",
   "status": "documented"
+ },
+ {
+  "who": "Rosario Mazza",
+  "what": "HIS BIRTH ACT — BORN 2 JUNE 1845, ATTO 64",
+  "detail": "Found by working backwards from the marriage. ATTO DI NASCITA no. 64 of 1845, Comune di Piedimonte, distretto di Acireale, Provincia di Catania: MARIANO MAZZA, DI ANNI TRENTASEI, di professione BRACCIALE, appeared before the sindaco Antonino Grassi and presented a boy born to MARIA CATALANO, of thirty-six, and to the said Mariano Mazza, on the SECOND DAY OF JUNE 1845 at eleven in the morning, NELLA CASA DI LORO ABITAZIONE, and gave him the name ROSARIO. The baptism column has the parish of the Chiesa Maggiore returning the notice the same day, 2 June 1845, for ROSARIO MAZZA. This is the whole of the deepest Sicilian generation in one page: it CONFIRMS the death act's Mariano and Maria Catalano from an independent register, it FIXES Rosario's birth to a day, and it dates MARIANO MAZZA HIMSELF to about 1809 and MARIA CATALANO to about 1809.",
+  "source": "Piedimonte Etneo, Nati 1845, atto 64 — Antenati ark an_ua72387, image 66",
+  "status": "documented"
+ },
+ {
+  "who": "Gaetano Bonanno and Anna Cavallaro",
+  "what": "A WHOLE GENERATION THE TREE DOES NOT HAVE",
+  "detail": "Leonarda Bonanno has stood in this archive as a name with a father's first name attached -- 'daughter of Gaetano', from the 1910 marriage proclamation. The marriage act of 1871 gives her BOTH parents outright: GAETANO BONANNO and ANNA CAVALLARO of Piedimonte Etneo. They are the Bonanno equal of Mariano Mazza and Maria Catalano, and like them they are ENTIRELY ABSENT FROM THE FAMILY TREE.",
+  "source": "Piedimonte Etneo, Matrimoni 1871, atto 14",
+  "status": "documented"
+ },
+ {
+  "who": "The Piedimonte Etneo birth registers, 1820-1863",
+  "what": "THE WHOLE SERIES IS NOW LISTED, AND ITS INDEX IS BETTER THAN AN INDEX",
+  "detail": "Fifty volumes of Piedimonte births, 1820 to 1863, with their Antenati arks, are now written down in data/pe-arks.tsv. Two things make this series unusually cheap to work. First, each volume ends with a REGISTER OF THE WHOLE YEAR -- not an alphabetical tavola but a ruled table, six openings long, listing every birth IN ACT ORDER with the child, the comune, BOTH PARENTS and the day. A year of births can be read in six page-loads. Second, the index is a finding aid for PARENTS, not just children: to find every child of Mariano Mazza and Maria Catalano it is enough to read the parents column down each year. That is the next sweep, and it will give Rosario's brothers and sisters.",
+  "source": "Antenati, Stato civile della restaurazione, Piedimonte (oggi Piedimonte Etneo), serie 72189",
+  "status": "method"
  }
 ]

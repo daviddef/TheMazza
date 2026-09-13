@@ -2114,3 +2114,60 @@ The Acireale registers transcribe Rosario Mazza differently almost every time:
 family tree, and here he is in a parish record — under a father's name that reads **Gaspare**.
 
 **In these registers the given name is unreliable and the WIFE'S NAME is the stable handle.**
+
+## 13 September 2026 — Piedimonte Etneo: the marriage act, then the birth act
+
+**The parish register was the wrong door.** Film 007490025 was browsed to the calibrated window
+(images 724–745, ~7 images/year) and the pair are not there; the film's own AI index holds no
+marriage for Rosario/Leonarda at all, only four Leonarda Bonanno entries, all of her as a *mother*.
+The reason is structural: **civil registration began in the south in 1866**, so a marriage of c.1870
+is a *civil* act, held by the comune and digitised on Antenati — and the civil act is the one that
+names all four parents. Record the wrong turn, not just the right one.
+
+**Piedimonte Etneo, Matrimoni 1871, atto 14** — ark `an_ua83392`, container `0A4r3KW`, images 13–14.
+30 April 1871, 4 p.m., casa comunale, before Barone Mariano, sindaco.
+*Rosario Mazza* and *Leonarda Bonanno*, both **celibi**, both born and resident at Piedimonte Etneo,
+both **braccianti**; he entered as 26, she as 26.
+- his parents: **Mariano** and **Maria Catalano**
+- her parents: **Gaetano** and **Anna Cavallaro** ← named for the first time anywhere
+- witnesses: Salvatore Greco, 38, calzolaio; Antonino Di Lava fu Giuseppe, 46, bracciante
+- act 15 follows at 4.30 p.m. the same day.
+
+**Piedimonte Etneo, Nati 1845, atto 64** — ark `an_ua72387`, container `w99Qroa`, image 66.
+Born **2 June 1845** at 11 a.m., *nella casa di loro abitazione*; declared by **Mariano Mazza,
+36, bracciale**, before the sindaco Antonino Grassi; mother **Maria Catalano, 36**; baptised the
+same day, the parroco of the Chiesa Maggiore returning the notice at once; named **Rosario**.
+So **Mariano Mazza b. c.1809** and **Maria Catalano b. c.1809**.
+
+Three registers seventy-nine years apart — birth 1845, marriage 1871, death 1924 — name the same
+couple as Rosario's parents. The deepest Sicilian generation is no longer an inference from anything.
+
+One honest note: the marriage act enters Rosario as *d'anni ventisei*; the birth act makes him 25
+and 11 months that day. Declared ages run a year out routinely. Believe the birth act.
+
+### Method won here
+
+1. **Container ids without tripping the rate limit.** From a page already loaded on the antenati
+   origin, `fetch('https://antenati.cultura.gov.it/ark:/12657/<ark>', {credentials:'include'})`
+   and regex `containers/([A-Za-z0-9]{7})` out of the HTML. Five volumes in one call, 5 s apart,
+   no 403 — where five *navigations* would have locked the session out for 20 minutes.
+2. **The Piedimonte restaurazione birth index is not a tavola.** It is a ruled table of the whole
+   year **in act order**, six openings long, with columns: child | comune | **both parents** | day.
+   That makes it a finding aid for a *couple*, not just for a child: read the parents column down a
+   year and you have every child that couple had in it.
+3. **Calibrating an act to an image.** In these volumes one act = one opening, and the right-hand
+   page carries the ATTO DI NASCITA. Image 70 held act 68, so image ≈ act + 2. One sample page
+   located act 64 exactly.
+4. **Antenati shoots some openings twice** — once with the archivist's DUPLICATA card on the page
+   and once without. Image 12 and image 13 of the 1871 marriages are the same opening; the second
+   is the readable one. If a card is covering the text, try the next image before giving up.
+5. The whole Piedimonte restaurazione Nati series (serie **72189**, 50 volumes, 1820–1863) is in
+   `data/pe-arks.tsv`, pulled in one page load with `&s_size=100`.
+
+### Next, and now cheap
+- Sweep the parents column of Piedimonte Nati 1830–1863 for **Mazza Mariano / Catalano Maria** —
+  Rosario's brothers and sisters, six page-loads a year.
+- **Matrimoni restaurazione** for Piedimonte: Mariano Mazza × Maria Catalano married before 1845,
+  probably c.1830–40. That act would give *Mariano's* parents — a seventh generation.
+- Gaetano Bonanno × Anna Cavallaro's marriage, likewise, and Leonarda's birth (she is 26 in 1871,
+  so c.1845 — the same volumes).

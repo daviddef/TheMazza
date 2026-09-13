@@ -1,6 +1,6 @@
 {
- "count": 45,
- "documented": 41,
+ "count": 52,
+ "documented": 48,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -131,6 +131,24 @@
      "recordSays": "Born 1845 at Piedimonte Etneo. His death act makes him SEVENTY-NINE in November 1924. This archive had already derived 1845 from the ages the marriage proclamations gave him in 1898, 1902 and 1910; the death act agrees.",
      "source": "Italy, Catania, Catania, Civil Registration (Tribunale), 1866-1929",
      "confidence": "documented"
+    },
+    {
+     "kind": "Birth year",
+     "who": "Mariano Mazza",
+     "slug": "mariano-mazza",
+     "treeSays": "No birth recorded",
+     "recordSays": "BORN ABOUT 1809. He is THIRTY-SIX when he declares his son Rosario's birth in June 1845.",
+     "source": "Piedimonte Etneo, Nati 1845, atto 64",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth year",
+     "who": "Maria Catalano",
+     "slug": "—",
+     "treeSays": "No birth recorded",
+     "recordSays": "BORN ABOUT 1809. She is THIRTY-SIX at Rosario's birth in June 1845.",
+     "source": "Piedimonte Etneo, Nati 1845, atto 64",
+     "confidence": "documented"
     }
    ]
   },
@@ -162,6 +180,15 @@
      "treeSays": "Born 1895 in New York",
      "recordSays": "The New York City birth register says 4 OCTOBER 1896. The 1900 census says October 1895 and gives his age as five. Day and month agree across all three; the year differs by one and the birth register is primary.",
      "source": "New York, New York City Births, 1846-1909",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth date",
+     "who": "Rosario Mazza",
+     "slug": "rosario-mazza",
+     "treeSays": "Born 1850",
+     "recordSays": "BORN 2 JUNE 1845 at Piedimonte Etneo, at eleven in the morning, in his parents' own house. Act 64 of the births of 1845. The tree is FIVE YEARS out. Both parents are in the act: Mariano Mazza, 36, bracciale, and Maria Catalano, 36.",
+     "source": "Piedimonte Etneo, Nati 1845, atto 64",
      "confidence": "documented"
     }
    ]
@@ -470,19 +497,60 @@
      "recordSays": "CONTADINO -- a peasant farmer. Which sets the Sicilian Mazza against the Calabrian Arena exactly: four generations of Arena sailors on the water at Scilla, and the Mazza contadini on the mountain at Piedimonte.",
      "source": "Italy, Catania, Catania, Civil Registration (Tribunale), 1866-1929",
      "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Leonarda Bonanno",
+     "slug": "—",
+     "treeSays": "No occupation",
+     "recordSays": "BRACCIANTE. The act gives the trade of both spouses in the plural -- 'braccianti' -- so she was a field labourer in her own right, not a housewife, at least in 1871.",
+     "source": "Piedimonte Etneo, Matrimoni 1871, atto 14",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Mariano Mazza",
+     "slug": "mariano-mazza",
+     "treeSays": "No occupation",
+     "recordSays": "BRACCIALE in 1845 -- a day labourer. By 1924 his son's death act calls him a contadino. The Mazza worked the land at Piedimonte for at least three generations.",
+     "source": "Piedimonte Etneo, Nati 1845, atto 64",
+     "confidence": "documented"
     }
    ]
   },
   {
-   "kind": "Marriage — missing entirely",
+   "kind": "Marriage -- missing entirely",
    "rows": [
     {
-     "kind": "Marriage — missing entirely",
+     "kind": "Marriage -- missing entirely",
      "who": "Rocco Arena and Generosa Costa",
      "slug": "rocco-arena",
      "treeSays": "No marriage date",
      "recordSays": "The 1900 census records them as having been MARRIED TEN YEARS, so they married in 1890 -- three years before Anna was born and two before Rocco first sailed.",
      "source": "United States Census, 1900, Manhattan Ward 6",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Marriage -- missing entirely",
+     "who": "Rosario Mazza and Leonarda Bonanno",
+     "slug": "rosario-mazza",
+     "treeSays": "No marriage recorded",
+     "recordSays": "MARRIED 30 APRIL 1871 at Piedimonte Etneo, act 14, at four in the afternoon. Both single, both born and living there, both braccianti.",
+     "source": "Piedimonte Etneo, Matrimoni 1871, atto 14",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Parents -- missing entirely",
+   "rows": [
+    {
+     "kind": "Parents -- missing entirely",
+     "who": "Leonarda Bonanno",
+     "slug": "—",
+     "treeSays": "No parents recorded",
+     "recordSays": "Daughter of GAETANO BONANNO and ANNA CAVALLARO. The archive had the first name Gaetano from a marriage proclamation; the 1871 act gives both parents in full.",
+     "source": "Piedimonte Etneo, Matrimoni 1871, atto 14",
      "confidence": "documented"
     }
    ]
