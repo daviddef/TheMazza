@@ -363,29 +363,53 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
   </section>
 
   <section class="blk">
-    <div class="lab">And a marriage that is not where it should be</div>
-    <h2 style="margin-top:.4rem">Francesco Antonio and Serafina did not marry at Scilla</h2>
+    <div class="lab">Scilla, Matrimoni 1851 — atto 13</div>
+    <h2 style="margin-top:.4rem">Four parents in one act</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>A marriage act is the most efficient document in the whole system: the Scilla
-      <em>Tavola dei matrimoni</em> runs two rows to a marriage, groom above bride, with a column for
-      each spouse's parents. <strong>One opening gives four parents per couple.</strong> So the
-      obvious next move was the marriage of Francesco Antonio Arena and Serafina Arlotta, which would
-      name Serafina's parents and confirm Filippo and Domenica in a second independent act.</p>
-      <p>Their son Giuseppe was born <strong>5 March 1860</strong>, and the birth indexes for
-      <strong>1856, 1857, 1858 and 1859</strong> — all read in full — show them with
-      <strong>no children at all</strong> before him. So the marriage should sit in 1858 or early
-      1859. <strong>Neither year has an Arena groom.</strong> Both A sections hold exactly one entry
-      and neither is this couple.</p>
-      <p><strong>The likeliest explanation is not a gap in the record but a gap in the assumption.</strong>
-      An Italian marriage is registered where it is <em>celebrated</em>, and that is usually the
-      <strong>bride's</strong> parish. If Serafina Arlotta was not of Scilla, the act is in her
-      comune — and her birth is not at Scilla either, because 1833 has not been read but the surname
-      behaves like a local one. Both of those are now specific, findable things rather than open
-      ground.</p>
-      <p style="margin-top:.8rem" class="small">Scilla, Matrimoni 1858 (<code>an_ua2002637</code>,
-      container <code>wQYJq7q</code>) and 1859 (<code>an_ua2002639</code>, container
-      <code>LzjPNeG</code>). All 54 Scilla marriage arks, 1816–1865, are now recorded in
-      <code>data/scilla-arks.tsv</code> — fetched in a single page load.</p>
+      <p>The Scilla marriage register is the most efficient document in the whole system: it names
+      <strong>both spouses' parents</strong>. This is the act the archive spent three sessions failing
+      to find — first in 1858, then 1859, both wrong because the couple had married years earlier
+      than their children implied.</p>
+      <blockquote style="margin:1.1rem 0">L'anno mille ottocento <strong>cinquantuno</strong> il dì
+      <strong>sette</strong> del mese di <strong>Febbraro</strong>… sono comparsi nella Casa comunale
+      <strong>Francesco Arena</strong> di anni <strong>trentuno</strong>, nato in questo Comune, di
+      professione <strong>marinaro</strong>, <strong>figlio di Filippo</strong>, di professione
+      <strong>stessa</strong>, e di <strong>Domenica Costa</strong>… E <strong>Serafina Arlotta</strong>
+      di anni <strong>venti</strong>, nata in questo Comune, <strong>figlia di Giovanni</strong>, di
+      professione <strong>marinaro</strong>, e di <strong>Maria Costa</strong>.</blockquote>
+      <p><strong>Thirty-one on 7 February 1851 means born about 1819 — and act 186 of 1819 gives
+      25 November 1819.</strong> Exact. The promise was made on the 7th and the church celebrated it
+      on the 16th.</p>
+      <div class="rec" style="margin-top:18px">
+        <div class="k">Confirms</div>
+        <div class="v"><strong>Filippo Arena</strong> and <strong>Domenica Costa</strong>, from a
+        second document independent of the 1819 index</div><div class="w">gen 7</div>
+        <div class="k">Adds</div>
+        <div class="v">Filippo's trade — <em>professione <strong>stessa</strong></em>, the same as his
+        son's: <strong>marinaro</strong></div><div class="w">new</div>
+        <div class="k">Adds</div>
+        <div class="v"><strong>Giovanni Arlotta</strong>, <em>marinaro</em>, and
+        <strong>Maria Costa</strong> — Serafina's parents, and two people no one in this family knew
+        the name of</div><div class="w">gen 7</div>
+      </div>
+      <p style="margin-top:1.4rem"><strong>Three generations of sailors, and now a fourth beside
+      them.</strong> Filippo Arena, his son Francesco Antonio, his grandson Rocco — and Serafina's
+      father Giovanni Arlotta. Every man this act names works the water.</p>
+      <p><strong>And a third Costa.</strong> Filippo Arena married a <strong>Domenica Costa</strong>;
+      Giovanni Arlotta married a <strong>Maria Costa</strong>; and three generations later their
+      great-grandson Rocco married <strong>Generosa Costa</strong>. A
+      <a href={u("/crossings")}>Lorenzo Costa was lodging with Rocco in New York</a> in 1900. On the
+      evidence this is a common Scilla surname recurring, and it has now recurred four times.</p>
+      <p class="note" style="margin-top:20px"><strong>How this was found, and the mistake on the
+      way.</strong> The marriage Tavola's number column was first read as <strong>19 and 20</strong>.
+      Acts 19 and 20 were duly opened and turned out to be Bruno × Calario and Papalia × Briganti.
+      The archive then wrote that the tavola must index some other series — and it was wrong. <strong>The
+      numbers are 13 and 6.</strong> It had misread its own digits and blamed the document. The lesson
+      is small and worth keeping: when a record does not match, check your own reading before you
+      theorise about the record.</p>
+      <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
+      della restaurazione, Scilla, Matrimoni 1851, atto 13 — Antenati <code>an_ua2002614</code>,
+      container <code>LD6brxB</code>, image 15; Tavola at images 88–96.</p>
     </div>
   </section>
 

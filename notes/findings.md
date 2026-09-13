@@ -1762,3 +1762,41 @@ them.
 Polistena was back at Scilla to marry Nunziata Donato about 1916, and Michele Donato's household
 stayed at Via Grotte. The 1908 crossing reads as **seasonal or short-term labour**, not emigration —
 a different story from the one the tree implies by recording an arrival and nothing else.
+
+---
+
+## 13 September 2026, sixth run — the marriage act, and a mistake corrected
+
+### Scilla, Matrimoni 1851, atto 13 — FOUR PARENTS IN ONE ACT
+
+`an_ua2002614`, container `LD6brxB`, **image 15**, Num. d'Ordine 13. Promise **7 February 1851**
+before Gaetano Ferrante, sindaco; church celebration **16 February 1851**.
+
+> …sono comparsi nella Casa comunale **Francesco Arena** di anni **trentuno**, nato in questo Comune,
+> di professione **marinaro**, **figlio di Filippo**, di professione **stessa**, e di **Domenica
+> Costa**… E **Serafina Arlotta** di anni **venti**, nata in questo Comune, **figlia di Giovanni**,
+> di professione **marinaro**, e di **Maria Costa**.
+
+**Thirty-one on 7 February 1851 → born about 1819.** Act 186 of 1819 gives **25 November 1819**.
+Exact.
+
+- **Confirms** Filippo Arena and Domenica Costa from a second, independent document.
+- **Adds** Filippo's trade: *professione stessa* — **marinaro**.
+- **Adds two entirely new people at generation 7: GIOVANNI ARLOTTA, marinaro, and MARIA COSTA.**
+
+**Three generations of sailors** — Filippo → Francesco Antonio → Rocco — with **Giovanni Arlotta** a
+fourth alongside. Every man this act names works the water.
+
+**And a third Costa.** Filippo married a *Domenica* Costa; Giovanni Arlotta a *Maria* Costa; their
+great-grandson Rocco a *Generosa* Costa; and a *Lorenzo* Costa lodged with Rocco in New York in 1900.
+
+### The mistake on the way, recorded
+
+The Tavola's number column was first read as **19 and 20**. Acts 19 and 20 were opened and proved to
+be Bruno × Calario and Papalia × Briganti. **This archive then wrote that the tavola must index some
+other series bound in the same volume — and that was wrong.** The numbers are **13 and 6**. It had
+misread its own digits and theorised about the document instead.
+
+**The rule:** when a record does not match, **re-check your own reading before you theorise about the
+record.** The previous session's note, which sent a future reader hunting a nonexistent *atti di
+matrimonio* series, has been replaced.

@@ -5,11 +5,11 @@
   "born": "c. 1790s",
   "bornNote": "Not yet sought. Civil registration at Scilla begins in 1816, so his birth is very likely pre-civil and would be a parish record.",
   "died": "—",
-  "trade": "—",
+  "trade": "marinaro (sailor)",
   "father": "—",
   "mother": "—",
-  "source": "Scilla, Nati 1819, atto 186; Nati 1861, atto 228",
-  "note": "Named twice, independently: the 1819 Tavola gives his son Francesco as \"Filippo e Dom.ca Costa\", and act 228 of 1861 calls Francesco Antonio \"figlio di Filippo\". ENTIRELY ABSENT FROM THE FAMILY TREE."
+  "source": "Scilla, Nati 1819 atto 186; Matrimoni 1851 atto 13; Nati 1861 atto 228",
+  "note": "Named in THREE independent acts now. The 1851 marriage act gives his son's profession as marinaro and his own as 'STESSA' -- the same. So the sea trade runs Filippo -> Francesco Antonio -> Rocco, three generations of sailors. ENTIRELY ABSENT FROM THE FAMILY TREE."
  },
  {
   "name": "Domenica Costa",
@@ -38,14 +38,14 @@
  {
   "name": "Serafina Arlotta",
   "gen": "6",
-  "born": "c. 1833",
-  "bornNote": "Act 228 of 1861 makes her 28. Her own birth act has not been read; 1833 is an_ua2002847.",
+  "born": "c. 1830-31",
+  "bornNote": "Act 13 of 1851 makes her twenty in February 1851; act 228 of 1861 makes her 28. Two years apart, ordinary for ages.",
   "died": "—",
   "trade": "—",
-  "father": "—",
-  "mother": "—",
-  "source": "Scilla, Nati 1861, atto 228",
-  "note": "ENTIRELY ABSENT FROM THE FAMILY TREE. Arlotta is a well-established Scilla surname -- the 1819 Tavola alone has two Arlotta births, and an Arlotta Giuseppe, pescatore, witnesses the Donato birth of 1892."
+  "father": "Giovanni Arlotta",
+  "mother": "Maria Costa",
+  "source": "Scilla, Matrimoni 1851 atto 13; Nati 1861 atto 228",
+  "note": "HER PARENTS ARE NOW KNOWN: Giovanni Arlotta, marinaro, and Maria Costa. ENTIRELY ABSENT FROM THE FAMILY TREE."
  },
  {
   "name": "Filippo Arena (the younger)",
@@ -94,5 +94,29 @@
   "mother": "Serafina Arlotta",
   "source": "Ellis Island, the Archimede, 23 May 1899; Scilla, Nati 1854 atto 1",
   "note": "ROCCO ARENA'S BROTHER, stated as such on the manifest: he sails to join 'brother Rocco, N. York, Mulberry St', and the six-year-old on the next line is entered as his NIECE. Not in the family tree."
+ },
+ {
+  "name": "Giovanni Arlotta",
+  "gen": "7",
+  "born": "—",
+  "bornNote": "Not yet sought.",
+  "died": "—",
+  "trade": "marinaro (sailor)",
+  "father": "—",
+  "mother": "—",
+  "source": "Scilla, Matrimoni 1851, atto 13",
+  "note": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather and a great-great-great-great-grandfather of Mia and Rocco. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor, like the Arena men his daughter married into."
+ },
+ {
+  "name": "Maria Costa",
+  "gen": "7",
+  "born": "—",
+  "bornNote": "Not yet sought.",
+  "died": "—",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "source": "Scilla, Matrimoni 1851, atto 13",
+  "note": "Giovanni Arlotta's wife. ENTIRELY ABSENT FROM THE FAMILY TREE. NOTE THE SURNAME: she is the SECOND Costa in this generation -- Filippo Arena's wife is Domenica Costa -- and their great-grandson Rocco married a THIRD, Generosa Costa. A Lorenzo Costa was also lodging with Rocco in New York in 1900."
  }
 ]

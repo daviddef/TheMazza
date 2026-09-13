@@ -1,6 +1,6 @@
 {
- "count": 38,
- "documented": 34,
+ "count": 39,
+ "documented": 35,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -10,8 +10,8 @@
      "who": "Filippo Arena and Domenica Costa",
      "slug": "—",
      "treeSays": "Not in the tree",
-     "recordSays": "FILIPPO ARENA and DOMENICA COSTA, married by 1819 at Scilla. They are Francesco Antonio Arena's parents, Rocco Arena's grandparents, and great-great-great-great-grandparents of Mia and Rocco. Filippo is named TWICE and independently: the 1819 Tavola gives his son as 'Filippo e Dom.ca Costa', and act 228 of 1861 calls Francesco Antonio 'figlio di Filippo'.",
-     "source": "Scilla, Nati 1819 atto 186; Nati 1861 atto 228",
+     "recordSays": "FILIPPO ARENA and DOMENICA COSTA, married by 1819 at Scilla. They are Francesco Antonio Arena's parents, Rocco Arena's grandparents, and great-great-great-great-grandparents of Mia and Rocco. Filippo is named TWICE and independently: the 1819 Tavola gives his son as 'Filippo e Dom.ca Costa', and act 228 of 1861 calls Francesco Antonio 'figlio di Filippo'. CONFIRMED AGAIN by the marriage act of 1851, which also gives Filippo's trade: marinaro.",
+     "source": "Scilla, Nati 1819 atto 186; Matrimoni 1851 atto 13; Nati 1861 atto 228",
      "confidence": "documented"
     },
     {
@@ -57,6 +57,15 @@
      "treeSays": "Not in the tree",
      "recordSays": "SARAFINA ARENA b. 14 August 1898 at Manhattan, DIED 30 JANUARY 1900 aged seventeen months and buried the next day; CLEMENTINA ARENA b. 18 December 1900 at Manhattan; ANTONINO ARENA b. 12 October 1902 at Manhattan. All three to Rocco Arena and Generosa Costa. Sarafina's name matters on its own: Rocco's mother was SERAFINA ARLOTTA, so he named a daughter for her in New York -- a third separate thing pointing at the parentage the archive reassigned.",
      "source": "New York, New York City Births 1846-1909; NYC Municipal Deaths 1795-1949",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people — TWO NEW GENERATIONS",
+     "who": "Giovanni Arlotta and Maria Costa",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "SERAFINA ARLOTTA'S PARENTS, named in the marriage act of 7 February 1851: GIOVANNI ARLOTTA, a MARINARO, and MARIA COSTA. They are Rocco Arena's maternal grandparents and great-great-great-great-grandparents of Mia and Rocco. The same act confirms FILIPPO ARENA and DOMENICA COSTA from a second independent document and gives Filippo's trade as 'professione stessa' -- the same as his son's, marinaro. So the sea trade runs Filippo, Francesco Antonio, Rocco: three generations of sailors, with Giovanni Arlotta a fourth alongside.",
+     "source": "Scilla, Matrimoni 1851, atto 13",
      "confidence": "documented"
     }
    ]
