@@ -2171,3 +2171,42 @@ and 11 months that day. Declared ages run a year out routinely. Believe the birt
   probably c.1830–40. That act would give *Mariano's* parents — a seventh generation.
 - Gaetano Bonanno × Anna Cavallaro's marriage, likewise, and Leonarda's birth (she is 26 in 1871,
   so c.1845 — the same volumes).
+
+### The sweep that followed, and what it found
+
+**Marriage indexes, Piedimonte Etneo, 1830–1845 — sixteen years read.** Method: the spouse-name
+column is at a fixed fraction of the page width, so `tools/pe_sposi.py` cuts just those strips and
+montages four of them side by side. A year is one or two images instead of six.
+
+Result: **exactly one groom called Mazza Mariano in sixteen years — act 17 of 1836.** The index
+gives all four parents:
+
+- **Mazza Mariano** × **Catalano Agata**, of Piedimonte
+- his parents: **Mazza Orazio** and **Pulvirenti Giuseppa**
+- her parents: **Catalano Carlo** and **Cardile Maria**
+- celebrated 8 [August] 1836
+
+**Recorded as a LEAD, not a fact.** The bride is *Agata*; the 1845 birth act and the 1924 death act
+both call Rosario's mother *Maria* Catalano. Three readings fit: a second marriage; a *Maria Agata*
+written down each way; or a different man. Against that: it is the only such marriage in sixteen
+years, the surname is right, and **Rosario named a son Orazio** (parish register: *Horatius*, son of
+*Rosarius* Mazza), which is where the name would come from if his grandfather were Orazio Mazza.
+
+**What would settle it:** the act itself (the groom's age — ours is 27 in 1836), or the
+**Matrimoni, processetti** series for 1836, which holds the spouses' own birth certificates.
+Piedimonte has 20 processetti volumes in serie 72189. Neither has been read. Locating act 17 inside
+the 1836 volume is awkward: the acts are *solenne promessa* forms whose printed act-number box is
+blank on the verso, so it needs a scan of the left-hand promessa text, not the number box.
+
+**Birth indexes read entire: 1844 (128 births) and 1846 (146 births) — NO MAZZA AT ALL.** 1845 has
+two: Rosario at act 64, and Alfio at act 90, son of *Innocenzo Mazza and Domenica Cavallaro*. Across
+1830–45 the Mazza appear in the marriage indexes four times, three as brides (Domenica 1842 to Pietro
+Sorbello; Alfia 1844 to Mariano Sorbello). **The Mazza were a small family at Piedimonte** — which
+makes the 111 unjoined Mazza in the tree *less* likely to be cousins from there, not more.
+
+**Also checked and negative:** Antenati's own name index (`/search-nominative/`) does **not** cover
+the province of Catania — 11,632 indexed Mazza and not one from Piedimonte or anywhere in Catania.
+These registers have to be read, not searched.
+
+Arks and containers for both series are in `data/pe-arks.tsv`; marriage serie (restaurazione) is
+**72189**, arks sequential: `ark(Y) = an_ua72240 + (Y − 1820)`, verified 1820–1863.

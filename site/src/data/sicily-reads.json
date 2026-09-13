@@ -68,5 +68,19 @@
   "detail": "Fifty volumes of Piedimonte births, 1820 to 1863, with their Antenati arks, are now written down in data/pe-arks.tsv. Two things make this series unusually cheap to work. First, each volume ends with a REGISTER OF THE WHOLE YEAR -- not an alphabetical tavola but a ruled table, six openings long, listing every birth IN ACT ORDER with the child, the comune, BOTH PARENTS and the day. A year of births can be read in six page-loads. Second, the index is a finding aid for PARENTS, not just children: to find every child of Mariano Mazza and Maria Catalano it is enough to read the parents column down each year. That is the next sweep, and it will give Rosario's brothers and sisters.",
   "source": "Antenati, Stato civile della restaurazione, Piedimonte (oggi Piedimonte Etneo), serie 72189",
   "status": "method"
+ },
+ {
+  "who": "Mariano Mazza's marriage",
+  "what": "A LEAD, NOT YET A FACT — PIEDIMONTE ETNEO, MATRIMONI 1836, ATTO 17",
+  "detail": "The marriage indexes of Piedimonte Etneo were read for SIXTEEN CONSECUTIVE YEARS, 1830 to 1845 -- roughly 350 marriages. In all of them there is exactly ONE groom called Mazza Mariano: act 17 of 1836. The index gives, in the clerk's own columns, MAZZA MARIANO and CATALANO AGATA of Piedimonte, and it gives all four of their parents: MAZZA ORAZIO and PULVIRENTI GIUSEPPA for him, CATALANO CARLO and CARDILE MARIA for her. If this is our Mariano -- and no other candidate exists in sixteen years -- then ORAZIO MAZZA and GIUSEPPA PULVIRENTI are a SEVENTH generation, one above the deepest the archive has ever reached. THE THING THAT IS WRONG WITH IT: the bride is entered as AGATA, and Rosario's birth act of 1845 and death act of 1924 both call his mother MARIA CATALANO. Three readings are possible -- a second marriage after Agata's death, a woman christened Maria Agata and written down both ways, or a different Mariano Mazza altogether. THREE THINGS SUPPORT IT: it is the only Mazza Mariano marriage in sixteen years; the surname Catalano is right; and ROSARIO NAMED A SON ORAZIO -- the parish register has a Horatius son of Rosarius Mazza -- which is exactly where the name would come from if his grandfather were Orazio Mazza. NOT RECORDED AS FACT. What would settle it: the act itself, which gives the groom's age (ours would be 27 in 1836), or the PROCESSETTI volume for 1836, which holds the spouses' own birth certificates.",
+  "source": "Piedimonte Etneo, Matrimoni 1836, atto 17 — Antenati ark an_ua72256, index at image 52",
+  "status": "lead"
+ },
+ {
+  "who": "The Mazza of Piedimonte Etneo",
+  "what": "HOW FEW THEY WERE — THE NEGATIVE SWEEPS",
+  "detail": "Worth writing down because it changes what to expect. The birth registers of 1844 and 1846 were read ENTIRE -- 128 births in one year, 146 in the other -- and contain NO MAZZA AT ALL. 1845 contains two: Rosario, act 64, and an Alfio Mazza, act 90, son of INNOCENZO MAZZA and DOMENICA CAVALLARO. Across sixteen years of marriages, 1830-1845, the Mazza appear four times: Mariano as a groom in 1836, and three Mazza women as brides -- Domenica in 1842 (to Pietro Sorbello), Alfia in 1844 (to Mariano Sorbello) and one more. So the Mazza were a SMALL family at Piedimonte in the 1830s and 1840s, not a numerous one. Rosario may have had few brothers and sisters, or none surviving; and the 111 unjoined Mazza in the family tree are very unlikely to be Piedimonte cousins.",
+  "source": "Piedimonte Etneo, Nati 1844 and 1846 read complete; Matrimoni 1830-1845 indexes read",
+  "status": "documented"
  }
 ]
