@@ -1411,3 +1411,32 @@ next volume is `an_ua16601235`.
 The same P section carries **Pontillo Annunziato di Domenico**, which at least confirms *Pontillo* as
 a genuine Scilla surname — so the tree's "Giovanna Pontillo" is a plausible name even though act 206
 of 1883 says the mother was Giovanna **Romano**.
+
+### Scilla, Nati 1858 — a second Rocco Arena, and a correction to this morning's conclusion
+
+`an_ua2002925`, container `wQYJdjz`, 124 images, Tavola at images 119–124.
+
+The 1858 A section holds eleven entries and **exactly one Arena** — and it is a **Rocco**:
+
+> **60 · Arena Rocco · Scilla · Santo e Gioffrè Giovanna · 23 Aprile**
+
+The same couple appear again at act 205 of 1859 with a son Annunziato.
+
+**This qualifies what was published this morning.** The crossings page said three strands agreed
+that the Ellis Island manifest confirmed act 228 of 1861. The literal claim — *1861 holds exactly one
+Rocco Arena* — is still true. The useful claim — *there is only one Rocco Arena of about the right
+age to choose from* — **is not true any more.**
+
+The arithmetic still favours 1861:
+
+| candidate | born | age in March 1900 | manifest says |
+|---|---|---|---|
+| act 228 of 1861 | 20 Dec 1861 | **38** | 39 |
+| act 60 of 1858 | 23 Apr 1858 | **41** | 39 |
+
+Thirty-eight is nearer than forty-one, and the tree independently says 1861. But "three strands
+agree" was a cleaner sentence yesterday than it is today, and the note has been added to the page
+rather than left out of it.
+
+**No Giovanni Arena in 1858 either.** He is in neither of the two years his son's act points to.
+1857 (`an_ua2002922`) and 1860 (`an_ua2002931`) remain.

@@ -6,8 +6,8 @@ For **Michael Mazza**. 27 items, 24 of them resting on a document that has been 
 as you gave it. These are proposals with the source attached to each one, so you can check any
 of them yourself and reject the ones you disagree with.
 
-Three items are marked *candidate*, *inferred* or *flagged* rather than *documented*. That means
-the archive thinks it is probably right and is telling you it is not certain.
+Items marked *candidate*, *inferred* or *flagged* mean the archive thinks it is probably right and
+is telling you it is not certain.
 
 **The commonest error is not a wrong name — it is a wrong birth year**, on people the tree could
 not date from a document. Giovanni Arena is out by eleven years, Michele Donato by five,
@@ -15,10 +15,10 @@ Salvatore Mazza by six. That is worth knowing when you look at any other undated
 
 ## Parentage
 
-### Rocco Arena
+### Rocco Arena  *(documented -- with a caveat)*
 
 - **The tree says:** Son of Orazio Arena and Giovana Zirilli
-- **The record says:** The 1861 Scilla register holds exactly one Rocco Arena and his parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA. Three things now agree that the year 1861 is right and the parents are not: the register, the trade (both Rocco and Francesco Antonio are marinari), and an American manifest that makes him 39 in March 1900.
+- **The record says:** The 1861 Scilla register holds exactly one Rocco Arena and his parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA -- not Orazio and Giovana Zirilli. The year 1861 is supported by an American manifest that makes him 39 in March 1900, and by his trade: he and Francesco Antonio are both marinari. CAVEAT: act 60 of 1858 is a second Rocco Arena, son of Santo Arena and Giovanna Gioffre. The 1861 man fits the manifest better (38 against 39, where the 1858 boy would be 41) but the identification is not clean.
 - **Source:** Scilla, Nati 1861, atto 228; Nati 1893 atto 22; Ellis Island, 21 March 1900
 
 ### Giovanni Polistena

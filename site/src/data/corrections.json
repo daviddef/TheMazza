@@ -1,6 +1,6 @@
 {
  "count": 27,
- "documented": 24,
+ "documented": 23,
  "groups": [
   {
    "kind": "Parentage",
@@ -10,9 +10,9 @@
      "who": "Rocco Arena",
      "slug": "rocco-arena",
      "treeSays": "Son of Orazio Arena and Giovana Zirilli",
-     "recordSays": "The 1861 Scilla register holds exactly one Rocco Arena and his parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA. Three things now agree that the year 1861 is right and the parents are not: the register, the trade (both Rocco and Francesco Antonio are marinari), and an American manifest that makes him 39 in March 1900.",
+     "recordSays": "The 1861 Scilla register holds exactly one Rocco Arena and his parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA -- not Orazio and Giovana Zirilli. The year 1861 is supported by an American manifest that makes him 39 in March 1900, and by his trade: he and Francesco Antonio are both marinari. CAVEAT: act 60 of 1858 is a second Rocco Arena, son of Santo Arena and Giovanna Gioffre. The 1861 man fits the manifest better (38 against 39, where the 1858 boy would be 41) but the identification is not clean.",
      "source": "Scilla, Nati 1861, atto 228; Nati 1893 atto 22; Ellis Island, 21 March 1900",
-     "confidence": "documented"
+     "confidence": "documented -- with a caveat"
     },
     {
      "kind": "Parentage",
