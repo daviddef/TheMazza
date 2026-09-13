@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 55 items, 51 of them resting on a document that has been read.
+For **Michael Mazza**. 58 items, 54 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -33,7 +33,7 @@ inference any more.
 - **Francesco Antonio Arena**, b. 25 November 1819, *marinaro* × **Serafina Arlotta**, b. 13 June 1830
 - and Rocco's three elder brothers — Filippo (1852), Domenico (1853), Giuseppe (1860)
 
-In all, **12 documented people** are missing from your export.
+In all, **13 documented people** are missing from your export.
 
 **4. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
 **Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)** — two of
@@ -87,6 +87,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** Not in the tree
 - **The record says:** SERAFINA ARLOTTA'S PARENTS, named in the marriage act of 7 February 1851: GIOVANNI ARLOTTA, a MARINARO, and MARIA COSTA. They are Rocco Arena's maternal grandparents and great-great-great-great-grandparents of Mia and Rocco. The same act confirms FILIPPO ARENA and DOMENICA COSTA from a second independent document and gives Filippo's trade as 'professione stessa' -- the same as his son's, marinaro. So the sea trade runs Filippo, Francesco Antonio, Rocco: three generations of sailors, with Giovanni Arlotta a fourth alongside.
 - **Source:** Scilla, Matrimoni 1851, atto 13
+
+### Domenico Arlotta
+
+- **The tree says:** Not in the tree
+- **The record says:** DOMENICO ARLOTTA, dead before April 1854, father of Giovanni Arlotta the sailor and so Serafina Arlotta's grandfather. A great-great-great-great-great-grandfather of Mia and Rocco, and the deepest person this archive has reached on the Calabrian side.
+- **Source:** Scilla, Nati 1854, atto 76
 
 
 ## Parentage
@@ -153,6 +159,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** No birth recorded
 - **The record says:** BORN ABOUT 1805. She is THIRTY-EIGHT at Leonarda's birth in November 1843.
 - **Source:** Piedimonte Etneo, Nati 1843, atto 101
+
+### Giovanni Arlotta
+
+- **The tree says:** No birth recorded
+- **The record says:** BORN ABOUT 1779. He is SEVENTY-FIVE when he appears in person to declare his grandson's birth in April 1854, and he is called MARINARO and 'figlio del fu Domenico'.
+- **Source:** Scilla, Nati 1854, atto 76
 
 
 ## Birth date
@@ -255,6 +267,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** Not in the tree
 - **The record says:** The Acireale diocesan registers name ROSARIO MAZZA and LEONARDA BONANNO as the parents of a MARIANUM MAZZA -- a son called for his paternal grandfather, exactly as Sicilian custom predicts of a first son.
 - **Source:** Italy, Catania, Diocesi di Acireale, Catholic Church Records, 1560-1950
+
+### Giovanni Arena (b. 1854)
+
+- **The tree says:** Not in the tree
+- **The record says:** ROCCO ARENA'S ELDER BROTHER, born 30 APRIL 1854 at Scilla, act 76. Son of FRANCESCO ANTONIO ARENA, 34, marinaro, and SERAFINA ARLOTTA, 22. Declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco'.
+- **Source:** Scilla, Nati 1854, atto 76
 
 
 ## Relationship

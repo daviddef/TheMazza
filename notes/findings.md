@@ -2210,3 +2210,50 @@ These registers have to be read, not searched.
 
 Arks and containers for both series are in `data/pe-arks.tsv`; marriage serie (restaurazione) is
 **72189**, arks sequential: `ark(Y) = an_ua72240 + (Y − 1820)`, verified 1820–1863.
+
+## 13 September 2026 — Scilla, act 76 of 1854: the last open Arena question closes
+
+**The method that got it.** The 1854 Tavola carries no act numbers. In this volume there are **two
+acts to an opening**, and calibrating on the printed *Num. d'ordine* against the act dates gives
+`act = 66 + 2*(image-36)` — images 30/34/38/42/46 hold acts 55/63/71/79/87. Late April lands at
+images 39–41.
+
+**Scilla, Nati 1854, atto 76.** 30 April 1854, nine at night, before the sindaco Francesco
+Palmisano. Declarant **GIOVANNI ARLOTTA, figlio del fu DOMENICO, di anni SETTANTACINQUE, MARINARO**
+— the child's own maternal grandfather. Child born that morning at nine in the house of the spouses,
+to **SERAFINA ARLOTTA, 22**, and **ANTONIO ARENA, 34, marinaro**; named **GIOVANNI ARENA**.
+Witnesses D. Rocco Ilà, *civile*, and Pietro Morabito, *scrivente*.
+
+**Two corrections to this archive.** The Tavola reads *Arena Giovanni di Antonio e Arlotta **Rosa**,
+20 April*, and on that this site said the mother was a Rosa Arlotta, so the boy was Rocco's cousin.
+The act says **Serafina** and says the **thirtieth**. Francesco Antonio Arena b. 25 Nov 1819 is
+exactly 34 in April 1854; Serafina b. 13 June 1830 is 23y10m, entered as 22. *Antonio Arena* is
+Francesco Antonio with the first name dropped, as in 1853 and 1861.
+
+→ **Giovanni Arena is Rocco Arena's full brother.** The 1899 manifest ("brother Rocco", Anna his
+*niece*) is documented at both ends.
+
+→ **DOMENICO ARLOTTA** — named only as *il fu Domenico*, dead before April 1854. A
+great-great-great-great-great-grandfather of Mia and Rocco, and the deepest name on the Calabrian
+side. **Giovanni Arlotta b. c.1779**, previously undated.
+
+→ Four generations of sailors in a line: Domenico Arlotta → Giovanni Arlotta → Francesco Antonio
+Arena → Rocco Arena.
+
+### Scilla 1818 read entire, and a structural finding about the volumes
+
+The **whole 1818 Tavola** (189 births, six openings) was read, not just the A section. The only
+Arena child in the year is **Luisa Arena, of Pietro and Teresa de Nizza, 3 March** — **no child of
+Filippo Arena**. Also present that year: Arlotta as parents (act 161 Rocco Pizzarello of Santo e
+Dom.ca Arlotta; act 177 Santa Arlotta of Ant.o e Fran.ca Pizzarello), and a *Maria Mazza* as a
+mother at act 74.
+
+**The structural finding: Scilla's restaurazione registers have no index before 1818.** The birth
+volumes of **1816 (112 openings) and 1817 (100 openings)** end in acts — there is no Tavola at all.
+Neither do the **marriage** volumes of 1816 and 1817; the first marriage Tavola is 1818. So
+Francesco Arena's elder siblings, and Filippo Arena × Domenica Costa's marriage, cannot be reached
+by index: they need either a full read of ~200 openings or the parish registers.
+
+That also bounds **Giovanni Arlotta × Maria Costa**: he is 75 in 1854, so born c.1779. A marriage in
+the civil window 1816–1828 would make him 37–49 — which reads as a *second* marriage — and anything
+earlier is pre-civil and parish-only.

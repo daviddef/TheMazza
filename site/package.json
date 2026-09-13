@@ -11,6 +11,7 @@
     "searchindex": "python3 ../tools/searchindex.py"
   },
   "dependencies": {
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit",
     "astro": "^5.18.2"
   }
 }
