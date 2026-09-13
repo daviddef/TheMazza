@@ -1,25 +1,28 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 38 items, 34 of them resting on a document that has been read.
+For **Michael Mazza**. 39 items, 35 of them resting on a document that has been read.
 
-**None of this has been applied to your tree.** The charts on the site draw your export exactly
-as you gave it. These are proposals with the source attached to each one.
+**None of this has been applied to your tree.** The charts on the site draw your export exactly as
+you gave it — but where a record contradicts a line, the chart now marks that line in red and says
+why underneath it.
 
 ## The three biggest things
 
-**1. Rocco and Giuseppe are not Orazio Arena's sons.** The register gives Francesco Antonio Arena
-and Serafina Arlotta a Giuseppe (5 March 1860) and a Rocco (20 December 1861) — the same pair your
-tree gives Orazio, in the same order, on the wrong father. Four separate things now agree: the
-sibling pair; Francesco Antonio's first son being named FILIPPO for his own father; an ARLOTTA
-lodging with Rocco in New York in 1900; and Rocco naming a daughter SERAFINA there in 1898.
+**1. Rocco and Giuseppe are not Orazio Arena's sons.** They are **Francesco Antonio Arena** and
+**Serafina Arlotta**'s — the register gives that couple a Giuseppe (5 March 1860) and a Rocco
+(20 December 1861), the same pair your tree gives Orazio. Five separate things now agree: the
+sibling pair; Francesco Antonio's first son named FILIPPO for his own father; an ARLOTTA lodging
+with Rocco in New York in 1900; Rocco naming a daughter SERAFINA there in 1898; and the marriage
+act itself.
 
-**2. Two generations you do not have.** Act 228 calls Francesco Antonio *figlio di Filippo*, and the
-1819 index gives his birth on 25 November 1819 to **Filippo Arena and Domenica Costa** — your
-great-great-great-great-grandparents. Rocco also has three elder brothers you do not have.
+**2. Four generations you do not have.** The marriage act of 7 February 1851 names all four
+parents at once: **Filippo Arena** (marinaro) and **Domenica Costa**, and **Giovanni Arlotta**
+(marinaro) and **Maria Costa**. Francesco Antonio was 31 and born 25 November 1819. Rocco also has
+three elder brothers you do not have. Ten documented people in all are missing from your export.
 
 **3. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
-**Sarafina (1898, died at seventeen months)**, **Clementina (1900)** and **Antonino (1902)**. They
-married in **1890** — the 1900 census records them as ten years married.
+**Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)**. They
+married in **1890**.
 
 **A pattern worth knowing.** The commonest error is a wrong birth year on someone the tree could
 not date from a document: Giovanni Arena out by eleven years, Michele Donato by five, Salvatore
@@ -30,8 +33,8 @@ Mazza by six.
 ### Filippo Arena and Domenica Costa
 
 - **The tree says:** Not in the tree
-- **The record says:** FILIPPO ARENA and DOMENICA COSTA, married by 1819 at Scilla. They are Francesco Antonio Arena's parents, Rocco Arena's grandparents, and great-great-great-great-grandparents of Mia and Rocco. Filippo is named TWICE and independently: the 1819 Tavola gives his son as 'Filippo e Dom.ca Costa', and act 228 of 1861 calls Francesco Antonio 'figlio di Filippo'.
-- **Source:** Scilla, Nati 1819 atto 186; Nati 1861 atto 228
+- **The record says:** FILIPPO ARENA and DOMENICA COSTA, married by 1819 at Scilla. They are Francesco Antonio Arena's parents, Rocco Arena's grandparents, and great-great-great-great-grandparents of Mia and Rocco. Filippo is named TWICE and independently: the 1819 Tavola gives his son as 'Filippo e Dom.ca Costa', and act 228 of 1861 calls Francesco Antonio 'figlio di Filippo'. CONFIRMED AGAIN by the marriage act of 1851, which also gives Filippo's trade: marinaro.
+- **Source:** Scilla, Nati 1819 atto 186; Matrimoni 1851 atto 13; Nati 1861 atto 228
 
 ### Francesco Antonio Arena
 
@@ -62,6 +65,12 @@ Mazza by six.
 - **The tree says:** Not in the tree
 - **The record says:** SARAFINA ARENA b. 14 August 1898 at Manhattan, DIED 30 JANUARY 1900 aged seventeen months and buried the next day; CLEMENTINA ARENA b. 18 December 1900 at Manhattan; ANTONINO ARENA b. 12 October 1902 at Manhattan. All three to Rocco Arena and Generosa Costa. Sarafina's name matters on its own: Rocco's mother was SERAFINA ARLOTTA, so he named a daughter for her in New York -- a third separate thing pointing at the parentage the archive reassigned.
 - **Source:** New York, New York City Births 1846-1909; NYC Municipal Deaths 1795-1949
+
+### Giovanni Arlotta and Maria Costa
+
+- **The tree says:** Not in the tree
+- **The record says:** SERAFINA ARLOTTA'S PARENTS, named in the marriage act of 7 February 1851: GIOVANNI ARLOTTA, a MARINARO, and MARIA COSTA. They are Rocco Arena's maternal grandparents and great-great-great-great-grandparents of Mia and Rocco. The same act confirms FILIPPO ARENA and DOMENICA COSTA from a second independent document and gives Filippo's trade as 'professione stessa' -- the same as his son's, marinaro. So the sea trade runs Filippo, Francesco Antonio, Rocco: three generations of sailors, with Giovanni Arlotta a fourth alongside.
+- **Source:** Scilla, Matrimoni 1851, atto 13
 
 ## Parentage
 
@@ -287,9 +296,8 @@ Mazza by six.
 
 ---
 
-Full reasoning is on the site — **Scilla** for the Calabrian registers, **The Crossings**
-for the manifests and the censuses, **Nudgee** for the burials, **The Queensland Register** for BDM.
-Where the archive has been *wrong*, that is on **Method**.
+There are also **10 people** the records prove and your export does not contain,
+listed in full on the site. Four are direct ancestors of Mia and Rocco.
 
 https://daviddef.github.io/TheMazza/corrections/
 
