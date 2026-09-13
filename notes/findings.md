@@ -1912,3 +1912,25 @@ in two different Italian New Yorks**, seven years apart.
 
 *Caveat recorded on the page: the exact line-by-line alignment of the relationship column is not
 certain, because the brace spans several rows. The destination and the husband are.*
+
+### The no-merge rule stops being a principle and becomes a finding
+
+The archive's oldest rule is that it will not merge two records on a shared name. Until now that was
+stated as caution. After a fortnight in the Scilla registers it can be stated as **evidence** —
+`data/name-evidence.tsv`, surfaced on `/open-questions`:
+
+- **Rocco Arena** — Scilla holds **two** born three years apart: act 60 of 1858 (son of *Santo*) and
+  act 228 of 1861 (son of *Francesco Antonio*). Ellis Island adds four more of Scilla. The same town
+  in the same years also produced a Rocco Arlotta, a Rocco Donato, a Rocco Polistena, a Rocco Costa
+  and a Rocco Ciccone.
+- **Giovanni Arena** — at least **three** distinct men inside forty years: the pescatore of act 230
+  (b. c.1859, and in no Scilla register), the boy of act 1 of 1854, and an adult married to Maddalena
+  Longordo fathering children in 1857 and 1860.
+- **Domenico Arena** — **the best example in the archive.** Orazio Arena and Giovanna Zirilli named
+  **two of their own sons Domenico** — act 180 of 1856 and act 46 of 1859. The first died and the
+  name was given again. **One couple, one name, two people.** A records-matcher merges them without
+  hesitating.
+- **Filippo Arena** — grandfather and grandson, which the naming custom guarantees every second
+  generation.
+- **Salvatore Mazza** — one born 1873 at Piedimonte Etneo and dead at Catania in 1929; another born
+  1948 at Briatico who sailed to Fremantle as an infant. Seventy-five years and two provinces apart.
