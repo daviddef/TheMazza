@@ -1473,3 +1473,26 @@ is an adult born in the 1830s and **not** the Giovanni Arena this archive wants.
 
 **Giovanni Arena is now absent from 1858, 1859 and 1860** — all three years his son's act allows.
 1857 (`an_ua2002922`) remains; after that the likeliest explanation is another comune.
+
+### Scilla, Nati 1857 — and the Giovanni Arena search closes
+
+`an_ua2002922`, container `Lpp8OGq`, 138 images, Tavola at images 131–138. The A section holds eight
+entries, two of them Arena:
+
+| act | child | parents | date |
+|---|---|---|---|
+| 68 | Arena Clemente | Antonio e Adaloro Giuseppa | 16 March |
+| 100 | Arena Filippo | **Giovanni e Longordo Maddalena** | 9 May |
+
+**No Giovanni Arena born.** That makes **four consecutive years read in full — 1857, 1858, 1859,
+1860 — all negative.** Act 230 puts his birth between October 1858 and October 1859; the archive has
+now read two years either side of that window.
+
+**Giovanni Arena was very probably not born at Scilla.** The search is closed rather than continued.
+
+What those years *do* contain is a **Giovanni Arena who is a father** — married to Maddalena
+Longordo, with Filippo in 1857 and Domenico in 1860. An adult born in the 1830s, recorded here so
+nobody merges him with the man we want.
+
+Next move: his **marriage to Concetta Russo** (about 1890), which names the groom's comune of birth.
+Antenati's Scilla marriages run 1905–1913 only, so that means the Reggio Calabria *processetti*.
