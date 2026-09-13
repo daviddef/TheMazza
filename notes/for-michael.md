@@ -1,34 +1,29 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 33 items, 29 of them resting on a document that has been read.
+For **Michael Mazza**. 38 items, 34 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts on the site draw your export exactly
-as you gave it. These are proposals with the source attached to each one, so you can check any
-of them yourself and reject the ones you disagree with.
+as you gave it. These are proposals with the source attached to each one.
 
-## The big one, and why it holds
+## The three biggest things
 
-**Rocco and Giuseppe are not Orazio Arena's sons.** The register gives Francesco Antonio Arena and
-Serafina Arlotta a Giuseppe (5 March 1860) and a Rocco (20 December 1861). Your tree gives Orazio
-Arena exactly two children and they are Rocco and Guiseppe — the same pair, same order, on the
-wrong father.
+**1. Rocco and Giuseppe are not Orazio Arena's sons.** The register gives Francesco Antonio Arena
+and Serafina Arlotta a Giuseppe (5 March 1860) and a Rocco (20 December 1861) — the same pair your
+tree gives Orazio, in the same order, on the wrong father. Four separate things now agree: the
+sibling pair; Francesco Antonio's first son being named FILIPPO for his own father; an ARLOTTA
+lodging with Rocco in New York in 1900; and Rocco naming a daughter SERAFINA there in 1898.
 
-**That opened two generations you do not have**, and then a third thing confirmed them. Act 228
-calls Francesco Antonio *figlio di Filippo*; the 1819 index gives his birth on 25 November 1819 to
-**Filippo Arena and Domenica Costa**. And when the archive later swept 1852 looking for Rocco's
-brothers, it found that Francesco Antonio's **first son, born 14 February 1852, is called FILIPPO**
-— exactly who Calabrian custom says he should be named for. Nobody went looking for that; it fell
-out of a search run for another reason.
+**2. Two generations you do not have.** Act 228 calls Francesco Antonio *figlio di Filippo*, and the
+1819 index gives his birth on 25 November 1819 to **Filippo Arena and Domenica Costa** — your
+great-great-great-great-grandparents. Rocco also has three elder brothers you do not have.
 
-So Rocco has three elder brothers you do not have — Filippo (1852), Domenico (1853), Giuseppe
-(1860) — and two more generations above him.
+**3. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
+**Sarafina (1898, died at seventeen months)**, **Clementina (1900)** and **Antonino (1902)**. They
+married in **1890** — the 1900 census records them as ten years married.
 
-**Orazio Arena is fine, separately.** Your date for him, 1821, is probably right, and he has a
-daughter Teresa born 17 October 1853 that the tree does not record. He simply is not Rocco's father.
-
-**And a pattern worth knowing.** The commonest error is not a wrong name — it is a wrong birth
-year, on people the tree could not date from a document. Giovanni Arena is out by eleven years,
-Michele Donato by five, Salvatore Mazza by six.
+**A pattern worth knowing.** The commonest error is a wrong birth year on someone the tree could
+not date from a document: Giovanni Arena out by eleven years, Michele Donato by five, Salvatore
+Mazza by six.
 
 ## Missing people — TWO NEW GENERATIONS
 
@@ -56,6 +51,18 @@ Michele Donato by five, Salvatore Mazza by six.
 - **The record says:** FILIPPO ARENA b. 14 February 1852, DOMENICO ARENA b. 24 March 1853 and GIUSEPPE ARENA b. 5 March 1860 are all sons of Francesco Antonio Arena and Serafina Arlotta -- Rocco's elder brothers. The eldest is named FILIPPO for his grandfather, exactly as Calabrian custom predicts, which is a third independent support for the Filippo Arena generation. Separately, TERESA ARENA b. 17 October 1853 is a daughter of Orazio Arena and Giovanna Zirilli -- Orazio's earliest known child, and the tree gives him no daughters at all.
 - **Source:** Scilla, Nati 1852 atto 48; Nati 1853 atti 2 and 6; Nati 1860 atto 45
 
+### Giovanni Arena b.1854, Rocco's brother
+
+- **The tree says:** Not in the tree
+- **The record says:** The Ellis Island manifest of 23 May 1899 states it outright: Giovanni Arena, 45, a sailor, sails to join 'BROTHER ROCCO, N. YORK, MULBERRY ST', and the six-year-old on the next line is entered not by surname but as 'NIECE, Anna Arena'. So Giovanni is Rocco Arena's brother and Anna is Rocco's daughter -- both stated on the document. His age matches the Arena Giovanni born at Scilla on 20 April 1854 exactly, though that act names the mother Rosa Arlotta where Rocco's names her Serafina.
+- **Source:** Ellis Island, the Archimede, 23 May 1899; Scilla, Nati 1854 atto 1
+
+### Three New York children of Rocco Arena and Generosa Costa
+
+- **The tree says:** Not in the tree
+- **The record says:** SARAFINA ARENA b. 14 August 1898 at Manhattan, DIED 30 JANUARY 1900 aged seventeen months and buried the next day; CLEMENTINA ARENA b. 18 December 1900 at Manhattan; ANTONINO ARENA b. 12 October 1902 at Manhattan. All three to Rocco Arena and Generosa Costa. Sarafina's name matters on its own: Rocco's mother was SERAFINA ARLOTTA, so he named a daughter for her in New York -- a third separate thing pointing at the parentage the archive reassigned.
+- **Source:** New York, New York City Births 1846-1909; NYC Municipal Deaths 1795-1949
+
 ## Parentage
 
 ### Rocco Arena
@@ -67,8 +74,8 @@ Michele Donato by five, Salvatore Mazza by six.
 ### Giovanni Polistena
 
 - **The tree says:** Mother Giovanna Pontillo
-- **The record says:** The birth act names the mother as GIOVANNA ROMANO. The father agrees -- Camillo Antonio Polistena. Pontillo is a real Scilla surname, so the name is plausible, but it is not what the act says.
-- **Source:** Scilla, Nati 1883, atto 206
+- **The record says:** His mother is GIOVANNA ROMANO, not Giovanna Pontillo. SETTLED BY TWO INDEPENDENT RECORDS: act 206 of 1883 names her Giovanna Romano, and the New Orleans manifest of 1908 -- filled in from Giovanni's own statement, twenty-five years later and half a world away -- names 'father Antonino Polistena and mother Giovanna Romano, Scilla'. The father is the same man under three spellings: Camillo Antonio in the act, Antonio in the tree, Antonino on the manifest.
+- **Source:** Scilla, Nati 1883 atto 206; New Orleans passenger list, S.S. Liguria, 1908
 
 ### Guiseppe Arena
 
@@ -87,7 +94,7 @@ Michele Donato by five, Salvatore Mazza by six.
 ### Michele Donato
 
 - **The tree says:** Born 1851 at Scilla
-- **The record says:** Born about 1856. Thirty-six in his daughter's birth act of July 1892, and fifty-two on the New Orleans manifest of 1908 -- two independent records agreeing.
+- **The record says:** Born about 1856. Thirty-six in his daughter's birth act of July 1892, and fifty-two on the New Orleans manifest of 1908 -- and the New Orleans manifest image names him a SAILOR whose nearest relative is 'Wife Maria Sofi, Via Grotte, Scilla' -- three independent witnesses agreeing.
 - **Source:** Scilla, Nati 1892, atto 162; New Orleans passenger list 1908
 
 ## Birth date
@@ -103,6 +110,12 @@ Michele Donato by five, Salvatore Mazza by six.
 - **The tree says:** Born 1879
 - **The record says:** Born 5 January 1873 at Piedimonte Etneo. Six years out.
 - **Source:** FamilySearch full-text, Piedimonte Etneo Nati 1873 atto 3
+
+### Antonio Arena
+
+- **The tree says:** Born 1895 in New York
+- **The record says:** The New York City birth register says 4 OCTOBER 1896. The 1900 census says October 1895 and gives his age as five. Day and month agree across all three; the year differs by one and the birth register is primary.
+- **Source:** New York, New York City Births, 1846-1909
 
 ## Death date
 
@@ -142,6 +155,14 @@ Michele Donato by five, Salvatore Mazza by six.
 - **The record says:** Both proved to be sons of Salvatore Mazza and Maria Concetta Nicotra, and therefore Sebastiano's brothers.
 - **Source:** Queensland BDM historical index
 
+## Marriage — missing entirely
+
+### Rocco Arena and Generosa Costa
+
+- **The tree says:** No marriage date
+- **The record says:** The 1900 census records them as having been MARRIED TEN YEARS, so they married in 1890 -- three years before Anna was born and two before Rocco first sailed.
+- **Source:** United States Census, 1900, Manhattan Ward 6
+
 ## Duplicate record
 
 ### Giovanna Zirilli  *(flagged)*
@@ -163,7 +184,7 @@ Michele Donato by five, Salvatore Mazza by six.
 ### Anna Arena
 
 - **The tree says:** Crossed in 1894, aged one
-- **The record says:** Crossed on 23 MAY 1899 aged six, on the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father.
+- **The record says:** Crossed on 23 MAY 1899 aged six, on the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father. THE IMAGE names the man she travelled with as her UNCLE -- her line begins with the word 'Niece' -- and he was going to join 'brother Rocco' at Mulberry Street, New York.
 - **Source:** Ellis Island, the Archimede
 
 ## Crossing -- ship named
@@ -199,6 +220,12 @@ Michele Donato by five, Salvatore Mazza by six.
 - **The tree says:** No crossing recorded
 - **The record says:** She sailed on the ROMA with her father Francessco, reaching Fremantle on 10 October 1957, aged twelve. She had been noted on his voyage and wrongly flagged as "not in the family tree" -- she is in it, as his daughter.
 - **Source:** NAA passenger arrivals index, item 30132189
+
+### Giovanni Polistena
+
+- **The tree says:** No crossing recorded
+- **The record says:** He sailed from PALERMO on the S.S. LIGURIA on 22 February 1908, reaching NEW ORLEANS, bound for QUINCY, FLORIDA -- on the line immediately after Michele Donato, whose daughter he would marry about eight years later. Aged 24, single, a sailor.
+- **Source:** New Orleans passenger list, S.S. Liguria, 1908
 
 ## Port
 
@@ -261,7 +288,7 @@ Michele Donato by five, Salvatore Mazza by six.
 ---
 
 Full reasoning is on the site — **Scilla** for the Calabrian registers, **The Crossings**
-for the manifests, **Nudgee** for the burials, **The Queensland Register** for the BDM index.
+for the manifests and the censuses, **Nudgee** for the burials, **The Queensland Register** for BDM.
 Where the archive has been *wrong*, that is on **Method**.
 
 https://daviddef.github.io/TheMazza/corrections/
