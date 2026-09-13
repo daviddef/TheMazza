@@ -2424,3 +2424,42 @@ themselves are read.
 
 **Piedimonte deaths, the series:** restaurazione *Morti* 48 volumes 1820–1863 (an_ua72285 ff.);
 italiano *Morti* from 1866, arks sequential from an_ua83439.
+
+## 13 September 2026, later — the four located acts
+
+**Calibration for Scilla death volumes:** **four acts to an opening**, in the order left-top,
+left-bottom, right-top, right-bottom. 1891: `act = 149 + 4*(image − 40)`.
+
+**Scilla, Morti 1891, atto 134 — ARENA FORTUNATO.** 1 October 1891, 9.05 a.m., before D'Amico
+Gaetano. Two *becchini* (Ignazio Fontana 48, Antonio Caroleo 38) declared that at 3.30 that morning,
+at **Via Grotte 70**, died **Arena Fortunato, *di giorni dieci*** — born in this comune of
+**GIOVANNI, pescatore**, and **CONCETTA RUSSO, filatrice**. Witnesses Perina Giuseppe 57 and
+**Arlotta Giuseppe 55**, both *pescatori*.
+→ **A son of Rocco's brother, born ~21 Sept 1891, dead at ten days. Not in the tree.**
+→ Fixes the household at **Via Grotte** — where Giuseppe is born at no. 75 thirteen months later —
+and confirms Giovanni as *pescatore*, as act 230 of 1892 has him.
+
+**Scilla, Morti 1893, atto 5 — ARENA RAFFAELA. Lead closed, negative.** 6 January 1893, Via
+Acquagrande 60: **Raffaela Arena, 61, *filatrice***, daughter of **the late Antonio Arena,
+pescatore**, and **the late Teresa Pontillo, filatrice**; **widow of Perina Rocco**. A separate
+household. *Francesco Antonio Arena's death is still unfound.*
+→ Keep two things: **Pontillo** is a real Scilla surname (bears on the Romano/Pontillo question), and
+the Arena were spread along **Via Grotte** and **Via Acquagrande** (Anna Arena b. no. 41, 1893).
+
+**Eight years of death indexes read (1889–1896)** and neither Francesco Antonio Arena nor Serafina
+Arlotta appears. Both alive December 1888 (he ~69, she ~58). **They died 1897 or later.** Other
+households seen: Arena Orazio *fu Antonio* (1895/133), Arena Domenica *di Santo* (1895/140), Arena
+Eugenia *fu Carlo* (1896/48), Arena Rosa *di Giuseppe* (1896/17), Arlotta Domenico *di Giovanni*
+(1895/2), Arlotta Teresa *fu Vincenzo* (1895/32).
+
+**Scilla Matrimoni 1885, act 103 — not an ordinary wedding.** Image 53 is a **Parte II** section:
+marriages celebrated **abroad** and transcribed at Scilla, with a *Casa Consolare* certificate, the
+countersignature of the **Ministero degli Affari Esteri**, and banns published on two Sundays in one
+country and two in another. **The high act numbers in these volumes are transcriptions**, and by
+1885 Scilla was already registering marriages made overseas — the same year Maria Martello's father
+was *residente in America*, seven years before Rocco first sailed.
+
+**1888 banns act — not located.** The *pubblicazioni* volume's last images (45–49) are a **second
+sequence numbered from 1 again**, dated across 1888 — a Parte II of its own. The main series runs
+earlier in the volume. Since the act only corroborates what the marriage act already states, it was
+left; images 30–44 are the place to look.

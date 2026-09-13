@@ -1,6 +1,6 @@
 {
- "count": 66,
- "documented": 62,
+ "count": 67,
+ "documented": 63,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -339,6 +339,15 @@
      "treeSays": "Not in the tree",
      "recordSays": "ROCCO ARENA'S ELDER BROTHER, born 30 APRIL 1854 at Scilla, act 76. Son of FRANCESCO ANTONIO ARENA, 34, marinaro, and SERAFINA ARLOTTA, 22. Declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco'.",
      "source": "Scilla, Nati 1854, atto 76",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people",
+     "who": "Fortunato Arena",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "A son of GIOVANNI ARENA and CONCETTA RUSSO, born about 21 September 1891 at Via Grotte 70, Scilla, and DEAD ON 1 OCTOBER 1891 AT TEN DAYS OLD. An elder brother of the Giuseppe Arena born in the same street thirteen months later.",
+     "source": "Scilla, Morti 1891, atto 134",
      "confidence": "documented"
     }
    ]
