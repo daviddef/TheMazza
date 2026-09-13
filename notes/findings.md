@@ -1751,3 +1751,14 @@ why she is not in the census taken that June, and why nobody remembered her.
 **Her name is evidence.** Act 228 gives Rocco's mother as **Serafina Arlotta**. In New York in 1898 he
 named a daughter Serafina. Not proof — and the **third** separate thing pointing the same way, after
 the sibling pair in the register and the Arlotta lodging with them in 1900.
+
+### The 1910 census, Gadsden County, Florida — a clean negative
+
+The Liguria sent Michele Donato and Giovanni Polistena to **Quincy, Florida** in February 1908. The
+1910 census for the **whole county** lists **fifteen** people born in Italy, and neither man is among
+them.
+
+**Quincy is where they were going, not where they stayed.** That fits everything else: Giovanni
+Polistena was back at Scilla to marry Nunziata Donato about 1916, and Michele Donato's household
+stayed at Via Grotte. The 1908 crossing reads as **seasonal or short-term labour**, not emigration —
+a different story from the one the tree implies by recording an arrival and nothing else.
