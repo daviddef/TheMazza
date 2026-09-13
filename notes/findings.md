@@ -1934,3 +1934,23 @@ stated as caution. After a fortnight in the Scilla registers it can be stated as
   generation.
 - **Salvatore Mazza** — one born 1873 at Piedimonte Etneo and dead at Catania in 1929; another born
   1948 at Briatico who sailed to Fremantle as an infant. Seventy-five years and two provinces apart.
+
+### Rocco Arena's third crossing — the San Guglielmo, 11 September 1913
+
+Statue of Liberty index, passenger `JNYK-G27`; image `3:1:3Q9M-C9TX-DCWN`, T715-2174 frame 296, line 3.
+
+> **Rocco Arena**, 52, married, **US Citizen**, residence *"Citizen of the U.S. of A., New York"*,
+> departed **Messina**, ship **San Guglielmo**, arrived **11 September 1913**
+
+**Confirms the tree twice and corrects it once.** The tree gives him a departure from **Messina** —
+right — and an arrival on **12 September 1913**. It was the **11th**.
+
+Age 52 in September 1913 gives a birth about 1861 — the same answer the 1900 manifest gave, with the
+same one-year overshoot against act 228's 20 December 1861. **A consistent internal bias, not a
+contradiction.**
+
+**Three crossings now known:** 1892 (per the 1900 census), 21 March 1900 on the *Trave*, and this.
+
+**And he was not alone.** Four frames away on the same manifest — T715-2174, **frame 292, line 19** —
+is **Rocco Polistena, 44, of Scilla**. An Arena and a Polistena off the same ship on the same day in
+1913; a generation later Anna Arena's son Rocco married Angela Polistena.

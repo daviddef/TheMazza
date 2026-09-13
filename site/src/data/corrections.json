@@ -1,6 +1,6 @@
 {
- "count": 39,
- "documented": 35,
+ "count": 40,
+ "documented": 36,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -260,6 +260,15 @@
      "treeSays": "Crossed in 1894, aged one",
      "recordSays": "Crossed on 23 MAY 1899 aged six, on the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father. THE IMAGE names the man she travelled with as her UNCLE -- her line begins with the word 'Niece' -- and he was going to join 'brother Rocco' at Mulberry Street, New York.",
      "source": "Ellis Island, the Archimede",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Crossing date",
+     "who": "Rocco Arena",
+     "slug": "rocco-arena",
+     "treeSays": "Arrived 12 September 1913, departed Messina",
+     "recordSays": "Arrived 11 SEPTEMBER 1913 -- one day earlier -- on the SAN GUGLIELMO. The port of embarkation, MESSINA, is exactly as the tree has it. He was 52 and entered as a US citizen. On the same ship the same day was ROCCO POLISTENA, 44, of Scilla, four frames away: a generation later, Anna Arena's son Rocco married Angela Polistena.",
+     "source": "Ellis Island, the San Guglielmo, 11 September 1913",
      "confidence": "documented"
     }
    ]
