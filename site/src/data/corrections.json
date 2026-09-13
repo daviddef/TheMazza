@@ -1,6 +1,6 @@
 {
- "count": 67,
- "documented": 63,
+ "count": 70,
+ "documented": 66,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -202,6 +202,15 @@
      "treeSays": "No birth recorded",
      "recordSays": "BORN ABOUT 1779. He is SEVENTY-FIVE when he appears in person to declare his grandson's birth in April 1854, and he is called MARINARO and 'figlio del fu Domenico'.",
      "source": "Scilla, Nati 1854, atto 76",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth year",
+     "who": "Generosa Costa",
+     "slug": "—",
+     "treeSays": "No birth year",
+     "recordSays": "BORN ABOUT 1868. She is TWENTY at her banns in November 1888, and a FILATRICE.",
+     "source": "Scilla, Pubblicazioni 1888, no. 63",
      "confidence": "documented"
     }
    ]
@@ -613,6 +622,24 @@
      "treeSays": "No occupation",
      "recordSays": "FILATRICE, a spinner — like Concetta Russo and Maria Martello, the two women her husband's brothers married three years earlier.",
      "source": "Scilla, Matrimoni 1888, atto 63",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Serafina Arlotta",
+     "slug": "—",
+     "treeSays": "No occupation",
+     "recordSays": "FILATRICE, a spinner — given in her son Rocco's banns of November 1888, where she is also recorded as living at Scilla.",
+     "source": "Scilla, Pubblicazioni 1888, no. 63",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Francesco Antonio Arena",
+     "slug": "—",
+     "treeSays": "No occupation",
+     "recordSays": "PESCATORE in 1888, at sixty-eight. His earlier acts call him MARINARO. The last record that shows him alive.",
+     "source": "Scilla, Pubblicazioni 1888, no. 63",
      "confidence": "documented"
     }
    ]

@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 67 items, 63 of them resting on a document that has been read.
+For **Michael Mazza**. 70 items, 66 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -177,6 +177,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** No birth recorded
 - **The record says:** BORN ABOUT 1779. He is SEVENTY-FIVE when he appears in person to declare his grandson's birth in April 1854, and he is called MARINARO and 'figlio del fu Domenico'.
 - **Source:** Scilla, Nati 1854, atto 76
+
+### Generosa Costa
+
+- **The tree says:** No birth year
+- **The record says:** BORN ABOUT 1868. She is TWENTY at her banns in November 1888, and a FILATRICE.
+- **Source:** Scilla, Pubblicazioni 1888, no. 63
 
 
 ## Birth date
@@ -490,6 +496,18 @@ Mazza by six, Rosario Mazza by five.
 - **The record says:** FILATRICE, a spinner — like Concetta Russo and Maria Martello, the two women her husband's brothers married three years earlier.
 - **Source:** Scilla, Matrimoni 1888, atto 63
 
+### Serafina Arlotta
+
+- **The tree says:** No occupation
+- **The record says:** FILATRICE, a spinner — given in her son Rocco's banns of November 1888, where she is also recorded as living at Scilla.
+- **Source:** Scilla, Pubblicazioni 1888, no. 63
+
+### Francesco Antonio Arena
+
+- **The tree says:** No occupation
+- **The record says:** PESCATORE in 1888, at sixty-eight. His earlier acts call him MARINARO. The last record that shows him alive.
+- **Source:** Scilla, Pubblicazioni 1888, no. 63
+
 
 ## Marriage date
 
@@ -509,4 +527,4 @@ Where the archive has been *wrong*, that is on **Method**.
 
 https://daviddef.github.io/TheMazza/corrections/
 
-_Generated 13 September 2026._
+_Generated 14 September 2026._

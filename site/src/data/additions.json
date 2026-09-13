@@ -204,18 +204,6 @@
   "note": "Giuseppe Arena's wife -- Giuseppe being Rocco Arena's brother, born 5 March 1860. NOT IN THE FAMILY TREE. Her father PAOLO MARTELLO was already RESIDENT IN AMERICA in 1885."
  },
  {
-  "name": "Antonio Costa",
-  "gen": "6",
-  "born": "—",
-  "bornNote": "Not yet sought.",
-  "died": "—",
-  "trade": "—",
-  "father": "—",
-  "mother": "—",
-  "source": "Scilla, Matrimoni 1888, atto 63",
-  "note": "Generosa Costa's father, living at Scilla in December 1888. NOT IN THE FAMILY TREE. He is the fourth Costa this archive has met in the Arena line — after Domenica Costa, Maria Costa and Generosa herself."
- },
- {
   "name": "Anna Arlotta",
   "gen": "6",
   "born": "—",
@@ -238,5 +226,17 @@
   "mother": "Concetta Russo",
   "source": "Scilla, Morti 1891, atto 134",
   "note": "A son of ROCCO ARENA'S BROTHER Giovanni, dead at ten days. NOT IN THE FAMILY TREE. His death act fixes the household at VIA GROTTE -- the same street where his brother Giuseppe would be born thirteen months later, at number 75 -- and calls his father a PESCATORE, as Giuseppe's birth act does."
+ },
+ {
+  "name": "Antonio Costa",
+  "gen": "6",
+  "born": "c. 1840",
+  "bornNote": "AGED FORTY-EIGHT at his daughter Generosa's banns in November 1888, so born about 1840.",
+  "died": "—",
+  "trade": "pescatore (fisherman)",
+  "father": "—",
+  "mother": "—",
+  "source": "Scilla, Pubblicazioni 1888 no. 63; Matrimoni 1888 atto 63",
+  "note": "Generosa Costa's father, now dated and with a trade. NOT IN THE FAMILY TREE."
  }
 ]

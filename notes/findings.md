@@ -2494,3 +2494,25 @@ lodging with Rocco Arena in Manhattan in 1900. Rocco's own daughter Anna was bor
 **Also:** `/what-changed` brought up to date, and the two comune requests consolidated into one letter
 at `notes/requests/scilla-comune.md` (the Polistena × Donato marriage of c.1916 and Nunziata Donato's
 death act of 1975 — both inside the closed period).
+
+### The banns of 1888, and the cousin question answered
+
+**Scilla, Pubblicazioni di Matrimonio 1888, no. 63** (ark `an_ua16594926`, container `Lepl4ey`,
+image 36 left; found by margin scan of images 30–39). **18 November 1888, 9.36 a.m.**, before
+**Minasi Luigi**, assessore. First publication that Sunday, second on the 25th; marriage in December.
+
+- **FRANCESCO ANTONIO ARENA, in person, alive, 68, *pescatore*, resident Scilla.** Born 25 Nov 1819 →
+  a week short of 69. **Exact**, and the *last confirmed sighting of him alive* (ink faded; the word
+  reads *sessantotto*).
+- **SERAFINA ARLOTTA, *filatrice*, resident** — a trade for her for the first time, and alive.
+- **GENEROSA COSTA, 20, *filatrice*** → b. c.1868. **ANTONIO COSTA, 48, *pescatore*** → b. c.1840.
+  **ANNA ARLOTTA, *filatrice***.
+- Witnesses **Musco Emanuele, 48, *civile*** and **Panebianco Filippo, 54, *pittore***.
+
+**And the sworn clause:** *non ostare al loro matrimonio alcun impedimento di parentela o di
+affinità*. Under the law of the time **first cousins required a dispensation** — precisely such an
+impediment. **Rocco Arena and Generosa Costa were not first cousins.** The question this archive
+raised on finding Anna Arlotta is answered, in the negative.
+
+**Method note:** the banns volume's tail (images 45–49) is a *second sequence numbered from 1* — a
+Parte II. The main series runs earlier; no. 63 sits at image 36.
