@@ -1,6 +1,6 @@
 {
- "count": 33,
- "documented": 29,
+ "count": 34,
+ "documented": 30,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -60,8 +60,8 @@
      "who": "Giovanni Polistena",
      "slug": "giovanni-polistena",
      "treeSays": "Mother Giovanna Pontillo",
-     "recordSays": "The birth act names the mother as GIOVANNA ROMANO. The father agrees -- Camillo Antonio Polistena. Pontillo is a real Scilla surname, so the name is plausible, but it is not what the act says.",
-     "source": "Scilla, Nati 1883, atto 206",
+     "recordSays": "His mother is GIOVANNA ROMANO, not Giovanna Pontillo. SETTLED BY TWO INDEPENDENT RECORDS: act 206 of 1883 names her Giovanna Romano, and the New Orleans manifest of 1908 -- filled in from Giovanni's own statement, twenty-five years later and half a world away -- names 'father Antonino Polistena and mother Giovanna Romano, Scilla'. The father is the same man under three spellings: Camillo Antonio in the act, Antonio in the tree, Antonino on the manifest.",
+     "source": "Scilla, Nati 1883 atto 206; New Orleans passenger list, S.S. Liguria, 1908",
      "confidence": "documented"
     },
     {
@@ -92,7 +92,7 @@
      "who": "Michele Donato",
      "slug": "michele-donato",
      "treeSays": "Born 1851 at Scilla",
-     "recordSays": "Born about 1856. Thirty-six in his daughter's birth act of July 1892, and fifty-two on the New Orleans manifest of 1908 -- two independent records agreeing.",
+     "recordSays": "Born about 1856. Thirty-six in his daughter's birth act of July 1892, and fifty-two on the New Orleans manifest of 1908 -- and the New Orleans manifest image names him a SAILOR whose nearest relative is 'Wife Maria Sofi, Via Grotte, Scilla' -- three independent witnesses agreeing.",
      "source": "Scilla, Nati 1892, atto 162; New Orleans passenger list 1908",
      "confidence": "documented"
     }
@@ -279,6 +279,15 @@
      "treeSays": "No crossing recorded",
      "recordSays": "She sailed on the ROMA with her father Francessco, reaching Fremantle on 10 October 1957, aged twelve. She had been noted on his voyage and wrongly flagged as \"not in the family tree\" -- she is in it, as his daughter.",
      "source": "NAA passenger arrivals index, item 30132189",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Crossing -- missing entirely",
+     "who": "Giovanni Polistena",
+     "slug": "giovanni-polistena",
+     "treeSays": "No crossing recorded",
+     "recordSays": "He sailed from PALERMO on the S.S. LIGURIA on 22 February 1908, reaching NEW ORLEANS, bound for QUINCY, FLORIDA -- on the line immediately after Michele Donato, whose daughter he would marry about eight years later. Aged 24, single, a sailor.",
+     "source": "New Orleans passenger list, S.S. Liguria, 1908",
      "confidence": "documented"
     }
    ]

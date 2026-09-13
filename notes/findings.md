@@ -1624,3 +1624,42 @@ certainly the **Giavanni Arena, 45, of Scilla** who escorted six-year-old Anna A
 
 **1852 is a third doubled year of the same shape**: acts in `an_ua2002904`, Tavola bound alone in
 `an_ua2002907` at images 33–40. Like 1856 and 1875.
+
+---
+
+## 13 September 2026, fourth run — the manifest images (item 6)
+
+FamilySearch and FindMyPast logins restored. **Method for reading a FamilySearch image without the
+viewer:** the page is DeepZoom. Fetch
+`/service/records/storage/deepzoomcloud/dz/v1/<ark>/image_files/<level>/<col>_<row>.jpg`
+in-page with `credentials:'include'`, stitch onto a canvas, replace the document body with it and
+screenshot. Descriptor at `.../image.xml` gives Width/Height; max level = `ceil(log2(max(W,H)))`.
+The Liguria page is 4048 × 4097, so level 13 is native.
+
+### S.S. Liguria, Palermo → New Orleans, sailed 22 February 1908
+
+`3:1:33S7-95CH-L8S` — NARA T905 roll 19, image 763.
+
+| line | | age | | trade | residence | nearest relative in Italy | destination |
+|---|---|---|---|---|---|---|---|
+| **15** (no. 130) | **Donato, Michele** | 52 | married | **sailor** | Scilla, S. Calabria | **"Wife Maria Sofi, Via Grotte, Scilla"** | **Quincy, Florida** |
+| **16** (no. 131) | **Polistena, Giovanni** | 24 | single | **sailor** | Scilla, S. Calabria | **"Father Antonino Polistena and mother Giovanna Romano, Scilla"** | **Quincy, Florida** |
+
+**They are on consecutive lines.** Michele Donato and Giovanni Polistena crossed together, for the
+same town in Florida — and about eight years later Giovanni married Michele's daughter Nunziata.
+
+**ROMANO, NOT PONTILLO — SETTLED.** The tree gives Giovanni Polistena's mother as Giovanna
+*Pontillo*. Act 206 of 1883 says Giovanna *Romano*. This archive carried that as an open conflict for
+days, noting each time that Pontillo is a genuine Scilla surname and the tree might be right. **It is
+not.** A US immigration manifest, taken from Giovanni's own statement twenty-five years after his
+birth and half a world from Scilla, says **Giovanna Romano**. Two independent records, two
+continents, one answer.
+
+The father's name moves *towards* the tree: *Camillo Antonio* in the act, *Antonio* in the tree,
+*Antonino* on the manifest — the same man, and the tree's version was never the problem.
+
+**Michele Donato gets a third witness to 1856** (52 in 1908), a trade (**sailor**, consistent with
+*pescatore* in 1892), and confirmation of **Via Grotte** — the street act 162 gives as no. 31 —
+sixteen years and one ocean later. His wife **Maria Sofi** is confirmed by name.
+
+**And Giovanni Polistena has a crossing the tree does not record at all.**
