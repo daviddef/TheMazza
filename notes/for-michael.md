@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 70 items, 66 of them resting on a document that has been read.
+For **Michael Mazza**. 72 items, 68 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -33,7 +33,7 @@ inference any more.
 - **Francesco Antonio Arena**, b. 25 November 1819, *marinaro* × **Serafina Arlotta**, b. 13 June 1830
 - and Rocco's three elder brothers — Filippo (1852), Domenico (1853), Giuseppe (1860)
 
-In all, **20 documented people** are missing from your export.
+In all, **21 documented people** are missing from your export.
 
 **4. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
 **Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)** — two of
@@ -322,6 +322,12 @@ Mazza by six, Rosario Mazza by five.
 - **The record says:** A son of GIOVANNI ARENA and CONCETTA RUSSO, born about 21 September 1891 at Via Grotte 70, Scilla, and DEAD ON 1 OCTOBER 1891 AT TEN DAYS OLD. An elder brother of the Giuseppe Arena born in the same street thirteen months later.
 - **Source:** Scilla, Morti 1891, atto 134
 
+### Maria Donato
+
+- **The tree says:** Not in the tree
+- **The record says:** A daughter of MICHELE DONATO and MARIA SOFI, born about OCTOBER 1888 and dead on 16 FEBRUARY 1891 at twenty-eight months, at Via Grotte 21, Scilla. A sister of Nunziata Donato.
+- **Source:** Scilla, Morti 1891, atto 22
+
 
 ## Relationship
 
@@ -507,6 +513,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** No occupation
 - **The record says:** PESCATORE in 1888, at sixty-eight. His earlier acts call him MARINARO. The last record that shows him alive.
 - **Source:** Scilla, Pubblicazioni 1888, no. 63
+
+### Michele Donato
+
+- **The tree says:** No occupation
+- **The record says:** PESCATORE — a fisherman. Given in his daughter Maria's death act of February 1891, which also puts the household at VIA GROTTE 21.
+- **Source:** Scilla, Morti 1891, atto 22
 
 
 ## Marriage date

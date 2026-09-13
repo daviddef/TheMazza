@@ -2516,3 +2516,31 @@ raised on finding Anna Arlotta is answered, in the negative.
 
 **Method note:** the banns volume's tail (images 45–49) is a *second sequence numbered from 1* — a
 Parte II. The main series runs earlier; no. 63 sits at image 36.
+
+### The death sweep, continued — and the lane
+
+**Scilla, Morti 1891, atto 22 — DONATO MARIA.** 17 February 1891, 9.15 a.m.; becchini **Marcello
+Caroleo 71** and **Rocco Furfari 61** declared that at 4.30 the previous afternoon, at **Via Grotte
+21**, died **Maria Donato, *di mesi ventotto***, born in this comune of **MICHELE, *pescatore***, and
+**MARIA SOFI, *filatrice***. Witnesses **Nostro Ferdinando 53** and **Perina Giuseppe 57**.
+→ **Maria Donato, b. c. October 1888, d. 16 February 1891.** A sister of Nunziata the tree lacks.
+→ Gives **Michele Donato a trade (*pescatore*)**, the address **Via Grotte 21**, and shows him alive
+in February 1891 — consistent with act 162 of July 1892 where he is 36.
+
+**The Via Grotte households.** 21 the Donato; 60 the Arlotta (Giovanni × Serafina Bellantoni); 70
+Giovanni Arena × Concetta Russo — *and* Antonino Nostro × Domenica Calabrese six weeks earlier, so
+70 is a tenement; 75 the same Arena couple. The same witnesses recur: **Arlotta Giuseppe 55** and
+**Sofi Michelangelo 56** at both Via Grotte 70 deaths of 1891; **Perina Giuseppe 57** at the Arena
+child and the Donato child.
+
+**Francesco Antonio Arena and Serafina Arlotta — twelve years of death indexes, neither of them.**
+A block read for **1889–1900 and 1902**. The banns of Nov 1888 put him alive at 68 and her working.
+So: 1901, 1903, 1904 unchecked, or later, or they left. Series runs to 1943.
+
+**One loose end.** The **1898** index carries a line **"Arena Francesco Giovanni" with no register
+number** — blank where every other line has a figure. Our man is Francesco *Antonio*, so probably
+somebody else; but it cannot be opened from the index and it is the only Arena Francesco in thirteen
+years. It needs a margin scan of the 1898 acts.
+
+**Index format note:** from 1899 the Scilla death index gains a **PATERNITÀ** column of its own, and
+from 1900 a *Num. d'ordine* as well — so a single index line gives name, father, and act number.

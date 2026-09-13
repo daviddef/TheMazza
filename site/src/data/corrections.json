@@ -1,6 +1,6 @@
 {
- "count": 70,
- "documented": 66,
+ "count": 72,
+ "documented": 68,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -358,6 +358,15 @@
      "recordSays": "A son of GIOVANNI ARENA and CONCETTA RUSSO, born about 21 September 1891 at Via Grotte 70, Scilla, and DEAD ON 1 OCTOBER 1891 AT TEN DAYS OLD. An elder brother of the Giuseppe Arena born in the same street thirteen months later.",
      "source": "Scilla, Morti 1891, atto 134",
      "confidence": "documented"
+    },
+    {
+     "kind": "Missing people",
+     "who": "Maria Donato",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "A daughter of MICHELE DONATO and MARIA SOFI, born about OCTOBER 1888 and dead on 16 FEBRUARY 1891 at twenty-eight months, at Via Grotte 21, Scilla. A sister of Nunziata Donato.",
+     "source": "Scilla, Morti 1891, atto 22",
+     "confidence": "documented"
     }
    ]
   },
@@ -640,6 +649,15 @@
      "treeSays": "No occupation",
      "recordSays": "PESCATORE in 1888, at sixty-eight. His earlier acts call him MARINARO. The last record that shows him alive.",
      "source": "Scilla, Pubblicazioni 1888, no. 63",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Michele Donato",
+     "slug": "—",
+     "treeSays": "No occupation",
+     "recordSays": "PESCATORE — a fisherman. Given in his daughter Maria's death act of February 1891, which also puts the household at VIA GROTTE 21.",
+     "source": "Scilla, Morti 1891, atto 22",
      "confidence": "documented"
     }
    ]
