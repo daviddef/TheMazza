@@ -1,6 +1,6 @@
 {
- "count": 35,
- "documented": 31,
+ "count": 38,
+ "documented": 34,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -48,6 +48,15 @@
      "treeSays": "Not in the tree",
      "recordSays": "The Ellis Island manifest of 23 May 1899 states it outright: Giovanni Arena, 45, a sailor, sails to join 'BROTHER ROCCO, N. YORK, MULBERRY ST', and the six-year-old on the next line is entered not by surname but as 'NIECE, Anna Arena'. So Giovanni is Rocco Arena's brother and Anna is Rocco's daughter -- both stated on the document. His age matches the Arena Giovanni born at Scilla on 20 April 1854 exactly, though that act names the mother Rosa Arlotta where Rocco's names her Serafina.",
      "source": "Ellis Island, the Archimede, 23 May 1899; Scilla, Nati 1854 atto 1",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people — TWO NEW GENERATIONS",
+     "who": "Three New York children of Rocco Arena and Generosa Costa",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "SARAFINA ARENA b. 14 August 1898 at Manhattan, DIED 30 JANUARY 1900 aged seventeen months and buried the next day; CLEMENTINA ARENA b. 18 December 1900 at Manhattan; ANTONINO ARENA b. 12 October 1902 at Manhattan. All three to Rocco Arena and Generosa Costa. Sarafina's name matters on its own: Rocco's mother was SERAFINA ARLOTTA, so he named a daughter for her in New York -- a third separate thing pointing at the parentage the archive reassigned.",
+     "source": "New York, New York City Births 1846-1909; NYC Municipal Deaths 1795-1949",
      "confidence": "documented"
     }
    ]
@@ -126,6 +135,15 @@
      "treeSays": "Born 1879",
      "recordSays": "Born 5 January 1873 at Piedimonte Etneo. Six years out.",
      "source": "FamilySearch full-text, Piedimonte Etneo Nati 1873 atto 3",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth date",
+     "who": "Antonio Arena",
+     "slug": "—",
+     "treeSays": "Born 1895 in New York",
+     "recordSays": "The New York City birth register says 4 OCTOBER 1896. The 1900 census says October 1895 and gives his age as five. Day and month agree across all three; the year differs by one and the birth register is primary.",
+     "source": "New York, New York City Births, 1846-1909",
      "confidence": "documented"
     }
    ]
@@ -388,6 +406,20 @@
      "treeSays": "No occupation",
      "recordSays": "FILATRICE, a spinner.",
      "source": "Scilla, Nati 1892, atto 230",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Marriage — missing entirely",
+   "rows": [
+    {
+     "kind": "Marriage — missing entirely",
+     "who": "Rocco Arena and Generosa Costa",
+     "slug": "rocco-arena",
+     "treeSays": "No marriage date",
+     "recordSays": "The 1900 census records them as having been MARRIED TEN YEARS, so they married in 1890 -- three years before Anna was born and two before Rocco first sailed.",
+     "source": "United States Census, 1900, Manhattan Ward 6",
      "confidence": "documented"
     }
    ]

@@ -5,6 +5,8 @@ import { u } from "../lib/url.js";
 import crossings from "../data/crossings.json";
 import ships from "../data/ships.json";
 import ellis from "../data/ellis.json";
+import census from "../data/census.json";
+import nyc from "../data/ny-children.json";
 const shipOf = new Map(ships.map((s) => [s.slug, s]));
 const wave1 = crossings.filter((c) => (c.year || 0) < 1940);
 const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
@@ -258,6 +260,78 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
     <em>Louisiana, New Orleans Passenger Lists, 1820–1945</em> (NARA T905). Every row carries a
     FamilySearch ark for the manifest page itself. <strong>The Liguria page has now been read in
     full</strong> — see above. The remaining images are still to do.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The 1900 United States Census — Manhattan, Ward 6</div>
+    <h2 style="margin-top:.4rem">One line, and a whole Scilla household under a New York roof</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A manifest gives you one person at a time. <strong>A census sheet gives you everyone in the
+      building.</strong> The 1899 manifest sent <P n="Giovanni Arena" />'s brother to Mulberry Street;
+      Mulberry Street is in Ward 6; and here, on sheet 17A, line 16, household 325, is
+      <P n="Rocco Arena" />.</p>
+      <div class="rec" style="margin-top:18px">
+        {census[0].memberList.map((m, i) => (
+          <>
+            <div class="k">{i === 0 ? "head" : (i < 4 ? "family" : "also here")}</div>
+            <div class="v">{m}</div>
+            <div class="w">{i === 0 ? "line 16" : ""}</div>
+          </>
+        ))}
+      </div>
+      <p style="margin-top:1.4rem"><strong>It confirms the family tree on four points at once</strong>
+      — the 1892 arrival, Generosa Costa as his wife, Anna as his daughter, and Antonio born in New
+      York — and it adds two things the tree does not have. He had been <strong>married ten
+      years</strong>, so <strong>Rocco Arena and Generosa Costa married in 1890</strong>. And he gave
+      his own birth as <strong>September 1861</strong>, where act 228 of 1861 says 20 December.
+      Census months are self-reported and three months adrift is ordinary; <strong>the year
+      agrees</strong>, which is the part that was ever in doubt.</p>
+      <p><strong>The other five names are the finding.</strong> Living with them: a
+      <strong>Costa</strong>, which is Generosa's surname; an <strong>Arlotta</strong>, which is
+      Rocco's mother's surname; and <strong>three more Arena</strong> — Domenico 18, John 42 and
+      Rafael 17. This is not a household, it is a piece of Scilla transplanted into one tenement.
+      <strong>John Arena, 42</strong>, is all but certainly the brother Giovanni who had brought
+      six-year-old Anna over the year before. And <strong>Lorenzo Costa, 24</strong>, is all but
+      certainly the <em>Lorenjo Costa, 26, of Scilla</em> who came off the <em>Neustria</em> on
+      13 March 1901, two lines from a Donato.</p>
+      <p class="small" style="margin-top:.8rem">United States Census, 1900 — Borough of Manhattan,
+      Election District 5, New York City Ward 6, ED 117, New York County; NARA T623. FamilySearch
+      <code>1:1:MSJ5-T7D</code>.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">New York, New York City Births and Deaths</div>
+    <h2 style="margin-top:.4rem">Four children born in Manhattan, three of whom the tree never knew</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The family tree has Rocco Arena and Generosa Costa going to America and coming home. It does
+      not have what happened in between.</p>
+      <div class="scroll" style="margin-top:16px">
+        <table>
+          <thead><tr><th>Name</th><th class="m">Born</th><th>In the tree?</th></tr></thead>
+          <tbody>
+            {nyc.map((c) => (
+              <tr>
+                <td><strong>{c.name}</strong></td>
+                <td class="m">{c.born}</td>
+                <td>{c.inTree === "yes"
+                  ? <span style="color:var(--ink-3)">yes</span>
+                  : <strong>no</strong>}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:1.2rem"><strong>Sarafina Arena, born 14 August 1898, died on 30 January
+      1900</strong> and was buried the next day, aged seventeen months. That is why she is not in the
+      census taken that June, and it is why nobody remembered her.</p>
+      <p class="note" style="margin-top:20px"><strong>And her name is evidence.</strong> Act 228 of
+      1861 gives Rocco Arena's mother as <strong>Serafina Arlotta</strong> — the parentage this
+      archive spent four days arguing about. In New York in 1898, Rocco named a daughter
+      <strong>Serafina</strong>. It is not proof, and it is the third separate thing to point the
+      same way: the sibling pair in the register, the <em>Arlotta</em> lodging with them in 1900, and
+      now a dead child's name.</p>
+    </div>
   </section>
 
   <section class="blk">

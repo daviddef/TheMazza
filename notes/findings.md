@@ -1693,3 +1693,61 @@ The trade confirms the *marinaro* of act 22 of 1893.
 **Note for anyone repeating this: the 1900 form has no parental columns.** It cannot name Rocco's
 father, and no amount of re-reading will make it. That question needs a different record — his
 marriage, or a death record.
+
+---
+
+## 13 September 2026, fifth run — the marriage, and the American households
+
+### Scilla, Matrimoni 1851 — the marriage is found, the bride's parents are not
+
+`an_ua2002614`, container `LD6brxB`, Tavola at images 88–96. **Entry 1 of the A section is
+"Arena Francesco" and "Arlotta Serafina", of Scilla.** So the marriage is **1851** — which fits their
+first son Filippo being born 14 February 1852, and finally explains why 1858 and 1859 were empty.
+
+**And then it stops being clean.** Entry 1's parents column carries **four** lines for two names —
+*Filippo, e Costa Dom.ca* / *Diego, e Vita Anna* / *Cosimo e Costa Maria* / *Gius.e e Bellantoni
+Teresa* — where every other entry on the page carries one per spouse. Either the block holds two
+marriages under one ordinal, or the parents are written high in their cells. **This archive cannot
+tell which line belongs to which name and is not guessing.** *Filippo e Costa Domenica* matches act
+186 of 1819 exactly, which is suggestive and is not proof.
+
+**A warning for whoever picks this up.** The tavola's number column gives 19 and 20 for that block.
+Acts 19 and 20 of the *solenne promessa* register are **Bruno × Calario** and **Papalia × Briganti** —
+both read, neither ours. So those numbers index something else, most likely the separate *atti di
+matrimonio* series bound in the same volume. **Find that series before trusting any number from this
+tavola.** This is the 1861 column-alignment trap in a new costume.
+
+### United States Census, 1900 — Manhattan, Ward 6, ED 117, sheet 17A, line 16
+
+`1:1:MSJ5-T7D`. **The richest single record this archive has found.**
+
+> **Rocco Arena**, 39, head, b. **September 1861** Italy, **arrived 1892**, **married 10 years**
+> **Genneroso Arena**, 30, wife · **Anna Arena**, 7, daughter · **Antonio Arena**, 5, son, **b. New York**
+> also in the household: **Lorenzo Costa** 24 · **Rocco Arlotta** 23 · **Domenico Arena** 18 ·
+> **John Arena** 42 · **Rafael Arena** 17
+
+**Confirms four tree facts at once** — the 1892 arrival, Generosa Costa, Anna, and Antonio born in New
+York. **Adds two:** they were **married in 1890**, and Rocco gave his birth as **September 1861**
+against act 228's 20 December. Census months are self-reported; **the year agrees**, which is the part
+that was ever in doubt.
+
+**The lodgers are the finding.** A **Costa** (Generosa's surname), an **ARLOTTA** (Rocco's mother's
+surname) and **three more Arena**. A piece of Scilla in one tenement. **John Arena, 42** is all but
+certainly brother Giovanni; **Lorenzo Costa, 24** is all but certainly the *Lorenjo Costa, 26, of
+Scilla* off the *Neustria* in March 1901.
+
+### New York City Births — four children, three unknown to the tree
+
+| child | born | in the tree? |
+|---|---|---|
+| Antonio Arena | **4 October 1896** | yes (as 1895) |
+| **Sarafina Arena** | **14 August 1898** | **no** |
+| **Clementina Arena** | **18 December 1900** | **no** |
+| **Antonino Arena** | **12 October 1902** | **no** |
+
+**Sarafina died on 30 January 1900** and was buried the next day, aged seventeen months — which is
+why she is not in the census taken that June, and why nobody remembered her.
+
+**Her name is evidence.** Act 228 gives Rocco's mother as **Serafina Arlotta**. In New York in 1898 he
+named a daughter Serafina. Not proof — and the **third** separate thing pointing the same way, after
+the sibling pair in the register and the Arlotta lodging with them in 1900.

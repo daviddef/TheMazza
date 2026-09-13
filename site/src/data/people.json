@@ -18257,7 +18257,7 @@
   "onSpine": true,
   "ancGen": 5,
   "corrections": [
-   "RESOLVED. His parents are FRANCESCO ANTONIO ARENA, marinaro, and SERAFINA ARLOTTA, not Orazio Arena and Giovana Zirilli. The proof is a sibling pair: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, act 228 of 1861 gives them a son ROCCO. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, same order, wrong father. Orazio's own children, across four years of the register, are Domenico, Domenico and Maria Annunziata. An Ellis Island manifest independently makes Rocco 39 in March 1900, consistent with a birth at the end of 1861."
+   "RESOLVED. His parents are FRANCESCO ANTONIO ARENA, marinaro, and SERAFINA ARLOTTA, not Orazio Arena and Giovana Zirilli. The proof is a sibling pair: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, act 228 of 1861 gives them a son ROCCO. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, same order, wrong father. Orazio's own children, across four years of the register, are Domenico, Domenico and Maria Annunziata. An Ellis Island manifest independently makes Rocco 39 in March 1900, consistent with a birth at the end of 1861. THE 1900 CENSUS confirms four tree facts at once -- the 1892 arrival, Generosa Costa, Anna, and Antonio born in New York -- and adds two more: he had been MARRIED TEN YEARS (so 1890), and he gave his birth as September 1861 where act 228 says 20 December 1861. The household also held a Costa, an ARLOTTA and three more Arena including a John Arena, 42."
   ]
  },
  {
@@ -18341,12 +18341,18 @@
     "kind": "passenger manifest",
     "what": "Ellis Island — sought among the Costa of Scilla, not found",
     "href": "/crossings"
+   },
+   {
+    "kind": "census",
+    "what": "United States Census 1900, Manhattan Ward 6 — aged 30, married ten years",
+    "href": "/crossings"
    }
   ],
   "onSpine": true,
   "ancGen": 5,
   "corrections": [
-   "Four Costa gave Scilla as their last residence at Ellis Island and none is Generosa. Her crossing, which the tree dates to 1894, is not in the index under that name."
+   "Four Costa gave Scilla as their last residence at Ellis Island and none is Generosa. Her crossing, which the tree dates to 1894, is not in the index under that name.",
+   "Indexed as 'Genneroso Arena'. The census makes her thirty in 1900 and married ten years, so born about 1870 and married in 1890. The New York City birth register gives her four more children than the tree has."
   ]
  },
  {
@@ -21426,10 +21432,18 @@
     "living": false
    }
   ],
-  "records": [],
+  "records": [
+   {
+    "kind": "birth register",
+    "what": "New York City Births — born 4 October 1896 at Manhattan",
+    "href": "/crossings"
+   }
+  ],
   "onSpine": false,
   "ancGen": null,
-  "corrections": []
+  "corrections": [
+   "The tree says 1895 and the 1900 census says October 1895 with an age of five. The birth register says 4 October 1896."
+  ]
  },
  {
   "id": "@I291@",
