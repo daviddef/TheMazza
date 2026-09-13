@@ -2395,3 +2395,32 @@ Maria* to a *Lico*. Neither is ours.
   not found. FindMyPast already had it (`US/PASS/NY/ELLIS2/000191616/3`). The Statue of Liberty index
   does not surface her under that name. **Two free indexes of the same manifests disagree about who
   is in them** — a negative in one is not a negative.
+
+## 13 September 2026, late — the Piedimonte sweeps, and two volumes that are simply gone
+
+**Piedimonte marriages, 1820–1845 — the whole civil series, twenty-six years, ~500 marriages.**
+**Exactly one groom called Mazza: Mariano, act 17 of 1836.** Two consequences: the 1836
+identification has no rival candidate at all, and **Innocenzio Mazza did not marry at Piedimonte
+either** — so the cousin question cannot be settled from this series. He married before 1820
+(parish-only) or in another comune. Arks/containers for 1820–24 added to `data/pe-arks.tsv`.
+
+**Mariano Mazza's birth act cannot exist.** He is 30 in 1836 and 36 in 1845 → born c.1806–09.
+Piedimonte civil registration begins **1820**. His baptism is a parish record in the Chiesa Maggiore
+books; the Acireale diocesan films are the only place. Same for **Gaetano Bonanno** (c.1807),
+**Anna Cavallaro** (c.1805) and **Giuseppa Pulvirenti** (60 in 1836, so c.1776). Struck off the list.
+
+**Mariano's death — window bounded, first five years read.** Salvatore's birth act of January 1873
+says «Rosario Mazza **DI** Mariano» — *di*, not *fu* — so **Mariano was alive in January 1873**, aged
+about 64, and dead by 1924. Piedimonte *Morti* italiano is sequential: `ark(Y) = an_ua83439 +
+(Y−1866)`. The M block read for **1873, 1875, 1876, 1877** — no Mazza Mariano.
+
+**1874 cannot be read at all.** The volume carries *PAG. ONDULATE / PAG. MACCHIATA / PAG.
+TRASPARENTE / TUTTO IL VOLUME / IMPOSSIBILE FARE DI MEGLIO*, and the index is a black wash. That is
+the **second** volume lost this way today, after the Scilla marriages of 1888 — where the banns
+rescued it. There is no second index of Piedimonte deaths, so 1874 stays dark unless the acts
+themselves are read.
+
+→ So Mariano died in 1874, or after 1877. 1878 onward unread.
+
+**Piedimonte deaths, the series:** restaurazione *Morti* 48 volumes 1820–1863 (an_ua72285 ff.);
+italiano *Morti* from 1866, arks sequential from an_ua83439.
