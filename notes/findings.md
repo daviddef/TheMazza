@@ -2076,3 +2076,41 @@ The same parish record names Maria Nicotra's mother **Venera Cosentino**. The ar
 **Monti Venera** (1898 civil proclamation) and **Venera Cassaneti** (Queensland death index).
 **Three surnames for one woman**, only the given name *Venera* constant. *Cassaneti* and *Cosentino*
 may be one word badly read twice. Unresolved — and worse than it was this morning.
+
+### Browsing the parish register for the 1870 marriage — cornered, not caught
+
+**The act is not found. The range is now pinned to twenty openings.**
+
+Film **007490025**, Piedimonte Etneo parish registers, **2,976 images**. Calibration by reading pages:
+
+| image | year |
+|---|---|
+| **919** | **1898** — Salvatore Mazza's marriage |
+| **849** | **1888** — entries 65–70 |
+| **723** | **late 1869** — entries 74–79, *Die 22 Novembris 1869* |
+
+About **seven images to the year**, so 1870 opens at roughly **image 724–726**, and the marriage —
+which their eldest child dates to about 1870–72 — should lie in **images 724–745**.
+
+**Navigation notes, because they cost time to learn:**
+- **`?i=N` does NOT move the viewer** — it reverts. The **ark** in the URL is what identifies an image.
+- The **"Enter Image number" box does work**, but commits on **click or blur**, not on Enter, and the
+  URL lags behind the viewer.
+- **The fast way to scan is not the Latin page.** It is the **AI-extracted image index** below the
+  viewer, which tabulates Name, Father's Name and Mother's Name for every entry on the opening.
+
+### Four spellings of one father — and the missing son found
+
+The Acireale registers transcribe Rosario Mazza differently almost every time:
+
+| as written | child |
+|---|---|
+| **Rogerius** Mazza | Salvator |
+| **Rosarius** Mazza | **Horatius** (Orazio) |
+| **Joannes** Mazza (with *Leonora* Bonanno) | Joannem (Giovanni) |
+| **Gaspare** Mazza | **SANTO** |
+
+**The last one matters.** *Santo Mazza* is one of the two sons this archive found missing from the
+family tree, and here he is in a parish record — under a father's name that reads **Gaspare**.
+
+**In these registers the given name is unreliable and the WIFE'S NAME is the stable handle.**

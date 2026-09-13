@@ -36,9 +36,16 @@
  },
  {
   "who": "Rosario Mazza x Leonarda Bonanno",
-  "what": "THEIR OWN MARRIAGE — SOUGHT, NOT FOUND",
-  "detail": "The parish marriage register of Piedimonte Etneo runs 1777-1911 and is in the full-text corpus, so a marriage about 1870 should be reachable. It is not, and the reason is the OCR: the Latin hand transcribes so badly that even 'Rogerius Mazza' as a phrase returns zero. What works in these registers is the AI-extracted HOUSEHOLD INDEX, not the page text. The marriage is very probably there and will need browsing rather than searching.",
+  "what": "THEIR MARRIAGE — THE REGISTER IS LOCATED, THE ACT IS NOT YET FOUND",
+  "detail": "BROWSED, AND THE RANGE IS NOW PINNED. Film 007490025, 2,976 images, the Piedimonte Etneo parish registers. Calibration by reading pages: IMAGE 919 = 1898 (Salvatore's marriage), IMAGE 849 = 1888 (entries 65-70), IMAGE 723 = LATE 1869 (entries 74-79, Die 22 Novembris 1869). That is roughly seven images per year, so 1870 opens at about IMAGE 724-726 and the marriage of Rosario and Leonarda, which their eldest child dates to about 1870-72, should lie in IMAGES 724-745. NAVIGATION NOTES FOR WHOEVER CONTINUES: the ark in the URL identifies the image, and the '?i=' parameter does NOT move you -- it reverts. The 'Enter Image number' box does work but commits on click or blur rather than on Enter alone, and the URL lags behind the viewer. The fast way to scan is not the Latin page but the AI-EXTRACTED IMAGE INDEX panel below the viewer, which tabulates Name, Father's Name and Mother's Name for every entry on the opening.",
   "source": "Piedimonte Etneo parish register, Marriage Records 1777-1911",
-  "status": "negative"
+  "status": "partial — range pinned"
+ },
+ {
+  "who": "Rosario Mazza's children in the parish registers",
+  "what": "FOUR MORE, UNDER FOUR SPELLINGS OF HIS NAME",
+  "detail": "The Acireale diocesan registers carry several children of Rosario Mazza and Leonarda Bonanno, and the father's name is transcribed differently almost every time: ROGERIUS Mazza with a son Salvator; ROSARIUS Mazza with a son HORATIUS (Orazio); JOANNES Mazza with LEONORA Bonanno and a son Joannem (Giovanni); GASPARE Mazza with Leonarda Bonanno and a son SANTO. The last is the more interesting: SANTO MAZZA is one of the two sons this archive found missing from the family tree, and here is a parish record of him. The lesson for searching these registers is that the given name is unreliable and the WIFE'S name is the stable handle.",
+  "source": "Italy, Catania, Diocesi di Acireale, Catholic Church Records, 1560-1950",
+  "status": "documented"
  }
 ]
