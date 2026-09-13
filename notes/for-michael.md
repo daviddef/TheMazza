@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 72 items, 68 of them resting on a document that has been read.
+For **Michael Mazza**. 74 items, 70 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -33,7 +33,7 @@ inference any more.
 - **Francesco Antonio Arena**, b. 25 November 1819, *marinaro* × **Serafina Arlotta**, b. 13 June 1830
 - and Rocco's three elder brothers — Filippo (1852), Domenico (1853), Giuseppe (1860)
 
-In all, **21 documented people** are missing from your export.
+In all, **22 documented people** are missing from your export.
 
 **4. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
 **Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)** — two of
@@ -328,6 +328,12 @@ Mazza by six, Rosario Mazza by five.
 - **The record says:** A daughter of MICHELE DONATO and MARIA SOFI, born about OCTOBER 1888 and dead on 16 FEBRUARY 1891 at twenty-eight months, at Via Grotte 21, Scilla. A sister of Nunziata Donato.
 - **Source:** Scilla, Morti 1891, atto 22
 
+### Francesco Giovanni Rocco Arena
+
+- **The tree says:** Not in the tree
+- **The record says:** A son of GIUSEPPE ARENA and MARIA MARTELLO — so a nephew of Rocco Arena — born about AUGUST 1897 at Scilla and dead on 30 JUNE 1898 at ten months, at Via Acquagrande 30. His three names are his grandfather Francesco Antonio and his uncles Giovanni and Rocco.
+- **Source:** Scilla, Morti 1898, atto 91
+
 
 ## Relationship
 
@@ -519,6 +525,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** No occupation
 - **The record says:** PESCATORE — a fisherman. Given in his daughter Maria's death act of February 1891, which also puts the household at VIA GROTTE 21.
 - **Source:** Scilla, Morti 1891, atto 22
+
+### Giuseppe Arena (b. 1860)
+
+- **The tree says:** No occupation
+- **The record says:** PESCATORE in 1898, living at Via Acquagrande 30. His marriage act of 1885 calls him MARINARO — the same shift from sailor to fisherman that his father Francesco Antonio shows between 1861 and 1888.
+- **Source:** Scilla, Morti 1898, atto 91
 
 
 ## Marriage date

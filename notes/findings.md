@@ -2544,3 +2544,32 @@ years. It needs a margin scan of the 1898 acts.
 
 **Index format note:** from 1899 the Scilla death index gains a **PATERNITÀ** column of its own, and
 from 1900 a *Num. d'ordine* as well — so a single index line gives name, father, and act number.
+
+### The 1898 loose end, closed by arithmetic rather than a sweep
+
+The index line "Arena Francesco Giovanni" looked to have a **blank register column**. It was not
+blank: **the name runs to three given names**, spills to the next line, and the number sits beside
+the overflow. And it needed no margin scan — **entries within a letter block are in act order**, so
+a line between 88 and 91 could only be 89, 90 or 91, and `act = 33 + 4*(image−10)` puts all three on
+**one opening** (image 24).
+
+**Scilla, Morti 1898, atto 91.** 30 June 1898, 4.15 p.m., **Via Acquagrande 30**: died **Arena
+Francesco, *di mesi dieci compiti*** — born in this comune of **GIUSEPPE, *pescatore***, and **MARIA
+MARTELLO, *filatrice***. Becchini Sgarlato Giovanni 54 and Tesoriere Domenico 44; witnesses Perina
+Restato 33 and **Pontillo Onofrio 40**, both *pescatori*.
+
+→ Giuseppe Arena and Maria Martello married 12 September 1885 (act 73). So this is **a nephew of
+Rocco Arena**, born c. August 1897, dead at ten months. Not in the tree.
+→ **The margin gives his name in full: FRANCESCO GIOVANNI ROCCO.** His paternal grandfather was
+*Francesco* Antonio Arena; his uncles were *Giovanni* and *Rocco*. **One infant carries all three** —
+corroboration of the sibling group from a direction nothing else has offered: not a register entry
+about them, but what they chose to call a child.
+→ Giuseppe Arena is a **pescatore** here, where his marriage act of 1885 called him *marinaro* — the
+same shift his father Francesco Antonio shows between 1861 and 1888.
+
+**Note on the shared repo.** Two builds failed during this run and neither was this archive's doing:
+a race while another session reinstalled `@daviddef/archive-kit` into `node_modules`, and then a
+`package.json` change adding `--data src/data` to `check:living`, which the installed kit's
+`checkliving.py` does not yet accept. `astro build`, `searchindex`, `sitemap` and `check:kit` all
+pass — 1,115 pages, 2,329 ids, clean. `site/package.json` has been left uncommitted for whoever owns
+it.
