@@ -2308,3 +2308,44 @@ Giovanni Polistena × Nunziata Donato, and the whole *pubblicazioni* series, whi
 
 **Calibration for the 1885 volume:** two acts to an opening, `act = 37 + 2*(image-20)`, the left page
 carrying the odd act. Acts 73→img 38, 85/86→img 44, 93/94→img 48, 103→img 53.
+
+## 13 September 2026 — America, the Ellis index rebuilt, and a lodger re-read
+
+**The Statue of Liberty search has been rebuilt.** The old `POST /wp-admin/admin-ajax.php` with
+`action=passenger_quick_view` and a hard-coded nonce is dead (400, body `0`). A search is now a plain
+GET: `/arrival-result/?first_name=X&last_name=Y&arrival_year_from=1790&arrival_year_to=1974`, and the
+detail comes from the Quick View panel in the DOM. `residence_place` returns **zero** unless picked
+from its autocomplete — leave it blank and filter rows on `/Scilla/i`. Written to memory.
+
+**The 1900 census household has two brothers in it.** Lodger **John Arena, 42** in Rocco Arena's
+household reads as Rocco's own brother **Giovanni**, who landed 23 May 1899 aged 45 *with Rocco's
+daughter Anna* (entered on the line above as his *niece*) and was still there in June 1900. Age four
+years low, the same error and direction as the "33" in the 1892 act. **Stated as an inference** —
+the census gives no relationship for lodgers.
+
+That is now the **fifth** strand on the same man: birth act 1854, marriage act 1885, son's birth act
+1892, manifest 1899, census 1900.
+
+**Negatives worth keeping.**
+- *Clementina Arena, 1921* — **not found**. The only Arena of Scilla arriving in 1921 is a
+  **Clemente Arena, male**, 26, b. c.1895, single, *San Giovanni* ex Messina, 1 April 1921.
+- *Rocco Arlotta, the lodger* — Ellis holds exactly two Rocco Arlotta of Scilla, **16 May 1898**
+  (aged 32, b. 1866, single, *Spartan Prince* ex Naples) and 5 May 1904. The 1898 man is **nine years
+  older** than the census lodger's 23. A near miss, not a match.
+- *Lorenzo Costa, 24* — 674 of the name indexed, **none from Scilla**.
+- *Antonino Arena* — 727 of the name indexed, none from Scilla; and a man born in New York in 1902
+  would only appear if he went to Italy and came back.
+
+**Not reached:** a US city directory entry for Rocco Arena, New York 1899–1900. The directories are
+behind logins this session did not use, and nothing free covers them.
+
+**Nunziata Donato's death act (Scilla 1975 no. 30)** is inside the closed period, so it is the
+comune's, not Antenati's. A drafted request — with the Italian letter — is at
+`notes/requests/scilla-donato-1975.md`. **The cheaper alternative is now open**: Michele Donato's own
+marriage is c.1875–77 and the Scilla marriage series runs 1866–1913 unbroken, so his comune of birth
+can be had for free from an act nobody has looked at yet.
+
+**The "111 unjoined Mazza" is retired.** `build_components` reports 10 components, one of 581. The
+Mazza sit in five descent groups; the largest, 110 people, is on the spine. **Eight people in four
+groups** remain apart, all undated and placeless — and the Piedimonte registers argue they are not
+cousins from there, because the Mazza were few there.
