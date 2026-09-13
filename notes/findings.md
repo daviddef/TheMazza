@@ -2349,3 +2349,49 @@ can be had for free from an act nobody has looked at yet.
 Mazza sit in five descent groups; the largest, 110 people, is on the spine. **Eight people in four
 groups** remain apart, all undated and placeless — and the Piedimonte registers argue they are not
 cousins from there, because the Mazza were few there.
+
+## 13 September 2026 — Scilla, Matrimoni 1888 atto 63: Rocco Arena's own marriage act
+
+**Scilla, December 1888**, ten in the morning, before **Minasi Francesco**, sindaco.
+1° **ARENA ROCCO**, *marinaro*, born and resident Scilla, **figlio di FRANCESCO ANTONIO** e di
+**SERAFINA ARLOTTA**. 2° **COSTA GENEROSA**, *filatrice*, born and resident Scilla, **figlia di
+ANTONIO** e di **ANNA ARLOTTA**. Day of month and both ages are under an ink blot; month and year
+are clear.
+
+→ **The parentage correction now rests on the man's own act.** Five circumstantial supports are
+replaced by a direct statement. Nothing stronger exists.
+→ **Generosa Costa's parents, for the first time: Antonio Costa and ANNA ARLOTTA.** Rocco's mother is
+an Arlotta and his wife's mother is an Arlotta — the two families are tied twice, which very likely
+explains the **Rocco Arlotta** lodging with them in Manhattan in 1900, and raises the real
+possibility that **Rocco and Generosa were cousins**. Untested.
+→ **The census is out by eighteen months.** "Married ten years" in June 1900 → 1890; the act says
+December 1888.
+→ Four Costa in one line now: Domenica, Maria, Antonio, Generosa.
+
+### How it was found with the index destroyed — a method worth keeping
+
+The 1888 marriage index carries the archivist's slip *VOLUME DANNEGGIATO DALL'UMIDITÀ / VOLUME
+LACERO / IMPOSSIBILE FARE MEGLIO*, and the damage falls on the top-left, exactly the A entries.
+
+1. **The banns are a separate series with their own index.** 46 volumes of *Matrimoni,
+   pubblicazioni* (list in this file, ark 1888 = `an_ua16594926`). The 1888 banns index **survives**,
+   and under A reads `Arena Rocco / Costa Generosa`. Number lost to the stain — but the year was now
+   certain.
+2. **The acts index themselves in the margin.** `tools/margin_names.py` cuts the boxed margin (act
+   number + both names) from each opening and montages them: forty-five openings, sixty-six acts,
+   **four images**. Act 63 on image 33.
+
+**Rule: a damaged index is not a dead end.** There is nearly always a second index of the same
+events; failing that, the acts index themselves in the margin.
+
+**Two other Rocco Arena in the same volume**, for whoever comes next: act 13 of 1888 marries a
+*Rocco Arena, giornaliero*, son of a mother **Antonia Renda**; act 12 of 1891 marries an *Arena Rocco
+Maria* to a *Lico*. Neither is ours.
+
+### Also today
+- **FindMyPast is signed out** — the trial lapsed; the GraphQL endpoint redirects to auth. Logging in
+  needs the account holder. Recorded in `data/findmypast.tsv` with what is still wanted there.
+- **A correction within the hour**: `/crossings` briefly said Clementina Arena's 1921 crossing was
+  not found. FindMyPast already had it (`US/PASS/NY/ELLIS2/000191616/3`). The Statue of Liberty index
+  does not surface her under that name. **Two free indexes of the same manifests disagree about who
+  is in them** — a negative in one is not a negative.

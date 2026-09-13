@@ -1,0 +1,85 @@
+---
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import corrections from "../data/corrections.json";
+import additions from "../data/additions.json";
+
+/* A reader arriving at 62 corrections needs to be told what moved and when.
+   Newest first. Each entry says what the record was and what it changed. */
+const days = [
+  {
+    date: "13 September 2026",
+    title: "Two register series opened, and four generations came out of them",
+    found: [
+      ["Piedimonte Etneo, Matrimoni 1871 atto 14",
+       "Rosario Mazza and Leonarda Bonanno married 30 April 1871 — both single, both born there, both braccianti. All four parents named, hers for the first time anywhere: Gaetano Bonanno and Anna Cavallaro."],
+      ["Piedimonte Etneo, Nati 1845 atto 64",
+       "Rosario born 2 June 1845 at eleven in the morning, declared by his father Mariano, 36, a bracciale, with Maria Catalano, 36. The tree says 1850."],
+      ["Piedimonte Etneo, Nati 1843 atto 101",
+       "Leonarda Bonanno born 7 November 1843. Gaetano Bonanno dated to about 1807, Anna Cavallaro to about 1805."],
+      ["Scilla, Nati 1854 atto 76",
+       "Giovanni Arena born 30 April 1854, declared by his grandfather GIOVANNI ARLOTTA, 75, marinaro, «figlio del fu DOMENICO» — the deepest name in this archive."],
+      ["Scilla, Matrimoni 1885 atti 73 and 86",
+       "Giuseppe Arena married Maria Martello on 12 September; Giovanni Arena married Concetta Russo on 29 October. Two of Rocco's brothers, seven weeks apart, both sons of Francesco Antonio Arena and Serafina Arlotta."],
+    ],
+    fixed: [
+      "The 1854 index gave the mother as ROSA Arlotta and the date as 20 April; the act says SERAFINA and the thirtieth. Giovanni Arena is Rocco's BROTHER, not his cousin.",
+      "Three Giovanni Arena this site kept apart are ONE MAN — born 1854, married 1885, father of Giuseppe in 1892, sailing in 1899. The birth search had failed because it trusted a declared age three years out.",
+      "The 1836 Piedimonte index was read here as «Mazza ORAZIO»; the act says IGNAZIO. The argument built on that reading — that Rosario named a son Orazio — is withdrawn.",
+      "This site said Scilla's marriages on Antenati ran 1905–1913. They run 1866–1913, forty-eight volumes, and the error had blocked at least three searches.",
+      "For about an hour this page said Clementina Arena's 1921 crossing was not found. It was found months ago, on FindMyPast. Two free indexes of the same manifests disagree about who is in them.",
+    ],
+  },
+];
+---
+<Base title="What Changed" eyebrow="A log of the days this archive moved"
+      dek="Sixty-two corrections is too many to arrive at cold. This is what moved, when, and what the record was — including the things this archive got wrong and had to take back.">
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{corrections.count}</div><div class="l">corrections and additions</div></div>
+      <div class="stat"><div class="n">{corrections.documented}</div><div class="l">resting on a record that was read</div></div>
+      <div class="stat"><div class="n">{additions.length}</div><div class="l">people absent from the family tree</div></div>
+    </div>
+  </section>
+
+  {days.map((d) => (
+    <section class="blk">
+      <div class="lab">{d.date}</div>
+      <h2 style="margin-top:.4rem">{d.title}</h2>
+
+      <h3 style="margin-top:1.6rem;margin-bottom:.6rem">What the records gave</h3>
+      <div class="rec">
+        {d.found.map(([src, what]) => (
+          <>
+            <div class="k">{src}</div>
+            <div class="v">{what}</div>
+            <div class="w">documented</div>
+          </>
+        ))}
+      </div>
+
+      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">What this archive had wrong</h3>
+      <ul class="prose" style="margin-top:.6rem">
+        {d.fixed.map((f) => <li style="margin-bottom:.5rem">{f}</li>)}
+      </ul>
+      <p class="note" style="margin-top:18px">Every one of these is still on the page where it was
+      first argued, with the reasoning that led to it. Nothing has been quietly deleted. An archive
+      that only ever agrees with itself is not doing any work — and the retractions are the part a
+      reader can check the method by.</p>
+    </section>
+  ))}
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Where to read the detail</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><a href={u("/corrections")}>For Michael</a> is the list itself, grouped by kind, with the
+      source for every line. <a href={u("/scilla")}>Scilla</a> and <a href={u("/mazza")}>The
+      Mazza</a> carry the acts and the arguments. <a href={u("/open-questions")}>Open Questions</a>
+      says what is still not known and what would settle it, and
+      <a href={u("/searched")}>What Has Been Read</a> says which volumes have been opened — including
+      the ones that came back empty.</p>
+    </div>
+  </section>
+</Base>

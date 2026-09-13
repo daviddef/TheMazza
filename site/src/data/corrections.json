@@ -1,6 +1,6 @@
 {
- "count": 62,
- "documented": 58,
+ "count": 66,
+ "documented": 62,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -116,6 +116,15 @@
      "treeSays": "Not in the tree as Rocco's brother",
      "recordSays": "SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA, named in his own marriage act. So he is ROCCO ARENA'S FULL BROTHER -- which is what the 1899 manifest says, where he sails to join 'brother Rocco' and enters six-year-old Anna as his NIECE.",
      "source": "Scilla, Matrimoni 1885, atto 86; Nati 1854, atto 76",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Parentage",
+     "who": "Rocco Arena",
+     "slug": "rocco-arena",
+     "treeSays": "Son of Orazio Arena",
+     "recordSays": "SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA — said outright in HIS OWN MARRIAGE ACT. The correction was previously carried on five circumstantial supports; this is the direct statement and nothing stronger exists.",
+     "source": "Scilla, Matrimoni 1888, atto 63",
      "confidence": "documented"
     }
    ]
@@ -587,6 +596,15 @@
      "recordSays": "BRACCIALE in 1845 -- a day labourer. By 1924 his son's death act calls him a contadino. The Mazza worked the land at Piedimonte for at least three generations.",
      "source": "Piedimonte Etneo, Nati 1845, atto 64",
      "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Generosa Costa",
+     "slug": "—",
+     "treeSays": "No occupation",
+     "recordSays": "FILATRICE, a spinner — like Concetta Russo and Maria Martello, the two women her husband's brothers married three years earlier.",
+     "source": "Scilla, Matrimoni 1888, atto 63",
+     "confidence": "documented"
     }
    ]
   },
@@ -641,6 +659,29 @@
      "treeSays": "No parents recorded",
      "recordSays": "Daughter of GAETANO BONANNO and ANNA CAVALLARO. The archive had the first name Gaetano from a marriage proclamation; the 1871 act gives both parents in full.",
      "source": "Piedimonte Etneo, Matrimoni 1871, atto 14",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Parents -- missing entirely",
+     "who": "Generosa Costa",
+     "slug": "—",
+     "treeSays": "No parents recorded",
+     "recordSays": "Daughter of ANTONIO COSTA and ANNA ARLOTTA, both living at Scilla in 1888. Her mother's surname is ARLOTTA — the same as Rocco's own mother's. The two families are tied twice over.",
+     "source": "Scilla, Matrimoni 1888, atto 63",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Marriage date",
+   "rows": [
+    {
+     "kind": "Marriage date",
+     "who": "Rocco Arena and Generosa Costa",
+     "slug": "—",
+     "treeSays": "No marriage date",
+     "recordSays": "MARRIED AT SCILLA IN DECEMBER 1888, act 63 — not 1890. This archive had 1890 from the 1900 census, which records them as 'married ten years'. The act puts it eighteen months earlier.",
+     "source": "Scilla, Matrimoni 1888, atto 63",
      "confidence": "documented"
     }
    ]

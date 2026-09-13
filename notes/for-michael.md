@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 62 items, 58 of them resting on a document that has been read.
+For **Michael Mazza**. 66 items, 62 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -33,7 +33,7 @@ inference any more.
 - **Francesco Antonio Arena**, b. 25 November 1819, *marinaro* × **Serafina Arlotta**, b. 13 June 1830
 - and Rocco's three elder brothers — Filippo (1852), Domenico (1853), Giuseppe (1860)
 
-In all, **17 documented people** are missing from your export.
+In all, **19 documented people** are missing from your export.
 
 **4. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
 **Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)** — two of
@@ -120,6 +120,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** Not in the tree as Rocco's brother
 - **The record says:** SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA, named in his own marriage act. So he is ROCCO ARENA'S FULL BROTHER -- which is what the 1899 manifest says, where he sails to join 'brother Rocco' and enters six-year-old Anna as his NIECE.
 - **Source:** Scilla, Matrimoni 1885, atto 86; Nati 1854, atto 76
+
+### Rocco Arena
+
+- **The tree says:** Son of Orazio Arena
+- **The record says:** SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA — said outright in HIS OWN MARRIAGE ACT. The correction was previously carried on five circumstantial supports; this is the direct statement and nothing stronger exists.
+- **Source:** Scilla, Matrimoni 1888, atto 63
 
 
 ## Birth year
@@ -270,6 +276,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** No parents recorded
 - **The record says:** Daughter of GAETANO BONANNO and ANNA CAVALLARO. The archive had the first name Gaetano from a marriage proclamation; the 1871 act gives both parents in full.
 - **Source:** Piedimonte Etneo, Matrimoni 1871, atto 14
+
+### Generosa Costa
+
+- **The tree says:** No parents recorded
+- **The record says:** Daughter of ANTONIO COSTA and ANNA ARLOTTA, both living at Scilla in 1888. Her mother's surname is ARLOTTA — the same as Rocco's own mother's. The two families are tied twice over.
+- **Source:** Scilla, Matrimoni 1888, atto 63
 
 
 ## Missing people
@@ -465,6 +477,21 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** No occupation
 - **The record says:** BRACCIALE in 1845 -- a day labourer. By 1924 his son's death act calls him a contadino. The Mazza worked the land at Piedimonte for at least three generations.
 - **Source:** Piedimonte Etneo, Nati 1845, atto 64
+
+### Generosa Costa
+
+- **The tree says:** No occupation
+- **The record says:** FILATRICE, a spinner — like Concetta Russo and Maria Martello, the two women her husband's brothers married three years earlier.
+- **Source:** Scilla, Matrimoni 1888, atto 63
+
+
+## Marriage date
+
+### Rocco Arena and Generosa Costa
+
+- **The tree says:** No marriage date
+- **The record says:** MARRIED AT SCILLA IN DECEMBER 1888, act 63 — not 1890. This archive had 1890 from the 1900 census, which records them as 'married ten years'. The act puts it eighteen months earlier.
+- **Source:** Scilla, Matrimoni 1888, atto 63
 
 
 ---

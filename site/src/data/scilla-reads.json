@@ -498,5 +498,25 @@
   "ark": "serie 16594786",
   "status": "documented",
   "note": "This archive had recorded that Scilla's marriages on Antenati were 'restaurazione to 1865, then 1905-1913'. That is wrong, and it had blocked at least three searches. The Stato civile italiano series for Scilla holds MATRIMONI 1866 TO 1913 -- FORTY-EIGHT VOLUMES, unbroken -- and alongside them 46 volumes of MATRIMONI, PUBBLICAZIONI (the banns, which name the parents and often the grandparents), 81 volumes of MORTI, and 51 of CITTADINANZE. Every volume ends with an INDICE ANNUALE listing both spouses against the act number. Ark for year Y is not computable -- the list is in data/scilla-arks-italiano.tsv."
+ },
+ {
+  "year": "1888",
+  "act": "63",
+  "name": "ROCCO ARENA x GENEROSA COSTA — DECEMBER 1888",
+  "father": "Francesco Antonio Arena",
+  "mother": "Serafina Arlotta",
+  "ark": "an_ua16595010",
+  "status": "documented",
+  "note": "THE ACT THIS ARCHIVE HAS WANTED FROM THE BEGINNING, AND THE MOST DIRECT PROOF IT WILL EVER HAVE. Scilla, Casa Comunale, DECEMBER 1888, at ten in the morning, before MINASI FRANCESCO, sindaco. 1o ARENA ROCCO, MARINARO, nato in Scilla, residente in Scilla, FIGLIO DI FRANCESCO ANTONIO, residente in Scilla, E DI SERAFINA ARLOTTA, residente in Scilla. 2o COSTA GENEROSA, FILATRICE, nata in Scilla, residente in Scilla, FIGLIA DI ANTONIO, residente in Scilla, E DI ANNA ARLOTTA, residente in Scilla. The day of the month and both ages are lost under an ink blot; the month and the year are not. WHAT IT SETTLES. This archive corrected Rocco Arena's parentage from ORAZIO ARENA to FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA on five circumstantial supports -- a sibling pair, a naming custom, an Arlotta lodger in New York, a daughter called Serafina, and the marriage act of 1851. HERE IS ROCCO'S OWN MARRIAGE ACT SAYING IT OUTRIGHT. Nothing stronger exists. AND IT NAMES GENEROSA'S PARENTS FOR THE FIRST TIME: ANTONIO COSTA and ANNA ARLOTTA. NOTE THE MOTHER'S SURNAME. Rocco's mother is an ARLOTTA and his wife's mother is an ARLOTTA. The two families are tied twice over, which is very likely why a ROCCO ARLOTTA was lodging with them in Manhattan in 1900, and it raises the real possibility that Rocco and Generosa were cousins. AND IT CORRECTS THE CENSUS. The 1900 census of Manhattan records them as MARRIED TEN YEARS, which this archive read as 1890. The act says DECEMBER 1888 -- eighteen months earlier, and twelve years, not ten."
+ },
+ {
+  "year": "1888",
+  "act": "—",
+  "name": "HOW THE ACT WAS FOUND, WHEN THE INDEX WAS DESTROYED",
+  "father": "—",
+  "mother": "—",
+  "ark": "an_ua16595010",
+  "status": "method",
+  "note": "Worth writing down, because the same trick will work elsewhere. The annual index of the Scilla marriages of 1888 is ruined: the volume carries the archivist's own slip -- VOLUME DANNEGGIATO DALL'UMIDITA / VOLUME LACERO / IMPOSSIBILE FARE MEGLIO -- and the water damage falls on the top-left of the index, exactly where the A entries are. Nine other years were read and the couple was in none of them. TWO STEPS GOT ROUND IT. FIRST, THE BANNS. Antenati holds a SEPARATE SERIES of 46 volumes of MATRIMONI, PUBBLICAZIONI, each with its OWN annual index -- and the 1888 banns index survives where the marriage index does not. Under A it reads, in a clear hand, ARENA ROCCO / COSTA GENEROSA. The registro number beside it is under the stain, but the YEAR was now certain. SECOND, THE MARGINS. Every act page of these registers carries a boxed margin with the act number and both spouses' names. tools/margin_names.py cuts just those boxes and montages them, so the whole volume -- forty-five openings, sixty-six acts -- can be scanned for one couple in FOUR IMAGES. Act 63 turned up on image 33. THE RULE: A DAMAGED INDEX IS NOT A DEAD END. There is nearly always a second index of the same events, and failing that the acts themselves index in the margin."
  }
 ]

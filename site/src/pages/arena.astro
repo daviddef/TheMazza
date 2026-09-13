@@ -13,18 +13,27 @@ const arenaAdds = additions.filter((a) => /Arena|Arlotta|Costa/.test(a.name));
 /* The documented descent, as the registers give it — not as the export draws it.
    Four of these people are not in the family tree at all. */
 const line = [
+  { gen: 8, who: "Domenico Arlotta",
+    what: "dead before April 1854. Named only as «il fu Domenico», in his own son's words, in the birth act of his great-grandson.",
+    src: "Nati 1854 atto 76", inTree: false },
   { gen: 7, who: "Filippo Arena × Domenica Costa",
     what: "married by 1817. Filippo a marinaro.",
     src: "Nati 1819 atto 186; Matrimoni 1851 atto 13", inTree: false },
   { gen: 7, who: "Giovanni Arlotta × Maria Costa",
-    what: "Serafina's parents. Giovanni a marinaro.",
-    src: "Matrimoni 1851 atto 13", inTree: false },
+    what: "Serafina's parents. Giovanni a marinaro, b. about 1779, son of the late Domenico; he came to the town hall himself, aged seventy-five, to declare his grandson.",
+    src: "Matrimoni 1851 atto 13; Nati 1830 atto 2; Nati 1854 atto 76", inTree: false },
   { gen: 6, who: "Francesco Antonio Arena × Serafina Arlotta",
-    what: "b. 25 November 1819, a marinaro; married 7 February 1851, celebrated on the 16th.",
-    src: "Nati 1819 atto 186; Matrimoni 1851 atto 13", inTree: false },
+    what: "b. 25 November 1819, a marinaro; she b. 13 June 1830; married 7 February 1851, celebrated on the 16th. Five children are now documented: Filippo 1852, Domenico 1853, Giovanni 1854, Giuseppe 1860, Rocco 1861.",
+    src: "Nati 1819 atto 186; Matrimoni 1851 atto 13; Nati 1854 atto 76", inTree: false },
+  { gen: 5, who: "Giovanni Arena × Concetta Russo",
+    what: "ROCCO'S BROTHER. b. 30 April 1854, a marinaro; married 29 October 1885; sailed 1899 bringing Rocco's daughter Anna, and was lodging with Rocco in Manhattan in 1900.",
+    src: "Nati 1854 atto 76; Matrimoni 1885 atto 86; Ellis Is. 1899; US census 1900", inTree: false },
+  { gen: 5, who: "Giuseppe Arena × Maria Martello",
+    what: "Rocco's brother. b. 5 March 1860, a marinaro; married 12 September 1885 — seven weeks before Giovanni. Her father was already living in America.",
+    src: "Nati 1860 atto 45; Matrimoni 1885 atto 73", inTree: false },
   { gen: 5, who: "Rocco Arena × Generosa Costa",
-    what: "b. 20 December 1861, a marinaro; married 1890; four crossings to America.",
-    src: "Nati 1861 atto 228; Nati 1893 atto 22; US census 1900", inTree: true },
+    what: "b. 20 December 1861, a marinaro; married DECEMBER 1888, and his own act names his parents; she a filatrice, daughter of Antonio Costa and ANNA ARLOTTA; four crossings to America.",
+    src: "Nati 1861 atto 228; Matrimoni 1888 atto 63; Nati 1893 atto 22; US census 1900", inTree: true },
   { gen: 4, who: "Anna Arena × Giuseppe Arena",
     what: "b. 17 January 1893 at Via Acquagrande 41; he b. 6 October 1892 at Via Grotte 75.",
     src: "Nati 1893 atto 22; Nati 1892 atto 230", inTree: true },
@@ -62,8 +71,10 @@ const line = [
         </>
       ))}
     </div>
-    <p class="note" style="margin-top:22px"><strong>Four generations of sailors, and a fifth
-    alongside.</strong> Filippo Arena is a <em>marinaro</em>; his son Francesco Antonio is a
+    <p class="note" style="margin-top:22px"><strong>Five generations of sailors in a
+    line.</strong> Domenico Arlotta's son <strong>Giovanni</strong> is a <em>marinaro</em>; Giovanni's
+    daughter married <strong>Francesco Antonio Arena</strong>, a <em>marinaro</em>; three of their
+    sons — Giovanni, Giuseppe and Rocco — are <em>marinari</em> in their own acts. Filippo Arena is a <em>marinaro</em>; his son Francesco Antonio is a
     <em>marinaro</em>; his grandson Rocco is a <em>marinaro</em> in 1893 and gives his trade as
     <em>Seaman</em> on the ship that took him to New York in 1892. Serafina Arlotta's father Giovanni
     is a <em>marinaro</em> too. <strong>The family tree records not one of them as anything.</strong></p>
