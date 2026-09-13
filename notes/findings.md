@@ -1581,3 +1581,46 @@ leave Domenico as the second son, named for Giovanna Zirilli's father.
 **The rule:** naming custom is only as good as your knowledge of birth order, and a register read
 from 1856 onward cannot give you the birth order of a couple who married before 1856. Never infer
 from a partial sweep.
+
+### The sibling sweep — Scilla, Nati 1852–1855
+
+Run to find Rocco Arena's brothers once he had been reassigned to Francesco Antonio Arena. All four
+years now read in full.
+
+**Francesco Antonio Arena × Serafina Arlotta:**
+
+| act | child | date |
+|---|---|---|
+| 1852 · 48 | **Arena FILIPPO** (*Ant.º e Arlotta Serafina*) | 14 February |
+| 1853 · 2 | Arena Domenico (*Francesant.º e Serafina Arlotta*) | 24 March |
+| 1860 · 45 | Arena Giuseppe | 5 March |
+| 1861 · 228 | **Rocco Arena** | 20 December |
+
+**THE FIRST SON IS FILIPPO, AND FILIPPO IS EXACTLY WHO HE SHOULD BE.** Act 186 of 1819 gives
+Francesco Antonio's father as **Filippo Arena**; custom names the first son for his father's father.
+This fell out of a sweep run for another purpose, which is the strongest kind of confirmation.
+
+It also moves the marriage to **1851 or earlier** — the real reason they are absent from the 1858 and
+1859 marriage indexes. The "married in the bride's comune" guess may still be true but is no longer
+needed to explain anything.
+
+*Caveat on act 48:* the 1852 index writes the father **"Ant.º"** where 1853 writes
+**"Francesant.º"**, so the identification rests on the surname plus the wife's distinctive name.
+
+**Orazio Arena × Giovanna Zirilli:** the same 1853 opening gives **Arena Teresa, 17 October** —
+their earliest known child; 1852, 1854 and 1855 hold none. **This vindicates the retraction**: the
+Domenico of 1856 was never the first child.
+
+**And the Orazio question splits.** Custom gives the first *daughter* her paternal grandmother's
+name, and act 10 of 1821 makes Orazio's mother a **Teresa** — support for the 1821 candidate. But
+that same act makes his father a **Giuseppe**, and Orazio's first *son* is Domenico, with 1852–1855
+now read and no earlier son to rescue it. **The two halves disagree.** Orazio Arena's own birth stays
+a candidate.
+
+**1854 also produced a man worth not confusing with another:** act 1, **Arena Giovanni, di Antonio e
+Arlotta Rosa, b. 20 April 1854**. Not the Giovanni Arena of act 230 (b. c.1859) — but almost
+certainly the **Giavanni Arena, 45, of Scilla** who escorted six-year-old Anna Arena on the
+*Archimede* on 23 May 1899, where a birth on 20 April 1854 makes him exactly forty-five that day.
+
+**1852 is a third doubled year of the same shape**: acts in `an_ua2002904`, Tavola bound alone in
+`an_ua2002907` at images 33–40. Like 1856 and 1875.

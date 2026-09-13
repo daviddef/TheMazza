@@ -1,6 +1,6 @@
 {
- "count": 32,
- "documented": 28,
+ "count": 33,
+ "documented": 29,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -30,6 +30,15 @@
      "treeSays": "Not in the tree",
      "recordSays": "Rocco Arena's mother, aged 28 in December 1861 so born about 1833. Her own birth act has not been read yet.",
      "source": "Scilla, Nati 1861, atto 228",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people — TWO NEW GENERATIONS",
+     "who": "Rocco Arena's three brothers and a cousin",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "FILIPPO ARENA b. 14 February 1852, DOMENICO ARENA b. 24 March 1853 and GIUSEPPE ARENA b. 5 March 1860 are all sons of Francesco Antonio Arena and Serafina Arlotta -- Rocco's elder brothers. The eldest is named FILIPPO for his grandfather, exactly as Calabrian custom predicts, which is a third independent support for the Filippo Arena generation. Separately, TERESA ARENA b. 17 October 1853 is a daughter of Orazio Arena and Giovanna Zirilli -- Orazio's earliest known child, and the tree gives him no daughters at all.",
+     "source": "Scilla, Nati 1852 atto 48; Nati 1853 atti 2 and 6; Nati 1860 atto 45",
      "confidence": "documented"
     }
    ]
@@ -199,7 +208,7 @@
      "who": "Orazio Arena",
      "slug": "orazio-arena",
      "treeSays": "Nothing above him",
-     "recordSays": "THIS ARCHIVE WITHDRAWS ITS OWN INFERENCE. From Orazio naming two sons Domenico, naming custom suggested his father was a Domenico Arena. Two Orazio Arena births at Scilla now say otherwise: act 10 of 1821 gives him a father GIUSEPPE (and the tree's own year, 1821, exactly), and act 1 of 1833 gives a different Orazio a father BONAVENTURA. Neither is a Domenico. The mistake was not the custom but the assumption behind it: the first child this archive had FOUND was not necessarily his FIRST child. The years 1850-1855 are unread, and a son Giuseppe in one of them would restore the custom exactly. Recorded as a candidate: ORAZIO ARENA b. 14 DECEMBER 1821, son of Giuseppe Arena and a Teresa.",
+     "recordSays": "THIS ARCHIVE WITHDRAWS ITS OWN INFERENCE. From Orazio naming two sons Domenico, naming custom suggested his father was a Domenico Arena. Two Orazio Arena births at Scilla now say otherwise: act 10 of 1821 gives him a father GIUSEPPE (and the tree's own year, 1821, exactly), and act 1 of 1833 gives a different Orazio a father BONAVENTURA. Neither is a Domenico. The mistake was not the custom but the assumption behind it: the first child this archive had FOUND was not necessarily his FIRST child. The years 1850-1855 are unread, and a son Giuseppe in one of them would restore the custom exactly. Recorded as a candidate: ORAZIO ARENA b. 14 DECEMBER 1821, son of Giuseppe Arena and a Teresa. FURTHER EVIDENCE, BOTH WAYS: Orazio's earliest known child is a DAUGHTER, Teresa, born 17 October 1853. Custom names the first daughter for her paternal grandmother, and act 10 of 1821 makes Orazio's mother a Teresa -- which SUPPORTS the 1821 candidate. But that same act makes his father a Giuseppe, and Orazio's first son is Domenico, with 1852-1855 now read and no earlier son. The two halves disagree and the archive is not picking one.",
      "source": "Scilla, Nati 1821 atto 10; Nati 1833 atto 1",
      "confidence": "candidate"
     }

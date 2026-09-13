@@ -318,5 +318,75 @@
   "ark": "an_ua2002812",
   "status": "candidate",
   "note": "Tavola annuale, container 04rZVeY, index at images 94-99. The A section holds ten entries, three of them Arena: Giuseppe (5, di Franc.co e Bombara Maria), Giovanni (7) and ORAZIO (10). THE YEAR MATCHES THE FAMILY TREE EXACTLY -- the tree dates Orazio Arena to 1821 and gives no source. The better of the two candidates: the other, act 1 of 1833, is twelve years adrift. The mother's surname is read from one index line and is not certain; it looks like Migliara. THIS ACT RETRACTS ONE OF THIS ARCHIVE'S OWN INFERENCES -- see the note."
+ },
+ {
+  "year": "1853",
+  "act": "2",
+  "name": "Domenico Arena, b. 24 March 1853",
+  "father": "Francesco Antonio Arena",
+  "mother": "Serafina Arlotta",
+  "ark": "an_ua2002909",
+  "status": "documented",
+  "note": "Tavola annuale, container wl1lxNm, index at images 127-135; the A section holds seven entries. A THIRD CHILD of Rocco Arena's parents, and it moves their marriage back by at least six years: they were married by 1853, not 1859, which is why the 1858 and 1859 marriage indexes do not hold them. Their known children are now Domenico (1853), Giuseppe (1860) and Rocco (1861) -- with a gap from 1854 to 1859 in which the A sections of 1854, 1855, 1856, 1857, 1858 and 1859 have all been read and hold no child of theirs. The gap is recorded, not explained."
+ },
+ {
+  "year": "1853",
+  "act": "6",
+  "name": "Teresa Arena, b. 17 October 1853",
+  "father": "Orazio Arena",
+  "mother": "Giovanna Zirilli",
+  "ark": "an_ua2002909",
+  "status": "documented",
+  "note": "ORAZIO ARENA'S EARLIEST KNOWN CHILD, three years before the Domenico of 1856 -- which confirms that Domenico was NOT his first child and vindicates this archive's retraction of its own naming-custom argument. It also does better than that: Calabrian custom gives the FIRST DAUGHTER her PATERNAL GRANDMOTHER's name, and act 10 of 1821 -- the Orazio Arena whose year matches the family tree exactly -- gives his mother as TERESA. Orazio's first daughter is Teresa. That is independent corroboration that act 10 of 1821 is the right man."
+ },
+ {
+  "year": "1854",
+  "act": "1",
+  "name": "Giovanni Arena, b. 20 April 1854",
+  "father": "Antonio Arena",
+  "mother": "Rosa Arlotta",
+  "ark": "an_ua2002911",
+  "status": "documented",
+  "note": "Container 0ZnGBlp, index at images 122-128; the A section holds only two entries. NOT the Giovanni Arena of act 230 of 1892, who is thirty-three in October 1892 and so born about 1859. But almost certainly the GIAVANNI ARENA, 45, OF SCILLA who escorted six-year-old Anna Arena across the Atlantic on the Archimede on 23 May 1899: a birth on 20 April 1854 makes him exactly forty-five that day. Recorded so the two Giovanni are never merged."
+ },
+ {
+  "year": "1855",
+  "act": "—",
+  "name": "NO ARENA OF FRANCESCO ANTONIO OR ORAZIO",
+  "father": "—",
+  "mother": "—",
+  "ark": "an_ua2002914",
+  "status": "negative",
+  "note": "Container LqAr1OG, index at images 123-129. The A section holds five entries and one Arena -- Teresa, di Raffaele. Neither couple appears."
+ },
+ {
+  "year": "1854",
+  "act": "—",
+  "name": "NO ARENA OF FRANCESCO ANTONIO OR ORAZIO",
+  "father": "—",
+  "mother": "—",
+  "ark": "an_ua2002911",
+  "status": "negative",
+  "note": "The A section holds two entries: Arena Giovanni di Antonio e Arlotta Rosa, and Alfonsetti Teresa. Neither couple appears."
+ },
+ {
+  "year": "1852",
+  "act": "48",
+  "name": "Filippo Arena, b. 14 February 1852",
+  "father": "Francesco Antonio Arena (written 'Ant.o')",
+  "mother": "Serafina Arlotta",
+  "ark": "an_ua2002904 / an_ua2002907",
+  "status": "documented",
+  "note": "1852 is a doubled year of the usual kind: an_ua2002904 (container wX9avAO, 104 images) holds the acts with no index, an_ua2002907 (container LNolBvO, 40 images) carries the Tavola at images 33-40. The A section holds five entries and this is the first. THE NAMING CUSTOM LANDS EXACTLY: act 186 of 1819 gives Francesco Antonio Arena's father as FILIPPO, and here is Francesco Antonio's FIRST SON, named FILIPPO. That is a third independent line of support for the Filippo Arena generation. CAVEAT: the index writes the father as 'Ant.o', not 'Francesc'Antonio' as 1853 does, so the identification rests on the surname plus the wife's distinctive name -- Arlotta Serafina -- rather than on the father's forename. It also moves the marriage to 1851 or earlier. Their children are now Filippo (1852), Domenico (1853), Giuseppe (1860) and Rocco (1861)."
+ },
+ {
+  "year": "1852",
+  "act": "—",
+  "name": "NO CHILD OF ORAZIO ARENA",
+  "father": "—",
+  "mother": "—",
+  "ark": "an_ua2002907",
+  "status": "negative",
+  "note": "The complete A section of the 1852 Tavola: Arena Filippo (1), Arbitrio Giuseppe (2), Alfonzetti Maria (3), Arlotta Antonia (4), Arbitrio Pietro (5). No child of Orazio Arena and Giovanna Zirilli, whose earliest known child is therefore Teresa in October 1853."
  }
 ]
