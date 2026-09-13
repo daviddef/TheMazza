@@ -2573,3 +2573,27 @@ a race while another session reinstalled `@daviddef/archive-kit` into `node_modu
 `checkliving.py` does not yet accept. `astro build`, `searchindex`, `sitemap` and `check:kit` all
 pass — 1,115 pages, 2,329 ids, clean. `site/package.json` has been left uncommitted for whoever owns
 it.
+
+### Michele Donato did not marry at Scilla — eleven years read complete
+
+Annual indexes of the Scilla civil marriages read **entire** for **1874, 1876–1885** (eleven years),
+plus **1875** — which has no index at all — scanned down its margins for acts 3–26. **No Donato
+Michele among the grooms.** His eldest son was born 1878 and he was born c.1856, so the window is
+closed at both ends.
+
+What those years *do* hold is a settled Scilla Donato family: **Candeloro** → Romano Domenica (1874
+act 62) and Bova Anna Maria (1877 act 43); **Carmela** → Tedesco Mariano (1875 act 26); **Bruno** →
+Milano Concetta Caterina (1878 act 22); **Rocco** → Romano Concetta (1879 act 31); **Michelangelo**
+→ Cannucci Francesca (1882 act 14).
+
+→ **He is neither born at Scilla (1851, 1856, 1859 read complete) nor married there.** He came from
+somewhere else, already married. **The one route left is his death act**, which names a birthplace
+outright; the series runs to 1943.
+
+Also noted in passing: *Costa Antonio × Migliorino Domenica*, act 30 of 1879 — Generosa Costa's
+father was an Antonio Costa born c.1840, so a second marriage is possible but unproven; and
+*Manganaro Carmelo × **Sofi** Giuseppa*, act 13 of 1883.
+
+Index note: in these volumes the index sits on the **right-hand page**, the left being blank — so a
+left-half crop returns nothing. Entries are grouped by initial letter and, within a letter, run in
+**act order**.
