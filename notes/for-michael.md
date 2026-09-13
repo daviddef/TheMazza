@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 27 items, 24 of them resting on a document that has been read.
+For **Michael Mazza**. 29 items, 25 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts on the site draw your export exactly
 as you gave it. These are proposals with the source attached to each one, so you can check any
@@ -11,21 +11,31 @@ is telling you it is not certain.
 
 **The commonest error is not a wrong name — it is a wrong birth year**, on people the tree could
 not date from a document. Giovanni Arena is out by eleven years, Michele Donato by five,
-Salvatore Mazza by six. That is worth knowing when you look at any other undated birth.
+Salvatore Mazza by six.
+
+**The largest single correction is the Arena parentage.** Rocco and Giuseppe are not Orazio Arena's
+sons. They are Francesco Antonio Arena and Serafina Arlotta's, and the register has both of their
+births. Orazio's own children turn out to be three quite different people.
 
 ## Parentage
 
-### Rocco Arena  *(documented -- with a caveat)*
+### Rocco Arena
 
 - **The tree says:** Son of Orazio Arena and Giovana Zirilli
-- **The record says:** The 1861 Scilla register holds exactly one Rocco Arena and his parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA -- not Orazio and Giovana Zirilli. The year 1861 is supported by an American manifest that makes him 39 in March 1900, and by his trade: he and Francesco Antonio are both marinari. CAVEAT: act 60 of 1858 is a second Rocco Arena, son of Santo Arena and Giovanna Gioffre. The 1861 man fits the manifest better (38 against 39, where the 1858 boy would be 41) but the identification is not clean.
-- **Source:** Scilla, Nati 1861, atto 228; Nati 1893 atto 22; Ellis Island, 21 March 1900
+- **The record says:** His parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA. The proof is not the 1861 act alone but a SIBLING PAIR: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, and act 228 of 1861 gives them a son ROCCO, twenty-one months apart. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, in the same order, on the wrong father. Meanwhile Orazio Arena and Giovanna Zirilli are documented across four years (1856, 1858, 1859, 1860) with children Domenico, Domenico and Maria Annunziata, and NEITHER a Rocco nor a Giuseppe ever appears.
+- **Source:** Scilla, Nati 1860 atto 45 and atto 161; Nati 1861 atto 228; Nati 1856 atto 180; Nati 1859 atto 46
 
 ### Giovanni Polistena
 
 - **The tree says:** Mother Giovanna Pontillo
 - **The record says:** The birth act names the mother as GIOVANNA ROMANO. The father agrees -- Camillo Antonio Polistena. Pontillo is a real Scilla surname, so the name is plausible, but it is not what the act says.
 - **Source:** Scilla, Nati 1883, atto 206
+
+### Guiseppe Arena
+
+- **The tree says:** Son of Orazio Arena and Giovanna Zirilli
+- **The record says:** Born 5 March 1860 to FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA. He is Rocco's brother, and both were attached to the wrong father.
+- **Source:** Scilla, Nati 1860, atto 45
 
 ## Birth year
 
@@ -98,7 +108,15 @@ Salvatore Mazza by six. That is worth knowing when you look at any other undated
 ### Giovanna Zirilli  *(flagged)*
 
 - **The tree says:** Orazio Arena has two wives, "Giovanna Zirilli" b.1827 and "Giovana Zirilli" undated
-- **The record says:** Almost certainly one woman entered twice. NOT merged here, because surname endogamy at Scilla is common enough that a second wife of the same surname is genuinely possible -- the 1913 marriage index alone has Bueti marrying Bueti and Vizzari marrying Vizzari.
+- **The record says:** Almost certainly one woman entered twice. NOT merged here, because surname endogamy at Scilla is common enough that a second wife of the same surname is genuinely possible -- the 1913 marriage index alone has Bueti marrying Bueti and Vizzari marrying Vizzari. NOTE: whichever way that resolves, neither Zirilli record should carry Rocco or Giuseppe as a child -- they belong to Serafina Arlotta.
+- **Source:** Scilla, Nati 1856 atto 180 and 1859 atto 46
+
+## Generation -- a lead, not a finding
+
+### Orazio Arena  *(flagged)*
+
+- **The tree says:** Nothing above him
+- **The record says:** His first son is named DOMENICO, twice. Calabrian naming custom gives the first son his father's father's name, so Orazio Arena's father was probably a Domenico Arena. This is an inference from custom, NOT a record -- it is written down as the thing to look for.
 - **Source:** Scilla, Nati 1856 atto 180 and 1859 atto 46
 
 ## Crossing date
@@ -203,9 +221,9 @@ Salvatore Mazza by six. That is worth knowing when you look at any other undated
 
 ---
 
-Full reasoning for each item is on the site: **Scilla** for the Calabrian registers,
-**The Crossings** for the passenger manifests, **Nudgee** for the burials, **The Queensland
-Register** for the BDM index. Where the archive has been *wrong*, that is on **Method**.
+Full reasoning is on the site — **Scilla** for the Calabrian registers, **The Crossings**
+for the manifests, **Nudgee** for the burials, **The Queensland Register** for the BDM index.
+Where the archive has been *wrong*, that is on **Method**.
 
 https://daviddef.github.io/TheMazza/corrections/
 

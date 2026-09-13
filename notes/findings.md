@@ -1440,3 +1440,36 @@ rather than left out of it.
 
 **No Giovanni Arena in 1858 either.** He is in neither of the two years his son's act points to.
 1857 (`an_ua2002922`) and 1860 (`an_ua2002931`) remain.
+
+### Scilla, Nati 1860 — the Arena question answered, by a sibling pair
+
+`an_ua2002931`, container `wr9rbv8`, 142 images, Tavola at images 136–142. The A section holds ten
+entries and three Arena births:
+
+| act | child | parents | date |
+|---|---|---|---|
+| 43 | Arena Domenico | **Giovanni e Longordo Maddalena** | 2 March |
+| 45 | **Arena Giuseppe** | **Franc. Ant.o e Arlotta Serafina** | 5 March |
+| 161 | Arena Maria Annunziata | **Orazio e Zirilli M.a Giovanna** | 27 August |
+
+**Act 45 ends four days of argument, and not by arithmetic.**
+
+- **The tree** gives Orazio Arena exactly **two** children: **Rocco** and **Guiseppe**.
+- **The register** gives **Francesco Antonio Arena and Serafina Arlotta** a **Giuseppe** on
+  5 March 1860 and a **Rocco** on 20 December 1861 — twenty-one months apart.
+- **Orazio Arena and Giovanna Zirilli**, now documented across **four** years (1856, 1858, 1859,
+  1860), have **Domenico, Domenico and Maria Annunziata** — and never a Rocco or a Giuseppe.
+
+It is the same sibling pair, in the same order, hung on the wrong father. The tree took Francesco
+Antonio's household and attached it to Orazio. That also makes the 1858 Rocco (Santo's son) and the
+manifest-age arithmetic beside the point: the identification no longer rests on an age at all.
+
+**What this opens.** Act 228 calls Francesco Antonio Arena *figlio di Filippo* — so **Filippo Arena**
+is a documented generation the tree does not have. And a lead, labelled as one: Orazio's first son is
+**Domenico**, twice, which on naming custom makes **Orazio's own father a Domenico Arena**.
+
+Also recorded so they are never merged: the **Giovanni Arena of act 43**, fathering a child in 1860,
+is an adult born in the 1830s and **not** the Giovanni Arena this archive wants.
+
+**Giovanni Arena is now absent from 1858, 1859 and 1860** — all three years his son's act allows.
+1857 (`an_ua2002922`) remains; after that the likeliest explanation is another comune.

@@ -18246,14 +18246,14 @@
    },
    {
     "kind": "passenger manifest",
-    "what": "Ellis Island, 21 March 1900 — the Trave out of Genoa, aged 39, of Scilla, a US citizen",
+    "what": "Scilla, Nati 1861 atto 228 and 1860 atto 45 — his birth, and his brother's",
     "href": "/scilla"
    }
   ],
   "onSpine": true,
   "ancGen": 5,
   "corrections": [
-   "THE CONFLICT RESOLVES. The tree makes him the son of Orazio Arena and Giovana Zirilli; act 228 of 1861 says Francesco Antonio Arena, marinaro, and Serafina Arlotta, and 1861 holds exactly one Rocco Arena. Three independent strands now favour the register: 1861 has only that one Rocco; Rocco is a marinaro in 1893 and Francesco Antonio is a marinaro in 1861, a trade passed father to son; and this manifest gives a Rocco Arena of Scilla, married, aged 39 in March 1900 -- born about 1861. THE TREE'S YEAR IS RIGHT AND ITS PARENTS ARE ALMOST CERTAINLY WRONG. Manifest ages are approximate, so this is a year loose and does not pin the date; what it rules out is a birth far from 1861. He was also in America long enough to naturalise. QUALIFIED THE SAME DAY: act 60 of 1858 is ANOTHER Rocco Arena, born 23 April 1858 to Santo Arena and Giovanna Gioffre. So it is no longer true that only one Rocco Arena of roughly the right age exists. The arithmetic still favours 1861 -- 38 against the manifest's 39, where the 1858 boy would be 41 -- but the identification is not clean."
+   "RESOLVED. His parents are FRANCESCO ANTONIO ARENA, marinaro, and SERAFINA ARLOTTA, not Orazio Arena and Giovana Zirilli. The proof is a sibling pair: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, act 228 of 1861 gives them a son ROCCO. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, same order, wrong father. Orazio's own children, across four years of the register, are Domenico, Domenico and Maria Annunziata. An Ellis Island manifest independently makes Rocco 39 in March 1900, consistent with a birth at the end of 1861."
   ]
  },
  {
@@ -26652,7 +26652,7 @@
   "onSpine": true,
   "ancGen": 6,
   "corrections": [
-   "The tree gives him no source at all. He and Giovanna Zirilli are now documented TWICE: a son Domenico born 3 September 1856 (act 180) and another son Domenico born 10 February 1859 (act 46), the first child having almost certainly died. Neither year holds a Rocco Arena of any parentage, so the tree's link from Rocco to this couple is still unsupported."
+   "The tree gives him no source at all, and gives him two children, Rocco and Guiseppe. THE REGISTER GIVES HIM NEITHER. Across 1856, 1858, 1859 and 1860 he and Giovanna Zirilli have Domenico (1856), Domenico (1859) and Maria Annunziata (1860); the Rocco and Giuseppe the tree assigns him belong to Francesco Antonio Arena and Serafina Arlotta. He is a real, well documented Scilla man who has been given another household's children. His first son being Domenico twice suggests, on naming custom alone, that his own father was a Domenico Arena -- a lead, not a finding."
   ]
  },
  {
@@ -26749,10 +26749,18 @@
   "children": [],
   "spouses": [],
   "siblings": [],
-  "records": [],
+  "records": [
+   {
+    "kind": "birth register",
+    "what": "Scilla, Nati 1860, atto 45 — born 5 March 1860",
+    "href": "/scilla"
+   }
+  ],
   "onSpine": false,
   "ancGen": null,
-  "corrections": []
+  "corrections": [
+   "The tree makes him a son of Orazio Arena. The register makes him a son of FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA, and Rocco Arena's elder brother by twenty-one months."
+  ]
  },
  {
   "id": "@I374@",
