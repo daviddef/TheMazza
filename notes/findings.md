@@ -1886,3 +1886,29 @@ earlier, which means Francesco was not their first child.** There should be elde
 Arena and Domenica Costa in the birth registers of **1816, 1817 and 1818** — arks `an_ua2002801`,
 `an_ua2002803`, `an_ua2002805`, all already in `data/scilla-arks.tsv`. That is the next move, and it
 is a bounded one.
+
+### The Luisiana image, 2 August 1906 — the last unread manifest
+
+`3:1:3Q9M-C95M-JS7N-Z`, 7607 × 5685, **S.S. Luisiana, list 19**, lines 25–29.
+
+The five lines are **braced together** and the *going to join* column gives **one address for all of
+them**:
+
+> **"Domenico Melluso, 2173 First Ave, N.Y."**
+
+Relationship words across the group: *brother* (or *mother*), **husband**, **father**, **father**,
+*cousin*.
+
+- **Domenica Anile was sailing to her HUSBAND** — which the tree already says, now confirmed.
+- The two small boys were sailing to their **FATHER**.
+- **The name column carries only two written surnames** — *Anile* against the women, *Melluso*
+  against the children, with ditto braces. **That is exactly how the index handed a Melluso child an
+  Anile surname.** The one-year-old on line 29, indexed as "Francesco Anile", is **Francesco
+  Melluso**, Domenica's younger son. Not in the tree.
+
+**And the address places them.** **2173 First Avenue is East Harlem**, not Little Italy — a mile and a
+half uptown from the Mulberry Street where the Scilla Arena were living. **Two branches of one family
+in two different Italian New Yorks**, seven years apart.
+
+*Caveat recorded on the page: the exact line-by-line alignment of the relationship column is not
+certain, because the brace spans several rows. The destination and the husband are.*
