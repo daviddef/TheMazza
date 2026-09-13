@@ -1,6 +1,6 @@
 {
- "count": 52,
- "documented": 48,
+ "count": 55,
+ "documented": 51,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -149,6 +149,24 @@
      "recordSays": "BORN ABOUT 1809. She is THIRTY-SIX at Rosario's birth in June 1845.",
      "source": "Piedimonte Etneo, Nati 1845, atto 64",
      "confidence": "documented"
+    },
+    {
+     "kind": "Birth year",
+     "who": "Gaetano Bonanno",
+     "slug": "—",
+     "treeSays": "No birth recorded",
+     "recordSays": "BORN ABOUT 1807. He is THIRTY-SIX when he declares Leonarda's birth in November 1843. His trade is BRACCIALE.",
+     "source": "Piedimonte Etneo, Nati 1843, atto 101",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth year",
+     "who": "Anna Cavallaro",
+     "slug": "—",
+     "treeSays": "No birth recorded",
+     "recordSays": "BORN ABOUT 1805. She is THIRTY-EIGHT at Leonarda's birth in November 1843.",
+     "source": "Piedimonte Etneo, Nati 1843, atto 101",
+     "confidence": "documented"
     }
    ]
   },
@@ -189,6 +207,15 @@
      "treeSays": "Born 1850",
      "recordSays": "BORN 2 JUNE 1845 at Piedimonte Etneo, at eleven in the morning, in his parents' own house. Act 64 of the births of 1845. The tree is FIVE YEARS out. Both parents are in the act: Mariano Mazza, 36, bracciale, and Maria Catalano, 36.",
      "source": "Piedimonte Etneo, Nati 1845, atto 64",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth date",
+     "who": "Leonarda Bonanno",
+     "slug": "—",
+     "treeSays": "No birth recorded",
+     "recordSays": "BORN 7 NOVEMBER 1843 at Piedimonte Etneo, at eight in the morning, in her parents' own house. Act 101 of the births of 1843. So she was TWENTY-SEVEN when she married in April 1871, not twenty-six as her own marriage act says.",
+     "source": "Piedimonte Etneo, Nati 1843, atto 101",
      "confidence": "documented"
     }
    ]

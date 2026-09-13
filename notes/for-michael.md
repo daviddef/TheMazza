@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 52 items, 48 of them resting on a document that has been read.
+For **Michael Mazza**. 55 items, 51 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -142,6 +142,18 @@ Mazza by six, Rosario Mazza by five.
 - **The record says:** BORN ABOUT 1809. She is THIRTY-SIX at Rosario's birth in June 1845.
 - **Source:** Piedimonte Etneo, Nati 1845, atto 64
 
+### Gaetano Bonanno
+
+- **The tree says:** No birth recorded
+- **The record says:** BORN ABOUT 1807. He is THIRTY-SIX when he declares Leonarda's birth in November 1843. His trade is BRACCIALE.
+- **Source:** Piedimonte Etneo, Nati 1843, atto 101
+
+### Anna Cavallaro
+
+- **The tree says:** No birth recorded
+- **The record says:** BORN ABOUT 1805. She is THIRTY-EIGHT at Leonarda's birth in November 1843.
+- **Source:** Piedimonte Etneo, Nati 1843, atto 101
+
 
 ## Birth date
 
@@ -168,6 +180,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** Born 1850
 - **The record says:** BORN 2 JUNE 1845 at Piedimonte Etneo, at eleven in the morning, in his parents' own house. Act 64 of the births of 1845. The tree is FIVE YEARS out. Both parents are in the act: Mariano Mazza, 36, bracciale, and Maria Catalano, 36.
 - **Source:** Piedimonte Etneo, Nati 1845, atto 64
+
+### Leonarda Bonanno
+
+- **The tree says:** No birth recorded
+- **The record says:** BORN 7 NOVEMBER 1843 at Piedimonte Etneo, at eight in the morning, in her parents' own house. Act 101 of the births of 1843. So she was TWENTY-SEVEN when she married in April 1871, not twenty-six as her own marriage act says.
+- **Source:** Piedimonte Etneo, Nati 1843, atto 101
 
 
 ## Death date
