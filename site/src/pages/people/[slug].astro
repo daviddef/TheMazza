@@ -47,7 +47,7 @@ const dek = p.ancGen === 0 || p.onSpine
     {comp.towns.length ? ` mostly of ${comp.towns[0].name}` : ""} that
     <strong> no record joins</strong> to the line reaching Mia and Rocco.
     They are very probably kin. The archive does not yet say how.
-    <a href={u("/open-questions")}>Why →</a></p>
+    <a href={u("/open-questions/")}>Why →</a></p>
   )}
 
   <div class="grid two">
@@ -69,7 +69,7 @@ const dek = p.ancGen === 0 || p.onSpine
         <p class="small" style="margin-top:14px"><strong>Dates withheld on purpose.</strong> This
         person would be {stats.ageThreshold} or younger today and the tree records no death for them.
         Their dates are <strong>stripped in the build</strong> — they are not in this page's HTML and
-        not recoverable from this site. See <a href={u("/method")}>Method</a>.</p>
+        not recoverable from this site. See <a href={u("/method/")}>Method</a>.</p>
       )}
     </div>
 
@@ -102,14 +102,14 @@ const dek = p.ancGen === 0 || p.onSpine
           {p.corrections.map((c) => <p style="margin-top:.5rem">{c}</p>)}
           <p style="margin-top:.5rem" class="small">Where the two disagree, <strong>the chart above
           still draws the tree as it stands</strong>. This archive does not silently rewrite what it
-          was given — <a href={u("/scilla")}>the acts are here</a>.</p>
+          was given — <a href={u("/scilla/")}>the acts are here</a>.</p>
         </div>
       ) : null}
       {p.onSpine && (
-        <p class="small" style="margin-top:12px"><a href={u("/ancestors")}>See this generation on the ancestors page →</a></p>
+        <p class="small" style="margin-top:12px"><a href={u("/ancestors/")}>See this generation on the ancestors page →</a></p>
       )}
       <p class="small" style="margin-top:12px"><strong>Component {p.comp}</strong> ·
-        <a href={u("/people") + "?q=" + encodeURIComponent(p.surname)}> every {p.surname || "person"} in the archive →</a></p>
+        <a href={u("/people/") + "?q=" + encodeURIComponent(p.surname)}> every {p.surname || "person"} in the archive →</a></p>
     </div>
   </div>
 
@@ -125,7 +125,7 @@ const dek = p.ancGen === 0 || p.onSpine
         <div class="k">Entered as</div><div class="v">{grave.registerName}</div><div class="w"></div>
       </div>
       <p class="cap">Brisbane Catholic Cemeteries deceased register, read 10 September 2026.
-      <a href={u("/nudgee")}> Nudgee →</a></p>
+      <a href={u("/nudgee/")}> Nudgee →</a></p>
       {fixes.length > 0 && (
         <p class="note" style="margin-top:16px">The register <strong>corrects the family tree</strong>
         here: {fixes.map((c, i) => (<>{i > 0 && "; "}{c.field === "birth" ? "born" : "died"}
@@ -146,7 +146,7 @@ const dek = p.ancGen === 0 || p.onSpine
         <div class="k">NAA item</div><div class="v"><a href={`https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?Number=${ship.itemId}`} rel="noopener">{ship.itemId}</a></div><div class="w"></div>
       </div>
       <p class="cap">{ship.note} — National Archives of Australia, passenger arrivals index
-      1898–1972, read 10 September 2026. <a href={u("/crossings")}>The crossings →</a></p>
+      1898–1972, read 10 September 2026. <a href={u("/crossings/")}>The crossings →</a></p>
     </section>
   )}
 
@@ -170,7 +170,7 @@ const dek = p.ancGen === 0 || p.onSpine
       <p class="small" style="margin-top:8px">These three towns repeat their names relentlessly — this
       archive holds four men called Rosario Mazza and four called Giuseppe Arena.
       <strong> These are different people, kept apart on purpose rather than merged into one.</strong>
-      <a href={u("/method")}> Why →</a></p>
+      <a href={u("/method/")}> Why →</a></p>
       <ul style="margin:.8rem 0 0;padding-left:18px;font-family:var(--sans);font-size:13.5px;line-height:1.8">
         {sameName.map((q) => (
           <li><a href={u("/people/" + q.slug)}>{q.name}</a>
@@ -182,5 +182,5 @@ const dek = p.ancGen === 0 || p.onSpine
     </section>
   )}
 
-  <p class="small" style="margin-top:2rem"><a href={u("/people")}>← All {stats.people} people</a></p>
+  <p class="small" style="margin-top:2rem"><a href={u("/people/")}>← All {stats.people} people</a></p>
 </Base>

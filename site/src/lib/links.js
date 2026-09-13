@@ -26,7 +26,7 @@ export function personLink(name) {
   if (slugByName.has(n) && !shared.has(n)) {
     const p = people.find((q) => norm(q.name) === n);
     if (p && p.living) {
-      return { href: u("/people") + "?q=" + encodeURIComponent(bare(name)), kind: "living",
+      return { href: u("/people/") + "?q=" + encodeURIComponent(bare(name)), kind: "living",
                title: "A living relative — this archive publishes their name and nothing else" };
     }
     return { href: u("/people/" + slugByName.get(n)), kind: "person",
@@ -34,7 +34,7 @@ export function personLink(name) {
   }
   if (shared.has(n)) {
     const many = people.filter((p) => norm(p.name) === n).length;
-    return { href: u("/people") + "?q=" + encodeURIComponent(bare(name)), kind: "several",
+    return { href: u("/people/") + "?q=" + encodeURIComponent(bare(name)), kind: "several",
              title: `${many} people of this name are recorded — the archive does not decide which is which` };
   }
   return null;

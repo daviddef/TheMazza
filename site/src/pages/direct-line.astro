@@ -9,12 +9,12 @@ const kids = spineData.children;
 <Base title="The Spine" eyebrow="Eleven generations"
       dek="The longest descent the family tree asserts: from a man said to be born at Briatico in 1697 to two children born in Brisbane. Its top four generations carry no source — see Testing the 1697.">
 
-  <p class="note">This is not the Mazza line — for that see <a href={u("/the-name-line")}>the Mazza
+  <p class="note">This is not the Mazza line — for that see <a href={u("/the-name-line/")}>the Mazza
   name line</a>, which is documented at every Sicilian step. This is the <strong>longest</strong>
-  line, and it belongs to the <a href={u("/briatico")}>Prostamo of Briatico</a>.
+  line, and it belongs to the <a href={u("/briatico/")}>Prostamo of Briatico</a>.
   <strong>Read it with the audit beside it:</strong> the archive has documented this descent back to
   Domenico Prostamo, and the four generations above him — 1785, 1760, 1726, 1697 — rest on the family
-  tree alone. <a href={u("/briatico-tested")}>Testing the 1697 →</a></p>
+  tree alone. <a href={u("/briatico-tested/")}>Testing the 1697 →</a></p>
 
   <div class="stack" style="margin-top:38px">
     {spine.map((g, i) => (
@@ -31,7 +31,7 @@ const kids = spineData.children;
         <div>
           {g.living ? (
             <p class="qw">A living person. This archive publishes their name and nothing else — no
-            dates, no places, no records. See <a href={u("/method")}>the method</a>.</p>
+            dates, no places, no records. See <a href={u("/method/")}>the method</a>.</p>
           ) : (<>
             <p class="qw">
               {g.birthPlace && <>Born at <strong>{g.birthPlace}</strong>{g.born ? ` in ${g.born}` : ""}. </>}
@@ -68,6 +68,6 @@ const kids = spineData.children;
     He was born about 1697, which puts his own baptism in a parish register kept at Briatico under the
     Kingdom of Naples — well before civil registration began there in 1809. Nothing above him has been
     looked for yet, and the archive should not pretend otherwise.
-    <a href={u("/open-questions")}>What is being looked for →</a></p>
+    <a href={u("/open-questions/")}>What is being looked for →</a></p>
   </section>
 </Base>

@@ -16,7 +16,7 @@ const au = crossings.filter((c) => /Fremantle|Brisbane/.test(c.arrived));
     <div class="grid g3">
       <div class="stat"><div class="n">{au.length}</div><div class="l">recorded arrivals in Australia</div></div>
       <div class="stat"><div class="n">1925</div><div class="l">the first of them, and he did not survive the year after</div></div>
-      <div class="stat"><div class="n">{burials.filter((b) => b.place.includes("Nudgee")).length}</div><div class="l">buried at <a href={u("/nudgee")} style="color:inherit">Nudgee</a></div></div>
+      <div class="stat"><div class="n">{burials.filter((b) => b.place.includes("Nudgee")).length}</div><div class="l">buried at <a href={u("/nudgee/")} style="color:inherit">Nudgee</a></div></div>
     </div>
   </section>
 
@@ -31,7 +31,7 @@ const au = crossings.filter((c) => /Fremantle|Brisbane/.test(c.arrived));
     whether there was already a Mazza name at an address in Brisbane when
     <P n="Sebastiano Mazza" /> stepped off at Fremantle in 1949 — is not something the archive can
     presently answer. It is a good question and it is written down.
-    <a href={u("/open-questions")}>Open questions →</a></p>
+    <a href={u("/open-questions/")}>Open questions →</a></p>
   </section>
 
   <section class="blk">

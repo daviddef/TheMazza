@@ -135,7 +135,7 @@ const has = parents.length || spouses.length || children.length || siblings.leng
     them has yet been proved by a record.</strong> That is the honest state of this archive:
     the chart shows what Michael Mazza's tree asserts, and the colour tells you only whether anything
     at all has been read about the person at the other end.
-    <a href={u("/method")}>The method →</a></p>
+    <a href={u("/method/")}>The method →</a></p>
     {clashChildren.length ? (
       <p class="warn"><strong>Two children here carry one name</strong> — {clashChildren.join(", ")}.
       In these towns that is usually not an error: <strong>a child who died was very often replaced
@@ -146,7 +146,7 @@ const has = parents.length || spouses.length || children.length || siblings.leng
       <p class="warn"><strong>More than one person in this row carries the same name</strong> —
       {" " + clashOther.join(", ")}. That is what the source says. <strong>This archive does not merge
       records on a name</strong>, so they are drawn separately even where one duplicated entry is the
-      likelier explanation. <a href={u("/open-questions")}>The 58 names it refuses to merge →</a></p>
+      likelier explanation. <a href={u("/open-questions/")}>The 58 names it refuses to merge →</a></p>
     ) : null}
   </figcaption>
   {Object.keys(dis).length ? (
