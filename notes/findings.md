@@ -1954,3 +1954,27 @@ contradiction.**
 **And he was not alone.** Four frames away on the same manifest — T715-2174, **frame 292, line 19** —
 is **Rocco Polistena, 44, of Scilla**. An Arena and a Polistena off the same ship on the same day in
 1913; a generation later Anna Arena's son Rocco married Angela Polistena.
+
+### Rocco Arena's first crossing, dated — and a fourth statement of the sea trade
+
+**United States, Italians to America Index, 1855–1900** (a set neither Antenati nor the Statue of
+Liberty search surfaces):
+
+| arrival | ship | from | age | occupation | |
+|---|---|---|---|---|---|
+| **24 May 1892** | ***Elysia*** | **Naples** | 31 | **Seaman** | `1:1:KDW1-VRX` |
+| 10 Aug 1894 | *Suevia* | Naples | 33 | *Tailor* | `1:1:KDW1-VR6` — **candidate** |
+| 21 Mar 1900 | *Trave* | Genoa | 39 | — | indexed there as **"Rocco-Vincenzo Arena"** |
+
+**The 1892 record dates the tree's bare "1892" to the day.** The 1900 census gives the year and
+nothing else; this gives the day, the ship, the port — and **Seaman**, a **fourth** independent
+statement that this man worked the water, after *marinaro* in act 22 of 1893, *Sailor* on the Trave,
+and *marinaro* for both his father and grandfather in the marriage act of 1851.
+
+**The 1894 record is a candidate and is not merged.** Right age, right year — and 1894 is the year
+the tree assigns a crossing to Anna Arena and Generosa Costa, so it may be where that stray date came
+from, attached to the wrong people. But the occupation is **Tailor**. Passenger-list trades are
+loosely taken and Arena is a common name.
+
+Also noted, not yet pulled: a **United States City and Business Directories** entry for a Rocco Arena
+in New York City, **1899–1900** — which would give a street address to set beside Mulberry Street.

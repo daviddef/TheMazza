@@ -1,6 +1,6 @@
 {
- "count": 40,
- "documented": 36,
+ "count": 41,
+ "documented": 37,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -269,6 +269,15 @@
      "treeSays": "Arrived 12 September 1913, departed Messina",
      "recordSays": "Arrived 11 SEPTEMBER 1913 -- one day earlier -- on the SAN GUGLIELMO. The port of embarkation, MESSINA, is exactly as the tree has it. He was 52 and entered as a US citizen. On the same ship the same day was ROCCO POLISTENA, 44, of Scilla, four frames away: a generation later, Anna Arena's son Rocco married Angela Polistena.",
      "source": "Ellis Island, the San Guglielmo, 11 September 1913",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Crossing date",
+     "who": "Rocco Arena — his first crossing",
+     "slug": "rocco-arena",
+     "treeSays": "Arrived 1892, no date, no ship",
+     "recordSays": "Arrived 24 MAY 1892 off the S.S. ELYSIA out of NAPLES, aged 31, occupation SEAMAN. The 1900 census gives the year and nothing else; this dates it to the day, names the ship and the port, and adds a fourth independent statement that he worked the water.",
+     "source": "United States, Italians to America Index, 1855-1900",
      "confidence": "documented"
     }
    ]
