@@ -15,6 +15,7 @@ Diacritics are folded both ways, so Blazevic finds Blažević and Scilla finds
 Scilla however it is typed.
 """
 import json, os, re, unicodedata, html
+import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIST = os.path.join(ROOT, "site", "dist")
@@ -28,10 +29,13 @@ TAGS = re.compile(r"<[^>]+>")
 WS = re.compile(r"\s+")
 
 
-def fold(s):
-    s = unicodedata.normalize("NFD", s)
-    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-    return s.replace("đ", "d").replace("Đ", "D").lower()
+# One fold, shared with the search box and the other six archives.
+sys.path.insert(0, os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "site", "node_modules", "@daviddef", "archive-kit", "kit", "tools"))
+import searchkit  # noqa: E402
+
+fold = searchkit.fold
 
 
 def kind(path):
@@ -68,8 +72,7 @@ for dp, _, fns in os.walk(DIST):
     body = TAGS.sub(" ", STRIP.sub(" ", raw))
     body = WS.sub(" ", html.unescape(body)).strip()[:2600]
 
-    q = fold(f"{title} {sub} {body}")
-    rows.append({"k": kind(path), "t": title, "s": sub, "h": path, "q": q})
+    rows.append(searchkit.row(kind(path), title, sub, path, body))
 
 rows.sort(key=lambda r: (r["k"], r["t"]))
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
