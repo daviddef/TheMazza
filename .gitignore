@@ -4,3 +4,10 @@ dist/
 .DS_Store
 *.log
 .env
+
+# The private MyHeritage export. It carries every living person in full —
+# names, birth dates, birth places — and this repository is public. The
+# archive's own data under site/src/data is the redacted, publishable form;
+# this is the raw source and must never be committed again.
+sources/*.ged
+sources/*.gedcom
