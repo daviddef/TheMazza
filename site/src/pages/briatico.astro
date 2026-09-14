@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import { dead } from "../lib/people.js";
 import places from "../data/places.json";
+import graves from "../data/australia-graves.json";
 const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
   .some((x) => (x || "").startsWith("Briatico") || (x || "").includes("(Briatico)")));
 const pl = places.find((x) => x.name.startsWith("Briatico")) || {};
@@ -113,6 +114,47 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         </tbody>
       </table>
     </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">14 September 2026</div>
+    <h2 style="margin-top:.4rem">Where the Prostamo actually lie, and it is not Nudgee</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Every Mazza this archive has buried in Australia is at <strong>Nudgee</strong>. Searching
+      the Prostamo across Australian cemeteries turns up six, and <strong>not one of them is at
+      Nudgee</strong>. They are at Mount Gravatt on the south side of Brisbane, at Nerang on the
+      Gold Coast, and — new to this archive entirely — in a <strong>Melbourne</strong> cemetery at
+      Glenroy. The two halves of this family came to the same country and did not settle together.</p>
+      <p>Three sources agree on one couple. <strong>Maria Assunta</strong> lies in plot 607 at Mount
+      Gravatt and <strong>Domenico Francesco</strong> in plot 608. The Commonwealth Gazette
+      naturalised him on 1 October 1962 from 38 Park Terrace, Sherwood, and her on 4 July 1966 from
+      3 Frank Street, Graceville. The Queensland death index then gives her parents:
+      <strong>Gregorio Melluso and Carmela Maria Borello</strong>.</p>
+      <p>So she was born a <strong>Melluso</strong> and died a <strong>Prostamo</strong> — the same
+      two surnames that married at Briatico on 21 May 1887, when <P n="Alfonso Prostamo" /> married
+      <P n="Caterina Melluso" />. Whether the Brisbane couple descend from the Briatico one is
+      <strong>untested</strong>, and is recorded here as a hint and not a descent. Her father's own
+      death gives two more names, <strong>Gennaro Melluso</strong> and <strong>Maria Limardo</strong>;
+      Limardo is a name out of the Potenzoni birth register of 1818, which at least puts that
+      household in the right district.</p>
+    </div>
+    <div class="tw" style="margin-top:1.2rem">
+      <table class="tbl">
+        <thead><tr><th>Name</th><th class="m">Dates</th><th>Cemetery</th><th class="m">Plot</th></tr></thead>
+        <tbody>
+          {graves.map((g) => (
+            <tr>
+              <td>{g.name}</td>
+              <td class="m">{[g.born, g.died].filter((x) => x && x !== "\u2014").join(" – ")}</td>
+              <td>{g.cemetery}<br /><span class="dek">{g.place}</span></td>
+              <td class="m">{g.plot}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="dek" style="margin-top:.9rem">Find a Grave, the Queensland registrar's historical index,
+    and the Commonwealth of Australia Gazette, read 14 September 2026.</p>
   </section>
 
   <section class="blk" style="border-bottom:0">
