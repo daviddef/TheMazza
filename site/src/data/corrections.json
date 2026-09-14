@@ -1,5 +1,5 @@
 {
- "count": 85,
+ "count": 87,
  "documented": 74,
  "groups": [
   {
@@ -814,6 +814,15 @@
      "recordSays": "FIFTY-EIGHT, most likely — born about 1757. The 1849 copyist crams two ages into one clause; the fifty-eight stands next to his trade and the fifty next to his wife's name. The ambiguity is in the document and is recorded rather than hidden.",
      "source": "Zambrone, Morti 1815, atto 40 — the certified extract of 26 May 1849",
      "confidence": "probable"
+    },
+    {
+     "kind": "my own reading",
+     "who": "Giuseppe Ventrice",
+     "slug": "",
+     "treeSays": "this archive published his death as 21 JUNE 1839",
+     "recordSays": "21 JUNE 1831. I read «milleottocento trentuno» in the 1849 certified copy as «trentanove». The original register settles it, and so does the 1839 register itself: its act 12 is the death of D.a Olimpia La Torre on 14 August, and the 1839 Tavola agrees. Eight years, and it changes the shape of the family — he died two days before his daughter's third birthday, and his widow raised her alone for eighteen years.",
+     "source": "Briatico, Morti 1831, atto 12 — the original register, an_ua87689",
+     "confidence": "certain"
     }
    ]
   },
@@ -873,6 +882,20 @@
      "treeSays": "her marriage act of 14 June 1849 makes her «di anni VENTUNO»",
      "recordSays": "BORN 23 JUNE 1828, so she was TWENTY at her wedding — nine days short of twenty-one. Small, and worth keeping: it is the third time in this family that a declared age at marriage has run a year ahead of the birth act.",
      "source": "Briatico, Nati 1828, atto 12",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "a copy against its original",
+   "rows": [
+    {
+     "kind": "a copy against its original",
+     "who": "Rosario Zungri",
+     "slug": "",
+     "treeSays": "the 1849 certified copy names the second declarant SERGI",
+     "recordSays": "ZUNGRI in the original act. Small, and the third time a Calabrian chancery copy has been caught drifting from the act it copied — after Pasquale Prostamo's age and Domenico Ventrice's.",
+     "source": "Briatico, Morti 1831, atto 12, against its extract of 26 May 1849",
      "confidence": "certain"
     }
    ]

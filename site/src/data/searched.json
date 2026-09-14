@@ -378,18 +378,18 @@
   "result": "POTENZONI IS ITS OWN COMUNE ON ANTENATI, WITH 57 REGISTERS. It is a frazione of Briatico and it kept its own civil register from 1806. Everything read at Briatico so far has been the wrong parish if the family lived there. Births 1812-1837 are a single 364-image volume; marriages 1812-1858 a single 293-image volume; and the marriage allegati 1812-1850 hold the spouses' own birth certificates. This is the largest unopened door in the Calabrian half of the archive."
  },
  {
-  "status": "not-yet",
-  "when": "",
+  "status": "superseded",
+  "when": "14 Sep 2026",
   "source": "Antenati — Potenzoni, Nati 1812-1837",
   "scope": "364 images, an_ua37927182 / container 0AQJBAW. Domenico Prostamo, born about 1820, would fall in it.",
-  "result": "Thumbnails pulled; the annual Tavole are being located. Unread."
+  "result": "SUPERSEDED THE SAME DAY. This was opened on the reasoning that Domenico Prostamo, born about 1820, must be in the frazione if he was not in Briatico. His marriage act of 1849 then said he was NATO IN PIZZO and born in 1814. The volume is mapped and the mapping is kept, but this family is not in it."
  },
  {
-  "status": "not-yet",
-  "when": "",
+  "status": "superseded",
+  "when": "14 Sep 2026",
   "source": "Antenati — Potenzoni, Matrimoni 1812-1858",
   "scope": "293 images, an_ua37923835 / container 5K1ln7r. Domenico Prostamo married Giovanna Ventrice somewhere in this span.",
-  "result": "Unread. This act would name ANTONINO PROSTAMO, the fourth generation, which the archive currently carries as UNTESTED on the family tree alone."
+  "result": "SUPERSEDED THE SAME DAY. Domenico Prostamo married Giovanna Ventrice at BRIATICO on 14 June 1849, act 1 — found in the Briatico register, not this one. The Potenzoni mapping is kept for whoever needs that comune."
  },
  {
   "status": "done",
@@ -483,11 +483,11 @@
   "result": "FOUND AT ACT 7. PASQUALE PROSTAMO, seventy-five, MARINARO, VEDOVO DI CATERINA MUSO, born at Pizzo, of the Castello quarter, died on 13 JANUARY 1829 — nine days after the date the tree gives, and at an age that puts his birth about 1753 rather than 1760. His own parents' lines in the act are blank. Acts 1 to 6 of the year were read to reach it and are other families."
  },
  {
-  "status": "not-yet",
-  "when": "",
+  "status": "superseded",
+  "when": "14 Sep 2026",
   "source": "Antenati — Pizzo, Morti 1845-1848 and 1849-1851",
   "scope": "Antonino Prostamo, marinaro, was dead by 14 June 1849 and his widow Maria Fragalà was living at Pizzo that month.",
-  "result": "His death act would date the death and may name his parents where his father's act did not. an_ua37926974 / wb6b4dg, and an_ua37926993."
+  "result": "SUPERSEDED. Antonino Prostamo did not die in this window: he died on 31 DECEMBER 1837, and in Pizzo's separate register of CHOLERA deaths, act 327. Written before the marriage processetti were opened."
  },
  {
   "status": "not-yet",
@@ -504,11 +504,11 @@
   "result": "THE SINGLE RICHEST DOCUMENT THIS ARCHIVE HAS OPENED. It holds ANTONINO PROSTAMO'S DEATH — 31 December 1837, aged 56, atto 327 of PIZZO'S SEPARATE REGISTER OF CHOLERA DEATHS; a certified copy of PASQUALE's death act filed as the groom's «avo paterno», which PROVES the descent Pasquale-Antonino-Domenico; DOMENICO'S OWN BIRTH EXTRACT, act 285 of Pizzo Nati 1814, 2 April 1814, registered under the name ANTONIO; the ATTO DI NOTORIETÀ sworn on the wedding morning to reconcile the two names; the Pizzo banns of April 1849; and TWO VENTRICE DEATH EXTRACTS reaching the bride's great-grandparents."
  },
  {
-  "status": "done",
+  "status": "superseded",
   "when": "14 Sep 2026",
   "source": "Antenati — Pizzo, Morti 1845-1848",
   "scope": "an_ua37926974 / wb6b4dg, 406 images, opened as the obvious place to look for Antonino Prostamo's death.",
-  "result": "ABANDONED, AND RIGHTLY. The volume's annual Tavole at the back are blank, and he was never going to be in it: he died in 1837, and in a cholera register kept apart from the Morti series. The lesson is the one the whole day taught — go and find the document that says where a man is, rather than sweeping the volumes where he ought to be."
+  "result": "SUPERSEDED. Antonino Prostamo did not die in this window: he died on 31 DECEMBER 1837, and in Pizzo's separate register of CHOLERA deaths, act 327. Written before the marriage processetti were opened."
  },
  {
   "status": "not-yet",
@@ -600,5 +600,26 @@
   "source": "Antenati — Briatico, Nati 1828: Giovanna Ventrice found",
   "scope": "an_ua87730 / container wRGRJXQ, 29 images. She was twenty-one in June 1849, so 1827 and 1828 were both mapped; the annual Tavola at images 27-29 named her at once.",
   "result": "BORN 23 JUNE 1828, at nine in the morning, in her parents' own house, and baptised at SAN NICOLA the next day. Act 12 — and a caution for the volume: THE TAVOLA'S «N. D'ORDINE» RUNS ONE BEHIND THE ACT NUMBERS. Its row 11 is act 12. Calibrate on a date before trusting the index's number. The year also holds two more Ventrice births under other parents (Anna Ventrice, of Antonino and Giuseppa Giacco, 26 March), so the surname is common in the town."
+ },
+ {
+  "status": "done",
+  "when": "14 Sep 2026",
+  "source": "Antenati — Briatico, Morti 1831 and 1839: the year of Giuseppe Ventrice's death",
+  "scope": "Opened Briatico Morti 1839 (an_ua87697 / 0noENM9, 14 images) to check the extract against the original, found act 12 of that year to be someone else, re-read the extract, then opened Morti 1831 (an_ua87689 / 0M9zb22, 11 images).",
+  "result": "HE DIED IN 1831, NOT 1839 — an error of mine, corrected against the original. Briatico Morti 1839 act 12 is D.a Olimpia La Torre, 14 August, and the year's Tavola agrees; Briatico Morti 1831 act 12 is GIUSEPPE VENTRICE, dead at two in the morning on 21 June 1831 «di anni trenta». Two days before his daughter Giovanna's third birthday. The original also gives the second declarant as ROSARIO ZUNGRI where the 1849 copy has Sergi."
+ },
+ {
+  "status": "done",
+  "when": "14 Sep 2026",
+  "source": "Antenati — PIZZO BEGINS IN 1823, and three targets die with that fact",
+  "scope": "Tested the register index on localita=Pizzo for 1812, 1814, 1818 and 1822 — all empty — and on 1823, which returns four volumes. The full Pizzo listing carries only the RESTAURAZIONE fondo.",
+  "result": "PIZZO HAS NO NAPOLEONIC REGISTERS ON ANTENATI. Its civil records begin in 1823. So DOMENICO PROSTAMO'S BIRTH ACT (Pizzo Nati 1814, atto 285) cannot be opened, and neither can ANTONINO PROSTAMO AND MARIA FRAGALÀ'S MARRIAGE, which must fall before April 1814. Both survive only as the 1849 chancery copies in the Briatico marriage bundle. Together with Antonino's cholera act of 1837 and Domenico Ventrice's Zambrone act of 1815, that is FOUR of this family's deepest documents for which the bundle is the only readable text."
+ },
+ {
+  "status": "done",
+  "when": "14 Sep 2026",
+  "source": "Antenati — Briatico 1862, and Alfonso Prostamo's birth",
+  "scope": "anno=1862 on localita=Briatico.",
+  "result": "NOTHING. The comune's registers stop in 1858 and do not resume until 1911, which this archive already knew for marriages and now knows for births. Alfonso Prostamo, born about 1862, has no birth act to open — his age is fixed only by his own marriage papers of 1886 and 1887."
  }
 ]
