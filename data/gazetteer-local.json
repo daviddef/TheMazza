@@ -1,0 +1,10 @@
+{
+ "_note": "Coordinates this archive sets by hand, because the estate gazetteer does not hold them. Same convention as the kit's own overrides file: a coordinate is a claim, so each entry says where it came from and what the automatic answer would have been. This file lives in the archive, not in the shared kit. Keys are in the gazetteer's own folded form: lower case, accents stripped, punctuation replaced by spaces.",
+ "soriano calabro vibo valentia calabria": {
+  "lat": 38.5969341,
+  "lon": 16.2303554,
+  "conf": "exact",
+  "matched": "Soriano Calabro, Vibo Valentia, Calabria, 89831, Italy",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary in Vibo Valentia, postcode 89831. WITHOUT THIS ENTRY the lookup falls back to «Soriano Calabro, Italy» and lands on 42.638, 12.674 -- that is SORIANO NEL CIMINO in Lazio, four hundred kilometres north, a different town with a similar name. A dot in the wrong province is worse than no dot."
+ }
+}

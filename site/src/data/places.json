@@ -105,7 +105,7 @@
  },
  {
   "name": "Scilla, Reggio Calabria",
-  "born": 70,
+  "born": 71,
   "died": 8,
   "buried": 0,
   "lived": 0,
@@ -123,6 +123,7 @@
    "giuseppi-pontillo",
    "nunziatta-pontillo",
    "santa-polistena",
+   "joseph-a-polistena",
    "guiseppi-polistena",
    "giuseppa-dascoli",
    "giovanna-polistena",
@@ -150,10 +151,9 @@
    "giuseppe-arena-1932",
    "giuseppe-arena-1932",
    "mario-salvatore-arena",
-   "concetta-russo",
-   "domenico-donato"
+   "concetta-russo"
   ],
-  "n": 78
+  "n": 79
  },
  {
   "name": "Piedimonte Etneo, Catania, Sicily",
@@ -884,19 +884,6 @@
   "n": 1
  },
  {
-  "name": "Scillla",
-  "born": 1,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1917,
-  "last": 1917,
-  "who": [
-   "joseph-a-polistena"
-  ],
-  "n": 1
- },
- {
   "name": "America",
   "born": 0,
   "died": 1,
@@ -923,7 +910,7 @@
   "n": 1
  },
  {
-  "name": "Sorianno Calabro",
+  "name": "Soriano Calabro, Vibo Valentia, Calabria",
   "born": 0,
   "died": 1,
   "buried": 0,

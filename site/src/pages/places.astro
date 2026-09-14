@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
+import spellings from "../data/place-spellings.json";
 import places from "../data/places.json";
 const byCountry = {};
 for (const p of places) {
@@ -29,4 +30,37 @@ const order = ["Italy", "Australia", "United States", "Argentina", "United Kingd
       </div>
     </section>
   ))}
+
+  <section class="blk" style="border-bottom:0">
+    <div class="lab">Four names, normalised</div>
+    <h2 style="margin-top:.4rem">Why one town was three places</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Scilla appeared in the export three times — as <em>Scillla</em> with three l's, as
+      <em>Scilla</em> bare, and as <em>Scilla, Reggio Calabria</em> — so the map drew one dot and left
+      two empty places beside it. Soriano Calabro was spelt <em>Sorianno</em>. Both are keystrokes,
+      not claims about the family, so they are normalised when the places are built.</p>
+      <p><strong>Nothing is edited silently.</strong> Every substitution is listed here, and the
+      export itself is untouched.</p>
+    </div>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>As the export writes it</th><th>As the map needs it</th><th>Why</th></tr></thead>
+        <tbody>
+          {spellings.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.asWritten}</strong></td>
+              <td class="m">{r.corrected}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:18px"><strong>And one coordinate set by hand.</strong> Soriano
+    Calabro is not in the estate gazetteer, and asking for &ldquo;Soriano Calabro, Italy&rdquo; returns
+    <strong>Soriano nel Cimino in Lazio</strong> — four hundred kilometres north, a different town
+    with a similar name. The comune in Vibo Valentia is at 38.5969, 16.2304, and that coordinate is
+    recorded in <code>data/gazetteer-local.json</code> with its source, because <strong>a dot in the
+    wrong province is worse than no dot</strong>.</p>
+  </section>
 </Base>

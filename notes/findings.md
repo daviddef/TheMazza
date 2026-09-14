@@ -2815,3 +2815,45 @@ Two more Arlotta households in the same register: **Francesco** (six children 19
 **Where the trial stops paying.** Arena and Arlotta are too common in New York to identify from index
 rows alone, and what would separate them — the **mother's name and the godparents** in the parish
 transcripts — is the Exclusive tier. Beyond that, the remaining American work needs NARA, not FindMyPast.
+
+## 14 September 2026 — the audit of negatives, and two places that were three
+
+### Every negative in this archive, re-read for what set its window
+
+**Nine negatives audited; five had already failed.** Not because the reading was careless — each was
+a complete alphabetical section, bounded above and below — but because **the window was set by
+something soft and the search then honoured it exactly**.
+
+| sought | window | set by | out by |
+|---|---|---|---|
+| Giovanni Arena's birth | 1857–60 | a declared age (33 in 1892) | **4 years** |
+| Michele Donato's birth | 1851, 1856, 1859 | a tree date + a declared age | **1 year** |
+| Francesco Antonio × Serafina's marriage | 1858–59 | an assumed eldest child (Giuseppe 1860) | **7–9 years** |
+| Rocco × Generosa's marriage | 1885–94 | a census duration ("married ten years") | the one unread year |
+| Serafina Arlotta's birth | 1833 | a declared age (28 in 1861) | **3 years** |
+
+**The rule: a window derived from a declared age or an assumed first child must be widened by at
+least five years in both directions before a negative inside it means anything.** Ages in this
+archive run one to four years out as a matter of routine, in either direction; and "eldest child"
+has twice meant "eldest child found so far".
+
+**Four still stand and are the same shape** — Rocco Arena *di Orazio* (1856, one year, and the
+parentage it tested is now overturned anyway); Filippo Arena × Domenica Costa (1818–19, two years, on
+an assumed eldest child); **Giovanni Arlotta × Maria Costa (1829, ONE year** — the weakest in the
+archive, and he was born c.1779, so any civil-era marriage would be a *second* one); Giuseppi
+Polistena (1875, one year). Published at `/audit`, linked from `/method`.
+
+### Two places that were three, and a dot in the wrong province
+
+The export spelt Scilla three ways — **Scillla** (three l's), bare **Scilla**, and **Scilla, Reggio
+Calabria** — so the atlas drew one dot and left two empty places beside it; and **Sorianno Calabro**
+has two n's. Normalised in `tools/build_more.py` from `data/place-spellings.tsv`, listed openly on
+`/places`, export untouched.
+
+**Soriano Calabro then needed a coordinate.** It is not in the estate gazetteer, and
+"Soriano Calabro, Italy" resolves to **42.638, 12.674 — Soriano nel Cimino in Lazio**, four hundred
+kilometres north. The real comune is at **38.5969, 16.2304** (verified against OSM Nominatim, comune
+boundary, postcode 89831) and is recorded in a new `data/gazetteer-local.json`, overlaid by
+`tools/atlas.py` — **the shared kit untouched**.
+
+**Atlas: 62 placed, 0 unplaced, 354 people** — up from 61 placed with 2 unplaced.

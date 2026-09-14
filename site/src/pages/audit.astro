@@ -1,0 +1,113 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import audit from "../data/audit-negatives.json";
+const wrong = audit.filter((r) => r.outcome === "WRONG");
+const standing = audit.filter((r) => r.outcome === "STANDING");
+---
+<Base title="The Audit" eyebrow="Every negative in this archive, and what it rests on"
+      dek="Twice in one week a search that had been closed turned out to be open. So each negative was re-read — not to repeat it, but to ask what set its window. Five of nine had already failed.">
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{audit.length}</div><div class="l">negatives audited</div></div>
+      <div class="stat"><div class="n">{wrong.length}</div><div class="l">already proven wrong</div></div>
+      <div class="stat"><div class="n">{standing.length}</div><div class="l">still standing, same shape</div></div>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Why this page exists</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A negative in this archive is not a shrug. It is a claim: <em>the record is not in these
+      volumes</em>. Each one here was read properly — complete alphabetical sections, bounded above
+      and below, written up with what was in them.</p>
+      <p><strong>And five of the nine were wrong anyway.</strong> Not because the reading failed, but
+      because <strong>the window was set by something soft</strong> — a declared age, or an assumption
+      about which child came first — and the search then honoured that window exactly.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Five that failed</div>
+    <h2 style="margin-top:.4rem">Where the window came from, and how far out it was</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>What was sought</th><th class="m">Window</th><th>Set by</th>
+          <th class="m">Out by</th><th>What happened</th></tr></thead>
+        <tbody>
+          {wrong.map((r) => (
+            <tr>
+              <td><strong>{r.who}</strong></td>
+              <td class="m">{r.window}</td>
+              <td class="small">{r.setBy}</td>
+              <td class="m"><strong>{r.missBy}</strong></td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The rule that falls out of it</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Every failed window was derived from one of two things, and both are soft:</p>
+      <p style="margin-left:1.2rem"><strong>A declared age.</strong> Giovanni Arena's was three years
+      out. Serafina Arlotta's was three years out. Michele Donato's tree date was four years out. In
+      this archive ages are wrong by <strong>one to four years as a matter of routine</strong>, in
+      either direction.</p>
+      <p style="margin-left:1.2rem"><strong>An assumed eldest child.</strong> Francesco Antonio
+      Arena's marriage was hunted in 1858–59 because his "first" son was born in 1860. He married in
+      <strong>1851</strong>, and three elder children were simply unfound at the time.</p>
+      <p class="note" style="margin-top:18px"><strong>So: a window derived from a declared age or an
+      assumed first child must be widened by at least five years in both directions before a negative
+      inside it means anything.</strong> Four consecutive years were read for Giovanni Arena and the
+      answer sat four years outside them. Three were read for Michele Donato and the answer sat one
+      year outside them. <strong>A tested negative is worth more than an untested positive — but only
+      if what was tested was the right window.</strong></p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Four that still stand</div>
+    <h2 style="margin-top:.4rem">And are the same shape</h2>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th>What is sought</th><th class="m">Window</th><th>Set by</th><th>Why it is fragile</th></tr></thead>
+        <tbody>
+          {standing.map((r) => (
+            <tr>
+              <td><strong>{r.who}</strong></td>
+              <td class="m">{r.window}</td>
+              <td class="small">{r.setBy}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:18px"><strong>The weakest is Giovanni Arlotta × Maria
+    Costa</strong> — a single year, 1829, excluded on the assumption that Serafina was their first
+    child. He was born about 1779. A marriage anywhere in the civil window would make him thirty-seven
+    to fifty, which reads as a <em>second</em> marriage with the first pre-civil and parish-only. The
+    negative is true and proves almost nothing.</p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>What was also caught</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Two errors of a different kind turned up while this page was being written, and both are on
+      the pages where they belong.</p>
+      <p><strong>An identification made on a name and a year.</strong> A FindMyPast record —
+      <em>Clementina Arena, Ellis Island, 1921</em> — had sat in this archive for months and had never
+      been opened. The line above hers on the same manifest names a father and a residence four
+      hundred kilometres away. See <a href={u("/crossings")}>The Crossings</a>.</p>
+      <p><strong>A year that looked read but wasn't.</strong> Two arks in this archive's own list of
+      Scilla marriage volumes lead to <em>notificazioni</em> books rather than the marriage acts. The
+      list does not distinguish volume types, so a year can be marked read when the wrong book was
+      opened. See <a href={u("/scilla")}>Scilla</a>.</p>
+    </div>
+  </section>
+</Base>

@@ -10,7 +10,28 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "site", "node_modules",
                                 "@daviddef", "archive-kit", "kit", "tools"))
 import atlasdata
+import geocode as _geocode
 D = os.path.join(HERE, "..", "site", "src", "data")
+LOCAL_GAZ = os.path.join(HERE, "..", "data", "gazetteer-local.json")
+
+
+def gazetteer():
+    """The estate gazetteer, plus the handful of places only this archive needs.
+
+    The kit keeps the shared list and its own overrides; anything peculiar to the
+    Mazza -- a Calabrian comune too small to be in the estate file -- goes in
+    data/gazetteer-local.json rather than into the shared kit, with the reason
+    beside it.
+    """
+    gaz = _geocode.load()
+    try:
+        local = json.load(open(LOCAL_GAZ, encoding="utf-8"))
+    except FileNotFoundError:
+        return gaz
+    for k, v in local.items():
+        if not k.startswith("_"):
+            gaz[k] = v
+    return gaz
 J = lambda n: json.load(open(os.path.join(D, n), encoding="utf-8"))
 OUT = os.path.join(HERE, "..", "site", "public", "atlas-data.json")
 
@@ -44,7 +65,7 @@ def main():
                         "w": f"/people/{s}/"} for s in slugs[:12]],
             "more": max(0, len(slugs) - 12) or None,
         })
-    atlasdata.build(rows, OUT, countries=["Italia","Italy","Australia","United States","Argentina","United Kingdom","Indonesia","Fiji","South Africa","Suid-Afrika","Österreich","Austria"])
+    atlasdata.build(rows, OUT, gaz=gazetteer(), countries=["Italia","Italy","Australia","United States","Argentina","United Kingdom","Indonesia","Fiji","South Africa","Suid-Afrika","Österreich","Austria"])
 
 if __name__ == "__main__":
     sys.exit(main())

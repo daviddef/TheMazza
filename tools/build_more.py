@@ -4,6 +4,34 @@ import json, collections, re, os
 
 OUT = "site/src/data"
 P = json.load(open(f"{OUT}/people.json"))
+
+# Place names as the export spells them, and as the map needs them. A misspelling
+# is not a claim about the family, so it is normalised here rather than left to
+# split one town into two -- but every substitution is listed in
+# data/place-spellings.tsv and shown on /places, because silently editing the
+# export is exactly what this archive does not do.
+SPELLING_PART, SPELLING_WHOLE = {}, {}
+try:
+    import csv as _csv
+    for _r in _csv.DictReader(open("data/place-spellings.tsv", encoding="utf-8"), delimiter="\t"):
+        (SPELLING_WHOLE if _r.get("kind") == "whole" else SPELLING_PART)[_r["asWritten"]] = _r["corrected"]
+except FileNotFoundError:
+    pass
+
+def fixplace(name):
+    """Misspelt and under-qualified place names, normalised for the map.
+
+    Substring rules mend typos; whole-string rules merge a bare town name into
+    its fully qualified form. Typos are fixed BEFORE the whole-string test, so
+    «Scillla» becomes «Scilla» and then «Scilla, Reggio Calabria» in one pass.
+    """
+    if not name:
+        return name
+    name = name.strip()
+    for bad, good in SPELLING_PART.items():
+        if bad in name:
+            name = name.replace(bad, good)
+    return SPELLING_WHOLE.get(name, name)
 dead = [p for p in P if not p["living"]]
 by_id = {p["id"]: p for p in P}
 
@@ -14,7 +42,7 @@ for p in dead:
     for e in p.get("events", []):
         if not e["place"]:
             continue
-        d = place[e["place"]]
+        d = place[fixplace(e["place"])]
         k = {"born": "born", "died": "died", "buried": "buried"}.get(e["what"], "lived")
         d[k] += 1
         y = e["year"]

@@ -1,0 +1,83 @@
+[
+ {
+  "who": "Giovanni Arena's birth",
+  "window": "1857–1860",
+  "setBy": "A DECLARED AGE — thirty-three in his son's act of October 1892",
+  "yearsRead": "Four consecutive years, all read complete",
+  "outcome": "WRONG",
+  "missBy": "4 years",
+  "note": "The age was three years out. He was born 30 APRIL 1854, found only when his marriage act of 1885 gave a different age. Four complete years, four honest negatives, and the answer four years outside them."
+ },
+ {
+  "who": "Michele Donato's birth",
+  "window": "1851, 1856, 1859",
+  "setBy": "A TREE DATE (1851) AND A DECLARED AGE (thirty-six in 1892)",
+  "yearsRead": "Three sampled years, each read complete",
+  "outcome": "WRONG",
+  "missBy": "1 year",
+  "note": "Born 3 OCTOBER 1855 — one volume to the left of a year that had been read. Three complete D sections, three honest negatives, and nobody read 1855."
+ },
+ {
+  "who": "Francesco Antonio Arena × Serafina Arlotta's marriage",
+  "window": "1858–1859",
+  "setBy": "AN ASSUMED ELDEST CHILD — Giuseppe, born 1860",
+  "yearsRead": "Two years, read complete",
+  "outcome": "WRONG",
+  "missBy": "7–9 years",
+  "note": "They married 7 FEBRUARY 1851. The assumption failed because Filippo (1852), Domenico (1853) and Giovanni (1854) were all born before the child taken to be the first."
+ },
+ {
+  "who": "Rocco Arena × Generosa Costa's marriage",
+  "window": "1885–1894",
+  "setBy": "A CENSUS DURATION — «married ten years» in June 1900",
+  "yearsRead": "Nine years read; 1888 unreadable",
+  "outcome": "WRONG",
+  "missBy": "the one unread year",
+  "note": "They married in DECEMBER 1888. The index of that single year is water-damaged across the A entries, and the act was found only through the separate banns volume."
+ },
+ {
+  "who": "Serafina Arlotta's birth",
+  "window": "1833",
+  "setBy": "A DECLARED AGE — twenty-eight in act 228 of 1861",
+  "yearsRead": "One year",
+  "outcome": "WRONG",
+  "missBy": "3 years",
+  "note": "Born 13 JUNE 1830. The age was three years out, in the same direction as her son's."
+ },
+ {
+  "who": "Rocco Arena «di Orazio»",
+  "window": "1856",
+  "setBy": "A PARENTAGE THE TREE ASSERTS",
+  "yearsRead": "One year",
+  "outcome": "STANDING",
+  "missBy": "—",
+  "note": "One year, and the parentage it tested has since been overturned by Rocco's own marriage act. The negative is sound but it no longer tests anything."
+ },
+ {
+  "who": "Filippo Arena × Domenica Costa's marriage",
+  "window": "1818–1819",
+  "setBy": "AN ASSUMED ELDEST CHILD — Francesco Antonio, born November 1819",
+  "yearsRead": "Two years",
+  "outcome": "STANDING",
+  "missBy": "—",
+  "note": "The same shape that failed for Francesco Antonio's own marriage. If Francesco had elder siblings — and 1816–17 have no index at all — the marriage could be years earlier."
+ },
+ {
+  "who": "Giovanni Arlotta × Maria Costa's marriage",
+  "window": "1829",
+  "setBy": "AN ASSUMED ELDEST CHILD — Serafina, born June 1830",
+  "yearsRead": "ONE year",
+  "outcome": "STANDING",
+  "missBy": "—",
+  "note": "The weakest negative in the archive. And it is now known that Giovanni Arlotta was born about 1779, so a marriage in the civil window 1816–29 would make him 37–50: likely a SECOND marriage, with the first pre-civil and parish-only."
+ },
+ {
+  "who": "Giuseppi Polistena's birth",
+  "window": "1875",
+  "setBy": "A DECLARED AGE",
+  "yearsRead": "One year",
+  "outcome": "STANDING",
+  "missBy": "—",
+  "note": "One year. The P section holds two Polistena and neither is his."
+ }
+]

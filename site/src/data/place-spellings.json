@@ -1,0 +1,26 @@
+[
+ {
+  "asWritten": "Scillla",
+  "corrected": "Scilla",
+  "kind": "part",
+  "note": "Three l's. A slip of the keyboard in the export; the town is Scilla, Reggio Calabria. Left alone it made a second, empty Scilla that the atlas could not place."
+ },
+ {
+  "asWritten": "Sorianno Calabro",
+  "corrected": "Soriano Calabro",
+  "kind": "part",
+  "note": "Two n's. The comune is Soriano Calabro, Vibo Valentia — the Briatico end of the family."
+ },
+ {
+  "asWritten": "Scilla",
+  "corrected": "Scilla, Reggio Calabria",
+  "kind": "whole",
+  "note": "A third spelling of the same town, with the province left off. Merged so that one place is one place."
+ },
+ {
+  "asWritten": "Soriano Calabro",
+  "corrected": "Soriano Calabro, Vibo Valentia, Calabria",
+  "kind": "whole",
+  "note": "The province added so the gazetteer can find it. There is a Soriano nel Cimino in Lazio and a Soriano in Colombia; without the province and region the map has to guess — and every other Vibo Valentia place in this archive is written «Town, Vibo Valentia, Calabria»."
+ }
+]
