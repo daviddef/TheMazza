@@ -379,6 +379,27 @@ if os.path.exists(_dj):
     for _r in _csv.DictReader(open(_dj), delimiter="\t"):
         DOCUMENTED_JOINS.append(_r)
 
+# ---------------------------------------------------------------------------
+# HOW EACH PARENT LINK IS KNOWN
+#
+# The tree asserts a great many parents; this archive has READ the act behind
+# only some of them. data/parent-links.tsv grades the links it knows about, so
+# the blood-relatives chart can draw a register-backed parent differently from
+# one the tree merely claims. The grades are the kit's: read, index, line, tree
+# — and anything ungraded falls through to "tree", which is drawn dashed.
+#
+# A grade of "drop" REMOVES the link, both from the child's parents and from
+# the parent's children. That is for the cases where the export gives somebody
+# two complete sets of parents and only one of them can be right: the reason is
+# written on the row, and the person it is taken away from keeps it nowhere.
+# ---------------------------------------------------------------------------
+PARENT_VIA = {}
+_pl = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "parent-links.tsv")
+if os.path.exists(_pl):
+    import csv as _csv
+    for _r in _csv.DictReader(open(_pl, encoding="utf-8"), delimiter="\t"):
+        PARENT_VIA[(_r["child"].strip(), _r["parent"].strip())] = _r["via"].strip()
+
 # second pass: names that differ only by a middle name or initial
 loose = collections.defaultdict(list)
 for x in I:
@@ -608,6 +629,27 @@ for r in records:
         return [z for z in out if z]
     r["parents"], r["children"], r["spouses"] = uniq(par), uniq(ch), uniq(sp)
     r["siblings"] = uniq(sib)
+
+# Grade every parent edge, and drop the ones a row says are wrong. Children are
+# the same edges seen from the other end, so they are graded from the same key.
+for r in records:
+    kept = []
+    for pa in r["parents"]:
+        v = PARENT_VIA.get((r["slug"], pa["slug"]), "tree")
+        if v == "drop":
+            continue
+        pa["via"] = v
+        kept.append(pa)
+    r["parents"] = kept
+for r in records:
+    kept = []
+    for c in r["children"]:
+        v = PARENT_VIA.get((c["slug"], r["slug"]), "tree")
+        if v == "drop":
+            continue
+        c["via"] = v
+        kept.append(c)
+    r["children"] = kept
 
 os.makedirs(OUT, exist_ok=True)
 json.dump(records, open(f"{OUT}/people.json", "w"), indent=1, ensure_ascii=False)

@@ -29,10 +29,10 @@
  },
  {
   "surname": "Polistena",
-  "n": 45,
-  "dead": 45,
+  "n": 44,
+  "dead": 44,
   "living": 0,
-  "first": 1874,
+  "first": 1875,
   "last": 2018,
   "places": [
    "Scilla, Reggio Calabria",
@@ -92,19 +92,6 @@
   ]
  },
  {
-  "surname": "Melluso",
-  "n": 12,
-  "dead": 12,
-  "living": 0,
-  "first": 1855,
-  "last": 1994,
-  "places": [
-   "Briatico, Vibo Valentia, Calabria",
-   "Buenos Aires, Argentina",
-   "New York, New York"
-  ]
- },
- {
   "surname": "Anile",
   "n": 12,
   "dead": 12,
@@ -114,6 +101,19 @@
   "places": [
    "Briatico, Vibo Valentia, Calabria",
    "Potenzoni (Briatico), Vibo Valentia, Calabria"
+  ]
+ },
+ {
+  "surname": "Melluso",
+  "n": 11,
+  "dead": 11,
+  "living": 0,
+  "first": 1855,
+  "last": 1994,
+  "places": [
+   "Briatico, Vibo Valentia, Calabria",
+   "New York, New York",
+   "Buenos Aires, Argentina"
   ]
  },
  {

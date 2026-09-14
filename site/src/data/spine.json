@@ -152,13 +152,15 @@
    "id": "@I363@",
    "name": "Mia Josephine Mazza",
    "slug": "mia-josephine-mazza",
-   "living": false
+   "living": false,
+   "via": "tree"
   },
   {
    "id": "@I364@",
    "name": "Rocco Francesco Mazza",
    "slug": "rocco-francesco-mazza",
-   "living": false
+   "living": false,
+   "via": "tree"
   }
  ],
  "proband": {

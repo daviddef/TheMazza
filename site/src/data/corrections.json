@@ -1,5 +1,5 @@
 {
- "count": 87,
+ "count": 90,
  "documented": 74,
  "groups": [
   {
@@ -896,6 +896,48 @@
      "treeSays": "the 1849 certified copy names the second declarant SERGI",
      "recordSays": "ZUNGRI in the original act. Small, and the third time a Calabrian chancery copy has been caught drifting from the act it copied — after Pasquale Prostamo's age and Domenico Ventrice's.",
      "source": "Briatico, Morti 1831, atto 12, against its extract of 26 May 1849",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "Parentage — two people read as one",
+   "rows": [
+    {
+     "kind": "Parentage — two people read as one",
+     "who": "Maria Rosa Prostamo",
+     "slug": "maria-rosa-prostamo-1956",
+     "treeSays": "The export gave her TWO complete sets of parents: Antonio Giacomo Prostamo and Angela Tomsic, and Francesco Prostamo and Raffaela",
+     "recordSays": "ANTONIO GIACOMO PROSTAMO AND ANGELA TOMSIC. She was born at BRISBANE and married Steve Liversegle, and that is the Brisbane household — her brothers and sisters there are Tony, Kristina, Steven and Francesco. The other couple, Francesco Prostamo of Briatico and Raffaela of Catanzaro, had a daughter of the same name with a sister called Antonia. BOTH FATHERS HAD A MOTHER CALLED MARIA ROSA MELLUSO, so both couples named a daughter for her — which is how two women came to be read as one.",
+     "source": "site/src/data/people.json against the export; reasoned from birthplace, marriage and siblings, not from an act",
+     "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "Parentage — a niece taken for a daughter",
+   "rows": [
+    {
+     "kind": "Parentage — a niece taken for a daughter",
+     "who": "Mattea Prostamo",
+     "slug": "mattea-prostamo-1926",
+     "treeSays": "The export gave her TWO complete sets of parents: Francessco Prostamo and Maria Rosa Melluso, and Leone Prostamo and Anna Vallone",
+     "recordSays": "LEONE PROSTAMO AND ANNA VALLONE. Francessco (1900-1983) and Leone (b. 1902) are BROTHERS, both sons of Alfonso Prostamo and Caterina Melluso. Mattea was born at BUENOS AIRES in 1926; Anna Vallone was born at Buenos Aires and died there, and Mattea is the only child recorded to her. Francessco lived and died at BRIATICO and his seven children are the Briatico household. This archive already records a Prostamo branch at Buenos Aires with children born from 1926 — which is Mattea exactly.",
+     "source": "site/src/data/people.json against the export; reasoned from birthplace",
+     "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "Parentage — a cycle in the export",
+   "rows": [
+    {
+     "kind": "Parentage — a cycle in the export",
+     "who": "Rosario Mazza",
+     "slug": "rosario-mazza-3",
+     "treeSays": "The export made ORAZIO MAZZA both his father and his son",
+     "recordSays": "THE SECOND ORAZIO IS HIS SON, NOT A SECOND FATHER AND NOT A DUPLICATE OF THE FIRST. Rosario Mazza and Anna Cassanite named a son Orazio for his grandfather, exactly as the naming custom predicts, and the export then recorded that son in both the parents and the children. The child link stands; the parent link is removed. His father remains the Orazio Mazza born 1883 at Piedimonte Etneo, son of Rosario Mazza and Leonarda.",
+     "source": "site/src/data/people.json against the export",
      "confidence": "certain"
     }
    ]

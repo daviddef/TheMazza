@@ -1,10 +1,10 @@
 [
  {
   "comp": 1,
-  "n": 581,
+  "n": 579,
   "earliest": 1697,
   "latest": 1970,
-  "dated": 203,
+  "dated": 201,
   "towns": [
    {
     "name": "Briatico, Vibo Valentia, Calabria",
@@ -16,7 +16,7 @@
    },
    {
     "name": "Scilla, Reggio Calabria",
-    "n": 70
+    "n": 69
    },
    {
     "name": "Piedimonte Etneo, Catania, Sicily",
@@ -34,7 +34,7 @@
    },
    {
     "name": "Polistena",
-    "n": 45
+    "n": 44
    },
    {
     "name": "Arena",
@@ -53,7 +53,7 @@
     "n": 13
    },
    {
-    "name": "Melluso",
+    "name": "Anile",
     "n": 12
    }
   ],
@@ -679,15 +679,6 @@
     "died": 1931,
     "datesHidden": false,
     "birthPlace": "Mirabella Eclano, Avellino, Campania, Italy"
-   },
-   {
-    "slug": "guiseppi-polistena",
-    "name": "Guiseppi Polistena",
-    "surname": "Polistena",
-    "born": 1874,
-    "died": null,
-    "datesHidden": false,
-    "birthPlace": "Scilla, Reggio Calabria"
    },
    {
     "slug": "andrea-prostamo",
@@ -1536,15 +1527,6 @@
     "birthPlace": "Briatico, Vibo Valentia, Calabria"
    },
    {
-    "slug": "giuseppa-melluso",
-    "name": "Giuseppa Melluso",
-    "surname": "Melluso",
-    "born": 1930,
-    "died": null,
-    "datesHidden": false,
-    "birthPlace": "Buenos Aires, Argentina"
-   },
-   {
     "slug": "maria-g-prostamo",
     "name": "Maria G Prostamo",
     "surname": "Prostamo",
@@ -1635,7 +1617,7 @@
     "birthPlace": "Scilla, Reggio Calabria"
    },
    {
-    "slug": "giuseppa-melluso-1933",
+    "slug": "giuseppa-melluso",
     "name": "Giuseppa Melluso",
     "surname": "Melluso",
     "born": 1933,
@@ -5380,7 +5362,7 @@
   ]
  },
  {
-  "comp": 6,
+  "comp": 5,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5411,7 +5393,7 @@
   ]
  },
  {
-  "comp": 5,
+  "comp": 10,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5442,7 +5424,7 @@
   ]
  },
  {
-  "comp": 3,
+  "comp": 8,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5468,7 +5450,7 @@
   ]
  },
  {
-  "comp": 9,
+  "comp": 3,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5494,7 +5476,7 @@
   ]
  },
  {
-  "comp": 7,
+  "comp": 9,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5525,7 +5507,7 @@
   ]
  },
  {
-  "comp": 10,
+  "comp": 7,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5587,7 +5569,7 @@
   ]
  },
  {
-  "comp": 8,
+  "comp": 6,
   "n": 1,
   "earliest": 1930,
   "latest": 1930,
