@@ -782,12 +782,12 @@
  {
   "year": "1842–1846",
   "act": "—",
-  "name": "THE BOURBON MARRIAGE VOLUMES HAVE NO ANNUAL INDEX",
+  "name": "THE BOURBON MARRIAGE VOLUMES: 1844 HAS AN INDEX, 1845 AND 1846 DO NOT",
   "father": "—",
   "mother": "—",
   "ark": "an_ua2002583 / 2002588 / 2002591 / 2002596",
   "status": "method",
-  "note": "A PLANNING FACT WORTH MORE THAN A SINGLE ACT. Scilla's Italian-era marriage volumes (1866 onward) carry an alphabetical Indice Annuale four images from the end, which is what made the 1874, 1876, 1877 and 1899 sweeps cheap. THE BOURBON VOLUMES DO NOT. 1845 and 1846 both end at act 32 with the acts themselves and no index at all. They run ONE ACT TO AN IMAGE — the solenne promessa in the ATTO column, the church's celebration note in the INDICAZIONE column beside it — at about 32 acts a year, so a year is roughly 36 images and must be read act by act. Correct arks, since data/scilla-arks.tsv is known to be wrong here: 1842 an_ua2002583 / Lpp8dGV; 1844 an_ua2002588 / 5B6Rqek; 1845 an_ua2002591 / 04rZOPr; 1846 an_ua2002596 / LNolMyl. The 1846 volume also has a suppl. 2 and suppl. 3, and 1845 a suppl. 2, which have not been looked at."
+  "note": "CORRECTED 15 SEPTEMBER. This row first said flatly that the Bourbon-era Scilla marriage volumes carry no annual index. That is true of 1845 and 1846, which simply end at act 32 with the last act — and FALSE OF 1844, which closes with a «TAVOLA annuale alfabetica de' Matrimonj», images 52 to 56, ruled for Num. d'ordine, the SPOUSES, patria, professione, THE PARENTS, and the day of the church celebration. So the run is not uniform and each year must be looked at rather than assumed. The 1844 table is hard going: the Archivio's own cards on it read INCHIOSTRO SBIADITO and GRINZE — faded ink and creases — and it needs contrast-stretching to read at all. The volumes run ONE ACT TO AN IMAGE at about 32 acts a year. Correct arks, since data/scilla-arks.tsv is wrong here: 1842 an_ua2002583 / Lpp8dGV; 1844 an_ua2002588 / 5B6Rqek; 1845 an_ua2002591 / 04rZOPr; 1846 an_ua2002596 / LNolMyl."
  },
  {
   "year": "1845",
@@ -808,5 +808,15 @@
   "ark": "an_ua2002591",
   "status": "lead",
   "note": "AUGUST 1845, before the sindaco Gaetano Minicò. «MICHELE DONATO, di anni TRENTUNO, NATO IN MESSINA, di professione MARINARO, domiciliato in Villa, FIGLIO DI CANDELORO DONATO, di professione marinaro, e di [—] PALADINO»; he married ANGELA DE AMICO, di anni trentadue. WHY IT MATTERS AND WHY IT IS NOT PROOF: this archive's Domenico Donato is «figlio di Candeloro» in his son Michele's birth act of 1855, and here is another son of a Candeloro Donato, a marinaro like him, marrying at Scilla. If it is the same Candeloro then this Michele is DOMENICO'S BROTHER, and the Michele Donato born in 1855 was named for his uncle. THREE THINGS STOP IT BEING A JOIN: the mother here is a PALADINO and this archive does not know Domenico's mother's name; this Michele was BORN AT MESSINA and lived at Villa, not Scilla; and Scilla demonstrably held two unrelated Candeloro Donatos at once, which is the whole lesson of act 62 of 1874 against act 43 of 1877. It also dates something: «FIGLIO DI Candeloro», not «del fu», so that Candeloro was ALIVE in August 1845."
+ },
+ {
+  "year": "1844",
+  "act": "23–32",
+  "name": "the Donato sweep, part of the year",
+  "father": "—",
+  "mother": "—",
+  "ark": "an_ua2002588",
+  "status": "negative",
+  "note": "NO DONATO among entries 23 to 32 of the annual Tavola, read with the contrast stretched. The couples are Maurizio Giuseppe × Florio Fortunata; Martello Bruno × Bueti Matilde; a Bellantoni; Rossi Giuseppe × Bevilacqua Giulia; Pirri Rosa × Morabito Santo; Colamiti × Pace Antonina; Barbaro Lorenzo × Ciccone Domenica. THE REST OF THE YEAR IS NOT READ — the entries below 23 sit on images before 52 and the ones above 32 on 53R to 56, and the faded ink makes this slow. The Tavola names BOTH PARENTS of both spouses, so finishing it would settle 1844 outright."
  }
 ]
