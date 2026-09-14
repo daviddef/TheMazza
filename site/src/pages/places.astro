@@ -12,6 +12,7 @@ for (const p of places) {
   (byCountry[c] ||= []).push(p);
 }
 const order = ["Italy", "Australia", "United States", "Argentina", "United Kingdom"];
+import atlas from "../../public/atlas-data.json";
 ---
 <Base title="Places" eyebrow={`${places.length} places`}
       dek="Every place this archive can attach to a person, with the years it covers and how many events fall there.">
@@ -63,4 +64,16 @@ const order = ["Italy", "Australia", "United States", "Argentina", "United Kingd
     recorded in <code>data/gazetteer-local.json</code> with its source, because <strong>a dot in the
     wrong province is worse than no dot</strong>.</p>
   </section>
+
+<section class="blk" id="every-place">
+  <h2>Every place with a page of its own</h2>
+  <p class="dek">One page per place the atlas can put a person in, listing who was born, married or
+    buried there and what the archive read to know it. These were reachable only by clicking a marker
+    on the map, which meant a reader without JavaScript — and a search engine — could not get to any
+    of them.</p>
+  <p class="placelist">{atlas.places.filter((p) => p.slug).sort((a, b) =>
+      (a.place || a.name || "").localeCompare(b.place || b.name || "")).map((p, i) => (
+    <>{i > 0 && <span class="sep"> · </span>}<a href={u(`/places/${p.slug}/`)}>{p.place || p.name}</a></>
+  ))}</p>
+</section>
 </Base>
