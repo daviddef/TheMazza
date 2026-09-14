@@ -1,5 +1,5 @@
 {
- "count": 83,
+ "count": 85,
  "documented": 74,
  "groups": [
   {
@@ -850,6 +850,29 @@
      "treeSays": "born 1820",
      "recordSays": "BORN 2 APRIL 1814 AT PIZZO, and registered under the name ANTONIO Prostamo, act 285. A sworn act of notoriety at Briatico on 14 June 1849 establishes that the man in the 1814 register as Antonio «chiamasi effettivamente Domenico Prostamo». Six years out, and under the wrong given name.",
      "source": "Pizzo, Nati 1814, atto 285, and the atto di notorietà of 14 June 1849",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "a document against a document",
+   "rows": [
+    {
+     "kind": "a document against a document",
+     "who": "Giuseppe Ventrice",
+     "slug": "",
+     "treeSays": "his death extract of 1839 makes him «di anni TRENTA», born about 1809",
+     "recordSays": "THIRTY-THREE in June 1828, in his own words, registering his daughter's birth — so born about 1795 and about forty-four when he died. Fourteen years, between a man's own declaration and two neighbours' estimate at his funeral. This archive carries the man's own.",
+     "source": "Briatico, Nati 1828, atto 12, against Briatico, Morti 1839, atto 12",
+     "confidence": "certain"
+    },
+    {
+     "kind": "a document against a document",
+     "who": "Giovanna Ventrice",
+     "slug": "",
+     "treeSays": "her marriage act of 14 June 1849 makes her «di anni VENTUNO»",
+     "recordSays": "BORN 23 JUNE 1828, so she was TWENTY at her wedding — nine days short of twenty-one. Small, and worth keeping: it is the third time in this family that a declared age at marriage has run a year ahead of the birth act.",
+     "source": "Briatico, Nati 1828, atto 12",
      "confidence": "certain"
     }
    ]
