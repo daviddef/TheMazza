@@ -1,6 +1,17 @@
 ---
 /* <P n="Vincenzo Falco" /> — a person mentioned in the prose.
  *
+ * This file is byte-identical to Falco's copy and stays local anyway, which is
+ * worth writing down because it looks like an obvious thing to share.
+ *
+ * It is not the markup that differs, it is what the markup rests on:
+ * lib/links.js is 6.4KB in one archive and 1.6KB in the other, and the two
+ * disagree about when a name is ambiguous enough to leave unlinked. The same
+ * component therefore behaves differently in each, correctly. Sharing it would
+ * mean passing the resolver in, and there are 275 call sites between the two
+ * archives — a great deal of noise for 1.6KB.
+ *
+ *
  * Links to their page when the archive has exactly one person of that name,
  * to the filtered roster when several answer to it, to the register when there
  * is no page but there are records, and to nothing at all when the archive

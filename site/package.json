@@ -16,7 +16,7 @@
     "graves": "python3 ../tools/build_graves.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#53c08ab920046caefa88438fa190cf14a2f4ee4e",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#dcd1474",
     "astro": "^5.18.2"
   }
 }
