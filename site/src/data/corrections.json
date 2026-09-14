@@ -1,6 +1,6 @@
 {
- "count": 74,
- "documented": 70,
+ "count": 77,
+ "documented": 73,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -75,6 +75,15 @@
      "treeSays": "Not in the tree",
      "recordSays": "DOMENICO ARLOTTA, dead before April 1854, father of Giovanni Arlotta the sailor and so Serafina Arlotta's grandfather. A great-great-great-great-great-grandfather of Mia and Rocco, and the deepest person this archive has reached on the Calabrian side.",
      "source": "Scilla, Nati 1854, atto 76",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people — TWO NEW GENERATIONS",
+     "who": "Domenico Donato and Nunziata Sofi",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "Michele Donato's parents, of Scilla — he a MARINARO born about 1817, she born about 1818. And behind Domenico, his own father CANDELORO DONATO. NUNZIATA SOFI is why Michele's daughter is called Nunziata.",
+     "source": "Scilla, Nati 1855, atto 163",
      "confidence": "documented"
     }
    ]
@@ -270,6 +279,15 @@
      "treeSays": "Born 1870",
      "recordSays": "BORN 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS earlier than the tree says. This archive previously corrected him to 'about 1859' from his son's birth act of 1892, which makes him thirty-three. His MARRIAGE act of 1885 makes him THIRTY-ONE, which is 1854, and his own birth act of 1854 gives the day. The 1892 age is three years out; the birth act is the authority.",
      "source": "Scilla, Nati 1854 atto 76; Matrimoni 1885 atto 86",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth date",
+     "who": "Michele Donato",
+     "slug": "—",
+     "treeSays": "Born 1851",
+     "recordSays": "BORN 3 OCTOBER 1855 at Scilla, in his parents' own house — act 163. FOUR YEARS out. This archive had already corrected him to 'about 1856' from his daughter's act of 1892; the act itself gives the day, and the ages check exactly at both ends: thirty-six in July 1892, fifty-two in March 1908.",
+     "source": "Scilla, Nati 1855, atto 163",
      "confidence": "documented"
     }
    ]
@@ -740,6 +758,15 @@
      "treeSays": "No parents recorded",
      "recordSays": "Daughter of ANTONIO COSTA and ANNA ARLOTTA, both living at Scilla in 1888. Her mother's surname is ARLOTTA — the same as Rocco's own mother's. The two families are tied twice over.",
      "source": "Scilla, Matrimoni 1888, atto 63",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Parents -- missing entirely",
+     "who": "Michele Donato",
+     "slug": "—",
+     "treeSays": "No parents recorded",
+     "recordSays": "Son of DOMENICO DONATO, 38, MARINARO, himself the son of CANDELORO DONATO — and of NUNZIATA SOFI, 37. Three generations in one act.",
+     "source": "Scilla, Nati 1855, atto 163",
      "confidence": "documented"
     }
    ]

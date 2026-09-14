@@ -2597,3 +2597,39 @@ father was an Antonio Costa born c.1840, so a second marriage is possible but un
 Index note: in these volumes the index sits on the **right-hand page**, the left being blank — so a
 left-half crop returns nothing. Entries are grouped by initial letter and, within a letter, run in
 **act order**.
+
+## 14 September 2026 — Michele Donato, and the year nobody read
+
+**The manifest broke it open.** The New Orleans list of the *Liguria*, March 1908, is a **two-page
+form** and this archive had only ever read page one. The verso (frame 764, FamilySearch
+`3:1:33SQ-G5CH-GM1`) carries **column 29, Place of Birth**. Against **line 15 — Michele Donato** the
+clerk wrote **R. Calabria / Scilla**. Not a bulk copy of the residence column: lines 9–11 of the same
+sheet say **Tresilico**, so the clerk was distinguishing between groups.
+
+**Scilla, Nati 1855, atto 163.** 4 October 1855, 4 p.m., before **Antonino De Amico**, sindaco:
+**DOMENICO DONATO, *figlio di CANDELORO*, di anni TRENTOTTO, MARINARO**, of Scilla, presented a male
+child born to **NUNZIATA SOFI, di anni TRENTASETTE**, and to himself, on **3 October**, *nella casa di
+propria abitazione*, and named him **MICHELE**. Witnesses Candeloro Benedetto, 31, *pastaro*; Rocco
+Pizzarello, 32, *fabbro*.
+
+→ **Three generations in one act**: Michele ← **Domenico Donato** (b. c.1817, *marinaro*) ←
+**Candeloro Donato**.
+→ **Ages exact at both ends**: 36 in July 1892 (act 162) and 52 in March 1908 (manifest). The tree's
+1851 is **four years out**.
+→ **His mother was a SOFI** — Nunziata Sofi — and he married **Maria Sofi**. Tied twice. And he named
+his daughter **Nunziata** for his own mother, exactly as custom predicts for a first daughter.
+→ The **Donato Candeloro** who marries at Scilla in 1874 and again in 1877 is very likely a grandson
+named for the same Candeloro.
+
+### Why it took a fortnight, and it was this archive's fault
+
+The tree said 1851, so 1851 was read. The daughter's act said thirty-six, so 1856 was read, and 1859
+for good measure. **The one year nobody read was 1855.** Three complete D sections, three honest
+negatives, and the act was one volume to the left the whole time.
+
+**The rule: a declared age is a range, and a range has to be read across, not sampled.** Three points
+inside a window are not a search of the window.
+
+**Calibration, Scilla Nati 1855** (container `LqAr1OG`, 129 images): Tavola at 123–127, alphabetical
+by **surname**, with columns *Num. d'ordine | Nati | Patria | **both parents** | Giorno*. Acts: two to
+an opening, `act = 115 + 2*(image − 60)`.

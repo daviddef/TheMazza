@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 74 items, 70 of them resting on a document that has been read.
+For **Michael Mazza**. 77 items, 73 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -33,7 +33,7 @@ inference any more.
 - **Francesco Antonio Arena**, b. 25 November 1819, *marinaro* × **Serafina Arlotta**, b. 13 June 1830
 - and Rocco's three elder brothers — Filippo (1852), Domenico (1853), Giuseppe (1860)
 
-In all, **22 documented people** are missing from your export.
+In all, **25 documented people** are missing from your export.
 
 **4. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
 **Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)** — two of
@@ -93,6 +93,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** Not in the tree
 - **The record says:** DOMENICO ARLOTTA, dead before April 1854, father of Giovanni Arlotta the sailor and so Serafina Arlotta's grandfather. A great-great-great-great-great-grandfather of Mia and Rocco, and the deepest person this archive has reached on the Calabrian side.
 - **Source:** Scilla, Nati 1854, atto 76
+
+### Domenico Donato and Nunziata Sofi
+
+- **The tree says:** Not in the tree
+- **The record says:** Michele Donato's parents, of Scilla — he a MARINARO born about 1817, she born about 1818. And behind Domenico, his own father CANDELORO DONATO. NUNZIATA SOFI is why Michele's daughter is called Nunziata.
+- **Source:** Scilla, Nati 1855, atto 163
 
 
 ## Parentage
@@ -223,6 +229,12 @@ Mazza by six, Rosario Mazza by five.
 - **The record says:** BORN 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS earlier than the tree says. This archive previously corrected him to 'about 1859' from his son's birth act of 1892, which makes him thirty-three. His MARRIAGE act of 1885 makes him THIRTY-ONE, which is 1854, and his own birth act of 1854 gives the day. The 1892 age is three years out; the birth act is the authority.
 - **Source:** Scilla, Nati 1854 atto 76; Matrimoni 1885 atto 86
 
+### Michele Donato
+
+- **The tree says:** Born 1851
+- **The record says:** BORN 3 OCTOBER 1855 at Scilla, in his parents' own house — act 163. FOUR YEARS out. This archive had already corrected him to 'about 1856' from his daughter's act of 1892; the act itself gives the day, and the ages check exactly at both ends: thirty-six in July 1892, fifty-two in March 1908.
+- **Source:** Scilla, Nati 1855, atto 163
+
 
 ## Death date
 
@@ -288,6 +300,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** No parents recorded
 - **The record says:** Daughter of ANTONIO COSTA and ANNA ARLOTTA, both living at Scilla in 1888. Her mother's surname is ARLOTTA — the same as Rocco's own mother's. The two families are tied twice over.
 - **Source:** Scilla, Matrimoni 1888, atto 63
+
+### Michele Donato
+
+- **The tree says:** No parents recorded
+- **The record says:** Son of DOMENICO DONATO, 38, MARINARO, himself the son of CANDELORO DONATO — and of NUNZIATA SOFI, 37. Three generations in one act.
+- **Source:** Scilla, Nati 1855, atto 163
 
 
 ## Missing people
