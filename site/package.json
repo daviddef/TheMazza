@@ -8,7 +8,7 @@
     "atlas": "python3 ../tools/atlas.py",
     "build": "npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:kit",
     "preview": "astro preview --port 4326",
-    "sitemap": "python3 ../tools/sitemap.py",
+    "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "searchindex": "python3 ../tools/searchindex.py",
     "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist dist",
     "check:living": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkliving.py --dist dist --data src/data --policy named-bare",
@@ -16,7 +16,7 @@
     "graves": "python3 ../tools/build_graves.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#071a4f1",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#0c37408",
     "astro": "^5.18.2"
   }
 }
