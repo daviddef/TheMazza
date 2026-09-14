@@ -2702,3 +2702,15 @@ which fits a couple not yet married.
 
 **Scilla birth-Tavola containers added:** 1840 `5gGpk7y`, 1842 `58rKdQN`, 1844 `LNolOVK`, 1846
 `5B6RYYo`, 1848 `wkd4Dee`.
+
+**1847 also read and negative** — its D section is one line, De Marco Rocco.
+
+**What remains is not all unread; some is unreadable.** 1835–37 and 1848–54 unopened. **1842 and
+1844 were opened and are bad**: both carry *inchiostro sbiadito* and *tight binding* slips with the
+D section in the gutter. They need the **acts** by margin scan, not the index.
+
+**A trap in this archive's own ark list:** the 1845 and 1846 arks in `data/scilla-arks.tsv` lead to
+**notificazioni** volumes, not the marriage acts. Scilla has two or three volumes a year in this
+series and the list does not distinguish them — so a year can look read when the wrong book was
+opened. Worth auditing the whole file before the next sweep.
+
