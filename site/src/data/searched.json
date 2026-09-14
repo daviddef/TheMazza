@@ -702,8 +702,15 @@
  {
   "status": "done",
   "when": "15 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1846: the first year of the narrowed window",
+  "source": "Antenati — Scilla, Matrimoni 1846, read entire",
   "scope": "Candeloro Donato was born about 1847, so his parents married in 1847 or earlier; 1838-41, 1843 and 1847 were already negative, leaving 1842, 1844, 1845 and 1846. Correct arks found for all four — the ones in data/scilla-arks.tsv lead to notificazioni volumes and are wrong.",
-  "result": "ACTS 2 TO 19 OF 1846 READ, NO DONATO AND NO SOFI. Acts 20 to 32 still to read. AND THE STRUCTURAL FINDING THAT MATTERS MORE: the Bourbon-era Scilla marriage volumes carry NO ANNUAL INDEX. The Italian-era ones from 1866 have an alphabetical Indice Annuale four images from the end, which is what made this week's 1874, 1876, 1877 and 1899 sweeps cheap; 1845 and 1846 simply end at act 32 with the last act. One act to an image, about 32 acts a year. So the four remaining years are roughly 150 acts that must be read one by one, and should be budgeted as such rather than as index work."
+  "result": "1846 IS A COMPLETE NEGATIVE. All thirty-two acts read, one to an image: no Donato groom and no Sofi bride in any of them. Every bride is listed in scilla-reads so the year need never be opened again. THREE YEARS LEFT in the window — 1842, 1844 and 1845 — and they must be read act by act, because the Bourbon volumes carry no annual index where the Italian-era ones from 1866 do."
+ },
+ {
+  "status": "done",
+  "when": "15 Sep 2026",
+  "source": "Antenati — Scilla, Matrimoni 1845, read entire",
+  "scope": "Thirty-two acts, one to an image, read for both spouses and their parents.",
+  "result": "NEGATIVE FOR THE TARGET — no Domenico Donato, no Nunziata Sofi. Two of the four years in the window are now closed, 1845 and 1846; 1842 and 1844 remain. BUT THE YEAR HOLDS A DONATO WORTH KEEPING: act 31, August 1845, MICHELE DONATO, 31, BORN AT MESSINA, marinaro, living at Villa, «FIGLIO DI CANDELORO DONATO, marinaro, e di [—] PALADINO», marrying Angela de Amico. Recorded as a LEAD and explicitly not a join — the mother is a Paladino and this archive has no mother for Domenico; the man was born at Messina; and Scilla is proven to have held two unrelated Candeloro Donatos at once. It does establish that a Candeloro Donato was ALIVE in August 1845, the act saying «figlio di» and not «del fu»."
  }
 ]
