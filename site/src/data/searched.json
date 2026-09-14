@@ -551,5 +551,19 @@
   "source": "The Pizzo cholera register of 1837, wherever it now is",
   "scope": "Acts 209 to at least 327, July to December 1837. Not in Antenati's Pizzo holdings.",
   "result": "It would be at the Archivio di Stato di Catanzaro or with the comune. It holds Antonino Prostamo's act as written, and the names of something over a hundred more people the epidemic took in one small town in six months."
+ },
+ {
+  "status": "done",
+  "when": "14 Sep 2026",
+  "source": "Antenati — Zambrone, Morti: the 1815 act cannot be read",
+  "scope": "Opened an_ua37932358 (Morti 1811-1839, container w9dp62r, 234 images) — Zambrone's ONLY pre-unification death volume — and mapped every year in it by sampling the act headers end to end.",
+  "result": "THE VOLUME RUNS 1811, THEN 1812 TWICE (Zambrone proper and SAN GIOVANNI, a frazione that kept its own register), AND THEN JUMPS STRAIGHT TO 1822. Verified monotonic from there: 1822 at image 40, 1824 at 74, 1825 at 80, 1826 at 90, 1829 at 108, 1830 at 120, 1831 at 145, 1833 at 170, 1835 at 195, 1838 at 220, 1839 at 232. THE YEARS 1813 TO 1821 ARE NOT IN IT, and Antenati's Zambrone holdings then stop until 1911. So Domenico Ventrice's act — 40 of 13 January 1815 — has no original this archive can open. For the second time in one day, a certified extract in the Briatico marriage bundle is the ONLY readable text of an act."
+ },
+ {
+  "status": "not-yet",
+  "when": "",
+  "source": "Zambrone, Morti 1813-1821, wherever they are",
+  "scope": "Nine years missing from the digitised volume.",
+  "result": "At the Archivio di Stato di Catanzaro or with the comune. They hold Domenico Ventrice's act as written, and would settle whether he was fifty or fifty-eight."
  }
 ]

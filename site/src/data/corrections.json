@@ -1,5 +1,5 @@
 {
- "count": 82,
+ "count": 83,
  "documented": 74,
  "groups": [
   {
@@ -805,6 +805,15 @@
      "recordSays": "CATERINA MAJO. The surname is Majo in the original register AND in the 1849 certified extract, compared side by side. The earlier reading was mine and it was wrong.",
      "source": "Pizzo, Morti 1829, atto 7, and its certified extract in Briatico Matrimoni processetti 1849-1854",
      "confidence": "certain"
+    },
+    {
+     "kind": "my own reading",
+     "who": "Domenico Ventrice",
+     "slug": "",
+     "treeSays": "this archive published «aged 50» on 14 September 2026",
+     "recordSays": "FIFTY-EIGHT, most likely — born about 1757. The 1849 copyist crams two ages into one clause; the fifty-eight stands next to his trade and the fifty next to his wife's name. The ambiguity is in the document and is recorded rather than hidden.",
+     "source": "Zambrone, Morti 1815, atto 40 — the certified extract of 26 May 1849",
+     "confidence": "probable"
     }
    ]
   },
