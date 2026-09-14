@@ -1,0 +1,33 @@
+---
+/* The Atlas. The map is the kit's; what is here is this archive's own
+   geography — its categories, the ground it opens over, and the places file
+   it was built from. */
+import Base from "../layouts/Base.astro";
+import Atlas from "@daviddef/archive-kit/components/Atlas.astro";
+import { u } from "../lib/url.js";
+import data from "../../public/atlas-data.json";
+const s = data.stats;
+---
+<Base title="The Atlas"
+      eyebrow={`${s.places} places on the map${s.unplaced ? ` · ${s.unplaced} without a coordinate` : ""}`}
+      dek="Every place this archive can put a person in: two Calabrian towns, one Sicilian one, and the Brisbane parish where all four quarters finally met.">
+
+  <Atlas
+    dataUrl={u("/atlas-data.json")}
+    cats={[
+      ["sicily", "Piedimonte Etneo and Sicily", "#975A1B"],
+      ["calabria", "Briatico, Scilla and Calabria", "#A8442B"],
+      ["au", "Brisbane", "#1F5C6B"],
+      ["away", "New York and beyond", "#2E7C8C"],
+      ["other", "Elsewhere", "#6E6A86"],
+    ]}
+    bounds={[[36.5, 12.5], [41.0, 17.5]]}
+    homeLabel="Back to the south"
+    placeholder="Briatico · Scilla · Piedimonte Etneo · Nudgee"
+    hint={`${s.withPeople} of the ${s.places} places carry at least one person.`}
+  >
+    <p class="cap" style="margin-top:6px">A marker is a place this archive can put a person in.
+    <strong>Weight is not kinship</strong> — a parish may hold a great many of the surname and be
+    connected to this family by nothing at all.{s.approx ? ` ${s.approx} of these coordinates are approximate: the gazetteer matched a larger place, or a modern name, rather than the exact parish.` : ""}</p>
+  </Atlas>
+</Base>
