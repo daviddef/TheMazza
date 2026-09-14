@@ -446,5 +446,33 @@
   "source": "The Mount Gravatt burial records",
   "scope": "Brisbane City Council's cemetery search covers Mount Gravatt as the Nudgee endpoint covers Nudgee.",
   "result": "Plots 607 and 608 are known. The adjoining plots on either side are not, and at Nudgee it was the neighbouring plots that joined families to each other."
+ },
+ {
+  "status": "done",
+  "when": "14 Sep 2026",
+  "source": "Antenati — Briatico, Matrimoni 1840-1849 and 1853",
+  "scope": "Every page of every volume read by cropping the parroco's certificate box, which names both spouses, and montaging them.",
+  "result": "THE MARRIAGE WAS FOUND. Briatico 1849 ATTO 1, 14 June: DOMENICO PROSTAMO marries GIOVANNA VENTRICE. Thirteen years of Briatico marriages were read to reach it — 1840 to 1848 hold no Prostamo at all, and neither do 1850, 1851, 1852 or 1854, read earlier. The act names ANTONINO PROSTAMO and MARIA FRAGALÀ, and says Domenico was born at PIZZO."
+ },
+ {
+  "status": "not-yet",
+  "when": "",
+  "source": "Antenati — Pizzo, the registers",
+  "scope": "Domenico Prostamo was born at Pizzo about 1813; his mother Maria Fragalà was still living there in 1849; and the family tree puts his grandfather Pasquale's death at Pizzo on 4 January 1829.",
+  "result": "THE FAMILY IS A PIZZO FAMILY, NOT A BRIATICO ONE. Every hour spent on Briatico births and on Potenzoni was spent in the wrong comune. Pizzo's own registers at the Archivio di Stato di Catanzaro have not been opened once."
+ },
+ {
+  "status": "not-yet",
+  "when": "",
+  "source": "Antenati — Briatico, Matrimoni allegati 1849",
+  "scope": "The processetti filed with atto 1 of 1849.",
+  "result": "The act says the groom produced his father's AND his paternal grandfather's death certificates, and the bride hers. Four death records and probably two birth records are sitting in that bundle, and they would date Antonino Prostamo's death and reach the third generation."
+ },
+ {
+  "status": "done",
+  "when": "14 Sep 2026",
+  "source": "Antenati — Potenzoni, in hindsight",
+  "scope": "Opened on the reasoning that three Prostamo-free years of Briatico births meant the family was in the frazione.",
+  "result": "THE REASONING WAS WRONG AND THE NEGATIVE WAS RIGHT. They were not at Potenzoni either; they were at Pizzo. Recorded because the mistake is instructive: an absence was read as evidence for a specific alternative rather than as evidence of absence, and the right move would have been to find a document that says where they were — which is what the marriage act eventually did. The Potenzoni mapping is kept; it is good work on a comune this family does not appear to belong to."
  }
 ]
