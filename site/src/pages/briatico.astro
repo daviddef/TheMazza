@@ -13,6 +13,57 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       dek="The deepest line in this archive, and the one that does not carry the surname. A small comune on the Tyrrhenian coast of Calabria that sent its people to three different continents.">
 
   <section class="blk">
+    <div class="lab">14 September 2026</div>
+    <h2 style="margin-top:.4rem">The fourth quarter is online, and it is the largest holding this
+    archive has</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>This quarter has had <strong>no register work behind it at all</strong>. The Prostamo
+      descent is eight generations deep in the family tree and <strong>documented in one of them</strong>
+      — Domenico Prostamo, and only because his son's marriage papers named him. Everything above is
+      marked <em>untested</em> because nobody had looked.</p>
+      <p>There was nothing to stop them. The Archivio di Stato di Catanzaro has
+      <strong>five hundred and fifty-five volumes</strong> for Briatico on Antenati, with
+      <strong>Potenzoni</strong> — where this family also appears — catalogued separately.</p>
+
+      <div class="rec" style="margin-top:18px">
+        <div class="k">From</div><div class="v"><strong>1806</strong>, and civil registration proper
+        from <strong>1809</strong> under the French</div><div class="w">before Scilla</div>
+        <div class="k">Nati</div><div class="v">Napoleonic 1809–1815, then restaurazione from 1816 —
+        <strong>sequential</strong>: <code>ark(Y) = an_ua87718 + (Y − 1816)</code></div>
+        <div class="w">86 volumes</div>
+        <div class="k">Matrimoni</div><div class="v">1840–1858 — <code>ark(Y) = an_ua87654 + (Y −
+        1840)</code> — <strong>then nothing until 1911</strong></div><div class="w">88 volumes</div>
+        <div class="k">Morti</div><div class="v">91 volumes, untouched</div><div class="w">—</div>
+        <div class="k">Processetti</div><div class="v"><strong>72 volumes</strong> of the papers filed
+        with each marriage — including the spouses' own birth certificates</div>
+        <div class="w">untouched</div>
+      </div>
+
+      <p style="margin-top:1.2rem"><strong>The gap explains something.</strong> Alfonso Prostamo
+      married Caterina Melluso on <strong>21 May 1887</strong> — squarely inside the 1859–1910 hole —
+      which is why this archive has that act from FamilySearch and not from Antenati.</p>
+      <p><strong>And generations 4 and 5 are inside the civil era.</strong> Antonino Prostamo, born
+      about 1785, and Domenico, about 1820, are both reachable in principle. That is the first time
+      anything in this quarter has been reachable at all.</p>
+
+      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The first read: 1820, and the tree is
+      wrong or the year is</h3>
+      <p>The tree dates Domenico Prostamo to <strong>1820</strong> and gives no source. That year has
+      now been read entire. <strong>Briatico is a small place</strong> — twenty-seven births in the
+      whole of 1820 — and its annual Tavola is <strong>alphabetised by the child's given name</strong>,
+      the same trap this archive met at Scilla in 1818, where a search under the surname finds nothing
+      and proves nothing.</p>
+      <p>Read under <strong>D</strong>, the year holds exactly one Domenico: <strong>Insanni
+      Domenico</strong>, <em>figlio naturale</em>, born 27 May. <strong>Not a Prostamo.</strong></p>
+      <p class="note" style="margin-top:18px">So the tree's 1820 is now a <strong>tested
+      negative</strong> rather than an untested assertion — and by this archive's
+      <a href={u("/audit")}>own audit rule</a>, a year taken from an undocumented tree date has to be
+      widened by at least five years before that negative means anything. 1818, 1819, 1821 and 1822
+      are next, and the whole run 1816–1830 costs about one image a year.</p>
+    </div>
+  </section>
+
+  <section class="blk">
     <div class="grid g3">
       <div class="stat"><div class="n">{here.length}</div><div class="l">people recorded at Briatico or its hamlets</div></div>
       <div class="stat"><div class="n">{pl.first || "1697"}</div><div class="l">the earliest birth the archive can name here</div></div>

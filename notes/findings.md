@@ -2857,3 +2857,38 @@ boundary, postcode 89831) and is recorded in a new `data/gazetteer-local.json`, 
 `tools/atlas.py` — **the shared kit untouched**.
 
 **Atlas: 62 placed, 0 unplaced, 354 people** — up from 61 placed with 2 unplaced.
+
+## 14 September 2026 — Briatico: the fourth quarter opened
+
+**It was never blocked, only unlooked-at.** The Prostamo descent is eight generations deep in the
+tree and documented in **one** of them. The Archivio di Stato di Catanzaro has **555 volumes for
+Briatico** on Antenati, with **Potenzoni** catalogued separately.
+
+**Civil registration in Calabria begins in 1809**, under the French — seven years before Scilla — and
+Briatico's Napoleonic *Nati*, *Matrimoni* and *Morti* all survive from that year. **Generations 4 and
+5 are inside the civil era**: Antonino Prostamo (c.1785) and Domenico (c.1820).
+
+**Two ark formulas, both verified:**
+- **Nati** restaurazione: `ark(Y) = an_ua87718 + (Y − 1816)`
+- **Matrimoni** restaurazione: `ark(Y) = an_ua87654 + (Y − 1840)`
+
+Full map in `data/briatico-arks.tsv`. Series: Nati 86 vols, Matrimoni 88, Morti 91, **Matrimoni
+processetti 72** (the spouses' own birth certificates, filed with the marriage — untouched).
+
+**A gap that explains something.** Marriages run **1840–1858 and then stop until 1911**. Alfonso
+Prostamo married Caterina Melluso on **21 May 1887**, squarely inside it — which is why that act
+comes to this archive from FamilySearch and not Antenati.
+
+**First read: Briatico, Nati 1820 — the tree's year for Domenico Prostamo — NEGATIVE.**
+Twenty-seven births in the whole year. The Tavola is **alphabetised by the child's GIVEN name**, the
+same trap as Scilla 1818. Under **D** the year holds one Domenico: **Insanni Domenico, *figlio
+naturale*, 27 May**. Not a Prostamo.
+
+So the tree's 1820 is now a *tested* negative rather than an untested assertion — and by this
+archive's own audit rule, an undocumented tree date must be widened five years each way before that
+negative means anything. **1818, 1819, 1821, 1822 are fetched and unread**; the run 1816–1830 costs
+about one image a year.
+
+**Shape of the registers here:** a small comune — 27 births a year, and *one* marriage in the whole
+of 1850, four in 1851, four in 1852, three in 1854. Whole years can be read at a glance, which makes
+this quarter cheap to sweep once started.
