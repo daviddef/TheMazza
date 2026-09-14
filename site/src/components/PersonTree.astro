@@ -17,6 +17,7 @@ import { u } from "../lib/url.js";
 import { bySlug } from "../lib/people.js";
 import disputed from "../data/disputed.json";
 import PersonTree from "@daviddef/archive-kit/components/PersonTree.astro";
+import "@daviddef/archive-kit/styles/persontree.css";
 
 const { person: p } = Astro.props;
 
@@ -74,7 +75,7 @@ const row = (e, mark) => ({
 ---
 <PersonTree
   self={{ name: p.name, dates: dates(p),
-          gen: p.ancGen ? `${p.ancGen} above the children` : "",
+          gen: p.ancGen ? `generation ${p.ancGen} above the children` : "",
           note: p.datesHidden ? "dates withheld — 80 or younger" : "", noteCls: "living" }}
   parents={parents.map((e) => row(e, "disputed"))}
   spouses={spouses.map((e) => row(e, true))}
