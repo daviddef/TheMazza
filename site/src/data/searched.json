@@ -621,5 +621,12 @@
   "source": "Antenati — Briatico 1862, and Alfonso Prostamo's birth",
   "scope": "anno=1862 on localita=Briatico.",
   "result": "NOTHING. The comune's registers stop in 1858 and do not resume until 1911, which this archive already knew for marriages and now knows for births. Alfonso Prostamo, born about 1862, has no birth act to open — his age is fixed only by his own marriage papers of 1886 and 1887."
+ },
+ {
+  "status": "done",
+  "when": "14 Sep 2026",
+  "source": "Queensland BDM — the complete MAZZA and MELLUSO surname sets",
+  "scope": "Ran the registrar's download endpoint with exactTermsFamilynameOnly=true on MAZZA and on MELLUSO, and tested the fathersname/mothersname fields properly.",
+  "result": "SEVENTEEN MAZZA REGISTRATIONS IN THE WHOLE INDEX — this archive held six. The eleven new ones are added, among them a MARIO MAZZA born 1900 whose parents are named at last (Rosario Mazza and Rosa Grasso), which turns the unjoined «Mario and Peppina» household into a named family; and an ANGELA MAZZA, born a CRUPI, who is a candidate for the unidentified Angela buried beside Rosario at Nudgee. MELLUSO returns exactly ONE registration in the entire index, so Gregorio Melluso has NO SIBLINGS OR CHILDREN recorded in Queensland. A METHOD CORRECTION WORTH KEEPING: the fathersname and mothersname fields RANK results, they do not FILTER them. Searching a parent's name alone returns an unfiltered hundred rows of strangers; the fields only bite when combined with a subject surname, and even then they only sort. Test them on a known case before believing a result."
  }
 ]
