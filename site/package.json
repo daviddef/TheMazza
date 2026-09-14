@@ -17,7 +17,7 @@
     "check:links": "python3 ../tools/check_links.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#558267d384f49640d69bb49f309b58b1309e23a2",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#2c3eef3b56afdbc5c02f8d0f5421483968b63391",
     "astro": "^5.18.2"
   }
 }
