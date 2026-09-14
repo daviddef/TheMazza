@@ -6,17 +6,18 @@
   "scripts": {
     "dev": "astro dev --port 4326",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:kit",
+    "build": "npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:kit",
     "preview": "astro preview --port 4326",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "searchindex": "python3 ../tools/searchindex.py",
     "check:kit": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkarchive.py --dist dist",
     "check:living": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkliving.py --dist dist --data src/data --policy named-bare",
     "searched": "python3 ../tools/build_searched.py",
-    "graves": "python3 ../tools/build_graves.py"
+    "graves": "python3 ../tools/build_graves.py",
+    "check:links": "python3 ../tools/check_links.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#2f97d5d15322a0b27419950ff57c1890b5b8743e",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#558267d384f49640d69bb49f309b58b1309e23a2",
     "astro": "^5.18.2"
   }
 }
