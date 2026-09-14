@@ -1,6 +1,6 @@
 {
- "count": 77,
- "documented": 73,
+ "count": 78,
+ "documented": 74,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -735,6 +735,15 @@
      "treeSays": "No marriage recorded",
      "recordSays": "MARRIED 12 SEPTEMBER 1885 at Scilla, act 73. He 25, marinaro, son of FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA; she 24, filatrice, daughter of PAOLO MARTELLO -- ALREADY LIVING IN AMERICA IN 1885 -- and GIOVANNA CHIRICO.",
      "source": "Scilla, Matrimoni 1885, atto 73",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Marriage -- missing entirely",
+     "who": "Rocco Arlotta",
+     "slug": "—",
+     "treeSays": "Not in the tree at all",
+     "recordSays": "MARRIED ANTONIETTA TAVANI on 4 JUNE 1900 in MANHATTAN, aged twenty-two. Son of ANTONIO ARLOTTA and NICOLINA CARATOZZOLA. He is the Arlotta lodging with Rocco Arena in the census of that same month — one of the five supports for the Arena parentage correction, and until now only an age and a surname.",
+     "source": "FindMyPast, United States Marriages — FS/MAR/39104980/1",
      "confidence": "documented"
     }
    ]

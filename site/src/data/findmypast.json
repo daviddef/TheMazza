@@ -64,5 +64,41 @@
   "what": "FindMyPast — the session is signed out",
   "result": "The trial has lapsed or the cookie is gone; findmypast.co.uk now offers 'Start free trial'.",
   "note": "Attempted again on 13 September 2026, three days before the trial was due to expire. The site is SIGNED OUT and the GraphQL endpoint redirects to auth.findmypast.com. Logging in needs the account holder's own credentials, which this archive does not handle. WHAT IS STILL WANTED THERE, if anyone signs in again: Rocco Arlotta in the New York records (the 1900 lodger, whose age fits nothing found so far); Giovanni Arena's arrival and naturalisation papers; the 1905 and 1915 NEW YORK STATE censuses, which would place the household between the 1900 federal census and the return to Scilla; and the Queensland electoral rolls for Sebastiano and Domenica. NOTE ALSO that FindMyPast has already given this archive things no free index has -- the Our Lady of Loretto baptisms of Serafina (1898) and Clementina (1901), and CLEMENTINA ARENA'S 1921 ELLIS ISLAND CROSSING, which the Statue of Liberty index does not surface at all."
+ },
+ {
+  "kind": "FOUND",
+  "what": "Rocco Arlotta — THE 1900 LODGER, IDENTIFIED",
+  "result": "Married ANTONIETTA TAVANI, 4 June 1900, Manhattan. Aged 22, born 1878. Father ANTONIO ARLOTTA, mother NICOLINA CARATOZZOLA.",
+  "note": "The Arlotta lodging with Rocco Arena in the 1900 census -- 'Rocco Arlotta, 23' -- was one of the five circumstantial supports for this archive's correction of the Arena parentage, and until now he was only an age and a surname. FindMyPast's United States Marriages index gives him whole: ROCCO ARLOTTA, 22, born 1878, married ANTONIETTA TAVANI, 19, on 4 JUNE 1900 IN MANHATTAN -- the same month the census enumerated him under Rocco Arena's roof. His father was ANTONIO ARLOTTA and his mother NICOLINA CARATOZZOLA; hers Giovanni Tavani and Peppina Fusto. THIS ALSO CLOSES A NEAR MISS. This archive had two candidate arrivals from the Statue of Liberty index -- 16 May 1898 aged 32 and 5 May 1904 -- and neither fitted the census age. The 1898 man, born about 1866, is somebody else. The lodger is the man born 1878. AND HE STAYED. The New York Roman Catholic parish index has a Rocco Arlotta baptising children at OUR LADY OF LORETTO in 1905 and 1908 -- the same Manhattan parish where Rocco Arena's daughters Serafina and Clementina were baptised. He is not a stranger boarding with strangers; he is part of the same Scilla colony in the same few streets. NOTE: his father is ANTONIO, not the GIOVANNI ARLOTTA who is Serafina's father, so he is not her nephew. A cousin is likelier, and untested."
+ },
+ {
+  "kind": "FOUND",
+  "what": "Our Lady of Loretto — the Scilla colony in one Manhattan parish",
+  "result": "Eighty-four Arena baptisms in the New York Roman Catholic parish index, with the father's given name against each.",
+  "note": "The index rows are readable even where the transcripts are not, and they show a community rather than a family. At OUR LADY OF LORETTO alone the Arena fathers are ROCCO, GIOVANNI, ROSARIO, MICHELE, FELICE, PIETRO, MARIANO, IGNAZIO, ANGELO, VINCENZO, GIACOMO and AURELIO. THREE OF ROCCO ARENA'S OWN CHILDREN ARE THERE: Antonio, born 1896; Serafina, born 1898; Clementina, born 1900 and baptised 1901. AND TWO THAT MAY BE HIS BROTHER'S. An ANGELICA ARENA, born and baptised 1900, father entered as GIOVANNIE; and a MICHELA ARENA, born 1908, father GIOVANNI. Giovanni Arena, Rocco's brother, landed in May 1899 and was lodging with Rocco in June 1900. If either child is his, he did not go straight home -- and the family tree has neither. RECORDED AS A LEAD: the index gives no mother, and there are several Giovanni Arena in the same parish register."
+ },
+ {
+  "kind": "PAYWALL",
+  "what": "The New York Roman Catholic parish transcripts — STILL LOCKED, and now precisely so",
+  "result": "The Catholic Heritage Archive is an EXCLUSIVE-tier collection, above the trial.",
+  "note": "Worth stating exactly, because it is the single richest unopened seam for the American years. The index -- names, years, parish, father's given name -- is free and has been harvested. THE TRANSCRIPT ITSELF, which carries the MOTHER'S NAME and the GODPARENTS, is behind the 'Everything' subscription and returns an Upgrade page on the trial. GODPARENTS ARE THE PRIZE. In a southern Italian emigrant parish they are almost always kin, and they would settle at one stroke whether the Giovanni Arena of 1900 is Rocco's brother, and who the Arlotta in the household were."
+ },
+ {
+  "kind": "NEGATIVE",
+  "what": "Rocco Arena in the 1910 US census — confirmed absent from a second index",
+  "result": "Zero results.",
+  "note": "This archive had already found him missing from the 1910 census. FindMyPast's index agrees. The family had gone back to Scilla by then, which is what the 1913 crossing and Clementina's 1921 return both imply."
+ },
+ {
+  "kind": "NEGATIVE",
+  "what": "Domenica Prostamo's 1951 voyage — absent from a SECOND index",
+  "result": "Australia, Inward, Outward & Coastal Passenger Lists 1826-1972 holds five Prostamo and she is not among them.",
+  "note": "The NAA index does not have her; nor does FindMyPast's. The five Prostamo in the set are the same five this archive already knew -- Caterina 1969, Domenico F 1956, Francesca 1957, Francesco 1957, Rocco 1949. And a search of the same set for MAZZA arrivals between 1949 and 1953 returns NOTHING AT ALL, which suggests the set's coverage of Queensland in those years is thin rather than that she is missing from it. Two independent indexes failing the same way is a coverage problem, not a research one."
+ },
+ {
+  "kind": "NEGATIVE",
+  "what": "The Australian Mazza sets do not reach this family",
+  "result": "Queensland parish burials hold two Mazza, neither ours.",
+  "note": "Australia, Parish Deaths & Burials 1814-2014 has an Angelo Mazza (1925-1992) and a Helen Mazza (1885-1928) in Queensland. Sebastiano Mazza, who died in 2002 and is buried at Nudgee in plot V-1026, is not in it. The Queensland Mazza of the electoral rolls and timber licences -- Toowoomba and Drayton in the 1870s, Tully in 1959 -- are a different and much older migration than this family's, which begins in 1949."
  }
 ]

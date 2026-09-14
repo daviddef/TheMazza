@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 77 items, 73 of them resting on a document that has been read.
+For **Michael Mazza**. 78 items, 74 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -33,7 +33,7 @@ inference any more.
 - **Francesco Antonio Arena**, b. 25 November 1819, *marinaro* × **Serafina Arlotta**, b. 13 June 1830
 - and Rocco's three elder brothers — Filippo (1852), Domenico (1853), Giuseppe (1860)
 
-In all, **25 documented people** are missing from your export.
+In all, **26 documented people** are missing from your export.
 
 **4. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
 **Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)** — two of
@@ -285,6 +285,12 @@ Mazza by six, Rosario Mazza by five.
 - **The tree says:** No marriage recorded
 - **The record says:** MARRIED 12 SEPTEMBER 1885 at Scilla, act 73. He 25, marinaro, son of FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA; she 24, filatrice, daughter of PAOLO MARTELLO -- ALREADY LIVING IN AMERICA IN 1885 -- and GIOVANNA CHIRICO.
 - **Source:** Scilla, Matrimoni 1885, atto 73
+
+### Rocco Arlotta
+
+- **The tree says:** Not in the tree at all
+- **The record says:** MARRIED ANTONIETTA TAVANI on 4 JUNE 1900 in MANHATTAN, aged twenty-two. Son of ANTONIO ARLOTTA and NICOLINA CARATOZZOLA. He is the Arlotta lodging with Rocco Arena in the census of that same month — one of the five supports for the Arena parentage correction, and until now only an age and a surname.
+- **Source:** FindMyPast, United States Marriages — FS/MAR/39104980/1
 
 
 ## Parents -- missing entirely

@@ -2633,3 +2633,45 @@ inside a window are not a search of the window.
 **Calibration, Scilla Nati 1855** (container `LqAr1OG`, 129 images): Tavola at 123–127, alphabetical
 by **surname**, with columns *Num. d'ordine | Nati | Patria | **both parents** | Giorno*. Acts: two to
 an opening, `act = 115 + 2*(image − 60)`.
+
+## 14 September 2026 — FindMyPast, while the trial lasts (2 days left)
+
+**The lodger has a name and a wedding.** *United States Marriages*: **ROCCO ARLOTTA, 22, born 1878**,
+married **ANTONIETTA TAVANI, 19**, in **Manhattan on 4 June 1900** — the same month the census
+enumerated him at Rocco Arena's address. Father **ANTONIO ARLOTTA**, mother **NICOLINA CARATOZZOLA**;
+her parents Giovanni Tavani and Peppina Fusto. (`FS/MAR/39104980/1`)
+
+→ Closes the near miss: the Ellis arrival of 16 May 1898 aged 32 is **a third man**; the lodger's own
+crossing is still unfound.
+→ His father is **Antonio**, not the **Giovanni Arlotta** who was Serafina's father — **so he is not
+her nephew.** A cousin is likelier and untested.
+→ **He stayed**: a Rocco Arlotta baptises children at **Our Lady of Loretto** in 1905 and 1908.
+
+**Our Lady of Loretto is a town in exile.** 84 Arena baptisms in the NY Roman Catholic index; at
+Loretto alone the Arena fathers are **Rocco, Giovanni, Rosario, Michele, Felice, Pietro, Mariano,
+Ignazio, Angelo, Vincenzo, Giacomo, Aurelio**. Rocco's own: **Antonio 1896, Serafina 1898, Clementina
+1900/bapt 1901**. And two leads: **Angelica Arena** b./bapt 1900, father *Giovannie*; **Michela
+Arena** b.1908, father *Giovanni*. Giovanni Arena landed May 1899 and was with Rocco in June 1900 —
+if either child is his he did not go straight home. **Lead, not finding**: no mother in the index,
+several Giovanni Arena in the register.
+
+**The precise shape of the paywall.** The Catholic Heritage Archive is **Exclusive tier**, above this
+trial: index rows free, **transcripts locked**. The transcripts carry the **mother's name and the
+godparents** — and godparents in a southern Italian emigrant parish are almost always kin. That is
+the single richest unopened seam for the American years, and it needs a full subscription, not more
+searching.
+
+**Negatives, each now confirmed by a second index.**
+- Rocco Arena, **1910 US census** — absent.
+- **Domenica Prostamo's 1951 voyage** — absent from *Australia, Inward, Outward & Coastal Passenger
+  Lists*, which holds the same five Prostamo the NAA index does. And **no Mazza arrival 1949–53 at
+  all** in that set, which reads as thin Queensland coverage rather than a missing person. Two
+  indexes failing identically is a coverage problem, not a research one.
+- **Australian Mazza sets do not reach this family.** Queensland parish burials hold an Angelo
+  (1925–92) and a Helen (1885–1928); Sebastiano, who died in 2002, is not there. The Queensland Mazza
+  of the electoral rolls and timber licences — Toowoomba and Drayton in the 1870s, Tully 1959 — are a
+  different and older migration than this family's, which begins in 1949.
+
+**Method:** FindMyPast's site search is URL-driven — `/search/results?datasetname=…&lastname=…` — and
+the result rows scrape straight out of `tbody tr`. Transcripts are **client-rendered**: fetching the
+URL returns only the SSR shell, so they must be navigated to.
