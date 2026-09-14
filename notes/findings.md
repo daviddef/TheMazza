@@ -2791,3 +2791,27 @@ second index agreeing with the Statue of Liberty record where the image shows he
 household.* Reading the neighbours is what gave the 1913 nephew and what exposed the Clementina
 error. Search URLs: `sourcecategory=travel+%26+migration` works where `datasetname=…passenger…`
 returns nothing.
+
+### The trial, third pass — naming custom does the proving
+
+**Rocco Arlotta's children at Our Lady of Loretto: NICOLINA 1901, ANTONIO 1903, PEPPINA 1904.**
+His marriage act gives his father **Antonio**, his mother **Nicolina Caratozzola**, his wife's mother
+**Peppina Fusto**. First daughter ← paternal grandmother; first son ← paternal grandfather; second
+daughter ← maternal grandmother. **Three for three**, from three free index rows — and it proves the
+1900 lodger, the June 1900 bridegroom and the Loretto father are one man.
+
+Two more Arlotta households in the same register: **Francesco** (six children 1901–11) and
+**Giovanni** (Maria Carmela 1896).
+
+**Two absences that argue.**
+- **Rocco Arena has no naturalisation petition in this collection**, though entered as *US Citizen* on
+  the manifests of 1900 *and* 1913. The set begins too late; his declaration is in an earlier New York
+  court series — NARA New York, not a subscription site.
+- **Antonio Arena, b. Manhattan 4 October 1896, is not in the New York WWI draft registrations.** He
+  was a citizen and should have been. With Rocco absent from the 1910 census and sailing *without*
+  Generosa in 1913, it reads one way: **the family had gone back to Italy and taken the children.**
+  The boy born in Manhattan was at Scilla when his own country called him up.
+
+**Where the trial stops paying.** Arena and Arlotta are too common in New York to identify from index
+rows alone, and what would separate them — the **mother's name and the godparents** in the parish
+transcripts — is the Exclusive tier. Beyond that, the remaining American work needs NARA, not FindMyPast.
