@@ -455,18 +455,18 @@
   "result": "THE MARRIAGE WAS FOUND. Briatico 1849 ATTO 1, 14 June: DOMENICO PROSTAMO marries GIOVANNA VENTRICE. Thirteen years of Briatico marriages were read to reach it — 1840 to 1848 hold no Prostamo at all, and neither do 1850, 1851, 1852 or 1854, read earlier. The act names ANTONINO PROSTAMO and MARIA FRAGALÀ, and says Domenico was born at PIZZO."
  },
  {
-  "status": "not-yet",
-  "when": "",
+  "status": "done",
+  "when": "14 Sep 2026",
   "source": "Antenati — Pizzo, the registers",
   "scope": "Domenico Prostamo was born at Pizzo about 1813; his mother Maria Fragalà was still living there in 1849; and the family tree puts his grandfather Pasquale's death at Pizzo on 4 January 1829.",
-  "result": "THE FAMILY IS A PIZZO FAMILY, NOT A BRIATICO ONE. Every hour spent on Briatico births and on Potenzoni was spent in the wrong comune. Pizzo's own registers at the Archivio di Stato di Catanzaro have not been opened once."
+  "result": "ANSWERED, AND IT IS A WALL. Pizzo's holdings on Antenati contain ONLY the restaurazione fondo and BEGIN IN 1823 — tested on 1812, 1814, 1818 and 1822, all empty, and on 1823, which returns four volumes. Pasquale Prostamo's death act of January 1829 was read. Domenico Prostamo's birth act of 1814 and Antonino Prostamo's marriage cannot be opened at all."
  },
  {
-  "status": "not-yet",
-  "when": "",
+  "status": "done",
+  "when": "14 Sep 2026",
   "source": "Antenati — Briatico, Matrimoni allegati 1849",
   "scope": "The processetti filed with atto 1 of 1849.",
-  "result": "The act says the groom produced his father's AND his paternal grandfather's death certificates, and the bride hers. Four death records and probably two birth records are sitting in that bundle, and they would date Antonino Prostamo's death and reach the third generation."
+  "result": "DONE THE SAME DAY. The bundle is an_ua37921205 (Matrimoni processetti 1849-1854, container LDnmr1B) and its first file is Domenico Prostamo's. It gave Antonino Prostamo's death in the 1837 cholera register, a certified copy of Pasquale's death act filed as the groom's avo paterno, Domenico's own birth extract under the name ANTONIO, the atto di notorieta reconciling the two names, and two Ventrice death extracts."
  },
  {
   "status": "done",
@@ -628,5 +628,26 @@
   "source": "Queensland BDM — the complete MAZZA and MELLUSO surname sets",
   "scope": "Ran the registrar's download endpoint with exactTermsFamilynameOnly=true on MAZZA and on MELLUSO, and tested the fathersname/mothersname fields properly.",
   "result": "SEVENTEEN MAZZA REGISTRATIONS IN THE WHOLE INDEX — this archive held six. The eleven new ones are added, among them a MARIO MAZZA born 1900 whose parents are named at last (Rosario Mazza and Rosa Grasso), which turns the unjoined «Mario and Peppina» household into a named family; and an ANGELA MAZZA, born a CRUPI, who is a candidate for the unidentified Angela buried beside Rosario at Nudgee. MELLUSO returns exactly ONE registration in the entire index, so Gregorio Melluso has NO SIBLINGS OR CHILDREN recorded in Queensland. A METHOD CORRECTION WORTH KEEPING: the fathersname and mothersname fields RANK results, they do not FILTER them. Searching a parent's name alone returns an unfiltered hundred rows of strangers; the fields only bite when combined with a subject surname, and even then they only sort. Test them on a known case before believing a result."
+ },
+ {
+  "status": "done",
+  "when": "14 Sep 2026",
+  "source": "Nudgee register against the Queensland index — the Angela beside Rosario",
+  "scope": "Matched the Nudgee Catholic cemetery register on interment date against the Queensland death index, for the unnamed Angela in plot V-0116.",
+  "result": "IDENTIFIED. Nudgee interred ANGELA MAZZA on 13 January 1973 in V-0116; the Queensland index registers her death on 10 January 1973 and names her parents FRANCESCO CRUPI and MARIA VECCHIO. Plot V-0116 adjoins V-0117, where ROSARIO MAZZA (1899-1986) lies — and adjacent plots at Nudgee have meant a married pair every time this archive has tested it. So Rosario's wife has a maiden name at last. It does NOT settle the 1949 marriage of a Rosario Mazza to Annie Vergina Di Mauro: either that is another Rosario or this one married twice, and nothing found so far decides it."
+ },
+ {
+  "status": "correction",
+  "when": "14 Sep 2026",
+  "source": "Queensland BDM — my own count of what was new",
+  "scope": "Deduplicated data/qld-bdm.tsv after today's sweep.",
+  "result": "I SAID ELEVEN NEW MAZZA REGISTRATIONS AND IT WAS EIGHT. Three of the seven rows I added — Angela Mazza, Josephine Mazza and Andrea Mazza — were already in this file from earlier work, and I wrote them in again. The duplicates are merged and the file is back to twenty-five rows. The seventeen-in-the-index figure stands; my arithmetic on what was new did not."
+ },
+ {
+  "status": "done",
+  "when": "14 Sep 2026",
+  "source": "Antenati — Scilla, Matrimoni 1876 and 1877: the hunt for Michele Donato's marriage",
+  "scope": "His eldest son was born in 1878, so the marriage should fall about 1876-77. Both annual indexes read entire; the one Donato found was opened in full.",
+  "result": "STILL NOT FOUND, and one false lead closed. 1876 holds NO Donato on either side of any marriage. 1877 holds exactly one — DONATO CANDELORO, 31, marinaro, marrying ANNA MARIA BOVA on 16 September, act 43 — and the act names his father as the late ANTONINO Donato. Michele's father was DOMENICO Donato, figlio di Candeloro, so by the naming custom a Candeloro Donato marrying in 1877 looked exactly like his elder brother. It is a different household. CANDELORO IS A RECURRING DONATO GIVEN NAME AT SCILLA and cannot be used as a fingerprint. 1874, 1875 and 1878 are mapped with containers and unread."
  }
 ]

@@ -19,7 +19,7 @@
   "mother": "Maria Concetta Nicotra",
   "spouse": "—",
   "who": "rosario-mazza-1899",
-  "note": "Gives Maria Nicotra's full name. Confirms Rosario as another son. Matches the Nudgee interment of 22 March 1986, plot V-0117."
+  "note": "Gives Maria Nicotra's full name. Confirms Rosario as another son. Matches the Nudgee interment of 22 March 1986, plot V-0117. His wife is now named: ANGELA MAZZA, born CRUPI, in the adjoining plot V-0116, dead 10 January 1973."
  },
  {
   "type": "death",
@@ -162,7 +162,7 @@
   "mother": "—",
   "spouse": "—",
   "who": "",
-  "note": "The index gives the father's surname and no given name. No link shown."
+  "note": "The index gives only the surname for the father and a dash for the mother. Carried because the surname list is now complete and this is one of its seventeen."
  },
  {
   "type": "death",
@@ -173,7 +173,7 @@
   "mother": "Consantina Grufrith",
   "spouse": "—",
   "who": "",
-  "note": "A Mazzaglia by birth, a Mazza by marriage. Note Mazzaglia again — the same surname the 1924 groom married."
+  "note": "Born a MAZZAGLIA and died a MAZZA. The Mazzaglia surname already runs through this index beside the Mazza — Mario Mazza married Peppina Mazzaglia in 1924 — so the two families married more than once."
  },
  {
   "type": "death",
@@ -183,8 +183,8 @@
   "father": "Francesco Crupi",
   "mother": "Maria Vecchio",
   "spouse": "—",
-  "who": "",
-  "note": "A Crupi by birth. No link shown."
+  "who": "angela-mazza",
+  "note": "THE ANGELA BURIED BESIDE ROSARIO, IDENTIFIED. This archive has carried an unnamed «Angela» in plot V-0116 at Nudgee with no parentage and no dates, next to ROSARIO MAZZA (1899-1986) in V-0117. The Nudgee register interred her on 13 JANUARY 1973; the Queensland index registers her death on 10 JANUARY 1973. Three days, one woman. So she was born a CRUPI, daughter of FRANCESCO CRUPI and MARIA VECCHIO, and by this archive's own rule — adjacent plot numbers mean a married pair — she was Rosario's wife. IT SHARPENS RATHER THAN SETTLES THE OTHER QUESTION: a Rosario Mazza married ANNIE VERGINA DI MAURO on 8 January 1949. Either that is a different Rosario, or this one married twice. Nothing here decides which."
  },
  {
   "type": "death",
@@ -243,17 +243,6 @@
  },
  {
   "type": "death",
-  "date": "10 January 1973",
-  "name": "Angela Mazza",
-  "reg": "1973/B/38514",
-  "father": "Francesco Crupi",
-  "mother": "Maria Vecchio",
-  "spouse": "—",
-  "who": "",
-  "note": "A LEAD ON A STANDING QUESTION. This archive has an unresolved «Angela» buried beside Rosario Mazza at Nudgee, and no parentage for her. Here is an Angela who died a MAZZA and was born a CRUPI, daughter of Francesco Crupi and Maria Vecchio. Whether she is the Nudgee Angela is UNTESTED — the burial register and this index have not been matched on a date."
- },
- {
-  "type": "death",
   "date": "1 November 1988",
   "name": "Giovanni Mazza (b. 1958)",
   "reg": "1988/9150",
@@ -273,28 +262,6 @@
   "spouse": "—",
   "who": "",
   "note": "Another household new to this archive: STEFANO MAZZA and GRAZIA GUARERRA. No join shown."
- },
- {
-  "type": "death",
-  "date": "22 February 1978",
-  "name": "Josephine Mazza",
-  "reg": "1978/B/84966",
-  "father": "Bastiano Mazzaglia",
-  "mother": "Consantina Grufrith",
-  "spouse": "—",
-  "who": "",
-  "note": "Born a MAZZAGLIA and died a MAZZA. The Mazzaglia surname already runs through this index beside the Mazza — Mario Mazza married Peppina Mazzaglia in 1924 — so the two families married more than once."
- },
- {
-  "type": "death",
-  "date": "31 July 1975",
-  "name": "Andrea Mazza",
-  "reg": "1975/C/4171",
-  "father": "Mazza",
-  "mother": "—",
-  "spouse": "—",
-  "who": "",
-  "note": "The index gives only the surname for the father and a dash for the mother. Carried because the surname list is now complete and this is one of its seventeen."
  },
  {
   "type": "—",
