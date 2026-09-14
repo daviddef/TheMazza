@@ -1,0 +1,81 @@
+---
+/* Our line, drawn.
+
+   This archive knew its own shape and had never drawn it. people.json has
+   pointed at parents since the day it was written; ancestors.json counts how
+   much of each generation has been found. Between them they describe a chart
+   exactly, and until now the site described it in prose instead.
+
+   The whole depth is drawn — ten generations, and no branch cut for room. So
+   every ending here is a real ending, and the wall list is the true list of
+   what this archive does not know rather than a list of what would not fit. */
+import Base from "../layouts/Base.astro";
+import AncChart from "@daviddef/archive-kit/components/AncChart.astro";
+import { lineage } from "@daviddef/archive-kit/lib/ahnen.js";
+import { u } from "../lib/url.js";
+import people from "../data/people.json";
+import anc from "../data/ancestors.json";
+
+const byId = new Map(people.map((p) => [p.id, p]));
+
+/* The export names both parents but does not say which is which, so the
+   parent's own record is asked. A household with two recorded fathers and no
+   mother would lose one; there is none. */
+const parentsOf = (r) => {
+  const ps = (r.parents || []).map((x) => byId.get(x.id)).filter(Boolean);
+  return { f: ps.find((p) => p.sex === "M") || null,
+           m: ps.find((p) => p.sex === "F") || null };
+};
+
+const root = lineage(byId.get("@I1@"), {
+  parentsOf,
+  place: (r) => r.birthPlace || "",
+  /* The archive hides a presumed-living person's dates already; the chart
+     treats that as living outright, which also takes the birthplace. */
+  living: (r) => !!r.living || !!r.presumedLiving,
+  conf: (r) => (r.living || r.presumedLiving ? "living"
+                : (r.sources && r.sources.length) ? "doc" : "lore"),
+  extra: (r) => ({ slug: r.slug }),
+});
+
+const personHref = (b) => (b.slug ? u(`/people/${b.slug}/`) : null);
+
+let drawn = 0, doc = 0, walls = 0, deepest = 0;
+(function count(x, g = 0) {
+  if (!x) return;
+  if (x.wall) { walls++; return; }
+  drawn++; if (x.conf === "doc") doc++;
+  if (g > deepest) deepest = g;
+  count(x.f, g + 1); count(x.m, g + 1);
+})(root);
+
+/* What the chart cannot show: how many people each generation ought to
+   contain. The tenth generation has room for 512 and holds one. */
+const gens = anc.generations.filter((g) => g.found);
+const last = gens[gens.length - 1];
+---
+<Base title="Our line, drawn"
+      eyebrow={`${drawn} people, ${deepest + 1} generations, ${walls} walls`}
+      dek="Frank Mazza's ancestry as a single chart — every branch followed to the end of what is known, with nothing cut to make it fit.">
+
+  <section class="blk">
+    <p class="prose">The <a href={u("/direct-line/")}>direct line</a> tells this as prose and
+    <a href={u("/lines/")}>The Four Quarters</a> takes the branches one at a time. This is all
+    of it at once, which shows the thing neither of those can: how quickly a family tree stops
+    being a tree and becomes a handful of threads.</p>
+
+    <p class="prose">There are <strong>{drawn}</strong> people here across
+    <strong>{deepest + 1}</strong> generations, and <strong>{walls}</strong> branches that end.
+    A tenth generation has room for 512 people; this one holds {last ? last.found : 0}. That is
+    not a failing of the research so much as the ordinary shape of a Sicilian and Calabrian
+    line whose parish registers are read one book at a time.</p>
+  </section>
+
+  <AncChart root={root} personHref={personHref} />
+
+  <section class="blk">
+    <p class="prose dim">How much of each generation has been found, set against how much could
+    exist, is on <a href={u("/trees/")}>the trees</a>. The towns these people came from are on
+    <a href={u("/places/")}>Places</a>.</p>
+  </section>
+</Base>
