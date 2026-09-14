@@ -159,5 +159,12 @@
   "detail": "Tested for Catania (Piedimonte Etneo) and now for Catanzaro (Briatico). Neither is in it. Worth recording so nobody tries it a third time. Antenati has a NAME index -- /search-nominative/ -- built by volunteers over a subset of its holdings, and where it exists it turns a register sweep into a single query. IT DOES NOT COVER THE PROVINCE OF CATANIA: 11,632 indexed Mazza and not one from Piedimonte Etneo or anywhere in the province. AND IT DOES NOT COVER CATANZARO: searches for PROSTAMO, MELLUSO and VENTRICE return no Briatico and no Potenzoni at all -- Prostamo returns nothing whatever. SO BOTH HALVES OF THIS FAMILY MUST BE READ RATHER THAN SEARCHED, comune by comune and year by year, off the annual Tavole. That is the whole method of this archive and now it is a tested conclusion rather than an assumption.",
   "source": "Antenati, /search-nominative/ — tested 13 and 14 September 2026",
   "status": "documented"
+ },
+ {
+  "who": "Mariano Mazza",
+  "what": "the M block of the annual death index, Piedimonte Etneo",
+  "detail": "1877, 1878 and 1879 read entire — the alphabetical Indice Annuale at the back of each volume.",
+  "source": "Piedimonte Etneo, Morti 1877 (an_ua83450), 1878 (an_ua83451), 1879 (an_ua83452) — Archivio di Stato di Catania",
+  "status": "negative"
  }
 ]
