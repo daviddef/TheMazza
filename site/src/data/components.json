@@ -1,7 +1,7 @@
 [
  {
   "comp": 1,
-  "n": 579,
+  "n": 577,
   "earliest": 1697,
   "latest": 1970,
   "dated": 201,
@@ -30,7 +30,7 @@
    },
    {
     "name": "Prostamo",
-    "n": 84
+    "n": 82
    },
    {
     "name": "Polistena",
@@ -2625,15 +2625,6 @@
     "birthPlace": "Buenos Aires, Argentina"
    },
    {
-    "slug": "domenica-prostamo-1960",
-    "name": "Domenica Prostamo",
-    "surname": "Prostamo",
-    "born": null,
-    "died": null,
-    "datesHidden": true,
-    "birthPlace": "Buenos Aires, Argentina"
-   },
-   {
     "slug": "domenica-rita-mazza",
     "name": "Domenica Rita Mazza",
     "surname": "Mazza",
@@ -3310,15 +3301,6 @@
    },
    {
     "slug": "giuseppe-prostamo-1957",
-    "name": "Giuseppe Prostamo",
-    "surname": "Prostamo",
-    "born": null,
-    "died": null,
-    "datesHidden": true,
-    "birthPlace": "Buenos Aires, Argentina"
-   },
-   {
-    "slug": "giuseppe-prostamo-1958",
     "name": "Giuseppe Prostamo",
     "surname": "Prostamo",
     "born": null,
@@ -5362,7 +5344,7 @@
   ]
  },
  {
-  "comp": 5,
+  "comp": 10,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5393,7 +5375,7 @@
   ]
  },
  {
-  "comp": 10,
+  "comp": 9,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5424,7 +5406,7 @@
   ]
  },
  {
-  "comp": 8,
+  "comp": 5,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5476,7 +5458,7 @@
   ]
  },
  {
-  "comp": 9,
+  "comp": 6,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5507,7 +5489,7 @@
   ]
  },
  {
-  "comp": 7,
+  "comp": 4,
   "n": 1,
   "earliest": null,
   "latest": null,
@@ -5538,7 +5520,7 @@
   ]
  },
  {
-  "comp": 4,
+  "comp": 7,
   "n": 1,
   "earliest": 1927,
   "latest": 1927,
@@ -5569,7 +5551,7 @@
   ]
  },
  {
-  "comp": 6,
+  "comp": 8,
   "n": 1,
   "earliest": 1930,
   "latest": 1930,

@@ -1,21 +1,21 @@
 {
  "stats": {
   "exported": 614,
-  "people": 596,
-  "duplicates": 18,
+  "people": 592,
+  "duplicates": 22,
   "unresolvedNames": 58,
   "suppressLiving": false,
   "living": 0,
-  "presumedLiving": 414,
-  "written": 596,
+  "presumedLiving": 411,
+  "written": 592,
   "withDeath": 68,
-  "datesHidden": 133,
+  "datesHidden": 131,
   "ageThreshold": 80,
-  "deceased": 596,
+  "deceased": 592,
   "families": 212,
   "sources": 39,
   "components": [
-   581,
+   577,
    7,
    1,
    1,
@@ -112,6 +112,15 @@
    "why": "names differing only by a middle name or initial — the same full death date (15 February 2012)"
   },
   {
+   "name": "Giuseppi Polistena",
+   "year": 1875,
+   "kept": "@I139@",
+   "dropped": [
+    "@I130@"
+   ],
+   "why": "documented join — THE EXPORT HOLDS THIS MAN TWICE, one letter apart: «Guiseppi Polistena» born 1874 at Scilla (@I130@) and «Giuseppi Polistena» born 1875 at Scilla (@I139@). The …"
+  },
+  {
    "name": "Giuseppa D'Ascoli",
    "year": 1876,
    "kept": "@I131@",
@@ -121,6 +130,15 @@
    "why": "same name and same birth year"
   },
   {
+   "name": "Giuseppa Melluso",
+   "year": 1933,
+   "kept": "@I194@",
+   "dropped": [
+    "@I202@"
+   ],
+   "why": "documented join — THE EXPORT HOLDS THIS WOMAN TWICE, born at BUENOS AIRES in 1930 (@I202@) and 1933 (@I194@). Again the evidence is internal. THEIR CHILDREN ARE THE SAME THREE PE…"
+  },
+  {
    "name": "Teresa Prostamo",
    "year": 1955,
    "kept": "@I195@",
@@ -128,6 +146,24 @@
     "@I203@"
    ],
    "why": "same name and same birth year"
+  },
+  {
+   "name": "Giuseppe Prostamo",
+   "year": 1957,
+   "kept": "@I196@",
+   "dropped": [
+    "@I204@"
+   ],
+   "why": "documented join — THE SAME HOUSEHOLD IS IN THE EXPORT TWICE, and this is the son of it. The two runs are consecutive — @I194@ to @I197@ and @I202@ to @I205@ — and each holds a Gi…"
+  },
+  {
+   "name": "Domenica Prostamo",
+   "year": 1959,
+   "kept": "@I197@",
+   "dropped": [
+    "@I205@"
+   ],
+   "why": "documented join — The fourth and last pair of the duplicated Buenos Aires household — see the Giuseppe Prostamo row above, which sets out the two consecutive runs @I194@-@I197@ a…"
   },
   {
    "name": "Carmela Collia",

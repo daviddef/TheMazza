@@ -1757,7 +1757,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 10,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1793,7 +1793,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1829,7 +1829,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 5,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -15243,20 +15243,6 @@
     "slug": "domenica-prostamo-1959",
     "living": false,
     "via": "tree"
-   },
-   {
-    "id": "@I204@",
-    "name": "Giuseppe Prostamo",
-    "slug": "giuseppe-prostamo-1958",
-    "living": false,
-    "via": "tree"
-   },
-   {
-    "id": "@I205@",
-    "name": "Domenica Prostamo",
-    "slug": "domenica-prostamo-1960",
-    "living": false,
-    "via": "tree"
    }
   ],
   "spouses": [
@@ -15330,18 +15316,6 @@
     "name": "Domenica Prostamo",
     "slug": "domenica-prostamo-1959",
     "living": false
-   },
-   {
-    "id": "@I204@",
-    "name": "Giuseppe Prostamo",
-    "slug": "giuseppe-prostamo-1958",
-    "living": false
-   },
-   {
-    "id": "@I205@",
-    "name": "Domenica Prostamo",
-    "slug": "domenica-prostamo-1960",
-    "living": false
    }
   ],
   "records": [],
@@ -15381,6 +15355,13 @@
     "id": "@I194@",
     "name": "Giuseppa Melluso",
     "slug": "giuseppa-melluso",
+    "living": false,
+    "via": "tree"
+   },
+   {
+    "id": "@I199@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1928",
     "living": false,
     "via": "tree"
    }
@@ -15438,6 +15419,13 @@
     "id": "@I194@",
     "name": "Giuseppa Melluso",
     "slug": "giuseppa-melluso",
+    "living": false,
+    "via": "tree"
+   },
+   {
+    "id": "@I199@",
+    "name": "Alfonso Prostamo",
+    "slug": "alfonso-prostamo-1928",
     "living": false,
     "via": "tree"
    }
@@ -15588,16 +15576,16 @@
     "via": "tree"
    },
    {
-    "id": "@I204@",
+    "id": "@I196@",
     "name": "Giuseppe Prostamo",
-    "slug": "giuseppe-prostamo-1958",
+    "slug": "giuseppe-prostamo-1957",
     "living": false,
     "via": "tree"
    },
    {
-    "id": "@I205@",
+    "id": "@I197@",
     "name": "Domenica Prostamo",
-    "slug": "domenica-prostamo-1960",
+    "slug": "domenica-prostamo-1959",
     "living": false,
     "via": "tree"
    }
@@ -15705,134 +15693,6 @@
   "children": [],
   "spouses": [],
   "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
- },
- {
-  "id": "@I204@",
-  "slug": "giuseppe-prostamo-1958",
-  "name": "Giuseppe Prostamo",
-  "given": "Giuseppe",
-  "surname": "Prostamo",
-  "sex": "M",
-  "living": false,
-  "presumedLiving": true,
-  "comp": 1,
-  "datesHidden": true,
-  "born": null,
-  "died": null,
-  "events": [
-   {
-    "what": "born",
-    "tag": "BIRT",
-    "date": "",
-    "year": null,
-    "place": "Buenos Aires, Argentina"
-   }
-  ],
-  "birthPlace": "Buenos Aires, Argentina",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "parents": [
-   {
-    "id": "@I199@",
-    "name": "Alfonso Prostamo",
-    "slug": "alfonso-prostamo-1928",
-    "living": false,
-    "via": "tree"
-   },
-   {
-    "id": "@I194@",
-    "name": "Giuseppa Melluso",
-    "slug": "giuseppa-melluso",
-    "living": false,
-    "via": "tree"
-   }
-  ],
-  "children": [],
-  "spouses": [],
-  "siblings": [
-   {
-    "id": "@I195@",
-    "name": "Teresa Prostamo",
-    "slug": "teresa-prostamo",
-    "living": false
-   },
-   {
-    "id": "@I205@",
-    "name": "Domenica Prostamo",
-    "slug": "domenica-prostamo-1960",
-    "living": false
-   }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
- },
- {
-  "id": "@I205@",
-  "slug": "domenica-prostamo-1960",
-  "name": "Domenica Prostamo",
-  "given": "Domenica",
-  "surname": "Prostamo",
-  "sex": "F",
-  "living": false,
-  "presumedLiving": true,
-  "comp": 1,
-  "datesHidden": true,
-  "born": null,
-  "died": null,
-  "events": [
-   {
-    "what": "born",
-    "tag": "BIRT",
-    "date": "",
-    "year": null,
-    "place": "Buenos Aires, Argentina"
-   }
-  ],
-  "birthPlace": "Buenos Aires, Argentina",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "parents": [
-   {
-    "id": "@I199@",
-    "name": "Alfonso Prostamo",
-    "slug": "alfonso-prostamo-1928",
-    "living": false,
-    "via": "tree"
-   },
-   {
-    "id": "@I194@",
-    "name": "Giuseppa Melluso",
-    "slug": "giuseppa-melluso",
-    "living": false,
-    "via": "tree"
-   }
-  ],
-  "children": [],
-  "spouses": [],
-  "siblings": [
-   {
-    "id": "@I195@",
-    "name": "Teresa Prostamo",
-    "slug": "teresa-prostamo",
-    "living": false
-   },
-   {
-    "id": "@I204@",
-    "name": "Giuseppe Prostamo",
-    "slug": "giuseppe-prostamo-1958",
-    "living": false
-   }
-  ],
   "records": [],
   "corrections": [],
   "onSpine": false,
@@ -29553,7 +29413,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29589,7 +29449,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 4,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29771,7 +29631,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 4,
+  "comp": 7,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -29814,7 +29674,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 8,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
