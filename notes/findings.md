@@ -2682,8 +2682,15 @@ The obvious next act after the 1855 birth: it would name **Candeloro Donato's wi
 Sofi's parents**, two more couples on a direct line. Both were born c.1817–18, so the marriage is
 most likely **1838–1848**.
 
-**Read complete and negative: 1838, 1839, 1840, 1841.** Small years — 14, 26, 20, 19 marriages — and
-the D section of each runs to two or three lines. No Donato groom.
+**Read complete and negative: 1838, 1839, 1840, 1841, 1843.** Small years — 14, 26, 20, 19 marriages
+— and the D section of each runs to two or three lines. **No Domenico Donato groom.**
+
+**But 1843 gives something else.** Act 11: **DONATO ANTONIO** of Scilla, *«figlio di **BRUNO**»*,
+marries **ANTONIA LANZA** of Catona, daughter of Antonio and Caterina Martello. A Donato whose father
+is **Bruno** — and a **Donato Bruno** marries at Scilla in 1878. **There are at least two Donato
+lines in this town**: the *Bruno* line and the *Candeloro* line Michele descends from. Telling them
+apart will matter, and it explains why the Donato marriages of 1874–85 are so numerous while none of
+them is his.
 
 **Still to read: 1835–37 and 1842–1854.** Arks in `data/scilla-arks.tsv`. The Tavola sits in the last
 three or four openings of each volume, alphabetical by the **groom's** surname, with *both* couples'
