@@ -1,9 +1,12 @@
 ---
 import Base from "../layouts/Base.astro";
+import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import stats from "../data/stats.json";
 import places from "../data/places.json";
+import searched from "../data/searched.json";
+import atlas from "../../public/atlas-data.json";
 import { people } from "../lib/people.js";
 
 const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
@@ -88,7 +91,7 @@ const more = [
   </section>
 
   <section class="blk">
-    <h2>Four things this archive has established</h2>
+    <h2>What this archive has established</h2>
     <div class="grid two" style="margin-top:1rem">
       <div class="card">
         <h3>A claim, tested</h3>
@@ -146,5 +149,29 @@ const more = [
     <strong>dates withheld</strong>. Those dates are stripped in the build, not hidden by the page:
     they are not in the HTML and not recoverable from this site. A removal request is honoured within
     days, without argument and without requiring a reason. <a href={u("/method/")}>The method →</a></p>
+  </section>
+
+  <Numbers rows={[
+    [stats.people, "people published across the four quarters", u("/people/")],
+    [stats.earliest, "the earliest year this archive reaches — and it rests on a tree, not a register", u("/briatico-tested/")],
+    [stats.households, "households reconstructed", u("/households/")],
+    [stats.families, "families named", u("/families/")],
+    [places.length, atlas.stats.unplaced
+      ? `places named, ${atlas.places.length} of them on the map`
+      : `places named, every one of them on the map \u2014 ${atlas.stats.approx} on an approximate coordinate`,
+      u("/atlas/")],
+    [searched.length, "searches that found nothing, written down anyway", u("/searched/")],
+  ]} />
+
+  <section class="blk" style="border-bottom:0">
+    <h2>What is still missing</h2>
+    <p class="dek">Written down with the document that would settle each one, and where that
+    document is — because <strong>a question with no test beside it is a wish, not a research
+    plan</strong>. The deepest claim in the archive, the Prostamo line to 1697, rests on a tree that
+    has already been shown wrong by six years elsewhere and is marked accordingly.
+    <a href={u("/open-questions/")}>Open questions →</a></p>
+    <p class="small" style="margin-top:1rem">Nothing here is taken on trust because it appears in a
+    family tree. Where a record has been seen, it is cited; where it has not, the claim is marked.
+    See <a href={u("/method/")}>Method</a>.</p>
   </section>
 </Base>
