@@ -10,13 +10,14 @@ import ring from "@daviddef/archive-kit/data/archives.json";
 const { title, description = "", dek, eyebrow, bare, noindex } = Astro.props;
 const SITE = "The Mazza Archive";
 const nav = [
-  ["Start", [["/", "Home"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/atlas/", "The Atlas"], ["/lines", "The Four Quarters"], ["/places", "Places"]]],
-  ["Our line", [["/ancestors", "The Ancestors"], ["/direct-line", "The Spine"], ["/the-name-line", "The Mazza Name Line"], ["/crossings", "The Crossings"]]],
+  ["Start", [["/", "Home"], ["/trees/", "The trees"], ["/tree", "Our line, drawn"], ["/atlas/", "The Atlas"], ["/timeline", "The Timeline"], ["/lines", "The Four Quarters"]]],
+  ["Our line", [["/direct-line", "The Spine"], ["/ancestors", "The Ancestors"], ["/the-name-line", "The Mazza Name Line"], ["/crossings", "The Crossings"]]],
   ["The families", [["/families", "The Families"], ["/the-hundred-and-ten", "The Hundred and Ten"], ["/components", "The Pieces"]]],
-  ["People & places", [["/people", "The People"], ["/who/", "Every Name"], ["/households", "Households"], ["/nudgee", "Nudgee"], ["/piedimonte-etneo", "Piedimonte Etneo"], ["/briatico", "Briatico"], ["/scilla", "Scilla"], ["/brisbane", "Brisbane"]]],
+  ["People & places", [["/people", "The People"], ["/who/", "Every Name"], ["/register", "The Register"], ["/households", "Households"], ["/places", "Places"], ["/nudgee", "Nudgee"], ["/piedimonte-etneo", "Piedimonte Etneo"], ["/briatico", "Briatico"], ["/scilla", "Scilla"], ["/brisbane", "Brisbane"]]],
   ["The name", [["/name", "The Name"], ["/mazza", "The Mazza"], ["/arena", "The Arena"]]],
-  ["Evidence", [["/register", "The Register"], ["/timeline", "The Timeline"], ["/documents", "Documents"], ["/register-1879", "The Sicilian Registers"], ["/queensland", "The Queensland Register"], ["/sources", "Sources"], ["/method", "Method"], ["/corrections", "Corrections"], ["/what-changed", "What Changed"], ["/open-questions", "Open Questions"], ["/searched", "What Has Been Read"], ["/audit/", "The Audit"], ["/briatico-tested", "Testing the 1697"]]],
+  ["Evidence", [["/documents", "Documents"], ["/register-1879", "The Sicilian Registers"], ["/queensland", "The Queensland Register"], ["/audit/", "The Audit"], ["/briatico-tested", "Testing the 1697"], ["/sources", "Sources"], ["/searched", "What Has Been Read"], ["/open-questions", "Open Questions"], ["/corrections", "Corrections"], ["/what-changed", "What Changed"], ["/method", "Method"]]],
 ];
+
 const here = Astro.url.pathname.replace(/\/$/, "");
 const on = (h) => here === u(h).replace(/\/$/, "");
 /* which of the seven this is, worked out the same way the ring does */
