@@ -2751,3 +2751,43 @@ recording, which is the point.
 **United States Naturalization Petitions** is open (transcript + image) and was never tried. It is
 thin for Arena/Scilla — one Frances Arena, b.1905 — but it is the right set for the New York years
 and should be swept properly by first name.
+
+### FindMyPast, second pass — the relation columns
+
+**Rocco Arena's four crossings, all four indexed with ship, port and a birth year of 1861:**
+
+| year | ship | from | age | note |
+|---|---|---|---|---|
+| 1892 | **Elysia** | Naples | 31 | his first |
+| 1894 | **Suevia** | Naples | 33 | **no longer "probable"** |
+| 1900 | **Trave** | Genoa | 39 | **US Citizen, residence Scilla** |
+| 1913 | **San Guglielmo** | Messina | 52 | US Citizen |
+
+Four clerks over twenty-one years agreeing with a birth act none had seen. And the 1900 line says
+what the archive did not know: **already naturalised, and living at Scilla** — three months before
+the census finds him in Manhattan. He was travelling on a passport, not emigrating.
+
+**The relation columns.** A manifest has two: who you left at the departure port, who you were going
+to at the arrival port. This archive had never used them. 1913:
+
+> **Departure port relation (WIFE): Corta Generosa**
+> **Arrival port relation (NEPHEW): Antonio Arena**
+
+Generosa stayed at Messina. Rocco sailed to a **nephew** — a son of Giovanni or Giuseppe Arena, and
+the tree has no such person. **Lead, not finding**: his own son Antonio was seventeen and a clerk
+could have written *nephew* for *son*.
+
+**Corroborated:** Anna Arena, 1899, *Archimede* ex Napoli, age 6, b.1893, **residence Scilla** — a
+second index agreeing with the Statue of Liberty record where the image shows her as *niece*.
+
+**Negatives, each checked before it could become a claim:**
+- «Gmi. Giovanni Antonio Arena», 41, b.1858, *Bolivia* 1899 — **residence Serra San Bruno**, going to
+  a brother-in-law Pisano. **Not ours.** On name and year alone he would have looked like a match —
+  the same trap as Clementina.
+- **Giuseppe Arena of Scilla: no indexed crossing at all.** Of the three brothers, Giovanni and Rocco
+  went to America; **Giuseppe appears to have stayed.**
+
+**Technique to keep:** *a manifest line on its own is a name; a manifest line with its neighbours is a
+household.* Reading the neighbours is what gave the 1913 nephew and what exposed the Clementina
+error. Search URLs: `sourcecategory=travel+%26+migration` works where `datasetname=…passenger…`
+returns nothing.
