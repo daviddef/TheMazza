@@ -12,10 +12,10 @@
   "note": "US/NY/CATH/PR/BAP/01057021. Born 18 December 1900. Same parish as her sister."
  },
  {
-  "kind": "FOUND",
-  "what": "Clementina Arena — a crossing in 1921",
-  "result": "Ellis Island, 1921, US/PASS/NY/ELLIS2/000191616/3",
-  "note": "Born in Manhattan in December 1900, so twenty when she crossed. The family had gone back to Scilla by then -- this looks like her returning to the country of her birth. NOT IN THE FAMILY TREE, which does not have her at all."
+  "kind": "RETRACTED",
+  "what": "Clementina Arena's 1921 crossing — WITHDRAWN. IT IS SOMEBODY ELSE'S.",
+  "result": "US/PASS/NY/ELLIS2/000191616/3 is a different Clementina Arena.",
+  "note": "THIS ARCHIVE RECORDED A CROSSING IT HAD NOT CHECKED. The identification rested on a NAME AND A YEAR and nothing else: a Clementina Arena arriving at New York in 1921, and a Clementina Arena born in Manhattan in December 1900. THE TRANSCRIPTS OF THE NEIGHBOURING LINES DESTROY IT. The same manifest -- ship GIUSEPPE VERDI out of NAPLES -- carries at line 1 ROSA ARENA, aged 27, born 1894, whose RESIDENCE IS GIVEN AS VITTORIA, in the province of RAGUSA in SICILY, and whose FATHER is named at line 2 as GIOVANNI. Line 3, Clementina, is entered as ROSA'S SISTER. SO THE CLEMENTINA ARENA OF THIS MANIFEST IS A SICILIAN WOMAN FROM VITTORIA, daughter of a Giovanni Arena, travelling with her sister. She is not the Manhattan-born daughter of Rocco Arena and Generosa Costa. AND THAT MAKES A SECOND CORRECTION NECESSARY. On the morning of 14 September this archive 'corrected' The Crossings, which had said Clementina's 1921 crossing was NOT FOUND, on the strength of this very record. THE ORIGINAL STATEMENT WAS RIGHT. Clementina Arena's 1921 crossing is NOT FOUND, and the archive has now been wrong about it in both directions in a single day -- first by trusting an inherited identification, then by trusting it again to overturn a true negative."
  },
  {
   "kind": "FOUND",
@@ -100,5 +100,11 @@
   "what": "The Australian Mazza sets do not reach this family",
   "result": "Queensland parish burials hold two Mazza, neither ours.",
   "note": "Australia, Parish Deaths & Burials 1814-2014 has an Angelo Mazza (1925-1992) and a Helen Mazza (1885-1928) in Queensland. Sebastiano Mazza, who died in 2002 and is buried at Nudgee in plot V-1026, is not in it. The Queensland Mazza of the electoral rolls and timber licences -- Toowoomba and Drayton in the 1870s, Tully in 1959 -- are a different and much older migration than this family's, which begins in 1949."
+ },
+ {
+  "kind": "NEGATIVE",
+  "what": "Rosa Arena and Clementina Arena of Vittoria — a different family",
+  "result": "Giuseppe Verdi out of Naples, 1921. Rosa 27, b.1894, resident VITTORIA (Ragusa), father GIOVANNI; Clementina entered as her sister.",
+  "note": "Recorded so that nobody identifies them with this family again. VITTORIA is in the province of RAGUSA, at the other end of Sicily from Piedimonte Etneo and four hundred kilometres from Scilla. The Arena of that manifest have no connection to this archive beyond the surname -- which, as the Our Lady of Loretto index shows, was carried by at least twelve unrelated households in New York alone."
  }
 ]

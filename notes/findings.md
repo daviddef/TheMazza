@@ -2714,3 +2714,40 @@ D section in the gutter. They need the **acts** by margin scan, not the index.
 series and the list does not distinguish them — so a year can look read when the wrong book was
 opened. Worth auditing the whole file before the next sweep.
 
+
+## 14 September 2026 — the re-audit starts by catching me
+
+**Clementina Arena's 1921 crossing: RETRACTED, and this archive has been wrong about it in both
+directions in one day.**
+
+The inherited FindMyPast record — *Clementina Arena, Ellis Island, 1921*,
+`US/PASS/NY/ELLIS2/000191616/3` — rested on **a name and a year and nothing else**. It had never been
+opened. Reading the neighbouring lines of the same manifest destroys it:
+
+- **line 1: ROSA ARENA, 27, b.1894, residence VITTORIA (Ragusa, Sicily)**, ship *Giuseppe Verdi* ex
+  Naples
+- **line 2: GIOVANNI**, entered as **Rosa's father**
+- **line 3: Clementina**, entered as **Rosa's sister**
+
+Vittoria is four hundred kilometres from Scilla and at the far end of Sicily from Piedimonte Etneo.
+**These are other people.**
+
+So the sequence was: the page said *not found* (**right**); I "corrected" it this morning on the
+strength of the unopened record (**wrong**); and it is now back to **not found** — two indexes, three
+women called Clementina or Clemente Arena, none of them hers.
+
+**The rule: a name and a year are not an identification.** The original entry survived for months
+because it looked like a find rather than a guess. **A negative that has been tested is worth more
+than a positive that has not** — and that is the whole premise of the re-audit.
+
+### Also checked and negative, before it could become a claim
+
+**Anna Arena, b.1893, married Giovanni la Perla in Manhattan on 4 September 1913** — her parents are
+**Giuseppe Arena and Maria Ponetto**, *not* Rocco and Generosa. Not Rocco's daughter. Checked before
+recording, which is the point.
+
+### Accessible on the trial and worth knowing
+
+**United States Naturalization Petitions** is open (transcript + image) and was never tried. It is
+thin for Arena/Scilla — one Frances Arena, b.1905 — but it is the right set for the New York years
+and should be swept properly by first name.
