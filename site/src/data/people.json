@@ -203,7 +203,7 @@
     "name": "Mary rosa Mazza",
     "slug": "mary-rosa-mazza",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I1@",
@@ -378,7 +378,7 @@
     "name": "Mary rosa Mazza",
     "slug": "mary-rosa-mazza",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I1@",
@@ -516,14 +516,14 @@
     "name": "Rosario Mazza",
     "slug": "rosario-mazza-1899",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I38@",
     "name": "Michele Mazza",
     "slug": "michele-mazza",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I35@",
@@ -619,14 +619,14 @@
     "name": "John Nicotra",
     "slug": "john-nicotra",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I359@",
     "name": "Venera Cassaneti",
     "slug": "venera-cassaneti",
     "living": false,
-    "via": "tree"
+    "via": "index"
    }
   ],
   "children": [
@@ -635,14 +635,14 @@
     "name": "Rosario Mazza",
     "slug": "rosario-mazza-1899",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I38@",
     "name": "Michele Mazza",
     "slug": "michele-mazza",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I35@",
@@ -1757,7 +1757,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 8,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1829,7 +1829,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 3,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1857,7 +1857,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2894,14 +2894,14 @@
     "name": "Sebastiano Mazza",
     "slug": "sebastiano-mazza",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I3@",
     "name": "Domenica Prostamo",
     "slug": "domenica-prostamo",
     "living": false,
-    "via": "tree"
+    "via": "index"
    }
   ],
   "children": [],
@@ -3332,14 +3332,14 @@
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I5@",
     "name": "Maria Nicotra",
     "slug": "maria-nicotra",
     "living": false,
-    "via": "tree"
+    "via": "index"
    }
   ],
   "children": [
@@ -3465,14 +3465,14 @@
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I5@",
     "name": "Maria Nicotra",
     "slug": "maria-nicotra",
     "living": false,
-    "via": "tree"
+    "via": "index"
    }
   ],
   "children": [],
@@ -26432,7 +26432,7 @@
     "name": "Maria Nicotra",
     "slug": "maria-nicotra",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I500001@",
@@ -26525,7 +26525,7 @@
     "name": "Maria Nicotra",
     "slug": "maria-nicotra",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I500001@",
@@ -29413,7 +29413,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29449,7 +29449,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29674,7 +29674,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 8,
+  "comp": 7,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
