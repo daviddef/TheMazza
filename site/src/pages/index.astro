@@ -1,5 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
+import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
+import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
@@ -57,7 +59,17 @@ const more = [
     </blockquote>
   </section>
 
-  <section class="blk">
+  
+  <WaysIn doors={[
+    { href: u("/lines/"), name: "The four quarters", blurb: "Four families out of three towns six hundred kilometres apart — Mazza, Prostamo, Arena, Polistena — and where each of them met the others.", cta: "Compare them →" },
+    { href: u("/briatico-tested/"), name: "A claim, tested", blurb: "The Prostamo were said to reach 1697. The audit shows what is documented, what is asserted, and by a tree already wrong by six years elsewhere.", cta: "The audit →" },
+    { href: u("/nudgee/"), name: "Four plots in a row", blurb: "All four of Michael Rocco Mazza's grandparents lie in consecutive plots V-1026 to V-1029, having arrived on four different sailings.", cta: "The register →" },
+  ]} />
+  <PlaceSpark places={atlas.places} href={u("/atlas/")}
+              label={`${atlas.places.length} places, two Calabrian towns, one Sicilian, and a Brisbane parish`} />
+
+
+<section class="blk">
     <h2>Where they came from</h2>
     <p class="dek" style="margin:.7rem 0 1.4rem">Four grandparents, three towns, and about six hundred
     kilometres of coast between the furthest two. Nothing in the Italian record joins these families
