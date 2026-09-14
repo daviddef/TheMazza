@@ -630,8 +630,10 @@ for r in records:
     r["parents"], r["children"], r["spouses"] = uniq(par), uniq(ch), uniq(sp)
     r["siblings"] = uniq(sib)
 
-# Grade every parent edge, and drop the ones a row says are wrong. Children are
-# the same edges seen from the other end, so they are graded from the same key.
+# Grade every parent edge, drop the ones a row says are wrong, and ADD the ones
+# a record gives that the tree never had — a register names parents the export
+# does not always carry. Children are the same edges seen from the other end.
+by_slug = {r["slug"]: r for r in records}
 for r in records:
     kept = []
     for pa in r["parents"]:
@@ -640,15 +642,30 @@ for r in records:
             continue
         pa["via"] = v
         kept.append(pa)
+    have = {pa["slug"] for pa in kept}
+    for (child, parent), v in PARENT_VIA.items():
+        if child != r["slug"] or v == "drop" or parent in have:
+            continue
+        pr = by_slug.get(parent)
+        if pr:
+            kept.append({"id": pr["id"], "name": pr["name"], "slug": pr["slug"],
+                         "living": pr["living"], "via": v})
     r["parents"] = kept
 for r in records:
-    kept = []
+    kept, have = [], set()
     for c in r["children"]:
         v = PARENT_VIA.get((c["slug"], r["slug"]), "tree")
         if v == "drop":
             continue
         c["via"] = v
-        kept.append(c)
+        kept.append(c); have.add(c["slug"])
+    for (child, parent), v in PARENT_VIA.items():
+        if parent != r["slug"] or v == "drop" or child in have:
+            continue
+        ch = by_slug.get(child)
+        if ch:
+            kept.append({"id": ch["id"], "name": ch["name"], "slug": ch["slug"],
+                         "living": ch["living"], "via": v})
     r["children"] = kept
 
 os.makedirs(OUT, exist_ok=True)

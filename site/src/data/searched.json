@@ -712,5 +712,12 @@
   "source": "Antenati — Scilla, Matrimoni 1845, read entire",
   "scope": "Thirty-two acts, one to an image, read for both spouses and their parents.",
   "result": "NEGATIVE FOR THE TARGET — no Domenico Donato, no Nunziata Sofi. Two of the four years in the window are now closed, 1845 and 1846; 1842 and 1844 remain. BUT THE YEAR HOLDS A DONATO WORTH KEEPING: act 31, August 1845, MICHELE DONATO, 31, BORN AT MESSINA, marinaro, living at Villa, «FIGLIO DI CANDELORO DONATO, marinaro, e di [—] PALADINO», marrying Angela de Amico. Recorded as a LEAD and explicitly not a join — the mother is a Paladino and this archive has no mother for Domenico; the man was born at Messina; and Scilla is proven to have held two unrelated Candeloro Donatos at once. It does establish that a Candeloro Donato was ALIVE in August 1845, the act saying «figlio di» and not «del fu»."
+ },
+ {
+  "status": "done",
+  "when": "15 Sep 2026",
+  "source": "The parent-link grades, and two that had to be taken back",
+  "scope": "Graded the parent edges this archive has actually read, so the blood-relatives chart can draw a register-backed parent differently from one the tree asserts. data/parent-links.tsv now carries twenty-six rows.",
+  "result": "THIRTEEN EDGES GRADED READ AND TWO INDEX, out of about seven hundred and fifty. AND A WARNING BOUGHT THE HARD WAY: the mechanism can also ADD an edge the tree never had, and BOTH of the first two attempts to use it were WRONG. Piedimonte's Nati 1845 atto 64 names MARIANO MAZZA as Rosario's father — but the only Mariano Mazza in the export is a twentieth-century man, son of the Orazio born 1883, who cannot have fathered a boy in 1845. Nati 1843 atto 101 names ANNA CAVALLARO as Leonarda Bonanno's mother — but the only Anna Cavallaro in the export is the daughter of a Luciano Cavallaro BORN IN 1945. Both rows were written, both were caught by opening the record rather than trusting the slug, and both were removed. THE DOCUMENTED PARENTS ARE SIMPLY NOT IN THE EXPORT, and a name that matches is not a person that matches — the same lesson the two Candeloro Donatos of Scilla taught in the registers."
  }
 ]

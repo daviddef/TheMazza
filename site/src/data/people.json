@@ -1757,7 +1757,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1793,7 +1793,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1829,7 +1829,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1857,7 +1857,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 5,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -18271,14 +18271,14 @@
     "name": "Giovanni Arena",
     "slug": "giovanni-arena",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I255@",
     "name": "Concetta Russo",
     "slug": "concetta-russo",
     "living": false,
-    "via": "tree"
+    "via": "read"
    }
   ],
   "children": [
@@ -18429,14 +18429,14 @@
     "name": "Rocco Arena",
     "slug": "rocco-arena",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I249@",
     "name": "Generosa Costa",
     "slug": "generosa-costa",
     "living": false,
-    "via": "tree"
+    "via": "read"
    }
   ],
   "children": [
@@ -18552,7 +18552,7 @@
     "name": "Giuseppe Arena",
     "slug": "giuseppe-arena",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I260@",
@@ -18681,7 +18681,7 @@
     "name": "Anna Arena",
     "slug": "anna-arena",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I289@",
@@ -18779,7 +18779,7 @@
     "name": "Anna Arena",
     "slug": "anna-arena",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I289@",
@@ -19477,7 +19477,7 @@
     "name": "Giuseppe Arena",
     "slug": "giuseppe-arena",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I260@",
@@ -29413,7 +29413,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 3,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29449,7 +29449,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29631,7 +29631,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 7,
+  "comp": 10,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
