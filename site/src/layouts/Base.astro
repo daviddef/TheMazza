@@ -8,13 +8,13 @@ import ring from "@daviddef/archive-kit/data/archives.json";
 const { title, description = "", dek, eyebrow, bare } = Astro.props;
 const SITE = "The Mazza Archive";
 const nav = [
-  ["Start", [["/", "Home"], ["/trees/", "The Trees"], ["/lines", "The Four Quarters"], ["/places", "Places"]]],
+  ["Start", [["/", "Home"], ["/trees/", "The trees"], ["/lines", "The Four Quarters"], ["/places", "Places"]]],
   ["Our line", [["/ancestors", "The Ancestors"], ["/direct-line", "The Spine"], ["/the-name-line", "The Mazza Name Line"], ["/crossings", "The Crossings"]]],
   ["The families", [["/families", "The Families"], ["/the-hundred-and-ten", "The Hundred and Ten"], ["/components", "The Pieces"]]],
   ["The towns", [["/piedimonte-etneo", "Piedimonte Etneo"], ["/briatico", "Briatico"], ["/briatico-tested", "Testing the 1697"], ["/scilla", "Scilla"], ["/brisbane", "Brisbane"]]],
   ["People & places", [["/people", "The People"], ["/who/", "Every Name"], ["/households", "Households"], ["/nudgee", "Nudgee"]]],
   ["The name", [["/name", "The Names"], ["/mazza", "The Mazza"], ["/arena", "The Arena"]]],
-  ["Evidence", [["/register", "The Register"], ["/timeline", "Timeline"], ["/documents", "Documents"], ["/register-1879", "The Sicilian Registers"], ["/queensland", "The Queensland Register"], ["/sources", "Sources"], ["/method", "Method"], ["/corrections", "For Michael"], ["/what-changed", "What Changed"], ["/open-questions", "Open Questions"], ["/searched", "What Has Been Read"]]],
+  ["Evidence", [["/register", "The Register"], ["/timeline", "Timeline"], ["/documents", "Documents"], ["/register-1879", "The Sicilian Registers"], ["/queensland", "The Queensland Register"], ["/sources", "Sources"], ["/method", "Method"], ["/corrections", "For Michael"], ["/what-changed", "What Changed"], ["/open-questions", "Open Questions"], ["/searched", "What Has Been Read"]]]
 ];
 const here = Astro.url.pathname.replace(/\/$/, "");
 const on = (h) => here === u(h).replace(/\/$/, "");
