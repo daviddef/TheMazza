@@ -52,7 +52,7 @@ const dek = p.ancGen === 0 || p.onSpine
 
   <div class="grid two">
     <div class="card">
-      <h3>What is recorded</h3>
+      <h2 class="ct">What is recorded</h2>
       {p.events && p.events.length ? (
         <div class="rec" style="margin-top:12px">
           {p.events.filter((e) => e.place || (e.what !== "lived" && e.date)).map((e) => (<>
@@ -74,7 +74,7 @@ const dek = p.ancGen === 0 || p.onSpine
     </div>
 
     <div class="card">
-      <h3>Where this comes from</h3>
+      <h2 class="ct">Where this comes from</h2>
       <p class="small">
         {edges.length
           ? <span><strong>All {edges.length}</strong> of the relationships drawn above come from
