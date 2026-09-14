@@ -2675,3 +2675,23 @@ searching.
 **Method:** FindMyPast's site search is URL-driven — `/search/results?datasetname=…&lastname=…` — and
 the result rows scrape straight out of `tbody tr`. Transcripts are **client-rendered**: fetching the
 URL returns only the SSR shell, so they must be navigated to.
+
+### Domenico Donato × Nunziata Sofi — the marriage, four years in
+
+The obvious next act after the 1855 birth: it would name **Candeloro Donato's wife** and **Nunziata
+Sofi's parents**, two more couples on a direct line. Both were born c.1817–18, so the marriage is
+most likely **1838–1848**.
+
+**Read complete and negative: 1838, 1839, 1840, 1841.** Small years — 14, 26, 20, 19 marriages — and
+the D section of each runs to two or three lines. No Donato groom.
+
+**Still to read: 1835–37 and 1842–1854.** Arks in `data/scilla-arks.tsv`. The Tavola sits in the last
+three or four openings of each volume, alphabetical by the **groom's** surname, with *both* couples'
+parents in the next column — so one image a year finishes it. Containers found so far: 1838
+`5vEYjmr`, 1839 `wE6KNpW`, 1840 `LD6bJPO`, 1841 `w1rJg7O`, 1842 `Lpp8dGV`.
+
+Also read in passing: **no Donato births at Scilla in 1840** (D section entries 42–53 complete),
+which fits a couple not yet married.
+
+**Scilla birth-Tavola containers added:** 1840 `5gGpk7y`, 1842 `58rKdQN`, 1844 `LNolOVK`, 1846
+`5B6RYYo`, 1848 `wkd4Dee`.
