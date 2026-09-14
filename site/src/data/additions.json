@@ -326,14 +326,14 @@
  {
   "name": "Antonino Prostamo",
   "gen": "4",
-  "born": "—",
+  "born": "c. 1781",
   "bornNote": "—",
-  "died": "before 14 June 1849",
+  "died": "31 December 1837, at Pizzo, in the cholera",
   "trade": "marinaro",
   "father": "—",
   "mother": "—",
   "source": "Briatico, Matrimoni 1849, atto 1 — Antenati an_ua87663",
-  "note": "The fourth generation, carried as UNTESTED since this archive began and now named by a document. A MARINARO, like his son. Dead before his son's wedding; his own father's death certificate was produced at the same wedding."
+  "note": "The fourth generation, carried as UNTESTED until 14 September 2026 and now documented four times over. A MARINARO like his father and his son. He died at two in the morning on the last night of 1837 and his death is entered in Pizzo's SEPARATE REGISTER OF CHOLERA DEATHS, atto 327 — which is why the ordinary Morti volumes do not hold him."
  },
  {
   "name": "Giuseppe Ventrice",
@@ -360,7 +360,7 @@
   "note": "Giovanna Ventrice's mother. She attended the wedding and gave her consent in person, her husband being dead."
  },
  {
-  "name": "Caterina Muso",
+  "name": "Caterina Majo",
   "gen": "3",
   "born": "—",
   "bornNote": "—",
@@ -369,6 +369,78 @@
   "father": "—",
   "mother": "—",
   "source": "Pizzo, Morti 1829, atto 7 — Antenati an_ua37926878",
-  "note": "ENTIRELY NEW. Pasquale Prostamo's wife, named only because he is recorded as her WIDOWER. She was dead by January 1829. The family tree has no wife for the third generation."
+  "note": "Pasquale Prostamo's wife, named because he is recorded as her WIDOWER; dead by January 1829. The family tree has no wife for the third generation. THIS ARCHIVE FIRST PUBLISHED HER AS «CATERINA MUSO». That was a misreading: the surname is MAJO in the original register and in the chancery's own certified copy of 1849, compared side by side."
+ },
+ {
+  "name": "Maria Fragalà",
+  "gen": "4",
+  "born": "c. 1787",
+  "bornNote": "—",
+  "died": "after 14 June 1849",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "source": "Pizzo, Nati 1814, atto 285; Pizzo morti colerici 1837, atto 327; Briatico, Matrimoni 1849, atto 1",
+  "note": "Twenty-seven when her son was born in April 1814, so born about 1787. WIDOWED BY THE CHOLERA on the last night of 1837 and still living at Pizzo in June 1849, when her son married eleven kilometres away at Briatico. She was not in the family tree at all."
+ },
+ {
+  "name": "Domenico Ventrice",
+  "gen": "5",
+  "born": "c. 1765",
+  "bornNote": "—",
+  "died": "13 January 1815, at Zambrone",
+  "trade": "bracciale",
+  "father": "Paolo Ventrice",
+  "mother": "Anna Pappa",
+  "source": "Zambrone, Morti 1815, atto 40 — certified extract in Briatico, Matrimoni processetti 1849-1854",
+  "note": "Giovanna Ventrice's paternal grandfather, and the reason his certificate is in the bundle: the marriage act says she produced «la fede di morte del padre e dell'avo paterno», and the bundle holds exactly two Ventrice deaths. Fifty at his death, husband of ANNA FAMA, and son of the late PAOLO VENTRICE and the late ANNA PAPPA — which reaches a SIXTH name on the bride's side."
+ },
+ {
+  "name": "Anna Fama",
+  "gen": "5",
+  "born": "—",
+  "bornNote": "—",
+  "died": "—",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "source": "Zambrone, Morti 1815, atto 40; Briatico, Morti 1839, atto 12",
+  "note": "Domenico Ventrice's wife, and Giuseppe Ventrice's mother."
+ },
+ {
+  "name": "Paolo Ventrice",
+  "gen": "6",
+  "born": "—",
+  "bornNote": "—",
+  "died": "before January 1815",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "source": "Zambrone, Morti 1815, atto 40 — certified extract in Briatico, Matrimoni processetti 1849-1854",
+  "note": "The deepest name on the bride's side, reached because his son's death act calls him «il fu Paolo». Husband of ANNA PAPPA."
+ },
+ {
+  "name": "Anna Pappa",
+  "gen": "6",
+  "born": "—",
+  "bornNote": "—",
+  "died": "before January 1815",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "source": "Zambrone, Morti 1815, atto 40",
+  "note": "Paolo Ventrice's wife, already dead when their son Domenico died in 1815."
+ },
+ {
+  "name": "Giuseppe Ventrice",
+  "gen": "5",
+  "born": "c. 1809",
+  "bornNote": "—",
+  "died": "21 June 1839, at Briatico",
+  "trade": "bracciale",
+  "father": "Domenico Ventrice",
+  "mother": "Anna Fama",
+  "source": "Briatico, Morti 1839, atto 12 — certified extract in Briatico, Matrimoni processetti 1849-1854",
+  "note": "Giovanna's father, dead ten years before her wedding, at thirty. The act is crabbed where it names his parents, but the bundle settles it: the marriage act says the bride produced her father's and her paternal grandfather's death certificates, and these are the two Ventrice extracts in it."
  }
 ]

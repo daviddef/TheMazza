@@ -1,5 +1,5 @@
 {
- "count": 78,
+ "count": 82,
  "documented": 74,
  "groups": [
   {
@@ -791,6 +791,57 @@
      "recordSays": "MARRIED AT SCILLA IN DECEMBER 1888, act 63 — not 1890. This archive had 1890 from the 1900 census, which records them as 'married ten years'. The act puts it eighteen months earlier.",
      "source": "Scilla, Matrimoni 1888, atto 63",
      "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "my own reading",
+   "rows": [
+    {
+     "kind": "my own reading",
+     "who": "Caterina Majo",
+     "slug": "",
+     "treeSays": "this archive published «Caterina Muso» on 14 September 2026",
+     "recordSays": "CATERINA MAJO. The surname is Majo in the original register AND in the 1849 certified extract, compared side by side. The earlier reading was mine and it was wrong.",
+     "source": "Pizzo, Morti 1829, atto 7, and its certified extract in Briatico Matrimoni processetti 1849-1854",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "a document against its own copy",
+   "rows": [
+    {
+     "kind": "a document against its own copy",
+     "who": "Pasquale Prostamo",
+     "slug": "",
+     "treeSays": "the ORIGINAL register makes him SETTANTACINQUE — seventy-five, born about 1753",
+     "recordSays": "the CERTIFIED EXTRACT of 1849, copied from that same act by the Pizzo chancery, makes him SESSANTACINQUE — sixty-five, born about 1763. Ten years, lost between an act and its own certified copy twenty years later. The archive carries the ORIGINAL figure and records the copy's.",
+     "source": "Pizzo, Morti 1829, atto 7 vs its extract of 14 June 1849",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "tree",
+   "rows": [
+    {
+     "kind": "tree",
+     "who": "Antonino Prostamo",
+     "slug": "",
+     "treeSays": "born 1785, no death given",
+     "recordSays": "Born about 1781 — he is fifty-six when he dies on 31 December 1837 and thirty-two when he declares his son's birth in April 1814. DIED IN THE CHOLERA at Pizzo, registered in the separate 1837 cholera book, atto 327.",
+     "source": "Pizzo, morti colerici 1837, atto 327",
+     "confidence": "certain"
+    },
+    {
+     "kind": "tree",
+     "who": "Domenico Prostamo",
+     "slug": "",
+     "treeSays": "born 1820",
+     "recordSays": "BORN 2 APRIL 1814 AT PIZZO, and registered under the name ANTONIO Prostamo, act 285. A sworn act of notoriety at Briatico on 14 June 1849 establishes that the man in the 1814 register as Antonio «chiamasi effettivamente Domenico Prostamo». Six years out, and under the wrong given name.",
+     "source": "Pizzo, Nati 1814, atto 285, and the atto di notorietà of 14 June 1849",
+     "confidence": "certain"
     }
    ]
   }
