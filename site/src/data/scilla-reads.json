@@ -768,5 +768,25 @@
   "ark": "an_ua16594985",
   "status": "method",
   "note": "THE INDEX PAGES ARE BLANK. Where 1874 and 1877 carry a filled Indice Annuale at the back, the 1875 volume's corresponding opening is an unused printed form, flagged by the archive's own card: PAGINE BIANCHE. So 1875 cannot be swept from its index; the year would have to be read act by act."
+ },
+ {
+  "year": "1846",
+  "act": "2–19",
+  "name": "the Donato sweep, acts 2 to 19",
+  "father": "—",
+  "mother": "—",
+  "ark": "an_ua2002596",
+  "status": "negative",
+  "note": "NO DONATO GROOM AND NO SOFI BRIDE in acts 2 to 19 of 1846. Brides read: Barbara; Maria de Lorenzo; Anna Vizzari of Solano; Maria Concetta Barbaro; Angela Martello; Santa Romano; Caterina Romano; Giuseppa Gioffrè; Giovanna Carrozza; Antonina Ardisi of Solano; Grazia Modisi; Anna Zanghì; Santa Cardillo; Marianna Como; Giuseppa Benedetto; Grazia Spedale; Concetta Musco; Domenica Trecroci. ACTS 20 TO 32 ARE NOT YET READ — they need a second pass at higher magnification than nine-to-a-sheet allows."
+ },
+ {
+  "year": "1842–1846",
+  "act": "—",
+  "name": "THE BOURBON MARRIAGE VOLUMES HAVE NO ANNUAL INDEX",
+  "father": "—",
+  "mother": "—",
+  "ark": "an_ua2002583 / 2002588 / 2002591 / 2002596",
+  "status": "method",
+  "note": "A PLANNING FACT WORTH MORE THAN A SINGLE ACT. Scilla's Italian-era marriage volumes (1866 onward) carry an alphabetical Indice Annuale four images from the end, which is what made the 1874, 1876, 1877 and 1899 sweeps cheap. THE BOURBON VOLUMES DO NOT. 1845 and 1846 both end at act 32 with the acts themselves and no index at all. They run ONE ACT TO AN IMAGE — the solenne promessa in the ATTO column, the church's celebration note in the INDICAZIONE column beside it — at about 32 acts a year, so a year is roughly 36 images and must be read act by act. Correct arks, since data/scilla-arks.tsv is known to be wrong here: 1842 an_ua2002583 / Lpp8dGV; 1844 an_ua2002588 / 5B6Rqek; 1845 an_ua2002591 / 04rZOPr; 1846 an_ua2002596 / LNolMyl. The 1846 volume also has a suppl. 2 and suppl. 3, and 1845 a suppl. 2, which have not been looked at."
  }
 ]
