@@ -583,10 +583,10 @@
   {
    "n": 73,
    "what": "STRUCTURE — extend the documented line DOWNWARD as well as up",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 8.** `build_documented_line.py` walks *up* from every addition anchored to the export, and found thirteen ancestors no chart can draw. **It does not yet walk down.** Maria Donato, Fortunato Arena, Francesco Giovanni Rocco Arena and Candeloro Donato (b. 1847) are documented **children** of export people, and they are just as invisible. Same tool, opposite direction, and it would show the households whole rather than only the lines."
+   "note": "**Phase 8.** `build_documented_line.py` walks *up* from every addition anchored to the export, and found thirteen ancestors no chart can draw. **It does not yet walk down.** Maria Donato, Fortunato Arena, Francesco Giovanni Rocco Arena and Candeloro Donato (b. 1847) are documented **children** of export people, and they are just as invisible. Same tool, opposite direction, and it would show the households whole rather than only the lines. **Done.** The tool walks both ways now: **15 documented ancestors** above export people and **4 documented children** below them, all published on /lines."
   },
   {
    "n": 74,
@@ -599,10 +599,10 @@
   {
    "n": 75,
    "what": "STRUCTURE — check_links for the graves and the ships",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 8.** `check_additions` and `check_corrections` each caught real published errors the hour they existed. `data/australia-graves.tsv` and `data/naa-ships.tsv` are **still unvalidated** — no slug check, no date sanity, nothing to notice a burial dated before a birth or a grave hung on a person who died elsewhere. Today's Find a Grave double-index, the same woman in Victoria and Ohio, is exactly the shape a checker would catch."
+   "note": "**Phase 8.** `check_additions` and `check_corrections` each caught real published errors the hour they existed. `data/australia-graves.tsv` and `data/naa-ships.tsv` are **still unvalidated** — no slug check, no date sanity, nothing to notice a burial dated before a birth or a grave hung on a person who died elsewhere. Today's Find a Grave double-index, the same woman in Victoria and Ohio, is exactly the shape a checker would catch. **Done.** `tools/check_places.py` is in the build. It refuses a burial before a birth, a crossing that lands before the traveller was born or after they died, a grave row with no ground, and **one person buried in two different cemeteries** — the exact Find a Grave failure found today. Tested by planting both faults. **And it caught me first:** reading `who` as a slug in `naa-ships.tsv` produced twelve confident false failures, because column 1 is the slug and column 2 is the display name. Fixed in the checker, not the data."
   },
   {
    "n": 76,
@@ -694,11 +694,11 @@
   },
   {
    "n": 87,
-   "what": "Check that Generosa Costa's documented parents reach the reader",
-   "state": "next",
+   "what": "Generosa Costa's documented parents now reach the reader — and she was the only case",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 8, and it is the row-51 lesson applied as a spot-check.** The Scilla marriage act of December 1888 names her «**figlia di ANTONIO, e di ANNA ARLOTTA**» — so Rocco Arena's wife has documented parents. **Are they surfaced as people, or only as a phrase inside a read?** Today five Melluso sat in a spreadsheet column for days without becoming anybody. Check this one, and then check whether the same is true of every other parent named inside `scilla-reads.tsv` and never promoted."
+   "note": "**Done, and the spot-check was worth running.** Her 1888 marriage act names «FIGLIA DI ANTONIO... E DI ANNA ARLOTTA», and **both parents were already documented people in this archive with nothing connecting them to her** — so no chart or page could show that Rocco Arena's wife had known parents. An anchor row now joins them, and the documented line goes from 13 ancestors to **15**. **I then checked whether the same was true anywhere else**, by parsing every addition's note for «X's father/mother» and testing whether X was an unanchored export person. **Generosa Costa was the only real case.** That is worth knowing: the gap was one row, not a systemic backlog."
   },
   {
    "n": 88,

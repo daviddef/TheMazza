@@ -81,7 +81,8 @@
     "source": "Scilla, Matrimoni 1851 atto 13; Nati 1830 atto 2",
     "note": "Giovanni Arlotta's wife. ENTIRELY ABSENT FROM THE FAMILY TREE. NOTE THE SURNAME: she is the SECOND Costa in this generation -- Filippo Arena's wife is Domenica Costa -- and their great-grandson Rocco married a THIRD, Generosa Costa. A Lorenzo Costa was also lodging with Rocco in New York in 1900. CONFIRMED TWICE, by the 1851 marriage act and the 1830 birth act."
    }
-  ]
+  ],
+  "down": []
  },
  "concetta-russo": {
   "anchor": "Concetta Russo",
@@ -110,7 +111,8 @@
     "source": "Scilla, Matrimoni 1885, atto 86",
     "note": "Concetta Russo's mother, living at Scilla in 1885. NOT IN THE FAMILY TREE."
    }
-  ]
+  ],
+  "down": []
  },
  "domenico-donato-2": {
   "anchor": "Domenico Donato",
@@ -139,7 +141,8 @@
     "source": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129); Matrimoni 1844, Tavola entry 17; Matrimoni 1845, atto 31",
     "note": "CANDELORO DONATO'S WIFE. HER GIVEN NAME IS IN DISPUTE AND THE DISPUTE IS WORTH KEEPING. Her son's birth act of 18 December 1816, written while she was in the next room, reads «e da MAR-TA PALADINO, di anni trenta, sua moglie legittima» -- the name broken across a line, and the second line beginning plainly «ta». The 1844 marriage Tavola calls her «Paladino MARIA». The act is contemporaneous and primary and the Tavola is an index made up at the year's end, and THIS VERY INDEX SERIES HAS ALREADY BEEN CAUGHT GIVING A MOTHER THE WRONG NAME -- the 1854 Tavola calls Serafina Arlotta «Rosa», and that error briefly made a brother into a cousin. Against that: the same 1844 Tavola gets the OTHER mother in the same entry exactly right, «de Amico Maria», as her own daughter's birth act confirms. So the index is not uniformly careless. MARTA is published here because the act says it; MARIA is recorded because the index says it. Another child of Candeloro in the Scilla births of 1810-1830 would settle it."
    }
-  ]
+  ],
+  "down": []
  },
  "annunziata-sofi": {
   "anchor": "Nunziata Sofi",
@@ -167,6 +170,105 @@
     "trade": "—",
     "source": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129); Matrimoni 1844, Tavola entry 17",
     "note": "Nunziata Sofi's mother. Not in the family tree. HER NAME IS CONFIRMED TWICE, by her daughter's birth act of 1818 and by the 1844 Tavola independently, which is why the Tavola's reading of the OTHER mother in the same entry is a question rather than a verdict -- see [[Marta Paladino]]. NOTE A COINCIDENCE, NOT A JOIN: the Michele Donato of act 31 of 1845 married an ANGELA DE AMICO. De Amico is common at Scilla and nothing yet connects the two women."
+   }
+  ],
+  "down": []
+ },
+ "generosa-costa": {
+  "anchor": "Generosa Costa",
+  "exportName": "Generosa Costa",
+  "ancGen": 5,
+  "up": [
+   {
+    "name": "Antonio Costa",
+    "rel": "father",
+    "depth": 1,
+    "gen": "6",
+    "born": "c. 1840",
+    "died": "—",
+    "trade": "pescatore (fisherman)",
+    "source": "Scilla, Pubblicazioni 1888 no. 63; Matrimoni 1888 atto 63",
+    "note": "Generosa Costa's father, now dated and with a trade. NOT IN THE FAMILY TREE."
+   },
+   {
+    "name": "Anna Arlotta",
+    "rel": "mother",
+    "depth": 1,
+    "gen": "6",
+    "born": "—",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni 1888, atto 63",
+    "note": "Generosa Costa's mother, named for the first time. NOT IN THE FAMILY TREE. AND NOTE THE SURNAME: Rocco Arena's mother is Serafina ARLOTTA and his wife's mother is Anna ARLOTTA. Whether they were sisters has not been tested, but if they were, Rocco and Generosa were first cousins."
+   }
+  ],
+  "down": []
+ },
+ "orazio-arena": {
+  "anchor": "Orazio Arena",
+  "exportName": "Orazio Arena",
+  "ancGen": null,
+  "up": [],
+  "down": [
+   {
+    "name": "Teresa Arena",
+    "rel": "father",
+    "gen": "5",
+    "born": "17 October 1853",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Nati 1853, atto 6"
+   }
+  ]
+ },
+ "giovanna-zirilli": {
+  "anchor": "Giovanna Zirilli",
+  "exportName": "Giovanna Zirilli",
+  "ancGen": null,
+  "up": [],
+  "down": [
+   {
+    "name": "Teresa Arena",
+    "rel": "mother",
+    "gen": "5",
+    "born": "17 October 1853",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Nati 1853, atto 6"
+   }
+  ]
+ },
+ "maria-sofi": {
+  "anchor": "Maria Sofi",
+  "exportName": "Maria Sofi",
+  "ancGen": 5,
+  "up": [],
+  "down": [
+   {
+    "name": "Maria Donato",
+    "rel": "mother",
+    "gen": "4",
+    "born": "c. October 1888",
+    "died": "16 February 1891",
+    "trade": "—",
+    "source": "Scilla, Morti 1891, atto 22"
+   }
+  ]
+ },
+ "giuseppe-arena": {
+  "anchor": "Giuseppe Arena",
+  "exportName": "Giuseppe Arena",
+  "ancGen": 4,
+  "up": [],
+  "down": [
+   {
+    "name": "Francesco Giovanni Rocco Arena",
+    "rel": "father",
+    "gen": "4",
+    "born": "c. August 1897",
+    "died": "30 June 1898",
+    "trade": "—",
+    "source": "Scilla, Morti 1898, atto 91"
    }
   ]
  }

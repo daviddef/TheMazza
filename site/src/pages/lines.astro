@@ -6,6 +6,7 @@ import quarters from "../data/quarters.json";
 import documented from "../data/documented-line.json";
 const anchors = Object.entries(documented).sort((a, b) => b[1].up.length - a[1].up.length);
 const beyond = anchors.reduce((n, [, v]) => n + v.up.length, 0);
+const below = anchors.reduce((n, [, v]) => n + (v.down || []).length, 0);
 ---
 <Base title="The Four Quarters" eyebrow="Four grandparents, three towns"
       dek="Every person has four grandparents, and they are the honest unit of a family history: four separate families, four separate depths of evidence, and no reason at all for them to be equal.">
@@ -47,10 +48,10 @@ const beyond = anchors.reduce((n, [, v]) => n + v.up.length, 0);
 
   <section class="blk" style="margin-top:20px">
     <div class="lab">Where the chart stops and the evidence does not</div>
-    <h2 style="margin-top:.4rem">{beyond} ancestors no chart on this site can draw</h2>
+    <h2 style="margin-top:.4rem">{beyond + below} people no chart on this site can draw</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Every chart here is drawn from Michael's export, so a person the family tree does not
-      contain cannot appear on one — however good the act behind them. <strong>These {beyond} are
+      contain cannot appear on one — however good the act behind them. <strong>{beyond} ancestors and {below} children are
       proved by a register and invisible on every picture.</strong> The line below each name is where
       the drawing stops; everything under it is what the records actually say stands above.</p>
       <p class="note">This is not a flaw in the charts. It is the difference between what a family
@@ -66,6 +67,14 @@ const beyond = anchors.reduce((n, [, v]) => n + v.up.length, 0);
             {v.anchor !== v.exportName && <span class="mono" style="color:var(--ink-3);font-size:14px"> · the archive calls him {v.anchor}</span>}
           </div>
           <div class="evlist" style="margin-top:12px">
+            {(v.down || []).map((r) => (
+              <div>
+                <b>{r.born && r.born !== "\u2014" ? r.born : "····"}</b>
+                <strong>{r.name}</strong>
+                <span class="mono" style="color:var(--ink-3)"> · a documented child</span>
+                <div class="small" style="color:var(--ink-3)">{r.source}</div>
+              </div>
+            ))}
             {v.up.map((r) => (
               <div>
                 <b>{r.born && r.born !== "\u2014" ? r.born : "····"}</b>

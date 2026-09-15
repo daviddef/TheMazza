@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4326",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run additions && npm run docline && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:corrections && npm run check:worklist && npm run check:covers && npm run check:kit",
+    "build": "npm run additions && npm run docline && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:corrections && npm run check:places && npm run check:worklist && npm run check:covers && npm run check:kit",
     "preview": "astro preview --port 4326",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "searchindex": "python3 ../tools/searchindex.py",
@@ -19,6 +19,7 @@
     "check:links": "python3 ../tools/check_links.py",
     "check:additions": "python3 ../tools/check_additions.py",
     "check:corrections": "python3 ../tools/check_corrections.py",
+    "check:places": "python3 ../tools/check_places.py",
     "check:worklist": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkworklist.py --root .",
     "check:covers": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkcovers.py --root ."
   },
