@@ -37,10 +37,11 @@ Scilla's civil registration begins in 1816, so unlike Messina these are all in p
       other entries are unread and this family married within the town.
 - [ ] **Scilla 1842** (`an_ua2002583` / `Lpp8dGV`) — the last unread year of the old window.
 - [ ] **Scilla 1878.**
-- [ ] **RE-READ: Scilla Nati 1854.** Two readings disagree and both are published. An index line was
-      read as *20 April 1854, act 1, mother Rosa Arlotta*; the act itself as *act 76, 30 April 1854,
-      mother Serafina Arlotta*. The direct read is the authority and the index line has never been
-      re-opened. Settle it.
+- [x] ~~RE-READ Scilla Nati 1854.~~ **Already settled, and I was wrong to queue it.** The act was
+      re-opened long ago: `data/scilla-reads.tsv` row 36 records that the 1854 Tavola reads
+      *«Arena Giovanni di Antonio e Arlotta ROSA, 20 April»* and that the act itself, act 76, says
+      SERAFINA and the THIRTIETH. The index is wrong; the act is the authority; the ages close it.
+      What remained was only stale prose in `corrections.tsv`, now fixed.
 
 ## Open — Briatico, Zambrone, Piedimonte
 
