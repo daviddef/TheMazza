@@ -1,0 +1,173 @@
+{
+ "giovanni-arena": {
+  "anchor": "Giovanni Arena (b. 1854)",
+  "exportName": "Giovanni Arena",
+  "ancGen": 5,
+  "up": [
+   {
+    "name": "Francesco Antonio Arena",
+    "rel": "father",
+    "depth": 1,
+    "gen": "6",
+    "born": "25 November 1819",
+    "died": "—",
+    "trade": "marinaro (sailor)",
+    "source": "Scilla, Nati 1819 atto 186; Nati 1860 atto 45; Nati 1861 atto 228",
+    "note": "ENTIRELY ABSENT FROM THE FAMILY TREE, which puts Rocco Arena under Orazio Arena instead. He and Serafina Arlotta have a son Giuseppe on 5 March 1860 and a son Rocco on 20 December 1861 -- exactly the sibling pair the tree assigns to Orazio."
+   },
+   {
+    "name": "Filippo Arena",
+    "rel": "father of Francesco Antonio Arena",
+    "depth": 2,
+    "gen": "7",
+    "born": "c. 1790s",
+    "died": "—",
+    "trade": "marinaro (sailor)",
+    "source": "Scilla, Nati 1819 atto 186; Matrimoni 1851 atto 13; Nati 1861 atto 228",
+    "note": "Named in THREE independent acts now. The 1851 marriage act gives his son's profession as marinaro and his own as 'STESSA' -- the same. So the sea trade runs Filippo -> Francesco Antonio -> Rocco, three generations of sailors. ENTIRELY ABSENT FROM THE FAMILY TREE. AND HE IS NOW A WALL, ESTABLISHED RATHER THAN ASSUMED. His marriage to DOMENICA COSTA had exactly one place it could be: the four years between Scilla's first civil register in 1816 and his son Francesco Antonio's birth on 25 November 1819. ALL FOUR HAVE NOW BEEN READ -- 1816 and 1817 act by act at forty marriages each, 1818 through its annual Tavola at thirty-three, 1819 through its A section -- AND HE IS IN NONE OF THEM. The marriage is therefore pre-1816 and pre-civil, so it is a PARISH record of the Diocese of Reggio Calabria and not on Antenati. THE ARENA LINE STOPS HERE."
+   },
+   {
+    "name": "Domenica Costa",
+    "rel": "mother of Francesco Antonio Arena",
+    "depth": 2,
+    "gen": "7",
+    "born": "c. 1790s",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Nati 1819, atto 186",
+    "note": "Filippo Arena's wife, named in the 1819 Tavola. ENTIRELY ABSENT FROM THE FAMILY TREE. Note the surname: Costa is also what her great-grandson Rocco married, in Generosa Costa. HER MARRIAGE IS OUT OF REACH: the four-year window at Scilla in which it could have been civil, 1816 to 1819, has been read complete and holds no Filippo Arena. Anything earlier is parish."
+   },
+   {
+    "name": "Serafina Arlotta",
+    "rel": "mother",
+    "depth": 1,
+    "gen": "6",
+    "born": "13 June 1830",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Nati 1830 atto 2; Matrimoni 1851 atto 13; Nati 1861 atto 228",
+    "note": "ENTIRELY ABSENT FROM THE FAMILY TREE. Her parents are now confirmed twice over: Giovanni Arlotta, marinaro, and Maria Costa."
+   },
+   {
+    "name": "Giovanni Arlotta",
+    "rel": "father of Serafina Arlotta",
+    "depth": 2,
+    "gen": "7",
+    "born": "c. 1779",
+    "died": "—",
+    "trade": "marinaro (sailor)",
+    "source": "Scilla, Nati 1854 atto 76; Matrimoni 1851 atto 13; Nati 1830 atto 2",
+    "note": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor. NOW IN THREE ACTS AND DATED: the marriage act of 1851, his daughter's birth act of 1830, and the birth act of 1854 in which he appears IN PERSON, aged seventy-five, to declare his grandson -- and which names HIS OWN FATHER, Domenico."
+   },
+   {
+    "name": "Domenico Arlotta",
+    "rel": "father of Giovanni Arlotta",
+    "depth": 3,
+    "gen": "8",
+    "born": "before 1779",
+    "died": "before April 1854",
+    "trade": "—",
+    "source": "Scilla, Nati 1854, atto 76",
+    "note": "THE DEEPEST PERSON THIS ARCHIVE HAS REACHED ON THE CALABRIAN SIDE. Named only as 'il fu Domenico' in his son Giovanni Arlotta's own words, in the birth act of his great-grandson Giovanni Arena, 30 April 1854. A great-great-great-great-great-grandfather of Mia and Rocco. ENTIRELY ABSENT FROM THE FAMILY TREE."
+   },
+   {
+    "name": "Maria Costa",
+    "rel": "mother of Serafina Arlotta",
+    "depth": 2,
+    "gen": "7",
+    "born": "—",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni 1851 atto 13; Nati 1830 atto 2",
+    "note": "Giovanni Arlotta's wife. ENTIRELY ABSENT FROM THE FAMILY TREE. NOTE THE SURNAME: she is the SECOND Costa in this generation -- Filippo Arena's wife is Domenica Costa -- and their great-grandson Rocco married a THIRD, Generosa Costa. A Lorenzo Costa was also lodging with Rocco in New York in 1900. CONFIRMED TWICE, by the 1851 marriage act and the 1830 birth act."
+   }
+  ]
+ },
+ "concetta-russo": {
+  "anchor": "Concetta Russo",
+  "exportName": "Concetta Russo",
+  "ancGen": 5,
+  "up": [
+   {
+    "name": "Leonardo Russo",
+    "rel": "father",
+    "depth": 1,
+    "gen": "6",
+    "born": "—",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni 1885, atto 86",
+    "note": "Concetta Russo's father, living at Scilla in 1885. NOT IN THE FAMILY TREE."
+   },
+   {
+    "name": "Angela Bagnato",
+    "rel": "mother",
+    "depth": 1,
+    "gen": "6",
+    "born": "—",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni 1885, atto 86",
+    "note": "Concetta Russo's mother, living at Scilla in 1885. NOT IN THE FAMILY TREE."
+   }
+  ]
+ },
+ "domenico-donato-2": {
+  "anchor": "Domenico Donato",
+  "exportName": "Domenico Donato",
+  "ancGen": 6,
+  "up": [
+   {
+    "name": "Candeloro Donato",
+    "rel": "father",
+    "depth": 1,
+    "gen": "7",
+    "born": "c. 1783",
+    "died": "alive at Scilla, July 1844",
+    "trade": "marinaro (sailor)",
+    "source": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129); Matrimoni 1845, atto 31",
+    "note": "THE OLDEST DONATO, and now dated. A sailor, like his son and his grandson. He was alive when his son Michele married in August 1845 -- «FIGLIO DI Candeloro Donato», not «del fu» -- and alive the year before too: his son Domenico's marriage bundle of July 1844 runs to FIVE FOGLI and contains no death certificate for either father, which this series required when a parent had died. HE IS WHERE THE SCILLA LINE STOPS. His own marriage, and any birth of his own, fall before 1816 when Scilla's civil registration begins, and his son Michele was born at MESSINA about 1814 where registration does not begin until 1820. Everything earlier is a parish record."
+   },
+   {
+    "name": "Marta Paladino",
+    "rel": "mother",
+    "depth": 1,
+    "gen": "7",
+    "born": "c. 1786",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129); Matrimoni 1844, Tavola entry 17; Matrimoni 1845, atto 31",
+    "note": "CANDELORO DONATO'S WIFE. HER GIVEN NAME IS IN DISPUTE AND THE DISPUTE IS WORTH KEEPING. Her son's birth act of 18 December 1816, written while she was in the next room, reads «e da MAR-TA PALADINO, di anni trenta, sua moglie legittima» -- the name broken across a line, and the second line beginning plainly «ta». The 1844 marriage Tavola calls her «Paladino MARIA». The act is contemporaneous and primary and the Tavola is an index made up at the year's end, and THIS VERY INDEX SERIES HAS ALREADY BEEN CAUGHT GIVING A MOTHER THE WRONG NAME -- the 1854 Tavola calls Serafina Arlotta «Rosa», and that error briefly made a brother into a cousin. Against that: the same 1844 Tavola gets the OTHER mother in the same entry exactly right, «de Amico Maria», as her own daughter's birth act confirms. So the index is not uniformly careless. MARTA is published here because the act says it; MARIA is recorded because the index says it. Another child of Candeloro in the Scilla births of 1810-1830 would settle it."
+   }
+  ]
+ },
+ "annunziata-sofi": {
+  "anchor": "Nunziata Sofi",
+  "exportName": "Annunziata Sofi",
+  "ancGen": 6,
+  "up": [
+   {
+    "name": "Pasquale Sofi",
+    "rel": "father",
+    "depth": 1,
+    "gen": "7",
+    "born": "c. 1780",
+    "died": "alive at Scilla, July 1844",
+    "trade": "marinaro (sailor)",
+    "source": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129)",
+    "note": "NUNZIATA SOFI'S FATHER, and a sailor like the Donato men he married into. Alive in July 1844: his daughter's marriage bundle holds no death certificate for him. Not in the family tree."
+   },
+   {
+    "name": "Maria de Amico",
+    "rel": "mother",
+    "depth": 1,
+    "gen": "7",
+    "born": "c. 1793",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129); Matrimoni 1844, Tavola entry 17",
+    "note": "Nunziata Sofi's mother. Not in the family tree. HER NAME IS CONFIRMED TWICE, by her daughter's birth act of 1818 and by the 1844 Tavola independently, which is why the Tavola's reading of the OTHER mother in the same entry is a question rather than a verdict -- see [[Marta Paladino]]. NOTE A COINCIDENCE, NOT A JOIN: the Michele Donato of act 31 of 1845 married an ANGELA DE AMICO. De Amico is common at Scilla and nothing yet connects the two women."
+   }
+  ]
+ }
+}

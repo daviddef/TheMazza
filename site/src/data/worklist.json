@@ -406,11 +406,11 @@
   },
   {
    "n": 51,
-   "what": "STRUCTURE — let the charts draw people the export does not contain",
-   "state": "next",
+   "what": "Let the charts draw people the export does not contain — half done",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 5, and the biggest single improvement available.** `/bloodline/` and every chart here draw Michael's export, so **forty-four documented people cannot appear on any of them** — including whole couples this archive proved. Giovanni Arena, Concetta Russo and Domenico Donato all show as dead ends on the chart while the archive knows their parents and cites the act. Either give the charts a second source or publish a companion chart that draws the documented line. This is the gap between what the archive knows and what it shows."
+   "note": "**The reader-facing half is done.** `tools/build_documented_line.py` walks the additions' own father/mother names up from every row that carries an `inTree` slug, and `/lines` now publishes the result: **thirteen ancestors no chart on this site can draw**, each with the relation, the dates, the trade and the citation, under the export person where the drawing stops. **The deepest is three generations above Giovanni Arena** — Francesco Antonio Arena, then Filippo Arena and Domenica Costa, and on the mother's side Serafina Arlotta, Giovanni Arlotta and Domenico Arlotta. `/bloodline/` shows none of them. **What is NOT done, and cannot be done here:** the charts themselves still cannot draw these people, because `Bloodline.astro` and `lib/bloodline.js` are the **shared kit's** and this archive leaves the kit alone. The gap is now visible and cited rather than silent, which is most of the value — but drawing it needs the estate. See row 63."
   },
   {
    "n": 52,
@@ -499,6 +499,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**Promoted out of row 49 because today's sweep proved the case.** Queensland BDM cannot see this family: they arrived in 1949, married after the marriage index closes in 1951, and mostly died after the death index closes in 1996. Polistena returns **zero**; Prostamo returns **one**. **Electoral rolls have none of those limits.** They are near-annual, they run through the whole post-war period, they give **address and occupation**, and they capture people who neither died nor married inside an index window — which is precisely this family's problem. For a migration that lands in 1949, the rolls are the primary source and the registrar's index is the secondary one. Start with Brisbane 1949–1980 for Prostamo, Polistena, Mazza and Arena."
+  },
+  {
+   "n": 63,
+   "what": "Ask the estate whether the kit's chart can take a second source",
+   "state": "next",
+   "owner": "the kit & estate",
+   "since": "2026-09-15",
+   "note": "**Raised by row 51, and it is not a Mazza-only problem.** `Bloodline.astro` and `lib/bloodline.js` draw one array of people — the archive's export. Any archive that also keeps **documented people the export lacks** can therefore prove an ancestor and not draw them. Here that is **fifty-four people and thirteen direct ancestors**, including three generations above Giovanni Arena. **The ask is small and probably general:** let `graph()` accept a second, clearly-styled set of nodes — drawn differently, the way a `tree` edge is already drawn dashed — so an archive can show the difference between what the family remembers and what the records prove. Worth asking before anyone builds a private fork of the chart, which is exactly how this estate got two Pedigrees 7.6KB apart."
   }
  ]
 }

@@ -3,6 +3,9 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import quarters from "../data/quarters.json";
+import documented from "../data/documented-line.json";
+const anchors = Object.entries(documented).sort((a, b) => b[1].up.length - a[1].up.length);
+const beyond = anchors.reduce((n, [, v]) => n + v.up.length, 0);
 ---
 <Base title="The Four Quarters" eyebrow="Four grandparents, three towns"
       dek="Every person has four grandparents, and they are the honest unit of a family history: four separate families, four separate depths of evidence, and no reason at all for them to be equal.">
@@ -41,6 +44,42 @@ import quarters from "../data/quarters.json";
       </div>
     ))}
   </div>
+
+  <section class="blk" style="margin-top:20px">
+    <div class="lab">Where the chart stops and the evidence does not</div>
+    <h2 style="margin-top:.4rem">{beyond} ancestors no chart on this site can draw</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Every chart here is drawn from Michael's export, so a person the family tree does not
+      contain cannot appear on one — however good the act behind them. <strong>These {beyond} are
+      proved by a register and invisible on every picture.</strong> The line below each name is where
+      the drawing stops; everything under it is what the records actually say stands above.</p>
+      <p class="note">This is not a flaw in the charts. It is the difference between what a family
+      remembers and what an archive can prove, and it is the single largest gap left on this site.</p>
+    </div>
+
+    <div class="stack" style="margin-top:26px">
+      {anchors.map(([slug, v]) => (
+        <div>
+          <div class="lab">the chart stops at</div>
+          <div style="font-size:22px;line-height:1.2;margin-top:6px">
+            <a href={u("/people/" + slug)} style="color:inherit">{v.exportName}</a>
+            {v.anchor !== v.exportName && <span class="mono" style="color:var(--ink-3);font-size:14px"> · the archive calls him {v.anchor}</span>}
+          </div>
+          <div class="evlist" style="margin-top:12px">
+            {v.up.map((r) => (
+              <div>
+                <b>{r.born && r.born !== "\u2014" ? r.born : "····"}</b>
+                <strong>{r.name}</strong>
+                <span class="mono" style="color:var(--ink-3)"> · {r.rel}</span>
+                {r.trade && r.trade !== "\u2014" && <em> · {r.trade}</em>}
+                <div class="small" style="color:var(--ink-3)">{r.source}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
 
   <section class="blk" style="margin-top:20px">
     <h2>The quarters are not equal, and that is the finding</h2>
