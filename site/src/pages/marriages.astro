@@ -1,0 +1,187 @@
+---
+import Base from "../layouts/Base.astro";
+import Marriages from "@daviddef/archive-kit/components/Marriages.astro";
+import { u } from "../lib/url.js";
+import people from "../data/people.json";
+import families from "../data/families.json";
+
+/* The couples, and the families they came from.
+ *
+ * This replaces a surname census. /families/ listed all 123 surnames with a
+ * count against each and claimed nothing about them, which was honest and also
+ * silent: it could not say why any of those names were here. They are here
+ * because a person married a person, and the person graph already knows it.
+ *
+ * A family is placed by DESCENT, computed over people and never over spelling —
+ * the same rule the Falco archive had to adopt after a surname rule put an
+ * unrelated family on its page. It is the right rule here for the same reason:
+ * this archive's subject is a FAMILY. Where an archive's subject is a NAME —
+ * Defranceschi, Lerena — grouping by the name is correct instead, and the
+ * shared component argues about neither.
+ *
+ *   blood   born a Mazza, or descended from one through any number of women
+ *   married married such a person
+ *   kin     the blood family that a married person came from
+ *   second  married into one of those
+ *
+ * Nothing below matches a name against a name. Every edge walked is a parent,
+ * child or spouse link carried in the data.
+ */
+const BY = new Map(people.map((p) => [p.id, p]));
+const kids = (p) => (p.children || []).map((c) => BY.get(c.id)).filter(Boolean);
+const rents = (p) => (p.parents || []).map((c) => BY.get(c.id)).filter(Boolean);
+const mates = (p) => (p.spouses || []).map((c) => BY.get(c.id)).filter(Boolean);
+
+const BLOOD = new Set();
+{
+  const q = people.filter((p) => p.surname === "Mazza");
+  q.forEach((p) => BLOOD.add(p.id));
+  for (let i = 0; i < q.length; i++) for (const c of kids(q[i]))
+    if (!BLOOD.has(c.id)) { BLOOD.add(c.id); q.push(c); }
+}
+const MARRIED = new Map();          // spouse id -> the blood person married
+for (const p of people) if (BLOOD.has(p.id))
+  for (const s of mates(p)) if (!BLOOD.has(s.id) && !MARRIED.has(s.id)) MARRIED.set(s.id, p);
+
+const KIN = new Set();              // the family a married person came from
+{
+  const q = [...MARRIED.keys()].map((id) => BY.get(id)).filter(Boolean);
+  for (const p of q) for (const r of rents(p)) if (!BLOOD.has(r.id) && !KIN.has(r.id)) { KIN.add(r.id); q.push(r); }
+  for (let i = 0; i < q.length; i++) for (const c of kids(q[i]))
+    if (!BLOOD.has(c.id) && !MARRIED.has(c.id) && !KIN.has(c.id)) { KIN.add(c.id); q.push(c); }
+}
+const SECOND = new Set();
+for (const p of people) if (KIN.has(p.id))
+  for (const s of mates(p)) if (!BLOOD.has(s.id) && !MARRIED.has(s.id) && !KIN.has(s.id)) SECOND.add(s.id);
+
+const reach = (p) => BLOOD.has(p.id) ? "blood" : MARRIED.has(p.id) ? "married"
+  : KIN.has(p.id) ? "kin" : SECOND.has(p.id) ? "second" : "unconnected";
+
+/* The living are named and nothing more: no date, no place. This archive marks
+   them presumedLiving and already hides their dates; the page does not undo it. */
+const hidden = (p) => p.living || p.presumedLiving;
+
+const STRENGTH = ["blood", "married", "kin", "second", "unconnected"];
+const GROUPS = [
+  { key: "blood", label: "They carry this family's blood",
+    blurb: `Born a Mazza, or descended from one through any number of women. The name changed along
+      the way; the descent did not.` },
+  { key: "married", label: "They married a Mazza",
+    blurb: `The families who joined this one directly — at <strong>Piedimonte Etneo</strong> on the
+      slope of Etna, at <strong>Briatico</strong> on the Calabrian coast, and at
+      <strong>Brisbane</strong>.` },
+  { key: "kin", label: "The families they came from",
+    blurb: `These never married the name and they married into the family all the same: each is the
+      blood family of somebody who married a Mazza.` },
+  { key: "second", label: "They married into one of those",
+    blurb: `One step further out — they married into a family that married into this one. The
+      distance is stated rather than hidden.` },
+  { key: "unconnected", label: "Not yet joined to this family",
+    blurb: `The archive holds these people and cannot yet show how they reach this line. Every one
+      is a thread somebody could pull.` },
+];
+
+const bySurname = new Map();
+for (const p of people) {
+  const s = p.surname || "(no surname recorded)";
+  if (!bySurname.has(s)) bySurname.set(s, []);
+  bySurname.get(s).push(p);
+}
+const META = new Map(families.map((f) => [f.surname, f]));
+
+const primary = (list) => STRENGTH.find((k) => list.some((p) => reach(p) === k)) || "unconnected";
+
+const fam = (surname, list) => {
+  const meta = META.get(surname) || {};
+  const shown = list.filter((p) => !hidden(p));
+  const marr = [];
+  for (const p of list) for (const s of mates(p)) {
+    if (BLOOD.has(p.id) === BLOOD.has(s.id)) continue;
+    const k = [p.id, s.id].sort().join("|");
+    if (marr.some((m) => m.k === k)) continue;
+    marr.push({ k, who: p.name, whoSlug: hidden(p) ? "" : p.slug,
+      to: s.name, toSlug: hidden(s) ? "" : s.slug, living: hidden(p) || hidden(s) });
+  }
+  return {
+    surname, n: shown.length,
+    withheld: list.length - shown.length,
+    span: meta.first ? `${meta.first}–${meta.last}` : "",
+    places: meta.places || [],
+    marriages: marr,
+    /* born and died are sometimes a string, sometimes a number, sometimes null,
+       so both the sort key and the printed value go through String(). */
+    people: shown
+      .sort((a, b) => String(a.born ?? "9999").localeCompare(String(b.born ?? "9999")))
+      .map((p) => ({
+        name: p.name, slug: p.slug,
+        b: [p.born, p.birthPlace].filter(Boolean).map(String).join(" \u00b7 "),
+        d: [p.died, p.deathPlace].filter(Boolean).map(String).join(" \u00b7 "),
+      })),
+  };
+};
+
+const ALL = [...bySurname.entries()].map(([s, list]) => ({ s, list, key: primary(list) }));
+const GROUPED = GROUPS.map((g) => {
+  const mine = ALL.filter((x) => x.key === g.key);
+  return {
+    ...g, count: mine.length,
+    families: mine.filter((x) => x.list.filter((p) => !hidden(p)).length >= 4)
+      .sort((a, b) => b.list.length - a.list.length).map((x) => fam(x.s, x.list)),
+    thin: mine.filter((x) => { const n = x.list.filter((p) => !hidden(p)).length; return n > 0 && n < 4; })
+      .sort((a, b) => a.s.localeCompare(b.s)).map((x) => fam(x.s, x.list)),
+    held: mine.filter((x) => !x.list.some((p) => !hidden(p)))
+      .sort((a, b) => a.s.localeCompare(b.s))
+      .map((x) => ({ surname: x.s, withheld: x.list.length })),
+  };
+}).filter((g) => g.count);
+
+const nNamed = people.filter((p) => !hidden(p)).length;
+const nHidden = people.length - nNamed;
+const nCouples = (() => {
+  const seen = new Set();
+  for (const p of people) for (const s of mates(p)) seen.add([p.id, s.id].sort().join("|"));
+  return seen.size;
+})();
+const counts = Object.fromEntries(GROUPS.map((g) => [g.key, ALL.filter((x) => x.key === g.key).length]));
+---
+<Base title="The Marriages"
+      eyebrow={`${nCouples} couples · ${bySurname.size} families · ${nNamed} people named`}
+      dek="Who married whom, and which families came with them. Every surname in this archive is here for one reason — that a person married a person — and this page says which person, for each.">
+
+  <div class="card" style="border-left:3px solid var(--accent)">
+    <h3 style="margin-bottom:.4rem">Why this page exists</h3>
+    <p>This archive used to list its {bySurname.size} surnames with a count against each and claim
+    nothing about any of them. That was honest, and it was also silent: it could not say <em>why</em>
+    those names were here. <strong>They are here because a person married a person</strong>, and the
+    person graph has known which person all along.</p>
+    <p style="margin-top:.6rem"><strong>A family is placed by descent, never by spelling.</strong>
+    Born a Mazza or descended from one; married such a person; the family that person came from; or
+    married into one of those. <strong>{counts.blood} carry this family's blood,
+    {" "}{counts.married} married one, {counts.kin} are such a family, {counts.second} married into
+    one of those</strong>, and {counts.unconnected === 0 ? "none reach it not at all" :
+    `${counts.unconnected} cannot yet be reached from it at all`}. Nothing below matches a name
+    against a name: every link walked is a parent, child or spouse edge carried in the data.</p>
+    <p style="margin-top:.6rem"><strong>The living are named and nothing more.</strong>
+    {" "}{nHidden} people are held as living: a name and a relationship, no date and no place. Where
+    a family shows <em>no named people at all</em>, every person the archive holds for that surname
+    is living.</p>
+  </div>
+
+  <Marriages u={u} groups={GROUPED} openAt={8}>
+    <div slot="missing">
+      <h2 style="margin-top:2rem">What would help</h2>
+      <ul>
+        <li><strong>A marriage act.</strong> It names all four parents at once, which is the only
+        record that can turn a «married one» into a «came from».</li>
+        <li><strong>A surname recorded once.</strong> Most of the thin entries above are one person
+        who married in and left no further trace. They are kept rather than dropped, because
+        dropping them would quietly make this family look more endogamous than it was.</li>
+        <li><strong>Anything from the Sicilian and Calabrian side after 1900</strong> — the registers
+        close to the public at a century; the family's own papers do not.</li>
+      </ul>
+      <p class="small" style="margin-top:1.4rem"><a href={u("/people/")}>The People</a> ·
+      <a href={u("/register/")}>The Register</a> · <a href={u("/households/")}>Households</a> ·
+      <a href={u("/direct-line/")}>The direct line</a></p>
+    </div>
+  </Marriages>
+</Base>
