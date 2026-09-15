@@ -556,19 +556,25 @@
   },
   {
    "n": 65,
-   "what": "SAN COSTANTINO CALABRO — a town this archive has never queried",
-   "state": "next",
+   "what": "SAN COSTANTINO CALABRO — mapped, and it may walk round the Zambrone gap",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 7.** Giuseppe Ventrice's marriage act of 1824 says «**nato in S. Costantino**» — so the Ventrice came into Zambrone from San Costantino Calabro, a few kilometres off, and **no query has ever been run against that comune**. His own birth about 1790 is pre-civil and out of reach, but **his parents' other children, and Domenico Ventrice's own household, may be there** from 1811. Establish what Antenati holds and from when, the way Messina and Pizzo were established — cheap, and it either opens a town or closes one."
+   "note": "**Mapped for the first time, and it is bigger than expected: 205 volumes, 1810 to 1912**, including Nati 1812–24, **Morti 1813–27**, Matrimoni 1813–32 and **forty-eight processetti volumes**. **The strategic point:** Zambrone's deaths are missing **1813–1821**, and four wanted people died inside that gap. **San Costantino's Morti 1813–27 covers exactly those years.** If **Anna Maropoli** — Giuseppe Ventrice's mother, already «la fu» in March 1824 — died in her husband's own town rather than at Zambrone, **her act survives**. The gap may be walkable *round* rather than through. **Not yet swept:** the 1813–27 death volume is 325 images and **is not one comune** — image 12 is San Costantino, images 24 and 40 are **Francica**. The comune line must be read on every act. Giuseppe's own birth, about 1790, stays out of reach.",
+   "covers": [
+    "src:src/antenati-san-costantino-cala-23923f"
+   ]
   },
   {
    "n": 66,
    "what": "PIZZO 1823–1860 — Maria Fragalà's death, and the Prostamo who stayed",
-   "state": "next",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 7, and it is reachable where the rest of the Prostamo line is not.** Pizzo's registers begin in **1823**, and **Maria Fragalà was alive at Pizzo in June 1849** when her son married at Briatico. Her death is therefore *inside* the surviving run — one of the few Prostamo events on this line that is. The same volumes would hold any other Prostamo who did not move to Briatico. The 1837 cholera register is not digitised, but 1823–1836 and 1838–1860 are a different question and have never been opened."
+   "note": "**Phase 7, and it is reachable where the rest of the Prostamo line is not.** Pizzo's registers begin in **1823**, and **Maria Fragalà was alive at Pizzo in June 1849** when her son married at Briatico. Her death is therefore *inside* the surviving run — one of the few Prostamo events on this line that is. The same volumes would hold any other Prostamo who did not move to Briatico. The 1837 cholera register is not digitised, but 1823–1836 and 1838–1860 are a different question and have never been opened. **Series listed: 751 volumes, earliest 1823** — the wall confirmed from the series itself. Reachable: Nati and Morti from 1823, Matrimoni 1823–29, and **thirty-four processetti volumes**. **Maria Fragalà's death is the target** and it falls inside the surviving run. Antonino Prostamo's marriage of about 1810–13 does not.",
+   "covers": [
+    "src:src/antenati-pizzo-the-whole-ser-342b65"
+   ]
   },
   {
    "n": 67,
