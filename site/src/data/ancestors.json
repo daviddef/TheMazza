@@ -487,7 +487,7 @@
   {
    "gen": 6,
    "possible": 64,
-   "found": 12,
+   "found": 10,
    "people": [
     {
      "id": "@I370@",
@@ -498,17 +498,6 @@
      "died": null,
      "datesHidden": false,
      "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
-     "comp": 1
-    },
-    {
-     "id": "@I371@",
-     "slug": "orazio-arena",
-     "name": "Orazio Arena",
-     "surname": "Arena",
-     "born": 1821,
-     "died": null,
-     "datesHidden": false,
-     "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
     {
@@ -609,17 +598,6 @@
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
-    },
-    {
-     "id": "@I455@",
-     "slug": "giovana-zirilli",
-     "name": "Giovana Zirilli",
-     "surname": "Zirilli",
-     "born": null,
-     "died": null,
-     "datesHidden": false,
-     "birthPlace": "",
-     "comp": 1
     }
    ],
    "towns": [
@@ -629,7 +607,7 @@
     },
     {
      "name": "Scilla, Reggio Calabria",
-     "n": 3
+     "n": 2
     },
     {
      "name": "Potenzoni (Briatico), Vibo Valentia, Calabria",
@@ -640,7 +618,7 @@
   {
    "gen": 7,
    "possible": 128,
-   "found": 7,
+   "found": 6,
    "people": [
     {
      "id": "@I375@",
@@ -651,17 +629,6 @@
      "died": null,
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
-     "comp": 1
-    },
-    {
-     "id": "@I372@",
-     "slug": "giuseppe-arena-3",
-     "name": "Giuseppe Arena",
-     "surname": "Arena",
-     "born": null,
-     "died": null,
-     "datesHidden": false,
-     "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
     {
@@ -724,10 +691,6 @@
     {
      "name": "Briatico, Vibo Valentia, Calabria",
      "n": 5
-    },
-    {
-     "name": "Scilla, Reggio Calabria",
-     "n": 1
     },
     {
      "name": "Potenzoni (Briatico), Vibo Valentia, Calabria",
@@ -897,6 +860,6 @@
    ]
   }
  ],
- "total": 62,
+ "total": 59,
  "deepest": 10
 }

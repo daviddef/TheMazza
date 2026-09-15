@@ -524,13 +524,6 @@
   },
   "children": [
    {
-    "id": "@I248@",
-    "name": "Rocco Arena",
-    "slug": "rocco-arena",
-    "living": false,
-    "via": "tree"
-   },
-   {
     "id": "@I373@",
     "name": "Guiseppe Arena",
     "slug": "guiseppe-arena",
@@ -7512,28 +7505,6 @@
    }
   ],
   "place": "Scilla, Reggio Calabria",
-  "born": null
- },
- {
-  "name": "Giovana Zirilli & Orazio Arena",
-  "head": "giovana-zirilli",
-  "headId": "@I455@",
-  "spouse": {
-   "id": "@I371@",
-   "name": "Orazio Arena",
-   "slug": "orazio-arena",
-   "living": false
-  },
-  "children": [
-   {
-    "id": "@I248@",
-    "name": "Rocco Arena",
-    "slug": "rocco-arena",
-    "living": false,
-    "via": "tree"
-   }
-  ],
-  "place": "",
   "born": null
  },
  {

@@ -135,6 +135,28 @@ const GROUPED = GROUPS.map((g) => {
   };
 }).filter((g) => g.count);
 
+/* A couples register, which this page did not have either. The spouse edges are
+   already in the graph — the families section reads them — so the marriages were
+   there all along and only the list of them was missing. Ordered oldest first,
+   and a living person is named with no date beside them, as everywhere. */
+const couples = (() => {
+  const seen = new Set(), out = [];
+  for (const p of people) for (const s of mates(p)) {
+    const k = [p.id, s.id].sort().join("|");
+    if (seen.has(k)) continue;
+    seen.add(k);
+    const yr = (x) => (String(x.born || "").match(/\d{4}/) || [""])[0];
+    out.push({
+      a: { name: p.name, slug: hidden(p) ? "" : p.slug, living: hidden(p) },
+      b: { name: s.name, slug: hidden(s) ? "" : s.slug, living: hidden(s) },
+      when: hidden(p) || hidden(s) ? "" : [yr(p), yr(s)].filter(Boolean).sort()[0] || "",
+      where: hidden(p) || hidden(s) ? "" : [p.birthPlace, s.birthPlace].filter(Boolean)[0] || "",
+      sort: [yr(p), yr(s)].filter(Boolean).sort()[0] || "9999",
+    });
+  }
+  return out.sort((a, b) => a.sort.localeCompare(b.sort));
+})();
+
 const nNamed = people.filter((p) => !hidden(p)).length;
 const nHidden = people.length - nNamed;
 const nCouples = (() => {
@@ -167,7 +189,14 @@ const counts = Object.fromEntries(GROUPS.map((g) => [g.key, ALL.filter((x) => x.
     is living.</p>
   </div>
 
-  <Marriages u={u} groups={GROUPED} openAt={8}>
+  <Marriages u={u} groups={GROUPED} openAt={8} subject="Mazza"
+    metrics={[{ n: nCouples, label: "couples" }, { n: bySurname.size, label: "families" },
+              { n: nNamed, label: "people named" }, { n: nHidden, label: "living, withheld" },
+              { n: counts.blood, label: "carry this blood" }]}
+    couples={couples}
+    couplesTitle="Every couple the archive can name"
+    couplesNote="The spouse links were already in the graph — the families above are read from them — so these marriages were here all along and only the list of them was missing."
+    couplesGroupBy={(c) => (c.sort === "9999" ? "Undated" : c.sort.slice(0, 2) + "00s")}>
     <div slot="missing">
       <h2 style="margin-top:2rem">What would help</h2>
       <ul>

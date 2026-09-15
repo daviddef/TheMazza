@@ -1757,7 +1757,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1793,7 +1793,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 10,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1829,7 +1829,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1857,7 +1857,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 3,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -18659,22 +18659,7 @@
   "burialPlace": "",
   "sources": [],
   "photos": [],
-  "parents": [
-   {
-    "id": "@I371@",
-    "name": "Orazio Arena",
-    "slug": "orazio-arena",
-    "living": false,
-    "via": "tree"
-   },
-   {
-    "id": "@I455@",
-    "name": "Giovana Zirilli",
-    "slug": "giovana-zirilli",
-    "living": false,
-    "via": "tree"
-   }
-  ],
+  "parents": [],
   "children": [
    {
     "id": "@I246@",
@@ -27376,13 +27361,6 @@
   ],
   "children": [
    {
-    "id": "@I248@",
-    "name": "Rocco Arena",
-    "slug": "rocco-arena",
-    "living": false,
-    "via": "tree"
-   },
-   {
     "id": "@I373@",
     "name": "Guiseppe Arena",
     "slug": "guiseppe-arena",
@@ -27415,8 +27393,8 @@
   "corrections": [
    "The tree gives him no source at all, and gives him two children, Rocco and Guiseppe. THE REGISTER GIVES HIM NEITHER. Across 1856, 1858, 1859 and 1860 he and Giovanna Zirilli have Domenico (1856), Domenico (1859) and Maria Annunziata (1860); the Rocco and Giuseppe the tree assigns him belong to Francesco Antonio Arena and Serafina Arlotta. He is a real, well documented Scilla man who has been given another household's children. His first son being Domenico twice suggests, on naming custom alone, that his own father was a Domenico Arena -- a lead, not a finding."
   ],
-  "onSpine": true,
-  "ancGen": 6
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@I372@",
@@ -27459,8 +27437,8 @@
   "siblings": [],
   "records": [],
   "corrections": [],
-  "onSpine": true,
-  "ancGen": 7
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@I373@",
@@ -29413,7 +29391,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 8,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29449,7 +29427,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29631,7 +29609,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 4,
+  "comp": 6,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -32813,15 +32791,7 @@
   "sources": [],
   "photos": [],
   "parents": [],
-  "children": [
-   {
-    "id": "@I248@",
-    "name": "Rocco Arena",
-    "slug": "rocco-arena",
-    "living": false,
-    "via": "tree"
-   }
-  ],
+  "children": [],
   "spouses": [
    {
     "id": "@I371@",
@@ -32841,8 +32811,8 @@
   "corrections": [
    "The export carries her twice as Orazio Arena's wife: undated here, and as Giovanna Zirilli b. 1827 with a son Guiseppe. Act 46 shows a single couple at Scilla in 1859. The two records have NOT been merged, because surname endogamy at Scilla is common enough that a second wife of the same surname is a real possibility."
   ],
-  "onSpine": true,
-  "ancGen": 6
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@I456@",

@@ -318,11 +318,11 @@
   },
   {
    "n": 40,
-   "what": "SCILLA — who is the Giuseppe Arena of generation seven?",
-   "state": "next",
+   "what": "SCILLA — who is the Giuseppe Arena of generation seven? Answered: he was never an ancestor",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 3.** He sits on the spine at ancGen 7 with **no parents, no dates and no spouse recorded**, and this archive has never looked at him. Establish whether he is a real ancestor or an artefact of the export before spending anything on the generation above him."
+   "note": "**Answered by row 42 rather than by a register.** He was on the spine at ancGen 7 for one reason only: he is Orazio Arena's father, and Orazio was believed to be Rocco's. **With that edge dropped he is not an ancestor at all** — `onSpine` false, no generation. He remains a real person in Michael's tree; he is simply not in this family's direct line. Asking «is he real or an artefact?» turned out to be the wrong question: he is real, and his *ancestry* was the artefact."
   },
   {
    "n": 41,
@@ -334,11 +334,11 @@
   },
   {
    "n": 42,
-   "what": "SCILLA — Orazio Arena and Giovanna Zirilli: what to do with a couple the tree misplaced",
-   "state": "next",
+   "what": "SCILLA — Orazio Arena and Giovanna Zirilli: the edge is dropped",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 3, and a debt.** They are real — documented at Scilla with children in 1853, 1856, 1859 and 1860 — but Rocco Arena is **not their son**, and this archive proved it. They are still on the spine as his parents. Either drop the edge with `parent-links.tsv` and say why on the page, or keep it and mark it disputed. Right now the site argues with itself."
+   "note": "**Done, and the site has stopped arguing with itself.** It was proving on /corrections/ that Rocco Arena is not Orazio's son while still drawing that parentage on every chart. The edge is now **dropped** in `parent-links.tsv`, with the whole case written on the row. **The case, five independent reads:** Rocco's own birth act (Nati 1861/228) and his **own marriage act** (Matrimoni 1888/63) both name Francesco Antonio Arena and Serafina Arlotta; act 45 of 1860 gives that couple a son Giuseppe, and the tree gives Orazio exactly two children — Rocco and Giuseppe — so the tree took Francesco Antonio's household whole; Orazio and Giovanna's real children are documented across 1853–1860 and include neither; and the obvious namesake, the Rocco of 1858, was tested and excluded. **Three people left the blood line with it** — Orazio, Giovanna and Orazio's father Giuseppe Arena. **62 ancestors became 59.** Orazio and Giovanna stay on the site as the real couple this archive found; they were simply not his parents. **Rocco now has no parents on the chart**, because his real ones are not in the export. That is row 51's problem, exactly."
   },
   {
    "n": 43,
