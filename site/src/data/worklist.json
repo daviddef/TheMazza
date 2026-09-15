@@ -151,10 +151,10 @@
   {
    "n": 19,
    "what": "Retry FamilySearch — it reaches Briatico to 1910, where Antenati stops",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-10",
-   "note": "Blocked since the archive was built by a site-wide Error 15 naming the proxy IP, never retried. It holds parish marriages Antenati lacks, and its Briatico run to 1910 would reach **Francessco Prostamo, born 16 November 1900**, who is otherwise unreachable."
+   "note": "**UNBLOCKED, AND THE HOPE IN IT DID NOT SURVIVE CONTACT.** The site-wide Error 15 has cleared; FamilySearch works, needs no login, and shows both parents on the results page. Add `q.surname.exact=on` or the surname match is uselessly fuzzy. **But Briatico is not indexed there.** Twenty-six exact Prostamo births 1896-1912 in the Vibo Valentia *Tribunale* collection are all Mileto, Comparni, San Giovanni or Pizzo — and Francessco Prostamo, born 16 November 1900 at Briatico, is not among them. See [what has been read](/searched/)."
   },
   {
    "n": 20,
@@ -206,11 +206,11 @@
   },
   {
    "n": 26,
-   "what": "Map the processetti of Briatico and Piedimonte Etneo the same way",
-   "state": "next",
+   "what": "Map the processetti of Briatico — done; Piedimonte Etneo still to do",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The method has now paid twice — Briatico 1849 broke the Calabrian line open, Scilla 1844 has just closed the Donato one. **Neither town's bundles have been mapped as a series.** Do for Briatico and Piedimonte what was done for Scilla today: list every processetti volume and the years it covers, before sweeping anything else."
+   "note": "**BRIATICO MAPPED.** Bundles exist for 1824, 1826, 1828, 1830, 1840, 1845 and 1850 — not 1820, not 1822 — and **each year returns two or three arks which are DIFFERENT COMUNI** in the circondario: 1826 gives Briatico and Sciconi, 1828 adds a Conidoni bundle covering 1828-1851. Read the manifest label before assuming the town. **AND THEY ARE ARRANGED UNLIKE SCILLA'S**, which decides what a search costs: Scilla's are per-marriage fascicoli each opening with a cover sheet naming both spouses, so the right file is found by reading covers. Briatico's 1826 bundle has **no cover sheets at all** — a continuous run of loose notificazioni with the names buried in the body. So the route in is the marriage register first, for the act number. Piedimonte Etneo not yet mapped."
   },
   {
    "n": 27,
@@ -227,6 +227,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**Mario Mazza (1921-2015) and Maria Mazza (1931-2014) share plot Mon 3H 104** at Mount Gravatt — a married pair by the adjacent-plot rule that found the four Mazza grandparents lying in a row at Nudgee. Neither is in Michael's export, which holds no Mazza born 1921 or 1931. Mazza is a common Sicilian name and nothing yet connects them to Piedimonte Etneo. Their death registrations would name their parents."
+  },
+  {
+   "n": 29,
+   "what": "Giuseppe Ventrice × Caterina Cichello's marriage — Briatico or Zambrone, before mid-1827",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The next rung of the Calabrian ladder, and the reason the Briatico processetti were mapped today. Their daughter Giovanna was born 23 June 1828, so the marriage is before that. **Their bundle would carry Giuseppe's own birth act (about 1795), Caterina Cichello's, HER PARENTS — a couple this archive has never had — and very possibly the death of PAOLO VENTRICE**, who exists here as a name and nothing else. Briatico's 1824 and 1826 bundles are downloaded and have no cover sheets, so find the act number in the marriage register first."
   }
  ]
 }
