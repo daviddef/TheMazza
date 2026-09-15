@@ -4,6 +4,14 @@
 A source that returned nothing is evidence too — it is the difference between
 "we have not looked" and "it is not there". data/searched.tsv is the record;
 this writes it out for the site.
+
+THE `key` COLUMN IS NOT DECORATION. The work-list gate counts outstanding
+searches against the work list and needs an exact, stable identifier for each
+row. Keys added to searched.json by hand were wiped the first time this script
+ran, and the gate then reported "nothing outstanding" for an archive with
+twenty-four outstanding searches. The key lives in the TSV, which is the
+record, and is passed through untouched — never recomputed, so editing a scope
+or a result cannot move it, and never reused when a row is retired.
 """
 import csv, json, os
 
