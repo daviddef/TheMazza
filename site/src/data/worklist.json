@@ -230,11 +230,11 @@
   },
   {
    "n": 29,
-   "what": "Giuseppe Ventrice × Caterina Cichello's marriage — now looking in the Zambrone book",
-   "state": "running",
+   "what": "Giuseppe Ventrice × Caterina Cichello's marriage — FOUND, Zambrone, 2 March 1824",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Briatico 1822–27 read complete and negative** — twenty-four marriages, not one Ventrice. **Now in the Zambrone book, and the family is there.** Zambrone Matrimoni **1811–1858**, `an_ua37928578`, 253 images, one volume for forty-seven years; the first fifty images cover 1811–1830 and are downloaded. Each year runs title page → acts → an annual **Tavola naming both sets of parents**. **Read complete: 1822, 1824 and 1826** — eleven marriages, no Giuseppe Ventrice. The 1826 Tavola does give **Vincenzo Sorrentino × Serafina Ventrice, 9 August 1826** — the first Ventrice found in a Zambrone marriage, though her father reads as *Francesco*, which would make her a different branch. That reading is faded and not certain. **The window is now 1811–1821, 1823, 1825 and 1827.** Giuseppe was born about 1795, so 1818–1825 first. Every image is already on disk, so this is now reading rather than fetching."
+   "note": "**Found.** Zambrone, Matrimoni 1824, **atto 2** — 2 March 1824, before Giovanni Sarone, sindaco. Giuseppe Ventrice, **34, born at S. Costantino**, contadino, «figlio del fu Domenico e della fu Anna Maropoli»; Caterina Cichello, **26, born at Zambrone**, «figlia del fu Francesco e della fu Vittoria Mollo». Hunted across Briatico 1822–27 and Zambrone 1822–26 before this, and it sat three images from where the sweep had reached. See [what has been read](/searched/) and [corrections](/corrections/)."
   },
   {
    "n": 30,
@@ -250,31 +250,31 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "This archive has recorded for days that **Zambrone's Morti are missing 1813–1821** — one of its four established walls. But the series listing shows a death volume **`an_ua37932358`, Zambrone Morti 1811–1839**, one book covering the whole span, and a second at 1811–1840. Either the gap is inside that volume, or the wall was established against the wrong ark. **Open it and find out** — Domenico Ventrice died at Zambrone in January 1815, and his act would be in exactly the missing years."
+   "note": "This archive has recorded for days that **Zambrone's Morti are missing 1813–1821** — one of its four established walls. But the series listing shows a death volume **`an_ua37932358`, Zambrone Morti 1811–1839**, one book covering the whole span, and a second at 1811–1840. Either the gap is inside that volume, or the wall was established against the wrong ark. **Open it and find out** — Domenico Ventrice died at Zambrone in January 1815, and his act would be in exactly the missing years. **AND IT NOW MATTERS MORE THAN WHEN IT WAS RAISED.** The 1824 marriage act calls Domenico Ventrice's wife **Anna Maropoli**; the 1849 chancery copy calls her **Anna Fama**. Neither is the original. His death act of 13 January 1815 would settle it, and that act is in exactly the years this volume is supposed to be missing."
   },
   {
    "n": 32,
-   "what": "Read the Zambrone marriage acts of 1818–1825, the live window",
-   "state": "next",
+   "what": "Read the Zambrone marriage acts of 1818–1825 — done, and it found the act",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 1.** Giuseppe Ventrice was born about 1795, so this is where his marriage should be, and the images are already downloaded. Years 1822, 1824 and 1826 are read and clear; 1823 and 1825 have blank end-of-year forms but their acts are unread, and 1818–1821 have no Tavole so must be read act by act. About thirty images."
+   "note": "**Done, and it worked.** The 1823 acts (images 15–17) and the 1824 acts (20–26) were read. Act 2 of 1824 is the Ventrice marriage. **And it exposed a reading error of mine:** the Tavole in this volume leave their year blank — the printed header says «nell'anno ___» and nobody filled it in — so I had deduced the wrong years from position, calling the Tavola at image 27 «1824» when its three couples are the acts of **1823**. **Rule: in this series trust the acts for the year and the Tavola only for the names.**"
   },
   {
    "n": 33,
-   "what": "Then Zambrone 1811–1817, and admit the wall if it is one",
-   "state": "next",
+   "what": "Zambrone 1811–1817 — no longer needed for this marriage",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 1.** If 1818–1825 comes back empty, the couple either married before 1811 — which is impossible, he was born about 1795 — or married somewhere other than Briatico and Zambrone. At that point the honest move is to name the third town rather than keep sweeping: **Potenzoni, Sciconi, Daffinà, Conidoni and San Leo** all sit in the same circondario and all have their own registers."
+   "note": "Raised as the fallback if 1818–1825 came back empty. It did not: the act is 2 March 1824. Closed unread."
   },
   {
    "n": 34,
-   "what": "Caterina Cichello's own parents — a couple this archive has never had",
-   "state": "next",
+   "what": "Caterina Cichello's own parents — FOUND: Francesco Cichello and Vittoria Mollo",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 1, the prize.** Whatever act is found for her marriage will name **her father and mother**, who appear nowhere in this archive. She was born about 1799 and was still alive at Briatico in June 1849, a widow of eighteen years. Her marriage act, or her death act, is the only route to them."
+   "note": "**The prize, and it came in the same act.** «Figlia del fu FRANCESCO e della fu VITTORIA MOLLO» — both already dead when she married at twenty-six in 1824. A couple that appears nowhere else in this archive and nowhere in Michael's tree. Note the surname: a **Mollo** is also Pasquale Piatto's mother in the Zambrone marriage of 1823, so they were a local family and Vittoria was probably born in the town."
   },
   {
    "n": 35,
@@ -459,6 +459,14 @@
    "owner": "David",
    "since": "2026-09-15",
    "note": "**Phase 6.** Beyond the photographs in row 24, there are four things no record will settle: whether the Brisbane **Donato of Pinnaroo** carrying the name Candeloro are kin; whether **Mario and Maria Mazza** of Mount Gravatt are; what the family calls the **Buenos Aires Prostamo**; and which of the **58 shared names** are one person. A short list of specific questions, with the evidence beside each, is worth more than another month of registers."
+  },
+  {
+   "n": 58,
+   "what": "Francesco Cichello and Vittoria Mollo — who were they?",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The couple found today, and the new edge of the Calabrian line. Both were dead by March 1824 and their daughter was born about 1798 at Zambrone, so their marriage is likely **1790s — before Zambrone's registers begin in 1811** and therefore probably out of reach. But their **deaths** are not: anything between 1811 and 1824 would be in the same Morti volume as row 31. Two people, one volume, one look."
   }
  ]
 }

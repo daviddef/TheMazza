@@ -353,15 +353,15 @@
  {
   "name": "Caterina Cichello",
   "gen": "7",
-  "born": "c. 1799",
-  "bornNote": "—",
+  "born": "c. 1798",
+  "bornNote": "TWENTY-SIX at her marriage on 2 March 1824, and BORN AT ZAMBRONE — so born about 1798, which agrees with the about-1799 this archive already had from her daughter's marriage bundle.",
   "died": "alive at Briatico, June 1849",
   "trade": "—",
-  "father": "—",
-  "mother": "—",
+  "father": "Francesco Cichello",
+  "mother": "Vittoria Mollo",
   "inTree": "—",
-  "source": "Briatico, Matrimoni 1849, atto 1 — Antenati an_ua87663",
-  "note": "Giovanna Ventrice's mother, twenty-nine when her daughter was born on 23 June 1828 — so born about 1799. WIDOWED ON 21 JUNE 1831, two days before that daughter turned three, and a widow for EIGHTEEN YEARS: she was still alive in June 1849, when she came to the Briatico town hall and gave her consent to Giovanna's marriage in person."
+  "source": "Zambrone, Matrimoni 1824, atto 2; Briatico, Matrimoni 1849, atto 1",
+  "note": "GIOVANNA VENTRICE'S MOTHER, and now with parents. She married GIUSEPPE VENTRICE at ZAMBRONE on 2 MARCH 1824, and the act names her «figlia DEL FU FRANCESCO e DELLA FU VITTORIA MOLLO» -- both already dead when she married at twenty-six. She was widowed in June 1831, eighteen years before she appears alive at Briatico in her daughter's marriage papers of 1849."
  },
  {
   "name": "Caterina Majo",
@@ -444,15 +444,15 @@
  {
   "name": "Giuseppe Ventrice",
   "gen": "7",
-  "born": "c. 1795",
-  "bornNote": "—",
+  "born": "c. 1790",
+  "bornNote": "THIRTY-FOUR at his marriage on 2 March 1824, so born about 1790 -- AND BORN AT S. COSTANTINO, not Zambrone, which is the first birthplace this archive has had for him. HIS TWO DECLARED AGES DISAGREE: thirty-four in March 1824 gives 1790, and thirty-three in June 1828 gives 1795. Both are his own statements. The earlier one is preferred here only because it is the earlier one.",
   "died": "21 June 1831, at Briatico",
   "trade": "bracciale",
   "father": "Domenico Ventrice",
   "mother": "Anna Fama",
   "inTree": "—",
-  "source": "Briatico, Morti 1839, atto 12 — certified extract in Briatico, Matrimoni processetti 1849-1854",
-  "note": "Giovanna's father, and he died TWO DAYS BEFORE HER THIRD BIRTHDAY. Act 12 of Briatico Morti 1831, read in the original: dead at two in the morning on 21 June 1831 in his own house, «di anni TRENTA», declared by Giacomo Comerci, a miller, and Rosario Zungri, a bracciale. THE YEAR CORRECTS THIS ARCHIVE: the certified copy in the marriage bundle was read as 1839 and published that way; the original says 1831 and the rest of the 1839 register agrees it cannot be. HIS AGE IS STILL IN DISPUTE — thirty at death (born c. 1801) against the thirty-three he gave for HIMSELF when he registered Giovanna's birth in June 1828 (born c. 1795). The archive carries his own declaration and keeps the other on the record."
+  "source": "Zambrone, Matrimoni 1824, atto 2; Briatico, Nati 1828; Briatico, Morti 1831, atto 12",
+  "note": "Giovanna's father, and he died TWO DAYS BEFORE HER THIRD BIRTHDAY. Act 12 of Briatico Morti 1831, read in the original: dead at two in the morning on 21 June 1831 in his own house, «di anni TRENTA», declared by Giacomo Comerci, a miller, and Rosario Zungri, a bracciale. THE YEAR CORRECTS THIS ARCHIVE: the certified copy in the marriage bundle was read as 1839 and published that way; the original says 1831 and the rest of the 1839 register agrees it cannot be. HIS AGE IS STILL IN DISPUTE — thirty at death (born c. 1801) against the thirty-three he gave for HIMSELF when he registered Giovanna's birth in June 1828 (born c. 1795). The archive carries his own declaration and keeps the other on the record. HE MARRIED AT ZAMBRONE ON 2 MARCH 1824, a contadino of thirty-four born at S. COSTANTINO, and the act calls him «figlio DEL FU DOMENICO e DELLA FU ANNA MAROPOLI» -- so BOTH HIS PARENTS WERE DEAD by then, which dates his mother's death for the first time. On the surname MAROPOLI against this archive's ANNA FAMA, see the corrections page."
  },
  {
   "name": "Francesco Crupi",
@@ -570,5 +570,31 @@
   "inTree": "—",
   "source": "Scilla, Matrimoni 1845, atto 31",
   "note": "Michele Donato of Messina's wife. Not in the family tree. A COINCIDENCE AND NOT A JOIN: her husband's brother Domenico had married a Sofi whose own mother was a MARIA DE AMICO the year before. De Amico is common at Scilla and nothing yet connects the two women — but two de Amico women marrying into one Donato household in successive years is worth a look when the Scilla births of the 1810s are read."
+ },
+ {
+  "name": "Francesco Cichello",
+  "gen": "8",
+  "born": "—",
+  "bornNote": "Not yet sought. Zambrone's registers begin in 1811, so unless he outlived that he is pre-civil.",
+  "died": "before March 1824",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "inTree": "—",
+  "source": "Zambrone, Matrimoni 1824, atto 2",
+  "note": "CATERINA CICHELLO'S FATHER, named in his daughter's marriage act of 2 March 1824 as «il fu Francesco» -- already dead. Entirely new to this archive, and one of the two people row 34 of the work list existed to find. Not in the family tree."
+ },
+ {
+  "name": "Vittoria Mollo",
+  "gen": "8",
+  "born": "—",
+  "bornNote": "Not yet sought.",
+  "died": "before March 1824",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "inTree": "—",
+  "source": "Zambrone, Matrimoni 1824, atto 2",
+  "note": "CATERINA CICHELLO'S MOTHER, «la fu Vittoria Mollo» in her daughter's marriage act of 1824. Entirely new. NOTE THE SURNAME: a MOLLO appears twice more in the Zambrone marriages of these years -- Pasquale Piatto's mother is an Anna Mollo in 1823 -- so the Mollo were a Zambrone family and she was probably local."
  }
 ]
