@@ -1,828 +1,946 @@
 [
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "MyHeritage GEDCOM export",
-  "scope": "614 individuals, 212 families, 39 cited sources, 133 images.",
-  "result": "Parsed in full. 15 duplicate records merged on evidence; 58 shared names left deliberately unmerged; 14 disconnected components identified."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "The 133 tree images",
-  "scope": "Signed MyHeritage links, due to expire 16 September 2026.",
-  "result": "All 133 downloaded and stored in the repository, and all 133 published."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "Component analysis",
-  "scope": "Is this one family tree?",
-  "result": "No. It is 14 pieces. The largest holds 479 people; the second holds 111 Piedimonte Etneo Mazza joined to the rest by nothing. Recorded, not papered over."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "Ancestral reconstruction from the living generation upward",
-  "scope": "Rather than downward from an assumed founder.",
-  "result": "Michael Rocco Mazza has 59 recorded ancestors across 9 generations. The four quarters reach 1697, 1821, 1851 and 1879 respectively."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "Brisbane Catholic Cemeteries register (Nudgee)",
-  "scope": "18 surnames swept against the Archdiocese's own deceased register — the cemetery is not in the Brisbane City Council search.",
-  "result": "90 register rows; 19 matched to this archive with plot, register number and exact dates. Corrected the tree in 6 places. Found the four grandparents in consecutive plots V-1026 to V-1029."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "NAA passenger arrivals index, 1898–1972",
-  "scope": "18 surnames swept, then 18 targeted name searches against the National Archives of Australia's voyage-level index.",
-  "result": "Named the ship for 9 of the 18 crossings, including Sebastiano Mazza (Toscana, 4 Oct 1949) and Michele Mazza (Palermo, 21 Apr 1925). Corrected four ports of arrival or embarkation."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "Antenati — nine annual indexes, three comuni",
-  "scope": "Piedimonte Etneo Nati 1877, 1878, 1879 (+supplement), 1880, 1881; Mascali 1879; Giarre 1879. Archivio di Stato di Catania.",
-  "result": "A NULL on Salvatore Mazza in all nine. Five Mazza births found: Antonino and Grazia (1877), Rosaria and Venerio (1879), Gaetano (1880); none at all in 1878, 1881, Mascali or Giarre. Acts 167 and 205 transcribed in full, documenting three Mazza braccianti of Via Terremorte."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "Queensland BDM historical index",
-  "scope": "Free Registry index — deaths to 1996, marriages to 1951, births to 1926. Searched on the FATHER'S and MOTHER'S names, not the person's.",
-  "result": "Six registrations. Proved Michele Mazza (d. 14 Nov 1926) and Rosario Mazza (b. 1899) sons of Salvatore Mazza and Maria Concetta Nicotra, and therefore Sebastiano's brothers. Confirmed Maria Nicotra's own parents, Sebastiano and Domenica as Mary Rosa's parents, and Maria Mazza's 1939 marriage to Rosario Coco."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "VA Nationwide Gravesite Locator",
-  "scope": "The three Polistena the tree places at Arneytown, New Jersey.",
-  "result": "TWO people in ONE plot, not three. Joseph Polistena, PFC US Army, Second World War, Section O3 Site 8647; Santa Polistena entered as his wife in the same site. Confirmed the archive's merge of the two Joseph records and corrected Santa's death date by a month."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "FamilySearch full-text — Piedimonte Etneo",
-  "scope": "The endpoint recorded in the Falco archive's method notes, over parish registers and civil series Antenati does not hold for this comune (marriages there stop at 1893).",
-  "result": "THE ARCHIVE'S CENTRAL QUESTION, ANSWERED. Salvatore Mazza's birth act (5 Jan 1873), his parish marriage (1898), his death act (1929), and marriage proclamations of 1898, 1902 and 1910 naming Rosario's age each time. Proved the 110 unattached Mazza to be the descendants of Salvatore's brothers, and produced a new generation, Mariano Mazza."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "Antenati — Scilla, Nati 1870, 1892 and 1851",
-  "scope": "Three annual indexes at the Archivio di Stato di Reggio Calabria, plus two acts read in full.",
-  "result": "Act 230 of 1892 gave Giuseppe Arena's exact birth (6 October, Via Grotte 75), confirmed Concetta Russo as his mother, and CORRECTED his father Giovanni Arena's birth year by eleven years — 33 in the act, so born about 1859, not 1870. Act 81 of 1870 gave three Arena generations but proved to be a different household. NO DONATO AT ALL in the 1851 index."
- },
- {
-  "status": "done",
-  "when": "10 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1913, index transcribed in full",
-  "scope": "All eleven index openings, images 75–85. The IIIF images are not rate-limited, only the portal's HTML is.",
-  "result": "58 marriages, 77 surnames — and no Arena, no Donato, no Polistena and no Mazza among them. The Polistena–Donato marriage is not in 1913. One index entry that read as a Mazza bride is Muzzi in the act itself."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Piedimonte Etneo, Nati 1875, 1876 and 1882 onward",
-  "scope": "Salvatore Mazza, if the year is further out than two.",
-  "result": "Each volume carries its own index, so this is index reads, not volume reads."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Piedimonte Etneo, Matrimoni",
-  "scope": "The marriage of Salvatore Mazza and Concetta Greco, c. 1870; and any Rosario Mazza marriage.",
-  "result": "A marriage act names both fathers — the fastest route to Rosario."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — the acts behind index entries 164, 168 (1877) and 66 (1880)",
-  "scope": "The fathers of Mazza Antonino, Grazia and Gaetano.",
-  "result": "Three more Mazza households for the cost of three crops."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati / Catania",
-  "scope": "Salvatore Mazza, who died at Catania in 1929.",
-  "result": "A large city's registers — a much bigger job."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Catanzaro / Vibo Valentia, Briatico",
-  "scope": "The whole Prostamo, Melluso and Anile descent, 1809 onward.",
-  "result": "Would convert eight asserted generations into documented ones."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Scilla, Nati around 1859",
-  "scope": "GIOVANNI ARENA, now known to be born about 1859 rather than 1870. The Bourbon-era index NAMES THE PARENTS, so one opening would give his father and mother outright.",
-  "result": "The best single lead the archive currently holds. The restaurazione arks are not computable from the year — the series interleaves Nati, Morti and Matrimoni — so each year costs one portal page load."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Scilla, Nati 1845–1860 for a Donato",
-  "scope": "MICHELE DONATO, absent from 1851 where the tree puts him. His eldest son was born 1878, so he is somewhere in that window.",
-  "result": "This archive has now found the tree six years out on two Mazza births and eleven years out on Giovanni Arena. A wrong year is the likelier explanation than a wrong town."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Scilla, Matrimoni 1899, atto 62",
-  "scope": "Arena Domenico × Arena Maria, 30 November 1899 — named in the margin of act 81 of 1870.",
-  "result": "Would name four parents and close out the 1870 household, which is not the tree's but is a real Scilla Arena line."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Scilla, Matrimoni 1866–1913",
-  "scope": "FORTY-EIGHT volumes, not eight. This archive had recorded the series as starting in 1905; it starts in 1866. 1885, 1886, 1887, 1889, 1890, 1891, 1892, 1893 and 1894 have been read; 1888 is water-damaged across the A entries and cannot be.",
-  "result": "Two Arena weddings found in 1885. Rocco Arena × Generosa Costa still missing; Giovanni Polistena × Nunziata Donato and Michele Donato's marriage are now both inside the window and unsearched."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Scilla, Morti 1866–1943",
-  "scope": "EIGHTY-ONE volumes, and this archive did not know they existed. The annual index gives a patronymic — «di X» where the father lives, «fu X» where he does not — as well as the act number. The A block has been read for 1889, 1890, 1891, 1892 and 1893.",
-  "result": "Neither Francesco Antonio Arena nor Serafina Arlotta is in those five years, though both were alive at Scilla in December 1888. Two leads came out of them: Arena Fortunato DI GIOVANNI (1891, act 134) and Arena Raffaela FU ANTONIO (1893, act 5)."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Scilla, Matrimoni pubblicazioni 1866–1913",
-  "scope": "FORTY-SIX volumes of banns, each with its own annual index — which is how the 1888 marriage was found when the marriage index itself was destroyed by water across exactly the A entries.",
-  "result": "Arena Rocco / Costa Generosa, under A in the 1888 banns index. Everything else in the series is unread."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Scilla, Matrimoni 1874–1878",
-  "scope": "The first search the corrected coverage note made possible: Michele Donato's marriage, about 1875–77. Indexes read for 1874, 1876, 1877 and 1878; 1875 has no index at all and its acts 3–26 were scanned by the margin boxes.",
-  "result": "NEGATIVE. No Donato Michele among the grooms. But Donato Candeloro marries in 1874 and again in 1877, Donato Bruno in 1878 and a Donato Carmela in 1875 — so the Donato were a Scilla family all along, and the idea that the surname arrived late is dead."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Reggio Calabria, Scilla",
-  "scope": "Arena, Polistena and Donato, 1809 onward.",
-  "result": ""
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "National Archives of Australia — the nine remaining crossings",
-  "scope": "Domenica Prostamo, March 1951, is not in the index under either surname.",
-  "result": "Nine of eighteen are still unnamed."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "CEMLA — Argentine immigration",
-  "scope": "The Buenos Aires Prostamo.",
-  "result": ""
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "FamilySearch full-text search",
-  "scope": "Piedimonte Etneo and Briatico parish registers.",
-  "result": "The technique that broke the Falco line open."
- },
- {
-  "status": "done",
-  "when": "13 Sep 2026",
-  "source": "Antenati — Piedimonte Etneo, Matrimoni 1871 and Nati 1845",
-  "scope": "The marriage of Rosario Mazza and Leonarda Bonanno, and Rosario's own birth. Found by abandoning the parish film: civil registration began in the south in 1866, so a marriage of about 1870 is a CIVIL act.",
-  "result": "BOTH FOUND. Matrimoni 1871 atto 14 — 30 April 1871, both spouses braccianti, all four parents named, HERS FOR THE FIRST TIME (Gaetano Bonanno and Anna Cavallaro). Nati 1845 atto 64 — born 2 June 1845, father Mariano, 36, bracciale, mother Maria Catalano, 36. The tree's 1850 is five years out."
- },
- {
-  "status": "done",
-  "when": "13 Sep 2026",
-  "source": "Antenati — Piedimonte Etneo, Matrimoni 1820–1845",
-  "scope": "Twenty-six consecutive years, the whole civil series from its first volume, read for a Mazza groom.",
-  "result": "EXACTLY ONE in twenty-six years: Mariano Mazza, act 17 of 1836, to Agata Catalano of Macchia, «figlio di IGNAZIO e di GIUSEPPA PULVIRENTI». Recorded as a LEAD, not a fact — the bride is Agata where Rosario's acts say Maria, and the groom's age is three years out. Innocenzio Mazza did not marry there either."
- },
- {
-  "status": "done",
-  "when": "13 Sep 2026",
-  "source": "Antenati — Piedimonte Etneo, Nati 1844, 1845, 1846, 1847",
-  "scope": "Four years read ENTIRE — over five hundred births — for brothers and sisters of Rosario Mazza.",
-  "result": "HE HAS NONE THERE. Mariano Mazza and Maria Catalano appear once, at act 64 of 1845. The only other Mazza births belong to Innocenzio Mazza and Domenica Cavallaro — the couple the archive's OTHER Piedimonte Mazza line descends from, which raises the question whether Ignazio's sons were Mariano and Innocenzio."
- },
- {
-  "status": "done",
-  "when": "13 Sep 2026",
-  "source": "Antenati — Scilla, Nati 1854, act located by arithmetic",
-  "scope": "The 1854 Tavola carries no act numbers. Two acts to an opening, act = 66 + 2×(image−36), which puts late April at images 39–41.",
-  "result": "ACT 76. Giovanni Arena born 30 April 1854, declared by his grandfather GIOVANNI ARLOTTA, 75, marinaro, «figlio del fu DOMENICO». The Tavola said «Rosa Arlotta» and 20 April and was wrong twice. Giovanni Arena is Rocco's FULL BROTHER, and DOMENICO ARLOTTA is the deepest name on the Calabrian side."
- },
- {
-  "status": "done",
-  "when": "13 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1885 and 1888",
-  "scope": "The corrected coverage note opened forty-eight volumes. 1885 for the Arena weddings; 1888 for Rocco Arena's own.",
-  "result": "THREE ACTS. 1885 atto 73 and atto 86: two of Rocco's brothers married seven weeks apart. 1888 atto 63: ROCCO ARENA'S OWN MARRIAGE ACT names his parents outright — Francesco Antonio Arena and Serafina Arlotta — and gives Generosa Costa's parents for the first time, Antonio Costa and ANNA ARLOTTA."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni pubblicazioni 1888",
-  "scope": "The 1888 marriage index is destroyed by water across exactly the A entries. The BANNS are a separate series of 46 volumes with their own annual index.",
-  "result": "THE WAY ROUND A DESTROYED INDEX. Publication 63, 18 November 1888: Francesco Antonio Arena appears IN PERSON, alive, sixty-eight, a pescatore, a week short of sixty-nine. And the couple swore there was no impediment of kinship — so Rocco and Generosa were NOT first cousins."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Scilla, Nati 1855",
-  "scope": "The year nobody had read. The archive had read 1851 (the tree's date), 1856 and 1859 (a declared age) and closed the search.",
-  "result": "MICHELE DONATO, BORN 3 OCTOBER 1855, act 163 — «DOMENICO DONATO, figlio di CANDELORO, trentotto, marinaro» and «NUNZIATA SOFI, trentasette». Three generations in one act, the ages exact at both ends, and the longest open question in the archive answered."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Scilla, Morti 1889–1902",
-  "scope": "Eighty-one volumes of deaths, 1866–1943, that this archive did not know existed. The annual index carries a PATRONYMIC as well as a name.",
-  "result": "Neither Francesco Antonio Arena nor Serafina Arlotta in thirteen years, though both were alive in November 1888. But three acts found: Fortunato Arena (ten days old, Via Grotte 70), Maria Donato (twenty-eight months, Via Grotte 21) and Orazio Arena — who turns out NOT to be the tree's Orazio."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1874–1885 and 1838–1847",
-  "scope": "Michele Donato's own marriage, eleven years; and his parents' marriage, six years.",
-  "result": "BOTH NEGATIVE, and both informative. Michele is neither born nor married at Scilla in the window — he came from elsewhere already married. And 1843 act 11 shows a DONATO ANTONIO «figlio di BRUNO»: there are at least TWO Donato lines in the town, which is why the Donato marriages of the 1870s are numerous and none is his."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "FamilySearch — the New Orleans manifest of the Liguria, 1908, BOTH PAGES",
-  "scope": "American manifests from 1907 are two-page forms. This archive had only ever read page one.",
-  "result": "THE VERSO CARRIES COLUMN 29, PLACE OF BIRTH. Against line 15, Michele Donato: «R. Calabria / Scilla». Lines 9–11 of the same sheet say Tresilico, so the clerk was distinguishing. That sent the search back to the Scilla registers, where it belonged."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "FindMyPast — passenger lists, marriages, censuses, parish index",
-  "scope": "A one-week trial. Twenty-six outcomes recorded.",
-  "result": "Rocco Arena's four crossings named and shipped (Elysia 1892, Suevia 1894, Trave 1900, San Guglielmo 1913) and the 1894 no longer «probable». The 1913 manifest's RELATION columns name his wife and a nephew. Rocco Arlotta, the 1900 lodger, identified by his marriage and confirmed by his children's names. AND ONE RETRACTION: the Clementina Arena crossing this archive had held for months belongs to another family."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "The archive's own negatives, audited",
-  "scope": "Nine negatives re-read — not repeated, but examined for what set each window.",
-  "result": "FIVE HAD ALREADY FAILED. Every failed window came from a declared age or an assumed eldest child. The rule: widen such a window by at least five years in both directions before a negative inside it means anything. Published at /audit."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Vibo Valentia, Briatico and Soriano Calabro",
-  "scope": "The whole Prostamo, Melluso and Anile descent, 1809 onward — the fourth quarter, and the one with no register work at all behind it.",
-  "result": "Would convert eight asserted generations into documented ones. The largest single gap in this archive."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Piedimonte Etneo, Morti 1878 onward",
-  "scope": "Mariano Mazza's death. He was alive in January 1873; the M block is clear for 1873, 1875, 1876 and 1877.",
-  "result": "1874 CANNOT BE READ — the volume carries «pag. ondulate, pag. macchiata, tutto il volume, impossibile fare di meglio» and the index is a black wash. He died in 1874 or after 1877."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Antenati — Scilla, Matrimoni 1848–1854",
-  "scope": "Domenico Donato × Nunziata Sofi. Both born about 1817–18, so the window is 1838–1848 and the later half is unread.",
-  "result": "Seven years, one image each, containers already recorded. 1842 and 1844 defeated their own indexes and need the acts by margin scan."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Trove — the Brisbane Italian community",
-  "scope": "Arrivals, naturalisations, the 1942 internments, and the Queensland Italian press.",
-  "result": "One mention in this archive. The Australian end of all four quarters is almost unsourced."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Queensland BDM — beyond the six registrations",
-  "scope": "The Nudgee end of every one of the four quarters, searched on parents' names rather than the person's.",
-  "result": "Three mentions. The index is free and the technique that produced six registrations has not been run out."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "Find a Grave — Nudgee Catholic cemetery",
-  "scope": "Photographs and inscriptions against the nineteen burials the Archdiocese register gave.",
-  "result": "Two mentions. An inscription often carries a birth date the register does not."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "NARA New York — Rocco Arena's naturalisation",
-  "scope": "He is entered as a US CITIZEN on the manifests of both 1900 and 1913, so a declaration and petition exist from before March 1900.",
-  "result": "FindMyPast's petition set begins too late for him. This is a National Archives job, not a subscription one."
- },
- {
-  "status": "outstanding",
-  "when": "",
-  "source": "The Catholic Heritage Archive — Our Lady of Loretto transcripts",
-  "scope": "Eighty-four Arena baptisms are indexed and readable; the transcripts, which carry the MOTHER'S NAME and the GODPARENTS, are a higher subscription tier.",
-  "result": "Godparents in an emigrant parish are almost always kin. They would settle at a stroke whether the Giovanni Arena baptising a child in 1900 is Rocco's brother."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Geneanet — surname sweep",
-  "scope": "PROSTAMO, MELLUSO, ANILE, VENTRICE, ARLOTTA searched across all Geneanet record sets (trees, archives, transcriptions).",
-  "result": "No holding touches this family. PROSTAMO returns eight entries, every one a New Haven or Hamden, Connecticut vital record 1914-1955 — an American cluster of the surname, untested against Briatico and claimed as nothing. MELLUSO (506) is an Agrigento family. VENTRICE (730) is Ustica and French Algeria. ARLOTTA (881) is Buffalo, New York. ANILE (476) clusters at Pizzo, eleven km from Briatico, but no entry reaches our people."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Geneanet — place sweep",
-  "scope": "place__0__ searched on Briatico, Piedimonte Etneo, Scilla, Soriano Calabro.",
-  "result": "Piedimonte Etneo holds 1,703 individuals, Briatico 132. Both are user-submitted trees, heavily from single uploaders (pigellino74, rcparedes). Not sources; leads at best."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "Geneanet Premium — MAZZA at Piedimonte Etneo",
-  "scope": "897 individuals named MAZZA indexed at Piedimonte Etneo. The result list is withheld behind Geneanet Premium.",
-  "result": "THE LARGEST UNOPENED BODY OF PIEDIMONTE MAZZA DATA FOUND ANYWHERE. 897 entries against the 22 acts this archive has read. Whether any of them is ours is untested and untestable without a subscription. Recorded as a door, not a finding."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Briatico, Nati 1818",
-  "scope": "The whole year read: 25 births, both pages of the Tavola.",
-  "result": "NEGATIVE, and complete. No child of any given name carries the surname Prostamo. The index is alphabetised by the child's GIVEN name, so the absence is of the surname from the year entirely, not of one Domenico."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Briatico, Nati 1819",
-  "scope": "The whole year read: 34 births, all three Tavola pages.",
-  "result": "NEGATIVE, and complete. No Prostamo among the 34. Two Anile households appear (Giuseppe Anile and Annunziata Polito; Vincenzo Anile and Rosaria Francica) — the surname is documented in Briatico, which it had not been before."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — the Potenzoni discovery",
-  "scope": "Searched the register index on localita=Potenzoni after three straight years of Briatico births turned up no Prostamo at all.",
-  "result": "POTENZONI IS ITS OWN COMUNE ON ANTENATI, WITH 57 REGISTERS. It is a frazione of Briatico and it kept its own civil register from 1806. Everything read at Briatico so far has been the wrong parish if the family lived there. Births 1812-1837 are a single 364-image volume; marriages 1812-1858 a single 293-image volume; and the marriage allegati 1812-1850 hold the spouses' own birth certificates. This is the largest unopened door in the Calabrian half of the archive."
- },
- {
-  "status": "superseded",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Potenzoni, Nati 1812-1837",
-  "scope": "364 images, an_ua37927182 / container 0AQJBAW. Domenico Prostamo, born about 1820, would fall in it.",
-  "result": "SUPERSEDED THE SAME DAY. This was opened on the reasoning that Domenico Prostamo, born about 1820, must be in the frazione if he was not in Briatico. His marriage act of 1849 then said he was NATO IN PIZZO and born in 1814. The volume is mapped and the mapping is kept, but this family is not in it."
- },
- {
-  "status": "superseded",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Potenzoni, Matrimoni 1812-1858",
-  "scope": "293 images, an_ua37923835 / container 5K1ln7r. Domenico Prostamo married Giovanna Ventrice somewhere in this span.",
-  "result": "SUPERSEDED THE SAME DAY. Domenico Prostamo married Giovanna Ventrice at BRIATICO on 14 June 1849, act 1 — found in the Briatico register, not this one. The Potenzoni mapping is kept for whoever needs that comune."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Potenzoni, Nati: the volume opened and mapped",
-  "scope": "an_ua37927182 / container 0AQJBAW, 364 images. Located the annual blocks: fourteen images to a year, two acts to an opening, each year closed by a Rubrica listing every birth in date order. 1818 index at image 66, 1819 at 80, 1820 at 104-106.",
-  "result": "PARTIAL. Potenzoni 1818 read in full (entries 12-21) and 1820 read in part (entries 7-16 of 23). No Prostamo in either. Two cautions recorded for whoever continues: the photographer left the 1819 Tavola and a title sheet lying on top of EVERY frame in this run, so the printed year visible at the head of an image is not the year of the page beneath it; and the volume is not purely Potenzoni — the register bound in at image 106 is headed «Comune di Briatico», for 1822, which suggests these are the second originals deposited with the tribunal and that Briatico years sit inside the Potenzoni unit."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Briatico, Matrimoni 1840, 1841, 1842",
-  "scope": "Read by cropping the parroco's right-hand certificate box, which names both spouses, from every page and montaging them.",
-  "result": "NEGATIVE for Prostamo. 1840 has three marriages, 1841 about five, 1842 thirteen. Act 8 of 1842 was opened in full to test a suspected Prostamo in the margin: it is Giuseppe Artesi, 19, son of the late Nicola Artesi and Nicolina Corassi, marrying Alfonsina Petrarca, 15, born at Pizzinni, daughter of the late Francesco Antonio Petrarca and the late Rosa Arena. Not ours. The suspected name was a misreading of a 240-pixel thumbnail and was never claimed."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Trove — Prostamo, all collections",
-  "scope": "Keyword PROSTAMO across newspapers, gazettes, books, archives and people.",
-  "result": "ELEVEN newspaper and gazette results, and the useful ones are all Commonwealth Gazette naturalisations at Brisbane: ASSUNTA MARIA PROSTAMO of 3 Frank Street, Graceville, naturalised 4 July 1966; DOMENICO FRANCESCO PROSTAMO of 38 Park Terrace, Sherwood, naturalised 1 October 1962; and ANGELA PROSTAMO, gazetted 16 November 1961. Three named Brisbane Prostamo with street addresses and exact dates — new to this archive, and untested against the line."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Trove — Prostamo before 1954",
-  "scope": "The same keyword against the digitised Queensland newspapers, and PROSTAMO + funeral.",
-  "result": "NEGATIVE. Not one Prostamo appears in a digitised Australian newspaper before 1961, and Domenica Prostamo's death on 3 May 1928 produced no notice that Trove holds. Weak evidence on its own — ordinary families rarely reach print — but it means the Brisbane newspapers will not date this family's arrival."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Trove — Melluso at Brisbane",
-  "scope": "Keyword MELLUSO Brisbane.",
-  "result": "Four results, all incidental: a 1964 Telegraph court list, a 1967 naturalisation gazette in which the name appears only in the surrounding column, and Commonwealth Savings Bank trustee notices of 1972. Nothing that touches Caterina Melluso or her father Leone."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Find a Grave — Prostamo and Melluso across Australia",
-  "scope": "Both surnames searched nationally, not just at Nudgee.",
-  "result": "SIX PROSTAMO AND FIVE MELLUSO, and NOT ONE AT NUDGEE, where every Australian Mazza in this archive is buried. Domenico Francesco Prostamo (1931-2025) and Maria Assunta Prostamo (1936-1991) lie in adjoining plots 608 and 607 at Mount Gravatt, Brisbane; Angela Majda Prostamo (1937-2016) at Nerang; and Rocco (1925-2004) and Francesca (1933-2018) Prostamo at Glenroy in MELBOURNE — a branch this archive did not know existed. Gregorio Melluso (1904-1971) is at Mareeba in the far north, Section 4 Catholic, Row I, Plot 10."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Queensland BDM — the historical index, by download",
-  "scope": "The registrar's own downloadSearch endpoint returns the full result set as CSV, which makes an exact-surname sweep of births 1829-1926, marriages 1829-1951 and deaths 1829-1996 a single request per name. Prostamo, Postamo, Melluso, Limardo, Borello, Polistena.",
-  "result": "One Prostamo in the whole index: Maria Assunta, died 27 October 1991, born 1936, parents Gregorio Melluso and Carmela Maria Borello. One Melluso: Gregorio, died 30 September 1971, parents Gennaro Melluso and Maria Limardo. Postamo, Limardo and Polistena return nothing at all. The eleven Borello are one Piedmontese household and not hers."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "The Mount Gravatt burial records",
-  "scope": "Brisbane City Council's cemetery search covers Mount Gravatt as the Nudgee endpoint covers Nudgee.",
-  "result": "Plots 607 and 608 are known. The adjoining plots on either side are not, and at Nudgee it was the neighbouring plots that joined families to each other."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Briatico, Matrimoni 1840-1849 and 1853",
-  "scope": "Every page of every volume read by cropping the parroco's certificate box, which names both spouses, and montaging them.",
-  "result": "THE MARRIAGE WAS FOUND. Briatico 1849 ATTO 1, 14 June: DOMENICO PROSTAMO marries GIOVANNA VENTRICE. Thirteen years of Briatico marriages were read to reach it — 1840 to 1848 hold no Prostamo at all, and neither do 1850, 1851, 1852 or 1854, read earlier. The act names ANTONINO PROSTAMO and MARIA FRAGALÀ, and says Domenico was born at PIZZO."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Pizzo, the registers",
-  "scope": "Domenico Prostamo was born at Pizzo about 1813; his mother Maria Fragalà was still living there in 1849; and the family tree puts his grandfather Pasquale's death at Pizzo on 4 January 1829.",
-  "result": "ANSWERED, AND IT IS A WALL. Pizzo's holdings on Antenati contain ONLY the restaurazione fondo and BEGIN IN 1823 — tested on 1812, 1814, 1818 and 1822, all empty, and on 1823, which returns four volumes. Pasquale Prostamo's death act of January 1829 was read. Domenico Prostamo's birth act of 1814 and Antonino Prostamo's marriage cannot be opened at all."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Briatico, Matrimoni allegati 1849",
-  "scope": "The processetti filed with atto 1 of 1849.",
-  "result": "DONE THE SAME DAY. The bundle is an_ua37921205 (Matrimoni processetti 1849-1854, container LDnmr1B) and its first file is Domenico Prostamo's. It gave Antonino Prostamo's death in the 1837 cholera register, a certified copy of Pasquale's death act filed as the groom's avo paterno, Domenico's own birth extract under the name ANTONIO, the atto di notorieta reconciling the two names, and two Ventrice death extracts."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Potenzoni, in hindsight",
-  "scope": "Opened on the reasoning that three Prostamo-free years of Briatico births meant the family was in the frazione.",
-  "result": "THE REASONING WAS WRONG AND THE NEGATIVE WAS RIGHT. They were not at Potenzoni either; they were at Pizzo. Recorded because the mistake is instructive: an absence was read as evidence for a specific alternative rather than as evidence of absence, and the right move would have been to find a document that says where they were — which is what the marriage act eventually did. The Potenzoni mapping is kept; it is good work on a comune this family does not appear to belong to."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Pizzo, Morti 1829",
-  "scope": "Opened the same afternoon the 1849 marriage act pointed at Pizzo. The tree puts Pasquale Prostamo's death there on 4 January 1829, which meant the first few acts of the volume.",
-  "result": "FOUND AT ACT 7. PASQUALE PROSTAMO, seventy-five, MARINARO, VEDOVO DI CATERINA MUSO, born at Pizzo, of the Castello quarter, died on 13 JANUARY 1829 — nine days after the date the tree gives, and at an age that puts his birth about 1753 rather than 1760. His own parents' lines in the act are blank. Acts 1 to 6 of the year were read to reach it and are other families."
- },
- {
-  "status": "superseded",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Pizzo, Morti 1845-1848 and 1849-1851",
-  "scope": "Antonino Prostamo, marinaro, was dead by 14 June 1849 and his widow Maria Fragalà was living at Pizzo that month.",
-  "result": "SUPERSEDED. Antonino Prostamo did not die in this window: he died on 31 DECEMBER 1837, and in Pizzo's separate register of CHOLERA deaths, act 327. Written before the marriage processetti were opened."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "The second generation, and why it may be out of reach",
-  "scope": "Pasquale Prostamo was born about 1753 and married before 1809.",
-  "result": "His death act leaves his parents blank, and civil registration in Calabria does not begin until 1809 — so his own birth and marriage are in PARISH books, which Antenati does not hold. The family tree's first two generations, 1697 and 1726, may not be testable online at all. Worth saying plainly rather than leaving them looking merely unresearched."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Briatico, Matrimoni processetti 1849-1854",
-  "scope": "an_ua37921205 / container LDnmr1B, 124 images. The first bundle in the volume is Domenico Prostamo's, read page by page.",
-  "result": "THE SINGLE RICHEST DOCUMENT THIS ARCHIVE HAS OPENED. It holds ANTONINO PROSTAMO'S DEATH — 31 December 1837, aged 56, atto 327 of PIZZO'S SEPARATE REGISTER OF CHOLERA DEATHS; a certified copy of PASQUALE's death act filed as the groom's «avo paterno», which PROVES the descent Pasquale-Antonino-Domenico; DOMENICO'S OWN BIRTH EXTRACT, act 285 of Pizzo Nati 1814, 2 April 1814, registered under the name ANTONIO; the ATTO DI NOTORIETÀ sworn on the wedding morning to reconcile the two names; the Pizzo banns of April 1849; and TWO VENTRICE DEATH EXTRACTS reaching the bride's great-grandparents."
- },
- {
-  "status": "superseded",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Pizzo, Morti 1845-1848",
-  "scope": "an_ua37926974 / wb6b4dg, 406 images, opened as the obvious place to look for Antonino Prostamo's death.",
-  "result": "SUPERSEDED. Antonino Prostamo did not die in this window: he died on 31 DECEMBER 1837, and in Pizzo's separate register of CHOLERA deaths, act 327. Written before the marriage processetti were opened."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "Antenati — Pizzo, the cholera register of 1837",
-  "scope": "Antonino Prostamo is act 327 in it. The chancery's 1849 extract quotes the entry; the register itself has not been opened.",
-  "result": "Worth opening for the act as it stands in the book, and for whoever else of this family the epidemic took. Act 327 by 31 December means the cholera killed on that scale in one town in one year."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "Antenati — Pizzo, Nati 1814, atto 285",
-  "scope": "Domenico Prostamo's birth, quoted in full by the extract in his marriage bundle.",
-  "result": "The extract is a certified copy and gives everything; the original act is still worth opening, because this archive has now watched a Pizzo chancery copy lose ten years off a man's age between an act and its certificate."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "Antenati — Zambrone and the Ventrice",
-  "scope": "Domenico Ventrice died at Zambrone on 13 January 1815, act 40, son of the late Paolo Ventrice and the late Anna Pappa.",
-  "result": "Zambrone is a third Calabrian comune this archive has never opened, and the bride's line runs into it."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Pizzo, the 1837 cholera register: WHERE IT IS AND IS NOT",
-  "scope": "Opened an_ua37926907 (Morti 1836-1840, container LevaEPW, 427 images) and read it end to end at thumbnail scale; also the Diversi 1827-1861 volume (an_ua37923734 / LmpVVqq, 121 images), the anno=1837 filter, and the full Pizzo register listing.",
-  "result": "THE CHOLERA REGISTER ITSELF IS NOT ON ANTENATI — BUT ITS INDEX IS, AND THE SHAPE OF THE VOLUME TELLS THE STORY. Pizzo's ORDINARY death register for 1837 runs to act 207 and stops on 16 JULY 1837 (images 89-194). From act 209 the town was entering its dead in a SECOND REGISTER. That register's pages are not digitised — but its TAVOLA IS, bound in at images 195-206, indexing acts 209 to 325 with names, ages, trades, quarters and relationships. Antonino Prostamo is act 327, just past the last indexed entry. So the certified extract of 20 May 1849 in the Briatico processetti is, as far as this archive can reach, THE ONLY READABLE TEXT OF ACT 327. Checked and excluded: the Diversi volume (it holds deaths outside the comune, not cholera); a separately catalogued 1837 Morti volume (the anno=1837 filter returns Nati and Matrimoni only); and a cholera section bound at the end of the Morti volume (the volume closes normally with 1840 and its Tavola)."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Pizzo 1837, the roll of the second register",
-  "scope": "Read the whole surviving index, acts 209-325, by cropping the N. d'ordine and Nomi de' morti columns from all twenty-four pages and montaging them.",
-  "result": "NO PROSTAMO among the 117 indexed. The index stops at 325 and Antonino is 327. It does hold FOUR VENTRICE at Pizzo — Giovanni, 52, falegname, alla Piazza (act 251); Laura, 28, filatrice, al Castello (294); Benedetto, 26, filatore, all'Incoronata (295); and Diamante Aloi, 70, «vedova di Giuseppe Ventrice del Pizzo» (302). The bride's surname is at Pizzo as well as at Briatico and Zambrone. Recorded as a lead and nothing more: Ventrice is common on that coast and no document joins these to Giovanna."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "The Pizzo cholera register of 1837, wherever it now is",
-  "scope": "Acts 209 to at least 327, July to December 1837. Not in Antenati's Pizzo holdings.",
-  "result": "It would be at the Archivio di Stato di Catanzaro or with the comune. It holds Antonino Prostamo's act as written, and the names of something over a hundred more people the epidemic took in one small town in six months."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Zambrone, Morti: the 1815 act cannot be read",
-  "scope": "Opened an_ua37932358 (Morti 1811-1839, container w9dp62r, 234 images) — Zambrone's ONLY pre-unification death volume — and mapped every year in it by sampling the act headers end to end.",
-  "result": "THE VOLUME RUNS 1811, THEN 1812 TWICE (Zambrone proper and SAN GIOVANNI, a frazione that kept its own register), AND THEN JUMPS STRAIGHT TO 1822. Verified monotonic from there: 1822 at image 40, 1824 at 74, 1825 at 80, 1826 at 90, 1829 at 108, 1830 at 120, 1831 at 145, 1833 at 170, 1835 at 195, 1838 at 220, 1839 at 232. THE YEARS 1813 TO 1821 ARE NOT IN IT, and Antenati's Zambrone holdings then stop until 1911. So Domenico Ventrice's act — 40 of 13 January 1815 — has no original this archive can open. For the second time in one day, a certified extract in the Briatico marriage bundle is the ONLY readable text of an act."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "Zambrone, Morti 1813-1821, wherever they are",
-  "scope": "Nine years missing from the digitised volume.",
-  "result": "At the Archivio di Stato di Catanzaro or with the comune. They hold Domenico Ventrice's act as written, and would settle whether he was fifty or fifty-eight."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Zambrone, Matrimoni 1811-1858: THEIR MARRIAGE CANNOT BE IN IT",
-  "scope": "an_ua37928578 / container wWyoZJ2, 253 images, Zambrone's only pre-unification marriage volume. Opened, mapped by year, and sampled through the 1820s and 1830s.",
-  "result": "A STRUCTURAL NEGATIVE, AND A CERTAIN ONE. Domenico Ventrice was about fifty-eight when he died in January 1815, Anna Fama about fifty, and their son Giuseppe was born about 1809. Civil registration began in Calabria in 1809 and THIS VOLUME BEGINS IN 1811. A couple whose son was born in 1809 married before the register existed. Their marriage is in the PARISH books of Zambrone, which Antenati does not hold — the same wall this archive already met at Pizzo with Pasquale Prostamo. The volume can still be worth reading for their OTHER CHILDREN marrying, because every act and every annual index names both parents."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Zambrone, the marriage indexes of 1822 and 1826",
-  "scope": "Read in full. Each year's Tavola carries a «Nomi e cognomi DEI GENITORI» column beside the couple, so one page settles a whole year.",
-  "result": "1822 holds six marriages and no Ventrice at all. 1826 holds six, and ONE Ventrice: SERAFINA VENTRICE married VINCENZO SORRENTINO on 9 August 1826, and she is «figlia di FRANCESCO e di CATERINA LA VESSA» — a DIFFERENT Ventrice household. So the surname is at Zambrone in the 1820s, but not our couple's children. Recorded because a second Ventrice family in the same small comune is exactly the trap this archive has been caught by before."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "Antenati — Zambrone, the remaining marriage Tavole 1811-1858",
-  "scope": "About forty-eight annual indexes, one page each, every one naming the parents of both spouses. The volume is bound with each Tavola at the end of its year block; 1822's is at image 13, 1826's at 40, and the 1829-1831 blocks run to image 66.",
-  "result": "A bounded job that would find every child of DOMENICO VENTRICE and ANNA FAMA who married at Zambrone, and with them the couple's own names in black and white. Not done."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "Antenati — Zambrone, Nati 1811-1839",
-  "scope": "an_ua37932933. Domenico Ventrice and Anna Fama were still having children about 1809; more may follow.",
-  "result": "Unopened. Note that Zambrone's DEATH volume of the same span turned out to be missing 1813-1821 entirely, so this one's coverage must be mapped before any negative from it is believed."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Briatico, Nati 1828: Giovanna Ventrice found",
-  "scope": "an_ua87730 / container wRGRJXQ, 29 images. She was twenty-one in June 1849, so 1827 and 1828 were both mapped; the annual Tavola at images 27-29 named her at once.",
-  "result": "BORN 23 JUNE 1828, at nine in the morning, in her parents' own house, and baptised at SAN NICOLA the next day. Act 12 — and a caution for the volume: THE TAVOLA'S «N. D'ORDINE» RUNS ONE BEHIND THE ACT NUMBERS. Its row 11 is act 12. Calibrate on a date before trusting the index's number. The year also holds two more Ventrice births under other parents (Anna Ventrice, of Antonino and Giuseppa Giacco, 26 March), so the surname is common in the town."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Briatico, Morti 1831 and 1839: the year of Giuseppe Ventrice's death",
-  "scope": "Opened Briatico Morti 1839 (an_ua87697 / 0noENM9, 14 images) to check the extract against the original, found act 12 of that year to be someone else, re-read the extract, then opened Morti 1831 (an_ua87689 / 0M9zb22, 11 images).",
-  "result": "HE DIED IN 1831, NOT 1839 — an error of mine, corrected against the original. Briatico Morti 1839 act 12 is D.a Olimpia La Torre, 14 August, and the year's Tavola agrees; Briatico Morti 1831 act 12 is GIUSEPPE VENTRICE, dead at two in the morning on 21 June 1831 «di anni trenta». Two days before his daughter Giovanna's third birthday. The original also gives the second declarant as ROSARIO ZUNGRI where the 1849 copy has Sergi."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — PIZZO BEGINS IN 1823, and three targets die with that fact",
-  "scope": "Tested the register index on localita=Pizzo for 1812, 1814, 1818 and 1822 — all empty — and on 1823, which returns four volumes. The full Pizzo listing carries only the RESTAURAZIONE fondo.",
-  "result": "PIZZO HAS NO NAPOLEONIC REGISTERS ON ANTENATI. Its civil records begin in 1823. So DOMENICO PROSTAMO'S BIRTH ACT (Pizzo Nati 1814, atto 285) cannot be opened, and neither can ANTONINO PROSTAMO AND MARIA FRAGALÀ'S MARRIAGE, which must fall before April 1814. Both survive only as the 1849 chancery copies in the Briatico marriage bundle. Together with Antonino's cholera act of 1837 and Domenico Ventrice's Zambrone act of 1815, that is FOUR of this family's deepest documents for which the bundle is the only readable text."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Briatico 1862, and Alfonso Prostamo's birth",
-  "scope": "anno=1862 on localita=Briatico.",
-  "result": "NOTHING. The comune's registers stop in 1858 and do not resume until 1911, which this archive already knew for marriages and now knows for births. Alfonso Prostamo, born about 1862, has no birth act to open — his age is fixed only by his own marriage papers of 1886 and 1887."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Queensland BDM — the complete MAZZA and MELLUSO surname sets",
-  "scope": "Ran the registrar's download endpoint with exactTermsFamilynameOnly=true on MAZZA and on MELLUSO, and tested the fathersname/mothersname fields properly.",
-  "result": "SEVENTEEN MAZZA REGISTRATIONS IN THE WHOLE INDEX — this archive held six. The eleven new ones are added, among them a MARIO MAZZA born 1900 whose parents are named at last (Rosario Mazza and Rosa Grasso), which turns the unjoined «Mario and Peppina» household into a named family; and an ANGELA MAZZA, born a CRUPI, who is a candidate for the unidentified Angela buried beside Rosario at Nudgee. MELLUSO returns exactly ONE registration in the entire index, so Gregorio Melluso has NO SIBLINGS OR CHILDREN recorded in Queensland. A METHOD CORRECTION WORTH KEEPING: the fathersname and mothersname fields RANK results, they do not FILTER them. Searching a parent's name alone returns an unfiltered hundred rows of strangers; the fields only bite when combined with a subject surname, and even then they only sort. Test them on a known case before believing a result."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Nudgee register against the Queensland index — the Angela beside Rosario",
-  "scope": "Matched the Nudgee Catholic cemetery register on interment date against the Queensland death index, for the unnamed Angela in plot V-0116.",
-  "result": "IDENTIFIED. Nudgee interred ANGELA MAZZA on 13 January 1973 in V-0116; the Queensland index registers her death on 10 January 1973 and names her parents FRANCESCO CRUPI and MARIA VECCHIO. Plot V-0116 adjoins V-0117, where ROSARIO MAZZA (1899-1986) lies — and adjacent plots at Nudgee have meant a married pair every time this archive has tested it. So Rosario's wife has a maiden name at last. It does NOT settle the 1949 marriage of a Rosario Mazza to Annie Vergina Di Mauro: either that is another Rosario or this one married twice, and nothing found so far decides it."
- },
- {
-  "status": "correction",
-  "when": "14 Sep 2026",
-  "source": "Queensland BDM — my own count of what was new",
-  "scope": "Deduplicated data/qld-bdm.tsv after today's sweep.",
-  "result": "I SAID ELEVEN NEW MAZZA REGISTRATIONS AND IT WAS EIGHT. Three of the seven rows I added — Angela Mazza, Josephine Mazza and Andrea Mazza — were already in this file from earlier work, and I wrote them in again. The duplicates are merged and the file is back to twenty-five rows. The seventeen-in-the-index figure stands; my arithmetic on what was new did not."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1876 and 1877: the hunt for Michele Donato's marriage",
-  "scope": "His eldest son was born in 1878, so the marriage should fall about 1876-77. Both annual indexes read entire; the one Donato found was opened in full.",
-  "result": "STILL NOT FOUND, and one false lead closed. 1876 holds NO Donato on either side of any marriage. 1877 holds exactly one — DONATO CANDELORO, 31, marinaro, marrying ANNA MARIA BOVA on 16 September, act 43 — and the act names his father as the late ANTONINO Donato. Michele's father was DOMENICO Donato, figlio di Candeloro, so by the naming custom a Candeloro Donato marrying in 1877 looked exactly like his elder brother. It is a different household. CANDELORO IS A RECURRING DONATO GIVEN NAME AT SCILLA and cannot be used as a fingerprint. 1874, 1875 and 1878 are mapped with containers and unread."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Piedimonte Etneo, Morti 1877, 1878, 1879",
-  "scope": "Mariano Mazza was alive in January 1873 and «fu Mariano» by his son's death act of 1924. The M block of each year's alphabetical Indice Annuale read entire: 1877 has eleven M surnames, 1878 nine, 1879 thirteen.",
-  "result": "NEGATIVE IN ALL THREE. No Mazza of any given name dies at Piedimonte Etneo in 1877, 1878 or 1879. With 1873, 1875 and 1876 already clear, SIX YEARS of the window are now closed. The Morti series is sequential — ark = an_ua83439 + (year - 1866) — and containers are recorded for 1874, 1877, 1878, 1879 and 1880. The remaining years in the window are 1874 and 1880 onward; 1880's index is 98 images in and its M page was not reached."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1899, atto 62",
-  "scope": "The marriage named in the margin of act 81 of 1870, chased to the act itself.",
-  "result": "READ. ARENA DOMENICO, 29, proprietario, son of GIUSEPPE ARENA and the late SERAFINA VITA, married ARENA MARIA, 30, daughter of the late ORAZIO ARENA and GIOVANNA ZIRILLI, on 30 November 1899. It joins two Arena households this archive held separately, and dates four people: Orazio and Serafina dead, Giuseppe and Giovanna living."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Piedimonte Etneo, Morti 1880: a Mazza, but not Mariano",
-  "scope": "The M block of the 1880 alphabetical death index, read entire — eleven surnames.",
-  "result": "MARIANO IS NOT THERE, so 1880 joins 1873, 1875, 1876, 1877, 1878 and 1879 as a closed year — SEVEN of the window. But the block does hold «MAZZA GAETANO — 122», the first Mazza death this archive has located in the Piedimonte death series. THE ACT IS NOT YET READ: the volume's openings run in odd pairs (images 59-61 are a triple shot of acts 121 and 123, 62-63 a double shot of 125 and 127), so act 122 is not where the arithmetic puts it and the numbering needs calibrating on a date first."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "Antenati — Piedimonte Etneo, Morti 1874, the M block",
-  "scope": "The 1874 index sits at images 85-86 of an_ua83447 (container LDmQZDN).",
-  "result": "Image 86 begins at P, so the M block is on 85 — and much of 85 is covered by an archival conservation card in the photograph. It may need the duplicate copy, if one exists, or a different crop."
- },
- {
-  "status": "not-yet",
-  "when": "",
-  "source": "Antenati — Piedimonte Etneo, Morti 1880, atto 122",
-  "scope": "Mazza Gaetano. The index gives the number; the act would give the age and the parents.",
-  "result": "ATTEMPTED AND BLOCKED. Parte I of the volume was sampled at images 56, 57, 58, 59-61, 62-63, 64, 70 and 80, and every opening shows two NON-CONSECUTIVE act numbers while consecutive openings step by four. Acts 114, 115, 118, 120, 122, 124, 126, 128 and 130 never appear; several openings are re-shot two and three times. Parte II begins at image 90 and restarts its numbering. So act 122 is indexed but not filmed — it would need the second original at Catania, or a page this digitisation skipped."
- },
- {
-  "status": "done",
-  "when": "14 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1874 and 1875",
-  "scope": "Both annual indexes opened, continuing the search for Michele Donato's marriage.",
-  "result": "1874 HOLDS A SECOND DONATO CANDELORO — act 62, marrying ROMANO DOMENICA — three years before the Candeloro Donato of act 43 of 1877. The act was not reached: the 1874 volume's acts run two pages each, so the 1877 arithmetic does not transfer and the numbering needs calibrating on a date. Until it is read, whether Scilla held one Candeloro Donato who remarried or two of marrying age at once is open — and the second reading would be the strongest warning yet against identifying anyone by that name. 1875 CANNOT BE SWEPT AT ALL: its annual index is an unused printed form, carrying the archive's own PAGINE BIANCHE card. Michele Donato's marriage remains unfound; 1878 is the last year of the likely window still unread."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1874, atto 62: Michele Donato's brother",
-  "scope": "Calibrated the 1874 volume by reading the margin boxes: act 61 on image 32's left page, act 63 on image 33's left, so act 62 is the lower half of image 32's right page. The year closes at act 65.",
-  "result": "FOUND. CANDELORO DONATO, 27, marinaro, celibe, «FIGLIO DI DOMENICO, MARINARO, E DI NUNZIATA SOFI, FILATRICE», married DOMENICA ROMANO, 21, filatrice, on 11 December 1874. The first document to show the Donato household whole, and BOTH PARENTS WERE ALIVE. Born about 1847, so he is the elder brother of Michele (born 3 October 1855) — which tightens the hunt for Domenico and Nunziata's own marriage to 1847 OR EARLIER. 1838-41, 1843 and 1847 are already negative; 1842, 1844, 1845 and 1846 are the years left. AND IT SETTLES THE WARNING RAISED YESTERDAY: the Candeloro Donato who married Anna Maria Bova in 1877 is the son of the late ANTONINO and Angela De Franco. Scilla held TWO Candeloro Donatos of marrying age at once."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1846, read entire",
-  "scope": "Candeloro Donato was born about 1847, so his parents married in 1847 or earlier; 1838-41, 1843 and 1847 were already negative, leaving 1842, 1844, 1845 and 1846. Correct arks found for all four — the ones in data/scilla-arks.tsv lead to notificazioni volumes and are wrong.",
-  "result": "1846 IS A COMPLETE NEGATIVE. All thirty-two acts read, one to an image: no Donato groom and no Sofi bride in any of them. Every bride is listed in scilla-reads so the year need never be opened again. THREE YEARS LEFT in the window — 1842, 1844 and 1845 — and they must be read act by act, because the Bourbon volumes carry no annual index where the Italian-era ones from 1866 do."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1845, read entire",
-  "scope": "Thirty-two acts, one to an image, read for both spouses and their parents.",
-  "result": "NEGATIVE FOR THE TARGET — no Domenico Donato, no Nunziata Sofi. Two of the four years in the window are now closed, 1845 and 1846; 1842 and 1844 remain. BUT THE YEAR HOLDS A DONATO WORTH KEEPING: act 31, August 1845, MICHELE DONATO, 31, BORN AT MESSINA, marinaro, living at Villa, «FIGLIO DI CANDELORO DONATO, marinaro, e di [—] PALADINO», marrying Angela de Amico. Recorded as a LEAD and explicitly not a join — the mother is a Paladino and this archive has no mother for Domenico; the man was born at Messina; and Scilla is proven to have held two unrelated Candeloro Donatos at once. It does establish that a Candeloro Donato was ALIVE in August 1845, the act saying «figlio di» and not «del fu»."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "The parent-link grades, and two that had to be taken back",
-  "scope": "Graded the parent edges this archive has actually read, so the blood-relatives chart can draw a register-backed parent differently from one the tree asserts. data/parent-links.tsv now carries twenty-six rows.",
-  "result": "THIRTEEN EDGES GRADED READ AND TWO INDEX, out of about seven hundred and fifty. AND A WARNING BOUGHT THE HARD WAY: the mechanism can also ADD an edge the tree never had, and BOTH of the first two attempts to use it were WRONG. Piedimonte's Nati 1845 atto 64 names MARIANO MAZZA as Rosario's father — but the only Mariano Mazza in the export is a twentieth-century man, son of the Orazio born 1883, who cannot have fathered a boy in 1845. Nati 1843 atto 101 names ANNA CAVALLARO as Leonarda Bonanno's mother — but the only Anna Cavallaro in the export is the daughter of a Luciano Cavallaro BORN IN 1945. Both rows were written, both were caught by opening the record rather than trusting the slug, and both were removed. THE DOCUMENTED PARENTS ARE SIMPLY NOT IN THE EXPORT, and a name that matches is not a person that matches — the same lesson the two Candeloro Donatos of Scilla taught in the registers."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1844: the index exists after all",
-  "scope": "Opened the tail of an_ua2002588 expecting no index, on yesterday's reading of 1845 and 1846.",
-  "result": "A CORRECTION OF MY OWN NOTE. 1844 DOES carry a «TAVOLA annuale alfabetica de' Matrimonj» at images 52-56, ruled for the spouses, their patria and professione, THEIR PARENTS, and the day of the church celebration — where 1845 and 1846 carry none at all. So the Bourbon run is not uniform and yesterday's flat claim was wrong. The table is marked INCHIOSTRO SBIADITO and GRINZE by the Archivio itself and needs the contrast stretched to read. Entries 23 to 32 are read and hold NO DONATO; the rest of the year is outstanding, and because the Tavola gives both parents of both spouses, finishing it would settle 1844 in a handful of images rather than thirty."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Scilla, Matrimoni 1844: DOMENICO DONATO AND NUNZIATA SOFI, FOUND",
-  "scope": "The 1844 annual Tavola is alphabetical by the groom's surname with the bride beneath him, so the D block was reachable directly once the table was found at images 48-56.",
-  "result": "ENTRY 17. «DONATO DOMENICO | Scilla | MARINARO | CANDELORO e PALADINO MARIA | Luglio» and beneath «SOFI NUNZIATA | id. | FILATRICE | PASQUALE e DE AMICO MARIA | 20». THE MARRIAGE THIS ARCHIVE HAS HUNTED THROUGH ELEVEN YEARS OF REGISTERS — 1838-41, 1843, 1845, 1846 and 1847 all read and all negative, and 1844 the year between them nobody had opened. Four new people: MARIA PALADINO, who is Candeloro Donato's wife and the first name this archive has had for her, and PASQUALE SOFI and MARIA DE AMICO. IT ALSO CONFIRMS YESTERDAY'S LEAD: the Michele Donato of act 31 of 1845, born at Messina, «figlio di Candeloro Donato e di [—] PALADINO», is Domenico's BROTHER. THE ACT ITSELF CANNOT BE READ — it is 23 or 24 of the year, the Archivio's cards say INCHIOSTRO SBIADITO and GRINZE, and the ink has gone. The Tavola is legible where the act is not."
- },
- {
-  "status": "wall",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Archivio di Stato di Messina, whole province",
-  "scope": "Does civil registration at Messina reach back to Michele Donato's birth about 1814, and to his parents' marriage before it? Year-by-year probes of the province: 1815, 1819, 1820, 1821, 1825, 1840.",
-  "result": "NO, AND THE WALL IS EXACT. 1815 returns nothing. 1819 returns nothing. 1820 returns 366 volumes across seventeen comuni, 1821 more, 1840 five hundred and ten. CIVIL REGISTRATION IN THE PROVINCE OF MESSINA BEGINS IN 1820 — six years after Michele Donato was born there, and later still than his parents' marriage. Sicily had no Napoleonic period, so it has no «Stato civile napoleonico»: the series starts with the restoration, and starts late. So CANDELORO DONATO IS WHERE THE SCILLA LINE STOPS in the civil registers, exactly as Pasquale Prostamo is where the Calabrian one does. Anything earlier is a PARISH record, in the Archdiocese of Messina, and not on Antenati. AND A SECOND WALL BEHIND THE FIRST: the comune of MESSINA ITSELF appears in none of the years read — not 1820, not 1840 — although the archive's series list claims 1069 volumes for it. Messina city was destroyed by the earthquake of 28 December 1908, which killed some eighty thousand people and took much of its civil archive with it. That is to be confirmed rather than assumed, but it means the city is the worst-served comune in its own province and the Donato birth may be unreachable by any route."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Brisbane City Council cemeteries — the whole register, by API",
-  "scope": "All nine Council cemeteries and crematoria — Mount Gravatt, Toowong, Pinnaroo Lawn, Balmoral, Hemmant, Lutwyche, South Brisbane and the rest, 360,000 records. Searched: Mazza, Prostamo, Polistena, Arena, Donato, Melluso, Nicotra, Crupi, Cavallaro.",
-  "result": "THE ENDPOINT, WHICH IS THE USEFUL PART: Council's search moved to «EverAfter», and behind it is clean JSON needing no login — GET https://brisbane.discovereverafter.com/api/deceased-search?name=SURNAME&country=&facility_id=&order_by=relevance&sort=desc . It returns forename, middlename, surname, date of birth, date of death, age, date of burial or cremation, and the cemetery. The match is FUZZY -- a search for Mazza returns Mazzaracca, Mazzaglia and Mazzaroli -- so filter on the surname yourself. FOUR NAMES RETURN NOTHING AT ALL across every Council cemetery: POLISTENA, MELLUSO, NICOTRA and CRUPI. That is not a failure, it is the shape of the family: they were Catholic and they are at NUDGEE, which the Archdiocese runs and Council does not list. WHAT IT CORRECTED: Domenico Francesco Prostamo's birth, recorded here as 1931, is 18 OCTOBER 1930 in Council's own record -- which agrees with the family tree and makes him ninety-four when he died in January 2025, not ninety-three. WHAT IT ADDED, AS LEADS AND NOT JOINS: MARIO MAZZA (1921-2015) and MARIA MAZZA (1931-2014) share plot Mon 3H 104 at Mount Gravatt, which in these registers means a married pair -- and neither is in Michael's export. AND AT PINNAROO LAWN, A DONATO FAMILY CARRYING THIS LINE'S TWO RAREST NAMES: «Gregory CANDELORO Donato» (1941-2025), «Donato CENDELORD» (d. 1968 at 52), «Donato ANNUNZIATO» (d. 1954 at 66), with a Rocco and a Concetta beside them. Candeloro is the name of the Scilla grandfather born about 1783 and of his grandson born 1847; Annunziata is Nunziata Sofi's. THE EXPORT CONTAINS NO CANDELORO AT ALL. This is exactly the shape of a join this archive has got wrong four times, so it is written down as a lead and nothing more. The Queensland death index names parents and would settle both."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — the Briatico processetti, mapped as a series",
-  "scope": "Which years exist, which comuni they cover, and how they are arranged. Probed 1820, 1822, 1824, 1826, 1828, 1830, 1840, 1845, 1850.",
-  "result": "THEY EXIST FOR MOST YEARS, AND THE SERIES IS NOT ONE COMUNE. Briatico returns TWO OR THREE separate processetti arks for the same year, and they are DIFFERENT COMUNI in the same circondario -- 1826 gives Briatico (an_ua37920142, 59 images) and SCICONI (an_ua37929531, 52 images); 1828 gives three plus a CONIDONI bundle covering 1828-1851 (an_ua37920221, 318 images). Read the manifest label before assuming which town a bundle belongs to. Years found: 1824 (an_ua37920082, 107 images), 1826, 1828, 1830, 1840, 1845, 1850. NOT 1820 and NOT 1822. AND THEY ARE ARRANGED DIFFERENTLY FROM SCILLA'S, which matters for what a search costs. Scilla's bundles are PER-MARRIAGE FASCICOLI, each opening with a cover sheet that names both spouses and indexes its own contents -- so the right file is found by reading covers. BRIATICO'S 1826 BUNDLE HAS NO COVER SHEETS AT ALL: it is a continuous run of loose notificazioni and certificates, «PARTE II», with the spouses' names in the body of each. SO THE ROUTE IN IS THE MARRIAGE REGISTER FIRST. Get the act number from the Briatico Matrimoni volume, then find the corresponding papers. Reading the bundle cold means reading every page. The target that prompted this: GIUSEPPE VENTRICE x CATERINA CICHELLO, married before mid-1827 -- their daughter Giovanna was born 23 June 1828. Their bundle would carry Giuseppe's own birth act (about 1795), Caterina Cichello's, HER PARENTS, and very possibly the death of PAOLO VENTRICE, which would reach a generation this archive has only as a name. NOT YET FOUND."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "FamilySearch — UNBLOCKED after five days, and what it actually holds",
-  "scope": "Retried after the site-wide Error 15 that named the proxy IP and blocked it from the day this archive was built. Searched Prostamo, Francesco Prostamo and Rosario Mazza.",
-  "result": "IT WORKS, AND IT NEEDS NO LOGIN. The index returns names, exact dates, places AND BOTH PARENTS on the results page itself. The surname match is fuzzy -- «Prostamo» returns Prada, Pretta, Pretto and Preiti -- so add `q.surname.exact=on`, which cuts 1,335 results to 26. THE COLLECTION THAT MATTERS FOR THE CALABRIAN LINE: «Italy, Vibo Valentia, Vibo Valentia, Civil Registration (TRIBUNALE), 1861-1910» -- the COURT copy, which runs to 1910 where Antenati's comune copies stop at 1900. BUT NOT FOR BRIATICO. Twenty-six exact Prostamo births 1896-1912 are indexed and every one of them is MILETO, COMPARNI, SAN GIOVANNI or PIZZO. Not one is Briatico. FRANCESSCO PROSTAMO, BORN 16 NOVEMBER 1900 AT BRIATICO, IS NOT IN THE INDEX -- so Briatico's 1900-1910 volumes are either unindexed browse-only images here or absent, and that hope, which has sat in the queue since 10 September, is not a quick one after all. PIZZO IS INDEXED, which is worth knowing given the Prostamo are a Pizzo family: Giorgio Prostamo d. 1903 and Anna Prostamo d. 1899, both of Antonino/Antonio and Angela Conde. Too late for the spine but the same town. AND ONE THING THAT REFINES TODAY'S MESSINA FINDING. FamilySearch carries «Italy, MESSINA, Civil Registration (STATE ARCHIVE), 1820-1865». That CONFIRMS INDEPENDENTLY that Sicilian registration begins in 1820 -- and it softens the second wall: Messina's records for 1820-65 SURVIVE and are filmed, even though the comune of Messina appeared in no Antenati year probed. The earthquake of 1908 did not take everything. It does NOT move the first wall: Michele Donato was born about 1814, still six years early."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Briatico marriages 1822 to 1827, read complete",
-  "scope": "GIUSEPPE VENTRICE x CATERINA CICHELLO, whose daughter Giovanna was born 23 June 1828, so the marriage must precede it. Six whole years read from the annual Tavole: 1822, 1823, 1824, 1825, 1826, 1827.",
-  "result": "NEGATIVE, AND FIRM. TWENTY-FOUR MARRIAGES IN SIX YEARS AND NOT ONE VENTRICE. 1822 had five. 1823 had five, 1824 four, 1825 four or five, 1826 five, AND 1827 HAD NONE AT ALL -- its Tavola is ruled and completely empty. WHERE TO LOOK NEXT, and the negative points at it: Giuseppe Ventrice DIED at Briatico in 1831, but his father DOMENICO VENTRICE died at ZAMBRONE in 1815. The family was a Zambrone family that moved. The marriage is most likely at ZAMBRONE, or earlier than 1823 at Briatico, or Giovanna was not the first child. AND A METHOD FINDING WORTH MORE THAN THE NEGATIVE. BRIATICO'S MARRIAGE VOLUMES ARE TINY AND EVERY ONE CARRIES AN ANNUAL TAVOLA THAT NAMES BOTH SETS OF PARENTS. The volumes run six to thirteen images; the Tavola is the LAST image or the one before it, ruled for «Nomi e cognomi dei Sposi | PATRIA | NOMI E COGNOMI DE' GENITORI | Giorno della celebrazione». So a whole year of Briatico marriages, with four parents for every couple, costs ONE IMAGE. The series runs 1816 to 1858 and the arks are sequential -- ark(Y) = an_ua87654 + (Y - 1840), which is CONFIRMED BACKWARDS as well: 1824 is an_ua87638, 1827 is an_ua87641. The entire Briatico marriage series could be swept for about forty images. Nothing else in this archive is that cheap. AND THE TAVOLA CONVENTION STARTS SOMEWHERE AROUND 1822: the volumes for 1816 and 1817 end on ACTS, not an index, so those years must be read act by act. The remaining window for this marriage is therefore 1816-1821 at Briatico -- about seventy images, all downloadable, none indexed -- or Zambrone. Containers found: 1816 5VKDrmE, 1817 5dZbKXn, 1818 wRGR73a, 1819 Lydrvn1, 1820 wlGnjVD, 1821 w68pynN, 1822 wbrz4Vg, 1823 w99lEay, 1824 wXrR28W, 1825 LNjzb4J, 1826 0JbOyEd, 1827 0A4Xgj9."
- },
- {
-  "status": "part",
-  "when": "15 Sep 2026",
-  "source": "Antenati — the Zambrone marriage book, first fifty images (1811-1830)",
-  "scope": "GIUSEPPE VENTRICE x CATERINA CICHELLO, after Briatico 1822-27 came back negative. Zambrone Matrimoni 1811-1858, an_ua37928578, container wWyoZJ2, 253 images. Annual Tavole read complete for 1822, 1824 and 1826; the acts of the other years not yet read.",
-  "result": "NOT FOUND YET, BUT THE FAMILY IS THERE, WHICH IS WHAT THE BRIATICO NEGATIVE PREDICTED. TAVOLE READ COMPLETE: 1822 (five marriages -- Scarpato x Sambiase, Coglia x Adamo, Pungitori x Pietrapaolo, Trillo x Colica, Trillo x Ferraro) and 1824 (three -- Piatto x Viggo, Trillo x Pellegrino, Sorrentino x Colica). NO VENTRICE IN EITHER. AND A VENTRICE AT LAST, in the Tavola at image 40: «VINCENZO SORRENTINO x SERAFINA VENTRICE», celebrated a 9 Agosto. HER FATHER READS AS FRANCESCO -- so a different branch from Domenico Ventrice's, and not the couple wanted. THE YEAR IS NOW SETTLED: 1826. Each year in this volume ends on UNUSED BLANK PRINTED FORMS before its Tavola -- image 34 is a blank 1825 form, image 39 a blank 1826 form -- and the Tavola at image 40 follows the 1826 blanks. So SORRENTINO x SERAFINA VENTRICE WERE MARRIED AT ZAMBRONE ON 9 AUGUST 1826, and 1826's three marriages hold no Giuseppe Ventrice. ONE CAUTION REMAINS: the parents' column is cramped and faded, so FRANCESCO -- which would make Serafina a different branch from Domenico Ventrice's -- is a reading and not a certainty. An act of 23 January 1830 at image 50 also names a Vincenzo Sorrentino «sposo di Serafina Ventrice», which may be the same couple's civil promise or may be a second entry -- unresolved. STRUCTURE, which makes the rest cheap: each year is a printed title page, then acts one to an opening, then an annual TAVOLA naming BOTH SETS OF PARENTS. Located so far -- image 13 Tavola 1822, image 18 a BLANK 1823 form, image 27 Tavola 1824, image 28 title 1825, image 35 title 1826, image 40 a Tavola, image 48 a Tavola, image 49 title 1830. SO FOUR YEARS ARE NOW CLEAR -- 1822, 1824, 1826 at Zambrone, on top of Briatico 1822-1827 -- AND THE WINDOW IS 1811-1821, 1823, 1825 AND 1827. Giuseppe Ventrice was born about 1795, so 1818-1825 is where to look first. All fifty images are downloaded."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Zambrone Matrimoni 1824, atto 2. FOUND.",
-  "scope": "GIUSEPPE VENTRICE x CATERINA CICHELLO, hunted across Briatico 1822-1827 and Zambrone 1822-1826 before this.",
-  "result": "FOUND, ON 2 MARCH 1824 AT ZAMBRONE, and it was three images from where the sweep had already reached. The reason it took so long is worth recording: THE TAVOLE IN THIS VOLUME LEAVE THEIR YEAR BLANK. The printed header reads «nell'anno ___» and nobody filled it in, so the year has to be deduced from position -- and I deduced it wrong, calling the Tavola at image 27 «1824» when its three couples are the acts of 1823. Reading the ACTS, which carry «L'Anno mille ottocentoventiquattro» in print, settled it in one look. RULE: IN THIS SERIES, TRUST THE ACTS FOR THE YEAR AND THE TAVOLA ONLY FOR THE NAMES. What the act gives is on the plate and in the corrections: Caterina Cichello's parents FRANCESCO CICHELLO and VITTORIA MOLLO, a couple entirely new to this archive; Giuseppe's birthplace S. COSTANTINO; all four parents already dead by 1824; and a direct contradiction of the 1849 chancery copy over whether Domenico Ventrice's wife was ANNA FAMA or ANNA MAROPOLI."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Zambrone Morti 1811-1839, opened. THE GAP IS REAL AND NOW EXACT.",
-  "scope": "Whether Zambrone's deaths really are missing 1813-1821 — a wall this archive has published for days without ever opening the volume. Zambrone Morti 1811-1839, an_ua37932358, container w9dp62r, 234 images.",
-  "result": "THE WALL IS REAL, AND IT IS NOT AN INFERENCE ANY MORE. The volume runs 1811 (images 1-24), then 1812, which ENDS WITH ITS OWN DEATH TAVOLA at images 37-38, then a printed title page at image 39 — AND THEN IMAGE 40 IS 1822. Acts 1, 3, 5, 7, 9 and 11 of 1822 run from image 40 to image 45. SO THE REGISTER JUMPS FROM THE END OF 1812 STRAIGHT TO 1822 AND THE YEARS 1813 TO 1821 ARE PHYSICALLY ABSENT. Nine years, and this archive had them right. WHAT THAT COSTS: DOMENICO VENTRICE DIED 13 JANUARY 1815, squarely inside the gap. His original death act is NOT in this volume, so the ANNA FAMA against ANNA MAROPOLI question CANNOT be settled from Zambrone's own register. BUT THE SURNAME IS CORROBORATED ANYWAY, and from an unexpected direction: the 1822 death Tavola names a «fu Franc.co e Dom.ca MAROPOLI» as the parents of a Francesca Pungitori. MAROPOLI IS A REAL ZAMBRONE SURNAME OF EXACTLY THIS PERIOD, which is what a reading of «della fu Anna Maropoli» needed and did not have. It does not prove the 1849 copy wrong; it removes the objection that the name looked invented. AND THE VOLUME IS CHEAP TO SWEEP: EVERY YEAR ENDS WITH AN ANNUAL TAVOLA ruled for «Nomi e Cognomi dei Morti | Patria | Professione | NOMI E COGNOMI DE' GENITORI | Giorno della Morte». 1812's is at image 37, 1822's at image 51. One image a year, with the parents of every person who died. 1822 READ COMPLETE: seven deaths, and NEITHER Francesco Cichello NOR Vittoria Mollo is among them — though a MARIA Mollo died on 27 May 1822."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Antenati — Zambrone death Tavole 1822, 1823 and 1824, read complete",
-  "scope": "FRANCESCO CICHELLO and VITTORIA MOLLO, both already dead when their daughter married on 2 March 1824 — so their deaths fall somewhere before that. And ANNA MAROPOLI, Giuseppe Ventrice's mother, also «la fu» by 1824. Zambrone Morti 1811-1839: Tavola 1822 at image 51, 1823 at image 65, 1824 at image 78.",
-  "result": "NEGATIVE FOR ALL THREE, AND THE NEGATIVE POINTS SOMEWHERE USEFUL. The three annual death Tavole name everyone who died at Zambrone in 1822, 1823 and 1824, WITH THEIR PARENTS -- and NEITHER FRANCESCO CICHELLO NOR VITTORIA MOLLO IS AMONG THEM. Nor is Anna Maropoli. SO ALL THREE ALMOST CERTAINLY DIED IN THE NINE MISSING YEARS, 1813-1821 -- the same gap that hides Domenico Ventrice's act of January 1815. Four people this archive wants, behind one gap. That makes the SECOND COPY of the register (work list row 59) the single most valuable lead left on the Calabrian side. WHAT THE SWEEP DID SETTLE: MAROPOLI IS UNMISTAKABLY A ZAMBRONE SURNAME. It appears TWICE more in these three years -- «fu Franc.co e Dom.ca MAROPOLI» as parents in the 1822 Tavola, and GIUSEPPE MAROPOLI himself, an infant, dead 23 March 1824, son of Antonio and Marianna Colia. Two independent attestations inside two years. The reading «della fu Anna Maropoli» on the 1824 marriage act no longer needs defending as a reading; what remains open is only which of two documents is right. AND A PLACE WORTH NOTING: the 1824 Tavola's first entry is FRANCESCA CAPIGRELLI OF S. COSTANTINO -- the same S. Costantino where Giuseppe Ventrice was born. Zambrone's register carries S. Costantino people, so the two towns shared a population and the Ventrice move was a short one. MOLLO AND CICHELLO ARE BOTH LOCAL: a Maria Mollo died in 1822, a Marianna Mollo and an Anna Cichello in 1823, a Domenica Mollo appears as a parent in 1824. Neither surname is rare here, which is worth remembering before any join is made on one."
- },
- {
-  "status": "part",
-  "when": "15 Sep 2026",
-  "source": "FamilySearch catalogue — attempted, and it was down",
-  "scope": "The second copy of Zambrone's civil registers for 1813-1821, the nine years missing from the Antenati volume.",
-  "result": "NOT RULED OUT -- NOT CHECKED. FamilySearch's catalogue returned «Something Went Wrong» for every query on 15 September. Its JSON endpoint at /service/search/catalog/search is alive and validates query terms -- `q.title`, `q.subject` and `q.place` are accepted where `q.text`, `q.keyword` and `q.anyPlace` are rejected -- but `q.place=Zambrone` IGNORES the value and returns two million hits, so it is useless without a place ID. RETRY LATER; this is a service outage and not a negative. WHAT THE ATTEMPT DID PRODUCE, by making me check the premise instead: THE VOLUME ANTENATI HOLDS IS THE COURT'S COPY, NOT THE COMUNE'S. Its manifest says «Archivio di Stato di Catanzaro > Stato civile napoleonico > Zambrone > 1811-1839», and under the Napoleonic and Bourbon codes every act was written TWICE -- one register for the comune, one for the tribunale, the tribunale's going to the Archivio di Stato. SO THE NINE YEARS ARE MISSING FROM ONE OF TWO COPIES, and the other may still be at the COMUNE DI ZAMBRONE. That is supported by the act having existed in 1849, when the chancery certified a copy of Domenico Ventrice's 1815 death for a marriage at Briatico -- something was still being copied from, thirty-four years on. It makes the next step a LETTER to the comune rather than another search, and it is the only route to four people: Domenico Ventrice, Anna Maropoli, Francesco Cichello and Vittoria Mollo."
- },
- {
-  "status": "part",
-  "when": "15 Sep 2026",
-  "source": "Queensland BDM — swept by surname for Donato, Mazza and Crupi",
-  "scope": "Testing the two Brisbane leads found in the council cemeteries — the Pinnaroo Donato carrying CANDELORO, and Mario and Maria Mazza of Mount Gravatt — and sweeping the surname sets properly rather than by targeted lookup. The endpoint 403s to curl and must be fetched from the site's own origin in the browser.",
-  "result": "THREE RESULTS, AND ONE OF THEM IS A FAMILY NOBODY HERE KNEW ABOUT. CRUPI -- ANGELA CRUPI HAD AT LEAST THREE BROTHERS IN QUEENSLAND. Her own death registration of 1973 names FRANCESCO CRUPI and MARIA VECCHIO. So do THREE MORE: PIETRO CRUPI (d. 18 July 1961), ANTONINO CRUPI (d. 15 April 1982) and MARIO CRUPI (d. 17 September 1989). Four siblings, one parent-pair, and this archive knew one of them. Two of the brothers also have Queensland marriages in 1940. DONATO -- THE PINNAROO FAMILY IS FULLY DOCUMENTED AND IS NOT DEMONSTRABLY OURS. ANNUNZIATO DONATO and CONCETTA BRIGANTI had five children registered in Queensland: Rocco 1912, Concetto 1913, Peppino 1914, CANDELORO 1915 and Nunzio 1917, and the deaths of four of them repeat the same parents. AND ANNUNZIATO'S OWN DEATH OF 28 FEBRUARY 1954 NAMES HIS PARENTS: ROCCO DONATO and CONCETTA ROMANO. NOT Michele Donato and Maria Sofi. So the Candeloro at Pinnaroo is a grandson of a ROCCO Donato, not of this archive's line. THE NAMES REMAIN SUGGESTIVE AND THAT IS ALL THEY ARE: Candeloro, Annunziato, Rocco, Nunzio and Concetto are precisely the Scilla Donato naming pool, and CONCETTA ROMANO carries a surname this archive has already met at Scilla in Giovanni Polistena's mother. A cousin line is plausible. A DOCUMENTED LINK IS ABSENT, and this is exactly the join this archive has got wrong four times. MAZZA -- THE MOUNT GRAVATT PAIR CANNOT BE TESTED HERE AT ALL. Queensland's public death index stops at 1996 and MARIO MAZZA DIED IN 2015, MARIA MAZZA IN 2014. The Mario Mazza who appears in the index died in 1986 and is a different man, son of Rosario Mazza and Rosa Grasso. The lead is neither confirmed nor refuted; it is out of the index's reach. The sweep also re-confirmed five registrations this archive already held -- Maria Nicotra 1963, Mary Rosa Mazza 1968, Rosario Mazza 1986, Michele Mazza 1926 and Angela Crupi 1973 -- with the same parents each time."
- },
- {
-  "status": "done",
-  "when": "15 Sep 2026",
-  "source": "Queensland BDM — the rest of the surnames swept",
-  "scope": "Prostamo, Polistena, Melluso, Nicotra, Anile, Barbuto and Arena, by exact surname, births marriages and deaths.",
-  "result": "MOSTLY EMPTY, AND THE EMPTINESS IS INFORMATIVE. POLISTENA RETURNS NOTHING AT ALL, and so does ANILE. That is not a gap in the family, it is the shape of the index: births stop in 1926, marriages in 1951, deaths in 1996, and the Polistena reached Brisbane in 1949. They arrived too late to be born or married into it and have mostly died too late to be in it. PROSTAMO RETURNS EXACTLY ONE RECORD in the entire Queensland index -- Maria Assunta, 1991 -- for a family with a dozen people in Brisbane. Same reason. ARENA RETURNS SEVENTY-FIVE AND NONE OF THEM IS OURS: Byrne, Kerby, Pollard, Timothy Leo, Cornelius Joseph, Alphonso James -- an IRISH-AUSTRALIAN Arena family entirely unrelated to Scilla. A surname sweep without a parent check would have produced a dozen false joins here. NICOTRA returns eighteen, of which ONE is ours -- Maria Nicotra, 1963, already held. The rest are a Catania Nicotra cluster around Maccarone, Patane and Scalia. BARBUTO returns two, neither ours. AND A CORRECTION TO MY OWN EXPECTATION: the Melluso and Prostamo registrations I treated as finds were ALREADY IN data/qld-bdm.tsv, recorded by an earlier session with better analysis than mine -- including that LIMARDO is a Potenzoni surname from the 1818 birth index. What was actually missing was that GENNARO MELLUSO, MARIA LIMARDO and CARMELA MARIA BORELLO had never become PEOPLE. They are now. The lesson is about this archive, not about Queensland: facts recorded in one file do not reach the reader until they are surfaced in another."
- },
- {
-  "status": "part",
-  "when": "15 Sep 2026",
-  "source": "FamilySearch — Australian records for Prostamo",
-  "scope": "Looking for AUSTRALIAN ELECTORAL ROLLS, promoted to the primary instrument after Queensland BDM proved unable to see a family that arrived in 1949.",
-  "result": "NO ELECTORAL ROLLS THERE. FamilySearch's Australian holdings for this surname are Petty Sessions registers, Find a Grave and nothing else -- the rolls are on Ancestry, which is paid, and at the National Library. So row 62 still needs a source and this was not it. TWO THINGS THE SEARCH DID GIVE. FIRST, A PLACE AND A DATE FOR ROCCO PROSTAMO. «Australia, Victoria, Petty Sessions Registers, 1858-1985» indexes a PROSTAMO at NORTHCOTE between November 1956 and June 1957, and at HEIDELBERG between December 1957 and June 1958 -- both Melbourne. The index garbles the given name as «Ricco» and «Rono», which is this data's usual treatment of ROCCO. It fits: Rocco Prostamo, born 28 January 1925, is buried at NORTHERN MEMORIAL PARK, GLENROY, in the same city. WHAT THE ENTRIES CONCERN IS NOT STATED IN THE INDEX AND HAS NOT BEEN READ -- petty sessions covered licences, debts, permits and minor matters alike -- so this is recorded as a PLACE AND A DATE and nothing more. It should not be characterised further without reading the register itself. SECOND, A CAUTION ABOUT FIND A GRAVE. It indexes FRANCESCA PROSTAMO, born 18 September 1933 and died 11 February 2018, at TWO DIFFERENT CEMETERIES ON TWO CONTINENTS -- «Northern Memorial Park, Glenroy, Victoria» and «Northern Cemetery, Barnesville, Belmont County, OHIO». Same dates, same name, one person. The two cemeteries share the word NORTHERN and that is almost certainly the whole explanation. This archive uses the Victorian one, because she landed at Fremantle in 1957 and Rocco is buried in the same Melbourne ground. A Find a Grave hit is not a burial until the cemetery agrees."
- }
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "MyHeritage GEDCOM export",
+    "scope": "614 individuals, 212 families, 39 cited sources, 133 images.",
+    "result": "Parsed in full. 15 duplicate records merged on evidence; 58 shared names left deliberately unmerged; 14 disconnected components identified.",
+    "key": "src/myheritage-gedcom-export-eebf7b"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "The 133 tree images",
+    "scope": "Signed MyHeritage links, due to expire 16 September 2026.",
+    "result": "All 133 downloaded and stored in the repository, and all 133 published.",
+    "key": "src/the-133-tree-images-a3eb81"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "Component analysis",
+    "scope": "Is this one family tree?",
+    "result": "No. It is 14 pieces. The largest holds 479 people; the second holds 111 Piedimonte Etneo Mazza joined to the rest by nothing. Recorded, not papered over.",
+    "key": "src/component-analysis-b54760"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "Ancestral reconstruction from the living generation upward",
+    "scope": "Rather than downward from an assumed founder.",
+    "result": "Michael Rocco Mazza has 59 recorded ancestors across 9 generations. The four quarters reach 1697, 1821, 1851 and 1879 respectively.",
+    "key": "src/ancestral-reconstruction-fro-7628d9"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "Brisbane Catholic Cemeteries register (Nudgee)",
+    "scope": "18 surnames swept against the Archdiocese's own deceased register — the cemetery is not in the Brisbane City Council search.",
+    "result": "90 register rows; 19 matched to this archive with plot, register number and exact dates. Corrected the tree in 6 places. Found the four grandparents in consecutive plots V-1026 to V-1029.",
+    "key": "src/brisbane-catholic-cemeteries-12bc2c"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "NAA passenger arrivals index, 1898–1972",
+    "scope": "18 surnames swept, then 18 targeted name searches against the National Archives of Australia's voyage-level index.",
+    "result": "Named the ship for 9 of the 18 crossings, including Sebastiano Mazza (Toscana, 4 Oct 1949) and Michele Mazza (Palermo, 21 Apr 1925). Corrected four ports of arrival or embarkation.",
+    "key": "src/naa-passenger-arrivals-index-bc7052"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "Antenati — nine annual indexes, three comuni",
+    "scope": "Piedimonte Etneo Nati 1877, 1878, 1879 (+supplement), 1880, 1881; Mascali 1879; Giarre 1879. Archivio di Stato di Catania.",
+    "result": "A NULL on Salvatore Mazza in all nine. Five Mazza births found: Antonino and Grazia (1877), Rosaria and Venerio (1879), Gaetano (1880); none at all in 1878, 1881, Mascali or Giarre. Acts 167 and 205 transcribed in full, documenting three Mazza braccianti of Via Terremorte.",
+    "key": "src/antenati-nine-annual-indexes-820f71"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "Queensland BDM historical index",
+    "scope": "Free Registry index — deaths to 1996, marriages to 1951, births to 1926. Searched on the FATHER'S and MOTHER'S names, not the person's.",
+    "result": "Six registrations. Proved Michele Mazza (d. 14 Nov 1926) and Rosario Mazza (b. 1899) sons of Salvatore Mazza and Maria Concetta Nicotra, and therefore Sebastiano's brothers. Confirmed Maria Nicotra's own parents, Sebastiano and Domenica as Mary Rosa's parents, and Maria Mazza's 1939 marriage to Rosario Coco.",
+    "key": "src/queensland-bdm-historical-in-24fec9"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "VA Nationwide Gravesite Locator",
+    "scope": "The three Polistena the tree places at Arneytown, New Jersey.",
+    "result": "TWO people in ONE plot, not three. Joseph Polistena, PFC US Army, Second World War, Section O3 Site 8647; Santa Polistena entered as his wife in the same site. Confirmed the archive's merge of the two Joseph records and corrected Santa's death date by a month.",
+    "key": "src/va-nationwide-gravesite-loca-b9b742"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "FamilySearch full-text — Piedimonte Etneo",
+    "scope": "The endpoint recorded in the Falco archive's method notes, over parish registers and civil series Antenati does not hold for this comune (marriages there stop at 1893).",
+    "result": "THE ARCHIVE'S CENTRAL QUESTION, ANSWERED. Salvatore Mazza's birth act (5 Jan 1873), his parish marriage (1898), his death act (1929), and marriage proclamations of 1898, 1902 and 1910 naming Rosario's age each time. Proved the 110 unattached Mazza to be the descendants of Salvatore's brothers, and produced a new generation, Mariano Mazza.",
+    "key": "src/familysearch-full-text-piedi-18cf98"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "Antenati — Scilla, Nati 1870, 1892 and 1851",
+    "scope": "Three annual indexes at the Archivio di Stato di Reggio Calabria, plus two acts read in full.",
+    "result": "Act 230 of 1892 gave Giuseppe Arena's exact birth (6 October, Via Grotte 75), confirmed Concetta Russo as his mother, and CORRECTED his father Giovanni Arena's birth year by eleven years — 33 in the act, so born about 1859, not 1870. Act 81 of 1870 gave three Arena generations but proved to be a different household. NO DONATO AT ALL in the 1851 index.",
+    "key": "src/antenati-scilla-nati-1870-18-52ae26"
+  },
+  {
+    "status": "done",
+    "when": "10 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1913, index transcribed in full",
+    "scope": "All eleven index openings, images 75–85. The IIIF images are not rate-limited, only the portal's HTML is.",
+    "result": "58 marriages, 77 surnames — and no Arena, no Donato, no Polistena and no Mazza among them. The Polistena–Donato marriage is not in 1913. One index entry that read as a Mazza bride is Muzzi in the act itself.",
+    "key": "src/antenati-scilla-matrimoni-19-fcb0b3"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Piedimonte Etneo, Nati 1875, 1876 and 1882 onward",
+    "scope": "Salvatore Mazza, if the year is further out than two.",
+    "result": "Each volume carries its own index, so this is index reads, not volume reads.",
+    "key": "src/antenati-piedimonte-etneo-na-b206fd"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Piedimonte Etneo, Matrimoni",
+    "scope": "The marriage of Salvatore Mazza and Concetta Greco, c. 1870; and any Rosario Mazza marriage.",
+    "result": "A marriage act names both fathers — the fastest route to Rosario.",
+    "key": "src/antenati-piedimonte-etneo-ma-47d592"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — the acts behind index entries 164, 168 (1877) and 66 (1880)",
+    "scope": "The fathers of Mazza Antonino, Grazia and Gaetano.",
+    "result": "Three more Mazza households for the cost of three crops.",
+    "key": "src/antenati-the-acts-behind-ind-a9bac1"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati / Catania",
+    "scope": "Salvatore Mazza, who died at Catania in 1929.",
+    "result": "A large city's registers — a much bigger job.",
+    "key": "src/antenati-catania-36c588"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Catanzaro / Vibo Valentia, Briatico",
+    "scope": "The whole Prostamo, Melluso and Anile descent, 1809 onward.",
+    "result": "Would convert eight asserted generations into documented ones.",
+    "key": "src/antenati-catanzaro-vibo-vale-bde8c1"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Scilla, Nati around 1859",
+    "scope": "GIOVANNI ARENA, now known to be born about 1859 rather than 1870. The Bourbon-era index NAMES THE PARENTS, so one opening would give his father and mother outright.",
+    "result": "The best single lead the archive currently holds. The restaurazione arks are not computable from the year — the series interleaves Nati, Morti and Matrimoni — so each year costs one portal page load.",
+    "key": "src/antenati-scilla-nati-around--c0ac91"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Scilla, Nati 1845–1860 for a Donato",
+    "scope": "MICHELE DONATO, absent from 1851 where the tree puts him. His eldest son was born 1878, so he is somewhere in that window.",
+    "result": "This archive has now found the tree six years out on two Mazza births and eleven years out on Giovanni Arena. A wrong year is the likelier explanation than a wrong town.",
+    "key": "src/antenati-scilla-nati-1845-18-9e9f99"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Scilla, Matrimoni 1899, atto 62",
+    "scope": "Arena Domenico × Arena Maria, 30 November 1899 — named in the margin of act 81 of 1870.",
+    "result": "Would name four parents and close out the 1870 household, which is not the tree's but is a real Scilla Arena line.",
+    "key": "src/antenati-scilla-matrimoni-18-6316f6"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Scilla, Matrimoni 1866–1913",
+    "scope": "FORTY-EIGHT volumes, not eight. This archive had recorded the series as starting in 1905; it starts in 1866. 1885, 1886, 1887, 1889, 1890, 1891, 1892, 1893 and 1894 have been read; 1888 is water-damaged across the A entries and cannot be.",
+    "result": "Two Arena weddings found in 1885. Rocco Arena × Generosa Costa still missing; Giovanni Polistena × Nunziata Donato and Michele Donato's marriage are now both inside the window and unsearched.",
+    "key": "src/antenati-scilla-matrimoni-18-5962ff"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Scilla, Morti 1866–1943",
+    "scope": "EIGHTY-ONE volumes, and this archive did not know they existed. The annual index gives a patronymic — «di X» where the father lives, «fu X» where he does not — as well as the act number. The A block has been read for 1889, 1890, 1891, 1892 and 1893.",
+    "result": "Neither Francesco Antonio Arena nor Serafina Arlotta is in those five years, though both were alive at Scilla in December 1888. Two leads came out of them: Arena Fortunato DI GIOVANNI (1891, act 134) and Arena Raffaela FU ANTONIO (1893, act 5).",
+    "key": "src/antenati-scilla-morti-1866-1-e2cb41"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Scilla, Matrimoni pubblicazioni 1866–1913",
+    "scope": "FORTY-SIX volumes of banns, each with its own annual index — which is how the 1888 marriage was found when the marriage index itself was destroyed by water across exactly the A entries.",
+    "result": "Arena Rocco / Costa Generosa, under A in the 1888 banns index. Everything else in the series is unread.",
+    "key": "src/antenati-scilla-matrimoni-pu-4ec15a"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Scilla, Matrimoni 1874–1878",
+    "scope": "The first search the corrected coverage note made possible: Michele Donato's marriage, about 1875–77. Indexes read for 1874, 1876, 1877 and 1878; 1875 has no index at all and its acts 3–26 were scanned by the margin boxes.",
+    "result": "NEGATIVE. No Donato Michele among the grooms. But Donato Candeloro marries in 1874 and again in 1877, Donato Bruno in 1878 and a Donato Carmela in 1875 — so the Donato were a Scilla family all along, and the idea that the surname arrived late is dead.",
+    "key": "src/antenati-scilla-matrimoni-18-8db2c7"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Reggio Calabria, Scilla",
+    "scope": "Arena, Polistena and Donato, 1809 onward.",
+    "result": "",
+    "key": "src/antenati-reggio-calabria-sci-cad4a7"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "National Archives of Australia — the nine remaining crossings",
+    "scope": "Domenica Prostamo, March 1951, is not in the index under either surname.",
+    "result": "Nine of eighteen are still unnamed.",
+    "key": "src/national-archives-of-austral-760d16"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "CEMLA — Argentine immigration",
+    "scope": "The Buenos Aires Prostamo.",
+    "result": "",
+    "key": "src/cemla-argentine-immigration-911e21"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "FamilySearch full-text search",
+    "scope": "Piedimonte Etneo and Briatico parish registers.",
+    "result": "The technique that broke the Falco line open.",
+    "key": "src/familysearch-full-text-searc-1a3c91"
+  },
+  {
+    "status": "done",
+    "when": "13 Sep 2026",
+    "source": "Antenati — Piedimonte Etneo, Matrimoni 1871 and Nati 1845",
+    "scope": "The marriage of Rosario Mazza and Leonarda Bonanno, and Rosario's own birth. Found by abandoning the parish film: civil registration began in the south in 1866, so a marriage of about 1870 is a CIVIL act.",
+    "result": "BOTH FOUND. Matrimoni 1871 atto 14 — 30 April 1871, both spouses braccianti, all four parents named, HERS FOR THE FIRST TIME (Gaetano Bonanno and Anna Cavallaro). Nati 1845 atto 64 — born 2 June 1845, father Mariano, 36, bracciale, mother Maria Catalano, 36. The tree's 1850 is five years out.",
+    "key": "src/antenati-piedimonte-etneo-ma-5df6a3"
+  },
+  {
+    "status": "done",
+    "when": "13 Sep 2026",
+    "source": "Antenati — Piedimonte Etneo, Matrimoni 1820–1845",
+    "scope": "Twenty-six consecutive years, the whole civil series from its first volume, read for a Mazza groom.",
+    "result": "EXACTLY ONE in twenty-six years: Mariano Mazza, act 17 of 1836, to Agata Catalano of Macchia, «figlio di IGNAZIO e di GIUSEPPA PULVIRENTI». Recorded as a LEAD, not a fact — the bride is Agata where Rosario's acts say Maria, and the groom's age is three years out. Innocenzio Mazza did not marry there either.",
+    "key": "src/antenati-piedimonte-etneo-ma-c80d14"
+  },
+  {
+    "status": "done",
+    "when": "13 Sep 2026",
+    "source": "Antenati — Piedimonte Etneo, Nati 1844, 1845, 1846, 1847",
+    "scope": "Four years read ENTIRE — over five hundred births — for brothers and sisters of Rosario Mazza.",
+    "result": "HE HAS NONE THERE. Mariano Mazza and Maria Catalano appear once, at act 64 of 1845. The only other Mazza births belong to Innocenzio Mazza and Domenica Cavallaro — the couple the archive's OTHER Piedimonte Mazza line descends from, which raises the question whether Ignazio's sons were Mariano and Innocenzio.",
+    "key": "src/antenati-piedimonte-etneo-na-8f6a06"
+  },
+  {
+    "status": "done",
+    "when": "13 Sep 2026",
+    "source": "Antenati — Scilla, Nati 1854, act located by arithmetic",
+    "scope": "The 1854 Tavola carries no act numbers. Two acts to an opening, act = 66 + 2×(image−36), which puts late April at images 39–41.",
+    "result": "ACT 76. Giovanni Arena born 30 April 1854, declared by his grandfather GIOVANNI ARLOTTA, 75, marinaro, «figlio del fu DOMENICO». The Tavola said «Rosa Arlotta» and 20 April and was wrong twice. Giovanni Arena is Rocco's FULL BROTHER, and DOMENICO ARLOTTA is the deepest name on the Calabrian side.",
+    "key": "src/antenati-scilla-nati-1854-ac-57e14c"
+  },
+  {
+    "status": "done",
+    "when": "13 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1885 and 1888",
+    "scope": "The corrected coverage note opened forty-eight volumes. 1885 for the Arena weddings; 1888 for Rocco Arena's own.",
+    "result": "THREE ACTS. 1885 atto 73 and atto 86: two of Rocco's brothers married seven weeks apart. 1888 atto 63: ROCCO ARENA'S OWN MARRIAGE ACT names his parents outright — Francesco Antonio Arena and Serafina Arlotta — and gives Generosa Costa's parents for the first time, Antonio Costa and ANNA ARLOTTA.",
+    "key": "src/antenati-scilla-matrimoni-18-7dd343"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni pubblicazioni 1888",
+    "scope": "The 1888 marriage index is destroyed by water across exactly the A entries. The BANNS are a separate series of 46 volumes with their own annual index.",
+    "result": "THE WAY ROUND A DESTROYED INDEX. Publication 63, 18 November 1888: Francesco Antonio Arena appears IN PERSON, alive, sixty-eight, a pescatore, a week short of sixty-nine. And the couple swore there was no impediment of kinship — so Rocco and Generosa were NOT first cousins.",
+    "key": "src/antenati-scilla-matrimoni-pu-27bb84"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Scilla, Nati 1855",
+    "scope": "The year nobody had read. The archive had read 1851 (the tree's date), 1856 and 1859 (a declared age) and closed the search.",
+    "result": "MICHELE DONATO, BORN 3 OCTOBER 1855, act 163 — «DOMENICO DONATO, figlio di CANDELORO, trentotto, marinaro» and «NUNZIATA SOFI, trentasette». Three generations in one act, the ages exact at both ends, and the longest open question in the archive answered.",
+    "key": "src/antenati-scilla-nati-1855-11e244"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Scilla, Morti 1889–1902",
+    "scope": "Eighty-one volumes of deaths, 1866–1943, that this archive did not know existed. The annual index carries a PATRONYMIC as well as a name.",
+    "result": "Neither Francesco Antonio Arena nor Serafina Arlotta in thirteen years, though both were alive in November 1888. But three acts found: Fortunato Arena (ten days old, Via Grotte 70), Maria Donato (twenty-eight months, Via Grotte 21) and Orazio Arena — who turns out NOT to be the tree's Orazio.",
+    "key": "src/antenati-scilla-morti-1889-1-695de5"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1874–1885 and 1838–1847",
+    "scope": "Michele Donato's own marriage, eleven years; and his parents' marriage, six years.",
+    "result": "BOTH NEGATIVE, and both informative. Michele is neither born nor married at Scilla in the window — he came from elsewhere already married. And 1843 act 11 shows a DONATO ANTONIO «figlio di BRUNO»: there are at least TWO Donato lines in the town, which is why the Donato marriages of the 1870s are numerous and none is his.",
+    "key": "src/antenati-scilla-matrimoni-18-a00898"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "FamilySearch — the New Orleans manifest of the Liguria, 1908, BOTH PAGES",
+    "scope": "American manifests from 1907 are two-page forms. This archive had only ever read page one.",
+    "result": "THE VERSO CARRIES COLUMN 29, PLACE OF BIRTH. Against line 15, Michele Donato: «R. Calabria / Scilla». Lines 9–11 of the same sheet say Tresilico, so the clerk was distinguishing. That sent the search back to the Scilla registers, where it belonged.",
+    "key": "src/familysearch-the-new-orleans-e31eca"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "FindMyPast — passenger lists, marriages, censuses, parish index",
+    "scope": "A one-week trial. Twenty-six outcomes recorded.",
+    "result": "Rocco Arena's four crossings named and shipped (Elysia 1892, Suevia 1894, Trave 1900, San Guglielmo 1913) and the 1894 no longer «probable». The 1913 manifest's RELATION columns name his wife and a nephew. Rocco Arlotta, the 1900 lodger, identified by his marriage and confirmed by his children's names. AND ONE RETRACTION: the Clementina Arena crossing this archive had held for months belongs to another family.",
+    "key": "src/findmypast-passenger-lists-m-17d2f8"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "The archive's own negatives, audited",
+    "scope": "Nine negatives re-read — not repeated, but examined for what set each window.",
+    "result": "FIVE HAD ALREADY FAILED. Every failed window came from a declared age or an assumed eldest child. The rule: widen such a window by at least five years in both directions before a negative inside it means anything. Published at /audit.",
+    "key": "src/the-archive-s-own-negatives--9a85a2"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Vibo Valentia, Briatico and Soriano Calabro",
+    "scope": "The whole Prostamo, Melluso and Anile descent, 1809 onward — the fourth quarter, and the one with no register work at all behind it.",
+    "result": "Would convert eight asserted generations into documented ones. The largest single gap in this archive.",
+    "key": "src/antenati-vibo-valentia-briat-191f84"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Piedimonte Etneo, Morti 1878 onward",
+    "scope": "Mariano Mazza's death. He was alive in January 1873; the M block is clear for 1873, 1875, 1876 and 1877.",
+    "result": "1874 CANNOT BE READ — the volume carries «pag. ondulate, pag. macchiata, tutto il volume, impossibile fare di meglio» and the index is a black wash. He died in 1874 or after 1877.",
+    "key": "src/antenati-piedimonte-etneo-mo-550293"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Antenati — Scilla, Matrimoni 1848–1854",
+    "scope": "Domenico Donato × Nunziata Sofi. Both born about 1817–18, so the window is 1838–1848 and the later half is unread.",
+    "result": "Seven years, one image each, containers already recorded. 1842 and 1844 defeated their own indexes and need the acts by margin scan.",
+    "key": "src/antenati-scilla-matrimoni-18-bcf239"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Trove — the Brisbane Italian community",
+    "scope": "Arrivals, naturalisations, the 1942 internments, and the Queensland Italian press.",
+    "result": "One mention in this archive. The Australian end of all four quarters is almost unsourced.",
+    "key": "src/trove-the-brisbane-italian-c-375a14"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Queensland BDM — beyond the six registrations",
+    "scope": "The Nudgee end of every one of the four quarters, searched on parents' names rather than the person's.",
+    "result": "Three mentions. The index is free and the technique that produced six registrations has not been run out.",
+    "key": "src/queensland-bdm-beyond-the-si-f9f40a"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "Find a Grave — Nudgee Catholic cemetery",
+    "scope": "Photographs and inscriptions against the nineteen burials the Archdiocese register gave.",
+    "result": "Two mentions. An inscription often carries a birth date the register does not.",
+    "key": "src/find-a-grave-nudgee-catholic-3fb345"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "NARA New York — Rocco Arena's naturalisation",
+    "scope": "He is entered as a US CITIZEN on the manifests of both 1900 and 1913, so a declaration and petition exist from before March 1900.",
+    "result": "FindMyPast's petition set begins too late for him. This is a National Archives job, not a subscription one.",
+    "key": "src/nara-new-york-rocco-arena-s--2a3ee5"
+  },
+  {
+    "status": "outstanding",
+    "when": "",
+    "source": "The Catholic Heritage Archive — Our Lady of Loretto transcripts",
+    "scope": "Eighty-four Arena baptisms are indexed and readable; the transcripts, which carry the MOTHER'S NAME and the GODPARENTS, are a higher subscription tier.",
+    "result": "Godparents in an emigrant parish are almost always kin. They would settle at a stroke whether the Giovanni Arena baptising a child in 1900 is Rocco's brother.",
+    "key": "src/the-catholic-heritage-archiv-6940c5"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Geneanet — surname sweep",
+    "scope": "PROSTAMO, MELLUSO, ANILE, VENTRICE, ARLOTTA searched across all Geneanet record sets (trees, archives, transcriptions).",
+    "result": "No holding touches this family. PROSTAMO returns eight entries, every one a New Haven or Hamden, Connecticut vital record 1914-1955 — an American cluster of the surname, untested against Briatico and claimed as nothing. MELLUSO (506) is an Agrigento family. VENTRICE (730) is Ustica and French Algeria. ARLOTTA (881) is Buffalo, New York. ANILE (476) clusters at Pizzo, eleven km from Briatico, but no entry reaches our people.",
+    "key": "src/geneanet-surname-sweep-94eefe"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Geneanet — place sweep",
+    "scope": "place__0__ searched on Briatico, Piedimonte Etneo, Scilla, Soriano Calabro.",
+    "result": "Piedimonte Etneo holds 1,703 individuals, Briatico 132. Both are user-submitted trees, heavily from single uploaders (pigellino74, rcparedes). Not sources; leads at best.",
+    "key": "src/geneanet-place-sweep-8a94b2"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "Geneanet Premium — MAZZA at Piedimonte Etneo",
+    "scope": "897 individuals named MAZZA indexed at Piedimonte Etneo. The result list is withheld behind Geneanet Premium.",
+    "result": "THE LARGEST UNOPENED BODY OF PIEDIMONTE MAZZA DATA FOUND ANYWHERE. 897 entries against the 22 acts this archive has read. Whether any of them is ours is untested and untestable without a subscription. Recorded as a door, not a finding.",
+    "key": "src/geneanet-premium-mazza-at-pi-1df149"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Briatico, Nati 1818",
+    "scope": "The whole year read: 25 births, both pages of the Tavola.",
+    "result": "NEGATIVE, and complete. No child of any given name carries the surname Prostamo. The index is alphabetised by the child's GIVEN name, so the absence is of the surname from the year entirely, not of one Domenico.",
+    "key": "src/antenati-briatico-nati-1818-b15cb6"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Briatico, Nati 1819",
+    "scope": "The whole year read: 34 births, all three Tavola pages.",
+    "result": "NEGATIVE, and complete. No Prostamo among the 34. Two Anile households appear (Giuseppe Anile and Annunziata Polito; Vincenzo Anile and Rosaria Francica) — the surname is documented in Briatico, which it had not been before.",
+    "key": "src/antenati-briatico-nati-1819-2f8a8c"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — the Potenzoni discovery",
+    "scope": "Searched the register index on localita=Potenzoni after three straight years of Briatico births turned up no Prostamo at all.",
+    "result": "POTENZONI IS ITS OWN COMUNE ON ANTENATI, WITH 57 REGISTERS. It is a frazione of Briatico and it kept its own civil register from 1806. Everything read at Briatico so far has been the wrong parish if the family lived there. Births 1812-1837 are a single 364-image volume; marriages 1812-1858 a single 293-image volume; and the marriage allegati 1812-1850 hold the spouses' own birth certificates. This is the largest unopened door in the Calabrian half of the archive.",
+    "key": "src/antenati-the-potenzoni-disco-eca3dd"
+  },
+  {
+    "status": "superseded",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Potenzoni, Nati 1812-1837",
+    "scope": "364 images, an_ua37927182 / container 0AQJBAW. Domenico Prostamo, born about 1820, would fall in it.",
+    "result": "SUPERSEDED THE SAME DAY. This was opened on the reasoning that Domenico Prostamo, born about 1820, must be in the frazione if he was not in Briatico. His marriage act of 1849 then said he was NATO IN PIZZO and born in 1814. The volume is mapped and the mapping is kept, but this family is not in it.",
+    "key": "src/antenati-potenzoni-nati-1812-7be50f"
+  },
+  {
+    "status": "superseded",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Potenzoni, Matrimoni 1812-1858",
+    "scope": "293 images, an_ua37923835 / container 5K1ln7r. Domenico Prostamo married Giovanna Ventrice somewhere in this span.",
+    "result": "SUPERSEDED THE SAME DAY. Domenico Prostamo married Giovanna Ventrice at BRIATICO on 14 June 1849, act 1 — found in the Briatico register, not this one. The Potenzoni mapping is kept for whoever needs that comune.",
+    "key": "src/antenati-potenzoni-matrimoni-978b3d"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Potenzoni, Nati: the volume opened and mapped",
+    "scope": "an_ua37927182 / container 0AQJBAW, 364 images. Located the annual blocks: fourteen images to a year, two acts to an opening, each year closed by a Rubrica listing every birth in date order. 1818 index at image 66, 1819 at 80, 1820 at 104-106.",
+    "result": "PARTIAL. Potenzoni 1818 read in full (entries 12-21) and 1820 read in part (entries 7-16 of 23). No Prostamo in either. Two cautions recorded for whoever continues: the photographer left the 1819 Tavola and a title sheet lying on top of EVERY frame in this run, so the printed year visible at the head of an image is not the year of the page beneath it; and the volume is not purely Potenzoni — the register bound in at image 106 is headed «Comune di Briatico», for 1822, which suggests these are the second originals deposited with the tribunal and that Briatico years sit inside the Potenzoni unit.",
+    "key": "src/antenati-potenzoni-nati-the--414741"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Briatico, Matrimoni 1840, 1841, 1842",
+    "scope": "Read by cropping the parroco's right-hand certificate box, which names both spouses, from every page and montaging them.",
+    "result": "NEGATIVE for Prostamo. 1840 has three marriages, 1841 about five, 1842 thirteen. Act 8 of 1842 was opened in full to test a suspected Prostamo in the margin: it is Giuseppe Artesi, 19, son of the late Nicola Artesi and Nicolina Corassi, marrying Alfonsina Petrarca, 15, born at Pizzinni, daughter of the late Francesco Antonio Petrarca and the late Rosa Arena. Not ours. The suspected name was a misreading of a 240-pixel thumbnail and was never claimed.",
+    "key": "src/antenati-briatico-matrimoni--af861a"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Trove — Prostamo, all collections",
+    "scope": "Keyword PROSTAMO across newspapers, gazettes, books, archives and people.",
+    "result": "ELEVEN newspaper and gazette results, and the useful ones are all Commonwealth Gazette naturalisations at Brisbane: ASSUNTA MARIA PROSTAMO of 3 Frank Street, Graceville, naturalised 4 July 1966; DOMENICO FRANCESCO PROSTAMO of 38 Park Terrace, Sherwood, naturalised 1 October 1962; and ANGELA PROSTAMO, gazetted 16 November 1961. Three named Brisbane Prostamo with street addresses and exact dates — new to this archive, and untested against the line.",
+    "key": "src/trove-prostamo-all-collectio-48c6a7"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Trove — Prostamo before 1954",
+    "scope": "The same keyword against the digitised Queensland newspapers, and PROSTAMO + funeral.",
+    "result": "NEGATIVE. Not one Prostamo appears in a digitised Australian newspaper before 1961, and Domenica Prostamo's death on 3 May 1928 produced no notice that Trove holds. Weak evidence on its own — ordinary families rarely reach print — but it means the Brisbane newspapers will not date this family's arrival.",
+    "key": "src/trove-prostamo-before-1954-4e46bb"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Trove — Melluso at Brisbane",
+    "scope": "Keyword MELLUSO Brisbane.",
+    "result": "Four results, all incidental: a 1964 Telegraph court list, a 1967 naturalisation gazette in which the name appears only in the surrounding column, and Commonwealth Savings Bank trustee notices of 1972. Nothing that touches Caterina Melluso or her father Leone.",
+    "key": "src/trove-melluso-at-brisbane-628e45"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Find a Grave — Prostamo and Melluso across Australia",
+    "scope": "Both surnames searched nationally, not just at Nudgee.",
+    "result": "SIX PROSTAMO AND FIVE MELLUSO, and NOT ONE AT NUDGEE, where every Australian Mazza in this archive is buried. Domenico Francesco Prostamo (1931-2025) and Maria Assunta Prostamo (1936-1991) lie in adjoining plots 608 and 607 at Mount Gravatt, Brisbane; Angela Majda Prostamo (1937-2016) at Nerang; and Rocco (1925-2004) and Francesca (1933-2018) Prostamo at Glenroy in MELBOURNE — a branch this archive did not know existed. Gregorio Melluso (1904-1971) is at Mareeba in the far north, Section 4 Catholic, Row I, Plot 10.",
+    "key": "src/find-a-grave-prostamo-and-me-5e0f5a"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Queensland BDM — the historical index, by download",
+    "scope": "The registrar's own downloadSearch endpoint returns the full result set as CSV, which makes an exact-surname sweep of births 1829-1926, marriages 1829-1951 and deaths 1829-1996 a single request per name. Prostamo, Postamo, Melluso, Limardo, Borello, Polistena.",
+    "result": "One Prostamo in the whole index: Maria Assunta, died 27 October 1991, born 1936, parents Gregorio Melluso and Carmela Maria Borello. One Melluso: Gregorio, died 30 September 1971, parents Gennaro Melluso and Maria Limardo. Postamo, Limardo and Polistena return nothing at all. The eleven Borello are one Piedmontese household and not hers.",
+    "key": "src/queensland-bdm-the-historica-c8239c"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "The Mount Gravatt burial records",
+    "scope": "Brisbane City Council's cemetery search covers Mount Gravatt as the Nudgee endpoint covers Nudgee.",
+    "result": "Plots 607 and 608 are known. The adjoining plots on either side are not, and at Nudgee it was the neighbouring plots that joined families to each other.",
+    "key": "src/the-mount-gravatt-burial-rec-ba920a"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Briatico, Matrimoni 1840-1849 and 1853",
+    "scope": "Every page of every volume read by cropping the parroco's certificate box, which names both spouses, and montaging them.",
+    "result": "THE MARRIAGE WAS FOUND. Briatico 1849 ATTO 1, 14 June: DOMENICO PROSTAMO marries GIOVANNA VENTRICE. Thirteen years of Briatico marriages were read to reach it — 1840 to 1848 hold no Prostamo at all, and neither do 1850, 1851, 1852 or 1854, read earlier. The act names ANTONINO PROSTAMO and MARIA FRAGALÀ, and says Domenico was born at PIZZO.",
+    "key": "src/antenati-briatico-matrimoni--1a9b5b"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Pizzo, the registers",
+    "scope": "Domenico Prostamo was born at Pizzo about 1813; his mother Maria Fragalà was still living there in 1849; and the family tree puts his grandfather Pasquale's death at Pizzo on 4 January 1829.",
+    "result": "ANSWERED, AND IT IS A WALL. Pizzo's holdings on Antenati contain ONLY the restaurazione fondo and BEGIN IN 1823 — tested on 1812, 1814, 1818 and 1822, all empty, and on 1823, which returns four volumes. Pasquale Prostamo's death act of January 1829 was read. Domenico Prostamo's birth act of 1814 and Antonino Prostamo's marriage cannot be opened at all.",
+    "key": "src/antenati-pizzo-the-registers-6fc060"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Briatico, Matrimoni allegati 1849",
+    "scope": "The processetti filed with atto 1 of 1849.",
+    "result": "DONE THE SAME DAY. The bundle is an_ua37921205 (Matrimoni processetti 1849-1854, container LDnmr1B) and its first file is Domenico Prostamo's. It gave Antonino Prostamo's death in the 1837 cholera register, a certified copy of Pasquale's death act filed as the groom's avo paterno, Domenico's own birth extract under the name ANTONIO, the atto di notorieta reconciling the two names, and two Ventrice death extracts.",
+    "key": "src/antenati-briatico-matrimoni--61d6e0"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Potenzoni, in hindsight",
+    "scope": "Opened on the reasoning that three Prostamo-free years of Briatico births meant the family was in the frazione.",
+    "result": "THE REASONING WAS WRONG AND THE NEGATIVE WAS RIGHT. They were not at Potenzoni either; they were at Pizzo. Recorded because the mistake is instructive: an absence was read as evidence for a specific alternative rather than as evidence of absence, and the right move would have been to find a document that says where they were — which is what the marriage act eventually did. The Potenzoni mapping is kept; it is good work on a comune this family does not appear to belong to.",
+    "key": "src/antenati-potenzoni-in-hindsi-26465d"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Pizzo, Morti 1829",
+    "scope": "Opened the same afternoon the 1849 marriage act pointed at Pizzo. The tree puts Pasquale Prostamo's death there on 4 January 1829, which meant the first few acts of the volume.",
+    "result": "FOUND AT ACT 7. PASQUALE PROSTAMO, seventy-five, MARINARO, VEDOVO DI CATERINA MUSO, born at Pizzo, of the Castello quarter, died on 13 JANUARY 1829 — nine days after the date the tree gives, and at an age that puts his birth about 1753 rather than 1760. His own parents' lines in the act are blank. Acts 1 to 6 of the year were read to reach it and are other families.",
+    "key": "src/antenati-pizzo-morti-1829-580464"
+  },
+  {
+    "status": "superseded",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Pizzo, Morti 1845-1848 and 1849-1851",
+    "scope": "Antonino Prostamo, marinaro, was dead by 14 June 1849 and his widow Maria Fragalà was living at Pizzo that month.",
+    "result": "SUPERSEDED. Antonino Prostamo did not die in this window: he died on 31 DECEMBER 1837, and in Pizzo's separate register of CHOLERA deaths, act 327. Written before the marriage processetti were opened.",
+    "key": "src/antenati-pizzo-morti-1845-18-4d67b7"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "The second generation, and why it may be out of reach",
+    "scope": "Pasquale Prostamo was born about 1753 and married before 1809.",
+    "result": "His death act leaves his parents blank, and civil registration in Calabria does not begin until 1809 — so his own birth and marriage are in PARISH books, which Antenati does not hold. The family tree's first two generations, 1697 and 1726, may not be testable online at all. Worth saying plainly rather than leaving them looking merely unresearched.",
+    "key": "src/the-second-generation-and-wh-5875dc"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Briatico, Matrimoni processetti 1849-1854",
+    "scope": "an_ua37921205 / container LDnmr1B, 124 images. The first bundle in the volume is Domenico Prostamo's, read page by page.",
+    "result": "THE SINGLE RICHEST DOCUMENT THIS ARCHIVE HAS OPENED. It holds ANTONINO PROSTAMO'S DEATH — 31 December 1837, aged 56, atto 327 of PIZZO'S SEPARATE REGISTER OF CHOLERA DEATHS; a certified copy of PASQUALE's death act filed as the groom's «avo paterno», which PROVES the descent Pasquale-Antonino-Domenico; DOMENICO'S OWN BIRTH EXTRACT, act 285 of Pizzo Nati 1814, 2 April 1814, registered under the name ANTONIO; the ATTO DI NOTORIETÀ sworn on the wedding morning to reconcile the two names; the Pizzo banns of April 1849; and TWO VENTRICE DEATH EXTRACTS reaching the bride's great-grandparents.",
+    "key": "src/antenati-briatico-matrimoni--443dc1"
+  },
+  {
+    "status": "superseded",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Pizzo, Morti 1845-1848",
+    "scope": "an_ua37926974 / wb6b4dg, 406 images, opened as the obvious place to look for Antonino Prostamo's death.",
+    "result": "SUPERSEDED. Antonino Prostamo did not die in this window: he died on 31 DECEMBER 1837, and in Pizzo's separate register of CHOLERA deaths, act 327. Written before the marriage processetti were opened.",
+    "key": "src/antenati-pizzo-morti-1845-18-31b570"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "Antenati — Pizzo, the cholera register of 1837",
+    "scope": "Antonino Prostamo is act 327 in it. The chancery's 1849 extract quotes the entry; the register itself has not been opened.",
+    "result": "Worth opening for the act as it stands in the book, and for whoever else of this family the epidemic took. Act 327 by 31 December means the cholera killed on that scale in one town in one year.",
+    "key": "src/antenati-pizzo-the-cholera-r-3273e1"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "Antenati — Pizzo, Nati 1814, atto 285",
+    "scope": "Domenico Prostamo's birth, quoted in full by the extract in his marriage bundle.",
+    "result": "The extract is a certified copy and gives everything; the original act is still worth opening, because this archive has now watched a Pizzo chancery copy lose ten years off a man's age between an act and its certificate.",
+    "key": "src/antenati-pizzo-nati-1814-att-d22055"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "Antenati — Zambrone and the Ventrice",
+    "scope": "Domenico Ventrice died at Zambrone on 13 January 1815, act 40, son of the late Paolo Ventrice and the late Anna Pappa.",
+    "result": "Zambrone is a third Calabrian comune this archive has never opened, and the bride's line runs into it.",
+    "key": "src/antenati-zambrone-and-the-ve-9a8bd8"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Pizzo, the 1837 cholera register: WHERE IT IS AND IS NOT",
+    "scope": "Opened an_ua37926907 (Morti 1836-1840, container LevaEPW, 427 images) and read it end to end at thumbnail scale; also the Diversi 1827-1861 volume (an_ua37923734 / LmpVVqq, 121 images), the anno=1837 filter, and the full Pizzo register listing.",
+    "result": "THE CHOLERA REGISTER ITSELF IS NOT ON ANTENATI — BUT ITS INDEX IS, AND THE SHAPE OF THE VOLUME TELLS THE STORY. Pizzo's ORDINARY death register for 1837 runs to act 207 and stops on 16 JULY 1837 (images 89-194). From act 209 the town was entering its dead in a SECOND REGISTER. That register's pages are not digitised — but its TAVOLA IS, bound in at images 195-206, indexing acts 209 to 325 with names, ages, trades, quarters and relationships. Antonino Prostamo is act 327, just past the last indexed entry. So the certified extract of 20 May 1849 in the Briatico processetti is, as far as this archive can reach, THE ONLY READABLE TEXT OF ACT 327. Checked and excluded: the Diversi volume (it holds deaths outside the comune, not cholera); a separately catalogued 1837 Morti volume (the anno=1837 filter returns Nati and Matrimoni only); and a cholera section bound at the end of the Morti volume (the volume closes normally with 1840 and its Tavola).",
+    "key": "src/antenati-pizzo-the-1837-chol-b3c175"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Pizzo 1837, the roll of the second register",
+    "scope": "Read the whole surviving index, acts 209-325, by cropping the N. d'ordine and Nomi de' morti columns from all twenty-four pages and montaging them.",
+    "result": "NO PROSTAMO among the 117 indexed. The index stops at 325 and Antonino is 327. It does hold FOUR VENTRICE at Pizzo — Giovanni, 52, falegname, alla Piazza (act 251); Laura, 28, filatrice, al Castello (294); Benedetto, 26, filatore, all'Incoronata (295); and Diamante Aloi, 70, «vedova di Giuseppe Ventrice del Pizzo» (302). The bride's surname is at Pizzo as well as at Briatico and Zambrone. Recorded as a lead and nothing more: Ventrice is common on that coast and no document joins these to Giovanna.",
+    "key": "src/antenati-pizzo-1837-the-roll-31209e"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "The Pizzo cholera register of 1837, wherever it now is",
+    "scope": "Acts 209 to at least 327, July to December 1837. Not in Antenati's Pizzo holdings.",
+    "result": "It would be at the Archivio di Stato di Catanzaro or with the comune. It holds Antonino Prostamo's act as written, and the names of something over a hundred more people the epidemic took in one small town in six months.",
+    "key": "src/the-pizzo-cholera-register-o-0b8050"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Zambrone, Morti: the 1815 act cannot be read",
+    "scope": "Opened an_ua37932358 (Morti 1811-1839, container w9dp62r, 234 images) — Zambrone's ONLY pre-unification death volume — and mapped every year in it by sampling the act headers end to end.",
+    "result": "THE VOLUME RUNS 1811, THEN 1812 TWICE (Zambrone proper and SAN GIOVANNI, a frazione that kept its own register), AND THEN JUMPS STRAIGHT TO 1822. Verified monotonic from there: 1822 at image 40, 1824 at 74, 1825 at 80, 1826 at 90, 1829 at 108, 1830 at 120, 1831 at 145, 1833 at 170, 1835 at 195, 1838 at 220, 1839 at 232. THE YEARS 1813 TO 1821 ARE NOT IN IT, and Antenati's Zambrone holdings then stop until 1911. So Domenico Ventrice's act — 40 of 13 January 1815 — has no original this archive can open. For the second time in one day, a certified extract in the Briatico marriage bundle is the ONLY readable text of an act.",
+    "key": "src/antenati-zambrone-morti-the--773302"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "Zambrone, Morti 1813-1821, wherever they are",
+    "scope": "Nine years missing from the digitised volume.",
+    "result": "At the Archivio di Stato di Catanzaro or with the comune. They hold Domenico Ventrice's act as written, and would settle whether he was fifty or fifty-eight.",
+    "key": "src/zambrone-morti-1813-1821-whe-833857"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Zambrone, Matrimoni 1811-1858: THEIR MARRIAGE CANNOT BE IN IT",
+    "scope": "an_ua37928578 / container wWyoZJ2, 253 images, Zambrone's only pre-unification marriage volume. Opened, mapped by year, and sampled through the 1820s and 1830s.",
+    "result": "A STRUCTURAL NEGATIVE, AND A CERTAIN ONE. Domenico Ventrice was about fifty-eight when he died in January 1815, Anna Fama about fifty, and their son Giuseppe was born about 1809. Civil registration began in Calabria in 1809 and THIS VOLUME BEGINS IN 1811. A couple whose son was born in 1809 married before the register existed. Their marriage is in the PARISH books of Zambrone, which Antenati does not hold — the same wall this archive already met at Pizzo with Pasquale Prostamo. The volume can still be worth reading for their OTHER CHILDREN marrying, because every act and every annual index names both parents.",
+    "key": "src/antenati-zambrone-matrimoni--9debb0"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Zambrone, the marriage indexes of 1822 and 1826",
+    "scope": "Read in full. Each year's Tavola carries a «Nomi e cognomi DEI GENITORI» column beside the couple, so one page settles a whole year.",
+    "result": "1822 holds six marriages and no Ventrice at all. 1826 holds six, and ONE Ventrice: SERAFINA VENTRICE married VINCENZO SORRENTINO on 9 August 1826, and she is «figlia di FRANCESCO e di CATERINA LA VESSA» — a DIFFERENT Ventrice household. So the surname is at Zambrone in the 1820s, but not our couple's children. Recorded because a second Ventrice family in the same small comune is exactly the trap this archive has been caught by before.",
+    "key": "src/antenati-zambrone-the-marria-650f9e"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "Antenati — Zambrone, the remaining marriage Tavole 1811-1858",
+    "scope": "About forty-eight annual indexes, one page each, every one naming the parents of both spouses. The volume is bound with each Tavola at the end of its year block; 1822's is at image 13, 1826's at 40, and the 1829-1831 blocks run to image 66.",
+    "result": "A bounded job that would find every child of DOMENICO VENTRICE and ANNA FAMA who married at Zambrone, and with them the couple's own names in black and white. Not done.",
+    "key": "src/antenati-zambrone-the-remain-0061e5"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "Antenati — Zambrone, Nati 1811-1839",
+    "scope": "an_ua37932933. Domenico Ventrice and Anna Fama were still having children about 1809; more may follow.",
+    "result": "Unopened. Note that Zambrone's DEATH volume of the same span turned out to be missing 1813-1821 entirely, so this one's coverage must be mapped before any negative from it is believed.",
+    "key": "src/antenati-zambrone-nati-1811--8d2634"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Briatico, Nati 1828: Giovanna Ventrice found",
+    "scope": "an_ua87730 / container wRGRJXQ, 29 images. She was twenty-one in June 1849, so 1827 and 1828 were both mapped; the annual Tavola at images 27-29 named her at once.",
+    "result": "BORN 23 JUNE 1828, at nine in the morning, in her parents' own house, and baptised at SAN NICOLA the next day. Act 12 — and a caution for the volume: THE TAVOLA'S «N. D'ORDINE» RUNS ONE BEHIND THE ACT NUMBERS. Its row 11 is act 12. Calibrate on a date before trusting the index's number. The year also holds two more Ventrice births under other parents (Anna Ventrice, of Antonino and Giuseppa Giacco, 26 March), so the surname is common in the town.",
+    "key": "src/antenati-briatico-nati-1828--650766"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Briatico, Morti 1831 and 1839: the year of Giuseppe Ventrice's death",
+    "scope": "Opened Briatico Morti 1839 (an_ua87697 / 0noENM9, 14 images) to check the extract against the original, found act 12 of that year to be someone else, re-read the extract, then opened Morti 1831 (an_ua87689 / 0M9zb22, 11 images).",
+    "result": "HE DIED IN 1831, NOT 1839 — an error of mine, corrected against the original. Briatico Morti 1839 act 12 is D.a Olimpia La Torre, 14 August, and the year's Tavola agrees; Briatico Morti 1831 act 12 is GIUSEPPE VENTRICE, dead at two in the morning on 21 June 1831 «di anni trenta». Two days before his daughter Giovanna's third birthday. The original also gives the second declarant as ROSARIO ZUNGRI where the 1849 copy has Sergi.",
+    "key": "src/antenati-briatico-morti-1831-d6b545"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — PIZZO BEGINS IN 1823, and three targets die with that fact",
+    "scope": "Tested the register index on localita=Pizzo for 1812, 1814, 1818 and 1822 — all empty — and on 1823, which returns four volumes. The full Pizzo listing carries only the RESTAURAZIONE fondo.",
+    "result": "PIZZO HAS NO NAPOLEONIC REGISTERS ON ANTENATI. Its civil records begin in 1823. So DOMENICO PROSTAMO'S BIRTH ACT (Pizzo Nati 1814, atto 285) cannot be opened, and neither can ANTONINO PROSTAMO AND MARIA FRAGALÀ'S MARRIAGE, which must fall before April 1814. Both survive only as the 1849 chancery copies in the Briatico marriage bundle. Together with Antonino's cholera act of 1837 and Domenico Ventrice's Zambrone act of 1815, that is FOUR of this family's deepest documents for which the bundle is the only readable text.",
+    "key": "src/antenati-pizzo-begins-in-182-4eec58"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Briatico 1862, and Alfonso Prostamo's birth",
+    "scope": "anno=1862 on localita=Briatico.",
+    "result": "NOTHING. The comune's registers stop in 1858 and do not resume until 1911, which this archive already knew for marriages and now knows for births. Alfonso Prostamo, born about 1862, has no birth act to open — his age is fixed only by his own marriage papers of 1886 and 1887.",
+    "key": "src/antenati-briatico-1862-and-a-926441"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Queensland BDM — the complete MAZZA and MELLUSO surname sets",
+    "scope": "Ran the registrar's download endpoint with exactTermsFamilynameOnly=true on MAZZA and on MELLUSO, and tested the fathersname/mothersname fields properly.",
+    "result": "SEVENTEEN MAZZA REGISTRATIONS IN THE WHOLE INDEX — this archive held six. The eleven new ones are added, among them a MARIO MAZZA born 1900 whose parents are named at last (Rosario Mazza and Rosa Grasso), which turns the unjoined «Mario and Peppina» household into a named family; and an ANGELA MAZZA, born a CRUPI, who is a candidate for the unidentified Angela buried beside Rosario at Nudgee. MELLUSO returns exactly ONE registration in the entire index, so Gregorio Melluso has NO SIBLINGS OR CHILDREN recorded in Queensland. A METHOD CORRECTION WORTH KEEPING: the fathersname and mothersname fields RANK results, they do not FILTER them. Searching a parent's name alone returns an unfiltered hundred rows of strangers; the fields only bite when combined with a subject surname, and even then they only sort. Test them on a known case before believing a result.",
+    "key": "src/queensland-bdm-the-complete--010589"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Nudgee register against the Queensland index — the Angela beside Rosario",
+    "scope": "Matched the Nudgee Catholic cemetery register on interment date against the Queensland death index, for the unnamed Angela in plot V-0116.",
+    "result": "IDENTIFIED. Nudgee interred ANGELA MAZZA on 13 January 1973 in V-0116; the Queensland index registers her death on 10 January 1973 and names her parents FRANCESCO CRUPI and MARIA VECCHIO. Plot V-0116 adjoins V-0117, where ROSARIO MAZZA (1899-1986) lies — and adjacent plots at Nudgee have meant a married pair every time this archive has tested it. So Rosario's wife has a maiden name at last. It does NOT settle the 1949 marriage of a Rosario Mazza to Annie Vergina Di Mauro: either that is another Rosario or this one married twice, and nothing found so far decides it.",
+    "key": "src/nudgee-register-against-the--dd3c72"
+  },
+  {
+    "status": "correction",
+    "when": "14 Sep 2026",
+    "source": "Queensland BDM — my own count of what was new",
+    "scope": "Deduplicated data/qld-bdm.tsv after today's sweep.",
+    "result": "I SAID ELEVEN NEW MAZZA REGISTRATIONS AND IT WAS EIGHT. Three of the seven rows I added — Angela Mazza, Josephine Mazza and Andrea Mazza — were already in this file from earlier work, and I wrote them in again. The duplicates are merged and the file is back to twenty-five rows. The seventeen-in-the-index figure stands; my arithmetic on what was new did not.",
+    "key": "src/queensland-bdm-my-own-count--03de35"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1876 and 1877: the hunt for Michele Donato's marriage",
+    "scope": "His eldest son was born in 1878, so the marriage should fall about 1876-77. Both annual indexes read entire; the one Donato found was opened in full.",
+    "result": "STILL NOT FOUND, and one false lead closed. 1876 holds NO Donato on either side of any marriage. 1877 holds exactly one — DONATO CANDELORO, 31, marinaro, marrying ANNA MARIA BOVA on 16 September, act 43 — and the act names his father as the late ANTONINO Donato. Michele's father was DOMENICO Donato, figlio di Candeloro, so by the naming custom a Candeloro Donato marrying in 1877 looked exactly like his elder brother. It is a different household. CANDELORO IS A RECURRING DONATO GIVEN NAME AT SCILLA and cannot be used as a fingerprint. 1874, 1875 and 1878 are mapped with containers and unread.",
+    "key": "src/antenati-scilla-matrimoni-18-64563f"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Piedimonte Etneo, Morti 1877, 1878, 1879",
+    "scope": "Mariano Mazza was alive in January 1873 and «fu Mariano» by his son's death act of 1924. The M block of each year's alphabetical Indice Annuale read entire: 1877 has eleven M surnames, 1878 nine, 1879 thirteen.",
+    "result": "NEGATIVE IN ALL THREE. No Mazza of any given name dies at Piedimonte Etneo in 1877, 1878 or 1879. With 1873, 1875 and 1876 already clear, SIX YEARS of the window are now closed. The Morti series is sequential — ark = an_ua83439 + (year - 1866) — and containers are recorded for 1874, 1877, 1878, 1879 and 1880. The remaining years in the window are 1874 and 1880 onward; 1880's index is 98 images in and its M page was not reached.",
+    "key": "src/antenati-piedimonte-etneo-mo-9c98c5"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1899, atto 62",
+    "scope": "The marriage named in the margin of act 81 of 1870, chased to the act itself.",
+    "result": "READ. ARENA DOMENICO, 29, proprietario, son of GIUSEPPE ARENA and the late SERAFINA VITA, married ARENA MARIA, 30, daughter of the late ORAZIO ARENA and GIOVANNA ZIRILLI, on 30 November 1899. It joins two Arena households this archive held separately, and dates four people: Orazio and Serafina dead, Giuseppe and Giovanna living.",
+    "key": "src/antenati-scilla-matrimoni-18-d6058a"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Piedimonte Etneo, Morti 1880: a Mazza, but not Mariano",
+    "scope": "The M block of the 1880 alphabetical death index, read entire — eleven surnames.",
+    "result": "MARIANO IS NOT THERE, so 1880 joins 1873, 1875, 1876, 1877, 1878 and 1879 as a closed year — SEVEN of the window. But the block does hold «MAZZA GAETANO — 122», the first Mazza death this archive has located in the Piedimonte death series. THE ACT IS NOT YET READ: the volume's openings run in odd pairs (images 59-61 are a triple shot of acts 121 and 123, 62-63 a double shot of 125 and 127), so act 122 is not where the arithmetic puts it and the numbering needs calibrating on a date first.",
+    "key": "src/antenati-piedimonte-etneo-mo-e7cf19"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "Antenati — Piedimonte Etneo, Morti 1874, the M block",
+    "scope": "The 1874 index sits at images 85-86 of an_ua83447 (container LDmQZDN).",
+    "result": "Image 86 begins at P, so the M block is on 85 — and much of 85 is covered by an archival conservation card in the photograph. It may need the duplicate copy, if one exists, or a different crop.",
+    "key": "src/antenati-piedimonte-etneo-mo-39c09d"
+  },
+  {
+    "status": "not-yet",
+    "when": "",
+    "source": "Antenati — Piedimonte Etneo, Morti 1880, atto 122",
+    "scope": "Mazza Gaetano. The index gives the number; the act would give the age and the parents.",
+    "result": "ATTEMPTED AND BLOCKED. Parte I of the volume was sampled at images 56, 57, 58, 59-61, 62-63, 64, 70 and 80, and every opening shows two NON-CONSECUTIVE act numbers while consecutive openings step by four. Acts 114, 115, 118, 120, 122, 124, 126, 128 and 130 never appear; several openings are re-shot two and three times. Parte II begins at image 90 and restarts its numbering. So act 122 is indexed but not filmed — it would need the second original at Catania, or a page this digitisation skipped.",
+    "key": "src/antenati-piedimonte-etneo-mo-7c0758"
+  },
+  {
+    "status": "done",
+    "when": "14 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1874 and 1875",
+    "scope": "Both annual indexes opened, continuing the search for Michele Donato's marriage.",
+    "result": "1874 HOLDS A SECOND DONATO CANDELORO — act 62, marrying ROMANO DOMENICA — three years before the Candeloro Donato of act 43 of 1877. The act was not reached: the 1874 volume's acts run two pages each, so the 1877 arithmetic does not transfer and the numbering needs calibrating on a date. Until it is read, whether Scilla held one Candeloro Donato who remarried or two of marrying age at once is open — and the second reading would be the strongest warning yet against identifying anyone by that name. 1875 CANNOT BE SWEPT AT ALL: its annual index is an unused printed form, carrying the archive's own PAGINE BIANCHE card. Michele Donato's marriage remains unfound; 1878 is the last year of the likely window still unread.",
+    "key": "src/antenati-scilla-matrimoni-18-d2b542"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1874, atto 62: Michele Donato's brother",
+    "scope": "Calibrated the 1874 volume by reading the margin boxes: act 61 on image 32's left page, act 63 on image 33's left, so act 62 is the lower half of image 32's right page. The year closes at act 65.",
+    "result": "FOUND. CANDELORO DONATO, 27, marinaro, celibe, «FIGLIO DI DOMENICO, MARINARO, E DI NUNZIATA SOFI, FILATRICE», married DOMENICA ROMANO, 21, filatrice, on 11 December 1874. The first document to show the Donato household whole, and BOTH PARENTS WERE ALIVE. Born about 1847, so he is the elder brother of Michele (born 3 October 1855) — which tightens the hunt for Domenico and Nunziata's own marriage to 1847 OR EARLIER. 1838-41, 1843 and 1847 are already negative; 1842, 1844, 1845 and 1846 are the years left. AND IT SETTLES THE WARNING RAISED YESTERDAY: the Candeloro Donato who married Anna Maria Bova in 1877 is the son of the late ANTONINO and Angela De Franco. Scilla held TWO Candeloro Donatos of marrying age at once.",
+    "key": "src/antenati-scilla-matrimoni-18-abd44f"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1846, read entire",
+    "scope": "Candeloro Donato was born about 1847, so his parents married in 1847 or earlier; 1838-41, 1843 and 1847 were already negative, leaving 1842, 1844, 1845 and 1846. Correct arks found for all four — the ones in data/scilla-arks.tsv lead to notificazioni volumes and are wrong.",
+    "result": "1846 IS A COMPLETE NEGATIVE. All thirty-two acts read, one to an image: no Donato groom and no Sofi bride in any of them. Every bride is listed in scilla-reads so the year need never be opened again. THREE YEARS LEFT in the window — 1842, 1844 and 1845 — and they must be read act by act, because the Bourbon volumes carry no annual index where the Italian-era ones from 1866 do.",
+    "key": "src/antenati-scilla-matrimoni-18-b83481"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1845, read entire",
+    "scope": "Thirty-two acts, one to an image, read for both spouses and their parents.",
+    "result": "NEGATIVE FOR THE TARGET — no Domenico Donato, no Nunziata Sofi. Two of the four years in the window are now closed, 1845 and 1846; 1842 and 1844 remain. BUT THE YEAR HOLDS A DONATO WORTH KEEPING: act 31, August 1845, MICHELE DONATO, 31, BORN AT MESSINA, marinaro, living at Villa, «FIGLIO DI CANDELORO DONATO, marinaro, e di [—] PALADINO», marrying Angela de Amico. Recorded as a LEAD and explicitly not a join — the mother is a Paladino and this archive has no mother for Domenico; the man was born at Messina; and Scilla is proven to have held two unrelated Candeloro Donatos at once. It does establish that a Candeloro Donato was ALIVE in August 1845, the act saying «figlio di» and not «del fu».",
+    "key": "src/antenati-scilla-matrimoni-18-1f1c3a"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "The parent-link grades, and two that had to be taken back",
+    "scope": "Graded the parent edges this archive has actually read, so the blood-relatives chart can draw a register-backed parent differently from one the tree asserts. data/parent-links.tsv now carries twenty-six rows.",
+    "result": "THIRTEEN EDGES GRADED READ AND TWO INDEX, out of about seven hundred and fifty. AND A WARNING BOUGHT THE HARD WAY: the mechanism can also ADD an edge the tree never had, and BOTH of the first two attempts to use it were WRONG. Piedimonte's Nati 1845 atto 64 names MARIANO MAZZA as Rosario's father — but the only Mariano Mazza in the export is a twentieth-century man, son of the Orazio born 1883, who cannot have fathered a boy in 1845. Nati 1843 atto 101 names ANNA CAVALLARO as Leonarda Bonanno's mother — but the only Anna Cavallaro in the export is the daughter of a Luciano Cavallaro BORN IN 1945. Both rows were written, both were caught by opening the record rather than trusting the slug, and both were removed. THE DOCUMENTED PARENTS ARE SIMPLY NOT IN THE EXPORT, and a name that matches is not a person that matches — the same lesson the two Candeloro Donatos of Scilla taught in the registers.",
+    "key": "src/the-parent-link-grades-and-t-ad16bb"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1844: the index exists after all",
+    "scope": "Opened the tail of an_ua2002588 expecting no index, on yesterday's reading of 1845 and 1846.",
+    "result": "A CORRECTION OF MY OWN NOTE. 1844 DOES carry a «TAVOLA annuale alfabetica de' Matrimonj» at images 52-56, ruled for the spouses, their patria and professione, THEIR PARENTS, and the day of the church celebration — where 1845 and 1846 carry none at all. So the Bourbon run is not uniform and yesterday's flat claim was wrong. The table is marked INCHIOSTRO SBIADITO and GRINZE by the Archivio itself and needs the contrast stretched to read. Entries 23 to 32 are read and hold NO DONATO; the rest of the year is outstanding, and because the Tavola gives both parents of both spouses, finishing it would settle 1844 in a handful of images rather than thirty.",
+    "key": "src/antenati-scilla-matrimoni-18-a7bdb0"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Scilla, Matrimoni 1844: DOMENICO DONATO AND NUNZIATA SOFI, FOUND",
+    "scope": "The 1844 annual Tavola is alphabetical by the groom's surname with the bride beneath him, so the D block was reachable directly once the table was found at images 48-56.",
+    "result": "ENTRY 17. «DONATO DOMENICO | Scilla | MARINARO | CANDELORO e PALADINO MARIA | Luglio» and beneath «SOFI NUNZIATA | id. | FILATRICE | PASQUALE e DE AMICO MARIA | 20». THE MARRIAGE THIS ARCHIVE HAS HUNTED THROUGH ELEVEN YEARS OF REGISTERS — 1838-41, 1843, 1845, 1846 and 1847 all read and all negative, and 1844 the year between them nobody had opened. Four new people: MARIA PALADINO, who is Candeloro Donato's wife and the first name this archive has had for her, and PASQUALE SOFI and MARIA DE AMICO. IT ALSO CONFIRMS YESTERDAY'S LEAD: the Michele Donato of act 31 of 1845, born at Messina, «figlio di Candeloro Donato e di [—] PALADINO», is Domenico's BROTHER. THE ACT ITSELF CANNOT BE READ — it is 23 or 24 of the year, the Archivio's cards say INCHIOSTRO SBIADITO and GRINZE, and the ink has gone. The Tavola is legible where the act is not.",
+    "key": "src/antenati-scilla-matrimoni-18-4d44e4"
+  },
+  {
+    "status": "wall",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Archivio di Stato di Messina, whole province",
+    "scope": "Does civil registration at Messina reach back to Michele Donato's birth about 1814, and to his parents' marriage before it? Year-by-year probes of the province: 1815, 1819, 1820, 1821, 1825, 1840.",
+    "result": "NO, AND THE WALL IS EXACT. 1815 returns nothing. 1819 returns nothing. 1820 returns 366 volumes across seventeen comuni, 1821 more, 1840 five hundred and ten. CIVIL REGISTRATION IN THE PROVINCE OF MESSINA BEGINS IN 1820 — six years after Michele Donato was born there, and later still than his parents' marriage. Sicily had no Napoleonic period, so it has no «Stato civile napoleonico»: the series starts with the restoration, and starts late. So CANDELORO DONATO IS WHERE THE SCILLA LINE STOPS in the civil registers, exactly as Pasquale Prostamo is where the Calabrian one does. Anything earlier is a PARISH record, in the Archdiocese of Messina, and not on Antenati. AND A SECOND WALL BEHIND THE FIRST: the comune of MESSINA ITSELF appears in none of the years read — not 1820, not 1840 — although the archive's series list claims 1069 volumes for it. Messina city was destroyed by the earthquake of 28 December 1908, which killed some eighty thousand people and took much of its civil archive with it. That is to be confirmed rather than assumed, but it means the city is the worst-served comune in its own province and the Donato birth may be unreachable by any route.",
+    "key": "src/antenati-archivio-di-stato-d-ae17aa"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Brisbane City Council cemeteries — the whole register, by API",
+    "scope": "All nine Council cemeteries and crematoria — Mount Gravatt, Toowong, Pinnaroo Lawn, Balmoral, Hemmant, Lutwyche, South Brisbane and the rest, 360,000 records. Searched: Mazza, Prostamo, Polistena, Arena, Donato, Melluso, Nicotra, Crupi, Cavallaro.",
+    "result": "THE ENDPOINT, WHICH IS THE USEFUL PART: Council's search moved to «EverAfter», and behind it is clean JSON needing no login — GET https://brisbane.discovereverafter.com/api/deceased-search?name=SURNAME&country=&facility_id=&order_by=relevance&sort=desc . It returns forename, middlename, surname, date of birth, date of death, age, date of burial or cremation, and the cemetery. The match is FUZZY -- a search for Mazza returns Mazzaracca, Mazzaglia and Mazzaroli -- so filter on the surname yourself. FOUR NAMES RETURN NOTHING AT ALL across every Council cemetery: POLISTENA, MELLUSO, NICOTRA and CRUPI. That is not a failure, it is the shape of the family: they were Catholic and they are at NUDGEE, which the Archdiocese runs and Council does not list. WHAT IT CORRECTED: Domenico Francesco Prostamo's birth, recorded here as 1931, is 18 OCTOBER 1930 in Council's own record -- which agrees with the family tree and makes him ninety-four when he died in January 2025, not ninety-three. WHAT IT ADDED, AS LEADS AND NOT JOINS: MARIO MAZZA (1921-2015) and MARIA MAZZA (1931-2014) share plot Mon 3H 104 at Mount Gravatt, which in these registers means a married pair -- and neither is in Michael's export. AND AT PINNAROO LAWN, A DONATO FAMILY CARRYING THIS LINE'S TWO RAREST NAMES: «Gregory CANDELORO Donato» (1941-2025), «Donato CENDELORD» (d. 1968 at 52), «Donato ANNUNZIATO» (d. 1954 at 66), with a Rocco and a Concetta beside them. Candeloro is the name of the Scilla grandfather born about 1783 and of his grandson born 1847; Annunziata is Nunziata Sofi's. THE EXPORT CONTAINS NO CANDELORO AT ALL. This is exactly the shape of a join this archive has got wrong four times, so it is written down as a lead and nothing more. The Queensland death index names parents and would settle both.",
+    "key": "src/brisbane-city-council-cemete-d6e7f4"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — the Briatico processetti, mapped as a series",
+    "scope": "Which years exist, which comuni they cover, and how they are arranged. Probed 1820, 1822, 1824, 1826, 1828, 1830, 1840, 1845, 1850.",
+    "result": "THEY EXIST FOR MOST YEARS, AND THE SERIES IS NOT ONE COMUNE. Briatico returns TWO OR THREE separate processetti arks for the same year, and they are DIFFERENT COMUNI in the same circondario -- 1826 gives Briatico (an_ua37920142, 59 images) and SCICONI (an_ua37929531, 52 images); 1828 gives three plus a CONIDONI bundle covering 1828-1851 (an_ua37920221, 318 images). Read the manifest label before assuming which town a bundle belongs to. Years found: 1824 (an_ua37920082, 107 images), 1826, 1828, 1830, 1840, 1845, 1850. NOT 1820 and NOT 1822. AND THEY ARE ARRANGED DIFFERENTLY FROM SCILLA'S, which matters for what a search costs. Scilla's bundles are PER-MARRIAGE FASCICOLI, each opening with a cover sheet that names both spouses and indexes its own contents -- so the right file is found by reading covers. BRIATICO'S 1826 BUNDLE HAS NO COVER SHEETS AT ALL: it is a continuous run of loose notificazioni and certificates, «PARTE II», with the spouses' names in the body of each. SO THE ROUTE IN IS THE MARRIAGE REGISTER FIRST. Get the act number from the Briatico Matrimoni volume, then find the corresponding papers. Reading the bundle cold means reading every page. The target that prompted this: GIUSEPPE VENTRICE x CATERINA CICHELLO, married before mid-1827 -- their daughter Giovanna was born 23 June 1828. Their bundle would carry Giuseppe's own birth act (about 1795), Caterina Cichello's, HER PARENTS, and very possibly the death of PAOLO VENTRICE, which would reach a generation this archive has only as a name. NOT YET FOUND.",
+    "key": "src/antenati-the-briatico-proces-b0d7d2"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "FamilySearch — UNBLOCKED after five days, and what it actually holds",
+    "scope": "Retried after the site-wide Error 15 that named the proxy IP and blocked it from the day this archive was built. Searched Prostamo, Francesco Prostamo and Rosario Mazza.",
+    "result": "IT WORKS, AND IT NEEDS NO LOGIN. The index returns names, exact dates, places AND BOTH PARENTS on the results page itself. The surname match is fuzzy -- «Prostamo» returns Prada, Pretta, Pretto and Preiti -- so add `q.surname.exact=on`, which cuts 1,335 results to 26. THE COLLECTION THAT MATTERS FOR THE CALABRIAN LINE: «Italy, Vibo Valentia, Vibo Valentia, Civil Registration (TRIBUNALE), 1861-1910» -- the COURT copy, which runs to 1910 where Antenati's comune copies stop at 1900. BUT NOT FOR BRIATICO. Twenty-six exact Prostamo births 1896-1912 are indexed and every one of them is MILETO, COMPARNI, SAN GIOVANNI or PIZZO. Not one is Briatico. FRANCESSCO PROSTAMO, BORN 16 NOVEMBER 1900 AT BRIATICO, IS NOT IN THE INDEX -- so Briatico's 1900-1910 volumes are either unindexed browse-only images here or absent, and that hope, which has sat in the queue since 10 September, is not a quick one after all. PIZZO IS INDEXED, which is worth knowing given the Prostamo are a Pizzo family: Giorgio Prostamo d. 1903 and Anna Prostamo d. 1899, both of Antonino/Antonio and Angela Conde. Too late for the spine but the same town. AND ONE THING THAT REFINES TODAY'S MESSINA FINDING. FamilySearch carries «Italy, MESSINA, Civil Registration (STATE ARCHIVE), 1820-1865». That CONFIRMS INDEPENDENTLY that Sicilian registration begins in 1820 -- and it softens the second wall: Messina's records for 1820-65 SURVIVE and are filmed, even though the comune of Messina appeared in no Antenati year probed. The earthquake of 1908 did not take everything. It does NOT move the first wall: Michele Donato was born about 1814, still six years early.",
+    "key": "src/familysearch-unblocked-after-574f30"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Briatico marriages 1822 to 1827, read complete",
+    "scope": "GIUSEPPE VENTRICE x CATERINA CICHELLO, whose daughter Giovanna was born 23 June 1828, so the marriage must precede it. Six whole years read from the annual Tavole: 1822, 1823, 1824, 1825, 1826, 1827.",
+    "result": "NEGATIVE, AND FIRM. TWENTY-FOUR MARRIAGES IN SIX YEARS AND NOT ONE VENTRICE. 1822 had five. 1823 had five, 1824 four, 1825 four or five, 1826 five, AND 1827 HAD NONE AT ALL -- its Tavola is ruled and completely empty. WHERE TO LOOK NEXT, and the negative points at it: Giuseppe Ventrice DIED at Briatico in 1831, but his father DOMENICO VENTRICE died at ZAMBRONE in 1815. The family was a Zambrone family that moved. The marriage is most likely at ZAMBRONE, or earlier than 1823 at Briatico, or Giovanna was not the first child. AND A METHOD FINDING WORTH MORE THAN THE NEGATIVE. BRIATICO'S MARRIAGE VOLUMES ARE TINY AND EVERY ONE CARRIES AN ANNUAL TAVOLA THAT NAMES BOTH SETS OF PARENTS. The volumes run six to thirteen images; the Tavola is the LAST image or the one before it, ruled for «Nomi e cognomi dei Sposi | PATRIA | NOMI E COGNOMI DE' GENITORI | Giorno della celebrazione». So a whole year of Briatico marriages, with four parents for every couple, costs ONE IMAGE. The series runs 1816 to 1858 and the arks are sequential -- ark(Y) = an_ua87654 + (Y - 1840), which is CONFIRMED BACKWARDS as well: 1824 is an_ua87638, 1827 is an_ua87641. The entire Briatico marriage series could be swept for about forty images. Nothing else in this archive is that cheap. AND THE TAVOLA CONVENTION STARTS SOMEWHERE AROUND 1822: the volumes for 1816 and 1817 end on ACTS, not an index, so those years must be read act by act. The remaining window for this marriage is therefore 1816-1821 at Briatico -- about seventy images, all downloadable, none indexed -- or Zambrone. Containers found: 1816 5VKDrmE, 1817 5dZbKXn, 1818 wRGR73a, 1819 Lydrvn1, 1820 wlGnjVD, 1821 w68pynN, 1822 wbrz4Vg, 1823 w99lEay, 1824 wXrR28W, 1825 LNjzb4J, 1826 0JbOyEd, 1827 0A4Xgj9.",
+    "key": "src/antenati-briatico-marriages--ce0208"
+  },
+  {
+    "status": "part",
+    "when": "15 Sep 2026",
+    "source": "Antenati — the Zambrone marriage book, first fifty images (1811-1830)",
+    "scope": "GIUSEPPE VENTRICE x CATERINA CICHELLO, after Briatico 1822-27 came back negative. Zambrone Matrimoni 1811-1858, an_ua37928578, container wWyoZJ2, 253 images. Annual Tavole read complete for 1822, 1824 and 1826; the acts of the other years not yet read.",
+    "result": "NOT FOUND YET, BUT THE FAMILY IS THERE, WHICH IS WHAT THE BRIATICO NEGATIVE PREDICTED. TAVOLE READ COMPLETE: 1822 (five marriages -- Scarpato x Sambiase, Coglia x Adamo, Pungitori x Pietrapaolo, Trillo x Colica, Trillo x Ferraro) and 1824 (three -- Piatto x Viggo, Trillo x Pellegrino, Sorrentino x Colica). NO VENTRICE IN EITHER. AND A VENTRICE AT LAST, in the Tavola at image 40: «VINCENZO SORRENTINO x SERAFINA VENTRICE», celebrated a 9 Agosto. HER FATHER READS AS FRANCESCO -- so a different branch from Domenico Ventrice's, and not the couple wanted. THE YEAR IS NOW SETTLED: 1826. Each year in this volume ends on UNUSED BLANK PRINTED FORMS before its Tavola -- image 34 is a blank 1825 form, image 39 a blank 1826 form -- and the Tavola at image 40 follows the 1826 blanks. So SORRENTINO x SERAFINA VENTRICE WERE MARRIED AT ZAMBRONE ON 9 AUGUST 1826, and 1826's three marriages hold no Giuseppe Ventrice. ONE CAUTION REMAINS: the parents' column is cramped and faded, so FRANCESCO -- which would make Serafina a different branch from Domenico Ventrice's -- is a reading and not a certainty. An act of 23 January 1830 at image 50 also names a Vincenzo Sorrentino «sposo di Serafina Ventrice», which may be the same couple's civil promise or may be a second entry -- unresolved. STRUCTURE, which makes the rest cheap: each year is a printed title page, then acts one to an opening, then an annual TAVOLA naming BOTH SETS OF PARENTS. Located so far -- image 13 Tavola 1822, image 18 a BLANK 1823 form, image 27 Tavola 1824, image 28 title 1825, image 35 title 1826, image 40 a Tavola, image 48 a Tavola, image 49 title 1830. SO FOUR YEARS ARE NOW CLEAR -- 1822, 1824, 1826 at Zambrone, on top of Briatico 1822-1827 -- AND THE WINDOW IS 1811-1821, 1823, 1825 AND 1827. Giuseppe Ventrice was born about 1795, so 1818-1825 is where to look first. All fifty images are downloaded.",
+    "key": "src/antenati-the-zambrone-marria-6c4c71"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Zambrone Matrimoni 1824, atto 2. FOUND.",
+    "scope": "GIUSEPPE VENTRICE x CATERINA CICHELLO, hunted across Briatico 1822-1827 and Zambrone 1822-1826 before this.",
+    "result": "FOUND, ON 2 MARCH 1824 AT ZAMBRONE, and it was three images from where the sweep had already reached. The reason it took so long is worth recording: THE TAVOLE IN THIS VOLUME LEAVE THEIR YEAR BLANK. The printed header reads «nell'anno ___» and nobody filled it in, so the year has to be deduced from position -- and I deduced it wrong, calling the Tavola at image 27 «1824» when its three couples are the acts of 1823. Reading the ACTS, which carry «L'Anno mille ottocentoventiquattro» in print, settled it in one look. RULE: IN THIS SERIES, TRUST THE ACTS FOR THE YEAR AND THE TAVOLA ONLY FOR THE NAMES. What the act gives is on the plate and in the corrections: Caterina Cichello's parents FRANCESCO CICHELLO and VITTORIA MOLLO, a couple entirely new to this archive; Giuseppe's birthplace S. COSTANTINO; all four parents already dead by 1824; and a direct contradiction of the 1849 chancery copy over whether Domenico Ventrice's wife was ANNA FAMA or ANNA MAROPOLI.",
+    "key": "src/antenati-zambrone-matrimoni--10b9e8"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Zambrone Morti 1811-1839, opened. THE GAP IS REAL AND NOW EXACT.",
+    "scope": "Whether Zambrone's deaths really are missing 1813-1821 — a wall this archive has published for days without ever opening the volume. Zambrone Morti 1811-1839, an_ua37932358, container w9dp62r, 234 images.",
+    "result": "THE WALL IS REAL, AND IT IS NOT AN INFERENCE ANY MORE. The volume runs 1811 (images 1-24), then 1812, which ENDS WITH ITS OWN DEATH TAVOLA at images 37-38, then a printed title page at image 39 — AND THEN IMAGE 40 IS 1822. Acts 1, 3, 5, 7, 9 and 11 of 1822 run from image 40 to image 45. SO THE REGISTER JUMPS FROM THE END OF 1812 STRAIGHT TO 1822 AND THE YEARS 1813 TO 1821 ARE PHYSICALLY ABSENT. Nine years, and this archive had them right. WHAT THAT COSTS: DOMENICO VENTRICE DIED 13 JANUARY 1815, squarely inside the gap. His original death act is NOT in this volume, so the ANNA FAMA against ANNA MAROPOLI question CANNOT be settled from Zambrone's own register. BUT THE SURNAME IS CORROBORATED ANYWAY, and from an unexpected direction: the 1822 death Tavola names a «fu Franc.co e Dom.ca MAROPOLI» as the parents of a Francesca Pungitori. MAROPOLI IS A REAL ZAMBRONE SURNAME OF EXACTLY THIS PERIOD, which is what a reading of «della fu Anna Maropoli» needed and did not have. It does not prove the 1849 copy wrong; it removes the objection that the name looked invented. AND THE VOLUME IS CHEAP TO SWEEP: EVERY YEAR ENDS WITH AN ANNUAL TAVOLA ruled for «Nomi e Cognomi dei Morti | Patria | Professione | NOMI E COGNOMI DE' GENITORI | Giorno della Morte». 1812's is at image 37, 1822's at image 51. One image a year, with the parents of every person who died. 1822 READ COMPLETE: seven deaths, and NEITHER Francesco Cichello NOR Vittoria Mollo is among them — though a MARIA Mollo died on 27 May 1822.",
+    "key": "src/antenati-zambrone-morti-1811-f829d3"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Antenati — Zambrone death Tavole 1822, 1823 and 1824, read complete",
+    "scope": "FRANCESCO CICHELLO and VITTORIA MOLLO, both already dead when their daughter married on 2 March 1824 — so their deaths fall somewhere before that. And ANNA MAROPOLI, Giuseppe Ventrice's mother, also «la fu» by 1824. Zambrone Morti 1811-1839: Tavola 1822 at image 51, 1823 at image 65, 1824 at image 78.",
+    "result": "NEGATIVE FOR ALL THREE, AND THE NEGATIVE POINTS SOMEWHERE USEFUL. The three annual death Tavole name everyone who died at Zambrone in 1822, 1823 and 1824, WITH THEIR PARENTS -- and NEITHER FRANCESCO CICHELLO NOR VITTORIA MOLLO IS AMONG THEM. Nor is Anna Maropoli. SO ALL THREE ALMOST CERTAINLY DIED IN THE NINE MISSING YEARS, 1813-1821 -- the same gap that hides Domenico Ventrice's act of January 1815. Four people this archive wants, behind one gap. That makes the SECOND COPY of the register (work list row 59) the single most valuable lead left on the Calabrian side. WHAT THE SWEEP DID SETTLE: MAROPOLI IS UNMISTAKABLY A ZAMBRONE SURNAME. It appears TWICE more in these three years -- «fu Franc.co e Dom.ca MAROPOLI» as parents in the 1822 Tavola, and GIUSEPPE MAROPOLI himself, an infant, dead 23 March 1824, son of Antonio and Marianna Colia. Two independent attestations inside two years. The reading «della fu Anna Maropoli» on the 1824 marriage act no longer needs defending as a reading; what remains open is only which of two documents is right. AND A PLACE WORTH NOTING: the 1824 Tavola's first entry is FRANCESCA CAPIGRELLI OF S. COSTANTINO -- the same S. Costantino where Giuseppe Ventrice was born. Zambrone's register carries S. Costantino people, so the two towns shared a population and the Ventrice move was a short one. MOLLO AND CICHELLO ARE BOTH LOCAL: a Maria Mollo died in 1822, a Marianna Mollo and an Anna Cichello in 1823, a Domenica Mollo appears as a parent in 1824. Neither surname is rare here, which is worth remembering before any join is made on one.",
+    "key": "src/antenati-zambrone-death-tavo-7f5aa5"
+  },
+  {
+    "status": "part",
+    "when": "15 Sep 2026",
+    "source": "FamilySearch catalogue — attempted, and it was down",
+    "scope": "The second copy of Zambrone's civil registers for 1813-1821, the nine years missing from the Antenati volume.",
+    "result": "NOT RULED OUT -- NOT CHECKED. FamilySearch's catalogue returned «Something Went Wrong» for every query on 15 September. Its JSON endpoint at /service/search/catalog/search is alive and validates query terms -- `q.title`, `q.subject` and `q.place` are accepted where `q.text`, `q.keyword` and `q.anyPlace` are rejected -- but `q.place=Zambrone` IGNORES the value and returns two million hits, so it is useless without a place ID. RETRY LATER; this is a service outage and not a negative. WHAT THE ATTEMPT DID PRODUCE, by making me check the premise instead: THE VOLUME ANTENATI HOLDS IS THE COURT'S COPY, NOT THE COMUNE'S. Its manifest says «Archivio di Stato di Catanzaro > Stato civile napoleonico > Zambrone > 1811-1839», and under the Napoleonic and Bourbon codes every act was written TWICE -- one register for the comune, one for the tribunale, the tribunale's going to the Archivio di Stato. SO THE NINE YEARS ARE MISSING FROM ONE OF TWO COPIES, and the other may still be at the COMUNE DI ZAMBRONE. That is supported by the act having existed in 1849, when the chancery certified a copy of Domenico Ventrice's 1815 death for a marriage at Briatico -- something was still being copied from, thirty-four years on. It makes the next step a LETTER to the comune rather than another search, and it is the only route to four people: Domenico Ventrice, Anna Maropoli, Francesco Cichello and Vittoria Mollo.",
+    "key": "src/familysearch-catalogue-attem-06c3fe"
+  },
+  {
+    "status": "part",
+    "when": "15 Sep 2026",
+    "source": "Queensland BDM — swept by surname for Donato, Mazza and Crupi",
+    "scope": "Testing the two Brisbane leads found in the council cemeteries — the Pinnaroo Donato carrying CANDELORO, and Mario and Maria Mazza of Mount Gravatt — and sweeping the surname sets properly rather than by targeted lookup. The endpoint 403s to curl and must be fetched from the site's own origin in the browser.",
+    "result": "THREE RESULTS, AND ONE OF THEM IS A FAMILY NOBODY HERE KNEW ABOUT. CRUPI -- ANGELA CRUPI HAD AT LEAST THREE BROTHERS IN QUEENSLAND. Her own death registration of 1973 names FRANCESCO CRUPI and MARIA VECCHIO. So do THREE MORE: PIETRO CRUPI (d. 18 July 1961), ANTONINO CRUPI (d. 15 April 1982) and MARIO CRUPI (d. 17 September 1989). Four siblings, one parent-pair, and this archive knew one of them. Two of the brothers also have Queensland marriages in 1940. DONATO -- THE PINNAROO FAMILY IS FULLY DOCUMENTED AND IS NOT DEMONSTRABLY OURS. ANNUNZIATO DONATO and CONCETTA BRIGANTI had five children registered in Queensland: Rocco 1912, Concetto 1913, Peppino 1914, CANDELORO 1915 and Nunzio 1917, and the deaths of four of them repeat the same parents. AND ANNUNZIATO'S OWN DEATH OF 28 FEBRUARY 1954 NAMES HIS PARENTS: ROCCO DONATO and CONCETTA ROMANO. NOT Michele Donato and Maria Sofi. So the Candeloro at Pinnaroo is a grandson of a ROCCO Donato, not of this archive's line. THE NAMES REMAIN SUGGESTIVE AND THAT IS ALL THEY ARE: Candeloro, Annunziato, Rocco, Nunzio and Concetto are precisely the Scilla Donato naming pool, and CONCETTA ROMANO carries a surname this archive has already met at Scilla in Giovanni Polistena's mother. A cousin line is plausible. A DOCUMENTED LINK IS ABSENT, and this is exactly the join this archive has got wrong four times. MAZZA -- THE MOUNT GRAVATT PAIR CANNOT BE TESTED HERE AT ALL. Queensland's public death index stops at 1996 and MARIO MAZZA DIED IN 2015, MARIA MAZZA IN 2014. The Mario Mazza who appears in the index died in 1986 and is a different man, son of Rosario Mazza and Rosa Grasso. The lead is neither confirmed nor refuted; it is out of the index's reach. The sweep also re-confirmed five registrations this archive already held -- Maria Nicotra 1963, Mary Rosa Mazza 1968, Rosario Mazza 1986, Michele Mazza 1926 and Angela Crupi 1973 -- with the same parents each time.",
+    "key": "src/queensland-bdm-swept-by-surn-e08cd4"
+  },
+  {
+    "status": "done",
+    "when": "15 Sep 2026",
+    "source": "Queensland BDM — the rest of the surnames swept",
+    "scope": "Prostamo, Polistena, Melluso, Nicotra, Anile, Barbuto and Arena, by exact surname, births marriages and deaths.",
+    "result": "MOSTLY EMPTY, AND THE EMPTINESS IS INFORMATIVE. POLISTENA RETURNS NOTHING AT ALL, and so does ANILE. That is not a gap in the family, it is the shape of the index: births stop in 1926, marriages in 1951, deaths in 1996, and the Polistena reached Brisbane in 1949. They arrived too late to be born or married into it and have mostly died too late to be in it. PROSTAMO RETURNS EXACTLY ONE RECORD in the entire Queensland index -- Maria Assunta, 1991 -- for a family with a dozen people in Brisbane. Same reason. ARENA RETURNS SEVENTY-FIVE AND NONE OF THEM IS OURS: Byrne, Kerby, Pollard, Timothy Leo, Cornelius Joseph, Alphonso James -- an IRISH-AUSTRALIAN Arena family entirely unrelated to Scilla. A surname sweep without a parent check would have produced a dozen false joins here. NICOTRA returns eighteen, of which ONE is ours -- Maria Nicotra, 1963, already held. The rest are a Catania Nicotra cluster around Maccarone, Patane and Scalia. BARBUTO returns two, neither ours. AND A CORRECTION TO MY OWN EXPECTATION: the Melluso and Prostamo registrations I treated as finds were ALREADY IN data/qld-bdm.tsv, recorded by an earlier session with better analysis than mine -- including that LIMARDO is a Potenzoni surname from the 1818 birth index. What was actually missing was that GENNARO MELLUSO, MARIA LIMARDO and CARMELA MARIA BORELLO had never become PEOPLE. They are now. The lesson is about this archive, not about Queensland: facts recorded in one file do not reach the reader until they are surfaced in another.",
+    "key": "src/queensland-bdm-the-rest-of-t-54ccfa"
+  },
+  {
+    "status": "part",
+    "when": "15 Sep 2026",
+    "source": "FamilySearch — Australian records for Prostamo",
+    "scope": "Looking for AUSTRALIAN ELECTORAL ROLLS, promoted to the primary instrument after Queensland BDM proved unable to see a family that arrived in 1949.",
+    "result": "NO ELECTORAL ROLLS THERE. FamilySearch's Australian holdings for this surname are Petty Sessions registers, Find a Grave and nothing else -- the rolls are on Ancestry, which is paid, and at the National Library. So row 62 still needs a source and this was not it. TWO THINGS THE SEARCH DID GIVE. FIRST, A PLACE AND A DATE FOR ROCCO PROSTAMO. «Australia, Victoria, Petty Sessions Registers, 1858-1985» indexes a PROSTAMO at NORTHCOTE between November 1956 and June 1957, and at HEIDELBERG between December 1957 and June 1958 -- both Melbourne. The index garbles the given name as «Ricco» and «Rono», which is this data's usual treatment of ROCCO. It fits: Rocco Prostamo, born 28 January 1925, is buried at NORTHERN MEMORIAL PARK, GLENROY, in the same city. WHAT THE ENTRIES CONCERN IS NOT STATED IN THE INDEX AND HAS NOT BEEN READ -- petty sessions covered licences, debts, permits and minor matters alike -- so this is recorded as a PLACE AND A DATE and nothing more. It should not be characterised further without reading the register itself. SECOND, A CAUTION ABOUT FIND A GRAVE. It indexes FRANCESCA PROSTAMO, born 18 September 1933 and died 11 February 2018, at TWO DIFFERENT CEMETERIES ON TWO CONTINENTS -- «Northern Memorial Park, Glenroy, Victoria» and «Northern Cemetery, Barnesville, Belmont County, OHIO». Same dates, same name, one person. The two cemeteries share the word NORTHERN and that is almost certainly the whole explanation. This archive uses the Victorian one, because she landed at Fremantle in 1957 and Rocco is buried in the same Melbourne ground. A Find a Grave hit is not a burial until the cemetery agrees.",
+    "key": "src/familysearch-australian-reco-7558f8"
+  }
 ]
