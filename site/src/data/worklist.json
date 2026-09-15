@@ -2,7 +2,7 @@
  "title": "The work list",
  "dek": "What is being done here, as opposed to what is known.",
  "lead": "Every other register on this site answers what we know. What Has Been Read says what has been searched, negatives included; Open Questions says what the records have not answered; Corrections says where a document and the family tree disagree. None of them says what is actually being worked on, who is waiting for whom, or what was deliberately abandoned and why — so that lived in a chat window, which is the one place that does not survive the session. This is that page. It is kept in the same shape as the other seven archives in this estate, and a build check refuses if it slips.",
- "close": "Items founded on a mistake are struck through rather than deleted, the same way a retracted claim is. The number beside each is just its order on this list, not a priority.",
+ "close": "**How to read the order.** The numbers are the order work was raised, and from row 32 they run as a roadmap in six phases: finish the Ventrice hunt with images already on disk (32–34); do the cheap sweeps the annual-Tavola trick has unlocked (35–37); then work the spine frontier town by town (38–47), which is where the thirty-one ancestors with no parents actually are; then Australia (48–50); then the structural work that decides whether the site can show what the archive knows (51–55); and last the four or five things only a living relative can answer (56–57). Items founded on a mistake are struck through rather than deleted, the same way a retracted claim is.",
  "rows": [
   {
    "n": 1,
@@ -251,6 +251,214 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "This archive has recorded for days that **Zambrone's Morti are missing 1813–1821** — one of its four established walls. But the series listing shows a death volume **`an_ua37932358`, Zambrone Morti 1811–1839**, one book covering the whole span, and a second at 1811–1840. Either the gap is inside that volume, or the wall was established against the wrong ark. **Open it and find out** — Domenico Ventrice died at Zambrone in January 1815, and his act would be in exactly the missing years."
+  },
+  {
+   "n": 32,
+   "what": "Read the Zambrone marriage acts of 1818–1825, the live window",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 1.** Giuseppe Ventrice was born about 1795, so this is where his marriage should be, and the images are already downloaded. Years 1822, 1824 and 1826 are read and clear; 1823 and 1825 have blank end-of-year forms but their acts are unread, and 1818–1821 have no Tavole so must be read act by act. About thirty images."
+  },
+  {
+   "n": 33,
+   "what": "Then Zambrone 1811–1817, and admit the wall if it is one",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 1.** If 1818–1825 comes back empty, the couple either married before 1811 — which is impossible, he was born about 1795 — or married somewhere other than Briatico and Zambrone. At that point the honest move is to name the third town rather than keep sweeping: **Potenzoni, Sciconi, Daffinà, Conidoni and San Leo** all sit in the same circondario and all have their own registers."
+  },
+  {
+   "n": 34,
+   "what": "Caterina Cichello's own parents — a couple this archive has never had",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 1, the prize.** Whatever act is found for her marriage will name **her father and mother**, who appear nowhere in this archive. She was born about 1799 and was still alive at Briatico in June 1849, a widow of eighteen years. Her marriage act, or her death act, is the only route to them."
+  },
+  {
+   "n": 35,
+   "what": "Sweep the whole Zambrone marriage book from its Tavole, 1811–1858",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 2.** The same trick as Briatico and the same volume already half-read: 253 images, forty-seven years, an annual Tavola naming **both sets of parents**. Reading every Tavola is perhaps forty images and would give **every marriage in Zambrone for half a century, with four parents each** — Ventrice, Cichello, Melluso, Anile, Barbuto and Prostamo all in one pass. Do this once and stop opening the book a year at a time."
+  },
+  {
+   "n": 36,
+   "what": "Map which Briatico and Zambrone BIRTH and DEATH volumes carry a Tavola",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 2.** The marriage Tavole are mapped; births and deaths are not. Zambrone's births are one volume for 1811–1839 and its deaths another for 1811–1839, so the same one-image-a-year economics may apply — or may not. Establish it before promising any birth or death sweep in either town."
+  },
+  {
+   "n": 37,
+   "what": "Build one coverage table: comune × record type × years × is it indexed",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 2, and the thing that would have saved the most time today.** Four towns, four record types, a hundred and fifty years, and the answers are scattered across `briatico-arks.tsv`, `scilla-arks.tsv`, `zambrone-arks.tsv`, `searched.tsv` and my own memory. **One table, on the site**, saying for every comune and record type which years exist, which ark holds them, how many images, and whether there is an index. Every sweep after it becomes a lookup."
+  },
+  {
+   "n": 38,
+   "what": "SCILLA — Filippo Arena × Domenica Costa's marriage, if it falls after 1816",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3.** Their son Francesco Antonio was born 25 November 1819 and Scilla's registration begins in 1816, so there is a **four-year window** in which this marriage is reachable and outside it there is nothing. Filippo is generation seven and the oldest Arena this archive has. Cheap to test, and it either opens a generation or closes the Arena line the way Candeloro closes the Donato one."
+  },
+  {
+   "n": 39,
+   "what": "SCILLA — Giovanni Arlotta × Maria Costa's marriage",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3.** Serafina Arlotta was born 13 June 1830 to this couple, and Giovanni was born about 1779, so the marriage is likely 1800–1829 — half of which is inside Scilla's civil registration. He declared his own grandson's birth in 1854 at seventy-five and gave the boy his name, so he is well attested and badly dated."
+  },
+  {
+   "n": 40,
+   "what": "SCILLA — who is the Giuseppe Arena of generation seven?",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3.** He sits on the spine at ancGen 7 with **no parents, no dates and no spouse recorded**, and this archive has never looked at him. Establish whether he is a real ancestor or an artefact of the export before spending anything on the generation above him."
+  },
+  {
+   "n": 41,
+   "what": "SCILLA — the Polistena and Pontillo couples of generations five and six",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3.** Antonio Polistena × Giovanna Pontillo (g5), and Giuseppi Pontillo × Nunziatta Pontillo (g6) — a Pontillo marrying a Pontillo, which is either a real cousin marriage or a transcription error and should be settled. Note the archive has already proved the tree wrong once on this surname: Giovanni Polistena's mother is **Romano**, not Pontillo, on two independent documents."
+  },
+  {
+   "n": 42,
+   "what": "SCILLA — Orazio Arena and Giovanna Zirilli: what to do with a couple the tree misplaced",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3, and a debt.** They are real — documented at Scilla with children in 1853, 1856, 1859 and 1860 — but Rocco Arena is **not their son**, and this archive proved it. They are still on the spine as his parents. Either drop the edge with `parent-links.tsv` and say why on the page, or keep it and mark it disputed. Right now the site argues with itself."
+  },
+  {
+   "n": 43,
+   "what": "BRIATICO — the Potenzoni generation eight: Anile, Barbuto, Lesto, Grasso",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3.** Four parentless spine people in one place — Fortunato Anile × Antonia Grasso, Giuseppe Barbuto × Saveria Lesto, all of **Potenzoni and Mandaradoni**, hamlets of Briatico with their own registers. Antonia Grasso is dated 1809, so her birth is inside civil registration. This is the densest untouched cluster on the spine."
+  },
+  {
+   "n": 44,
+   "what": "BRIATICO — the Melluso: Fillipo b.1855 × Rosa Vitrale, and Caterina b.1860",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3.** Both dated and both parentless, and both late enough that their births and marriages are squarely inside the registers. Caterina Melluso married Alfonso Prostamo and died in 1957. The Melluso are one of the four surnames that returned **nothing** in Brisbane's council cemeteries, so their story is still entirely Calabrian."
+  },
+  {
+   "n": 45,
+   "what": "BRIATICO — settle Caterina Di Meio against Caterina Majo",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3, and a live contradiction.** The export gives Pasquale Prostamo's wife as **Caterina Di Meio**, born 1762. The Pizzo register of 1829 calls her **Caterina Majo** — and this archive has already corrected its own reading of that name once, from «Muso». Two spellings, one woman, and she is generation eight. Her marriage or death act would end it."
+  },
+  {
+   "n": 46,
+   "what": "BRIATICO — what would it actually take to prove the 1697 Prostamo?",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3, and a decision rather than a search.** Franco Antonino Prostamo and Agnere Polito are dated 1697 and 1699 and sit at generation ten with nothing behind them. Civil registration in Calabria begins in 1809, so they are **a century pre-civil** and only parish and notarial records could reach them. Write down what the route would be and what it would cost, so the tree's oldest claim stops being quietly carried."
+  },
+  {
+   "n": 47,
+   "what": "PIEDIMONTE ETNEO — Mariano Mazza, and the Nicotra couple behind Maria",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 3.** Rosario Mazza b.1850 is parentless on the spine and his father is **MARIANO MAZZA**, known only from his son's 1873 birth act. And **John Nicotra × Venera Cassaneti** (g5) are parentless too, known from a Queensland death registration rather than any Italian act. The Sicilian quarter is the thinnest of the four."
+  },
+  {
+   "n": 48,
+   "what": "AUSTRALIA — sweep Queensland BDM for every family surname, not just leads",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 4.** The BDM download endpoint returns the whole result set as CSV with **parents' names included**, and this archive has used it for twenty-five targeted lookups. Sweep it properly: Mazza, Prostamo, Polistena, Arena, Donato, Melluso, Nicotra, Crupi, Cavallaro, Anile, Barbuto — births, deaths and marriages. It is one GET per surname and it would test rows 27 and 28 in the same pass."
+  },
+  {
+   "n": 49,
+   "what": "AUSTRALIA — the electoral rolls, which nobody here has touched",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 4.** Australian electoral rolls are public, near-annual, and give **address and occupation** for every adult. For a family that arrived between 1925 and 1957 they would place every household in Brisbane year by year, and they are the only source that tracks people who neither died nor married in the window. Entirely unused here."
+  },
+  {
+   "n": 50,
+   "what": "AUSTRALIA — the WWII internment and naturalisation files at the NAA",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 4.** Italians in Queensland were interned from 1940, and Trove has already shown Brisbane **Prostamo naturalisations**. The NAA holds both series and its index is searchable. Michele Mazza died in 1926 and the rest arrived later, so the internment years cover the generation that settled."
+  },
+  {
+   "n": 51,
+   "what": "STRUCTURE — let the charts draw people the export does not contain",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 5, and the biggest single improvement available.** `/bloodline/` and every chart here draw Michael's export, so **forty-four documented people cannot appear on any of them** — including whole couples this archive proved. Giovanni Arena, Concetta Russo and Domenico Donato all show as dead ends on the chart while the archive knows their parents and cites the act. Either give the charts a second source or publish a companion chart that draws the documented line. This is the gap between what the archive knows and what it shows."
+  },
+  {
+   "n": 52,
+   "what": "STRUCTURE — raise the graded fraction of parent links",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 5, and it is measurable.** Of **748 parent edges, 727 are ungraded** — drawn dashed because the tree merely asserts them. Only 11 are `read` and 10 `index`. Every act this archive has read should have upgraded an edge and most have not. Work back through `register-reads.tsv` and `scilla-reads.tsv` and grade what is already proved."
+  },
+  {
+   "n": 53,
+   "what": "STRUCTURE — a checker for the gap between an act read and an edge graded",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 5.** The natural follow-on from row 52, and the way to stop it recurring: if a read act names a parent and both people are in the export, the edge should carry a grade. A checker can list the ones that do not. Same shape as `check_additions.py`, which found six published falsehoods the hour it existed."
+  },
+  {
+   "n": 54,
+   "what": "STRUCTURE — review the forty-three searches still marked outstanding",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 5.** `searched.tsv` holds 111 rows of which **43 are still 'outstanding'**, some of them written on the day the archive was built. Today alone, two of them turned out to be already done. Go through all forty-three, close what is finished, and re-word what was raised on a premise that has since changed."
+  },
+  {
+   "n": 55,
+   "what": "ESTATE — reconcile the people this archive shares with Falco and D'Arcy",
+   "state": "next",
+   "owner": "the kit & estate",
+   "since": "2026-09-15",
+   "note": "**Phase 5, and it is not a Mazza problem alone.** The spine runs straight into two sibling archives: **Josephine Falco** and **Ian D'Arcy** sit here at generation two with their daughters Stefanie and Cristina. The same people are recorded in three archives, each from its own export, with no mechanism to notice when they disagree. `checkshared.py` compares components; nothing compares **people**. Propose one."
+  },
+  {
+   "n": 56,
+   "what": "MICHAEL — confirm the recent deaths this archive found in council records",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "**Phase 6.** Brisbane City Council's register gives **Domenico Francesco Prostamo, died 10 January 2025**, and **Maria Assunta Prostamo, died 30 October 1991**, in adjacent plots at Mount Gravatt. The 2025 death is eight months old and the family will know it first-hand. Worth confirming with Michael rather than publishing from a cemetery index alone — and worth asking gently."
+  },
+  {
+   "n": 57,
+   "what": "MICHAEL — the four questions only a living relative can answer",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-15",
+   "note": "**Phase 6.** Beyond the photographs in row 24, there are four things no record will settle: whether the Brisbane **Donato of Pinnaroo** carrying the name Candeloro are kin; whether **Mario and Maria Mazza** of Mount Gravatt are; what the family calls the **Buenos Aires Prostamo**; and which of the **58 shared names** are one person. A short list of specific questions, with the evidence beside each, is worth more than another month of registers."
   }
  ]
 }
