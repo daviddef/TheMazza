@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4326",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run additions && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:kit",
+    "build": "npm run additions && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:worklist && npm run check:kit",
     "preview": "astro preview --port 4326",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "searchindex": "python3 ../tools/searchindex.py",
@@ -16,10 +16,11 @@
     "graves": "python3 ../tools/build_graves.py",
     "additions": "python3 ../tools/build_additions.py",
     "check:links": "python3 ../tools/check_links.py",
-    "check:additions": "python3 ../tools/check_additions.py"
+    "check:additions": "python3 ../tools/check_additions.py",
+    "check:worklist": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkworklist.py --root ."
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#b16bea79b56a5f27e84b25271575b2919639544e",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#60aad580fdde1a26e2f7780e36bcbf11b931b020",
     "astro": "^5.18.2"
   }
 }

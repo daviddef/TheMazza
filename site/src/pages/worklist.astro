@@ -1,0 +1,41 @@
+---
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import WorkList from "@daviddef/archive-kit/components/WorkList.astro";
+import work from "../data/worklist.json";
+---
+<Base title={work.title} eyebrow="What is being done"
+      dek={work.dek}>
+
+  <section class="blk">
+    <div class="lab">The register the others do not keep</div>
+    <h2 style="margin-top:.4rem">{work.rows.filter((r) => !["done", "struck"].includes(r.state)).length} open, {work.rows.length} in all</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>{work.lead}</p>
+    </div>
+
+    <WorkList work={work} u={u} />
+
+    <div class="prose" style="margin-top:1.6rem">
+      <p>{work.close}</p>
+    </div>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Where the other registers are</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>This page is deliberately narrow. It does not hold findings, and it is not a list of
+      questions about the family — those have their own pages and are better kept there.</p>
+      <ul>
+        <li><a href={u("/searched/")}>What has been read</a> — every search made, negatives included,
+        so nobody repeats one.</li>
+        <li><a href={u("/open-questions/")}>Open questions</a> — what the records have not answered.</li>
+        <li><a href={u("/corrections/")}>Corrections</a> — every place a document and the family tree
+        disagree, and the people the tree does not hold.</li>
+        <li><a href={u("/what-changed/")}>What changed</a> — how the archive has moved since it was
+        built.</li>
+      </ul>
+    </div>
+  </section>
+
+</Base>
