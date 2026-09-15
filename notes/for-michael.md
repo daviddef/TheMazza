@@ -1,6 +1,6 @@
 # The Mazza Archive — corrections and additions to the family tree
 
-For **Michael Mazza**. 78 items, 74 of them resting on a document that has been read.
+For **Michael Mazza**. 91 items, 74 of them resting on a document that has been read.
 
 **None of this has been applied to your tree.** The charts draw your export exactly as you gave it —
 but where a record contradicts a line, the chart now marks that line and says why underneath it.
@@ -33,7 +33,7 @@ inference any more.
 - **Francesco Antonio Arena**, b. 25 November 1819, *marinaro* × **Serafina Arlotta**, b. 13 June 1830
 - and Rocco's three elder brothers — Filippo (1852), Domenico (1853), Giuseppe (1860)
 
-In all, **26 documented people** are missing from your export.
+In all, **42 documented people** are missing from your export.
 
 **4. Rocco and Generosa had four children in New York and you know of one.** Antonio (1896),
 **Sarafina (1898, died at seventeen months)**, **Clementina (1900)**, **Antonino (1902)** — two of
@@ -566,6 +566,111 @@ Mazza by six, Rosario Mazza by five.
 - **Source:** Scilla, Matrimoni 1888, atto 63
 
 
+## my own reading
+
+### Caterina Majo
+
+- **The tree says:** this archive published «Caterina Muso» on 14 September 2026
+- **The record says:** CATERINA MAJO. The surname is Majo in the original register AND in the 1849 certified extract, compared side by side. The earlier reading was mine and it was wrong.
+- **Source:** Pizzo, Morti 1829, atto 7, and its certified extract in Briatico Matrimoni processetti 1849-1854
+
+### Domenico Ventrice
+
+- **The tree says:** this archive published «aged 50» on 14 September 2026
+- **The record says:** FIFTY-EIGHT, most likely — born about 1757. The 1849 copyist crams two ages into one clause; the fifty-eight stands next to his trade and the fifty next to his wife's name. The ambiguity is in the document and is recorded rather than hidden.
+- **Source:** Zambrone, Morti 1815, atto 40 — the certified extract of 26 May 1849
+
+### Giuseppe Ventrice
+
+- **The tree says:** this archive published his death as 21 JUNE 1839
+- **The record says:** 21 JUNE 1831. I read «milleottocento trentuno» in the 1849 certified copy as «trentanove». The original register settles it, and so does the 1839 register itself: its act 12 is the death of D.a Olimpia La Torre on 14 August, and the 1839 Tavola agrees. Eight years, and it changes the shape of the family — he died two days before his daughter's third birthday, and his widow raised her alone for eighteen years.
+- **Source:** Briatico, Morti 1831, atto 12 — the original register, an_ua87689
+
+
+## a document against its own copy
+
+### Pasquale Prostamo
+
+- **The tree says:** the ORIGINAL register makes him SETTANTACINQUE — seventy-five, born about 1753
+- **The record says:** the CERTIFIED EXTRACT of 1849, copied from that same act by the Pizzo chancery, makes him SESSANTACINQUE — sixty-five, born about 1763. Ten years, lost between an act and its own certified copy twenty years later. The archive carries the ORIGINAL figure and records the copy's.
+- **Source:** Pizzo, Morti 1829, atto 7 vs its extract of 14 June 1849
+
+
+## tree
+
+### Antonino Prostamo
+
+- **The tree says:** born 1785, no death given
+- **The record says:** Born about 1781 — he is fifty-six when he dies on 31 December 1837 and thirty-two when he declares his son's birth in April 1814. DIED IN THE CHOLERA at Pizzo, registered in the separate 1837 cholera book, atto 327.
+- **Source:** Pizzo, morti colerici 1837, atto 327
+
+### Domenico Prostamo
+
+- **The tree says:** born 1820
+- **The record says:** BORN 2 APRIL 1814 AT PIZZO, and registered under the name ANTONIO Prostamo, act 285. A sworn act of notoriety at Briatico on 14 June 1849 establishes that the man in the 1814 register as Antonio «chiamasi effettivamente Domenico Prostamo». Six years out, and under the wrong given name.
+- **Source:** Pizzo, Nati 1814, atto 285, and the atto di notorietà of 14 June 1849
+
+
+## a document against a document
+
+### Giuseppe Ventrice
+
+- **The tree says:** his death extract of 1839 makes him «di anni TRENTA», born about 1809
+- **The record says:** THIRTY-THREE in June 1828, in his own words, registering his daughter's birth — so born about 1795 and about forty-four when he died. Fourteen years, between a man's own declaration and two neighbours' estimate at his funeral. This archive carries the man's own.
+- **Source:** Briatico, Nati 1828, atto 12, against Briatico, Morti 1839, atto 12
+
+### Giovanna Ventrice
+
+- **The tree says:** her marriage act of 14 June 1849 makes her «di anni VENTUNO»
+- **The record says:** BORN 23 JUNE 1828, so she was TWENTY at her wedding — nine days short of twenty-one. Small, and worth keeping: it is the third time in this family that a declared age at marriage has run a year ahead of the birth act.
+- **Source:** Briatico, Nati 1828, atto 12
+
+
+## a copy against its original
+
+### Rosario Zungri
+
+- **The tree says:** the 1849 certified copy names the second declarant SERGI
+- **The record says:** ZUNGRI in the original act. Small, and the third time a Calabrian chancery copy has been caught drifting from the act it copied — after Pasquale Prostamo's age and Domenico Ventrice's.
+- **Source:** Briatico, Morti 1831, atto 12, against its extract of 26 May 1849
+
+
+## Parentage — two people read as one
+
+### Maria Rosa Prostamo
+
+- **The tree says:** The export gave her TWO complete sets of parents: Antonio Giacomo Prostamo and Angela Tomsic, and Francesco Prostamo and Raffaela
+- **The record says:** ANTONIO GIACOMO PROSTAMO AND ANGELA TOMSIC. She was born at BRISBANE and married Steve Liversegle, and that is the Brisbane household — her brothers and sisters there are Tony, Kristina, Steven and Francesco. The other couple, Francesco Prostamo of Briatico and Raffaela of Catanzaro, had a daughter of the same name with a sister called Antonia. BOTH FATHERS HAD A MOTHER CALLED MARIA ROSA MELLUSO, so both couples named a daughter for her — which is how two women came to be read as one.
+- **Source:** site/src/data/people.json against the export; reasoned from birthplace, marriage and siblings, not from an act
+
+
+## Parentage — a niece taken for a daughter
+
+### Mattea Prostamo
+
+- **The tree says:** The export gave her TWO complete sets of parents: Francessco Prostamo and Maria Rosa Melluso, and Leone Prostamo and Anna Vallone
+- **The record says:** LEONE PROSTAMO AND ANNA VALLONE. Francessco (1900-1983) and Leone (b. 1902) are BROTHERS, both sons of Alfonso Prostamo and Caterina Melluso. Mattea was born at BUENOS AIRES in 1926; Anna Vallone was born at Buenos Aires and died there, and Mattea is the only child recorded to her. Francessco lived and died at BRIATICO and his seven children are the Briatico household. This archive already records a Prostamo branch at Buenos Aires with children born from 1926 — which is Mattea exactly.
+- **Source:** site/src/data/people.json against the export; reasoned from birthplace
+
+
+## Parentage — a cycle in the export
+
+### Rosario Mazza
+
+- **The tree says:** The export made ORAZIO MAZZA both his father and his son
+- **The record says:** THE SECOND ORAZIO IS HIS SON, NOT A SECOND FATHER AND NOT A DUPLICATE OF THE FIRST. Rosario Mazza and Anna Cassanite named a son Orazio for his grandfather, exactly as the naming custom predicts, and the export then recorded that son in both the parents and the children. The child link stands; the parent link is removed. His father remains the Orazio Mazza born 1883 at Piedimonte Etneo, son of Rosario Mazza and Leonarda.
+- **Source:** site/src/data/people.json against the export
+
+
+## Surname — a garbling
+
+### Angela Cupo
+
+- **The tree says:** ANGELA CUPO, with no parents and no surname evidence
+- **The record says:** ANGELA CRUPI, daughter of FRANCESCO CRUPI and MARIA VECCHIO. Her Queensland death registration of 10 January 1973 names both parents, and the Nudgee register interred her three days later in plot V-0116 beside her husband Rosario Mazza in V-0117. Born 1900 at Catania, died 1973 at Brisbane, which is exactly the woman the export holds. CUPO IS A GARBLING OF CRUPI, and this data does that often — «Lecota» for Nicotra and «Postamo» for Prostamo are both already on this page.
+- **Source:** Queensland death registration 1973/B/38514, against the Nudgee Catholic cemetery register
+
+
 ---
 
 Full reasoning is on the site — **The Arena** and **Scilla** for the Calabrian registers,
@@ -575,4 +680,4 @@ Where the archive has been *wrong*, that is on **Method**.
 
 https://daviddef.github.io/TheMazza/corrections/
 
-_Generated 14 September 2026._
+_Generated 15 September 2026._

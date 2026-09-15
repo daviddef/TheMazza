@@ -8,6 +8,7 @@
   "trade": "marinaro (sailor)",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Nati 1819 atto 186; Matrimoni 1851 atto 13; Nati 1861 atto 228",
   "note": "Named in THREE independent acts now. The 1851 marriage act gives his son's profession as marinaro and his own as 'STESSA' -- the same. So the sea trade runs Filippo -> Francesco Antonio -> Rocco, three generations of sailors. ENTIRELY ABSENT FROM THE FAMILY TREE."
  },
@@ -20,6 +21,7 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Nati 1819, atto 186",
   "note": "Filippo Arena's wife, named in the 1819 Tavola. ENTIRELY ABSENT FROM THE FAMILY TREE. Note the surname: Costa is also what her great-grandson Rocco married, in Generosa Costa."
  },
@@ -32,6 +34,7 @@
   "trade": "marinaro (sailor)",
   "father": "Filippo Arena",
   "mother": "Domenica Costa",
+  "inTree": "—",
   "source": "Scilla, Nati 1819 atto 186; Nati 1860 atto 45; Nati 1861 atto 228",
   "note": "ENTIRELY ABSENT FROM THE FAMILY TREE, which puts Rocco Arena under Orazio Arena instead. He and Serafina Arlotta have a son Giuseppe on 5 March 1860 and a son Rocco on 20 December 1861 -- exactly the sibling pair the tree assigns to Orazio."
  },
@@ -44,6 +47,7 @@
   "trade": "—",
   "father": "Giovanni Arlotta",
   "mother": "Maria Costa",
+  "inTree": "—",
   "source": "Scilla, Nati 1830 atto 2; Matrimoni 1851 atto 13; Nati 1861 atto 228",
   "note": "ENTIRELY ABSENT FROM THE FAMILY TREE. Her parents are now confirmed twice over: Giovanni Arlotta, marinaro, and Maria Costa."
  },
@@ -56,6 +60,7 @@
   "trade": "—",
   "father": "Francesco Antonio Arena",
   "mother": "Serafina Arlotta",
+  "inTree": "—",
   "source": "Scilla, Nati 1852, atto 48",
   "note": "Rocco Arena's eldest brother, named for their grandfather Filippo. Not in the family tree."
  },
@@ -68,6 +73,7 @@
   "trade": "—",
   "father": "Francesco Antonio Arena",
   "mother": "Serafina Arlotta",
+  "inTree": "—",
   "source": "Scilla, Nati 1853, atto 2",
   "note": "Rocco Arena's brother. Not in the family tree."
  },
@@ -80,6 +86,7 @@
   "trade": "—",
   "father": "Orazio Arena",
   "mother": "Giovanna Zirilli",
+  "inTree": "—",
   "source": "Scilla, Nati 1853, atto 6",
   "note": "Orazio Arena's earliest known child. Not in the family tree -- which gives Orazio only the two children who turn out to be Francesco Antonio's."
  },
@@ -92,8 +99,9 @@
   "trade": "marinaro (sailor)",
   "father": "Francesco Antonio Arena",
   "mother": "Serafina Arlotta",
+  "inTree": "giovanni-arena",
   "source": "Scilla, Nati 1854, atto 76",
-  "note": "ROCCO ARENA'S ELDER BROTHER, now documented. His birth act names his father ANTONIO ARENA, thirty-four -- Francesco Antonio, born 25 November 1819, is exactly thirty-four in April 1854 -- and his mother SERAFINA ARLOTTA, and it was declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco' and enters six-year-old Anna as his NIECE. NOT IN THE FAMILY TREE."
+  "note": "ROCCO ARENA'S ELDER BROTHER. His birth act names his father ANTONIO ARENA, thirty-four -- Francesco Antonio, born 25 November 1819, is exactly thirty-four in April 1854 -- and his mother SERAFINA ARLOTTA, and it was declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco' and enters six-year-old Anna as his NIECE. HE IS IN THE FAMILY TREE, and this archive said for a time that he was not: the tree's Giovanni Arena, husband of Concetta Russo, IS this man, dated 1870 there and born in fact on 30 April 1854. What the act adds is sixteen years and two parents, not a person."
  },
  {
   "name": "Giovanni Arlotta",
@@ -104,6 +112,7 @@
   "trade": "marinaro (sailor)",
   "father": "Domenico Arlotta",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Nati 1854 atto 76; Matrimoni 1851 atto 13; Nati 1830 atto 2",
   "note": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor. NOW IN THREE ACTS AND DATED: the marriage act of 1851, his daughter's birth act of 1830, and the birth act of 1854 in which he appears IN PERSON, aged seventy-five, to declare his grandson -- and which names HIS OWN FATHER, Domenico."
  },
@@ -116,6 +125,7 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1851 atto 13; Nati 1830 atto 2",
   "note": "Giovanni Arlotta's wife. ENTIRELY ABSENT FROM THE FAMILY TREE. NOTE THE SURNAME: she is the SECOND Costa in this generation -- Filippo Arena's wife is Domenica Costa -- and their great-grandson Rocco married a THIRD, Generosa Costa. A Lorenzo Costa was also lodging with Rocco in New York in 1900. CONFIRMED TWICE, by the 1851 marriage act and the 1830 birth act."
  },
@@ -128,6 +138,7 @@
   "trade": "bracciale (day labourer)",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Piedimonte Etneo, Nati 1843 atto 101; Matrimoni 1871 atto 14",
   "note": "Leonarda Bonanno's father. The archive had only the bare first name 'Gaetano', from a marriage proclamation of 1910; he is now in two registers with his surname, his trade and his age. ENTIRELY ABSENT FROM THE FAMILY TREE."
  },
@@ -140,8 +151,9 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Piedimonte Etneo, Nati 1843 atto 101; Matrimoni 1871 atto 14",
-  "note": "Leonarda Bonanno's mother, named for the first time anywhere in this archive and now dated as well. ENTIRELY ABSENT FROM THE FAMILY TREE."
+  "note": "Gaetano Bonanno's wife, named in the register. NOT IN THE FAMILY TREE -- and mind the namesake: the tree does hold an Anna Cavallaro, but she is the daughter of a Luciano Cavallaro BORN IN 1945 and has nothing to do with this woman, who was having children in the 1830s. Two different people, a century and a half apart."
  },
  {
   "name": "Domenico Arlotta",
@@ -152,6 +164,7 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Nati 1854, atto 76",
   "note": "THE DEEPEST PERSON THIS ARCHIVE HAS REACHED ON THE CALABRIAN SIDE. Named only as 'il fu Domenico' in his son Giovanni Arlotta's own words, in the birth act of his great-grandson Giovanni Arena, 30 April 1854. A great-great-great-great-great-grandfather of Mia and Rocco. ENTIRELY ABSENT FROM THE FAMILY TREE."
  },
@@ -164,8 +177,9 @@
   "trade": "filatrice (spinner)",
   "father": "Leonardo Russo",
   "mother": "Angela Bagnato",
+  "inTree": "concetta-russo",
   "source": "Scilla, Matrimoni 1885, atto 86",
-  "note": "Giovanni Arena's wife, and the mother of the Giuseppe Arena of act 230 of 1892. The tree has her without parents or dates; the marriage act gives both parents and her trade. She could not sign her own marriage register."
+  "note": "GIOVANNI ARENA'S WIFE. IN THE FAMILY TREE, which gives her no dates and no parents; the register gives both. Her age of thirty-three in her son Giuseppe's birth act of October 1892 puts her birth about 1859, and the same act names her parents LEONARDO RUSSO and ANGELA BAGNATO -- and those two are genuinely absent from the tree."
  },
  {
   "name": "Leonardo Russo",
@@ -176,6 +190,7 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1885, atto 86",
   "note": "Concetta Russo's father, living at Scilla in 1885. NOT IN THE FAMILY TREE."
  },
@@ -188,6 +203,7 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1885, atto 86",
   "note": "Concetta Russo's mother, living at Scilla in 1885. NOT IN THE FAMILY TREE."
  },
@@ -200,6 +216,7 @@
   "trade": "filatrice (spinner)",
   "father": "Paolo Martello",
   "mother": "Giovanna Chirico",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1885, atto 73",
   "note": "Giuseppe Arena's wife -- Giuseppe being Rocco Arena's brother, born 5 March 1860. NOT IN THE FAMILY TREE. Her father PAOLO MARTELLO was already RESIDENT IN AMERICA in 1885."
  },
@@ -212,6 +229,7 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1888, atto 63",
   "note": "Generosa Costa's mother, named for the first time. NOT IN THE FAMILY TREE. AND NOTE THE SURNAME: Rocco Arena's mother is Serafina ARLOTTA and his wife's mother is Anna ARLOTTA. Whether they were sisters has not been tested, but if they were, Rocco and Generosa were first cousins."
  },
@@ -224,6 +242,7 @@
   "trade": "—",
   "father": "Giovanni Arena",
   "mother": "Concetta Russo",
+  "inTree": "—",
   "source": "Scilla, Morti 1891, atto 134",
   "note": "A son of ROCCO ARENA'S BROTHER Giovanni, dead at ten days. NOT IN THE FAMILY TREE. His death act fixes the household at VIA GROTTE -- the same street where his brother Giuseppe would be born thirteen months later, at number 75 -- and calls his father a PESCATORE, as Giuseppe's birth act does."
  },
@@ -236,6 +255,7 @@
   "trade": "pescatore (fisherman)",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Pubblicazioni 1888 no. 63; Matrimoni 1888 atto 63",
   "note": "Generosa Costa's father, now dated and with a trade. NOT IN THE FAMILY TREE."
  },
@@ -248,6 +268,7 @@
   "trade": "—",
   "father": "Michele Donato",
   "mother": "Maria Sofi",
+  "inTree": "—",
   "source": "Scilla, Morti 1891, atto 22",
   "note": "A daughter of MICHELE DONATO and MARIA SOFI, and a sister of Nunziata Donato, dead at two years and four months. NOT IN THE FAMILY TREE. Her death act gives her father's trade -- PESCATORE -- and the family's address."
  },
@@ -260,6 +281,7 @@
   "trade": "—",
   "father": "Giuseppe Arena",
   "mother": "Maria Martello",
+  "inTree": "—",
   "source": "Scilla, Morti 1898, atto 91",
   "note": "A NEPHEW OF ROCCO ARENA -- son of his brother Giuseppe and Maria Martello -- dead at ten months. NOT IN THE FAMILY TREE. His three given names are his paternal grandfather and both his uncles: FRANCESCO for Francesco Antonio Arena, GIOVANNI and ROCCO for his father's brothers."
  },
@@ -271,9 +293,10 @@
   "died": "—",
   "trade": "marinaro (sailor)",
   "father": "Candeloro Donato",
-  "mother": "—",
-  "source": "Scilla, Nati 1855, atto 163",
-  "note": "Michele Donato's father, and a great-great-grandfather of Mia and Rocco. NOT IN THE FAMILY TREE. A sailor, like the Arena men."
+  "mother": "Maria Paladino",
+  "inTree": "domenico-donato-2",
+  "source": "Scilla, Matrimoni 1844, Tavola entry 17; Matrimoni 1845, atto 31",
+  "note": "MICHELE DONATO'S FATHER, and a great-great-grandfather of Mia and Rocco. A sailor, like the Arena men. HE IS IN THE FAMILY TREE as Michele's father and nothing more -- no dates, no trade, no parents. This archive claimed for a time that he was absent; that was wrong. What is new is everything else about him: born about 1817, MARINARO, and son of CANDELORO DONATO and MARIA PALADINO, who are absent."
  },
  {
   "name": "Nunziata Sofi",
@@ -282,10 +305,11 @@
   "bornNote": "AGED THIRTY-SEVEN at her son Michele's birth in October 1855, so born about 1818. Scilla.",
   "died": "—",
   "trade": "—",
-  "father": "—",
-  "mother": "—",
-  "source": "Scilla, Nati 1855, atto 163",
-  "note": "Michele Donato's mother. NOT IN THE FAMILY TREE. Her son married a SOFI in his turn -- Maria Sofi -- and named his daughter NUNZIATA for her."
+  "father": "Pasquale Sofi",
+  "mother": "Maria de Amico",
+  "inTree": "annunziata-sofi",
+  "source": "Scilla, Matrimoni 1844, Tavola entry 17",
+  "note": "MICHELE DONATO'S MOTHER. IN THE FAMILY TREE, under the fuller form ANNUNZIATA SOFI, with no dates and no parents. Her son married a SOFI in his turn -- Maria Sofi -- and named his daughter NUNZIATA for her. What the 1844 Tavola adds is her parents, PASQUALE SOFI and MARIA DE AMICO, who are absent."
  },
  {
   "name": "Candeloro Donato",
@@ -296,7 +320,8 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
-  "source": "Scilla, Nati 1855, atto 163",
+  "inTree": "—",
+  "source": "Scilla, Matrimoni 1844, Tavola entry 17; Matrimoni 1845, atto 31",
   "note": "Named only as the father of Domenico Donato in the birth act of 1855 -- «Domenico Donato, FIGLIO DI CANDELORO». A great-great-great-grandfather of Mia and Rocco, and NOT IN THE FAMILY TREE. The DONATO CANDELORO who marries at Scilla in 1874 and again in 1877 is very likely a grandson named for him."
  },
  {
@@ -308,114 +333,124 @@
   "trade": "—",
   "father": "Antonio Arlotta",
   "mother": "Nicolina Caratozzola",
+  "inTree": "—",
   "source": "FindMyPast, United States Marriages; US census 1900",
   "note": "THE ARLOTTA IN ROCCO ARENA'S HOUSEHOLD in the Manhattan census of June 1900, now identified: he married ANTONIETTA TAVANI in Manhattan on 4 June that same month. His father was ANTONIO Arlotta -- NOT the Giovanni Arlotta who was Serafina's father -- so he is not her nephew; a cousin is likelier and is untested. He stayed in New York: a Rocco Arlotta baptises children at Our Lady of Loretto, the Arena's own parish, in 1905 and 1908. NOT IN THE FAMILY TREE."
  },
  {
   "name": "Antonino Prostamo",
-  "gen": "4",
+  "gen": "7",
   "born": "c. 1781",
   "bornNote": "—",
   "died": "31 December 1837, at Pizzo, in the cholera",
   "trade": "marinaro",
   "father": "—",
   "mother": "—",
+  "inTree": "antonino-prostamo-1785",
   "source": "Briatico, Matrimoni 1849, atto 1 — Antenati an_ua87663",
-  "note": "The fourth generation, carried as UNTESTED until 14 September 2026 and now documented four times over. A MARINARO like his father and his son. He died at two in the morning on the last night of 1837 and his death is entered in Pizzo's SEPARATE REGISTER OF CHOLERA DEATHS, atto 327 — which is why the ordinary Morti volumes do not hold him."
+  "note": "The fourth generation, carried as UNTESTED until 14 September 2026 and now documented four times over. A MARINARO like his father and his son. He died at two in the morning on the last night of 1837 and his death is entered in Pizzo's SEPARATE REGISTER OF CHOLERA DEATHS, atto 327 — which is why the ordinary Morti volumes do not hold him. IN THE FAMILY TREE as antonino-prostamo-1785, where he is dated 1785 and given Pasquale Prostamo and a «Caterina Di Meio» as parents; the Pizzo register calls that same wife CATERINA MAJO."
  },
  {
   "name": "Caterina Cichello",
-  "gen": "5",
+  "gen": "7",
   "born": "c. 1799",
   "bornNote": "—",
   "died": "alive at Briatico, June 1849",
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Briatico, Matrimoni 1849, atto 1 — Antenati an_ua87663",
   "note": "Giovanna Ventrice's mother, twenty-nine when her daughter was born on 23 June 1828 — so born about 1799. WIDOWED ON 21 JUNE 1831, two days before that daughter turned three, and a widow for EIGHTEEN YEARS: she was still alive in June 1849, when she came to the Briatico town hall and gave her consent to Giovanna's marriage in person."
  },
  {
   "name": "Caterina Majo",
-  "gen": "3",
+  "gen": "8",
   "born": "—",
   "bornNote": "—",
   "died": "before 13 January 1829",
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Pizzo, Morti 1829, atto 7 — Antenati an_ua37926878",
   "note": "Pasquale Prostamo's wife, named because he is recorded as her WIDOWER; dead by January 1829. The family tree has no wife for the third generation. THIS ARCHIVE FIRST PUBLISHED HER AS «CATERINA MUSO». That was a misreading: the surname is MAJO in the original register and in the chancery's own certified copy of 1849, compared side by side."
  },
  {
   "name": "Maria Fragalà",
-  "gen": "4",
+  "gen": "7",
   "born": "c. 1787",
   "bornNote": "—",
   "died": "after 14 June 1849",
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "maria-fragala",
   "source": "Pizzo, Nati 1814, atto 285; Pizzo morti colerici 1837, atto 327; Briatico, Matrimoni 1849, atto 1",
-  "note": "Twenty-seven when her son was born in April 1814, so born about 1787. WIDOWED BY THE CHOLERA on the last night of 1837 and still living at Pizzo in June 1849, when her son married eleven kilometres away at Briatico. She was not in the family tree at all."
+  "note": "Twenty-seven when her son was born in April 1814, so born about 1787. WIDOWED BY THE CHOLERA on the last night of 1837 and still living at Pizzo in June 1849, when her son married eleven kilometres away at Briatico. SHE IS IN THE FAMILY TREE, dated 1789 and married to Antonino Prostamo; this archive said for a time that she was not in it at all, which was wrong and is corrected here. What the Briatico act of 1849 adds is her widowhood, her town and her age."
  },
  {
   "name": "Domenico Ventrice",
-  "gen": "5",
+  "gen": "8",
   "born": "c. 1757",
   "bornNote": "—",
   "died": "13 January 1815, at Zambrone",
   "trade": "bracciale",
   "father": "Paolo Ventrice",
   "mother": "Anna Pappa",
+  "inTree": "—",
   "source": "Zambrone, Morti 1815, atto 40 — certified extract in Briatico, Matrimoni processetti 1849-1854",
   "note": "Giovanna Ventrice's paternal grandfather, and the reason his certificate is in her marriage bundle: the act says she produced «la fede di morte del padre e dell'avo paterno», and the bundle holds exactly two Ventrice deaths. Died at Zambrone on 13 January 1815 at twenty-three o'clock, a BRACCIALE, husband of ANNA FAMA, and son of the late PAOLO VENTRICE and the late ANNA PAPPA. HIS AGE IS AMBIGUOUS IN THE ONLY SURVIVING TEXT: the copyist writes «sposo di Anna Fama di anni cinquanta ... di anni cinquantotto, di professione bracciale». The fifty-eight sits with his trade and is taken as his, so born about 1757; the fifty is taken as his wife's. This archive first published him as fifty."
  },
  {
   "name": "Anna Fama",
-  "gen": "5",
+  "gen": "8",
   "born": "c. 1765",
   "bornNote": "—",
   "died": "—",
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Zambrone, Morti 1815, atto 40; Briatico, Morti 1839, atto 12",
   "note": "Domenico Ventrice's wife and Giuseppe Ventrice's mother. Given as «di anni cinquanta» in her husband's death act of January 1815 — on the reading that the first of that act's two ages is hers."
  },
  {
   "name": "Paolo Ventrice",
-  "gen": "6",
+  "gen": "9",
   "born": "—",
   "bornNote": "—",
   "died": "before January 1815",
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Zambrone, Morti 1815, atto 40 — certified extract in Briatico, Matrimoni processetti 1849-1854",
   "note": "The deepest name on the bride's side, reached because his son's death act calls him «il fu Paolo». Husband of ANNA PAPPA."
  },
  {
   "name": "Anna Pappa",
-  "gen": "6",
+  "gen": "9",
   "born": "—",
   "bornNote": "—",
   "died": "before January 1815",
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Zambrone, Morti 1815, atto 40",
   "note": "Paolo Ventrice's wife, already dead when their son Domenico died in 1815."
  },
  {
   "name": "Giuseppe Ventrice",
-  "gen": "5",
+  "gen": "7",
   "born": "c. 1795",
   "bornNote": "—",
   "died": "21 June 1831, at Briatico",
   "trade": "bracciale",
   "father": "Domenico Ventrice",
   "mother": "Anna Fama",
+  "inTree": "—",
   "source": "Briatico, Morti 1839, atto 12 — certified extract in Briatico, Matrimoni processetti 1849-1854",
   "note": "Giovanna's father, and he died TWO DAYS BEFORE HER THIRD BIRTHDAY. Act 12 of Briatico Morti 1831, read in the original: dead at two in the morning on 21 June 1831 in his own house, «di anni TRENTA», declared by Giacomo Comerci, a miller, and Rosario Zungri, a bracciale. THE YEAR CORRECTS THIS ARCHIVE: the certified copy in the marriage bundle was read as 1839 and published that way; the original says 1831 and the rest of the 1839 register agrees it cannot be. HIS AGE IS STILL IN DISPUTE — thirty at death (born c. 1801) against the thirty-three he gave for HIMSELF when he registered Giovanna's birth in June 1828 (born c. 1795). The archive carries his own declaration and keeps the other on the record."
  },
@@ -428,6 +463,7 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Queensland death registration 1973/B/38514",
   "note": "Angela Mazza's father, named only because his daughter's Queensland death registration names him. Not in the family tree."
  },
@@ -440,67 +476,99 @@
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Queensland death registration 1973/B/38514",
   "note": "Angela Mazza's mother. Not in the family tree."
  },
  {
-  "name": "Candeloro Donato",
-  "gen": "—",
+  "name": "Candeloro Donato (b. 1847)",
+  "gen": "5",
   "born": "c. 1847",
   "bornNote": "Aged twenty-seven at his marriage on 11 December 1874. Scilla.",
   "died": "—",
   "trade": "marinaro",
   "father": "Domenico Donato",
   "mother": "Nunziata Sofi",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1874, atto 62",
-  "note": "MICHELE DONATO'S ELDER BROTHER, and new to this archive. Married DOMENICA ROMANO, 21, a spinner, at Scilla on 11 December 1874. He was a sailor like his father, and unmarried before it. His existence is what the naming custom predicted: Domenico Donato was «figlio di Candeloro», so his first son should be a Candeloro, and here he is."
+  "note": "MICHELE DONATO'S ELDER BROTHER, and named for the grandfather who has his own row above, and new to this archive. Married DOMENICA ROMANO, 21, a spinner, at Scilla on 11 December 1874. He was a sailor like his father, and unmarried before it. His existence is what the naming custom predicted: Domenico Donato was «figlio di Candeloro», so his first son should be a Candeloro, and here he is."
  },
  {
   "name": "Domenica Romano",
-  "gen": "—",
+  "gen": "5",
   "born": "c. 1853",
   "bornNote": "Aged twenty-one at her marriage in December 1874. Scilla.",
   "died": "—",
   "trade": "filatrice",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1874, atto 62",
   "note": "Candeloro Donato's wife. Not in the family tree."
  },
  {
   "name": "Maria Paladino",
-  "gen": "—",
+  "gen": "7",
   "born": "—",
   "bornNote": "—",
   "died": "—",
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1844, Tavola entry 17",
   "note": "CANDELORO DONATO'S WIFE, and the first name this archive has had for her. Named in her son Domenico's marriage Tavola entry of July 1844, and again in her son Michele's marriage act of August 1845 — «figlio di Candeloro Donato e di [—] Paladino» — which is what ties those two men together as brothers."
  },
  {
   "name": "Pasquale Sofi",
-  "gen": "—",
+  "gen": "7",
   "born": "—",
   "bornNote": "—",
   "died": "—",
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1844, Tavola entry 17",
   "note": "Nunziata Sofi's father. Not in the family tree, and not in this archive before today."
  },
  {
   "name": "Maria de Amico",
-  "gen": "—",
+  "gen": "7",
   "born": "—",
   "bornNote": "—",
   "died": "—",
   "trade": "—",
   "father": "—",
   "mother": "—",
+  "inTree": "—",
   "source": "Scilla, Matrimoni 1844, Tavola entry 17",
   "note": "Nunziata Sofi's mother. Not in the family tree. NOTE A COINCIDENCE, NOT A JOIN: the Michele Donato of act 31 of 1845 married an ANGELA DE AMICO. De Amico is common at Scilla and nothing yet connects the two women."
+ },
+ {
+  "name": "Michele Donato (b. Messina, c. 1814)",
+  "gen": "6",
+  "born": "c. 1814, at Messina",
+  "bornNote": "Thirty-one at his marriage in August 1845, and the act says NATO IN MESSINA — the only member of this family so far recorded as born across the strait, in Sicily rather than Calabria.",
+  "died": "—",
+  "trade": "marinaro (sailor)",
+  "father": "Candeloro Donato",
+  "mother": "Maria Paladino",
+  "inTree": "—",
+  "source": "Scilla, Matrimoni 1845, atto 31",
+  "note": "DOMENICO DONATO'S ELDER BROTHER, and NOT THE MICHELE DONATO OF THIS ARCHIVE'S SPINE. Two men of the name stand three feet apart in these records: this one, born about 1814 at Messina, and his nephew born at Scilla on 3 October 1855 and named for him. Keep them apart. His act is what dates the grandfather — «FIGLIO DI Candeloro Donato», not «del fu», so CANDELORO WAS STILL ALIVE in August 1845 — and it is his mother's surname, PALADINO, that the 1844 Tavola then matched to make the brothers brothers."
+ },
+ {
+  "name": "Angela de Amico",
+  "gen": "6",
+  "born": "c. 1813",
+  "bornNote": "Thirty-two at her marriage in August 1845.",
+  "died": "—",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "inTree": "—",
+  "source": "Scilla, Matrimoni 1845, atto 31",
+  "note": "Michele Donato of Messina's wife. Not in the family tree. A COINCIDENCE AND NOT A JOIN: her husband's brother Domenico had married a Sofi whose own mother was a MARIA DE AMICO the year before. De Amico is common at Scilla and nothing yet connects the two women — but two de Amico women marrying into one Donato household in successive years is worth a look when the Scilla births of the 1810s are read."
  }
 ]

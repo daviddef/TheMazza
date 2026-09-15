@@ -63,7 +63,7 @@ const days = [
     <div class="grid g3">
       <div class="stat"><div class="n">{corrections.count}</div><div class="l">corrections and additions</div></div>
       <div class="stat"><div class="n">{corrections.documented}</div><div class="l">resting on a record that was read</div></div>
-      <div class="stat"><div class="n">{additions.length}</div><div class="l">people absent from the family tree</div></div>
+      <div class="stat"><div class="n">{additions.filter((a) => a.inTree === "\u2014").length}</div><div class="l">people absent from the family tree</div></div>
     </div>
   </section>
 

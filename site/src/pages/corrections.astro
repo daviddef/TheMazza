@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import corrections from "../data/corrections.json";
 import additions from "../data/additions.json";
+const absent = additions.filter((a) => a.inTree === "\u2014");
+const inTree = additions.filter((a) => a.inTree !== "\u2014");
 ---
 <Base title="For Michael" eyebrow={corrections.count + " things the records say differently"}
       dek="Every place where a document and the family tree disagree, or where a document says something the tree does not say at all — with the source for each, so every line can be checked.">
@@ -59,23 +61,50 @@ import additions from "../data/additions.json";
 
   <section class="blk">
     <div class="lab">People the records prove and the export does not contain</div>
-    <h2 style="margin-top:.4rem">{additions.length} people who cannot appear on any chart here</h2>
+    <h2 style="margin-top:.4rem">{absent.length} people who cannot appear on any chart here</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Every chart on this site is drawn from Michael's export. These people are not in it — so
-      they cannot be drawn, however well documented they are. <strong>Eight of them are direct
-      ancestors of Mia and Rocco</strong> — six on the Arena side at Scilla, two on the Mazza side at
-      Piedimonte Etneo.</p>
+      they cannot be drawn, however well documented they are.</p>
     </div>
     <div class="scroll" style="margin-top:16px">
       <table>
         <thead><tr><th class="m">Gen</th><th>Name</th><th class="m">Born</th><th>Trade</th><th>Parents</th><th>Source</th></tr></thead>
         <tbody>
-          {additions.map((a) => (
+          {absent.map((a) => (
             <tr>
               <td class="m">{a.gen}</td>
               <td><strong>{a.name}</strong></td>
               <td class="m">{a.born}</td>
               <td>{a.trade !== "—" ? <em>{a.trade}</em> : ""}</td>
+              <td class="small">{a.father !== "—" ? a.father + (a.mother !== "—" ? " × " + a.mother : "") : ""}</td>
+              <td class="small">{a.source}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">And {inTree.length} this archive wrongly listed among them</div>
+    <h2 style="margin-top:.4rem">In the tree after all</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>These {inTree.length} were published here for a time as people the family tree did not
+      contain. That was wrong: the tree has all of them. What it does not have is their dates, their
+      trades or their parents, which is what the registers supply — so the finding stands and only
+      the framing was false. They are listed apart rather than quietly removed, because a correction
+      this archive made to itself is worth as much as one it made to the tree.</p>
+    </div>
+    <div class="scroll" style="margin-top:16px">
+      <table>
+        <thead><tr><th class="m">Gen</th><th>Name</th><th>In the tree as</th><th class="m">Born</th><th>Parents</th><th>Source</th></tr></thead>
+        <tbody>
+          {inTree.map((a) => (
+            <tr>
+              <td class="m">{a.gen}</td>
+              <td><strong>{a.name}</strong></td>
+              <td class="small"><a href={u("/people/" + a.inTree)}>{a.inTree}</a></td>
+              <td class="m">{a.born}</td>
               <td class="small">{a.father !== "—" ? a.father + (a.mother !== "—" ? " × " + a.mother : "") : ""}</td>
               <td class="small">{a.source}</td>
             </tr>
