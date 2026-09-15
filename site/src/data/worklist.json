@@ -382,11 +382,11 @@
   },
   {
    "n": 48,
-   "what": "AUSTRALIA — sweep Queensland BDM for every family surname, not just leads",
-   "state": "running",
+   "what": "Sweep Queensland BDM for every family surname — done, and mostly empty for a reason",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 4.** The BDM download endpoint returns the whole result set as CSV with **parents' names included**, and this archive has used it for twenty-five targeted lookups. Sweep it properly: Mazza, Prostamo, Polistena, Arena, Donato, Melluso, Nicotra, Crupi, Cavallaro, Anile, Barbuto — births, deaths and marriages. It is one GET per surname and it would test rows 27 and 28 in the same pass. **STARTED, and it paid immediately.** Donato, Mazza and Crupi swept. The Crupi sweep found **three brothers of Angela Crupi** — Pietro (d. 1961), Antonino (d. 1982) and Mario (d. 1989) — all registering the same parents as she does. This archive knew one Crupi; there were four. **One practical note:** the endpoint 403s to curl and must be fetched from the site's own origin in the browser."
+   "note": "**Done: Donato, Mazza, Crupi, Prostamo, Polistena, Melluso, Nicotra, Anile, Barbuto, Arena.** **The one real find was the Crupi** — three brothers of Angela nobody here knew about. **The emptiness elsewhere is informative rather than disappointing.** Polistena and Anile return *nothing at all*; Prostamo returns exactly **one** record for a family with a dozen people in Brisbane. That is the shape of the index, not of the family: births stop in 1926, marriages in 1951, deaths in 1996, and these people arrived in 1949 and mostly died after 1996. **Queensland BDM is the wrong instrument for a post-war migration** and this archive now knows the size of that hole. **Arena returns seventy-five and not one is ours** — Byrne, Kerby, Pollard, Timothy Leo: an Irish-Australian family entirely unconnected to Scilla. A surname sweep without checking parents would have produced a dozen false joins. **And a correction to my own expectation:** the Melluso and Prostamo registrations I took for finds were already in `qld-bdm.tsv`, recorded by an earlier session with better analysis than mine. What was genuinely missing is that Gennaro Melluso, Maria Limardo and Carmela Maria Borello had never become **people**. They are now — which is row 51's lesson in miniature: a fact in one file does not reach the reader until it is surfaced in another."
   },
   {
    "n": 49,
@@ -491,6 +491,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "Small and specific. The catalogue UI returned «Something Went Wrong» for every query on 15 September, and its JSON endpoint accepts `q.place` but ignores it, returning two million hits. So **the film holdings for Zambrone have not actually been ruled out** — only failed to be checked. Retry, and look specifically for a Zambrone or Monteleone *stato civile* film covering 1813–1821, before concluding that row 59's letter is the only route."
+  },
+  {
+   "n": 62,
+   "what": "Electoral rolls are now the right instrument, not BDM",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Promoted out of row 49 because today's sweep proved the case.** Queensland BDM cannot see this family: they arrived in 1949, married after the marriage index closes in 1951, and mostly died after the death index closes in 1996. Polistena returns **zero**; Prostamo returns **one**. **Electoral rolls have none of those limits.** They are near-annual, they run through the whole post-war period, they give **address and occupation**, and they capture people who neither died nor married inside an index window — which is precisely this family's problem. For a migration that lands in 1949, the rolls are the primary source and the registrar's index is the secondary one. Start with Brisbane 1949–1980 for Prostamo, Polistena, Mazza and Arena."
   }
  ]
 }
