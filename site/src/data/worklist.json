@@ -15,10 +15,10 @@
   {
    "n": 2,
    "what": "Give documented-joins.tsv and corrections.tsv the same checker treatment as documented-additions.tsv",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "On 15 September a new `tools/check_additions.py` was written, and the first thing it did was catch **six people this archive told readers were not in the family tree when they are** — Giovanni Arena b.1854, Concetta Russo, Domenico Donato, Nunziata Sofi, Antonino Prostamo and Maria Fragalà. One row said «She was not in the family tree at all» about a woman we had already graded a parent edge for, which is only possible between two people who are both in the export. `documented-joins.tsv` and `corrections.tsv` are still unvalidated by anything. The lesson is not that those six were wrong; it is that nothing was looking."
+   "note": "On 15 September a new `tools/check_additions.py` was written, and the first thing it did was catch **six people this archive told readers were not in the family tree when they are** — Giovanni Arena b.1854, Concetta Russo, Domenico Donato, Nunziata Sofi, Antonino Prostamo and Maria Fragalà. One row said «She was not in the family tree at all» about a woman we had already graded a parent edge for, which is only possible between two people who are both in the export. `documented-joins.tsv` and `corrections.tsv` are still unvalidated by anything. The lesson is not that those six were wrong; it is that nothing was looking. **Done — and it was done the same day it was raised.** `tools/check_corrections.py` validates **both** files: `corrections.tsv` for slug, source, confidence and false-absence claims, and `documented-joins.tsv` for id format, self-merges, the `basis` vocabulary and missing evidence. It found thirteen rows using confidence labels the page never explained."
   },
   {
    "n": 3,
@@ -651,11 +651,11 @@
   },
   {
    "n": 76,
-   "what": "STRUCTURE — retire notes/QUEUE.md into the work list",
-   "state": "next",
+   "what": "Retire notes/QUEUE.md into the work list — done",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 8, and today made the case four times over.** Of the QUEUE items I picked up today, **three were already done** — Mount Gravatt, the 1854 re-read, and «Who is Francesca Prostamo?». A list with no gate goes stale and then costs more than it saves; the work list has a gate and did not. **Move anything still live into rows, and leave QUEUE.md as a dated historical document** rather than a second, silently-wrong to-do list."
+   "note": "**Done.** QUEUE.md now opens «**This file is history, not a to-do list**» and says why: four items were picked up from it in one day and **three were already finished**. **Everything still live is migrated** — the Piedimonte Etneo threads as rows **89–96**, the rest already covered by existing rows. It is kept rather than deleted, because deleting the record of what was once believed is precisely what this archive tells other people not to do. **The difference that matters is the gate:** `check:worklist` refuses a row with no owner, and `check:covers` refuses an outstanding search with no row against it. The queue had neither and drifted in five days."
   },
   {
    "n": 77,
@@ -753,11 +753,75 @@
   },
   {
    "n": 88,
-   "what": "Audit the six confidence levels for consistent use",
+   "what": "Audit the six confidence levels — done, and one label was carrying three jobs",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Audited all ninety-four rows against the definitions.** **`certain` is used consistently** — all ten rest on *two documents set against each other*, which is exactly what the legend says: an act against its chancery copy, a declared age against a birth act. **`probable` was carrying three different jobs:** an ambiguous reading, a conflict between documents, and an inference from circumstance. The first two belong together; the third does not. **Maria Rosa Prostamo and Mattea Prostamo — both reasoned from BIRTHPLACE, with nothing ambiguous to read — moved to `inferred`**, and both the `inferred` and `probable` legends on /corrections/ now say plainly what separates them. `inferred` goes 1 → 3, `probable` 6 → 4."
+  },
+  {
+   "n": 89,
+   "what": "PIEDIMONTE — Maria Nicotra's mother: «Monti Venera» or «Venera Cassaneti»?",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 8.** `/corrections/` now explains six labels — documented, certain, probable, inferred, candidate, flagged — because a checker found thirteen rows using two of them with no legend at all. **The legend now exists; whether the rows use it consistently has never been checked.** In particular `certain` and `documented` are close enough to blur, and `probable` is currently carrying both «a faded reading» and «two documents disagree», which are different things. Read all ninety-odd rows against the definitions and move what does not fit."
+   "note": "**Migrated from QUEUE.md, and it is a live conflict.** The 1898 marriage proclamation at Piedimonte Etneo calls her **«Monti Venera»**; the Queensland death registration of 1963 calls her **«Venera Cassaneti»**. Same woman, two surnames, and she sits on the spine at generation five. This is the same shape as Anna Fama against Anna Maropoli and Caterina Di Meio against Caterina Majo — **three name-conflicts now, each between an Italian act and a later copy**, and they may be worth a page of their own."
+  },
+  {
+   "n": 90,
+   "what": "PIEDIMONTE — Mazza Veneranda × Mariano Cavallaro, 1 October 1920",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from QUEUE.md.** Another child of Salvatore Mazza and Maria Nicotra, absent from the tree — and **probably the link to the Brisbane Cavallaro**, of whom the export holds thirteen. The act is dated exactly, so it is a single lookup rather than a sweep."
+  },
+  {
+   "n": 91,
+   "what": "PIEDIMONTE — the other Mazza sons: Giovanni b.1875, Gaetano b.1880, Santo b.c.1882",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from QUEUE.md.** Rosario Mazza's other sons, none of them in the family tree. **Giovanni is the one to read first**: he is the declarant at Salvatore's death in 1929, aged fifty-four, which both dates him and shows he was still at Piedimonte when the rest of the family had gone to Queensland. Act 64 of 1875."
+  },
+  {
+   "n": 92,
+   "what": "PIEDIMONTE — who is Pasquale Mazza, and is the generation compressed?",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from QUEUE.md, and it is a structural question rather than a lookup.** Pasquale Mazza, b. c.1829, bracciante of Via Terremorte, married Concetta Greco. Is he **a third brother** of the line, or **their father's brother**? The queue also carried a «compressed-generation hypothesis» — that a Salvatore Mazza of Via Terremorte born about 1845 collapses two generations into one. **Both turn on the same acts**, and the Mariano Mazza frontier (row 47) cannot be settled without answering them."
+  },
+  {
+   "n": 93,
+   "what": "PIEDIMONTE — Innocenzio Mazza × Domenica Cavallaro, about 1835–40",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from QUEUE.md.** A marriage from before Antenati's Piedimonte run begins, so it may be unreachable the way three of the four walls are — but **that has never been established**, and establishing it is cheap. If Sicilian civil registration begins in 1820 (row 14) then a marriage of 1835–40 is *inside* the run, not outside it, and this item may have been written off too early."
+  },
+  {
+   "n": 94,
+   "what": "Check whether RAITI joins the hundred and ten to the family",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from QUEUE.md, and it is the kind of small thread that opened the Donato line.** **Raiti** appears both in the tree's unjoined hundred and ten AND as the surname of Antonino Mazza's wife. If those are one family, it is a second bridge between the Piedimonte cousins and the direct line — and the first bridge, the Rosario Mazza join, moved 102 people onto the spine."
+  },
+  {
+   "n": 95,
+   "what": "Michele Mazza, 1925–26 — where is he buried, and what does his passenger record say?",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from QUEUE.md.** His Queensland death registration of 1926 carries the **«C» code — a country registration, outside Brisbane** — and he is not at Nudgee, so where he lies is unknown. Separately his **1925 Brisbane passenger record at the NAA** would name a next of kin and a destination address, which for the first of this family to arrive is worth more than it sounds."
+  },
+  {
+   "n": 96,
+   "what": "Camillo Antonio Polistena's own birth act, about 1835",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Migrated from QUEUE.md.** Scilla's births begin in 1816, so a birth about 1835 is **inside the run** and reachable. He is the oldest Polistena this archive has, and the Polistena quarter is the thinnest of the four — the surname returns **nothing at all** in the Queensland index and has no documented ancestor above him."
   }
  ],
  "accounts": [

@@ -1,4 +1,22 @@
-# Research queue
+# Research queue — RETIRED, 15 September 2026
+
+> **This file is history, not a to-do list. The live list is `/worklist/`.**
+>
+> It was written on 10 September, the day the archive was built, and by 15 September it had gone
+> wrong in the way an ungated list always goes wrong: **four items were picked up from it in one day
+> and three of them were already done** — Mount Gravatt, the 1854 re-read, and «Who is Francesca
+> Prostamo?». A list nothing checks does not merely age; it starts costing more than it saves.
+>
+> `site/src/data/worklist.json` replaces it, and the difference is that **the build refuses when it
+> slips**: `check:worklist` rejects a row with no owner or a state outside the five, and
+> `check:covers` rejects an outstanding search with no row against it.
+>
+> Everything still live here has been migrated into that list — the Piedimonte Etneo threads as rows
+> 89 to 96, the rest already covered. **Nothing below this line is maintained.** It is kept because
+> the reasoning in it is worth reading and because deleting a record of what was once believed is
+> exactly what this archive tells other people not to do.
+
+---
 
 **Current as of 15 September 2026.** Everything below the horizontal rule is the queue as it stood
 on 10 September, the day the archive was built; much of it is now answered and it is kept for the
