@@ -246,11 +246,11 @@
   },
   {
    "n": 31,
-   "what": "Check whether Zambrone's deaths really are missing 1813–1821",
-   "state": "next",
+   "what": "Check whether Zambrone's deaths really are missing 1813–1821 — YES, and now proved",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "This archive has recorded for days that **Zambrone's Morti are missing 1813–1821** — one of its four established walls. But the series listing shows a death volume **`an_ua37932358`, Zambrone Morti 1811–1839**, one book covering the whole span, and a second at 1811–1840. Either the gap is inside that volume, or the wall was established against the wrong ark. **Open it and find out** — Domenico Ventrice died at Zambrone in January 1815, and his act would be in exactly the missing years. **AND IT NOW MATTERS MORE THAN WHEN IT WAS RAISED.** The 1824 marriage act calls Domenico Ventrice's wife **Anna Maropoli**; the 1849 chancery copy calls her **Anna Fama**. Neither is the original. His death act of 13 January 1815 would settle it, and that act is in exactly the years this volume is supposed to be missing."
+   "note": "**Answered by opening the volume instead of inferring it, and the archive had it right.** Zambrone Morti 1811–1839 runs 1811, then 1812 **ending with its own death Tavola** at images 37–38, then a printed title page — and **image 40 is 1822**. The years **1813 to 1821 are physically absent**: nine years, gone. **What it costs:** Domenico Ventrice died 13 January 1815, squarely inside the gap, so the Fama/Maropoli question cannot be settled from Zambrone's own register. **What it gained anyway:** the 1822 death Tavola names a «fu Franc.co e Dom.ca **MAROPOLI**» — so Maropoli is a real Zambrone surname of exactly this period, which is what the 1824 reading needed. **And the book is cheap:** every year ends with a Tavola naming the dead *and their parents*. One image a year."
   },
   {
    "n": 32,
@@ -466,7 +466,23 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The couple found today, and the new edge of the Calabrian line. Both were dead by March 1824 and their daughter was born about 1798 at Zambrone, so their marriage is likely **1790s — before Zambrone's registers begin in 1811** and therefore probably out of reach. But their **deaths** are not: anything between 1811 and 1824 would be in the same Morti volume as row 31. Two people, one volume, one look."
+   "note": "The couple found today, and the new edge of the Calabrian line. Both were dead by March 1824 and their daughter was born about 1798 at Zambrone, so their marriage is likely **1790s — before Zambrone's registers begin in 1811** and therefore probably out of reach. But their **deaths** are not: anything between 1811 and 1824 would be in the same Morti volume as row 31. Two people, one volume, one look. **1822 is read and clear** — seven deaths, no Cichello and no Vittoria Mollo, though a *Maria* Mollo died on 27 May 1822. 1823 runs from image 52 and its Tavola will be about image 65."
+  },
+  {
+   "n": 59,
+   "what": "Find the SECOND copy of Zambrone's deaths for 1813–1821",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**The gap is in one copy, and there were always two.** Under the Napoleonic and Bourbon codes every act was written twice — one register kept by the comune, one sent to the tribunale. **The chancery certified a copy of Domenico Ventrice's 1815 death act in 1849**, so in 1849 that act still existed somewhere, and it was not in the volume Antenati has digitised. Look for the tribunale series: FamilySearch's «Vibo Valentia, Civil Registration (Tribunale)» is indexed from 1861, but the earlier court copies may exist unindexed or on film. This is the only route left to Domenico's own act — and it would settle Anna Fama against Anna Maropoli, and reach Paolo Ventrice."
+  },
+  {
+   "n": 60,
+   "what": "Sweep the Zambrone death Tavole, 1822–1839, for the family surnames",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Phase 2 economics, applied to deaths.** Every year in the Zambrone death book ends with a Tavola naming the dead **and their parents** — 1812 at image 37, 1822 at image 51. Reading all of 1822–1839 is about eighteen images and would catch **Francesco Cichello, Vittoria Mollo, Anna Maropoli**, and any Ventrice, Mollo or Cichello death in the eighteen years the register does hold. Cheapest remaining thing on the Calabrian side."
   }
  ]
 }
