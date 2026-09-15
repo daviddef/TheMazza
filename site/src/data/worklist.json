@@ -34,7 +34,12 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Two are known, Candeloro in 1847 and Michele in 1855, and eight years sit between them. Naming custom predicts a Maria for the paternal grandmother Maria Paladino and a Pasquale for the maternal grandfather Pasquale Sofi. Same indexing problem as row 3: most of those years are unindexed. **AND NOW THERE IS A SECOND REASON TO DO IT:** a child of CANDELORO DONATO in the Scilla births of 1810-1830 would settle whether Domenico's mother was **Marta** Paladino, as his birth act says, or **Maria**, as the 1844 Tavola says."
+   "note": "Two are known, Candeloro in 1847 and Michele in 1855, and eight years sit between them. Naming custom predicts a Maria for the paternal grandmother Maria Paladino and a Pasquale for the maternal grandfather Pasquale Sofi. Same indexing problem as row 3: most of those years are unindexed. **AND NOW THERE IS A SECOND REASON TO DO IT:** a child of CANDELORO DONATO in the Scilla births of 1810-1830 would settle whether Domenico's mother was **Marta** Paladino, as his birth act says, or **Maria**, as the 1844 Tavola says.",
+   "covers": [
+    "src:src/antenati-scilla-nati-1845--ad7cfe",
+    "src:src/antenati-scilla-matrimoni--54eb99",
+    "src:src/antenati-scilla-matrimoni--2ea327"
+   ]
   },
   {
    "n": 5,
@@ -50,7 +55,11 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-10",
-   "note": "The Sicilian quarter, and the oldest open item here. Rosario's marriage would name **Mariano Mazza** with an age and a wife and would independently confirm the join that attached the hundred and ten unconnected Piedimonte Mazza to this family. Seven years of the death run are already closed."
+   "note": "The Sicilian quarter, and the oldest open item here. Rosario's marriage would name **Mariano Mazza** with an age and a wife and would independently confirm the join that attached the hundred and ten unconnected Piedimonte Mazza to this family. Seven years of the death run are already closed.",
+   "covers": [
+    "src:src/antenati-piedimonte-etneo--f350d3",
+    "src:src/antenati-the-acts-behind-i-78c50b"
+   ]
   },
   {
    "n": 7,
@@ -58,7 +67,10 @@
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-15",
-   "note": "Worked so far through Trove's web interface, which is flaky enough that several queries had to be retried and scroll-waited. **An API key would turn this into clean JSON.** Asked on 15 September; not blocking anything else, and it will be done by hand if no key appears. Trove's newspapers also largely stop at 1955, so the yield may be modest either way."
+   "note": "Worked so far through Trove's web interface, which is flaky enough that several queries had to be retried and scroll-waited. **An API key would turn this into clean JSON.** Asked on 15 September; not blocking anything else, and it will be done by hand if no key appears. Trove's newspapers also largely stop at 1955, so the yield may be modest either way.",
+   "covers": [
+    "src:src/trove-the-brisbane-italian-8e8e0b"
+   ]
   },
   {
    "n": 8,
@@ -138,7 +150,11 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "One end-of-volume check per year, done once, so that every later sweep is a lookup instead of a gamble. Known so far: **1853, 1856, 1859 and 1860 have a Tavola; 1817 and 1849 have none.** Today's work would have been cheaper if this map had existed, which is the argument for building it before the next sweep rather than after."
+   "note": "One end-of-volume check per year, done once, so that every later sweep is a lookup instead of a gamble. Known so far: **1853, 1856, 1859 and 1860 have a Tavola; 1817 and 1849 have none.** Today's work would have been cheaper if this map had existed, which is the argument for building it before the next sweep rather than after.",
+   "covers": [
+    "src:src/antenati-scilla-nati-aroun-c64933",
+    "src:src/antenati-reggio-calabria-s-77c55a"
+   ]
   },
   {
    "n": 18,
@@ -170,7 +186,10 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-10",
-   "note": "Nine of eighteen crossings are documented. Domenica Prostamo, March 1951, is in the index under neither Prostamo nor Mazza. Also open: Michael Antonio Polistena, 28 May 1950, and **Francesca Prostamo**, who sails on the Roma with Francessco on 10 October 1957 and is in no tree at all."
+   "note": "Nine of eighteen crossings are documented. Domenica Prostamo, March 1951, is in the index under neither Prostamo nor Mazza. Also open: Michael Antonio Polistena, 28 May 1950, and **Francesca Prostamo**, who sails on the Roma with Francessco on 10 October 1957 and is in no tree at all.",
+   "covers": [
+    "src:src/national-archives-of-austr-0e47af"
+   ]
   },
   {
    "n": 22,
@@ -178,7 +197,10 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-11",
-   "note": "The New Jersey Polistena are connected to the Brisbane ones by assertion and nothing else. **This is the exact shape of the failure this archive has made four times** — a join that looks obvious and has no act behind it. Either document it or mark it as unproven on the page."
+   "note": "The New Jersey Polistena are connected to the Brisbane ones by assertion and nothing else. **This is the exact shape of the failure this archive has made four times** — a join that looks obvious and has no act behind it. Either document it or mark it as unproven on the page.",
+   "covers": [
+    "src:src/the-catholic-heritage-arch-bf6881"
+   ]
   },
   {
    "n": 23,
@@ -186,7 +208,10 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-11",
-   "note": "Two cheap outside sources. The US draft registration gives Joseph's unit and his New York address. **CEMLA**, Argentina's immigration database, is the only route to the crossing behind twenty-three Argentine events that have no ship attached to them."
+   "note": "Two cheap outside sources. The US draft registration gives Joseph's unit and his New York address. **CEMLA**, Argentina's immigration database, is the only route to the crossing behind twenty-three Argentine events that have no ship attached to them.",
+   "covers": [
+    "src:src/cemla-argentine-immigratio-8d5513"
+   ]
   },
   {
    "n": 24,
@@ -378,7 +403,12 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 3.** Rosario Mazza b.1850 is parentless on the spine and his father is **MARIANO MAZZA**, known only from his son's 1873 birth act. And **John Nicotra × Venera Cassaneti** (g5) are parentless too, known from a Queensland death registration rather than any Italian act. The Sicilian quarter is the thinnest of the four."
+   "note": "**Phase 3.** Rosario Mazza b.1850 is parentless on the spine and his father is **MARIANO MAZZA**, known only from his son's 1873 birth act. And **John Nicotra × Venera Cassaneti** (g5) are parentless too, known from a Queensland death registration rather than any Italian act. The Sicilian quarter is the thinnest of the four.",
+   "covers": [
+    "src:src/antenati-piedimonte-etneo--e01d74",
+    "src:src/antenati-piedimonte-etneo--fffc6a",
+    "src:src/antenati-catania-a6deb6"
+   ]
   },
   {
    "n": 48,
@@ -430,11 +460,11 @@
   },
   {
    "n": 54,
-   "what": "STRUCTURE — review the forty-three searches still marked outstanding",
-   "state": "next",
+   "what": "Review the outstanding searches — done, and every one now has a row against it",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 5.** `searched.tsv` holds 111 rows of which **43 are still 'outstanding'**, some of them written on the day the archive was built. Today alone, two of them turned out to be already done. Go through all forty-three, close what is finished, and re-word what was raised on a premise that has since changed."
+   "note": "**Done, and it was measurable because another session had already built the instrument.** `check:covers` came into the build from the kit and reported **«work list accounts for 0 of 24 outstanding items»** — a gate that counts what a list does NOT say, which is the one thing `checkworklist` could never see. **One of the twenty-four was simply finished:** «Queensland BDM — beyond the six registrations» was closed by today's sweep and is now marked done with what it found. **The other twenty-three are now covered** by fourteen work-list rows carrying explicit `covers` keys, and `unreconciled` is down from 24 to **0**. The build now reads *«accounts for 23 of 23»*. That number cannot silently rot: a covers entry pointing at a key that no longer exists fails the build in the other direction."
   },
   {
    "n": 55,
@@ -490,7 +520,10 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Small and specific. The catalogue UI returned «Something Went Wrong» for every query on 15 September, and its JSON endpoint accepts `q.place` but ignores it, returning two million hits. So **the film holdings for Zambrone have not actually been ruled out** — only failed to be checked. Retry, and look specifically for a Zambrone or Monteleone *stato civile* film covering 1813–1821, before concluding that row 59's letter is the only route."
+   "note": "Small and specific. The catalogue UI returned «Something Went Wrong» for every query on 15 September, and its JSON endpoint accepts `q.place` but ignores it, returning two million hits. So **the film holdings for Zambrone have not actually been ruled out** — only failed to be checked. Retry, and look specifically for a Zambrone or Monteleone *stato civile* film covering 1813–1821, before concluding that row 59's letter is the only route.",
+   "covers": [
+    "src:src/familysearch-full-text-sea-f0cc0c"
+   ]
   },
   {
    "n": 62,
@@ -514,7 +547,12 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 7. The method that has produced this archive's two biggest finds, pointed at a generation it has never touched.** Processetti carry the **birth acts of both spouses** and the **death acts of any dead parent**. Briatico 1849 broke the Calabrian line open; Scilla 1844 fascicolo 20 gave Domenico Donato's birth and Caterina Cichello's parents. **Four family marriages sit in one narrow window and none of their bundles has been opened:** Giuseppe Arena × Maria Martello (Matrimoni 1885 atto 73), Giovanni Arena × Concetta Russo (1885 atto 86), Rocco Arena × Generosa Costa (1888 atto 63), and Michele Donato × Maria Sofi. Their papers would give birth extracts for **eight people** and death acts for whichever parents had already died — including, possibly, **Filippo Arena and Domenica Costa**, whose marriage the registers cannot reach but whose deaths they can."
+   "note": "**Phase 7. The method that has produced this archive's two biggest finds, pointed at a generation it has never touched.** Processetti carry the **birth acts of both spouses** and the **death acts of any dead parent**. Briatico 1849 broke the Calabrian line open; Scilla 1844 fascicolo 20 gave Domenico Donato's birth and Caterina Cichello's parents. **Four family marriages sit in one narrow window and none of their bundles has been opened:** Giuseppe Arena × Maria Martello (Matrimoni 1885 atto 73), Giovanni Arena × Concetta Russo (1885 atto 86), Rocco Arena × Generosa Costa (1888 atto 63), and Michele Donato × Maria Sofi. Their papers would give birth extracts for **eight people** and death acts for whichever parents had already died — including, possibly, **Filippo Arena and Domenica Costa**, whose marriage the registers cannot reach but whose deaths they can.",
+   "covers": [
+    "src:src/antenati-scilla-matrimoni--b6a5f1",
+    "src:src/antenati-scilla-matrimoni--5fa8d4",
+    "src:src/antenati-scilla-matrimoni--7c52a4"
+   ]
   },
   {
    "n": 65,
@@ -538,7 +576,11 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 7, and it follows from a trap already recorded.** Briatico and Zambrone searches keep returning arks that turn out to be **Daffinà, Sciconi or Conidoni** — separate comuni in the same circondario with their own registers. That has been a nuisance three times. **It is also an opportunity:** the generation-eight Briatico cluster — Fortunato Anile × Antonia Grasso, Giuseppe Barbuto × Saveria Lesto — is recorded at **Potenzoni and Mandaradoni**, not Briatico proper. Map these four series properly and the densest untouched part of the spine becomes searchable."
+   "note": "**Phase 7, and it follows from a trap already recorded.** Briatico and Zambrone searches keep returning arks that turn out to be **Daffinà, Sciconi or Conidoni** — separate comuni in the same circondario with their own registers. That has been a nuisance three times. **It is also an opportunity:** the generation-eight Briatico cluster — Fortunato Anile × Antonia Grasso, Giuseppe Barbuto × Saveria Lesto — is recorded at **Potenzoni and Mandaradoni**, not Briatico proper. Map these four series properly and the densest untouched part of the spine becomes searchable.",
+   "covers": [
+    "src:src/antenati-vibo-valentia-bri-af7548",
+    "src:src/antenati-catanzaro-vibo-va-b642d3"
+   ]
   },
   {
    "n": 68,
@@ -554,7 +596,10 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 7.** The A block of Scilla's annual death index has been read for **1889 to 1896** and holds neither **Francesco Antonio Arena** nor **Serafina Arlotta** — both alive at Scilla in December 1888, when he would have been sixty-nine and she fifty-eight. So they died **1897 or later**, and the series runs to 1943. Eight years read, forty-seven unread, and the index is one block per year."
+   "note": "**Phase 7.** The A block of Scilla's annual death index has been read for **1889 to 1896** and holds neither **Francesco Antonio Arena** nor **Serafina Arlotta** — both alive at Scilla in December 1888, when he would have been sixty-nine and she fifty-eight. So they died **1897 or later**, and the series runs to 1943. Eight years read, forty-seven unread, and the index is one block per year.",
+   "covers": [
+    "src:src/antenati-scilla-morti-1866-35f844"
+   ]
   },
   {
    "n": 70,
@@ -626,7 +671,10 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 9, and cheap: both endpoints are already documented.** Pietro (d. 1961), Antonino (d. 1982) and Mario (d. 1989) Crupi are new to this archive today. Brisbane City Council's register and the Catholic cemeteries endpoint will both take their surname directly. **And the adjacent-plot rule may give their wives**, the way it gave the four Mazza grandparents at Nudgee — remembering that the women will be under married names."
+   "note": "**Phase 9, and cheap: both endpoints are already documented.** Pietro (d. 1961), Antonino (d. 1982) and Mario (d. 1989) Crupi are new to this archive today. Brisbane City Council's register and the Catholic cemeteries endpoint will both take their surname directly. **And the adjacent-plot rule may give their wives**, the way it gave the four Mazza grandparents at Nudgee — remembering that the women will be under married names.",
+   "covers": [
+    "src:src/find-a-grave-nudgee-cathol-c75674"
+   ]
   },
   {
    "n": 79,
@@ -634,7 +682,10 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 9.** Trove has already produced **Brisbane Prostamo naturalisations** and Maria Assunta's gazettal of 4 July 1966 at 3 Frank Street, Graceville — both found incidentally rather than by a sweep. **Naturalisation notices give a date, a street address and a former nationality**, which for a 1949 migration is close to what an electoral roll would give and is free. Sweep all ten surnames, not just the two that turned up by accident."
+   "note": "**Phase 9.** Trove has already produced **Brisbane Prostamo naturalisations** and Maria Assunta's gazettal of 4 July 1966 at 3 Frank Street, Graceville — both found incidentally rather than by a sweep. **Naturalisation notices give a date, a street address and a former nationality**, which for a 1949 migration is close to what an electoral roll would give and is free. Sweep all ten surnames, not just the two that turned up by accident.",
+   "covers": [
+    "src:src/nara-new-york-rocco-arena--ea309f"
+   ]
   },
   {
    "n": 80,
@@ -722,5 +773,5 @@
    "label": "source"
   }
  ],
- "unreconciled": 24
+ "unreconciled": 0
 }
