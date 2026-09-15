@@ -155,8 +155,10 @@ Antenati has a "Richieste di certificati" page for exactly this.
       whole American wave.
 - [ ] **Order the manifests.** Item 9243236 (*Toscana*, 4 Oct 1949) and 30133845 (*Surriento*,
       23 Sep 1953) would give ages, occupations, destination addresses and next of kin.
-- [ ] **Who is Francesca Prostamo?** She is on the *Roma* with Francessco on 10 Oct 1957 and is not
-      in the family tree at all.
+- [x] ~~Who is Francesca Prostamo?~~ **ANSWERED, and the queue was stale.** She is FRANCESSCO'S
+      DAUGHTER — `corrections.tsv` has carried the Roma crossing with her father since before today,
+      and she is in the export as `francesca-prostamo`. She went to MELBOURNE, not Brisbane, and is
+      buried at Northern Memorial Park, Glenroy, beside Rocco Prostamo.
 - [ ] Confirm the **Napoli** against the 2 August 1906 New York manifest — FindMyPast's index gives
       the ship but not the arrival date, so the identification is not yet closed.
 
