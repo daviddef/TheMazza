@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Searched from "@daviddef/archive-kit/components/Searched.astro";
 import { u } from "../lib/url.js";
 import searched from "../data/searched.json";
 const done = searched.filter((r) => r.status === "done").map((r) => [r.when, r.source, r.scope, r.result]);
@@ -55,30 +56,14 @@ import P from "../components/P.astro";
     </div>
   </section>
 
-  <section class="blk">
-    <h2>Done</h2>
-    <div class="scroll" style="margin-top:16px">
-      <table>
-        <thead><tr><th class="m">When</th><th>What</th><th>Scope</th><th>Result</th></tr></thead>
-        <tbody>{done.map(([w, t, s, r]) => (
-          <tr><td class="m">{w}</td><td>{t}</td><td>{s}</td><td>{r}</td></tr>))}
-        </tbody>
-      </table>
-    </div>
-  </section>
-
   <section class="blk" style="border-bottom:0">
-    <h2>Not yet read</h2>
-    <p class="dek" style="margin:.7rem 0 1.2rem">No Italian civil register has been opened for this
+    <h2>Everything read, and everything still to read</h2>
+    <p class="dek" style="margin:.7rem 0 0">No Italian civil register has been opened for this
     family. That is the honest headline of this archive on the day it was built.</p>
-    <div class="scroll">
-      <table>
-        <thead><tr><th>Source</th><th>What would be looked for</th><th>Note</th></tr></thead>
-        <tbody>{notyet.map(([t, s, n]) => (
-          <tr><td>{t}</td><td>{s}</td><td>{n}</td></tr>))}
-        </tbody>
-      </table>
-    </div>
+    <Searched u={u} nil={["not-yet", "outstanding"]}
+      rows={searched.map((r) => ({
+        when: r.when, src: r.source, what: r.scope, got: r.result, outcome: r.status,
+      }))} />
     <p style="margin-top:24px"><a href={u("/open-questions/")}>The questions each of these would answer →</a></p>
   </section>
 </Base>
