@@ -23,10 +23,10 @@
   {
    "n": 3,
    "what": "Domenico Donato's own birth — Scilla, 1816 to 1818",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "He was thirty-eight in October 1855, so the act is in one of three years, and his parents are already known from the 1844 Tavola. **The cost is the problem, not the difficulty.** Scilla's birth volumes carry an annual index in some years and not others: 1853, 1856, 1859 and 1860 have one; **1817 and 1849 have none** — 1817 runs a hundred images ending on blank forms numbered 160 and 161, and 1849 ends at act 200 of 3 November. An indexed year is one image to sweep. An unindexed one is about eighty openings. This is queued honestly rather than promised."
+   "note": "**DONE, and not by the eighty-opening sweep.** The processetti had it: **Scilla, Nati 1816, atto 207 — 18 DECEMBER 1816**, declared by his father Candeloro the same day. It matches to the day the thirty-eight he is given at his son Michele's birth on 3 October 1855. This row was queued as expensive and was closed cheaply by doing row 18 first, which is the whole argument for mapping a series before sweeping it."
   },
   {
    "n": 4,
@@ -34,7 +34,7 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Two are known, Candeloro in 1847 and Michele in 1855, and eight years sit between them. Naming custom predicts a Maria for the paternal grandmother Maria Paladino and a Pasquale for the maternal grandfather Pasquale Sofi. Same indexing problem as row 3: most of those years are unindexed."
+   "note": "Two are known, Candeloro in 1847 and Michele in 1855, and eight years sit between them. Naming custom predicts a Maria for the paternal grandmother Maria Paladino and a Pasquale for the maternal grandfather Pasquale Sofi. Same indexing problem as row 3: most of those years are unindexed. **AND NOW THERE IS A SECOND REASON TO DO IT:** a child of CANDELORO DONATO in the Scilla births of 1810-1830 would settle whether Domenico's mother was **Marta** Paladino, as his birth act says, or **Maria**, as the 1844 Tavola says."
   },
   {
    "n": 5,
@@ -131,6 +131,86 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**Raised in error, by this session, and struck the same day.** The claim was that the 1854 birth had been read two ways and never re-opened. It had: `data/scilla-reads.tsv` settled it long ago. The 1854 Tavola reads «Arena Giovanni di Antonio e Arlotta ROSA, 20 April»; the act itself, act 76, says SERAFINA and says the thirtieth, and the ages close it to the month. The index is simply wrong — and worth remembering, because trusting it once produced a **false relationship**, making the boy Rocco's cousin rather than his brother. What actually remained was stale prose in [corrections](/corrections/), now fixed."
+  },
+  {
+   "n": 17,
+   "what": "Map which Scilla birth years carry an annual index, 1816 to 1865",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "One end-of-volume check per year, done once, so that every later sweep is a lookup instead of a gamble. Known so far: **1853, 1856, 1859 and 1860 have a Tavola; 1817 and 1849 have none.** Today's work would have been cheaper if this map had existed, which is the argument for building it before the next sweep rather than after."
+  },
+  {
+   "n": 18,
+   "what": "Map Scilla's marriage processetti bundles — the highest-yield document type here",
+   "state": "done",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**DONE, AND IT PAID.** Scilla's processetti bundles, never mapped before: 1817-1819 (sig 1760), 1820-1823 (1761), 1824-1827 (1762), 1832 (1764), 1840-1841 (1766) and **1842-1845 (sig 1767, ark an_ua2002480, 1935 images)** — which covers 1844. Fascicolo 20 is Domenico Donato and Nunziata Sofi, and fogli 1 and 2 are their own birth acts. See [what has been read](/searched/) and [corrections](/corrections/). The series appears to stop after 1845; 1850 and 1860 have none."
+  },
+  {
+   "n": 19,
+   "what": "Retry FamilySearch — it reaches Briatico to 1910, where Antenati stops",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-10",
+   "note": "Blocked since the archive was built by a site-wide Error 15 naming the proxy IP, never retried. It holds parish marriages Antenati lacks, and its Briatico run to 1910 would reach **Francessco Prostamo, born 16 November 1900**, who is otherwise unreachable."
+  },
+  {
+   "n": 20,
+   "what": "The 58 shared names left unmerged since the export was parsed",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-10",
+   "note": "People who share a name and were deliberately left apart rather than merged on a guess. Each needs a **documented decision** in `data/documented-joins.tsv` — merged on evidence, or held apart with the reason — not a judgement call. This is the oldest untouched data-quality item here."
+  },
+  {
+   "n": 21,
+   "what": "The nine unnamed crossings, starting with Domenica Prostamo in March 1951",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-10",
+   "note": "Nine of eighteen crossings are documented. Domenica Prostamo, March 1951, is in the index under neither Prostamo nor Mazza. Also open: Michael Antonio Polistena, 28 May 1950, and **Francesca Prostamo**, who sails on the Roma with Francessco on 10 October 1957 and is in no tree at all."
+  },
+  {
+   "n": 22,
+   "what": "How the Arneytown Polistena join the Scilla Polistena — asserted, not documented",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-11",
+   "note": "The New Jersey Polistena are connected to the Brisbane ones by assertion and nothing else. **This is the exact shape of the failure this archive has made four times** — a join that looks obvious and has no act behind it. Either document it or mark it as unproven on the page."
+  },
+  {
+   "n": 23,
+   "what": "Joseph Polistena's WWII draft card, and CEMLA for the Buenos Aires Prostamo",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-11",
+   "note": "Two cheap outside sources. The US draft registration gives Joseph's unit and his New York address. **CEMLA**, Argentina's immigration database, is the only route to the crossing behind twenty-three Argentine events that have no ship attached to them."
+  },
+  {
+   "n": 24,
+   "what": "Prepare a captioning sheet for the 133 photographs",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-10",
+   "note": "Saved before the MyHeritage links expired on 16 September and **almost entirely uncaptioned**. No record will ever supply these; only Michael and his relatives can. The archive's job is to put the most identifiable ones in front of them in a form that is easy to answer."
+  },
+  {
+   "n": 25,
+   "what": "Settle whether Domenico Donato's mother was Marta or Maria Paladino",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "His birth act of 18 December 1816 reads «e da **Mar-ta** Paladino, di anni trenta»; the 1844 marriage Tavola calls her **Maria**. The act is primary and contemporaneous, and this index series has already been caught calling Serafina Arlotta «Rosa» in 1854 — an error that briefly turned a brother into a cousin. But the same Tavola entry gets the *other* mother exactly right. Published as Marta, with the alternative on the page. **Another child of Candeloro in the Scilla births of 1810-1830 would end it.**"
+  },
+  {
+   "n": 26,
+   "what": "Map the processetti of Briatico and Piedimonte Etneo the same way",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "The method has now paid twice — Briatico 1849 broke the Calabrian line open, Scilla 1844 has just closed the Donato one. **Neither town's bundles have been mapped as a series.** Do for Briatico and Piedimonte what was done for Scilla today: list every processetti volume and the years it covers, before sweeping anything else."
   }
  ]
 }

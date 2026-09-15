@@ -168,7 +168,25 @@ def parent_of(r, col):
         fails.append(f"{r['name']}: {col} «{v}» matches {len(loose)} rows in this file — "
                      f"which one is the parent cannot be told from the name")
         return None
-    return loose[0] if loose else None
+    if loose:
+        return loose[0]
+    # Nobody. Usually fine -- most parents named in an act have no row. But a
+    # near-miss is not fine: renaming «Maria Paladino» to «Marta Paladino»
+    # silently orphaned her son's mother= and nothing said a word.
+    w = bare(v).split()
+    if len(w) >= 2:
+        def close(a, b):        # Maria / Marta share three letters; Paolo / Maria share none
+            n = min(len(a), len(b), 3)
+            return n == 3 and a[:3] == b[:3]
+        near = [x for x in rows
+                if bare(x["name"]).split()[-1:] == w[-1:]
+                and bare(x["name"]) != bare(v)
+                and x is not r
+                and close(bare(x["name"]).split()[0], w[0])]
+        if len(near) == 1:
+            fails.append(f"{r['name']}: {col} «{v}» matches no row, but «{near[0]['name']}» "
+                         f"shares the surname — a rename that left this link behind?")
+    return None
 
 def chain(r, seen=None):
     seen = seen or set()

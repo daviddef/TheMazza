@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import corrections from "../data/corrections.json";
 import additions from "../data/additions.json";
+const allRows = corrections.groups.flatMap((g) => g.rows);
+const lev = (k) => allRows.filter((r) => r.confidence === k).length;
 const absent = additions.filter((a) => a.inTree === "\u2014");
 const inTree = additions.filter((a) => a.inTree !== "\u2014");
 ---
@@ -116,19 +118,33 @@ const inTree = additions.filter((a) => a.inTree !== "\u2014");
 
   <section class="blk" style="border-bottom:0">
     <h2>How to read the confidence</h2>
+    <p class="note" style="margin-top:.6rem">Six labels, and the counts are counted rather than
+    typed — two of these were in use here for days with no entry on this list, which is its own
+    small lesson about legends written by hand.</p>
     <div class="rec" style="margin-top:16px">
       <div class="k">documented</div>
       <div class="v">A record has been read and it says this. You can open the citation and see it.</div>
-      <div class="w">24</div>
+      <div class="w">{lev("documented")}</div>
+      <div class="k">certain</div>
+      <div class="v">Established beyond doubt, but by setting <em>two</em> documents against each
+      other rather than by reading one — an original against a chancery copy, a declared age against
+      a birth act. Several of the entries above are corrections this archive made to a nineteenth-century
+      copyist, and one is a correction it made to itself.</div>
+      <div class="w">{lev("certain")}</div>
+      <div class="k">probable</div>
+      <div class="v">The best reading of an ambiguous document, with the alternative stated in the
+      row rather than hidden. Where a clerk crammed two ages into one clause, or a surname reached
+      an index garbled, this is what the reading is worth.</div>
+      <div class="w">{lev("probable")}</div>
       <div class="k">inferred</div>
       <div class="v">No record names this person, but one names someone travelling on the same day
-      or the same ship, and the inference is short.</div><div class="w">1</div>
+      or the same ship, and the inference is short.</div><div class="w">{lev("inferred")}</div>
       <div class="k">candidate</div>
       <div class="v">The best match in an index, with something still not quite right about it —
-      a spelling, an age. Probably correct. Not proved.</div><div class="w">1</div>
+      a spelling, an age. Probably correct. Not proved.</div><div class="w">{lev("candidate")}</div>
       <div class="k">flagged</div>
       <div class="v">A problem identified and deliberately <em>not</em> resolved, because resolving
-      it would need a record nobody has read yet.</div><div class="w">1</div>
+      it would need a record nobody has read yet.</div><div class="w">{lev("flagged")}</div>
     </div>
     <p class="note" style="margin-top:22px">The full reasoning for each of these sits on the page it
     came from — <a href={u("/scilla/")}>Scilla</a> for the Calabrian registers,
