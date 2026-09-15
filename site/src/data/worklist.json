@@ -214,19 +214,19 @@
   },
   {
    "n": 27,
-   "what": "Test the Pinnaroo Lawn Donato against the Queensland death index",
-   "state": "next",
+   "what": "Test the Pinnaroo Donato against the Queensland index — done: named like us, not of us",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "Brisbane City Council's register holds a Donato family at Pinnaroo Lawn carrying **the two rarest names in this line**: «Gregory **CANDELORO** Donato» (1941-2025), «Donato **CENDELORD**» (d. 1968 at 52) — the same garbling habit that turned Nicotra into Lecota — and «Donato **ANNUNZIATO**» (d. 1954 at 66). Candeloro is the Scilla grandfather born about 1783 and his grandson born 1847; Annunziata is Nunziata Sofi. **The export contains no Candeloro at all.** This is precisely the shape of a join this archive has got wrong four times, so it stays a lead. The Queensland death index names parents and would settle it."
+   "note": "**Tested, and the answer is no — or at least, not provably.** The Queensland index documents the whole family: **Annunziato Donato and Concetta Briganti** had five children registered in Brisbane — Rocco 1912, Concetto 1913, Peppino 1914, **Candeloro 1915**, Nunzio 1917 — and four of their deaths repeat the same parents. **And Annunziato's own death of 28 February 1954 names his parents: ROCCO DONATO and CONCETTA ROMANO** — not Michele Donato and Maria Sofi. So the Pinnaroo Candeloro is a *Rocco's* grandson, not this line's. The names stay suggestive and that is all: Candeloro, Annunziato, Rocco, Nunzio and Concetto are exactly the Scilla Donato pool, and **Concetta Romano** carries a surname this archive has already met at Scilla. A cousin line is plausible. **A documented link is absent**, and this is the join this archive has got wrong four times. Closed as a lead that did not hold rather than left hanging."
   },
   {
    "n": 28,
-   "what": "Test Mario and Maria Mazza of Mount Gravatt against the Queensland death index",
-   "state": "next",
+   "what": "Mario and Maria Mazza of Mount Gravatt — outside the index's reach",
+   "state": "blocked",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Mario Mazza (1921-2015) and Maria Mazza (1931-2014) share plot Mon 3H 104** at Mount Gravatt — a married pair by the adjacent-plot rule that found the four Mazza grandparents lying in a row at Nudgee. Neither is in Michael's export, which holds no Mazza born 1921 or 1931. Mazza is a common Sicilian name and nothing yet connects them to Piedimonte Etneo. Their death registrations would name their parents."
+   "note": "**Cannot be tested here.** Queensland's public death index **stops at 1996**, and Mario Mazza died in **2015**, Maria in **2014**. The Mario Mazza who does appear died in 1986 and is a different man, son of Rosario Mazza and Rosa Grasso. So the shared-plot lead at Mount Gravatt is **neither confirmed nor refuted** — it is simply out of the index's coverage. The routes that remain are a death certificate ordered from the registrar, or Michael's own knowledge. Recorded as blocked rather than quietly dropped."
   },
   {
    "n": 29,
@@ -383,10 +383,10 @@
   {
    "n": 48,
    "what": "AUSTRALIA — sweep Queensland BDM for every family surname, not just leads",
-   "state": "next",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 4.** The BDM download endpoint returns the whole result set as CSV with **parents' names included**, and this archive has used it for twenty-five targeted lookups. Sweep it properly: Mazza, Prostamo, Polistena, Arena, Donato, Melluso, Nicotra, Crupi, Cavallaro, Anile, Barbuto — births, deaths and marriages. It is one GET per surname and it would test rows 27 and 28 in the same pass."
+   "note": "**Phase 4.** The BDM download endpoint returns the whole result set as CSV with **parents' names included**, and this archive has used it for twenty-five targeted lookups. Sweep it properly: Mazza, Prostamo, Polistena, Arena, Donato, Melluso, Nicotra, Crupi, Cavallaro, Anile, Barbuto — births, deaths and marriages. It is one GET per surname and it would test rows 27 and 28 in the same pass. **STARTED, and it paid immediately.** Donato, Mazza and Crupi swept. The Crupi sweep found **three brothers of Angela Crupi** — Pietro (d. 1961), Antonino (d. 1982) and Mario (d. 1989) — all registering the same parents as she does. This archive knew one Crupi; there were four. **One practical note:** the endpoint 403s to curl and must be fetched from the site's own origin in the browser."
   },
   {
    "n": 49,

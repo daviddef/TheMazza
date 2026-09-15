@@ -464,8 +464,8 @@
   "father": "—",
   "mother": "—",
   "inTree": "—",
-  "source": "Queensland death registration 1973/B/38514",
-  "note": "Angela Mazza's father, named only because his daughter's Queensland death registration names him. Not in the family tree."
+  "source": "Queensland death registrations 1973/B/38514, 1961/B/45635, 1982/52783, 1989/57278",
+  "note": "ANGELA CRUPI'S FATHER. Named only because his children's Queensland death registrations name him -- and as of today there are FOUR of them, not one. Angela (d. 1973), PIETRO (d. 1961), ANTONINO (d. 1982) and MARIO (d. 1989) all register the same two parents, FRANCESCO CRUPI and MARIA VECCHIO. A whole Sicilian sibling group in Brisbane, of which this archive knew one. Not in the family tree."
  },
  {
   "name": "Maria Vecchio",
@@ -477,8 +477,8 @@
   "father": "—",
   "mother": "—",
   "inTree": "—",
-  "source": "Queensland death registration 1973/B/38514",
-  "note": "Angela Mazza's mother. Not in the family tree."
+  "source": "Queensland death registrations 1973/B/38514, 1961/B/45635, 1982/52783, 1989/57278",
+  "note": "ANGELA CRUPI'S MOTHER, and named in FOUR of her children's Queensland death registrations -- Angela's, Pietro's, Antonino's and Mario's. Not in the family tree."
  },
  {
   "name": "Candeloro Donato (b. 1847)",
@@ -596,5 +596,44 @@
   "inTree": "—",
   "source": "Zambrone, Matrimoni 1824, atto 2",
   "note": "CATERINA CICHELLO'S MOTHER, «la fu Vittoria Mollo» in her daughter's marriage act of 1824. Entirely new. NOTE THE SURNAME: a MOLLO appears twice more in the Zambrone marriages of these years -- Pasquale Piatto's mother is an Anna Mollo in 1823 -- so the Mollo were a Zambrone family and she was probably local."
+ },
+ {
+  "name": "Pietro Crupi",
+  "gen": "—",
+  "born": "—",
+  "bornNote": "Not yet sought. Sicilian-born, like his sister, who was born at Catania in 1900.",
+  "died": "18 July 1961",
+  "trade": "—",
+  "father": "Francesco Crupi",
+  "mother": "Maria Vecchio",
+  "inTree": "—",
+  "source": "Queensland death registrations 1961/B/45635, 1982/52783, 1989/57278",
+  "note": "ANGELA CRUPI'S BROTHER, and new to this archive. His Queensland death registration of 1961 names FRANCESCO CRUPI and MARIA VECCHIO -- the same parents as hers. Angela married Rosario Mazza and lies at Nudgee; her brothers were in Queensland too, and nobody here knew it."
+ },
+ {
+  "name": "Antonino Crupi",
+  "gen": "—",
+  "born": "—",
+  "bornNote": "Not yet sought. Sicilian-born, like his sister, who was born at Catania in 1900.",
+  "died": "15 April 1982",
+  "trade": "—",
+  "father": "Francesco Crupi",
+  "mother": "Maria Vecchio",
+  "inTree": "—",
+  "source": "Queensland death registrations 1961/B/45635, 1982/52783, 1989/57278",
+  "note": "A SECOND BROTHER OF ANGELA CRUPI, same parents on the registration. An Antonino Crupi marries in Queensland on 24 August 1940, very likely him."
+ },
+ {
+  "name": "Mario Crupi",
+  "gen": "—",
+  "born": "—",
+  "bornNote": "Not yet sought. Sicilian-born, like his sister, who was born at Catania in 1900.",
+  "died": "17 September 1989",
+  "trade": "—",
+  "father": "Francesco Crupi",
+  "mother": "Maria Vecchio",
+  "inTree": "—",
+  "source": "Queensland death registrations 1961/B/45635, 1982/52783, 1989/57278",
+  "note": "A THIRD BROTHER OF ANGELA CRUPI, same parents again. A «Mariano Crupi» marries on 31 January 1940 -- the two names are interchangeable in this index."
  }
 ]

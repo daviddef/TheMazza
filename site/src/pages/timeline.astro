@@ -46,7 +46,7 @@ for (const r of qld) {
   add(yearOf(r.date), "Brisbane",
       `${r.name} — ${r.type}`,
       `Queensland register ${r.reg}`, "documented",
-      r.who ? `/people/${r.who}/` : null);
+      r.who && r.who !== "\u2014" ? `/people/${r.who}/` : null);
 }
 
 for (const s of ships) {
