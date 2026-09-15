@@ -230,11 +230,11 @@
   },
   {
    "n": 29,
-   "what": "Giuseppe Ventrice × Caterina Cichello's marriage — not at Briatico 1822–27",
-   "state": "blocked",
+   "what": "Giuseppe Ventrice × Caterina Cichello's marriage — now looking in the Zambrone book",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Six years read complete and negative.** Briatico 1822 through 1827 — twenty-four marriages, not one Ventrice, and **1827 had none at all**, its Tavola ruled and empty. **The window that remains is exact:** Briatico **1816–1821**, whose volumes are downloaded and whose containers are recorded — but those years end on ACTS, not an index, so they cost about seventy images instead of six. Or **Zambrone**, which is where his father Domenico Ventrice died in 1815 and therefore where the family was. Zambrone first: it is the cheaper guess and the better one."
+   "note": "**Briatico 1822–27 read complete and negative** — twenty-four marriages, not one Ventrice, and 1827 had none at all. **Now at Zambrone, and the Ventrice are there:** image 50 of its marriage book, an act of January 1830, names a bride «Serafina VENTRICE». **The book is one volume for forty-seven years** — Zambrone Matrimoni **1811–1858**, `an_ua37928578`, 253 images, about five a year. Calibrated: image 10 = 1822, image 30 = 1825, image 50 = 1830, so the whole window to 1830 is the first fifty images. Downloading now. **A correction to make out loud:** I said earlier today that Zambrone had no marriage registers for 1816–24. That was wrong, and the reason is worth keeping — its volumes are filed under their START year, 1811, and my probes began at 1816, so they returned nothing."
   },
   {
    "n": 30,
@@ -243,6 +243,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**The cheapest thing on this board, by a distance.** Briatico's marriage volumes are six to thirteen images and **every one carries an annual Tavola naming BOTH SETS OF PARENTS** — «Nomi e cognomi dei Sposi | PATRIA | Nomi e cognomi de' genitori | Giorno della celebrazione». So a whole year, with four parents per couple, costs **one image**. The arks are sequential — ark(Y) = an_ua87654 + (Y − 1840), now confirmed backwards to 1823 — so the entire series of forty-odd years could be read for about forty images. Marriages run three to five a year; the whole of Briatico's nineteenth century is perhaps two hundred couples. That is small enough to read **all of it** and stop guessing which year to open."
+  },
+  {
+   "n": 31,
+   "what": "Check whether Zambrone's deaths really are missing 1813–1821",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "This archive has recorded for days that **Zambrone's Morti are missing 1813–1821** — one of its four established walls. But the series listing shows a death volume **`an_ua37932358`, Zambrone Morti 1811–1839**, one book covering the whole span, and a second at 1811–1840. Either the gap is inside that volume, or the wall was established against the wrong ark. **Open it and find out** — Domenico Ventrice died at Zambrone in January 1815, and his act would be in exactly the missing years."
   }
  ]
 }
