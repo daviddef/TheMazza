@@ -828,6 +828,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**Migrated from QUEUE.md.** Scilla's births begin in 1816, so a birth about 1835 is **inside the run** and reachable. He is the oldest Polistena this archive has, and the Polistena quarter is the thinnest of the four — the surname returns **nothing at all** in the Queensland index and has no documented ancestor above him."
+  },
+  {
+   "n": 97,
+   "what": "Guard the searched.tsv key column — appending a row silently corrupts it",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Raised because I broke it twice in one session.** `data/searched.tsv` gained a `key` first column from another session, and `build_searched.py` deliberately **never recomputes it** — the docstring says why: hand-added keys were once wiped and the gate then reported «nothing outstanding» for an archive with twenty-four outstanding searches. **But nothing stops a session appending a row in the old five-column shape.** I did, twice, and every field shifted one place right: `part` landed in `key`, a date landed in `status`, and the rows became invisible to the gate that exists to count them. **A checker should refuse a row whose key is empty or does not match `src/<slug>-<6 hex>`**, and refuse a status outside the vocabulary — which has drifted to **seven values**: done, outstanding, not-yet, part, superseded, correction, wall. Some of those I invented myself without declaring them."
   }
  ],
  "accounts": [
