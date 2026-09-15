@@ -1,5 +1,72 @@
 # Research queue
 
+**Current as of 15 September 2026.** Everything below the horizontal rule is the queue as it stood
+on 10 September, the day the archive was built; much of it is now answered and it is kept for the
+record. This top section is the live one.
+
+## Walls — established, not guesses
+
+These are closed. Each was established by reading until the absence was provable, and each is
+recorded in `data/searched.tsv` with the years actually read.
+
+- **Messina — civil registration begins in 1820.** Probed 1815, 1819, 1820, 1821, 1825, 1840 across
+  the whole province: nothing before 1820, 366 volumes in 1820. Sicily had no Napoleonic period, so
+  the series starts with the restoration and starts late. **Michele Donato was born at Messina about
+  1814 and his parents married before that, so both are pre-civil.** Parish records, Archdiocese of
+  Messina, not on Antenati. *Candeloro Donato is where the Scilla line stops.*
+- **And the comune of Messina itself appears in no year read** — not 1820, not 1840 — though the
+  archive's own series list claims 1069 volumes. Probably the earthquake of 28 December 1908.
+  **TO CONFIRM rather than assume.**
+- **Pizzo — registers begin in 1823.**
+- **Pizzo 1837 cholera register — not digitised.** Only its index survives, acts 209–325; act 327 is
+  two past the end. Physically: Archivio di Stato di Vibo Valentia / Catanzaro.
+- **Zambrone — the Morti volume is missing 1813–1821.**
+- **Briatico — nothing at all for 1862.**
+- **Piedimonte Etneo Morti 1880 act 122 (Mazza Gaetano) — indexed but not filmed.**
+
+## Open — Scilla, and reachable
+
+Scilla's civil registration begins in 1816, so unlike Messina these are all in principle findable.
+
+- [ ] **Domenico Donato's own birth**, Scilla, about 1817. He was thirty-eight in October 1855.
+      The first generation above him that a civil register could still hold.
+- [ ] **Pasquale Sofi × Maria de Amico's marriage**, before about 1818 — marginal, given 1816.
+- [ ] **The other children of Domenico Donato and Nunziata Sofi**, Scilla Nati 1845–1860. Two are
+      known — Candeloro (1847) and Michele (1855) — and the gap between them is eight years.
+- [ ] **Scilla Matrimoni 1844, the rest of the Tavola.** Entry 17 gave the Donato marriage; the
+      other entries are unread and this family married within the town.
+- [ ] **Scilla 1842** (`an_ua2002583` / `Lpp8dGV`) — the last unread year of the old window.
+- [ ] **Scilla 1878.**
+- [ ] **RE-READ: Scilla Nati 1854.** Two readings disagree and both are published. An index line was
+      read as *20 April 1854, act 1, mother Rosa Arlotta*; the act itself as *act 76, 30 April 1854,
+      mother Serafina Arlotta*. The direct read is the authority and the index line has never been
+      re-opened. Settle it.
+
+## Open — Briatico, Zambrone, Piedimonte
+
+- [ ] **Briatico Matrimoni 1843–1849 and 1853–1858.**
+- [ ] **Zambrone Nati 1811–1839** (`an_ua37932933` / `58eYlXd`) — map the coverage first.
+- [ ] **Piedimonte Etneo Morti 1881–1890** — Mariano Mazza. Seven years already closed.
+- [ ] **Piedimonte Etneo Matrimoni about 1870** — Rosario Mazza's marriage, which would name
+      Mariano with an age and a wife. Still the keystone for that quarter.
+
+## Open — Australia
+
+- [ ] **Mount Gravatt burial records.**
+- [ ] **Trove: the Brisbane Italian community, and the 1942 internments.** Worked through the web UI
+      so far, which is flaky. *An API key would make this much better — asked David 15 Sep.*
+- [ ] **Geneanet Premium** — 897 Piedimonte Mazza behind the paywall.
+
+## Housekeeping
+
+- [ ] **`data/documented-joins.tsv` and `data/corrections.tsv` have no checker.** `check_additions.py`
+      found six false claims the moment it existed; these two files are still unvalidated.
+- [ ] **Three `~` rows in the surname/generation scan** are siblings and expected, but the scan is
+      not wired into the build.
+- [ ] The photographs are still almost entirely uncaptioned.
+
+---
+
 Updated 10 September 2026, the day the archive was built.
 
 ## Done
