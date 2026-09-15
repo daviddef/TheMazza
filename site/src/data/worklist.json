@@ -470,11 +470,11 @@
   },
   {
    "n": 59,
-   "what": "Find the SECOND copy of Zambrone's deaths for 1813–1821",
-   "state": "next",
-   "owner": "this archive",
+   "what": "The second copy of Zambrone's 1813–1821 deaths — and it is probably at the comune, not on film",
+   "state": "blocked",
+   "owner": "David",
    "since": "2026-09-15",
-   "note": "**The gap is in one copy, and there were always two.** Under the Napoleonic and Bourbon codes every act was written twice — one register kept by the comune, one sent to the tribunale. **The chancery certified a copy of Domenico Ventrice's 1815 death act in 1849**, so in 1849 that act still existed somewhere, and it was not in the volume Antenati has digitised. Look for the tribunale series: FamilySearch's «Vibo Valentia, Civil Registration (Tribunale)» is indexed from 1861, but the earlier court copies may exist unindexed or on film. This is the only route left to Domenico's own act — and it would settle Anna Fama against Anna Maropoli, and reach Paolo Ventrice. **AND IT IS NOW CARRYING FOUR PEOPLE, NOT ONE.** Domenico Ventrice (d. Jan 1815), Anna Maropoli, Francesco Cichello and Vittoria Mollo all died inside the missing years. The second copy is the only route to any of them."
+   "note": "**Reframed, and the reframing changes who can do it.** Under the Napoleonic and Bourbon codes every act was written **twice**: one register kept by the **comune**, one sent to the **tribunale**, and the tribunale's copies are what ended up in the Archivio di Stato. **Antenati digitises the Archivio di Stato.** This volume's own manifest says so — «Archivio di Stato di Catanzaro › Stato civile napoleonico › Zambrone › 1811-1839». So the nine missing years are missing **from the court's copy**, and the copy that may still survive is **the Comune di Zambrone's own**, in its Ufficio di Stato Civile. **That is corroborated by the fact that the act existed in 1849**, when the chancery certified a copy of Domenico Ventrice's death for a marriage at Briatico. Something was still being copied from, thirty-four years after he died. **So this is a letter, not a search** — an enquiry to the Comune di Zambrone, and it is the only route to four people: Domenico Ventrice, Anna Maropoli, Francesco Cichello and Vittoria Mollo. *Noted while checking: FamilySearch's catalogue was erroring out («Something Went Wrong») on 15 September, so the film holdings for Zambrone have NOT been ruled out and should be re-checked when it is back.*"
   },
   {
    "n": 60,
@@ -483,6 +483,14 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**Done for the years that matter, and negative.** The Tavole of 1822 (image 51), 1823 (65) and 1824 (78) name everyone who died at Zambrone in those years **with their parents**, and **neither Francesco Cichello nor Vittoria Mollo is among them** — nor Anna Maropoli. All three were already dead by March 1824, so **all three almost certainly died inside the missing 1813–1821**, behind the same gap as Domenico Ventrice. Four wanted people, one gap. **What it did settle:** Maropoli appears twice more in these three years, including an infant Giuseppe Maropoli dead 23 March 1824. The surname is unmistakably local. 1825–1839 remain unread but no longer urgent."
+  },
+  {
+   "n": 61,
+   "what": "Re-check FamilySearch's catalogue for Zambrone when it is working",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Small and specific. The catalogue UI returned «Something Went Wrong» for every query on 15 September, and its JSON endpoint accepts `q.place` but ignores it, returning two million hits. So **the film holdings for Zambrone have not actually been ruled out** — only failed to be checked. Retry, and look specifically for a Zambrone or Monteleone *stato civile* film covering 1813–1821, before concluding that row 59's letter is the only route."
   }
  ]
 }
