@@ -488,7 +488,7 @@
    "state": "blocked",
    "owner": "David",
    "since": "2026-09-15",
-   "note": "**Phase 6.** Beyond the photographs in row 24, there are four things no record will settle: whether the Brisbane **Donato of Pinnaroo** carrying the name Candeloro are kin; whether **Mario and Maria Mazza** of Mount Gravatt are; what the family calls the **Buenos Aires Prostamo**; and which of the **58 shared names** are one person. A short list of specific questions, with the evidence beside each, is worth more than another month of registers."
+   "note": "**Phase 6.** Beyond the photographs in row 24, there are four things no record will settle: whether the Brisbane **Donato of Pinnaroo** carrying the name Candeloro are kin; whether **Mario and Maria Mazza** of Mount Gravatt are; what the family calls the **Buenos Aires Prostamo**; and which of the **58 shared names** are one person. A short list of specific questions, with the evidence beside each, is worth more than another month of registers. **A fifth question now:** who was **Venero Crupi**, born 1935 and buried at Nudgee in December 2023 — the only Crupi in either Brisbane register, and Angela Crupi had three brothers here nobody in this archive knew about until today."
   },
   {
    "n": 58,
@@ -673,13 +673,14 @@
   },
   {
    "n": 78,
-   "what": "AUSTRALIA — find the Crupi brothers' graves",
-   "state": "next",
+   "what": "Find the Crupi brothers' graves — not in either Brisbane register",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 9, and cheap: both endpoints are already documented.** Pietro (d. 1961), Antonino (d. 1982) and Mario (d. 1989) Crupi are new to this archive today. Brisbane City Council's register and the Catholic cemeteries endpoint will both take their surname directly. **And the adjacent-plot rule may give their wives**, the way it gave the four Mazza grandparents at Nudgee — remembering that the women will be under married names.",
+   "note": "**Searched both registers, wildcards included, and they are in neither.** Brisbane City Council returns **zero** Crupi across its nine cemeteries. The Catholic Archdiocese returns **exactly one**, and it is none of the three: **Venero Crupi, born 14 October 1935, died 4 December 2023, Nudgee plot LA-3299**. So Pietro, Antonino and Mario are buried somewhere neither register covers — and their death registrations carry no country code, so they died in the Brisbane district, which makes the absence stranger rather than less. **Venero is left as a lead and nothing more.** Venero is a Catania name and Angela Crupi was born at Catania in 1900, so he fits the family's origin exactly — and fitting an origin is not a descent. He died in **December 2023**, well within living memory. **That makes him a question for Michael rather than for an index**, and it belongs with row 57.",
    "covers": [
-    "src:src/find-a-grave-nudgee-cathol-c75674"
+    "src:src/find-a-grave-nudgee-cathol-c75674",
+    "src:src/brisbane-cemeteries-the-thre-84138d"
    ]
   },
   {
