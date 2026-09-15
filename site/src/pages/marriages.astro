@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import Marriages from "@daviddef/archive-kit/components/Marriages.astro";
+import EraTimeline from "@daviddef/archive-kit/components/EraTimeline.astro";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
 import families from "../data/families.json";
@@ -165,6 +166,13 @@ const nCouples = (() => {
   return seen.size;
 })();
 const counts = Object.fromEntries(GROUPS.map((g) => [g.key, ALL.filter((x) => x.key === g.key).length]));
+
+/* No marriage dates in this archive's data, so the dots are births — the
+   people it can date — and the caption says so rather than letting a reader
+   assume they are weddings. */
+const timelinePoints = people.filter((x) => !hidden(x) && x.born && /\d{4}/.test(String(x.born)))
+  .map((x) => ({ label: x.name, year: String(x.born), sub: x.birthPlace ? x.birthPlace.split(",")[0] : undefined }));
+
 ---
 <Base title="The Marriages"
       eyebrow={`${nCouples} couples · ${bySurname.size} families · ${nNamed} people named`}
@@ -188,6 +196,13 @@ const counts = Object.fromEntries(GROUPS.map((g) => [g.key, ALL.filter((x) => x.
     a family shows <em>no named people at all</em>, every person the archive holds for that surname
     is living.</p>
   </div>
+
+  <EraTimeline points={timelinePoints}
+    eras={[[1800,1861,"Kingdom of the Two Sicilies","--r-venice"],[1861,1946,"Kingdom of Italy","--r-habsburg"],
+           [1946,2000,"Republic","--r-italy"]]}
+    marks={[[1860,"Garibaldi lands in Sicily"],[1908,"The Messina earthquake"],
+            [1928,"Etna buries Mascali"],[1954,"The family reaches Brisbane"]]}
+    what={`Each dot is a person at the year of their BIRTH, not a marriage — this archive holds no marriage dates, and ${timelinePoints.length} of its people carry a year. Living people are not plotted.`} />
 
   <Marriages u={u} groups={GROUPED} openAt={8} subject="Mazza"
     metrics={[{ n: nCouples, label: "couples" }, { n: bySurname.size, label: "families" },
