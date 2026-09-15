@@ -636,10 +636,10 @@
   {
    "n": 74,
    "what": "STRUCTURE — a page for the four walls, now that all four are established",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 8, and the archive has earned it.** Every quarter now stops at a named person for a stated reason: **Filippo Arena** (marriage pre-1816, parish only), **Candeloro Donato** (born pre-1816; his son born at Messina, which starts in 1820), **Pasquale Prostamo** (Pizzo begins 1823), and **Domenico Ventrice** (died 1815, inside Zambrone's nine missing years). Four walls, four different causes, each established by reading rather than assumed from silence. **That is a finding and it currently exists only scattered across four data files.**"
+   "note": "**Done.** `data/walls.tsv` and a section on /lines: four quarters, four walls, four different causes, each with the evidence that established it and the route that remains. **Filippo Arena** — four complete years of Scilla marriages read, eighty acts, to prove an absence. **Candeloro Donato** — a province probed year by year to find registration starting in 1820. **Pasquale Prostamo** — Pizzo begins 1823. **Domenico Ventrice** — a volume opened to find nine years physically missing between two images. The page says the thing that matters: **a wall established by reading is a finding; a wall assumed from silence is a shrug**, and the difference is most of what this archive is for."
   },
   {
    "n": 75,

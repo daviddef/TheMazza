@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import quarters from "../data/quarters.json";
 import documented from "../data/documented-line.json";
+import walls from "../data/walls.json";
 const anchors = Object.entries(documented).sort((a, b) => b[1].up.length - a[1].up.length);
 const beyond = anchors.reduce((n, [, v]) => n + v.up.length, 0);
 const below = anchors.reduce((n, [, v]) => n + (v.down || []).length, 0);
@@ -45,6 +46,39 @@ const below = anchors.reduce((n, [, v]) => n + (v.down || []).length, 0);
       </div>
     ))}
   </div>
+
+  <section class="blk" style="margin-top:20px">
+    <div class="lab">Where each quarter stops, and why</div>
+    <h2 style="margin-top:.4rem">Four walls, four different reasons</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Every one of these lines ends at a named person, and <strong>none of them ends because
+      nobody looked</strong>. Each wall below was established by reading until the absence was
+      provable — four complete years of marriages here, a province probed year by year there, a
+      volume opened to find nine years physically missing. <strong>A wall established by reading is a
+      finding. A wall assumed from silence is a shrug</strong>, and the difference is most of what
+      this archive is for.</p>
+    </div>
+    <div class="stack" style="margin-top:26px">
+      {walls.map((w) => (
+        <div>
+          <div class="linerow">
+            <div>
+              <div class="lab">{w.quarter}</div>
+              <div style="font-size:24px;line-height:1.2;margin-top:8px">{w.person}</div>
+              <div class="mono" style="margin-top:6px;color:var(--ink-3)">{w.born} · {w.town}</div>
+              <div class="mono" style="margin-top:10px;color:var(--ink-3);font-size:11px">established {w.established}</div>
+            </div>
+            <div>
+              <p style="margin:0 0 10px;font-weight:600">{w.reason}</p>
+              <p class="small" style="margin:0 0 10px;color:var(--ink-2);line-height:1.6">{w.evidence}</p>
+              <div class="lab" style="margin-top:12px">what is left</div>
+              <p class="small" style="margin:4px 0 0;color:var(--ink-2)">{w.route}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
 
   <section class="blk" style="margin-top:20px">
     <div class="lab">Where the chart stops and the evidence does not</div>
