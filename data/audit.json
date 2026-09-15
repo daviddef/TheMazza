@@ -3,7 +3,7 @@
   "exported": 614,
   "people": 592,
   "duplicates": 22,
-  "unresolvedNames": 58,
+  "unresolvedNames": 57,
   "suppressLiving": false,
   "living": 0,
   "presumedLiving": 411,
@@ -232,10 +232,9 @@
  "unresolved": [
   {
    "name": "Domenica Prostamo",
-   "copies": 3,
+   "copies": 2,
    "ids": [
     "@I197@",
-    "@I205@",
     "@I3@"
    ],
    "why": "same name, no shared date and no shared family — left as separate people"
@@ -293,9 +292,8 @@
   },
   {
    "name": "Rosario Mazza",
-   "copies": 5,
+   "copies": 4,
    "ids": [
-    "@I22@",
     "@I23@",
     "@I37@",
     "@I493@",
@@ -553,11 +551,10 @@
   },
   {
    "name": "Giuseppe Prostamo",
-   "copies": 5,
+   "copies": 4,
    "ids": [
     "@I179@",
     "@I196@",
-    "@I204@",
     "@I300@",
     "@I326@"
    ],
@@ -580,15 +577,6 @@
     "@I192@",
     "@I228@",
     "@I335@"
-   ],
-   "why": "same name, no shared date and no shared family — left as separate people"
-  },
-  {
-   "name": "Giuseppa Melluso",
-   "copies": 2,
-   "ids": [
-    "@I194@",
-    "@I202@"
    ],
    "why": "same name, no shared date and no shared family — left as separate people"
   },

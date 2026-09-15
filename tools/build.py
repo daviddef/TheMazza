@@ -437,6 +437,21 @@ for _j in DOCUMENTED_JOINS:
         LOOSE_WHY[frozenset((a2, b2))] = "documented join — " + _j["evidence"][:160] + "…"
         union(a2, b2)
 
+# The unresolved list above was computed BEFORE the documented joins ran, so it
+# still named both sides of merges that have since been made — «Giuseppa
+# Melluso» was listed as an open question when her whole cluster was the two ids
+# a documented join had already united. Recompute it now that every merge, rule
+# and argument alike, has been applied.
+_before = len(unresolved)
+_re = []
+for _u in unresolved:
+    _roots = sorted({find(i) for i in _u["ids"] if i in I})
+    if len(_roots) > 1:
+        _re.append({**_u, "copies": len(_roots), "ids": _roots})
+if len(_re) != _before:
+    print(f"  unresolved shared names: {_before} -> {len(_re)} after the documented joins")
+unresolved = _re
+
 clusters = collections.defaultdict(list)
 for x in I:
     clusters[find(x)].append(x)

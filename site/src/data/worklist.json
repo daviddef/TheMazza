@@ -159,10 +159,10 @@
   {
    "n": 20,
    "what": "The 58 shared names left unmerged since the export was parsed",
-   "state": "next",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-10",
-   "note": "People who share a name and were deliberately left apart rather than merged on a guess. Each needs a **documented decision** in `data/documented-joins.tsv` — merged on evidence, or held apart with the reason — not a judgement call. This is the oldest untouched data-quality item here."
+   "note": "People who share a name and were deliberately left apart rather than merged on a guess. Each needs a **documented decision** in `data/documented-joins.tsv` — merged on evidence, or held apart with the reason — not a judgement call. This is the oldest untouched data-quality item here. **STARTED:** `data/audit.json` turned out to be computed BEFORE the documented joins ran, so it named both sides of merges already made — «Giuseppa Melluso» was published as an open question when her whole cluster was two ids a join had united. `tools/build.py` now recomputes it after every merge: **58 → 57**, and three other clusters shrank."
   },
   {
    "n": 21,
@@ -230,11 +230,19 @@
   },
   {
    "n": 29,
-   "what": "Giuseppe Ventrice × Caterina Cichello's marriage — Briatico or Zambrone, before mid-1827",
+   "what": "Giuseppe Ventrice × Caterina Cichello's marriage — not at Briatico 1823–27; try Zambrone",
+   "state": "blocked",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Five years read complete and negative.** Briatico 1823, 1824, 1825, 1826 and 1827 — nineteen marriages, not one Ventrice, and **1827 had none at all**, its Tavola ruled and empty. **The negative points where to go next:** Giuseppe Ventrice died at Briatico in 1831, but his father Domenico died at **ZAMBRONE** in 1815. They were a Zambrone family that moved. Try Zambrone's marriages, or Briatico before 1823, or accept that Giovanna was not the first child. Blocked only in the sense that the next volume has to be located. See [what has been read](/searched/)."
+  },
+  {
+   "n": 30,
+   "what": "Sweep the whole Briatico marriage series 1816–1858 from its Tavole",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The next rung of the Calabrian ladder, and the reason the Briatico processetti were mapped today. Their daughter Giovanna was born 23 June 1828, so the marriage is before that. **Their bundle would carry Giuseppe's own birth act (about 1795), Caterina Cichello's, HER PARENTS — a couple this archive has never had — and very possibly the death of PAOLO VENTRICE**, who exists here as a name and nothing else. Briatico's 1824 and 1826 bundles are downloaded and have no cover sheets, so find the act number in the marriage register first."
+   "note": "**The cheapest thing on this board, by a distance.** Briatico's marriage volumes are six to thirteen images and **every one carries an annual Tavola naming BOTH SETS OF PARENTS** — «Nomi e cognomi dei Sposi | PATRIA | Nomi e cognomi de' genitori | Giorno della celebrazione». So a whole year, with four parents per couple, costs **one image**. The arks are sequential — ark(Y) = an_ua87654 + (Y − 1840), now confirmed backwards to 1823 — so the entire series of forty-odd years could be read for about forty images. Marriages run three to five a year; the whole of Briatico's nineteenth century is perhaps two hundred couples. That is small enough to read **all of it** and stop guessing which year to open."
   }
  ]
 }
