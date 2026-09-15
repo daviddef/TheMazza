@@ -1757,7 +1757,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 3,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1793,7 +1793,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1829,7 +1829,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 6,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1857,7 +1857,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -9508,7 +9508,7 @@
     "name": "Antonio Polistena",
     "slug": "antonio-polistena-2",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I125@",
@@ -9663,14 +9663,14 @@
     "name": "Michele Donato",
     "slug": "michele-donato",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I123@",
     "name": "Maria Sofi",
     "slug": "maria-sofi",
     "living": false,
-    "via": "tree"
+    "via": "read"
    }
   ],
   "children": [
@@ -9841,7 +9841,7 @@
     "name": "Nunnziata Donato",
     "slug": "nunnziata-donato",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I259@",
@@ -9934,7 +9934,7 @@
     "name": "Nunnziata Donato",
     "slug": "nunnziata-donato",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I259@",
@@ -10021,7 +10021,7 @@
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I138@",
@@ -16567,7 +16567,7 @@
     "name": "Pasquale Prostamo",
     "slug": "pasquale-prostamo",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I222@",
@@ -16714,7 +16714,7 @@
     "name": "Antonino Prostamo",
     "slug": "antonino-prostamo-1785",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I500002@",
@@ -29391,7 +29391,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29427,7 +29427,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 10,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29609,7 +29609,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 7,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -29652,7 +29652,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 9,
+  "comp": 8,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,

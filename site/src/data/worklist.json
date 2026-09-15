@@ -326,11 +326,11 @@
   },
   {
    "n": 41,
-   "what": "SCILLA — the Polistena and Pontillo couples of generations five and six",
+   "what": "SCILLA — the Pontillo above Giovanna: three more ancestors resting on a contradicted surname",
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 3.** Antonio Polistena × Giovanna Pontillo (g5), and Giuseppi Pontillo × Nunziatta Pontillo (g6) — a Pontillo marrying a Pontillo, which is either a real cousin marriage or a transcription error and should be settled. Note the archive has already proved the tree wrong once on this surname: Giovanni Polistena's mother is **Romano**, not Pontillo, on two independent documents."
+   "note": "**Sharpened, and it is the same shape as the Orazio Arena problem just resolved.** The tree gives Giovanni Polistena's mother as **Giovanna Pontillo**. Two independent records call her **Giovanna ROMANO** — Scilla Nati 1883 atto 206, and the New Orleans manifest of 1908 taken from his own statement at twenty-four, half a world away. This is the oldest resolved conflict in the archive. **The edge to her is kept**, because she is almost certainly the same woman under a wrong surname rather than a different person. **What is not safe is what sits above her:** if she is a Romano, then **Giuseppi Pontillo and Nunziatta Pontillo** — whom the tree gives as her parents, and who sit on the spine at generation six — are not this family's ancestors at all. Three people, resting on a surname the registers contradict. **What would settle it:** her own marriage or death act at Scilla, naming her parents. Until then the edge is graded `tree` with the problem written on it, rather than quietly drawn."
   },
   {
    "n": 42,
@@ -415,10 +415,10 @@
   {
    "n": 52,
    "what": "STRUCTURE — raise the graded fraction of parent links",
-   "state": "next",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 5, and it is measurable.** Of **748 parent edges, 727 are ungraded** — drawn dashed because the tree merely asserts them. Only 11 are `read` and 10 `index`. Every act this archive has read should have upgraded an edge and most have not. Work back through `register-reads.tsv` and `scilla-reads.tsv` and grade what is already proved."
+   "note": "**Phase 5, and it is measurable.** Of **748 parent edges, 727 are ungraded** — drawn dashed because the tree merely asserts them. Only 11 are `read` and 10 `index`. Every act this archive has read should have upgraded an edge and most have not. Work back through `register-reads.tsv` and `scilla-reads.tsv` and grade what is already proved. **STARTED.** Six spine edges graded from acts already read: Nunziata Donato to Michele Donato and Maria Sofi (Nati 1892/162), Giovanni Polistena to Antonino Polistena (Nati 1883/206), and Antonino Prostamo to Pasquale Prostamo (the *avo paterno* certificate in the 1849 Briatico bundle). `read` goes from 11 to 15. **Forty-two spine edges remain ungraded**, and most of them cannot be graded because no act has been read for them — which makes this row a measure of research done, not of tidying."
   },
   {
    "n": 53,
