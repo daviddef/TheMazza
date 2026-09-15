@@ -1,6 +1,8 @@
 ---
 import Base from "../layouts/Base.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
+import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
+import { chartGroups } from "../lib/marriedin.js";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import P from "../components/P.astro";
@@ -127,7 +129,15 @@ const more = [
     </div>
   </section>
 
-  <section class="blk">
+  
+<section class="blk">
+  <h2>The families who married in</h2>
+  <p class="dek">Every surname this archive holds, ranked. Each is here because a person married a person.
+  <a href={u("/marriages/")}>The marriages, in full →</a></p>
+  <MarriageChart groups={chartGroups} subject="Mazza" unit="people this archive names" />
+</section>
+
+<section class="blk">
     <h2>What this archive has established</h2>
     <div class="grid two" style="margin-top:1rem">
       <div class="card">
