@@ -463,10 +463,10 @@
   {
    "n": 58,
    "what": "Francesco Cichello and Vittoria Mollo — who were they?",
-   "state": "next",
+   "state": "blocked",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "The couple found today, and the new edge of the Calabrian line. Both were dead by March 1824 and their daughter was born about 1798 at Zambrone, so their marriage is likely **1790s — before Zambrone's registers begin in 1811** and therefore probably out of reach. But their **deaths** are not: anything between 1811 and 1824 would be in the same Morti volume as row 31. Two people, one volume, one look. **1822 is read and clear** — seven deaths, no Cichello and no Vittoria Mollo, though a *Maria* Mollo died on 27 May 1822. 1823 runs from image 52 and its Tavola will be about image 65."
+   "note": "**Blocked behind the gap, and now demonstrably so.** Both were dead before March 1824 and neither appears in the death Tavole of 1822, 1823 or 1824 — so they died in the nine years the register does not hold. **They come back into reach only through row 59.** Note also that neither surname is rare at Zambrone: a Maria Mollo died in 1822, a Marianna Mollo and an Anna Cichello in 1823. No join on one of these names alone."
   },
   {
    "n": 59,
@@ -474,15 +474,15 @@
    "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**The gap is in one copy, and there were always two.** Under the Napoleonic and Bourbon codes every act was written twice — one register kept by the comune, one sent to the tribunale. **The chancery certified a copy of Domenico Ventrice's 1815 death act in 1849**, so in 1849 that act still existed somewhere, and it was not in the volume Antenati has digitised. Look for the tribunale series: FamilySearch's «Vibo Valentia, Civil Registration (Tribunale)» is indexed from 1861, but the earlier court copies may exist unindexed or on film. This is the only route left to Domenico's own act — and it would settle Anna Fama against Anna Maropoli, and reach Paolo Ventrice."
+   "note": "**The gap is in one copy, and there were always two.** Under the Napoleonic and Bourbon codes every act was written twice — one register kept by the comune, one sent to the tribunale. **The chancery certified a copy of Domenico Ventrice's 1815 death act in 1849**, so in 1849 that act still existed somewhere, and it was not in the volume Antenati has digitised. Look for the tribunale series: FamilySearch's «Vibo Valentia, Civil Registration (Tribunale)» is indexed from 1861, but the earlier court copies may exist unindexed or on film. This is the only route left to Domenico's own act — and it would settle Anna Fama against Anna Maropoli, and reach Paolo Ventrice. **AND IT IS NOW CARRYING FOUR PEOPLE, NOT ONE.** Domenico Ventrice (d. Jan 1815), Anna Maropoli, Francesco Cichello and Vittoria Mollo all died inside the missing years. The second copy is the only route to any of them."
   },
   {
    "n": 60,
-   "what": "Sweep the Zambrone death Tavole, 1822–1839, for the family surnames",
-   "state": "next",
+   "what": "Sweep the Zambrone death Tavole for the family surnames — 1822–24 done, and negative",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 2 economics, applied to deaths.** Every year in the Zambrone death book ends with a Tavola naming the dead **and their parents** — 1812 at image 37, 1822 at image 51. Reading all of 1822–1839 is about eighteen images and would catch **Francesco Cichello, Vittoria Mollo, Anna Maropoli**, and any Ventrice, Mollo or Cichello death in the eighteen years the register does hold. Cheapest remaining thing on the Calabrian side."
+   "note": "**Done for the years that matter, and negative.** The Tavole of 1822 (image 51), 1823 (65) and 1824 (78) name everyone who died at Zambrone in those years **with their parents**, and **neither Francesco Cichello nor Vittoria Mollo is among them** — nor Anna Maropoli. All three were already dead by March 1824, so **all three almost certainly died inside the missing 1813–1821**, behind the same gap as Domenico Ventrice. Four wanted people, one gap. **What it did settle:** Maropoli appears twice more in these three years, including an infant Giuseppe Maropoli dead 23 March 1824. The surname is unmistakably local. 1825–1839 remain unread but no longer urgent."
   }
  ]
 }
