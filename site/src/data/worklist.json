@@ -78,11 +78,11 @@
   },
   {
    "n": 10,
-   "what": "Mount Gravatt burial records",
-   "state": "blocked",
+   "what": "Mount Gravatt burial records — blocked on finding an endpoint",
+   "state": "struck",
    "owner": "this archive",
    "since": "2026-09-12",
-   "note": "Nudgee is done and gave nineteen burials with plots and dates, including the four grandparents in consecutive plots. Mount Gravatt has no equivalent public endpoint found yet, so this is blocked on finding one rather than on a person."
+   "note": "**RAISED ON A STALE PREMISE, AND STRUCK THE SAME DAY.** This came off a five-day-old queue and I carried it over without checking. Mount Gravatt was **already done** — `data/australia-graves.tsv` has held Domenico Francesco Prostamo and Maria Assunta Prostamo in adjacent plots, Mon 3B 607 and 608, since an earlier session. The real work was documenting the endpoint, which is now in [what has been read](/searched/), and it produced a correction and two leads. See rows 27 and 28."
   },
   {
    "n": 11,
@@ -211,6 +211,22 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "The method has now paid twice — Briatico 1849 broke the Calabrian line open, Scilla 1844 has just closed the Donato one. **Neither town's bundles have been mapped as a series.** Do for Briatico and Piedimonte what was done for Scilla today: list every processetti volume and the years it covers, before sweeping anything else."
+  },
+  {
+   "n": 27,
+   "what": "Test the Pinnaroo Lawn Donato against the Queensland death index",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "Brisbane City Council's register holds a Donato family at Pinnaroo Lawn carrying **the two rarest names in this line**: «Gregory **CANDELORO** Donato» (1941-2025), «Donato **CENDELORD**» (d. 1968 at 52) — the same garbling habit that turned Nicotra into Lecota — and «Donato **ANNUNZIATO**» (d. 1954 at 66). Candeloro is the Scilla grandfather born about 1783 and his grandson born 1847; Annunziata is Nunziata Sofi. **The export contains no Candeloro at all.** This is precisely the shape of a join this archive has got wrong four times, so it stays a lead. The Queensland death index names parents and would settle it."
+  },
+  {
+   "n": 28,
+   "what": "Test Mario and Maria Mazza of Mount Gravatt against the Queensland death index",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-15",
+   "note": "**Mario Mazza (1921-2015) and Maria Mazza (1931-2014) share plot Mon 3H 104** at Mount Gravatt — a married pair by the adjacent-plot rule that found the four Mazza grandparents lying in a row at Nudgee. Neither is in Michael's export, which holds no Mazza born 1921 or 1931. Mazza is a common Sicilian name and nothing yet connects them to Piedimonte Etneo. Their death registrations would name their parents."
   }
  ]
 }
