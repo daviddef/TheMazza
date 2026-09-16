@@ -421,10 +421,10 @@
   {
    "n": 49,
    "what": "AUSTRALIA — the electoral rolls, which nobody here has touched",
-   "state": "blocked",
+   "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 4.** Australian electoral rolls are public, near-annual, and give **address and occupation** for every adult. For a family that arrived between 1925 and 1957 they would place every household in Brisbane year by year, and they are the only source that tracks people who neither died nor married in the window. Entirely unused here. **See row 62:** the rolls are not free. Ancestry or the NLA, and that is David's call."
+   "note": "**Phase 4.** Australian electoral rolls are public, near-annual, and give **address and occupation** for every adult. For a family that arrived between 1925 and 1957 they would place every household in Brisbane year by year, and they are the only source that tracks people who neither died nor married in the window. Entirely unused here. **See row 62:** the rolls are not free. Ancestry or the NLA, and that is David's call. **UNBLOCKED 16 SEPTEMBER: David has taken a full month's Findmypast subscription, and Findmypast carries Australian electoral rolls.** See row 99."
   },
   {
    "n": 50,
@@ -528,10 +528,10 @@
   {
    "n": 62,
    "what": "Electoral rolls are now the right instrument, not BDM",
-   "state": "blocked",
+   "state": "next",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Promoted out of row 49 because today's sweep proved the case.** Queensland BDM cannot see this family: they arrived in 1949, married after the marriage index closes in 1951, and mostly died after the death index closes in 1996. Polistena returns **zero**; Prostamo returns **one**. **Electoral rolls have none of those limits.** They are near-annual, they run through the whole post-war period, they give **address and occupation**, and they capture people who neither died nor married inside an index window — which is precisely this family's problem. For a migration that lands in 1949, the rolls are the primary source and the registrar's index is the secondary one. Start with Brisbane 1949–1980 for Prostamo, Polistena, Mazza and Arena. **TRIED AND BLOCKED ON A SOURCE.** FamilySearch has no Australian electoral rolls for these surnames — its Australian holdings here are Victorian Petty Sessions and Find a Grave. The rolls are on **Ancestry**, which is paid, and at the **National Library of Australia**. So this needs either a subscription decision from David or an NLA route, and it is blocked until one of those exists rather than being quietly open."
+   "note": "**Promoted out of row 49 because today's sweep proved the case.** Queensland BDM cannot see this family: they arrived in 1949, married after the marriage index closes in 1951, and mostly died after the death index closes in 1996. Polistena returns **zero**; Prostamo returns **one**. **Electoral rolls have none of those limits.** They are near-annual, they run through the whole post-war period, they give **address and occupation**, and they capture people who neither died nor married inside an index window — which is precisely this family's problem. For a migration that lands in 1949, the rolls are the primary source and the registrar's index is the secondary one. Start with Brisbane 1949–1980 for Prostamo, Polistena, Mazza and Arena. **TRIED AND BLOCKED ON A SOURCE.** FamilySearch has no Australian electoral rolls for these surnames — its Australian holdings here are Victorian Petty Sessions and Find a Grave. The rolls are on **Ancestry**, which is paid, and at the **National Library of Australia**. So this needs either a subscription decision from David or an NLA route, and it is blocked until one of those exists rather than being quietly open. **UNBLOCKED 16 SEPTEMBER: David has taken a full month's Findmypast subscription, and Findmypast carries Australian electoral rolls.** See row 99."
   },
   {
    "n": 63,
@@ -837,6 +837,54 @@
    "owner": "this archive",
    "since": "2026-09-15",
    "note": "**Raised because I broke it twice in one session.** `data/searched.tsv` gained a `key` first column from another session, and `build_searched.py` deliberately **never recomputes it** — the docstring says why: hand-added keys were once wiped and the gate then reported «nothing outstanding» for an archive with twenty-four outstanding searches. **But nothing stops a session appending a row in the old five-column shape.** I did, twice, and every field shifted one place right: `part` landed in `key`, a date landed in `status`, and the rows became invisible to the gate that exists to count them. **A checker should refuse a row whose key is empty or does not match `src/<slug>-<6 hex>`**, and refuse a status outside the vocabulary — which has drifted to **seven values**: done, outstanding, not-yet, part, superseded, correction, wall. Some of those I invented myself without declaring them."
+  },
+  {
+   "n": 98,
+   "what": "FINDMYPAST — unlock Our Lady of Loretto: eighty-four Arena baptisms, indexed and locked",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**The single biggest thing a subscription buys, and it is already found.** The earlier six-day trial located the Scilla colony's parish in New York — **Our Lady of Loretto**, with **eighty-four Arena baptisms** in the New York Roman Catholic parish transcripts — and then hit a wall: `data/findmypast.tsv` records it twice as **PAYWALL**, because the Catholic Heritage Archive is an **exclusive-tier collection** the trial did not include. **A baptism transcript names both parents and usually the godparents**, and this archive already has two of them — Serafina Arena 1898 and Clementina Arena 1901. Eighty-two more would reconstruct a whole emigrant colony's households. **Harvest every one, with parents, and record which are ours and which merely share the surname.**"
+  },
+  {
+   "n": 99,
+   "what": "FINDMYPAST — the Australian electoral rolls, which unblock rows 49 and 62",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**This may be the subscription's second prize, and it closes two rows I marked blocked.** Rows 49 and 62 concluded that electoral rolls are the right instrument for a family that arrived in 1949 — Queensland BDM cannot see them, because births stop in 1926, marriages in 1951 and deaths in 1996 — and that the rolls were **behind a paywall**. **Findmypast carries Australian electoral rolls.** They are near-annual, they give **address and occupation**, and they capture people who neither died nor married inside an index window. Sweep Prostamo, Polistena, Mazza, Arena, Donato, Melluso and Crupi for Brisbane, 1949 onward."
+  },
+  {
+   "n": 100,
+   "what": "FINDMYPAST — the nine unnamed crossings, and the Australian passenger lists",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**Row 21's other half.** The trial already CORROBORATED five Prostamo in the Australian passenger index — Caterina 1969, Domenico F 1956, Francesca 1957 — and separately failed to find **Domenica Prostamo's 1951 voyage** in «Australia, Inward, Outward & Coastal Passenger Lists 1826-1972». **With full access, sweep that collection properly** for all ten surnames rather than by targeted lookup, and test the *Ugolino Vivaldi* candidate of 1 March 1951 that `corrections.tsv` carries at `candidate` confidence."
+  },
+  {
+   "n": 101,
+   "what": "FINDMYPAST — Rocco Arena's naturalisation, and the American records",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**Covers the outstanding «NARA New York» search.** The trial established Rocco Arena's **four crossings** (1892, 1894, 1899, 1913) and that by 1913 he was travelling as a **US citizen** — which means a naturalisation exists and has never been found. It also found **no petition** under his name, so the search needs the subscription's wider American sets: NARA indexes, WWI and WWII registrations, and the 1900–1930 censuses for Mulberry Street."
+  },
+  {
+   "n": 102,
+   "what": "FINDMYPAST — re-run the four PAYWALL and BLOCKED rows in findmypast.tsv",
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-16",
+   "note": "**Twenty-six rows of trial work exist and four of them are not answers, they are locks.** Two PAYWALL rows (the New York Roman Catholic transcripts, twice), and one BLOCKED row recording that **the session signed out** before the work was finished. **Re-run each one and convert it to a real result — found or negative — rather than leaving a paywall standing in the record as though it were evidence.** A lock is not a negative and this archive should not let one look like it."
+  },
+  {
+   "n": 103,
+   "what": "FINDMYPAST — decide what to do before the month expires",
+   "state": "blocked",
+   "owner": "David",
+   "since": "2026-09-16",
+   "note": "**A calendar item, not a research one.** The previous trial **expired the day it was most needed** and the record still carries a BLOCKED row from the moment it lapsed. A month is enough for rows 98 to 102 if they are done deliberately and in that order — **the locked parish transcripts first, because they are the only thing here that cannot be got anywhere else.** Worth agreeing a date to review what is left, rather than discovering the end of it the same way as last time."
   }
  ],
  "accounts": [
