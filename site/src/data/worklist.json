@@ -1005,6 +1005,22 @@
       "owner": "this archive",
       "since": "2026-09-16",
       "note": "**A question this archive asked itself and left open has almost certainly been answered.** The row for **ANNA ARLOTTA**, Generosa Costa's mother, noted that Rocco Arena's mother was **Serafina ARLOTTA** and his wife's mother was **Anna ARLOTTA**, and said in as many words that whether they were sisters *had not been tested*. **The Scilla death index tests it.** Anna Arlotta, died 16 March 1915, is «Padre GIOVANNI ARLOTTA, Madre MARIA COSTA, Coniuge ANTONINO COSTA» — and Giovanni Arlotta and Maria Costa are **Serafina Arlotta's own parents**. Her husband's name matches the Antonio Costa the 1888 marriage act gives as Generosa's father. **So the two women were sisters and Rocco Arena and Generosa Costa were first cousins.** **Graded *probable*, not *certain*, and deliberately.** Arlotta and Costa are both common at Scilla and nothing read so far rules out a second Anna Arlotta married to a second Antonino Costa. **One act settles it**: the 1915 death act itself, which gives her age and parents in full, or Generosa Costa's own birth act. Both are inside the surviving run."
+    },
+    {
+      "n": 119,
+      "what": "Turn /open-questions/ into rows",
+      "state": "open",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**202 lines of prose.** Shape: the question, what is known, what has been tried, and the record that would answer it. `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
+    },
+    {
+      "n": 120,
+      "what": "Extract /sources/ into data",
+      "state": "open",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**70 lines inline** — the smallest, and so the cheapest of the five to move.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
     }
   ],
   "accounts": [
