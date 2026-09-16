@@ -186,7 +186,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-10",
-      "note": "Nine of eighteen crossings are documented. Domenica Prostamo, March 1951, is in the index under neither Prostamo nor Mazza. Also open: Michael Antonio Polistena, 28 May 1950, and **Francesca Prostamo**, who sails on the Roma with Francessco on 10 October 1957 and is in no tree at all.",
+      "note": "Nine of eighteen crossings are documented. Domenica Prostamo, March 1951, is in the index under neither Prostamo nor Mazza. Also open: Michael Antonio Polistena, 28 May 1950, and **Francesca Prostamo**, who sails on the Roma with Francessco on 10 October 1957 and is in no tree at all. **RE-OPENED 16 SEPTEMBER.** Domenica Prostamo's March 1951 crossing was the one this row thought was nearly settled. **It is not: the Ugolino Vivaldi identification has been read off the manifest and disproved** (row 110). She is back to a month and a year with no ship. **What the disproof also teaches is how to search now.** The NAA index gives a name, a date and a ship; **the manifests give a destination and a port of debarkation**, and those are what actually distinguish one Italian family from another in 1951. A woman joining her husband in Brisbane should appear on a manifest marked for **Sydney** with a **Queensland** address — not Fremantle, whatever the item title says. **That is a much sharper filter than a surname**, and it can be applied to every 1951 arrival out of Genoa rather than only to the ones whose name nearly matches.",
       "covers": [
         "src:src/national-archives-of-austr-0e47af"
       ]
@@ -937,10 +937,10 @@
     {
       "n": 110,
       "what": "The original Ugolino Vivaldi manifest at the NAA — free, and the only thing that can settle Domenica's crossing",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**Row 100 proved the subscription cannot do this and pointed at what can.** Domenica Prostamo's 1951 crossing is graded **candidate** on a good argument — right month, right year, right port, right married surname, and «Domenico» one letter from Domenica. **What it lacks is an age or a sex**, and the index line has neither, on Findmypast or at the NAA. **The manifest image does.** RecordSearch serves barcode **30133197** as a scanned page, free, and the handwritten entry would give the age and sex outright — and show **everyone else on that page**, which is how a two-year-old Salvatore Mazza would appear, since infants are not separately indexed. **This is the single cheapest upgrade available to this archive**: one image, no subscription, and it converts a candidate into a documented crossing or kills it."
+      "note": "**Row 100 proved the subscription cannot do this and pointed at what can.** Domenica Prostamo's 1951 crossing is graded **candidate** on a good argument — right month, right year, right port, right married surname, and «Domenico» one letter from Domenica. **What it lacks is an age or a sex**, and the index line has neither, on Findmypast or at the NAA. **The manifest image does.** RecordSearch serves barcode **30133197** as a scanned page, free, and the handwritten entry would give the age and sex outright — and show **everyone else on that page**, which is how a two-year-old Salvatore Mazza would appear, since infants are not separately indexed. **This is the single cheapest upgrade available to this archive**: one image, no subscription, and it converts a candidate into a documented crossing or kills it. **DONE 16 SEPTEMBER — and it killed the candidate rather than confirming it.** This row said the image would «convert a candidate into a documented crossing or kill it». It killed it. The master list of trip 2/51 carries **one Mazza**, no. 476, bound for **Narracan, Victoria**. There is **no Prostamo aboard** under any spelling, and **no second Mazza**, though the list names children individually — so no two-year-old Salvatore. **And the port column settles it**: unlabelled, but every `-F-` passenger appears in the Department of Immigration's separate *Schedule of Alien Passengers for debarkation at Fremantle*, one for one. MAZZA Domenico is `-M-`, and he is **absent from that schedule**, which runs MARTINELLI straight to MERENDINO. **Domenica Prostamo was going to her husband in Brisbane; this man landed at Melbourne for a Gippsland shire.** Retracted in [the corrections](/corrections/), regraded *flagged*, and the two voyage rows are off [the crossings](/crossings/). **Her March 1951 crossing is unknown again — see row 21.**"
     },
     {
       "n": 111,
@@ -965,6 +965,14 @@
       "owner": "this archive",
       "since": "2026-09-16",
       "note": "**An inference this archive has published, and the record that would settle it is free.** Rocco Arena's first son **Antonio was born 3 October 1896**; a **second Antonio was born 13 October 1902**. This archive reads that as the first boy dying in between — the same reading it makes of [Orazio Arena's two sons named Domenico](/scilla/) at Scilla. **It is sound and it is still an inference.** **Findmypast cannot test it**: there is no New York Roman Catholic burials collection — baptisms and marriages only, and «Congregational Records» is empty even of Russo. **Two places can.** The **New York City death certificates** at the Municipal Archives are indexed from 1862 and searchable for nothing; and the interment registers of **Calvary Cemetery**, where the Italian Catholic dead of lower Manhattan were mostly buried. A death between 1896 and 1902 for an infant of 141 or 198 Mulberry Street is a narrow, well-specified search. **It would also date the family's last years in America**, which matters now that the census says they were gone by 1910."
+    },
+    {
+      "n": 114,
+      "what": "Salvatore Mazza's arrival, which fell with his mother's",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**Collateral damage from row 110, and it should not be left implicit.** This archive placed **Salvatore Mazza (b. 1948)** on the *Ugolino Vivaldi* at `inferred`, on the reasoning that infants are not separately indexed and he belonged on his mother's voyage. **The reasoning was fine and the voyage was wrong.** Reading the manifest also removed its own premise: **this master list names children individually** — the Mellino family of eight, the Puusaari of six, a Campagna aged 1 — so an infant *would* have been listed. **He has no documented crossing now.** The tree records a Fremantle arrival out of Genoa with no date; that, and the family account of a son not yet three, are all that remain. He travels with whatever voyage row 21 eventually finds for his mother."
     }
   ],
   "accounts": [

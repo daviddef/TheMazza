@@ -449,17 +449,12 @@
    },
    {
     "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Ugolino Vivaldi, 01 Mar 1951",
-    "href": "/crossings"
-   },
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals — the Ugolino Vivaldi, 1 March 1951, out of Genoa (candidate)",
+    "what": "NAA passenger manifest — the Ugolino Vivaldi of 1 March 1951 read in full, and she is NOT on it",
     "href": "/crossings"
    }
   ],
   "corrections": [
-   "She is not in the index under Prostamo, and the only Domenica Mazza arrived in 1968. The best fit is MAZZA DOMENICO, 1 March 1951, ex Genoa -- right month, right year, right port of embarkation, right married surname, one letter out on the given name. Recorded as a candidate."
+   "THE CANDIDATE IS WITHDRAWN. The master list holds ONE Mazza, «MAZZA Domenico» no. 476, bound for NARRACAN, VICTORIA and landing at MELBOURNE -- he is absent from the Fremantle debarkation schedule. No Prostamo aboard at all, and no second Mazza, though the list names children individually. Her March 1951 crossing is unknown again."
   ],
   "onSpine": true,
   "ancGen": 3
@@ -1757,7 +1752,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1793,7 +1788,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 4,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1829,7 +1824,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 8,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1857,7 +1852,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 6,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2832,11 +2827,6 @@
    }
   ],
   "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Ugolino Vivaldi, 01 Mar 1951",
-    "href": "/crossings"
-   },
    {
     "kind": "passenger index",
     "what": "NAA passenger arrivals — placed on his mother's March 1951 voyage",
@@ -29391,7 +29381,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29609,7 +29599,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 7,
+  "comp": 3,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -29652,7 +29642,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 8,
+  "comp": 5,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
