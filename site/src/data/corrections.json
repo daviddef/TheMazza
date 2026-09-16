@@ -1,6 +1,6 @@
 {
- "count": 118,
- "documented": 94,
+ "count": 119,
+ "documented": 95,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -465,6 +465,15 @@
      "treeSays": "Not in the tree as a person of her own",
      "recordSays": "DIED AT SCILLA 4 MAY 1920, «Padre Camillo Antonio, Madre Giovanna Romano». NOTE WHAT FOLLOWS HER: Giovanni Polistena named a daughter SANTA in 1920. An aunt dies in the May and a niece takes her name in the same year, which is the naming custom working in front of us -- and a third witness that the mother was a Romano.",
      "source": "Antenati name index, Scilla, atto di morte 4 May 1920",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people",
+     "who": "Maria Crupi, Mario's wife",
+     "slug": "—",
+     "treeSays": "Not in the tree, and not provably his from the electoral roll",
+     "recordSays": "SHE IS HIS WIFE, AND THE INTERNMENT FILE PROVES IT. The 1959 Queensland roll put a MARIO CRUPI and a MARIA CRUPI at Tully with the address column BLANK on both, and this archive expressly declined to pair them on that -- adjacency in an alphabetical roll proves nothing. THE SERVICE AND CASUALTY FORM SETTLES IT: «Marital Condition: Married. Next of Kin: MARIA CRUPI. Address of Next of Kin: P.O. Bemerside, Via Ingham. Relationship: WIFE.» AND IT DATES THE MARRIAGE. His naturalisation record of 26 April 1940 describes him as SINGLE; he is married by 20 April 1942. They married inside those two years.",
+     "source": "NAA: MP1103/1, Q30124; against NAA: A714, 9/4300",
      "confidence": "documented"
     }
    ]
