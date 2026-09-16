@@ -2,9 +2,30 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import { dead } from "../lib/people.js";
+import Gallery from "@daviddef/archive-kit/components/Gallery.astro";
 const withPhotos = dead.filter((p) => p.photos && p.photos.length)
   .sort((a, b) => (a.born || 9999) - (b.born || 9999));
 const n = withPhotos.reduce((a, p) => a + p.photos.length, 0);
+
+/* THIS PAGE IS A GALLERY UNDER A DOCUMENTS LABEL. It holds photographs grouped
+   by the person they show, out of a family tree export - not primary sources
+   reproduced whole, which is what the other three archives put here. So it
+   draws with the gallery component, and gets the lightbox that goes with it,
+   because an unidentified family photograph is exactly the thing somebody needs
+   to see at full size before they can tell you who is in it.
+
+   The alt text is the person's NAME, which is the fault the gallery component
+   names: it describes the subject to somebody who cannot see the image without
+   describing the image. It is left as the archive wrote it rather than invented
+   here - a caption for a photograph nobody has identified is not mine to write. */
+const sheet = withPhotos.flatMap((p) => p.photos.map((f, i) => ({
+  src: u("/plates/" + f),
+  alt: p.name,
+  title: p.name + (p.photos.length > 1 ? ` (${i + 1} of ${p.photos.length})` : ""),
+  what: [p.born, p.died].filter(Boolean).join("\u2013") + (p.birthPlace ? ` \u00b7 ${p.birthPlace}` : ""),
+  href: "/people/" + p.slug,
+  hrefLabel: "Who this is",
+})));
 ---
 <Base title="Documents" eyebrow={`${n} images, ${withPhotos.length} people`}
       dek="The photographs and papers held in the family's own tree, saved down before the links expired.">
@@ -19,22 +40,6 @@ const n = withPhotos.reduce((a, p) => a + p.photos.length, 0);
   can identify in seconds. <strong>Corrections and identifications are the most valuable thing you can
   send.</strong></p>
 
-  {withPhotos.map((p) => (
-    <section class="blk" id={p.slug}>
-      <h2 style="font-size:24px">
-        <a href={u("/people/" + p.slug)} style="color:inherit">{p.name}</a>
-      </h2>
-      <div class="mono" style="margin-top:4px;color:var(--ink-3)">
-        {[p.born, p.died].filter(Boolean).join("–")}{p.birthPlace ? ` · ${p.birthPlace}` : ""}
-      </div>
-      <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(200px,1fr));margin-top:16px">
-        {p.photos.map((f) => (
-          <figure style="margin:0">
-            <img src={u("/plates/" + f)} alt={p.name}
-                 style="border:1px solid var(--rule);border-radius:3px;display:block;width:100%" />
-          </figure>
-        ))}
-      </div>
-    </section>
-  ))}
+  <Gallery rows={sheet} u={u} unit="images" />
+
 </Base>
