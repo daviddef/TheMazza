@@ -463,11 +463,17 @@
     "kind": "naturalisation file",
     "what": "NAA: J25, 1971/1074 — «Mazza, Sebastiano; wife Domenica [nee Prostamo]», 1950-1971",
     "href": "/queensland"
+   },
+   {
+    "kind": "flagged",
+    "what": "NAA: K269, 1 MAR 1951 UGOLINO VIVALDI, item 30133197 -- master list and Fremantle debarkation schedule, read in full",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "THE CANDIDATE IS WITHDRAWN. The master list holds ONE Mazza, «MAZZA Domenico» no. 476, bound for NARRACAN, VICTORIA and landing at MELBOURNE -- he is absent from the Fremantle debarkation schedule. No Prostamo aboard at all, and no second Mazza, though the list names children individually. Her March 1951 crossing is unknown again.",
-   "SHE IS NAMED WITH HER MAIDEN NAME ON HER HUSBAND'S FILE. Now that the Ugolino Vivaldi is disproved this is the best hope of her real crossing: a Queensland immigration file running from 1950 would record how and when she came."
+   "SHE IS NAMED WITH HER MAIDEN NAME ON HER HUSBAND'S FILE. Now that the Ugolino Vivaldi is disproved this is the best hope of her real crossing: a Queensland immigration file running from 1950 would record how and when she came.",
+   "Crossing — ship named, RETRACTED — RETRACTED. The manifest has been read and it is NOT her. The MASTER LIST of the Ugolino Vivaldi, trip 2/51, carries exactly ONE Mazza -- «MAZZA Domenico», no. 476 -- bound for NARRACAN, VICTORIA, and marked in the port column -M-. That column is unlabelled, but the -F- passengers correspond ONE FOR ONE with the Department of Immigration's separate «Schedule of Alien Passengers for debarkation at Fremantle», so F is Fremantle, M Melbourne, S Sydney. THIS MAN DID NOT LAND AT FREMANTLE -- he is absent from that schedule, which runs MARTINELLI straight to MERENDINO. There is NO Prostamo aboard under any spelling, and NO second Mazza, though the list names children individually. Domenica Prostamo went to her husband in BRISBANE. This is a Victorian arrival and a different man."
   ],
   "onSpine": true,
   "ancGen": 3
@@ -571,8 +577,22 @@
    }
   ],
   "siblings": [],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "documented",
+    "what": "FamilySearch full-text, Piedimonte Etneo Nati 1873 atto 3",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "FamilySearch full-text, death act",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "Birth date — Born 5 January 1873 at Piedimonte Etneo. Six years out.",
+   "Death date — Died 19 September 1929."
+  ],
   "onSpine": true,
   "ancGen": 4
  },
@@ -1227,9 +1247,16 @@
     "kind": "passenger manifest",
     "what": "Ellis Island, 2 August 1906 — the Luisiana, aged 26, line 27",
     "href": "/crossings"
+   },
+   {
+    "kind": "documented",
+    "what": "Ellis Island, the Luisiana",
+    "href": "/corrections"
    }
   ],
-  "corrections": [],
+  "corrections": [
+   "Crossing -- ship named — The LUISIANA, lines 26 and 27. Domenica's age on the manifest is 26, which matches her birth of 20 February 1880 exactly."
+  ],
   "onSpine": true,
   "ancGen": 5
  },
@@ -1966,12 +1993,32 @@
     "kind": "marriage register",
     "what": "Piedimonte Etneo, Matrimoni 1871, atto 14 — married Leonarda Bonanno, 30 April 1871",
     "href": "/mazza"
+   },
+   {
+    "kind": "documented",
+    "what": "Italy, Catania, Catania, Civil Registration (Tribunale), 1866-1929",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Piedimonte Etneo, Nati 1845, atto 64",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Piedimonte Etneo, Matrimoni 1871, atto 14",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "The tree gives him no death and dates his birth to 1850. The death act gives 15 NOVEMBER 1924, an age of SEVENTY-NINE (so born 1845, as this archive had already derived from the marriage proclamations), a trade -- CONTADINO -- and, crucially, BOTH HIS PARENTS: Mariano and Maria Catalano. The deepest Sicilian generation was an inference until this act; it is now documented.",
    "The tree gives 1850. Act 64 of 1845 gives the day: born at eleven in the morning of 2 JUNE 1845, declared the same day by his father MARIANO MAZZA, thirty-six, BRACCIALE, with the mother named as MARIA CATALANO, thirty-six. The parish of the Chiesa Maggiore returned the baptism notice on the same day.",
-   "Four in the afternoon in the casa comunale, before Barone Mariano, sindaco. Both spouses single, both born and living at Piedimonte Etneo, both BRACCIANTI. He is entered as twenty-six, which his own birth act makes twenty-five and eleven months. Witnesses Salvatore Greco, calzolaio, 38, and Antonino Di Lava fu Giuseppe, bracciante, 46."
+   "Four in the afternoon in the casa comunale, before Barone Mariano, sindaco. Both spouses single, both born and living at Piedimonte Etneo, both BRACCIANTI. He is entered as twenty-six, which his own birth act makes twenty-five and eleven months. Witnesses Salvatore Greco, calzolaio, 38, and Antonino Di Lava fu Giuseppe, bracciante, 46.",
+   "Death -- missing entirely — DIED 15 NOVEMBER 1924 at PRESA, Piedimonte Etneo, aged seventy-nine, a CONTADINO; certificate 15. His death act also names his father MARIANO and his mother MARIA CATALANO, and his wife Leonarda Bonanno.",
+   "Birth year — Born 1845 at Piedimonte Etneo. His death act makes him SEVENTY-NINE in November 1924. This archive had already derived 1845 from the ages the marriage proclamations gave him in 1898, 1902 and 1910; the death act agrees.",
+   "Trade -- missing entirely — CONTADINO -- a peasant farmer. Which sets the Sicilian Mazza against the Calabrian Arena exactly: four generations of Arena sailors on the water at Scilla, and the Mazza contadini on the mountain at Piedimonte.",
+   "Birth date — BORN 2 JUNE 1845 at Piedimonte Etneo, at eleven in the morning, in his parents' own house. Act 64 of the births of 1845. The tree is FIVE YEARS out. Both parents are in the act: Mariano Mazza, 36, bracciale, and Maria Catalano, 36.",
+   "Marriage -- missing entirely — MARRIED 30 APRIL 1871 at Piedimonte Etneo, act 14, at four in the afternoon. Both single, both born and living there, both braccianti."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -2596,11 +2643,17 @@
     "kind": "naturalisation file",
     "what": "NAA: J25, 1971/3900 — «Arena, Rocco; wife Angelina [or Angela] [nee Polistena]», 1953-1971",
     "href": "/queensland"
+   },
+   {
+    "kind": "inferred",
+    "what": "NAA passenger arrivals index, item 9245788",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "Not in the index under her own name. Her brother Antonino IS, on the Surriento arriving 17 June 1949 -- the exact date the tree gives for her.",
-   "She is named on her husband's file with her maiden name, exactly as Domenica Prostamo is on Sebastiano Mazza's. The NAA's own description hedges her given name -- «Angelina [or Angela]» -- which is the file itself being uncertain, not the archive."
+   "She is named on her husband's file with her maiden name, exactly as Domenica Prostamo is on Sebastiano Mazza's. The NAA's own description hedges her given name -- «Angelina [or Angela]» -- which is the file itself being uncertain, not the archive.",
+   "Crossing -- ship named — The SURRIENTO. She is not indexed, but her brother Antonino is, arriving on that exact date."
   ],
   "onSpine": true,
   "ancGen": 3
@@ -3434,12 +3487,18 @@
     "kind": "Civil Aliens Corps",
     "what": "NAA: J1737, MAZZA R — «Mazza Rosario, CAS 15000 - Civil Aliens Corps», 1944",
     "href": "/queensland"
+   },
+   {
+    "kind": "documented",
+    "what": "NAA: MP1103/1, Q8110",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "HE WAS INTERNED. Michael Mazza's great-uncle was held as an enemy alien in the Second World War, and the dossier gives his birth date to the day. Open, at Melbourne, not digitised.",
    "The Queensland security file that sits behind the internment. Open, at Brisbane, not digitised.",
-   "WHAT HAPPENED AFTER THE CAMP. Interned Italians were released into the Civil Aliens Corps and put to labouring work. Open, at Brisbane."
+   "WHAT HAPPENED AFTER THE CAMP. Interned Italians were released into the Civil Aliens Corps and put to labouring work. Open, at Brisbane.",
+   "Birth date — BORN 20 FEBRUARY 1899. Given in the NAA's description of his internment dossier: «Prisoner of War/Internee: Mazza, Rosario; Date of birth - 20 February 1899; Nationality - Italian»."
   ],
   "onSpine": false,
   "ancGen": null
@@ -3549,9 +3608,16 @@
     "kind": "passenger index",
     "what": "NAA passenger arrivals index — the Palermo, 21 Apr 1925",
     "href": "/crossings"
+   },
+   {
+    "kind": "documented",
+    "what": "NAA passenger arrivals index",
+    "href": "/corrections"
    }
   ],
-  "corrections": [],
+  "corrections": [
+   "Port — Arrived BRISBANE, 21 April 1925, on the Palermo out of MESSINA."
+  ],
   "onSpine": false,
   "ancGen": null
  },
@@ -4577,10 +4643,16 @@
     "kind": "passenger index",
     "what": "NAA passenger arrivals — the Roma, Fremantle, 10 October 1957, with her father",
     "href": "/crossings"
+   },
+   {
+    "kind": "documented",
+    "what": "NAA passenger arrivals index, item 30132189",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "A Francesca Prostamo had been noted on Francessco Prostamo's voyage and flagged as 'not in the family tree'. She IS in the tree: she is his daughter, born 1945 at Briatico, and she was twelve. What the tree lacks is her crossing, not her."
+   "A Francesca Prostamo had been noted on Francessco Prostamo's voyage and flagged as 'not in the family tree'. She IS in the tree: she is his daughter, born 1945 at Briatico, and she was twelve. What the tree lacks is her crossing, not her.",
+   "Crossing -- missing entirely — She sailed on the ROMA with her father Francessco, reaching Fremantle on 10 October 1957, aged twelve. She had been noted on his voyage and wrongly flagged as \"not in the family tree\" -- she is in it, as his daughter."
   ],
   "onSpine": false,
   "ancGen": null
@@ -5589,8 +5661,16 @@
     "living": false
    }
   ],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "inferred",
+    "what": "site/src/data/people.json against the export; reasoned from birthplace, marriage and siblings, not from an act",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "Parentage — two people read as one — ANTONIO GIACOMO PROSTAMO AND ANGELA TOMSIC. She was born at BRISBANE and married Steve Liversegle, and that is the Brisbane household — her brothers and sisters there are Tony, Kristina, Steven and Francesco. The other couple, Francesco Prostamo of Briatico and Raffaela of Catanzaro, had a daughter of the same name with a sister called Antonia. BOTH FATHERS HAD A MOTHER CALLED MARIA ROSA MELLUSO, so both couples named a daughter for her — which is how two women came to be read as one. (RELABELLED 15 SEPTEMBER: this was carried as «probable», which on this page means the best reading of an ambiguous DOCUMENT. Nothing here is ambiguous to read -- the reasoning is from BIRTHPLACE, which is an inference from circumstance and belongs under «inferred».)"
+  ],
   "onSpine": false,
   "ancGen": null
  },
@@ -6949,10 +7029,23 @@
     "kind": "alien passenger declaration",
     "what": "NAA: A12508, 31/1454 — «CRUPI [MAZZA] Angela born 20 December 1900; Maria age 15; Carmela age 8 ... per VIMINALE arriving in Brisbane on 7 December 1937»",
     "href": "/crossings"
+   },
+   {
+    "kind": "probable",
+    "what": "Queensland death registration 1973/B/38514, against the Nudgee Catholic cemetery register",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "NAA: A12508, 31/1454",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "HER ARRIVAL, HER EXACT BIRTH DATE, AND BOTH DAUGHTERS, from one line of an archival description. It also contradicts the tree's claim that Carmela was born at Tully in 1926."
+   "HER ARRIVAL, HER EXACT BIRTH DATE, AND BOTH DAUGHTERS, from one line of an archival description. It also contradicts the tree's claim that Carmela was born at Tully in 1926.",
+   "Surname — a garbling — ANGELA CRUPI, daughter of FRANCESCO CRUPI and MARIA VECCHIO. Her Queensland death registration of 10 January 1973 names both parents, and the Nudgee register interred her three days later in plot V-0116 beside her husband Rosario Mazza in V-0117. Born 1900 at Catania, died 1973 at Brisbane, which is exactly the woman the export holds. CUPO IS A GARBLING OF CRUPI, and this data does that often — «Lecota» for Nicotra and «Postamo» for Prostamo are both already on this page.",
+   "Birth date — BORN 20 DECEMBER 1900. The NAA's description of her alien passenger declaration gives the day: «CRUPI [MAZZA] Angela born 20 December 1900».",
+   "Crossing -- missing entirely — ARRIVED BRISBANE 7 DECEMBER 1937 ON THE VIMINALE, with two daughters -- «Maria age 15; Carmela age 8». The archive had no arrival for her and no idea the Mazza were in Australia this early."
   ],
   "onSpine": false,
   "ancGen": null
@@ -7146,8 +7239,16 @@
     "living": false
    }
   ],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "flagged",
+    "what": "NAA: A12508, 31/1454",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "Birth year and birthplace — A CONTRADICTION — CANNOT BOTH BE TRUE. She arrives at Brisbane on 7 December 1937 as an ITALIAN ALIEN aged EIGHT -- so born about 1929, in Italy. A child born at Tully in 1926 would be eleven and an Australian-born British subject, needing no alien declaration at all. Her sister Maria, «age 15», fits the tree's 1922 exactly, so the record is not loose about ages."
+  ],
   "onSpine": false,
   "ancGen": null
  },
@@ -9667,10 +9768,22 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1883, atto 206 — born 16 September 1883, Via Grotte 47",
     "href": "/scilla"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1883 atto 206; New Orleans passenger list, S.S. Liguria, 1908",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "New Orleans passenger list, S.S. Liguria, 1908",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "The tree gives his mother as Giovanna Pontillo. SETTLED, AND NOT IN THE TREE'S FAVOUR: act 206 of 1883 names her GIOVANNA ROMANO, and the New Orleans manifest of 22 February 1908 -- taken from his own statement at twenty-four, half a world from Scilla -- names 'father Antonino Polistena and mother Giovanna Romano'. Two independent records, two continents. He also has a crossing the tree does not record: the S.S. Liguria out of Palermo, bound for Quincy, Florida, on the line immediately after Michele Donato -- whose daughter he would marry about eight years later."
+   "The tree gives his mother as Giovanna Pontillo. SETTLED, AND NOT IN THE TREE'S FAVOUR: act 206 of 1883 names her GIOVANNA ROMANO, and the New Orleans manifest of 22 February 1908 -- taken from his own statement at twenty-four, half a world from Scilla -- names 'father Antonino Polistena and mother Giovanna Romano'. Two independent records, two continents. He also has a crossing the tree does not record: the S.S. Liguria out of Palermo, bound for Quincy, Florida, on the line immediately after Michele Donato -- whose daughter he would marry about eight years later.",
+   "Parentage — His mother is GIOVANNA ROMANO, not Giovanna Pontillo. SETTLED BY TWO INDEPENDENT RECORDS: act 206 of 1883 names her Giovanna Romano, and the New Orleans manifest of 1908 -- filled in from Giovanni's own statement, twenty-five years later and half a world away -- names 'father Antonino Polistena and mother Giovanna Romano, Scilla'. The father is the same man under three spellings: Camillo Antonio in the act, Antonio in the tree, Antonino on the manifest.",
+   "Crossing -- missing entirely — He sailed from PALERMO on the S.S. LIGURIA on 22 February 1908, reaching NEW ORLEANS, bound for QUINCY, FLORIDA -- on the line immediately after Michele Donato, whose daughter he would marry about eight years later. Aged 24, single, a sailor."
   ],
   "onSpine": true,
   "ancGen": 4
@@ -9810,10 +9923,16 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1892, atto 162 — born 6 July 1892, Via Grotte 31",
     "href": "/scilla"
+   },
+   {
+    "kind": "documented",
+    "what": "Marginal annotation on Scilla, Nati 1892, atto 162",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "The act's marginal annotation records a death the tree does not have at all: she died at SCILLA on 26 AUGUST 1975, death act 30 of that year. Her daughters Angela and Giovanna are buried at Nudgee in Brisbane; their mother stayed at Scilla."
+   "The act's marginal annotation records a death the tree does not have at all: she died at SCILLA on 26 AUGUST 1975, death act 30 of that year. Her daughters Angela and Giovanna are buried at Nudgee in Brisbane; their mother stayed at Scilla.",
+   "Death -- missing entirely — Died at Scilla on 26 August 1975, death act 30 of that year, aged 83. Her daughters Angela and Giovanna are buried at Nudgee in Brisbane; she never left Scilla."
   ],
   "onSpine": true,
   "ancGen": 4
@@ -9931,11 +10050,42 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1855, atto 163 — born 3 October 1855, in his parents' house",
     "href": "/scilla"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1892, atto 162; New Orleans passenger list 1908",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1892, atto 162",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Antenati name index, Scilla, atto di morte 10 May 1936",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Morti 1936, parte I, atto 20; against the New Orleans manifest of March 1908",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Morti 1936, parte I, atto 20",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "The tree puts his birth at Scilla in 1851. Act 162 of 1892 makes him THIRTY-SIX in July 1892, so born about 1856 -- and gives him a trade the tree does not record, pescatore. But the Scilla birth indexes for 1851, 1856 and 1859 each hold a complete D section and NONE of them has a Donato in it, while 1892 has two Donato households. On this evidence the surname arrives at Scilla between 1859 and 1892 and he was probably born in another comune. CONFIRMED INDEPENDENTLY: the New Orleans manifest of 1908 records him aged 52, off the Liguria -- a birth about 1856, agreeing with act 162 and not with the tree's 1851. And the 'Donato arrived at Scilla late' hypothesis is dead: fifteen Donato gave Scilla as their last residence at Ellis Island between 1893 and 1921. THE MANIFEST IMAGE adds a third witness and more: aged 52, a SAILOR, and his nearest relative in Italy given as 'Wife Maria Sofi, Via Grotte, Scilla' -- the same street as act 162. He was bound for Quincy, Florida.",
-   "THE ACT THIS ARCHIVE LOOKED FOR LONGEST. Declared on 4 October 1855 by his father DOMENICO DONATO, thirty-eight, MARINARO, «figlio di CANDELORO»; his mother NUNZIATA SOFI, thirty-seven. Three generations in one act. The tree says 1851 — four years out — and the search failed for a fortnight because 1851, 1856 and 1859 were read and 1855 was not."
+   "THE ACT THIS ARCHIVE LOOKED FOR LONGEST. Declared on 4 October 1855 by his father DOMENICO DONATO, thirty-eight, MARINARO, «figlio di CANDELORO»; his mother NUNZIATA SOFI, thirty-seven. Three generations in one act. The tree says 1851 — four years out — and the search failed for a fortnight because 1851, 1856 and 1859 were read and 1855 was not.",
+   "Birth year — Born about 1856. Thirty-six in his daughter's birth act of July 1892, and fifty-two on the New Orleans manifest of 1908 -- and the New Orleans manifest image names him a SAILOR whose nearest relative is 'Wife Maria Sofi, Via Grotte, Scilla' -- three independent witnesses agreeing.",
+   "Trade -- missing entirely — PESCATORE, a fisherman. Living at Via Grotte 31, Scilla, in 1892.",
+   "Death -- missing entirely — DIED AT SCILLA ON 10 MAY 1936, «Padre Domenico, Madre Nunziata Sofi, Coniuge Maria Sofi» -- all three matching this archive exactly. He was fifty-two on the New Orleans manifest of March 1908, sailing for Quincy, Florida; he came home and lived another twenty-eight years. THE LAST MAN ON THE DONATO LINE WHOSE END WAS UNKNOWN.",
+   "Birth year — BORN ABOUT 1856, NOT 1851, AND TWO RECORDS AGREE AGAINST THE TREE. His death act of 10 May 1936 makes him «di anni OTTANTA»; the New Orleans manifest of March 1908 makes him FIFTY-TWO. Both point at 1855 or 1856. THE TREE'S 1851 WOULD HAVE MADE HIM EIGHTY-FIVE AT DEATH AND FIFTY-SEVEN ON THE SHIP. Five years out, and it matters because he is on the spine.",
+   "Trade -- missing entirely — MARINAIO -- a mariner, not a fisherman. The distinction is worth keeping: his contemporary GIOVANNI ARENA, who died six weeks earlier and sixty yards away, is also «marinaio», while ROCCO ARENA four years before is «pescatore». Scilla's men went to sea two different ways.",
+   "Death -- missing entirely — DIED AT SIX IN THE MORNING ON 10 MAY 1936, AT VIA GROTTE 66, SCILLA. «e morto DONATO MICHELE, di anni ottanta, marinaio, residente in Scilla, nato in questo Comune, dal fu DOMENICO e da fu SOFI NUNZIATA, MARITO DI SOFI MARIA.» Both parents dead, HIS WIFE STILL LIVING. The declarants were LICO FRANCESCO DI DOMENICO, twenty-four, and PALAMARA GIOVANNI FU ANTONINO, thirty-seven, both day-labourers."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -10019,10 +10169,16 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1892, atto 162 — named as the mother, a filatrice",
     "href": "/scilla"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1892, atto 162",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "Named twice, sixteen years and one ocean apart: as the mother in act 162 of 1892, and as 'Wife Maria Sofi, Via Grotte, Scilla' on her husband's 1908 New Orleans manifest."
+   "Named twice, sixteen years and one ocean apart: as the mother in act 162 of 1892, and as 'Wife Maria Sofi, Via Grotte, Scilla' on her husband's 1908 New Orleans manifest.",
+   "Trade -- missing entirely — FILATRICE, a spinner."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -10115,8 +10271,16 @@
    }
   ],
   "siblings": [],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1883, atto 206",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "Trade -- missing entirely — CAMILLO ANTONIO POLISTENA, pescatore, aged 48 in 1883 so born about 1835. Living at Via Grotte 47, Scilla."
+  ],
   "onSpine": true,
   "ancGen": 5
  },
@@ -10223,8 +10387,22 @@
    }
   ],
   "siblings": [],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "probable",
+    "what": "Antenati name index, Scilla death acts — atto di morte 19 October 1924; and atto di morte 4 May 1920 (Santa Polistena)",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Antenati name index, Scilla, atto di morte 15 July 1930",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "my own reading — a name in dispute, RESOLVED — SHE IS GIOVANNA ROMANO, AND THE PONTILLO BELONGS TO HER MOTHER-IN-LAW. A FOURTH record now calls her Romano -- her husband's death act of 1924 gives «Coniuge Giovanna Romano», and their daughter Santa's of 1920 gives «Madre Giovanna Romano». The same act names the husband's own mother as ANNA PONTILLO. SO THE EXPORT TOOK THE HUSBAND'S PARENTS AND HUNG THEM ON THE WIFE: «Giuseppi Pontillo» is Camillo Antonio's father GIUSEPPE POLISTENA, and the Pontillo is his mother ANNA. That is why this archive could never find a Pontillo family behind her -- there is not one. Two asserted ancestors dissolve and two documented ones replace them.",
+   "my own reading — a name in dispute, SETTLED — HER OWN DEATH ACT ENDS IT. «GIOVANNA ROMANO, died Scilla 15 July 1930, Padre ANNUNZIATO, Madre ANGELA ZIRILLI, Coniuge CAMILLO ANTONIO POLISTENA.» She is named with her own surname, her own parents and her own husband, on her own act. THAT IS FIVE RECORDS CALLING HER ROMANO -- Scilla Nati 1883 atto 206, the New Orleans manifest of 1908, her husband's death act of 1924, her daughter Santa's of 1920, and now this. THE TREE'S «GIUSEPPI PONTILLO» AND «NUNZIATTA PONTILLO» ARE NOT HER PARENTS AND NEVER WERE. Her parents are ANNUNZIATO ROMANO and ANGELA ZIRILLI, and the Pontillo belonged to her mother-in-law, ANNA PONTILLO. Two asserted ancestors are withdrawn and two documented ones replace them."
+  ],
   "onSpine": true,
   "ancGen": 5
  },
@@ -11063,9 +11241,16 @@
     "kind": "passenger index",
     "what": "NAA passenger arrivals index — the Surriento, 17 Jun 1949",
     "href": "/crossings"
+   },
+   {
+    "kind": "documented",
+    "what": "NAA passenger arrivals index",
+    "href": "/corrections"
    }
   ],
-  "corrections": [],
+  "corrections": [
+   "Port — Embarked at NAPLES, on the Surriento."
+  ],
   "onSpine": false,
   "ancGen": null
  },
@@ -11276,8 +11461,16 @@
     "living": false
    }
   ],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "documented",
+    "what": "Antenati name index, Scilla, atto di morte 5 January 1933",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "Death date — DIED 5 JANUARY 1933, not 1934. «Teresa Polistena, Padre Giovanni, Madre Annunziata Donato» -- her parents as the tree has them. The year is out by one."
+  ],
   "onSpine": false,
   "ancGen": null
  },
@@ -14532,8 +14725,16 @@
     "living": false
    }
   ],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "inferred",
+    "what": "site/src/data/people.json against the export; reasoned from birthplace",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "Parentage — a niece taken for a daughter — LEONE PROSTAMO AND ANNA VALLONE. Francessco (1900-1983) and Leone (b. 1902) are BROTHERS, both sons of Alfonso Prostamo and Caterina Melluso. Mattea was born at BUENOS AIRES in 1926; Anna Vallone was born at Buenos Aires and died there, and Mattea is the only child recorded to her. Francessco lived and died at BRIATICO and his seven children are the Briatico household. This archive already records a Prostamo branch at Buenos Aires with children born from 1926 — which is Mattea exactly. (RELABELLED 15 SEPTEMBER: this was carried as «probable», which on this page means the best reading of an ambiguous DOCUMENT. Nothing here is ambiguous to read -- the reasoning is from BIRTHPLACE, which is an inference from circumstance and belongs under «inferred».)"
+  ],
   "onSpine": false,
   "ancGen": null
  },
@@ -16649,8 +16850,16 @@
     "living": false
    }
   ],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "documented addition",
+    "what": "Briatico, Matrimoni 1849, atto 1 — Antenati an_ua87663",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "The fourth generation, carried as UNTESTED until 14 September 2026 and now documented four times over. A MARINARO like his father and his son. He died at two in the morning on the last night of 1837 and his death is entered in Pizzo's SEPARATE REGISTER OF CHOLERA DEATHS, atto 327 — which is why the ordinary Morti volumes do not hold him. IN THE FAMILY TREE as antonino-prostamo-1785, where he is dated 1785 and given Pasquale Prostamo and a «Caterina Di Meio» as parents; the Pizzo register calls that same wife CATERINA MAJO."
+  ],
   "onSpine": true,
   "ancGen": 7
  },
@@ -16700,8 +16909,16 @@
    }
   ],
   "siblings": [],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "documented addition",
+    "what": "Pizzo, Nati 1814, atto 285; Pizzo morti colerici 1837, atto 327; Briatico, Matrimoni 1849, atto 1",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "Twenty-seven when her son was born in April 1814, so born about 1787. WIDOWED BY THE CHOLERA on the last night of 1837 and still living at Pizzo in June 1849, when her son married eleven kilometres away at Briatico. SHE IS IN THE FAMILY TREE, dated 1789 and married to Antonino Prostamo; this archive said for a time that she was not in it at all, which was wrong and is corrected here. What the Briatico act of 1849 adds is her widowhood, her town and her age."
+  ],
   "onSpine": true,
   "ancGen": 7
  },
@@ -18410,11 +18627,17 @@
     "kind": "marriage register",
     "what": "Scilla, Matrimoni 1885, atto 73 — married Maria Martello, 12 September 1885",
     "href": "/scilla"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1892, atto 230",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "The tree gives his birth as 10 June 1892. Act 230 says he was born on 6 OCTOBER 1892 at Via Grotte 75 and was declared on the 9th. The 1892 index holds only one Arena Giuseppe, and the act names his mother as Concetta Russo, so this is the same child.",
-   "Aged twenty-five, a marinaro, FIGLIO DI FRANCESCO ANTONIO E DI SERAFINA ARLOTTA — the father's name written out in full, which is what proves that the 'Antonio Arena' of the acts of 1854 and 1885 is Francesco Antonio. His bride's father, Paolo Martello, was already living in AMERICA."
+   "Aged twenty-five, a marinaro, FIGLIO DI FRANCESCO ANTONIO E DI SERAFINA ARLOTTA — the father's name written out in full, which is what proves that the 'Antonio Arena' of the acts of 1854 and 1885 is Francesco Antonio. His bride's father, Paolo Martello, was already living in AMERICA.",
+   "Birth date — Born 6 October 1892 at Via Grotte 75, declared on the 9th. The year is right; the day is not."
   ],
   "onSpine": true,
   "ancGen": 4
@@ -18557,10 +18780,16 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1893, atto 22 — born 17 January 1893, Via Acquagrande 41",
     "href": "/scilla"
+   },
+   {
+    "kind": "documented",
+    "what": "Ellis Island, the Archimede",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "The tree puts her crossing to America in 1894, when she was one. The Ellis Island manifest puts it at 23 MAY 1899, aged six, off the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father, who arrived ten months later as a US citizen."
+   "The tree puts her crossing to America in 1894, when she was one. The Ellis Island manifest puts it at 23 MAY 1899, aged six, off the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father, who arrived ten months later as a US citizen.",
+   "Crossing date — Crossed on 23 MAY 1899 aged six, on the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father. THE IMAGE names the man she travelled with as her UNCLE -- her line begins with the word 'Niece' -- and he was going to join 'brother Rocco' at Mulberry Street, New York."
   ],
   "onSpine": true,
   "ancGen": 4
@@ -18642,11 +18871,55 @@
     "kind": "marriage register",
     "what": "Scilla, Matrimoni 1885, atto 86 — married Concetta Russo, 29 October 1885",
     "href": "/scilla"
+   },
+   {
+    "kind": "documented addition",
+    "what": "Scilla, Nati 1854, atto 76",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1892, atto 230",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Ellis Island, the Archimede, 23 May 1899; Scilla, Nati 1854 atto 76",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1854, atto 76",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1854 atto 76; Matrimoni 1885 atto 86",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Antenati name index, Scilla, atto di morte 31 March 1936",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Morti 1936, parte I, atto 14",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "The tree gives his birth as 1870. Act 230 of 1892 makes him thirty-three in October 1892, so he was born about 1859 — eleven years earlier. His trade, which the tree does not record, is pescatore. HIS OWN BIRTH IS NOT AT SCILLA. The Tavola for 1857, 1858, 1859 and 1860 has been read in full -- four consecutive years, two either side of the window his son's act allows -- and there is no Giovanni Arena born in any of them. The next move is his marriage to Concetta Russo, which would name his comune of birth.",
-   "THE ACT THAT SETTLES HIM. He is thirty-one, a marinaro, born at Scilla, FIGLIO DI ANTONIO E DI SERAFINA ARLOTTA — so Rocco Arena's own brother, and born about 1854. This archive had him as three separate men and searched 1857–1860 for a birth that was never going to be there: he was born on 30 APRIL 1854, act 76. The 'thirty-three' in his son's act of 1892 is three years out."
+   "THE ACT THAT SETTLES HIM. He is thirty-one, a marinaro, born at Scilla, FIGLIO DI ANTONIO E DI SERAFINA ARLOTTA — so Rocco Arena's own brother, and born about 1854. This archive had him as three separate men and searched 1857–1860 for a birth that was never going to be there: he was born on 30 APRIL 1854, act 76. The 'thirty-three' in his son's act of 1892 is three years out.",
+   "ROCCO ARENA'S ELDER BROTHER. His birth act names his father ANTONIO ARENA, thirty-four -- Francesco Antonio, born 25 November 1819, is exactly thirty-four in April 1854 -- and his mother SERAFINA ARLOTTA, and it was declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco' and enters six-year-old Anna as his NIECE. HE IS IN THE FAMILY TREE, and this archive said for a time that he was not: the tree's Giovanni Arena, husband of Concetta Russo, IS this man, dated 1870 there and born in fact on 30 April 1854. What the act adds is sixteen years and two parents, not a person.",
+   "Birth year — Born about 1859. He is thirty-three in his son's birth act of October 1892.",
+   "Trade -- missing entirely — PESCATORE, a fisherman. Living at Via Grotte 75, Scilla, in 1892.",
+   "Brother -- missing entirely — The Ellis Island manifest of 23 May 1899 states it outright: Giovanni Arena, 45, a sailor, sails to join 'BROTHER ROCCO, N. YORK, MULBERRY ST', and the six-year-old on the next line is entered not by surname but as 'NIECE, Anna Arena'. So Giovanni is Rocco Arena's brother and Anna is Rocco's daughter -- both stated on the document. HE IS IN THE TREE, and this row once said he was not: he is the Giovanni Arena the tree marries to Concetta Russo and dates to 1870. The missing people are his PARENTS. THE INDEX LINE AND THE ACT DISAGREE, AND THE DISAGREEMENT IS SETTLED. The 1854 Tavola reads «Arena Giovanni di Antonio e Arlotta ROSA, 20 April», and this archive repeated it and drew the wrong conclusion from it -- a ROSA Arlotta would be Serafina's sister, which would make the boy Rocco's COUSIN rather than his brother. The act itself, act 76, says SERAFINA and says the THIRTIETH of April, and the ages close it: Francesco Antonio was thirty-four in April 1854 to the month. The index is wrong. It is recorded here because an index this archive trusted produced a false relationship, and the next one might too.",
+   "Birth date — ROCCO ARENA'S ELDER BROTHER, born 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS before the tree's date. Son of FRANCESCO ANTONIO ARENA, 34, marinaro, and SERAFINA ARLOTTA, 22. Declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco'. This archive filed him for a time among the people the tree lacks. That was wrong -- the tree has him, as Concetta Russo's husband; what it lacks is his date and his parents.",
+   "Birth date — BORN 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS earlier than the tree says. This archive previously corrected him to 'about 1859' from his son's birth act of 1892, which makes him thirty-three. His MARRIAGE act of 1885 makes him THIRTY-ONE, which is 1854, and his own birth act of 1854 gives the day. The 1892 age is three years out; the birth act is the authority.",
+   "Death -- missing entirely — DIED AT SCILLA ON 31 MARCH 1936, «Padre Antonio, Madre Serafina Arlotta, Coniuge Concetta Russo». He sailed for New York in May 1899 to join his brother Rocco and he came home. This is the second half of the sojourning argument: he baptised no child in America because his wife never left Scilla, and neither did he, finally.",
+   "Trade -- missing entirely — MARINAIO. His brother Rocco is «pescatore» on his own act of 1932 -- one a mariner, one a fisherman, which is a real distinction in a town like Scilla and not a scribal variant.",
+   "Death -- missing entirely — DIED AT NINE IN THE MORNING ON 31 MARCH 1936, AT VIA GROTTE 72, SCILLA. «e morto ARENA GIOVANNI, di anni OTTANTUNO, marinaio, residente in Scilla, nato in Scilla, dal fu ANTONIO e dalla fu ARLOTTA SERAFINA, MARITO DI RUSSO CONCETTA.» THE AGE IS EXACTLY RIGHT: born 30 April 1854, he was eighty-one and a month short of eighty-two. His wife CONCETTA RUSSO was still living, which is why she never appears in the Scilla death index -- she outlived the indexed span or died under a spelling not yet found."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -18754,11 +19027,72 @@
     "kind": "marriage register",
     "what": "Scilla, Matrimoni 1888, atto 63 — married Generosa Costa, December 1888",
     "href": "/scilla"
+   },
+   {
+    "kind": "certain",
+    "what": "Scilla, Nati 1860 atto 45 and atto 161; Nati 1861 atto 228; Nati 1856 atto 180; Nati 1859 atto 46",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1893, atto 22",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "United States Census, 1900, Manhattan Ward 6",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Ellis Island, the San Guglielmo, 11 September 1913",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "United States, Italians to America Index, 1855-1900",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Matrimoni 1888, atto 63",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "New York Roman Catholic Parish Baptisms (Findmypast) — Our Lady of Loretto and Most Precious Blood",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Antenati name index, Scilla, atto di morte 8 February 1932 (an_ud16599906 series)",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Morti 1932, parte I, atto 9",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Morti 1932, parte I, atto 9; against Scilla, Nati 1861 atto 228 and the 1900 US census",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "RESOLVED. His parents are FRANCESCO ANTONIO ARENA, marinaro, and SERAFINA ARLOTTA, not Orazio Arena and Giovana Zirilli. The proof is a sibling pair: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, act 228 of 1861 gives them a son ROCCO. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, same order, wrong father. Orazio's own children, across four years of the register, are Domenico, Domenico and Maria Annunziata. An Ellis Island manifest independently makes Rocco 39 in March 1900, consistent with a birth at the end of 1861. THE 1900 CENSUS confirms four tree facts at once -- the 1892 arrival, Generosa Costa, Anna, and Antonio born in New York -- and adds two more: he had been MARRIED TEN YEARS (so 1890), and he gave his birth as September 1861 where act 228 says 20 December 1861. The household also held a Costa, an ARLOTTA and three more Arena including a John Arena, 42. A THIRD CROSSING: the San Guglielmo out of Messina, 11 September 1913, aged 52, still a US citizen. The tree gives Messina and 12 September -- right port, one day out. Rocco Polistena of Scilla was on the same ship the same day.",
-   "HIS OWN MARRIAGE ACT NAMES HIS PARENTS: «figlio di FRANCESCO ANTONIO, residente in Scilla, e di SERAFINA ARLOTTA». The tree puts him under Orazio Arena. This is the direct statement the correction had been waiting for. He is a MARINARO, born and living at Scilla. His bride Generosa Costa is a FILATRICE, daughter of ANTONIO COSTA and ANNA ARLOTTA."
+   "HIS OWN MARRIAGE ACT NAMES HIS PARENTS: «figlio di FRANCESCO ANTONIO, residente in Scilla, e di SERAFINA ARLOTTA». The tree puts him under Orazio Arena. This is the direct statement the correction had been waiting for. He is a MARINARO, born and living at Scilla. His bride Generosa Costa is a FILATRICE, daughter of ANTONIO COSTA and ANNA ARLOTTA.",
+   "Parentage — the circumstantial case, superseded — SUPERSEDED BY THE MARRIAGE ACT, and kept because the reasoning is worth reading. His parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA. The proof is not the 1861 act alone but a SIBLING PAIR: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, and act 228 of 1861 gives them a son ROCCO, twenty-one months apart. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, in the same order, on the wrong father. Meanwhile Orazio Arena and Giovanna Zirilli are documented across four years (1856, 1858, 1859, 1860) with children Domenico, Domenico and Maria Annunziata, and NEITHER a Rocco nor a Giuseppe ever appears. This was the case BEFORE act 63 of 1888 was found. It was built on a sibling pair and four years of negative sweeps, and it was right -- which is the point of keeping it.",
+   "Trade -- missing entirely — MARINARO, a sailor. Living at Via Acquagrande 41, Scilla, in 1893.",
+   "Marriage -- missing entirely — The 1900 census records them as having been MARRIED TEN YEARS, so they married in 1890 -- three years before Anna was born and two before Rocco first sailed.",
+   "Crossing date — Arrived 11 SEPTEMBER 1913 -- one day earlier -- on the SAN GUGLIELMO. The port of embarkation, MESSINA, is exactly as the tree has it. He was 52 and entered as a US citizen. On the same ship the same day was ROCCO POLISTENA, 44, of Scilla, four frames away: a generation later, Anna Arena's son Rocco married Angela Polistena.",
+   "Crossing date — Arrived 24 MAY 1892 off the S.S. ELYSIA out of NAPLES, aged 31, occupation SEAMAN. The 1900 census gives the year and nothing else; this dates it to the day, names the ship and the port, and adds a fourth independent statement that he worked the water.",
+   "Parentage — AND THE EDGE IS NOW DROPPED — SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA — said outright in HIS OWN MARRIAGE ACT. The correction was previously carried on five circumstantial supports; this is the direct statement and nothing stronger exists. ACTED ON, 15 SEPTEMBER: the edge from Rocco Arena to Orazio Arena and Giovanna Zirilli HAS BEEN REMOVED from the charts, with the reason on the row in data/parent-links.tsv. The site had been arguing with itself -- proving the parentage false on this page while still drawing it on every chart. THREE PEOPLE LEFT THE BLOOD LINE WITH IT: Orazio Arena, Giovanna Zirilli and Orazio's father GIUSEPPE ARENA, who was on the spine only through this claim. The line of direct ancestors goes from sixty-two people to fifty-nine. ORAZIO AND GIOVANNA REMAIN REAL AND REMAIN ON THIS SITE. They were documented at Scilla with four children between 1853 and 1860 -- Teresa, Domenico, Domenico and Maria Annunziata -- and this archive found them. They were simply not Rocco's parents. ROCCO NOW HAS NO PARENTS ON THE CHART, because FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA are not in Michael's export. That is the honest state of the evidence, and it is exactly the gap work list row 51 exists to close.",
+   "Missing people — A WHOLE NEW YORK HOUSEHOLD — FOUR CHILDREN BORN IN MANHATTAN, none of them in the tree with a date and three of them not in it at all. ANTONIO b. 3 OCTOBER 1896; SERAFINA b. 15 AUGUST 1898; CLEMENTINA b. 21 DECEMBER 1900; and a SECOND ANTONIO b. 13 OCTOBER 1902. Every one names «father ROCCO ARENA, mother GENEROSA COSTA» -- the couple married at Scilla in December 1888. AND THE HOUSEHOLD HAS AN ADDRESS AT LAST: 141 MULBERRY STREET in 1896 and 1898, 198 MULBERRY by January 1901. That corroborates the Ellis Island manifest of 1899, which sends Giovanni Arena to «BROTHER ROCCO, N. YORK, MULBERRY ST» -- two independent sources, one street, and now a number. IT ALSO DATES THE CROSSING FROM THE INSIDE: Anna was born at Scilla in January 1893 and Antonio in Manhattan in October 1896, so the household moved between those dates, which fits the 1892 and 1894 crossings already documented.",
+   "Death -- missing entirely — DIED AT SCILLA ON 8 FEBRUARY 1932. Antenati's name index gives the act with both parents and his wife: «Padre Francesco Antonio, Madre Serafina Arlotta, Coniuge Generosa Costa» -- all three match this archive exactly, and he is the only Rocco Arena in the Scilla death index so described.",
+   "Trade -- missing entirely — PESCATORE. His death act calls him a fisherman, as it calls both declarants and both witnesses. THE MAN WHO CROSSED THE ATLANTIC FOUR TIMES AND KEPT A HOUSEHOLD ON MULBERRY STREET DIED IN THE TRADE HE WAS BORN TO.",
+   "Death -- missing entirely — DIED AT VIA PROF. ZAGARI, SCILLA, AT A QUARTER PAST SIX IN THE EVENING ON 8 FEBRUARY 1932; the act was drawn the next morning at four minutes past ten. «dal fu FRANCESCO ANTONIO ... e dalla fu ARLOTTA SERAFINA ... VEDOVO DI COSTA GENEROSA.» A WIDOWER -- Generosa Costa died in June 1916 and he outlived her by fifteen years and eight months. The declarants were PONTILLO ROCCO FU GIOVANNI, sixty-five, and LAMERI GIUSEPPE FU LUIGI, eighty; the witnesses PONTILLO SANTO FU GIOVANNI, eighty-one, and ALFONZETTI ROCCO FU ANTONINO, fifty-nine. All fishermen, all illiterate.",
+   "a document against a document — HIS DEATH ACT MAKES HIM SEVENTY-ONE ON 8 FEBRUARY 1932, WHICH WOULD PUT HIS BIRTH BEFORE FEBRUARY 1861. The archive has his birth act as Scilla Nati 1861 ATTO 228 -- a high act number, so late in the year -- and the 1900 United States census gives «b. Sept 1861», which would make him SEVENTY, not seventy-one. ONE YEAR APART, AND THE BIRTH ACT WINS. An age on a death act is what two elderly neighbours told the registrar, not something read off a record; both declarants here were fishermen in their sixties and eighties and both signed with a mark. RECORDED BECAUSE IT IS THE KIND OF SMALL DISCREPANCY THAT LATER GETS «FIXED» IN THE WRONG DIRECTION."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -18852,11 +19186,29 @@
     "kind": "census",
     "what": "United States Census 1900, Manhattan Ward 6 — aged 30, married ten years",
     "href": "/crossings"
+   },
+   {
+    "kind": "documented addition",
+    "what": "Scilla, Matrimoni 1888, atto 63",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1893, atto 22",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Antenati name index, Scilla, atto di morte 6 June 1916",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "Four Costa gave Scilla as their last residence at Ellis Island and none is Generosa. Her crossing, which the tree dates to 1894, is not in the index under that name.",
-   "Indexed as 'Genneroso Arena'. The census makes her thirty in 1900 and married ten years, so born about 1870 and married in 1890. The New York City birth register gives her four more children than the tree has."
+   "Indexed as 'Genneroso Arena'. The census makes her thirty in 1900 and married ten years, so born about 1870 and married in 1890. The New York City birth register gives her four more children than the tree has.",
+   "ROCCO ARENA'S WIFE, and SHE IS IN THE FAMILY TREE -- this row exists only to connect her to parents the tree does not have. Her marriage act of December 1888 reads «COSTA GENEROSA, FILATRICE, nata in Scilla, FIGLIA DI ANTONIO, residente in Scilla, E DI ANNA ARLOTTA, residente in Scilla». Both parents were recorded in this archive as documented people and NEITHER WAS CONNECTED TO HER, so no chart and no page could show that Rocco Arena's wife had known parents. That is the same failure as the five Melluso who sat in a spreadsheet column: a fact held in one file does not reach the reader until it is joined to another.",
+   "Trade -- missing entirely — FILATRICE, a spinner.",
+   "Death -- missing entirely — DIED AT SCILLA ON 6 JUNE 1916, «Padre ANTONINO COSTA, Madre ANNA ARLOTTA, Coniuge ROCCO ARENA». Her parents are exactly those the marriage act of 1888 gave, now from a second and independent document, and her husband is named. SHE DIED SIXTEEN YEARS BEFORE HIM: Rocco Arena followed her on 8 February 1932."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -19547,9 +19899,22 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1892, atto 230 — named as the mother, a filatrice",
     "href": "/scilla"
+   },
+   {
+    "kind": "documented addition",
+    "what": "Scilla, Matrimoni 1885, atto 86",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1892, atto 230",
+    "href": "/corrections"
    }
   ],
-  "corrections": [],
+  "corrections": [
+   "GIOVANNI ARENA'S WIFE. IN THE FAMILY TREE, which gives her no dates and no parents; the register gives both. Her age of thirty-three in her son Giuseppe's birth act of October 1892 puts her birth about 1859, and the same act names her parents LEONARDO RUSSO and ANGELA BAGNATO -- and those two are genuinely absent from the tree.",
+   "Trade -- missing entirely — FILATRICE, a spinner."
+  ],
   "onSpine": true,
   "ancGen": 5
  },
@@ -22639,10 +23004,16 @@
     "kind": "passenger manifest",
     "what": "Ellis Island, 2 August 1906 — the Luisiana, aged 3, line 28",
     "href": "/crossings"
+   },
+   {
+    "kind": "documented",
+    "what": "Ellis Island, the Luisiana",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "Indexed as 'Foloppo Melluso Anile': the transcriber ran his surname into his mother's. He is on the line immediately after Domenica Anile, whose son he is."
+   "Indexed as 'Foloppo Melluso Anile': the transcriber ran his surname into his mother's. He is on the line immediately after Domenica Anile, whose son he is.",
+   "Crossing -- ship named — The LUISIANA. He is three years old, on the line immediately after his mother Domenica Anile, and indexed as \"Foloppo Melluso Anile\"."
   ],
   "onSpine": false,
   "ancGen": null
@@ -26303,8 +26674,16 @@
    }
   ],
   "siblings": [],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "documented addition",
+    "what": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129); Matrimoni 1844 atto 20; Nati 1855 atto 163",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "MICHELE DONATO'S FATHER, and a great-great-grandfather of Mia and Rocco. A sailor, like the Arena men. HE IS IN THE FAMILY TREE as Michele's father and nothing more -- no dates, no trade, no parents. This archive claimed for a time that he was absent; that was wrong. What is new is everything else about him: born about 1817, MARINARO, and son of CANDELORO DONATO and MARIA PALADINO, who are absent."
+  ],
   "onSpine": true,
   "ancGen": 6
  },
@@ -26346,8 +26725,16 @@
    }
   ],
   "siblings": [],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "documented addition",
+    "what": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129)",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "MICHELE DONATO'S MOTHER. IN THE FAMILY TREE, under the fuller form ANNUNZIATA SOFI, with no dates and no parents. Her son married a SOFI in his turn -- Maria Sofi -- and named his daughter NUNZIATA for her. What the 1844 Tavola adds is her parents, PASQUALE SOFI and MARIA DE AMICO, who are absent."
+  ],
   "onSpine": true,
   "ancGen": 6
  },
@@ -27435,10 +27822,16 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1856 atto 180 and 1859 atto 46 — two sons named Domenico",
     "href": "/scilla"
+   },
+   {
+    "kind": "candidate",
+    "what": "Scilla, Nati 1821 atto 10; Nati 1833 atto 1",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "The tree gives him no source at all, and gives him two children, Rocco and Guiseppe. THE REGISTER GIVES HIM NEITHER. Across 1856, 1858, 1859 and 1860 he and Giovanna Zirilli have Domenico (1856), Domenico (1859) and Maria Annunziata (1860); the Rocco and Giuseppe the tree assigns him belong to Francesco Antonio Arena and Serafina Arlotta. He is a real, well documented Scilla man who has been given another household's children. His first son being Domenico twice suggests, on naming custom alone, that his own father was a Domenico Arena -- a lead, not a finding."
+   "The tree gives him no source at all, and gives him two children, Rocco and Guiseppe. THE REGISTER GIVES HIM NEITHER. Across 1856, 1858, 1859 and 1860 he and Giovanna Zirilli have Domenico (1856), Domenico (1859) and Maria Annunziata (1860); the Rocco and Giuseppe the tree assigns him belong to Francesco Antonio Arena and Serafina Arlotta. He is a real, well documented Scilla man who has been given another household's children. His first son being Domenico twice suggests, on naming custom alone, that his own father was a Domenico Arena -- a lead, not a finding.",
+   "Generation — a lead, RETRACTED — THIS ARCHIVE WITHDRAWS ITS OWN INFERENCE. From Orazio naming two sons Domenico, naming custom suggested his father was a Domenico Arena. Two Orazio Arena births at Scilla now say otherwise: act 10 of 1821 gives him a father GIUSEPPE (and the tree's own year, 1821, exactly), and act 1 of 1833 gives a different Orazio a father BONAVENTURA. Neither is a Domenico. The mistake was not the custom but the assumption behind it: the first child this archive had FOUND was not necessarily his FIRST child. The years 1850-1855 are unread, and a son Giuseppe in one of them would restore the custom exactly. Recorded as a candidate: ORAZIO ARENA b. 14 DECEMBER 1821, son of Giuseppe Arena and a Teresa. FURTHER EVIDENCE, BOTH WAYS: Orazio's earliest known child is a DAUGHTER, Teresa, born 17 October 1853. Custom names the first daughter for her paternal grandmother, and act 10 of 1821 makes Orazio's mother a Teresa -- which SUPPORTS the 1821 candidate. But that same act makes his father a Giuseppe, and Orazio's first son is Domenico, with 1852-1855 now read and no earlier son. The two halves disagree and the archive is not picking one."
   ],
   "onSpine": false,
   "ancGen": null
@@ -27545,10 +27938,16 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1860, atto 45 — born 5 March 1860",
     "href": "/scilla"
+   },
+   {
+    "kind": "documented",
+    "what": "Scilla, Nati 1860, atto 45",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "The tree makes him a son of Orazio Arena. The register makes him a son of FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA, and Rocco Arena's elder brother by twenty-one months."
+   "The tree makes him a son of Orazio Arena. The register makes him a son of FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA, and Rocco Arena's elder brother by twenty-one months.",
+   "Parentage — Born 5 March 1860 to FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA. He is Rocco's brother, and both were attached to the wrong father."
   ],
   "onSpine": false,
   "ancGen": null
@@ -32853,10 +33252,16 @@
     "kind": "birth register",
     "what": "Scilla, Nati 1856 atto 180 and 1859 atto 46 — named as the mother both times",
     "href": "/scilla"
+   },
+   {
+    "kind": "flagged",
+    "what": "Scilla, Nati 1856 atto 180 and 1859 atto 46",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "The export carries her twice as Orazio Arena's wife: undated here, and as Giovanna Zirilli b. 1827 with a son Guiseppe. Act 46 shows a single couple at Scilla in 1859. The two records have NOT been merged, because surname endogamy at Scilla is common enough that a second wife of the same surname is a real possibility."
+   "The export carries her twice as Orazio Arena's wife: undated here, and as Giovanna Zirilli b. 1827 with a son Guiseppe. Act 46 shows a single couple at Scilla in 1859. The two records have NOT been merged, because surname endogamy at Scilla is common enough that a second wife of the same surname is a real possibility.",
+   "Duplicate record — Almost certainly one woman entered twice. NOT merged here, because surname endogamy at Scilla is common enough that a second wife of the same surname is genuinely possible -- the 1913 marriage index alone has Bueti marrying Bueti and Vizzari marrying Vizzari. NOTE: whichever way that resolves, neither Zirilli record should carry Rocco or Giuseppe as a child -- they belong to Serafina Arlotta."
   ],
   "onSpine": false,
   "ancGen": null
@@ -34873,10 +35278,17 @@
     "kind": "birth register",
     "what": "Piedimonte Etneo, Nati 1845, atto 64 — named as the father, aged 36, bracciale",
     "href": "/mazza"
+   },
+   {
+    "kind": "documented",
+    "what": "Piedimonte Etneo, Nati 1845, atto 64",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "He declared the birth himself. Thirty-six in June 1845 puts his own birth about 1809. The archive reached him by inference from marriage proclamations; he is now in three registers in his own right — the birth of 1845, the marriage of 1871 and his son's death act of 1924."
+   "He declared the birth himself. Thirty-six in June 1845 puts his own birth about 1809. The archive reached him by inference from marriage proclamations; he is now in three registers in his own right — the birth of 1845, the marriage of 1871 and his son's death act of 1924.",
+   "Birth year — BORN ABOUT 1809. He is THIRTY-SIX when he declares his son Rosario's birth in June 1845.",
+   "Trade -- missing entirely — BRACCIALE in 1845 -- a day labourer. By 1924 his son's death act calls him a contadino. The Mazza worked the land at Piedimonte for at least three generations."
   ],
   "onSpine": false,
   "ancGen": null
@@ -35236,8 +35648,16 @@
     "living": false
    }
   ],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "certain",
+    "what": "site/src/data/people.json against the export",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "Parentage — a cycle in the export — THE SECOND ORAZIO IS HIS SON, NOT A SECOND FATHER AND NOT A DUPLICATE OF THE FIRST. Rosario Mazza and Anna Cassanite named a son Orazio for his grandfather, exactly as the naming custom predicts, and the export then recorded that son in both the parents and the children. The child link stands; the parent link is removed. His father remains the Orazio Mazza born 1883 at Piedimonte Etneo, son of Rosario Mazza and Leonarda."
+  ],
   "onSpine": false,
   "ancGen": null
  },

@@ -13,7 +13,17 @@ So this checks the joins by arithmetic instead of by attention:
   * a parent must be older than the child, where both have years;
   * a parent link must not double back on itself;
   * a Queensland registration must not name a person whose own death year
-    is somewhere else.
+    is somewhere else;
+  * and a person the evidence NAMES must not have a page that denies it.
+
+THE LAST ONE WAS ADDED AFTER THE ESTATE CAUGHT IT. `documented-additions.tsv`
+points at a person with `inTree` and `corrections.tsv` with `slug`, but
+`build_person_extras.py` read neither, so twelve people carried evidence that
+never reached them — and their pages said, in as many words, "No record has been
+read for this person. What is known of them is what the tree asserts, and it is
+unverified." ANTONINO PROSTAMO, documented four times over and dead at two in the
+morning on the last night of 1837, was one of them. A silent build is how that
+lasted.
 
 Exit 1 on a failure, 0 on a clean run, so the build can refuse to publish.
 """
@@ -119,6 +129,32 @@ if os.path.exists("data/documented-joins.tsv"):
         elif k not in by_id:
             notes.append(f"documented-joins: the build kept {dr} rather than the declared {k} — "
                          f"richness decides, and the row's wording should not claim otherwise")
+
+# Every person the evidence names must carry it. This is a check on the BUILD,
+# not on the data: the rows are fine, it is build_person_extras.py that has to
+# pick them up, and when it stops doing so the page actively denies the record.
+BLANK = {"", "\u2014", "-", "\u2013"}
+named = {}
+for row in csv.DictReader(open("data/documented-additions.tsv", encoding="utf-8"),
+                          delimiter="\t"):
+    slug = (row.get("inTree") or "").strip()
+    if slug not in BLANK:
+        named.setdefault(slug, set()).add("documented-additions")
+for row in csv.DictReader(open("data/corrections.tsv", encoding="utf-8"),
+                          delimiter="\t"):
+    slug = (row.get("slug") or "").strip()
+    if slug not in BLANK:
+        named.setdefault(slug, set()).add("corrections")
+
+for slug, files in sorted(named.items()):
+    person = by_slug.get(slug)
+    if person is None:
+        continue                      # the slug checks above already caught it
+    if not person.get("records") and not person.get("corrections"):
+        fails.append(
+            f"{slug} is named in {' and '.join(sorted(files))} and their page carries "
+            f"neither a record nor a correction — it will tell the reader nothing has "
+            f"been read about them. build_person_extras.py is not picking the row up")
 
 for n in notes:
     print("  note ", n)
