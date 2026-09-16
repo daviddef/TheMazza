@@ -23,7 +23,6 @@ const status = (p) => p.died
         { v: "dated", label: "With dates" }, { v: "undated", label: "Undated" }] },
     ]}
     rows={rows.map((p) => ({
-      hay: (p.name + " " + (homeOf(p) || "")).toLowerCase(),
       facets: { sur: p.surname || "", dated: (p.born || p.died) ? "dated" : "undated" },
       cells: [
         `<a href="${u("/people/" + p.slug + "/")}">${p.name}</a>`,
