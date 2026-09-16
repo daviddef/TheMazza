@@ -1,6 +1,6 @@
 {
- "count": 111,
- "documented": 87,
+ "count": 114,
+ "documented": 90,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -370,6 +370,15 @@
      "treeSays": "Born 1851, no death at all",
      "recordSays": "DIED AT SCILLA ON 10 MAY 1936, «Padre Domenico, Madre Nunziata Sofi, Coniuge Maria Sofi» -- all three matching this archive exactly. He was fifty-two on the New Orleans manifest of March 1908, sailing for Quincy, Florida; he came home and lived another twenty-eight years. THE LAST MAN ON THE DONATO LINE WHOSE END WAS UNKNOWN.",
      "source": "Antenati name index, Scilla, atto di morte 10 May 1936",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Death -- missing entirely",
+     "who": "Generosa Costa",
+     "slug": "generosa-costa",
+     "treeSays": "No death, and no parents in the tree at all",
+     "recordSays": "DIED AT SCILLA ON 6 JUNE 1916, «Padre ANTONINO COSTA, Madre ANNA ARLOTTA, Coniuge ROCCO ARENA». Her parents are exactly those the marriage act of 1888 gave, now from a second and independent document, and her husband is named. SHE DIED SIXTEEN YEARS BEFORE HIM: Rocco Arena followed her on 8 February 1932.",
+     "source": "Antenati name index, Scilla, atto di morte 6 June 1916",
      "confidence": "documented"
     }
    ]
@@ -984,6 +993,15 @@
      "recordSays": "BORN 23 JUNE 1828, so she was TWENTY at her wedding — nine days short of twenty-one. Small, and worth keeping: it is the third time in this family that a declared age at marriage has run a year ahead of the birth act.",
      "source": "Briatico, Nati 1828, atto 12",
      "confidence": "certain"
+    },
+    {
+     "kind": "a document against a document",
+     "who": "Anna Arlotta and Antonino Costa died eleven weeks apart",
+     "slug": "—",
+     "treeSays": "Neither death known",
+     "recordSays": "ANNA ARLOTTA DIED 16 MARCH 1915 AND HER HUSBAND ANTONINO COSTA ON 1 JUNE 1915. Her act names her husband as Antonino Costa; his names his wife as Anna Arlotta. THE TWO ACTS CONFIRM EACH OTHER FROM OPPOSITE SIDES, which is what makes the couple safe to build on. Their daughter Generosa followed them in June 1916.",
+     "source": "Antenati name index, Scilla, atti di morte 16 March and 1 June 1915",
+     "confidence": "documented"
     }
    ]
   },
@@ -1180,6 +1198,15 @@
      "recordSays": "HIS DEATH ACT NAMES BOTH. «Camillo Antonio Polistena, died Scilla 19 October 1924, Padre GIUSEPPE, Madre ANNA PONTILLO, Coniuge GIOVANNA ROMANO.» The Polistena quarter gains a generation.",
      "source": "Antenati name index, Scilla death acts — atto di morte 19 October 1924",
      "confidence": "documented"
+    },
+    {
+     "kind": "Parentage — TWO NEW GENERATIONS",
+     "who": "Antonino Costa, Generosa's father",
+     "slug": "—",
+     "treeSays": "Known only as «Antonio Costa, b. c. 1840», with no parents",
+     "recordSays": "DIED AT SCILLA ON 1 JUNE 1915, «Padre LORENZO COSTA, Madre GENEROSA POLISTENA, Coniuge ANNA ARLOTTA». TWO NEW ANCESTORS ON A LINE THAT STOPPED DEAD AT HIM. And the grandmother's name is the granddaughter's: GENEROSA POLISTENA to GENEROSA COSTA, which is the naming custom working exactly as it should and is a quiet corroboration of the whole chain.",
+     "source": "Antenati name index, Scilla, atto di morte 1 June 1915",
+     "confidence": "documented"
     }
    ]
   },
@@ -1205,9 +1232,9 @@
      "who": "Anna Arlotta — Generosa Costa's mother and Serafina Arlotta's sister",
      "slug": "—",
      "treeSays": "Two separate women of the same name, and the question left open",
-     "recordSays": "THEY ARE ONE WOMAN, AND ROCCO ARENA MARRIED HIS FIRST COUSIN. This archive already held ANNA ARLOTTA as Generosa Costa's mother, wife of ANTONIO COSTA, from Scilla Matrimoni 1888 atto 63 — and the row asked in as many words whether she was a sister of Rocco Arena's mother SERAFINA ARLOTTA, saying the test had not been made. The Scilla death index now makes it. ANNA ARLOTTA, who died 16 March 1915, is «Padre GIOVANNI ARLOTTA, Madre MARIA COSTA, Coniuge ANTONINO COSTA» — and Giovanni Arlotta and Maria Costa are SERAFINA ARLOTTA'S OWN PARENTS. Same name, same husband's name, same town, compatible dates. SO SERAFINA AND ANNA WERE SISTERS, AND ROCCO ARENA AND GENEROSA COSTA WERE FIRST COUSINS — which is ordinary in a Calabrian fishing town and is not ordinary to be able to prove. WHY THIS IS «PROBABLE» AND NOT «CERTAIN»: Arlotta and Costa are both common at Scilla, and nothing yet read rules out a second Anna Arlotta married to a second Antonino Costa. Reading the 1915 death act itself, which would give her age and parents in full, or Generosa's own birth act, would settle it.",
-     "source": "Antenati name index, Scilla, atto di morte 16 March 1915; against Scilla, Matrimoni 1888, atto 63",
-     "confidence": "probable"
+     "recordSays": "THEY ARE ONE WOMAN, AND ROCCO ARENA MARRIED HIS FIRST COUSIN. FOUR ACTS NOW AGREE AND NONE CONTRADICTS. (1) ANNA ARLOTTA, died 16 March 1915: «Padre GIOVANNI ARLOTTA, Madre MARIA COSTA, Coniuge ANTONINO COSTA» -- and Giovanni Arlotta and Maria Costa are SERAFINA ARLOTTA'S OWN PARENTS, so Anna and Serafina were sisters. (2) ANTONINO COSTA, died 1 June 1915: «Coniuge ANNA ARLOTTA», confirming the couple from his side. (3) GENEROSA COSTA, died 6 June 1916: «Padre ANTONINO COSTA, Madre ANNA ARLOTTA» -- her own death act naming that same couple as her parents. (4) Scilla Matrimoni 1888 atto 63, which gave those parents in the first place. SO SERAFINA WAS ROCCO'S MOTHER, ANNA WAS GENEROSA'S MOTHER, AND THE TWO WERE SISTERS. UPGRADED FROM «probable» TO «certain» ON 16 SEPTEMBER, when the Costa side came in. WHAT WOULD STILL BREAK IT: two different couples named Giovanni Arlotta and Maria Costa at Scilla in the same decades. Nothing read so far suggests one, and four mutually consistent acts would all have to be pointing at the wrong pair.",
+     "source": "Antenati name index, Scilla, atti di morte 16 March 1915, 1 June 1915 and 6 June 1916; against Scilla, Matrimoni 1888, atto 63",
+     "confidence": "certain"
     }
    ]
   }
