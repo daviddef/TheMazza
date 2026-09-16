@@ -1025,10 +1025,10 @@
     {
       "n": 121,
       "what": "Does Antenati's name index cover BIRTHS and MARRIAGES too, or only deaths?",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**The single highest-value question in the work list, because the answer re-prices a dozen rows.** Today's sweep queried `/search-nominative/?cognome=X&localita=Scilla` and every result came back an **atto di morte**, 1910–1943. **That may be all Scilla has indexed, or it may be all that these four surnames happened to return.** Not the same thing, and the difference is enormous: if **marriages** are indexed, [row 71](/worklist/) — Nunziata Donato × Giovanni Polistena, about 1916 — is answered by a query. If **births** are, so is Camillo Antonio Polistena's birth act and half of [row 4](/worklist/). **Test it properly:** query a surname with no locality and read the *tipologia* facet, which will say what act types exist and how many of each."
+      "note": "**The single highest-value question in the work list, because the answer re-prices a dozen rows.** Today's sweep queried `/search-nominative/?cognome=X&localita=Scilla` and every result came back an **atto di morte**, 1910–1943. **That may be all Scilla has indexed, or it may be all that these four surnames happened to return.** Not the same thing, and the difference is enormous: if **marriages** are indexed, [row 71](/worklist/) — Nunziata Donato × Giovanni Polistena, about 1916 — is answered by a query. If **births** are, so is Camillo Antonio Polistena's birth act and half of [row 4](/worklist/). **Test it properly:** query a surname with no locality and read the *tipologia* facet, which will say what act types exist and how many of each. **ANSWERED 16 SEPTEMBER, and the answer is no.** Every act in Scilla's name index, across every year from 1880 to 1943, is an **atto di morte**. There are **no births and no marriages in it at all**. **Coverage is 1911–1943 solidly** — between 279 and 704 indexed persons a year — with only a scatter before that: four in 1880, one in 1885, a handful each in 1902, 1905, 1906, 1908, 1909, 1910. **What it costs:** [row 71](/worklist/), [row 137](/worklist/) and half of [row 4](/worklist/) stay volume reads. The hope that one query would answer them is gone. **What it gains:** the window it does cover is exactly when this family's Italian relatives were dying, which is why it gave up four deaths in an afternoon. **And `anno=` is the year parameter**, control-tested — `anno=1880` returns 4, matching the facet, while `estremoRemoto=` is silently ignored and returns all 13,777."
     },
     {
       "n": 122,
@@ -1036,7 +1036,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**Four surnames were swept today and there are at least eight more on the spine.** Wanted: **COSTA** (which should hold Generosa), **SOFI**, **ZIRILLI**, **MARTELLO**, **RUSSO**, **PALADINO**, **ROMANO** and **PONTILLO** — the last two because [row 41](/worklist/) has just been resolved *against* the tree, and the index is where a Romano family behind Giovanna would show up if one exists. **Cheap and mechanical**, one paced fetch each, and every act carries father, mother and spouse."
+      "note": "**Four surnames were swept today and there are at least eight more on the spine.** Wanted: **COSTA** (which should hold Generosa), **SOFI**, **ZIRILLI**, **MARTELLO**, **RUSSO**, **PALADINO**, **ROMANO** and **PONTILLO** — the last two because [row 41](/worklist/) has just been resolved *against* the tree, and the index is where a Romano family behind Giovanna would show up if one exists. **Cheap and mechanical**, one paced fetch each, and every act carries father, mother and spouse. **Note after [row 121](/worklist/): this will return deaths only, 1911–1943.** Still worth running — that is the window in which this family's Scilla relatives died — but it will not produce a marriage or a birth for anyone."
     },
     {
       "n": 123,
@@ -1092,7 +1092,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**Found by listing the series rather than by failing to find someone in it, which is the better way round.** The Morti run is complete from 1866 to 1943 **except for 1888 and 1909** — and 1909 sits inside the thirteen-year window where Francesco Antonio Arena and Serafina Arlotta must have died. **This is the same shape as the Zambrone gap**: a hole in the digitisation, not necessarily in the record. **The second copy is the route** — these registers were kept in duplicate, one at the comune and one at the Tribunale, and it is the Tribunale copy Antenati filmed. Belongs with [row 9](/worklist/)."
+      "note": "**Found by listing the series rather than by failing to find someone in it, which is the better way round.** The Morti run is complete from 1866 to 1943 **except for 1888 and 1909** — and 1909 sits inside the thirteen-year window where Francesco Antonio Arena and Serafina Arlotta must have died. **This is the same shape as the Zambrone gap**: a hole in the digitisation, not necessarily in the record. **The second copy is the route** — these registers were kept in duplicate, one at the comune and one at the Tribunale, and it is the Tribunale copy Antenati filmed. Belongs with [row 9](/worklist/). **AND THE INDEX IS NOT A BACK DOOR INTO THEM, checked 16 September.** The name index lists two acts under **1909**, which looked at first like content from a volume browse cannot reach. It is not: their document arks — `an_ud16595370` and `an_ud16595649` — fall **inside the ark ranges of the 1911 and 1912 volumes**. They are 1909 deaths written into later registers, which is ordinary. **The 1888 and 1909 volumes are genuinely absent** and the second copy remains the only route."
     },
     {
       "n": 130,
