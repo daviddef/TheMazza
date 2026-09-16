@@ -1121,18 +1121,18 @@
     {
       "n": 133,
       "what": "PIEDIMONTE ETNEO — is it name-indexed? The Crupi are from there too",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**The NAA card gave Mario Crupi's birth as 28 November 1905 at Piedimonte, province of Catania — the Mazza's own town.** So the Crupi and the Mazza came from one village, and **Angela Crupi's birth of 20 December 1900** with her parents **Francesco Crupi and Maria Vecchio** should be reachable in the registers the Mazza line already uses. **First test whether Piedimonte Etneo is in the name index at all** — if it is, two birth acts and a set of parents come back for two queries. If it is not, the acts are still there to be read by volume, **with exact dates in hand**, which is the cheapest register work there is."
+      "note": "**The NAA card gave Mario Crupi's birth as 28 November 1905 at Piedimonte, province of Catania — the Mazza's own town.** So the Crupi and the Mazza came from one village, and **Angela Crupi's birth of 20 December 1900** with her parents **Francesco Crupi and Maria Vecchio** should be reachable in the registers the Mazza line already uses. **First test whether Piedimonte Etneo is in the name index at all** — if it is, two birth acts and a set of parents come back for two queries. If it is not, the acts are still there to be read by volume, **with exact dates in hand**, which is the cheapest register work there is. **ANSWERED 16 SEPTEMBER: Piedimonte Etneo is NOT name-indexed.** «Nessun risultato trovato» on a locality-only query. **Angela Crupi's birth of 20 December 1900 and Mario Crupi's of 28 November 1905 are not reachable this way** — but the NAA card gave both dates to the day, so the volume read is as cheap as a register read ever gets: a known comune, a known year, a known date."
     },
     {
       "n": 134,
       "what": "Are Briatico, Zambrone and Pizzo name-indexed?",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**The Calabrian half of this family has been worked entirely by volume-reading, and it may not have needed to be.** Scilla turned out to be name-indexed for deaths 1910–1943; nobody has checked whether **Briatico**, **Zambrone**, **Pizzo** or **San Costantino** are. **If any is, several open rows collapse into queries** — [row 84](/worklist/) (Caterina Cichello's death), [row 44](/worklist/) (the Melluso), [row 66](/worklist/) (Maria Fragalà's death at Pizzo). **One paced fetch per comune answers it.** Do it before any further Calabrian volume sweep."
+      "note": "**The Calabrian half of this family has been worked entirely by volume-reading, and it may not have needed to be.** Scilla turned out to be name-indexed for deaths 1910–1943; nobody has checked whether **Briatico**, **Zambrone**, **Pizzo** or **San Costantino** are. **If any is, several open rows collapse into queries** — [row 84](/worklist/) (Caterina Cichello's death), [row 44](/worklist/) (the Melluso), [row 66](/worklist/) (Maria Fragalà's death at Pizzo). **One paced fetch per comune answers it.** Do it before any further Calabrian volume sweep. **ANSWERED 16 SEPTEMBER, and mostly no.** **Briatico, Zambrone, San Costantino Calabro and Potenzoni are NOT indexed** — all four return «Nessun risultato trovato». **Pizzo IS**, but for **births**, about 5,900 of them across 1868–1903 — and it holds **no Prostamo**, which is expected since the family was at Briatico by then. **So [row 84](/worklist/), [row 44](/worklist/) and [row 66](/worklist/) all stay volume reads.** **The important by-product:** Pizzo being indexed for *births* while Scilla is indexed for *deaths* proves the act type varies by comune, so «deaths only» was never an Antenati fact."
     },
     {
       "n": 135,
@@ -1140,7 +1140,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**The same argument as [row 17](/worklist/), one level up, and it will pay better.** Row 17 wants to know which Scilla volumes carry an annual index; **this wants to know which comuni and which years Antenati has indexed by name at all** — because where it has, the volume index does not matter. **Today's work was done blind**: the coverage was discovered by querying four surnames and noticing every hit was a death between 1910 and 1943. **One table, built once**, and every later question becomes «is it indexed» before «which volume»."
+      "note": "**The same argument as [row 17](/worklist/), one level up, and it will pay better.** Row 17 wants to know which Scilla volumes carry an annual index; **this wants to know which comuni and which years Antenati has indexed by name at all** — because where it has, the volume index does not matter. **Today's work was done blind**: the coverage was discovered by querying four surnames and noticing every hit was a death between 1910 and 1943. **One table, built once**, and every later question becomes «is it indexed» before «which volume». **FIRST PASS DONE 16 SEPTEMBER — the eight comuni this family touches.** **Indexed:** Scilla (deaths, 1911–1943), Pizzo (**births**, 1868–1903), Catania (deaths, 1911+). **Not indexed:** Piedimonte Etneo, Briatico, Zambrone, San Costantino Calabro, Potenzoni. **Two rules fall out of it.** The **act type varies by comune** — assuming Scilla's «deaths only» held everywhere would have been wrong at Pizzo. And **`localita=` does not mean «registered here»**: it matches any place attached to the person, and `localita=Catania` returns people who died at **Vicopisano in Tuscany**. It read cleanly at Scilla only because those people were born and died in one town. **Still to do:** turn this into the actual table, and extend it past this family's comuni if the estate wants it."
     },
     {
       "n": 136,
