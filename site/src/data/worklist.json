@@ -1081,10 +1081,10 @@
     {
       "n": 128,
       "what": "Francesco Antonio Arena and Serafina Arlotta — thirteen years, and the arks are in hand",
-      "state": "next",
+      "state": "running",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**[Row 69](/worklist/) narrowed from forty-seven unread years to thirteen; this is the sweep itself.** They are named repeatedly as parents in the 1910–1943 index and never once as the deceased, and the annual index for 1889–1896 was read without them. **So they died between 1897 and 1909.** The Morti arks for every one of those years are now in `scilla-arks-italiano.tsv`. **Note the hole:** Antenati has no volume for **1909**, so twelve years are readable and one is not — [row 129](/worklist/)."
+      "note": "**[Row 69](/worklist/) narrowed from forty-seven unread years to thirteen; this is the sweep itself.** They are named repeatedly as parents in the 1910–1943 index and never once as the deceased, and the annual index for 1889–1896 was read without them. **So they died between 1897 and 1909.** The Morti arks for every one of those years are now in `scilla-arks-italiano.tsv`. **Note the hole:** Antenati has no volume for **1909**, so twelve years are readable and one is not — [row 129](/worklist/). **STARTED 17 SEPTEMBER. Three years read, nine to go — and the expensive part is done once and for all.** **1897, 1898 and 1899 are clear**: neither Francesco Antonio Arena nor Serafina Arlotta is in any of those A blocks. One near-miss recorded rather than claimed: 1898 holds an **«Arena Francesco Giovanni» with no act number written**, and *Francesco Giovanni* is not *Francesco Antonio*. **The twelve container ids are now in `scilla-arks-italiano.tsv`** — they cost one rate-limited page load each and no later session should pay for them again. **The method, for whoever continues:** manifests and images fetch to `curl` without rate limiting; only the ark page is limited. The index sits at a **different position in every volume**, so guessing «n−2» fails — instead download the last six images small, **montage them into one sheet**, read that once to find the A page, then crop that page's A block at full width. **Two reads a year instead of six.** **Remaining: 1900–1908**, minus 1909 which Antenati does not hold ([row 129](/worklist/))."
     },
     {
       "n": 129,
