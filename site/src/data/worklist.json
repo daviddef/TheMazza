@@ -1181,6 +1181,14 @@
       "owner": "this archive",
       "since": "2026-09-16",
       "note": "**This is not a Mazza finding, it is an estate finding, and the other archives are working Italian registers too.** `/search-nominative/?cognome=X&localita=Y&s_size=100` returns acts with **father, mother and spouse** already extracted, and for Scilla it covers deaths 1910–1943. **Falco and Defranceschi have been reading volumes the same way this archive has.** Worth a note carrying the query form, the `localita=` caution — `fq=` and `facets=` are **silently ignored** and return the unfiltered count — and the parsing rule that **only rows with a `p.morte` value are the deceased**; the rest are relatives seen from inside someone else's act, and reading them as deaths invents people."
+    },
+    {
+      "n": 141,
+      "what": "The two Queensland investigation case files — why these men were interned",
+      "state": "blocked",
+      "owner": "David",
+      "since": "2026-09-16",
+      "note": "**The casualty form says what happened to Mario Crupi. These files would say why.** **NAA: BP242/1, Q25743** — «Crupi, Mario — Queensland investigation case file», 1942–1948, **Brisbane, Box 152**. And **NAA: BP242/1, Q21227** — the same series for **Rosario Mazza**, 1940–1948. **Both are Access status OPEN**, so neither needs an access examination — unlike [row 115](/worklist/). They are simply **paper, in Brisbane, undigitised**, and someone has to ask for them. **Why they matter more than the camp records.** North Queensland Italians were interned largely on the word of neighbours and informants, and it is the investigation file that carries **the allegation, the evidence offered for it, and sometimes the appeal**. Mario Crupi had been **naturalised since April 1940** and was taken anyway; this is the file that would say on what grounds. **Michael is in Brisbane, where both files are.** A reading-room visit would open both in an afternoon, or the NAA will quote for copies."
     }
   ],
   "accounts": [
