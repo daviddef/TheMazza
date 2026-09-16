@@ -54,16 +54,16 @@
   "note": "Nine Arena, nine Cavallaro, seven Coco, five Nicotra, four Micale, two Mazza -- but the set stops at 1939 and this family's Queensland marriages are mostly 1949 and later. It does independently carry Maria Mazza and Rosario Coco in 1939, which the Queensland BDM index already gave."
  },
  {
-  "kind": "PAYWALL",
-  "what": "New York Roman Catholic Parish transcripts",
-  "result": "Indexed but locked",
-  "note": "The index entries are visible on the trial; the transcripts -- which would give the godparents, and godparents in an Italian parish are usually kin -- require a higher subscription tier than the trial provides."
+  "kind": "FOUND",
+  "what": "THE LOCK IS OPEN — the New York Roman Catholic parish transcripts, read",
+  "result": "The full subscription opens them. FOUR ARENA BAPTISMS at Our Lady of Loretto naming ROCCO ARENA and GENEROSA COSTA, with the Mulberry Street addresses; the Arlotta children; and the marriage register, from which two Arena namesakes were excluded on their parents' names.",
+  "note": "THIS ROW WAS A LOCK AND ROW 102 ASKED FOR LOCKS TO BE TURNED INTO ANSWERS. It is answered. The Catholic Heritage Archive transcripts opened on 16 September and the American harvest came out of them: ANTONIO b. 3 Oct 1896 and SERAFINA b. 15 Aug 1898 at 141 MULBERRY, CLEMENTINA b. 21 Dec 1900 at 198 MULBERRY, a second ANTONIO b. 13 Oct 1902 -- the whole New York household of Rocco Arena, with a street number that independently corroborates the 1899 Ellis Island manifest sending Giovanni Arena to «BROTHER ROCCO, N. YORK, MULBERRY ST». THE MOTHER'S NAME IS THE FIELD THAT DID THE WORK, twice over: it attached these four and it excluded two strangers, Giuseppe Arena of Teresa Siniscaldi and Joannem Arena of Angelicae Coglitore. A LOCK IS NOT A NEGATIVE AND THIS ONE SHOULD NEVER HAVE SAT IN THE RECORD LOOKING LIKE EVIDENCE."
  },
  {
-  "kind": "BLOCKED",
-  "what": "FindMyPast — the session is signed out",
-  "result": "The trial has lapsed or the cookie is gone; findmypast.co.uk now offers 'Start free trial'.",
-  "note": "Attempted again on 13 September 2026, three days before the trial was due to expire. The site is SIGNED OUT and the GraphQL endpoint redirects to auth.findmypast.com. Logging in needs the account holder's own credentials, which this archive does not handle. WHAT IS STILL WANTED THERE, if anyone signs in again: Rocco Arlotta in the New York records (the 1900 lodger, whose age fits nothing found so far); Giovanni Arena's arrival and naturalisation papers; the 1905 and 1915 NEW YORK STATE censuses, which would place the household between the 1900 federal census and the return to Scilla; and the Queensland electoral rolls for Sebastiano and Domenica. NOTE ALSO that FindMyPast has already given this archive things no free index has -- the Our Lady of Loretto baptisms of Serafina (1898) and Clementina (1901), and CLEMENTINA ARENA'S 1921 ELLIS ISLAND CROSSING, which the Statue of Liberty index does not surface at all."
+  "kind": "METHOD",
+  "what": "The signed-out session, resolved — and why a lapsed subscription is not a negative",
+  "result": "Access restored 16 September 2026 when the account holder took a full month's subscription and signed in. Everything this row listed as wanted has now been run.",
+  "note": "KEPT BECAUSE OF WHAT IT NEARLY DID TO THE RECORD. For three days this archive carried a row whose result field read like a finding and was actually a closed door: the trial had lapsed mid-search. A LAPSED SUBSCRIPTION, A PAYWALL AND A SIGNED-OUT SESSION ARE ALL THE SAME THING -- the absence of an answer, not an answer -- and all three were sitting in a file whose other rows are evidence. The convention this produced is now general: A LOCK IS RECORDED AS A LOCK, IT IS OWNED BY WHOEVER CAN OPEN IT, AND IT IS RE-RUN THE MOMENT THEY DO. That is what row 102 of the work list is for, and turning these three rows is what closed it."
  },
  {
   "kind": "FOUND",
@@ -78,10 +78,10 @@
   "note": "The index rows are readable even where the transcripts are not, and they show a community rather than a family. At OUR LADY OF LORETTO alone the Arena fathers are ROCCO, GIOVANNI, ROSARIO, MICHELE, FELICE, PIETRO, MARIANO, IGNAZIO, ANGELO, VINCENZO, GIACOMO and AURELIO. THREE OF ROCCO ARENA'S OWN CHILDREN ARE THERE: Antonio, born 1896; Serafina, born 1898; Clementina, born 1900 and baptised 1901. AND TWO THAT MAY BE HIS BROTHER'S. An ANGELICA ARENA, born and baptised 1900, father entered as GIOVANNIE; and a MICHELA ARENA, born 1908, father GIOVANNI. Giovanni Arena, Rocco's brother, landed in May 1899 and was lodging with Rocco in June 1900. If either child is his, he did not go straight home -- and the family tree has neither. RECORDED AS A LEAD: the index gives no mother, and there are several Giovanni Arena in the same parish register."
  },
  {
-  "kind": "PAYWALL",
-  "what": "The New York Roman Catholic parish transcripts — STILL LOCKED, and now precisely so",
-  "result": "The Catholic Heritage Archive is an EXCLUSIVE-tier collection, above the trial.",
-  "note": "Worth stating exactly, because it is the single richest unopened seam for the American years. The index -- names, years, parish, father's given name -- is free and has been harvested. THE TRANSCRIPT ITSELF, which carries the MOTHER'S NAME and the GODPARENTS, is behind the 'Everything' subscription and returns an Upgrade page on the trial. GODPARENTS ARE THE PRIZE. In a southern Italian emigrant parish they are almost always kin, and they would settle at one stroke whether the Giovanni Arena of 1900 is Rocco's brother, and who the Arlotta in the household were."
+  "kind": "RETRACTED",
+  "what": "RETRACTED — the godparents are not behind that paywall, because they are not in the record at all",
+  "result": "The full transcript has now been read. ITS FIELDS ARE: record set, name, birth year, baptism year, parish, county, state, country, MOTHER'S first and last name, FATHER'S first and last name, birth date, baptism date, location, archdiocese, RESIDENCE, language. THERE IS NO GODPARENT FIELD, and there is no «View original record» button -- these baptisms are TRANSCRIPT ONLY, with no image.",
+  "note": "THIS ROW SAID THE TRANSCRIPT CARRIED «THE MOTHER'S NAME AND THE GODPARENTS» AND CALLED IT THE SINGLE RICHEST UNOPENED SEAM FOR THE AMERICAN YEARS. HALF OF THAT WAS TRUE. The mother's name is there and it has been worth everything -- it attached four children to Rocco Arena and excluded two strangers. THE GODPARENTS WERE NEVER THERE. The claim was made while the record was locked, by reasoning from what a parish baptism register contains rather than from what this index transcribes, and A GUESS ABOUT THE CONTENTS OF A LOCKED RECORD IS NOT A FINDING. WORSE, THERE IS NO ROUTE TO THEM HERE: with no image, the godparents cannot be reached at any subscription tier. They exist only in the original Our Lady of Loretto register, which means the Archdiocese of New York's own archive. THE REASONING THAT FAILED IS WORTH KEEPING: godparents in an Italian parish usually are kin, and that remains true -- it is just not something this source can tell us."
  },
  {
   "kind": "NEGATIVE",
