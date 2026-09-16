@@ -852,7 +852,7 @@
       "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**Done, and the answer is half of what this row promised.** The sweep ran: every Mazza and every Prostamo in «Australia Electoral Rolls», sorted to bring all Queensland rows onto the first page. **It found Michael's grandfather.** SEBASTIANO MAZZA, builder's labourer, **Progress Road, Wacol, sub-district Inala**, on the 1959 roll — the post-war migrant belt, ten years after he landed, and the first record of him in Australia between his arrival and his grave. It also found **ROSARIO and ANGELA MAZZA at 225 Leichhardt Street** on consecutive roll numbers, which is one household, and **ROSARIO SALVATORE MAZZA at Paddington in 1949**, the same man a decade earlier. **But the instrument is smaller than this row assumed.** Findmypast holds only eight Queensland commonwealth years and the last is **1959** — for a family that arrived in 1949 that is *one usable roll*, not the near-annual run promised here. See rows 104, 105 and 106 for what that leaves. Recorded in [what has been searched](/searched/), which carries the Findmypast log."
+      "note": "**Done — all seven surnames this row named, and the answer is half of what it promised.** Prostamo, Polistena, Mazza, Arena, Donato, Melluso and Crupi, each swept in «Australia Electoral Rolls» and sorted to bring the Queensland rows onto the first page. **It found Michael's grandfather.** SEBASTIANO MAZZA, builder's labourer, **Progress Road, Wacol, sub-district Inala**, on the 1959 roll — the post-war migrant belt, ten years after he landed, and the first record of him in Australia between his arrival and his grave. It also found **ROSARIO and ANGELA MAZZA at 225 Leichhardt Street** on consecutive roll numbers, which is one household, and **ROSARIO SALVATORE MAZZA at Paddington in 1949**, the same man a decade earlier. **But the instrument is smaller than this row assumed.** Findmypast holds only eight Queensland commonwealth years and the last is **1959** — for a family that arrived in 1949 that is *one usable roll*, not the near-annual run promised here. See rows 104, 105 and 106 for what that leaves. Recorded in [what has been searched](/searched/), which carries the Findmypast log. **The Crupi were the second prize.** Angela Crupi's three brothers — whom the Queensland death index named and neither Brisbane cemetery register could find — are all at **Tully** on the 1959 roll with trades and streets. **Polistena, Melluso and Rocco Arena return nothing**, and that absence has a shape: of the adults who landed in 1949, only Sebastiano Mazza was enrolled by 1959. See row 108 for the two surname clusters this turned up."
     },
     {
       "n": 100,
@@ -917,6 +917,22 @@
       "owner": "this archive",
       "since": "2026-09-16",
       "note": "**Raised and closed the same day, because it nearly put a falsehood in the record.** On Findmypast's results URL a wrong parameter fails in **two different ways and neither announces itself**. `state=Queensland` and `page=2` render a filter chip and report **«0 results found»** — word for word what a genuine negative looks like. `street=progress road` is **discarded in silence** and the unfiltered count comes back unchanged, so the search you think you ran is not the one that ran. The first was caught only because the *unfiltered* search plainly listed Queensland rows. **The rule now in the log: control-test a parameter against a search known to return rows before believing any zero it produces.** This is the same family of trap as `fathersfirstname` for `fatherfirstname` earlier in this work, and as the multi-comune trap in the Antenati registers — *the instrument answering a different question than the one asked.* Written up in [what has been searched](/searched/)."
+    },
+    {
+      "n": 108,
+      "what": "Donato and Nicotra in Queensland — two clusters off this family's own spine, unopened",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**The electoral sweep walked into two surnames nobody here has looked for in Australia.** **DONATO: 65 rows**, and the Queensland block holds a **CANDELORE DONATO enrolled in 1941 and 1949**, a **CANDO DONATO** in 1939 and 1959, and a **DOMENICO DONATO** in 1959. **CANDELORO DONATO IS ONE OF THE FOUR WALLS** — born about 1783 at Scilla, the point where [the Donato quarter](/lines/) stops. He is plainly not the same man, and *that is the interest*: southern Italian families name a grandson for his grandfather, so a Candeloro Donato in Queensland is what a **descendant of the wall** looks like from this end. Domenico Donato is the name on the 1816 birth act that came out of the Scilla processetti this week. **NICOTRA: 39 rows**, almost all Queensland, a family enrolled continuously from 1934 to 1959 — **Filippo, Gregorio, Giuseppe, Carmela, Leonarda, Leonard**. **Nicotra is Sebastiano Mazza's mother's name**, Maria Concetta Nicotra. **Neither is claimed and neither can be, from rolls alone** — no parents, no birth years. The route that could decide them is the Queensland BDM birth and marriage indexes, which *are* inside their windows for the 1930s and 1940s and do carry parents."
+    },
+    {
+      "n": 109,
+      "what": "Which Antonio Crupi died in 1982 — two men of that name in north Queensland",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**A small ambiguity, written down so it is not quietly resolved the wrong way later.** The 1959 roll holds **two Antonio Crupi**: a **cane farmer at Dean Street, Tully**, and a **farmer at Silkwood East in the Innisfail sub-district**. Angela Crupi's brother **ANTONINO CRUPI died 15 April 1982** (reg 1982/52783), son of Francesco Crupi and Maria Vecchio. **A roll cannot tell which man he is** — it carries no parents and no birth year. The Tully one is the better bet only because his brothers Pietro and Mario are both at Tully, and *better bet* is not evidence. **What would settle it:** the 1982 death registration's district, or the marriage of an Antonino Crupi registered 24 August 1940 (1940/C/3314), which would name a wife to match against **Nellie Crupi**, the woman sharing Dean Street with the Tully man."
     }
   ],
   "accounts": [
