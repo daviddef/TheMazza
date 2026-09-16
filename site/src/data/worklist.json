@@ -1009,18 +1009,178 @@
     {
       "n": 119,
       "what": "Turn /open-questions/ into rows",
-      "state": "open",
+      "state": "next",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**202 lines of prose.** Shape: the question, what is known, what has been tried, and the record that would answer it. `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
+      "note": "**202 lines of prose.** Shape: the question, what is known, what has been tried, and the record that would answer it. `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside. **[State corrected from «open» to «next» on 16 September — «open» is not in the estate vocabulary and the build gate refuses it. The row is otherwise untouched.]**"
     },
     {
       "n": 120,
       "what": "Extract /sources/ into data",
-      "state": "open",
+      "state": "next",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**70 lines inline** — the smallest, and so the cheapest of the five to move.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside."
+      "note": "**70 lines inline** — the smallest, and so the cheapest of the five to move.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside. **[State corrected from «open» to «next» on 16 September — «open» is not in the estate vocabulary and the build gate refuses it. The row is otherwise untouched.]**"
+    },
+    {
+      "n": 121,
+      "what": "Does Antenati's name index cover BIRTHS and MARRIAGES too, or only deaths?",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**The single highest-value question in the work list, because the answer re-prices a dozen rows.** Today's sweep queried `/search-nominative/?cognome=X&localita=Scilla` and every result came back an **atto di morte**, 1910–1943. **That may be all Scilla has indexed, or it may be all that these four surnames happened to return.** Not the same thing, and the difference is enormous: if **marriages** are indexed, [row 71](/worklist/) — Nunziata Donato × Giovanni Polistena, about 1916 — is answered by a query. If **births** are, so is Camillo Antonio Polistena's birth act and half of [row 4](/worklist/). **Test it properly:** query a surname with no locality and read the *tipologia* facet, which will say what act types exist and how many of each."
+    },
+    {
+      "n": 122,
+      "what": "Run the name index for the rest of the Scilla surnames",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**Four surnames were swept today and there are at least eight more on the spine.** Wanted: **COSTA** (which should hold Generosa), **SOFI**, **ZIRILLI**, **MARTELLO**, **RUSSO**, **PALADINO**, **ROMANO** and **PONTILLO** — the last two because [row 41](/worklist/) has just been resolved *against* the tree, and the index is where a Romano family behind Giovanna would show up if one exists. **Cheap and mechanical**, one paced fetch each, and every act carries father, mother and spouse."
+    },
+    {
+      "n": 123,
+      "what": "Generosa Costa's death — absent from the Arena index, so look under Costa",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**Her husband's death act of 1932 names her as his wife, so she was alive or recently dead in February 1932.** She does not appear as *the deceased* anywhere in the Arena results, which is expected — she would be indexed under **COSTA**. Worth doing on its own because she is the last of the New York household whose end is unknown: Rocco died in 1932, their daughter Serafina in 1912, and the two Antonios and Clementina have no recorded end at all."
+    },
+    {
+      "n": 124,
+      "what": "Read the four acts the index only summarises",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**An index line is not an act — this archive says so about NAA item titles and the same rule applies here.** Four acts are now identified and none has been opened: **Rocco Arena, 8 February 1932**; **Giovanni Arena, 31 March 1936**; **Michele Donato, 10 May 1936**; **Camillo Antonio Polistena, 19 October 1924**. Each would give an **age** — which dates a birth — plus an address, a trade, and the two declarants. **Camillo Antonio's is the most valuable**: his age would date the birth this archive has only as «about 1835»."
+    },
+    {
+      "n": 125,
+      "what": "Serafina Arena's death act, 1912 — does it record that she was born in America?",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**A small question with a large answer if it goes the right way.** She was baptised at Our Lady of Loretto, Manhattan, on 15 August 1898 and died at Scilla on 15 August 1912. **If the Scilla act names her birthplace as New York, that is the return migration written down in an Italian register** — the only document here that would state it outright rather than by inference from three absences. If it simply says Scilla, that is worth knowing too, because the index's «Nascita: Scilla» field may be a default rather than a claim."
+    },
+    {
+      "n": 126,
+      "what": "Domenico and Anna Arlotta died two days apart — read both acts",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**14 and 16 March 1915, brother and sister, both children of Giovanni Arlotta and Maria Costa.** Two deaths in one family in one week is not ordinary and the acts will say why: an epidemic, a fire, or a boat. **Scilla is a fishing town** and the sea takes siblings together. Whatever the cause, both acts carry ages, which would date Serafina Arlotta's siblings and bracket the marriage [row 39](/worklist/) wants."
+    },
+    {
+      "n": 127,
+      "what": "Settle whether Rocco Arena married his first cousin — one act",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**[Row 118](/worklist/) grades it *probable*; this is the act that would make it *certain*.** Either **Anna Arlotta's death act of 16 March 1915**, which gives her age and parents in full, or **Generosa Costa's own birth act**, which would name her mother with a patronymic. **Both are inside the surviving run.** What is being ruled out is a second Anna Arlotta married to a second Antonino Costa — unlikely, and *unlikely* is not *ruled out*."
+    },
+    {
+      "n": 128,
+      "what": "Francesco Antonio Arena and Serafina Arlotta — thirteen years, and the arks are in hand",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**[Row 69](/worklist/) narrowed from forty-seven unread years to thirteen; this is the sweep itself.** They are named repeatedly as parents in the 1910–1943 index and never once as the deceased, and the annual index for 1889–1896 was read without them. **So they died between 1897 and 1909.** The Morti arks for every one of those years are now in `scilla-arks-italiano.tsv`. **Note the hole:** Antenati has no volume for **1909**, so twelve years are readable and one is not — [row 129](/worklist/)."
+    },
+    {
+      "n": 129,
+      "what": "The two Scilla death volumes Antenati does not hold — 1888 and 1909",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**Found by listing the series rather than by failing to find someone in it, which is the better way round.** The Morti run is complete from 1866 to 1943 **except for 1888 and 1909** — and 1909 sits inside the thirteen-year window where Francesco Antonio Arena and Serafina Arlotta must have died. **This is the same shape as the Zambrone gap**: a hole in the digitisation, not necessarily in the record. **The second copy is the route** — these registers were kept in duplicate, one at the comune and one at the Tribunale, and it is the Tribunale copy Antenati filmed. Belongs with [row 9](/worklist/)."
+    },
+    {
+      "n": 130,
+      "what": "List the Scilla death series BEFORE 1866 — rows 68 and 85 cannot start without it",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**`scilla-arks.tsv` holds 55 Nati and 54 Matrimoni volumes for 1816–1865 and NOT ONE Morti volume.** The restaurazione death series has never been listed, and two rows depend on it entirely: **[row 68](/worklist/)**, Filippo Arena and Domenica Costa, who died most likely in the 1850s–70s, and **[row 85](/worklist/)**, Domenico Arlotta, dead before April 1854. **One page load does it** — the same `s_size=100` trick that returned all 81 post-1866 volumes this afternoon. **Do it before either row is attempted**, for the reason [row 17](/worklist/) gives about mapping before sweeping."
+    },
+    {
+      "n": 131,
+      "what": "Orazio Arena married twice — Mariantonia Musolino",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**A whole second marriage, found as a by-product.** The Scilla death index gives Orazio Arena four children by **Giovanna Zirilli** — Teresa (d. 1913), Giuseppe (d. 1922), Maria Annunziata (d. 1933) and Alessandro Antonio (d. 1936) — and a fifth, **DOMENICO ARENA (d. 30 December 1923), whose mother is MARIANTONIA MUSOLINO**. **Musolino is a name this archive has never held.** Either Orazio married twice or there are two Orazio Arenas at Scilla — and this archive already knows this man had *two sons both named Domenico*, which is exactly the situation where a second wife gets overlooked. The marriage act would settle it."
+    },
+    {
+      "n": 132,
+      "what": "Two Antonio Arenas at Scilla, and both their wives are called Serafina",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**A collision to guard before it does damage, in the spirit of [row 97](/worklist/).** This family's **FRANCESCO ANTONIO ARENA** married **SERAFINA ARLOTTA**, and the index renders him simply «Antonio» on his sons' death acts. **But the same index holds an ANTONIO ARENA married to a SERAFINA DE LUCA** — parents of Grazia (d. 1913), Anna (d. 1917) and Annunziata (d. 1919). **Same given name, same wife's given name, same town, same decades.** Anyone sweeping «Antonio Arena + Serafina» will merge two families. **The mother's surname is the discriminator and it must be checked every time** — which is exactly how two Arena namesakes were excluded in New York this week."
+    },
+    {
+      "n": 133,
+      "what": "PIEDIMONTE ETNEO — is it name-indexed? The Crupi are from there too",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**The NAA card gave Mario Crupi's birth as 28 November 1905 at Piedimonte, province of Catania — the Mazza's own town.** So the Crupi and the Mazza came from one village, and **Angela Crupi's birth of 20 December 1900** with her parents **Francesco Crupi and Maria Vecchio** should be reachable in the registers the Mazza line already uses. **First test whether Piedimonte Etneo is in the name index at all** — if it is, two birth acts and a set of parents come back for two queries. If it is not, the acts are still there to be read by volume, **with exact dates in hand**, which is the cheapest register work there is."
+    },
+    {
+      "n": 134,
+      "what": "Are Briatico, Zambrone and Pizzo name-indexed?",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**The Calabrian half of this family has been worked entirely by volume-reading, and it may not have needed to be.** Scilla turned out to be name-indexed for deaths 1910–1943; nobody has checked whether **Briatico**, **Zambrone**, **Pizzo** or **San Costantino** are. **If any is, several open rows collapse into queries** — [row 84](/worklist/) (Caterina Cichello's death), [row 44](/worklist/) (the Melluso), [row 66](/worklist/) (Maria Fragalà's death at Pizzo). **One paced fetch per comune answers it.** Do it before any further Calabrian volume sweep."
+    },
+    {
+      "n": 135,
+      "what": "Build the name-index coverage map: comune × act type × years",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**The same argument as [row 17](/worklist/), one level up, and it will pay better.** Row 17 wants to know which Scilla volumes carry an annual index; **this wants to know which comuni and which years Antenati has indexed by name at all** — because where it has, the volume index does not matter. **Today's work was done blind**: the coverage was discovered by querying four surnames and noticing every hit was a death between 1910 and 1943. **One table, built once**, and every later question becomes «is it indexed» before «which volume»."
+    },
+    {
+      "n": 136,
+      "what": "The Loveday records — Mario Crupi's internment, from the camp's own side",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**His aliens card says «18.8.42 LOVEDAY INTERNMENT CAMP / 30/12/43 Released and entrained for Brisbane» and that is all it says.** The NAA holds the camp's own series — nominal rolls, internee service and casualty forms, and the objection and appeal files that record **why** a man was interned. **The why is the part worth having**: north Queensland Italians were interned on the word of neighbours, and the files carry the allegation and sometimes the appeal. **Rosario Mazza's dossier (MP1103/1 Q8110) should be worked the same way**, and [row 7](/worklist/)'s Trove search now has two names and two dates to search on."
+    },
+    {
+      "n": 137,
+      "what": "The Scilla birth act of Camillo Antonio Polistena, about 1835",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**[Row 96](/worklist/) closed on his death act, which gave his parents. His birth act would give the arithmetic a check and the parents a second witness.** Scilla's births begin in 1816, so a birth about 1835 is inside the run. **What makes it worth doing now rather than before:** we know the parents to look for — **Giuseppe Polistena and Anna Pontillo** — so the read is a confirmation with a known answer, which is the kind that catches a wrong identification. **His age at death in 1924 will narrow the year first**, which is [row 124](/worklist/)."
+    },
+    {
+      "n": 138,
+      "what": "Two Donato–Polistena marriages, a generation apart",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**The index turned up a second one and the archive only knew the first.** [Row 71](/worklist/) is about **Nunziata Donato × Giovanni Polistena**, about 1916. But the Scilla deaths also give **MARIA DONATO (d. 3 April 1911), «Padre Candeloro Donato, Madre Domenica Romano, Coniuge GIUSEPPE POLISTINA»** — a Donato woman married to a Polistena man a generation earlier. **Her father is a Candeloro Donato**, which is the name of both this archive's wall and Domenico Donato's son of 1847. **Two families that intermarried twice are usually close to begin with**, and the earlier act would say how."
+    },
+    {
+      "n": 139,
+      "what": "A second Generosa Costa at Scilla — guard the name before it merges",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**Rocco Arena's wife was Generosa Costa. So was Pasquale Donato's.** The death index gives **PASQUALE DONATO (d. 20 April 1937), «Padre Domenico, Madre Annunziata Sofi, Coniuge GENEROSA COSTA»** — and Pasquale is Michele Donato's brother, so this is inside the family, not a stranger who happens to share a name. **That is exactly the circumstance in which two women become one in a tree.** They are almost certainly different: Rocco's Generosa was born about 1868 and married in 1888. **Write the distinction down now**, while it is obvious, rather than discovering the merge later."
+    },
+    {
+      "n": 140,
+      "what": "Tell the estate that Antenati has a name index",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**This is not a Mazza finding, it is an estate finding, and the other archives are working Italian registers too.** `/search-nominative/?cognome=X&localita=Y&s_size=100` returns acts with **father, mother and spouse** already extracted, and for Scilla it covers deaths 1910–1943. **Falco and Defranceschi have been reading volumes the same way this archive has.** Worth a note carrying the query form, the `localita=` caution — `fq=` and `facets=` are **silently ignored** and return the unfiltered count — and the parsing rule that **only rows with a `p.morte` value are the deceased**; the rest are relatives seen from inside someone else's act, and reading them as deaths invents people."
     }
   ],
   "accounts": [
