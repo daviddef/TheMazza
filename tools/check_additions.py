@@ -40,7 +40,12 @@ def norm(s):
     for a, b in (("à","a"),("á","a"),("è","e"),("é","e"),("ì","i"),("í","i"),
                  ("ò","o"),("ó","o"),("ù","u"),("ú","u")):
         s = s.replace(a, b)
-    return re.sub(r"[^a-z ]", " ", s).split()
+    # KEEP THE DIGITS. This used to strip them, and «Antonio Arena (b. New York
+    # 1896)» and «Antonio Arena (b. New York 1902)» then folded to one string --
+    # so the duplicate-name check reported two real brothers as one ambiguous
+    # name. The parentheses are how this file disambiguates namesakes and the
+    # year inside them is usually the only thing that differs.
+    return re.sub(r"[^a-z0-9 ]", " ", s).split()
 
 def key(s):
     return " ".join(norm(s))
