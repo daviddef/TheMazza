@@ -1,6 +1,6 @@
 {
- "count": 114,
- "documented": 90,
+ "count": 115,
+ "documented": 91,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -1235,6 +1235,20 @@
      "recordSays": "THEY ARE ONE WOMAN, AND ROCCO ARENA MARRIED HIS FIRST COUSIN. FOUR ACTS NOW AGREE AND NONE CONTRADICTS. (1) ANNA ARLOTTA, died 16 March 1915: «Padre GIOVANNI ARLOTTA, Madre MARIA COSTA, Coniuge ANTONINO COSTA» -- and Giovanni Arlotta and Maria Costa are SERAFINA ARLOTTA'S OWN PARENTS, so Anna and Serafina were sisters. (2) ANTONINO COSTA, died 1 June 1915: «Coniuge ANNA ARLOTTA», confirming the couple from his side. (3) GENEROSA COSTA, died 6 June 1916: «Padre ANTONINO COSTA, Madre ANNA ARLOTTA» -- her own death act naming that same couple as her parents. (4) Scilla Matrimoni 1888 atto 63, which gave those parents in the first place. SO SERAFINA WAS ROCCO'S MOTHER, ANNA WAS GENEROSA'S MOTHER, AND THE TWO WERE SISTERS. UPGRADED FROM «probable» TO «certain» ON 16 SEPTEMBER, when the Costa side came in. WHAT WOULD STILL BREAK IT: two different couples named Giovanni Arlotta and Maria Costa at Scilla in the same decades. Nothing read so far suggests one, and four mutually consistent acts would all have to be pointing at the wrong pair.",
      "source": "Antenati name index, Scilla, atti di morte 16 March 1915, 1 June 1915 and 6 June 1916; against Scilla, Matrimoni 1888, atto 63",
      "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "my own reading — a name in dispute, SETTLED",
+   "rows": [
+    {
+     "kind": "my own reading — a name in dispute, SETTLED",
+     "who": "Giovanna Romano, not Pontillo — her own death act",
+     "slug": "giovanna-pontillo",
+     "treeSays": "Giovanna Pontillo, daughter of Giuseppi Pontillo and Nunziatta Pontillo",
+     "recordSays": "HER OWN DEATH ACT ENDS IT. «GIOVANNA ROMANO, died Scilla 15 July 1930, Padre ANNUNZIATO, Madre ANGELA ZIRILLI, Coniuge CAMILLO ANTONIO POLISTENA.» She is named with her own surname, her own parents and her own husband, on her own act. THAT IS FIVE RECORDS CALLING HER ROMANO -- Scilla Nati 1883 atto 206, the New Orleans manifest of 1908, her husband's death act of 1924, her daughter Santa's of 1920, and now this. THE TREE'S «GIUSEPPI PONTILLO» AND «NUNZIATTA PONTILLO» ARE NOT HER PARENTS AND NEVER WERE. Her parents are ANNUNZIATO ROMANO and ANGELA ZIRILLI, and the Pontillo belonged to her mother-in-law, ANNA PONTILLO. Two asserted ancestors are withdrawn and two documented ones replace them.",
+     "source": "Antenati name index, Scilla, atto di morte 15 July 1930",
+     "confidence": "documented"
     }
    ]
   }
