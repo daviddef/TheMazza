@@ -374,15 +374,6 @@
     },
     {
      "kind": "Death -- missing entirely",
-     "who": "Serafina Arena, born New York 1898",
-     "slug": "—",
-     "treeSays": "No death at all",
-     "recordSays": "DIED AT SCILLA ON 15 AUGUST 1912, «Padre Rocco Arena, Madre Generosa Costa». She was baptised at Our Lady of Loretto, Manhattan, on her birth on 15 AUGUST 1898 -- so she died on her fourteenth birthday, or on a day the register rounded to it. THE ARCHIVE KNEW HER ONLY AS A NEW YORK BAPTISM. Here she is dead in Calabria, which is the household's return from America seen from the other end.",
-     "source": "Antenati name index, Scilla, atto di morte 15 August 1912",
-     "confidence": "documented"
-    },
-    {
-     "kind": "Death -- missing entirely",
      "who": "Michele Donato",
      "slug": "michele-donato",
      "treeSays": "Born 1851, no death at all",
@@ -1301,6 +1292,20 @@
      "recordSays": "CANNOT BOTH BE TRUE. She arrives at Brisbane on 7 December 1937 as an ITALIAN ALIEN aged EIGHT -- so born about 1929, in Italy. A child born at Tully in 1926 would be eleven and an Australian-born British subject, needing no alien declaration at all. Her sister Maria, «age 15», fits the tree's 1922 exactly, so the record is not loose about ages.",
      "source": "NAA: A12508, 31/1454",
      "confidence": "flagged"
+    }
+   ]
+  },
+  {
+   "kind": "Death -- RETRACTED, and it was my own",
+   "rows": [
+    {
+     "kind": "Death -- RETRACTED, and it was my own",
+     "who": "Serafina Arena, born New York 1898 — the death withdrawn",
+     "slug": "—",
+     "treeSays": "No death at all",
+     "recordSays": "RETRACTED 17 SEPTEMBER. THE ACT IS NOT HERS. This row said she died at Scilla on 15 August 1912, on her fourteenth birthday, and the coincidence of dates was what made it persuasive. READING THE ACT ENDED IT: Scilla, Morti 1912, parte I, atto 83 records «e morta ARENA SERAFINA, DI MESI TRE, residente in Scilla, NATA IN QUESTO COMUNE, da ROCCO, marinaro, e da GENEROSA COSTA, casalinga». THREE MONTHS OLD AND BORN AT SCILLA. She is a LATER DAUGHTER OF THE SAME COUPLE, born about May 1912 and dead by August. WHAT MISLED ME: Antenati's name index gives «Nascita: Scilla» on every entry, and I treated that field as a default rather than a claim because it seemed too convenient. IT WAS A CLAIM AND IT WAS RIGHT. THE NEW YORK SERAFINA'S FATE IS UNKNOWN AGAIN -- she was baptised at Our Lady of Loretto on 15 August 1898 and this archive has nothing after that.",
+     "source": "Scilla, Morti 1912, parte I, atto 83 — read in the original",
+     "confidence": "documented"
     }
    ]
   },
