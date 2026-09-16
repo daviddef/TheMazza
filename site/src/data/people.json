@@ -1765,7 +1765,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 4,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1801,7 +1801,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1837,7 +1837,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 10,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1865,7 +1865,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 8,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2419,9 +2419,16 @@
     "kind": "burial register",
     "what": "Brisbane Catholic Cemeteries register — plot V-1029",
     "href": "/nudgee"
+   },
+   {
+    "kind": "naturalisation file",
+    "what": "NAA: J25, 1971/3900 — «Arena, Rocco; wife Angelina [or Angela] [nee Polistena]», 1953-1971",
+    "href": "/queensland"
    }
   ],
-  "corrections": [],
+  "corrections": [
+   "THE EXACT PARALLEL OF THE MAZZA FILE, and it means BOTH pairs of Michael Mazza's grandparents have one. Brisbane, paper, «not yet examined» -- it needs the same access request. Its date range opens in 1953, which is the year Rocco Arena's crossing is dated."
+  ],
   "onSpine": true,
   "ancGen": 3
  },
@@ -2584,10 +2591,16 @@
     "kind": "passenger index",
     "what": "NAA passenger arrivals — the Surriento, arriving 17 June 1949, with her brother",
     "href": "/crossings"
+   },
+   {
+    "kind": "naturalisation file",
+    "what": "NAA: J25, 1971/3900 — «Arena, Rocco; wife Angelina [or Angela] [nee Polistena]», 1953-1971",
+    "href": "/queensland"
    }
   ],
   "corrections": [
-   "Not in the index under her own name. Her brother Antonino IS, on the Surriento arriving 17 June 1949 -- the exact date the tree gives for her."
+   "Not in the index under her own name. Her brother Antonino IS, on the Surriento arriving 17 June 1949 -- the exact date the tree gives for her.",
+   "She is named on her husband's file with her maiden name, exactly as Domenica Prostamo is on Sebastiano Mazza's. The NAA's own description hedges her given name -- «Angelina [or Angela]» -- which is the file itself being uncertain, not the archive."
   ],
   "onSpine": true,
   "ancGen": 3
@@ -29461,7 +29474,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29643,7 +29656,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 8,
+  "comp": 3,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -29686,7 +29699,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 10,
+  "comp": 6,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
