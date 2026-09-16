@@ -1,6 +1,6 @@
 {
- "count": 119,
- "documented": 95,
+ "count": 122,
+ "documented": 98,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -398,6 +398,15 @@
      "recordSays": "DIED AT SCILLA ON 19 OCTOBER 1924 AT FIFTY MINUTES PAST MIDNIGHT, at the house in RIONE MONACINA. The act was registered the same morning at twenty to nine. It names him «dal fu GIUSEPPE» and «dalla fu PONTILLO ANNA», both already dead, and «marito di ROMANO GIOVANNA» -- so his wife outlived him, as the index says she did, by six years.",
      "source": "Scilla, Morti 1924, parte I, atto 83",
      "confidence": "documented"
+    },
+    {
+     "kind": "Death -- missing entirely",
+     "who": "Rocco Arena (b. 1861) — the act, read",
+     "slug": "rocco-arena",
+     "treeSays": "No death",
+     "recordSays": "DIED AT VIA PROF. ZAGARI, SCILLA, AT A QUARTER PAST SIX IN THE EVENING ON 8 FEBRUARY 1932; the act was drawn the next morning at four minutes past ten. «dal fu FRANCESCO ANTONIO ... e dalla fu ARLOTTA SERAFINA ... VEDOVO DI COSTA GENEROSA.» A WIDOWER -- Generosa Costa died in June 1916 and he outlived her by fifteen years and eight months. The declarants were PONTILLO ROCCO FU GIOVANNI, sixty-five, and LAMERI GIUSEPPE FU LUIGI, eighty; the witnesses PONTILLO SANTO FU GIOVANNI, eighty-one, and ALFONZETTI ROCCO FU ANTONINO, fifty-nine. All fishermen, all illiterate.",
+     "source": "Scilla, Morti 1932, parte I, atto 9",
+     "confidence": "documented"
     }
    ]
   },
@@ -785,6 +794,15 @@
      "recordSays": "PESCATORE -- a fisherman, like most of Scilla. Both declarants at his death were fishermen too: MATRA CAMILLO FU GIACOMO, sixty-three, and POLISTENA ANTONIO FU LUIGI, twenty-eight.",
      "source": "Scilla, Morti 1924, parte I, atto 83",
      "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Rocco Arena (b. 1861)",
+     "slug": "rocco-arena",
+     "treeSays": "No trade",
+     "recordSays": "PESCATORE. His death act calls him a fisherman, as it calls both declarants and both witnesses. THE MAN WHO CROSSED THE ATLANTIC FOUR TIMES AND KEPT A HOUSEHOLD ON MULBERRY STREET DIED IN THE TRADE HE WAS BORN TO.",
+     "source": "Scilla, Morti 1932, parte I, atto 9",
+     "confidence": "documented"
     }
    ]
   },
@@ -1037,6 +1055,15 @@
      "treeSays": "Neither death known",
      "recordSays": "ANNA ARLOTTA DIED 16 MARCH 1915 AND HER HUSBAND ANTONINO COSTA ON 1 JUNE 1915. Her act names her husband as Antonino Costa; his names his wife as Anna Arlotta. THE TWO ACTS CONFIRM EACH OTHER FROM OPPOSITE SIDES, which is what makes the couple safe to build on. Their daughter Generosa followed them in June 1916.",
      "source": "Antenati name index, Scilla, atti di morte 16 March and 1 June 1915",
+     "confidence": "documented"
+    },
+    {
+     "kind": "a document against a document",
+     "who": "Rocco Arena's age at death",
+     "slug": "rocco-arena",
+     "treeSays": "Born 1861 — Scilla, Nati 1861 atto 228",
+     "recordSays": "HIS DEATH ACT MAKES HIM SEVENTY-ONE ON 8 FEBRUARY 1932, WHICH WOULD PUT HIS BIRTH BEFORE FEBRUARY 1861. The archive has his birth act as Scilla Nati 1861 ATTO 228 -- a high act number, so late in the year -- and the 1900 United States census gives «b. Sept 1861», which would make him SEVENTY, not seventy-one. ONE YEAR APART, AND THE BIRTH ACT WINS. An age on a death act is what two elderly neighbours told the registrar, not something read off a record; both declarants here were fishermen in their sixties and eighties and both signed with a mark. RECORDED BECAUSE IT IS THE KIND OF SMALL DISCREPANCY THAT LATER GETS «FIXED» IN THE WRONG DIRECTION.",
+     "source": "Scilla, Morti 1932, parte I, atto 9; against Scilla, Nati 1861 atto 228 and the 1900 US census",
      "confidence": "documented"
     }
    ]
