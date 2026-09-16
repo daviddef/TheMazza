@@ -1,6 +1,6 @@
 {
- "count": 115,
- "documented": 91,
+ "count": 118,
+ "documented": 94,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -194,6 +194,15 @@
      "recordSays": "BORN ABOUT 1868. She is TWENTY at her banns in November 1888, and a FILATRICE.",
      "source": "Scilla, Pubblicazioni 1888, no. 63",
      "confidence": "documented"
+    },
+    {
+     "kind": "Birth year",
+     "who": "Camillo Antonio Polistena",
+     "slug": "—",
+     "treeSays": "Born about 1835",
+     "recordSays": "BORN ABOUT 1844, NOT 1835. His death act of 19 October 1924 gives his age as EIGHTY -- «è morto Polistena Camillo Antonio, di anni ottanta, pescatore, residente in questo Comune, nato in Scilla». NINE YEARS OUT, and the archive's «about 1835» was a guess from his son's birth year rather than a record. The act is read, not indexed: Scilla, Morti 1924, parte I, atto 83.",
+     "source": "Scilla, Morti 1924, parte I, atto 83",
+     "confidence": "documented"
     }
    ]
   },
@@ -379,6 +388,15 @@
      "treeSays": "No death, and no parents in the tree at all",
      "recordSays": "DIED AT SCILLA ON 6 JUNE 1916, «Padre ANTONINO COSTA, Madre ANNA ARLOTTA, Coniuge ROCCO ARENA». Her parents are exactly those the marriage act of 1888 gave, now from a second and independent document, and her husband is named. SHE DIED SIXTEEN YEARS BEFORE HIM: Rocco Arena followed her on 8 February 1932.",
      "source": "Antenati name index, Scilla, atto di morte 6 June 1916",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Death -- missing entirely",
+     "who": "Camillo Antonio Polistena",
+     "slug": "—",
+     "treeSays": "No death",
+     "recordSays": "DIED AT SCILLA ON 19 OCTOBER 1924 AT FIFTY MINUTES PAST MIDNIGHT, at the house in RIONE MONACINA. The act was registered the same morning at twenty to nine. It names him «dal fu GIUSEPPE» and «dalla fu PONTILLO ANNA», both already dead, and «marito di ROMANO GIOVANNA» -- so his wife outlived him, as the index says she did, by six years.",
+     "source": "Scilla, Morti 1924, parte I, atto 83",
      "confidence": "documented"
     }
    ]
@@ -748,6 +766,15 @@
      "treeSays": "No occupation",
      "recordSays": "PESCATORE in 1898, living at Via Acquagrande 30. His marriage act of 1885 calls him MARINARO — the same shift from sailor to fisherman that his father Francesco Antonio shows between 1861 and 1888.",
      "source": "Scilla, Morti 1898, atto 91",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Trade -- missing entirely",
+     "who": "Camillo Antonio Polistena",
+     "slug": "—",
+     "treeSays": "No trade",
+     "recordSays": "PESCATORE -- a fisherman, like most of Scilla. Both declarants at his death were fishermen too: MATRA CAMILLO FU GIACOMO, sixty-three, and POLISTENA ANTONIO FU LUIGI, twenty-eight.",
+     "source": "Scilla, Morti 1924, parte I, atto 83",
      "confidence": "documented"
     }
    ]
