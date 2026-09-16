@@ -865,10 +865,10 @@
     {
       "n": 101,
       "what": "FINDMYPAST — Rocco Arena's naturalisation, and the American records",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**Covers the outstanding «NARA New York» search.** The trial established Rocco Arena's **four crossings** (1892, 1894, 1899, 1913) and that by 1913 he was travelling as a **US citizen** — which means a naturalisation exists and has never been found. It also found **no petition** under his name, so the search needs the subscription's wider American sets: NARA indexes, WWI and WWII registrations, and the 1900–1930 censuses for Mulberry Street."
+      "note": "**Covers the outstanding «NARA New York» search.** The trial established Rocco Arena's **four crossings** (1892, 1894, 1899, 1913) and that by 1913 he was travelling as a **US citizen** — which means a naturalisation exists and has never been found. It also found **no petition** under his name, so the search needs the subscription's wider American sets: NARA indexes, WWI and WWII registrations, and the 1900–1930 censuses for Mulberry Street. **DONE 16 SEPTEMBER. The naturalisation is still not found, but the census settled the family's movement and bounded the search.** Rocco Arena appears in the United States census **exactly once, in 1900** — one hit in the whole country, right birth year — and **never again**. The 1910 census indexes **543 Arena households and not one holds a Rocco**, nor a Generosa, nor a Serafina, nor a Clementina. The 1920 and 1930 Rocco Arenas are all born after 1882. **Three independent absences now say the household went back to Scilla**: no census after 1900, no Generosa on the 1913 manifest, no New York draft card for the son born on Mulberry Street. See row 112 for where the naturalisation actually is."
     },
     {
       "n": 102,
@@ -949,6 +949,14 @@
       "owner": "this archive",
       "since": "2026-09-16",
       "note": "**Found by accident while proving row 100 a dead end.** «Australia, Inward, Outward & Coastal Passenger Lists 1826-1972» is two different things stitched together. The post-1945 half is the NAA index re-served. **The pre-1940 half is not**: ids of the form ANZ/VCPL and ANZ/MIGR/VICTORIAPASSLIST are the **Victorian inward, outward and coastal lists**, which the NAA index does not hold. The Mazza search returns rows there from **1891, 1896, 1897, 1898, 1900, 1901, 1910, 1911, 1914 and 1919**. **Why it might matter:** this archive's Australian story starts in 1925 with Michele Mazza on the *Palermo*, and everything before that is assumed to be Italy. **These lists cover the years when it might not have been.** Sicilian and Calabrian men worked passages to Victoria and went home again, and a Mazza or a Prostamo on an **outward** list would be exactly that. Speculative, cheap to test, and nobody has looked."
+    },
+    {
+      "n": 112,
+      "what": "Rocco Arena's naturalisation is a pre-1906 New York court filing — which no subscription holds",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**Row 101 could not find the papers and instead worked out when they must have been filed.** He is in America from 1892, he is in the 1900 census, he is **gone from the whole country by 1910**, and he sails in 1913 as a **US citizen**. So the declaration and petition were filed in New York **between 1892 and about 1906**. **That is exactly why Findmypast cannot see him**: its United States Naturalization Petitions collection begins after the 1906 standardisation, and before 1906 these cases were heard in **state, county and city courts** as well as federal ones. **The finding aid is a NARA index to petitions filed in New York City courts, 1792–1906** — on microfilm, held by the National Archives at New York City, and on no subscription site. *(The series number should be confirmed before anyone writes to them; it is believed to be M1674.)* **What has changed is the size of the problem**: the search is now bounded to a fourteen-year window in one city, instead of a lifetime in a country."
     }
   ],
   "accounts": [
