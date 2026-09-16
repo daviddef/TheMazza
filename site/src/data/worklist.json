@@ -857,10 +857,10 @@
     {
       "n": 100,
       "what": "FINDMYPAST — the nine unnamed crossings, and the Australian passenger lists",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**Row 21's other half.** The trial already CORROBORATED five Prostamo in the Australian passenger index — Caterina 1969, Domenico F 1956, Francesca 1957 — and separately failed to find **Domenica Prostamo's 1951 voyage** in «Australia, Inward, Outward & Coastal Passenger Lists 1826-1972». **With full access, sweep that collection properly** for all ten surnames rather than by targeted lookup, and test the *Ugolino Vivaldi* candidate of 1 March 1951 that `corrections.tsv` carries at `candidate` confidence."
+      "note": "**Row 21's other half.** The trial already CORROBORATED five Prostamo in the Australian passenger index — Caterina 1969, Domenico F 1956, Francesca 1957 — and separately failed to find **Domenica Prostamo's 1951 voyage** in «Australia, Inward, Outward & Coastal Passenger Lists 1826-1972». **With full access, sweep that collection properly** for all ten surnames rather than by targeted lookup, and test the *Ugolino Vivaldi* candidate of 1 March 1951 that `corrections.tsv` carries at `candidate` confidence. **DONE 16 SEPTEMBER, and the answer is that this was the wrong shop.** For twentieth-century Australian arrivals the collection **is the NAA passenger index** — every post-1945 row carries a NAA barcode and links back to recordsearch.naa.gov.au — and this archive has already worked that index directly, for nothing. **The Ugolino Vivaldi candidate could not be tested**: Findmypast serves the identical record, barcode 30133197, with no age and no sex, so [the candidate grade](/corrections/) stands. **One new crossing did fall out**: ROCCO PROSTAMO, 10 August 1949, the *Napoli*, Genoa to Melbourne — a sixth Prostamo and not one in the tree. **And the subscription does hold something genuinely new: the Victorian inward, outward and coastal lists, 1852–1923**, which are not in the NAA index at all. See rows 110 and 111."
     },
     {
       "n": 101,
@@ -933,6 +933,22 @@
       "owner": "this archive",
       "since": "2026-09-16",
       "note": "**A small ambiguity, written down so it is not quietly resolved the wrong way later.** The 1959 roll holds **two Antonio Crupi**: a **cane farmer at Dean Street, Tully**, and a **farmer at Silkwood East in the Innisfail sub-district**. Angela Crupi's brother **ANTONINO CRUPI died 15 April 1982** (reg 1982/52783), son of Francesco Crupi and Maria Vecchio. **A roll cannot tell which man he is** — it carries no parents and no birth year. The Tully one is the better bet only because his brothers Pietro and Mario are both at Tully, and *better bet* is not evidence. **What would settle it:** the 1982 death registration's district, or the marriage of an Antonino Crupi registered 24 August 1940 (1940/C/3314), which would name a wife to match against **Nellie Crupi**, the woman sharing Dean Street with the Tully man."
+    },
+    {
+      "n": 110,
+      "what": "The original Ugolino Vivaldi manifest at the NAA — free, and the only thing that can settle Domenica's crossing",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**Row 100 proved the subscription cannot do this and pointed at what can.** Domenica Prostamo's 1951 crossing is graded **candidate** on a good argument — right month, right year, right port, right married surname, and «Domenico» one letter from Domenica. **What it lacks is an age or a sex**, and the index line has neither, on Findmypast or at the NAA. **The manifest image does.** RecordSearch serves barcode **30133197** as a scanned page, free, and the handwritten entry would give the age and sex outright — and show **everyone else on that page**, which is how a two-year-old Salvatore Mazza would appear, since infants are not separately indexed. **This is the single cheapest upgrade available to this archive**: one image, no subscription, and it converts a candidate into a documented crossing or kills it."
+    },
+    {
+      "n": 111,
+      "what": "The Victorian passenger lists 1852–1923 — the part of the subscription that is genuinely not the NAA",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**Found by accident while proving row 100 a dead end.** «Australia, Inward, Outward & Coastal Passenger Lists 1826-1972» is two different things stitched together. The post-1945 half is the NAA index re-served. **The pre-1940 half is not**: ids of the form ANZ/VCPL and ANZ/MIGR/VICTORIAPASSLIST are the **Victorian inward, outward and coastal lists**, which the NAA index does not hold. The Mazza search returns rows there from **1891, 1896, 1897, 1898, 1900, 1901, 1910, 1911, 1914 and 1919**. **Why it might matter:** this archive's Australian story starts in 1925 with Michele Mazza on the *Palermo*, and everything before that is assumed to be Italy. **These lists cover the years when it might not have been.** Sicilian and Calabrian men worked passages to Victoria and went home again, and a Mazza or a Prostamo on an **outward** list would be exactly that. Speculative, cheap to test, and nobody has looked."
     }
   ],
   "accounts": [
