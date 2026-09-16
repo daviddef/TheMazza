@@ -594,7 +594,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "**Phase 7, and the consolation prize for row 38.** Their *marriage* is pre-civil and gone. **Their deaths are not.** Both were born in the 1790s, both were alive when their son married in 1851, and Scilla's death registers run from 1816 — so they died inside a surviving run, most likely in the 1850s–1870s. A death act gives an age, a trade, an address and often the parents. **It is the only remaining route to a generation above Filippo.**"
+      "note": "**Phase 7, and the consolation prize for row 38.** Their *marriage* is pre-civil and gone. **Their deaths are not.** Both were born in the 1790s, both were alive when their son married in 1851, and Scilla's death registers run from 1816 — so they died inside a surviving run, most likely in the 1850s–1870s. A death act gives an age, a trade, an address and often the parents. **It is the only remaining route to a generation above Filippo.** **UNBLOCKED 16 SEPTEMBER.** The pre-1866 Scilla death series is now listed — **51 volumes, 1817–1865** — in `scilla-arks.tsv` ([row 130](/worklist/)). This row can start."
     },
     {
       "n": 69,
@@ -740,7 +740,7 @@
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "**Phase 7.** He is dated «**before 1779**» and «dead before April 1854», and he exists in this archive on the strength of a single phrase — his son Giovanni declaring a grandson's birth in 1854 as «figlio del fu Domenico». **He is the deepest Scilla ancestor and has never been looked for.** Scilla's registers begin in 1816 and he died before 1854, so **his death act may be inside the run** even though his birth cannot be. That would give an age, a trade, and possibly his own parents."
+      "note": "**Phase 7.** He is dated «**before 1779**» and «dead before April 1854», and he exists in this archive on the strength of a single phrase — his son Giovanni declaring a grandson's birth in 1854 as «figlio del fu Domenico». **He is the deepest Scilla ancestor and has never been looked for.** Scilla's registers begin in 1816 and he died before 1854, so **his death act may be inside the run** even though his birth cannot be. That would give an age, a trade, and possibly his own parents. **UNBLOCKED 16 SEPTEMBER.** The pre-1866 Scilla death series is now listed — **51 volumes, 1817–1865** — in `scilla-arks.tsv` ([row 130](/worklist/)). This row can start."
     },
     {
       "n": 86,
@@ -1097,10 +1097,10 @@
     {
       "n": 130,
       "what": "List the Scilla death series BEFORE 1866 — rows 68 and 85 cannot start without it",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**`scilla-arks.tsv` holds 55 Nati and 54 Matrimoni volumes for 1816–1865 and NOT ONE Morti volume.** The restaurazione death series has never been listed, and two rows depend on it entirely: **[row 68](/worklist/)**, Filippo Arena and Domenica Costa, who died most likely in the 1850s–70s, and **[row 85](/worklist/)**, Domenico Arlotta, dead before April 1854. **One page load does it** — the same `s_size=100` trick that returned all 81 post-1866 volumes this afternoon. **Do it before either row is attempted**, for the reason [row 17](/worklist/) gives about mapping before sweeping."
+      "note": "**`scilla-arks.tsv` holds 55 Nati and 54 Matrimoni volumes for 1816–1865 and NOT ONE Morti volume.** The restaurazione death series has never been listed, and two rows depend on it entirely: **[row 68](/worklist/)**, Filippo Arena and Domenica Costa, who died most likely in the 1850s–70s, and **[row 85](/worklist/)**, Domenico Arlotta, dead before April 1854. **One page load does it** — the same `s_size=100` trick that returned all 81 post-1866 volumes this afternoon. **Do it before either row is attempted**, for the reason [row 17](/worklist/) gives about mapping before sweeping. **DONE 16 SEPTEMBER: 51 volumes, 1817–1865, in one page load**, now in `scilla-arks.tsv`. **The deaths begin in 1817, a year after the births** — so anyone reasoning «Scilla's civil registration begins in 1816» about a *death* is reasoning one year wrong. 1846 and 1854 are doubled. **The reusable part is the series id:** `serie=2002440` carries all three act types for the restaurazione period and is filtered by `tipologia=`, exactly as `16594786` does for the italiano period."
     },
     {
       "n": 131,
