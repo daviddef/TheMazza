@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import Places from "@daviddef/archive-kit/components/Places.astro";
 import { u } from "../lib/url.js";
 import spellings from "../data/place-spellings.json";
 import places from "../data/places.json";
@@ -16,21 +17,15 @@ import atlas from "../../public/atlas-data.json";
 ---
 <Base title="Places" eyebrow={`${places.length} places`}
       dek="Every place this archive can attach to a person, with the years it covers and how many events fall there.">
-  {order.filter((c) => byCountry[c]).map((c) => (
-    <section class="blk">
-      <h2>{c}</h2>
-      <div class="scroll" style="margin-top:16px">
-        <table>
-          <thead><tr><th>Place</th><th class="m">Events</th><th class="m">Born</th><th class="m">Died</th><th class="m">Buried</th><th class="m">Span</th></tr></thead>
-          <tbody>{byCountry[c].map((p) => (
-            <tr><td>{p.name}</td><td class="m">{p.n}</td><td class="m">{p.born || ""}</td>
-                <td class="m">{p.died || ""}</td><td class="m">{p.buried || ""}</td>
-                <td class="m">{p.first ? `${p.first}–${p.last}` : ""}</td></tr>))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-  ))}
+  <Places u={u} countLabel="Events" rows={order.filter((c) => byCountry[c]).flatMap((c) =>
+    byCountry[c].map((p) => ({
+      name: p.name,
+      n: p.n,
+      where: c,
+      span: p.first ? `${p.first}\u2013${p.last}` : "",
+      note: [p.born && `${p.born} born`, p.died && `${p.died} died`, p.buried && `${p.buried} buried`]
+        .filter(Boolean).join(" · "),
+    })))} />
 
   <section class="blk" style="border-bottom:0">
     <div class="lab">Four names, normalised</div>
