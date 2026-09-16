@@ -3,7 +3,7 @@
    Built from the record files rather than written out, so a new reading
    appears here the moment it is recorded. */
 import Base from "../layouts/Base.astro";
-import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
+import Timeline from "@daviddef/archive-kit/components/Timeline.astro";
 import { u } from "../lib/url.js";
 import spine from "../data/spine.json";
 import scilla from "../data/scilla-reads.json";
@@ -76,6 +76,10 @@ for (const e of events) {
 }
 bands.sort((a, b) => a.start - b.start);
 
+const rows = events.map((e) => ({
+  year: e.year, when: String(e.year), title: e.what, kind: e.quarter,
+  source: e.detail, level: e.level, href: e.href,
+}));
 const documented = events.filter(e => e.level === "documented").length;
 const first = events[0], last = events[events.length - 1];
 ---
@@ -90,42 +94,10 @@ const first = events[0], last = events[events.length - 1];
     <strong>{first.year}</strong> on the strength of a tree rather than a register.
     <a href={u("/briatico-tested/")}>That is being tested →</a></p>
 
-    <div class="scroll" style="margin-top:18px">
-      <table>
-        <tbody>
-          {bands.map(b => (
-            <tr>
-              <td><a href={`#b${b.start}`}>{b.start}–{b.start + 49}</a></td>
-              <td class="mono">{b.rows.length}</td>
-              <td class="dim">{b.rows.filter(r => r.level === "documented").length} documented</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
   </section>
 
-  {bands.map(b => (
-    <section class="blk" id={`b${b.start}`}>
-      <h2>{b.start}–{b.start + 49} <span class="dim mono">{b.rows.length}</span></h2>
-      <div class="scroll" style="margin-top:14px">
-        <table>
-          <thead><tr><th>Year</th><th>Quarter</th><th>What</th><th>Where it comes from</th><th></th></tr></thead>
-          <tbody>
-            {b.rows.map(r => (
-              <tr>
-                <td class="mono">{r.year}</td>
-                <td class="dim">{r.quarter}</td>
-                <td>{r.href ? <a href={u(r.href)}>{r.what}</a> : r.what}</td>
-                <td class="dim">{r.detail || <span class="dim">—</span>}</td>
-                <td><Evidence level={r.level} /></td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-  ))}
+  <Timeline events={rows} u={u} />
+
 
   <section class="blk">
     <p class="prose dim">Confidence is shown in the <a href={u("/method/#ladder")}>five words</a>
