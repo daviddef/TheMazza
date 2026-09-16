@@ -3,6 +3,7 @@
    Assembled from the seven files the reading was recorded in, rather than
    written by hand, so it cannot fall behind the work. */
 import Base from "../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
 import Register from "@daviddef/archive-kit/components/Register.astro";
 import { u } from "../lib/url.js";
@@ -110,6 +111,10 @@ const regRows = groups.flatMap((g) => g.rows.map((r) => {
 <Base title="The Register"
   eyebrow={`${total} records, read one at a time`}
   dek="Every record this archive has actually put its eyes on, with what it says and where it is. Assembled from the files the reading was recorded in, so it cannot fall behind the work.">
+
+<NameLists here="register" u={u} />
+
+
 
   <section class="blk">
     <p class="prose">A family tree is not evidence. These are the documents behind it — civil acts

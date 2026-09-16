@@ -1,5 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
+import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import FilterTable from "@daviddef/archive-kit/components/FilterTable.astro";
 import { u } from "../../lib/url.js";
 import { people, span, homeOf } from "../../lib/people.js";
@@ -12,7 +13,11 @@ const status = (p) => p.died
            : '<span class="chip lore">undated</span>';
 ---
 <Base title="The People" eyebrow="Everyone in the archive"
-      dek={`All ${people.length} people in the tree. Only ${people.filter((p) => p.died).length} of them have a death recorded anywhere — the rest are undated rather than necessarily alive.`}>
+      dek={`All ${people.length} people in the tree. Only ${people.filter((p) =>
+ p.died).length} of them have a death recorded anywhere — the rest are undated rather than necessarily alive.`}>
+
+<NameLists here="people" u={u} />
+
   <FilterTable
     unit="people"
     columns={[{ label: "Name" }, { label: "Dates", cls: "m" }, { label: "Place" }, { label: "Status" }]}
