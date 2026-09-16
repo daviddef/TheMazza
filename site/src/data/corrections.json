@@ -1,6 +1,6 @@
 {
- "count": 102,
- "documented": 80,
+ "count": 111,
+ "documented": 87,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -303,6 +303,15 @@
      "recordSays": "Died 19 September 1929.",
      "source": "FamilySearch full-text, death act",
      "confidence": "documented"
+    },
+    {
+     "kind": "Death date",
+     "who": "Teressa Polistena",
+     "slug": "teressa-polistena",
+     "treeSays": "Died 1934",
+     "recordSays": "DIED 5 JANUARY 1933, not 1934. «Teresa Polistena, Padre Giovanni, Madre Annunziata Donato» -- her parents as the tree has them. The year is out by one.",
+     "source": "Antenati name index, Scilla, atto di morte 5 January 1933",
+     "confidence": "documented"
     }
    ]
   },
@@ -325,6 +334,42 @@
      "treeSays": "No death recorded",
      "recordSays": "DIED 15 NOVEMBER 1924 at PRESA, Piedimonte Etneo, aged seventy-nine, a CONTADINO; certificate 15. His death act also names his father MARIANO and his mother MARIA CATALANO, and his wife Leonarda Bonanno.",
      "source": "Italy, Catania, Catania, Civil Registration (Tribunale), 1866-1929",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Death -- missing entirely",
+     "who": "Rocco Arena (b. 1861)",
+     "slug": "rocco-arena",
+     "treeSays": "No death at all",
+     "recordSays": "DIED AT SCILLA ON 8 FEBRUARY 1932. Antenati's name index gives the act with both parents and his wife: «Padre Francesco Antonio, Madre Serafina Arlotta, Coniuge Generosa Costa» -- all three match this archive exactly, and he is the only Rocco Arena in the Scilla death index so described.",
+     "source": "Antenati name index, Scilla, atto di morte 8 February 1932 (an_ud16599906 series)",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Death -- missing entirely",
+     "who": "Giovanni Arena (Rocco's brother, b. 1854)",
+     "slug": "giovanni-arena",
+     "treeSays": "No death at all",
+     "recordSays": "DIED AT SCILLA ON 31 MARCH 1936, «Padre Antonio, Madre Serafina Arlotta, Coniuge Concetta Russo». He sailed for New York in May 1899 to join his brother Rocco and he came home. This is the second half of the sojourning argument: he baptised no child in America because his wife never left Scilla, and neither did he, finally.",
+     "source": "Antenati name index, Scilla, atto di morte 31 March 1936",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Death -- missing entirely",
+     "who": "Serafina Arena, born New York 1898",
+     "slug": "—",
+     "treeSays": "No death at all",
+     "recordSays": "DIED AT SCILLA ON 15 AUGUST 1912, «Padre Rocco Arena, Madre Generosa Costa». She was baptised at Our Lady of Loretto, Manhattan, on her birth on 15 AUGUST 1898 -- so she died on her fourteenth birthday, or on a day the register rounded to it. THE ARCHIVE KNEW HER ONLY AS A NEW YORK BAPTISM. Here she is dead in Calabria, which is the household's return from America seen from the other end.",
+     "source": "Antenati name index, Scilla, atto di morte 15 August 1912",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Death -- missing entirely",
+     "who": "Michele Donato",
+     "slug": "michele-donato",
+     "treeSays": "Born 1851, no death at all",
+     "recordSays": "DIED AT SCILLA ON 10 MAY 1936, «Padre Domenico, Madre Nunziata Sofi, Coniuge Maria Sofi» -- all three matching this archive exactly. He was fifty-two on the New Orleans manifest of March 1908, sailing for Quincy, Florida; he came home and lived another twenty-eight years. THE LAST MAN ON THE DONATO LINE WHOSE END WAS UNKNOWN.",
+     "source": "Antenati name index, Scilla, atto di morte 10 May 1936",
      "confidence": "documented"
     }
    ]
@@ -384,6 +429,15 @@
      "treeSays": "Not in the tree",
      "recordSays": "A son of GIUSEPPE ARENA and MARIA MARTELLO — so a nephew of Rocco Arena — born about AUGUST 1897 at Scilla and dead on 30 JUNE 1898 at ten months, at Via Acquagrande 30. His three names are his grandfather Francesco Antonio and his uncles Giovanni and Rocco.",
      "source": "Scilla, Morti 1898, atto 91",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Missing people",
+     "who": "Santa Polistena, daughter of Camillo Antonio",
+     "slug": "—",
+     "treeSays": "Not in the tree as a person of her own",
+     "recordSays": "DIED AT SCILLA 4 MAY 1920, «Padre Camillo Antonio, Madre Giovanna Romano». NOTE WHAT FOLLOWS HER: Giovanni Polistena named a daughter SANTA in 1920. An aunt dies in the May and a niece takes her name in the same year, which is the naming custom working in front of us -- and a third witness that the mother was a Romano.",
+     "source": "Antenati name index, Scilla, atto di morte 4 May 1920",
      "confidence": "documented"
     }
    ]
@@ -1112,6 +1166,48 @@
      "recordSays": "CANNOT BOTH BE TRUE. She arrives at Brisbane on 7 December 1937 as an ITALIAN ALIEN aged EIGHT -- so born about 1929, in Italy. A child born at Tully in 1926 would be eleven and an Australian-born British subject, needing no alien declaration at all. Her sister Maria, «age 15», fits the tree's 1922 exactly, so the record is not loose about ages.",
      "source": "NAA: A12508, 31/1454",
      "confidence": "flagged"
+    }
+   ]
+  },
+  {
+   "kind": "Parentage — TWO NEW GENERATIONS",
+   "rows": [
+    {
+     "kind": "Parentage — TWO NEW GENERATIONS",
+     "who": "Camillo Antonio Polistena",
+     "slug": "—",
+     "treeSays": "The oldest Polistena in the archive, with no parents at all",
+     "recordSays": "HIS DEATH ACT NAMES BOTH. «Camillo Antonio Polistena, died Scilla 19 October 1924, Padre GIUSEPPE, Madre ANNA PONTILLO, Coniuge GIOVANNA ROMANO.» The Polistena quarter gains a generation.",
+     "source": "Antenati name index, Scilla death acts — atto di morte 19 October 1924",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "my own reading — a name in dispute, RESOLVED",
+   "rows": [
+    {
+     "kind": "my own reading — a name in dispute, RESOLVED",
+     "who": "Giovanna Pontillo — who is Giovanna ROMANO",
+     "slug": "giovanna-pontillo",
+     "treeSays": "Giovanna Pontillo, wife of Antonio Polistena, daughter of Giuseppi Pontillo and Nunziatta Pontillo",
+     "recordSays": "SHE IS GIOVANNA ROMANO, AND THE PONTILLO BELONGS TO HER MOTHER-IN-LAW. A FOURTH record now calls her Romano -- her husband's death act of 1924 gives «Coniuge Giovanna Romano», and their daughter Santa's of 1920 gives «Madre Giovanna Romano». The same act names the husband's own mother as ANNA PONTILLO. SO THE EXPORT TOOK THE HUSBAND'S PARENTS AND HUNG THEM ON THE WIFE: «Giuseppi Pontillo» is Camillo Antonio's father GIUSEPPE POLISTENA, and the Pontillo is his mother ANNA. That is why this archive could never find a Pontillo family behind her -- there is not one. Two asserted ancestors dissolve and two documented ones replace them.",
+     "source": "Antenati name index, Scilla death acts — atto di morte 19 October 1924; and atto di morte 4 May 1920 (Santa Polistena)",
+     "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "Relationship — AND IT MAKES THEM COUSINS",
+   "rows": [
+    {
+     "kind": "Relationship — AND IT MAKES THEM COUSINS",
+     "who": "Anna Arlotta — Generosa Costa's mother and Serafina Arlotta's sister",
+     "slug": "—",
+     "treeSays": "Two separate women of the same name, and the question left open",
+     "recordSays": "THEY ARE ONE WOMAN, AND ROCCO ARENA MARRIED HIS FIRST COUSIN. This archive already held ANNA ARLOTTA as Generosa Costa's mother, wife of ANTONIO COSTA, from Scilla Matrimoni 1888 atto 63 — and the row asked in as many words whether she was a sister of Rocco Arena's mother SERAFINA ARLOTTA, saying the test had not been made. The Scilla death index now makes it. ANNA ARLOTTA, who died 16 March 1915, is «Padre GIOVANNI ARLOTTA, Madre MARIA COSTA, Coniuge ANTONINO COSTA» — and Giovanni Arlotta and Maria Costa are SERAFINA ARLOTTA'S OWN PARENTS. Same name, same husband's name, same town, compatible dates. SO SERAFINA AND ANNA WERE SISTERS, AND ROCCO ARENA AND GENEROSA COSTA WERE FIRST COUSINS — which is ordinary in a Calabrian fishing town and is not ordinary to be able to prove. WHY THIS IS «PROBABLE» AND NOT «CERTAIN»: Arlotta and Costa are both common at Scilla, and nothing yet read rules out a second Anna Arlotta married to a second Antonino Costa. Reading the 1915 death act itself, which would give her age and parents in full, or Generosa's own birth act, would settle it.",
+     "source": "Antenati name index, Scilla, atto di morte 16 March 1915; against Scilla, Matrimoni 1888, atto 63",
+     "confidence": "probable"
     }
    ]
   }
