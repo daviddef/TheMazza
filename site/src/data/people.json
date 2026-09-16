@@ -275,9 +275,16 @@
     "kind": "cited in the tree",
     "what": "Australia Death Notices, 1860-2019",
     "href": "/sources"
+   },
+   {
+    "kind": "naturalisation file",
+    "what": "NAA: J25, 1971/1074 — «Mazza, Sebastiano; wife Domenica [nee Prostamo]», 1950-1971",
+    "href": "/queensland"
    }
   ],
-  "corrections": [],
+  "corrections": [
+   "THE FILE THE 1959 ELECTORAL ROLL SAID MUST EXIST. Brisbane, paper, and «not yet examined», so it needs an access request before anyone can read it. Its date range covers the whole of their Australian lives to 1971."
+  ],
   "onSpine": true,
   "ancGen": 3
  },
@@ -451,10 +458,16 @@
     "kind": "passenger index",
     "what": "NAA passenger manifest — the Ugolino Vivaldi of 1 March 1951 read in full, and she is NOT on it",
     "href": "/crossings"
+   },
+   {
+    "kind": "naturalisation file",
+    "what": "NAA: J25, 1971/1074 — «Mazza, Sebastiano; wife Domenica [nee Prostamo]», 1950-1971",
+    "href": "/queensland"
    }
   ],
   "corrections": [
-   "THE CANDIDATE IS WITHDRAWN. The master list holds ONE Mazza, «MAZZA Domenico» no. 476, bound for NARRACAN, VICTORIA and landing at MELBOURNE -- he is absent from the Fremantle debarkation schedule. No Prostamo aboard at all, and no second Mazza, though the list names children individually. Her March 1951 crossing is unknown again."
+   "THE CANDIDATE IS WITHDRAWN. The master list holds ONE Mazza, «MAZZA Domenico» no. 476, bound for NARRACAN, VICTORIA and landing at MELBOURNE -- he is absent from the Fremantle debarkation schedule. No Prostamo aboard at all, and no second Mazza, though the list names children individually. Her March 1951 crossing is unknown again.",
+   "SHE IS NAMED WITH HER MAIDEN NAME ON HER HUSBAND'S FILE. Now that the Ugolino Vivaldi is disproved this is the best hope of her real crossing: a Queensland immigration file running from 1950 would record how and when she came."
   ],
   "onSpine": true,
   "ancGen": 3
@@ -1752,7 +1765,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 3,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1788,7 +1801,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1824,7 +1837,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 9,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1852,7 +1865,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -3393,9 +3406,28 @@
     "kind": "burial register",
     "what": "Brisbane Catholic Cemeteries register — plot V-0117",
     "href": "/nudgee"
+   },
+   {
+    "kind": "internment dossier",
+    "what": "NAA: MP1103/1, Q8110 — «Prisoner of War/Internee: Mazza, Rosario; Date of birth - 20 February 1899; Nationality - Italian», 1942-1944",
+    "href": "/queensland"
+   },
+   {
+    "kind": "investigation file",
+    "what": "NAA: BP242/1, Q21227 — «Mazza, Rosario - Queensland investigation case file», 1940-1948",
+    "href": "/queensland"
+   },
+   {
+    "kind": "Civil Aliens Corps",
+    "what": "NAA: J1737, MAZZA R — «Mazza Rosario, CAS 15000 - Civil Aliens Corps», 1944",
+    "href": "/queensland"
    }
   ],
-  "corrections": [],
+  "corrections": [
+   "HE WAS INTERNED. Michael Mazza's great-uncle was held as an enemy alien in the Second World War, and the dossier gives his birth date to the day. Open, at Melbourne, not digitised.",
+   "The Queensland security file that sits behind the internment. Open, at Brisbane, not digitised.",
+   "WHAT HAPPENED AFTER THE CAMP. Interned Italians were released into the Civil Aliens Corps and put to labouring work. Open, at Brisbane."
+  ],
   "onSpine": false,
   "ancGen": null
  },
@@ -6894,9 +6926,21 @@
     "kind": "burial register",
     "what": "Brisbane Catholic Cemeteries register — plot V-0116",
     "href": "/nudgee"
+   },
+   {
+    "kind": "passenger index",
+    "what": "NAA passenger arrivals index — the Viminale, 07 Dec 1937",
+    "href": "/crossings"
+   },
+   {
+    "kind": "alien passenger declaration",
+    "what": "NAA: A12508, 31/1454 — «CRUPI [MAZZA] Angela born 20 December 1900; Maria age 15; Carmela age 8 ... per VIMINALE arriving in Brisbane on 7 December 1937»",
+    "href": "/crossings"
    }
   ],
-  "corrections": [],
+  "corrections": [
+   "HER ARRIVAL, HER EXACT BIRTH DATE, AND BOTH DAUGHTERS, from one line of an archival description. It also contradicts the tree's claim that Carmela was born at Tully in 1926."
+  ],
   "onSpine": false,
   "ancGen": null
  },
@@ -29381,7 +29425,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29417,7 +29461,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29599,7 +29643,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 3,
+  "comp": 8,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -29642,7 +29686,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 5,
+  "comp": 10,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,

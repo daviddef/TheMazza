@@ -530,17 +530,6 @@
       "comp": 1
      },
      {
-      "id": "@I39@",
-      "slug": "giovanni-mazza-2",
-      "name": "Giovanni Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I566@",
       "slug": "giovanni-mazza-4",
       "name": "Giovanni Mazza",
@@ -560,6 +549,17 @@
       "died": 1971,
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+      "comp": 1
+     },
+     {
+      "id": "@I39@",
+      "slug": "giovanni-mazza-2",
+      "name": "Giovanni Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
       "comp": 1
      },
      {
@@ -750,17 +750,6 @@
       "comp": 1
      },
      {
-      "id": "@I547@",
-      "slug": "maria-mazza-4",
-      "name": "Maria Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I553@",
       "slug": "maria-mazza-5",
       "name": "Maria Mazza",
@@ -785,6 +774,17 @@
      {
       "id": "@I543@",
       "slug": "maria-mazza-3",
+      "name": "Maria Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I547@",
+      "slug": "maria-mazza-4",
       "name": "Maria Mazza",
       "surname": "Mazza",
       "born": null,
@@ -871,17 +871,6 @@
       "comp": 1
      },
      {
-      "id": "@I548@",
-      "slug": "orazio-mazza-4",
-      "name": "Orazio Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I502@",
       "slug": "orazio-mazza-2",
       "name": "Orazio Mazza",
@@ -895,6 +884,17 @@
      {
       "id": "@I542@",
       "slug": "orazio-mazza-3",
+      "name": "Orazio Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I548@",
+      "slug": "orazio-mazza-4",
       "name": "Orazio Mazza",
       "surname": "Mazza",
       "born": null,
@@ -926,8 +926,8 @@
       "comp": 1
      },
      {
-      "id": "@I550@",
-      "slug": "pina-mazza",
+      "id": "@I552@",
+      "slug": "pina-mazza-2",
       "name": "Pina Mazza",
       "surname": "Mazza",
       "born": null,
@@ -937,8 +937,8 @@
       "comp": 1
      },
      {
-      "id": "@I552@",
-      "slug": "pina-mazza-2",
+      "id": "@I550@",
+      "slug": "pina-mazza",
       "name": "Pina Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1047,6 +1047,17 @@
       "comp": 1
      },
      {
+      "id": "@I32@",
+      "slug": "salvatore-mazza-1948",
+      "name": "Salvatore Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": true,
+      "birthPlace": "Briatico, Vibo Valentia, Calabria",
+      "comp": 1
+     },
+     {
       "id": "@I499@",
       "slug": "salvatore-mazza-3",
       "name": "Salvatore Mazza",
@@ -1066,17 +1077,6 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I32@",
-      "slug": "salvatore-mazza-1948",
-      "name": "Salvatore Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": true,
-      "birthPlace": "Briatico, Vibo Valentia, Calabria",
       "comp": 1
      },
      {
@@ -1157,8 +1157,8 @@
       "comp": 1
      },
      {
-      "id": "@I506@",
-      "slug": "umberto-mazza",
+      "id": "@I512@",
+      "slug": "umberto-mazza-2",
       "name": "Umberto Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1168,8 +1168,8 @@
       "comp": 1
      },
      {
-      "id": "@I512@",
-      "slug": "umberto-mazza-2",
+      "id": "@I506@",
+      "slug": "umberto-mazza",
       "name": "Umberto Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1307,7 +1307,7 @@
     "towns": [
      "Brisbane, Queensland"
     ],
-    "component": 5,
+    "component": 6,
     "onSpine": [],
     "people": [
      {
@@ -1319,7 +1319,7 @@
       "died": null,
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
-      "comp": 5
+      "comp": 6
      }
     ]
    },
@@ -1328,7 +1328,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 6,
+    "component": 9,
     "onSpine": [],
     "people": [
      {
@@ -1340,7 +1340,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 6
+      "comp": 9
      }
     ]
    },
@@ -1533,8 +1533,8 @@
       "comp": 1
      },
      {
-      "id": "@I479@",
-      "slug": "anna-arena-5",
+      "id": "@I486@",
+      "slug": "anna-arena-6",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
@@ -1544,8 +1544,8 @@
       "comp": 1
      },
      {
-      "id": "@I486@",
-      "slug": "anna-arena-6",
+      "id": "@I479@",
+      "slug": "anna-arena-5",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,

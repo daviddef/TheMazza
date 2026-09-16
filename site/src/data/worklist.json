@@ -429,10 +429,10 @@
     {
       "n": 50,
       "what": "AUSTRALIA — the WWII internment and naturalisation files at the NAA",
-      "state": "next",
+      "state": "running",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "**Phase 4.** Italians in Queensland were interned from 1940, and Trove has already shown Brisbane **Prostamo naturalisations**. The NAA holds both series and its index is searchable. Michele Mazza died in 1926 and the rest arrived later, so the internment years cover the generation that settled."
+      "note": "**Phase 4.** Italians in Queensland were interned from 1940, and Trove has already shown Brisbane **Prostamo naturalisations**. The NAA holds both series and its index is searchable. Michele Mazza died in 1926 and the rest arrived later, so the internment years cover the generation that settled. **OPENED 16 SEPTEMBER, and the internment half is no longer hypothetical.** **NAA: MP1103/1, Q8110 — «Prisoner of War/Internee: Mazza, Rosario; Date of birth - 20 February 1899; Nationality - Italian», 1942–1944.** **Michael Mazza's great-uncle was interned as an enemy alien.** Behind it sit **BP242/1 Q21227**, his Queensland investigation case file (1940–1948), and **J1737 MAZZA R**, a **Civil Aliens Corps** record of 1944 — which is what happened to interned Italians after release: they were put to labouring work under guard. All three are **Open**. All three are **paper**. **This is a whole chapter of one man's life that the tree records as nothing at all**, and it connects directly to [row 7](/worklist/), the Trove search for the 1942 Brisbane internments. Still to do: the same sweep for **Crupi**, **Arena** and **Polistena**, and the A367/D1901/MP14 items that may be the same man under other agencies."
     },
     {
       "n": 51,
@@ -897,10 +897,10 @@
     {
       "n": 105,
       "what": "Sebastiano Mazza's naturalisation, which the 1959 roll proves exists",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**An enrolment is a proof of citizenship, and that is the quiet finding in row 99.** Only British subjects could be enrolled to vote, so Sebastiano Mazza's presence on the 1959 Queensland roll means **he was naturalised between his arrival in 1949 and 1959**, and a naturalisation file exists for him. **The NAA holds them** — series A712, A714 and the certificate registers — and this archive already knows how to work the NAA index from the passenger work. The file would give his **birth date, his birthplace, his occupation, his address, and often the ship and date he arrived**, which would corroborate the crossing independently. **And it should be run for Domenica Prostamo at the same time**, because her naturalisation date is exactly what would explain her absence from the 1959 roll."
+      "note": "**An enrolment is a proof of citizenship, and that is the quiet finding in row 99.** Only British subjects could be enrolled to vote, so Sebastiano Mazza's presence on the 1959 Queensland roll means **he was naturalised between his arrival in 1949 and 1959**, and a naturalisation file exists for him. **The NAA holds them** — series A712, A714 and the certificate registers — and this archive already knows how to work the NAA index from the passenger work. The file would give his **birth date, his birthplace, his occupation, his address, and often the ship and date he arrived**, which would corroborate the crossing independently. **And it should be run for Domenica Prostamo at the same time**, because her naturalisation date is exactly what would explain her absence from the 1959 roll. **DONE 16 SEPTEMBER — the file exists and it is cited.** **NAA: J25, 1971/1074, «Mazza, Sebastiano; wife Domenica [nee Prostamo]», Brisbane, 1950–1971.** It names both of them and her maiden name, and its date range covers their whole Australian lives to 1971. **It is paper, it is not digitised, and it is «not yet examined»** — so it needs an access examination request before anyone can read it. That is row 115, and it is not this archive's to make. **It may also settle row 21**: a Queensland immigration file opening in 1950 should record how and when Domenica came."
     },
     {
       "n": 106,
@@ -973,6 +973,22 @@
       "owner": "this archive",
       "since": "2026-09-16",
       "note": "**Collateral damage from row 110, and it should not be left implicit.** This archive placed **Salvatore Mazza (b. 1948)** on the *Ugolino Vivaldi* at `inferred`, on the reasoning that infants are not separately indexed and he belonged on his mother's voyage. **The reasoning was fine and the voyage was wrong.** Reading the manifest also removed its own premise: **this master list names children individually** — the Mellino family of eight, the Puusaari of six, a Campagna aged 1 — so an infant *would* have been listed. **He has no documented crossing now.** The tree records a Fremantle arrival out of Genoa with no date; that, and the family account of a son not yet three, are all that remain. He travels with whatever voyage row 21 eventually finds for his mother."
+    },
+    {
+      "n": 115,
+      "what": "Ask the NAA to examine J25 1971/1074 — the family's own naturalisation file",
+      "state": "blocked",
+      "owner": "David",
+      "since": "2026-09-16",
+      "note": "**The single best unread document about Michael's grandparents, and getting at it is a form, not research.** **NAA: J25, 1971/1074, «Mazza, Sebastiano; wife Domenica [nee Prostamo]»**, Brisbane, contents 1950–1971. Its access status is **«not yet examined»**, which means nobody has ever asked for it. **Anyone can ask, it costs nothing, and the NAA then examines it for release** — the usual wait is about ninety days. **Why it is worth the form:** a Queensland immigration and naturalisation file covering 1950 to 1971 would carry Sebastiano's naturalisation, his address history, his occupation, and — since she is named on it — **how and when Domenica actually arrived**, which [row 21](/worklist/) badly needs now that the Ugolino Vivaldi is disproved. **This archive cannot lodge the request**; it needs a person with an account and a postal address. Michael is in Brisbane, where the file is."
+    },
+    {
+      "n": 116,
+      "what": "Carmela Mazza cannot have been born at Tully in 1926",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-16",
+      "note": "**A contradiction found by accident, and it broke one of my own arguments the same day.** The tree has **Carmela Mazza born 1926 at Tully, Queensland**. But **NAA: A12508, 31/1454** has her arriving at Brisbane on **7 December 1937** aboard the *Viminale*, **aged eight, as an Italian alien**, with her mother Angela Crupi and her sister Maria. **A child born at Tully in 1926 would be eleven and an Australian-born British subject**, needing no alien declaration at all. **The record is not loose about ages** — Maria's «age 15» matches the tree's 1922 exactly. **So she was born in Italy about 1929.** **What it cost:** I had argued that the Tully timber cutter of 1959 ([row 106](/worklist/)) was interesting because a Mazza household already stood at Tully in 1926. On this evidence it did not. The Tully connection survives, but through **the Crupi brothers**, not through a birth that did not happen. **What would settle it:** the Queensland BDM birth index, which covers 1926 and would simply show whether a Carmela Mazza was registered at Tully at all."
     }
   ],
   "accounts": [

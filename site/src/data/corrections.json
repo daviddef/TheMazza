@@ -1,6 +1,6 @@
 {
- "count": 91,
- "documented": 74,
+ "count": 102,
+ "documented": 80,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -39,15 +39,6 @@
      "treeSays": "Not in the tree",
      "recordSays": "FILIPPO ARENA b. 14 February 1852, DOMENICO ARENA b. 24 March 1853 and GIUSEPPE ARENA b. 5 March 1860 are all sons of Francesco Antonio Arena and Serafina Arlotta -- Rocco's elder brothers. The eldest is named FILIPPO for his grandfather, exactly as Calabrian custom predicts, which is a third independent support for the Filippo Arena generation. Separately, TERESA ARENA b. 17 October 1853 is a daughter of Orazio Arena and Giovanna Zirilli -- Orazio's earliest known child, and the tree gives him no daughters at all.",
      "source": "Scilla, Nati 1852 atto 48; Nati 1853 atti 2 and 6; Nati 1860 atto 45",
-     "confidence": "documented"
-    },
-    {
-     "kind": "Missing people — TWO NEW GENERATIONS",
-     "who": "Giovanni Arena b.1854, Rocco's brother",
-     "slug": "—",
-     "treeSays": "Not in the tree",
-     "recordSays": "The Ellis Island manifest of 23 May 1899 states it outright: Giovanni Arena, 45, a sailor, sails to join 'BROTHER ROCCO, N. YORK, MULBERRY ST', and the six-year-old on the next line is entered not by surname but as 'NIECE, Anna Arena'. So Giovanni is Rocco Arena's brother and Anna is Rocco's daughter -- both stated on the document. His age matches the Arena Giovanni born at Scilla on 20 April 1854 exactly, though that act names the mother Rosa Arlotta where Rocco's names her Serafina.",
-     "source": "Ellis Island, the Archimede, 23 May 1899; Scilla, Nati 1854 atto 1",
      "confidence": "documented"
     },
     {
@@ -93,15 +84,6 @@
    "rows": [
     {
      "kind": "Parentage",
-     "who": "Rocco Arena",
-     "slug": "rocco-arena",
-     "treeSays": "Son of Orazio Arena and Giovana Zirilli",
-     "recordSays": "His parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA. The proof is not the 1861 act alone but a SIBLING PAIR: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, and act 228 of 1861 gives them a son ROCCO, twenty-one months apart. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, in the same order, on the wrong father. Meanwhile Orazio Arena and Giovanna Zirilli are documented across four years (1856, 1858, 1859, 1860) with children Domenico, Domenico and Maria Annunziata, and NEITHER a Rocco nor a Giuseppe ever appears.",
-     "source": "Scilla, Nati 1860 atto 45 and atto 161; Nati 1861 atto 228; Nati 1856 atto 180; Nati 1859 atto 46",
-     "confidence": "documented"
-    },
-    {
-     "kind": "Parentage",
      "who": "Giovanni Polistena",
      "slug": "giovanni-polistena",
      "treeSays": "Mother Giovanna Pontillo",
@@ -125,15 +107,6 @@
      "treeSays": "Not in the tree as Rocco's brother",
      "recordSays": "SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA, named in his own marriage act. So he is ROCCO ARENA'S FULL BROTHER -- which is what the 1899 manifest says, where he sails to join 'brother Rocco' and enters six-year-old Anna as his NIECE.",
      "source": "Scilla, Matrimoni 1885, atto 86; Nati 1854, atto 76",
-     "confidence": "documented"
-    },
-    {
-     "kind": "Parentage",
-     "who": "Rocco Arena",
-     "slug": "rocco-arena",
-     "treeSays": "Son of Orazio Arena",
-     "recordSays": "SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA — said outright in HIS OWN MARRIAGE ACT. The correction was previously carried on five circumstantial supports; this is the direct statement and nothing stronger exists.",
-     "source": "Scilla, Matrimoni 1888, atto 63",
      "confidence": "documented"
     }
    ]
@@ -274,9 +247,18 @@
     },
     {
      "kind": "Birth date",
+     "who": "Giovanni Arena, Rocco's brother",
+     "slug": "giovanni-arena",
+     "treeSays": "Born 1870, with no parents recorded",
+     "recordSays": "ROCCO ARENA'S ELDER BROTHER, born 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS before the tree's date. Son of FRANCESCO ANTONIO ARENA, 34, marinaro, and SERAFINA ARLOTTA, 22. Declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco'. This archive filed him for a time among the people the tree lacks. That was wrong -- the tree has him, as Concetta Russo's husband; what it lacks is his date and his parents.",
+     "source": "Scilla, Nati 1854, atto 76",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth date",
      "who": "Giovanni Arena (Rocco's brother)",
-     "slug": "—",
-     "treeSays": "Born 1870",
+     "slug": "giovanni-arena",
+     "treeSays": "No parents recorded, and no brother",
      "recordSays": "BORN 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS earlier than the tree says. This archive previously corrected him to 'about 1859' from his son's birth act of 1892, which makes him thirty-three. His MARRIAGE act of 1885 makes him THIRTY-ONE, which is 1854, and his own birth act of 1854 gives the day. The 1892 age is three years out; the birth act is the authority.",
      "source": "Scilla, Nati 1854 atto 76; Matrimoni 1885 atto 86",
      "confidence": "documented"
@@ -288,6 +270,24 @@
      "treeSays": "Born 1851",
      "recordSays": "BORN 3 OCTOBER 1855 at Scilla, in his parents' own house — act 163. FOUR YEARS out. This archive had already corrected him to 'about 1856' from his daughter's act of 1892; the act itself gives the day, and the ages check exactly at both ends: thirty-six in July 1892, fifty-two in March 1908.",
      "source": "Scilla, Nati 1855, atto 163",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth date",
+     "who": "Angela Crupi (the tree's «Angela Cupo»)",
+     "slug": "angela-cupo",
+     "treeSays": "1900",
+     "recordSays": "BORN 20 DECEMBER 1900. The NAA's description of her alien passenger declaration gives the day: «CRUPI [MAZZA] Angela born 20 December 1900».",
+     "source": "NAA: A12508, 31/1454",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Birth date",
+     "who": "Rosario Mazza (b. 1899)",
+     "slug": "rosario-mazza-1899",
+     "treeSays": "1899",
+     "recordSays": "BORN 20 FEBRUARY 1899. Given in the NAA's description of his internment dossier: «Prisoner of War/Internee: Mazza, Rosario; Date of birth - 20 February 1899; Nationality - Italian».",
+     "source": "NAA: MP1103/1, Q8110",
      "confidence": "documented"
     }
    ]
@@ -357,15 +357,6 @@
      "treeSays": "Not in the tree",
      "recordSays": "The Acireale diocesan registers name ROSARIO MAZZA and LEONARDA BONANNO as the parents of a MARIANUM MAZZA -- a son called for his paternal grandfather, exactly as Sicilian custom predicts of a first son.",
      "source": "Italy, Catania, Diocesi di Acireale, Catholic Church Records, 1560-1950",
-     "confidence": "documented"
-    },
-    {
-     "kind": "Missing people",
-     "who": "Giovanni Arena (b. 1854)",
-     "slug": "—",
-     "treeSays": "Not in the tree",
-     "recordSays": "ROCCO ARENA'S ELDER BROTHER, born 30 APRIL 1854 at Scilla, act 76. Son of FRANCESCO ANTONIO ARENA, 34, marinaro, and SERAFINA ARLOTTA, 22. Declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco'.",
-     "source": "Scilla, Nati 1854, atto 76",
      "confidence": "documented"
     },
     {
@@ -500,15 +491,6 @@
      "recordSays": "The SURRIENTO. She is not indexed, but her brother Antonino is, arriving on that exact date.",
      "source": "NAA passenger arrivals index, item 9245788",
      "confidence": "inferred"
-    },
-    {
-     "kind": "Crossing -- ship named",
-     "who": "Domenica Prostamo",
-     "slug": "domenica-prostamo",
-     "treeSays": "March 1951, no ship",
-     "recordSays": "Probably the UGOLINO VIVALDI, 1 March 1951 out of Genoa, indexed under her married name as \"MAZZA Domenico\" -- one letter from Domenica. Her son Salvatore, born 1948, was two, which matches the family account of a son not yet three.",
-     "source": "NAA passenger arrivals index, item 30133197",
-     "confidence": "candidate"
     }
    ]
   },
@@ -531,6 +513,15 @@
      "treeSays": "No crossing recorded",
      "recordSays": "He sailed from PALERMO on the S.S. LIGURIA on 22 February 1908, reaching NEW ORLEANS, bound for QUINCY, FLORIDA -- on the line immediately after Michele Donato, whose daughter he would marry about eight years later. Aged 24, single, a sailor.",
      "source": "New Orleans passenger list, S.S. Liguria, 1908",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Crossing -- missing entirely",
+     "who": "Angela Crupi (the tree's «Angela Cupo»)",
+     "slug": "angela-cupo",
+     "treeSays": "No crossing at all",
+     "recordSays": "ARRIVED BRISBANE 7 DECEMBER 1937 ON THE VIMINALE, with two daughters -- «Maria age 15; Carmela age 8». The archive had no arrival for her and no idea the Mazza were in Australia this early.",
+     "source": "NAA: A12508, 31/1454",
      "confidence": "documented"
     }
    ]
@@ -699,6 +690,48 @@
    ]
   },
   {
+   "kind": "Parentage — the circumstantial case, superseded",
+   "rows": [
+    {
+     "kind": "Parentage — the circumstantial case, superseded",
+     "who": "Rocco Arena",
+     "slug": "rocco-arena",
+     "treeSays": "Son of Orazio Arena and Giovana Zirilli",
+     "recordSays": "SUPERSEDED BY THE MARRIAGE ACT, and kept because the reasoning is worth reading. His parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA. The proof is not the 1861 act alone but a SIBLING PAIR: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, and act 228 of 1861 gives them a son ROCCO, twenty-one months apart. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, in the same order, on the wrong father. Meanwhile Orazio Arena and Giovanna Zirilli are documented across four years (1856, 1858, 1859, 1860) with children Domenico, Domenico and Maria Annunziata, and NEITHER a Rocco nor a Giuseppe ever appears. This was the case BEFORE act 63 of 1888 was found. It was built on a sibling pair and four years of negative sweeps, and it was right -- which is the point of keeping it.",
+     "source": "Scilla, Nati 1860 atto 45 and atto 161; Nati 1861 atto 228; Nati 1856 atto 180; Nati 1859 atto 46",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "Crossing — ship named, RETRACTED",
+   "rows": [
+    {
+     "kind": "Crossing — ship named, RETRACTED",
+     "who": "Domenica Prostamo",
+     "slug": "domenica-prostamo",
+     "treeSays": "March 1951, no ship; arrival port given as Fremantle",
+     "recordSays": "RETRACTED. The manifest has been read and it is NOT her. The MASTER LIST of the Ugolino Vivaldi, trip 2/51, carries exactly ONE Mazza -- «MAZZA Domenico», no. 476 -- bound for NARRACAN, VICTORIA, and marked in the port column -M-. That column is unlabelled, but the -F- passengers correspond ONE FOR ONE with the Department of Immigration's separate «Schedule of Alien Passengers for debarkation at Fremantle», so F is Fremantle, M Melbourne, S Sydney. THIS MAN DID NOT LAND AT FREMANTLE -- he is absent from that schedule, which runs MARTINELLI straight to MERENDINO. There is NO Prostamo aboard under any spelling, and NO second Mazza, though the list names children individually. Domenica Prostamo went to her husband in BRISBANE. This is a Victorian arrival and a different man.",
+     "source": "NAA: K269, 1 MAR 1951 UGOLINO VIVALDI, item 30133197 -- master list and Fremantle debarkation schedule, read in full",
+     "confidence": "flagged"
+    }
+   ]
+  },
+  {
+   "kind": "Brother -- missing entirely",
+   "rows": [
+    {
+     "kind": "Brother -- missing entirely",
+     "who": "Giovanni Arena, Rocco's brother",
+     "slug": "giovanni-arena",
+     "treeSays": "In the tree as Concetta Russo's husband, born 1870, with no parents and no brother",
+     "recordSays": "The Ellis Island manifest of 23 May 1899 states it outright: Giovanni Arena, 45, a sailor, sails to join 'BROTHER ROCCO, N. YORK, MULBERRY ST', and the six-year-old on the next line is entered not by surname but as 'NIECE, Anna Arena'. So Giovanni is Rocco Arena's brother and Anna is Rocco's daughter -- both stated on the document. HE IS IN THE TREE, and this row once said he was not: he is the Giovanni Arena the tree marries to Concetta Russo and dates to 1870. The missing people are his PARENTS. THE INDEX LINE AND THE ACT DISAGREE, AND THE DISAGREEMENT IS SETTLED. The 1854 Tavola reads «Arena Giovanni di Antonio e Arlotta ROSA, 20 April», and this archive repeated it and drew the wrong conclusion from it -- a ROSA Arlotta would be Serafina's sister, which would make the boy Rocco's COUSIN rather than his brother. The act itself, act 76, says SERAFINA and says the THIRTIETH of April, and the ages close it: Francesco Antonio was thirty-four in April 1854 to the month. The index is wrong. It is recorded here because an index this archive trusted produced a false relationship, and the next one might too.",
+     "source": "Ellis Island, the Archimede, 23 May 1899; Scilla, Nati 1854 atto 76",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
    "kind": "Marriage -- missing entirely",
    "rows": [
     {
@@ -789,6 +822,20 @@
      "slug": "—",
      "treeSays": "No marriage date",
      "recordSays": "MARRIED AT SCILLA IN DECEMBER 1888, act 63 — not 1890. This archive had 1890 from the 1900 census, which records them as 'married ten years'. The act puts it eighteen months earlier.",
+     "source": "Scilla, Matrimoni 1888, atto 63",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Parentage — AND THE EDGE IS NOW DROPPED",
+   "rows": [
+    {
+     "kind": "Parentage — AND THE EDGE IS NOW DROPPED",
+     "who": "Rocco Arena",
+     "slug": "rocco-arena",
+     "treeSays": "Son of Orazio Arena",
+     "recordSays": "SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA — said outright in HIS OWN MARRIAGE ACT. The correction was previously carried on five circumstantial supports; this is the direct statement and nothing stronger exists. ACTED ON, 15 SEPTEMBER: the edge from Rocco Arena to Orazio Arena and Giovanna Zirilli HAS BEEN REMOVED from the charts, with the reason on the row in data/parent-links.tsv. The site had been arguing with itself -- proving the parentage false on this page while still drawing it on every chart. THREE PEOPLE LEFT THE BLOOD LINE WITH IT: Orazio Arena, Giovanna Zirilli and Orazio's father GIUSEPPE ARENA, who was on the spine only through this claim. The line of direct ancestors goes from sixty-two people to fifty-nine. ORAZIO AND GIOVANNA REMAIN REAL AND REMAIN ON THIS SITE. They were documented at Scilla with four children between 1853 and 1860 -- Teresa, Domenico, Domenico and Maria Annunziata -- and this archive found them. They were simply not Rocco's parents. ROCCO NOW HAS NO PARENTS ON THE CHART, because FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA are not in Michael's export. That is the honest state of the evidence, and it is exactly the gap work list row 51 exists to close.",
      "source": "Scilla, Matrimoni 1888, atto 63",
      "confidence": "documented"
     }
@@ -908,9 +955,9 @@
      "who": "Maria Rosa Prostamo",
      "slug": "maria-rosa-prostamo-1956",
      "treeSays": "The export gave her TWO complete sets of parents: Antonio Giacomo Prostamo and Angela Tomsic, and Francesco Prostamo and Raffaela",
-     "recordSays": "ANTONIO GIACOMO PROSTAMO AND ANGELA TOMSIC. She was born at BRISBANE and married Steve Liversegle, and that is the Brisbane household — her brothers and sisters there are Tony, Kristina, Steven and Francesco. The other couple, Francesco Prostamo of Briatico and Raffaela of Catanzaro, had a daughter of the same name with a sister called Antonia. BOTH FATHERS HAD A MOTHER CALLED MARIA ROSA MELLUSO, so both couples named a daughter for her — which is how two women came to be read as one.",
+     "recordSays": "ANTONIO GIACOMO PROSTAMO AND ANGELA TOMSIC. She was born at BRISBANE and married Steve Liversegle, and that is the Brisbane household — her brothers and sisters there are Tony, Kristina, Steven and Francesco. The other couple, Francesco Prostamo of Briatico and Raffaela of Catanzaro, had a daughter of the same name with a sister called Antonia. BOTH FATHERS HAD A MOTHER CALLED MARIA ROSA MELLUSO, so both couples named a daughter for her — which is how two women came to be read as one. (RELABELLED 15 SEPTEMBER: this was carried as «probable», which on this page means the best reading of an ambiguous DOCUMENT. Nothing here is ambiguous to read -- the reasoning is from BIRTHPLACE, which is an inference from circumstance and belongs under «inferred».)",
      "source": "site/src/data/people.json against the export; reasoned from birthplace, marriage and siblings, not from an act",
-     "confidence": "probable"
+     "confidence": "inferred"
     }
    ]
   },
@@ -922,9 +969,9 @@
      "who": "Mattea Prostamo",
      "slug": "mattea-prostamo-1926",
      "treeSays": "The export gave her TWO complete sets of parents: Francessco Prostamo and Maria Rosa Melluso, and Leone Prostamo and Anna Vallone",
-     "recordSays": "LEONE PROSTAMO AND ANNA VALLONE. Francessco (1900-1983) and Leone (b. 1902) are BROTHERS, both sons of Alfonso Prostamo and Caterina Melluso. Mattea was born at BUENOS AIRES in 1926; Anna Vallone was born at Buenos Aires and died there, and Mattea is the only child recorded to her. Francessco lived and died at BRIATICO and his seven children are the Briatico household. This archive already records a Prostamo branch at Buenos Aires with children born from 1926 — which is Mattea exactly.",
+     "recordSays": "LEONE PROSTAMO AND ANNA VALLONE. Francessco (1900-1983) and Leone (b. 1902) are BROTHERS, both sons of Alfonso Prostamo and Caterina Melluso. Mattea was born at BUENOS AIRES in 1926; Anna Vallone was born at Buenos Aires and died there, and Mattea is the only child recorded to her. Francessco lived and died at BRIATICO and his seven children are the Briatico household. This archive already records a Prostamo branch at Buenos Aires with children born from 1926 — which is Mattea exactly. (RELABELLED 15 SEPTEMBER: this was carried as «probable», which on this page means the best reading of an ambiguous DOCUMENT. Nothing here is ambiguous to read -- the reasoning is from BIRTHPLACE, which is an inference from circumstance and belongs under «inferred».)",
      "source": "site/src/data/people.json against the export; reasoned from birthplace",
-     "confidence": "probable"
+     "confidence": "inferred"
     }
    ]
   },
@@ -953,6 +1000,118 @@
      "recordSays": "ANGELA CRUPI, daughter of FRANCESCO CRUPI and MARIA VECCHIO. Her Queensland death registration of 10 January 1973 names both parents, and the Nudgee register interred her three days later in plot V-0116 beside her husband Rosario Mazza in V-0117. Born 1900 at Catania, died 1973 at Brisbane, which is exactly the woman the export holds. CUPO IS A GARBLING OF CRUPI, and this data does that often — «Lecota» for Nicotra and «Postamo» for Prostamo are both already on this page.",
      "source": "Queensland death registration 1973/B/38514, against the Nudgee Catholic cemetery register",
      "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "my own reading — a name in dispute",
+   "rows": [
+    {
+     "kind": "my own reading — a name in dispute",
+     "who": "Marta Paladino",
+     "slug": "—",
+     "treeSays": "Not in the tree at all; this archive published her as MARIA Paladino",
+     "recordSays": "MARTA, most likely. Her son Domenico's birth act of 18 December 1816 -- written while she was in the next room, from her husband's own mouth -- reads «e da MAR-TA PALADINO, di anni trenta, sua moglie legittima», the name broken across a line with the second beginning plainly «ta». This archive first published her as MARIA, from the 1844 marriage Tavola. The act is contemporaneous and primary; the Tavola is an index compiled at the year's end, and THIS SERIES HAS ALREADY BEEN CAUGHT at exactly this -- the 1854 Tavola calls Serafina Arlotta «Rosa», and believing it briefly turned a brother into a cousin. AGAINST THAT, HONESTLY: the same Tavola entry gets the other mother right, «de Amico Maria», as her daughter's own birth act confirms. So the index is not uniformly careless and this is a reading, not a verdict. Another child of Candeloro Donato in the Scilla births of 1810-1830 would settle it.",
+     "source": "Scilla, Nati 1816 atto 207, in Matrimoni processetti 1842-1845 fascicolo 20",
+     "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "Missing people — AND THE END OF A LINE",
+   "rows": [
+    {
+     "kind": "Missing people — AND THE END OF A LINE",
+     "who": "Candeloro Donato",
+     "slug": "—",
+     "treeSays": "Not in the tree",
+     "recordSays": "BORN ABOUT 1783 and a MARINARO -- thirty-three when he declared his son Domenico's birth on 18 December 1816. The first age this archive has ever had for him, and the last it will get: Scilla's civil registration begins in 1816, so his own birth and marriage are pre-civil, and his son Michele was born at MESSINA about 1814 where registration does not begin until 1820. HE IS WHERE THE SCILLA LINE STOPS, exactly as Pasquale Prostamo is where the Calabrian one does. He was still alive in July 1844 -- his son's marriage bundle carries no death certificate, which this series required when a parent had died.",
+     "source": "Scilla, Nati 1816 atto 207, in Matrimoni processetti 1842-1845 fascicolo 20",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "a document against a document — a surname in dispute",
+   "rows": [
+    {
+     "kind": "a document against a document — a surname in dispute",
+     "who": "Anna Fama, or Anna Maropoli",
+     "slug": "—",
+     "treeSays": "Not in the tree; this archive publishes her as ANNA FAMA",
+     "recordSays": "TWO RECORDS, TWO SURNAMES, AND NEITHER IS THE ORIGINAL. Domenico Ventrice's wife is named twice in this archive and not the same way. The CHANCERY'S CERTIFIED COPY OF 1849, made thirty-four years after his death and filed in his granddaughter's marriage bundle at Briatico, calls her ANNA FAMA. His son's own marriage act -- ZAMBRONE, 2 MARCH 1824, written in the town where Domenico died and only nine years after he died, from the groom's own statement -- calls her «LA FU ANNA MAROPOLI». THE 1824 ACT IS PREFERRED, for three reasons: it is nearer the event by twenty-five years, it was written in the right comune, and THE SAME 1849 COPY HAS ALREADY BEEN CAUGHT GETTING SOMETHING WRONG -- it crams two ages into one clause and this archive first read Domenico as fifty when he was fifty-eight. BUT NEITHER IS THE ACT ITSELF. THE VOLUME HAS NOW BEEN OPENED AND THE ORIGINAL IS NOT THERE. Zambrone's death register runs 1811, then 1812 ending with its own Tavola, then a title page -- and then 1822. THE YEARS 1813 TO 1821 ARE PHYSICALLY ABSENT and Domenico died in January 1815. SO THIS CANNOT BE SETTLED FROM ZAMBRONE'S OWN REGISTER. ONE THING DID CHANGE, AND IN MAROPOLI'S FAVOUR: the 1822 death Tavola of the same volume names a «fu Franc.co e Dom.ca MAROPOLI» as the parents of a Francesca Pungitori. AND IT IS NOT AN ISOLATED INSTANCE. Sweeping the death Tavole of 1822, 1823 and 1824 turns up MAROPOLI TWICE: as a parent's surname in 1822, and as GIUSEPPE MAROPOLI himself, an infant dead on 23 March 1824, son of Antonio and Marianna Colia. TWO INDEPENDENT ATTESTATIONS INSIDE TWO YEARS. So the reading «della fu Anna Maropoli» no longer needs defending AS A READING. What stays open is only which of two documents is right -- and that cannot be decided until Domenico Ventrice's own act is found, which needs the second copy of a register whose comune copy is missing these years. Work list row 59.",
+     "source": "Zambrone, Matrimoni 1824 atto 2 and Morti 1822 Tavola; against Briatico, Matrimoni 1849, atto 1 (processetti)",
+     "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "Missing people — A COUPLE NEVER HAD",
+   "rows": [
+    {
+     "kind": "Missing people — A COUPLE NEVER HAD",
+     "who": "Francesco Cichello and Vittoria Mollo",
+     "slug": "—",
+     "treeSays": "Not in the tree, and not in this archive either until today",
+     "recordSays": "CATERINA CICHELLO'S PARENTS. Her marriage act of 2 March 1824 at Zambrone names her «figlia DEL FU FRANCESCO e DELLA FU VITTORIA MOLLO» -- both already dead when she married at twenty-six. She is the great-great-great-grandmother of Mia and Rocco, and her parents were the oldest completely unknown couple on the Calabrian side. The act also gives her a birthplace, ZAMBRONE, and an age that agrees with the one already held.",
+     "source": "Zambrone, Matrimoni 1824, atto 2",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Birthplace — missing entirely",
+   "rows": [
+    {
+     "kind": "Birthplace — missing entirely",
+     "who": "Giuseppe Ventrice",
+     "slug": "—",
+     "treeSays": "Not in the tree at all",
+     "recordSays": "BORN AT S. COSTANTINO, not at Zambrone or Briatico. His marriage act of 1824 makes him «di anni trentaquattro, NATO IN S. COSTANTINO, contadino, domiciliato in Zambrone» -- so the Ventrice came into Zambrone from San Costantino Calabro, a few kilometres away, and moved on to Briatico afterwards, where he died in 1831. HIS AGE IS ALSO IN DISPUTE WITH ITSELF: thirty-four in March 1824 gives 1790; thirty-three in June 1828 gives 1795. Both are his own declarations, five years apart in a man who could not write.",
+     "source": "Zambrone, Matrimoni 1824, atto 2",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Missing people — A WHOLE NEW YORK HOUSEHOLD",
+   "rows": [
+    {
+     "kind": "Missing people — A WHOLE NEW YORK HOUSEHOLD",
+     "who": "Rocco Arena's American children",
+     "slug": "rocco-arena",
+     "treeSays": "Three children: Anna, Maria and an Antonio with no dates",
+     "recordSays": "FOUR CHILDREN BORN IN MANHATTAN, none of them in the tree with a date and three of them not in it at all. ANTONIO b. 3 OCTOBER 1896; SERAFINA b. 15 AUGUST 1898; CLEMENTINA b. 21 DECEMBER 1900; and a SECOND ANTONIO b. 13 OCTOBER 1902. Every one names «father ROCCO ARENA, mother GENEROSA COSTA» -- the couple married at Scilla in December 1888. AND THE HOUSEHOLD HAS AN ADDRESS AT LAST: 141 MULBERRY STREET in 1896 and 1898, 198 MULBERRY by January 1901. That corroborates the Ellis Island manifest of 1899, which sends Giovanni Arena to «BROTHER ROCCO, N. YORK, MULBERRY ST» -- two independent sources, one street, and now a number. IT ALSO DATES THE CROSSING FROM THE INSIDE: Anna was born at Scilla in January 1893 and Antonio in Manhattan in October 1896, so the household moved between those dates, which fits the 1892 and 1894 crossings already documented.",
+     "source": "New York Roman Catholic Parish Baptisms (Findmypast) — Our Lady of Loretto and Most Precious Blood",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "a child who died, read from a repeated name",
+   "rows": [
+    {
+     "kind": "a child who died, read from a repeated name",
+     "who": "Antonio Arena, the first",
+     "slug": "—",
+     "treeSays": "Nothing — the tree has one Antonio and no dates",
+     "recordSays": "TWO SONS NAMED ANTONIO, SIX YEARS APART. Rocco Arena and Generosa Costa baptised an Antonio on 15 November 1896 and another Antonio on 2 November 1902. IN THIS FAMILY'S PRACTICE THAT MEANS THE FIRST DIED and the name was given again. This archive has already read exactly this pattern once, at Scilla, where ORAZIO ARENA named two sons DOMENICO in 1856 and 1859 -- «the first child almost certainly died in infancy and the name was reused, which was ordinary practice». NO DEATH ACT HAS BEEN FOUND and none has been looked for. The inference rests on the custom and on the second baptism, which is why it is «inferred» and not «documented». What would settle it is a New York death or a burial record between 1896 and 1902.",
+     "source": "New York Roman Catholic Parish Baptisms — two baptisms, 1896 and 1902",
+     "confidence": "inferred"
+    }
+   ]
+  },
+  {
+   "kind": "Birth year and birthplace — A CONTRADICTION",
+   "rows": [
+    {
+     "kind": "Birth year and birthplace — A CONTRADICTION",
+     "who": "Carmela Mazza",
+     "slug": "carmela-mazza",
+     "treeSays": "Born 1926 at Tully, Queensland",
+     "recordSays": "CANNOT BOTH BE TRUE. She arrives at Brisbane on 7 December 1937 as an ITALIAN ALIEN aged EIGHT -- so born about 1929, in Italy. A child born at Tully in 1926 would be eleven and an Australian-born British subject, needing no alien declaration at all. Her sister Maria, «age 15», fits the tree's 1922 exactly, so the record is not loose about ages.",
+     "source": "NAA: A12508, 31/1454",
+     "confidence": "flagged"
     }
    ]
   }
