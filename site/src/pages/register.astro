@@ -4,6 +4,7 @@
    written by hand, so it cannot fall behind the work. */
 import Base from "../layouts/Base.astro";
 import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
+import Register from "@daviddef/archive-kit/components/Register.astro";
 import { u } from "../lib/url.js";
 import scilla from "../data/scilla-reads.json";
 import sicilianActs from "../data/sicilian-acts.json";
@@ -16,6 +17,7 @@ import nudgee from "../data/nudgee.json";
 const groups = [
   {
     id: "scilla",
+    nameAt: 2,
     title: "Scilla — the civil register",
     where: "Reggio Calabria",
     note: "Birth and marriage acts read image by image off the Antenati films. The Arena and Polistena quarters both come out of this one town, so these are the acts that separate them.",
@@ -24,6 +26,7 @@ const groups = [
   },
   {
     id: "piedimonte",
+    nameAt: 3,
     title: "Piedimonte Etneo — the civil register",
     where: "Catania, Sicily",
     note: "The Mazza acts. Each one carries the father's age, which is how a birth year can be recovered for a man who has no birth act of his own.",
@@ -32,6 +35,7 @@ const groups = [
   },
   {
     id: "qld",
+    nameAt: 2,
     title: "Queensland births, deaths and marriages",
     where: "the Australian end",
     note: "Index entries, with the registration number, so each can be ordered as a certificate. Where the index garbles a name the garble is kept and named.",
@@ -40,6 +44,7 @@ const groups = [
   },
   {
     id: "sicily",
+    nameAt: 0,
     title: "Sicily — records found for people who had none",
     where: "Piedimonte Etneo and around",
     note: "Each of these closed a hole the family tree had left open.",
@@ -48,6 +53,7 @@ const groups = [
   },
   {
     id: "fmp",
+    nameAt: 1,
     title: "FindMyPast — the New York years",
     where: "New York County",
     note: "The branch that went to America rather than to Australia, and what became of it.",
@@ -56,6 +62,7 @@ const groups = [
   },
   {
     id: "ships",
+    nameAt: 0,
     title: "Passenger records",
     where: "National Archives of Australia",
     note: "The family tree recorded eighteen crossings and not one ship's name. These are the ones the index gave back — and where the tree and the record disagree, both are shown.",
@@ -66,6 +73,7 @@ const groups = [
   },
   {
     id: "nudgee",
+    nameAt: 0,
     title: "Nudgee Cemetery burial register",
     where: "Brisbane",
     note: "Including the four consecutive plots — V-1026 to V-1029 — that hold the four Italian great-grandparents, buried in the order they died.",
@@ -75,7 +83,29 @@ const groups = [
 ];
 
 const total = groups.reduce((n, g) => n + g.rows.length, 0);
+/* SEVEN COLUMN SETS INTO THREE. Each source was its own table with its own
+   headings and there was NO SEARCH ANYWHERE ON THE PAGE - 226 records across
+   seven tables and no way to ask whether a name is in any of them. The shared
+   register gives that, and a filter for which source a record came from. The
+   headings are not lost: each one is printed with its cell, so «Act 186» still
+   says Act, and the seven notes explaining what each source is stay above. */
 const isLevel = v => ["documented", "inferred", "probable", "family", "disputed", "untested"].includes(String(v));
+const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;");
+const regRows = groups.flatMap((g) => g.rows.map((r) => {
+  const level = r.find((c) => isLevel(c));
+  const bits = r.map((cell, i) => [g.cols[i], cell])
+    .filter(([lab, cell], i) => i !== g.nameAt && cell && !isLevel(cell))
+    .map(([lab, cell]) => (lab ? `<span class="dim">${esc(lab)}</span> ${esc(cell)}` : esc(cell)));
+  return {
+    name: esc(r[g.nameAt] || "\u2014"),
+    kind: g.title,
+    detail: bits.join(" &middot; "),
+    source: g.where,
+    sourceLabel: g.title,
+    chip: level && level !== "documented" ? level : "",
+  };
+}));
+
 ---
 <Base title="The Register"
   eyebrow={`${total} records, read one at a time`}
@@ -93,8 +123,8 @@ const isLevel = v => ["documented", "inferred", "probable", "family", "disputed"
         <tbody>
           {groups.map(g => (
             <tr>
-              <td><a href={`#${g.id}`}>{g.title}</a></td>
-              <td class="dim">{g.where}</td>
+              <td><strong>{g.title}</strong><div class="dim small" style="margin-top:4px">{g.note}</div></td>
+              <td class="dim" style="white-space:nowrap">{g.where}</td>
               <td class="mono">{g.rows.length}</td>
             </tr>
           ))}
@@ -104,29 +134,9 @@ const isLevel = v => ["documented", "inferred", "probable", "family", "disputed"
     </div>
   </section>
 
-  {groups.map(g => (
-    <section class="blk" id={g.id}>
-      <div class="lab">{g.where}</div>
-      <h2>{g.title} <span class="dim mono">{g.rows.length}</span></h2>
-      <p class="prose" style="margin-top:.6rem">{g.note}</p>
-      <div class="scroll" style="margin-top:16px">
-        <table>
-          <thead>
-            <tr>{g.cols.map(c => <th>{c}</th>)}</tr>
-          </thead>
-          <tbody>
-            {g.rows.map(r => (
-              <tr>
-                {r.map(cell => (
-                  <td>{isLevel(cell) ? <Evidence level={cell} /> : (cell || <span class="dim">—</span>)}</td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-  ))}
+  <section class="blk">
+    <Register rows={regRows} u={u} unit="records" />
+  </section>
 
   <section class="blk">
     <p class="prose dim">Every row here is a document somebody read. Where a row carries a
