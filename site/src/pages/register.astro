@@ -6,6 +6,13 @@ import Base from "../layouts/Base.astro";
 import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
 import Register from "@daviddef/archive-kit/components/Register.astro";
+import nf from "../data/namefold.json";
+/* THE SEARCH BOX FOLDS SPELLINGS. Built by the kit's namefold.py from this
+   archive's own corpus, and deliberately narrow: it folds only forms that are
+   one word two keyboards wrote differently - an accent, a capital. Anything
+   that changes a LETTER is printed by the tool and left off, because whether
+   two spellings are one family is this archive's judgement and not a rule's.
+   Folding is a search rule. It widens what a query matches and merges nothing. */
 import { u } from "../lib/url.js";
 import scilla from "../data/scilla-reads.json";
 import sicilianActs from "../data/sicilian-acts.json";
@@ -140,7 +147,7 @@ const regRows = groups.flatMap((g) => g.rows.map((r) => {
   </section>
 
   <section class="blk">
-    <Register rows={regRows} u={u} unit="records" />
+    <Register rows={regRows} u={u} unit="records" fold={nf.fold} />
   </section>
 
   <section class="blk">
