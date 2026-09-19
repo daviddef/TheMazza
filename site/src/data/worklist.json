@@ -1032,11 +1032,14 @@
     },
     {
       "n": 122,
-      "what": "Run the name index for the rest of the Scilla surnames",
-      "state": "next",
+      "what": "The Scilla surnames are all swept — and the summaries cost a second sweep",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**Four surnames were swept today and there are at least eight more on the spine.** Wanted: **COSTA** (which should hold Generosa), **SOFI**, **ZIRILLI**, **MARTELLO**, **RUSSO**, **PALADINO**, **ROMANO** and **PONTILLO** — the last two because [row 41](/worklist/) has just been resolved *against* the tree, and the index is where a Romano family behind Giovanna would show up if one exists. **Cheap and mechanical**, one paced fetch each, and every act carries father, mother and spouse. **Note after [row 121](/worklist/): this will return deaths only, 1911–1943.** Still worth running — that is the window in which this family's Scilla relatives died — but it will not produce a marriage or a birth for anyone."
+      "note": "**DONE, AND IT WAS ALREADY DONE.** This row was written when four surnames had been swept and listed eight more as wanted: Costa, Sofi, Zirilli, Martello, Russo, Paladino, Romano, Pontillo. **Every one of them was run by [rows 128, 130, 131 and 132](/searched/) within the following two days**, and this row was never closed. It has now been checked by re-running seven of them. **What the re-run bought, and what it cost.** It bought a NEGATIVE that answers [row 131](/worklist/) — **Mariantonia Musolino is not in the index at all**, Scilla having only seven Musolino records — and four households written out into `corrections.tsv`: Giovanna Romano's three sisters, the four children of Lorenzo Costa and Generosa Polistena (including **Generosa Costa's own father Antonio, d. 1 June 1915**), Domenico Arlotta's wife **Maria Pontillo**, and the guard now standing on the two Generosa Costas ([row 139](/worklist/)). **It cost seven rate-limited queries that had already been paid for once**, because the first pass wrote «69 indexed persons, 26 of them the deceased» and then named eight. **The rule, and it is the second time today it has been bought: when a query returns a BOUNDED set, write the set down.** A paragraph is cheaper than a second search, and the second search is rate-limited.",
+      "covers": [
+        "src:src/antenati-name-index-the-242599"
+      ]
     },
     {
       "n": 123,
@@ -1107,11 +1110,14 @@
     },
     {
       "n": 131,
-      "what": "Orazio Arena married twice — Mariantonia Musolino",
+      "what": "Orazio Arena's second wife is not in the index — the marriage act is the only route",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**A whole second marriage, found as a by-product.** The Scilla death index gives Orazio Arena four children by **Giovanna Zirilli** — Teresa (d. 1913), Giuseppe (d. 1922), Maria Annunziata (d. 1933) and Alessandro Antonio (d. 1936) — and a fifth, **DOMENICO ARENA (d. 30 December 1923), whose mother is MARIANTONIA MUSOLINO**. **Musolino is a name this archive has never held.** Either Orazio married twice or there are two Orazio Arenas at Scilla — and this archive already knows this man had *two sons both named Domenico*, which is exactly the situation where a second wife gets overlooked. The marriage act would settle it."
+      "note": "**A whole second marriage, found as a by-product.** The Scilla death index gives Orazio Arena four children by **Giovanna Zirilli** — Teresa (d. 1913), Giuseppe (d. 1922), Maria Annunziata (d. 1933) and Alessandro Antonio (d. 1936) — and a fifth, **DOMENICO ARENA (d. 30 December 1923), whose mother is MARIANTONIA MUSOLINO**. **Musolino is a name this archive has never held.** Either Orazio married twice or there are two Orazio Arenas at Scilla — and this archive already knows this man had *two sons both named Domenico*, which is exactly the situation where a second wife gets overlooked. The marriage act would settle it. **CHECKED 20 SEPTEMBER, AND SHE IS NOT THERE.** The name index holds **seven Musolino records at Scilla in total**, of which two are the deceased — Domenico Musolino (d. 17 April 1911, son of Bruno Musolino and Grazia Longordo) and Francesca Musolino (d. 7 November 1928). **Neither is Mariantonia.** She exists in the index only as a name inside her son Domenico Arena's act of 1923. So she died outside 1911–1943, or away from Scilla, and **the index route is closed**. What is left is **Orazio Arena's second marriage act** — Scilla's civil marriages 1866–1913 are all on Antenati, his first wife Giovanna Zirilli bore children to 1860, and Domenico Arena (d. 1923) is the only known child of the second marriage, so the wedding sits somewhere after 1866. The annual marriage indexes are one A-block read apiece.",
+      "covers": [
+        "src:src/antenati-name-index-the-242599"
+      ]
     },
     {
       "n": 132,
@@ -1171,11 +1177,14 @@
     },
     {
       "n": 139,
-      "what": "A second Generosa Costa at Scilla — guard the name before it merges",
-      "state": "next",
+      "what": "The two Generosa Costas — the guard is written",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**Rocco Arena's wife was Generosa Costa. So was Pasquale Donato's.** The death index gives **PASQUALE DONATO (d. 20 April 1937), «Padre Domenico, Madre Annunziata Sofi, Coniuge GENEROSA COSTA»** — and Pasquale is Michele Donato's brother, so this is inside the family, not a stranger who happens to share a name. **That is exactly the circumstance in which two women become one in a tree.** They are almost certainly different: Rocco's Generosa was born about 1868 and married in 1888. **Write the distinction down now**, while it is obvious, rather than discovering the merge later."
+      "note": "**Rocco Arena's wife was Generosa Costa. So was Pasquale Donato's.** The death index gives **PASQUALE DONATO (d. 20 April 1937), «Padre Domenico, Madre Annunziata Sofi, Coniuge GENEROSA COSTA»** — and Pasquale is Michele Donato's brother, so this is inside the family, not a stranger who happens to share a name. **That is exactly the circumstance in which two women become one in a tree.** They are almost certainly different: Rocco's Generosa was born about 1868 and married in 1888. **Write the distinction down now**, while it is obvious, rather than discovering the merge later. **WRITTEN, 20 SEPTEMBER.** `corrections.tsv` now carries the separation explicitly, against `generosa-costa`, and it is graded **certain** rather than inferred, because the two women are separated by evidence and not by assumption: **Rocco's Generosa was already dead on 6 June 1916**, twenty-one years before the other's husband died in 1937, and their parents differ — Antonino Costa and Anna Arlotta for the first, unknown for the second. **A third Generosa sits a generation above them**: GENEROSA POLISTENA, Antonino Costa's mother, for whom Rocco's wife was almost certainly named. Three women of one name in three generations of one town, and the guard names all three.",
+      "covers": [
+        "src:src/antenati-name-index-the-242599"
+      ]
     },
     {
       "n": 140,

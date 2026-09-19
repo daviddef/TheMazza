@@ -1792,7 +1792,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1828,7 +1828,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1864,7 +1864,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 3,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1892,7 +1892,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 10,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -19201,6 +19201,11 @@
     "kind": "documented",
     "what": "Antenati name index, Scilla, atto di morte 6 June 1916",
     "href": "/corrections"
+   },
+   {
+    "kind": "certain",
+    "what": "Antenati name index, Scilla — atti di morte 6 June 1916 and 20 April 1937",
+    "href": "/corrections"
    }
   ],
   "corrections": [
@@ -19208,7 +19213,8 @@
    "Indexed as 'Genneroso Arena'. The census makes her thirty in 1900 and married ten years, so born about 1870 and married in 1890. The New York City birth register gives her four more children than the tree has.",
    "ROCCO ARENA'S WIFE, and SHE IS IN THE FAMILY TREE -- this row exists only to connect her to parents the tree does not have. Her marriage act of December 1888 reads «COSTA GENEROSA, FILATRICE, nata in Scilla, FIGLIA DI ANTONIO, residente in Scilla, E DI ANNA ARLOTTA, residente in Scilla». Both parents were recorded in this archive as documented people and NEITHER WAS CONNECTED TO HER, so no chart and no page could show that Rocco Arena's wife had known parents. That is the same failure as the five Melluso who sat in a spreadsheet column: a fact held in one file does not reach the reader until it is joined to another.",
    "Trade -- missing entirely — FILATRICE, a spinner.",
-   "Death -- missing entirely — DIED AT SCILLA ON 6 JUNE 1916, «Padre ANTONINO COSTA, Madre ANNA ARLOTTA, Coniuge ROCCO ARENA». Her parents are exactly those the marriage act of 1888 gave, now from a second and independent document, and her husband is named. SHE DIED SIXTEEN YEARS BEFORE HIM: Rocco Arena followed her on 8 February 1932."
+   "Death -- missing entirely — DIED AT SCILLA ON 6 JUNE 1916, «Padre ANTONINO COSTA, Madre ANNA ARLOTTA, Coniuge ROCCO ARENA». Her parents are exactly those the marriage act of 1888 gave, now from a second and independent document, and her husband is named. SHE DIED SIXTEEN YEARS BEFORE HIM: Rocco Arena followed her on 8 February 1932.",
+   "Two women of one name — A GUARD, NOT A FINDING — THERE ARE TWO AND THEY MUST NEVER BE MERGED. (1) GENEROSA COSTA, born about 1868, a filatrice, daughter of ANTONINO COSTA and ANNA ARLOTTA, married ROCCO ARENA at Scilla in December 1888, died at Scilla 6 JUNE 1916. She is on this archive's spine -- Anna Arena's mother. (2) A second GENEROSA COSTA, wife of PASQUALE DONATO, who died 20 April 1937; Pasquale is a son of DOMENICO DONATO and NUNZIATA SOFI, which makes him MICHELE DONATO'S BROTHER. So the two women sit one in each of this archive's two Scilla lines, the Arena and the Donato, and a tree that meets both will be tempted to fuse them. THE SEPARATION IS EVIDENCED, not assumed: the first was already dead in 1916, twenty-one years before the second's husband died, and their parents differ. COSTA AT SCILLA IS NOT A SMALL NAME -- the name index holds seventy-six Costa records and eighteen Costa deaths, including a THIRD Generosa in the previous generation, GENEROSA POLISTENA, for whom Rocco's wife was very likely named."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -29837,7 +29843,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29873,7 +29879,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 4,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30055,7 +30061,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 9,
+  "comp": 8,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30098,7 +30104,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 5,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
