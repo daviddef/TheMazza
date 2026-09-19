@@ -172,8 +172,8 @@
   "status": "outstanding",
   "when": "",
   "source": "Antenati — Scilla, Morti 1866–1943",
-  "scope": "EIGHTY-ONE volumes, and this archive did not know they existed. The annual index gives a patronymic — «di X» where the father lives, «fu X» where he does not — as well as the act number. The A block has been read for 1889, 1890, 1891, 1892 and 1893.",
-  "result": "Neither Francesco Antonio Arena nor Serafina Arlotta is in those five years, though both were alive at Scilla in December 1888. Two leads came out of them: Arena Fortunato DI GIOVANNI (1891, act 134) and Arena Raffaela FU ANTONIO (1893, act 5)."
+  "scope": "EIGHTY-ONE volumes, and this archive did not know they existed. The annual index gives a patronymic — «di X» where the father lives, «fu X» where he does not — as well as the act number. The A block has been read for 1889–1896 and for 1897, 1898, 1899, 1900 and 1901.",
+  "result": "FRANCESCO ANTONIO ARENA IS FOUND — 1901, act 96, by his patronymic. The row stays outstanding for SERAFINA ARLOTTA, who was alive when he died and is absent from the name index that starts in 1911, so she lies in 1901–1910: seven years still to read (1902–1908, and 1909 is not on Antenati). Two leads also lie unread in 1901 — Arena Raffaele fu Giuseppe (atto 63) and Arbitrio Antonia di Pietro (atto 144)."
  },
  {
   "key": "src/antenati-scilla-matrimoni--5fa8d4",
@@ -283,9 +283,9 @@
   "key": "src/antenati-scilla-morti-1889-eb1ae4",
   "status": "done",
   "when": "14 Sep 2026",
-  "source": "Antenati — Scilla, Morti 1889–1902",
+  "source": "Antenati — Scilla, Morti 1889–1896 (recorded at the time as 1889–1902)",
   "scope": "Eighty-one volumes of deaths, 1866–1943, that this archive did not know existed. The annual index carries a PATRONYMIC as well as a name.",
-  "result": "Neither Francesco Antonio Arena nor Serafina Arlotta in thirteen years, though both were alive in November 1888. But three acts found: Fortunato Arena (ten days old, Via Grotte 70), Maria Donato (twenty-eight months, Via Grotte 21) and Orazio Arena — who turns out NOT to be the tree's Orazio."
+  "result": "CORRECTED 20 SEPTEMBER 2026, AND THE CORRECTION IS THE POINT. This row was written as «neither Francesco Antonio Arena nor Serafina Arlotta in thirteen years». FRANCESCO ANTONIO ARENA DIED IN 1901, act 96, inside the span this row claimed to have cleared. Either those later indexes were read and he was missed, or — far more likely, since the containers for 1897–1908 were still being bought three days later — the row counted years it had not opened. It does not matter which: A NEGATIVE IS ONLY WORTH THE PAGES ACTUALLY TURNED, and this one was written wider than its evidence. The years this archive can stand behind are 1889–1896. What the row did genuinely find stands: Fortunato Arena (ten days old, Via Grotte 70), Maria Donato (twenty-eight months, Via Grotte 21) and Orazio Arena — who turns out NOT to be the tree's Orazio."
  },
  {
   "key": "src/antenati-scilla-matrimoni--63e205",
@@ -1113,11 +1113,11 @@
  },
  {
   "key": "src/antenati-scilla-the-annu-0abe31",
-  "status": "part",
-  "when": "17 Sep 2026",
-  "source": "Antenati — Scilla, the annual death indexes of 1897, 1898 and 1899",
+  "status": "done",
+  "when": "20 Sep 2026",
+  "source": "Antenati — Scilla, the annual death indexes of 1897–1901",
   "scope": "The A section of each year's annual index, read at full resolution, looking for FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA. Containers captured for all twelve years 1897-1908 and written into scilla-arks-italiano.tsv.",
-  "result": "THREE YEARS CLEAR, NINE TO GO, AND THE EXPENSIVE PART IS NOW DONE ONCE. 1897: the A block holds Arena Nicolina di Filippo (10), two Anastasi, Arbitrio Antonio (111), Arlotta Antonio di Rocco (144), Arlotta Giuseppa di Filippo (185), Andaloro Pasquale (200). NEITHER WANTED NAME. 1898: Alfonzetti Concetta (4), Arbitrio Rocco (44), Arena Rocco di Rocco (55), Anastasi Antonio (88), an ARENA FRANCESCO GIOVANNI WITH NO ACT NUMBER WRITTEN, Arena Rocco di Giuseppe (91), Alfonzetti Maria (102), Alfonzetti Antonia (109). «Francesco Giovanni» is NOT «Francesco Antonio» and is recorded as a near-miss, not a find. 1899: five A entries only -- Arfuso Carmelo, Arlotta Domenico Raimondo fu Gaetano, Alfonzetti Maria, Andaloro Giuseppa, Arlotta Giovanna fu Gaetano -- AND NO ARENA AT ALL. THE METHOD THAT MADE THIS AFFORDABLE: the twelve container ids cost one rate-limited page load each and are now SAVED, so no later session pays for them again; the manifests and images fetch to curl without limit; and the index page varies in position from volume to volume, so the reliable way to find it is to download the last six images small, MONTAGE them into one tile sheet, read that once to locate the A page, then crop that page's A block at full width. Two reads a year instead of six."
+  "result": "FOUND, IN THE FIFTH YEAR. 1901, act 96: FRANCESCO ANTONIO ARENA, dead 29 August 1901 at Via Grotte 2 — see scilla-reads. The index line that led there reads «Arena Francesco — fu Filippo — Agosto — Pagina 25 — atto 96», and it was the patronymic that made it worth the download: «fu Filippo» is the one thing this archive knew about him that an index can carry. THE FOUR CLEAR YEARS, kept because a negative read once should not be read again. 1897: Arena Nicolina di Filippo (10), two Anastasi, Arbitrio Antonio (111), Arlotta Antonio di Rocco (144), Arlotta Giuseppa di Filippo (185), Andaloro Pasquale (200). 1898: Alfonzetti Concetta (4), Arbitrio Rocco (44), Arena Rocco di Rocco (55), Anastasi Antonio (88), an ARENA FRANCESCO GIOVANNI with no act number written, Arena Rocco di Giuseppe (91), Alfonzetti Maria (102), Alfonzetti Antonia (109). «Francesco Giovanni» is not «Francesco Antonio» and stays a near-miss. 1899: five A entries and NO ARENA AT ALL. 1900: clear. TWO LEADS LEFT LYING IN 1901: Arena Raffaele fu Giuseppe (27 April, atto 63) and Arbitrio Antonia di Pietro (31 December, atto 144). THE METHOD, WHICH IS THE REUSABLE PART: the twelve container ids cost one rate-limited page load each and are SAVED in scilla-arks-italiano.tsv, so no later session pays for them again; manifests and images fetch to curl without limit; the annual index sits at a DIFFERENT offset in every volume, so tools/antenati_index.py montages the last six images into one contact sheet, which is read once to locate the A page. Acts run FOUR to an opening, so act-to-image is arithmetic from any one calibration — here image 55 held acts 104–107, which put act 96 on image 51, and it did. Two or three reads a year instead of six."
  },
  {
   "key": "src/the-national-archives-uk-5450e2",
