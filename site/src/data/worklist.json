@@ -598,11 +598,11 @@
     },
     {
       "n": 69,
-      "what": "SCILLA DEATHS — extend the Arena/Arlotta search past 1896",
-      "state": "next",
+      "what": "SCILLA DEATHS — the Arena/Arlotta search past 1896: answered",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "**Phase 7.** The A block of Scilla's annual death index has been read for **1889 to 1896** and holds neither **Francesco Antonio Arena** nor **Serafina Arlotta** — both alive at Scilla in December 1888. **NARROWED FROM FORTY-SEVEN YEARS TO THIRTEEN, 16 September**, by the Antenati name index, which carries father, mother and spouse for Scilla's death acts from about 1910 to 1943 and never names either of them as the deceased. **HALF ANSWERED, 20 SEPTEMBER. Francesco Antonio Arena died 29 August 1901** — *Morti 1901, parte I, atto 96*, Via Grotte 2, a *pescatore* of eighty-two, son of the late Filippo and the late Domenica Costa, **husband of Serafina Arlotta**. The act's «*marito di*», not «*fu*», proves **she was still alive**, which closes her window from thirteen years to nine: **1901–1910**, less 1909, which Antenati does not hold. The sweep for her is [row 128](/worklist/). **A negative in this row was also found to be too wide** and has been corrected: a searched row claimed 1889–1902 clear when the evidence covered 1889–1896. **A negative is only worth the pages actually turned.**",
+      "note": "**Phase 7, and it is finished.** The A block of Scilla's annual death index was read for **1889–1896** without them, then the Antenati name index showed neither of them as the deceased between 1910 and 1943, which narrowed forty-seven unread years to thirteen. The twelve readable years of that window have now been swept — [row 128](/worklist/) — and **both deaths are found**: **Francesco Antonio Arena, 29 August 1901** (*Morti 1901, atto 96*) and **Serafina Arlotta, 24 April 1908** (*Morti 1908, atto 55*), **both at Via Grotte number two**. **A negative had to be narrowed on the way.** A searched row claimed 1889–1902 clear of both; he died in 1901, inside that span. The row now claims 1889–1896, which is what it can stand behind. **A negative is only worth the pages actually turned.**",
       "covers": [
         "src:src/antenati-scilla-morti-1866-35f844"
       ]
@@ -1080,11 +1080,11 @@
     },
     {
       "n": 128,
-      "what": "Serafina Arlotta's death — seven years left, and her husband's is found",
-      "state": "running",
+      "what": "Francesco Antonio Arena and Serafina Arlotta — both found, in the same house",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**[Row 69](/worklist/) narrowed forty-seven unread years to thirteen; this is the sweep itself.** **HALF OF IT IS DONE. FRANCESCO ANTONIO ARENA DIED ON 29 AUGUST 1901**, at seven ten in the morning, in the house at **Via Grotte number two**, Scilla — *Morti 1901, parte I, atto 96*. Eighty-two by the register, eighty-one and nine months in fact; a *pescatore*; son of **the late Filippo** and **the late Domenica Costa**; **husband of Serafina Arlotta**. Those three names together identify him and nothing else at Scilla carries all three. **What found him was the patronymic.** The index line is only «Arena Francesco — fu Filippo — atto 96», and «fu Filippo» is the one fact about him an index can carry. **AND IT TURNS THE REMAINING SEARCH AROUND.** He is *marito di* Arlotta Serafina, not *fu*, so **she outlived him**: her death is later than 29 August 1901, and she is absent as the deceased from the name index that begins in 1911. **She died between 1901 and 1910.** **Cleared: 1897, 1898, 1899, 1900, 1901.** One near-miss recorded rather than claimed — 1898 holds an «Arena Francesco Giovanni» with no act number written, and *Francesco Giovanni* is not *Francesco Antonio*. **Remaining: 1902–1908**, seven years; 1909 is not on Antenati at all ([row 129](/worklist/)). **The method, for whoever continues.** Manifests and images fetch to `curl` without rate limiting; only the ark page is limited, and the twelve container ids are already bought and saved in `scilla-arks-italiano.tsv`. The annual index sits at a **different position in every volume**, so `tools/antenati_index.py sheet` montages the last six images into one contact sheet to be read once. **Acts run four to an opening**, so act-to-image is arithmetic off any single calibration — image 55 of 1901 held acts 104–107, which put act 96 on image 51, and it did.",
+      "note": "**DONE, 20 SEPTEMBER 2026, AND THEY DIED AT THE SAME ADDRESS.** **FRANCESCO ANTONIO ARENA died 29 August 1901** at seven ten in the morning — *Morti 1901, parte I, atto 96* — a *pescatore* of eighty-two (eighty-one and nine months in fact), son of the late Filippo and the late Domenica Costa, **husband of Serafina Arlotta**. **SERAFINA ARLOTTA died 24 April 1908** at four in the morning — *Morti 1908, parte I, atto 55* — a *filatrice* of seventy-seven (exact), daughter of the late Giovanni Arlotta, *pescatore*, and the late Maria Costa, ***tessitrice***, and **widow of Arena Antonio**. **Both at Via Grotte number two, Scilla**, six years and eight months apart. She kept the house and died in it, with Rocco in America and Giovanni home from it. **Twelve annual indexes read, 1897 to 1908.** 1909 is not on Antenati at all ([row 129](/worklist/)) and did not need to be. **THE CATCH THAT NEARLY HID HER.** The 1908 index enters her as «**Arena** Serafina, fu Giovanni» — her *husband's* surname over her *father's* forename — while the act says **Arlotta**. Eleven A blocks were swept for an Arlotta and she was found only because Arena is also an A. **When sweeping an index for a married woman, read her husband's initial too.** **Six Arena leads came out of the sweep and none is read** — [row 144](/worklist/).",
       "covers": [
         "src:src/antenati-scilla-the-annu-0abe31"
       ]
@@ -1208,6 +1208,15 @@
       "owner": "this archive",
       "since": "2026-09-17",
       "note": "**Raised by David, and the only part of his suggestion that survives testing.** A sweep of The National Archives' Discovery API found **nothing at all** for this family — Prostamo, Polistena, Cichello, Zirilli, Fragalà, Briatico and Piedimonte Etneo all return **zero**, and the handful of Crupi, Arlotta and Melluso hits are provably other people. **That is structural:** this family went Italy→Australia and Italy→New York and never through Britain, and Kew's passenger series (BT 26, BT 27) cover **UK ports only**. **But the seamen series are a different matter.** **BT 372** registry cards and **BT 99** crew agreements record an Italian **place of birth** — the sweep turned up entries reading «place of birth, Napoli» and an Arlotta born at Udine. **And this family is full of mariners:** Giovanni Arena and Michele Donato are both **«marinaio»** on their 1936 acts, Domenico Arlotta on his of 1915, Antonino Prostamo **«marinaro»**, Rocco Arena **«pescatore»**. **If any of them ever signed on a British-registered ship, they are in these series.** **Two cautions before anyone spends a day on it.** Most nineteenth-century crew agreements are **not at Kew at all** — the bulk went to the Maritime History Archive in Newfoundland, and Kew keeps a sample. And a Scilla fisherman working the Strait is a far likelier thing than one signing British articles. **Long shot, cheap to test, and the API makes it a query rather than a trip.**"
+    },
+    {
+      "n": 144,
+      "what": "Six Arena deaths at Scilla that the index named and nobody has read",
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "note": "**Fallout from [row 128](/worklist/).** Sweeping twelve annual death indexes for two people turned up **six other Arena acts**, each with a patronymic, and not one has been opened. The containers are already bought and sitting in `scilla-arks-italiano.tsv`, so each is a handful of free image fetches. **Two of them are worth reading first:** **ARENA COSMO, *di Filippo*, 1 December 1904, atto 122.** A **living** father called Filippo. Rocco Arena's eldest brother **Filippo Arena, born 14 February 1852**, would be fifty-two that year, and this archive holds *nothing at all* about him after his birth act. **ARENA GIOVANNA, *di Rocco*, 1908, parte II, atto 2.** A living father called Rocco. If that is **Rocco Arena born 1861**, this is a daughter the family tree does not have. It could as easily be another Rocco — the act will say. **The other four:** Arena Raffaele *fu Giuseppe* (1901, atto 63); **Arena Nicolina *di Giuseppe*** (1906, atto 41) — Rocco's brother Giuseppe, b. 1860, married Maria Martello in 1885; Arena Rocco *di Alessandro* (1906, atto 141); Arena Santo *fu Rocco* (1908, atto 108). **Method:** `tools/antenati_index.py page <container> <n> <out> [pct:x,y,w,h]`. Acts run four to an opening; calibrate once against any probe and the rest is arithmetic.",
+      "covers": []
     }
   ],
   "accounts": [
