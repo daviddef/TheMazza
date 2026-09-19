@@ -1094,11 +1094,11 @@
     },
     {
       "n": 129,
-      "what": "The two Scilla death volumes Antenati does not hold — 1888 and 1909",
+      "what": "The two Scilla death volumes Antenati does not hold — 1888 and 1909 (no longer blocking)",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**Found by listing the series rather than by failing to find someone in it, which is the better way round.** The Morti run is complete from 1866 to 1943 **except for 1888 and 1909** — and 1909 sits inside the thirteen-year window where Francesco Antonio Arena and Serafina Arlotta must have died. **This is the same shape as the Zambrone gap**: a hole in the digitisation, not necessarily in the record. **The second copy is the route** — these registers were kept in duplicate, one at the comune and one at the Tribunale, and it is the Tribunale copy Antenati filmed. Belongs with [row 9](/worklist/). **AND THE INDEX IS NOT A BACK DOOR INTO THEM, checked 16 September.** The name index lists two acts under **1909**, which looked at first like content from a volume browse cannot reach. It is not: their document arks — `an_ud16595370` and `an_ud16595649` — fall **inside the ark ranges of the 1911 and 1912 volumes**. They are 1909 deaths written into later registers, which is ordinary. **The 1888 and 1909 volumes are genuinely absent** and the second copy remains the only route."
+      "note": "**Found by listing the series rather than by failing to find someone in it, which is the better way round.** The Morti run is complete from 1866 to 1943 **except for 1888 and 1909** — and 1909 sits inside the thirteen-year window where Francesco Antonio Arena and Serafina Arlotta must have died. **This is the same shape as the Zambrone gap**: a hole in the digitisation, not necessarily in the record. **The second copy is the route** — these registers were kept in duplicate, one at the comune and one at the Tribunale, and it is the Tribunale copy Antenati filmed. Belongs with [row 9](/worklist/). **AND THE INDEX IS NOT A BACK DOOR INTO THEM, checked 16 September.** The name index lists two acts under **1909**, which looked at first like content from a volume browse cannot reach. It is not: their document arks — `an_ud16595370` and `an_ud16595649` — fall **inside the ark ranges of the 1911 and 1912 volumes**. They are 1909 deaths written into later registers, which is ordinary. **The 1888 and 1909 volumes are genuinely absent** and the second copy remains the only route. **THE URGENCY IS GONE, 20 SEPTEMBER.** This row mattered because 1909 sat inside the window in which Francesco Antonio Arena and Serafina Arlotta had to have died. **They did not die in it.** He died **29 August 1901** and she **24 April 1908**, both found in volumes Antenati does hold ([row 128](/worklist/)). The two holes are still real and still worth recording as holes — 1888 is the year of Rocco Arena's own marriage, so a death in his household that autumn would be unreachable — but nothing this archive is currently looking for is behind either of them. **Downgraded from a blocker to a note about the digitisation.**"
     },
     {
       "n": 130,
@@ -1121,11 +1121,14 @@
     },
     {
       "n": 132,
-      "what": "Two Antonio Arenas at Scilla, and both their wives are called Serafina",
-      "state": "next",
+      "what": "The two Antonio Arenas — the guard is written",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**A collision to guard before it does damage, in the spirit of [row 97](/worklist/).** This family's **FRANCESCO ANTONIO ARENA** married **SERAFINA ARLOTTA**, and the index renders him simply «Antonio» on his sons' death acts. **But the same index holds an ANTONIO ARENA married to a SERAFINA DE LUCA** — parents of Grazia (d. 1913), Anna (d. 1917) and Annunziata (d. 1919). **Same given name, same wife's given name, same town, same decades.** Anyone sweeping «Antonio Arena + Serafina» will merge two families. **The mother's surname is the discriminator and it must be checked every time** — which is exactly how two Arena namesakes were excluded in New York this week."
+      "note": "**A collision to guard before it does damage, in the spirit of [row 97](/worklist/).** This family's **FRANCESCO ANTONIO ARENA** married **SERAFINA ARLOTTA**, and the index renders him simply «Antonio» on his sons' death acts. **But the same index holds an ANTONIO ARENA married to a SERAFINA DE LUCA** — parents of Grazia (d. 1913), Anna (d. 1917) and Annunziata (d. 1919). **Same given name, same wife's given name, same town, same decades.** Anyone sweeping «Antonio Arena + Serafina» will merge two families. **The mother's surname is the discriminator and it must be checked every time** — which is exactly how two Arena namesakes were excluded in New York this week. **WRITTEN, 20 SEPTEMBER.** `corrections.tsv` now carries the separation, graded **certain**. It names the discriminator — **Arlotta or De Luca, read every time, never inferred** — and it records that **this archive has already sprung this trap once**: the Orazio Arena who died at Scilla in August 1895 was taken for the tree's Orazio, the supposed father of Rocco. He is the son of **Antonio Arena and Serafina *De Luca***, a different household entirely. The second family is now fully drawn from the index: three more children, **Grazia** (d. 14 February 1913), **Anna** (d. 8 March 1917, wife of Rocco Paladino) and **Annunziata** (d. 12 April 1919). **And the collision is worse than the row knew**, because the whole Arena surname at Scilla resolves into **at least seven households** — see the map filed under the name index. Antonio × Serafina is one collision in a field of them.",
+      "covers": [
+        "src:src/antenati-name-index-the-242599"
+      ]
     },
     {
       "n": 133,
@@ -1169,11 +1172,14 @@
     },
     {
       "n": 138,
-      "what": "Two Donato–Polistena marriages, a generation apart",
+      "what": "Four Donato–Polistena ties, not two",
       "state": "next",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**The index turned up a second one and the archive only knew the first.** [Row 71](/worklist/) is about **Nunziata Donato × Giovanni Polistena**, about 1916. But the Scilla deaths also give **MARIA DONATO (d. 3 April 1911), «Padre Candeloro Donato, Madre Domenica Romano, Coniuge GIUSEPPE POLISTINA»** — a Donato woman married to a Polistena man a generation earlier. **Her father is a Candeloro Donato**, which is the name of both this archive's wall and Domenico Donato's son of 1847. **Two families that intermarried twice are usually close to begin with**, and the earlier act would say how."
+      "note": "**The index turned up a second one and the archive only knew the first.** [Row 71](/worklist/) is about **Nunziata Donato × Giovanni Polistena**, about 1916. But the Scilla deaths also give **MARIA DONATO (d. 3 April 1911), «Padre Candeloro Donato, Madre Domenica Romano, Coniuge GIUSEPPE POLISTINA»** — a Donato woman married to a Polistena man a generation earlier. **Her father is a Candeloro Donato**, which is the name of both this archive's wall and Domenico Donato's son of 1847. **Two families that intermarried twice are usually close to begin with**, and the earlier act would say how. **MORE THAN TWO, CHECKED 20 SEPTEMBER.** Writing the Polistena and Donato index sets out in full turns two ties into **four**: **(1)** Maria Donato, d. 3 April 1911, «Padre Candeloro Donato, Madre Domenica Romano, Coniuge **Giuseppe Polistina**» — the one this row was written for. **(2)** **Raffaele Polistena × Teresa Donato**, whose three children all die at Scilla — Santa (12 July 1926, wife of Rocco Catalano), Maria (19 July 1927, wife of Camillo Matia) and Luigi (8 December 1933, husband of Annunziata Matrà). **(3)** **Giovanni Polistena × Annunziata Donato**, whose daughter Teresa dies 5 January 1933. **(4)** Nunziata Donato × Giovanni Polistena, about 1916 — [row 71](/worklist/). **And a fifth pattern worth naming:** Rocco Polistena, d. 7 August 1923, is the husband of a **Nunziata Polistena** — a Polistena married to a Polistena, the same surname endogamy this archive has already met among the Bueti and the Vizzari. **Two families that intermarry four times in two generations are one neighbourhood**, and the Romano are in it too: Maria Donato's mother is a **Domenica Romano**, and Giovanna Romano's sister Concetta married a **Rocco Donato**.",
+      "covers": [
+        "src:src/antenati-name-index-the-242599"
+      ]
     },
     {
       "n": 139,
