@@ -156,8 +156,8 @@
       "comp": 1
      },
      {
-      "id": "@I594@",
-      "slug": "alessandro-mazza-2",
+      "id": "@I588@",
+      "slug": "alessandro-mazza",
       "name": "Alessandro Mazza",
       "surname": "Mazza",
       "born": null,
@@ -167,8 +167,8 @@
       "comp": 1
      },
      {
-      "id": "@I588@",
-      "slug": "alessandro-mazza",
+      "id": "@I594@",
+      "slug": "alessandro-mazza-2",
       "name": "Alessandro Mazza",
       "surname": "Mazza",
       "born": null,
@@ -651,17 +651,6 @@
       "comp": 1
      },
      {
-      "id": "@I555@",
-      "slug": "leo-mazza-2",
-      "name": "Leo Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I516@",
       "slug": "leo-mazza",
       "name": "Leo Mazza",
@@ -670,6 +659,17 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+      "comp": 1
+     },
+     {
+      "id": "@I555@",
+      "slug": "leo-mazza-2",
+      "name": "Leo Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
       "comp": 1
      },
      {
@@ -761,14 +761,14 @@
       "comp": 1
      },
      {
-      "id": "@I507@",
-      "slug": "maria-mazza-2",
+      "id": "@I543@",
+      "slug": "maria-mazza-3",
       "name": "Maria Mazza",
       "surname": "Mazza",
       "born": null,
       "died": null,
       "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+      "birthPlace": "",
       "comp": 1
      },
      {
@@ -783,14 +783,14 @@
       "comp": 1
      },
      {
-      "id": "@I543@",
-      "slug": "maria-mazza-3",
+      "id": "@I507@",
+      "slug": "maria-mazza-2",
       "name": "Maria Mazza",
       "surname": "Mazza",
       "born": null,
       "died": null,
       "datesHidden": false,
-      "birthPlace": "",
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -882,8 +882,8 @@
       "comp": 1
      },
      {
-      "id": "@I548@",
-      "slug": "orazio-mazza-4",
+      "id": "@I542@",
+      "slug": "orazio-mazza-3",
       "name": "Orazio Mazza",
       "surname": "Mazza",
       "born": null,
@@ -893,8 +893,8 @@
       "comp": 1
      },
      {
-      "id": "@I542@",
-      "slug": "orazio-mazza-3",
+      "id": "@I548@",
+      "slug": "orazio-mazza-4",
       "name": "Orazio Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1328,7 +1328,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 5,
+    "component": 9,
     "onSpine": [],
     "people": [
      {
@@ -1340,7 +1340,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 5
+      "comp": 9
      }
     ]
    },
@@ -1349,7 +1349,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 10,
+    "component": 4,
     "onSpine": [],
     "people": [
      {
@@ -1361,7 +1361,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 10
+      "comp": 4
      }
     ]
    }
@@ -1522,8 +1522,8 @@
       "comp": 1
      },
      {
-      "id": "@I466@",
-      "slug": "anna-arena-3",
+      "id": "@I479@",
+      "slug": "anna-arena-5",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
@@ -1544,8 +1544,8 @@
       "comp": 1
      },
      {
-      "id": "@I479@",
-      "slug": "anna-arena-5",
+      "id": "@I466@",
+      "slug": "anna-arena-3",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
@@ -1665,8 +1665,8 @@
       "comp": 1
      },
      {
-      "id": "@I465@",
-      "slug": "giuseppe-arena-4",
+      "id": "@I478@",
+      "slug": "giuseppe-arena-6",
       "name": "Giuseppe Arena",
       "surname": "Arena",
       "born": null,
@@ -1676,8 +1676,8 @@
       "comp": 1
      },
      {
-      "id": "@I478@",
-      "slug": "giuseppe-arena-6",
+      "id": "@I465@",
+      "slug": "giuseppe-arena-4",
       "name": "Giuseppe Arena",
       "surname": "Arena",
       "born": null,

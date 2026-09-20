@@ -1,6 +1,6 @@
 {
- "count": 198,
- "documented": 157,
+ "count": 199,
+ "documented": 158,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -2335,6 +2335,20 @@
      "treeSays": "Row 158: pre-1809 Scilla is parish, and nothing is known of what survives",
      "recordSays": "SOMETHING IS NOW KNOWN. The 1815 bundle quotes two books by name and cites the officials who held them: the «liber Baptizatorum» and the «liber Defunctorum» of the Matrice, kept by the archpriest D. GIUSEPPE INGIGNERI and searched by the economo curato LEONARDO CANTORE BANDIERA, who signed all three extracts. The baptism book was open at 1787 and 1793 and the death book at 1790, so both ran back at least to 1787. That is what to ask the Archivio Storico Diocesano at Reggio about -- named books, named custodians, named years -- rather than a general question about Scilla.",
      "source": "Scilla, processetti 1815 n. 29",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Wall — RETRACTED, and it was never a wall",
+   "rows": [
+    {
+     "kind": "Wall — RETRACTED, and it was never a wall",
+     "who": "Filippo Arena",
+     "slug": "—",
+     "treeSays": "Published here since 15 September as one of this archive's four established walls: «his marriage to Domenica Costa is pre-1816, and Scilla's civil registration begins in 1816»",
+     "recordSays": "IT IS SCILLA, MATRIMONI 1815, ATTO 29, AND THE WALL HAS BEEN REMOVED FROM THE LIST. The wall's own evidence paragraph is the confession: it says the window was «four years wide -- between the first register and their son's birth in 1819 -- and ALL FOUR YEARS HAVE BEEN READ». All four were read, correctly, and the marriage was in the fifth. Scilla's registers begin in 1809. A wall built on a start year is only as good as the start year, and this one was checked against a belief instead of against the register index.",
+     "source": "Scilla, Matrimoni 1815 atto 29; Antenati register index for Scilla",
      "confidence": "documented"
     }
    ]

@@ -97,9 +97,44 @@
    "street": "—",
    "date": "19 July 1874",
    "note": "Read in full. Antonino Mazza, 31, bracciante, born and resident Piedimonte Etneo, «figlio d'Innocenzio, bracciante, e di Domenica Cavallaro, industriosa». Rosa Raiti, 20, industriosa, daughter of Giuseppe Raiti, bracciante, and Agata Pennisi. Witnesses Angelo Russo fu Venero, 40, and Felice Russo fu Angelo, 60. THIS IS THE ACT THAT SPELLS THE FATHER'S NAME IN FULL and makes Salvatore and Antonino brothers."
+  },
+  {
+   "kind": "birth",
+   "year": "1875",
+   "act": "34",
+   "ark": "an_ua83488",
+   "img": "17",
+   "subject": "Maria Nicotra",
+   "father": "Alfio Nicotra",
+   "fatherAge": "68",
+   "mother": "Angela Previtera (giornaliera)",
+   "street": "via San Basile",
+   "date": "6 March 1875",
+   "note": "NOT OURS, AND THE MARGIN IS WHAT PROVES IT. The annual index gives exactly one Nicotra Maria in 1875 and this is she. Her marginal annotation reads «Unita in matrimonio con NICITO GIUSEPPE fu Vincenzo con atto del 29.7.91 iscritto in Piedimonte Etneo» -- she married in 1891 and stayed. Ours married SALVATORE MAZZA and died at Brisbane in 1963. So 1875 is eliminated for Maria Concetta Nicotra, and the margin annotation is the test to apply to every other candidate year."
   }
  ],
  "households": [
+  {
+   "father": "Alfio Nicotra",
+   "mother": "Angela Previtera",
+   "occupations": [
+    "giornaliera"
+   ],
+   "fatherBorn": "c. 1807",
+   "streets": [
+    "via San Basile"
+   ],
+   "children": [
+    {
+     "name": "Maria Nicotra",
+     "date": "6 March 1875",
+     "act": "34",
+     "year": "1875",
+     "ark": "an_ua83488",
+     "note": "NOT OURS, AND THE MARGIN IS WHAT PROVES IT. The annual index gives exactly one Nicotra Maria in 1875 and this is she. Her marginal annotation reads «Unita in matrimonio con NICITO GIUSEPPE fu Vincenzo con atto del 29.7.91 iscritto in Piedimonte Etneo» -- she married in 1891 and stayed. Ours married SALVATORE MAZZA and died at Brisbane in 1963. So 1875 is eliminated for Maria Concetta Nicotra, and the margin annotation is the test to apply to every other candidate year."
+    }
+   ]
+  },
   {
    "father": "Pasquale Mazza",
    "mother": "Greco Concetta",

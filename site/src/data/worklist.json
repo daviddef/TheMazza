@@ -1441,6 +1441,37 @@
       "covers": [
         "src:src/antenati-scilla-proces-7d7791"
       ]
+    },
+    {
+      "n": 160,
+      "state": "done",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "what": "Piedimonte Etneo relisted — the archive held 103 of 457 registers",
+      "note": "**Asked why the Sicilian generations were still stuck, the first honest answer was: nobody had finished looking at what exists.** `pe-arks.tsv` held **103** Piedimonte Etneo registers. The comune has **457**. One page load of the register index at `s_size=500`, parsed in page context and **reconciled group by group against the live listing** — every fondo, type, ark range, count and year list — before a row was written. **What had never been listed at all:** every *stato civile italiano* year after 1863; all the **allegati** and **pubblicazioni**; the *Diversi* and *Cittadinanze*; and **twenty volumes of `Matrimoni, processetti` 1841–1860** — the exact instrument that broke the Scilla wall this afternoon ([row 159](/worklist/)), sitting unopened for the other half of the family. **And nine volumes nobody knew were there:** *«Riveli di anime e di terre»* of the **Deputazione del Regno**, **1714** and **1747–1752** — Sicilian household tax returns that list a head of household with his wife, his children and their ages. [Row 162](/worklist/). **One hard limit, recorded so it is not rediscovered:** the holding **stops at 1893**. Venera Cassaneti's death in 1925 and Salvatore Mazza's marriage to Maria Nicotra about 1900 are **not on Antenati and never were** — those are the comune at Piedimonte, or the Tribunale copy at Catania.",
+      "covers": [
+        "src:src/antenati-piedimonte-fu-9d77e8"
+      ]
+    },
+    {
+      "n": 161,
+      "state": "running",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "what": "John Nicotra and Venera Cassaneti — the side nobody has ever searched",
+      "note": "**Two of the three cards in generation three are blank, and it is not because the records are gone.** Searching this archive for *Cassaneti* returns **nothing at all** — not a read, not a negative, not a work-list row. Maria Nicotra (1875–1963) married Salvatore Mazza and is buried at Nudgee; her parents come to us only through a **Queensland death registration**, which is also where the «Maria Concetta» comes from, and where *Nicotra* is garbled to *Lecota* on her son Michele's. **Nobody has opened a Sicilian act for any of them.** **1875 is read and eliminated, 20 September.** The annual index holds exactly one *Nicotra Maria*, act 34, born 6 March 1875 to **Alfio Nicotra**, sixty-eight, and **Angela Previtera** — and her margin reads *«unita in matrimonio con Nicito Giuseppe fu Vincenzo, atto del 29.7.91»*. She married at Piedimonte in 1891 and stayed. **The method is now fixed and it is cheap.** Piedimonte's Italian-era birth volumes each carry an **Indice Annuale** alphabetical by surname in the last three images. For each year: read the index for *Nicotra Maria*, then crop that act's **margin**, which names the husband. Ours married a **MAZZA**; every other Maria Nicotra at Piedimonte will name somebody else. **One index page and one margin crop per year.** **The window is 1870–1885** — the tree's years are wrong often enough in this family that a single year is not a search ([the range rule](/searched/)). Containers for 1866–1893 are one batched fetch away; only 1875 is bought. **And if she is in none of them she was not born at Piedimonte**, which would itself be the finding, because it would mean the Nicotra came in from another comune.",
+      "covers": [
+        "src:src/antenati-piedimonte-na-5777ee"
+      ]
+    },
+    {
+      "n": 162,
+      "state": "next",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "what": "The Riveli di anime e di terre — Piedimonte households in 1714 and 1747–1752",
+      "note": "**This archive has been saying «Sicily begins in 1820, and before that it is parish records or nothing». That is wrong, and the register index says so.** Antenati holds **nine volumes** for Piedimonte from the **Deputazione del Regno**: *Riveli di anime e di terre*, **1714** (`qJkjONB`, 283 images) and **1747–1752** (`noPNme4`, 73 images, plus four more volumes). **A *rivelo* is a household tax return sworn by the head of the house**, and it lists the house, the head, his wife, his children and their ages — a census of souls and land, a century before any civil register in Sicily. For a family whose Sicilian ceiling is **Mariano Mazza, born about 1809**, this is the only source that can reach behind him without a parish archive. **What it can and cannot do.** It cannot prove descent: a Mazza household at Piedimonte in 1747 is not *evidence* that it is this Mazza household. What it can do is give the **shape** — how many Mazza households there were, what given names ran in them, and whether the surname is native to the town or arrived later — which is exactly what the repeated Mariano–Rosario–Orazio naming would be tested against. **Read it for the shape first and make no joins.** Start with the smaller 1747–1748 volume.",
+      "covers": []
     }
   ],
   "accounts": [
