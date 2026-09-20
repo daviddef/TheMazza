@@ -1798,7 +1798,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 4,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1834,7 +1834,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1870,7 +1870,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 5,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1898,7 +1898,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 8,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2014,6 +2014,11 @@
     "kind": "documented",
     "what": "Piedimonte Etneo, Matrimoni 1871, atto 14",
     "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Piedimonte Etneo, Nati 1845 atto 64",
+    "href": "/corrections"
    }
   ],
   "corrections": [
@@ -2024,7 +2029,8 @@
    "Birth year — Born 1845 at Piedimonte Etneo. His death act makes him SEVENTY-NINE in November 1924. This archive had already derived 1845 from the ages the marriage proclamations gave him in 1898, 1902 and 1910; the death act agrees.",
    "Trade -- missing entirely — CONTADINO -- a peasant farmer. Which sets the Sicilian Mazza against the Calabrian Arena exactly: four generations of Arena sailors on the water at Scilla, and the Mazza contadini on the mountain at Piedimonte.",
    "Birth date — BORN 2 JUNE 1845 at Piedimonte Etneo, at eleven in the morning, in his parents' own house. Act 64 of the births of 1845. The tree is FIVE YEARS out. Both parents are in the act: Mariano Mazza, 36, bracciale, and Maria Catalano, 36.",
-   "Marriage -- missing entirely — MARRIED 30 APRIL 1871 at Piedimonte Etneo, act 14, at four in the afternoon. Both single, both born and living there, both braccianti."
+   "Marriage -- missing entirely — MARRIED 30 APRIL 1871 at Piedimonte Etneo, act 14, at four in the afternoon. Both single, both born and living there, both braccianti.",
+   "The chart says less than the archive knows — HIS PARENTS ARE NAMED IN HIS OWN BIRTH ACT: MARIANO MAZZA, thirty-six, bracciale, and MARIA CATALANO, thirty-six, Piedimonte Etneo Nati 1845 atto 64. The card is not a research wall -- it is the chart reporting that the FAMILY TREE has no parents for him, because the chart draws the tree and these two people are documented additions rather than tree people. The card's year is wrong too: 1850 is the tree's birth year and the act says 2 JUNE 1845."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -29909,7 +29915,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30091,7 +30097,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 4,
+  "comp": 9,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30134,7 +30140,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 8,
+  "comp": 10,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
@@ -35311,20 +35317,20 @@
   ],
   "records": [
    {
-    "kind": "birth register",
-    "what": "Piedimonte Etneo, Nati 1845, atto 64 — named as the father, aged 36, bracciale",
-    "href": "/mazza"
-   },
-   {
     "kind": "documented",
     "what": "Piedimonte Etneo, Nati 1845, atto 64",
+    "href": "/corrections"
+   },
+   {
+    "kind": "certain",
+    "what": "Piedimonte Etneo, Nati 1845 atto 64; site/src/data/people.json",
     "href": "/corrections"
    }
   ],
   "corrections": [
-   "He declared the birth himself. Thirty-six in June 1845 puts his own birth about 1809. The archive reached him by inference from marriage proclamations; he is now in three registers in his own right — the birth of 1845, the marriage of 1871 and his son's death act of 1924.",
    "Birth year — BORN ABOUT 1809. He is THIRTY-SIX when he declares his son Rosario's birth in June 1845.",
-   "Trade -- missing entirely — BRACCIALE in 1845 -- a day labourer. By 1924 his son's death act calls him a contadino. The Mazza worked the land at Piedimonte for at least three generations."
+   "Trade -- missing entirely — BRACCIALE in 1845 -- a day labourer. By 1924 his son's death act calls him a contadino. The Mazza worked the land at Piedimonte for at least three generations.",
+   "Record attached to the wrong man — a namesake three generations down — REMOVED. That Mariano is a son of the ORAZIO MAZZA BORN 1883, who is himself a son of Rosario Mazza -- so he is Rosario's grandson, born in the twentieth century, and cannot be the Mariano who declared Rosario's birth in 1845. The real man now has a row of his own as «Mariano Mazza (b. c. 1809)», with MARIA CATALANO beside him. THE RULE THIS ARCHIVE ALREADY WROTE AND THEN BROKE: a slug that matches a name is not the person the act names -- check the birth year, the birthplace, the spouse or a child before attaching anything."
   ],
   "onSpine": false,
   "ancGen": null

@@ -1,6 +1,6 @@
 {
- "count": 200,
- "documented": 159,
+ "count": 202,
+ "documented": 160,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -2363,6 +2363,34 @@
      "treeSays": "Born 1879 at Piedimonte Etneo",
      "recordSays": "BORN 5 JANUARY 1873, Piedimonte Etneo Nati atto 3, in CONTRADA TERREMORTE, to «Rosario Mazza di Mariano», twenty-eight, bracciante, and «Leonarda Bonanno di Gaetano». The 1873 act had been read here before; what is new is that the 1879 ANNUAL INDEX has now been read whole and holds NO Salvatore Mazza at all -- only a Mazza Rosaria and a Mazza Venerio. So the tree's year is not merely unsupported, it is excluded at that comune. Six years out, which is this family's usual margin.",
      "source": "Piedimonte Etneo, Nati 1873 atto 3; Nati 1879, Indice Annuale",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Record attached to the wrong man — a namesake three generations down",
+   "rows": [
+    {
+     "kind": "Record attached to the wrong man — a namesake three generations down",
+     "who": "Mariano Mazza",
+     "slug": "mariano-mazza",
+     "treeSays": "The tree's «Mariano Mazza», son of Orazio Mazza (b. 1883) and Rosa, carried «Piedimonte Etneo, Nati 1845 atto 64 -- named as the father, aged 36, bracciale» on his person page",
+     "recordSays": "REMOVED. That Mariano is a son of the ORAZIO MAZZA BORN 1883, who is himself a son of Rosario Mazza -- so he is Rosario's grandson, born in the twentieth century, and cannot be the Mariano who declared Rosario's birth in 1845. The real man now has a row of his own as «Mariano Mazza (b. c. 1809)», with MARIA CATALANO beside him. THE RULE THIS ARCHIVE ALREADY WROTE AND THEN BROKE: a slug that matches a name is not the person the act names -- check the birth year, the birthplace, the spouse or a child before attaching anything.",
+     "source": "Piedimonte Etneo, Nati 1845 atto 64; site/src/data/people.json",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "The chart says less than the archive knows",
+   "rows": [
+    {
+     "kind": "The chart says less than the archive knows",
+     "who": "Rosario Mazza",
+     "slug": "rosario-mazza",
+     "treeSays": "The lineage chart closes his line with «Before Piedimonte Etneo, 1850»",
+     "recordSays": "HIS PARENTS ARE NAMED IN HIS OWN BIRTH ACT: MARIANO MAZZA, thirty-six, bracciale, and MARIA CATALANO, thirty-six, Piedimonte Etneo Nati 1845 atto 64. The card is not a research wall -- it is the chart reporting that the FAMILY TREE has no parents for him, because the chart draws the tree and these two people are documented additions rather than tree people. The card's year is wrong too: 1850 is the tree's birth year and the act says 2 JUNE 1845.",
+     "source": "Piedimonte Etneo, Nati 1845 atto 64",
      "confidence": "documented"
     }
    ]
