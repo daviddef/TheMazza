@@ -1,6 +1,6 @@
 {
- "count": 202,
- "documented": 160,
+ "count": 221,
+ "documented": 176,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -143,10 +143,10 @@
     },
     {
      "kind": "Birth year",
-     "who": "Mariano Mazza",
-     "slug": "mariano-mazza",
+     "who": "Mariano Mazza (b. c. 1809)",
+     "slug": "—",
      "treeSays": "No birth recorded",
-     "recordSays": "BORN ABOUT 1809. He is THIRTY-SIX when he declares his son Rosario's birth in June 1845.",
+     "recordSays": "BORN ABOUT 1809. He is THIRTY-SIX when he declares his son Rosario's birth in June 1845. [SLUG DETACHED 21 SEPTEMBER: this row was keyed to «mariano-mazza», the export's twentieth-century namesake and a grandson of Rosario, so his person page carried his great-grandfather's birth year and trade. The man it describes is a documented addition and has no slug.]",
      "source": "Piedimonte Etneo, Nati 1845, atto 64",
      "confidence": "documented"
     },
@@ -752,10 +752,10 @@
     },
     {
      "kind": "Trade -- missing entirely",
-     "who": "Mariano Mazza",
-     "slug": "mariano-mazza",
+     "who": "Mariano Mazza (b. c. 1809)",
+     "slug": "—",
      "treeSays": "No occupation",
-     "recordSays": "BRACCIALE in 1845 -- a day labourer. By 1924 his son's death act calls him a contadino. The Mazza worked the land at Piedimonte for at least three generations.",
+     "recordSays": "BRACCIALE in 1845 -- a day labourer. By 1924 his son's death act calls him a contadino. The Mazza worked the land at Piedimonte for at least three generations. [SLUG DETACHED 21 SEPTEMBER: this row was keyed to «mariano-mazza», the export's twentieth-century namesake and a grandson of Rosario, so his person page carried his great-grandfather's birth year and trade. The man it describes is a documented addition and has no slug.]",
      "source": "Piedimonte Etneo, Nati 1845, atto 64",
      "confidence": "documented"
     },
@@ -1205,7 +1205,7 @@
      "who": "Candeloro Donato",
      "slug": "—",
      "treeSays": "Not in the tree",
-     "recordSays": "BORN ABOUT 1783 and a MARINARO -- thirty-three when he declared his son Domenico's birth on 18 December 1816. The first age this archive has ever had for him, and the last it will get: Scilla's civil registration begins in 1816, so his own birth and marriage are pre-civil, and his son Michele was born at MESSINA about 1814 where registration does not begin until 1820. HE IS WHERE THE SCILLA LINE STOPS, exactly as Pasquale Prostamo is where the Calabrian one does. He was still alive in July 1844 -- his son's marriage bundle carries no death certificate, which this series required when a parent had died.",
+     "recordSays": "BORN ABOUT 1783 and a MARINARO -- thirty-three when he declared his son Domenico's birth on 18 December 1816. CORRECTED 20 SEPTEMBER: this row said «the last age it will get», because this archive believed SCILLA'S REGISTRATION BEGAN IN 1816. IT BEGINS IN 1809. His own birth about 1783 is still pre-civil -- but HIS MARRIAGE TO MARTA PALADINO IS NOT NECESSARILY. Their son Michele was born at Messina about 1814 and Domenico at Scilla in December 1816, so the marriage is before 1814 -- and 1809 to 1813 at Scilla are CIVIL and reachable. 1810, 1811, 1812 and 1815 hold no Donato groom; 1809 and 1813-1814 have no index and have never been read. HE IS NO LONGER AUTOMATICALLY WHERE THE SCILLA LINE STOPS. He was still alive in July 1844 -- his son's marriage bundle carries no death certificate, which this series required when a parent had died.",
      "source": "Scilla, Nati 1816 atto 207, in Matrimoni processetti 1842-1845 fascicolo 20",
      "confidence": "documented"
     }
@@ -2391,6 +2391,272 @@
      "treeSays": "The lineage chart closes his line with «Before Piedimonte Etneo, 1850»",
      "recordSays": "HIS PARENTS ARE NAMED IN HIS OWN BIRTH ACT: MARIANO MAZZA, thirty-six, bracciale, and MARIA CATALANO, thirty-six, Piedimonte Etneo Nati 1845 atto 64. The card is not a research wall -- it is the chart reporting that the FAMILY TREE has no parents for him, because the chart draws the tree and these two people are documented additions rather than tree people. The card's year is wrong too: 1850 is the tree's birth year and the act says 2 JUNE 1845.",
      "source": "Piedimonte Etneo, Nati 1845 atto 64",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Age — a third confirmation",
+   "rows": [
+    {
+     "kind": "Age — a third confirmation",
+     "who": "Rosario Mazza",
+     "slug": "rosario-mazza",
+     "treeSays": "Born 1850",
+     "recordSays": "TWENTY-SEVEN on 13 February 1872, when he registered his son Mariano's birth in person -- so born about 1845. That is now THREE independent statements against the tree's 1850: his own birth act of 2 June 1845, his death act of 1924 making him seventy-nine, and his own word at a registration desk in 1872.",
+     "source": "Piedimonte Etneo, Nati 1872 atto 32",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A child the tree does not have",
+   "rows": [
+    {
+     "kind": "A child the tree does not have",
+     "who": "Rosario Mazza and Leonarda Bonanno",
+     "slug": "rosario-mazza",
+     "treeSays": "Four children: Salvatore, Orazio, Ignazio and Giovanni",
+     "recordSays": "FIVE, AND THE ELDEST IS MARIANO, born 12 February 1872 in contrada San Basilio and named for his grandfather exactly as the naming custom predicts. Salvatore follows on 5 January 1873, eleven months later -- so either Mariano died in infancy or the births are ten and a half months apart. His death has not been sought.",
+     "source": "Piedimonte Etneo, Nati 1872 atto 32",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Two Rosario Mazza at Piedimonte, and both wives are called Leonarda",
+   "rows": [
+    {
+     "kind": "Two Rosario Mazza at Piedimonte, and both wives are called Leonarda",
+     "who": "the Mazza of Piedimonte Etneo",
+     "slug": "—",
+     "treeSays": "One Mazza household on the spine: Rosario Mazza and Leonarda",
+     "recordSays": "AT LEAST THREE MAZZA HOUSEHOLDS IN 1877 ALONE, and two of them are a Rosario with a Leonarda. OURS is «ROSARIO MAZZA DI MARIANO» with LEONARDA BONANNO DI GAETANO, in CONTRADA SAN BASILIO. The OTHER is a Rosario Mazza, thirty-one, with LEONARDA MONACORSO, contadina, in VIA GROTTA NICODEMO -- their son Orazio is act 168 of 1877. The third is Pasquale Mazza with Concetta Greco, whose son Antonino is act 164 of the same year. THE TEST THAT SEPARATES THEM IS THE PATRONYMIC AND THE STREET, not the given names: ours is always written «di Mariano», and the family tree's own Orazio Mazza, born 1883 to a Rosario and a Leonarda, is EXACTLY the person this act would be wrongly attached to.",
+     "source": "Piedimonte Etneo, Nati 1877 atti 164 and 168; Nati 1872 atto 32; Nati 1873 atto 3",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A sixth child, and the custom called him",
+   "rows": [
+    {
+     "kind": "A sixth child, and the custom called him",
+     "who": "Rosario Mazza and Leonarda Bonanno",
+     "slug": "rosario-mazza",
+     "treeSays": "Four children: Salvatore, Orazio, Ignazio and Giovanni",
+     "recordSays": "SIX AT LEAST. MARIANO, born 12 February 1872, named for his father's father; and GAETANO, born 5 May 1880, named for his mother's father GAETANO BONANNO -- which is exactly the order the Sicilian naming custom prescribes, first son for the paternal grandfather and the maternal grandfather next. Both in via San Basilio, both declared by Rosario in person, both absent from the family tree.",
+     "source": "Piedimonte Etneo, Nati 1872 atto 32; Nati 1880 atto 66",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Declared age drifts three years",
+   "rows": [
+    {
+     "kind": "Declared age drifts three years",
+     "who": "Rosario Mazza",
+     "slug": "rosario-mazza",
+     "treeSays": "Born 1850",
+     "recordSays": "THE REGISTER ITSELF DISAGREES BY THREE YEARS IN 1880. He is twenty-seven in February 1872 and twenty-eight in January 1873 -- both fitting a birth in June 1845 -- and then THIRTY-TWO in May 1880, which would put him in 1848. His own birth act and his death act of 1924 both say 1845. RECORDED RATHER THAN AVERAGED: a declared age is a statement, not a measurement, and the act of birth outranks all of them.",
+     "source": "Piedimonte Etneo, Nati 1845 atto 64; Nati 1872 atto 32; Nati 1880 atto 66",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "The year is untested and the obvious act is somebody else's",
+   "rows": [
+    {
+     "kind": "The year is untested and the obvious act is somebody else's",
+     "who": "Orazio Mazza",
+     "slug": "orazio-mazza",
+     "treeSays": "Born 1883 at Piedimonte Etneo, son of Rosario Mazza and Leonarda",
+     "recordSays": "NO BIRTH ACT AT PIEDIMONTE IN 1883. The annual index for that year holds MAZZA ROSARIA 117 and MAZZA VENERA 118 and no Orazio at all. There IS an Orazio Mazza born at Piedimonte on 21 October 1877, act 168 -- but his father is the OTHER Rosario Mazza of the town, whose wife is LEONARDA MONACORSO and who lives in via Grotta Nicodemo, where ours is «Rosario Mazza di Mariano» with LEONARDA BONANNO in via San Basilio. UNLOCATED, NOT DISPROVED: 1884 onwards and 1874-1876 are unread for the M section, and the tree's years in this family run five and six out as a matter of course.",
+     "source": "Piedimonte Etneo, Nati 1883 Indice Annuale; Nati 1877 atto 168",
+     "confidence": "flagged"
+    }
+   ]
+  },
+  {
+   "kind": "The surname may be an arrival, not a fixture",
+   "rows": [
+    {
+     "kind": "The surname may be an arrival, not a fixture",
+     "who": "the Mazza of Piedimonte Etneo",
+     "slug": "—",
+     "treeSays": "Piedimonte Etneo is the Mazza home town",
+     "recordSays": "THE MAZZA ARE NOT IN THE TOWN'S 1747 HOUSEHOLD CENSUS. The Riveli di anime e di terre of 1747-1748 index about eighty households by given name, and the surnames are the ones that still fill the registers a century and a half later -- Pagano, Currenti, Grasso, Musumeci, Vasta, Puglisi, Torrisi, Moschella, di Mauro, Patane. THERE IS NO MAZZA. There are two MAZZEO, Onofrio at folio 5 and Silvestro at folio 29, and the ending was checked at native resolution on both. This does NOT prove the Mazza arrived later -- a rivelo is a tax return and a household can be missing from one -- but set beside the nineteenth-century registers, where 1844 and 1846 hold no Mazza birth at all and sixteen years of marriages hold four, it is the second piece of evidence pointing the same way: A SMALL FAMILY, POSSIBLY A RECENT ONE.",
+     "source": "Piedimonte Etneo, Riveli di anime e di terre 1747-1748, indice",
+     "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "Wall — restored, on nine readings instead of a wrong start year",
+   "rows": [
+    {
+     "kind": "Wall — restored, on nine readings instead of a wrong start year",
+     "who": "Candeloro Donato",
+     "slug": "—",
+     "treeSays": "Corrected this morning to «he is no longer automatically where the Scilla line stops», because the 1816 start year that closed his marriage was false",
+     "recordSays": "HE IS WHERE THE SCILLA LINE STOPS AFTER ALL, AND NOW IT IS EVIDENCE. NINE CONSECUTIVE YEARS of Scilla marriages -- 1809 through 1817 -- have been read for a Donato on BOTH sides of every act, and the 1811 and 1812 Tavole name all four parents as well. THERE IS NO DONATO MARRIAGE AT SCILLA IN ANY OF THEM. His eldest son Michele was born at Messina about 1814 and Domenico at Scilla in December 1816, so the marriage is before 1814; nine civil years exclude it; therefore it is pre-1809 and parish. THE CONCLUSION IS THE ONE THIS ARCHIVE HELD THIS MORNING AND THE REASONING IS ENTIRELY DIFFERENT, which is the whole point -- a right answer resting on a false premise is not evidence.",
+     "source": "Scilla, Matrimoni 1809-1817 read entire",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Surname — the spelling is an informant's, not a record's",
+   "rows": [
+    {
+     "kind": "Surname — the spelling is an informant's, not a record's",
+     "who": "Venera Cassaneti",
+     "slug": "venera-cassaneti",
+     "treeSays": "Venera Cassaneti",
+     "recordSays": "PROBABLY VENERA CASSANITI. «Cassaneti» appears exactly once in the whole Queensland index -- on her daughter's 1963 death registration, taken down from an informant at a Brisbane registry -- and NOWHERE ELSE. «CASSANITI» returns five Queensland registrations and is the ordinary Catanese form; it is also what the PIEDIMONTE ETNEO birth index writes, holding a Cassaniti Sebastiano and a Cassaniti Leonardo Maria in 1875 alone. THIS MATTERS PRACTICALLY: a Sicilian register searched for «Cassaneti» will return nothing and the negative will mean nothing. Search Cassaniti.",
+     "source": "Queensland BDM, death 1963/B/61348 and the whole surname index; Piedimonte Etneo, Nati 1875 Indice Annuale",
+     "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "Alive six years later than anything else showed",
+   "rows": [
+    {
+     "kind": "Alive six years later than anything else showed",
+     "who": "Orazio Arena and Litteria Morabito",
+     "slug": "—",
+     "treeSays": "Known alive only on 12 November 1815, at their son Filippo's marriage",
+     "recordSays": "ALIVE ON 7 NOVEMBER 1821, at their son GIUSEPPE's. The promessa names «ORAZIO ARENA, di professione MARINARO, domiciliato ivi, e LITTERIA MORABITO, domiciliata ivi» with no «fu» on either, and the annual Tavola says the same. So both were living at Scilla six years past the only date this archive had for them, and Orazio is a MARINARO in his own right rather than «della stessa professione» as the 1815 act put it.",
+     "source": "Scilla, Matrimoni 1821 atto 29 and Tavola annuale",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Litteria, confirmed a third time",
+   "rows": [
+    {
+     "kind": "Litteria, confirmed a third time",
+     "who": "Litteria Morabito",
+     "slug": "—",
+     "treeSays": "Read as «Setteria Morabito» off the 1815 civil act, corrected to Litteria the same day off the baptism extract",
+     "recordSays": "LITTERIA, THREE TIMES OVER. The 1815 marriage act, the Latin baptism extract in the 1815 marriage bundle, and now her son Giuseppe's promessa of 1821 -- three documents in two hands and two languages. The correction made this morning on one document's authority is now made on three.",
+     "source": "Scilla, Matrimoni 1821 atto 29",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A brother, and the first sibling ever found for him",
+   "rows": [
+    {
+     "kind": "A brother, and the first sibling ever found for him",
+     "who": "Filippo Arena",
+     "slug": "—",
+     "treeSays": "An only child so far as this archive could show",
+     "recordSays": "HE HAS A BROTHER: GIUSEPPE ARENA, born about 1794, marinaro, who married MARIA TERESA POLISTINA at Scilla on 13 November 1821 -- «figlio di Orazio Arena, di professione marinaro, e di Litteria Morabito». The search for a sibling was opened as row 157 on the argument that a sibling's marriage Tavola would date the parents. IT DID EXACTLY THAT: it dates Orazio and Litteria alive to November 1821.",
+     "source": "Scilla, Matrimoni 1821 atto 29",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Alive thirteen years after the only date this archive had",
+   "rows": [
+    {
+     "kind": "Alive thirteen years after the only date this archive had",
+     "who": "Orazio Arena and Litteria Morabito",
+     "slug": "—",
+     "treeSays": "Known alive on 12 November 1815, and this morning on 7 November 1821",
+     "recordSays": "ALIVE ON 10 AUGUST 1828. The annual Tavola for that year opens on their son ANTONIO's marriage and names them «ORAZIO, e MORABITO LETTERIA» with no «fu» on either. So both were living at Scilla THIRTEEN YEARS after Filippo's wedding and seven after Giuseppe's. The Tavola convention is the whole instrument: it marks the dead with «fu», so a year in which an Arena child marries dates the parents for nothing more than one crop.",
+     "source": "Scilla, Matrimoni 1828, Tavola annuale, entry 1",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Three sons, not one",
+   "rows": [
+    {
+     "kind": "Three sons, not one",
+     "who": "Orazio Arena and Litteria Morabito",
+     "slug": "—",
+     "treeSays": "One known son, Filippo",
+     "recordSays": "AT LEAST THREE: FILIPPO, born 25 March 1793 and married 12 November 1815; GIUSEPPE, born about 1794 and married 13 November 1821; and ANTONIO, married 10 August 1828. All three found in annual marriage Tavole, which name all four parents and cost one crop a year. The Scilla A sections of 1820-1831 hold EIGHT Arena grooms in SEVEN households -- so the parents' column is not a nicety, it is the only thing that separates this family from the other six.",
+     "source": "Scilla, Matrimoni 1815 atto 29; 1821 atto 29; 1828 atto 26",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Death bracketed to ten years, by a single word",
+   "rows": [
+    {
+     "kind": "Death bracketed to ten years, by a single word",
+     "who": "Orazio Arena",
+     "slug": "—",
+     "treeSays": "Alive on 10 August 1828, and no date of death",
+     "recordSays": "DEAD BEFORE 4 SEPTEMBER 1838. The 1838 annual marriage Tavola opens on his son DOMENICO's wedding and writes «FU ORAZIO, e Lett.a Morabito» -- the «fu» cropped at native width to be sure of it. He is named LIVING in the Tavole of 1821 and 1828. SO HE DIED BETWEEN 10 AUGUST 1828 AND 4 SEPTEMBER 1838, and the Scilla death registers for those ten years -- all of them listed in this archive -- would name the day. LETTERIA MORABITO OUTLIVED HIM: she carries no «fu» in 1838.",
+     "source": "Scilla, Matrimoni 1838, Tavola annuale, entry 1",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Four sons, not one",
+   "rows": [
+    {
+     "kind": "Four sons, not one",
+     "who": "Orazio Arena and Litteria Morabito",
+     "slug": "—",
+     "treeSays": "One known son, Filippo, until this morning",
+     "recordSays": "AT LEAST FOUR: FILIPPO (b. 25 March 1793, m. 12 November 1815), GIUSEPPE (b. c. 1794, m. 13 November 1821), ANTONIO (m. 10 August 1828) and DOMENICO (m. 4 September 1838). Every one of them found in an annual marriage Tavola, which names all four parents and costs one crop a year. AND TWO OF THEM MARRIED POLISTINA DAUGHTERS OF THE SAME COUPLE: Giuseppe married Maria Teresa and Domenico married Teresa, both «figlie di fu Raffaele Polistina e Letteria Morabito».",
+     "source": "Scilla, Matrimoni 1815 atto 29; 1821 atto 29; 1828 atto 26; 1838 atto 20",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Death — exact, to the hour",
+   "rows": [
+    {
+     "kind": "Death — exact, to the hour",
+     "who": "Orazio Arena",
+     "slug": "—",
+     "treeSays": "Dead between 10 August 1828 and 4 September 1838, from the marriage Tavole",
+     "recordSays": "DIED 12 JULY 1830 AT SIX IN THE MORNING, IN HIS OWN HOUSE. Scilla, Morti 1830, atto 64. The ten-year window this archive opened this afternoon closed the same afternoon, in the second death Tavola opened. He was a MARINARO and «MARITO LITTERIA MORABITO».",
+     "source": "Scilla, Morti 1830 atto 64",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Birth — nineteen years earlier than this archive had inferred",
+   "rows": [
+    {
+     "kind": "Birth — nineteen years earlier than this archive had inferred",
+     "who": "Orazio Arena",
+     "slug": "—",
+     "treeSays": "Born about 1770, inferred from his sons' ages",
+     "recordSays": "BORN ABOUT 1751. His death act makes him SEVENTY-NINE on 12 July 1830. The inference of «about 1770» came from working back from his sons -- Filippo born 1793, Giuseppe about 1794 -- and assuming a young father; he was about forty-two when Filippo was born and about sixty-four when Filippo married. AN INFERRED DATE IS NOT A DATE, and this is the second time this week that a figure derived from a child's age has been nineteen years out.",
+     "source": "Scilla, Morti 1830 atto 64",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Generation nine on the Arena spine",
+   "rows": [
+    {
+     "kind": "Generation nine on the Arena spine",
+     "who": "Filippo Arena (the elder) and Santa Ungaro",
+     "slug": "—",
+     "treeSays": "The Arena line reaches Orazio Arena and stops",
+     "recordSays": "IT REACHES HIS PARENTS. «ORAZIO ARENA ... FIGLIO DEL FU FILIPPO ARENA E DELLA FU SANTA UNGARO» -- his own death act, 12 July 1830. Both already dead by then; he was born about 1751, so they belong to the 1720s. AND THE CUSTOM IS CONFIRMED AFTER THE FACT: Orazio's first son, born 25 March 1793, is FILIPPO, named for this man. This archive has used the naming custom to rank candidates and never to identify one; this is what it looks like when a record catches up with it.",
+     "source": "Scilla, Morti 1830 atto 64",
      "confidence": "documented"
     }
    ]

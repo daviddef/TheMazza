@@ -1803,7 +1803,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1875,7 +1875,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1903,7 +1903,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 5,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -19074,7 +19074,7 @@
     "name": "Antonio Arena",
     "slug": "antonio-arena",
     "living": false,
-    "via": "tree"
+    "via": "index"
    }
   ],
   "spouses": [
@@ -19233,7 +19233,7 @@
     "name": "Antonio Arena",
     "slug": "antonio-arena",
     "living": false,
-    "via": "tree"
+    "via": "index"
    }
   ],
   "spouses": [
@@ -22481,14 +22481,14 @@
     "name": "Rocco Arena",
     "slug": "rocco-arena",
     "living": false,
-    "via": "tree"
+    "via": "index"
    },
    {
     "id": "@I249@",
     "name": "Generosa Costa",
     "slug": "generosa-costa",
     "living": false,
-    "via": "tree"
+    "via": "index"
    }
   ],
   "children": [],
@@ -29925,7 +29925,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 8,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29961,7 +29961,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 10,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30143,7 +30143,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 10,
+  "comp": 9,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -35363,19 +35363,12 @@
   ],
   "records": [
    {
-    "kind": "documented",
-    "what": "Piedimonte Etneo, Nati 1845, atto 64",
-    "href": "/corrections"
-   },
-   {
     "kind": "certain",
     "what": "Piedimonte Etneo, Nati 1845 atto 64; site/src/data/people.json",
     "href": "/corrections"
    }
   ],
   "corrections": [
-   "Birth year — BORN ABOUT 1809. He is THIRTY-SIX when he declares his son Rosario's birth in June 1845.",
-   "Trade -- missing entirely — BRACCIALE in 1845 -- a day labourer. By 1924 his son's death act calls him a contadino. The Mazza worked the land at Piedimonte for at least three generations.",
    "Record attached to the wrong man — a namesake three generations down — REMOVED. That Mariano is a son of the ORAZIO MAZZA BORN 1883, who is himself a son of Rosario Mazza -- so he is Rosario's grandson, born in the twentieth century, and cannot be the Mariano who declared Rosario's birth in 1845. The real man now has a row of his own as «Mariano Mazza (b. c. 1809)», with MARIA CATALANO beside him. THE RULE THIS ARCHIVE ALREADY WROTE AND THEN BROKE: a slug that matches a name is not the person the act names -- check the birth year, the birthplace, the spouse or a child before attaching anything."
   ],
   "onSpine": false,
