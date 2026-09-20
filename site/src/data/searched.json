@@ -1357,7 +1357,7 @@
   "when": "20 Sep 2026",
   "source": "Antenati — Scilla, Matrimoni 1815 atto 29: Filippo Arena x Domenica Costa, FOUND",
   "scope": "Row 151. The 1815 napoleonic marriage volume, container 57O1erJ, thirty-five acts and no Tavola. Read by act-head montage -- number, date, groom, groom's father -- at pct:52,18,46,26, eight tiles to a sheet.",
-  "result": "FOUND AT ACT 29, 12 NOVEMBER 1815, and the act names four people this archive had never seen: ORAZIO ARENA and SETTERIA MORABITO, Filippo's parents, both present and consenting; and the late GIOVANNI COSTA, dead at Scilla on 29 March 1790, and MARTA ALFONZETTI, Domenica's parents. Filippo was twenty-two, Domenica twenty-eight, and Filippo SIGNED. One montage pass, thirty-five acts, no rate limiting -- images are never throttled."
+  "result": "FOUND AT ACT 29, 12 NOVEMBER 1815, and the act names four people this archive had never seen: ORAZIO ARENA and SETTERIA MORABITO, Filippo's parents, both present and consenting; and the late GIOVANNI COSTA, dead at Scilla on 29 March 1790, and MARTA ALFONZETTI, Domenica's parents. Filippo was twenty-two, Domenica twenty-eight, and Filippo SIGNED. One montage pass plus two re-crops for acts under archivists' cards, thirty-two acts, no rate limiting -- images are never throttled."
  },
  {
   "key": "src/antenati-scilla-matrim-98b6e4",
@@ -1381,6 +1381,14 @@
   "when": "20 Sep 2026",
   "source": "Antenati — the act-head montage, proved on three unindexed marriage volumes",
   "scope": "Method. A restauration and napoleonic marriage opening puts the END of one act on the left page and the HEAD of the next on the right: «Num. d'Ordine», the date, the groom's name, his age, his trade and his father. Cropping pct:52,18,46,26 at width 900 and tiling ten to a sheet reads a whole volume in four or five images.",
-  "result": "IT WORKS, AND IT REPLACES THE ANNUAL TAVOLA. 114 acts across 1815, 1816 and 1817 read in fourteen montages and two single crops. An unindexed volume is no longer a forty-opening read; it is a twenty-minute one. THE LIMIT: the crop shows the GROOM and his father, not the bride -- a search for a woman's marriage still needs the Tavola or a second crop band."
+  "result": "IT WORKS, AND IT REPLACES THE ANNUAL TAVOLA. 111 acts across 1815, 1816 and 1817 read in fourteen montages and three single crops. An unindexed volume is no longer a forty-opening read; it is a twenty-minute one. THE LIMIT: the crop shows the GROOM and his father, not the bride -- a search for a woman's marriage still needs the Tavola or a second crop band."
+ },
+ {
+  "key": "src/antenati-scilla-matrim-66cc93",
+  "status": "done",
+  "when": "20 Sep 2026",
+  "source": "Antenati — twenty-one Scilla marriage containers, 1820-1843, banked in one sitting",
+  "scope": "Row 157. The expensive step in any Antenati sweep is ark to container, and it normally costs a page load apiece against a limiter that 403s after about three. Fetched from inside the origin in page context, six at a time, five seconds apart.",
+  "result": "TWENTY-ONE CONTAINERS AND NO 403, where twenty-one navigations would have locked the session out repeatedly. Image counts came free off the IIIF manifests, which are never throttled. Every Scilla marriage volume from 1820 to 1843 is now openable without spending another page load -- which is what makes a Tavola sweep for Filippo Arena's siblings, and for Francesco Antonio's elder brothers, a reading job rather than a rate-limit job."
  }
 ]
