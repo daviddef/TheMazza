@@ -1828,7 +1828,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1864,7 +1864,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 3,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1892,7 +1892,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 9,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2471,10 +2471,16 @@
     "kind": "naturalisation file",
     "what": "NAA: J25, 1971/3900 — «Arena, Rocco; wife Angelina [or Angela] [nee Polistena]», 1953-1971",
     "href": "/queensland"
+   },
+   {
+    "kind": "certain",
+    "what": "NAA: MP1103/1 PWN9406; A367 C18000/298; ST1233/1 N35192; against NAA passenger index, arrival 27 December 1953",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "THE EXACT PARALLEL OF THE MAZZA FILE, and it means BOTH pairs of Michael Mazza's grandparents have one. Brisbane, paper, «not yet examined» -- it needs the same access request. Its date range opens in 1953, which is the year Rocco Arena's crossing is dated."
+   "THE EXACT PARALLEL OF THE MAZZA FILE, and it means BOTH pairs of Michael Mazza's grandparents have one. Brisbane, paper, «not yet examined» -- it needs the same access request. Its date range opens in 1953, which is the year Rocco Arena's crossing is dated.",
+   "A fourth internment that is NOT this family — A GUARD — A ROCCO ARENA WAS INTERNED IN AUSTRALIA AND HE IS NOT ONE OF THEM. NAA: MP1103/1 and MP1103/2, PWN9406, give «Prisoner of War/Internee: Arena, Rocco; Date of birth - 31 AUGUST 1909»; A367 C18000/298 and C329 42 are his Aliens Tribunal objection, number 35 of 1941; C123 4326 and C123 ITALIAN INTERNEES [Box 611] are Sydney lists of 1940; ST1233/1 N35192 is «Rocco Arena [Interned] [Application for Naturalisation]». THE ARITHMETIC EXCLUDES HIM ABSOLUTELY. This archive's ROCCO ARENA ARRIVED IN AUSTRALIA ON 27 DECEMBER 1953 -- thirteen years after that man was interned. The other Rocco Arena, born at Scilla in 1861, DIED THERE ON 8 FEBRUARY 1932. Neither was in New South Wales in 1940. THIS GUARD EXISTS BECAUSE THE PATTERN IS ALREADY SET. Rosario Mazza, Mario Crupi and Antonino Crupi were all interned, all documented this week, and a fourth man of the right surname in the same camps would be very easy to believe. He is a Sydney man born in 1909 and he is nobody here."
   ],
   "onSpine": true,
   "ancGen": 3
@@ -29861,7 +29867,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29897,7 +29903,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 4,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30122,7 +30128,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 5,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
