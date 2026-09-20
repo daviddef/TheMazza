@@ -1053,10 +1053,13 @@
     {
       "n": 119,
       "what": "Turn /open-questions/ into rows",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**202 lines of prose.** Shape: the question, what is known, what has been tried, and the record that would answer it. `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside. **[State corrected from «open» to «next» on 16 September — «open» is not in the estate vocabulary and the build gate refuses it. The row is otherwise untouched.]**"
+      "note": "**202 lines of prose.** Shape: the question, what is known, what has been tried, and the record that would answer it. `kit/components/Questions.astro`.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside. **[State corrected from «open» to «next» on 16 September — «open» is not in the estate vocabulary and the build gate refuses it. The row is otherwise untouched.]** **DONE, 21 SEPTEMBER.** Fifteen questions in `data/questions.tsv`, rendered by the kit's `Questions` component — **five open, ten answered** — and the builder **refuses a row with no `settles` field**, because a question without the record that would answer it is a regret and not a queue item. **The extraction caught what the prose was hiding.** Three questions were headed ANSWERED and still sat undifferentiated beside the open ones. **Two answered on 20 September had never been added at all** — Filippo Arena's marriage, and how far above him the Arena line goes. And the *«is Salvatore Mazza in the Sicilian birth registers»* negative, nine indexes across three comuni, has since been **overtaken**: he is Nati 1873 atto 3, so all nine were read in the wrong place. **The answered ones stay on the page**, which is the decision worth recording: a question that vanishes when it is settled leaves a reader unable to tell a thing never asked from a thing asked and closed, and it hides the shape of the mistakes.",
+      "covers": [
+        "src:src/open-questions-extract-d486ed"
+      ]
     },
     {
       "n": 120,

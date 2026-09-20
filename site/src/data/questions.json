@@ -1,0 +1,152 @@
+[
+ {
+  "n": 1,
+  "q": "Rocco Arena's parents — ANSWERED by a sibling pair",
+  "state": "answered",
+  "known": "The couple the tree names is real. The two children it gives them belong to somebody else. The tree makes Rocco Arena, born 1861, the son of Orazio Arena and Giovana Zirilli, and gives Orazio exactly two children: Rocco and Guiseppe. Act 45 of 1860 gives FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA a son GIUSEPPE on 5 March 1860; act 228 of 1861 gives the same couple a son ROCCO on 20 December 1861. The same sibling pair, in the same order, on the wrong father. Meanwhile Orazio Arena and Giovanna Zirilli are documented across four years of the register — 1856, 1858, 1859, 1860 — with Domenico, Domenico and Maria Annunziata, and neither a Rocco nor a Giuseppe ever appears. An Ellis Island manifest independently makes Rocco 39 in March 1900, consistent with a birth at the end of 1861.",
+  "tried": "ANSWERED, 13 September 2026. What remains is above Francesco Antonio, who act 228 calls 'figlio di Filippo' — so FILIPPO ARENA is a documented generation the tree does not have at all. And a lead worth recording: Orazio Arena's first son is Domenico, twice, which on Calabrian naming custom makes HIS father a Domenico Arena. That is custom, not a record.",
+  "settles": "Antenati — Scilla; every ark 1816-1865 is in data/scilla-arks.tsv.",
+  "since": "",
+  "rank": ""
+ },
+ {
+  "n": 2,
+  "q": "Where was Giovanni Arena born? — ANSWERED, 13 September 2026",
+  "state": "answered",
+  "known": "At Scilla after all, on 30 April 1854 — four years outside the window this archive searched. Act 230 of 1892 makes Giovanni Arena thirty-three in October of that year, so this archive searched 1857, 1858, 1859 and 1860 — two years either side — and found no Giovanni Arena born in any of them. The answer is that THE AGE WAS WRONG BY THREE YEARS. His marriage act, Scilla Matrimoni 1885 act 86, makes him THIRTY-ONE in October 1885: born about 1854. And act 76 of the Scilla births of 1854 gives the day — 30 APRIL 1854, declared by his maternal grandfather Giovanni Arlotta, aged seventy-five, who gave the boy his own name. His parents are FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA, so he is ROCCO ARENA'S FULL BROTHER, which is what the manifest of 1899 said all along.",
+  "tried": "ANSWERED. The lesson is on the Scilla page: the search failed because it trusted a declared age and looked in the years that age implied, instead of the years the family implied. Three men this archive kept apart — the boy of 1854, the groom of 1885 and the pescatore of 1892 — are one man.",
+  "settles": "Antenati — Scilla; every ark 1816-1865 is in data/scilla-arks.tsv.",
+  "since": "",
+  "rank": ""
+ },
+ {
+  "n": 3,
+  "q": "Is Giovanna Zirilli one woman or two?",
+  "state": "open",
+  "known": "The export gives Orazio Arena two wives with the same rare surname and effectively the same forename. @I374@ is 'Giovanna Zirilli', born 1827, mother of Guiseppe Arena. @I455@ is 'Giovana Zirilli', undated, mother of Rocco Arena. Both are married to the same individual record. That is the classic signature of an accidental duplicate — and act 46 of 1859 shows a single couple, Orazio e Zirilli Giovanna, having children at Scilla. THIS ARCHIVE HAS NOT MERGED THEM, and the reason is worth stating: surname endogamy at Scilla is not a theory but an observed fact. The 1913 marriage index alone has Bueti marrying Bueti, Cambareri marrying Cambareri, Larizza marrying Larizza and Vizzari marrying Vizzari. A man taking a second wife of the same surname is exactly the sort of thing that happens here.",
+  "tried": "Find Rocco Arena's actual birth act. It will name his mother, and either it says Zirilli Giovanna — in which case the two records are one woman and the merge is documented — or it does not.",
+  "settles": "Antenati — Scilla; the same sweep as the question above.",
+  "since": "",
+  "rank": ""
+ },
+ {
+  "n": 4,
+  "q": "Where is Michele Donato? — ANSWERED, 14 September 2026: Scilla, 3 October 1855",
+  "state": "answered",
+  "known": "Born 3 OCTOBER 1855 at Scilla, act 163 — and the search failed because 1851, 1856 and 1859 were read and 1855 was not. The D section of the 1851 Tavola runs entries 65 to 75 — seven Di Franco, two Dormi, one De Marco, one De Alessandro — bounded by the last C at 64 and the first F at 76. The block is complete and there is no Donato in it. Act 162 of 1892 explains it: Michele Donato is THIRTY-SIX in July 1892, so born about 1856. The tree is five years out and the archive had been reading the wrong volume.",
+  "tried": "DONE, AND NEGATIVE. 1856 was read (both volumes: the acts are an_ua2002917, the Tavola is bound separately as an_ua2002920) and so was 1859. Neither has a Donato, and neither did 1851 — three complete D blocks across the whole window his daughter's act allows. Meanwhile 1892 has two Donato households. The surname appears to ARRIVE at Scilla between 1859 and 1892, which makes the next move his MARRIAGE rather than his birth: a marriage act names the groom's comune of birth outright. His eldest son was born 1878, so the marriage is about 1875-77. IT HAS NOW BEEN LOOKED FOR, AND IT IS NOT THERE. The annual indexes have been read ENTIRE for 1874 and 1876 through 1885 -- eleven years -- and 1875, which has no index, was scanned down its margins. NO DONATO MICHELE AMONG THE GROOMS. What those years do hold is a settled Scilla Donato family marrying steadily: Candeloro twice, Carmela, Bruno, Rocco, Michelangelo. So Michele is neither born at Scilla nor married there: he came from somewhere else, already married. THE ONE ROUTE LEFT IS HIS DEATH ACT, which names a birthplace outright -- and the Scilla death series runs to 1943.",
+  "settles": "Antenati — Scilla; arks for every year 1816-1865 are in data/scilla-arks.tsv.",
+  "since": "",
+  "rank": ""
+ },
+ {
+  "n": 5,
+  "q": "Which ships? — nine down, nine to go",
+  "state": "open",
+  "known": "Nine were named on 10 September 2026. Nine are still open. Sebastiano Mazza sailed on the Toscana out of Genoa, arriving 4 October 1949; Antonino Polistena on the Surriento out of Naples; Francessco Prostamo on the Roma; the sixteen-year-old Michele Mazza on the Palermo out of Messina in 1925. But Domenica Prostamo — who followed her husband in March 1951 with a son not yet three — is not in the index under Prostamo or under Mazza, and eight others are still unnamed.",
+  "tried": "She would have travelled under her married name and may be indexed under a misspelling; the index is transcribed from handwritten manifests. Try the voyage instead of the person: find the item for a Genoa sailing reaching Fremantle in March 1951 and read the manifest for the whole family group.",
+  "settles": "NAA RecordSearch, passenger arrivals index 1898–1972; series K269, Fremantle inwards.",
+  "since": "",
+  "rank": ""
+ },
+ {
+  "n": 6,
+  "q": "Above Franco Antonino Prostamo, born about 1697",
+  "state": "open",
+  "known": "The deepest point of the archive, and it stops at an assertion. The Prostamo descent at Briatico runs eight generations and is the best thing in this tree — but nothing above 1697 has been looked for, and the 1697 date itself carries no source. Italian civil registration begins in 1809; before that the record is parish, and the Calabrian earthquake of 1783 destroyed a great deal of it.",
+  "tried": "The parish registers of Briatico held by the Diocese of Mileto–Nicotera–Tropea, and the Catanzaro state archive's pre-unification series. First, though: verify that the 1697 birth is a document and not a family estimate.",
+  "settles": "Antenati — Catanzaro; diocesan archive, Mileto.",
+  "since": "",
+  "rank": ""
+ },
+ {
+  "n": 7,
+  "q": "The Buenos Aires Prostamo",
+  "state": "open",
+  "known": "Twenty-three Argentine events and not one crossing. A branch of the Briatico Prostamo was in Buenos Aires from at least 1903, with children born there into the 1960s, and Giuseppe Prostamo died there. Nothing records how or when they went, or how they relate to the Brisbane line beyond the tree's assertion.",
+  "tried": "CEMLA's Argentine immigration database, and the Buenos Aires civil registry. The Lerena archive has already worked this ground.",
+  "settles": "CEMLA; Registro Civil, Buenos Aires.",
+  "since": "",
+  "rank": ""
+ },
+ {
+  "n": 8,
+  "q": "Filippo Arena's marriage to Domenica Costa — ANSWERED, 20 September 2026",
+  "state": "answered",
+  "known": "This archive called it pre-civil and lost, and published a WALL saying so, because it believed Scilla's registers began in 1816. They begin in 1809.",
+  "tried": "Every negative reported for 1816-1819 was correct and the conclusion drawn from them was not. They married at Scilla on 12 NOVEMBER 1815, Matrimoni atto 29, and the act names ORAZIO ARENA and LITTERIA MORABITO on one side and the late GIOVANNI COSTA and MARTA ALFONZETTI on the other. Filippo signed it.",
+  "settles": "Answered by Antenati, Scilla Matrimoni 1815 -- and then by the marriage BUNDLE behind it, processetti 1815 n. 29, which gave both spouses' baptisms and her father's death of 1790.",
+  "since": "20 September 2026",
+  "rank": ""
+ },
+ {
+  "n": 9,
+  "q": "How far above Filippo Arena does the Arena line go? — ANSWERED, 20 September 2026",
+  "state": "answered",
+  "known": "To his great-grandparents, in the 1720s, and the route was three annual Tavole and one death act rather than a parish archive.",
+  "tried": "Three brothers for Filippo were found in the marriage Tavole of 1821, 1828 and 1838; the 1838 one writes «FU ORAZIO», which bracketed his father's death to ten years; the 1830 death Tavola found the year and the act gave the day. ORAZIO ARENA died 12 July 1830 at seventy-nine, «figlio del fu FILIPPO ARENA e della fu SANTA UNGARO».",
+  "settles": "Answered. Above Filippo the elder and Santa Ungaro there is no civil register: that is the parish books of the Chiesa Matrice at Scilla, which the 1815 marriage bundle names by title and custodian.",
+  "since": "20 September 2026",
+  "rank": ""
+ },
+ {
+  "n": 10,
+  "q": "Where was Maria Nicotra born?",
+  "state": "open",
+  "known": "The family tree says Piedimonte Etneo in 1875, and that is her HUSBAND'S town. She died at Brisbane in 1963 aged eighty-eight and her parents come to this archive only through a Queensland death registration.",
+  "tried": "FOURTEEN CONSECUTIVE YEARS of Piedimonte birth indexes have been read, 1870 to 1883, and she is in none of them. The Nicotra are in the town throughout and never produce her; the one Maria Nicotra of 1875 is eliminated on her own marginal annotation, which marries her to a Nicito there in 1891. Her mother's surname is also probably wrong: «Cassaneti» appears exactly once in the entire Queensland index.",
+  "settles": "NAA: BP25/1, ITALIAN MAZZA M -- her own alien registration file, held at Brisbane, access open, not digitised. An Italian alien's file states a date and place of birth. It is a copy request, not a search.",
+  "since": "20 September 2026",
+  "rank": "1"
+ },
+ {
+  "n": 11,
+  "q": "Nudgee: plots, sections and dates — ANSWERED, 10 September 2026",
+  "state": "answered",
+  "known": "Closed the day the archive was built.",
+  "tried": "The Archdiocese's own deceased register gave a plot, a register number and exact dates for NINETEEN people here, corrected the tree in six places, and showed that all four grandparents lie in consecutive plots V-1026 to V-1029.",
+  "settles": "Answered by the Brisbane Catholic Cemeteries interment register. It is on /nudgee/.",
+  "since": "10 September 2026",
+  "rank": ""
+ },
+ {
+  "n": 12,
+  "q": "Is Salvatore Mazza in the Sicilian birth registers? — ANSWERED, and the answer is no",
+  "state": "answered",
+  "known": "Not in nine indexes across three comuni. A negative, and a useful one.",
+  "tried": "Nine annual indexes read -- Piedimonte Etneo 1877 to 1881, plus Mascali 1879 and Giarre 1879. Five Mazza births in all of them and NO SALVATORE ANYWHERE. LATER OVERTAKEN: he is NATI 1873 ATTO 3, born 5 January 1873, and the 1879 index has now been read whole and holds no Salvatore either -- so the tree's year was six out and the nine negatives were all in the wrong place.",
+  "settles": "Answered by Piedimonte Etneo, Nati 1873 atto 3, found by following the father rather than the year.",
+  "since": "10 September 2026",
+  "rank": ""
+ },
+ {
+  "n": 13,
+  "q": "Was Michele Mazza kin? — ANSWERED, 10 September 2026",
+  "state": "answered",
+  "known": "Yes. He was Sebastiano's elder brother.",
+  "tried": "The Queensland death index gives «Michali Mazza», 14 November 1926, registration 1926/C/3983, father «Salvatori Mazza», mother «Maria Lecota» -- the index's garbling of NICOTRA. The same search returns Rosario Mazza, born 1899, whose parents are given in full as Salvatore Mazza and Maria Concetta Nicotra.",
+  "settles": "Answered by the Queensland historical index. So the sixteen-year-old who landed at Brisbane on the PALERMO in 1925 and died nineteen months later was Sebastiano's brother, and the family followed him to the port he had landed at.",
+  "since": "10 September 2026",
+  "rank": ""
+ },
+ {
+  "n": 14,
+  "q": "Who were the Polistena of Arneytown? — ANSWERED, 10 September 2026",
+  "state": "answered",
+  "known": "One soldier and his wife, in one grave -- not three people.",
+  "tried": "The VA's Nationwide Gravesite Locator gives JOSEPH POLISTENA, PFC, US Army, Second World War, 29 January 1917 to 15 February 2012, Section O3 Site 8647, and SANTA POLISTENA, 17 December 1920 to 8 September 2008, entered as his wife in the same site.",
+  "settles": "Answered by the Gravesite Locator. It also confirms the build's merge of the tree's two «Joseph» records into one man, and corrects Santa's death from 9 August to 8 September -- the American 09/08/2008 read day-first.",
+  "since": "10 September 2026",
+  "rank": ""
+ },
+ {
+  "n": 15,
+  "q": "Does Rosario Mazza join the hundred and ten? — ANSWERED, 10 September 2026",
+  "state": "answered",
+  "known": "Yes. The archive's largest question, closed.",
+  "tried": "Salvatore Mazza's act of birth -- Piedimonte Etneo, Nati 1873, atto 3 -- names his father «ROSARIO MAZZA DI MARIANO», aged twenty-eight, and his mother «Leonarda Bonanno di Gaetano». Three marriage proclamations and two further birth acts give the same couple sons named Salvatore, Giovanni, Orazio, Gaetano, Santo and Ignazio; the tree's unattached Rosario has a wife called Leonarda and sons Orazio, Ignazio and Giovanni. One man.",
+  "settles": "Answered by Piedimonte Etneo, Nati 1873 atto 3. All hundred and ten are the families of Michael Rocco Mazza's great-great-uncles.",
+  "since": "10 September 2026",
+  "rank": ""
+ }
+]
