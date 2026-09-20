@@ -1638,5 +1638,13 @@
   "source": "The instruments, written down where a reader would look",
   "scope": "Row 83. Nine ways of reading that this archive worked out and that were living in commit messages and memory files -- which is to say, nowhere a reader could find them.",
   "result": "PUBLISHED ON /method/, DATA-DRIVEN FROM data/instruments.tsv. The annual Tavola; the act-head montage; the marriage processetti; the marginal annotation; the register index at s_size=500; the container fetch from inside the origin; the Riveli di anime e di terre; the Queensland BDM download endpoint; and NAA item titles. EVERY ROW CARRIES A CAUTION AND THE BUILDER REFUSES A ROW WITHOUT ONE -- an instrument described without the way it fails is how a method becomes a superstition, and the best tool here, the Tavola, changes its alphabetical key between adjacent years. THE PAGE ALSO STOPPED LYING ABOUT ITS OWN AUDIT: it said «nine were audited and five had already failed» in fixed prose while the page it links to counted for itself. It now reads twelve and seven, because it counts."
+ },
+ {
+  "key": "src/sources-page-extracted-c3430d",
+  "status": "done",
+  "when": "21 Sep 2026",
+  "source": "The sources page, extracted into data -- and it was underselling the archive by a year's work",
+  "scope": "Row 120. Seventy lines of source list inline in the page, which meant they could not be counted, checked or added to without editing a template. The same failure as the audit and the disputed edges.",
+  "result": "EXTRACTED TO data/sources.tsv, AND EVERY ROW NOW CARRIES «SEEN» -- act, index, tree, lore or wall, the only thing about a source that really matters. Twenty-five sources: SIX READ IN THE ORIGINAL, fifteen index-only, one the tree's own compilation, one unreferenced, two walls. AND THE EXTRACTION EXPOSED A STALE PAGE THAT WAS UNDERSELLING THE ARCHIVE. It opened «almost every source below is an INDEX cited by the family tree, not a document this archive has seen» and listed NO ITALIAN CIVIL REGISTER AT ALL; it closed with a section headed «What is not here yet» whose first sentence was «No Italian civil register has been read for this family». Both were true on the day the archive was built and both were months out of date. THE OLD HEADLINE IS KEPT ON THE PAGE, STRUCK, because an archive that quietly deletes its own wrong headline is harder to trust than one that shows the correction. What is actually missing is now narrower and harder: the parish books of Scilla, Piedimonte after 1893, five files at Brisbane, and Zambrone's missing nine years."
  }
 ]

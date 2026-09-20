@@ -1,0 +1,187 @@
+{
+ "groups": [
+  {
+   "group": "The family tree",
+   "rows": [
+    {
+     "source": "Mazza Family Tree, MyHeritage",
+     "what": "Exported 9 September 2026 from the Defranceski family site. 614 individuals, 212 families, 133 photographs. Contributed by Michael Mazza and relatives.",
+     "usedFor": "The spine of this archive, and the thing every other source is being used to test.",
+     "seen": "tree"
+    }
+   ]
+  },
+  {
+   "group": "Italian civil registers, read in the original",
+   "rows": [
+    {
+     "source": "Antenati — Scilla, Reggio Calabria",
+     "what": "Stato civile napoleonico 1809-1815, restaurazione 1816-1865, italiano 1866-1943. 327 volumes listed here.",
+     "usedFor": "The Arena spine from Rocco back to FILIPPO ARENA and SANTA UNGARO in the 1720s; the Arlotta, the Costa, the Donato and the Polistena.",
+     "seen": "act"
+    },
+    {
+     "source": "Antenati — Scilla, Matrimoni processetti",
+     "what": "Twenty-two volumes, 1810-1865. Each bundle holds the BIRTH EXTRACTS of both spouses and the DEATH ACTS of dead parents, copied out of the parish books.",
+     "usedFor": "Filippo Arena's baptism of 25 March 1793, Domenica Costa's of 16 June 1787, and Giovanni de Costa's death of 29 March 1790 -- the oldest dated event in this archive.",
+     "seen": "act"
+    },
+    {
+     "source": "Antenati — Piedimonte Etneo, Catania",
+     "what": "457 registers, 1820-1893, plus nine volumes of Riveli di anime e di terre from 1714 and 1747-1752.",
+     "usedFor": "The Mazza spine to MARIANO MAZZA and MARIA CATALANO, born about 1809; four more children for Rosario and Leonarda; and the absence of any Mazza in the town's 1747 household census.",
+     "seen": "act"
+    },
+    {
+     "source": "Antenati — Briatico, Zambrone, Pizzo, Potenzoni",
+     "what": "The Calabrian side. Briatico has 555 registers of which this archive has listed 80.",
+     "usedFor": "The Prostamo to 1697, the Ventrice, the Cichello and the Melluso -- and the 1849 marriage bundle that proved three generations at once.",
+     "seen": "act"
+    },
+    {
+     "source": "Antenati — the name index",
+     "what": "Some comuni have their acts indexed BY NAME with parents and spouse: Scilla deaths 1911-1943, Pizzo births 1868-1903, Catania deaths 1911 onward.",
+     "usedFor": "One query replaces a volume sweep where it exists. Five of the eight comuni this family touches are not indexed at all.",
+     "seen": "act"
+    }
+   ]
+  },
+  {
+   "group": "Australian records, read in the original",
+   "rows": [
+    {
+     "source": "National Archives of Australia — RecordSearch",
+     "what": "Internee dossiers, aliens registration, naturalisation, immigration correspondence. The item TITLE carries the particulars even when nothing is digitised.",
+     "usedFor": "Three men interned in the Second World War; Maria Nicotra's arrival at Sydney on 20 April 1962; the ships behind five family crossings.",
+     "seen": "act"
+    },
+    {
+     "source": "Queensland Registry of Births, Deaths and Marriages — historical index",
+     "what": "Births 1829-1926, marriages 1829-1951, deaths 1829-1996. The index carries the MOTHER and PARENT columns.",
+     "usedFor": "Twenty-eight registrations, including the one that names John Nicotra and Venera Cassaneti -- and the sweep that showed «Cassaneti» appears exactly once in the whole index.",
+     "seen": "index"
+    },
+    {
+     "source": "Brisbane Catholic Cemeteries — Nudgee",
+     "what": "The interment register, searchable by name, with plot numbers.",
+     "usedFor": "Thirteen burials, several of them adjacent, and the married names that identified four women the tree had lost.",
+     "seen": "index"
+    }
+   ]
+  },
+  {
+   "group": "Indexes cited by the family tree, not seen here",
+   "rows": [
+    {
+     "source": "New York Passenger Lists, 1820-1957",
+     "what": "",
+     "usedFor": "The 1906 and 1913 arrivals of the Melluso, Anile and Arena.",
+     "seen": "index"
+    },
+    {
+     "source": "New York, New York -- Birth, Marriage and Death indexes, 1862-1965",
+     "what": "Six separate index series.",
+     "usedFor": "Maria Rosa Melluso's New York birth, 14 October 1907; the Anile marriage of 21 December 1907 at Manhattan; and four Arena children born at Manhattan 1896-1902.",
+     "seen": "index"
+    },
+    {
+     "source": "United States Federal Census, 1900 - 1920 - 1930 - 1940 - 1950",
+     "what": "",
+     "usedFor": "The American households of the first wave.",
+     "seen": "index"
+    },
+    {
+     "source": "U.S. World War II Draft Registration Cards, 1942; Army Enlistment Records, 1938-1946",
+     "what": "",
+     "usedFor": "The Polistena servicemen buried at Arneytown.",
+     "seen": "index"
+    },
+    {
+     "source": "Social Security Death Index; U.S. Public Records Index; Naturalization Records Indexes",
+     "what": "",
+     "usedFor": "American deaths and naturalisations.",
+     "seen": "index"
+    },
+    {
+     "source": "New Orleans, Louisiana Passenger Lists, 1813-1963",
+     "what": "",
+     "usedFor": "Michele Donato, 11 March 1908, out of Palermo.",
+     "seen": "index"
+    },
+    {
+     "source": "Florida Arriving and Departing Passenger Lists, 1898-1963",
+     "what": "",
+     "usedFor": "Francesco Melluso, Miami, 18 June 1961.",
+     "seen": "index"
+    },
+    {
+     "source": "Australia, Death Index, 1787-1985",
+     "what": "",
+     "usedFor": "Queensland deaths.",
+     "seen": "index"
+    },
+    {
+     "source": "Australia Cemetery Index, 1808-2007; Find a Grave Index",
+     "what": "",
+     "usedFor": "The Nudgee burials. NOTE: Find a Grave will index one person at two cemeteries when the names resemble each other.",
+     "seen": "index"
+    },
+    {
+     "source": "Australia, Electoral Rolls, 1903-1980",
+     "what": "",
+     "usedFor": "Addresses and occupations after arrival.",
+     "seen": "index"
+    },
+    {
+     "source": "Fremantle, Western Australia, Passenger Lists, 1897-1963",
+     "what": "",
+     "usedFor": "The 1925, 1949, 1950, 1951 and 1957 arrivals -- several of which the NAA index has since corrected.",
+     "seen": "index"
+    },
+    {
+     "source": "Italy, Find a Grave Index",
+     "what": "",
+     "usedFor": "Briatico burials.",
+     "seen": "index"
+    },
+    {
+     "source": "«I Melluso»",
+     "what": "A relative's compiled research, cited in the tree without a reference.",
+     "usedFor": "Parts of the Melluso descent at Briatico. UNVERIFIED, and named here so that nobody mistakes it for a record.",
+     "seen": "lore"
+    }
+   ]
+  },
+  {
+   "group": "Tried and found wanting",
+   "rows": [
+    {
+     "source": "FindMyPast",
+     "what": "A six-day trial, swept systematically rather than browsed.",
+     "usedFor": "Its Italian births, marriages and deaths sets DO NOT COVER SCILLA -- zero Polistena in all three. Recorded in full, negatives included, so that nobody pays to discover it again.",
+     "seen": "index"
+    },
+    {
+     "source": "Trove",
+     "what": "The National Library of Australia's newspaper archive.",
+     "usedFor": "A WALL, not a nil: its own vendor bundle throws on a storage API this browser lacks. A free NLA API key would settle it.",
+     "seen": "wall"
+    },
+    {
+     "source": "The National Archives, Kew -- Discovery API",
+     "what": "Free JSON, no key.",
+     "usedFor": "Swept for this family and it is not there. The empty-202 throttle reads as zero results, which is how a wall gets mistaken for a negative.",
+     "seen": "wall"
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "tree": 1,
+  "act": 6,
+  "index": 15,
+  "lore": 1,
+  "wall": 2
+ },
+ "total": 25
+}

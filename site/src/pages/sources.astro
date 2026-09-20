@@ -1,49 +1,64 @@
 ---
+/* What this archive rests on.
+
+   The source list used to be seventy lines inline here, which meant it could
+   not be counted, checked or added to without editing a page — the same failure
+   as the audit and the disputed edges. It is data now: data/sources.tsv.
+
+   Extracting it exposed that the page had gone stale in the worst direction.
+   It opened «Almost every source below is an INDEX cited by the family tree,
+   not a document this archive has seen», and it closed with a section headed
+   «What is not here yet» whose first sentence was «No Italian civil register
+   has been read for this family». Both were true on the day the archive was
+   built. By the time anyone read them again this archive had opened several
+   hundred acts at four comuni and reached the 1720s. A sources page that
+   undersells itself is not modesty. */
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import stats from "../data/stats.json";
-const cited = [
-  ["The family tree", [
-    ["Mazza Family Tree, MyHeritage", "Exported 9 September 2026 from the Defranceski family site. 614 individuals, 212 families, 133 photographs. Contributed by Michael Mazza and relatives.", "The spine of this archive, and the thing every other source is being used to test."],
-  ]],
-  ["United States records (via Ancestry indexes cited in the tree)", [
-    ["New York Passenger Lists, 1820–1957", "", "The 1906 and 1913 arrivals of the Melluso, Anile and Arena."],
-    ["New York, New York — Birth, Marriage and Death indexes, 1862–1965", "Six separate index series.", "Maria Rosa Melluso's New York birth, 14 October 1907; the Anile marriage of 21 December 1907 at Manhattan."],
-    ["United States Federal Census, 1900 · 1920 · 1930 · 1940 · 1950", "", "The American households of the first wave."],
-    ["U.S. World War II Draft Registration Cards, 1942; Army Enlistment Records, 1938–1946", "", "The Polistena servicemen buried at Arneytown."],
-    ["Social Security Death Index; U.S. Public Records Index; Naturalization Records Indexes", "", "American deaths and naturalisations."],
-    ["New Orleans, Louisiana Passenger Lists, 1813–1963", "", "Michele Donato, 11 March 1908, out of Palermo."],
-    ["Florida Arriving and Departing Passenger Lists, 1898–1963", "", "Francesco Melluso, Miami, 18 June 1961."],
-  ]],
-  ["Australian records (via Ancestry indexes cited in the tree)", [
-    ["Australia, Death Index, 1787–1985", "", "Queensland deaths."],
-    ["Australia Cemetery Index, 1808–2007; Find a Grave Index", "", "The Nudgee burials."],
-    ["Australia, Electoral Rolls, 1903–1980", "", "Addresses and occupations after arrival."],
-    ["Fremantle, Western Australia, Passenger Lists, 1897–1963", "", "The 1925, 1949, 1950, 1951 and 1957 arrivals."],
-  ]],
-  ["Italian records", [
-    ["Italy, Find a Grave Index", "", "Briatico burials."],
-    ["“I Melluso”", "A relative's compiled research, cited in the tree without a reference.", "Parts of the Melluso descent at Briatico. Unverified."],
-  ]],
-];
+import sources from "../data/sources.json";
+
+const LABEL = {
+  act:   ["read here", "the document itself, read in the original"],
+  index: ["index only", "an index entry — it proves a name was written somewhere"],
+  tree:  ["the tree", "the family's own compilation"],
+  lore:  ["unreferenced", "compiled research with no reference given"],
+  wall:  ["a wall", "tried, and it did not answer"],
+};
+const n = (k) => sources.counts[k] || 0;
 ---
-<Base title="Sources" eyebrow={`${stats.sources} sources cited in the tree`}
-      dek="What this archive currently rests on — and, just as importantly, what it does not yet rest on.">
+<Base title="Sources" eyebrow={`${sources.total} sources, ${n("act")} of them read in the original`}
+      dek="What this archive rests on — and, for every line of it, whether the document itself has been read or only an index to it.">
 
-  <p class="note">Read this page with the <a href={u("/method/")}>method</a> beside it. Almost every
-  source below is an <strong>index</strong> cited by the family tree, not a document this archive has
-  seen. An index entry is a real source and a weak one: it proves a name was written somewhere, and it
-  does not show you the handwriting, the parents, the ages or the address. Of the
-  {stats.sources} sources named in the export, <strong>only 11 individuals carry a citation at all</strong>.</p>
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{n("act")}</div><div class="l">read in the original</div></div>
+      <div class="stat"><div class="n">{n("index")}</div><div class="l">index only</div></div>
+      <div class="stat"><div class="n">{n("wall") + n("lore")}</div><div class="l">walls and hearsay</div></div>
+    </div>
+    <p class="note" style="margin-top:20px">Read this page with the <a href={u("/method/")}>method</a>
+    beside it. <strong>An index entry is a real source and a weak one:</strong> it proves a name was
+    written somewhere, and it does not show you the handwriting, the parents, the ages or the address.
+    Every row below says which it is. Of the {stats.sources} sources named in the family's own export,
+    <strong>only 11 individuals carry a citation at all</strong> — which is why so much of this archive
+    is now resting on registers the export never mentioned.</p>
+  </section>
 
-  {cited.map(([group, rows]) => (
+  {sources.groups.map((g) => (
     <section class="blk">
-      <h2>{group}</h2>
+      <h2>{g.group}</h2>
       <div class="scroll" style="margin-top:16px">
         <table>
-          <thead><tr><th>Source</th><th>What it is</th><th>Used for</th></tr></thead>
-          <tbody>{rows.map(([t, d, use]) => (
-            <tr><td>{t}</td><td>{d}</td><td>{use}</td></tr>))}
+          <thead><tr><th>Source</th><th class="m">Seen</th><th>What it is</th><th>Used for</th></tr></thead>
+          <tbody>
+            {g.rows.map((r) => (
+              <tr>
+                <td><strong>{r.source}</strong></td>
+                <td class="m"><span title={LABEL[r.seen][1]}>{LABEL[r.seen][0]}</span></td>
+                <td class="small">{r.what}</td>
+                <td class="small">{r.usedFor}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
@@ -53,18 +68,26 @@ const cited = [
   <section class="blk" style="border-bottom:0">
     <h2>What is not here yet</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>No Italian civil register has been read for this family. That is the largest single gap, and
-      it is a closeable one. The <strong>Antenati</strong> portal of the Italian state archives holds
-      the <em>stato civile</em> from 1809 for the provinces this family comes from, and it is free:</p>
+      <p>This section used to begin <em>“No Italian civil register has been read for this family. That
+      is the largest single gap.”</em> It was true on the day the archive was built and it is kept here,
+      struck, because an archive that quietly deletes its own old headline is harder to trust than one
+      that shows the correction.</p>
+      <p><strong>What is actually missing now is narrower and harder.</strong></p>
       <ul style="font-family:var(--sans);font-size:14px;line-height:1.75;color:var(--ink-2);padding-left:20px">
-        <li><strong>Catania</strong> — for Piedimonte Etneo, Mascali and Giarre.</li>
-        <li><strong>Catanzaro / Vibo Valentia</strong> — for Briatico, Potenzoni, Mandaradoni, San Costantino and Pizzo.</li>
-        <li><strong>Reggio Calabria</strong> — for Scilla.</li>
+        <li><strong>The parish books of Scilla.</strong> Everything above the 1720s on the Arena side is
+        pre-civil. The 1815 marriage bundle names the books and the men who kept them — the
+        <em>liber Baptizatorum</em> and <em>liber Defunctorum</em> of the Chiesa Matrice, under archpriest
+        D. Giuseppe Ingigneri. The Archdiocese of Reggio Calabria–Bova is the holder, and nothing of it is
+        online.</li>
+        <li><strong>Piedimonte Etneo after 1893.</strong> Antenati stops there. The marriage of about 1900
+        and a death in 1925 sit in the <em>Tribunale</em> duplicate for Catania, which runs to 1929.</li>
+        <li><strong>Four files at Brisbane</strong> and <strong>one alien registration file</strong> that
+        would state where Maria Nicotra was born. Open access, not digitised, and a copy request rather
+        than a search.</li>
+        <li><strong>Zambrone's deaths, 1813–1821.</strong> A real hole in the state's copy; the comune's
+        own second copy is the only route, and that is a letter.</li>
       </ul>
-      <p style="margin-top:14px">Nor has the <strong>Nudgee Cemetery burial register</strong> been
-      consulted, nor the <strong>National Archives of Australia</strong> passenger records that would
-      name the ships. Each of those is listed as a task.
-      <a href={u("/open-questions/")}>The queue →</a></p>
+      <p style="margin-top:14px">Each of those is a row. <a href={u("/worklist/")}>The work list →</a></p>
     </div>
   </section>
 </Base>

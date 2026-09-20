@@ -1061,10 +1061,13 @@
     {
       "n": 120,
       "what": "Extract /sources/ into data",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**70 lines inline** — the smallest, and so the cheapest of the five to move.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside. **[State corrected from «open» to «next» on 16 September — «open» is not in the estate vocabulary and the build gate refuses it. The row is otherwise untouched.]**"
+      "note": "**70 lines inline** — the smallest, and so the cheapest of the five to move.\n\n**Raised by the UI alignment pass, 2026-09-16.** It is recorded here because it is research this archive owns, not something to guess at from outside. **[State corrected from «open» to «next» on 16 September — «open» is not in the estate vocabulary and the build gate refuses it. The row is otherwise untouched.]** **DONE, 21 SEPTEMBER, AND IT WAS NOT A REFACTOR.** The list is `data/sources.tsv` now, and every row carries **`seen`** — *act, index, tree, lore, wall* — which is the only thing about a source that really matters. Twenty-five sources: **six read in the original**, fifteen index-only, two walls. **And extracting it exposed a page that had been underselling this archive by a year's work.** It opened *«almost every source below is an INDEX cited by the family tree, not a document this archive has seen»* and listed **no Italian civil register at all**; it closed under the heading *«What is not here yet»* with *«No Italian civil register has been read for this family. That is the largest single gap.»* Both were true on the day the archive was built. **The old headline is kept on the page, struck** — an archive that quietly deletes its own wrong headline is harder to trust than one that shows the correction.",
+      "covers": [
+        "src:src/sources-page-extracted-c3430d"
+      ]
     },
     {
       "n": 121,
