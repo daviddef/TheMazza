@@ -1803,7 +1803,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 8,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1839,7 +1839,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1875,7 +1875,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1903,7 +1903,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 7,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2034,6 +2034,16 @@
     "kind": "documented",
     "what": "Piedimonte Etneo, Nati 1872 atto 32",
     "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Piedimonte Etneo, Nati 1872 atto 32; Nati 1880 atto 66",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Piedimonte Etneo, Nati 1845 atto 64; Nati 1872 atto 32; Nati 1880 atto 66",
+    "href": "/corrections"
    }
   ],
   "corrections": [
@@ -2048,7 +2058,9 @@
    "Marriage -- missing entirely — MARRIED 30 APRIL 1871 at Piedimonte Etneo, act 14, at four in the afternoon. Both single, both born and living there, both braccianti.",
    "The chart says less than the archive knows — HIS PARENTS ARE NAMED IN HIS OWN BIRTH ACT: MARIANO MAZZA, thirty-six, bracciale, and MARIA CATALANO, thirty-six, Piedimonte Etneo Nati 1845 atto 64. The card is not a research wall -- it is the chart reporting that the FAMILY TREE has no parents for him, because the chart draws the tree and these two people are documented additions rather than tree people. The card's year is wrong too: 1850 is the tree's birth year and the act says 2 JUNE 1845.",
    "Age — a third confirmation — TWENTY-SEVEN on 13 February 1872, when he registered his son Mariano's birth in person -- so born about 1845. That is now THREE independent statements against the tree's 1850: his own birth act of 2 June 1845, his death act of 1924 making him seventy-nine, and his own word at a registration desk in 1872.",
-   "A child the tree does not have — FIVE, AND THE ELDEST IS MARIANO, born 12 February 1872 in contrada San Basilio and named for his grandfather exactly as the naming custom predicts. Salvatore follows on 5 January 1873, eleven months later -- so either Mariano died in infancy or the births are ten and a half months apart. His death has not been sought."
+   "A child the tree does not have — FIVE, AND THE ELDEST IS MARIANO, born 12 February 1872 in contrada San Basilio and named for his grandfather exactly as the naming custom predicts. Salvatore follows on 5 January 1873, eleven months later -- so either Mariano died in infancy or the births are ten and a half months apart. His death has not been sought.",
+   "A sixth child, and the custom called him — SIX AT LEAST. MARIANO, born 12 February 1872, named for his father's father; and GAETANO, born 5 May 1880, named for his mother's father GAETANO BONANNO -- which is exactly the order the Sicilian naming custom prescribes, first son for the paternal grandfather and the maternal grandfather next. Both in via San Basilio, both declared by Rosario in person, both absent from the family tree.",
+   "Declared age drifts three years — THE REGISTER ITSELF DISAGREES BY THREE YEARS IN 1880. He is twenty-seven in February 1872 and twenty-eight in January 1873 -- both fitting a birth in June 1845 -- and then THIRTY-TWO in May 1880, which would put him in 1848. His own birth act and his death act of 1924 both say 1845. RECORDED RATHER THAN AVERAGED: a declared age is a statement, not a measurement, and the act of birth outranks all of them."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -29897,7 +29909,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 10,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30115,7 +30127,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 9,
+  "comp": 5,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30158,7 +30170,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 10,
+  "comp": 6,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,

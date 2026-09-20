@@ -139,6 +139,20 @@
    "street": "via Grotta Nicodemo",
    "date": "21 October 1877",
    "note": "NOT OUR HOUSEHOLD, AND THIS IS THE NAMESAKE TRAP AT ITS WORST. A Rosario Mazza whose wife is ALSO a Leonarda -- but LEONARDA MONACORSO, not Leonarda Bonanno -- living in VIA GROTTA NICODEMO, not contrada San Basilio, and given no patronymic where ours is always «di Mariano». The tree's Orazio Mazza is born 1883 to Rosario and Leonarda, so this act is exactly the kind of thing that gets attached to the wrong man. It is not him. TWO MARRIAGES IN THE MARGIN: «unito in matrimonio con CURCURUTO ROSA di Leonardo con atto del 26 Genn.o 905 iscritto in Linguaglossa», and a later stamped ANNOTAZIONE, «ha contratto matrimonio con MANGANO MARIA in Fiumefreddo giusta atto 22-2-1927»."
+  },
+  {
+   "kind": "birth",
+   "year": "1880",
+   "act": "66",
+   "ark": "an_ua83494",
+   "img": "30",
+   "subject": "Gaetano Mazza",
+   "father": "Mazza Rosario",
+   "fatherAge": "32",
+   "mother": "Bonanno Leonarda (industriosa)",
+   "street": "via S. Basilio",
+   "date": "5 May 1880",
+   "note": "Read in full. OURS: the street and the mother's full name both match, where the other Rosario Mazza of this town is in via Grotta Nicodemo with a Leonarda Monacorso. Registered before IGNAZIO DR. FRAGALA, assessore delegato, not the sindaco. NOTE THE AGE: «trentadue» puts his birth about 1848, where his own birth act says 2 June 1845 and would make him thirty-four. Declared ages drift; the birth act outranks this."
   }
  ],
  "households": [
@@ -283,6 +297,27 @@
      "year": "1880",
      "ark": "an_ua83494",
      "note": "Read in full. Witnesses Dimauro Salvatore 22 and Zappalà Sebastiano 24, both braccianti."
+    }
+   ]
+  },
+  {
+   "father": "Mazza Rosario",
+   "mother": "Bonanno Leonarda",
+   "occupations": [
+    "industriosa"
+   ],
+   "fatherBorn": "c. 1848",
+   "streets": [
+    "via S. Basilio"
+   ],
+   "children": [
+    {
+     "name": "Gaetano Mazza",
+     "date": "5 May 1880",
+     "act": "66",
+     "year": "1880",
+     "ark": "an_ua83494",
+     "note": "Read in full. OURS: the street and the mother's full name both match, where the other Rosario Mazza of this town is in via Grotta Nicodemo with a Leonarda Monacorso. Registered before IGNAZIO DR. FRAGALA, assessore delegato, not the sindaco. NOTE THE AGE: «trentadue» puts his birth about 1848, where his own birth act says 2 June 1845 and would make him thirty-four. Declared ages drift; the birth act outranks this."
     }
    ]
   }
