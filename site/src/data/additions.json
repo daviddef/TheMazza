@@ -106,27 +106,27 @@
  {
   "name": "Giovanni Arlotta",
   "gen": "7",
-  "born": "c. 1779",
-  "bornNote": "AGED SEVENTY-FIVE when he declared his grandson Giovanni's birth in April 1854, so born about 1779.",
+  "born": "c. 1800",
+  "bornNote": "TWENTY-EIGHT at his own marriage on 30 August 1828. His daughter's birth act of 1830 makes him forty and his grandson's of 1854 makes him seventy-five -- three of his own declarations, twenty-one years apart. The marriage act is preferred: it is the one where age carried legal weight and it names his parents.",
   "died": "—",
   "trade": "marinaro (sailor)",
   "father": "Domenico Arlotta",
-  "mother": "—",
+  "mother": "Anna Barbaro",
   "inTree": "—",
-  "source": "Scilla, Nati 1854 atto 76; Matrimoni 1851 atto 13; Nati 1830 atto 2",
+  "source": "Scilla, Nati 1854 atto 76; Matrimoni 1851 atto 13; Nati 1830 atto 2; Scilla, Matrimoni 1828 atto 28",
   "note": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor. NOW IN THREE ACTS AND DATED: the marriage act of 1851, his daughter's birth act of 1830, and the birth act of 1854 in which he appears IN PERSON, aged seventy-five, to declare his grandson -- and which names HIS OWN FATHER, Domenico."
  },
  {
   "name": "Maria Costa",
   "gen": "7",
-  "born": "c. 1807",
-  "bornNote": "TWENTY-THREE when her daughter Serafina was born on 13 June 1830, so born about 1807. Her first date of any kind.",
+  "born": "c. 1802",
+  "bornNote": "TWENTY-SIX at her marriage on 30 August 1828, with both her parents standing beside her and giving formal consent. CORRECTED THE SAME DAY IT WAS FIRST WRITTEN: her daughter's birth act of 1830 makes her twenty-three, which this archive entered as «c. 1807» that morning. Her own marriage act outranks her husband's statement at a registration desk.",
   "died": "before 24 April 1908",
   "trade": "tessitrice (weaver)",
-  "father": "—",
-  "mother": "—",
+  "father": "Rocco Costa",
+  "mother": "Pasqualina Idone",
   "inTree": "—",
-  "source": "Scilla, Matrimoni 1851 atto 13; Nati 1830 atto 2; Scilla, Nati 1830 atto 89 read in the processetti of 1851",
+  "source": "Scilla, Matrimoni 1851 atto 13; Nati 1830 atto 2; Scilla, Nati 1830 atto 89 read in the processetti of 1851; Scilla, Matrimoni 1828 atto 28",
   "note": "Giovanni Arlotta's wife. ENTIRELY ABSENT FROM THE FAMILY TREE. NOTE THE SURNAME: she is the SECOND Costa in this generation -- Filippo Arena's wife is Domenica Costa -- and their great-grandson Rocco married a THIRD, Generosa Costa. A Lorenzo Costa was also lodging with Rocco in New York in 1900. CONFIRMED TWICE, by the 1851 marriage act and the 1830 birth act."
  },
  {
@@ -160,13 +160,13 @@
   "gen": "8",
   "born": "before 1779",
   "bornNote": "Not sought. Scilla's civil registration begins in 1816, so his birth is pre-civil and would be a parish record.",
-  "died": "before April 1854",
+  "died": "before 30 August 1828",
   "trade": "—",
   "father": "—",
   "mother": "—",
   "inTree": "—",
   "source": "Scilla, Nati 1854, atto 76",
-  "note": "THE DEEPEST PERSON THIS ARCHIVE HAS REACHED ON THE CALABRIAN SIDE. Named only as 'il fu Domenico' in his son Giovanni Arlotta's own words, in the birth act of his great-grandson Giovanni Arena, 30 April 1854. A great-great-great-great-great-grandfather of Mia and Rocco. ENTIRELY ABSENT FROM THE FAMILY TREE."
+  "note": "THE DEEPEST PERSON THIS ARCHIVE HAS REACHED ON THE CALABRIAN SIDE. Named only as 'il fu Domenico' in his son Giovanni Arlotta's own words, in the birth act of his great-grandson Giovanni Arena, 30 April 1854. A great-great-great-great-great-grandfather of Mia and Rocco. ENTIRELY ABSENT FROM THE FAMILY TREE. TIGHTENED BY TWENTY-SIX YEARS: he is «FU Domenico Arlotta» in his son's marriage act of 30 AUGUST 1828, so dead before then, not merely before April 1854. AND HE HAS A WIFE NOW: ANNA BARBARO, who was alive at that wedding."
  },
  {
   "name": "Concetta Russo",
@@ -908,5 +908,44 @@
   "inTree": "—",
   "source": "Scilla, Morti 1912, parte I, atto 83",
   "note": "A CHILD THIS ARCHIVE DID NOT KNOW EXISTED, found while trying to prove something else. Rocco Arena and Generosa Costa had a daughter SERAFINA born at Scilla about May 1912 who lived three months. SHE IS THE SECOND SERAFINA: the first was baptised at Our Lady of Loretto, Manhattan, on 15 August 1898, and the couple gave the name again in Calabria fourteen years later -- the same reading this archive makes of their TWO SONS NAMED ANTONIO. NOTE WHAT SHE PROVES INCIDENTALLY: the household was at Scilla and still having children in 1912, which is the return from America seen from the inside, and GENEROSA COSTA was bearing a child at about forty-four. Her father is «ROCCO, MARINARO» here and «PESCATORE» on his own death act of 1932."
+ },
+ {
+  "name": "Anna Barbaro",
+  "gen": "8",
+  "born": "—",
+  "bornNote": "Not sought. Scilla's civil registration begins in 1809, so her birth is pre-civil.",
+  "died": "—",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "inTree": "—",
+  "source": "Scilla, Matrimoni 1828 atto 28",
+  "note": "GIOVANNI ARLOTTA'S MOTHER, and ALIVE at her son's wedding on 30 August 1828 -- «domiciliata ivi», where her husband is «fu». A name this archive has never held. She is Serafina Arlotta's grandmother and a great-great-great-great-great-grandmother of Mia and Rocco. BARBARO is a Scilla surname in its own right -- an Antonio Barbaro marries there the following year."
+ },
+ {
+  "name": "Rocco Costa",
+  "gen": "8",
+  "born": "—",
+  "bornNote": "Not sought; pre-1809 and therefore a parish record.",
+  "died": "—",
+  "trade": "marinaro (sailor)",
+  "father": "—",
+  "mother": "—",
+  "inTree": "—",
+  "source": "Scilla, Matrimoni 1828 atto 28",
+  "note": "MARIA COSTA'S FATHER, a MARINARO, and he STOOD AT HER WEDDING on 30 August 1828 and gave his «espresso e formale consenso» in person. Not in the family tree. NOTE WHAT HE IS NOT: this archive briefly carried a DOMENICO COSTA, commerciante, as a candidate for Maria's father, on the strength of his standing witness at her daughter's registration in 1830. HER FATHER WAS ROCCO. The candidate is withdrawn by the act, which is what candidates are for."
+ },
+ {
+  "name": "Pasqualina Idone",
+  "gen": "8",
+  "born": "—",
+  "bornNote": "Not sought; pre-1809.",
+  "died": "—",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "inTree": "—",
+  "source": "Scilla, Matrimoni 1828 atto 28",
+  "note": "MARIA COSTA'S MOTHER, alive and present at her daughter's wedding on 30 August 1828, consenting with her husband Rocco Costa. IDONE is a Scilla surname this archive has met once before -- a Giuseppe Idone, sixty-four, witnessed Rocco Arena's birth in 1861, thirty-three years later and four generations down the same street."
  }
 ]

@@ -40,6 +40,7 @@ FONT = next((f for f in ("/System/Library/Fonts/Supplemental/Arial.ttf",
              if os.path.exists(f)), None)
 FONTARG = ["-font", FONT] if FONT else []
 IIIF = "https://iiif-antenati.cultura.gov.it/iiif/2/{}/{}/{},/0/default.jpg"
+IIIF_FULL = "https://iiif-antenati.cultura.gov.it/iiif/2/{}/{}/full/0/default.jpg"
 
 
 def get(url):
@@ -60,7 +61,20 @@ def ids(container):
 
 
 def image(img_id, region="full", width=1800):
-    return get(IIIF.format(img_id, region, width))
+    """IIIF, with the native-resolution trap handled.
+
+    Bourbon-era scans are small -- around 1000x1500 where an Italian-era one is
+    4600x3700 -- and asking IIIF for a width LARGER THAN NATIVE returns 403
+    Forbidden. That reads exactly like the site's rate limiter and is not: the
+    limiter only ever touches HTML. So on a 403 here, fall back to /full/, which
+    always serves whatever the scan actually has.
+    """
+    try:
+        return get(IIIF.format(img_id, region, width))
+    except urllib.error.HTTPError as e:
+        if e.code != 403:
+            raise
+        return get(IIIF_FULL.format(img_id, region))
 
 
 def sheet(container, out, n=6):
