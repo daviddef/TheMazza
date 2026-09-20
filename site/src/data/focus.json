@@ -530,8 +530,19 @@
       "comp": 1
      },
      {
-      "id": "@I39@",
-      "slug": "giovanni-mazza-2",
+      "id": "@I34@",
+      "slug": "giovanni-mazza",
+      "name": "Giovanni Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": true,
+      "birthPlace": "Brisbane, Queensland",
+      "comp": 1
+     },
+     {
+      "id": "@I566@",
+      "slug": "giovanni-mazza-4",
       "name": "Giovanni Mazza",
       "surname": "Mazza",
       "born": null,
@@ -552,25 +563,14 @@
       "comp": 1
      },
      {
-      "id": "@I566@",
-      "slug": "giovanni-mazza-4",
+      "id": "@I39@",
+      "slug": "giovanni-mazza-2",
       "name": "Giovanni Mazza",
       "surname": "Mazza",
       "born": null,
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I34@",
-      "slug": "giovanni-mazza",
-      "name": "Giovanni Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
       "comp": 1
      },
      {
@@ -750,17 +750,6 @@
       "comp": 1
      },
      {
-      "id": "@I507@",
-      "slug": "maria-mazza-2",
-      "name": "Maria Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
-      "comp": 1
-     },
-     {
       "id": "@I543@",
       "slug": "maria-mazza-3",
       "name": "Maria Mazza",
@@ -791,6 +780,17 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I507@",
+      "slug": "maria-mazza-2",
+      "name": "Maria Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -1157,8 +1157,8 @@
       "comp": 1
      },
      {
-      "id": "@I512@",
-      "slug": "umberto-mazza-2",
+      "id": "@I506@",
+      "slug": "umberto-mazza",
       "name": "Umberto Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1168,8 +1168,8 @@
       "comp": 1
      },
      {
-      "id": "@I506@",
-      "slug": "umberto-mazza",
+      "id": "@I512@",
+      "slug": "umberto-mazza-2",
       "name": "Umberto Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1307,7 +1307,7 @@
     "towns": [
      "Brisbane, Queensland"
     ],
-    "component": 10,
+    "component": 3,
     "onSpine": [],
     "people": [
      {
@@ -1319,7 +1319,7 @@
       "died": null,
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
-      "comp": 10
+      "comp": 3
      }
     ]
    },
@@ -1328,7 +1328,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 6,
+    "component": 9,
     "onSpine": [],
     "people": [
      {
@@ -1340,7 +1340,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 6
+      "comp": 9
      }
     ]
    },
@@ -1349,7 +1349,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 8,
+    "component": 7,
     "onSpine": [],
     "people": [
      {
@@ -1361,7 +1361,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 8
+      "comp": 7
      }
     ]
    }
@@ -1522,14 +1522,14 @@
       "comp": 1
      },
      {
-      "id": "@I111@",
-      "slug": "anna-arena-1955",
+      "id": "@I486@",
+      "slug": "anna-arena-6",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
       "died": null,
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "datesHidden": false,
+      "birthPlace": "",
       "comp": 1
      },
      {
@@ -1555,8 +1555,8 @@
       "comp": 1
      },
      {
-      "id": "@I486@",
-      "slug": "anna-arena-6",
+      "id": "@I472@",
+      "slug": "anna-arena-4",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
@@ -1566,14 +1566,14 @@
       "comp": 1
      },
      {
-      "id": "@I472@",
-      "slug": "anna-arena-4",
+      "id": "@I111@",
+      "slug": "anna-arena-1955",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
       "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
+      "datesHidden": true,
+      "birthPlace": "Brisbane, Queensland",
       "comp": 1
      },
      {

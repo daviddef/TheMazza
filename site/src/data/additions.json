@@ -769,28 +769,28 @@
  {
   "name": "Giuseppe Polistena",
   "gen": "7",
-  "born": "—",
-  "bornNote": "Not yet sought. He is a generation above Camillo Antonio, who died in 1924 aged perhaps ninety, so a birth about 1800-1810 — inside Scilla's civil run, which begins in 1816 only for the later end.",
+  "born": "c. 1798",
+  "bornNote": "THIRTY-EIGHT when his daughter Annunziata was born on 2 December 1836, so born about 1798.",
   "died": "—",
-  "trade": "—",
+  "trade": "marinaro (sailor)",
   "father": "—",
   "mother": "—",
   "inTree": "—",
-  "source": "Antenati name index, Scilla, atto di morte 19 October 1924 (Camillo Antonio Polistena)",
-  "note": "A NEW ANCESTOR ON THE THINNEST QUARTER. Named as Camillo Antonio Polistena's father on his death act. The Polistena quarter had NO documented ancestor above Camillo Antonio at all; this is the first, and his wife Anna Pontillo is the second."
+  "source": "Antenati name index, Scilla, atto di morte 19 October 1924 (Camillo Antonio Polistena); Scilla, Nati 1836 atto 204",
+  "note": "A NEW ANCESTOR ON THE THINNEST QUARTER. Named as Camillo Antonio Polistena's father on his death act. The Polistena quarter had NO documented ancestor above Camillo Antonio at all; this is the first, and his wife Anna Pontillo is the second. DATED AND GIVEN A TRADE: thirty-eight and a MARINARO in December 1836. That sets the Polistena beside the Arena and the Arlotta as another Scilla sailing family, and it is the first fact about him that is not a name on his son's death act."
  },
  {
   "name": "Anna Pontillo",
   "gen": "7",
-  "born": "—",
-  "bornNote": "Not yet sought.",
+  "born": "c. 1801",
+  "bornNote": "THIRTY-FIVE when her daughter Annunziata was born on 2 December 1836, so born about 1801.",
   "died": "—",
   "trade": "—",
   "father": "—",
   "mother": "—",
   "inTree": "—",
-  "source": "Antenati name index, Scilla, atto di morte 19 October 1924 (Camillo Antonio Polistena)",
-  "note": "CAMILLO ANTONIO POLISTENA'S MOTHER, AND THE SOLUTION TO THE PONTILLO PROBLEM. The tree calls Giovanni Polistena's mother «Giovanna Pontillo». Three records call her Giovanna ROMANO. Here is where the Pontillo came from: it is the surname of Giovanni's PATERNAL GRANDMOTHER, one generation up, carried down onto the wrong woman."
+  "source": "Antenati name index, Scilla, atto di morte 19 October 1924 (Camillo Antonio Polistena); Scilla, Nati 1836 atto 204",
+  "note": "CAMILLO ANTONIO POLISTENA'S MOTHER, AND THE SOLUTION TO THE PONTILLO PROBLEM. The tree calls Giovanni Polistena's mother «Giovanna Pontillo». Three records call her Giovanna ROMANO. Here is where the Pontillo came from: it is the surname of Giovanni's PATERNAL GRANDMOTHER, one generation up, carried down onto the wrong woman. AND THE ACT OF 1836 CONFIRMS HER SURNAME AGAINST AN INDEX THAT GOT IT WRONG: the annual Tavola enters her daughter as «di Giuseppe e MARTELLO Anna»; the act says PONTILLO, which is what the death act of 1924 says too."
  },
  {
   "name": "Pasquale Donato",
@@ -960,5 +960,18 @@
   "inTree": "—",
   "source": "Scilla, Matrimoni 1811, Tavola annuale",
   "note": "MARIA COSTA'S SISTER, and so SERAFINA ARLOTTA'S AUNT. She married GIOVANNI VILARDI at Scilla in 1811; the annual Tavola names her parents as «Rocco e Pasqualina Idone», the same couple who stood at Maria's wedding in August 1828 and gave their consent in person. Her husband's parents are GAETANO VILARDI and ANTONIA MELLICA. Not in the family tree. FOUND IN AN INDEX OPENED FOR SOMEBODY ELSE -- the 1811 Tavola was being read for Filippo Arena, who is not in it."
+ },
+ {
+  "name": "Annunziata Polistina",
+  "gen": "6",
+  "born": "2 December 1836",
+  "bornNote": "Born at eight in the morning in her parents' own house, declared the same evening by the midwife Teresa Arena, forty-four.",
+  "died": "—",
+  "trade": "—",
+  "father": "Giuseppe Polistena",
+  "mother": "Anna Pontillo",
+  "inTree": "—",
+  "source": "Scilla, Nati 1836 atto 204",
+  "note": "CAMILLO ANTONIO POLISTENA'S SISTER, and the first sibling he has ever had in this archive. She was found through an index entry that named her mother WRONGLY -- «Martello Anna» where the act says ANNA PONTILLO -- and opening the act both corrected the index and confirmed the parentage that Camillo Antonio's own death act of 1924 gives. The surname is spelt POLISTINA in this act and POLISTENA in his; the register uses both."
  }
 ]
