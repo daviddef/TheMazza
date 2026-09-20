@@ -699,13 +699,14 @@
     },
     {
       "n": 79,
-      "what": "AUSTRALIA — sweep Trove's naturalisation notices properly",
-      "state": "next",
+      "what": "AUSTRALIA — Trove's naturalisation notices, blocked by the tool and not the archive",
+      "state": "blocked",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "**Phase 9.** Trove has already produced **Brisbane Prostamo naturalisations** and Maria Assunta's gazettal of 4 July 1966 at 3 Frank Street, Graceville — both found incidentally rather than by a sweep. **Naturalisation notices give a date, a street address and a former nationality**, which for a 1949 migration is close to what an electoral roll would give and is free. Sweep all ten surnames, not just the two that turned up by accident.",
+      "note": "**Phase 9.** Trove has already produced **Brisbane Prostamo naturalisations** and Maria Assunta's gazettal of 4 July 1966 at 3 Frank Street, Graceville — both found incidentally rather than by a sweep. **Naturalisation notices give a date, a street address and a former nationality**, which for a 1949 migration is close to what an electoral roll would give and is free. Sweep all ten surnames, not just the two that turned up by accident. **ATTEMPTED 20 SEPTEMBER AND IT WILL NOT RUN HERE.** Trove's search page loads, accepts the query and echoes it back — *«l-artType: newspapers / All of these words: Prostamo»* — and then **never renders a result list**. No count, no articles, no empty state. The console throws **«TypeError: Cannot read properties of undefined (reading 'clear')»** twice from Trove's own vendor bundle: a storage or cache API the browser pane does not provide, and the single-page app dies on it before it paints. **This is a tooling incompatibility, not a block and not an absence** — and it is written down that way because a blank Trove page is exactly the thing somebody records as *«nothing for Prostamo in Australian newspapers»*. That would be false: Trove has already given this archive Brisbane Prostamo naturalisations and Maria Assunta's gazettal of 4 July 1966 at 3 Frank Street, Graceville. **Two ways round, and the first is the real answer:** the **Trove API v3** is free and keyed, returns JSON, and needs no JavaScript at all — a key comes from the NLA in a few minutes and would make a ten-surname sweep mechanical. Otherwise, **David's own browser**, where the page works. **Blocked on a key, which is [row 153](/worklist/).**",
       "covers": [
-        "src:src/nara-new-york-rocco-arena--ea309f"
+        "src:src/nara-new-york-rocco-arena--ea309f",
+        "src:src/trove-attempted-and-bl-5cbbd7"
       ]
     },
     {
@@ -1355,6 +1356,15 @@
       "covers": [
         "src:src/naa-the-crupi-internmen-d47952"
       ]
+    },
+    {
+      "n": 153,
+      "state": "blocked",
+      "owner": "David",
+      "since": "2026-09-20",
+      "what": "A Trove API key — five minutes of David's time, and it unblocks a whole source",
+      "note": "**Trove will not run in this session's browser** ([row 79](/worklist/)): its single-page app throws inside its own vendor bundle on a storage API the pane does not provide, and never paints a result list. **The fix is not another attempt at the page.** **The Trove API v3 is free**, returns JSON, and needs no JavaScript. A key is requested from the National Library of Australia at **trove.nla.gov.au** under *For developers*; it takes a few minutes and asks only for a name and what the key is for. **What it would unblock.** Trove holds Australian newspapers and the **Commonwealth of Australia Gazette**, where **naturalisation notices give a date, a street address and a former nationality** — for a family that arrived in 1937 and 1949, that is close to what an electoral roll gives, and free. This archive has already had two finds out of Trove *by accident*: the Brisbane Prostamo naturalisations, and Maria Assunta Melluso's gazettal of **4 July 1966 at 3 Frank Street, Graceville**. Neither came from a sweep. **Ten surnames are waiting:** Mazza, Crupi, Arena, Polistena, Donato, Prostamo, Melluso, Cavallaro, Bova, Armanno. **Once the key exists**, put it somewhere this project can read and the sweep is mechanical — one GET per surname, no browser involved.",
+      "covers": []
     }
   ],
   "accounts": [
