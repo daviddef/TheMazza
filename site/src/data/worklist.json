@@ -689,10 +689,13 @@
     {
       "n": 77,
       "what": "STRUCTURE — give the Crupi somewhere to live on the site",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "**Phase 8.** Angela Crupi's three brothers — Pietro, Antonino and Mario — went in as documented additions today, and with their parents that is **six Crupi**. They have no page, no section, and no place in the four-quarters story, because they arrived through a marriage rather than a descent. **A short section, probably on /brisbane/, saying who they were and how they reached the family.**"
+      "note": "**Phase 8.** Angela Crupi's three brothers — Pietro, Antonino and Mario — went in as documented additions today, and with their parents that is **six Crupi**. They have no page, no section, and no place in the four-quarters story, because they arrived through a marriage rather than a descent. **A short section, probably on /brisbane/, saying who they were and how they reached the family.** **DONE, 21 SEPTEMBER.** A section on [/brisbane/](/brisbane/), which is where they actually are, built from `additions.json` so it cannot drift from the data. It carries what the family tree does not: that *«Angela Cupo»* is **Angela Crupi**, born 20 December 1900; that she had **three brothers in Queensland** and nobody knew; that **Pietro and Antonino** came into Brisbane together on the **Otranto** on 19 August 1930 as consecutive entries in the aliens register, and Angela followed on the **Viminale** in 1937 with two daughters; and that **Antonino was interned at Loveday**, a boot repairer at Ingham, born at **Piedimonte Etneo** — the Mazza's own town. **And it closes on the thing worth carrying away:** Pietro's missing aliens card looked like a gap and is not one — *«Alien Registration Certificate NOT ISSUED»*, because he was naturalised in 1932. **An explained absence and an unexplained one look identical until somebody checks.**",
+      "covers": [
+        "src:src/crupi-section-on-brisb-3d369c"
+      ]
     },
     {
       "n": 78,
@@ -1259,10 +1262,13 @@
     {
       "n": 140,
       "what": "Tell the estate that Antenati has a name index",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**This is not a Mazza finding, it is an estate finding, and the other archives are working Italian registers too.** `/search-nominative/?cognome=X&localita=Y&s_size=100` returns acts with **father, mother and spouse** already extracted, and for Scilla it covers deaths 1910–1943. **Falco and Defranceschi have been reading volumes the same way this archive has.** Worth a note carrying the query form, the `localita=` caution — `fq=` and `facets=` are **silently ignored** and return the unfiltered count — and the parsing rule that **only rows with a `p.morte` value are the deceased**; the rest are relatives seen from inside someone else's act, and reading them as deaths invents people."
+      "note": "**This is not a Mazza finding, it is an estate finding, and the other archives are working Italian registers too.** `/search-nominative/?cognome=X&localita=Y&s_size=100` returns acts with **father, mother and spouse** already extracted, and for Scilla it covers deaths 1910–1943. **Falco and Defranceschi have been reading volumes the same way this archive has.** Worth a note carrying the query form, the `localita=` caution — `fq=` and `facets=` are **silently ignored** and return the unfiltered count — and the parsing rule that **only rows with a `p.morte` value are the deceased**; the rest are relatives seen from inside someone else's act, and reading them as deaths invents people. **SENT, 21 SEPTEMBER**, to the landing site for circulation, with the query form and all three cautions — and with the one this row did not have: **the act type differs by comune.** Scilla is indexed for **deaths** 1911–1943 and **Pizzo for BIRTHS 1868–1903**, so an archive carrying «deaths only» across from one to the other would produce a confident negative on a series that is indexed the other way round. Five of the eight comuni this family touches are not indexed at all, so the annual Tavola remains the instrument for those — and that is written up on [/method/](/method/) beside it.",
+      "covers": [
+        "src:src/estate-told-antenati-n-7b0067"
+      ]
     },
     {
       "n": 141,

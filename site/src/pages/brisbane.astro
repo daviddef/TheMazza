@@ -5,6 +5,13 @@ import { u } from "../lib/url.js";
 import { people } from "../lib/people.js";
 import crossings from "../data/crossings.json";
 import burials from "../data/burials.json";
+import additions from "../data/additions.json";
+
+/* The Crupi arrived through a marriage rather than a descent, so they fall
+   outside the four-quarters story and had no place on the site at all — six
+   people documented across two countries and visible only as rows in a table.
+   They are here because Brisbane is where they actually are. */
+const crupi = additions.filter((a) => /\bCrupi\b/.test(a.name));
 const here = people.filter((p) => !p.living && [p.birthPlace, p.deathPlace, p.burialPlace]
   .some((x) => (x || "").includes("Queensland")));
 const au = crossings.filter((c) => /Fremantle|Brisbane/.test(c.arrived));
@@ -52,6 +59,42 @@ const au = crossings.filter((c) => /Fremantle|Brisbane/.test(c.arrived));
     <p class="cap">Fremantle was the first Australian landfall for ships out of the Suez route; a
     Brisbane-bound migrant was frequently disembarked and recorded there, then continued east.
     A Fremantle arrival in this table is not evidence that the person settled in Western Australia.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">A family that arrived sideways</div>
+    <h2 style="margin-top:.4rem">The Crupi, who came through a marriage</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The family tree has one of them, and it has her name wrong. <strong>“Angela Cupo”</strong> is
+      <strong>ANGELA CRUPI</strong>, born 20 December 1900, who married Rosario Mazza and lies at Nudgee.
+      Her Queensland death registration of 1973 names her parents — <strong>Francesco Crupi</strong> and
+      <strong>Maria Vecchio</strong> — and the same two names appear on three more registrations.</p>
+      <p><strong>She had brothers here, and nobody knew.</strong> Pietro, Antonino and Mario Crupi all
+      died in Queensland and all three registrations give the same parents as hers. Two of them —
+      <strong>Pietro and Antonino</strong> — came into Brisbane together on the <strong>OTRANTO on 19
+      August 1930</strong>, consecutive entries in the Brisbane aliens register. Angela followed on the
+      <strong>VIMINALE on 7 December 1937</strong> with two daughters, aged fifteen and eight — an arrival
+      this archive had no record of at all.</p>
+      <p><strong>Antonino was interned.</strong> His aliens card is stamped <strong>LOVEDAY 35924</strong>;
+      the reverse records him moved <em>“ex Gaythorne to 14A”</em> on 16 March 1943 and released back to
+      Queensland on 22 October 1943. He was a boot repairer at Ingham, five feet four, black eyes, black
+      hair, <em>the fourth finger of his right hand deformed</em> — and born at
+      <strong>Piedimonte Etneo</strong>, the Mazza's own town.</p>
+      <p class="note"><strong>And one absence turned out to have a reason.</strong> Pietro has no aliens
+      registration card, which looked like a gap. <em>NAA: BP4/3, ITALIAN CRUPI P</em> records
+      “Alien Registration Certificate <strong>NOT ISSUED</strong>”, the folio noting that he was
+      <strong>naturalised on 23 February 1932</strong>. By 1939 he was a British subject and outside the
+      series. An explained absence and an unexplained one look identical until somebody checks.</p>
+    </div>
+    <div class="rec" style="margin-top:20px">
+      {crupi.map((c) => (
+        <>
+          <div class="k">{c.born && c.born !== "—" ? c.born : "no date"}</div>
+          <div class="v"><strong>{c.name}</strong> — {c.note}</div>
+          <div class="w"></div>
+        </>
+      ))}
+    </div>
   </section>
 
   <section class="blk" style="border-bottom:0">
