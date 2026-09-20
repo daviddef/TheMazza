@@ -1526,5 +1526,21 @@
   "source": "Antenati — Briatico relisted, and the listing is NOT complete",
   "scope": "Turning the Piedimonte lesson on the other deep line: `briatico-arks.tsv` holds EIGHTY registers, and nobody had checked whether that is the holding or just what was looked for. Prompted by CATERINA MELLUSO, born at Briatico in 1860 -- a wall on the ancestry chart with no parents and not one record against her.",
   "result": "BRIATICO HAS 555 REGISTERS, NOT EIGHTY. The result facets read «Archivio di Stato di Catanzaro (440)» and «Archivio di Stato di Vibo Valentia (115)». A listing at s_size=500 returned 500 of them and showed years running 1810 to 1930 WITH NOTHING BETWEEN 1859 AND 1910 -- which would put Caterina Melluso's 1860 birth and her marriage to Alfonso Prostamo beyond Antenati entirely. THAT IS NOT YET A FINDING AND IS RECORDED AS PART, NOT DONE. FIFTY-FIVE REGISTERS WERE NOT IN THE SAMPLE, and the ones held at Vibo Valentia rather than Catanzaro are exactly where a later series would sit. A 500-of-555 listing reported as a gap is the same error as a partial index section reported as a negative, and this archive has paid for that twice. s_size above 500 times out and the rate limiter closed the session before it could be finished by year probes. TO FINISH: one listing that reaches all 555, or year probes on 1860, 1880 and 1900."
+ },
+ {
+  "key": "src/antenati-scilla-matrim-ae7a89",
+  "status": "done",
+  "when": "20 Sep 2026",
+  "source": "Antenati — Scilla, Matrimoni 1809 read entire: the first year of the register",
+  "scope": "Rows 157 and 167. Container LD6vJel, twenty-five acts. The napoleonic form is BETTER than the restaurazione one for this: it names the groom, his age, his trade, his parents and THE BRIDE in one block, so a single crop band reads both spouses.",
+  "result": "COMPLETE AND NEGATIVE FOR BOTH SURNAMES. No Arena groom, no Donato groom, in the first year Scilla ever registered a marriage. The volume's end was found before the negative was written -- images 26 and 27 are blank forms. TWO BRIDES WORTH KEEPING: act 2 is FORTUNATA DONATO and act 10 is GIACOMA ARENA. Both families were in the town in 1809, which is what makes the negative on the grooms worth something."
+ },
+ {
+  "key": "src/antenati-scilla-matrim-7ee992",
+  "status": "done",
+  "when": "20 Sep 2026",
+  "source": "Antenati — Scilla, Matrimoni 1813-1814 read entire, and an Arena household nobody had met",
+  "scope": "Rows 157 and 167. Container 0MnkW4l, two years in one volume, forty-four acts, read groom by groom off the act head.",
+  "result": "NO DONATO GROOM IN EITHER YEAR -- so with 1809, 1815, 1816 and 1817, SIX YEARS ARE NOW CLEAR FOR CANDELORO DONATO. 1810, 1811 and 1812 are NOT: their Tavole were read for the letter F on the Arena hunt, and a Candeloro sits under C or D. AND ACT 21 IS AN ARENA: DIEGO ARENA, thirty-seven, SARTORE, «figlio maggiore di DOMENICO ARENA, di anni SETTANTA, di professione BARBIERE, e di ANNA MELIDONI», marrying Maria Giuseppa Pontillo, sixteen, on 12 August 1813. DOMENICO ARENA WAS BORN ABOUT 1743, earlier than any Arena in this archive including Orazio, and he is a BARBER where the spine is sailors. NOTHING JOINS HIM TO FILIPPO and this archive has been caught by a shared given name before."
  }
 ]
