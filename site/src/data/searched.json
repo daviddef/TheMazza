@@ -1558,5 +1558,13 @@
   "source": "Antenati — six Arena households at Scilla in the napoleonic years, and not one of them is Filippo's",
   "scope": "Row 157. Every napoleonic marriage year, 1809-1817, read for the surname ARENA on BOTH sides and in the parents' columns, which the 1811 and 1812 Tavole supply.",
   "result": "SIX ARENA, NONE OF THEM JOINED. As a GROOM: DIEGO ARENA, sartore, 1813 act 21, son of DOMENICO ARENA, barbiere, SEVENTY -- born about 1743, the earliest Arena in this archive. As BRIDES: GIACOMA ARENA (1809 act 10) and GIOVANNA ARENA (1812 act 10, daughter of CARLO ARENA and EUGENIA ATEJA). As MOTHERS: NATALINA ARENA (1811) and ANTONIA ARENA, dead before 1811, wife of Domenico Falcomata, whose two daughters marry in 1811 and 1812. SO THERE ARE AT LEAST THREE ARENA FATHERS AT SCILLA IN THIS DECADE -- DOMENICO the barber, CARLO, and ORAZIO who is Filippo's -- AND NOTHING CONNECTS THEM. That is the finding: not a line, but the shape of a surname in a town, and a warning against the join this archive would most like to make."
+ },
+ {
+  "key": "src/qld-bdm-nicotra-cassan-27b332",
+  "status": "done",
+  "when": "20 Sep 2026",
+  "source": "Queensland BDM — the whole NICOTRA and CASSANETI/CASSANITI index, swept by surname",
+  "scope": "Row 161. The registrar's `downloadSearch` endpoint returns a whole result set as CSV in one GET. It refuses curl with a 403 and works from inside the site's own origin. Three spellings tried.",
+  "result": "EIGHTEEN NICOTRA IN QUEENSLAND AND ONLY ONE IS OURS -- the 1963 death of «Maria Nicotra Mazza», parents JOHN NICOTRA and VENERA CASSANETI, which this archive already held. NOT ONE OTHER NICOTRA REGISTRATION NAMES EITHER OF THEM AS A PARENT, so Maria appears to have had no sibling who died or married in Queensland; the Queensland Nicotra are Maccarone, Patane, Scalia and Carbone households and none of them is hers. AND THE SURNAME IS PROBABLY SPELT WRONG: «CASSANETI» RETURNS NOTHING AT ALL in the whole index -- her own death registration is the only instance of that spelling in Queensland -- while «CASSANITI» returns five, and CASSANITI is the ordinary Catanese form. It is also the form in the PIEDIMONTE birth index, which holds a «Cassaniti Sebastiano» and a «Cassaniti Leonardo Maria» in 1875 alone. So the tree's spelling comes from an informant at a Brisbane registry in 1963, and the Sicilian records will not answer to it."
  }
 ]

@@ -1803,7 +1803,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1839,7 +1839,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1875,7 +1875,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 8,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1903,7 +1903,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 9,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -27071,8 +27071,16 @@
    }
   ],
   "siblings": [],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "probable",
+    "what": "Queensland BDM, death 1963/B/61348 and the whole surname index; Piedimonte Etneo, Nati 1875 Indice Annuale",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "Surname — the spelling is an informant's, not a record's — PROBABLY VENERA CASSANITI. «Cassaneti» appears exactly once in the whole Queensland index -- on her daughter's 1963 death registration, taken down from an informant at a Brisbane registry -- and NOWHERE ELSE. «CASSANITI» returns five Queensland registrations and is the ordinary Catanese form; it is also what the PIEDIMONTE ETNEO birth index writes, holding a Cassaniti Sebastiano and a Cassaniti Leonardo Maria in 1875 alone. THIS MATTERS PRACTICALLY: a Sicilian register searched for «Cassaneti» will return nothing and the negative will mean nothing. Search Cassaniti."
+  ],
   "onSpine": true,
   "ancGen": 5
  },
@@ -29953,7 +29961,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30135,7 +30143,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 3,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30178,7 +30186,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 7,
+  "comp": 4,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
