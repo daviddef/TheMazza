@@ -366,22 +366,5 @@
     "source": "Scilla, Morti 1891, atto 22"
    }
   ]
- },
- "giuseppe-arena": {
-  "anchor": "Giuseppe Arena",
-  "exportName": "Giuseppe Arena",
-  "ancGen": 4,
-  "up": [],
-  "down": [
-   {
-    "name": "Francesco Giovanni Rocco Arena",
-    "rel": "father",
-    "gen": "4",
-    "born": "c. August 1897",
-    "died": "30 June 1898",
-    "trade": "—",
-    "source": "Scilla, Morti 1898, atto 91"
-   }
-  ]
  }
 }

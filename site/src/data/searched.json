@@ -1566,5 +1566,13 @@
   "source": "Queensland BDM — the whole NICOTRA and CASSANETI/CASSANITI index, swept by surname",
   "scope": "Row 161. The registrar's `downloadSearch` endpoint returns a whole result set as CSV in one GET. It refuses curl with a 403 and works from inside the site's own origin. Three spellings tried.",
   "result": "EIGHTEEN NICOTRA IN QUEENSLAND AND ONLY ONE IS OURS -- the 1963 death of «Maria Nicotra Mazza», parents JOHN NICOTRA and VENERA CASSANETI, which this archive already held. NOT ONE OTHER NICOTRA REGISTRATION NAMES EITHER OF THEM AS A PARENT, so Maria appears to have had no sibling who died or married in Queensland; the Queensland Nicotra are Maccarone, Patane, Scalia and Carbone households and none of them is hers. AND THE SURNAME IS PROBABLY SPELT WRONG: «CASSANETI» RETURNS NOTHING AT ALL in the whole index -- her own death registration is the only instance of that spelling in Queensland -- while «CASSANITI» returns five, and CASSANITI is the ordinary Catanese form. It is also the form in the PIEDIMONTE birth index, which holds a «Cassaniti Sebastiano» and a «Cassaniti Leonardo Maria» in 1875 alone. So the tree's spelling comes from an informant at a Brisbane registry in 1963, and the Sicilian records will not answer to it."
+ },
+ {
+  "key": "src/antenati-scilla-matrim-20fd35",
+  "status": "done",
+  "when": "20 Sep 2026",
+  "source": "Antenati — Scilla, Matrimoni 1821: FILIPPO ARENA'S BROTHER",
+  "scope": "Row 157, on its own stated method: find a sibling, and the year that sibling married will date the parents. The 1821 Tavola is alphabetised BY SURNAME, so Arena sits at the top of the book and the whole test is one crop.",
+  "result": "TWO ARENA GROOMS IN THE A SECTION, AND THE SECOND IS HIM. «ARENA GIUSEPPE x POLISTINA MARIA TERESA -- ORAZIO, e LITTERIA MORABITO -- 13 9bre», act 29. The act, read in the original: «GIUSEPPE ARENA, di anni VENTISETTE, nato in questo Comune, di professione MARINARO, FIGLIO DI ORAZIO ARENA, di professione MARINARO, E DI LITTERIA MORABITO», promessa 7 November 1821 before TOMMASO CUTELLI -- the same sindaco who married Filippo in 1815. THE METHOD PAID EXACTLY AS PREDICTED: Orazio and Litteria are named WITHOUT «fu», so both were alive on 7 November 1821, six years later than anything else showed. And LITTERIA is confirmed a third time. The other A entry, ARENA ROCCO x COSTA DOMENICA (act 20), has different parents and is a different household -- a fourth Arena family at Scilla."
  }
 ]
