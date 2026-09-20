@@ -1,6 +1,6 @@
 {
- "count": 193,
- "documented": 152,
+ "count": 198,
+ "documented": 157,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -2266,6 +2266,76 @@
      "recordSays": "GENERATION EIGHT. Filippo Arena is generation seven in this archive's numbering, so his parents are generation eight -- the same depth already reached on the Arlotta-Costa side with Rocco Costa and Pasqualina Idone. The find is no less real for being one step shallower than the row promised, but the row promised wrong.",
      "source": "data/documented-additions.tsv",
      "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "Birth — exact, from his own baptism",
+   "rows": [
+    {
+     "kind": "Birth — exact, from his own baptism",
+     "who": "Filippo Arena",
+     "slug": "—",
+     "treeSays": "Born about 1794, from the age he gave at his son's birth registration in 1819",
+     "recordSays": "BORN AT SCILLA ON 25 MARCH 1793 AND BAPTISED THE SAME DAY, «infantem hodie natum», with the name PHILIPPUS NUNTIATUS. He gave his age as twenty-five in November 1819; he was twenty-six. The extract was copied from the parish book of baptisms for his own marriage file in May 1815.",
+     "source": "Scilla, processetti 1815 n. 29, folio 114",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Birth — exact, and the five-year dispute is settled",
+   "rows": [
+    {
+     "kind": "Birth — exact, and the five-year dispute is settled",
+     "who": "Domenica Costa",
+     "slug": "—",
+     "treeSays": "Born about 1792 or about 1787, depending which act was believed",
+     "recordSays": "BORN AT SCILLA ON 16 JUNE 1787 AND BAPTISED THE SAME DAY by the archpriest Giuseppe Ingigneri, with the name DOMINICA JOSEPHA. So her own marriage act was right -- twenty-eight in November 1815 -- and her husband's answer at their son's birth registration in 1819 was FIVE YEARS WRONG: she was thirty-two, not twenty-seven. This archive had recorded both figures and refused to choose; the baptism chooses.",
+     "source": "Scilla, processetti 1815 n. 29, folio 115",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Given name — corrected within the day",
+   "rows": [
+    {
+     "kind": "Given name — corrected within the day",
+     "who": "Litteria Morabito",
+     "slug": "—",
+     "treeSays": "Setteria Morabito, as this archive read the civil marriage act that morning",
+     "recordSays": "LITTERIA MORABITO. Her son's baptism extract, written in a clear Latin hand and copied into the same bundle, reads «ex Horatio Arena et LITTERIA MORABITO coniugibus». Litteria is a real name on this coast -- from the Madonna della Lettera, patroness of Messina across the strait -- and Setteria is not. THE RULE THIS PAYS FOR: where a marriage bundle survives, read the extracts before trusting a given name off the civil act; the parish copy is usually the better hand.",
+     "source": "Scilla, processetti 1815 n. 29, folio 114",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Generation nine, on the Scilla side, for the first time",
+   "rows": [
+    {
+     "kind": "Generation nine, on the Scilla side, for the first time",
+     "who": "Giuseppe Costa and Giacoma Turco",
+     "slug": "—",
+     "treeSays": "The Scilla lines stop at Filippo Arena, generation seven",
+     "recordSays": "GIUSEPPE COSTA AND GIACOMA TURCO, both dead before March 1790. Three documents stacked: the 1815 civil act named Domenica Costa's dead father; the marriage bundle copied his parish death act; and that act calls him «filius QUONDAM Josephi et Jacobae Turco». The single word «quondam» is what makes them generation nine and what dates them. Nothing further is reachable -- Scilla's civil registers begin nineteen years after their son died.",
+     "source": "Scilla, processetti 1815 n. 29, folio 116",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "The parish books of Scilla existed in 1815 and were named",
+   "rows": [
+    {
+     "kind": "The parish books of Scilla existed in 1815 and were named",
+     "who": "the Chiesa Matrice of Scilla",
+     "slug": "—",
+     "treeSays": "Row 158: pre-1809 Scilla is parish, and nothing is known of what survives",
+     "recordSays": "SOMETHING IS NOW KNOWN. The 1815 bundle quotes two books by name and cites the officials who held them: the «liber Baptizatorum» and the «liber Defunctorum» of the Matrice, kept by the archpriest D. GIUSEPPE INGIGNERI and searched by the economo curato LEONARDO CANTORE BANDIERA, who signed all three extracts. The baptism book was open at 1787 and 1793 and the death book at 1790, so both ran back at least to 1787. That is what to ask the Archivio Storico Diocesano at Reggio about -- named books, named custodians, named years -- rather than a general question about Scilla.",
+     "source": "Scilla, processetti 1815 n. 29",
+     "confidence": "documented"
     }
    ]
   }
