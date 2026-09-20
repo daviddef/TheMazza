@@ -1515,6 +1515,17 @@
       "covers": [
         "src:src/antenati-piedimonte-na-57bea5"
       ]
+    },
+    {
+      "n": 166,
+      "state": "running",
+      "owner": "this archive",
+      "since": "2026-09-20",
+      "what": "Caterina Melluso, born Briatico 1860 — a wall with not one record against her",
+      "note": "**She is on the chart and she is blank.** Caterina Melluso, born at Briatico in 1860, died 1957, married **Alfonso Prostamo** and had six children including **Francessco Prostamo**, who came to Brisbane in 1957. The family tree gives her **no parents**, and this archive has **never opened a single record for her** — her person page carries none. **Two documents would do it:** her birth act of 1860, which names her father with his age and her mother; or her marriage to Alfonso, about 1880, which names both couples. **And the first thing checked was not the records but the listing, because that is what Piedimonte taught today.** `briatico-arks.tsv` holds **eighty** registers. **Briatico has 555** — the facets read *Catanzaro (440)* and *Vibo Valentia (115)*. **So the same under-listing was sitting on the deepest line in the archive.** **What is established and what is not.** A listing at `s_size=500` returned 500 of the 555 and showed the years running **1810 to 1930 with nothing between 1859 and 1910**. **That is not yet a finding.** Fifty-five registers were not in the sample, and the Vibo Valentia holdings are exactly where a later series would sit. A 500-of-555 listing reported as a gap would be the same error as a half-read index section reported as a negative — paid for twice already this week. `s_size` above 500 times out and the rate limiter closed the session before year probes could settle it. **Next, and cheap:** one complete listing, or three year probes — 1860, 1880, 1900. If the gap is real, Caterina is a **Vibo Valentia** archive enquiry or a comune letter, not a search. If it is not, her birth act is one container away.",
+      "covers": [
+        "src:src/antenati-briatico-reli-b372ad"
+      ]
     }
   ],
   "accounts": [
