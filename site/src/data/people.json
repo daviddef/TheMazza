@@ -1803,7 +1803,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1875,7 +1875,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 3,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1903,7 +1903,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -13151,8 +13151,16 @@
     "living": false
    }
   ],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "flagged",
+    "what": "Piedimonte Etneo, Nati 1883 Indice Annuale; Nati 1877 atto 168",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "The year is untested and the obvious act is somebody else's — NO BIRTH ACT AT PIEDIMONTE IN 1883. The annual index for that year holds MAZZA ROSARIA 117 and MAZZA VENERA 118 and no Orazio at all. There IS an Orazio Mazza born at Piedimonte on 21 October 1877, act 168 -- but his father is the OTHER Rosario Mazza of the town, whose wife is LEONARDA MONACORSO and who lives in via Grotta Nicodemo, where ours is «Rosario Mazza di Mariano» with LEONARDA BONANNO in via San Basilio. UNLOCATED, NOT DISPROVED: 1884 onwards and 1874-1876 are unread for the M section, and the tree's years in this family run five and six out as a matter of course."
+  ],
   "onSpine": false,
   "ancGen": null
  },
@@ -29909,7 +29917,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29945,7 +29953,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 8,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30127,7 +30135,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 5,
+  "comp": 10,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30170,7 +30178,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 7,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
