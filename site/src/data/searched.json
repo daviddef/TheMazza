@@ -1694,5 +1694,13 @@
   "source": "Antenati name index — ALL 69 Arena deaths at Scilla 1910-1943, pulled and read",
   "scope": "Rows 146 and 140. The query was re-run to TEST THE FORM this archive had just broadcast to three other archives -- an untested method note is untested code. It works, and it returns far more than the earlier sweep saw.",
   "result": "SIXTY-NINE ARENA, NOT TWENTY-SIX. The earlier sweep worked from twenty-six indexed Arena deaths; the full pull returns 152 rows which deduplicate to about sixty-nine people, every one with parents or spouse. AND THE ANSWER FOR ROW 146 HOLDS AGAINST THE LARGER SET: only TWO carry «Madre Serafina Arlotta» -- ROCCO, 8 February 1932, «Padre Francesco Antonio ... Coniuge Generosa Costa», and GIOVANNI, 31 March 1936, «Padre Antonio ... Coniuge Concetta Russo». FILIPPO AND GIUSEPPE, born 1852 and 1860, ARE IN NONE OF THE SIXTY-NINE. THE «p.morte» CAUTION IS NOW CONFIRMED BY EXAMPLE, not just asserted: the index returns «Rocco Arena -- Figlio Serafina Arena -- Atto di morte 15 Agosto 1912» AND «Serafina Arena -- Morte: Scilla, 15/08/1912 -- Padre Rocco Arena, Madre Generosa Costa». The dead child is Serafina; the first row is her father seen from inside her act. Reading it as his death would have killed Rocco Arena twenty years early, with a plausible date."
+ },
+ {
+  "key": "src/antenati-name-index-th-642f68",
+  "status": "done",
+  "when": "21 Sep 2026",
+  "source": "Antenati name index — NICOTRA at Catania, PROSTAMO at Pizzo, CASSANITI at Catania",
+  "scope": "Three questions the name index could in principle answer: Maria Nicotra's parents, the Prostamo who stayed at Pizzo, and the real spelling of Venera Cassaneti. EACH ZERO WAS CONTROL-TESTED in the same breath against «Arena at Scilla», which returns 69.",
+  "result": "ALL THREE ARE REAL NEGATIVES AND NOT THROTTLING. The control returned 69 risultati and 275 links; Prostamo at Pizzo and Cassaniti at Catania each returned «Nessun risultato» with thirty boilerplate links and no result count. A ZERO FROM AN OBJECT NOT VERIFIED IS NOT A NEGATIVE, IT IS NO RESULT -- the Booyzen session's phrasing, adopted. NICOTRA AT CATANIA RETURNS EIGHT DECEASED AND NOT ONE IS HERS: Concetta at Catenanuova, three Giuseppe and a Nunziata at VICOPISANO -- which is in TUSCANY. THAT IS THE «localita=» CAUTION DEMONSTRATED IN THIS ARCHIVE'S OWN DATA: the parameter matches any place attached to a person, not the place of death, so a query scoped to Catania returned people who died four hundred miles away. PROSTAMO AT PIZZO IS THE MORE SURPRISING NIL: Pizzo is name-indexed for BIRTHS 1868-1903 and this family was certainly at Pizzo -- so either the Prostamo had left by 1868 or the indexing does not reach them."
  }
 ]

@@ -68,5 +68,19 @@
   "what": "A double-entry book closes each page with a total and opens the next with a «riporto». So the document states, in its own hand, whether your reading of it is complete.",
   "how": "The 1714 Piedimonte riveli index is seventeen images. Twelve were read and two pages looked like blank versos at thumbnail size. p6 closes at 1468 and p8 opens at 2556 -- eleven households looked straight past, and a negative eleven households short would have read exactly like a complete one.",
   "caution": "IT IS THE ONLY CHECK THAT COMES FROM INSIDE THE DOCUMENT rather than from a second source, and it is the reason to fetch the thing you are about to skip. It works on act numbers and folio numbers too: a jump in either says a frame is missing or a page was not photographed. It does NOT tell you the reading was CORRECT, only that it was whole."
+ },
+ {
+  "instrument": "The Tavola that stops early, or is blank",
+  "where": "Any comune -- reported from Arienzo, Caserta, by the Falco archive",
+  "what": "A Tavola can be present, properly headed, ruled and filled in -- AND STOP AT C. Arienzo births 1832 runs Anzivino, Andrea, Arrigale, Ambrosio, Bernardo, Balletta, Crisci, Cimmino, and the volume ends. The 1834 death index there is a single leaf covering A to C, marked END. And Arienzo births 1836 has a printed heading, ruled columns and EVERY CELL EMPTY.",
+  "how": "«A search that reaches the C page and finds nothing has not reached F.» This archive's own Tavola sweeps survive it for one reason worth stating: where a year appeared to have NO A SECTION, the entry NUMBERING was checked -- a Tavola opening at B with entry 1 has no A entries, where a Tavola opening at B with entry 12 is missing a page.",
+  "caution": "CHECK THE LAST LETTER THE TAVOLA ACTUALLY REACHES, not just its alphabetical key. And a BLANK Tavola is nastier than an absent one, because it files itself in a note as «not read» and somebody opens it again. Reported by the Falco archive, 21 September 2026."
+ },
+ {
+  "instrument": "The declarant is not the father",
+  "where": "Italian birth registers, both countries",
+  "what": "A birth act opens on a right page naming whoever PRESENTED the child, and the PARENTS are named at the top of the next left page. In some years the presenter is the father; in others act after act is presented by the LEVATRICE, the midwife.",
+  "how": "A band sweep of the declarant line works perfectly in a year of fathers and SILENTLY DROPS EVERY FATHER WHOSE CHILD THE MIDWIFE CARRIED. It cost the Falco archive a full re-sweep of a 128-image volume.",
+  "caution": "IF YOU ARE BANDING A BIRTH VOLUME, BAND THE PARENTS LINE, NOT THE DECLARANT LINE. The failure produces a clean, complete-looking, confident negative -- which is the only kind that survives review. This archive's own montage sweeps are of MARRIAGE volumes, where the band carries the groom and his father, so they are not exposed; its birth work has been index-first. Reported by the Falco archive, 21 September 2026."
  }
 ]
