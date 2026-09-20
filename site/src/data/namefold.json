@@ -1,6 +1,8 @@
 {
  "note": "Variant → canonical, for SEARCH only. Built by kit/tools/namefold.py; run it again rather than editing it. Folding widens what a query matches and never merges a record with another.",
  "fold": {
+  "ericksen": "eriksen",
+  "eriksen": "eriksen",
   "fragala": "fragala",
   "fragalà": "fragala"
  }
