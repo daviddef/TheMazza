@@ -41,20 +41,40 @@ os.chdir(os.path.join(HERE, ".."))
 
 # Phrases that assert emptiness. Deliberately narrow: this should catch rows
 # that CLAIM a nil, not every row that happens to contain the word «no».
+#
+# THE FIRST VERSION OF THIS REGEX OVER-REPORTED AND THE NUMBER WAS PUBLISHED
+# BEFORE IT WAS TESTED. «not one» matched «NOT ONE AT NUDGEE» inside a Find a
+# Grave row that reports ELEVEN BURIALS -- a row full of findings, flagged as an
+# unreachable nil. A checker written to catch unfalsifiable claims must not make
+# one itself.
 NIL = re.compile(
     r"\b(returns? nothing|returned nothing|not in the index|no results?\b|"
-    r"nessun risultat|zero\b|a real negative|complete negative|"
-    r"is not there|are not there|no [a-z]+ (?:whatever|at all)|"
-    r"not one\b|none of (?:them|these) is)\b", re.I)
+    r"nessun risultat|a real negative|complete negative|"
+    r"is not there|are not there|no [a-z]+ (?:whatever|at all))\b", re.I)
 
 # Sentences that say what the instrument could have reached. A nil accompanied
 # by any of these has at least been ASKED the right question.
+#
+# ALSO WIDENED AFTER TESTING. Three flagged rows turned out to state their reach
+# perfectly well in prose this did not recognise: «BT 26 and BT 27 cover UK
+# PORTS ONLY», «CIVIL REGISTRATION IN THE PROVINCE OF MESSINA BEGINS IN 1820»,
+# and a listing whose volume counts per year were given outright. The rule those
+# three share is that they name a BOUNDARY -- of place, of date, or of record
+# type -- so the patterns below look for boundaries rather than for the word
+# «coverage».
 REACH = re.compile(
-    r"\b(indexed|not name-indexed|name index covers|coverage|covers? only|"
-    r"holds? (?:only|no)\b|does not (?:hold|cover)|control[- ]test|"
-    r"controlled against|in the same breath against|which returns \d|"
-    r"the facets?\b|facet total|whole holding|not a sample|"
-    r"read (?:entire|in full|end to end)|every entry|all \d+ )\b", re.I)
+    r"\b(indexed|not name-indexed|name index covers|coverage|"
+    r"covers?\b[^.]{0,40}\bonly\b|\bonly\b[^.]{0,40}\bcovers?\b|"
+    r"holds? (?:only|no)\b|does not (?:hold|cover|reach)|"
+    r"begins? in \d{4}|starts? (?:in|with) \d{4}|stops? (?:at|in) \d{4}|"
+    r"runs? (?:from|to) \d{4}|reach(?:es)? back|"
+    r"control[- ]test|controlled against|in the same breath against|"
+    r"which returns \d|the facets?\b|facet total|whole holding|not a sample|"
+    r"read (?:entire|in full|end to end)|every entry|all \d+ |"
+    r"structural rather than|were always unlikely|was always unlikely|"
+    r"and nothing else|nothing before \d{4}|could never have (?:held|reached)|"
+    r"says? nothing about|a fact about the (?:index|comune|instrument|source))\b",
+    re.I)
 
 rows = list(csv.DictReader(open("data/searched.tsv", encoding="utf-8"),
                            delimiter="\t"))
