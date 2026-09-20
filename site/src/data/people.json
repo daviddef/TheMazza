@@ -1792,7 +1792,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1828,7 +1828,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 8,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1864,7 +1864,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 3,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1892,7 +1892,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 10,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2648,12 +2648,18 @@
     "kind": "inferred",
     "what": "NAA passenger arrivals index, item 9245788",
     "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "NAA: J25, 1971/3900 (item 5121950)",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "Not in the index under her own name. Her brother Antonino IS, on the Surriento arriving 17 June 1949 -- the exact date the tree gives for her.",
    "She is named on her husband's file with her maiden name, exactly as Domenica Prostamo is on Sebastiano Mazza's. The NAA's own description hedges her given name -- «Angelina [or Angela]» -- which is the file itself being uncertain, not the archive.",
-   "Crossing -- ship named — The SURRIENTO. She is not indexed, but her brother Antonino is, arriving on that exact date."
+   "Crossing -- ship named — The SURRIENTO. She is not indexed, but her brother Antonino is, arriving on that exact date.",
+   "Marriage — undocumented until now — A COMMONWEALTH FILE NAMES THEM AS HUSBAND AND WIFE. NAA: J25 1971/3900, held at Brisbane, 1953-1971: «ARENA, ROCCO; WIFE ANGELINA [OR ANGELA] [NEE POLISTENA]». J25 is the Queensland immigration and naturalisation correspondence series, and its file titles name a couple together with the WIFE'S MAIDEN NAME -- which is exactly what was missing. IT DOES NOT DATE THE MARRIAGE. What it does is turn «undocumented» into «documented as a fact, undated», and name the file that may date it. The file is «not yet examined», which means nobody has ever asked; an access examination is free and takes about ninety days. Michael's grandparents on the Arena side."
   ],
   "onSpine": true,
   "ancGen": 3
@@ -9778,12 +9784,18 @@
     "kind": "documented",
     "what": "New Orleans passenger list, S.S. Liguria, 1908",
     "href": "/corrections"
+   },
+   {
+    "kind": "candidate",
+    "what": "NAA: BP9/3, ITALIAN POLISTENA G (item 3458957)",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "The tree gives his mother as Giovanna Pontillo. SETTLED, AND NOT IN THE TREE'S FAVOUR: act 206 of 1883 names her GIOVANNA ROMANO, and the New Orleans manifest of 22 February 1908 -- taken from his own statement at twenty-four, half a world from Scilla -- names 'father Antonino Polistena and mother Giovanna Romano'. Two independent records, two continents. He also has a crossing the tree does not record: the S.S. Liguria out of Palermo, bound for Quincy, Florida, on the line immediately after Michele Donato -- whose daughter he would marry about eight years later.",
    "Parentage — His mother is GIOVANNA ROMANO, not Giovanna Pontillo. SETTLED BY TWO INDEPENDENT RECORDS: act 206 of 1883 names her Giovanna Romano, and the New Orleans manifest of 1908 -- filled in from Giovanni's own statement, twenty-five years later and half a world away -- names 'father Antonino Polistena and mother Giovanna Romano, Scilla'. The father is the same man under three spellings: Camillo Antonio in the act, Antonio in the tree, Antonino on the manifest.",
-   "Crossing -- missing entirely — He sailed from PALERMO on the S.S. LIGURIA on 22 February 1908, reaching NEW ORLEANS, bound for QUINCY, FLORIDA -- on the line immediately after Michele Donato, whose daughter he would marry about eight years later. Aged 24, single, a sailor."
+   "Crossing -- missing entirely — He sailed from PALERMO on the S.S. LIGURIA on 22 February 1908, reaching NEW ORLEANS, bound for QUINCY, FLORIDA -- on the line immediately after Michele Donato, whose daughter he would marry about eight years later. Aged 24, single, a sailor.",
+   "A second migration, twenty years and half a world apart — HE MAY HAVE GONE TO AUSTRALIA TOO. NAA: BP9/3, ITALIAN POLISTENA G -- the Brisbane aliens register -- reads «Polistena, GIOVANNI BORN 1883 - nationality Italian - arrived in BRISBANE on the ORMONDE 21 FEBRUARY 1928». This archive's Giovanni Polistena was born at Scilla in 1883 (act 206), sailed from PALERMO to NEW ORLEANS on the LIGURIA in February 1908 on the line immediately after Michele Donato, married Michele's daughter Nunziata about 1916, and named a daughter Santa at Scilla in 1920. A crossing to Brisbane in 1928 sits after all of that and would explain how this family reached Queensland at all. THE YEAR OF BIRTH MATCHES EXACTLY AND THE PORT IS THE RIGHT ONE. IT IS STILL A CANDIDATE: the register entry carries no parents and no birthplace, and POLISTENA is a comune in Reggio Calabria as well as a surname, so the name alone proves nothing. The test is the item itself, or any Queensland record placing him there in the 1930s."
   ],
   "onSpine": true,
   "ancGen": 4
@@ -29843,7 +29855,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29879,7 +29891,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 4,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30061,7 +30073,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 10,
+  "comp": 5,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30104,7 +30116,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 9,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
