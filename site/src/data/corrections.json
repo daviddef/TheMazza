@@ -1,6 +1,6 @@
 {
- "count": 128,
- "documented": 104,
+ "count": 193,
+ "documented": 152,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -34,10 +34,10 @@
     },
     {
      "kind": "Missing people — TWO NEW GENERATIONS",
-     "who": "Rocco Arena's three brothers and a cousin",
+     "who": "Rocco Arena's brothers and sister, and a cousin",
      "slug": "—",
      "treeSays": "Not in the tree",
-     "recordSays": "FILIPPO ARENA b. 14 February 1852, DOMENICO ARENA b. 24 March 1853 and GIUSEPPE ARENA b. 5 March 1860 are all sons of Francesco Antonio Arena and Serafina Arlotta -- Rocco's elder brothers. The eldest is named FILIPPO for his grandfather, exactly as Calabrian custom predicts, which is a third independent support for the Filippo Arena generation. Separately, TERESA ARENA b. 17 October 1853 is a daughter of Orazio Arena and Giovanna Zirilli -- Orazio's earliest known child, and the tree gives him no daughters at all.",
+     "recordSays": "FILIPPO ARENA b. 14 February 1852, DOMENICO ARENA b. 24 March 1853 and GIUSEPPE ARENA b. 5 March 1860 are all sons of Francesco Antonio Arena and Serafina Arlotta -- Rocco's elder brothers. The eldest is named FILIPPO for his grandfather, exactly as Calabrian custom predicts, which is a third independent support for the Filippo Arena generation. Separately, TERESA ARENA b. 17 October 1853 is a daughter of Orazio Arena and Giovanna Zirilli -- Orazio's earliest known child, and the tree gives him no daughters at all. AMENDED 20 SEPTEMBER: «DOMENICO ARENA b. 24 March 1853» IS DOMENICA ARENA, A DAUGHTER. Act 53 of 1853 -- not act 2, which is a Tavola row number -- says «una FEMINA», «di dare alla FANCIULLA il nome di DOMENICA», and names DOMENICA ARENA in the baptism column. SO ROCCO HAD TWO BROTHERS DOCUMENTED HERE, not three: Filippo (1852) and Giuseppe (1860), besides Giovanni (1854). The row is left standing with this note rather than rewritten, because the mistake is part of the record.",
      "source": "Scilla, Nati 1852 atto 48; Nati 1853 atti 2 and 6; Nati 1860 atto 45",
      "confidence": "documented"
     },
@@ -1371,6 +1371,901 @@
      "recordSays": "HER OWN DEATH ACT ENDS IT. «GIOVANNA ROMANO, died Scilla 15 July 1930, Padre ANNUNZIATO, Madre ANGELA ZIRILLI, Coniuge CAMILLO ANTONIO POLISTENA.» She is named with her own surname, her own parents and her own husband, on her own act. THAT IS FIVE RECORDS CALLING HER ROMANO -- Scilla Nati 1883 atto 206, the New Orleans manifest of 1908, her husband's death act of 1924, her daughter Santa's of 1920, and now this. THE TREE'S «GIUSEPPI PONTILLO» AND «NUNZIATTA PONTILLO» ARE NOT HER PARENTS AND NEVER WERE. Her parents are ANNUNZIATO ROMANO and ANGELA ZIRILLI, and the Pontillo belonged to her mother-in-law, ANNA PONTILLO. Two asserted ancestors are withdrawn and two documented ones replace them.",
      "source": "Antenati name index, Scilla, atto di morte 15 July 1930",
      "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Death — not known at all",
+   "rows": [
+    {
+     "kind": "Death — not known at all",
+     "who": "Francesco Antonio Arena",
+     "slug": "—",
+     "treeSays": "Not in the tree; this archive had him last seen alive in November 1888 and no death",
+     "recordSays": "DEAD ON 29 AUGUST 1901, at seven ten in the morning, in the house at VIA GROTTE NUMBER TWO, Scilla. Entered as ARENA FRANCESCO, di anni ottantadue, PESCATORE -- son of the late FILIPPO, pescatore, and of the late COSTA DOMENICA, filatrice, and MARITO DI ARLOTTA SERAFINA. All three of those identifiers are already in this archive from three separate acts, and no other man at Scilla carries them together. Declared by two becchini, Cesoriero Domenico, 46, and Fontana Ignazio, 52. He was born 25 November 1819, so he was eighty-one and nine months, not eighty-two; the rounding is the register's habit and the identification does not rest on the age. He was last seen alive in this archive on 18 November 1888, at the banns of his son Rocco. THIRTEEN YEARS OF HIS LIFE ARE NOW CLOSED, and his widow's death is fixed as later than his.",
+     "source": "Scilla, Morti 1901, parte I, atto 96",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Death — not known at all",
+     "who": "Serafina Arlotta",
+     "slug": "—",
+     "treeSays": "Not in the tree; this archive had her alive in November 1888 and no death",
+     "recordSays": "DEAD ON 24 APRIL 1908, at four in the morning, in the house at VIA GROTTE NUMBER TWO, Scilla — THE SAME ADDRESS AT WHICH HER HUSBAND DIED on 29 August 1901. Entered as ARLOTTA SERAFINA, di anni settantasette, FILATRICE, daughter of the late GIOVANNI, pescatore, and of the late COSTA MARIA, tessitrice, and VEDOVA DI ARENA ANTONIO. Born 13 June 1830, she was seventy-seven years and ten months — the register's figure is exact. She was a widow for six years and eight months, in a house her sons had left for America.",
+     "source": "Scilla, Morti 1908, parte I, atto 55",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Trade — missing entirely",
+   "rows": [
+    {
+     "kind": "Trade — missing entirely",
+     "who": "Maria Costa",
+     "slug": "—",
+     "treeSays": "No occupation; not in the tree",
+     "recordSays": "TESSITRICE, a WEAVER — not a filatrice. Almost every woman in this register spins; Serafina Arlotta, her own daughter, is a filatrice. Her mother wove. Given in her daughter's death act of 24 April 1908, which also confirms her dead by that date and confirms the parentage that the marriage act of 1851 first gave.",
+     "source": "Scilla, Morti 1908, parte I, atto 55",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Method — a woman indexed under the wrong surname",
+   "rows": [
+    {
+     "kind": "Method — a woman indexed under the wrong surname",
+     "who": "Serafina Arlotta",
+     "slug": "—",
+     "treeSays": "This archive assumed the annual index carries a woman under her maiden name",
+     "recordSays": "IT DOES NOT ALWAYS. The 1908 annual index enters her as «ARENA Serafina, fu Giovanni» — her HUSBAND'S surname over her FATHER'S forename — while the act itself says ARLOTTA. Eleven A blocks were read looking for an Arlotta, and she was found only because Arena happens to be an A as well. THE RULE THAT FOLLOWS: when sweeping an annual index for a married woman, read the block for her husband's initial too, and treat a patronymic that fits as worth the download whatever surname sits in front of it.",
+     "source": "Scilla, Morti 1908, parte I, atto 55 against the 1908 indice annuale",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Two women of one name — A GUARD, NOT A FINDING",
+   "rows": [
+    {
+     "kind": "Two women of one name — A GUARD, NOT A FINDING",
+     "who": "Generosa Costa × the second Generosa Costa",
+     "slug": "generosa-costa",
+     "treeSays": "One Generosa Costa",
+     "recordSays": "THERE ARE TWO AND THEY MUST NEVER BE MERGED. (1) GENEROSA COSTA, born about 1868, a filatrice, daughter of ANTONINO COSTA and ANNA ARLOTTA, married ROCCO ARENA at Scilla in December 1888, died at Scilla 6 JUNE 1916. She is on this archive's spine -- Anna Arena's mother. (2) A second GENEROSA COSTA, wife of PASQUALE DONATO, who died 20 April 1937; Pasquale is a son of DOMENICO DONATO and NUNZIATA SOFI, which makes him MICHELE DONATO'S BROTHER. So the two women sit one in each of this archive's two Scilla lines, the Arena and the Donato, and a tree that meets both will be tempted to fuse them. THE SEPARATION IS EVIDENCED, not assumed: the first was already dead in 1916, twenty-one years before the second's husband died, and their parents differ. COSTA AT SCILLA IS NOT A SMALL NAME -- the name index holds seventy-six Costa records and eighteen Costa deaths, including a THIRD Generosa in the previous generation, GENEROSA POLISTENA, for whom Rocco's wife was very likely named.",
+     "source": "Antenati name index, Scilla — atti di morte 6 June 1916 and 20 April 1937",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "Missing people — GIOVANNA ROMANO'S SISTERS",
+   "rows": [
+    {
+     "kind": "Missing people — GIOVANNA ROMANO'S SISTERS",
+     "who": "Maria, Concetta and Mariantonia Romano",
+     "slug": "—",
+     "treeSays": "Giovanna Romano has no siblings in the tree",
+     "recordSays": "THREE SISTERS, each with her own death act naming the same parents -- ANNUNZIATO ROMANO and ANGELA ZIRILLI, who are Giovanna Romano's parents. MARIA ROMANO, d. 26 July 1917, wife of GIOVANNI CARDONA. CONCETTA ROMANO, d. 11 April 1926, wife of ROCCO DONATO. MARIANTONIA ROMANO, d. 24 June 1930, wife of MATTEO BOVA. Giovanna herself died 15 July 1930, seven weeks after Mariantonia. NOTE THE SECOND ONE. A Romano sister married a DONATO. Giovanna Romano married CAMILLO ANTONIO POLISTENA, and this archive's Donato and Polistena are already tied twice over. The Romano are a third strand in the same knot, and Concetta's husband Rocco Donato wants placing against Domenico Donato's household.",
+     "source": "Antenati name index, Scilla — atti di morte 26 July 1917, 11 April 1926, 24 June 1930, 15 July 1930",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Missing people — GENEROSA COSTA'S UNCLES AND AUNT",
+   "rows": [
+    {
+     "kind": "Missing people — GENEROSA COSTA'S UNCLES AND AUNT",
+     "who": "The children of Lorenzo Costa and Generosa Polistena",
+     "slug": "—",
+     "treeSays": "Lorenzo Costa and Generosa Polistena have no children in the tree but Antonino",
+     "recordSays": "FOUR OF THEM, each named on his or her own death act as a child of LORENZO COSTA and GENEROSA POLISTENA -- Generosa Costa's paternal grandparents. ANTONIO COSTA, d. 1 JUNE 1915, husband of ANNA ARLOTTA: that is Generosa's own father, and the act is the first thing this archive has ever had that dates him. GIUSEPPE COSTA, d. 17 May 1915, sixteen days before his brother. MARIANA COSTA, d. 18 July 1922, wife of DOMENICO PONTILLO. DOMENICO COSTA, d. 8 September 1932, husband of CONCETTA ROMANO. AND THE NAMING CUSTOM LANDS AGAIN: Antonino Costa's first daughter is GENEROSA, for his own mother Generosa Polistena, exactly as the custom predicts. THE THIRD TIE: Mariana Costa married a PONTILLO and Domenico Costa married a ROMANO -- the two surnames that were in dispute over Camillo Antonio Polistena's wife. Scilla is a very small town.",
+     "source": "Antenati name index, Scilla — atti di morte 17 May 1915, 1 June 1915, 18 July 1922, 8 September 1932",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Wife — missing entirely",
+   "rows": [
+    {
+     "kind": "Wife — missing entirely",
+     "who": "Domenico Arlotta (d. 1915)",
+     "slug": "—",
+     "treeSays": "No wife recorded",
+     "recordSays": "MARIA PONTILLO, who died 14 OCTOBER 1922, daughter of GIUSEPPE PONTILLO and GIUSEPPA PALADINO. Domenico Arlotta is Serafina Arlotta's brother, so this is Rocco Arena's uncle by marriage. Her own death act names her parents, which puts two more Pontillo into the record.",
+     "source": "Antenati name index, Scilla — atti di morte 14 March 1915 and 14 October 1922",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Two men of one name — A GUARD, NOT A FINDING",
+   "rows": [
+    {
+     "kind": "Two men of one name — A GUARD, NOT A FINDING",
+     "who": "Antonio Arena × the other Antonio Arena",
+     "slug": "—",
+     "treeSays": "One Antonio Arena married to a Serafina",
+     "recordSays": "THERE ARE TWO AND THE WIVES SHARE A GIVEN NAME. (1) FRANCESCO ANTONIO ARENA, b. 25 November 1819, m. SERAFINA ARLOTTA at Scilla on 7 February 1851, d. 29 August 1901 at Via Grotte 2. This archive's direct line. THE REGISTERS DROP HIS FIRST NAME CONSTANTLY -- the acts of 1853, 1854 and 1861 call him plain ANTONIO, and so does his son Giovanni's death act of 1936 -- so he is ROUTINELY INDEXED AS «Antonio Arena, husband of Serafina». (2) ANTONIO ARENA, husband of SERAFINA DE LUCA, a proprietario, both dead by August 1895 when their son ORAZIO ARENA died at sixty-five; three more of their children are in the death index -- GRAZIA (d. 14 February 1913), ANNA (d. 8 March 1917, wife of Rocco Paladino) and ANNUNZIATA (d. 12 April 1919). SAME GIVEN NAME, SAME WIFE'S GIVEN NAME, SAME TOWN, SAME DECADES. Anyone sweeping «Antonio Arena + Serafina» merges two families. THE DISCRIMINATOR IS THE WIFE'S SURNAME -- ARLOTTA or DE LUCA -- and it must be read every single time, never inferred. THE SECOND ONE IS ALREADY A TRAP THIS ARCHIVE HAS SPRUNG: the Orazio Arena who died in 1895 was taken for the tree's Orazio Arena, the supposed father of Rocco, and he is not -- he is Antonio and Serafina DE LUCA's son. Different wife, different parents, different family.",
+     "source": "Antenati name index, Scilla — atti di morte 14 February 1913, 8 March 1917, 12 April 1919; Scilla, Morti 1895 (Orazio Arena); Scilla, Nati 1819 atto 186 and Matrimoni 1851 atto 13",
+     "confidence": "certain"
+    },
+    {
+     "kind": "Two men of one name — A GUARD, NOT A FINDING",
+     "who": "Antonino Crupi × the Antonio Crupi of Serrata",
+     "slug": "—",
+     "treeSays": "One Antonio Crupi with a D4028 card",
+     "recordSays": "THERE ARE TWO, AND THEIR BARCODES ARE CONSECUTIVE. NAA: D4028 item 9209610 is CRUPI ANTONIO, born PIEDIMONTE ETNEO, arrived BRISBANE 2 September 1930 -- Angela Crupi's brother. NAA: D4028 item 9209609 is ALSO CRUPI ANTONIO, born SERRATA, arrived MELBOURNE 20 October 1926 -- Serrata is in Calabria, six hundred kilometres from Piedimonte, and he is nobody here. Item 9209611 is MARIO CRUPI, also Piedimonte, also this family. So the run 9209609 / 9209610 / 9209611 is stranger, brother, brother. ADJACENCY IN AN ALPHABETICAL CARD SERIES IS NOT KINSHIP -- the same lesson the Queensland electoral rolls taught when consecutive roll numbers were read as a household. THE DISCRIMINATOR IS THE BIRTHPLACE and it must be read every time.",
+     "source": "NAA: D4028, items 9209609, 9209610 and 9209611",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "Citation — the act number is wrong",
+   "rows": [
+    {
+     "kind": "Citation — the act number is wrong",
+     "who": "Serafina Arlotta",
+     "slug": "—",
+     "treeSays": "This archive cites «Scilla, Nati 1830 atto 2» in three places",
+     "recordSays": "IT IS ACT 89, NOT ACT 2. The act itself, read as a certified copy in the marriage processetti of 1851, is headed «Num. d'ordine 89». «2» is a TAVOLA ROW NUMBER, taken for an act number -- the same mistake already recorded at Briatico, whose 1828 annual index runs one behind the register throughout. THE DATE IS RIGHT: 13 June 1830, at two in the night, in her parents' own house, declared by her father the next afternoon.",
+     "source": "Scilla, Nati 1830 atto 89, read in Matrimoni processetti 1849-1852, fascicolo 13 of 1851",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Age — two of his own declarations, eleven years apart",
+   "rows": [
+    {
+     "kind": "Age — two of his own declarations, eleven years apart",
+     "who": "Giovanni Arlotta",
+     "slug": "—",
+     "treeSays": "Born about 1779, from being seventy-five in April 1854",
+     "recordSays": "HIS DAUGHTER'S BIRTH ACT MAKES HIM FORTY IN JUNE 1830, so born about 1790 -- ELEVEN YEARS LATER. Both figures are his own, given in person: in 1830 he declares Serafina's birth as her father, in 1854 he declares his grandson Giovanni's birth and is entered as «figlio del fu Domenico, di anni settantacinque, marinaro». Both call him marinaro; the 1830 act calls him «Sig.». NOT RESOLVED HERE, AND NOT AVERAGED. Either one declared age is badly out -- which this register does often enough -- or there are two Giovanni Arlotta and the 1854 declarant is not Serafina's father, which would cost this archive the Domenico Arlotta generation. THE TEST is his own marriage act to Maria Costa, before 1830, in the processetti of 1824-1827 or 1828-1831, which would give his age a third time and name his parents.",
+     "source": "Scilla, Nati 1830 atto 89 against Nati 1854 atto 76",
+     "confidence": "flagged"
+    }
+   ]
+  },
+  {
+   "kind": "A lead, not a finding",
+   "rows": [
+    {
+     "kind": "A lead, not a finding",
+     "who": "Maria Costa's father",
+     "slug": "—",
+     "treeSays": "No parents at all",
+     "recordSays": "A DOMENICO COSTA, COMMERCIANTE REGNICOLO, DI ANNI QUARANTASEI, stood as first witness at Serafina Arlotta's registration in June 1830 -- and the act says the witnesses were PRODUCED BY GIOVANNI ARLOTTA himself, which at Scilla means family. Forty-six in 1830 is a birth about 1784, which makes him twenty-three when Maria Costa was born about 1807. A father-in-law at his granddaughter's registration is the ordinary reading. IT IS A READING. Costa is one of the commonest surnames in the town -- seventy-six in the death index alone -- and this archive has already met a Domenica Costa, a Maria Costa, a Generosa Costa twice over and an Antonino Costa in four different households. The test is Giovanni Arlotta's marriage act, which names the bride's father outright.",
+     "source": "Scilla, Nati 1830 atto 89",
+     "confidence": "candidate"
+    }
+   ]
+  },
+  {
+   "kind": "All four alive — inferred in the morning, CONFIRMED in the afternoon",
+   "rows": [
+    {
+     "kind": "All four alive — inferred in the morning, CONFIRMED in the afternoon",
+     "who": "Filippo Arena, Domenica Costa, Giovanni Arlotta and Maria Costa",
+     "slug": "—",
+     "treeSays": "No date of any kind for three of the four",
+     "recordSays": "THEY WERE ALL FOUR ALIVE ON 7 FEBRUARY 1851 -- read from an absence, and graded accordingly. The marriage processetti of Francesco Arena and Serafina Arlotta run to FOUR SHEETS: the two birth acts, the notification without opposition, and the certificate of the canonical celebration. NO DEATH ACT OF ANY PARENT IS BOUND IN. The same office, in fascicolo 3 of the same year, bound in «Atto di morte del padre e dell'avo paterno dello Sposo» -- so it did include them when a parent or grandparent was dead. CAVEAT: Serafina was twenty and needed parental consent, and no consent sheet is listed either, so consent was given in person rather than on paper; an argument from a four-line index is weaker than an act, and this is graded as inferred for that reason. UPGRADED THE SAME DAY, AND BY A POSITIVE READING RATHER THAN AN ABSENCE. The ANNUAL MARRIAGE TAVOLA for 1851 names both spouses' parents AND MARKS THE DEAD WITH «FU» -- the 1828 Tavola writes Giovanni Arlotta's father as «FU Dom.co» beside his living mother «Barbaro Anna», and «fu» appears on this very page of 1851 in other entries. ENTRY 1 OF THE 1851 TAVOLA IS «ARENA FRANCESCO e ARLOTTA SERAFINA», and its parents are written «FILIPPO, e COSTA DOMENICA» and «GIOVANNI e COSTA MARIA» -- NEITHER WITH «FU». So all four were living when their children married, and this is no longer an argument from a four-line index.",
+     "source": "Scilla, Matrimoni processetti 1849-1852, fascicolo 13 of 1851, against fascicolo 3 of 1851; Scilla, Matrimoni 1851, Tavola annuale, entry 1, against the same page's «fu» entries",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Internment — a third man",
+   "rows": [
+    {
+     "kind": "Internment — a third man",
+     "who": "Antonino Crupi",
+     "slug": "—",
+     "treeSays": "Nothing but a Queensland death registration",
+     "recordSays": "INTERNED. His aliens registration card is stamped LOVEDAY 35924 on the front, and the CHANGE OF ADDRESS panel on the reverse records him moved «ex Gay[thorne] to 14A» on 16 MARCH 1943 and «Released and returned to Queensland» on 22 OCTOBER 1943. THAT IS THREE MEN IN THIS FAMILY INTERNED IN THE SAME EIGHTEEN MONTHS: ROSARIO MAZZA, who married Angela Crupi; MARIO CRUPI, at Loveday 18 August 1942 to 30 December 1943; and now ANTONINO CRUPI, her other brother. The internment of Italian-Australians was not a thing that happened to one member of this family. AND THE CENSOR PRESERVED A SENTENCE OF HIS. The card carries a mail extract dated 2 APRIL 1943, from a letter to his wife in Queensland: «... Our freedom will come soon and we shall always cry Vive Italia.» It is the only sentence in this archive spoken by Antonino Crupi, and it exists because an official copied it out as evidence against him.",
+     "source": "NAA: D4028, CRUPI ANTONIO (item 9209610), both sides",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "An absence with a reason",
+   "rows": [
+    {
+     "kind": "An absence with a reason",
+     "who": "Pietro Crupi",
+     "slug": "—",
+     "treeSays": "No aliens registration card, unexplained",
+     "recordSays": "HE DID NOT NEED ONE. NAA: BP4/3, ITALIAN CRUPI P records «Alien Registration Certificate NOT ISSUED», with the folio noting that CRUPI WAS NATURALISED 23 FEBRUARY 1932. The D4028 series registers ALIENS; by 1939 Pietro Crupi was a British subject and fell outside it. An absence that is explained is worth as much as a card -- and it dates his naturalisation, which this archive did not have.",
+     "source": "NAA: BP4/3, ITALIAN CRUPI P",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Arrival — the brothers came together",
+   "rows": [
+    {
+     "kind": "Arrival — the brothers came together",
+     "who": "Pietro and Antonino Crupi",
+     "slug": "—",
+     "treeSays": "No arrival for either",
+     "recordSays": "BOTH ON THE OTRANTO, INTO BRISBANE ON 19 AUGUST 1930. NAA: BP9/3 ITALIAN CRUPI P and ITALIAN CRUPI A are consecutive entries in the Brisbane aliens register and both give that ship and that date; Pietro is entered as born 1898, Antonino as born 1907. Antonino's own card gives his ENTRY as 2 SEPTEMBER 1930, a fortnight after the ship docked -- the same split between a ship's arrival and a man's registered entry already recorded for the passenger index. BOTH DATES ARE TRUE and they answer different questions. Their brother MARIO came two years earlier, on the MARIA CRISTINA into Brisbane on 20 MAY 1928.",
+     "source": "NAA: BP9/3 ITALIAN CRUPI P, CRUPI A and CRUPI M; NAA: D4028 CRUPI ANTONIO and CRUPI MARIO",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Naturalisation — dates and a wife",
+   "rows": [
+    {
+     "kind": "Naturalisation — dates and a wife",
+     "who": "Antonino and Mario Crupi",
+     "slug": "—",
+     "treeSays": "No naturalisation for either",
+     "recordSays": "ANTONINO CRUPI naturalised 7 NOVEMBER 1946, born 1907 at Piedimonte, then RESIDENT AT TULLY, Queensland, WIFE NELLIE (NAA: A714 57/18792). MARIO CRUPI naturalised 26 APRIL 1940, born 1905, resident at INGHAM, entered as SINGLE (NAA: A714 9/4300). PIETRO CRUPI naturalised 23 FEBRUARY 1932 (NAA: BP4/3). ONE CONFLICT LEFT OPEN: Antonino's aliens card of October 1939 already says MARRIED, and this archive notes an Antonino Crupi marrying in Queensland on 24 AUGUST 1940. Either that marriage belongs to another man of the name, or the word «married» was added to the card after 1939. Not resolved.",
+     "source": "NAA: A714 57/18792; A714 9/4300; BP4/3 ITALIAN CRUPI P",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Identification — the roll could not settle it and a naturalisation did",
+   "rows": [
+    {
+     "kind": "Identification — the roll could not settle it and a naturalisation did",
+     "who": "Antonino Crupi at Tully",
+     "slug": "—",
+     "treeSays": "Two Antonio Crupi on the 1959 Queensland roll and no way to choose",
+     "recordSays": "HE IS THE TULLY MAN. NAA: A714 57/18792 records «CRUPI, Antonio; naturalised 7 NOVEMBER 1946; place of birth PIEDIMONTE, Italy; year of birth 1907; PLACE OF RESIDENCE: TULLY, QLD; [W] CRUPI, NELLIE». Piedimonte and 1907 tie it to the aliens card of Angela Crupi's brother; TULLY and NELLIE tie it to the 1959 electoral roll, where an ANTONIO CRUPI, cane farmer, shares DEAN STREET, TULLY with a NELLIE CRUPI. The other Antonio Crupi of that roll, a farmer at SILKWOOD EAST in the Innisfail sub-district, is a different man. THE ROW NAMED ITS OWN TEST -- «a wife to match against Nellie Crupi» -- and a document found while reading his brother's aliens card supplied it. Nothing here rests on the roll's ordering, which this archive has already been burned by once. AND HE MOVED. The aliens card of October 1939 gives him at INGHAM, a boot repairer; by 1946 he is a cane farmer at Tully, where Pietro and Mario also were. ONE THING TIDIED. The Queensland marriage of an Antonino Crupi on 24 AUGUST 1940 sat awkwardly against a card registered in October 1939 that already says MARRIED. The card carries annotations from 1943, so «married» was very probably written on it after the fact; the 1940 marriage is the likelier date and is very likely to Nellie. Stated as the reading it is.",
+     "source": "NAA: A714 57/18792; NAA: D4028 CRUPI ANTONIO (item 9209610); Australia Electoral Rolls 1959, Herbert, Tully sub-district",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "Port — the ship's first landfall is not where he got off",
+   "rows": [
+    {
+     "kind": "Port — the ship's first landfall is not where he got off",
+     "who": "Francesco Prostamo",
+     "slug": "—",
+     "treeSays": "Arrived Fremantle, Western Australia, 10 October 1957",
+     "recordSays": "HE GOT OFF AT BRISBANE, ON 21 OCTOBER 1957. NAA: BP25/1, ITALIAN PROSTAMO F -- the BRISBANE aliens registration series -- reads «Prostamo, Francesco - Nationality: Italian - arrived BRISBANE on the T/v ROMA 21 OCTOBER 1957». BOTH DATES ARE TRUE AND THEY ANSWER DIFFERENT QUESTIONS: 10 October is when the ROMA first touched Australia at Fremantle, which is what the passenger index records; 21 October is when this man walked down the gangway, eleven days and three ports later. THE SECOND IS THE ONE THAT MATTERS, because the family settled in Queensland and the Brisbane series is where he registered. The same correction applies to FRANCESCA PROSTAMO, who travelled with him: NAA: BP25/1, ITALIAN TRUNGADI F, same ship, same 21 October, same port. This is the third time this archive has met the pattern -- it was proved on a K269 manifest where an unlabelled letter column turned out to be the port of debarkation.",
+     "source": "NAA: BP25/1, ITALIAN PROSTAMO F (item 5067016) and ITALIAN TRUNGADI F (item 5080545)",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A married surname, not a second woman",
+   "rows": [
+    {
+     "kind": "A married surname, not a second woman",
+     "who": "Francesca Prostamo",
+     "slug": "—",
+     "treeSays": "Francesco Prostamo's daughter, born 1945 at Briatico, twelve on the voyage",
+     "recordSays": "THE NATIONAL ARCHIVES CATALOGUES HER AS «TRUNGADI [nee PROSTAMO], FRANCESCA». That is her Brisbane aliens registration, same ship and same day as her father. A TWELVE-YEAR-OLD IS NOT «NEE» ANYTHING, and the manifest -- read in the original -- gives her age as twelve and her birth as 1945 at Briatico. The reading that fits both is that the registration CARD was annotated with her married name years after 1957 and the catalogue transcribed the card's final state, which is exactly what an aliens card is for. SO TRUNGADI IS A SURNAME TO GO LOOKING FOR -- a Queensland marriage, a later address -- AND NOT A SECOND WOMAN TO ADD. Recorded as a lead.",
+     "source": "NAA: BP25/1, ITALIAN TRUNGADI F (item 5080545), against the K269 manifest of the ROMA",
+     "confidence": "candidate"
+    }
+   ]
+  },
+  {
+   "kind": "Marriage — undocumented until now",
+   "rows": [
+    {
+     "kind": "Marriage — undocumented until now",
+     "who": "Rocco Arena and Angela Polistena",
+     "slug": "angela-polistena",
+     "treeSays": "Their marriage is not documented anywhere in this archive",
+     "recordSays": "A COMMONWEALTH FILE NAMES THEM AS HUSBAND AND WIFE. NAA: J25 1971/3900, held at Brisbane, 1953-1971: «ARENA, ROCCO; WIFE ANGELINA [OR ANGELA] [NEE POLISTENA]». J25 is the Queensland immigration and naturalisation correspondence series, and its file titles name a couple together with the WIFE'S MAIDEN NAME -- which is exactly what was missing. IT DOES NOT DATE THE MARRIAGE. What it does is turn «undocumented» into «documented as a fact, undated», and name the file that may date it. The file is «not yet examined», which means nobody has ever asked; an access examination is free and takes about ninety days. Michael's grandparents on the Arena side.",
+     "source": "NAA: J25, 1971/3900 (item 5121950)",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A second migration, twenty years and half a world apart",
+   "rows": [
+    {
+     "kind": "A second migration, twenty years and half a world apart",
+     "who": "Giovanni Polistena",
+     "slug": "giovanni-polistena",
+     "treeSays": "One crossing: Palermo to New Orleans, 1908",
+     "recordSays": "HE MAY HAVE GONE TO AUSTRALIA TOO. NAA: BP9/3, ITALIAN POLISTENA G -- the Brisbane aliens register -- reads «Polistena, GIOVANNI BORN 1883 - nationality Italian - arrived in BRISBANE on the ORMONDE 21 FEBRUARY 1928». This archive's Giovanni Polistena was born at Scilla in 1883 (act 206), sailed from PALERMO to NEW ORLEANS on the LIGURIA in February 1908 on the line immediately after Michele Donato, married Michele's daughter Nunziata about 1916, and named a daughter Santa at Scilla in 1920. A crossing to Brisbane in 1928 sits after all of that and would explain how this family reached Queensland at all. THE YEAR OF BIRTH MATCHES EXACTLY AND THE PORT IS THE RIGHT ONE. IT IS STILL A CANDIDATE: the register entry carries no parents and no birthplace, and POLISTENA is a comune in Reggio Calabria as well as a surname, so the name alone proves nothing. The test is the item itself, or any Queensland record placing him there in the 1930s.",
+     "source": "NAA: BP9/3, ITALIAN POLISTENA G (item 3458957)",
+     "confidence": "candidate"
+    }
+   ]
+  },
+  {
+   "kind": "Two families, six marriages",
+   "rows": [
+    {
+     "kind": "Two families, six marriages",
+     "who": "The Donato and the Polistena",
+     "slug": "—",
+     "treeSays": "Two Donato-Polistena marriages, a generation apart",
+     "recordSays": "SIX, ACROSS TWO COUNTRIES. Four at Scilla, from the death index: Maria Donato x Giuseppe Polistina (she d. 1911); Raffaele Polistena x Teresa Donato, three of whose children die there; Giovanni Polistena x Annunziata Donato; and Nunziata Donato x Giovanni Polistena about 1916. TWO MORE IN QUEENSLAND, from the National Archives: NAA J25 1967/9873, «Polistena, Giuseppe; wife MARIA MADDALENA [nee DONATO]», and NAA J25 1970/3023, «DONATO, CONCETTA [nee POLISTENA]». TWO FAMILIES THAT INTERMARRY SIX TIMES OVER TWO GENERATIONS AND TWO HEMISPHERES ARE NOT TWO FAMILIES WHO HAPPENED TO MEET. They were one neighbourhood at Scilla -- Via Grotte -- and they were still one neighbourhood in Brisbane.",
+     "source": "Antenati name index, Scilla; NAA: J25 1967/9873 and 1970/3023",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A surname that is also a town — A GUARD",
+   "rows": [
+    {
+     "kind": "A surname that is also a town — A GUARD",
+     "who": "Polistena",
+     "slug": "—",
+     "treeSays": "Polistena is a family name",
+     "recordSays": "IT IS ALSO A COMUNE IN THE PROVINCE OF REGGIO CALABRIA, seventy kilometres from Scilla, and THIS FAMILY IS FROM SCILLA. A name search on POLISTENA in the National Archives returns four A714 naturalisations for men called OLIMPIO, MARFEA, FOGLIADORO and PALESTRI whose PLACE OF BIRTH is Polistena, and three A7919 prisoner-of-war files -- SAVARESE, ROSSI, BOTTIGLIERI -- for men born there and captured in Africa. Seven of fifty results are the town wearing the family's name. ANY SWEEP ON THIS SURNAME MUST READ THE FIELD, not the word: a Polistena in the SURNAME column is a candidate, a Polistena in the BIRTHPLACE column is a stranger from the same province. The same caution will apply to any Italian surname that is also a place.",
+     "source": "NAA NameSearch, POLISTENA, all record categories — 50 items",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "Husband — missing entirely",
+   "rows": [
+    {
+     "kind": "Husband — missing entirely",
+     "who": "Maria Assunta Melluso",
+     "slug": "—",
+     "treeSays": "Married a Prostamo; his name unknown",
+     "recordSays": "DOMENICO FRANCESCO PROSTAMO. NAA: J25 1962/5930, Brisbane, 1952-1966: «PROSTAMO, Domenico Francesco; wife ASSUNTE MARIA [NEE MELLUSO]». She was born about 1936 to GREGORIO MELLUSO and CARMELA MARIA BORELLO and buried at Mount Gravatt in October 1991 under a Prostamo surname that nobody here could attach to a man. Here he is. The file is «not yet examined» and would very likely give the marriage date, both their arrivals, and where they lived.",
+     "source": "NAA: J25, 1962/5930 (item 1682238)",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Household — a family Queensland's index could not show",
+   "rows": [
+    {
+     "kind": "Household — a family Queensland's index could not show",
+     "who": "Gregorio Melluso",
+     "slug": "—",
+     "treeSays": "One Melluso registration in the whole Queensland index, so no siblings and no children",
+     "recordSays": "HIS HOUSEHOLD IS IN A COMMONWEALTH FILE. NAA: J25 1972/23086, Brisbane, 1959-1974: «MELLUSO, GREGORIO; WIFE CARMELA; AND CHILDREN GIUSEPPE, MARIA [SURNAME PROSTAMO]». «Wife Carmela» is CARMELA MARIA BORELLO, already known from his daughter's death registration. WHAT IS NEW IS A SON, GIUSEPPE. AND THE BRACKET IS AMBIGUOUS, deliberately left so: a DAUGHTER Maria carrying the surname Prostamo is just Maria Assunta married to Domenico Francesco Prostamo; a SON Giuseppe carrying it cannot be, and would mean Carmela brought Prostamo children into the marriage with her. THE FILE TITLE IS A FINDING AID, NOT A RECORD, and this archive has been caught by one before. Opening it settles which; it is «not yet examined», so an access examination is free.",
+     "source": "NAA: J25, 1972/23086 (item 5072628)",
+     "confidence": "flagged"
+    }
+   ]
+  },
+  {
+   "kind": "Age — my own entry, corrected the same day",
+   "rows": [
+    {
+     "kind": "Age — my own entry, corrected the same day",
+     "who": "Maria Costa",
+     "slug": "—",
+     "treeSays": "Born about 1807",
+     "recordSays": "BORN ABOUT 1802. She is TWENTY-SIX at her own marriage on 30 August 1828, with her father Rocco Costa and her mother Pasqualina Idone standing beside her and giving formal consent. THIS ARCHIVE WROTE «c. 1807» EARLIER THE SAME DAY, off her daughter's birth act of 1830, which makes her twenty-three. A woman's own marriage act, sworn in her parents' presence, outranks her husband's statement at a registration desk five years later. The old figure is left on the record rather than replaced silently, because the size of the gap -- five years -- is itself information about how much these declared ages can be trusted.",
+     "source": "Scilla, Matrimoni 1828 atto 28, against Nati 1830 atto 89",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Marriage — the other Antonio Arena, documented at last",
+   "rows": [
+    {
+     "kind": "Marriage — the other Antonio Arena, documented at last",
+     "who": "Antonio Arena and Serafina De Luca",
+     "slug": "—",
+     "treeSays": "Two men of one name, separated only by a caution",
+     "recordSays": "THEY MARRIED AT SCILLA ON 10 AUGUST 1828, ATTO 26. The annual Tavola names all four parents: HIS are ORAZIO ARENA and LETTERIA MORABITO; HERS are FILIPPO DE LUCA and ANNA ALFONZETTI. THIS CLOSES THE COLLISION WITH A DOCUMENT INSTEAD OF A WARNING. This archive's Francesco Antonio Arena married Serafina ARLOTTA in February 1851 and was the son of Filippo Arena and Domenica Costa; this Antonio Arena married Serafina DE LUCA in August 1828 and was the son of Orazio Arena and Letteria Morabito. Different decade, different parents, different wife's family. AND IT EXPLAINS THE NAME THAT CAUSED THE TROUBLE: their son ORAZIO ARENA, who died at Scilla in August 1895 and was once taken for the tree's Orazio, is named for HIS OWN GRANDFATHER, exactly as the custom predicts.",
+     "source": "Scilla, Matrimoni 1828, Tavola annuale, entry 1 (atto 26)",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Method — the marriage Tavola is a life-status snapshot",
+   "rows": [
+    {
+     "kind": "Method — the marriage Tavola is a life-status snapshot",
+     "who": "Scilla's annual marriage Tavole",
+     "slug": "—",
+     "treeSays": "An index that gives a name and a number",
+     "recordSays": "IT GIVES FOUR PARENTS AND TELLS YOU WHICH OF THEM WERE DEAD. Scilla's «TAVOLA annuale alfabetica dei Matrimonj» carries the columns Num. d'ordine | Cognomi e Nomi degli Sposi | Patria | Professione | COGNOMI E NOMI DE' GENITORI | Giorno della Celebrazione -- and the parents column uses the Italian convention: «FU X» where the parent is dead, a bare forename where the parent is living. The 1828 Tavola writes Giovanni Arlotta as son of «FU Dom.co e Barbaro Anna»: father dead, mother alive, in four words. ONE INDEX OPENING THEREFORE DATES THE LIFE STATUS OF FOUR PEOPLE AT A SINGLE MOMENT, without opening an act. That is a better instrument than this archive has been treating it as, and it applies to every year of the restaurazione series. CAVEAT: the date column is the CHURCH celebration, not the civil act -- in 1828 the Tavola says 7 September where the civil promise was 30 August -- so an act number and a Tavola date will not agree, and neither is wrong.",
+     "source": "Scilla, Matrimoni 1828 and 1851, Tavole annuali",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Missing people — a sister found in somebody else's index",
+   "rows": [
+    {
+     "kind": "Missing people — a sister found in somebody else's index",
+     "who": "Candida Costa",
+     "slug": "—",
+     "treeSays": "Rocco Costa and Pasqualina Idone have one child in this archive",
+     "recordSays": "CANDIDA COSTA, who married GIOVANNI VILARDI at Scilla in 1811. The annual marriage Tavola names her parents as «ROCCO e PASQUALINA IDONE» -- the same Rocco Costa and Pasqualina Idone who stood at MARIA COSTA'S wedding in August 1828 and consented in person. SO CANDIDA IS MARIA'S SISTER, and Serafina Arlotta's aunt. Her husband's parents are GAETANO VILARDI and ANTONIA MELLICA. SHE WAS FOUND IN AN INDEX OPENED FOR SOMEBODY ELSE -- the 1811 Tavola was being read for Filippo Arena, who is not in it. A marriage Tavola that names four parents will keep doing this, which is an argument for reading the whole section rather than scanning for one surname.",
+     "source": "Scilla, Matrimoni 1811, Tavola annuale",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Dated at last — a roll line becomes a man",
+   "rows": [
+    {
+     "kind": "Dated at last — a roll line becomes a man",
+     "who": "Andrea Mazza",
+     "slug": "—",
+     "treeSays": "A timber cutter at Cardwell on the 1959 electoral roll, and nothing else",
+     "recordSays": "NATURALISED IN QUEENSLAND ON 27 NOVEMBER 1934. NAA: BP4/3, ITALIAN MAZZA A, held at Brisbane. Naturalisation of that period wanted about five years' residence, SO HE WAS IN AUSTRALIA BY ABOUT 1929 -- thirty years before the roll that found him, and long before the post-war migration this archive has been reading him against. He also died in Queensland on 31 JULY 1975, registration 1975/C/4171, whose index entry gives his father only as «Mazza» and no mother at all. SO HE IS NOW A MAN WITH THREE DATES AND STILL NO PARENTS, and he is still NOT a documented relative. What would settle it: his death certificate, which names parents where the index does not; or the naturalisation file itself, which carries a birthplace -- and if that birthplace is PIEDIMONTE ETNEO this becomes a different question entirely.",
+     "source": "NAA: BP4/3, ITALIAN MAZZA A (item 5237835); Queensland death registration 1975/C/4171",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "After the camp",
+   "rows": [
+    {
+     "kind": "After the camp",
+     "who": "Rosario Mazza (b. 1899)",
+     "slug": "rosario-mazza-1899",
+     "treeSays": "Interned; the dossier is known and nothing after it",
+     "recordSays": "HE WENT INTO THE CIVIL ALIENS CORPS. NAA: J1737, MAZZA R: «Mazza Rosario, CAS 15000 - CIVIL ALIENS CORPS (CAC)», Brisbane, 1944, ACCESS OPEN. The CAC was the labour corps that interned Italians were released into rather than freed -- road and timber work under military administration -- and CAS 15000 is his service number in it. This archive had his internment dossier, MP1103/1 Q8110, and then a silence. IT ALSO SITS BESIDE THE OTHER TWO. Mario Crupi was at Loveday from August 1942 and released on 30 December 1943; Antonino Crupi came out on 22 October 1943. Rosario's Corps file is 1944. The three men were moving through the same system within months of each other.",
+     "source": "NAA: J1737, MAZZA R (item 6305636); against NAA: MP1103/1, Q8110",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Internment — the dossier, and the number that proves it",
+   "rows": [
+    {
+     "kind": "Internment — the dossier, and the number that proves it",
+     "who": "Antonino Crupi",
+     "slug": "—",
+     "treeSays": "Interned at Loveday, known only from the aliens card",
+     "recordSays": "HIS DOSSIER IS NAA: MP1103/1, Q7838 — «Prisoner of War/Internee: Crupi, Antonio; Date of birth - 05 November 1907», Melbourne, 1942-1943, access OPEN, with a companion at MP1103/2, Q7838. AND THE NUMBER IS THE PROOF. His aliens registration card, NAA: D4028, carries «Q. 7838» written beside his name. The same serial in two unrelated series — the Queensland aliens register and the Commonwealth internee dossiers — ties the card and the camp to one man, and the identification no longer rests on birthplace alone. MARIO CRUPI'S DOSSIER DOES THE SAME: MP1103/2, Q30124, against the «N.B.E. certificate Q30124» on his own card. ONE FIGURE IN CONFLICT AND LEFT SO. The card says «5.10.07», which is 5 OCTOBER 1907. The dossier catalogue says 05 NOVEMBER 1907. A month apart, both Commonwealth paperwork about the same man, and the dossier itself is what would settle it.",
+     "source": "NAA: MP1103/1 Q7838 (item 8621112) and MP1103/2 Q7838 (item 9909834); against NAA: D4028, CRUPI ANTONIO",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A third man of the name — A GUARD",
+   "rows": [
+    {
+     "kind": "A third man of the name — A GUARD",
+     "who": "Antonino Crupi × the Antonio Crupi of Victoria",
+     "slug": "—",
+     "treeSays": "Two Antonio Crupi already separated",
+     "recordSays": "THERE IS A THIRD. NAA: MP1103/1 and MP1103/2, PWV11028 — «Prisoner of War/Internee: Crupi, Antonio; Date of birth - 10 JANUARY 1904» — a VICTORIAN internee, the PWV prefix against our Q for Queensland, and three years older. THIS ARCHIVE HAS NOW SET ASIDE THREE MEN CALLED ANTONIO CRUPI: the Serrata-born holder of aliens card 9209609, one barcode from Antonino's; the Silkwood East farmer on the 1959 electoral roll; and this Victorian internee. EACH WAS EXCLUDED BY A DIFFERENT FIELD — birthplace, address, and the state prefix on a serial number. The name alone has never once been enough.",
+     "source": "NAA: MP1103/1 PWV11028 (item 8622956); MP1103/2 PWV11028 (item 9911875)",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "A fourth internment that is NOT this family — A GUARD",
+   "rows": [
+    {
+     "kind": "A fourth internment that is NOT this family — A GUARD",
+     "who": "Rocco Arena × the interned Rocco Arena",
+     "slug": "rocco-arena-1924",
+     "treeSays": "Three men of this family interned in 1942-43",
+     "recordSays": "A ROCCO ARENA WAS INTERNED IN AUSTRALIA AND HE IS NOT ONE OF THEM. NAA: MP1103/1 and MP1103/2, PWN9406, give «Prisoner of War/Internee: Arena, Rocco; Date of birth - 31 AUGUST 1909»; A367 C18000/298 and C329 42 are his Aliens Tribunal objection, number 35 of 1941; C123 4326 and C123 ITALIAN INTERNEES [Box 611] are Sydney lists of 1940; ST1233/1 N35192 is «Rocco Arena [Interned] [Application for Naturalisation]». THE ARITHMETIC EXCLUDES HIM ABSOLUTELY. This archive's ROCCO ARENA ARRIVED IN AUSTRALIA ON 27 DECEMBER 1953 -- thirteen years after that man was interned. The other Rocco Arena, born at Scilla in 1861, DIED THERE ON 8 FEBRUARY 1932. Neither was in New South Wales in 1940. THIS GUARD EXISTS BECAUSE THE PATTERN IS ALREADY SET. Rosario Mazza, Mario Crupi and Antonino Crupi were all interned, all documented this week, and a fourth man of the right surname in the same camps would be very easy to believe. He is a Sydney man born in 1909 and he is nobody here.",
+     "source": "NAA: MP1103/1 PWN9406; A367 C18000/298; ST1233/1 N35192; against NAA passenger index, arrival 27 December 1953",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "A structural finding about the thinnest quarter",
+   "rows": [
+    {
+     "kind": "A structural finding about the thinnest quarter",
+     "who": "The Polistena at Scilla",
+     "slug": "—",
+     "treeSays": "One of this archive's four Scilla families",
+     "recordSays": "THEY ARE BARELY IN THE BIRTH REGISTERS OF THE 1830s. Three complete annual P sections -- 1834, 1835 and 1836 -- cover 629 BIRTHS AND HOLD EXACTLY ONE POLISTENA. The P section at Scilla in those years is Paladino, Pirrotta, Patafio, Papalia, Pizzarello, Parisi, Piria. THE POLISTENA ARE NOT AN OLD SCILLA SURNAME AT THAT DATE. WHICH MAY BE WHY THIS QUARTER STOPS. The Polistena line reaches Camillo Antonio, born about 1835, and above him only his parents' names off a death act. If the family came INTO Scilla rather than being of it, the generation above will be in another comune's registers -- and POLISTENA IS ITSELF A COMUNE in the province of Reggio Calabria, seventy kilometres away, which is exactly where a surname like that comes from. Recorded as a reading of an absence, not a finding, and the test is whether Camillo Antonio's birth act exists at Scilla at all.",
+     "source": "Scilla, Nati 1834, 1835 and 1836, Tavole annuali — complete P sections",
+     "confidence": "inferred"
+    }
+   ]
+  },
+  {
+   "kind": "A lead with the wrong surname on it — OPENED, AND THE INDEX WAS THE LIAR",
+   "rows": [
+    {
+     "kind": "A lead with the wrong surname on it — OPENED, AND THE INDEX WAS THE LIAR",
+     "who": "Annunziata Polistina, born 2 December 1836",
+     "slug": "—",
+     "treeSays": "Camillo Antonio Polistena has no documented siblings",
+     "recordSays": "«POLISTINA ANNUNZIATA, DI GIUSEPPE E MARTELLO ANNA» -- entry 191 of the 1836 Scilla birth Tavola, born 2 DECEMBER 1836, and the ONLY Polistena birth in three years of that register. THE GIVEN NAMES ARE RIGHT AND THE SURNAME IS NOT. Camillo Antonio Polistena's death act of 1924 gives his parents as GIUSEPPE POLISTENA and ANNA PONTILLO. Here the mother is ANNA MARTELLO. THREE READINGS AND NO DECISION: the Tavola is wrong; the death act is wrong; or these are two different couples who each happen to pair a Giuseppe with an Anna. TWO THINGS MAKE THE FIRST WORTH TESTING. The Tavola is an INDEX, and this archive has already been caught by one -- the 1854 index that called Serafina Arlotta «Rosa» and briefly turned a brother into a cousin. AND FOUR ENTRIES EARLIER, at 168, stands «PONTILLO GIOVANNI, di Giuseppe e Paladino Giuseppa» -- a Pontillo household with a Giuseppe at its head, in the same section of the same page. A clerk copying down that column had both surnames under his hand. ACT 191 OF 1836 SETTLES IT AND IS THREE IMAGES AWAY. OPENED THE SAME HOUR. ACT 204 OF 1836 -- not 191; the Tavola's «Num. d'ordine» is an index row and this index carries NO act number at all. Scilla, 2 DECEMBER 1836: the midwife TERESA ARENA, forty-four, declared a girl born that morning at eight to ANNA PONTILLO, THIRTY-FIVE, lawful wife of GIUSEPPE POLISTINA, THIRTY-EIGHT, MARINARO, and named ANNUNZIATA POLISTINA. THE MOTHER IS PONTILLO. The Tavola's «Martello» is wrong, the death act of 1924 is right, and ANNUNZIATA IS CAMILLO ANTONIO POLISTENA'S SISTER -- the first sibling he has ever had here. The guess about WHY the index erred also held: four entries earlier in the same P section stands «Pontillo Giovanni, di Giuseppe e Paladino Giuseppa».",
+     "source": "Scilla, Nati 1836, Tavola annuale, entry 191; Scilla, Nati 1836 atto 204, read in the original",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Dated at last — the Polistena get their first two birth years",
+   "rows": [
+    {
+     "kind": "Dated at last — the Polistena get their first two birth years",
+     "who": "Giuseppe Polistena and Anna Pontillo",
+     "slug": "—",
+     "treeSays": "Two names off a death act, with no dates and no trades",
+     "recordSays": "GIUSEPPE POLISTENA WAS THIRTY-EIGHT AND A MARINARO, ANNA PONTILLO THIRTY-FIVE, in December 1836 -- so born about 1798 and about 1801. Given in their daughter Annunziata's birth act, Scilla atto 204 of 1836. THE POLISTENA QUARTER HAD NO DATED ANCESTOR ABOVE CAMILLO ANTONIO AT ALL; it now has two, with a trade. AND THE TRADE MATTERS: a MARINARO sets the Polistena beside the Arena and the Arlotta as a third Scilla sailing family, against the Mazza, who were contadini in Sicily.",
+     "source": "Scilla, Nati 1836 atto 204",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Method — an index with no act number in it",
+   "rows": [
+    {
+     "kind": "Method — an index with no act number in it",
+     "who": "Scilla's annual birth Tavole",
+     "slug": "—",
+     "treeSays": "The Tavola's «Num. d'ordine» points at the act",
+     "recordSays": "IT DOES NOT, IN 1836. That Tavola's columns are Num. d'ordine | Cognomi e Nomi dei Nati | Cognomi e Nomi dei Genitori | GIORNO DELLA NASCITA -- and THERE IS NO ACT-NUMBER COLUMN. The «Num. d'ordine» is the INDEX ROW, running 1 to 222 across the alphabet. Entry 191 is a Polistina; ACT 191 of the register is a SQUILLACI birth at Solano on 9 November. THE ONLY KEY FROM THIS INDEX INTO THIS REGISTER IS THE DATE OF BIRTH, and the acts run in date order -- which found act 204 in two probes. This is the Briatico 1828 trap in a harder form: there the index ran one behind the register, here it does not point at the register at all.",
+     "source": "Scilla, Nati 1836, Tavola annuale against atti 191 and 204",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Age — wrong by at least six years, and eleven years prove it",
+   "rows": [
+    {
+     "kind": "Age — wrong by at least six years, and eleven years prove it",
+     "who": "Camillo Antonio Polistena",
+     "slug": "—",
+     "treeSays": "Born about 1835, from being forty-eight in September 1883",
+     "recordSays": "HE IS NOT IN THE SCILLA BIRTH REGISTER FOR 1833, 1834, 1835, 1836, 1837 OR 1838. Six consecutive complete P sections. AND HIS PARENTS ARE IN TWO OF THEM: GIUSEPPE POLISTENA and ANNA PONTILLO have a son ROCCO on 13 DECEMBER 1833 and a daughter ANNUNZIATA on 2 DECEMBER 1836. THE THREE YEARS BETWEEN HOLD NO POLISTENA BIRTH AT ALL, and they are not thin years -- 201, 206 and 222 births. A child born to this couple about 1835 is simply not there. SO «FORTY-EIGHT» IN SEPTEMBER 1883 IS OUT BY AT LEAST TWO YEARS, and he was born BEFORE 1833 or AFTER 1838. Declared ages in this register are routinely a year out; this one is worse. THE SEARCH MOVES TO 1830-1832 AND 1839-1840, and it should not stop at the first year that fits. EXTENDED TO ELEVEN YEARS, 1830-1840, AND THE DIRECTION IS NOW FIXED. His parents' children come in DECEMBER 1833, DECEMBER 1836 and JANUARY 1840 -- three years apart, twice, with 1830, 1831 and 1832 read and empty of them. SO ROCCO IS THE ELDEST AND CAMILLO ANTONIO CANNOT BE EARLIER; he must be 1841 OR LATER, and «forty-eight» in September 1883 is wrong by at least SIX years. THE NAMING CUSTOM AGREES: a first son takes the father's father's name, making Giuseppe's father a ROCCO POLISTENA, and a later son takes the mother's father's -- which would make CAMILLO ANTONIO the namesake of a CAMILLO PONTILLO. Anna Pontillo was about thirty-five in 1836 and could bear to about 1846, so the window is 1841-1848.",
+     "source": "Scilla, Nati 1830-1840, Tavole annuali — eleven complete P sections",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Missing people — two siblings for the thinnest quarter",
+   "rows": [
+    {
+     "kind": "Missing people — two siblings for the thinnest quarter",
+     "who": "Rocco and Annunziata Polistina",
+     "slug": "—",
+     "treeSays": "Camillo Antonio Polistena has no siblings in the tree",
+     "recordSays": "HE HAS TWO. ROCCO POLISTINA, born 13 DECEMBER 1833, and ANNUNZIATA POLISTINA, born 2 DECEMBER 1836 -- both children of GIUSEPPE POLISTENA and ANNA PONTILLO, the couple named on Camillo Antonio's own death act of 1924. Annunziata's act has been read in the original (Scilla, atto 204 of 1836) and gives her parents' ages: Giuseppe thirty-eight, Anna thirty-five. Rocco is so far only an index line. NEITHER IS IN THE FAMILY TREE, and until today this quarter had no documented person at Camillo Antonio's own generation beside him.",
+     "source": "Scilla, Nati 1833 Tavola entry 144; Nati 1836 atto 204",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A second Polistena household — A GUARD",
+   "rows": [
+    {
+     "kind": "A second Polistena household — A GUARD",
+     "who": "Francesco Polistina and Giuseppa Longardo",
+     "slug": "—",
+     "treeSays": "One Polistena household at Scilla",
+     "recordSays": "THERE ARE AT LEAST TWO. The 1839 birth Tavola, entry 153, gives «POLISTINA MARIA -- FRANCESCO e LONGARDO GIUSEPPA -- 30 Maggio». That is not GIUSEPPE POLISTENA and ANNA PONTILLO, this archive's couple, and the child is not a sibling of Camillo Antonio. IT MATTERS BECAUSE THE SURNAME IS SO RARE HERE. Seven consecutive years of the Scilla birth register -- 1833 to 1839, about 1,450 births -- hold exactly FOUR Polistena, and three of them belong to these two couples. With a surname that scarce, the temptation to join any two bearers is strong and it should be resisted: the discriminator is the MOTHER, and here it is Longardo against Pontillo. NOTED AND NOT CONCLUDED FROM: LONGARDO is the surname of NATALINA LONGORDO, mother of the Filippo Arena who died at Scilla in 1915 and who was briefly taken for Rocco Arena's brother. The two spellings are one Scilla surname. AND THEY WERE THERE BEFORE THIS ARCHIVE'S COUPLE. The 1832 Tavola, entry 152, gives «POLISTINA DOMENICA -- FRANCESCO e LONGORDO GIUSEPPA -- 17 Dicembre». So Francesco and Giuseppa had a daughter in December 1832 and another in May 1839, while Giuseppe and Anna Pontillo had theirs in December 1833 and December 1836. TWO HOUSEHOLDS RUNNING IN PARALLEL FOR EIGHT YEARS, and between them they account for EVERY Polistena birth at Scilla in that time -- five in about 1,630 births.",
+     "source": "Scilla, Nati 1839, Tavola annuale, entry 153",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Missing people — a third child, and the shape of the family",
+   "rows": [
+    {
+     "kind": "Missing people — a third child, and the shape of the family",
+     "who": "Fortunata Polistina",
+     "slug": "—",
+     "treeSays": "Camillo Antonio Polistena has no siblings in the tree",
+     "recordSays": "FORTUNATA POLISTINA, born 28 JANUARY 1840 to GIUSEPPE POLISTENA and ANNA PONTILLO -- the 1840 Tavola, entry 107, which spells the mother PONTILLO correctly. SHE IS THE THIRD SIBLING FOUND TODAY, after Rocco (13 December 1833) and Annunziata (2 December 1836). AND THE THREE OF THEM GIVE THE FAMILY A SHAPE. Children in December 1833, December 1836 and January 1840 -- THREE YEARS APART, TWICE -- with 1830, 1831, 1832, 1834, 1835, 1837, 1838 and 1839 all read and holding no child of theirs. That is a regular household, and it means Rocco is the eldest and Camillo Antonio is younger than all three.",
+     "source": "Scilla, Nati 1840, Tavola annuale, entry 107",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Three Polistena households, not one — THE MAP",
+   "rows": [
+    {
+     "kind": "Three Polistena households, not one — THE MAP",
+     "who": "The Polistena of Scilla, 1830-1840",
+     "slug": "—",
+     "treeSays": "A surname with one household behind it",
+     "recordSays": "THREE, AND ELEVEN YEARS OF THE BIRTH REGISTER NAME ALL OF THEM. GIUSEPPE POLISTENA x ANNA PONTILLO -- this archive's -- with Rocco (1833), Annunziata (1836) and Fortunata (1840). FRANCESCO POLISTINA x GIUSEPPA LONGARDO, with Salvadore (1830), Domenica (1832) and Maria (1839). LUIGI POLISTINA x MARIANNA (or GIOVANNA) BAVIERA, with Antonino (1830) and Francesco Antonio (1831). EIGHT BIRTHS IN ABOUT 2,100. The surname is scarce enough that any two bearers look related and rare enough that the temptation to join them is strong. THE DISCRIMINATOR IS THE MOTHER, every time: Pontillo, Longardo, Baviera. NOTE ONE TRAP IN PARTICULAR: Luigi's son born 21 June 1831 is called FRANCESCO ANTONIO POLISTINA. That is one word away from CAMILLO ANTONIO POLISTENA, in the right town in the right decade, and it is a different child of different parents. It would be very easy to seize on.",
+     "source": "Scilla, Nati 1830-1840, Tavole annuali — eleven complete P sections",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A Giuseppe and an Anna Pontillo who are NOT these two — A GUARD",
+   "rows": [
+    {
+     "kind": "A Giuseppe and an Anna Pontillo who are NOT these two — A GUARD",
+     "who": "Giuseppe Palmisano and Anna Pontillo",
+     "slug": "—",
+     "treeSays": "One couple at Scilla answering to «Giuseppe e Anna Pontillo»",
+     "recordSays": "THERE ARE TWO, AND THE OTHER IS A PALMISANO. The 1841 Scilla birth Tavola, entry 160: «PALMISANO GIO. BATTISTA -- GIUSEPPE e ANNA PONTILLO -- 26 Agosto». This archive's couple are GIUSEPPE POLISTENA and ANNA PONTILLO, whose children appear in the same register in 1833, 1836 and 1840. SAME TWO GIVEN NAMES, SAME DISTINCTIVE MAIDEN SURNAME, SAME TOWN, SAME DECADE. WHY IT MATTERS MORE THAN AN ORDINARY COLLISION: the way this archive has been searching these Tavole is by READING THE PARENTS COLUMN for «Giuseppe e Pontillo Anna». That method walks straight into this entry and cannot tell the difference, because the thing that separates them is the CHILD'S SURNAME -- the column a parent-scan skips. IT IS NOT DECIDED HERE whether this is a second Anna Pontillo or the same woman remarried; nothing in the index says. It is written down so that the next person reading these pages checks the first column before celebrating.",
+     "source": "Scilla, Nati 1841, Tavola annuale, entry 160",
+     "confidence": "certain"
+    }
+   ]
+  },
+  {
+   "kind": "A fourth Polistena household",
+   "rows": [
+    {
+     "kind": "A fourth Polistena household",
+     "who": "Domenico Polistina and Caterina Costa",
+     "slug": "—",
+     "treeSays": "Three Polistena households at Scilla",
+     "recordSays": "FOUR. The 1842 birth Tavola, entry 145: «POLISTINA SALVADORE -- DOM.co e COSTA CATERINA -- 12 Gennaro». Added to GIUSEPPE x ANNA PONTILLO, FRANCESCO x GIUSEPPA LONGARDO and LUIGI x MARIANNA BAVIERA. Thirteen years of the Scilla birth register now name four distinct couples of this surname and nine children between them. NOTE THE WIFE'S SURNAME: COSTA, which is the third time a Costa woman has married into a family this archive is tracking at Scilla -- after Domenica Costa to Filippo Arena and Maria Costa to Giovanni Arlotta. Costa is simply a very common Scilla surname and no connection is claimed.",
+     "source": "Scilla, Nati 1842, Tavola annuale, entry 145",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Method — a birth act is not only a birth",
+   "rows": [
+    {
+     "kind": "Method — a birth act is not only a birth",
+     "who": "Scilla's restaurazione birth acts",
+     "slug": "—",
+     "treeSays": "A birth act gives a date, a house and two parents",
+     "recordSays": "IT ALSO CARRIES MARGINAL ANNOTATIONS ADDED DECADES LATER, and this archive has read a dozen of these acts without once looking at the margin. Scilla atto 174 of 1833 -- Rocco Polistina's birth -- has written down its left edge: «L'anno 1869, il giorno 12 Luglio ... HA CONTRATTO MATRIMONIO IN QUESTO COMUNE CON COLORINA BRI[...]», signed by the Uffiziale and dated from Reggio on 26 August 1869. THIRTY-SIX YEARS AFTER THE BIRTH, IN A DIFFERENT HAND. THE PRINTED FORM ASKS FOR IT: the left column is headed «MARGINE per scriversi alcune notizie riguardanti gli atti di nascita», and the right «INDICAZIONE del giorno in cui è stato amministrato il Sagramento del Battesimo». One is the baptism, which this archive does read; the other is everything that happened to the person afterwards, which it does not. WHAT TO DO ABOUT IT: go back to the margins of the acts already read -- Francesco Antonio Arena 1819 atto 186, Serafina Arlotta 1830 atto 89, Rocco Arena 1861 atto 228, the four 1852-1860 Arena births -- and look. A marriage annotation would date a wedding without a marriage register at all.",
+     "source": "Scilla, Nati 1833 atto 174",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Method, calibrated — what a blank margin is and is not worth",
+   "rows": [
+    {
+     "kind": "Method, calibrated — what a blank margin is and is not worth",
+     "who": "Scilla birth-act marginal annotations",
+     "slug": "—",
+     "treeSays": "A birth act's margin may carry a later marriage",
+     "recordSays": "THREE MARGINS NOW READ, AND THE RULE IS NARROWER THAN IT LOOKED. ROCCO POLISTINA, born 1833, married AT SCILLA on 12 July 1869: HIS MARGIN CARRIES IT, written by the same office, signed, and dated from Reggio six weeks later. SERAFINA ARLOTTA, born 1830, married at Scilla on 7 February 1851: HER MARGIN IS EMPTY. FILIPPO ARENA, born 1852, who would have married after 1866 if he married at Scilla: HIS MARGIN IS EMPTY. THE READING THAT FITS ALL THREE is that the annotation is an ITALIAN-ERA administrative habit -- it appears on a marriage of 1869 and not on one of 1851 -- and that it is written only when the later act is registered in the SAME COMUNE, since the note itself says «ha contratto matrimonio IN QUESTO COMUNE». SO A BLANK MARGIN IS WEAK EVIDENCE AND MUST NOT BE READ AS «HE NEVER MARRIED». For a pre-1866 marriage it means nothing at all. For a post-1866 one it is consistent with a marriage ELSEWHERE, which for Filippo Arena is exactly the reading the rest of the evidence already supports -- he is absent from Scilla's death index from 1889 to 1943 and from the name index of 1910-1943. ONE MORE STRAW ON THE PILE THAT HE LEFT, and not a proof of anything.",
+     "source": "Scilla, Nati 1833 atto 174; Nati 1830 atto 89; Nati 1852 atto 48",
+     "confidence": "inferred"
+    }
+   ]
+  },
+  {
+   "kind": "Declared ages — the extreme case, kept as a warning",
+   "rows": [
+    {
+     "kind": "Declared ages — the extreme case, kept as a warning",
+     "who": "Francesco Antonio Arena and Serafina Arlotta",
+     "slug": "—",
+     "treeSays": "Declared ages in this register are usually a year or two out",
+     "recordSays": "IN ATTO 48 OF 1852 THEY ARE FOUR AND SEVEN YEARS OUT, IN THE SAME LINE. He is entered as THIRTY-SIX and was thirty-two; she as TWENTY-EIGHT and was twenty-one -- and she had married twelve months earlier on an act that makes her twenty. TWO YEARS LATER, in atto 76 of 1854, the same couple are THIRTY-FOUR and TWENTY-TWO, which fits their birth acts. The register did not age them; a clerk guessed, and guessed badly. THIS IS THE ACT TO POINT AT whenever a declared age is about to be used to identify somebody. It is also why Camillo Antonio Polistena's «forty-eight» has now been shown wrong by at least six years without anything being wrong with the man.",
+     "source": "Scilla, Nati 1852 atto 48, against Nati 1819 atto 186, Nati 1830 atto 89, Matrimoni 1851 atto 13 and Nati 1854 atto 76",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A son who is a daughter — MY OWN ERROR, RETRACTED",
+   "rows": [
+    {
+     "kind": "A son who is a daughter — MY OWN ERROR, RETRACTED",
+     "who": "Domenico Arena, born 24 March 1853",
+     "slug": "—",
+     "treeSays": "DOMENICO ARENA b. 24 March 1853, one of Rocco Arena's three brothers",
+     "recordSays": "SHE IS DOMENICA ARENA AND SHE IS HIS SISTER. Scilla, atto 53 of 1853, read in the original: FRANCESCANTONIO ARENA presented «UNA FEMINA», declared «di dare alla FANCIULLA il nome di DOMENICA», and the Indicazione column records the baptism of DOMENICA ARENA on the same day. Three independent statements inside one act. HOW THE ERROR HAPPENED, BECAUSE IT WILL HAPPEN AGAIN: she was taken from the ANNUAL TAVOLA, where a surname-ordered index line reading «Arena Domenica di Francescantonio e Arlotta Serafina» was read as Domenico. The Tavola was not wrong; the reading was, and NOBODY OPENED THE ACT for fourteen weeks. This archive's own caution says «read the act, not the index», and this is the fourth time that caution has been vindicated -- after the tavola numbers, the «Rosa» Arlotta of 1854, and the Mazza bride who was a Muzzi. WHAT IT CHANGES. Rocco Arena had TWO documented brothers, not three -- FILIPPO (1852) and GIUSEPPE (1860), plus GIOVANNI (1854) and himself. And row 146's «three brothers vanish after 1898» becomes TWO: a married daughter leaves the Arena surname and stops appearing under it, which is not a disappearance.",
+     "source": "Scilla, Nati 1853 atto 53",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Citation — a Tavola row number published as an act number, again",
+   "rows": [
+    {
+     "kind": "Citation — a Tavola row number published as an act number, again",
+     "who": "Domenica Arena",
+     "slug": "—",
+     "treeSays": "Scilla, Nati 1853, atto 2",
+     "recordSays": "IT IS ACT 53. Act 2 of 1853 is DOMENICA BELLANTONI, born 4 January to MARIA BELLANTONI, filatrice, twenty-nine, who presented her and acknowledged her as her natural daughter. «2» was the second entry in the A block of the annual Tavola. THIS IS THE SECOND SUCH CITATION FOUND TODAY -- Serafina Arlotta's «Nati 1830 atto 2» is act 89 -- AND BOTH ARE «ATTO 2», which is what a surname-ordered index gives you when Arena and Arlotta sit second in the A block. ANY «atto» NUMBER IN THIS ARCHIVE THAT CAME OFF A TAVOLA AND HAS NOT BEEN CHECKED AGAINST THE REGISTER SHOULD BE TREATED AS A ROW NUMBER UNTIL IT IS.",
+     "source": "Scilla, Nati 1853 atti 2 and 53",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Margins — RETRACTED WITHIN THE HOUR: a blank means nothing after all",
+   "rows": [
+    {
+     "kind": "Margins — RETRACTED WITHIN THE HOUR: a blank means nothing after all",
+     "who": "Filippo Arena",
+     "slug": "—",
+     "treeSays": "A blank margin is weak evidence",
+     "recordSays": "IT IS STRONGER THAN I ALLOWED AN HOUR AGO, BECAUSE THE CONTROL NOW EXISTS. The 1852 volume DOES carry marriage annotations: act 55 of 1852 has «Atto 18 Febbraio 1881 N. 11 -- SCARFONE ROCCO contrasse matrimonio in Scilla con VITA MARIA», written in the margin and dated from Reggio. The 1853 volume does it twice on one opening -- act 54 (a marriage of 20 December 1876) and act 55 («PALADINO SANTA contrasse matrimonio in Scilla», 8 September 1883). SO THE PRACTICE WAS APPLIED IN THESE VERY VOLUMES, AND FILIPPO ARENA'S MARGIN IS EMPTY. That is now evidence rather than nothing: HE DID NOT MARRY AT SCILLA. It still does not prove he never married -- a wedding in another comune would not be written back, and a clerk can miss one -- but set beside his absence from Scilla's death index 1889-1943 and from the name index of 1910-1943, it is a third silence pointing the same way. RETRACTED THE SAME AFTERNOON, AND BY A CASE THAT SETTLES IT. GIUSEPPE ARENA MARRIED MARIA MARTELLO AT SCILLA ON 12 SEPTEMBER 1885 -- act 73, read here in the original -- AND HIS OWN BIRTH ACT, NATI 1860 ATTO 45, HAS AN EMPTY ANNOTATION BOX. A man who demonstrably married at Scilla after 1866 was not annotated. THEREFORE A BLANK BOX IS NOT EVIDENCE THAT SOMEBODY DID NOT MARRY THERE, and the inference drawn against Filippo Arena is withdrawn in full. WHAT SURVIVES: a PRESENT annotation is worth having -- Rocco Polistina's 1869 marriage came free that way, and so did marriages of 1876, 1881 and 1883 on other acts. The annotation is a bonus when it is there and says NOTHING when it is not. NOTE ALSO THAT THE BOX MOVES. The 1852 and 1853 volumes use a left-hand column headed «MARGINE per scriversi alcune notizie riguardanti gli atti di Nascita»; the 1860 volume uses a right-hand box headed «MENZIONI prescritte dagli articoli 64, 65 e 106». Same purpose, opposite side of the page -- so «the margin is blank» must mean the right box was looked at.",
+     "source": "Scilla, Nati 1852 atti 48 and 55; Nati 1853 atti 54 and 55; Nati 1860 atto 45 against Matrimoni 1885 atto 73",
+     "confidence": "flagged"
+    }
+   ]
+  },
+  {
+   "kind": "Marriage — dated, and the parents dated with it",
+   "rows": [
+    {
+     "kind": "Marriage — dated, and the parents dated with it",
+     "who": "Luigi Carmelo Polistina and Annunziata Matra",
+     "slug": "—",
+     "treeSays": "Named only from a death act of 1933",
+     "recordSays": "THEY MARRIED AT SCILLA ON 23 NOVEMBER 1882, act 48. He was THIRTY, a MARINAIO, BORN AT SCILLA, son of RAFFAELE POLISTENA and TERESA DONATO -- both living. She was a FILATRICE, born at Scilla, daughter of GIACOMO MATRA, living, and the late CONCETTA LEOTTA. THE ACT AND THE NAME INDEX AGREE PERFECTLY ACROSS FIFTY-ONE YEARS: «Luigi Polistena, died 8 December 1933 -- Padre Raffaele, Madre Teresa Donato, Coniuge Annunziata Matra.» AND IT GIVES RAFFAELE POLISTENA AND TERESA DONATO THEIR FIRST DATE OF ANY KIND -- both alive in November 1882 -- and makes THEIR marriage a named target, before about 1852. That is the Donato-Polistena join one generation further back than row 138 had it.",
+     "source": "Scilla, Matrimoni 1882, atto 48",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Age — nine years out, and it sent the whole search the wrong way",
+   "rows": [
+    {
+     "kind": "Age — nine years out, and it sent the whole search the wrong way",
+     "who": "Camillo Antonio Polistena",
+     "slug": "—",
+     "treeSays": "Born about 1835, from being forty-eight on his son's birth act of September 1883",
+     "recordSays": "BORN ABOUT 1844. His own marriage act of 23 JANUARY 1881 makes him THIRTY-SIX -- so born between late January 1844 and late January 1845. The 1883 figure is NINE YEARS OUT, and it is the figure this archive built a sixteen-year sweep of the birth registers on. WHICH DECLARATION TO PREFER: THE MARRIAGE ACT. He appeared in person to marry, where age carried legal weight and the parish papers had been checked; the 1883 age was given by a man registering a newborn at nine in the evening. This archive has already ruled the same way for Giovanni Arlotta and Maria Costa. AND IT EXPLAINS THE SILENCE RATHER THAN DEEPENING IT. Eleven years of birth Tavole were read around 1835 because of the 1883 age. The answer was never in them. 1844 and 1845 ARE in the swept range -- but the 1844 reading covered only entries 127-138 without establishing where the P block ends, and 1845 is recorded as PARTIAL with seven of eighteen lines too faint. BOTH NEED GOING BACK TO, and that is now the shortest road left.",
+     "source": "Scilla, Matrimoni 1881 atto 4, against Nati 1883 atto 206",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Death — a first bound for both of them",
+   "rows": [
+    {
+     "kind": "Death — a first bound for both of them",
+     "who": "Giuseppe Polistena and Anna Pontillo",
+     "slug": "—",
+     "treeSays": "No death, no bound, for either",
+     "recordSays": "BOTH WERE DEAD BEFORE 23 JANUARY 1881. Their son's marriage act calls him «figlio del FU Giuseppe ... e della FU Anna Pontillo», each «residente in vita in Scilla» -- the formula for a parent who died in the comune. So: GIUSEPPE POLISTENA, born about 1798, alive at his daughter Fortunata's birth in January 1840, DEAD BY JANUARY 1881. ANNA PONTILLO, born about 1800, the same. Forty-one years of window, and it is the first bound either has ever had. IT ALSO CONFIRMS THE PARENTAGE FROM A SECOND DOCUMENT. Camillo Antonio's death act of 1924 named them; this act names them again, forty-three years earlier and from his own mouth. The identification no longer rests on one record.",
+     "source": "Scilla, Matrimoni 1881 atto 4",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Birth year and parents, confirmed from her own act",
+   "rows": [
+    {
+     "kind": "Birth year and parents, confirmed from her own act",
+     "who": "Giovanna Romano",
+     "slug": "—",
+     "treeSays": "Named as Camillo Antonio Polistena's wife; parents from her death act",
+     "recordSays": "TWENTY-SIX AND A FILATRICE at her marriage on 23 January 1881, so BORN ABOUT 1854, and NATA IN QUESTO COMUNE -- born at Scilla. Her parents are given as ANNUNZIATO, resident in this Comune, and ANGELA ZIRILLI, resident here -- BOTH LIVING in January 1881. THIS IS THE FOURTH RECORD TO CALL HER A ROMANO and the FIRST in which she is the subject rather than somebody's mother or wife. The family tree calls her «Giovanna Pontillo»; the register has now said Romano in her son's birth act of 1883, in a New Orleans manifest of 1908, in her own death act of 1930, and here in her own marriage act of 1881. The question is closed as firmly as it can be.",
+     "source": "Scilla, Matrimoni 1881 atto 4",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Birth — found, and my own partial reading is why it took so long",
+   "rows": [
+    {
+     "kind": "Birth — found, and my own partial reading is why it took so long",
+     "who": "Camillo Antonio Polistena",
+     "slug": "—",
+     "treeSays": "Born about 1835; not in sixteen years of the Scilla birth register",
+     "recordSays": "BORN AT SCILLA ON 21 SEPTEMBER 1844. The 1844 annual Tavola, entry 142: «Polistina Camillo -- Giuseppe e Pontillo Anna -- 21 Settembre». THE ARITHMETIC CLOSES EXACTLY. Born 21 September 1844, he is THIRTY-SIX YEARS AND FOUR MONTHS at his marriage on 23 January 1881, and the act says «di anni trentasei». At his son Giovanni's birth on 16 September 1883 he was THIRTY-EIGHT and eleven months, and that act says FORTY-EIGHT -- ten years wrong, and the figure this archive searched around. MY OWN READING IS WHY IT TOOK SIXTEEN YEARS OF SWEEPING. The 1844 P block was read earlier the same day, the crop stopped at entry 138, and the row recorded that the end of the block had not been established. HE IS AT 142. A PARTIAL READING WRITTEN DOWN AS A NEGATIVE IS THE SAME ERROR AS A 403 WRITTEN DOWN AS A NIL -- this archive has a rule about the second and needed one about the first.",
+     "source": "Scilla, Nati 1844, Tavola annuale, entry 142; against Matrimoni 1881 atto 4 and Nati 1883 atto 206",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A fifth Polistena household",
+   "rows": [
+    {
+     "kind": "A fifth Polistena household",
+     "who": "D. Antonio Polistina and Annunziata Paladino",
+     "slug": "—",
+     "treeSays": "Four Polistena households at Scilla",
+     "recordSays": "FIVE. The 1844 birth Tavola, entry 143 -- the line immediately after Camillo Antonio's -- reads «POLISTINA TOMMASO -- D. ANTONIO e PALADINO ANNUNZIATA -- 4 8bre». The «D.» is DON, a courtesy title this register does not hand out freely, so that branch had some standing. Added to GIUSEPPE x ANNA PONTILLO (this archive's), FRANCESCO x GIUSEPPA LONGARDO, LUIGI x MARIANNA BAVIERA and DOMENICO x CATERINA COSTA.",
+     "source": "Scilla, Nati 1844, Tavola annuale, entry 143",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Birth act — read in the original, and the margin points at his marriage",
+   "rows": [
+    {
+     "kind": "Birth act — read in the original, and the margin points at his marriage",
+     "who": "Camillo Antonio Polistena",
+     "slug": "—",
+     "treeSays": "Born 21 September 1844, from the annual Tavola only",
+     "recordSays": "THE ACT IS SCILLA, NATI 1844, ATTO 137 -- not 142, which was the Tavola's row number. GIUSEPPE POLISTINA, fifty, MARINARO, presented a son born to ANNA PONTILLO, filatrice, his lawful wife, «NEL GIORNO VENTUNO CORRENTE MESE», and named him CAMILLO ANTONIO. The baptism column names CAMILLO ANTONIO POLISTINA. THE GIVEN NAME IS SETTLED: the index says «Camillo», the act says «CAMILLO ANTONIO», and that is what every later record calls him. AND THE MARGIN CARRIES HIS MARRIAGE, annotated «Scilla 25 Gennaio 1881» -- two days after the wedding of 23 January 1881 in Matrimoni 1881 atto 4. The birth act and the marriage act point at each other across thirty-seven years, and the identification is now closed from both ends.",
+     "source": "Scilla, Nati 1844 atto 137",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Marriage — found, and the wall this archive built was made of a wrong start year",
+   "rows": [
+    {
+     "kind": "Marriage — found, and the wall this archive built was made of a wrong start year",
+     "who": "Filippo Arena and Domenica Costa",
+     "slug": "—",
+     "treeSays": "Married before Scilla's civil registration and therefore lost to a parish register; «THE ARENA LINE STOPS HERE»",
+     "recordSays": "MARRIED AT SCILLA ON 12 NOVEMBER 1815, Matrimoni atto 29, and the act names BOTH SETS OF PARENTS. This archive wrote the wall itself: it searched 1816-1819 because it believed Scilla began in 1816, found nothing, and concluded the marriage was pre-civil. Scilla begins in 1809. Once the napoleonic volumes were opened the marriage was four years earlier, in an unindexed volume that fell to one montage pass. THE RETRACTION IS OF A CONCLUSION, NOT A READING -- every negative reported for 1810, 1811, 1812, 1816, 1817, 1818 and 1819 stands.",
+     "source": "Scilla, Matrimoni 1815 atto 29",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Parents — named for the first time",
+   "rows": [
+    {
+     "kind": "Parents — named for the first time",
+     "who": "Filippo Arena",
+     "slug": "—",
+     "treeSays": "Parents unknown; Filippo is the top of the Arena spine",
+     "recordSays": "SON OF ORAZIO ARENA, MARINARO, AND SETTERIA MORABITO, both alive and both standing beside him on 12 November 1815, giving the consent the code required of a groom under twenty-five. The Arena line now runs one generation further back, and the sea trade runs four: Orazio, Filippo, Francesco Antonio, Rocco.",
+     "source": "Scilla, Matrimoni 1815 atto 29",
+     "confidence": "documented"
+    },
+    {
+     "kind": "Parents — named for the first time",
+     "who": "Domenica Costa",
+     "slug": "—",
+     "treeSays": "Parents unknown",
+     "recordSays": "DAUGHTER OF THE LATE GIOVANNI COSTA, who died at Scilla on 29 MARCH 1790, and of MARTA ALFONZETTI, who was alive and present at the wedding. Her father's death date is given to the day because the act cites the parish death record, which «si conserva». That is the earliest dated event anywhere in this archive.",
+     "source": "Scilla, Matrimoni 1815 atto 29",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Birth year — moved five years",
+   "rows": [
+    {
+     "kind": "Birth year — moved five years",
+     "who": "Domenica Costa",
+     "slug": "—",
+     "treeSays": "Born about 1792, from her husband's statement that she was twenty-seven when their son was born in November 1819",
+     "recordSays": "BORN ABOUT 1787. She was TWENTY-EIGHT at her own marriage on 12 November 1815, standing in person with her mother consenting. Her own marriage act outranks her husband's answer at a registration desk four years later -- the same rule this archive applied to Maria Costa in the other direction. The five-year gap is not reconciled and is recorded as it stands; one of the two ages is wrong.",
+     "source": "Scilla, Matrimoni 1815 atto 29; Nati 1819 atto 186",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Generation count — this archive's own row header was one too deep",
+   "rows": [
+    {
+     "kind": "Generation count — this archive's own row header was one too deep",
+     "who": "the Scilla Arena spine",
+     "slug": "—",
+     "treeSays": "Row 151: «the only route to generation NINE»",
+     "recordSays": "GENERATION EIGHT. Filippo Arena is generation seven in this archive's numbering, so his parents are generation eight -- the same depth already reached on the Arlotta-Costa side with Rocco Costa and Pasqualina Idone. The find is no less real for being one step shallower than the row promised, but the row promised wrong.",
+     "source": "data/documented-additions.tsv",
+     "confidence": "certain"
     }
    ]
   }

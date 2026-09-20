@@ -237,23 +237,6 @@
   ],
   "down": []
  },
- "orazio-arena": {
-  "anchor": "Orazio Arena",
-  "exportName": "Orazio Arena",
-  "ancGen": null,
-  "up": [],
-  "down": [
-   {
-    "name": "Teresa Arena",
-    "rel": "father",
-    "gen": "5",
-    "born": "17 October 1853",
-    "died": "—",
-    "trade": "—",
-    "source": "Scilla, Nati 1853, atto 6"
-   }
-  ]
- },
  "giovanna-zirilli": {
   "anchor": "Giovanna Zirilli",
   "exportName": "Giovanna Zirilli",
