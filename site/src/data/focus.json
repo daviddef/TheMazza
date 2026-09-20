@@ -156,8 +156,8 @@
       "comp": 1
      },
      {
-      "id": "@I594@",
-      "slug": "alessandro-mazza-2",
+      "id": "@I588@",
+      "slug": "alessandro-mazza",
       "name": "Alessandro Mazza",
       "surname": "Mazza",
       "born": null,
@@ -167,8 +167,8 @@
       "comp": 1
      },
      {
-      "id": "@I588@",
-      "slug": "alessandro-mazza",
+      "id": "@I594@",
+      "slug": "alessandro-mazza-2",
       "name": "Alessandro Mazza",
       "surname": "Mazza",
       "born": null,
@@ -651,17 +651,6 @@
       "comp": 1
      },
      {
-      "id": "@I555@",
-      "slug": "leo-mazza-2",
-      "name": "Leo Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I516@",
       "slug": "leo-mazza",
       "name": "Leo Mazza",
@@ -670,6 +659,17 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+      "comp": 1
+     },
+     {
+      "id": "@I555@",
+      "slug": "leo-mazza-2",
+      "name": "Leo Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
       "comp": 1
      },
      {
@@ -750,17 +750,6 @@
       "comp": 1
      },
      {
-      "id": "@I507@",
-      "slug": "maria-mazza-2",
-      "name": "Maria Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
-      "comp": 1
-     },
-     {
       "id": "@I547@",
       "slug": "maria-mazza-4",
       "name": "Maria Mazza",
@@ -769,6 +758,17 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I507@",
+      "slug": "maria-mazza-2",
+      "name": "Maria Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -1307,7 +1307,7 @@
     "towns": [
      "Brisbane, Queensland"
     ],
-    "component": 8,
+    "component": 4,
     "onSpine": [],
     "people": [
      {
@@ -1319,7 +1319,7 @@
       "died": null,
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
-      "comp": 8
+      "comp": 4
      }
     ]
    },
@@ -1328,7 +1328,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 10,
+    "component": 9,
     "onSpine": [],
     "people": [
      {
@@ -1340,7 +1340,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 10
+      "comp": 9
      }
     ]
    },
@@ -1349,7 +1349,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 6,
+    "component": 7,
     "onSpine": [],
     "people": [
      {
@@ -1361,7 +1361,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 6
+      "comp": 7
      }
     ]
    }
@@ -1522,8 +1522,19 @@
       "comp": 1
      },
      {
-      "id": "@I486@",
-      "slug": "anna-arena-6",
+      "id": "@I111@",
+      "slug": "anna-arena-1955",
+      "name": "Anna Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "datesHidden": true,
+      "birthPlace": "Brisbane, Queensland",
+      "comp": 1
+     },
+     {
+      "id": "@I472@",
+      "slug": "anna-arena-4",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
@@ -1544,6 +1555,17 @@
       "comp": 1
      },
      {
+      "id": "@I486@",
+      "slug": "anna-arena-6",
+      "name": "Anna Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
       "id": "@I466@",
       "slug": "anna-arena-3",
       "name": "Anna Arena",
@@ -1552,28 +1574,6 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I472@",
-      "slug": "anna-arena-4",
-      "name": "Anna Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I111@",
-      "slug": "anna-arena-1955",
-      "name": "Anna Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
       "comp": 1
      },
      {
@@ -1599,17 +1599,6 @@
       "comp": 1
      },
      {
-      "id": "@I260@",
-      "slug": "clemente-arena-2",
-      "name": "Clemente Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Scilla, Reggio Calabria",
-      "comp": 1
-     },
-     {
       "id": "@I474@",
       "slug": "clemente-arena-3",
       "name": "Clemente Arena",
@@ -1618,6 +1607,17 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I260@",
+      "slug": "clemente-arena-2",
+      "name": "Clemente Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
      {
@@ -1632,17 +1632,6 @@
       "comp": 1
      },
      {
-      "id": "@I485@",
-      "slug": "francesco-arena-2",
-      "name": "Francesco Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Scilla, Reggio Calabria",
-      "comp": 1
-     },
-     {
       "id": "@I476@",
       "slug": "francesco-arena",
       "name": "Francesco Arena",
@@ -1654,9 +1643,31 @@
       "comp": 1
      },
      {
+      "id": "@I485@",
+      "slug": "francesco-arena-2",
+      "name": "Francesco Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "Scilla, Reggio Calabria",
+      "comp": 1
+     },
+     {
       "id": "@I475@",
       "slug": "giovanni-arena-3",
       "name": "Giovanni Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I471@",
+      "slug": "giuseppe-arena-5",
+      "name": "Giuseppe Arena",
       "surname": "Arena",
       "born": null,
       "died": null,
@@ -1678,17 +1689,6 @@
      {
       "id": "@I465@",
       "slug": "giuseppe-arena-4",
-      "name": "Giuseppe Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I471@",
-      "slug": "giuseppe-arena-5",
       "name": "Giuseppe Arena",
       "surname": "Arena",
       "born": null,
@@ -1742,8 +1742,8 @@
       "comp": 1
      },
      {
-      "id": "@I480@",
-      "slug": "rocco-arena-4",
+      "id": "@I473@",
+      "slug": "rocco-arena-3",
       "name": "Rocco Arena",
       "surname": "Arena",
       "born": null,
@@ -1753,8 +1753,8 @@
       "comp": 1
      },
      {
-      "id": "@I473@",
-      "slug": "rocco-arena-3",
+      "id": "@I480@",
+      "slug": "rocco-arena-4",
       "name": "Rocco Arena",
       "surname": "Arena",
       "born": null,
