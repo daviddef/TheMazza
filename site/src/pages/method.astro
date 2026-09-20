@@ -3,6 +3,15 @@ import Base from "../layouts/Base.astro";
 import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
 import { u } from "../lib/url.js";
 import stats from "../data/stats.json";
+import audit from "../data/audit-negatives.json";
+import instruments from "../data/instruments.json";
+
+/* This page used to say «nine were audited and five had already failed» while
+   the page it linked to counted for itself. Two more failed on 20 September and
+   the sentence went on saying five. It counts now. */
+const wrong = audit.filter((r) => r.outcome === "WRONG").length;
+const WORD = ["no","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen"];
+const word = (n) => WORD[n] || String(n);
 ---
 <Base title="Method" eyebrow="How this archive decides what it knows"
       dek="An archive is only worth reading if it says which of its claims are documents, which are inferences, and which are things the family remembers. These are the rules, and they are the same rules as The Falco Archive.">
@@ -13,12 +22,41 @@ import stats from "../data/stats.json";
     <h2 style="margin-top:.4rem">Every negative in this archive, audited</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Twice in one week a search that had been closed turned out to be open. So each negative was
-      re-read — not to repeat it, but to ask <strong>what set its window</strong>. Nine were audited
-      and <strong>five had already failed</strong>, not because the reading was careless but because
+      re-read — not to repeat it, but to ask <strong>what set its window</strong>. {word(audit.length).charAt(0).toUpperCase() + word(audit.length).slice(1)} have been audited
+      and <strong>{word(wrong)} had already failed</strong>, not because the reading was careless but because
       the window came from a declared age or an assumed eldest child, and the search then honoured
       that window exactly.</p>
-      <p>The rule that falls out of it, and the four negatives still standing in the same shape, are
+      <p>The rule that falls out of it, and the {word(audit.length - wrong)} negatives still standing in the same shape, are
       on <a href={u("/audit")}><strong>The Audit</strong></a>.</p>
+    </div>
+  </section>
+
+  <section class="blk" id="instruments">
+    <div class="lab">The instruments</div>
+    <h2 style="margin-top:.4rem">How this archive reads, as opposed to what it found</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A <strong>finding</strong> belongs to a person and lives on
+      <a href={u("/corrections/")}>Corrections</a> or <a href={u("/searched/")}>What Has Been Read</a>.
+      An <strong>instrument</strong> belongs to a record series, and will be wanted by whoever reads it
+      next — including the other six archives in this estate, which use the same registers in different
+      towns. Every one of these was learnt twice before it was written down once.</p>
+      <p class="note"><strong>Every instrument here carries a caution, and that is not decoration.</strong>
+      A method described without the way it fails is how a method becomes a superstition. The annual
+      Tavola is the best tool in this archive <em>and</em> it changes its alphabetical key between
+      adjacent years, which has already produced one confident, complete and entirely false negative.</p>
+    </div>
+    <div class="rec" style="margin-top:20px">
+      {instruments.map((i) => (
+        <>
+          <div class="k">{i.where}</div>
+          <div class="v">
+            <strong>{i.instrument}</strong> — {i.what}
+            <div class="small" style="margin-top:.4rem">{i.how}</div>
+            <div class="note small" style="margin-top:.5rem"><strong>Caution.</strong> {i.caution}</div>
+          </div>
+          <div class="w"></div>
+        </>
+      ))}
     </div>
   </section>
 

@@ -748,10 +748,13 @@
     {
       "n": 83,
       "what": "Write down what today taught about instruments, not just about people",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "**Phase 10.** Four findings today were about **how to read**, not about the family, and each one will otherwise be rediscovered: a Tavola may alphabetise by **given name** and change key between adjacent years; some Tavole leave the **year blank** and must be dated from the acts; **Queensland BDM cannot see a 1949 migration** because its windows close in 1926, 1951 and 1996; and **Find a Grave will index one person at two cemeteries** when the names resemble each other. Three are in memory; none is on the site. **/method/ is where a reader would look.**"
+      "note": "**Phase 10.** Four findings today were about **how to read**, not about the family, and each one will otherwise be rediscovered: a Tavola may alphabetise by **given name** and change key between adjacent years; some Tavole leave the **year blank** and must be dated from the acts; **Queensland BDM cannot see a 1949 migration** because its windows close in 1926, 1951 and 1996; and **Find a Grave will index one person at two cemeteries** when the names resemble each other. Three are in memory; none is on the site. **/method/ is where a reader would look.** **DONE, 21 SEPTEMBER, AND LONGER THAN FOUR.** Nine instruments are on [/method/](/method/), built from `data/instruments.tsv`: the **annual Tavola**, the **act-head montage**, the **marriage processetti**, the **marginal annotation**, the **register index at s_size=500**, the **container fetch from inside the origin**, the **Riveli di anime e di terre**, the **Queensland BDM download endpoint**, and **NAA item titles**. **Every row carries a CAUTION and the builder refuses one without it.** An instrument described without the way it fails is how a method becomes a superstition — the best tool in this archive is the Tavola, and it changes its alphabetical key between adjacent years. **And the page stopped lying about its own audit.** It said *«nine were audited and five had already failed»* in fixed prose, beside a link to a page that counts for itself. It reads **twelve and seven** now, because it counts too.",
+      "covers": [
+        "src:src/instruments-on-method--cbdc87"
+      ]
     },
     {
       "n": 84,

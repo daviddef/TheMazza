@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4326",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run additions && npm run docline && npm run docparents && npm run audit && npm run disputed && npm run coverage && npm run holdings && npm run walls && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:grades && npm run check:corrections && npm run check:places && npm run check:searched && npm run check:worklist && npm run check:covers && npm run check:templates && npm run check:kit",
+    "build": "npm run additions && npm run docline && npm run docparents && npm run audit && npm run disputed && npm run coverage && npm run holdings && npm run instruments && npm run walls && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:grades && npm run check:corrections && npm run check:places && npm run check:searched && npm run check:worklist && npm run check:covers && npm run check:templates && npm run check:kit",
     "preview": "astro preview --port 4326",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "searchindex": "python3 ../tools/searchindex.py",
@@ -21,6 +21,7 @@
     "disputed": "python3 ../tools/build_disputed.py",
     "coverage": "python3 ../tools/build_coverage.py",
     "holdings": "python3 ../tools/build_holdings.py",
+    "instruments": "python3 ../tools/build_instruments.py",
     "walls": "python3 ../tools/build_walls.py",
     "check:links": "python3 ../tools/check_links.py",
     "check:additions": "python3 ../tools/check_additions.py",
