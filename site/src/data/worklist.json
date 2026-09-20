@@ -321,10 +321,13 @@
     {
       "n": 37,
       "what": "Build one coverage table: comune × record type × years × is it indexed",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-15",
-      "note": "**Phase 2, and the thing that would have saved the most time today.** Four towns, four record types, a hundred and fifty years, and the answers are scattered across `briatico-arks.tsv`, `scilla-arks.tsv`, `zambrone-arks.tsv`, `searched.tsv` and my own memory. **One table, on the site**, saying for every comune and record type which years exist, which ark holds them, how many images, and whether there is an index. Every sweep after it becomes a lookup."
+      "note": "**Phase 2, and the thing that would have saved the most time today.** Four towns, four record types, a hundred and fifty years, and the answers are scattered across `briatico-arks.tsv`, `scilla-arks.tsv`, `zambrone-arks.tsv`, `searched.tsv` and my own memory. **One table, on the site**, saying for every comune and record type which years exist, which ark holds them, how many images, and whether there is an index. Every sweep after it becomes a lookup. **BUILT, 21 SEPTEMBER, AND IT IS BIGGER THAN THE ROW EXPECTED.** `tools/build_holdings.py` reads the five ark banks and publishes one table on [What Has Been Read](/searched/): comune × fondo × record type × year span × volumes × **how many can be opened today** × whether an index was seen. **874 volumes across four comuni, 259 of them openable now.** The *openable* column is **counted** from the banks rather than asserted, so the page cannot overstate what this archive can reach — the same discipline as the «listed here» column beside it. **And a blank in the index column means «not recorded», never «no index».** Only Scilla's restauration bank carries a `tavola` column at all, which is why the figure is three out of 874 and why it is not a coverage claim. **What the table makes obvious at a glance,** and what no amount of re-deriving from five files ever did: Piedimonte's *Morti* run to fifty volumes and **not one container is bought**; its twenty *Matrimoni processetti* are untouched; and Scilla's *Morti* 1866–1943 are eighty-one volumes with seventeen bought.",
+      "covers": [
+        "src:src/holdings-table-comune--a730f9"
+      ]
     },
     {
       "n": 38,
@@ -1185,10 +1188,13 @@
     {
       "n": 135,
       "what": "Build the name-index coverage map: comune × act type × years",
-      "state": "next",
+      "state": "done",
       "owner": "this archive",
       "since": "2026-09-16",
-      "note": "**The same argument as [row 17](/worklist/), one level up, and it will pay better.** Row 17 wants to know which Scilla volumes carry an annual index; **this wants to know which comuni and which years Antenati has indexed by name at all** — because where it has, the volume index does not matter. **Today's work was done blind**: the coverage was discovered by querying four surnames and noticing every hit was a death between 1910 and 1943. **One table, built once**, and every later question becomes «is it indexed» before «which volume». **FIRST PASS DONE 16 SEPTEMBER — the eight comuni this family touches.** **Indexed:** Scilla (deaths, 1911–1943), Pizzo (**births**, 1868–1903), Catania (deaths, 1911+). **Not indexed:** Piedimonte Etneo, Briatico, Zambrone, San Costantino Calabro, Potenzoni. **Two rules fall out of it.** The **act type varies by comune** — assuming Scilla's «deaths only» held everywhere would have been wrong at Pizzo. And **`localita=` does not mean «registered here»**: it matches any place attached to the person, and `localita=Catania` returns people who died at **Vicopisano in Tuscany**. It read cleanly at Scilla only because those people were born and died in one town. **Still to do:** turn this into the actual table, and extend it past this family's comuni if the estate wants it."
+      "note": "**The same argument as [row 17](/worklist/), one level up, and it will pay better.** Row 17 wants to know which Scilla volumes carry an annual index; **this wants to know which comuni and which years Antenati has indexed by name at all** — because where it has, the volume index does not matter. **Today's work was done blind**: the coverage was discovered by querying four surnames and noticing every hit was a death between 1910 and 1943. **One table, built once**, and every later question becomes «is it indexed» before «which volume». **FIRST PASS DONE 16 SEPTEMBER — the eight comuni this family touches.** **Indexed:** Scilla (deaths, 1911–1943), Pizzo (**births**, 1868–1903), Catania (deaths, 1911+). **Not indexed:** Piedimonte Etneo, Briatico, Zambrone, San Costantino Calabro, Potenzoni. **Two rules fall out of it.** The **act type varies by comune** — assuming Scilla's «deaths only» held everywhere would have been wrong at Pizzo. And **`localita=` does not mean «registered here»**: it matches any place attached to the person, and `localita=Catania` returns people who died at **Vicopisano in Tuscany**. It read cleanly at Scilla only because those people were born and died in one town. **Still to do:** turn this into the actual table, and extend it past this family's comuni if the estate wants it. **FOLDED INTO THE HOLDINGS TABLE, 21 SEPTEMBER.** The name-index map is published beside the volume holdings on [What Has Been Read](/searched/), because the two questions are one question asked at different heights and a reader should not have to hold both pages open. Indexed: **Scilla deaths 1911–1943, Pizzo BIRTHS 1868–1903, Catania deaths 1911 onward**. Not indexed: Piedimonte Etneo, Briatico, Zambrone, San Costantino Calabro, Potenzoni. **The act type differs between comuni and that is the trap** — assuming Scilla's «deaths only» held everywhere would have been wrong at Pizzo, where it is births.",
+      "covers": [
+        "src:src/holdings-table-comune--a730f9"
+      ]
     },
     {
       "n": 136,

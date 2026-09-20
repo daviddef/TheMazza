@@ -7,6 +7,7 @@ const done = searched.filter((r) => r.status === "done").map((r) => [r.when, r.s
 const notyet = searched.filter((r) => r.status !== "done").map((r) => [r.source, r.scope, r.result]);
 import fmp from "../data/findmypast.json";
 import coverage from "../data/coverage.json";
+import holdings from "../data/holdings.json";
 import P from "../components/P.astro";
 
 /* What the archives HOLD, against what this repository has listed. A search
@@ -97,6 +98,55 @@ const LABEL = { open: "reachable", partial: "listing incomplete",
         </tbody>
       </table>
     </div>
+    <div class="lab" style="margin-top:34px">Holdings, volume by volume</div>
+    <h3 style="margin:.4rem 0 0">Every register this archive has listed, and how much of it opens today</h3>
+    <div class="prose" style="margin-top:1rem">
+      <p><strong>{holdings.total.volumes} volumes across {holdings.total.comuni} comuni, of which
+      {holdings.total.bought} can be opened right now</strong> — a <em>container</em> is what the image
+      server needs, and buying one costs a page load against a limiter that blocks after about three.
+      Every sweep on this site used to begin by re-deriving these numbers from five files and a memory.
+      The <em>bought</em> column is counted from the banks, not asserted.</p>
+      <p class="note"><strong>A blank in <em>index</em> means «not recorded», never «no index».</strong>
+      Only Scilla's restauration bank carries that column at all, which is why the figure is small and
+      why it is not a coverage claim.</p>
+    </div>
+    <div class="scroll" style="margin-top:18px">
+      <table>
+        <thead><tr><th>Comune</th><th>Fondo</th><th>Record type</th><th class="m">Years</th>
+          <th class="m">Volumes</th><th class="m">Openable</th><th class="m">Index seen</th></tr></thead>
+        <tbody>
+          {holdings.rows.map((r) => (
+            <tr>
+              <td class="small">{r.comune}</td>
+              <td class="small">{r.fondo}</td>
+              <td class="small"><strong>{r.type}</strong></td>
+              <td class="m">{r.from ? (r.to && r.to !== r.from ? `${r.from}–${r.to}` : r.from) : "—"}</td>
+              <td class="m">{r.volumes}</td>
+              <td class="m">{r.bought || "—"}</td>
+              <td class="m">{r.indexed ? r.indexed : (r.noindex ? `none in ${r.noindex}` : "—")}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="lab" style="margin-top:34px">Indexed by name</div>
+    <h3 style="margin:.4rem 0 0">Where Antenati has done the indexing, the volume index does not matter</h3>
+    <div class="prose" style="margin-top:1rem">
+      <p>A comune whose acts are indexed <strong>by name</strong> answers a query in one request, with
+      the father, the mother and the spouse — no volume, no Tavola, no sweep. Three of the eight comuni
+      this family touches are indexed, and <strong>the act type differs between them</strong>, which is
+      the trap: assuming Scilla's «deaths only» held everywhere would have been wrong at Pizzo.</p>
+      <ul class="prose">
+        {holdings.named.map((n) => (
+          <li><strong>{n.comune}</strong> — {n.type}, {n.from}{n.to ? `–${n.to}` : " onward"}</li>
+        ))}
+      </ul>
+      <p class="note"><strong>Not indexed at all:</strong> {holdings.notNamed.join(", ")}. For these the
+      annual Tavola is the instrument, and <a href={u("/worklist/")}>the work list</a> records which
+      years carry one.</p>
+    </div>
+
     <p class="note" style="margin-top:18px"><strong>Method, so it is not rediscovered.</strong> The
     Antenati register index takes <code>?localita=X&amp;s_size=500</code> and returns the whole
     holding in one page load — but <strong>500 is the ceiling</strong>, and above it the request times

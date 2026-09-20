@@ -1,0 +1,577 @@
+{
+ "rows": [
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "italiano",
+   "type": "Matrimoni",
+   "from": 1911,
+   "to": 1949,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "napoleonico",
+   "type": "Matrimoni",
+   "from": 1809,
+   "to": 1858,
+   "volumes": 3,
+   "bought": 2,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "napoleonico",
+   "type": "Matrimoni, allegati",
+   "from": 1812,
+   "to": 1850,
+   "volumes": 1,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "napoleonico",
+   "type": "Morti",
+   "from": 1809,
+   "to": 1858,
+   "volumes": 3,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "napoleonico",
+   "type": "Morti, sepolture",
+   "from": 1806,
+   "to": 1806,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "napoleonico",
+   "type": "Nati",
+   "from": 1809,
+   "to": 1839,
+   "volumes": 8,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "restaurazione",
+   "type": "Diversi",
+   "from": 1827,
+   "to": 1861,
+   "volumes": 1,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "restaurazione",
+   "type": "Matrimoni",
+   "from": 1816,
+   "to": 1858,
+   "volumes": 33,
+   "bought": 31,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "restaurazione",
+   "type": "Morti",
+   "from": 1823,
+   "to": 1851,
+   "volumes": 8,
+   "bought": 2,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "restaurazione",
+   "type": "Nati",
+   "from": 1816,
+   "to": 1858,
+   "volumes": 18,
+   "bought": 15,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "—",
+   "type": "Matrimoni, processetti",
+   "from": null,
+   "to": null,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "—",
+   "type": "Morti",
+   "from": null,
+   "to": null,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "fondo": "—",
+   "type": "Nati, battesimi",
+   "from": null,
+   "to": null,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "deputazione del Regno",
+   "type": "Riveli di anime e di terre",
+   "from": 1714,
+   "to": 1752,
+   "volumes": 9,
+   "bought": 2,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Cittadinanze",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 28,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Cittadinanze, allegati",
+   "from": 1872,
+   "to": 1883,
+   "volumes": 3,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 29,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, allegati",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 26,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, pubblicazioni",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 28,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, pubblicazioni allegati",
+   "from": 1870,
+   "to": 1893,
+   "volumes": 22,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Morti",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 28,
+   "bought": 5,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Morti, allegati",
+   "from": 1869,
+   "to": 1893,
+   "volumes": 22,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Nati",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 29,
+   "bought": 15,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "italiano",
+   "type": "Nati, allegati",
+   "from": 1871,
+   "to": 1893,
+   "volumes": 10,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "restaurazione",
+   "type": "Diversi",
+   "from": 1825,
+   "to": 1865,
+   "volumes": 21,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni",
+   "from": 1820,
+   "to": 1865,
+   "volumes": 46,
+   "bought": 21,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni, memorandum notificazioni ed opposizioni",
+   "from": 1841,
+   "to": 1845,
+   "volumes": 5,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni, processetti",
+   "from": 1841,
+   "to": 1860,
+   "volumes": 20,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni-Morti, annotazioni",
+   "from": 1852,
+   "to": 1894,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "restaurazione",
+   "type": "Morti",
+   "from": 1820,
+   "to": 1865,
+   "volumes": 50,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "restaurazione",
+   "type": "Nati",
+   "from": 1820,
+   "to": 1865,
+   "volumes": 53,
+   "bought": 23,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "fondo": "restaurazione",
+   "type": "Nati, esposti",
+   "from": 1820,
+   "to": 1864,
+   "volumes": 27,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "italiano",
+   "type": "Matrimoni",
+   "from": 1866,
+   "to": 1913,
+   "volumes": 48,
+   "bought": 22,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "italiano",
+   "type": "Matrimoni-pubblicazioni",
+   "from": 1888,
+   "to": 1888,
+   "volumes": 1,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "italiano",
+   "type": "Morti",
+   "from": 1866,
+   "to": 1943,
+   "volumes": 81,
+   "bought": 17,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "napoleonico",
+   "type": "Matrimoni",
+   "from": 1809,
+   "to": 1815,
+   "volumes": 6,
+   "bought": 6,
+   "indexed": 0,
+   "noindex": 1
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "napoleonico",
+   "type": "Matrimoni-processetti",
+   "from": 1810,
+   "to": 1816,
+   "volumes": 2,
+   "bought": 2,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "napoleonico",
+   "type": "Morti",
+   "from": 1809,
+   "to": 1815,
+   "volumes": 5,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "napoleonico",
+   "type": "Nati",
+   "from": 1810,
+   "to": 1815,
+   "volumes": 4,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "restaurazione",
+   "type": "Matrimoni",
+   "from": 1816,
+   "to": 1865,
+   "volumes": 54,
+   "bought": 30,
+   "indexed": 2,
+   "noindex": 3
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "restaurazione",
+   "type": "Matrimoni-processetti",
+   "from": 1817,
+   "to": 1865,
+   "volumes": 20,
+   "bought": 4,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "restaurazione",
+   "type": "Morti",
+   "from": 1817,
+   "to": 1865,
+   "volumes": 51,
+   "bought": 16,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "fondo": "restaurazione",
+   "type": "Nati",
+   "from": 1816,
+   "to": 1865,
+   "volumes": 55,
+   "bought": 31,
+   "indexed": 1,
+   "noindex": 3
+  },
+  {
+   "comune": "Zambrone, Vibo Valentia",
+   "fondo": "napoleonico",
+   "type": "Matrimoni",
+   "from": 1811,
+   "to": 1858,
+   "volumes": 2,
+   "bought": 2,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Zambrone, Vibo Valentia",
+   "fondo": "napoleonico",
+   "type": "Matrimoni, indice",
+   "from": 1812,
+   "to": 1812,
+   "volumes": 1,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Zambrone, Vibo Valentia",
+   "fondo": "napoleonico",
+   "type": "Morti",
+   "from": 1811,
+   "to": 1840,
+   "volumes": 2,
+   "bought": 2,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Zambrone, Vibo Valentia",
+   "fondo": "napoleonico",
+   "type": "Nati",
+   "from": 1811,
+   "to": 1839,
+   "volumes": 2,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Zambrone, Vibo Valentia",
+   "fondo": "restaurazione",
+   "type": "Diversi",
+   "from": 1826,
+   "to": 1844,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Zambrone, Vibo Valentia",
+   "fondo": "restaurazione",
+   "type": "Matrimoni, processetti",
+   "from": 1826,
+   "to": 1837,
+   "volumes": 2,
+   "bought": 2,
+   "indexed": 0,
+   "noindex": 0
+  }
+ ],
+ "total": {
+  "volumes": 874,
+  "bought": 259,
+  "indexed": 3,
+  "noindex": 7,
+  "comuni": 4
+ },
+ "named": [
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "type": "Morti",
+   "from": 1911,
+   "to": 1943
+  },
+  {
+   "comune": "Pizzo, Vibo Valentia",
+   "type": "Nati",
+   "from": 1868,
+   "to": 1903
+  },
+  {
+   "comune": "Catania",
+   "type": "Morti",
+   "from": 1911,
+   "to": null
+  }
+ ],
+ "notNamed": [
+  "Piedimonte Etneo, Catania",
+  "Briatico, Vibo Valentia",
+  "Zambrone, Vibo Valentia",
+  "San Costantino Calabro, Vibo Valentia",
+  "Potenzoni (Briatico), Vibo Valentia"
+ ]
+}
