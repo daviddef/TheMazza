@@ -156,8 +156,8 @@
       "comp": 1
      },
      {
-      "id": "@I588@",
-      "slug": "alessandro-mazza",
+      "id": "@I594@",
+      "slug": "alessandro-mazza-2",
       "name": "Alessandro Mazza",
       "surname": "Mazza",
       "born": null,
@@ -167,8 +167,8 @@
       "comp": 1
      },
      {
-      "id": "@I594@",
-      "slug": "alessandro-mazza-2",
+      "id": "@I588@",
+      "slug": "alessandro-mazza",
       "name": "Alessandro Mazza",
       "surname": "Mazza",
       "born": null,
@@ -541,17 +541,6 @@
       "comp": 1
      },
      {
-      "id": "@I39@",
-      "slug": "giovanni-mazza-2",
-      "name": "Giovanni Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I354@",
       "slug": "giovanni-mazza-3",
       "name": "Giovanni Mazza",
@@ -565,6 +554,17 @@
      {
       "id": "@I566@",
       "slug": "giovanni-mazza-4",
+      "name": "Giovanni Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I39@",
+      "slug": "giovanni-mazza-2",
       "name": "Giovanni Mazza",
       "surname": "Mazza",
       "born": null,
@@ -750,8 +750,8 @@
       "comp": 1
      },
      {
-      "id": "@I547@",
-      "slug": "maria-mazza-4",
+      "id": "@I553@",
+      "slug": "maria-mazza-5",
       "name": "Maria Mazza",
       "surname": "Mazza",
       "born": null,
@@ -772,8 +772,8 @@
       "comp": 1
      },
      {
-      "id": "@I543@",
-      "slug": "maria-mazza-3",
+      "id": "@I547@",
+      "slug": "maria-mazza-4",
       "name": "Maria Mazza",
       "surname": "Mazza",
       "born": null,
@@ -783,8 +783,8 @@
       "comp": 1
      },
      {
-      "id": "@I553@",
-      "slug": "maria-mazza-5",
+      "id": "@I543@",
+      "slug": "maria-mazza-3",
       "name": "Maria Mazza",
       "surname": "Mazza",
       "born": null,
@@ -926,8 +926,8 @@
       "comp": 1
      },
      {
-      "id": "@I550@",
-      "slug": "pina-mazza",
+      "id": "@I552@",
+      "slug": "pina-mazza-2",
       "name": "Pina Mazza",
       "surname": "Mazza",
       "born": null,
@@ -937,8 +937,8 @@
       "comp": 1
      },
      {
-      "id": "@I552@",
-      "slug": "pina-mazza-2",
+      "id": "@I550@",
+      "slug": "pina-mazza",
       "name": "Pina Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1157,8 +1157,8 @@
       "comp": 1
      },
      {
-      "id": "@I512@",
-      "slug": "umberto-mazza-2",
+      "id": "@I506@",
+      "slug": "umberto-mazza",
       "name": "Umberto Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1168,8 +1168,8 @@
       "comp": 1
      },
      {
-      "id": "@I506@",
-      "slug": "umberto-mazza",
+      "id": "@I512@",
+      "slug": "umberto-mazza-2",
       "name": "Umberto Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1307,7 +1307,7 @@
     "towns": [
      "Brisbane, Queensland"
     ],
-    "component": 5,
+    "component": 3,
     "onSpine": [],
     "people": [
      {
@@ -1319,7 +1319,28 @@
       "died": null,
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
-      "comp": 5
+      "comp": 3
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": null,
+    "latest": null,
+    "towns": [],
+    "component": 7,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@I17@",
+      "slug": "mazza",
+      "name": "Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 7
      }
     ]
    },
@@ -1332,27 +1353,6 @@
     "onSpine": [],
     "people": [
      {
-      "id": "@I17@",
-      "slug": "mazza",
-      "name": "Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 9
-     }
-    ]
-   },
-   {
-    "n": 1,
-    "earliest": null,
-    "latest": null,
-    "towns": [],
-    "component": 4,
-    "onSpine": [],
-    "people": [
-     {
       "id": "@I18@",
       "slug": "mazza-2",
       "name": "Mazza",
@@ -1361,7 +1361,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 4
+      "comp": 9
      }
     ]
    }
@@ -1599,17 +1599,6 @@
       "comp": 1
      },
      {
-      "id": "@I260@",
-      "slug": "clemente-arena-2",
-      "name": "Clemente Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Scilla, Reggio Calabria",
-      "comp": 1
-     },
-     {
       "id": "@I474@",
       "slug": "clemente-arena-3",
       "name": "Clemente Arena",
@@ -1618,6 +1607,17 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I260@",
+      "slug": "clemente-arena-2",
+      "name": "Clemente Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
      {
