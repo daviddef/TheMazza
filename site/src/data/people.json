@@ -1798,7 +1798,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 3,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1898,7 +1898,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 7,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2024,6 +2024,11 @@
     "kind": "documented",
     "what": "Piedimonte Etneo, Nati 1845 atto 64",
     "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Piedimonte Etneo, Nati 1872 atto 32",
+    "href": "/corrections"
    }
   ],
   "corrections": [
@@ -2036,7 +2041,9 @@
    "Trade -- missing entirely — CONTADINO -- a peasant farmer. Which sets the Sicilian Mazza against the Calabrian Arena exactly: four generations of Arena sailors on the water at Scilla, and the Mazza contadini on the mountain at Piedimonte.",
    "Birth date — BORN 2 JUNE 1845 at Piedimonte Etneo, at eleven in the morning, in his parents' own house. Act 64 of the births of 1845. The tree is FIVE YEARS out. Both parents are in the act: Mariano Mazza, 36, bracciale, and Maria Catalano, 36.",
    "Marriage -- missing entirely — MARRIED 30 APRIL 1871 at Piedimonte Etneo, act 14, at four in the afternoon. Both single, both born and living there, both braccianti.",
-   "The chart says less than the archive knows — HIS PARENTS ARE NAMED IN HIS OWN BIRTH ACT: MARIANO MAZZA, thirty-six, bracciale, and MARIA CATALANO, thirty-six, Piedimonte Etneo Nati 1845 atto 64. The card is not a research wall -- it is the chart reporting that the FAMILY TREE has no parents for him, because the chart draws the tree and these two people are documented additions rather than tree people. The card's year is wrong too: 1850 is the tree's birth year and the act says 2 JUNE 1845."
+   "The chart says less than the archive knows — HIS PARENTS ARE NAMED IN HIS OWN BIRTH ACT: MARIANO MAZZA, thirty-six, bracciale, and MARIA CATALANO, thirty-six, Piedimonte Etneo Nati 1845 atto 64. The card is not a research wall -- it is the chart reporting that the FAMILY TREE has no parents for him, because the chart draws the tree and these two people are documented additions rather than tree people. The card's year is wrong too: 1850 is the tree's birth year and the act says 2 JUNE 1845.",
+   "Age — a third confirmation — TWENTY-SEVEN on 13 February 1872, when he registered his son Mariano's birth in person -- so born about 1845. That is now THREE independent statements against the tree's 1850: his own birth act of 2 June 1845, his death act of 1924 making him seventy-nine, and his own word at a registration desk in 1872.",
+   "A child the tree does not have — FIVE, AND THE ELDEST IS MARIANO, born 12 February 1872 in contrada San Basilio and named for his grandfather exactly as the naming custom predicts. Salvatore follows on 5 January 1873, eleven months later -- so either Mariano died in infancy or the births are ten and a half months apart. His death has not been sought."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -29885,7 +29892,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29921,7 +29928,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 4,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30103,7 +30110,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 3,
+  "comp": 8,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30146,7 +30153,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 5,
+  "comp": 6,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,

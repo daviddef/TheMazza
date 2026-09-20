@@ -111,6 +111,20 @@
    "street": "via San Basile",
    "date": "6 March 1875",
    "note": "NOT OURS, AND THE MARGIN IS WHAT PROVES IT. The annual index gives exactly one Nicotra Maria in 1875 and this is she. Her marginal annotation reads «Unita in matrimonio con NICITO GIUSEPPE fu Vincenzo con atto del 29.7.91 iscritto in Piedimonte Etneo» -- she married in 1891 and stayed. Ours married SALVATORE MAZZA and died at Brisbane in 1963. So 1875 is eliminated for Maria Concetta Nicotra, and the margin annotation is the test to apply to every other candidate year."
+  },
+  {
+   "kind": "birth",
+   "year": "1872",
+   "act": "32",
+   "ark": "an_ua83485",
+   "img": "15",
+   "subject": "Mariano Mazza",
+   "father": "Rosario Mazza di Mariano",
+   "fatherAge": "27",
+   "mother": "Leonarda Bonanno di Gaetano",
+   "street": "contrada San Basilio",
+   "date": "12 February 1872",
+   "note": "Read in full. Rosario is TWENTY-SEVEN in February 1872, so born about 1845 -- a third independent confirmation of the 1845 birth act against the tree's 1850, after the act itself and the death act of 1924. Both parents are given with their patronymics, «di Mariano» and «di Gaetano», which is how this register writes a living father."
   }
  ],
  "households": [
@@ -184,6 +198,25 @@
      "year": "1879",
      "ark": "an_ua83493",
      "note": "Read in full. Witness Mazza Antonino, 35. Married Greco Rosaria di Carmelo, 16 Nov 1908."
+    }
+   ]
+  },
+  {
+   "father": "Rosario Mazza di Mariano",
+   "mother": "Leonarda Bonanno di Gaetano",
+   "occupations": [],
+   "fatherBorn": "c. 1845",
+   "streets": [
+    "contrada San Basilio"
+   ],
+   "children": [
+    {
+     "name": "Mariano Mazza",
+     "date": "12 February 1872",
+     "act": "32",
+     "year": "1872",
+     "ark": "an_ua83485",
+     "note": "Read in full. Rosario is TWENTY-SEVEN in February 1872, so born about 1845 -- a third independent confirmation of the 1845 birth act against the tree's 1850, after the act itself and the death act of 1924. Both parents are given with their patronymics, «di Mariano» and «di Gaetano», which is how this register writes a living father."
     }
    ]
   },
