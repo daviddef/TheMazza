@@ -1654,5 +1654,13 @@
   "source": "Open Questions turned into rows, and two answers from yesterday that were never added",
   "scope": "Row 119. Two hundred lines of prose -- an inline array for seven questions and five hand-written blocks for others -- which could not be counted or filtered, and which nobody came back to.",
   "result": "FIFTEEN QUESTIONS IN data/questions.tsv, RENDERED BY THE KIT'S Questions COMPONENT, whose own comment says the extraction «is research work belonging to each archive rather than something to guess at from outside». FIVE OPEN, TEN ANSWERED. THE BUILDER REFUSES A ROW WITH NO «SETTLES» FIELD -- a question without the record that would answer it is a regret, not a queue item. AND THE EXTRACTION CAUGHT WHAT THE PROSE HID: three questions were headed ANSWERED and still sat undifferentiated beside the open ones; TWO ANSWERED ON 20 SEPTEMBER HAD NEVER BEEN ADDED AT ALL -- Filippo Arena's marriage and how far above him the line goes; and the «Salvatore Mazza in the Sicilian registers» negative, nine indexes across three comuni, has since been OVERTAKEN by Nati 1873 atto 3, so all nine were in the wrong place. The answered questions STAY on the page: one that vanishes when it is settled leaves a reader unable to tell a thing never asked from a thing asked and closed."
+ },
+ {
+  "key": "src/antenati-scilla-morti--14b463",
+  "status": "part",
+  "when": "21 Sep 2026",
+  "source": "Antenati — Scilla deaths 1838-1842 read at BOTH A and M for Litteria Morabito",
+  "scope": "Row 170. She outlived Orazio, who died 12 July 1830, and is named without «fu» in the marriage Tavola of 4 September 1838. Each year read at TWO letters, not one: a married woman can be indexed under her husband's surname or her own.",
+  "result": "FIVE CONSECUTIVE YEARS, TEN SECTIONS, AND SHE IS IN NONE OF THEM. Every M section is quoted whole on the Scilla reads page -- eight Morabito deaths across the five years, and not one is a Litteria or a Letteria. RECORDED AS PART, NOT DONE, because the window is not closed: Scilla's death series runs to 1865 in the restauration fondo and to 1943 in the Italian one, and she could have died in any of them. Containers are banked to 1844. A BY-PRODUCT WORTH KEEPING: five ARENA deaths turned up in the A sections and NONE belongs to Orazio's household -- Rocco 1838, Giuseppa 1839, Giuseppe and Santo 1841, Giuseppe 1842 -- which is a reminder that the town holds at least seven Arena families and the parents' column is the only thing that separates them."
  }
 ]
