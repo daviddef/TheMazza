@@ -64,25 +64,63 @@
    "gen": "7",
    "trade": "marinaro (sailor)",
    "note": "Named in FOUR independent acts. The sea trade runs Orazio -> Filippo -> Francesco Antonio -> Rocco, four generations of sailors, and he was a MARINARO himself at twenty-two. ENTIRELY ABSENT FROM THE FAMILY TREE. HE WAS ALSO, FOR FIVE DAYS, THE ARCHIVE'S PUBLISHED WALL -- «his marriage to Domenica Costa is pre-civil, the Arena line stops here» -- because this archive believed Scilla's registers began in 1816. THEY BEGIN IN 1809. He married Domenica Costa on 12 NOVEMBER 1815, Matrimoni atto 29, and the act names his parents ORAZIO ARENA and LITTERIA MORABITO, both alive and both standing beside him, because at twenty-two he was still a minor under the code. Every negative reported for 1816 to 1819 was correct; the conclusion drawn from them was not. AND HE COULD WRITE: he signed his own marriage act «Filippo Arena sposo», and signed his son's birth act in 1819, in registers where almost nobody signs.",
-   "f": "Orazio Arena (b. c. 1770)",
+   "f": "Orazio Arena (b. c. 1751)",
    "m": "Litteria Morabito"
   },
-  "Orazio Arena (b. c. 1770)": {
+  "Orazio Arena (b. c. 1751)": {
    "__doc": true,
    "name": "Orazio Arena",
-   "key": "Orazio Arena (b. c. 1770)",
+   "key": "Orazio Arena (b. c. 1751)",
+   "born": "c. 1751",
+   "died": "12 July 1830",
+   "birthPlace": "",
+   "living": false,
+   "presumedLiving": false,
+   "sources": [
+    "Scilla, Matrimoni 1815 atto 29",
+    "Matrimoni 1821 atto 29",
+    "Matrimoni 1828 atto 26",
+    "Morti 1830 atto 64"
+   ],
+   "gen": "8",
+   "trade": "marinaro (sailor)",
+   "note": "THE TOP OF THE ARENA SPINE UNTIL THIS AFTERNOON, AND NOW NOT. He is a MARINARO in every record that gives him a trade, and the sea runs FIVE generations through him: his father Filippo, himself, his son Filippo, his grandson Francesco Antonio, his great-grandson Rocco. He stood at three of his sons' weddings -- Filippo's in 1815, Giuseppe's in 1821, Antonio's in 1828 -- and died at six in the morning on 12 July 1830, in his own house, with two young kinsmen to declare it. HIS OWN DEATH ACT NAMES HIS PARENTS: «figlio del fu FILIPPO ARENA e della fu SANTA UNGARO». Not in the family tree. AND THE NAMESAKE IS STILL A TRAP: the tree holds an «Orazio Arena» of generation six, father of Teresa Arena, the man it wrongly hangs Rocco Arena under. TWO DIFFERENT MEN, two generations apart.",
+   "f": "Filippo Arena (the elder, d. before 1830)",
+   "m": "Santa Ungaro"
+  },
+  "Filippo Arena (the elder, d. before 1830)": {
+   "__doc": true,
+   "name": "Filippo Arena",
+   "key": "Filippo Arena (the elder, d. before 1830)",
    "born": "",
    "died": "",
    "birthPlace": "",
    "living": false,
    "presumedLiving": false,
    "sources": [
-    "Scilla, Matrimoni 1815 atto 29",
-    "processetti 1815 n. 29, estratto di battesimo"
+    "Scilla, Morti 1830 atto 64"
    ],
-   "gen": "8",
-   "trade": "marinaro (sailor)",
-   "note": "GENERATION EIGHT ON THE ARENA SPINE, AND THE FIRST ARENA THIS ARCHIVE HAS EVER NAMED ABOVE FILIPPO. He stood in the comune house at Scilla on 12 November 1815 and gave his consent to his son's marriage, because Filippo at twenty-two was still «figlio minore» under the code. He is a marinaro, «della stessa professione» as his son -- which makes the sea trade run FOUR generations: Orazio, Filippo, Francesco Antonio, Rocco. His son's baptism extract of 25 March 1793 spells him HORATIO ARENA in Latin and his wife LITTERIA MORABITO. Not in the family tree. AND THE NAMESAKE IS A TRAP THIS ARCHIVE ALMOST WALKED INTO: the family tree already holds an «Orazio Arena», the man it wrongly puts Rocco Arena under and the father of Teresa Arena. These are TWO DIFFERENT MEN, two generations apart -- the tree's Orazio is generation six, this one is generation eight -- and the repeated name is a Scilla naming custom, not a confirmation of anything. He is filed here as «Orazio Arena (b. c. 1770)» so that no father= in this file can ever resolve to the wrong one.",
+   "gen": "9",
+   "trade": "—",
+   "note": "GENERATION NINE. «FIGLIO DEL FU FILIPPO ARENA e della fu SANTA UNGARO» -- the death act of his son ORAZIO, 12 July 1830. The «fu» dates him dead before that day; his son was born about 1751, so he belongs to the 1720s and everything about him is pre-civil and parish. AND HE EXPLAINS A NAME: Orazio's first son, born 25 March 1793, is FILIPPO -- the Sicilian and Calabrian custom giving the first son his father's father. This archive used the custom to RANK candidates for four months and never once to identify one; here the act confirms it after the fact, which is the only way round that is safe. THERE ARE NOW THREE FILIPPO ARENA in this archive: this one, his grandson born 1793, and that man's grandson born 1852. All three are filed apart on purpose.",
+   "f": null,
+   "m": null
+  },
+  "Santa Ungaro": {
+   "__doc": true,
+   "name": "Santa Ungaro",
+   "key": "Santa Ungaro",
+   "born": "",
+   "died": "",
+   "birthPlace": "",
+   "living": false,
+   "presumedLiving": false,
+   "sources": [
+    "Scilla, Morti 1830 atto 64"
+   ],
+   "gen": "9",
+   "trade": "—",
+   "note": "ORAZIO ARENA'S MOTHER, and the second person of generation nine on this side. «Della FU Santa Ungaro» in her son's death act of July 1830, so dead before then. UNGARO is a surname new to this archive. Nothing else is known of her and nothing else is likely to be: Scilla's civil registers begin in 1809, fifty-eight years after her son was born.",
    "f": null,
    "m": null
   },
@@ -101,7 +139,7 @@
    ],
    "gen": "8",
    "trade": "—",
-   "note": "FILIPPO ARENA'S MOTHER, wife of Orazio Arena (b. c. 1770). Present in person at her son's marriage on 12 November 1815 and giving her consent with her husband. THE NAME IS LITTERIA, AND THIS ARCHIVE READ IT WRONG FOR AN AFTERNOON: the civil act's hand gives something like «Setteria», but her son's BAPTISM EXTRACT, copied into the marriage bundle in Latin by the parish economo on 26 May 1815, writes «ex Horatio Arena et LITTERIA MORABITO coniugibus». Litteria is a real and common name on this coast -- from the Madonna della Lettera, patroness of Messina, across the strait -- and «Setteria» is not. The clearer document wins. Not in the family tree.",
+   "note": "FILIPPO ARENA'S MOTHER, wife of Orazio Arena (b. c. 1751). Present in person at her son's marriage on 12 November 1815 and giving her consent with her husband. THE NAME IS LITTERIA, AND THIS ARCHIVE READ IT WRONG FOR AN AFTERNOON: the civil act's hand gives something like «Setteria», but her son's BAPTISM EXTRACT, copied into the marriage bundle in Latin by the parish economo on 26 May 1815, writes «ex Horatio Arena et LITTERIA MORABITO coniugibus». Litteria is a real and common name on this coast -- from the Madonna della Lettera, patroness of Messina, across the strait -- and «Setteria» is not. The clearer document wins. Not in the family tree. SHE OUTLIVED HIM: Orazio died 12 July 1830 and she is named without «fu» in the 1838 marriage Tavola, so she was still alive on 4 September 1838, a widow of eight years.",
    "f": null,
    "m": null
   },
