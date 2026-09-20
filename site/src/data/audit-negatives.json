@@ -24,7 +24,7 @@
   "yearsRead": "Two years, read complete",
   "outcome": "WRONG",
   "missBy": "7–9 years",
-  "note": "They married 7 FEBRUARY 1851. The assumption failed because Filippo (1852), Domenico (1853) and Giovanni (1854) were all born before the child taken to be the first."
+  "note": "They married 7 FEBRUARY 1851. The assumption failed because Filippo (1852), DOMENICA (1853 -- a daughter, not the «Domenico» this archive long carried) and Giovanni (1854) were all born before the child taken to be the first."
  },
  {
   "who": "Rocco Arena × Generosa Costa's marriage",
@@ -55,12 +55,12 @@
  },
  {
   "who": "Filippo Arena × Domenica Costa's marriage",
-  "window": "1818–1819",
-  "setBy": "AN ASSUMED ELDEST CHILD — Francesco Antonio, born November 1819",
-  "yearsRead": "Two years",
-  "outcome": "STANDING",
-  "missBy": "—",
-  "note": "The same shape that failed for Francesco Antonio's own marriage. If Francesco had elder siblings — and 1816–17 have no index at all — the marriage could be years earlier."
+  "window": "1818–1819, later 1816–1819",
+  "setBy": "AN ASSUMED ELDEST CHILD — Francesco Antonio, born November 1819 — AND A WRONG START YEAR, the belief that Scilla's registers begin in 1816",
+  "yearsRead": "Four years, every one of them read complete",
+  "outcome": "WRONG",
+  "missBy": "one to four years, and a whole fondo",
+  "note": "THEY MARRIED AT SCILLA ON 12 NOVEMBER 1815, Matrimoni atto 29. Every negative reported here was correct -- 1816 and 1817 act by act, 1818 through its Tavola, 1819 through its A section -- and the conclusion drawn from them, that the marriage was pre-civil and the Arena line stopped, was not. SCILLA'S REGISTERS BEGIN IN 1809. This is the only failure on this page where the window was set not by a soft figure but by a fact nobody checked, and it is the one that hardened into a published WALL. The act names Filippo's parents and Domenica's, and the marriage file behind it reached two generations further."
  },
  {
   "who": "Giovanni Arlotta × Maria Costa's marriage",
@@ -79,5 +79,32 @@
   "outcome": "STANDING",
   "missBy": "—",
   "note": "One year. The P section holds two Polistena and neither is his."
+ },
+ {
+  "who": "Camillo Antonio Polistena's birth",
+  "window": "1830–1845, sixteen years",
+  "setBy": "A DECLARED AGE — thirty-six at his marriage in January 1881",
+  "yearsRead": "Sixteen years; 1844 read and written up as clear",
+  "outcome": "WRONG",
+  "missBy": "four entries",
+  "note": "HE WAS BORN 21 SEPTEMBER 1844 AND THE 1844 INDEX HAD BEEN READ. The P block was read down to entry 138 and a negative recorded; he is at entry 142. Nothing about the window was wrong and nothing about the year was wrong -- the READING stopped four lines short of the section's end. A PARTIAL READING RECORDED AS A NEGATIVE IS THE SAME ERROR AS A 403 RECORDED AS A NIL, and it is the only entry here that cost sixteen years of sweeping to something already on the page."
+ },
+ {
+  "who": "Maria Nicotra's birth at Piedimonte Etneo",
+  "window": "1875, later 1870–1883",
+  "setBy": "A TREE YEAR, and an age at death — eighty-eight in 1963",
+  "yearsRead": "Fourteen consecutive years, every N section read in the original",
+  "outcome": "STANDING",
+  "missBy": "—",
+  "note": "The one Maria Nicotra born at Piedimonte in 1875 is eliminated on her own marginal annotation, which marries her at Piedimonte in 1891 and keeps her there. THE WINDOW WAS THEN WIDENED RATHER THAN TRUSTED -- ten years, then fourteen -- and she is in none of them, though the Nicotra are in the town throughout. THE SHAPE THIS PAGE WARNS ABOUT IS PRESENT ANYWAY: the window rests on a tree year and an age at death, and the birthplace itself rests on nothing but her husband's town. Her own alien registration file at Brisbane states where she was born, and it has not been opened."
+ },
+ {
+  "who": "A Mazza join at Piedimonte before 1809",
+  "window": "the riveli of 1747–1748",
+  "setBy": "THE REGISTER INDEX — eighty households, read entire",
+  "yearsRead": "All fourteen index openings",
+  "outcome": "STANDING",
+  "missBy": "—",
+  "note": "There is no MAZZA in the 1747 household census; there are two MAZZEO. The negative is complete for that volume and it is fragile for the ordinary reason: a rivelo is a TAX RETURN, and a household can be absent from one without being absent from the town. It is worth something only because the rest of the town is so recognisable -- Pagano, Currenti, Grasso, Musumeci, Vasta, Torrisi, Moschella -- the same names filling the registers a century and a half later."
  }
 ]

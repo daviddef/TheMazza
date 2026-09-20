@@ -4,9 +4,19 @@ import { u } from "../lib/url.js";
 import audit from "../data/audit-negatives.json";
 const wrong = audit.filter((r) => r.outcome === "WRONG");
 const standing = audit.filter((r) => r.outcome === "STANDING");
+
+/* This page used to say «five of nine» in its own prose, in four places, while
+   the table beside it was drawn from the data. On 20 September a sixth and a
+   seventh negative were proven wrong and the sentences went on saying five. So
+   the counts are written out from the data now, and the page cannot drift from
+   its own table again. */
+const WORD = ["no", "one", "two", "three", "four", "five", "six", "seven",
+              "eight", "nine", "ten", "eleven", "twelve", "thirteen"];
+const word = (n) => WORD[n] || String(n);
+const Word = (n) => { const w = word(n); return w[0].toUpperCase() + w.slice(1); };
 ---
 <Base title="The Audit" eyebrow="Every negative in this archive, and what it rests on"
-      dek="Twice in one week a search that had been closed turned out to be open. So each negative was re-read — not to repeat it, but to ask what set its window. Five of nine had already failed.">
+      dek={`Twice in one week a search that had been closed turned out to be open. So each negative was re-read — not to repeat it, but to ask what set its window. ${Word(wrong.length)} of ${word(audit.length)} had already failed.`}>
 
   <section class="blk">
     <div class="grid g3">
@@ -22,14 +32,14 @@ const standing = audit.filter((r) => r.outcome === "STANDING");
       <p>A negative in this archive is not a shrug. It is a claim: <em>the record is not in these
       volumes</em>. Each one here was read properly — complete alphabetical sections, bounded above
       and below, written up with what was in them.</p>
-      <p><strong>And five of the nine were wrong anyway.</strong> Not because the reading failed, but
+      <p><strong>And {word(wrong.length)} of the {word(audit.length)} were wrong anyway.</strong> Not because the reading failed, but
       because <strong>the window was set by something soft</strong> — a declared age, or an assumption
       about which child came first — and the search then honoured that window exactly.</p>
     </div>
   </section>
 
   <section class="blk">
-    <div class="lab">Five that failed</div>
+    <div class="lab">{Word(wrong.length)} that failed</div>
     <h2 style="margin-top:.4rem">Where the window came from, and how far out it was</h2>
     <div class="scroll" style="margin-top:16px">
       <table>
@@ -71,7 +81,7 @@ const standing = audit.filter((r) => r.outcome === "STANDING");
   </section>
 
   <section class="blk">
-    <div class="lab">Four that still stand</div>
+    <div class="lab">{Word(standing.length)} that still stand</div>
     <h2 style="margin-top:.4rem">And are the same shape</h2>
     <div class="scroll" style="margin-top:16px">
       <table>
@@ -98,6 +108,16 @@ const standing = audit.filter((r) => r.outcome === "STANDING");
   <section class="blk" style="border-bottom:0">
     <h2>What was also caught</h2>
     <div class="prose" style="margin-top:1rem">
+      <p><strong>And one of a different kind again, on 20 September: a negative that hardened into a
+      published wall.</strong> Filippo Arena's marriage was hunted through 1816, 1817, 1818 and 1819.
+      All four years were read properly and all four negatives were correct. The conclusion drawn from
+      them — <em>the marriage is pre-civil, the Arena line stops here</em> — was written up as one of
+      this archive's four established walls and stood on the site for five days. <strong>Scilla's
+      registers begin in 1809.</strong> They married on <strong>12 November 1815</strong>, and the act
+      names his parents and hers. The wall has been removed. <strong>Every other window on this page
+      was set by something soft; this one was set by a fact nobody checked</strong>, which is the
+      worse failure, because a soft window invites doubt and a wrong fact ends it.</p>
+
       <p>Two errors of a different kind turned up while this page was being written, and both are on
       the pages where they belong.</p>
       <p><strong>An identification made on a name and a year.</strong> A FindMyPast record —
