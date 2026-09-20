@@ -303,6 +303,36 @@
   ],
   "down": []
  },
+ "rosario-mazza": {
+  "anchor": "Rosario Mazza",
+  "exportName": "Rosario Mazza",
+  "ancGen": 5,
+  "up": [
+   {
+    "name": "Mariano Mazza (b. c. 1809)",
+    "rel": "father",
+    "depth": 1,
+    "gen": "6",
+    "born": "c. 1809",
+    "died": "—",
+    "trade": "bracciale",
+    "source": "Piedimonte Etneo, Nati 1845 atto 64",
+    "note": "THE TOP OF THE SICILIAN SPINE, AND HE HAS BEEN FILED ON THE WRONG MAN. His son's birth act names him in his own words; his son is entered as «Rosario Mazza DI MARIANO» in the 1873 birth of Salvatore and again in the 1871 marriage. THE NAMESAKE TRAP, AND THIS ARCHIVE WALKED INTO IT: the family tree holds a «Mariano Mazza» who is the son of the ORAZIO MAZZA BORN 1883, himself a son of Rosario -- a twentieth-century man who cannot have fathered a boy in 1845. The 1845 record was attached to that slug and sat on his person page until 20 September. He is filed here as «Mariano Mazza (b. c. 1809)» so no parent link can ever resolve to the wrong one. Not in the family tree."
+   },
+   {
+    "name": "Maria Catalano",
+    "rel": "mother",
+    "depth": 1,
+    "gen": "6",
+    "born": "c. 1809",
+    "died": "—",
+    "trade": "—",
+    "source": "Piedimonte Etneo, Nati 1845 atto 64",
+    "note": "ROSARIO MAZZA'S MOTHER, named in his birth act of 2 June 1845 and nowhere in the family tree. The parish of the CHIESA MAGGIORE returned the baptism notice the same day. She and Mariano were both thirty-six, so both born about 1809 -- which puts their marriage in the window the Piedimonte MATRIMONI PROCESSETTI cover from 1841, a series this archive has never opened."
+   }
+  ],
+  "down": []
+ },
  "giovanna-zirilli": {
   "anchor": "Giovanna Zirilli",
   "exportName": "Giovanna Zirilli",

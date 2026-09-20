@@ -1430,5 +1430,13 @@
   "source": "Antenati — Piedimonte Etneo, Nati 1873 atto 3: read in full, and its margin is EMPTY",
   "scope": "Row 161. The act was already cited here from an earlier reading; what had never been looked at was its MARGINAL ANNOTATION, which in this series names the subject's spouse and the date and comune of the marriage -- the instrument that identified and eliminated the 1875 Maria Nicotra in one crop.",
   "result": "THE ACT IS RICHER THAN THE CITATION AND THE MARGIN IS BLANK. «Rosario Mazza DI MARIANO, di anni ventotto, bracciante» presented a son born 5 January 1873 at seven in the morning to his wife «LEONARDA BONANNO DI GAETANO», in CONTRADA TERREMORTE, named SALVADORE. The patronymics confirm Mariano Mazza and Gaetano Bonanno from a second act. But the annotation column beside it is EMPTY, where the act four lines down carries a full marriage annotation -- so this route does not locate Salvatore's marriage to Maria Nicotra, and a blank box proves nothing either way. ALSO WORTH RECORDING: the opening is photographed TWICE, once with an archivist's masking card over the right page and once with it moved. The card covered this act entirely on image 3; image 4 shows it whole."
+ },
+ {
+  "key": "src/chart-draws-documented-edc540",
+  "status": "done",
+  "when": "20 Sep 2026",
+  "source": "The archive's own chart — /tree/ now draws people the family tree does not contain",
+  "scope": "Rows 51 and 63. The blocker was recorded as «the charts are the shared kit's and this archive leaves the kit alone». Re-read the kit instead of working around it.",
+  "result": "THE KIT HAD ALREADY LEFT THE DOOR OPEN AND SAID SO IN A COMMENT. `lineage()` takes `parentsOf(row)` from the caller, and `kit/lib/ahnen.js` reads: «returning a row that is not in the file is allowed and is the point: a parent known only as a name on a register is still a real thing the chart should draw, and refusing it would quietly shorten the line.» So `/tree/`'s own parentsOf now falls back to `documented-parents.json` where the export gives a person no parents -- NOT where it gives them parents, because the chart is a drawing of the tree and silently redrawing it would be lying about the source. ROSARIO MAZZA'S LINE NO LONGER ENDS AT A CARD SAYING «Before Piedimonte Etneo, 1850»: MARIANO MAZZA and MARIA CATALANO now stand above him, graded as documented, unlinked because they have no person page. Nothing in the kit was touched and no fork was made."
  }
 ]

@@ -15,16 +15,46 @@ import { lineage } from "@daviddef/archive-kit/lib/ahnen.js";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
 import anc from "../data/ancestors.json";
+import documented from "../data/documented-parents.json";
 
 const byId = new Map(people.map((p) => [p.id, p]));
+
+/* A person whose parents are named in a register but absent from the tree used
+   to end this chart with a card reading "Before Piedimonte Etneo, 1850" — a
+   card that reports the TREE's silence and reads as though the REGISTERS were
+   silent. Rosario Mazza's parents are in his own birth act.
+
+   The kit allows for exactly this and says so: lineage() takes parentsOf()
+   from the caller because "a parent known only as a name on a register is
+   still a real thing the chart should draw, and refusing it would quietly
+   shorten the line." So these scraps are drawn, unlinked — they have no person
+   page — and graded `doc`, because every one of them is on an act.
+
+   The same object has to come back for the same name every time, or the walk's
+   own loop guard, which compares by identity, would stop guarding. */
+const docNode = new Map();
+const docOf = (name) => {
+  if (!name) return null;
+  if (!docNode.has(name)) {
+    const d = documented.byName[name];
+    docNode.set(name, d ? { ...d } : null);
+  }
+  return docNode.get(name);
+};
 
 /* The export names both parents but does not say which is which, so the
    parent's own record is asked. A household with two recorded fathers and no
    mother would lose one; there is none. */
 const parentsOf = (r) => {
+  if (r && r.__doc) return { f: docOf(r.f), m: docOf(r.m) };
   const ps = (r.parents || []).map((x) => byId.get(x.id)).filter(Boolean);
-  return { f: ps.find((p) => p.sex === "M") || null,
-           m: ps.find((p) => p.sex === "F") || null };
+  const f = ps.find((p) => p.sex === "M") || null;
+  const m = ps.find((p) => p.sex === "F") || null;
+  if (!f && !m && r.slug && documented.bySlug[r.slug]) {
+    const d = documented.bySlug[r.slug];
+    return { f: docOf(d.f), m: docOf(d.m) };
+  }
+  return { f, m };
 };
 
 const root = lineage(byId.get("@I1@"), {
