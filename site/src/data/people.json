@@ -587,11 +587,17 @@
     "kind": "documented",
     "what": "FamilySearch full-text, death act",
     "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Piedimonte Etneo, Nati 1873 atto 3; Nati 1879, Indice Annuale",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "Birth date — Born 5 January 1873 at Piedimonte Etneo. Six years out.",
-   "Death date — Died 19 September 1929."
+   "Death date — Died 19 September 1929.",
+   "Birth year — the tree's 1879 has no act, and 1873 does — BORN 5 JANUARY 1873, Piedimonte Etneo Nati atto 3, in CONTRADA TERREMORTE, to «Rosario Mazza di Mariano», twenty-eight, bracciante, and «Leonarda Bonanno di Gaetano». The 1873 act had been read here before; what is new is that the 1879 ANNUAL INDEX has now been read whole and holds NO Salvatore Mazza at all -- only a Mazza Rosaria and a Mazza Venerio. So the tree's year is not merely unsupported, it is excluded at that comune. Six years out, which is this family's usual margin."
   ],
   "onSpine": true,
   "ancGen": 4
@@ -1792,7 +1798,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1828,7 +1834,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 10,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1892,7 +1898,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 7,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -29867,7 +29873,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 3,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29903,7 +29909,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30085,7 +30091,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 3,
+  "comp": 4,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30128,7 +30134,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 10,
+  "comp": 8,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
