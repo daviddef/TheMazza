@@ -6,7 +6,15 @@ import searched from "../data/searched.json";
 const done = searched.filter((r) => r.status === "done").map((r) => [r.when, r.source, r.scope, r.result]);
 const notyet = searched.filter((r) => r.status !== "done").map((r) => [r.source, r.scope, r.result]);
 import fmp from "../data/findmypast.json";
+import coverage from "../data/coverage.json";
 import P from "../components/P.astro";
+
+/* What the archives HOLD, against what this repository has listed. A search
+   that found nothing is only half an answer; the other half is whether the
+   record could have been there at all. */
+const cov = coverage.rows;
+const LABEL = { open: "reachable", partial: "listing incomplete",
+                gap: "a hole in the holding", route: "another archive" };
 ---
 <Base title="What Has Been Read" eyebrow="And what has not"
       dek="A search that found nothing is still a result: it stops the next person repeating it. This page records both what has been done and what is still outstanding.">
@@ -56,10 +64,54 @@ import P from "../components/P.astro";
     </div>
   </section>
 
+  <section class="blk">
+    <div class="lab">Coverage</div>
+    <h2 style="margin-top:.4rem">What the archives hold, against what this one has listed</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A negative is a claim that a record is not in a volume. It is worth nothing if the volume was
+      never digitised, and worth less than nothing if the <em>listing</em> of volumes was incomplete
+      and nobody said so. <strong>Twice this archive listed a comune once, never re-listed it, and
+      planned searches around a fraction of what exists.</strong></p>
+      <p class="note"><strong>Piedimonte Etneo held <em>103</em> of its 457 registers until 20
+      September</strong>, when it was re-listed in full and reconciled group by group against the
+      live index — it now holds {coverage.held["Piedimonte Etneo"]}. <strong>Briatico still holds
+      {coverage.held["Briatico"]} of 555.</strong> In both cases whole <em>fondi</em> were missing —
+      the marriage <em>processetti</em>, the <em>allegati</em>, and at Piedimonte nine volumes of
+      <em>Riveli di anime e di terre</em> from 1714 and 1747–1752 that nobody knew were there.</p>
+    </div>
+    <div class="scroll" style="margin-top:18px">
+      <table>
+        <thead><tr><th>Place</th><th>Series</th><th class="m">Span</th><th>The holding</th>
+          <th class="m">Listed here</th><th>What that means</th></tr></thead>
+        <tbody>
+          {cov.map((r) => (
+            <tr>
+              <td><strong>{r.comune}</strong></td>
+              <td class="small">{r.series}</td>
+              <td class="m">{r.from}{r.to && r.to !== "—" ? `–${r.to}` : ""}</td>
+              <td class="small">{r.holding}</td>
+              <td class="m">{r.listed}</td>
+              <td class="small"><strong>{LABEL[r.status]}</strong> — {r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:18px"><strong>Method, so it is not rediscovered.</strong> The
+    Antenati register index takes <code>?localita=X&amp;s_size=500</code> and returns the whole
+    holding in one page load — but <strong>500 is the ceiling</strong>, and above it the request times
+    out. The true total is in the result facets, as <em>Archivio di Stato di … (N)</em>, one line
+    per holding archive. <strong>Compare the two before believing a listing is complete.</strong> A
+    500-of-555 listing reported as a gap is the same error as a half-read index section reported as a
+    negative.</p>
+  </section>
+
   <section class="blk" style="border-bottom:0">
     <h2>Everything read, and everything still to read</h2>
-    <p class="dek" style="margin:.7rem 0 0">No Italian civil register has been opened for this
-    family. That is the honest headline of this archive on the day it was built.</p>
+    <p class="dek" style="margin:.7rem 0 0">This page opened with the sentence <em>“no Italian civil
+    register has been opened for this family”</em>, and that was the honest headline on the day the
+    archive was built. It stopped being true a long time before it was taken down. What follows is
+    every search, negatives included.</p>
     <Searched u={u} nil={["not-yet", "outstanding"]}
       rows={searched.map((r) => ({
         when: r.when, src: r.source, what: r.scope, got: r.result, outcome: r.status,

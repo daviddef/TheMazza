@@ -1,0 +1,130 @@
+{
+ "rows": [
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "series": "Stato civile napoleonico",
+   "from": "1809",
+   "to": "1815",
+   "holding": "466 registers in three fondi",
+   "listed": "327",
+   "status": "open",
+   "note": "SCILLA'S REGISTERS BEGIN IN 1809, not 1816 -- a fact this archive got wrong for eight days and built a WALL on. Seventeen napoleonic volumes. Filippo Arena and Domenica Costa married in the fifth of them."
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "series": "Stato civile della restaurazione",
+   "from": "1816",
+   "to": "1865",
+   "holding": "180 volumes listed",
+   "listed": "180",
+   "status": "open",
+   "note": "The main run. Births, marriages, deaths and the MATRIMONI PROCESSETTI, twenty-two volumes 1810-1865 and none after."
+  },
+  {
+   "comune": "Scilla, Reggio Calabria",
+   "series": "Stato civile italiano",
+   "from": "1866",
+   "to": "1943",
+   "holding": "130 volumes listed",
+   "listed": "130",
+   "status": "open",
+   "note": "Deaths 1911-1943 are also NAME-INDEXED on Antenati, with father, mother and spouse -- one query replaces a volume sweep."
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "series": "Stato civile della restaurazione",
+   "from": "1820",
+   "to": "1865",
+   "holding": "223 registers",
+   "listed": "223",
+   "status": "open",
+   "note": "SICILY HAS NO NAPOLEONIC REGISTERS: the island stayed Bourbon and began only with the restoration, in 1820. Includes MATRIMONI PROCESSETTI 1841-1860, twenty volumes, never opened by this archive."
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "series": "Stato civile italiano",
+   "from": "1866",
+   "to": "1893",
+   "holding": "225 registers",
+   "listed": "225",
+   "status": "open",
+   "note": "AND IT STOPS AT 1893. The Mazza-Nicotra marriage of about 1900 and Venera Cassaneti's death in 1925 are not here and never were."
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "series": "Riveli di anime e di terre (Deputazione del Regno)",
+   "from": "1714",
+   "to": "1752",
+   "holding": "9 volumes",
+   "listed": "9",
+   "status": "open",
+   "note": "HOUSEHOLD TAX CENSUSES, a century before civil registration in Sicily -- which retires this archive's own rule that «before 1820 it is parish records or nothing». The 1747-1748 index is read: eighty households, no Mazza, two MAZZEO."
+  },
+  {
+   "comune": "Piedimonte Etneo, Catania",
+   "series": "Civil Registration (Tribunale), via FamilySearch",
+   "from": "1866",
+   "to": "1929",
+   "holding": "not counted",
+   "listed": "0",
+   "status": "route",
+   "note": "THE ROUTE PAST 1893. The Tribunale's duplicate for the province of Catania runs thirty-six years further than the Archivio di Stato's filming, and this archive already cites the collection elsewhere. Not yet used for Piedimonte."
+  },
+  {
+   "comune": "Briatico, Vibo Valentia",
+   "series": "Stato civile, all fondi",
+   "from": "1810",
+   "to": "1930",
+   "holding": "555 registers -- Catanzaro 440, Vibo Valentia 115",
+   "listed": "81",
+   "status": "partial",
+   "note": "THE WORST UNDER-LISTING IN THE ARCHIVE: eighty-one rows held against 555 available. A listing at s_size=500 returned 500 and showed NOTHING BETWEEN 1859 AND 1910 -- which would put Caterina Melluso's 1860 birth out of reach -- but fifty-five registers were not in the sample and that is not yet a finding."
+  },
+  {
+   "comune": "Potenzoni (Briatico), Vibo Valentia",
+   "series": "Stato civile",
+   "from": "1806",
+   "to": "—",
+   "holding": "57 registers of its own",
+   "listed": "0",
+   "status": "open",
+   "note": "A FRAZIONE THAT REGISTERED SEPARATELY. Three honest negatives for Briatico births were collected from the wrong parish before this was found. Before recording a surname as absent from a comune, search its hamlets by name."
+  },
+  {
+   "comune": "Zambrone, Vibo Valentia",
+   "series": "Stato civile napoleonico e restaurazione",
+   "from": "1811",
+   "to": "1844",
+   "holding": "11 volumes listed",
+   "listed": "11",
+   "status": "gap",
+   "note": "THE DEATH RUN IS MISSING 1813-1821 and it is not an inference: the volume runs 1811, then 1812 twice -- once for Zambrone and once for SAN GIOVANNI, a hamlet with its own register -- then jumps to 1822. Holdings resume only in 1911. Three people this archive wants died inside that gap. THE ROUTE IS THE COMUNE'S OWN SECOND COPY, which is a letter and not a search."
+  },
+  {
+   "comune": "Pizzo, Vibo Valentia",
+   "series": "Stato civile della restaurazione",
+   "from": "1823",
+   "to": "—",
+   "holding": "restaurazione only",
+   "listed": "0",
+   "status": "gap",
+   "note": "STARTS IN 1823 -- tested on 1812, 1814, 1818 and 1822, all empty. That one fact killed three planned searches at once. And the 1837 CHOLERA register survives only as an index of acts 209-325, bound into the ordinary volume; the acts themselves are not digitised."
+  },
+  {
+   "comune": "Messina",
+   "series": "Stato civile",
+   "from": "1820",
+   "to": "1865",
+   "holding": "366 volumes in 1820, rising to 510 by 1840",
+   "listed": "0",
+   "status": "route",
+   "note": "The province, not the city: MESSINA ITSELF appears in no Antenati year probed, though the series facet claims 1069 volumes. The 1908 earthquake is the obvious suspect and is NOT established. FamilySearch carries «Messina, Civil Registration (State Archive), 1820-1865» from a different filming -- try there before concluding a record is gone."
+  }
+ ],
+ "held": {
+  "Scilla": 327,
+  "Piedimonte Etneo": 457,
+  "Briatico": 80,
+  "Zambrone": 10
+ }
+}
