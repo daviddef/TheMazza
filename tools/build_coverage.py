@@ -35,6 +35,7 @@ ARKS = {
     "Piedimonte Etneo": ["data/pe-arks.tsv"],
     "Briatico": ["data/briatico-arks.tsv"],
     "Zambrone": ["data/zambrone-arks.tsv"],
+    "Mascali": ["data/mascali-arks.tsv"],
 }
 
 def count(path):

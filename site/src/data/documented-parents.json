@@ -23,6 +23,14 @@
   "rosario-mazza": {
    "f": "Mariano Mazza (b. c. 1809)",
    "m": "Maria Catalano"
+  },
+  "john-nicotra": {
+   "f": "Rosario Nicotra",
+   "m": "Venera Murabito"
+  },
+  "venera-cassaneti": {
+   "f": "Gaetano Cassaniti",
+   "m": "Maria Currenti"
   }
  },
  "byName": {
@@ -558,6 +566,79 @@
    "gen": "6",
    "trade": "industriosa",
    "note": "ROSARIO MAZZA'S MOTHER, named in his birth act of 2 June 1845 and nowhere in the family tree. The parish of the CHIESA MAGGIORE returned the baptism notice the same day. She and Mariano were both thirty-six, so both born about 1809 -- which puts their marriage in the window the Piedimonte MATRIMONI PROCESSETTI cover from 1841, a series this archive has never opened. ALIVE ON 16 APRIL 1871: «e della VIVENTE MARIA CATALANO, professione industriosa, residente anche ivi». The same certificate that gives her husband. It is also the first record of her TRADE -- industriosa, the word these registers use for a woman doing piecework at home.",
+   "f": null,
+   "m": null
+  },
+  "Rosario Nicotra": {
+   "__doc": true,
+   "name": "Rosario Nicotra",
+   "key": "Rosario Nicotra",
+   "born": "",
+   "died": "",
+   "birthPlace": "",
+   "living": false,
+   "presumedLiving": false,
+   "sources": [
+    "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original"
+   ],
+   "gen": "6",
+   "trade": "bracciante",
+   "note": "GENERATION SIX, AND THE NAMING CUSTOM CONFIRMS HIM FROM THE OTHER END. His son's marriage act names him without «fu» -- «figlio di ROSARIO, di professione bracciante ... domiciliati e residenti pure in MASCALI» -- in an act that writes «Venerando Papurri FU Ignazio» for a witness two lines earlier, so the marker was in use and its absence is a statement. AND THE FAMILY'S OWN TREE ALREADY CARRIED THE ECHO: Giovanni and Venera's children include a ROSARIO NICOTRA, which is what the custom gives a first son -- the paternal grandfather. The archive had the grandson's name for years and not the grandfather's, so the fit cannot be circular.",
+   "f": null,
+   "m": null
+  },
+  "Venera Murabito": {
+   "__doc": true,
+   "name": "Venera Murabito",
+   "key": "Venera Murabito",
+   "born": "",
+   "died": "",
+   "birthPlace": "",
+   "living": false,
+   "presumedLiving": false,
+   "sources": [
+    "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original"
+   ],
+   "gen": "6",
+   "trade": "contadina",
+   "note": "GIOVANNI NICOTRA'S MOTHER, of MASCALI, named without «fu» and so alive on 7 October 1872. A contadina. The tree's own household holds a daughter VENERA NICOTRA, and a first daughter is named for the paternal grandmother -- though her mother was a Venera too, so the custom points both ways here and is not evidence on its own. ENTIRELY ABSENT FROM THE FAMILY TREE, like every person above generation four on this side.",
+   "f": null,
+   "m": null
+  },
+  "Gaetano Cassaniti": {
+   "__doc": true,
+   "name": "Gaetano Cassaniti",
+   "key": "Gaetano Cassaniti",
+   "born": "",
+   "died": "",
+   "birthPlace": "",
+   "living": false,
+   "presumedLiving": false,
+   "sources": [
+    "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original",
+    "Piedimonte Etneo, Nati 1848 atto 45 (annual Tavola)"
+   ],
+   "gen": "6",
+   "trade": "—",
+   "note": "VENERA CASSANITI'S FATHER, of Piedimonte Etneo, and DEAD BY OCTOBER 1872: his daughter's marriage act calls her «figlia del FU GAETANO». He is also the father named in her birth entry in the annual Tavola of Nati 1848, act 45, which is what ties the birth to the marriage. MIND THE NAMESAKE: Piedimonte held a GAETANO BONANNO and a GAETANO BONACCORSO at the same period, both braccianti, and this is a third Gaetano again.",
+   "f": null,
+   "m": null
+  },
+  "Maria Currenti": {
+   "__doc": true,
+   "name": "Maria Currenti",
+   "key": "Maria Currenti",
+   "born": "",
+   "died": "",
+   "birthPlace": "",
+   "living": false,
+   "presumedLiving": false,
+   "sources": [
+    "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original"
+   ],
+   "gen": "6",
+   "trade": "—",
+   "note": "VENERA CASSANITI'S MOTHER, dead by October 1872 -- «e di FU MARIA CURRENTI». AND SHE CORRECTS A READING OF MY OWN MADE AN HOUR EARLIER: the 1848 annual Tavola band, read at 640 pixels, gave her as «Venuti Maria». The marriage act, read at full width, says CURRENTI. Same class of error as the Bonanno/Bonaccorso confusion in the same sweep, and the same remedy -- a name off a contact sheet is a hypothesis, not a reading.",
    "f": null,
    "m": null
   }

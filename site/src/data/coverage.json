@@ -119,12 +119,23 @@
    "listed": "0",
    "status": "route",
    "note": "The province, not the city: MESSINA ITSELF appears in no Antenati year probed, though the series facet claims 1069 volumes. The 1908 earthquake is the obvious suspect and is NOT established. FamilySearch carries «Messina, Civil Registration (State Archive), 1820-1865» from a different filming -- try there before concluding a record is gone."
+  },
+  {
+   "comune": "Mascali",
+   "series": "Stato civile 1820-1893 + Riveli 1616-1752",
+   "from": "1616",
+   "to": "1893",
+   "holding": "498 (Catania 452, Palermo 46)",
+   "listed": "498",
+   "status": "open",
+   "note": "LISTED WHOLE AND VERIFIED: 498 results, 498 distinct arks, and the facets total 498 exactly, so this is the holding and not a sample at the s_size ceiling. Opened 21 September off the 1872 marriage act, which put Giovanni Nicotra resident here. THE 1844 YEAR IS ABSENT from every restaurazione series -- 1843 then 1845. The 46 Palermo volumes are RIVELI, not civil registration: Tribunale del Real Patrimonio 1616-1678 and Deputazione del Regno 1714 and 1747-1752."
   }
  ],
  "held": {
   "Scilla": 327,
   "Piedimonte Etneo": 457,
   "Briatico": 80,
-  "Zambrone": 10
+  "Zambrone": 10,
+  "Mascali": 498
  }
 }

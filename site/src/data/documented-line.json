@@ -355,6 +355,66 @@
   ],
   "down": []
  },
+ "john-nicotra": {
+  "anchor": "Giovanni Nicotra (John)",
+  "exportName": "John Nicotra",
+  "ancGen": 5,
+  "up": [
+   {
+    "name": "Rosario Nicotra",
+    "rel": "father",
+    "depth": 1,
+    "gen": "6",
+    "born": "—",
+    "died": "after 7 October 1872",
+    "trade": "bracciante",
+    "source": "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original",
+    "note": "GENERATION SIX, AND THE NAMING CUSTOM CONFIRMS HIM FROM THE OTHER END. His son's marriage act names him without «fu» -- «figlio di ROSARIO, di professione bracciante ... domiciliati e residenti pure in MASCALI» -- in an act that writes «Venerando Papurri FU Ignazio» for a witness two lines earlier, so the marker was in use and its absence is a statement. AND THE FAMILY'S OWN TREE ALREADY CARRIED THE ECHO: Giovanni and Venera's children include a ROSARIO NICOTRA, which is what the custom gives a first son -- the paternal grandfather. The archive had the grandson's name for years and not the grandfather's, so the fit cannot be circular."
+   },
+   {
+    "name": "Venera Murabito",
+    "rel": "mother",
+    "depth": 1,
+    "gen": "6",
+    "born": "—",
+    "died": "after 7 October 1872",
+    "trade": "contadina",
+    "source": "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original",
+    "note": "GIOVANNI NICOTRA'S MOTHER, of MASCALI, named without «fu» and so alive on 7 October 1872. A contadina. The tree's own household holds a daughter VENERA NICOTRA, and a first daughter is named for the paternal grandmother -- though her mother was a Venera too, so the custom points both ways here and is not evidence on its own. ENTIRELY ABSENT FROM THE FAMILY TREE, like every person above generation four on this side."
+   }
+  ],
+  "down": []
+ },
+ "venera-cassaneti": {
+  "anchor": "Venera Cassaniti",
+  "exportName": "Venera Cassaneti",
+  "ancGen": 5,
+  "up": [
+   {
+    "name": "Gaetano Cassaniti",
+    "rel": "father",
+    "depth": 1,
+    "gen": "6",
+    "born": "—",
+    "died": "before 7 October 1872",
+    "trade": "—",
+    "source": "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original; Piedimonte Etneo, Nati 1848 atto 45 (annual Tavola)",
+    "note": "VENERA CASSANITI'S FATHER, of Piedimonte Etneo, and DEAD BY OCTOBER 1872: his daughter's marriage act calls her «figlia del FU GAETANO». He is also the father named in her birth entry in the annual Tavola of Nati 1848, act 45, which is what ties the birth to the marriage. MIND THE NAMESAKE: Piedimonte held a GAETANO BONANNO and a GAETANO BONACCORSO at the same period, both braccianti, and this is a third Gaetano again."
+   },
+   {
+    "name": "Maria Currenti",
+    "rel": "mother",
+    "depth": 1,
+    "gen": "6",
+    "born": "—",
+    "died": "before 7 October 1872",
+    "trade": "—",
+    "source": "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original",
+    "note": "VENERA CASSANITI'S MOTHER, dead by October 1872 -- «e di FU MARIA CURRENTI». AND SHE CORRECTS A READING OF MY OWN MADE AN HOUR EARLIER: the 1848 annual Tavola band, read at 640 pixels, gave her as «Venuti Maria». The marriage act, read at full width, says CURRENTI. Same class of error as the Bonanno/Bonaccorso confusion in the same sweep, and the same remedy -- a name off a contact sheet is a hypothesis, not a reading."
+   }
+  ],
+  "down": []
+ },
  "giovanna-zirilli": {
   "anchor": "Giovanna Zirilli",
   "exportName": "Giovanna Zirilli",

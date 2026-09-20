@@ -763,9 +763,22 @@
     "kind": "passenger index",
     "what": "NAA passenger arrivals index — the —, 20 Apr 1962",
     "href": "/crossings"
+   },
+   {
+    "kind": "probable",
+    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Mascali, Nati 1875 atto 144; Piedimonte Etneo, Matrimoni 1872 atto 20",
+    "href": "/corrections"
    }
   ],
-  "corrections": [],
+  "corrections": [
+   "Where Maria Nicotra was born — ALMOST CERTAINLY MASCALI, AND THE TREE HAS GIVEN HER HER MOTHER'S TOWN. Her parents' marriage act (Piedimonte, Matrimoni 1872 atto 20) puts GIOVANNI NICOTRA «domiciliato e residente a MASCALI» and VENERA CASSANITI «qui domiciliata» -- she was the Piedimonte one, he was not. A wife moved to her husband's comune, so the children of the 1872 marriage were registered at Mascali. THIS IS WHY FOURTEEN CONSECUTIVE PIEDIMONTE BIRTH INDEXES, 1870-1883, PRODUCE NO MARIA NICOTRA: the archive was reading the wrong town's register, carefully, for days. NOT YET PROVED -- Mascali's registers have not been opened -- but it is the reading that fits every fact, and it retires the Catania hypothesis, which was invented to explain the same silence.",
+   "A birth date, a birth hour and the right town — BORN AT MASCALI, PROVINCE OF CATANIA, ON 8 DECEMBER 1875 AT HALF PAST NINE IN THE EVENING, in contrada Sopra Pietrafitta, and registered two days later by her father. Mascali Nati 1875 atto 144, read in the original: «da VENERA CASSANITI sua moglie ... e nata una bambina di sesso femminile ... a cui da il nome di MARIA». SHE IS THE WOMAN AT GENERATION FOUR who married Salvatore Mazza and is buried at Nudgee, and this archive spent fourteen consecutive Piedimonte birth indexes failing to find her because it was reading the wrong town's register. Her death at Brisbane in 1963 aged eighty-eight fits the date exactly."
+  ],
   "onSpine": true,
   "ancGen": 4
  },
@@ -1803,7 +1816,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1839,7 +1852,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 4,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1875,7 +1888,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 10,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1903,7 +1916,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 7,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -26978,8 +26991,22 @@
    }
   ],
   "siblings": [],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "documented addition",
+    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original",
+    "href": "/corrections"
+   },
+   {
+    "kind": "flagged",
+    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20; Mascali, Nati 1875 atto 144",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "MARIA NICOTRA'S FATHER, and the man the Queensland death registration of 1963 calls «John Nicotra» and nothing else. Here he is in his own act: «sono comparsi GIOVANNI NICOTRA, di anni trentuno, di professione bracciante, DOMICILIATO E RESIDENTE A MASCALI, figlio di ROSARIO, di professione bracciante, e di VENERA MURABITO, contadina, domiciliati e residenti PURE IN MASCALI». HE IS NOT A PIEDIMONTE MAN. He married into the town and lived in the next one, which is why fourteen consecutive Piedimonte birth indexes produced no daughter of his.",
+   "A father six years younger in three years — TWO DECLARED AGES THAT DO NOT AGREE. «Di anni TRENTUNO» at his marriage on 7 October 1872, which puts his birth about 1841; «di anni VENTOTTO» at his daughter Maria's birth on 10 December 1875, which puts it about 1847. Six years the wrong way in three. KEPT AS A CONFLICT rather than averaged: his own birth act at Mascali, in either 1841 or 1847, would settle it and would carry his parents Rosario Nicotra and Venera Murabito independently. The identification of the two men does NOT rest on the age -- it rests on the wife, VENERA CASSANITI, named in both acts, and on the comune."
+  ],
   "onSpine": true,
   "ancGen": 5
  },
@@ -27073,13 +27100,25 @@
   "siblings": [],
   "records": [
    {
+    "kind": "documented addition",
+    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original; Piedimonte Etneo, Nati 1848 atto 45 (annual Tavola)",
+    "href": "/corrections"
+   },
+   {
     "kind": "probable",
     "what": "Queensland BDM, death 1963/B/61348 and the whole surname index; Piedimonte Etneo, Nati 1875 Indice Annuale",
+    "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20; Nati 1848 atto 45",
     "href": "/corrections"
    }
   ],
   "corrections": [
-   "Surname — the spelling is an informant's, not a record's — PROBABLY VENERA CASSANITI. «Cassaneti» appears exactly once in the whole Queensland index -- on her daughter's 1963 death registration, taken down from an informant at a Brisbane registry -- and NOWHERE ELSE. «CASSANITI» returns five Queensland registrations and is the ordinary Catanese form; it is also what the PIEDIMONTE ETNEO birth index writes, holding a Cassaniti Sebastiano and a Cassaniti Leonardo Maria in 1875 alone. THIS MATTERS PRACTICALLY: a Sicilian register searched for «Cassaneti» will return nothing and the negative will mean nothing. Search Cassaniti."
+   "MARIA NICOTRA'S MOTHER, and the archive spent days unable to touch her because the Queensland registrar wrote CASSANETI, a spelling that exists nowhere in Italy. She is CASSANITI. «E VENERA CASSANITI, di anni ventiquattro, QUI domiciliata e residente, figlia del FU GAETANO, e di FU MARIA CURRENTI» -- both her parents already dead in October 1872, and she the one of the couple who belonged to Piedimonte.",
+   "Surname — the spelling is an informant's, not a record's — PROBABLY VENERA CASSANITI. «Cassaneti» appears exactly once in the whole Queensland index -- on her daughter's 1963 death registration, taken down from an informant at a Brisbane registry -- and NOWHERE ELSE. «CASSANITI» returns five Queensland registrations and is the ordinary Catanese form; it is also what the PIEDIMONTE ETNEO birth index writes, holding a Cassaniti Sebastiano and a Cassaniti Leonardo Maria in 1875 alone. THIS MATTERS PRACTICALLY: a Sicilian register searched for «Cassaneti» will return nothing and the negative will mean nothing. Search Cassaniti.",
+   "A surname the Queensland registrar invented — VENERA CASSANITI, born about 1848 at Piedimonte Etneo, daughter of the late GAETANO CASSANITI and the late MARIA CURRENTI. «CASSANETI» appears nowhere in Italy and exactly once in the whole Queensland index -- on Maria Mazza's own death registration, taken down from an informant at a Brisbane registry counter. The Italian act settles it. She was twenty-four when she married on 7 October 1872 and both her parents were already dead."
   ],
   "onSpine": true,
   "ancGen": 5
@@ -29925,7 +29964,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29961,7 +30000,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30143,7 +30182,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 5,
+  "comp": 8,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30186,7 +30225,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 3,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
@@ -37957,8 +37996,16 @@
     "living": false
    }
   ],
-  "records": [],
-  "corrections": [],
+  "records": [
+   {
+    "kind": "probable",
+    "what": "Mascali, Nati 1873, annual index (Indice Annuale, N section)",
+    "href": "/corrections"
+   }
+  ],
+  "corrections": [
+   "The first child of the 1872 marriage — BORN AT MASCALI ON 12 DECEMBER 1873, fourteen months after her parents' marriage, and named for her mother -- or for her father's mother Venera Murabito; both are Venera, so the custom points two ways and settles nothing on its own. The 1873 annual index of Mascali births carries a PATERNITA column and gives «Nicotra Venera, 12 Dicembre 1873, Giovanni». THE ACT ITSELF IS NOT YET OPENED, so the mother is inferred from the household and not read. Index entry only."
+  ],
   "onSpine": false,
   "ancGen": null
  },

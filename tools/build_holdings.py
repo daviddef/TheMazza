@@ -38,6 +38,11 @@ BANKS = [
     ("data/pe-arks.tsv",              "Piedimonte Etneo, Catania",      "year",  None),
     ("data/briatico-arks.tsv",        "Briatico, Vibo Valentia",        "years", None),
     ("data/zambrone-arks.tsv",        "Zambrone, Vibo Valentia",        "years", None),
+    # Opened 21 September, off the 1872 marriage act that put Giovanni Nicotra
+    # «domiciliato e residente a MASCALI». Its 46 Palermo volumes are RIVELI,
+    # not civil registration, and they reach back to 1616 -- a century before
+    # Piedimonte's earliest.
+    ("data/mascali-arks.tsv",         "Mascali, Catania",               "year",  None),
 ]
 
 # The bank files name a series in whichever column came first; normalise the
