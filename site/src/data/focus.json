@@ -431,17 +431,6 @@
       "comp": 1
      },
      {
-      "id": "@I517@",
-      "slug": "francesca-mazza",
-      "name": "Francesca Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
-      "comp": 1
-     },
-     {
       "id": "@I582@",
       "slug": "francesca-mazza-2",
       "name": "Francesca Mazza",
@@ -450,6 +439,17 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I517@",
+      "slug": "francesca-mazza",
+      "name": "Francesca Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -541,14 +541,14 @@
       "comp": 1
      },
      {
-      "id": "@I354@",
-      "slug": "giovanni-mazza-3",
+      "id": "@I39@",
+      "slug": "giovanni-mazza-2",
       "name": "Giovanni Mazza",
       "surname": "Mazza",
       "born": null,
-      "died": 1971,
+      "died": null,
       "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+      "birthPlace": "",
       "comp": 1
      },
      {
@@ -563,14 +563,14 @@
       "comp": 1
      },
      {
-      "id": "@I39@",
-      "slug": "giovanni-mazza-2",
+      "id": "@I354@",
+      "slug": "giovanni-mazza-3",
       "name": "Giovanni Mazza",
       "surname": "Mazza",
       "born": null,
-      "died": null,
+      "died": 1971,
       "datesHidden": false,
-      "birthPlace": "",
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -651,17 +651,6 @@
       "comp": 1
      },
      {
-      "id": "@I516@",
-      "slug": "leo-mazza",
-      "name": "Leo Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
-      "comp": 1
-     },
-     {
       "id": "@I555@",
       "slug": "leo-mazza-2",
       "name": "Leo Mazza",
@@ -670,6 +659,17 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I516@",
+      "slug": "leo-mazza",
+      "name": "Leo Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -750,28 +750,6 @@
       "comp": 1
      },
      {
-      "id": "@I507@",
-      "slug": "maria-mazza-2",
-      "name": "Maria Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
-      "comp": 1
-     },
-     {
-      "id": "@I547@",
-      "slug": "maria-mazza-4",
-      "name": "Maria Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I543@",
       "slug": "maria-mazza-3",
       "name": "Maria Mazza",
@@ -791,6 +769,28 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I547@",
+      "slug": "maria-mazza-4",
+      "name": "Maria Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I507@",
+      "slug": "maria-mazza-2",
+      "name": "Maria Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -871,8 +871,8 @@
       "comp": 1
      },
      {
-      "id": "@I548@",
-      "slug": "orazio-mazza-4",
+      "id": "@I542@",
+      "slug": "orazio-mazza-3",
       "name": "Orazio Mazza",
       "surname": "Mazza",
       "born": null,
@@ -893,8 +893,8 @@
       "comp": 1
      },
      {
-      "id": "@I542@",
-      "slug": "orazio-mazza-3",
+      "id": "@I548@",
+      "slug": "orazio-mazza-4",
       "name": "Orazio Mazza",
       "surname": "Mazza",
       "born": null,
@@ -926,8 +926,8 @@
       "comp": 1
      },
      {
-      "id": "@I550@",
-      "slug": "pina-mazza",
+      "id": "@I552@",
+      "slug": "pina-mazza-2",
       "name": "Pina Mazza",
       "surname": "Mazza",
       "born": null,
@@ -937,8 +937,8 @@
       "comp": 1
      },
      {
-      "id": "@I552@",
-      "slug": "pina-mazza-2",
+      "id": "@I550@",
+      "slug": "pina-mazza",
       "name": "Pina Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1047,14 +1047,14 @@
       "comp": 1
      },
      {
-      "id": "@I499@",
-      "slug": "salvatore-mazza-3",
+      "id": "@I32@",
+      "slug": "salvatore-mazza-1948",
       "name": "Salvatore Mazza",
       "surname": "Mazza",
       "born": null,
       "died": null,
-      "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+      "datesHidden": true,
+      "birthPlace": "Briatico, Vibo Valentia, Calabria",
       "comp": 1
      },
      {
@@ -1069,14 +1069,14 @@
       "comp": 1
      },
      {
-      "id": "@I32@",
-      "slug": "salvatore-mazza-1948",
+      "id": "@I499@",
+      "slug": "salvatore-mazza-3",
       "name": "Salvatore Mazza",
       "surname": "Mazza",
       "born": null,
       "died": null,
-      "datesHidden": true,
-      "birthPlace": "Briatico, Vibo Valentia, Calabria",
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -1307,7 +1307,7 @@
     "towns": [
      "Brisbane, Queensland"
     ],
-    "component": 6,
+    "component": 3,
     "onSpine": [],
     "people": [
      {
@@ -1319,7 +1319,7 @@
       "died": null,
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
-      "comp": 6
+      "comp": 3
      }
     ]
    },
@@ -1328,7 +1328,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 3,
+    "component": 6,
     "onSpine": [],
     "people": [
      {
@@ -1340,7 +1340,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 3
+      "comp": 6
      }
     ]
    },
@@ -1349,7 +1349,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 10,
+    "component": 7,
     "onSpine": [],
     "people": [
      {
@@ -1361,7 +1361,7 @@
       "died": null,
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 10
+      "comp": 7
      }
     ]
    }
@@ -1544,8 +1544,8 @@
       "comp": 1
      },
      {
-      "id": "@I479@",
-      "slug": "anna-arena-5",
+      "id": "@I472@",
+      "slug": "anna-arena-4",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
@@ -1555,8 +1555,8 @@
       "comp": 1
      },
      {
-      "id": "@I472@",
-      "slug": "anna-arena-4",
+      "id": "@I479@",
+      "slug": "anna-arena-5",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
@@ -1676,8 +1676,8 @@
       "comp": 1
      },
      {
-      "id": "@I478@",
-      "slug": "giuseppe-arena-6",
+      "id": "@I471@",
+      "slug": "giuseppe-arena-5",
       "name": "Giuseppe Arena",
       "surname": "Arena",
       "born": null,
@@ -1687,8 +1687,8 @@
       "comp": 1
      },
      {
-      "id": "@I471@",
-      "slug": "giuseppe-arena-5",
+      "id": "@I478@",
+      "slug": "giuseppe-arena-6",
       "name": "Giuseppe Arena",
       "surname": "Arena",
       "born": null,
@@ -1742,8 +1742,8 @@
       "comp": 1
      },
      {
-      "id": "@I480@",
-      "slug": "rocco-arena-4",
+      "id": "@I473@",
+      "slug": "rocco-arena-3",
       "name": "Rocco Arena",
       "surname": "Arena",
       "born": null,
@@ -1753,8 +1753,8 @@
       "comp": 1
      },
      {
-      "id": "@I473@",
-      "slug": "rocco-arena-3",
+      "id": "@I480@",
+      "slug": "rocco-arena-4",
       "name": "Rocco Arena",
       "surname": "Arena",
       "born": null,
