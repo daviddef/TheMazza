@@ -61,5 +61,12 @@
   "what": "The item TITLE carries the particulars, so a NameSearch settles a question even when nothing is digitised: «Mazza [nee Nicotra], Maria -- arrived Sydney 20 April 1962».",
   "how": "One line gave a maiden name from an Australian government record and an arrival the family tree did not have, for a woman fourteen years of Italian birth indexes had failed to find.",
   "caution": "Run it on the MARRIED surname AND the maiden name before sweeping any Italian comune. A birthplace stated by the person outranks one inferred from her husband's town."
+ },
+ {
+  "instrument": "A source that carries its own arithmetic",
+  "where": "Any ledger, foliated register or index with running totals",
+  "what": "A double-entry book closes each page with a total and opens the next with a «riporto». So the document states, in its own hand, whether your reading of it is complete.",
+  "how": "The 1714 Piedimonte riveli index is seventeen images. Twelve were read and two pages looked like blank versos at thumbnail size. p6 closes at 1468 and p8 opens at 2556 -- eleven households looked straight past, and a negative eleven households short would have read exactly like a complete one.",
+  "caution": "IT IS THE ONLY CHECK THAT COMES FROM INSIDE THE DOCUMENT rather than from a second source, and it is the reason to fetch the thing you are about to skip. It works on act numbers and folio numbers too: a jump in either says a frame is missing or a page was not photographed. It does NOT tell you the reading was CORRECT, only that it was whole."
  }
 ]
