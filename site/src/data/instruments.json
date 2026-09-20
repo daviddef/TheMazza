@@ -82,5 +82,26 @@
   "what": "A birth act opens on a right page naming whoever PRESENTED the child, and the PARENTS are named at the top of the next left page. In some years the presenter is the father; in others act after act is presented by the LEVATRICE, the midwife.",
   "how": "A band sweep of the declarant line works perfectly in a year of fathers and SILENTLY DROPS EVERY FATHER WHOSE CHILD THE MIDWIFE CARRIED. It cost the Falco archive a full re-sweep of a 128-image volume.",
   "caution": "IF YOU ARE BANDING A BIRTH VOLUME, BAND THE PARENTS LINE, NOT THE DECLARANT LINE. The failure produces a clean, complete-looking, confident negative -- which is the only kind that survives review. This archive's own montage sweeps are of MARRIAGE volumes, where the band carries the groom and his father, so they are not exposed; its birth work has been index-first. Reported by the Falco archive, 21 September 2026."
+ },
+ {
+  "instrument": "The «vivente» field in a publication certificate",
+  "where": "Italian-era «Matrimoni, allegati» -- Piedimonte 1866+, and any comune filming the allegati separately from the acts",
+  "what": "The printed «CERTIFICATO di seguita pubblicazione di matrimonio senza opposizione» has a blank for each spouse reading «figlio del ____ ... e della ____». The clerk fills it with VIVENTE or with FU. It is a POSITIVE statement about all four parents, with a trade and a residence beside each, on a dated form -- not the absence of a marker but the marker itself.",
+  "how": "Find the fascicolo by its wrapper: «Fasc.o N.o 15» is printed at the head of the divider page, so one banded crop of the top-right corners across a dozen images locates any bundle. At Piedimonte in 1871 the bundles run about three images apart. The certificate is on the RIGHT page of the opening after the divider; the divider's verso is blank.",
+  "caution": "THE ALLEGATI ARE NOT THE PROCESSETTI AND WILL NOT ANSWER THE SAME QUESTIONS. The Bourbon-era «Matrimoni, processetti» carry the spouses' BIRTH EXTRACTS and their dead parents' DEATH ACTS. The Italian-era «Matrimoni, allegati» of 1871 at Piedimonte carry the publication certificate and little else -- no birth extract, no death act. Reasoning from one to the other plans a search the volume cannot answer. What the allegati have that the processetti do not is this vivente/fu field."
+ },
+ {
+  "instrument": "Two documents from one office in one week are ONE witness",
+  "where": "Any civil register where an act and its allegato, or an act and its duplicate copy, survive together",
+  "what": "An act and the certificate filed beside it look like independent confirmation -- different volume, different printed form, different date -- and they are not. The same uffiziale wrote both, in the same fortnight, from the same declaration by the same people.",
+  "how": "Before counting a second document as confirmation, ask who wrote it, when, and from whose mouth. Confirmation requires a DIFFERENT DECLARANT or a DIFFERENT OCCASION: a birth act against a marriage act, a marriage act against a death act, an Italian act against an Australian one.",
+  "caution": "IT COST NOTHING HERE ONLY BECAUSE IT WAS CHECKED. Leonarda Bonanno is «d'anni ventitré compiuti» in BOTH the 1871 marriage act and the 1871 publication certificate, and both are four years wrong against her 1843 birth act. Two documents, one error, perfect agreement. A reader who counted them as two would have moved her birth by four years on the strength of a single clerk's afternoon."
+ },
+ {
+  "instrument": "An index whose fields come from two different documents",
+  "where": "Reported by the Lerena archive from FamilySearch's «Uruguay, registros parroquiales»; the same shape wherever older acts were certified into a later register",
+  "what": "Uruguay's Ley de 9 de Julio de 1888 had older parish baptisms certified into the civil register, so whole volumes are 1896 COPIES of much older acts. The indexer takes the YEAR off the certificate and the DAY AND MONTH off the act inside it. The result is a date that is complete, plausible, and up to forty-four years wrong -- 21 November 1852 indexed as 21 November 1896.",
+  "how": "Two tells, both free on the results page. (1) TWO CHILDREN OF ONE COUPLE WITH THE SAME INDEXED BIRTH DATE -- they were really born on that day, in different years. (2) AN ANACHRONISTIC GODPARENT, or any named party who cannot have been alive. A parent-pair search that returns children born after their father's death is the same signal.",
+  "caution": "THE PART THAT IS WRONG IS THE PART NO FACET EXPOSES, which is the family this archive's own failures belong to: a count sitting unparsed on the page, a partial index section read as a clean negative, a 403 that parses as zero. The index is not noise -- it is PARTIALLY RIGHT, and the right part makes the wrong part look trustworthy. Never take a date off an index whose source might be a certified copy without opening the act."
  }
 ]
