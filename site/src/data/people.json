@@ -1792,7 +1792,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 6,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1828,7 +1828,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 3,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1864,7 +1864,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -3498,13 +3498,19 @@
     "kind": "documented",
     "what": "NAA: MP1103/1, Q8110",
     "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "NAA: J1737, MAZZA R (item 6305636); against NAA: MP1103/1, Q8110",
+    "href": "/corrections"
    }
   ],
   "corrections": [
    "HE WAS INTERNED. Michael Mazza's great-uncle was held as an enemy alien in the Second World War, and the dossier gives his birth date to the day. Open, at Melbourne, not digitised.",
    "The Queensland security file that sits behind the internment. Open, at Brisbane, not digitised.",
    "WHAT HAPPENED AFTER THE CAMP. Interned Italians were released into the Civil Aliens Corps and put to labouring work. Open, at Brisbane.",
-   "Birth date — BORN 20 FEBRUARY 1899. Given in the NAA's description of his internment dossier: «Prisoner of War/Internee: Mazza, Rosario; Date of birth - 20 February 1899; Nationality - Italian»."
+   "Birth date — BORN 20 FEBRUARY 1899. Given in the NAA's description of his internment dossier: «Prisoner of War/Internee: Mazza, Rosario; Date of birth - 20 February 1899; Nationality - Italian».",
+   "After the camp — HE WENT INTO THE CIVIL ALIENS CORPS. NAA: J1737, MAZZA R: «Mazza Rosario, CAS 15000 - CIVIL ALIENS CORPS (CAC)», Brisbane, 1944, ACCESS OPEN. The CAC was the labour corps that interned Italians were released into rather than freed -- road and timber work under military administration -- and CAS 15000 is his service number in it. This archive had his internment dossier, MP1103/1 Q8110, and then a silence. IT ALSO SITS BESIDE THE OTHER TWO. Mario Crupi was at Loveday from August 1942 and released on 30 December 1943; Antonino Crupi came out on 22 October 1943. Rosario's Corps file is 1944. The three men were moving through the same system within months of each other."
   ],
   "onSpine": false,
   "ancGen": null
@@ -29855,7 +29861,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29891,7 +29897,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 10,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30073,7 +30079,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 3,
+  "comp": 9,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30116,7 +30122,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 10,
+  "comp": 5,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
