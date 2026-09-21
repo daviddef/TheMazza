@@ -131,5 +131,12 @@
   "what": "A many-to-one join written with `=` in a loop lets the LAST ROW WIN. It renders correctly for as long as the file happens to be in a helpful order, and then changes meaning when somebody appends a row. The failure looks like a data update, not a bug.",
   "how": "REVERSE THE SOURCE FILE AND RE-RUN THE BUILDER. Identical output means the fold has a rule. Different output means the file's order is deciding what you say, and nobody wrote that rule down. Restore the file in a `finally`, and compute the reversed text BEFORE opening the file for writing.",
   "caution": "COMPARE FACTS, NOT BYTES. Most builders emit a LIST in file order, so reversing the input reverses the list and the bytes differ for a reason that is presentation and not data loss -- six of this archive's eight pairs «failed» that way and every one was benign. Canonicalise both outputs by sorting every list by its own contents, then compare. Six false alarms became one true one: a question number that was really a row position, rendered on the page as though it were an identity."
+ },
+ {
+  "instrument": "The alphabet is repeated at the END of the index",
+  "where": "Giarre, Catania, annual birth Tavole -- and any index with late-registered acts",
+  "what": "An annual Tavola that runs A to Z looks finished at Z. IT IS NOT. Giarre's clerks APPEND EXTRA LETTER-SECTIONS AFTER Z for acts registered after the index was drawn up, and they say so: the Osservazioni column of the 1848 index reads «IN FINE DELL'ALFABETO RIPORTATA ALTRA VOLTA LA LETTERA M». 1848 appends F and M; 1841 appends F and B; 1842 and 1843 append others.",
+  "how": "AFTER READING A SECTION, READ THE LAST TWO OR THREE IMAGES OF THE VOLUME as well, and look for a second run of headings. A band of the name column across the final openings shows them at a glance. Only then is «the section is empty» a finished reading.",
+  "caution": "THIS IS THIS ARCHIVE'S OLDEST MISTAKE IN A NEW PLACE. The rule was already «find the section's END before writing not there» -- learned when a name sat four entries past where a reading stopped, and again when an index section ran across a page break. Here the section's end is not even in the same part of the book: the alphabet finishes, and then starts again. A negative taken from the main run alone is INCOMPLETE, not wrong, and must be recorded as incomplete."
  }
 ]
