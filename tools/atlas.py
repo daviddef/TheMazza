@@ -61,6 +61,25 @@ def cat(p):
 SHELF = {"open": "shelf-open", "partial": "shelf-part",
          "route": "shelf-route", "gap": "shelf-gap"}
 
+# A comune has one row PER SERIES, so most have several and they disagree.
+# Piedimonte Etneo has six `open` and one `route`; Scilla has three `open`.
+# THE FIRST VERSION OF THIS SIMPLY OVERWROTE, so a comune's colour was decided
+# by whichever row happened to sit last in the TSV. It read correctly for all
+# seven comuni on the day it was written and would have turned Piedimonte green
+# the moment somebody appended an `open` row beneath its `route` one -- a silent
+# change of meaning caused by the order of a data file, which is the exact class
+# of failure this archive spends its time cataloguing.
+#
+# THE WORST STATUS WINS, and the ranking is build_coverage.py's own vocabulary:
+#   gap      a real hole in the holding -- nothing will ever be there
+#   partial  the listing itself is incomplete, so NOTHING IS SETTLED
+#   route    reachable, but through a different archive -- a known errand
+#   open     reachable now
+# `route` sits ABOVE `partial` because a named errand beats not knowing what you
+# are looking at. The shelf answers «how far have we got», and one hole means
+# you have not got all the way.
+WORST = {"shelf-gap": 0, "shelf-part": 1, "shelf-route": 2, "shelf-open": 3}
+
 def head(s):
     return str(s or "").split(",")[0].strip().lower()
 
@@ -75,7 +94,10 @@ def layers():
         h = head(r.get("comune"))
         if not h:
             continue
-        cats.setdefault(h, {})["shelf"] = SHELF.get(r.get("status"), "shelf-part")
+        cat = SHELF.get(r.get("status"), "shelf-part")
+        have = cats.setdefault(h, {}).get("shelf")
+        if have is None or WORST[cat] < WORST[have]:
+            cats[h]["shelf"] = cat
     buried = {}
     bur = J("burials.json")
     bur = bur if isinstance(bur, list) else (bur.get("rows") or [])

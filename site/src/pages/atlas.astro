@@ -23,10 +23,18 @@ const s = data.stats;
       ["away", "New York and beyond", "#2E7C8C"],
       ["other", "Elsewhere", "#6E6A86"],
       /* The shelf, red through amber to green: how far the registers of a
-         comune have been got through. Red means catalogued and never opened. */
+         comune have been got through.
+         THE ORDER IS THE ONE build_coverage.py DEFINES, and it puts `route`
+         ABOVE `partial`, which is not the obvious reading. `route` means
+         «reachable, through a different archive» -- Piedimonte past 1893 is in
+         the Tribunale's duplicate for Catania, named and waiting. `partial`
+         means «the listing itself is incomplete, so NOTHING IS SETTLED» --
+         Briatico holds eighty-one rows against five hundred and fifty-five
+         available, and nobody knows what is in the rest. A known errand beats
+         not knowing what you are looking at. */
       ["shelf-gap", "No register survives for the years wanted", "#C0392B"],
-      ["shelf-route", "A route in, not yet taken", "#D98324"],
-      ["shelf-part", "Partly read", "#C9A227"],
+      ["shelf-part", "Listed incompletely — nothing here is settled", "#D98324"],
+      ["shelf-route", "Reachable, through a different archive", "#C9A227"],
       ["shelf-open", "The registers are open and listed", "#3C8C4A"],
       /* The ground, blue, as everywhere in the estate. */
       ["ground", "Somebody is buried here", "#2E86C1"],
