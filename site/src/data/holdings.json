@@ -144,6 +144,204 @@
    "noindex": 0
   },
   {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Cittadinanze",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 25,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Cittadinanze, allegati",
+   "from": 1872,
+   "to": 1893,
+   "volumes": 11,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 46,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, allegati",
+   "from": 1870,
+   "to": 1893,
+   "volumes": 42,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, pubblicazioni",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 46,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, pubblicazioni allegati",
+   "from": 1871,
+   "to": 1893,
+   "volumes": 35,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Morti",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 57,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Morti, allegati",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 22,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Nati",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 63,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "italiano",
+   "type": "Nati, allegati",
+   "from": 1872,
+   "to": 1893,
+   "volumes": 20,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "restaurazione",
+   "type": "Diversi",
+   "from": 1820,
+   "to": 1860,
+   "volumes": 31,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni",
+   "from": 1820,
+   "to": 1862,
+   "volumes": 85,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni, memorandum notificazioni ed opposizioni",
+   "from": 1841,
+   "to": 1860,
+   "volumes": 48,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni, processetti",
+   "from": 1841,
+   "to": 1864,
+   "volumes": 44,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "restaurazione",
+   "type": "Morti",
+   "from": 1820,
+   "to": 1862,
+   "volumes": 90,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "restaurazione",
+   "type": "Morti, annotazioni",
+   "from": 1852,
+   "to": 1893,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "restaurazione",
+   "type": "Nati",
+   "from": 1820,
+   "to": 1865,
+   "volumes": 101,
+   "bought": 5,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Giarre, Catania",
+   "fondo": "restaurazione",
+   "type": "Nati, esposti",
+   "from": 1820,
+   "to": 1860,
+   "volumes": 41,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
    "comune": "Mascali, Catania",
    "fondo": "deputazione del Regno",
    "type": "Riveli di anime e di terre",
@@ -403,7 +601,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 26,
-   "bought": 1,
+   "bought": 2,
    "indexed": 0,
    "noindex": 0
   },
@@ -414,7 +612,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 28,
-   "bought": 0,
+   "bought": 1,
    "indexed": 0,
    "noindex": 0
   },
@@ -425,7 +623,7 @@
    "from": 1870,
    "to": 1893,
    "volumes": 22,
-   "bought": 1,
+   "bought": 2,
    "indexed": 0,
    "noindex": 0
   },
@@ -750,11 +948,11 @@
   }
  ],
  "total": {
-  "volumes": 1372,
-  "bought": 279,
+  "volumes": 2180,
+  "bought": 287,
   "indexed": 3,
   "noindex": 7,
-  "comuni": 5
+  "comuni": 6
  },
  "named": [
   {
@@ -781,6 +979,8 @@
   "Briatico, Vibo Valentia",
   "Zambrone, Vibo Valentia",
   "San Costantino Calabro, Vibo Valentia",
-  "Potenzoni (Briatico), Vibo Valentia"
+  "Potenzoni (Briatico), Vibo Valentia",
+  "Mascali, Catania",
+  "Giarre, Catania"
  ]
 }

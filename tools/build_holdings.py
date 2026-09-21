@@ -43,6 +43,10 @@ BANKS = [
     # not civil registration, and they reach back to 1616 -- a century before
     # Piedimonte's earliest.
     ("data/mascali-arks.tsv",         "Mascali, Catania",               "year",  None),
+    # The sixth town, opened 21 September off the words «nato a GIARRE» in
+    # Giovanni Nicotra's 1872 publication certificate. The largest comune in
+    # this archive, and the only one that holds TWO COPIES OF EVERY YEAR.
+    ("data/giarre-arks.tsv",          "Giarre, Catania",                "year",  None),
 ]
 
 # The bank files name a series in whichever column came first; normalise the
@@ -113,7 +117,11 @@ NAMED = [
 ]
 NOT_NAMED = ["Piedimonte Etneo, Catania", "Briatico, Vibo Valentia",
              "Zambrone, Vibo Valentia", "San Costantino Calabro, Vibo Valentia",
-             "Potenzoni (Briatico), Vibo Valentia"]
+             "Potenzoni (Briatico), Vibo Valentia",
+             # Both opened 21 September and NEITHER is name-indexed, which is why
+             # «Cassaniti» returns nothing for the whole of Italy while this
+             # archive was reading the family in Piedimonte and Mascali acts.
+             "Mascali, Catania", "Giarre, Catania"]
 
 json.dump({"rows": out, "total": tot, "named": NAMED, "notNamed": NOT_NAMED},
           open("site/src/data/holdings.json", "w", encoding="utf-8"),
