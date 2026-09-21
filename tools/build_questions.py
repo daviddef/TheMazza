@@ -38,9 +38,33 @@ if fails:
     print("\n".join(fails))
     sys.exit(1)
 
+# THE NUMBER USED TO BE THE ROW'S POSITION -- `enumerate(rows, start=1)` -- and
+# the kit RENDERS IT, as `{r.n ?? i + 1}`. So inserting a question anywhere but
+# the end silently renumbered every question below it, and a reader who cited
+# «question 7» was pointing at a different question the next day. Nothing had
+# gone wrong yet; nothing would have looked wrong when it did.
+#
+# Found by tools/check_order.py, which reverses a data file and re-runs the
+# builder: the questions were the only one of eight pairs whose FACTS changed.
+# `n` is now an explicit column, assigned once and never reused, exactly as
+# worklist.json has always done it.
+seen = {}
+for r in rows:
+    v = (r.get("n") or "").strip()
+    if not v.isdigit():
+        fails.append(f"  FAIL  «{r.get('q','')[:50]}» has no numeric `n` — a question "
+                     f"number that comes from the row's position moves when a row is inserted")
+    elif v in seen:
+        fails.append(f"  FAIL  `n` {v} is used twice: «{seen[v][:40]}» and «{r.get('q','')[:40]}»")
+    else:
+        seen[v] = r.get("q", "")
+if fails:
+    print("\n".join(fails))
+    sys.exit(1)
+
 out = []
-for i, r in enumerate(rows, start=1):
-    out.append({"n": i,
+for r in rows:
+    out.append({"n": int(r["n"]),
                 "q": (r.get("q") or "").strip(),
                 "state": (r.get("state") or "").strip(),
                 "known": (r.get("known") or "").strip(),

@@ -34,7 +34,8 @@
     "check:worklist": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkworklist.py --root .",
     "check:covers": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkcovers.py --root .",
     "check:templates": "python3 node_modules/@daviddef/archive-kit/kit/tools/checktemplates.py --root .",
-    "check:nils": "python3 ../tools/check_nils.py"
+    "check:nils": "python3 ../tools/check_nils.py",
+    "check:order": "python3 ../tools/check_order.py"
   },
   "dependencies": {
     "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#86f3b60926f1d4c2aef72e433d539cba479efdd7",
