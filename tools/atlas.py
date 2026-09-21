@@ -43,9 +43,57 @@ def cat(p):
     if re.search(r"new york|america|ellis|united states|argentin", s): return "away"
     return "other"
 
+# THREE QUESTIONS OF THE SAME GROUND — 21 September 2026.
+#
+# This archive asked all three and could answer only one on the map. The kit's
+# Atlas has carried a `schemes` prop since Defranceschi's layer model was
+# promoted into it, and no archive in the estate had ever passed it.
+#
+# people  where a named person can be put — the category this file always had
+# shelf   how far the registers of a comune have been got through, out of
+#         coverage.json, which is keyed on `comune` and lands on 12 of its 13
+# ground  where somebody is actually buried, out of burials.json, 18 of whose
+#         20 rows land on a place this map already draws
+#
+# A place answering more than one takes the colour of the RAREST it answers,
+# counted off the data by the component rather than declared here — so the
+# burial is the thing worth seeing and the shelf is the ground it sits on.
+SHELF = {"open": "shelf-open", "partial": "shelf-part",
+         "route": "shelf-route", "gap": "shelf-gap"}
+
+def head(s):
+    return str(s or "").split(",")[0].strip().lower()
+
+def layers():
+    """place-head -> {scheme: cat}, and the counts that go with them."""
+    cats, ns = {}, {}
+    # coverage.json is {rows, held}; burials.json is a bare list. Read the
+    # shape rather than assume one — they were written by different scripts.
+    cov = J("coverage.json")
+    cov = cov if isinstance(cov, list) else (cov.get("rows") or [])
+    for r in cov:
+        h = head(r.get("comune"))
+        if not h:
+            continue
+        cats.setdefault(h, {})["shelf"] = SHELF.get(r.get("status"), "shelf-part")
+    buried = {}
+    bur = J("burials.json")
+    bur = bur if isinstance(bur, list) else (bur.get("rows") or [])
+    for r in bur:
+        h = head(r.get("place"))
+        if not h:
+            continue
+        buried[h] = buried.get(h, 0) + 1
+    for h, n in buried.items():
+        cats.setdefault(h, {})["ground"] = "ground"
+        ns.setdefault(h, {})["ground"] = n
+    return cats, ns
+
+
 def main():
     places = J("places.json")
     ppl = {p["slug"]: p for p in J("people.json") if p.get("slug")}
+    extra, extraN = layers()
     rows = []
     for p in places:
         name = p["name"]
@@ -65,6 +113,18 @@ def main():
                         "w": f"/people/{s}/"} for s in slugs[:12]],
             "more": max(0, len(slugs) - 12) or None,
         })
+        # The layers, attached on the same head() the roster attaches on, so a
+        # place cannot be pinned correctly and lose its layer (work-list 158).
+        h = head(name)
+        c = dict(extra.get(h) or {})
+        if slugs:
+            c["people"] = cat(name)
+        if c:
+            rows[-1]["cats"] = c
+            n2 = dict(extraN.get(h) or {})
+            if slugs:
+                n2["people"] = len(slugs)
+            rows[-1]["ns"] = n2
     atlasdata.build(rows, OUT, gaz=gazetteer(), countries=["Italia","Italy","Australia","United States","Argentina","United Kingdom","Indonesia","Fiji","South Africa","Suid-Afrika","Österreich","Austria"])
 
 if __name__ == "__main__":

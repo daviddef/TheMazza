@@ -22,12 +22,30 @@ const s = data.stats;
       ["au", "Brisbane", "#1F5C6B"],
       ["away", "New York and beyond", "#2E7C8C"],
       ["other", "Elsewhere", "#6E6A86"],
+      /* The shelf, red through amber to green: how far the registers of a
+         comune have been got through. Red means catalogued and never opened. */
+      ["shelf-gap", "No register survives for the years wanted", "#C0392B"],
+      ["shelf-route", "A route in, not yet taken", "#D98324"],
+      ["shelf-part", "Partly read", "#C9A227"],
+      ["shelf-open", "The registers are open and listed", "#3C8C4A"],
+      /* The ground, blue, as everywhere in the estate. */
+      ["ground", "Somebody is buried here", "#2E86C1"],
+    ]}
+    schemes={[
+      ["people", "Our people", `${s.withPeople} places · where a named person can be put`],
+      ["shelf", "The shelf", "7 comuni · how far we have got with the registers"],
+      ["ground", "The ground", "6 places · where somebody is actually buried"],
     ]}
     bounds={[[36.5, 12.5], [41.0, 17.5]]}
     homeLabel="Back to the south"
     placeholder="Briatico · Scilla · Piedimonte Etneo · Nudgee"
     hint={`${s.withPeople} of the ${s.places} places carry at least one person.`}
   >
+    <p class="cap" style="margin-top:6px"><strong>Three questions of the same ground.</strong>
+    Switch any layer on or off; the panel never switches, because a place that is a comune with
+    registers, a home and a grave says all three things at once. <strong>Twelve places answer more
+    than one</strong>, and with every layer on those wear the rarer colour — the burial is the
+    thing worth seeing and the shelf is the ground it sits on.</p>
     <p class="cap" style="margin-top:6px">A marker is a place this archive can put a person in.
     <strong>Weight is not kinship</strong> — a parish may hold a great many of the surname and be
     connected to this family by nothing at all.{s.approx ? ` ${s.approx} of these coordinates are approximate: the gazetteer matched a larger place, or a modern name, rather than the exact parish.` : ""}</p>
