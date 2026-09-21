@@ -37,6 +37,7 @@ ARKS = {
     "Zambrone": ["data/zambrone-arks.tsv"],
     "Mascali": ["data/mascali-arks.tsv"],
     "Giarre": ["data/giarre-arks.tsv"],
+    "Riposto": ["data/riposto-arks.tsv"],
 }
 
 def count(path):

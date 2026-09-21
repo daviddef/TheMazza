@@ -139,6 +139,16 @@
    "listed": "808",
    "status": "open",
    "note": "THE SIXTH TOWN, opened 21 September off the words «nato a GIARRE» in Giovanni Nicotra's 1872 publication certificate. LISTED WHOLE AND VERIFIED, and it took TWO PAGE LOADS: s_size=500 returned 500 against a facet total of 808, and «&s_page=2» returned the remaining 308. 500 is a PAGE SIZE, not a ceiling. The largest comune in this archive -- 164 Nati, 147 Morti, 131 Matrimoni, 44 Matrimoni processetti -- and the ONLY ONE THAT HOLDS TWO COPIES OF EVERY YEAR, so a lost leaf in one may survive in the other. Unlike Mascali it has 1844."
+  },
+  {
+   "comune": "Riposto",
+   "series": "Stato civile 1821-1860, 1866-1893",
+   "from": "1821",
+   "to": "1893",
+   "holding": "421 (all Catania)",
+   "listed": "421",
+   "status": "open",
+   "note": "THE SEVENTH TOWN, opened 21 September. LISTED WHOLE AND VERIFIED: 421 results, 421 distinct arks, facet total 421 -- complete in ONE page, under the s_size ceiling. IT REGISTERS SEPARATELY FROM GIARRE FROM 1821, right through the window in which Giovanni Nicotra was born, so «nato a Giarre» from a man of the lower town could be entered here. A GAP 1861-1865 in the middle, between the restaurazione run and the italiano one. AND UNLIKE GIARRE IT HAS ORDINARY NICOTRA HOUSEHOLDS: Giarre's only Nicotra in eleven years is a «Dottor Don», where Riposto 1847 alone holds two -- Giuseppe Nicotra x Angela Autieri and Salvadore Nicotra x Maria Barbagallo."
   }
  ],
  "held": {
@@ -147,6 +157,7 @@
   "Briatico": 80,
   "Zambrone": 10,
   "Mascali": 498,
-  "Giarre": 808
+  "Giarre": 808,
+  "Riposto": 421
  }
 }

@@ -47,6 +47,11 @@ BANKS = [
     # Giovanni Nicotra's 1872 publication certificate. The largest comune in
     # this archive, and the only one that holds TWO COPIES OF EVERY YEAR.
     ("data/giarre-arks.tsv",          "Giarre, Catania",                "year",  None),
+    # The seventh town. Giarre's registers do not hold Giovanni Nicotra although
+    # his own certificate says «nato a Giarre», and RIPOSTO registers separately
+    # from 1821 -- so a man from the lower town could say Giarre and be entered
+    # here. Unlike Giarre it has ORDINARY Nicotra households, not only a Don.
+    ("data/riposto-arks.tsv",         "Riposto, Catania",               "year",  None),
 ]
 
 # The bank files name a series in whichever column came first; normalise the
@@ -121,7 +126,7 @@ NOT_NAMED = ["Piedimonte Etneo, Catania", "Briatico, Vibo Valentia",
              # Both opened 21 September and NEITHER is name-indexed, which is why
              # «Cassaniti» returns nothing for the whole of Italy while this
              # archive was reading the family in Piedimonte and Mascali acts.
-             "Mascali, Catania", "Giarre, Catania"]
+             "Mascali, Catania", "Giarre, Catania", "Riposto, Catania"]
 
 json.dump({"rows": out, "total": tot, "named": NAMED, "notNamed": NOT_NAMED},
           open("site/src/data/holdings.json", "w", encoding="utf-8"),

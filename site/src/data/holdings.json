@@ -760,6 +760,204 @@
    "noindex": 0
   },
   {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Cittadinanze",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 27,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Cittadinanze, allegati",
+   "from": 1868,
+   "to": 1891,
+   "volumes": 5,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 29,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, allegati",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 28,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, pubblicazioni",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 28,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, pubblicazioni allegati",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 17,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Morti",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 28,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Morti, allegati",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 12,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Nati",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 28,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "italiano",
+   "type": "Nati, allegati",
+   "from": 1867,
+   "to": 1893,
+   "volumes": 10,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "restaurazione",
+   "type": "Diversi",
+   "from": 1842,
+   "to": 1860,
+   "volumes": 19,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni",
+   "from": 1821,
+   "to": 1860,
+   "volumes": 40,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni, memorandum notificazioni ed opposizioni",
+   "from": 1841,
+   "to": 1860,
+   "volumes": 24,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni, processetti",
+   "from": 1841,
+   "to": 1860,
+   "volumes": 20,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "restaurazione",
+   "type": "Morti",
+   "from": 1821,
+   "to": 1860,
+   "volumes": 43,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "restaurazione",
+   "type": "Morti, annotazioni",
+   "from": 1851,
+   "to": 1900,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "restaurazione",
+   "type": "Nati",
+   "from": 1821,
+   "to": 1860,
+   "volumes": 49,
+   "bought": 6,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Riposto, Catania",
+   "fondo": "restaurazione",
+   "type": "Nati, esposti",
+   "from": 1848,
+   "to": 1860,
+   "volumes": 13,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
    "comune": "Scilla, Reggio Calabria",
    "fondo": "italiano",
    "type": "Matrimoni",
@@ -948,11 +1146,11 @@
   }
  ],
  "total": {
-  "volumes": 2180,
-  "bought": 293,
+  "volumes": 2601,
+  "bought": 299,
   "indexed": 3,
   "noindex": 7,
-  "comuni": 6
+  "comuni": 7
  },
  "named": [
   {
@@ -981,6 +1179,7 @@
   "San Costantino Calabro, Vibo Valentia",
   "Potenzoni (Briatico), Vibo Valentia",
   "Mascali, Catania",
-  "Giarre, Catania"
+  "Giarre, Catania",
+  "Riposto, Catania"
  ]
 }
