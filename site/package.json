@@ -37,11 +37,11 @@
     "check:nils": "python3 ../tools/check_nils.py",
     "check:order": "python3 ../tools/check_order.py",
     "check:sources": "python3 node_modules/@daviddef/archive-kit/kit/tools/checksources.py --root . --max-unreachable 13",
-    "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 3",
+    "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 2",
     "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root ."
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#2480cb1",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#9ff6320",
     "astro": "^5.18.2"
   },
   "devDependencies": {
