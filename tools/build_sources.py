@@ -22,6 +22,12 @@ really matters:
   lore   compiled research with no reference
   wall   tried, and it did not answer — recorded so nobody pays to retry it
 
+Each row also carries `url` — the address of the thing itself. Twelve of the
+twenty-five have one. The thirteen that do not are exactly one group, the
+indexes the family tree cites and this archive has never opened, and they are
+left empty ON PURPOSE: a link would say the collection had been reached, and
+the group's own heading says it has not.
+
   data/sources.tsv  ->  site/src/data/sources.json
 """
 import csv, json, os, sys, collections
@@ -45,8 +51,14 @@ for r in rows:
     if g not in groups:
         groups[g] = []
         order.append(g)
+    # `url` and `note` added 21 September 2026. They were first written
+    # straight into the JSON, which this script then overwrote on the next
+    # build — the sources gate caught it, reporting 25 of 25 unreachable an
+    # hour after twelve had been filled in. A generated file is not a place
+    # to put a fact.
     groups[g].append({k: (r.get(k) or "").strip()
-                      for k in ("source", "what", "usedFor", "seen")})
+                      for k in ("source", "what", "usedFor", "seen", "url", "note")
+                      if (r.get(k) or "").strip() or k != "url" and k != "note"})
 
 counts = collections.Counter((r.get("seen") or "").strip() for r in rows)
 json.dump({"groups": [{"group": g, "rows": groups[g]} for g in order],

@@ -14,6 +14,7 @@
    hundred acts at four comuni and reached the 1720s. A sources page that
    undersells itself is not modesty. */
 import Base from "../layouts/Base.astro";
+import Sources from "@daviddef/archive-kit/components/Sources.astro";
 import { u } from "../lib/url.js";
 import stats from "../data/stats.json";
 import sources from "../data/sources.json";
@@ -26,6 +27,30 @@ const LABEL = {
   wall:  ["a wall", "tried, and it did not answer"],
 };
 const n = (k) => sources.counts[k] || 0;
+
+/* 21 September 2026. The table became the kit's source rows. The `seen` grade
+   did NOT become a group — it cuts across the groups, so it rides on each row
+   as a tag, gloss and all. The groups stay exactly as this archive wrote
+   them, because "Tried and found wanting" is an argument and not a category.
+
+   Twelve of the twenty-five now link to the thing itself. The thirteen that
+   do not are precisely one group — the indexes the family tree cites that
+   this archive has never opened — and they are left unlinked on purpose. A
+   link would say the collection had been reached, and the group's own
+   heading says it has not. */
+const groups = sources.groups.map((g) => ({
+  label: g.group,
+  rows: g.rows.map((r) => ({
+    title: r.source,
+    tag: LABEL[r.seen][0],
+    tagTitle: LABEL[r.seen][1],
+    url: r.url,
+    what: r.what,
+    note: r.note,
+    carries: r.usedFor ? "<strong>Used for:</strong> " + r.usedFor : null,
+  })),
+}));
+const reachable = sources.groups.flatMap((g) => g.rows).filter((r) => r.url).length;
 ---
 <Base title="Sources" eyebrow={`${sources.total} sources, ${n("act")} of them read in the original`}
       dek="What this archive rests on — and, for every line of it, whether the document itself has been read or only an index to it.">
@@ -42,28 +67,14 @@ const n = (k) => sources.counts[k] || 0;
     Every row below says which it is. Of the {stats.sources} sources named in the family's own export,
     <strong>only 11 individuals carry a citation at all</strong> — which is why so much of this archive
     is now resting on registers the export never mentioned.</p>
+    <p class="note"><strong>{reachable} of the {sources.total} link to the thing itself.</strong> The
+    rest are the indexes the tree cites and this archive has never opened — left unlinked on purpose,
+    because a link would say they had been reached.</p>
   </section>
 
-  {sources.groups.map((g) => (
-    <section class="blk">
-      <h2>{g.group}</h2>
-      <div class="scroll" style="margin-top:16px">
-        <table>
-          <thead><tr><th>Source</th><th class="m">Seen</th><th>What it is</th><th>Used for</th></tr></thead>
-          <tbody>
-            {g.rows.map((r) => (
-              <tr>
-                <td><strong>{r.source}</strong></td>
-                <td class="m"><span title={LABEL[r.seen][1]}>{LABEL[r.seen][0]}</span></td>
-                <td class="small">{r.what}</td>
-                <td class="small">{r.usedFor}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-  ))}
+  <section class="blk">
+    <Sources groups={groups} u={u} html={false} />
+  </section>
 
   <section class="blk" style="border-bottom:0">
     <h2>What is not here yet</h2>

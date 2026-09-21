@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4326",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run additions && npm run docline && npm run docparents && npm run audit && npm run disputed && npm run coverage && npm run holdings && npm run instruments && npm run sources && npm run questions && npm run walls && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:grades && npm run check:corrections && npm run check:places && npm run check:searched && npm run check:nils && npm run check:worklist && npm run check:covers && npm run check:templates && npm run check:kit",
+    "build": "npm run additions && npm run docline && npm run docparents && npm run audit && npm run disputed && npm run coverage && npm run holdings && npm run instruments && npm run sources && npm run questions && npm run walls && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:grades && npm run check:corrections && npm run check:places && npm run check:searched && npm run check:nils && npm run check:worklist && npm run check:covers && npm run check:templates && npm run check:kit && npm run check:sources",
     "preview": "astro preview --port 4326",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "searchindex": "python3 ../tools/searchindex.py",
@@ -35,10 +35,11 @@
     "check:covers": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkcovers.py --root .",
     "check:templates": "python3 node_modules/@daviddef/archive-kit/kit/tools/checktemplates.py --root .",
     "check:nils": "python3 ../tools/check_nils.py",
-    "check:order": "python3 ../tools/check_order.py"
+    "check:order": "python3 ../tools/check_order.py",
+    "check:sources": "python3 node_modules/@daviddef/archive-kit/kit/tools/checksources.py --root . --max-unreachable 13"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#86f3b60926f1d4c2aef72e433d539cba479efdd7",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#eb2bfb8",
     "astro": "^5.18.2"
   },
   "devDependencies": {
