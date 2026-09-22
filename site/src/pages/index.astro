@@ -2,6 +2,8 @@
 import Base from "../layouts/Base.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
 import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
+import Spine from "@daviddef/archive-kit/components/Spine.astro";
+import spineData from "../data/spine.json";
 import { chartGroups } from "../lib/marriedin.js";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
@@ -29,6 +31,20 @@ const more = [
   ["/name", "The name", "Mazza is one of the commonest surnames in Italy, and it was coined many times over. What that means for anyone searching it."],
   ["/open-questions", "Open questions", "What this archive does not know, written down — including the one identification that would add six generations and a hundred and eleven people."],
 ];
+
+/* 22 September 2026. Five of the estate's eight archives showed no line on
+   their front page and this was one. Compact Spine, mirroring the mapping
+   direct-line.astro already uses — except the href, which a compact ladder
+   does not take: it links each row to that page's generation anchor, because
+   position in a line is unique and a name is not. */
+const UNSOURCED_HOME = new Set([9, 10]);
+const spineRows = spineData.spine.map((g) => ({
+  gen: g.gen, name: g.name,
+  living: !!g.living,
+  born: g.born, bornPlace: g.birthPlace,
+  died: g.died, diedPlace: g.deathPlace,
+  weak: UNSOURCED_HOME.has(g.gen),
+}));
 ---
 <Base title="The Mazza Archive" bare={true}>
   <figure class="fhero">
@@ -131,6 +147,14 @@ const more = [
 
   
 <section class="blk">
+  <section class="blk">
+    <h2>The line, ten generations</h2>
+    <p class="dek">Back to the 1690s in Calabria, with the two generations that rest on the family
+    tree alone marked where they fall.</p>
+    <Spine rows={spineRows} u={u} compact={true} full="/direct-line/" />
+    <p class="cap" style="margin-top:14px"><a href={u("/direct-line/")}>The full spine →</a></p>
+  </section>
+
   <h2>The families who married in</h2>
   <p class="dek">Every surname this archive holds, ranked. Each is here because a person married a person.
   <a href={u("/marriages/")}>The marriages, in full →</a></p>
