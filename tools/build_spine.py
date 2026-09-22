@@ -52,7 +52,11 @@ def row(pid, gen):
             "born": r.get("born"), "died": r.get("died"),
             "birthPlace": r.get("birthPlace", ""), "deathPlace": r.get("deathPlace", ""),
             "burialPlace": r.get("burialPlace", ""),
-            "spouse": (r["spouses"][0]["name"] if r.get("spouses") else "")}
+            "spouse": (r["spouses"][0]["name"] if r.get("spouses") else ""),
+            # «and why no links for the wives?» — 22 September. Because the
+            # spine carried her name and nothing else. people.json has had
+            # her slug all along.
+            "spouseSlug": (r["spouses"][0].get("slug") if r.get("spouses") else "")}
 
 gen = ancestors(PROBAND)
 quarters = []

@@ -42,6 +42,7 @@ const spineRows = spineData.spine.map((g) => ({
   gen: g.gen, name: g.name,
   living: !!g.living,
   spouse: g.spouse || "",
+  spouseHref: g.spouseSlug && !g.living ? `/people/${g.spouseSlug}/` : null,
   /* EIGHT PROSTAMOS ABOVE ONE MAZZA. Reported on 22 September as the ladder
      «suddenly chang[ing] to prostamo». It is not a fault — the deepest
      descent in this archive runs through Domenica Prostamo, who married a
