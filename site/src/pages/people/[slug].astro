@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import P from "../../components/P.astro";
 import PersonTree from "../../components/PersonTree.astro";
 import { u } from "../../lib/url.js";
+import { countryOnly } from "@daviddef/archive-kit/lib/place.js";
 import { people, norm } from "../../lib/people.js";
 import stats from "../../data/stats.json";
 import nudgee from "../../data/nudgee.json";
@@ -23,7 +24,17 @@ const ship = ships.find((s) => s.slug === p.slug);
 const comp = components.find((c) => c.comp === p.comp);
 const sameName = people.filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name));
 const edges = ["parents", "spouses", "children", "siblings"].flatMap((b) => p[b] || []);
-const home = p.birthPlace || p.deathPlace || p.burialPlace || "";
+/* A LIVING PERSON'S PLACE IS A COUNTRY AND NOTHING FINER.
+   This page withheld a living person's DATES and published their TOWN:
+   Mia Josephine Mazza's read «Born  Brisbane, Queensland  withheld», and
+   256 living people were in the same state. David's instruction on 22
+   September was to keep the country — enough to say a family ended up in
+   Australia rather than Italy, not enough to put a child in a town.
+   `hidden` is the same test the dates use, so the two can never disagree
+   about who is protected. */
+const hidden = !!(p.datesHidden || p.living || p.presumedLiving);
+const place = (v) => (hidden ? countryOnly(v) : v || "");
+const home = place(p.birthPlace || p.deathPlace || p.burialPlace || "");
 const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
              christened: "Christened", lived: "Lived", arrival: "Arrived", departure: "Left" };
 
@@ -57,7 +68,7 @@ const dek = p.ancGen === 0 || p.onSpine
         <div class="rec" style="margin-top:12px">
           {p.events.filter((e) => e.place || (e.what !== "lived" && e.date)).map((e) => (<>
             <div class="k">{EV[e.what] || e.what}</div>
-            <div class="v">{e.place || "—"}</div>
+            <div class="v">{place(e.place) || "\u2014"}</div>
             <div class="w">{e.date || (p.datesHidden ? "withheld" : "")}</div>
           </>))}
         </div>
@@ -69,7 +80,8 @@ const dek = p.ancGen === 0 || p.onSpine
         <p class="small" style="margin-top:14px"><strong>Dates withheld on purpose.</strong> This
         person would be {stats.ageThreshold} or younger today and the tree records no death for them.
         Their dates are <strong>stripped in the build</strong> — they are not in this page's HTML and
-        not recoverable from this site. See <a href={u("/method/")}>Method</a>.</p>
+        not recoverable from this site, and their places are <strong>reduced to a country</strong>
+        for the same reason. See <a href={u("/method/")}>Method</a>.</p>
       )}
     </div>
 
@@ -176,7 +188,7 @@ const dek = p.ancGen === 0 || p.onSpine
           <li><a href={u("/people/" + q.slug)}>{q.name}</a>
             <span style="color:var(--ink-3)"> — {q.datesHidden ? "dates withheld"
               : ([q.born, q.died].filter(Boolean).join("–") || "undated")}
-              {q.birthPlace ? `, ${q.birthPlace}` : ""}, component {q.comp}</span></li>
+              {q.birthPlace ? `, ${q.datesHidden || q.living || q.presumedLiving ? countryOnly(q.birthPlace) : q.birthPlace}` : ""}, component {q.comp}</span></li>
         ))}
       </ul>
     </section>
