@@ -30,9 +30,23 @@ const edges = ["parents", "spouses", "children", "siblings"].flatMap((b) => p[b]
    256 living people were in the same state. David's instruction on 22
    September was to keep the country — enough to say a family ended up in
    Australia rather than Italy, not enough to put a child in a town.
-   `hidden` is the same test the dates use, so the two can never disagree
-   about who is protected. */
-const hidden = !!(p.datesHidden || p.living || p.presumedLiving);
+   KEYED TO `datesHidden`, NOT `presumedLiving`, and the difference is 280
+   people. `presumedLiving` is true for anyone the tree cannot show died —
+   which in this archive means anyone with no dates at all, «416 of 599,
+   in a tree that reaches 1697». Mazza turned suppression off on 10
+   September for exactly that reason. The first version of this change
+   keyed off it anyway and reduced the birthplace of 280 people who are
+   plainly dead, including ten named in records from 1816 to 1892:
+   Domenico Donato appears in an act of 1816 and would be over two
+   hundred. That is the opposite harm — withholding real nineteenth
+   century evidence — and it is what the 10 September decision existed to
+   prevent.
+
+   `datesHidden` is this archive's actual might-still-be-alive test: 80 or
+   younger, with no death recorded. 131 people, and it is the same test
+   the dates use, so places and dates can never disagree about who is
+   being protected. */
+const hidden = !!(p.datesHidden || p.living);
 const place = (v) => (hidden ? countryOnly(v) : v || "");
 const home = place(p.birthPlace || p.deathPlace || p.burialPlace || "");
 const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
@@ -188,7 +202,7 @@ const dek = p.ancGen === 0 || p.onSpine
           <li><a href={u("/people/" + q.slug)}>{q.name}</a>
             <span style="color:var(--ink-3)"> — {q.datesHidden ? "dates withheld"
               : ([q.born, q.died].filter(Boolean).join("–") || "undated")}
-              {q.birthPlace ? `, ${q.datesHidden || q.living || q.presumedLiving ? countryOnly(q.birthPlace) : q.birthPlace}` : ""}, component {q.comp}</span></li>
+              {q.birthPlace ? `, ${q.datesHidden || q.living ? countryOnly(q.birthPlace) : q.birthPlace}` : ""}, component {q.comp}</span></li>
         ))}
       </ul>
     </section>
