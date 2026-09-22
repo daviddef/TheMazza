@@ -12,3 +12,7 @@ node_modules/
 site/public/atlas-data.json
 sources/*.ged
 sources/*.gedcom
+
+# A private build directory, so a check never reads a dist another session is
+# halfway through writing. ARCHIVE_OUT=dist-verify points the gates at it.
+site/dist-verify/
