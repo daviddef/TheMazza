@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev --port 4326",
     "atlas": "python3 ../tools/atlas.py",
-    "build": "npm run check:pin && npm run additions && npm run docline && npm run docparents && npm run audit && npm run disputed && npm run coverage && npm run holdings && npm run instruments && npm run sources && npm run questions && npm run walls && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:grades && npm run check:corrections && npm run check:places && npm run check:searched && npm run check:nils && npm run check:worklist && npm run check:covers && npm run check:templates && npm run check:kit && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows",
+    "build": "npm run check:pin && npm run additions && npm run nicotra && npm run docline && npm run docparents && npm run audit && npm run disputed && npm run coverage && npm run holdings && npm run instruments && npm run sources && npm run questions && npm run walls && npm run searched && npm run graves && npm run atlas && astro build && npm run searchindex && astro build && npm run sitemap && npm run check:living && npm run check:links && npm run check:additions && npm run check:grades && npm run check:corrections && npm run check:places && npm run check:searched && npm run check:nils && npm run check:worklist && npm run check:covers && npm run check:templates && npm run check:kit && npm run check:sources && npm run check:pages && npm run check:inline && npm run check:rows",
     "preview": "astro preview --port 4326",
     "sitemap": "python3 node_modules/@daviddef/archive-kit/kit/tools/sitemap.py",
     "searchindex": "python3 ../tools/searchindex.py",
@@ -40,7 +40,8 @@
     "check:pages": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpages.py --root . --estate ../.. --max-bespoke 2",
     "check:pin": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkpin.py --root .",
     "check:inline": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkinline.py --root . --max-inline 5",
-    "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root ."
+    "check:rows": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkrows.py --root .",
+    "nicotra": "python3 ../tools/build_nicotra.py"
   },
   "dependencies": {
     "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#7fa7c1f829fda0de6a5fb86b229c0ab0d159133c",

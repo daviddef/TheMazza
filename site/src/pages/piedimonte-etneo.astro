@@ -67,8 +67,62 @@ const orphans = people.filter((p) => p.comp === 2);
       <p style="margin-top:14px">None of that was in the family's export, and none of it changes who
       Michael Rocco Mazza's grandparents were. It changes where his great-grandmother was born, and
       it adds three comuni and about two thousand volumes to what this archive has to read.
-      <a href={u("/searched/")}>What has been read →</a></p>
+      <a href={u("/nicotra/")}>The Nicotra line →</a> · <a href={u("/searched/")}>What has been read →</a></p>
     </div>
+
+    {/* Drawn to scale from the coordinates in data/gazetteer-local.json, which
+        were looked up against OpenStreetMap rather than estimated. The strip is
+        tall and narrow because that is the shape of the ground: these towns are
+        strung along ten kilometres of coast between Etna and the Ionian Sea,
+        and a square diagram would be a lie about how close they are. */}
+    <figure style="margin:2rem 0 0">
+      <svg viewBox="0 0 400 585" width="100%" style="max-width:420px;height:auto;display:block;margin:0 auto"
+           role="img" aria-label="The four Sicilian comuni of this archive, drawn to scale: Piedimonte Etneo inland to the north, then Mascali, then Riposto on the coast and Giarre just inland of it — all within about ten kilometres.">
+        <defs>
+          <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="currentColor" stop-opacity="0.05"/>
+            <stop offset="1" stop-color="currentColor" stop-opacity="0.16"/>
+          </linearGradient>
+        </defs>
+        <g style="color:var(--ink-3)">
+          <rect x="262" y="0" width="138" height="585" fill="url(#sea)"/>
+          <text x="330" y="300" text-anchor="middle" font-size="12" fill="currentColor"
+                font-style="italic" opacity="0.75" style="font-family:var(--serif)">Ionian Sea</text>
+          {/* Etna, to the west — the reason the towns sit where they do */}
+          <path d="M6 96 L44 30 L82 96 Z" fill="none" stroke="currentColor" stroke-width="1" opacity="0.35"/>
+          <text x="44" y="112" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.6"
+                style="font-family:var(--sans)">Etna</text>
+          {/* the road down the coast */}
+          <path d="M96 76 L181 334 L211 491 L138 519" fill="none" stroke="currentColor"
+                stroke-width="1" stroke-dasharray="3 4" opacity="0.4"/>
+          {/* scale bar: 50px = 1 km */}
+          <g opacity="0.55">
+            <line x1="20" y1="556" x2="120" y2="556" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="20" y1="551" x2="20" y2="561" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="120" y1="551" x2="120" y2="561" stroke="currentColor" stroke-width="1.5"/>
+            <text x="70" y="574" text-anchor="middle" font-size="11" fill="currentColor"
+                  style="font-family:var(--sans)">2 km</text>
+          </g>
+        </g>
+        {[
+          { x: 96,  y: 76,  n: "Piedimonte Etneo", s: "the Mazza", c: "var(--ink)" },
+          { x: 181, y: 334, n: "Mascali",          s: "Maria Nicotra born 1875", c: "var(--ink)" },
+          { x: 211, y: 491, n: "Riposto",          s: "the Nicotra households", c: "var(--ink)" },
+          { x: 138, y: 519, n: "Giarre",           s: "«nato a Giarre» — and not there", c: "var(--ink)" },
+        ].map((p) => (
+          <g>
+            <circle cx={p.x} cy={p.y} r="5.5" fill={p.c}/>
+            <text x={p.x + 12} y={p.y - 1} font-size="13" fill="var(--ink)"
+                  style="font-family:var(--serif)">{p.n}</text>
+            <text x={p.x + 12} y={p.y + 14} font-size="11" fill="var(--ink-3)"
+                  style="font-family:var(--sans)">{p.s}</text>
+          </g>
+        ))}
+      </svg>
+      <figcaption class="cap" style="margin-top:10px;text-align:center">Ten kilometres, four comuni, four
+      separate sets of registers. <strong>Giarre and Riposto are fifteen hundred metres apart</strong> and
+      have registered separately since 1821 — which is the whole difficulty.</figcaption>
+    </figure>
   </section>
 
   <section class="blk">

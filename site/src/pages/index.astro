@@ -136,7 +136,7 @@ const spineRows = spineData.spine.map((g) => {
   ]} />
   <section class="feat">
     <h2 style="margin-top:6px">Where this family can actually be put</h2>
-    <p class="dek" style="margin-top:10px">Two Calabrian towns, one Sicilian, and a Brisbane parish — four quarters that met in Queensland. <strong>Every dot is a place this archive can put a named person in, and its size is how many stand there.</strong> The biggest are labelled; the colours are this archive's own regions. The coast and the borders under them are real — Natural Earth, clipped to this frame — so a dot can be read as somewhere rather than as a position in an empty box.</p>
+    <p class="dek" style="margin-top:10px">Calabrian towns on one side of the strait, <strong>four Sicilian comuni within ten kilometres</strong> on the other, and a Brisbane parish where the quarters met. <strong>Every dot is a place this archive can put a named person in, and its size is how many stand there.</strong> The biggest are labelled; the colours are this archive's own regions. The coast and the borders under them are real — Natural Earth, clipped to this frame — so a dot can be read as somewhere rather than as a position in an empty box.</p>
   <PlaceSpark places={atlas.places} href={u("/atlas/")}
               label={`${atlas.places.length} places, two Calabrian towns, one Sicilian, and a Brisbane parish`} />
   </section>
@@ -165,6 +165,32 @@ const spineRows = spineData.spine.map((g) => {
         <div class="alt">Catania, Sicily · {p("Piedimonte").n} events · from 1879</div>
         <p class="txt">Mazza, Nicotra. Literally <em>the foot of the mountain</em>: a town on the
         north-east flank of Etna, and the origin of the surname this archive is named for.</p>
+      </a>
+      <a class="cardlink" href={u("/nicotra/")}>
+        <div class="nm">The Nicotra</div>
+        <div class="alt">the maternal Sicilian line · four comuni</div>
+        <p class="txt">Three days ago this line was <strong>two names on a Queensland death
+        certificate</strong>. It now reaches generation six on both sides — and the man it is named
+        for is still missing.</p>
+      </a>
+      <a class="cardlink" href={u("/mascali/")}>
+        <div class="nm">Mascali</div>
+        <div class="alt">Catania, Sicily · opened 21 Sep 2026 · from 1820</div>
+        <p class="txt">Where <strong>Maria Nicotra was born on 8 December 1875</strong>, at half past
+        nine in the evening — found after fourteen years had been read in the wrong town. Etna
+        swallowed the place whole in 1928.</p>
+      </a>
+      <a class="cardlink" href={u("/giarre/")}>
+        <div class="nm">Giarre</div>
+        <div class="alt">Catania, Sicily · opened 21 Sep 2026 · 808 volumes</div>
+        <p class="txt">The town a document names and the registers contradict. <strong>Eleven birth
+        years read end to end</strong>, and the only Nicotra in them is a <em>Dottor Don</em>.</p>
+      </a>
+      <a class="cardlink" href={u("/riposto/")}>
+        <div class="nm">Riposto</div>
+        <div class="alt">Catania, Sicily · opened 21 Sep 2026 · separate since 1821</div>
+        <p class="txt">The lower town, fifteen hundred metres from Giarre and registering separately
+        for seventy years. <strong>Three ordinary Nicotra households</strong> — and the search stands here.</p>
       </a>
       <a class="cardlink" href={u("/brisbane/")}>
         <div class="nm">Brisbane</div>

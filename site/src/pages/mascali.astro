@@ -1,0 +1,149 @@
+---
+/* MASCALI — the comune where Maria Nicotra was born.
+ *
+ * The original three towns each have a page here. The three that entered the
+ * archive in September 2026 had none, and a reader who met «Mascali» on a
+ * person page had nowhere to go and read what it was. This is the first of
+ * them.
+ *
+ * Everything countable on this page is counted from the data rather than
+ * asserted in prose, because the holdings changed three times in two days and
+ * a hand-written number would already be wrong.
+ */
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import holdings from "../data/holdings.json";
+import coverage from "../data/coverage.json";
+import additions from "../data/additions.json";
+
+const HERE = "Mascali";
+const rows = holdings.rows.filter((r) => r.comune.startsWith(HERE));
+const cov = coverage.rows.find((r) => r.comune === HERE) || {};
+const docs = additions.filter((a) => (a.place || "").startsWith(HERE));
+const vols = rows.reduce((n, r) => n + r.volumes, 0);
+const civil = rows.filter((r) => r.fondo !== "deputazione del Regno" && !/Riveli/i.test(r.type));
+const riveli = rows.filter((r) => /Riveli/i.test(r.type));
+const rivFrom = Math.min(...riveli.map((r) => r.from).filter(Boolean));
+const yrs = civil.map((r) => [r.from, r.to]).flat().filter(Boolean);
+---
+<Base title="Mascali" eyebrow="Catania, Sicily"
+      dek="The town Etna swallowed whole in 1928 — and, ninety years before that, the comune where Maria Nicotra was born on a December night in 1875.">
+
+  <section class="blk">
+    <div class="lab">21 September 2026 · a comune this archive had never opened</div>
+    <h2 style="margin-top:.4rem">Fourteen years were read in the wrong town</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><P n="Maria Nicotra" /> is the woman at generation four — <P n="Salvatore Mazza" />'s wife,
+      buried at Nudgee, and the mother of the man who brought the name to Queensland. The family tree
+      says she was born at <a href={u("/piedimonte-etneo/")}>Piedimonte Etneo</a>. This archive read
+      <strong>fourteen consecutive Piedimonte birth indexes, 1870 to 1883</strong>, looking for her,
+      and the Nicotra are in them the whole time and never produce her.</p>
+      <p>The explanation was six words in an act nobody had opened. Her parents' marriage —
+      Piedimonte, <em>Matrimoni</em> 1872 atto 20 — puts <strong>Giovanni Nicotra</strong>
+      <em>«domiciliato e residente a MASCALI»</em> and <strong>Venera Cassaniti</strong>
+      <em>«qui domiciliata»</em>. A wife went to her husband's comune. <strong>The children were
+      registered here.</strong></p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Mascali, Nati 1875, atto 144</div>
+    <h2 style="margin-top:.4rem">Born at half past nine in the evening</h2>
+    <div class="rec" style="margin-top:12px">
+      <div class="k">Born</div><div class="v">8 December 1875, 9.30 p.m.</div><div class="w">contrada Sopra Pietrafitta</div>
+      <div class="k">Registered</div><div class="v">10 December 1875, 8.15 a.m.</div><div class="w">the Casa comunale</div>
+      <div class="k">Declared by</div><div class="v">Giovanni Nicotra, 28, <em>lavorante</em></div><div class="w">her father, in person</div>
+      <div class="k">Mother</div><div class="v">Venera Cassaniti</div><div class="w"><em>«sua moglie, ambedue residenti in questo Comune»</em></div>
+      <div class="k">Witnesses</div><div class="v">Gaetano Cardillo, 30 · Salvatore Leo, 30</div><div class="w">both <em>lavoranti</em></div>
+    </div>
+    <p class="note" style="margin-top:16px">She died at Brisbane in 1963 <strong>aged eighty-eight</strong>,
+    which this date fits exactly. The tree's «Piedimonte Etneo» is her <strong>mother's</strong> town, not
+    hers — and the correction is on <a href={u("/corrections/")}>her own page and the corrections list</a>,
+    beside what the tree says, because this archive does not overwrite what it was given.</p>
+  </section>
+
+  <section class="blk">
+    <h2>Nine years of births read, and only one Nicotra household</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Having found her, the obvious question was whether her father's household was here too —
+      because if it was, his own birth should be. Every surviving birth <em>Tavola</em> from
+      <strong>1839 to 1848</strong> was read at the N section, every entry, each one checked into the
+      next letter before anything was written down. <strong>1844 does not exist in this series at
+      all</strong>, and <strong>1842 is torn</strong>, its M-to-P run on the lost side.</p>
+      <p>The answer is that <strong>Rosario Nicotra's household was not at Mascali in the
+      1840s</strong>. The only Nicotra here in the whole decade is <strong>Alfio Nicotra and Carmela
+      Sudieri</strong>, who appear in 1840 and again in 1847. Giovanni's own certificate says he was
+      born at <a href={u("/giarre/")}>Giarre</a>, and the search moved there.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>What Mascali holds</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">{vols} volumes, listed whole and verified against the
+    result facets — not a sample sitting at the ceiling.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Fondo</th><th>Record type</th><th class="m">Years</th><th class="m">Volumes</th><th class="m">Openable</th></tr></thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <td class="small">{r.fondo}</td>
+              <td><strong>{r.type}</strong></td>
+              <td class="m small">{r.from ? `${r.from}–${r.to}` : "—"}</td>
+              <td class="m">{r.volumes}</td>
+              <td class="m small">{r.bought || "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>Two things in that table are worth stopping
+    at.</strong> The civil registration runs <strong>1820 to 1893</strong> and <strong>there is no
+    1844</strong> — a hole in every series at once, not a gap in one. And the volumes held at
+    <strong>Palermo</strong> are not civil registration: they are <strong><em>riveli</em></strong>,
+    household returns made to the Sicilian parliament, and the earliest is <strong>{rivFrom}</strong>.
+    That is a century before Piedimonte's earliest and the oldest source of any kind in this archive.
+    None of it has been opened.</p>
+  </section>
+
+  {docs.length ? (
+  <section class="blk">
+    <h2>People this archive places at Mascali</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Added from a register read here, and absent from the
+    family's own export.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Who</th><th class="m">Gen</th><th>Trade</th><th>Named in</th></tr></thead>
+        <tbody>
+          {docs.map((d) => (
+            <tr>
+              <td><strong>{d.name}</strong></td>
+              <td class="m">{d.gen}</td>
+              <td class="small">{d.trade}</td>
+              <td class="small">{d.source}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>) : null}
+
+  <section class="blk" style="border-bottom:0">
+    <h2>What is left here</h2>
+    <div class="prose" style="margin-top:1rem">
+      <ul style="font-family:var(--sans);font-size:14px;line-height:1.75;color:var(--ink-2);padding-left:20px">
+        <li><strong>The other six children</strong> of Giovanni Nicotra and Venera Cassaniti. The
+        family's export names seven — Maria, Rosa, Venera, Nina, Angela, Rosario and Antonina — and two
+        are placed: <strong>Venera, 12 December 1873</strong>, and Maria. 1876 and 1877 hold Nicotra
+        entries whose indexes carry <strong>no <em>paternità</em> column</strong>, so they are read and
+        <strong>unresolved</strong>, which is not the same as absent.</li>
+        <li><strong>Marriages and deaths.</strong> Neither series has been opened here at all.</li>
+        <li><strong>The <em>riveli</em> of {rivFrom}.</strong> Forty-six volumes at Palermo that this
+        archive knows how to read — it has used the Piedimonte ones — and has not touched.</li>
+      </ul>
+      <p style="margin-top:14px"><a href={u("/nicotra/")}>The Nicotra line →</a> · <a href={u("/searched/")}>What has been read →</a> ·
+      <a href={u("/giarre/")}>Giarre →</a> · <a href={u("/riposto/")}>Riposto →</a></p>
+    </div>
+  </section>
+</Base>

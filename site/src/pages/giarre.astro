@@ -1,0 +1,140 @@
+---
+/* GIARRE — the town a document names and the registers do not confirm.
+ *
+ * This page exists to hold a NEGATIVE, which is the harder kind of page to
+ * write and the more useful kind to have. Giovanni Nicotra's own marriage
+ * certificate says he was born here. Eleven years of Giarre births say he was
+ * not. Both statements are read, and the page's job is to leave them standing
+ * beside each other rather than quietly preferring one.
+ */
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import holdings from "../data/holdings.json";
+import coverage from "../data/coverage.json";
+import nic from "../data/nicotra.json";
+
+const HERE = "Giarre";
+const rows = holdings.rows.filter((r) => r.comune.startsWith(HERE));
+const cov = coverage.rows.find((r) => r.comune === HERE) || {};
+const vols = rows.reduce((n, r) => n + r.volumes, 0);
+const nati = rows.find((r) => r.type === "Nati") || {};
+const morti = rows.find((r) => r.type === "Morti") || {};
+const matr = rows.find((r) => r.type === "Matrimoni") || {};
+const proc = rows.find((r) => /processetti/.test(r.type)) || {};
+const YEARS = nic.byComune["Giarre"] || [];
+const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
+
+---
+<Base title="Giarre" eyebrow="Catania, Sicily"
+      dek="A town named by a document and contradicted by its own registers. The largest comune in this archive, and the one that holds the clearest negative in it.">
+
+  <section class="blk">
+    <div class="lab">21 September 2026 · «nato a Giarre»</div>
+    <h2 style="margin-top:.4rem">Six words on a printed form</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Piedimonte's <em>Matrimoni allegati</em> of 1872, fascicolo 20, holds the publication
+      certificate for <strong>Giovanni Nicotra</strong> and <strong>Venera Cassaniti</strong>. The
+      1872 form prints <em>«nato a ____»</em> separately from <em>«residente a ____»</em>, and the
+      clerk filled both:</p>
+      <blockquote style="border-left:3px solid var(--rule);padding-left:1rem;margin:1rem 0;font-family:var(--serif);color:var(--ink-2)">
+        TRA <strong>GIOVANNI NICOTRA</strong> — nato a <strong>GIARRE</strong> — residente a
+        <strong>MASCALI</strong> — di professione bracciante — di età anni trentuno
+      </blockquote>
+      <p>That sentence is why this comune is in the archive at all. It is also, so far, the only
+      evidence that anybody in this family was ever here.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Eleven years read end to end, and he is in none of them</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Giarre's annual <em>Tavola</em> is alphabetical and
+    names both parents, so a Nicotra of a Rosario would identify itself without an act being opened.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="m">Year</th><th>The N section</th><th>What is around it</th></tr></thead>
+        <tbody>
+          {YEARS.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class={["none","empty","\u2014"].includes(r.entries) ? "small" : ""}>
+                {["none","empty","\u2014"].includes(r.entries) ? r.entries : <strong>{r.entries}</strong>}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>The only Nicotra household at Giarre in eleven
+    years is a titled one.</strong> <em>Dottor Don</em> Alfio Nicotra and <em>Donna</em> Antonina
+    Consoli name a Salvatore in November 1846 and a Salvatore again in January 1848 — which is what a
+    family does when the first child dies. <strong>Giovanni's father was a bracciante.</strong>
+    Different household, different condition.</p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">a caution this comune taught</div>
+    <h2 style="margin-top:.4rem">The alphabet starts again after Z</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The 1848 index says so itself, in the clerk's own hand, in the <em>Osservazioni</em> column
+      beside the Nicotra entry: <em>«in fine dell'alfabeto riportata altra volta la lettera M»</em> —
+      at the end of the alphabet the letter M is entered a second time.</p>
+      <p><strong>Giarre's Tavole append extra letter-sections after Z</strong> for acts registered
+      late. Nine of the eleven years do it; 1846 and 1847 do not, and end at Z with a blank leaf. So a
+      volume with no appendix <strong>looks exactly like a volume whose appendix you have not
+      reached</strong>, and «the alphabet finished» is not the same as «the index finished». Every one
+      of the eleven years above has had its tail read as well as its main run.
+      <a href={u("/method/")}>The instruments →</a></p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>What Giarre holds</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">{vols} volumes — the largest holding of any comune in
+    this archive, and the listing that proved <code>s_size=500</code> is a page and not a ceiling.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Fondo</th><th>Record type</th><th class="m">Years</th><th class="m">Volumes</th><th class="m">Openable</th></tr></thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <td class="small">{r.fondo}</td>
+              <td><strong>{r.type}</strong></td>
+              <td class="m small">{r.from ? `${r.from}–${r.to}` : "—"}</td>
+              <td class="m">{r.volumes}</td>
+              <td class="m small">{r.bought || "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>Giarre holds two copies of every year.</strong>
+    Each register appears twice under different <em>segnature</em> — {nati.volumes} Nati volumes for
+    roughly half that many years, and the same doubling in {morti.volumes} Morti and {matr.volumes}
+    Matrimoni. <strong>A leaf lost in one copy may survive in the other</strong>, which is a resource
+    this archive has nowhere else, and has not yet needed to use. Unlike
+    <a href={u("/mascali/")}>Mascali</a> it does have 1844.</p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>Three readings, and none of them proved</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Giovanni Nicotra's certificate says Giarre. Giarre's registers, read for eleven consecutive
+      years in both the main run and the appendix, do not hold him. <strong>Something has to give, and
+      this archive does not yet know what.</strong></p>
+      <ul style="font-family:var(--sans);font-size:14px;line-height:1.75;color:var(--ink-2);padding-left:20px">
+        <li><strong>His ages are wrong again.</strong> He is <em>trentuno</em> in October 1872 and
+        <em>ventotto</em> in December 1875 — already six years apart in three. The windows either side
+        of the read decade are 1833–37 and 1849–53, and neither has been touched.</li>
+        <li><strong>He was registered at <a href={u("/riposto/")}>Riposto</a></strong>, the lower town,
+        which has registered separately since 1821. A man from there could say <em>Giarre</em> and be
+        entered at Riposto. <em>This is a hypothesis from general history, not from a document</em> —
+        and Riposto does hold the ordinary Nicotra households that Giarre does not.</li>
+        <li><strong>«Giarre» is loose for a frazione</strong> — Macchia, Trepunti, Altarello, San
+        Giovanni Montebello.</li>
+      </ul>
+      <p style="margin-top:14px">Nothing above is a finding. It is what is left when a document and a
+      register disagree and both have been read. <a href={u("/nicotra/")}>The Nicotra line →</a> · <a href={u("/open-questions/")}>The open questions →</a></p>
+    </div>
+  </section>
+</Base>

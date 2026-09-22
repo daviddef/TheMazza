@@ -1,0 +1,126 @@
+---
+/* THE NICOTRA — the maternal Sicilian line, as arena.astro is for the Arena.
+ *
+ * Three days ago this line was two names on a Queensland death registration
+ * and nothing else: «John Nicotra» and «Venera Cassaneti», parents of Maria,
+ * with no dates, no places and no act. It now runs to generation six on both
+ * sides and crosses four comuni — and the man it is named for is still lost.
+ *
+ * The page is built to hold BOTH halves of that: what four acts established,
+ * and what twenty-seven read years have failed to.
+ */
+import Base from "../layouts/Base.astro";
+import P from "../components/P.astro";
+import { u } from "../lib/url.js";
+import additions from "../data/additions.json";
+import nic from "../data/nicotra.json";
+
+const adds = additions.filter((a) => /Nicotra|Cassaniti|Murabito|Currenti/.test(a.name));
+
+
+const LINE = nic.line;
+const total = nic.read;
+---
+<Base title="The Nicotra" eyebrow="Mascali · Giarre · Riposto · Piedimonte Etneo"
+      dek="Three days ago this line was two names on a Queensland death certificate. It now reaches generation six on both sides, crosses four comuni — and the man it is named for is still missing."
+
+>
+  <section class="blk">
+    <h2>Where it started</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Everything this archive knew about the Nicotra came from one Australian document: the
+      <strong>1963 Queensland death registration</strong> of <P n="Maria Nicotra" />, which names her
+      parents as <strong>«John Nicotra»</strong> and <strong>«Venera Cassaneti»</strong>. No dates, no
+      places, no act — and one of those surnames <strong>does not exist in Italy</strong>. «Cassaneti»
+      appears exactly once in the whole Queensland index, on that certificate, taken down from an
+      informant at a Brisbane registry counter. The Sicilian form is
+      <strong>CASSANITI</strong>, and a register searched for the other spelling returns nothing
+      forever.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The line, as four acts give it</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Read in the original, September 2026. Not one of these
+    people is in the family's export with a date.</p>
+    <div class="prose">
+      {LINE.map((r) => (
+        <div style="margin-top:1.3rem;padding-left:1rem;border-left:3px solid var(--rule)">
+          <div class="lab">generation {r.gen}</div>
+          <h3 style="margin:.3rem 0 .4rem">{r.who}</h3>
+          <p style="margin:0">{r.what}</p>
+          <p class="small" style="margin-top:.4rem;color:var(--ink-3)">{r.src}</p>
+        </div>
+      ))}
+    </div>
+    <p class="note" style="margin-top:20px"><strong>The join is not circular, which matters because
+    «Giovanni Nicotra» is a common name.</strong> The family's own export — parsed long before any of
+    this — gives Giovanni and Venera <strong>seven children, and one of them is a ROSARIO</strong>. A
+    first son takes the paternal grandfather's name, and the paternal grandfather in the 1872 act is
+    Rosario. This archive held the grandson's name for months and could not have derived the
+    grandfather's from it.</p>
+  </section>
+
+  <section class="blk">
+    <h2>What {total} read years have not found</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Rosario Nicotra and Venera Murabito are named in one
+    act and appear in no register.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Comune</th><th>Series</th><th class="m">Years read</th><th>What it said</th></tr></thead>
+        <tbody>
+          {Object.entries(nic.byComune).map(([c, rows]) => (
+            <tr>
+              <td><strong>{c}</strong></td>
+              <td class="small">Nati {rows[0].year}–{rows[rows.length - 1].year}</td>
+              <td class="m">{rows.filter((r) => r.entries !== "\u2014").length}</td>
+              <td class="small">{rows.filter((r) => !["\u2014", "none", "empty"].includes(r.entries)).length
+                ? `${rows.filter((r) => !["\u2014", "none", "empty"].includes(r.entries)).length} year(s) hold an N entry; none of the fathers is a Rosario`
+                : "not one N entry in any year read"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>The instrument is not the problem.</strong> Every
+    one of these Tavole is alphabetical and names both parents, so the household would announce itself.
+    What is being tested is <strong>whether the man's own statements about himself are true</strong> —
+    he is <em>trentuno</em> in 1872 and <em>ventotto</em> in 1875, six years apart in three — and
+    whether «nato a Giarre» means the comune or the district.</p>
+  </section>
+
+  {adds.length ? (
+  <section class="blk">
+    <h2>The people these acts added</h2>
+    <div class="scroll" style="margin-top:12px">
+      <table>
+        <thead><tr><th>Who</th><th class="m">Gen</th><th class="m">Place</th><th>Trade</th><th class="m">In the tree</th></tr></thead>
+        <tbody>
+          {adds.map((a) => (
+            <tr>
+              <td><strong>{a.name}</strong></td>
+              <td class="m">{a.gen}</td>
+              <td class="m small">{a.place}</td>
+              <td class="small">{a.trade}</td>
+              <td class="m small">{a.inTree && a.inTree !== "—" ? "yes" : <em>no</em>}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>) : null}
+
+  <section class="blk" style="border-bottom:0">
+    <h2>What would carry it further</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><strong>One row in a marriage <em>Tavola</em>.</strong> The restauration marriage index of
+      any of these comuni names <strong>both spouses and all four of their parents</strong>, and marks
+      the dead with <em>«fu»</em>. <strong>Rosario Nicotra × Venera Murabito's own marriage — about
+      1840 — would hand over generation seven in a single line</strong>, and would say which town each
+      of them came from, which is the question the whole search now turns on.</p>
+      <p><a href={u("/riposto/")}>Riposto, where the search stands →</a> ·
+      <a href={u("/giarre/")}>Giarre, and its negative →</a> ·
+      <a href={u("/mascali/")}>Mascali, and her birth act →</a></p>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,136 @@
+---
+/* RIPOSTO — the lower town, and where the search stands.
+ *
+ * This is a page about work in progress, which the archive usually keeps on
+ * the work list rather than on a town page. It is here because Riposto is the
+ * only comune left that fits Giovanni Nicotra, and a reader who follows the
+ * Nicotra line arrives at a question rather than an answer. Saying so is the
+ * honest end of the thread.
+ */
+import Base from "../layouts/Base.astro";
+import { u } from "../lib/url.js";
+import holdings from "../data/holdings.json";
+import coverage from "../data/coverage.json";
+import nic from "../data/nicotra.json";
+
+const HERE = "Riposto";
+const rows = holdings.rows.filter((r) => r.comune.startsWith(HERE));
+const cov = coverage.rows.find((r) => r.comune === HERE) || {};
+const vols = rows.reduce((n, r) => n + r.volumes, 0);
+const bought = rows.reduce((n, r) => n + r.bought, 0);
+const YEARS = nic.byComune["Riposto"] || [];
+
+const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
+---
+<Base title="Riposto" eyebrow="Catania, Sicily"
+      dek="The lower town, separate from Giarre since 1821 — and the only comune left that fits the man this archive cannot find.">
+
+  <section class="blk">
+    <div class="lab">21–22 September 2026 · where the search stands</div>
+    <h2 style="margin-top:.4rem">Why this town, and not another</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><strong>Giovanni Nicotra</strong> is the last unfound person on the Sicilian spine. His own
+      marriage certificate says he was <em>nato a</em> <a href={u("/giarre/")}>Giarre</a>;
+      <strong>eleven Giarre birth years, read end to end in both the main run and the appendix, do not
+      hold him</strong>. <a href={u("/mascali/")}>Mascali</a>, where he was living in 1872, does not
+      hold him either — nine years read there.</p>
+      <p>Riposto is the lower town, the port below Giarre, and <strong>it has registered separately
+      since 1821</strong> — through the whole window in which he was born. A man of the lower town
+      could say <em>Giarre</em> and be entered here. <strong>That is a reading from general history
+      and not from any document</strong>, and it is written down as such.</p>
+      <p>What makes it more than a guess is what the registers hold. <strong>Giarre's only Nicotra
+      across eleven years is a <em>Dottor Don</em> with a <em>Donna</em> wife.</strong> Mascali's
+      across nine is an Alfio. <strong>Riposto has at least three ordinary Nicotra households in
+      seven years</strong> — the sort of family a bracciante belongs to.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The Nicotra of Riposto</h2>
+    <div class="scroll" style="margin-top:12px">
+      <table>
+        <thead><tr><th>Father</th><th>Mother</th><th class="m">Seen</th><th>The children</th></tr></thead>
+        <tbody>
+          {HOUSEHOLDS.map((h) => (
+            <tr><td><strong>{h.father}</strong></td><td>{h.mother}</td>
+                <td class="m small">{h.seen}</td><td class="small">{h.note}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>None of them is Rosario.</strong> Giovanni
+    Nicotra's father is named in the 1872 act as <strong>Rosario</strong>, a bracciante of Mascali,
+    with <strong>Venera Murabito</strong> — and no household of that name has been found in any of the
+    three towns. Four Riposto years remain unread.</p>
+  </section>
+
+  <section class="blk">
+    <h2>Every year read, and what it said</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Riposto's <em>Tavola</em> is alphabetical and names
+    both parents. Each N section was checked into the next letter before anything was written down.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
+        <tbody>
+          {YEARS.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class="m small">{r.entries === "—" ? <em>unread</em> : r.entries}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>1841 is not a finished negative.</strong> Its
+    alphabet runs M straight into P, but <strong>the last leaf of the volume is torn and its right page
+    lost</strong> — and Giarre taught this archive that an appendix can sit past the end of the
+    alphabet. There is a second 1841 birth volume (<em>17517, suppl. 2</em>) which may carry what the
+    first has lost. <strong>The four unread years are blocked by nothing but a rate limiter</strong> —
+    the images are never throttled, only the page that carries a container id.</p>
+  </section>
+
+  <section class="blk">
+    <h2>What Riposto holds</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">{vols} volumes, facet total {vols} — complete in one
+    page load, comfortably under the ceiling. {bought} openable now.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Fondo</th><th>Record type</th><th class="m">Years</th><th class="m">Volumes</th><th class="m">Openable</th></tr></thead>
+        <tbody>
+          {rows.map((r) => (
+            <tr>
+              <td class="small">{r.fondo}</td>
+              <td><strong>{r.type}</strong></td>
+              <td class="m small">{r.from ? `${r.from}–${r.to}` : "—"}</td>
+              <td class="m">{r.volumes}</td>
+              <td class="m small">{r.bought || "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px">The restauration run stops at <strong>1860</strong> and the
+    Italian one begins at <strong>1866</strong> — <strong>a five-year hole</strong> in the middle,
+    1861 to 1865, which is the unification gap this archive has met at other comuni. It matters here
+    only if the answer turns out to lie in it.</p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <h2>What would end this</h2>
+    <div class="prose" style="margin-top:1rem">
+      <ul style="font-family:var(--sans);font-size:14px;line-height:1.75;color:var(--ink-2);padding-left:20px">
+        <li><strong>The four unread years</strong> — 1839, 1843, 1844, 1845 — and the torn tail of
+        1841, through its supplement volume.</li>
+        <li><strong>Riposto's marriages, 1833–1845.</strong> The better instrument by far: the
+        restauration marriage <em>Tavola</em> names <strong>both spouses and all four of their
+        parents</strong>, so <strong>Rosario Nicotra × Venera Murabito's own marriage would hand over
+        generation seven in a single row</strong> — and would say which comune each of them came from.</li>
+        <li><strong>The deaths.</strong> Rosario and Venera were alive in October 1872 and no death
+        has been sought for either, in any of the four towns.</li>
+      </ul>
+      <p style="margin-top:14px"><a href={u("/nicotra/")}>The Nicotra line →</a> · <a href={u("/worklist/")}>The work list →</a> ·
+      <a href={u("/giarre/")}>Giarre →</a> · <a href={u("/mascali/")}>Mascali →</a></p>
+    </div>
+  </section>
+</Base>
