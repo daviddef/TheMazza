@@ -10,7 +10,7 @@ const s = data.stats;
 ---
 <Base title="The Atlas"
       eyebrow={`${s.places} places on the map${s.unplaced ? ` · ${s.unplaced} without a coordinate` : ""}`}
-      dek="Every place this archive can put a person in: two Calabrian towns, one Sicilian one, and the Brisbane parish where all four quarters finally met.">
+      dek="Every place this archive can put a person in — four Sicilian comuni within eight kilometres of each other, the Calabrian towns on the other side of the strait, and the Brisbane parish where all four quarters finally met.">
 
   <Atlas
     recordAtlas="https://daviddef.github.io/TheMap/place"
@@ -38,20 +38,24 @@ const s = data.stats;
       ["shelf-open", "The registers are open and listed", "#3C8C4A"],
       /* The ground, blue, as everywhere in the estate. */
       ["ground", "Somebody is buried here", "#2E86C1"],
+      /* The documented — people this archive added from a register, who are not
+         in the family's export and so appear on no chart built from it. */
+      ["documented", "People the registers added", "#7D5BA6"],
     ]}
     schemes={[
       ["people", "Our people", `${s.withPeople} places · where a named person can be put`],
       ["shelf", "The shelf", "7 comuni · how far we have got with the registers"],
       ["ground", "The ground", "6 places · where somebody is actually buried"],
+      ["documented", "The documented", "6 comuni · where the 89 people this archive ADDED from a register belong — 79 of them in no family tree"],
     ]}
     bounds={[[36.5, 12.5], [41.0, 17.5]]}
     homeLabel="Back to the south"
     placeholder="Briatico · Scilla · Piedimonte Etneo · Nudgee"
     hint={`${s.withPeople} of the ${s.places} places carry at least one person.`}
   >
-    <p class="cap" style="margin-top:6px"><strong>Three questions of the same ground.</strong>
+    <p class="cap" style="margin-top:6px"><strong>Four questions of the same ground.</strong>
     Switch any layer on or off; the panel never switches, because a place that is a comune with
-    registers, a home and a grave says all three things at once. <strong>Twelve places answer more
+    registers, a home, a grave and people the registers added says all four at once. <strong>Several places answer more
     than one</strong>, and with every layer on those wear the rarer colour — the burial is the
     thing worth seeing and the shelf is the ground it sits on.</p>
     <p class="cap" style="margin-top:6px">A marker is a place this archive can put a person in.

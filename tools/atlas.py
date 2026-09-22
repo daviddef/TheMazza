@@ -36,9 +36,15 @@ J = lambda n: json.load(open(os.path.join(D, n), encoding="utf-8"))
 OUT = os.path.join(HERE, "..", "site", "public", "atlas-data.json")
 
 def cat(p):
+    # The bare comune names matter now that places can arrive from
+    # documented-additions, where the `place` column holds «Zambrone» and not
+    # «Zambrone, Vibo Valentia». Without them Zambrone fell through to «other»
+    # and drew grey in the middle of Calabria.
     s = p.lower()
-    if re.search(r"sicil|catania|piedimonte|messina|palermo", s):      return "sicily"
-    if re.search(r"calabria|briatico|scilla|vibo|reggio", s):          return "calabria"
+    if re.search(r"sicil|catania|piedimonte|messina|palermo|"
+                 r"mascali|giarre|riposto|fiumefreddo|linguaglossa", s):  return "sicily"
+    if re.search(r"calabria|briatico|scilla|vibo|reggio|"
+                 r"zambrone|pizzo|potenzoni|san costantino", s):          return "calabria"
     if re.search(r"queensland|australia|brisbane|nudgee", s):          return "au"
     if re.search(r"new york|america|ellis|united states|argentin", s): return "away"
     return "other"
@@ -109,7 +115,46 @@ def layers():
     for h, n in buried.items():
         cats.setdefault(h, {})["ground"] = "ground"
         ns.setdefault(h, {})["ground"] = n
+
+    # THE DOCUMENTED, work-list row 176. Every other layer here is keyed on the
+    # EXPORT's people, and the archive's best-evidenced people are not in the
+    # export: 114 rows of documented-additions.tsv, every one added from a
+    # register this archive opened. They were invisible on this map, which meant
+    # ZAMBRONE -- a comune with a read register run and a recorded gap in its
+    # deaths -- had no marker at all, because no exported person is placed there.
+    #
+    # They are drawn from the `place` column, which is NOT derived from `source`:
+    # the source names the comune of the RECORD, and the two come apart exactly
+    # where it matters. Rosario Nicotra is named in a PIEDIMONTE act and was a
+    # MASCALI man, and the act says so in the same line. A blank `place` is «not
+    # recorded» and is skipped, never guessed at.
+    docs = {}
+    for r in J("additions.json"):
+        h = head(r.get("place"))
+        if not h or h in BLANK:
+            continue
+        docs[h] = docs.get(h, 0) + 1
+    for h, n in docs.items():
+        cats.setdefault(h, {})["documented"] = "documented"
+        ns.setdefault(h, {})["documented"] = n
     return cats, ns
+
+
+# A place whose ONLY claim on the map is that documented people belong to it has
+# no row in places.json, because that file is built from the export. These are
+# the names to draw anyway, with the label the coverage table already uses so a
+# reader meets one spelling per comune.
+BLANK = {"", "—", "-", "?"}
+
+def doc_only_places():
+    """head -> display name, for comuni that exist only in documented-additions."""
+    out = {}
+    for r in J("additions.json"):
+        p = (r.get("place") or "").strip()
+        if p in BLANK:
+            continue
+        out.setdefault(head(p), p)
+    return out
 
 
 def main():
@@ -147,6 +192,25 @@ def main():
             if slugs:
                 n2["people"] = len(slugs)
             rows[-1]["ns"] = n2
+
+    # Comuni that exist ONLY because documented people belong to them. Without
+    # this, Zambrone, Mascali, Giarre and Riposto have no marker: places.json is
+    # built from the export and the export has nobody there. Row 176.
+    drawn = {head(r["_lookup"]) for r in rows}
+    adds = J("additions.json")
+    for h, name in sorted(doc_only_places().items()):
+        if h in drawn:
+            continue
+        who = [r for r in adds if head(r.get("place") or "") == h]
+        rows.append({
+            "name": name.split(",")[0].strip() or name,
+            "_lookup": name, "cat": cat(name),
+            "n": 0, "when": "",
+            "what": f"{len(who)} documented, none in the family tree",
+            "people": [], "more": None,
+            "cats": dict(extra.get(h) or {}),
+            "ns": dict(extraN.get(h) or {}),
+        })
     atlasdata.build(rows, OUT, gaz=gazetteer(), countries=["Italia","Italy","Australia","United States","Argentina","United Kingdom","Indonesia","Fiji","South Africa","Suid-Afrika","Österreich","Austria"])
 
 if __name__ == "__main__":

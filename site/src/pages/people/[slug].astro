@@ -90,6 +90,24 @@ const dek = p.ancGen === 0 || p.onSpine
         <p class="small" style="margin-top:10px">Nothing but a name and a place in the family. This
         person is known only because somebody else's record names them.</p>
       )}
+      {/* A reader who skims stops at the block above, and the block above is the
+          TREE's account. Where a register contradicts it the correction is
+          further down the page, and Maria Nicotra is the case that showed this
+          matters: her line here still reads «Piedimonte Etneo, 1875» while the
+          act found in September gives Mascali, 8 December 1875, to the hour.
+          The fix is a pointer, not a rewrite — the archive does not overwrite
+          what it was given. It cannot say WHICH line is disputed, because
+          corrections.tsv carries prose and not a field name, and guessing which
+          fact a paragraph is about is exactly the kind of inference this archive
+          refuses. So it says that one of them is, and where to look. */}
+      {p.corrections && p.corrections.length ? (
+        <p class="small" style="margin-top:10px">
+          <strong>A register contradicts what is written above.</strong> The lines in this block are
+          the family tree's account. {p.corrections.length === 1 ? "One reading" : `${p.corrections.length} readings`}
+          {" "}taken from the original acts {p.corrections.length === 1 ? "disagrees" : "disagree"} with
+          it — <a href="#disputed">what the registers say →</a>
+        </p>
+      ) : null}
       {p.datesHidden && (
         <p class="small" style="margin-top:14px"><strong>Dates withheld on purpose.</strong> This
         person would be {stats.ageThreshold} or younger today and the tree records no death for them.
@@ -123,7 +141,7 @@ const dek = p.ancGen === 0 || p.onSpine
         {" "}What is known of them is what the tree asserts, and it is <strong>unverified</strong>.</p>
       )}
       {p.corrections && p.corrections.length ? (
-        <div class="note" style="margin-top:14px">
+        <div class="note" style="margin-top:14px" id="disputed">
           <strong>What a register says about this person, which the tree does not.</strong>
           {p.corrections.map((c) => <p style="margin-top:.5rem">{c}</p>)}
           <p style="margin-top:.5rem" class="small">Where the two disagree, <strong>the chart above

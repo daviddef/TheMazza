@@ -6,5 +6,61 @@
   "conf": "exact",
   "matched": "Soriano Calabro, Vibo Valentia, Calabria, 89831, Italy",
   "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary in Vibo Valentia, postcode 89831. WITHOUT THIS ENTRY the lookup falls back to «Soriano Calabro, Italy» and lands on 42.638, 12.674 -- that is SORIANO NEL CIMINO in Lazio, four hundred kilometres north, a different town with a similar name. A dot in the wrong province is worse than no dot."
+ },
+ "mascali": {
+  "lat": 37.7602846,
+  "lon": 15.1974313,
+  "conf": "exact",
+  "matched": "Mascali, Catania, Sicilia, 95016, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary. UNLIKE the Soriano Calabro entry above, this one does NOT correct a collision: the bare-name query «Mascali, Italy» returns the SAME coordinate, so the automatic answer would have been right. It is here only because the shared gazetteer does not carry the name, and this archive needed it on 21 September 2026, when Maria Nicotra's birth act was found there."
+ },
+ "mascali catania": {
+  "lat": 37.7602846,
+  "lon": 15.1974313,
+  "conf": "exact",
+  "matched": "Mascali, Catania, Sicilia, 95016, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary. UNLIKE the Soriano Calabro entry above, this one does NOT correct a collision: the bare-name query «Mascali, Italy» returns the SAME coordinate, so the automatic answer would have been right. It is here only because the shared gazetteer does not carry the name, and this archive needed it on 21 September 2026, when Maria Nicotra's birth act was found there."
+ },
+ "giarre": {
+  "lat": 37.726857,
+  "lon": 15.187688,
+  "conf": "exact",
+  "matched": "Giarre, Catania, Sicilia, 95014, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary. UNLIKE the Soriano Calabro entry above, this one does NOT correct a collision: the bare-name query «Giarre, Italy» returns the SAME coordinate, so the automatic answer would have been right. It is here only because the shared gazetteer does not carry the name, and this archive needed it on 21 September 2026, off «nato a GIARRE» in Giovanni Nicotra's publication certificate."
+ },
+ "giarre catania": {
+  "lat": 37.726857,
+  "lon": 15.187688,
+  "conf": "exact",
+  "matched": "Giarre, Catania, Sicilia, 95014, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary. UNLIKE the Soriano Calabro entry above, this one does NOT correct a collision: the bare-name query «Giarre, Italy» returns the SAME coordinate, so the automatic answer would have been right. It is here only because the shared gazetteer does not carry the name, and this archive needed it on 21 September 2026, off «nato a GIARRE» in Giovanni Nicotra's publication certificate."
+ },
+ "riposto": {
+  "lat": 37.7318901,
+  "lon": 15.2042214,
+  "conf": "exact",
+  "matched": "Riposto, Catania, Sicilia, 95018, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary. UNLIKE the Soriano Calabro entry above, this one does NOT correct a collision: the bare-name query «Riposto, Italy» returns the SAME coordinate, so the automatic answer would have been right. It is here only because the shared gazetteer does not carry the name, and this archive needed it on 21 September 2026, as the comune that registers separately from Giarre."
+ },
+ "riposto catania": {
+  "lat": 37.7318901,
+  "lon": 15.2042214,
+  "conf": "exact",
+  "matched": "Riposto, Catania, Sicilia, 95018, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary. UNLIKE the Soriano Calabro entry above, this one does NOT correct a collision: the bare-name query «Riposto, Italy» returns the SAME coordinate, so the automatic answer would have been right. It is here only because the shared gazetteer does not carry the name, and this archive needed it on 21 September 2026, as the comune that registers separately from Giarre."
+ },
+ "zambrone": {
+  "lat": 38.6991424,
+  "lon": 15.9900684,
+  "conf": "exact",
+  "matched": "Zambrone, Vibo Valentia, Calabria, 89868, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary. UNLIKE the Soriano Calabro entry above, this one does NOT correct a collision: the bare-name query «Zambrone, Italy» returns the SAME coordinate, so the automatic answer would have been right. It is here only because the shared gazetteer does not carry the name, and this archive needed it on the Ventrice line, whose people are documented additions and so were never on the map."
+ },
+ "zambrone vibo valentia": {
+  "lat": 38.6991424,
+  "lon": 15.9900684,
+  "conf": "exact",
+  "matched": "Zambrone, Vibo Valentia, Calabria, 89868, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary. UNLIKE the Soriano Calabro entry above, this one does NOT correct a collision: the bare-name query «Zambrone, Italy» returns the SAME coordinate, so the automatic answer would have been right. It is here only because the shared gazetteer does not carry the name, and this archive needed it on the Ventrice line, whose people are documented additions and so were never on the map."
  }
 }

@@ -232,6 +232,22 @@ for r in rows:
     if cg is None and (r.get("gen") or "").strip() not in BLANK:
         fails.append(f"{r['name']}: gen «{r['gen']}» is not a number")
 
+# THE `place` COLUMN, added for work-list row 176 so these people can be drawn
+# on the Atlas. It is the comune the PERSON belongs to, not the comune of the act
+# that names them -- Rosario Nicotra is named in a Piedimonte act and was a
+# Mascali man. A free-text place would silently stop matching the gazetteer and
+# the marker would vanish without anything failing, so the spellings are closed.
+PLACES = {"Scilla", "Piedimonte Etneo", "Briatico", "Zambrone", "Pizzo",
+          "Mascali", "Giarre", "Riposto", "Potenzoni", "San Costantino Calabro"}
+for r in rows:
+    p = (r.get("place") or "").strip()
+    if p in BLANK:
+        continue          # «not recorded» is a legitimate value and is skipped
+    if p not in PLACES:
+        fails.append(f"{r['name']}: place «{p}» is not one of the comuni this archive maps "
+                     f"— add it to PLACES here AND to data/gazetteer-local.json, or the "
+                     f"marker will silently not be drawn")
+
 seen_msg = set()
 fails = [f for f in fails if not (f in seen_msg or seen_msg.add(f))]
 
