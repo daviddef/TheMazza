@@ -150,6 +150,12 @@ const fixes = allRows.map((r) => ({
       <div class="k">flagged</div>
       <div class="v">A problem identified and deliberately <em>not</em> resolved, because resolving
       it would need a record nobody has read yet.</div><div class="w">{lev("flagged")}</div>
+      <div class="k">superseded</div>
+      <div class="v">A row that was right, and has since been <strong>replaced by a better one</strong>
+      — usually a reading that predicted what a document would say, once the document turned up and
+      said it. <strong>It is kept rather than deleted, and it is kept in the words it was written
+      in</strong>, because a prediction that held is evidence about the method and a silently
+      corrected page is not. Each one names the row that replaced it.</div><div class="w">{lev("superseded")}</div>
     </div>
     <p class="note" style="margin-top:22px">The full reasoning for each of these sits on the page it
     came from — <a href={u("/scilla/")}>Scilla</a> for the Calabrian registers,

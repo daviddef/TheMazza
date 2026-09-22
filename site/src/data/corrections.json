@@ -1,6 +1,6 @@
 {
- "count": 221,
- "documented": 176,
+ "count": 235,
+ "documented": 185,
  "groups": [
   {
    "kind": "Missing people — TWO NEW GENERATIONS",
@@ -2658,6 +2658,202 @@
      "recordSays": "IT REACHES HIS PARENTS. «ORAZIO ARENA ... FIGLIO DEL FU FILIPPO ARENA E DELLA FU SANTA UNGARO» -- his own death act, 12 July 1830. Both already dead by then; he was born about 1751, so they belong to the 1720s. AND THE CUSTOM IS CONFIRMED AFTER THE FACT: Orazio's first son, born 25 March 1793, is FILIPPO, named for this man. This archive has used the naming custom to rank candidates and never to identify one; this is what it looks like when a record catches up with it.",
      "source": "Scilla, Morti 1830 atto 64",
      "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "The surname arrives, and the shape is now three-pointed",
+   "rows": [
+    {
+     "kind": "The surname arrives, and the shape is now three-pointed",
+     "who": "the Mazza of Piedimonte Etneo",
+     "slug": "—",
+     "treeSays": "Piedimonte Etneo is the Mazza home town",
+     "recordSays": "THREE HOUSEHOLD CENSUSES, THREE DIFFERENT ANSWERS. The 1714 Riveli di anime e di terre index 142 households and hold NO MAZZA AND NO MAZZEO. The 1747-1748 riveli index eighty households and hold TWO MAZZEO -- Onofrio, thirty, with his wife Carmina and son Giuseppe; and Mastro Silvestro, thirty-five, with his wife Maria -- and NO MAZZA. The civil registers from 1820 hold MAZZA and no Mazzeo. THE REST OF THE TOWN IS CONTINUOUS ACROSS ALL THREE -- Pagano, Currenti, Grasso, Musumeci, Vasta, Puglisi, Torrisi, Moschella, di Mauro, dell'Aquila -- which is what makes the absence worth recording. IT IS NOT A DESCENT AND MUST NOT BE READ AS ONE: a rivelo is a tax return, a household can be missing from one, and MAZZEO IS NOT MAZZA until a record says so.",
+     "source": "Piedimonte Etneo, Riveli 1714 and 1747-1748, both indexes read entire",
+     "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "The negative holds against a set nearly three times larger",
+   "rows": [
+    {
+     "kind": "The negative holds against a set nearly three times larger",
+     "who": "Filippo and Giuseppe Arena, Rocco's brothers",
+     "slug": "—",
+     "treeSays": "Absent from twenty-six indexed Arena deaths at Scilla, 1910-1943",
+     "recordSays": "ABSENT FROM SIXTY-NINE. The name index was re-queried in full and returns 152 rows for «Arena» at Scilla, deduplicating to about sixty-nine people. ONLY TWO carry «Madre Serafina Arlotta»: Rocco, 8 February 1932, and Giovanni, 31 March 1936. Neither Filippo, born 14 February 1852, nor Giuseppe, born 5 March 1860, is anywhere in it -- AND GIUSEPPE WAS CERTAINLY AT SCILLA IN JUNE 1898, burying his own ten-month-old son. A negative that survives the set trebling is worth more than the first one was, and it points the same way: they left.",
+     "source": "Antenati name index, Scilla deaths 1910-1943, all 69 Arena",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Children, at last, for the 1838 marriage",
+   "rows": [
+    {
+     "kind": "Children, at last, for the 1838 marriage",
+     "who": "Domenico Arena and Teresa Polistina",
+     "slug": "—",
+     "treeSays": "Married at Scilla on 4 September 1838, and nothing after",
+     "recordSays": "THEY HAD AT LEAST A SON, AND HE HAD A DAUGHTER. GIUSEPPE ARENA died at Scilla on 27 March 1925, «Padre Domenico, Madre Teresa Polistena, Coniuge Serafina Vita»; his daughter TERESA ARENA died there on 27 August 1943, «Padre Giuseppe, Madre Serafina Vita, Coniuge Gaetano Cosentino» -- named for her grandmother, exactly as the custom predicts. AND IT CONFIRMS TERESA POLISTINA INDEPENDENTLY: this archive had her from one line of the 1838 annual Tavola, and here she is again eighty-seven years later in a different series indexed by a different hand.",
+     "source": "Antenati name index, Scilla deaths 1925 and 1943",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A declared age, four years out, confirmed wrong by a complete sweep",
+   "rows": [
+    {
+     "kind": "A declared age, four years out, confirmed wrong by a complete sweep",
+     "who": "Leonarda Bonanno",
+     "slug": "—",
+     "treeSays": "Born about 1848 (from «d'anni ventitré compiuti» in the 1871 marriage act)",
+     "recordSays": "BORN 7 NOVEMBER 1843, and the 1871 age is four years short. Piedimonte Etneo Nati 1843 atto 101 gives her birth in full; both 1871 documents -- Matrimoni atto 14 and the publication certificate in the allegati -- make her twenty-three. TESTED RATHER THAN ASSUMED: the whole annual Tavola of Nati 1847 (116 acts) and Nati 1848 (144 acts) was read, every entry, and neither year holds a Leonarda Bonanno. There is no second girl of the name, so the 1843 act is hers and the age is simply wrong. NOTE ALSO that the two 1871 documents are ONE WITNESS, not two: same uffiziale, same fortnight, same declaration.",
+     "source": "Piedimonte Etneo, Nati 1843 atto 101; Matrimoni 1871 atto 14; Matrimoni allegati 1871 fascicolo 14; Nati 1847 and Nati 1848, annual Tavole read entire",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "Two Gaetani, and this archive has already confused them once",
+   "rows": [
+    {
+     "kind": "Two Gaetani, and this archive has already confused them once",
+     "who": "Gaetano Bonanno and Gaetano Bonaccorso",
+     "slug": "—",
+     "treeSays": "One family, «Bonanno» or «Bonaccorso» as the eye reads it",
+     "recordSays": "TWO DIFFERENT PIEDIMONTE HOUSEHOLDS, BOTH HEADED BY A GAETANO, AT THE SAME TIME. GAETANO BONANNO married ANNA CAVALLARO and fathered Leonarda in 1843; GAETANO BONACCORSO married LUCIA GRASSO and fathered Mariano in 1847 (Nati atto 30) and, with a Chiara Venera, a Francesco in 1848 (atto 46). The surnames differ by three letters in a hand that abbreviates. THIS ARCHIVE HAS ALREADY PAID FOR IT: the first readings of the 1877 and 1880 Piedimonte birth acts in pe-mazza-acts.tsv wrote Rosario Mazza's wife as «BONACCORSO Leonarda», and both rows had to be corrected. Any Bonanno/Bonaccorso at Piedimonte must be read at full width and checked against the spouse, never taken off a contact sheet.",
+     "source": "Piedimonte Etneo, Nati 1847 atti 30 and 31, Nati 1848 atto 46, annual Tavole read entire",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A child at last for the couple row 93 had written off",
+   "rows": [
+    {
+     "kind": "A child at last for the couple row 93 had written off",
+     "who": "Innocenzio Mazza and Domenica Cavallaro",
+     "slug": "—",
+     "treeSays": "A marriage of about 1835-40 that may fall before Antenati's Piedimonte run and has never been tested",
+     "recordSays": "THEY WERE AT PIEDIMONTE AND HAVING CHILDREN IN 1847. The annual Tavola of Nati 1847 gives at act 31 «MAZZA SEBASTIANO -- Mazza Innocenzio / Cavallaro Domenica», born the 25th. It is the first record of the couple this archive has ever held, it fixes them in the town, and it gives a concrete act to open for their trades, ages and address -- which in turn brackets the marriage row 93 wants. Found by reading a whole Tavola for an unrelated question.",
+     "source": "Piedimonte Etneo, Nati 1847 atto 31 (annual Tavola)",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A Venera Cassaniti, born at Piedimonte, of the right age",
+   "rows": [
+    {
+     "kind": "A Venera Cassaniti, born at Piedimonte, of the right age",
+     "who": "Venera Cassaneti / Cassaniti",
+     "slug": "—",
+     "treeSays": "Maria Nicotra's mother, known only from a Queensland death registration of 1963 and spelled «Cassaneti» there",
+     "recordSays": "A CANDIDATE, AND THE FIRST ONE THIS ARCHIVE HAS EVER HAD. Piedimonte Etneo, Nati 1848 atto 45: «CASSANITI VENERA -- Cassaniti Gaetano / Venuti Maria», born the 14th. The spelling is the one row 161 established as correct (CASSANITI, not Cassaneti, which appears nowhere in Italy or in the Queensland index except on Maria's own death registration). A woman born in 1848 would be twenty-seven when Maria was born about 1875 and seventy-seven when Venera Cassaneti died in 1925. BOTH FIT. WHAT DOES NOT YET FIT, AND WHY THIS IS NOT A FINDING: row 161 read fourteen consecutive Piedimonte birth indexes, 1870-1883, and found NO Maria Nicotra. If this Venera stayed in the town her daughter should be in them. So either the household left before 1875, or this is a different Venera Cassaniti. THE TEST IS THE MARRIAGE INDEX, not another birth sweep: Piedimonte Matrimoni 1866-1885, one annual index per year, both spouses named, looking for a NICOTRA groom. 1871 is already read and clean.",
+     "source": "Piedimonte Etneo, Nati 1848 atto 45 (annual Tavola)",
+     "confidence": "candidate"
+    }
+   ]
+  },
+  {
+   "kind": "Where Maria Nicotra was born — the prediction, before the act was found",
+   "rows": [
+    {
+     "kind": "Where Maria Nicotra was born — the prediction, before the act was found",
+     "who": "Maria Nicotra",
+     "slug": "maria-nicotra",
+     "treeSays": "Born at Piedimonte Etneo about 1875",
+     "recordSays": "MASCALI, AND THE TREE HAS GIVEN HER HER MOTHER'S TOWN. This row is kept as it was reasoned, because the reasoning is the point and it was made BEFORE the act existed to check it against. Her parents' marriage act (Piedimonte, Matrimoni 1872 atto 20) puts GIOVANNI NICOTRA «domiciliato e residente a MASCALI» and VENERA CASSANITI «qui domiciliata» -- she was the Piedimonte one, he was not. A wife moved to her husband's comune, so the children of that marriage would be registered at Mascali. THAT IS WHY FOURTEEN CONSECUTIVE PIEDIMONTE BIRTH INDEXES, 1870-1883, PRODUCE NO MARIA NICOTRA: the archive was reading the wrong town's register, carefully, for days. WHEN THIS WAS WRITTEN, MASCALI'S REGISTERS HAD NOT BEEN OPENED and the row said so. THEY WERE OPENED THE SAME DAY AND THE PREDICTION HELD: Mascali, Nati 1875 atto 144, 8 December 1875 at half past nine in the evening, contrada Sopra Pietrafitta -- the next row down, with the act reproduced on the Mascali page. SUPERSEDED, AND KEPT.",
+     "source": "Piedimonte Etneo, Matrimoni 1872 atto 20",
+     "confidence": "superseded"
+    }
+   ]
+  },
+  {
+   "kind": "A surname the Queensland registrar invented",
+   "rows": [
+    {
+     "kind": "A surname the Queensland registrar invented",
+     "who": "Venera Cassaneti",
+     "slug": "venera-cassaneti",
+     "treeSays": "Venera Cassaneti, from the 1963 Queensland death registration of her daughter",
+     "recordSays": "VENERA CASSANITI, born about 1848 at Piedimonte Etneo, daughter of the late GAETANO CASSANITI and the late MARIA CURRENTI. «CASSANETI» appears nowhere in Italy and exactly once in the whole Queensland index -- on Maria Mazza's own death registration, taken down from an informant at a Brisbane registry counter. The Italian act settles it. She was twenty-four when she married on 7 October 1872 and both her parents were already dead.",
+     "source": "Piedimonte Etneo, Matrimoni 1872 atto 20; Nati 1848 atto 45",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A mother's name misread off a contact sheet, and corrected by the act",
+   "rows": [
+    {
+     "kind": "A mother's name misread off a contact sheet, and corrected by the act",
+     "who": "Maria Currenti",
+     "slug": "—",
+     "treeSays": "Venuti Maria, read from the 1848 annual Tavola at 640 pixels",
+     "recordSays": "MARIA CURRENTI. The marriage act of her daughter, read at full width, writes «e di FU MARIA CURRENTI» without ambiguity. The Tavola band was a hypothesis and it was wrong -- the second name I misread from a band in the same afternoon, after «Bonanno» for BONACCORSO. Kept here rather than silently fixed, because the correction IS the method: a name taken off a contact sheet must be confirmed at full width before it is written down as a person.",
+     "source": "Piedimonte Etneo, Matrimoni 1872 atto 20, against Nati 1848 atto 45 (annual Tavola)",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "The candidate tested and carried",
+   "rows": [
+    {
+     "kind": "The candidate tested and carried",
+     "who": "Venera Cassaniti, born Piedimonte 1848",
+     "slug": "—",
+     "treeSays": "A candidate for Maria Nicotra's mother, filed an hour earlier and explicitly not a finding",
+     "recordSays": "CONFIRMED BY HER OWN MARRIAGE ACT, WHICH WAS FOUND SEPARATELY. The candidate rested on a name and a plausible date in an annual Tavola. Matrimoni 1872 atto 20 then gave a VENERA CASSANITI of twenty-four -- born about 1848 -- marrying a GIOVANNI NICOTRA, which is the couple the Queensland registration names as Maria Nicotra's parents. The two documents were reached by different routes on different questions and meet exactly. AND THE CUSTOM CORROBORATES FROM A THIRD DIRECTION: the family's own export gives the couple a son ROSARIO, and the act names the groom's father ROSARIO NICOTRA -- a name the archive could not have derived from anything it held.",
+     "source": "Piedimonte Etneo, Nati 1848 atto 45 and Matrimoni 1872 atto 20",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "A birth date, a birth hour and the right town",
+   "rows": [
+    {
+     "kind": "A birth date, a birth hour and the right town",
+     "who": "Maria Nicotra",
+     "slug": "maria-nicotra",
+     "treeSays": "Born at Piedimonte Etneo about 1875, no date",
+     "recordSays": "BORN AT MASCALI, PROVINCE OF CATANIA, ON 8 DECEMBER 1875 AT HALF PAST NINE IN THE EVENING, in contrada Sopra Pietrafitta, and registered two days later by her father. Mascali Nati 1875 atto 144, read in the original: «da VENERA CASSANITI sua moglie ... e nata una bambina di sesso femminile ... a cui da il nome di MARIA». SHE IS THE WOMAN AT GENERATION FOUR who married Salvatore Mazza and is buried at Nudgee, and this archive spent fourteen consecutive Piedimonte birth indexes failing to find her because it was reading the wrong town's register. Her death at Brisbane in 1963 aged eighty-eight fits the date exactly.",
+     "source": "Mascali, Nati 1875 atto 144; Piedimonte Etneo, Matrimoni 1872 atto 20",
+     "confidence": "documented"
+    }
+   ]
+  },
+  {
+   "kind": "The first child of the 1872 marriage",
+   "rows": [
+    {
+     "kind": "The first child of the 1872 marriage",
+     "who": "Venera Nicotra",
+     "slug": "venera-nicotra",
+     "treeSays": "A daughter of John Nicotra and Venera Cassaneti, no date, no place",
+     "recordSays": "BORN AT MASCALI ON 12 DECEMBER 1873, fourteen months after her parents' marriage, and named for her mother -- or for her father's mother Venera Murabito; both are Venera, so the custom points two ways and settles nothing on its own. The 1873 annual index of Mascali births carries a PATERNITA column and gives «Nicotra Venera, 12 Dicembre 1873, Giovanni». THE ACT ITSELF IS NOT YET OPENED, so the mother is inferred from the household and not read. Index entry only.",
+     "source": "Mascali, Nati 1873, annual index (Indice Annuale, N section)",
+     "confidence": "probable"
+    }
+   ]
+  },
+  {
+   "kind": "A father six years younger in three years",
+   "rows": [
+    {
+     "kind": "A father six years younger in three years",
+     "who": "Giovanni Nicotra (John)",
+     "slug": "john-nicotra",
+     "treeSays": "No age recorded at all",
+     "recordSays": "TWO DECLARED AGES THAT DO NOT AGREE. «Di anni TRENTUNO» at his marriage on 7 October 1872, which puts his birth about 1841; «di anni VENTOTTO» at his daughter Maria's birth on 10 December 1875, which puts it about 1847. Six years the wrong way in three. KEPT AS A CONFLICT rather than averaged: his own birth act at Mascali, in either 1841 or 1847, would settle it and would carry his parents Rosario Nicotra and Venera Murabito independently. The identification of the two men does NOT rest on the age -- it rests on the wife, VENERA CASSANITI, named in both acts, and on the comune.",
+     "source": "Piedimonte Etneo, Matrimoni 1872 atto 20; Mascali, Nati 1875 atto 144",
+     "confidence": "flagged"
     }
    ]
   }
