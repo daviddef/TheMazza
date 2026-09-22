@@ -271,7 +271,7 @@
    "from": 1820,
    "to": 1862,
    "volumes": 85,
-   "bought": 0,
+   "bought": 10,
    "indexed": 0,
    "noindex": 0
   },
@@ -326,7 +326,7 @@
    "from": 1820,
    "to": 1865,
    "volumes": 101,
-   "bought": 12,
+   "bought": 14,
    "indexed": 0,
    "noindex": 0
   },
@@ -546,7 +546,7 @@
    "from": 1616,
    "to": 1678,
    "volumes": 6,
-   "bought": 0,
+   "bought": 1,
    "indexed": 0,
    "noindex": 0
   },
@@ -1147,7 +1147,7 @@
  ],
  "total": {
   "volumes": 2601,
-  "bought": 326,
+  "bought": 339,
   "indexed": 3,
   "noindex": 7,
   "comuni": 7

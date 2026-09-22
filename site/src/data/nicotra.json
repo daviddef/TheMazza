@@ -28,6 +28,13 @@
  "sweeps": [
   {
    "comune": "Giarre",
+   "year": "1844",
+   "series": "Matrimoni",
+   "entries": "two",
+   "note": "atto 54, 19 August 1844: NICOTRA D.r D. ALFIO, patria GIARRE, son of Nicotra D. Giuseppe and CALTABIANO D. GIOACHINA, × Consoli D. Antonina — the same parents Riposto wrote for its Don Alfio in 1838, so ONE MAN MARRYING TWICE. Also atto 8, Noscia Mro Ignazio × Castorina Anna, not a Nicotra"
+  },
+  {
+   "comune": "Giarre",
    "year": "1820",
    "series": "Nati",
    "entries": "two",
@@ -330,6 +337,13 @@
  ],
  "byComune": {
   "Giarre": [
+   {
+    "comune": "Giarre",
+    "year": "1844",
+    "series": "Matrimoni",
+    "entries": "two",
+    "note": "atto 54, 19 August 1844: NICOTRA D.r D. ALFIO, patria GIARRE, son of Nicotra D. Giuseppe and CALTABIANO D. GIOACHINA, × Consoli D. Antonina — the same parents Riposto wrote for its Don Alfio in 1838, so ONE MAN MARRYING TWICE. Also atto 8, Noscia Mro Ignazio × Castorina Anna, not a Nicotra"
+   },
    {
     "comune": "Giarre",
     "year": "1820",
@@ -639,6 +653,15 @@
  },
  "byComuneSeries": {
   "Giarre": {
+   "Matrimoni": [
+    {
+     "comune": "Giarre",
+     "year": "1844",
+     "series": "Matrimoni",
+     "entries": "two",
+     "note": "atto 54, 19 August 1844: NICOTRA D.r D. ALFIO, patria GIARRE, son of Nicotra D. Giuseppe and CALTABIANO D. GIOACHINA, × Consoli D. Antonina — the same parents Riposto wrote for its Don Alfio in 1838, so ONE MAN MARRYING TWICE. Also atto 8, Noscia Mro Ignazio × Castorina Anna, not a Nicotra"
+    }
+   ],
    "Nati": [
     {
      "comune": "Giarre",
@@ -979,9 +1002,9 @@
   {
    "comune": "Giarre",
    "father": "Dr Don Alfio Nicotra",
-   "mother": "Donna Antonina Consoli",
-   "seen": "1846, 1848",
-   "note": "a Salvadore on 5 November 1846 and a Salvatore again on 2 January 1848 — what a family does when the first child dies"
+   "mother": "Donna Angela Ligresti, then Donna Antonina Consoli",
+   "seen": "1838, 1844, 1846, 1848",
+   "note": "ONE MAN, TWO MARRIAGES, TWO COMUNI. Son of Nicotra D. Giuseppe and Caltabiano D. Gioachina. Married Angela Ligresti at RIPOSTO on 23 April 1838 (Matrimoni atto 15) and Antonina Consoli at GIARRE on 19 August 1844 (Matrimoni atto 54) — the two acts name the same two parents, which is what joins them. Children Salvatore in November 1846 and Salvatore again in January 1848. AND HIS OWN PATRIA IS WRITTEN DIFFERENTLY IN THE TWO REGISTERS: «S. Giovanni» at Riposto, «Giarre» at Giarre"
   },
   {
    "comune": "Mascali",
@@ -989,13 +1012,6 @@
    "mother": "Carmela Sudieri",
    "seen": "1840, 1847",
    "note": "Nicotra Venera, 11 May 1840, and Nicotra Maria, 23 July 1847"
-  },
-  {
-   "comune": "Riposto",
-   "father": "Don Alfio Nicotra",
-   "mother": "Donna Angela Ligresti",
-   "seen": "1838",
-   "note": "married at Riposto 23 April 1838; HIS OWN patria is S. Giovanni, not Riposto. Whether he is Giarre's Dottor Don Alfio remarried, or that man's father or son, is not decided here"
   },
   {
    "comune": "Giarre",
@@ -1041,22 +1057,15 @@
     "mother": "—",
     "seen": "1838",
     "note": "Nicotra Maria, entry 170; the mother's surname is not legible at band width"
-   },
-   {
-    "comune": "Riposto",
-    "father": "Don Alfio Nicotra",
-    "mother": "Donna Angela Ligresti",
-    "seen": "1838",
-    "note": "married at Riposto 23 April 1838; HIS OWN patria is S. Giovanni, not Riposto. Whether he is Giarre's Dottor Don Alfio remarried, or that man's father or son, is not decided here"
    }
   ],
   "Giarre": [
    {
     "comune": "Giarre",
     "father": "Dr Don Alfio Nicotra",
-    "mother": "Donna Antonina Consoli",
-    "seen": "1846, 1848",
-    "note": "a Salvadore on 5 November 1846 and a Salvatore again on 2 January 1848 — what a family does when the first child dies"
+    "mother": "Donna Angela Ligresti, then Donna Antonina Consoli",
+    "seen": "1838, 1844, 1846, 1848",
+    "note": "ONE MAN, TWO MARRIAGES, TWO COMUNI. Son of Nicotra D. Giuseppe and Caltabiano D. Gioachina. Married Angela Ligresti at RIPOSTO on 23 April 1838 (Matrimoni atto 15) and Antonina Consoli at GIARRE on 19 August 1844 (Matrimoni atto 54) — the two acts name the same two parents, which is what joins them. Children Salvatore in November 1846 and Salvatore again in January 1848. AND HIS OWN PATRIA IS WRITTEN DIFFERENTLY IN THE TWO REGISTERS: «S. Giovanni» at Riposto, «Giarre» at Giarre"
    },
    {
     "comune": "Giarre",
@@ -1090,7 +1099,7 @@
    }
   ]
  },
- "read": 43,
+ "read": 44,
  "unread": 0,
- "withEntries": 13
+ "withEntries": 14
 }
