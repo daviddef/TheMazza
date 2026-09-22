@@ -28,6 +28,13 @@
  "sweeps": [
   {
    "comune": "Giarre",
+   "year": "1840",
+   "series": "Matrimoni",
+   "entries": "none",
+   "note": "the whole Tavola read, first heading to the blank leaf after V: A, B, D, C, F, L, M, P, S, T, V. M runs into P and the letter was checked at full width, because this clerk does not order his sections either"
+  },
+  {
+   "comune": "Giarre",
    "year": "1844",
    "series": "Matrimoni",
    "entries": "two",
@@ -337,6 +344,13 @@
  ],
  "byComune": {
   "Giarre": [
+   {
+    "comune": "Giarre",
+    "year": "1840",
+    "series": "Matrimoni",
+    "entries": "none",
+    "note": "the whole Tavola read, first heading to the blank leaf after V: A, B, D, C, F, L, M, P, S, T, V. M runs into P and the letter was checked at full width, because this clerk does not order his sections either"
+   },
    {
     "comune": "Giarre",
     "year": "1844",
@@ -654,6 +668,13 @@
  "byComuneSeries": {
   "Giarre": {
    "Matrimoni": [
+    {
+     "comune": "Giarre",
+     "year": "1840",
+     "series": "Matrimoni",
+     "entries": "none",
+     "note": "the whole Tavola read, first heading to the blank leaf after V: A, B, D, C, F, L, M, P, S, T, V. M runs into P and the letter was checked at full width, because this clerk does not order his sections either"
+    },
     {
      "comune": "Giarre",
      "year": "1844",
@@ -1099,7 +1120,7 @@
    }
   ]
  },
- "read": 44,
+ "read": 45,
  "unread": 0,
  "withEntries": 14
 }
