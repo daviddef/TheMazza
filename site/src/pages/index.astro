@@ -2,8 +2,9 @@
 import Base from "../layouts/Base.astro";
 import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
 import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
-import Spine from "@daviddef/archive-kit/components/Spine.astro";
+import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import spineData from "../data/spine.json";
+import people from "../data/people.json";
 import { chartGroups } from "../lib/marriedin.js";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
 import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
@@ -38,22 +39,54 @@ const more = [
    does not take: it links each row to that page's generation anchor, because
    position in a line is unique and a name is not. */
 const UNSOURCED_HOME = new Set([9, 10]);
-const spineRows = spineData.spine.map((g) => ({
-  gen: g.gen, name: g.name,
-  living: !!g.living,
-  spouse: g.spouse || "",
-  spouseHref: g.spouseSlug && !g.living ? `/people/${g.spouseSlug}/` : null,
-  /* EIGHT PROSTAMOS ABOVE ONE MAZZA. Reported on 22 September as the ladder
-     «suddenly chang[ing] to prostamo». It is not a fault — the deepest
-     descent in this archive runs through Domenica Prostamo, who married a
-     Mazza — but the page never said so, and silence reads as breakage.
-     build_spine.py derives the sentence from the descent itself, so if the
-     line is ever recomputed the explanation follows it. */
-  via: g.via || "",
-  born: g.born, bornPlace: g.birthPlace,
-  died: g.died, diedPlace: g.deathPlace,
-  weak: UNSOURCED_HOME.has(g.gen),
-}));
+/* THE DESCENT. The compact ladder goes; the kit's Descent row takes its
+   place — the couple in two equal columns, the children beneath, the
+   brothers and sisters under whichever of the two they belong to.
+
+   people.json records children and siblings per person with a slug, so
+   nothing here is derived: the spine row carries the person's own slug and
+   both sides are read off their own records. HER siblings come from HER
+   record, which is the whole point of the second column.
+
+   The surname band survives the move. Eight Prostamos sit above one Mazza
+   because the line passes through a daughter, and build_spine.py derives
+   that sentence from the descent itself. */
+const P_BY_SLUG = new Map(people.map((q) => [q.slug, q]));
+const kinCards = (slug, band) => {
+  const rec = slug ? P_BY_SLUG.get(slug) : null;
+  return ((rec && rec[band]) || []).map((c) => {
+    const full = P_BY_SLUG.get(c.slug);
+    const hide = !full || full.living || full.presumedLiving || full.datesHidden;
+    return {
+      name: c.name,
+      href: c.slug && !hide ? `/people/${c.slug}/` : null,
+      dates: hide ? "" : [full.born, full.died].filter(Boolean).join("\u2013"),
+    };
+  });
+};
+const spineRows = spineData.spine.map((g) => {
+  const hers = ((P_BY_SLUG.get(g.slug) || {}).spouses || [])[0] || null;
+  return {
+    gen: g.gen,
+    era: [g.born, g.died].filter(Boolean).join(" \u2192 ") || undefined,
+    name: g.name,
+    href: g.slug && !g.living ? `/people/${g.slug}/` : "",
+    living: !!g.living,
+    via: g.via || "",
+    born: g.born ? String(g.born) : "",
+    died: g.died ? String(g.died) : "",
+    place: g.birthPlace || g.deathPlace || "",
+    spouse: g.spouse || "",
+    spouseHref: g.spouseSlug && !g.living ? `/people/${g.spouseSlug}/` : null,
+    children: kinCards(g.slug, "children"),
+    hisSiblings: kinCards(g.slug, "siblings"),
+    herSiblings: kinCards(hers && hers.slug, "siblings"),
+    hisLabel: String(g.name).split(" ")[0] + "\u2019s",
+    herLabel: g.spouse ? String(g.spouse).split(" ")[0] + "\u2019s" : "Theirs",
+    weak: UNSOURCED_HOME.has(g.gen),
+    weakNote: "This generation rests on the family tree alone.",
+  };
+});
 ---
 <Base title="The Mazza Archive" bare={true}>
   <figure class="fhero">
@@ -160,7 +193,7 @@ const spineRows = spineData.spine.map((g) => ({
     <h2>The line, ten generations</h2>
     <p class="dek">Back to the 1690s in Calabria, with the two generations that rest on the family
     tree alone marked where they fall.</p>
-    <Spine rows={spineRows} u={u} compact={true} full="/direct-line/" archiveKey="mazza" />
+    <Descent rows={spineRows} u={u} archiveKey="mazza" />
     <p class="cap" style="margin-top:14px"><a href={u("/direct-line/")}>The full spine →</a></p>
   </section>
 
