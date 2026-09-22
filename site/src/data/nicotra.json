@@ -28,6 +28,13 @@
  "sweeps": [
   {
    "comune": "Giarre",
+   "year": "1820",
+   "series": "Nati",
+   "entries": "two",
+   "note": "the FIRST year Sicily registered at all, and the N section holds two plainly-written NICOTRA households: atto 198 Nicotra Rosaria, of NICOTRA SIMONE and Marianna Dadone, 13 April · atto 228 Nicotra Carmela, of NICOTRA ROSARIO and Rosa Providenza, 1 May. No Don, no Donna. Also in the section: Nicolosi Pietro, Nota Alessandro, Nucifora Alfio"
+  },
+  {
+   "comune": "Giarre",
    "year": "1838",
    "series": "Nati",
    "entries": "none",
@@ -164,7 +171,7 @@
    "year": "1835",
    "series": "Matrimoni",
    "entries": "empty",
-   "note": "N and O written and blank after 11 Messina Rosario; the alphabet is complete and ends in «Fine». Row 8 of the same page is a MAZZA — Mazza Salvadore × Ligresti Grazia — unjoined to this family and left that way"
+   "note": "N and O written and blank after 11 Messina Rosario; the alphabet is complete and ends in «Fine». Row 8 of the same page is a MAZZA — atto 8, 14 July 1835, MAZZA SALVADORE of ACITREZZA, son of Mazza Mastro Sebastiano and Gaetana Chiarenza, × LIGRESTI GRAZIA of Riposto, daughter of Ligresti Mastro Giovanni and Caterina Garufi. Unjoined to this family and left that way"
   },
   {
    "comune": "Riposto",
@@ -325,6 +332,13 @@
   "Giarre": [
    {
     "comune": "Giarre",
+    "year": "1820",
+    "series": "Nati",
+    "entries": "two",
+    "note": "the FIRST year Sicily registered at all, and the N section holds two plainly-written NICOTRA households: atto 198 Nicotra Rosaria, of NICOTRA SIMONE and Marianna Dadone, 13 April · atto 228 Nicotra Carmela, of NICOTRA ROSARIO and Rosa Providenza, 1 May. No Don, no Donna. Also in the section: Nicolosi Pietro, Nota Alessandro, Nucifora Alfio"
+   },
+   {
+    "comune": "Giarre",
     "year": "1838",
     "series": "Nati",
     "entries": "none",
@@ -465,7 +479,7 @@
     "year": "1835",
     "series": "Matrimoni",
     "entries": "empty",
-    "note": "N and O written and blank after 11 Messina Rosario; the alphabet is complete and ends in «Fine». Row 8 of the same page is a MAZZA — Mazza Salvadore × Ligresti Grazia — unjoined to this family and left that way"
+    "note": "N and O written and blank after 11 Messina Rosario; the alphabet is complete and ends in «Fine». Row 8 of the same page is a MAZZA — atto 8, 14 July 1835, MAZZA SALVADORE of ACITREZZA, son of Mazza Mastro Sebastiano and Gaetana Chiarenza, × LIGRESTI GRAZIA of Riposto, daughter of Ligresti Mastro Giovanni and Caterina Garufi. Unjoined to this family and left that way"
    },
    {
     "comune": "Riposto",
@@ -628,6 +642,13 @@
    "Nati": [
     {
      "comune": "Giarre",
+     "year": "1820",
+     "series": "Nati",
+     "entries": "two",
+     "note": "the FIRST year Sicily registered at all, and the N section holds two plainly-written NICOTRA households: atto 198 Nicotra Rosaria, of NICOTRA SIMONE and Marianna Dadone, 13 April · atto 228 Nicotra Carmela, of NICOTRA ROSARIO and Rosa Providenza, 1 May. No Don, no Donna. Also in the section: Nicolosi Pietro, Nota Alessandro, Nucifora Alfio"
+    },
+    {
+     "comune": "Giarre",
      "year": "1838",
      "series": "Nati",
      "entries": "none",
@@ -772,7 +793,7 @@
      "year": "1835",
      "series": "Matrimoni",
      "entries": "empty",
-     "note": "N and O written and blank after 11 Messina Rosario; the alphabet is complete and ends in «Fine». Row 8 of the same page is a MAZZA — Mazza Salvadore × Ligresti Grazia — unjoined to this family and left that way"
+     "note": "N and O written and blank after 11 Messina Rosario; the alphabet is complete and ends in «Fine». Row 8 of the same page is a MAZZA — atto 8, 14 July 1835, MAZZA SALVADORE of ACITREZZA, son of Mazza Mastro Sebastiano and Gaetana Chiarenza, × LIGRESTI GRAZIA of Riposto, daughter of Ligresti Mastro Giovanni and Caterina Garufi. Unjoined to this family and left that way"
     },
     {
      "comune": "Riposto",
@@ -982,6 +1003,20 @@
    "mother": "Rosa Pappalardo",
    "seen": "1844",
    "note": "not seen in a register of their own — named as the GIARRE-born groom's parents in Riposto Matrimoni 1844 atto 39. The first ordinary, untitled Nicotra household this archive can put at Giarre"
+  },
+  {
+   "comune": "Giarre",
+   "father": "Simone Nicotra",
+   "mother": "Marianna Dadone",
+   "seen": "1820",
+   "note": "Nicotra Rosaria, atto 198, 13 April 1820 — in the first year Giarre registered anything"
+  },
+  {
+   "comune": "Giarre",
+   "father": "Rosario Nicotra",
+   "mother": "Rosa Providenza",
+   "seen": "1820",
+   "note": "Nicotra Carmela, atto 228, 1 May 1820. THE NAME IS RIGHT AND THE GENERATION IS NOT: Giovanni's father Rosario was a bracciante still working in 1872, and a man fathering a child in 1820 would be past seventy-five by then. A grandfather-generation namesake is exactly what Sicilian naming custom predicts, and custom is not a document"
   }
  ],
  "housesByComune": {
@@ -1029,6 +1064,20 @@
     "mother": "Rosa Pappalardo",
     "seen": "1844",
     "note": "not seen in a register of their own — named as the GIARRE-born groom's parents in Riposto Matrimoni 1844 atto 39. The first ordinary, untitled Nicotra household this archive can put at Giarre"
+   },
+   {
+    "comune": "Giarre",
+    "father": "Simone Nicotra",
+    "mother": "Marianna Dadone",
+    "seen": "1820",
+    "note": "Nicotra Rosaria, atto 198, 13 April 1820 — in the first year Giarre registered anything"
+   },
+   {
+    "comune": "Giarre",
+    "father": "Rosario Nicotra",
+    "mother": "Rosa Providenza",
+    "seen": "1820",
+    "note": "Nicotra Carmela, atto 228, 1 May 1820. THE NAME IS RIGHT AND THE GENERATION IS NOT: Giovanni's father Rosario was a bracciante still working in 1872, and a man fathering a child in 1820 would be past seventy-five by then. A grandfather-generation namesake is exactly what Sicilian naming custom predicts, and custom is not a document"
    }
   ],
   "Mascali": [
@@ -1041,7 +1090,7 @@
    }
   ]
  },
- "read": 42,
+ "read": 43,
  "unread": 0,
- "withEntries": 12
+ "withEntries": 13
 }

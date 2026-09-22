@@ -38,8 +38,11 @@ SERIES = {"Nati", "Matrimoni", "Morti"}
 
 line = list(csv.DictReader(open("data/nicotra-line.tsv", encoding="utf-8"), delimiter="\t"))
 sweeps = list(csv.DictReader(open("data/nicotra-sweeps.tsv", encoding="utf-8"), delimiter="\t"))
-# The households the sweeps turned up. Not one of them is Rosario's, which is
-# the whole point of keeping them: they show the surname IS in these towns.
+# The households the sweeps turned up. Not one of them is GIOVANNI'S Rosario,
+# which is the whole point of keeping them: they show the surname IS in these
+# towns, in ordinary untitled families. Giarre 1820 does hold a «Nicotra
+# Rosario», and the file says in its own note why the generation is wrong —
+# that distinction is the reason `note` is required on every row.
 houses = list(csv.DictReader(open("data/nicotra-households.tsv", encoding="utf-8"), delimiter="\t"))
 
 fails = []
@@ -84,7 +87,7 @@ json.dump({"line": line, "sweeps": sweeps, "byComune": by_comune, "byComuneSerie
           open("site/src/data/nicotra.json", "w", encoding="utf-8"),
           indent=1, ensure_ascii=False)
 
-print(f"{len(houses)} Nicotra households found, none of them Rosario's")
+print(f"{len(houses)} Nicotra households found, none of them Giovanni's Rosario")
 print(f"{len(line)} generations documented; {len(sweeps)} Tavola years listed across "
       f"{len(by_comune)} comuni — {len(read)} read, {len(sweeps)-len(read)} still to read, "
       f"{len(found)} holding any N entry at all")
