@@ -69,16 +69,17 @@ const total = nic.read;
       <table>
         <thead><tr><th>Comune</th><th>Series</th><th class="m">Years read</th><th>What it said</th></tr></thead>
         <tbody>
-          {Object.entries(nic.byComune).map(([c, rows]) => (
+          {Object.entries(nic.byComuneSeries).map(([c, ser]) =>
+            Object.entries(ser).map(([sname, rows]) => (
             <tr>
               <td><strong>{c}</strong></td>
-              <td class="small">Nati {rows[0].year}–{rows[rows.length - 1].year}</td>
+              <td class="small">{sname} {rows[0].year}–{rows[rows.length - 1].year}</td>
               <td class="m">{rows.filter((r) => r.entries !== "\u2014").length}</td>
               <td class="small">{rows.filter((r) => !["\u2014", "none", "empty"].includes(r.entries)).length
-                ? `${rows.filter((r) => !["\u2014", "none", "empty"].includes(r.entries)).length} year(s) hold an N entry; none of the fathers is a Rosario`
+                ? `${rows.filter((r) => !["\u2014", "none", "empty"].includes(r.entries)).length} year(s) hold an N entry; none of them is Rosario`
                 : "not one N entry in any year read"}</td>
             </tr>
-          ))}
+          )))}
         </tbody>
       </table>
     </div>
@@ -110,14 +111,43 @@ const total = nic.read;
     </div>
   </section>) : null}
 
+  <section class="blk">
+    <div class="lab">22 September 2026 · Riposto, Matrimoni 1844, atto 39</div>
+    <h2 style="margin-top:.4rem">The wrong Nicotra, and the right shape</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Twelve years of Riposto's marriage <em>Tavole</em> were read for exactly the row that would
+      end this: Rosario Nicotra and Venera Murabito, who would hand over generation seven in a single
+      line. <strong>That row is not there.</strong> What is there is one N entry across the twelve
+      years, and it is a different man.</p>
+      <div class="rec" style="margin-top:12px">
+        <div class="k">Groom</div><div class="v"><strong>Nicotra Salvadore</strong></div><div class="w"><em>patria</em> <strong>GIARRE</strong></div>
+        <div class="k">His parents</div><div class="v">Alfio Nicotra · Rosa Pappalardo</div><div class="w">no <em>Don</em>, no <em>Donna</em></div>
+        <div class="k">Bride</div><div class="v">Barbagallo Maria</div><div class="w"><em>patria</em> Riposto</div>
+        <div class="k">Her parents</div><div class="v">Rosario Barbagallo · Anna Campagna</div><div class="w">—</div>
+        <div class="k">Married</div><div class="v">July 1844</div><div class="w">the day is not legible in the index</div>
+      </div>
+      <p style="margin-top:16px">He is the <strong>Salvadore Nicotra</strong> whose children the
+      Riposto birth sweep had already turned up — Alfio in May 1845, Rosa in November 1847 — without
+      knowing where he came from. Now it is written: <strong>born at Giarre, married at Riposto,
+      children registered at Riposto.</strong></p>
+      <p><strong>This is not Giovanni's father and this archive does not pretend it is.</strong> What
+      it settles is the question behind the search. «Nato a Giarre» and «absent from Giarre's
+      registers» stopped being a contradiction the moment a second man did both. Whether Rosario is
+      Salvadore's brother is the obvious next thought and has <strong>no evidence at all</strong>
+      behind it — two men of a surname in one district are not kin until an act says so, and this
+      archive has been wrong about exactly that before.</p>
+    </div>
+  </section>
+
   <section class="blk" style="border-bottom:0">
     <h2>What would carry it further</h2>
     <div class="prose" style="margin-top:1rem">
-      <p><strong>One row in a marriage <em>Tavola</em>.</strong> The restauration marriage index of
-      any of these comuni names <strong>both spouses and all four of their parents</strong>, and marks
-      the dead with <em>«fu»</em>. <strong>Rosario Nicotra × Venera Murabito's own marriage — about
-      1840 — would hand over generation seven in a single line</strong>, and would say which town each
-      of them came from, which is the question the whole search now turns on.</p>
+      <p><strong>Salvadore Nicotra's own birth act at Giarre.</strong> He married in 1844, so he was
+      born about 1815–1824 — a decade earlier than anything read here. That act names Alfio Nicotra's
+      age and trade, and would say whether this Giarre household is a labouring one or the
+      <em>Dottor Don</em> line under another spelling.</p>
+      <p><strong>And the marriage Tavole of Giarre and Mascali</strong>, neither of which has been
+      opened. If Rosario married in his own town rather than his wife's, he is in one of them.</p>
       <p><a href={u("/riposto/")}>Riposto, where the search stands →</a> ·
       <a href={u("/giarre/")}>Giarre, and its negative →</a> ·
       <a href={u("/mascali/")}>Mascali, and her birth act →</a></p>

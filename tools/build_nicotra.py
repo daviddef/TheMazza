@@ -11,7 +11,8 @@ without opening a `.astro` file.
 Two files, because they answer two different questions:
 
   nicotra-line.tsv    the descent, as four acts give it — gen, who, what, source
-  nicotra-sweeps.tsv  every year read at the N section of a birth Tavola, with
+  nicotra-sweeps.tsv  every year read at the N section of a Tavola — `series`
+                      says which register it came out of — with
                       what was in it. `entries` is a WORD, not a number, because
                       the distinctions matter and a count would lose them:
                         none   — the alphabet has no N section at all
@@ -29,6 +30,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
 
 ENTRIES = {"none", "empty", "one", "two", "three", "—"}
+# Which series the Tavola came out of. It started as births only, and the
+# moment marriages were added a row saying «Riposto 1838, one» meant two
+# different things depending on a column that did not exist. A closed
+# vocabulary rather than free text, for the same reason `entries` is one.
+SERIES = {"Nati", "Matrimoni", "Morti"}
 
 line = list(csv.DictReader(open("data/nicotra-line.tsv", encoding="utf-8"), delimiter="\t"))
 sweeps = list(csv.DictReader(open("data/nicotra-sweeps.tsv", encoding="utf-8"), delimiter="\t"))
@@ -46,6 +52,9 @@ for r in sweeps:
     e = (r.get("entries") or "").strip()
     if e not in ENTRIES:
         fails.append(f"  FAIL  {r.get('comune')} {r.get('year')}: entries «{e}» is not one of {sorted(ENTRIES)}")
+    sr = (r.get("series") or "").strip()
+    if sr not in SERIES:
+        fails.append(f"  FAIL  {r.get('comune')} {r.get('year')}: series «{sr}» is not one of {sorted(SERIES)}")
     if not (r.get("note") or "").strip():
         fails.append(f"  FAIL  {r.get('comune')} {r.get('year')}: no note — «{e}» on its own is not a reading")
 if fails:
@@ -55,6 +64,11 @@ if fails:
 by_comune = {}
 for r in sweeps:
     by_comune.setdefault(r["comune"], []).append(r)
+# comune -> series -> rows, so a page can show the birth sweep and the
+# marriage sweep as the two different arguments they are.
+by_cs = {}
+for r in sweeps:
+    by_cs.setdefault(r["comune"], {}).setdefault(r["series"], []).append(r)
 
 read = [r for r in sweeps if r["entries"] != "—"]
 found = [r for r in sweeps if r["entries"] not in ("—", "none", "empty")]
@@ -63,7 +77,7 @@ by_house = {}
 for r in houses:
     by_house.setdefault(r["comune"], []).append(r)
 
-json.dump({"line": line, "sweeps": sweeps, "byComune": by_comune,
+json.dump({"line": line, "sweeps": sweeps, "byComune": by_comune, "byComuneSeries": by_cs,
            "households": houses, "housesByComune": by_house,
            "read": len(read), "unread": len(sweeps) - len(read),
            "withEntries": len(found)},
@@ -71,9 +85,10 @@ json.dump({"line": line, "sweeps": sweeps, "byComune": by_comune,
           indent=1, ensure_ascii=False)
 
 print(f"{len(houses)} Nicotra households found, none of them Rosario's")
-print(f"{len(line)} generations documented; {len(sweeps)} birth years listed across "
+print(f"{len(line)} generations documented; {len(sweeps)} Tavola years listed across "
       f"{len(by_comune)} comuni — {len(read)} read, {len(sweeps)-len(read)} still to read, "
       f"{len(found)} holding any N entry at all")
-for c, rows in by_comune.items():
-    r = sum(1 for x in rows if x["entries"] != "—")
-    print(f"  {c:10s} {r}/{len(rows)} read")
+for c, ser in by_cs.items():
+    for sname, rows in ser.items():
+        r = sum(1 for x in rows if x["entries"] != "—")
+        print(f"  {c:10s} {sname:10s} {r}/{len(rows)} read")

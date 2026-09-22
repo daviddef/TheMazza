@@ -1,23 +1,36 @@
-comune	year	entries	note
-Giarre	1838	none	the alphabet runs M straight into P
-Giarre	1839	empty	the N heading written and left blank, then O — Oliva Alfio — then P
-Giarre	1840	none	M runs straight into P
-Giarre	1841	none	M runs into O; appendices F and B, neither an N
-Giarre	1842	none	appendices T, P, B and F, none of them an N
-Giarre	1843	empty	the N heading written and left blank, and the O beneath it too
-Giarre	1844	empty	the N heading written and left blank; one appended G on the last image
-Giarre	1845	none	M runs into P; appendices F and T
-Giarre	1846	one	NICOTRA SALVADORE — Nicotra D.r D. Alfio / Consoli D.na Antonina, 5 November
-Giarre	1847	one	Nicolosi Giuseppe — Nicolosi Angelo / Leotta Gaetana, 31 January
-Giarre	1848	one	NICOTRA SALVATORE — the same Don Alfio household again, 2 January
-Riposto	1838	one	NICOTRA MARIA — father FRANCESCO
-Riposto	1839	—	not yet read; the container fetch returned the 520-byte throttle
-Riposto	1840	none	M runs straight into P
-Riposto	1841	none	M runs into P — but the last leaf of the volume is TORN and its right page lost
-Riposto	1842	none	M runs straight into P
-Riposto	1843	—	not yet read; the container fetch returned the 520-byte throttle
-Riposto	1844	—	not yet read; the container fetch returned the 520-byte throttle
-Riposto	1845	—	not yet read; the container fetch returned the 520-byte throttle
-Riposto	1846	empty	the N heading written and left blank, and the O beneath it
-Riposto	1847	two	Nicotra Rosa — GIUSEPPE / Autieri Angela · Nicotra Rosa — SALVADORE / Barbagallo Maria
-Riposto	1848	one	NICOTRA LEONARDO — Giuseppe / Autieri Angela, 26 December
+comune	year	series	entries	note
+Giarre	1838	Nati	none	the alphabet runs M straight into P
+Giarre	1839	Nati	empty	the N heading written and left blank, then O — Oliva Alfio — then P
+Giarre	1840	Nati	none	M runs straight into P
+Giarre	1841	Nati	none	M runs into O; appendices F and B, neither an N
+Giarre	1842	Nati	none	appendices T, P, B and F, none of them an N
+Giarre	1843	Nati	empty	the N heading written and left blank, and the O beneath it too
+Giarre	1844	Nati	empty	the N heading written and left blank; one appended G on the last image
+Giarre	1845	Nati	none	M runs into P; appendices F and T
+Giarre	1846	Nati	one	NICOTRA SALVADORE — Nicotra D.r D. Alfio / Consoli D.na Antonina, 5 November
+Giarre	1847	Nati	one	Nicolosi Giuseppe — Nicolosi Angelo / Leotta Gaetana, 31 January
+Giarre	1848	Nati	one	NICOTRA SALVATORE — the same Don Alfio household again, 2 January
+Mascali	1840	Matrimoni	one	the one N entry is NICOLOSI Francesco × Mercurio Francesca, atto 10, 2 June 1840 — not a Nicotra at all
+Riposto	1835	Matrimoni	empty	N and O written and blank after 11 Messina Rosario; the alphabet is complete and ends in «Fine». Row 8 of the same page is a MAZZA — Mazza Salvadore × Ligresti Grazia — unjoined to this family and left that way
+Riposto	1836	Matrimoni	one	the one N entry is NASTASI Pasquale × Guarrera Agata, atto 26, 6 October 1836, whose own parents are written ANASTASI Michele and Venera Di Mauro — not a Nicotra. Two rows above, 31 Murabito D. Sebastiano of PIEDIMONTE × Ligresti D. Petronilla
+Riposto	1837	Matrimoni	empty	N and O written and blank between 40 Mangano Giuseppe and 7 Patanè Giovanni
+Riposto	1838	Matrimoni	one	NICOTRA D. ALFIO × Ligresti D. Angela, atto 15, 23 April 1838 — his patria S. GIOVANNI, hers Riposto; his parents fu D. Giuseppe and D. Gioachina Cattabiano. A Don, and not of this town
+Riposto	1839	Matrimoni	empty	the N heading written and left blank, and the O beneath it; P follows with Pistorio, Previtera and Patanè
+Riposto	1840	Matrimoni	empty	a complete alphabet ending in «Fine» — M, N, O all written and left blank, then 13 Pidoto Rosario under P
+Riposto	1841	Matrimoni	empty	E, F, H, L, N, O, Q all written and blank; the entries are Grasso 21, Messina 11, then Pennisi under P
+Riposto	1842	Matrimoni	empty	N and O written and blank after 8 Musumeci Giuseppe; P opens with 9 Pellegrino Nicolò
+Riposto	1843	Matrimoni	empty	the N heading written at the foot of the M page after 34 Messina Mariano, and the facing page opens at O — 4 Oliveri Francesco
+Riposto	1844	Matrimoni	one	NICOTRA SALVADORE, atto 39, July 1844 — «patria GIARRE», son of NICOTRA ALFIO and PAPPALARDO ROSA × Barbagallo Maria of Riposto, daughter of Rosario Barbagallo and Anna Campagna
+Riposto	1845	Matrimoni	empty	the N heading written and left blank between 1 Melita Filippo under M and the blank O
+Riposto	1846	Matrimoni	empty	N and O written and blank between 39 Musumeci Natale and 24 Patanè Antonino
+Riposto	1838	Nati	one	NICOTRA MARIA — father FRANCESCO
+Riposto	1839	Nati	none	M runs into O, then P — no N section
+Riposto	1840	Nati	none	M runs straight into P
+Riposto	1841	Nati	none	M runs into P and the last leaf is TORN — but the SECOND 1841 volume (17517 suppl. 2) carries its own untorn Tavola, and there M runs into O with NO N heading at all. The O it holds (Oliveri Francesco, atto 93) is what the torn leaf lost, so the two together cover the year
+Riposto	1842	Nati	none	M runs straight into P
+Riposto	1843	Nati	none	M runs into O, then P — no N section
+Riposto	1844	Nati	empty	the N heading WRITTEN and left blank after 168 Lo Muro Lucia, and the facing page opens at O — Olivieri Giacomo, atto 6
+Riposto	1845	Nati	one	NICOTRA ALFIO, atto 75, born 9 May 1845 — father SALVADORE, mother Maria Barbagallo: the same household as 1847
+Riposto	1846	Nati	empty	the N heading written and left blank, and the O beneath it
+Riposto	1847	Nati	two	Nicotra Rosa — GIUSEPPE / Autieri Angela · Nicotra Rosa — SALVADORE / Barbagallo Maria
+Riposto	1848	Nati	one	NICOTRA LEONARDO — Giuseppe / Autieri Angela, 26 December

@@ -18,7 +18,9 @@ const rows = holdings.rows.filter((r) => r.comune.startsWith(HERE));
 const cov = coverage.rows.find((r) => r.comune === HERE) || {};
 const vols = rows.reduce((n, r) => n + r.volumes, 0);
 const bought = rows.reduce((n, r) => n + r.bought, 0);
-const YEARS = nic.byComune["Riposto"] || [];
+const SER = nic.byComuneSeries["Riposto"] || {};
+const BIRTHS = SER["Nati"] || [];
+const MARRS = SER["Matrimoni"] || [];
 
 const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
 ---
@@ -40,8 +42,13 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
       and not from any document</strong>, and it is written down as such.</p>
       <p>What makes it more than a guess is what the registers hold. <strong>Giarre's only Nicotra
       across eleven years is a <em>Dottor Don</em> with a <em>Donna</em> wife.</strong> Mascali's
-      across nine is an Alfio. <strong>Riposto has at least three ordinary Nicotra households in
-      seven years</strong> — the sort of family a bracciante belongs to.</p>
+      across nine is an Alfio. <strong>Riposto has three ordinary Nicotra households</strong> — the
+      sort of family a bracciante belongs to.</p>
+      <p>And in September 2026 the reading stopped being an inference. <strong>Riposto's marriage
+      Tavola for 1844 records Nicotra Salvadore, <em>patria Giarre</em>, marrying a Riposto
+      woman</strong> — and his two children then appear in Riposto's own birth Tavole, in 1845 and
+      1847. A Nicotra who says <em>Giarre</em> and is registered here is no longer a theory about how
+      people moved; it is a man with an act number.</p>
     </div>
   </section>
 
@@ -65,14 +72,15 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
   </section>
 
   <section class="blk">
-    <h2>Every year read, and what it said</h2>
+    <h2>Every birth year read, and what it said</h2>
     <p class="dek" style="margin:.7rem 0 1.2rem">Riposto's <em>Tavola</em> is alphabetical and names
-    both parents. Each N section was checked into the next letter before anything was written down.</p>
+    both parents. Each N section was checked into the next letter before anything was written down.
+    <strong>Eleven consecutive years, 1838 to 1848, are now read end to end.</strong></p>
     <div class="scroll">
       <table>
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
-          {YEARS.map((r) => (
+          {BIRTHS.map((r) => (
             <tr>
               <td class="m"><strong>{r.year}</strong></td>
               <td class="m small">{r.entries === "—" ? <em>unread</em> : r.entries}</td>
@@ -82,12 +90,41 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
         </tbody>
       </table>
     </div>
-    <p class="note" style="margin-top:16px"><strong>1841 is not a finished negative.</strong> Its
-    alphabet runs M straight into P, but <strong>the last leaf of the volume is torn and its right page
-    lost</strong> — and Giarre taught this archive that an appendix can sit past the end of the
-    alphabet. There is a second 1841 birth volume (<em>17517, suppl. 2</em>) which may carry what the
-    first has lost. <strong>The four unread years are blocked by nothing but a rate limiter</strong> —
-    the images are never throttled, only the page that carries a container id.</p>
+    <p class="note" style="margin-top:16px"><strong>1841 was the one unfinished negative, and it is
+    finished now.</strong> The first volume's alphabet runs M into P with its last leaf torn and the
+    right page lost — and Giarre had already taught this archive that an appendix can sit past the end
+    of the alphabet. <strong>There is a second 1841 volume</strong> (<em>17517, suppl. 2</em>), and it
+    carries its own untorn <em>Tavola</em>: M runs into O with <strong>no N heading at all</strong>.
+    The O it holds is exactly what the torn leaf lost. Two volumes for one year is not two witnesses —
+    a duplicate is a copy — but the copy reaches the part the original cannot show.</p>
+  </section>
+
+  <section class="blk">
+    <h2>And then the marriages, which were the better instrument</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Twelve years, 1835 to 1846. The marriage
+    <em>Tavola</em> names both spouses, <strong>all four parents, and the comune each spouse came
+    from</strong> — so a single row can carry a whole generation.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
+        <tbody>
+          {MARRS.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class="m small">{r.entries === "—" ? <em>unread</em> : r.entries}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>1844 is the one that pays.</strong> Atto 39 marries
+    <strong>Nicotra Salvadore</strong> to Maria Barbagallo of Riposto — and the <em>patria</em> column
+    gives his as <strong>GIARRE</strong>, with his parents named as <strong>Alfio Nicotra and Rosa
+    Pappalardo</strong>. He is the father of the two Riposto children the birth sweep had already
+    turned up, in 1845 and 1847. <strong>Here is a Nicotra born at Giarre, married at Riposto, and
+    registering his children at Riposto</strong> — which is precisely the shape this archive had
+    guessed at for Giovanni, and had no document for until now.</p>
   </section>
 
   <section class="blk">
@@ -118,14 +155,18 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
 
   <section class="blk" style="border-bottom:0">
     <h2>What would end this</h2>
+    <p class="dek" style="margin:.8rem 0 1.2rem">Twenty-three Riposto years are read and Rosario is in
+    none of them. That is now a finding rather than a gap.</p>
     <div class="prose" style="margin-top:1rem">
       <ul style="font-family:var(--sans);font-size:14px;line-height:1.75;color:var(--ink-2);padding-left:20px">
-        <li><strong>The four unread years</strong> — 1839, 1843, 1844, 1845 — and the torn tail of
-        1841, through its supplement volume.</li>
-        <li><strong>Riposto's marriages, 1833–1845.</strong> The better instrument by far: the
-        restauration marriage <em>Tavola</em> names <strong>both spouses and all four of their
-        parents</strong>, so <strong>Rosario Nicotra × Venera Murabito's own marriage would hand over
-        generation seven in a single row</strong> — and would say which comune each of them came from.</li>
+        <li><strong>The Giarre marriages.</strong> Salvadore Nicotra was <em>born</em> at Giarre and
+        married at Riposto. If Rosario is his brother — and nothing yet says he is — then Rosario's own
+        marriage to Venera Murabito is most likely to sit in <strong>Giarre's or Mascali's</strong>
+        marriage Tavole, neither of which has been swept.</li>
+        <li><strong>Salvadore Nicotra's own birth act at Giarre.</strong> He married in 1844, so he was
+        born about 1815–1824 — <strong>before every Giarre year this archive has read</strong>. That
+        act would name Alfio Nicotra's age and trade, and would say whether this is a bracciante
+        family or the <em>Dottor Don</em> one.</li>
         <li><strong>The deaths.</strong> Rosario and Venera were alive in October 1872 and no death
         has been sought for either, in any of the four towns.</li>
       </ul>

@@ -16,9 +16,29 @@ export function getStaticPaths() {
 }
 const { p } = Astro.props;
 const bits = [p.when, p.fix === "approx" ? "coordinate approximate" : null].filter(Boolean);
+
+/* Some of these places have a page of their own in this archive — what the
+   comune is, what its registers hold, and what has been read in them. A place
+   page is a list of people; a comune page is the ground they stood on, and a
+   reader who lands on one should be able to reach the other. Kept here rather
+   than in the kit's component because the list is this archive's, not the
+   estate's. */
+const TOWN = {
+  scilla: "/scilla/", briatico: "/briatico/", "piedimonte-etneo": "/piedimonte-etneo/",
+  mascali: "/mascali/", giarre: "/giarre/", riposto: "/riposto/", brisbane: "/brisbane/",
+  nudgee: "/nudgee/",
+};
+const town = TOWN[p.slug];
 ---
 <Base title={p.name}
       eyebrow={bits.join(" · ")}
       dek={p.what || `Everything this archive can put in ${p.name}.`}>
   <PlacePage p={p} u={u} />
+  {town && (
+    <section class="blk" style="border-bottom:0">
+      <p class="note"><strong>{p.name} has a page of its own.</strong> What the comune is, what its
+      registers hold, and what this archive has read in them —
+      <a href={u(town)}>{p.name} →</a></p>
+    </section>
+  )}
 </Base>
