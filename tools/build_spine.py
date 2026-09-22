@@ -42,7 +42,13 @@ def chain(start):
 def row(pid, gen):
     r = P[pid]
     return {"gen": gen, "id": pid, "slug": r["slug"], "name": r["name"],
-            "surname": r["surname"], "living": r["living"],
+            # PRESUMED LIVING IS LIVING. people.json carries `living: false`
+            # beside `presumedLiving: true` and `datesHidden: true` for Frank
+            # and Michael Rocco, and the spine copied only the first of the
+            # three — so the ladder treated two people who are almost
+            # certainly alive as deceased and printed their town beside them.
+            "surname": r["surname"],
+            "living": bool(r["living"] or r.get("presumedLiving")),
             "born": r.get("born"), "died": r.get("died"),
             "birthPlace": r.get("birthPlace", ""), "deathPlace": r.get("deathPlace", ""),
             "burialPlace": r.get("burialPlace", ""),
@@ -85,6 +91,36 @@ def descend_to_proband(top_id):
 chain_down = descend_to_proband(deepest["line"][0]["id"])
 spine = [row(x, len(chain_down) - 1 - i) for i, x in enumerate(chain_down)] \
         if chain_down else deepest["line"] + [row(PROBAND, 0)]
+
+
+def mark_name_changes(rows):
+    """EIGHT PROSTAMOS ABOVE ONE MAZZA, AND NOTHING SAYING WHY.
+
+    Reported on 22 September: the front-page ladder «suddenly changes to
+    prostamo». It is not a fault — the deepest descent in this archive runs
+    through Domenica Prostamo, who married a Mazza, so the surname changes
+    where the line passes through a daughter. But the ladder never said so,
+    and a reader is entitled to read silence as breakage.
+
+    Derived, not written down: wherever a row's surname differs from its
+    parent's, the parent is named along with the spouse who brought the new
+    name in. If the descent is ever recomputed the sentence follows it.
+    """
+    for i in range(1, len(rows)):
+        child, parent = rows[i], rows[i - 1]
+        if not child["surname"] or child["surname"] == parent["surname"]:
+            continue
+        kid = P.get(child["id"], {})
+        rel = {"F": "daughter", "M": "son"}.get(kid.get("sex"), "child")
+        via = "The name changes here: %s is the %s of %s above" % (
+            child["name"], rel, parent["name"])
+        if parent.get("spouse"):
+            via += ", who married %s" % parent["spouse"]
+        child["via"] = via + "."
+    return rows
+
+
+spine = mark_name_changes(spine)
 # the two children who carry the name
 kids = [c for c in P[PROBAND]["children"]]
 json.dump({"quarters": [q["grandparent"]["name"] for q in quarters],

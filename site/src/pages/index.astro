@@ -41,6 +41,14 @@ const UNSOURCED_HOME = new Set([9, 10]);
 const spineRows = spineData.spine.map((g) => ({
   gen: g.gen, name: g.name,
   living: !!g.living,
+  spouse: g.spouse || "",
+  /* EIGHT PROSTAMOS ABOVE ONE MAZZA. Reported on 22 September as the ladder
+     «suddenly chang[ing] to prostamo». It is not a fault — the deepest
+     descent in this archive runs through Domenica Prostamo, who married a
+     Mazza — but the page never said so, and silence reads as breakage.
+     build_spine.py derives the sentence from the descent itself, so if the
+     line is ever recomputed the explanation follows it. */
+  via: g.via || "",
   born: g.born, bornPlace: g.birthPlace,
   died: g.died, diedPlace: g.deathPlace,
   weak: UNSOURCED_HOME.has(g.gen),
