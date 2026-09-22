@@ -1675,6 +1675,30 @@
    "owner": "this archive",
    "since": "2026-09-22",
    "note": "**89 of the 114 documented additions now carry a `place` and are drawn on the Atlas. Twenty-five do not**, because their source is an index or a registration rather than a comune act — the Antenati name index, Queensland death registrations, New York parish baptisms, FindMyPast. **Each needs a person who has read the record to say where the person belongs**, and a blank is the honest value until then. **It is not a parsing job.** The rows whose source begins with a comune were filled deterministically; these are the ones where the comune is mid-sentence or absent, and guessing from prose is what [row 176](/worklist/) was careful not to do. **Work through them against the act, not the string.**"
+  },
+  {
+   "n": 179,
+   "state": "running",
+   "owner": "this archive",
+   "since": "2026-09-22",
+   "what": "RIPOSTO and MASCALI marriage Tavole, swept for Rosario Nicotra × Venera Murabito",
+   "note": "Twelve Riposto years (1835–1846) and eight Mascali years read whole. **Rosario is in none of them.** What the sweep did find is **Riposto Matrimoni 1844 atto 39**: *Nicotra Salvadore*, **patria Giarre**, son of Alfio Nicotra and Rosa Pappalardo, marrying Maria Barbagallo of Riposto — the father of the two Riposto children the birth sweep had already turned up in 1845 and 1847. He is not Giovanni's father and the pages say so twice. He settles the argument behind the search: see [Riposto](/riposto/) and [Giarre](/giarre/)."
+  },
+  {
+   "n": 180,
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-22",
+   "what": "RE-READ the Mascali birth Tavole whole — the junction method is not safe at this comune",
+   "note": "**Mascali Matrimoni 1847 writes its sections in the order C, N, M.** 1841 and 1835 put V before S. So at Mascali «the alphabet runs M straight into P» does **not** prove there is no N section — the N may sit somewhere else entirely, and the only safe reading is the whole Tavola end to end.\n\nThe eight Mascali **marriage** years on [the Nicotra line](/nicotra/) were all read that way and are sound. The nine Mascali **birth** years of 1839–1848 were read at the M–to–next‑letter junction, which was the method before this was known. **They are recorded here as provisional until each one has been read whole.** Nothing found is withdrawn — Alfio Nicotra and Carmela Sudieri are still there in 1840 and 1847 — but the *negatives* are weaker than they were written."
+  },
+  {
+   "n": 181,
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-22",
+   "what": "Salvadore Nicotra's own birth act at GIARRE, about 1815–1824",
+   "note": "He married at Riposto in 1844, so he was born a decade before the earliest Giarre year this archive has read. That act names **Alfio Nicotra's age and trade** — and so says whether this Giarre Nicotra household is a labouring one or the *Dottor Don* line under a plainer hand. It is the cheapest test of whether Rosario could belong to the same family."
   }
  ],
  "accounts": [

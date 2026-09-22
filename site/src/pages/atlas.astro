@@ -6,7 +6,17 @@ import Base from "../layouts/Base.astro";
 import Atlas from "@daviddef/archive-kit/components/Atlas.astro";
 import { u } from "../lib/url.js";
 import data from "../../public/atlas-data.json";
+import additions from "../data/additions.json";
 const s = data.stats;
+
+/* The four scheme deks used to carry hand-typed counts — «6 comuni · the 89
+   people this archive ADDED». The additions file changed four times in two days
+   and the number on the page did not, which is the exact failure this archive
+   tells everybody else to avoid. Counted here instead, off the same two files
+   the map itself is drawn from. */
+const layerN = (k) => data.places.filter((p) => (p.cats || {})[k]).length;
+const docPlaced = additions.filter((a) => a.place && a.place !== "\u2014");
+const docUntreed = additions.filter((a) => !a.inTree || a.inTree === "\u2014");
 ---
 <Base title="The Atlas"
       eyebrow={`${s.places} places on the map${s.unplaced ? ` · ${s.unplaced} without a coordinate` : ""}`}
@@ -44,9 +54,10 @@ const s = data.stats;
     ]}
     schemes={[
       ["people", "Our people", `${s.withPeople} places · where a named person can be put`],
-      ["shelf", "The shelf", "7 comuni · how far we have got with the registers"],
-      ["ground", "The ground", "6 places · where somebody is actually buried"],
-      ["documented", "The documented", "6 comuni · where the 89 people this archive ADDED from a register belong — 79 of them in no family tree"],
+      ["shelf", "The shelf", `${layerN("shelf")} comuni · how far we have got with the registers`],
+      ["ground", "The ground", `${layerN("ground")} places · where somebody is actually buried`],
+      ["documented", "The documented",
+       `${layerN("documented")} comuni · where ${docPlaced.length} of the ${additions.length} people this archive ADDED from a register belong — ${docUntreed.length} of them in no family tree`],
     ]}
     bounds={[[36.5, 12.5], [41.0, 17.5]]}
     homeLabel="Back to the south"

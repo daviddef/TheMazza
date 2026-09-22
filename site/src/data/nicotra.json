@@ -105,10 +105,59 @@
   },
   {
    "comune": "Mascali",
+   "year": "1835",
+   "series": "Matrimoni",
+   "entries": "none",
+   "note": "the whole Tavola read A to Z — A, C, D, G, M, V, S, V again, Z. No N section anywhere in it"
+  },
+  {
+   "comune": "Mascali",
+   "year": "1836",
+   "series": "Matrimoni",
+   "entries": "none",
+   "note": "whole Tavola: A, B, C, D, G, L, M, M, P, T. No N section"
+  },
+  {
+   "comune": "Mascali",
+   "year": "1837",
+   "series": "Matrimoni",
+   "entries": "none",
+   "note": "whole Tavola, ending in «Fine»: C, E, F, G, L, M, R, S, T. No N section"
+  },
+  {
+   "comune": "Mascali",
+   "year": "1838",
+   "series": "Matrimoni",
+   "entries": "none",
+   "note": "whole Tavola: B, C, G, L, M, S, T, V. The alphabet jumps M straight to S"
+  },
+  {
+   "comune": "Mascali",
+   "year": "1839",
+   "series": "Matrimoni",
+   "entries": "none",
+   "note": "whole Tavola: A, C, G, M, P, S, T, V. No N section"
+  },
+  {
+   "comune": "Mascali",
    "year": "1840",
    "series": "Matrimoni",
    "entries": "one",
    "note": "the one N entry is NICOLOSI Francesco × Mercurio Francesca, atto 10, 2 June 1840 — not a Nicotra at all"
+  },
+  {
+   "comune": "Mascali",
+   "year": "1841",
+   "series": "Matrimoni",
+   "entries": "none",
+   "note": "whole Tavola under its printed heading «Tavola Alfabetica annuale della solenne promessa pell'anno 1841»: A, C, G, L, M, P, P, V, S, T, Z. No N"
+  },
+  {
+   "comune": "Mascali",
+   "year": "1847",
+   "series": "Matrimoni",
+   "entries": "one",
+   "note": "the one N entry is NERI Leonardo × Borzì Maria, atto 8 — his parents written NERI Domenico and Antonia Fraggia. Not a Nicotra. AND THE N SECTION SITS BEFORE THE M: this clerk's headings run C, N, M"
   },
   {
    "comune": "Riposto",
@@ -355,10 +404,59 @@
   "Mascali": [
    {
     "comune": "Mascali",
+    "year": "1835",
+    "series": "Matrimoni",
+    "entries": "none",
+    "note": "the whole Tavola read A to Z — A, C, D, G, M, V, S, V again, Z. No N section anywhere in it"
+   },
+   {
+    "comune": "Mascali",
+    "year": "1836",
+    "series": "Matrimoni",
+    "entries": "none",
+    "note": "whole Tavola: A, B, C, D, G, L, M, M, P, T. No N section"
+   },
+   {
+    "comune": "Mascali",
+    "year": "1837",
+    "series": "Matrimoni",
+    "entries": "none",
+    "note": "whole Tavola, ending in «Fine»: C, E, F, G, L, M, R, S, T. No N section"
+   },
+   {
+    "comune": "Mascali",
+    "year": "1838",
+    "series": "Matrimoni",
+    "entries": "none",
+    "note": "whole Tavola: B, C, G, L, M, S, T, V. The alphabet jumps M straight to S"
+   },
+   {
+    "comune": "Mascali",
+    "year": "1839",
+    "series": "Matrimoni",
+    "entries": "none",
+    "note": "whole Tavola: A, C, G, M, P, S, T, V. No N section"
+   },
+   {
+    "comune": "Mascali",
     "year": "1840",
     "series": "Matrimoni",
     "entries": "one",
     "note": "the one N entry is NICOLOSI Francesco × Mercurio Francesca, atto 10, 2 June 1840 — not a Nicotra at all"
+   },
+   {
+    "comune": "Mascali",
+    "year": "1841",
+    "series": "Matrimoni",
+    "entries": "none",
+    "note": "whole Tavola under its printed heading «Tavola Alfabetica annuale della solenne promessa pell'anno 1841»: A, C, G, L, M, P, P, V, S, T, Z. No N"
+   },
+   {
+    "comune": "Mascali",
+    "year": "1847",
+    "series": "Matrimoni",
+    "entries": "one",
+    "note": "the one N entry is NERI Leonardo × Borzì Maria, atto 8 — his parents written NERI Domenico and Antonia Fraggia. Not a Nicotra. AND THE N SECTION SITS BEFORE THE M: this clerk's headings run C, N, M"
    }
   ],
   "Riposto": [
@@ -611,10 +709,59 @@
    "Matrimoni": [
     {
      "comune": "Mascali",
+     "year": "1835",
+     "series": "Matrimoni",
+     "entries": "none",
+     "note": "the whole Tavola read A to Z — A, C, D, G, M, V, S, V again, Z. No N section anywhere in it"
+    },
+    {
+     "comune": "Mascali",
+     "year": "1836",
+     "series": "Matrimoni",
+     "entries": "none",
+     "note": "whole Tavola: A, B, C, D, G, L, M, M, P, T. No N section"
+    },
+    {
+     "comune": "Mascali",
+     "year": "1837",
+     "series": "Matrimoni",
+     "entries": "none",
+     "note": "whole Tavola, ending in «Fine»: C, E, F, G, L, M, R, S, T. No N section"
+    },
+    {
+     "comune": "Mascali",
+     "year": "1838",
+     "series": "Matrimoni",
+     "entries": "none",
+     "note": "whole Tavola: B, C, G, L, M, S, T, V. The alphabet jumps M straight to S"
+    },
+    {
+     "comune": "Mascali",
+     "year": "1839",
+     "series": "Matrimoni",
+     "entries": "none",
+     "note": "whole Tavola: A, C, G, M, P, S, T, V. No N section"
+    },
+    {
+     "comune": "Mascali",
      "year": "1840",
      "series": "Matrimoni",
      "entries": "one",
      "note": "the one N entry is NICOLOSI Francesco × Mercurio Francesca, atto 10, 2 June 1840 — not a Nicotra at all"
+    },
+    {
+     "comune": "Mascali",
+     "year": "1841",
+     "series": "Matrimoni",
+     "entries": "none",
+     "note": "whole Tavola under its printed heading «Tavola Alfabetica annuale della solenne promessa pell'anno 1841»: A, C, G, L, M, P, P, V, S, T, Z. No N"
+    },
+    {
+     "comune": "Mascali",
+     "year": "1847",
+     "series": "Matrimoni",
+     "entries": "one",
+     "note": "the one N entry is NERI Leonardo × Borzì Maria, atto 8 — his parents written NERI Domenico and Antonia Fraggia. Not a Nicotra. AND THE N SECTION SITS BEFORE THE M: this clerk's headings run C, N, M"
     }
    ]
   },
@@ -894,7 +1041,7 @@
    }
   ]
  },
- "read": 35,
+ "read": 42,
  "unread": 0,
- "withEntries": 11
+ "withEntries": 12
 }

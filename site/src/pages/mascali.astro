@@ -16,6 +16,7 @@ import { u } from "../lib/url.js";
 import holdings from "../data/holdings.json";
 import coverage from "../data/coverage.json";
 import additions from "../data/additions.json";
+import nic from "../data/nicotra.json";
 
 const HERE = "Mascali";
 const rows = holdings.rows.filter((r) => r.comune.startsWith(HERE));
@@ -26,6 +27,7 @@ const civil = rows.filter((r) => r.fondo !== "deputazione del Regno" && !/Riveli
 const riveli = rows.filter((r) => /Riveli/i.test(r.type));
 const rivFrom = Math.min(...riveli.map((r) => r.from).filter(Boolean));
 const yrs = civil.map((r) => [r.from, r.to]).flat().filter(Boolean);
+const MARRS = (nic.byComuneSeries["Mascali"] || {})["Matrimoni"] || [];
 ---
 <Base title="Mascali" eyebrow="Catania, Sicily"
       dek="The town Etna swallowed whole in 1928 — and, ninety years before that, the comune where Maria Nicotra was born on a December night in 1875.">
@@ -75,6 +77,43 @@ const yrs = civil.map((r) => [r.from, r.to]).flat().filter(Boolean);
       1840s</strong>. The only Nicotra here in the whole decade is <strong>Alfio Nicotra and Carmela
       Sudieri</strong>, who appear in 1840 and again in 1847. Giovanni's own certificate says he was
       born at <a href={u("/giarre/")}>Giarre</a>, and the search moved there.</p>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>That negative is weaker than it was written, and
+    this comune is the reason.</strong> Each of those nine years was read by checking the N section
+    into the next letter — which assumes the sections are in order. <strong>At Mascali they are
+    not</strong>: see below. What was <em>found</em> stands; what was <em>not</em> found is
+    provisional until each Tavola has been read end to end.
+    <a href={u("/worklist/")}>It is on the work list →</a></p>
+  </section>
+
+  <section class="blk">
+    <div class="lab">22 September 2026 · eight marriage years, read whole</div>
+    <h2 style="margin-top:.4rem">The alphabet is not in alphabetical order</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Mascali's marriage <em>Tavole</em> were swept next, because the marriage index names both
+      spouses, all four parents and the comune each came from — one row would have carried a whole
+      generation. <strong>Eight years, 1835 to 1847. No Nicotra in any of them.</strong></p>
+      <p>What the sweep turned up instead is a caution. <strong>The 1847 clerk wrote his sections in
+      the order C, then N, then M.</strong> 1841 and 1835 put V before S. These are not slips in one
+      volume; they are how this office worked.</p>
+      <p><strong>So at Mascali, «the alphabet runs M straight into P» proves nothing.</strong> The N
+      may be sitting three headings earlier. The only safe reading of a Mascali index is the whole
+      table, first heading to «Fine» — which is how all eight years below were read, and which is why
+      they can be trusted.</p>
+    </div>
+    <div class="scroll" style="margin-top:20px">
+      <table>
+        <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
+        <tbody>
+          {MARRS.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class="m small">{r.entries}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   </section>
 
@@ -138,7 +177,9 @@ const yrs = civil.map((r) => [r.from, r.to]).flat().filter(Boolean);
         are placed: <strong>Venera, 12 December 1873</strong>, and Maria. 1876 and 1877 hold Nicotra
         entries whose indexes carry <strong>no <em>paternità</em> column</strong>, so they are read and
         <strong>unresolved</strong>, which is not the same as absent.</li>
-        <li><strong>Marriages and deaths.</strong> Neither series has been opened here at all.</li>
+        <li><strong>The deaths.</strong> Not opened here at all. Rosario Nicotra and Venera Murabito
+        were both alive in October 1872 and no death has been sought for either, in any of the four
+        towns. The marriages, by contrast, are now swept for 1835–1841 and 1847.</li>
         <li><strong>The <em>riveli</em> of {rivFrom}.</strong> Forty-six volumes at Palermo that this
         archive knows how to read — it has used the Piedimonte ones — and has not touched.</li>
       </ul>
