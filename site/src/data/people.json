@@ -109,11 +109,7 @@
     "slug": "giovanni-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 2
+  ]
  },
  {
   "id": "@I2@",
@@ -259,34 +255,7 @@
     "slug": "giovanni-mazza-2",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-1026",
-    "href": "/nudgee"
-   },
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Toscana, 04 Oct 1949",
-    "href": "/crossings"
-   },
-   {
-    "kind": "cited in the tree",
-    "what": "Australia Death Notices, 1860-2019",
-    "href": "/sources"
-   },
-   {
-    "kind": "naturalisation file",
-    "what": "NAA: J25, 1971/1074 — «Mazza, Sebastiano; wife Domenica [nee Prostamo]», 1950-1971",
-    "href": "/queensland"
-   }
-  ],
-  "corrections": [
-   "THE FILE THE 1959 ELECTORAL ROLL SAID MUST EXIST. Brisbane, paper, and «not yet examined», so it needs an access request before anyone can read it. Its date range covers the whole of their Australian lives to 1971."
-  ],
-  "onSpine": true,
-  "ancGen": 3
+  ]
  },
  {
   "id": "@I3@",
@@ -447,36 +416,7 @@
     "slug": "saveria-prostamo",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-1027",
-    "href": "/nudgee"
-   },
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger manifest — the Ugolino Vivaldi of 1 March 1951 read in full, and she is NOT on it",
-    "href": "/crossings"
-   },
-   {
-    "kind": "naturalisation file",
-    "what": "NAA: J25, 1971/1074 — «Mazza, Sebastiano; wife Domenica [nee Prostamo]», 1950-1971",
-    "href": "/queensland"
-   },
-   {
-    "kind": "flagged",
-    "what": "NAA: K269, 1 MAR 1951 UGOLINO VIVALDI, item 30133197 -- master list and Fremantle debarkation schedule, read in full",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "THE CANDIDATE IS WITHDRAWN. The master list holds ONE Mazza, «MAZZA Domenico» no. 476, bound for NARRACAN, VICTORIA and landing at MELBOURNE -- he is absent from the Fremantle debarkation schedule. No Prostamo aboard at all, and no second Mazza, though the list names children individually. Her March 1951 crossing is unknown again.",
-   "SHE IS NAMED WITH HER MAIDEN NAME ON HER HUSBAND'S FILE. Now that the Ugolino Vivaldi is disproved this is the best hope of her real crossing: a Queensland immigration file running from 1950 would record how and when she came.",
-   "Crossing — ship named, RETRACTED — RETRACTED. The manifest has been read and it is NOT her. The MASTER LIST of the Ugolino Vivaldi, trip 2/51, carries exactly ONE Mazza -- «MAZZA Domenico», no. 476 -- bound for NARRACAN, VICTORIA, and marked in the port column -M-. That column is unlabelled, but the -F- passengers correspond ONE FOR ONE with the Department of Immigration's separate «Schedule of Alien Passengers for debarkation at Fremantle», so F is Fremantle, M Melbourne, S Sydney. THIS MAN DID NOT LAND AT FREMANTLE -- he is absent from that schedule, which runs MARTINELLI straight to MERENDINO. There is NO Prostamo aboard under any spelling, and NO second Mazza, though the list names children individually. Domenica Prostamo went to her husband in BRISBANE. This is a Victorian arrival and a different man."
-  ],
-  "onSpine": true,
-  "ancGen": 3
+  ]
  },
  {
   "id": "@I4@",
@@ -576,31 +516,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "documented",
-    "what": "FamilySearch full-text, Piedimonte Etneo Nati 1873 atto 3",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "FamilySearch full-text, death act",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Piedimonte Etneo, Nati 1873 atto 3; Nati 1879, Indice Annuale",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Birth date — Born 5 January 1873 at Piedimonte Etneo. Six years out.",
-   "Death date — Died 19 September 1929.",
-   "Birth year — the tree's 1879 has no act, and 1873 does — BORN 5 JANUARY 1873, Piedimonte Etneo Nati atto 3, in CONTRADA TERREMORTE, to «Rosario Mazza di Mariano», twenty-eight, bracciante, and «Leonarda Bonanno di Gaetano». The 1873 act had been read here before; what is new is that the 1879 ANNUAL INDEX has now been read whole and holds NO Salvatore Mazza at all -- only a Mazza Rosaria and a Mazza Venerio. So the tree's year is not merely unsupported, it is excluded at that comune. Six years out, which is this family's usual margin."
-  ],
-  "onSpine": true,
-  "ancGen": 4
+  "siblings": []
  },
  {
   "id": "@I5@",
@@ -752,35 +668,7 @@
     "slug": "nina-nicotra",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-0044",
-    "href": "/nudgee"
-   },
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the —, 20 Apr 1962",
-    "href": "/crossings"
-   },
-   {
-    "kind": "superseded",
-    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Mascali, Nati 1875 atto 144; Piedimonte Etneo, Matrimoni 1872 atto 20",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Where Maria Nicotra was born — the prediction, before the act was found — MASCALI, AND THE TREE HAS GIVEN HER HER MOTHER'S TOWN. This row is kept as it was reasoned, because the reasoning is the point and it was made BEFORE the act existed to check it against. Her parents' marriage act (Piedimonte, Matrimoni 1872 atto 20) puts GIOVANNI NICOTRA «domiciliato e residente a MASCALI» and VENERA CASSANITI «qui domiciliata» -- she was the Piedimonte one, he was not. A wife moved to her husband's comune, so the children of that marriage would be registered at Mascali. THAT IS WHY FOURTEEN CONSECUTIVE PIEDIMONTE BIRTH INDEXES, 1870-1883, PRODUCE NO MARIA NICOTRA: the archive was reading the wrong town's register, carefully, for days. WHEN THIS WAS WRITTEN, MASCALI'S REGISTERS HAD NOT BEEN OPENED and the row said so. THEY WERE OPENED THE SAME DAY AND THE PREDICTION HELD: Mascali, Nati 1875 atto 144, 8 December 1875 at half past nine in the evening, contrada Sopra Pietrafitta -- the next row down, with the act reproduced on the Mascali page. SUPERSEDED, AND KEPT.",
-   "A birth date, a birth hour and the right town — BORN AT MASCALI, PROVINCE OF CATANIA, ON 8 DECEMBER 1875 AT HALF PAST NINE IN THE EVENING, in contrada Sopra Pietrafitta, and registered two days later by her father. Mascali Nati 1875 atto 144, read in the original: «da VENERA CASSANITI sua moglie ... e nata una bambina di sesso femminile ... a cui da il nome di MARIA». SHE IS THE WOMAN AT GENERATION FOUR who married Salvatore Mazza and is buried at Nudgee, and this archive spent fourteen consecutive Piedimonte birth indexes failing to find her because it was reading the wrong town's register. Her death at Brisbane in 1963 aged eighty-eight fits the date exactly."
-  ],
-  "onSpine": true,
-  "ancGen": 4
+  ]
  },
  {
   "id": "@I6@",
@@ -945,22 +833,7 @@
     "slug": "giuseppe-prostamo-1907",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Roma, 21 Oct 1957",
-    "href": "/crossings"
-   },
-   {
-    "kind": "cited in the tree",
-    "what": "I Melluso",
-    "href": "/sources"
-   }
-  ],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 4
+  ]
  },
  {
   "id": "@I7@",
@@ -1110,11 +983,7 @@
     "slug": "saveria-melluso",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 4
+  ]
  },
  {
   "id": "@I8@",
@@ -1265,24 +1134,7 @@
     "slug": "nunziata-nancy-mary-anile",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger manifest",
-    "what": "Ellis Island, 2 August 1906 — the Luisiana, aged 26, line 27",
-    "href": "/crossings"
-   },
-   {
-    "kind": "documented",
-    "what": "Ellis Island, the Luisiana",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Crossing -- ship named — The LUISIANA, lines 26 and 27. Domenica's age on the manifest is 26, which matches her birth of 20 February 1880 exactly."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  ]
  },
  {
   "id": "@I9@",
@@ -1381,11 +1233,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I10@",
@@ -1522,17 +1370,7 @@
     "slug": "carmela-prostamo",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "cited in the tree",
-    "what": "I Melluso",
-    "href": "/sources"
-   }
-  ],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 5
+  ]
  },
  {
   "id": "@I11@",
@@ -1628,11 +1466,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I12@",
@@ -1717,11 +1551,7 @@
     "slug": "vennero-armanno",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I13@",
@@ -1801,11 +1631,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I14@",
@@ -1816,7 +1642,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1837,11 +1663,7 @@
   "parents": [],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I15@",
@@ -1852,7 +1674,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -1873,11 +1695,7 @@
   "parents": [],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I17@",
@@ -1901,11 +1719,7 @@
   "parents": [],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I18@",
@@ -1916,7 +1730,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 5,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -1929,11 +1743,7 @@
   "parents": [],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I23@",
@@ -2001,82 +1811,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "death record",
-    "what": "Italy, Catania — died 15 November 1924 at Presa, Piedimonte Etneo, aged 79",
-    "href": "/mazza"
-   },
-   {
-    "kind": "birth register",
-    "what": "Piedimonte Etneo, Nati 1845, atto 64 — born 2 June 1845, in his parents' house",
-    "href": "/mazza"
-   },
-   {
-    "kind": "marriage register",
-    "what": "Piedimonte Etneo, Matrimoni 1871, atto 14 — married Leonarda Bonanno, 30 April 1871",
-    "href": "/mazza"
-   },
-   {
-    "kind": "documented addition",
-    "what": "Piedimonte Etneo, Nati 1845 atto 64; Matrimoni 1871 atto 14; Italy, Catania -- death 15 November 1924",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Italy, Catania, Catania, Civil Registration (Tribunale), 1866-1929",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Piedimonte Etneo, Nati 1845, atto 64",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Piedimonte Etneo, Matrimoni 1871, atto 14",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Piedimonte Etneo, Nati 1845 atto 64",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Piedimonte Etneo, Nati 1872 atto 32",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Piedimonte Etneo, Nati 1872 atto 32; Nati 1880 atto 66",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Piedimonte Etneo, Nati 1845 atto 64; Nati 1872 atto 32; Nati 1880 atto 66",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The tree gives him no death and dates his birth to 1850. The death act gives 15 NOVEMBER 1924, an age of SEVENTY-NINE (so born 1845, as this archive had already derived from the marriage proclamations), a trade -- CONTADINO -- and, crucially, BOTH HIS PARENTS: Mariano and Maria Catalano. The deepest Sicilian generation was an inference until this act; it is now documented.",
-   "The tree gives 1850. Act 64 of 1845 gives the day: born at eleven in the morning of 2 JUNE 1845, declared the same day by his father MARIANO MAZZA, thirty-six, BRACCIALE, with the mother named as MARIA CATALANO, thirty-six. The parish of the Chiesa Maggiore returned the baptism notice on the same day.",
-   "Four in the afternoon in the casa comunale, before Barone Mariano, sindaco. Both spouses single, both born and living at Piedimonte Etneo, both BRACCIANTI. He is entered as twenty-six, which his own birth act makes twenty-five and eleven months. Witnesses Salvatore Greco, calzolaio, 38, and Antonino Di Lava fu Giuseppe, bracciante, 46.",
-   "HE IS IN THE FAMILY TREE; HIS PARENTS ARE NOT. This row exists only to carry the join: it anchors MARIANO MAZZA and MARIA CATALANO, both named in his own birth act, onto the export person the charts draw. Without it the chart closed his line with «Before Piedimonte Etneo, 1850» -- a card that reported the tree's silence and read as though the registers were silent too. They are not. He is the top of the Sicilian spine in the export; the two people above him are documented and the chart now draws them.",
-   "Death -- missing entirely — DIED 15 NOVEMBER 1924 at PRESA, Piedimonte Etneo, aged seventy-nine, a CONTADINO; certificate 15. His death act also names his father MARIANO and his mother MARIA CATALANO, and his wife Leonarda Bonanno.",
-   "Birth year — Born 1845 at Piedimonte Etneo. His death act makes him SEVENTY-NINE in November 1924. This archive had already derived 1845 from the ages the marriage proclamations gave him in 1898, 1902 and 1910; the death act agrees.",
-   "Trade -- missing entirely — CONTADINO -- a peasant farmer. Which sets the Sicilian Mazza against the Calabrian Arena exactly: four generations of Arena sailors on the water at Scilla, and the Mazza contadini on the mountain at Piedimonte.",
-   "Birth date — BORN 2 JUNE 1845 at Piedimonte Etneo, at eleven in the morning, in his parents' own house. Act 64 of the births of 1845. The tree is FIVE YEARS out. Both parents are in the act: Mariano Mazza, 36, bracciale, and Maria Catalano, 36.",
-   "Marriage -- missing entirely — MARRIED 30 APRIL 1871 at Piedimonte Etneo, act 14, at four in the afternoon. Both single, both born and living there, both braccianti.",
-   "The chart says less than the archive knows — HIS PARENTS ARE NAMED IN HIS OWN BIRTH ACT: MARIANO MAZZA, thirty-six, bracciale, and MARIA CATALANO, thirty-six, Piedimonte Etneo Nati 1845 atto 64. The card is not a research wall -- it is the chart reporting that the FAMILY TREE has no parents for him, because the chart draws the tree and these two people are documented additions rather than tree people. The card's year is wrong too: 1850 is the tree's birth year and the act says 2 JUNE 1845.",
-   "Age — a third confirmation — TWENTY-SEVEN on 13 February 1872, when he registered his son Mariano's birth in person -- so born about 1845. That is now THREE independent statements against the tree's 1850: his own birth act of 2 June 1845, his death act of 1924 making him seventy-nine, and his own word at a registration desk in 1872.",
-   "A child the tree does not have — FIVE, AND THE ELDEST IS MARIANO, born 12 February 1872 in contrada San Basilio and named for his grandfather exactly as the naming custom predicts. Salvatore follows on 5 January 1873, eleven months later -- so either Mariano died in infancy or the births are ten and a half months apart. His death has not been sought.",
-   "A sixth child, and the custom called him — SIX AT LEAST. MARIANO, born 12 February 1872, named for his father's father; and GAETANO, born 5 May 1880, named for his mother's father GAETANO BONANNO -- which is exactly the order the Sicilian naming custom prescribes, first son for the paternal grandfather and the maternal grandfather next. Both in via San Basilio, both declared by Rosario in person, both absent from the family tree.",
-   "Declared age drifts three years — THE REGISTER ITSELF DISAGREES BY THREE YEARS IN 1880. He is twenty-seven in February 1872 and twenty-eight in January 1873 -- both fitting a birth in June 1845 -- and then THIRTY-TWO in May 1880, which would put him in 1848. His own birth act and his death act of 1924 both say 1845. RECORDED RATHER THAN AVERAGED: a declared age is a statement, not a measurement, and the act of birth outranks all of them."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I24@",
@@ -2129,11 +1864,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I25@",
@@ -2217,11 +1948,7 @@
     "slug": "giuseppi-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 2
+  ]
  },
  {
   "id": "@I26@",
@@ -2297,11 +2024,7 @@
     "slug": "angela-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 1
+  ]
  },
  {
   "id": "@I27@",
@@ -2374,11 +2097,7 @@
     "slug": "michael-rocco-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I28@",
@@ -2515,30 +2234,7 @@
     "slug": "mario-salvatore-arena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-1029",
-    "href": "/nudgee"
-   },
-   {
-    "kind": "naturalisation file",
-    "what": "NAA: J25, 1971/3900 — «Arena, Rocco; wife Angelina [or Angela] [nee Polistena]», 1953-1971",
-    "href": "/queensland"
-   },
-   {
-    "kind": "certain",
-    "what": "NAA: MP1103/1 PWN9406; A367 C18000/298; ST1233/1 N35192; against NAA passenger index, arrival 27 December 1953",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "THE EXACT PARALLEL OF THE MAZZA FILE, and it means BOTH pairs of Michael Mazza's grandparents have one. Brisbane, paper, «not yet examined» -- it needs the same access request. Its date range opens in 1953, which is the year Rocco Arena's crossing is dated.",
-   "A fourth internment that is NOT this family — A GUARD — A ROCCO ARENA WAS INTERNED IN AUSTRALIA AND HE IS NOT ONE OF THEM. NAA: MP1103/1 and MP1103/2, PWN9406, give «Prisoner of War/Internee: Arena, Rocco; Date of birth - 31 AUGUST 1909»; A367 C18000/298 and C329 42 are his Aliens Tribunal objection, number 35 of 1941; C123 4326 and C123 ITALIAN INTERNEES [Box 611] are Sydney lists of 1940; ST1233/1 N35192 is «Rocco Arena [Interned] [Application for Naturalisation]». THE ARITHMETIC EXCLUDES HIM ABSOLUTELY. This archive's ROCCO ARENA ARRIVED IN AUSTRALIA ON 27 DECEMBER 1953 -- thirteen years after that man was interned. The other Rocco Arena, born at Scilla in 1861, DIED THERE ON 8 FEBRUARY 1932. Neither was in New South Wales in 1940. THIS GUARD EXISTS BECAUSE THE PATTERN IS ALREADY SET. Rosario Mazza, Mario Crupi and Antonino Crupi were all interned, all documented this week, and a fourth man of the right surname in the same camps would be very easy to believe. He is a Sydney man born in 1909 and he is nobody here."
-  ],
-  "onSpine": true,
-  "ancGen": 3
+  ]
  },
  {
   "id": "@I29@",
@@ -2683,47 +2379,7 @@
     "slug": "michael-antonio-polistena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-1028",
-    "href": "/nudgee"
-   },
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Surriento, 17 Jun 1949",
-    "href": "/crossings"
-   },
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals — the Surriento, arriving 17 June 1949, with her brother",
-    "href": "/crossings"
-   },
-   {
-    "kind": "naturalisation file",
-    "what": "NAA: J25, 1971/3900 — «Arena, Rocco; wife Angelina [or Angela] [nee Polistena]», 1953-1971",
-    "href": "/queensland"
-   },
-   {
-    "kind": "inferred",
-    "what": "NAA passenger arrivals index, item 9245788",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "NAA: J25, 1971/3900 (item 5121950)",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Not in the index under her own name. Her brother Antonino IS, on the Surriento arriving 17 June 1949 -- the exact date the tree gives for her.",
-   "She is named on her husband's file with her maiden name, exactly as Domenica Prostamo is on Sebastiano Mazza's. The NAA's own description hedges her given name -- «Angelina [or Angela]» -- which is the file itself being uncertain, not the archive.",
-   "Crossing -- ship named — The SURRIENTO. She is not indexed, but her brother Antonino is, arriving on that exact date.",
-   "Marriage — undocumented until now — A COMMONWEALTH FILE NAMES THEM AS HUSBAND AND WIFE. NAA: J25 1971/3900, held at Brisbane, 1953-1971: «ARENA, ROCCO; WIFE ANGELINA [OR ANGELA] [NEE POLISTENA]». J25 is the Queensland immigration and naturalisation correspondence series, and its file titles name a couple together with the WIFE'S MAIDEN NAME -- which is exactly what was missing. IT DOES NOT DATE THE MARRIAGE. What it does is turn «undocumented» into «documented as a fact, undated», and name the file that may date it. The file is «not yet examined», which means nobody has ever asked; an access examination is free and takes about ninety days. Michael's grandparents on the Arena side."
-  ],
-  "onSpine": true,
-  "ancGen": 3
+  ]
  },
  {
   "id": "@I30@",
@@ -2794,11 +2450,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I31@",
@@ -2856,11 +2508,7 @@
     "slug": "luca-francesco-calahorra",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I32@",
@@ -2971,19 +2619,7 @@
     "slug": "giovanni-mazza",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals — placed on his mother's March 1951 voyage",
-    "href": "/crossings"
-   }
-  ],
-  "corrections": [
-   "Born at Briatico in 1948, so two years old in March 1951, which matches the family account that Domenica Prostamo followed her husband with a son not yet three. Infants are routinely not indexed separately."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I33@",
@@ -3061,17 +2697,7 @@
     "slug": "giovanni-mazza",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-0165",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I34@",
@@ -3161,11 +2787,7 @@
     "slug": "frank-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I35@",
@@ -3265,11 +2887,7 @@
     "slug": "giovanni-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I36@",
@@ -3393,22 +3011,7 @@
     "slug": "giovanni-mazza-2",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-0395",
-    "href": "/nudgee"
-   },
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Surriento, 23 Sep 1953",
-    "href": "/crossings"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I37@",
@@ -3533,48 +3136,7 @@
     "slug": "giovanni-mazza-2",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-0117",
-    "href": "/nudgee"
-   },
-   {
-    "kind": "internment dossier",
-    "what": "NAA: MP1103/1, Q8110 — «Prisoner of War/Internee: Mazza, Rosario; Date of birth - 20 February 1899; Nationality - Italian», 1942-1944",
-    "href": "/queensland"
-   },
-   {
-    "kind": "investigation file",
-    "what": "NAA: BP242/1, Q21227 — «Mazza, Rosario - Queensland investigation case file», 1940-1948",
-    "href": "/queensland"
-   },
-   {
-    "kind": "Civil Aliens Corps",
-    "what": "NAA: J1737, MAZZA R — «Mazza Rosario, CAS 15000 - Civil Aliens Corps», 1944",
-    "href": "/queensland"
-   },
-   {
-    "kind": "documented",
-    "what": "NAA: MP1103/1, Q8110",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "NAA: J1737, MAZZA R (item 6305636); against NAA: MP1103/1, Q8110",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "HE WAS INTERNED. Michael Mazza's great-uncle was held as an enemy alien in the Second World War, and the dossier gives his birth date to the day. Open, at Melbourne, not digitised.",
-   "The Queensland security file that sits behind the internment. Open, at Brisbane, not digitised.",
-   "WHAT HAPPENED AFTER THE CAMP. Interned Italians were released into the Civil Aliens Corps and put to labouring work. Open, at Brisbane.",
-   "Birth date — BORN 20 FEBRUARY 1899. Given in the NAA's description of his internment dossier: «Prisoner of War/Internee: Mazza, Rosario; Date of birth - 20 February 1899; Nationality - Italian».",
-   "After the camp — HE WENT INTO THE CIVIL ALIENS CORPS. NAA: J1737, MAZZA R: «Mazza Rosario, CAS 15000 - CIVIL ALIENS CORPS (CAC)», Brisbane, 1944, ACCESS OPEN. The CAC was the labour corps that interned Italians were released into rather than freed -- road and timber work under military administration -- and CAS 15000 is his service number in it. This archive had his internment dossier, MP1103/1 Q8110, and then a silence. IT ALSO SITS BESIDE THE OTHER TWO. Mario Crupi was at Loveday from August 1942 and released on 30 December 1943; Antonino Crupi came out on 22 October 1943. Rosario's Corps file is 1944. The three men were moving through the same system within months of each other."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I38@",
@@ -3675,24 +3237,7 @@
     "slug": "giovanni-mazza-2",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Palermo, 21 Apr 1925",
-    "href": "/crossings"
-   },
-   {
-    "kind": "documented",
-    "what": "NAA passenger arrivals index",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Port — Arrived BRISBANE, 21 April 1925, on the Palermo out of MESSINA."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I39@",
@@ -3764,11 +3309,7 @@
     "slug": "sebastiano-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I40@",
@@ -3846,11 +3387,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I41@",
@@ -3910,11 +3447,7 @@
     "slug": "anthony-john-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I42@",
@@ -3974,11 +3507,7 @@
     "slug": "anthony-john-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I43@",
@@ -4040,11 +3569,7 @@
     "slug": "sebastian-michael-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I44@",
@@ -4090,11 +3615,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I45@",
@@ -4163,11 +3684,7 @@
     "slug": "maria-rosa-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I46@",
@@ -4221,11 +3738,7 @@
     "slug": "jiani-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I48@",
@@ -4352,11 +3865,7 @@
     "slug": "saveria-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I49@",
@@ -4483,11 +3992,7 @@
     "slug": "saveria-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I50@",
@@ -4589,11 +4094,7 @@
     "slug": "saveria-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I51@",
@@ -4710,25 +4211,7 @@
     "slug": "saveria-prostamo",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals — the Roma, Fremantle, 10 October 1957, with her father",
-    "href": "/crossings"
-   },
-   {
-    "kind": "documented",
-    "what": "NAA passenger arrivals index, item 30132189",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "A Francesca Prostamo had been noted on Francessco Prostamo's voyage and flagged as 'not in the family tree'. She IS in the tree: she is his daughter, born 1945 at Briatico, and she was twelve. What the tree lacks is her crossing, not her.",
-   "Crossing -- missing entirely — She sailed on the ROMA with her father Francessco, reaching Fremantle on 10 October 1957, aged twelve. She had been noted on his voyage and wrongly flagged as \"not in the family tree\" -- she is in it, as his daughter."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I52@",
@@ -4850,11 +4333,7 @@
     "slug": "francesca-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I53@",
@@ -4924,22 +4403,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-0718",
-    "href": "/nudgee"
-   },
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Napoli, 08 May 1949",
-    "href": "/crossings"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I54@",
@@ -5024,17 +4488,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-0719",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I55@",
@@ -5096,11 +4550,7 @@
     "slug": "connie-armanno",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I56@",
@@ -5175,11 +4625,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I57@",
@@ -5274,11 +4720,7 @@
     "slug": "carmela-prostamo-1976",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I58@",
@@ -5359,11 +4801,7 @@
     "slug": "carmela-prostamo-1976",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I59@",
@@ -5451,11 +4889,7 @@
     "slug": "carmela-prostamo-1976",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I60@",
@@ -5543,11 +4977,7 @@
     "slug": "maria-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I61@",
@@ -5637,11 +5067,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I62@",
@@ -5733,19 +5159,7 @@
     "slug": "antonia-prostamo",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "inferred",
-    "what": "site/src/data/people.json against the export; reasoned from birthplace, marriage and siblings, not from an act",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Parentage — two people read as one — ANTONIO GIACOMO PROSTAMO AND ANGELA TOMSIC. She was born at BRISBANE and married Steve Liversegle, and that is the Brisbane household — her brothers and sisters there are Tony, Kristina, Steven and Francesco. The other couple, Francesco Prostamo of Briatico and Raffaela of Catanzaro, had a daughter of the same name with a sister called Antonia. BOTH FATHERS HAD A MOTHER CALLED MARIA ROSA MELLUSO, so both couples named a daughter for her — which is how two women came to be read as one. (RELABELLED 15 SEPTEMBER: this was carried as «probable», which on this page means the best reading of an ambiguous DOCUMENT. Nothing here is ambiguous to read -- the reasoning is from BIRTHPLACE, which is an inference from circumstance and belongs under «inferred».)"
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I63@",
@@ -5839,11 +5253,7 @@
     "slug": "steven-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I64@",
@@ -5937,11 +5347,7 @@
     "slug": "steven-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I65@",
@@ -6035,11 +5441,7 @@
     "slug": "steven-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I66@",
@@ -6111,11 +5513,7 @@
     "slug": "francesco-prostamo-1961",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I67@",
@@ -6190,11 +5588,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I68@",
@@ -6278,11 +5672,7 @@
     "slug": "barbara-trungadi",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I69@",
@@ -6361,11 +5751,7 @@
     "slug": "barbara-trungadi",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I70@",
@@ -6427,11 +5813,7 @@
     "slug": "maria-rosa-trungadi",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I71@",
@@ -6501,11 +5883,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I72@",
@@ -6573,11 +5951,7 @@
     "slug": "domenico-twin-panella",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I73@",
@@ -6645,11 +6019,7 @@
     "slug": "domenico-twin-panella",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I74@",
@@ -6715,11 +6085,7 @@
     "slug": "domenico-twin-panella",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I75@",
@@ -6785,11 +6151,7 @@
     "slug": "francesco-panella",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I76@",
@@ -6911,17 +6273,7 @@
     "slug": "vernera-cavallaro",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Ravello, 13 May 1951",
-    "href": "/crossings"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I77@",
@@ -7008,17 +6360,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Surriento, 23 Sep 1953",
-    "href": "/crossings"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I78@",
@@ -7086,42 +6428,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-0116",
-    "href": "/nudgee"
-   },
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Viminale, 07 Dec 1937",
-    "href": "/crossings"
-   },
-   {
-    "kind": "alien passenger declaration",
-    "what": "NAA: A12508, 31/1454 — «CRUPI [MAZZA] Angela born 20 December 1900; Maria age 15; Carmela age 8 ... per VIMINALE arriving in Brisbane on 7 December 1937»",
-    "href": "/crossings"
-   },
-   {
-    "kind": "probable",
-    "what": "Queensland death registration 1973/B/38514, against the Nudgee Catholic cemetery register",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "NAA: A12508, 31/1454",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "HER ARRIVAL, HER EXACT BIRTH DATE, AND BOTH DAUGHTERS, from one line of an archival description. It also contradicts the tree's claim that Carmela was born at Tully in 1926.",
-   "Surname — a garbling — ANGELA CRUPI, daughter of FRANCESCO CRUPI and MARIA VECCHIO. Her Queensland death registration of 10 January 1973 names both parents, and the Nudgee register interred her three days later in plot V-0116 beside her husband Rosario Mazza in V-0117. Born 1900 at Catania, died 1973 at Brisbane, which is exactly the woman the export holds. CUPO IS A GARBLING OF CRUPI, and this data does that often — «Lecota» for Nicotra and «Postamo» for Prostamo are both already on this page.",
-   "Birth date — BORN 20 DECEMBER 1900. The NAA's description of her alien passenger declaration gives the day: «CRUPI [MAZZA] Angela born 20 December 1900».",
-   "Crossing -- missing entirely — ARRIVED BRISBANE 7 DECEMBER 1937 ON THE VIMINALE, with two daughters -- «Maria age 15; Carmela age 8». The archive had no arrival for her and no idea the Mazza were in Australia this early."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I79@",
@@ -7218,17 +6525,7 @@
     "slug": "carmela-mazza",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot CHAP-117-A3",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I80@",
@@ -7311,19 +6608,7 @@
     "slug": "maria-mazza",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "flagged",
-    "what": "NAA: A12508, 31/1454",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Birth year and birthplace — A CONTRADICTION — CANNOT BOTH BE TRUE. She arrives at Brisbane on 7 December 1937 as an ITALIAN ALIEN aged EIGHT -- so born about 1929, in Italy. A child born at Tully in 1926 would be eleven and an Australian-born British subject, needing no alien declaration at all. Her sister Maria, «age 15», fits the tree's 1922 exactly, so the record is not loose about ages."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I81@",
@@ -7369,11 +6654,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I82@",
@@ -7427,11 +6708,7 @@
     "slug": "richard-cavallaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I83@",
@@ -7485,11 +6762,7 @@
     "slug": "fillipo-cavallaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I84@",
@@ -7550,11 +6823,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I85@",
@@ -7636,11 +6905,7 @@
     "slug": "ross-coco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I86@",
@@ -7715,11 +6980,7 @@
     "slug": "ross-coco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I87@",
@@ -7801,11 +7062,7 @@
     "slug": "tony-coco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I88@",
@@ -7859,11 +7116,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I89@",
@@ -7939,11 +7192,7 @@
     "slug": "anthony-napoli",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I90@",
@@ -8019,11 +7268,7 @@
     "slug": "furtuna-napoli",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I91@",
@@ -8079,11 +7324,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I92@",
@@ -8137,11 +7378,7 @@
     "slug": "allana-spenelli",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I93@",
@@ -8195,11 +7432,7 @@
     "slug": "cortney-spenelli",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I94@",
@@ -8253,11 +7486,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I95@",
@@ -8340,11 +7569,7 @@
     "slug": "sidora-giammona",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I96@",
@@ -8405,11 +7630,7 @@
     "slug": "peppino-giammona",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I97@",
@@ -8448,11 +7669,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I98@",
@@ -8506,11 +7723,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I99@",
@@ -8571,11 +7784,7 @@
     "slug": "leonarda-giammona",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I100@",
@@ -8644,11 +7853,7 @@
     "slug": "giovanni-giammona-1970",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I101@",
@@ -8687,11 +7892,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I102@",
@@ -8730,11 +7931,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I103@",
@@ -8781,11 +7978,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I104@",
@@ -8832,11 +8025,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I105@",
@@ -8882,11 +8071,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I106@",
@@ -8947,11 +8132,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I107@",
@@ -9005,11 +8186,7 @@
     "slug": "quinto-pellagrini",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I108@",
@@ -9070,11 +8247,7 @@
     "slug": "loretta-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I109@",
@@ -9113,11 +8286,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I110@",
@@ -9164,11 +8333,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I111@",
@@ -9230,11 +8395,7 @@
     "slug": "giuseppi-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I112@",
@@ -9304,11 +8465,7 @@
     "slug": "nancy-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I113@",
@@ -9362,11 +8519,7 @@
     "slug": "domenic-coco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I114@",
@@ -9420,11 +8573,7 @@
     "slug": "loretta-coco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I115@",
@@ -9478,11 +8627,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I116@",
@@ -9536,11 +8681,7 @@
     "slug": "briana-napoli",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I117@",
@@ -9594,11 +8735,7 @@
     "slug": "alexandra-napoli",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I118@",
@@ -9637,11 +8774,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I119@",
@@ -9688,11 +8821,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I120@",
@@ -9835,37 +8964,7 @@
     "slug": "benadetta-polistena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1883, atto 206 — born 16 September 1883, Via Grotte 47",
-    "href": "/scilla"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1883 atto 206; New Orleans passenger list, S.S. Liguria, 1908",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "New Orleans passenger list, S.S. Liguria, 1908",
-    "href": "/corrections"
-   },
-   {
-    "kind": "candidate",
-    "what": "NAA: BP9/3, ITALIAN POLISTENA G (item 3458957)",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The tree gives his mother as Giovanna Pontillo. SETTLED, AND NOT IN THE TREE'S FAVOUR: act 206 of 1883 names her GIOVANNA ROMANO, and the New Orleans manifest of 22 February 1908 -- taken from his own statement at twenty-four, half a world from Scilla -- names 'father Antonino Polistena and mother Giovanna Romano'. Two independent records, two continents. He also has a crossing the tree does not record: the S.S. Liguria out of Palermo, bound for Quincy, Florida, on the line immediately after Michele Donato -- whose daughter he would marry about eight years later.",
-   "Parentage — His mother is GIOVANNA ROMANO, not Giovanna Pontillo. SETTLED BY TWO INDEPENDENT RECORDS: act 206 of 1883 names her Giovanna Romano, and the New Orleans manifest of 1908 -- filled in from Giovanni's own statement, twenty-five years later and half a world away -- names 'father Antonino Polistena and mother Giovanna Romano, Scilla'. The father is the same man under three spellings: Camillo Antonio in the act, Antonio in the tree, Antonino on the manifest.",
-   "Crossing -- missing entirely — He sailed from PALERMO on the S.S. LIGURIA on 22 February 1908, reaching NEW ORLEANS, bound for QUINCY, FLORIDA -- on the line immediately after Michele Donato, whose daughter he would marry about eight years later. Aged 24, single, a sailor.",
-   "A second migration, twenty years and half a world apart — HE MAY HAVE GONE TO AUSTRALIA TOO. NAA: BP9/3, ITALIAN POLISTENA G -- the Brisbane aliens register -- reads «Polistena, GIOVANNI BORN 1883 - nationality Italian - arrived in BRISBANE on the ORMONDE 21 FEBRUARY 1928». This archive's Giovanni Polistena was born at Scilla in 1883 (act 206), sailed from PALERMO to NEW ORLEANS on the LIGURIA in February 1908 on the line immediately after Michele Donato, married Michele's daughter Nunziata about 1916, and named a daughter Santa at Scilla in 1920. A crossing to Brisbane in 1928 sits after all of that and would explain how this family reached Queensland at all. THE YEAR OF BIRTH MATCHES EXACTLY AND THE PORT IS THE RIGHT ONE. IT IS STILL A CANDIDATE: the register entry carries no parents and no birthplace, and POLISTENA is a comune in Reggio Calabria as well as a surname, so the name alone proves nothing. The test is the item itself, or any Queensland record placing him there in the 1930s."
-  ],
-  "onSpine": true,
-  "ancGen": 4
+  ]
  },
  {
   "id": "@I121@",
@@ -9996,25 +9095,7 @@
     "slug": "santa-donato",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1892, atto 162 — born 6 July 1892, Via Grotte 31",
-    "href": "/scilla"
-   },
-   {
-    "kind": "documented",
-    "what": "Marginal annotation on Scilla, Nati 1892, atto 162",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The act's marginal annotation records a death the tree does not have at all: she died at SCILLA on 26 AUGUST 1975, death act 30 of that year. Her daughters Angela and Giovanna are buried at Nudgee in Brisbane; their mother stayed at Scilla.",
-   "Death -- missing entirely — Died at Scilla on 26 August 1975, death act 30 of that year, aged 83. Her daughters Angela and Giovanna are buried at Nudgee in Brisbane; she never left Scilla."
-  ],
-  "onSpine": true,
-  "ancGen": 4
+  ]
  },
  {
   "id": "@I122@",
@@ -10118,56 +9199,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1892, atto 162 — named as the father, aged 36, pescatore",
-    "href": "/scilla"
-   },
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1855, atto 163 — born 3 October 1855, in his parents' house",
-    "href": "/scilla"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1892, atto 162; New Orleans passenger list 1908",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1892, atto 162",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Antenati name index, Scilla, atto di morte 10 May 1936",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Morti 1936, parte I, atto 20; against the New Orleans manifest of March 1908",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Morti 1936, parte I, atto 20",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The tree puts his birth at Scilla in 1851. Act 162 of 1892 makes him THIRTY-SIX in July 1892, so born about 1856 -- and gives him a trade the tree does not record, pescatore. But the Scilla birth indexes for 1851, 1856 and 1859 each hold a complete D section and NONE of them has a Donato in it, while 1892 has two Donato households. On this evidence the surname arrives at Scilla between 1859 and 1892 and he was probably born in another comune. CONFIRMED INDEPENDENTLY: the New Orleans manifest of 1908 records him aged 52, off the Liguria -- a birth about 1856, agreeing with act 162 and not with the tree's 1851. And the 'Donato arrived at Scilla late' hypothesis is dead: fifteen Donato gave Scilla as their last residence at Ellis Island between 1893 and 1921. THE MANIFEST IMAGE adds a third witness and more: aged 52, a SAILOR, and his nearest relative in Italy given as 'Wife Maria Sofi, Via Grotte, Scilla' -- the same street as act 162. He was bound for Quincy, Florida.",
-   "THE ACT THIS ARCHIVE LOOKED FOR LONGEST. Declared on 4 October 1855 by his father DOMENICO DONATO, thirty-eight, MARINARO, «figlio di CANDELORO»; his mother NUNZIATA SOFI, thirty-seven. Three generations in one act. The tree says 1851 — four years out — and the search failed for a fortnight because 1851, 1856 and 1859 were read and 1855 was not.",
-   "Birth year — Born about 1856. Thirty-six in his daughter's birth act of July 1892, and fifty-two on the New Orleans manifest of 1908 -- and the New Orleans manifest image names him a SAILOR whose nearest relative is 'Wife Maria Sofi, Via Grotte, Scilla' -- three independent witnesses agreeing.",
-   "Trade -- missing entirely — PESCATORE, a fisherman. Living at Via Grotte 31, Scilla, in 1892.",
-   "Death -- missing entirely — DIED AT SCILLA ON 10 MAY 1936, «Padre Domenico, Madre Nunziata Sofi, Coniuge Maria Sofi» -- all three matching this archive exactly. He was fifty-two on the New Orleans manifest of March 1908, sailing for Quincy, Florida; he came home and lived another twenty-eight years. THE LAST MAN ON THE DONATO LINE WHOSE END WAS UNKNOWN.",
-   "Birth year — BORN ABOUT 1856, NOT 1851, AND TWO RECORDS AGREE AGAINST THE TREE. His death act of 10 May 1936 makes him «di anni OTTANTA»; the New Orleans manifest of March 1908 makes him FIFTY-TWO. Both point at 1855 or 1856. THE TREE'S 1851 WOULD HAVE MADE HIM EIGHTY-FIVE AT DEATH AND FIFTY-SEVEN ON THE SHIP. Five years out, and it matters because he is on the spine.",
-   "Trade -- missing entirely — MARINAIO -- a mariner, not a fisherman. The distinction is worth keeping: his contemporary GIOVANNI ARENA, who died six weeks earlier and sixty yards away, is also «marinaio», while ROCCO ARENA four years before is «pescatore». Scilla's men went to sea two different ways.",
-   "Death -- missing entirely — DIED AT SIX IN THE MORNING ON 10 MAY 1936, AT VIA GROTTE 66, SCILLA. «e morto DONATO MICHELE, di anni ottanta, marinaio, residente in Scilla, nato in questo Comune, dal fu DOMENICO e da fu SOFI NUNZIATA, MARITO DI SOFI MARIA.» Both parents dead, HIS WIFE STILL LIVING. The declarants were LICO FRANCESCO DI DOMENICO, twenty-four, and PALAMARA GIOVANNI FU ANTONINO, thirty-seven, both day-labourers."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I123@",
@@ -10242,25 +9274,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1892, atto 162 — named as the mother, a filatrice",
-    "href": "/scilla"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1892, atto 162",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Named twice, sixteen years and one ocean apart: as the mother in act 162 of 1892, and as 'Wife Maria Sofi, Via Grotte, Scilla' on her husband's 1908 New Orleans manifest.",
-   "Trade -- missing entirely — FILATRICE, a spinner."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I124@",
@@ -10349,19 +9363,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1883, atto 206",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Trade -- missing entirely — CAMILLO ANTONIO POLISTENA, pescatore, aged 48 in 1883 so born about 1835. Living at Via Grotte 47, Scilla."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I125@",
@@ -10465,25 +9467,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "probable",
-    "what": "Antenati name index, Scilla death acts — atto di morte 19 October 1924; and atto di morte 4 May 1920 (Santa Polistena)",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Antenati name index, Scilla, atto di morte 15 July 1930",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "my own reading — a name in dispute, RESOLVED — SHE IS GIOVANNA ROMANO, AND THE PONTILLO BELONGS TO HER MOTHER-IN-LAW. A FOURTH record now calls her Romano -- her husband's death act of 1924 gives «Coniuge Giovanna Romano», and their daughter Santa's of 1920 gives «Madre Giovanna Romano». The same act names the husband's own mother as ANNA PONTILLO. SO THE EXPORT TOOK THE HUSBAND'S PARENTS AND HUNG THEM ON THE WIFE: «Giuseppi Pontillo» is Camillo Antonio's father GIUSEPPE POLISTENA, and the Pontillo is his mother ANNA. That is why this archive could never find a Pontillo family behind her -- there is not one. Two asserted ancestors dissolve and two documented ones replace them.",
-   "my own reading — a name in dispute, SETTLED — HER OWN DEATH ACT ENDS IT. «GIOVANNA ROMANO, died Scilla 15 July 1930, Padre ANNUNZIATO, Madre ANGELA ZIRILLI, Coniuge CAMILLO ANTONIO POLISTENA.» She is named with her own surname, her own parents and her own husband, on her own act. THAT IS FIVE RECORDS CALLING HER ROMANO -- Scilla Nati 1883 atto 206, the New Orleans manifest of 1908, her husband's death act of 1924, her daughter Santa's of 1920, and now this. THE TREE'S «GIUSEPPI PONTILLO» AND «NUNZIATTA PONTILLO» ARE NOT HER PARENTS AND NEVER WERE. Her parents are ANNUNZIATO ROMANO and ANGELA ZIRILLI, and the Pontillo belonged to her mother-in-law, ANNA PONTILLO. Two asserted ancestors are withdrawn and two documented ones replace them."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I126@",
@@ -10530,11 +9514,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I127@",
@@ -10581,11 +9561,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I128@",
@@ -10732,27 +9708,7 @@
     "slug": "michael-antonio-polistena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "cited in the tree",
-    "what": "Social Security Death Index",
-    "href": "/sources"
-   },
-   {
-    "kind": "cited in the tree",
-    "what": "U.S., Find a Grave Index, 1600s-Current",
-    "href": "/sources"
-   },
-   {
-    "kind": "cited in the tree",
-    "what": "New Jersey, U.S., Death Index, 1848-1878, 1901-2017",
-    "href": "/sources"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I129@",
@@ -10894,11 +9850,7 @@
     "slug": "giovanni-polistena-4",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I131@",
@@ -10980,11 +9932,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I132@",
@@ -11058,11 +10006,7 @@
     "slug": "maria-polistena-1956",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I133@",
@@ -11182,17 +10126,7 @@
     "slug": "michael-antonio-polistena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-1038",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I134@",
@@ -11314,24 +10248,7 @@
     "slug": "michael-antonio-polistena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Surriento, 17 Jun 1949",
-    "href": "/crossings"
-   },
-   {
-    "kind": "documented",
-    "what": "NAA passenger arrivals index",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Port — Embarked at NAPLES, on the Surriento."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I135@",
@@ -11444,11 +10361,7 @@
     "slug": "michael-antonio-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I136@",
@@ -11539,19 +10452,7 @@
     "slug": "michael-antonio-polistena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "documented",
-    "what": "Antenati name index, Scilla, atto di morte 5 January 1933",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Death date — DIED 5 JANUARY 1933, not 1934. «Teresa Polistena, Padre Giovanni, Madre Annunziata Donato» -- her parents as the tree has them. The year is out by one."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I137@",
@@ -11687,11 +10588,7 @@
     "slug": "teressa-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I138@",
@@ -11789,11 +10686,7 @@
     "slug": "benadetta-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I139@",
@@ -11927,11 +10820,7 @@
     "slug": "benadetta-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I140@",
@@ -12015,11 +10904,7 @@
     "slug": "benadetta-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I141@",
@@ -12103,11 +10988,7 @@
     "slug": "nunziatta-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I144@",
@@ -12185,11 +11066,7 @@
     "slug": "giovanni-polistena-4",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I145@",
@@ -12259,11 +11136,7 @@
     "slug": "giovanni-polistena-4",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I146@",
@@ -12340,11 +11213,7 @@
     "slug": "giovanni-polistena-4",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I147@",
@@ -12414,11 +11283,7 @@
     "slug": "giovanni-polistena-4",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I148@",
@@ -12495,11 +11360,7 @@
     "slug": "gaiatano-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I149@",
@@ -12538,11 +11399,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I150@",
@@ -12573,11 +11430,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I152@",
@@ -12637,11 +11490,7 @@
     "slug": "maria-polistena-1956",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I153@",
@@ -12701,11 +11550,7 @@
     "slug": "nancy-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I154@",
@@ -12788,17 +11633,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-1039",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I155@",
@@ -12865,11 +11700,7 @@
     "slug": "john-bova",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I156@",
@@ -12936,11 +11767,7 @@
     "slug": "john-bova",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I157@",
@@ -13000,11 +11827,7 @@
     "slug": "peter-bova-1950",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I158@",
@@ -13043,11 +11866,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I159@",
@@ -13163,19 +11982,7 @@
     "slug": "giovanni-mazza-3",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "flagged",
-    "what": "Piedimonte Etneo, Nati 1883 Indice Annuale; Nati 1877 atto 168",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The year is untested and the obvious act is somebody else's — NO BIRTH ACT AT PIEDIMONTE IN 1883. The annual index for that year holds MAZZA ROSARIA 117 and MAZZA VENERA 118 and no Orazio at all. There IS an Orazio Mazza born at Piedimonte on 21 October 1877, act 168 -- but his father is the OTHER Rosario Mazza of the town, whose wife is LEONARDA MONACORSO and who lives in via Grotta Nicodemo, where ours is «Rosario Mazza di Mariano» with LEONARDA BONANNO in via San Basilio. UNLOCATED, NOT DISPROVED: 1884 onwards and 1874-1876 are unread for the M section, and the tree's years in this family run five and six out as a matter of course."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I160@",
@@ -13242,11 +12049,7 @@
     "slug": "giovanni-mazza-3",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I161@",
@@ -13300,11 +12103,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I162@",
@@ -13358,11 +12157,7 @@
     "slug": "thomas-whitaker",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I163@",
@@ -13416,11 +12211,7 @@
     "slug": "laura-whitaker",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I164@",
@@ -13467,11 +12258,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I165@",
@@ -13518,11 +12305,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I166@",
@@ -13576,11 +12359,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I167@",
@@ -13634,11 +12413,7 @@
     "slug": "elle-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I168@",
@@ -13692,11 +12467,7 @@
     "slug": "dane-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I169@",
@@ -13727,11 +12498,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I170@",
@@ -13785,11 +12552,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I171@",
@@ -13843,11 +12606,7 @@
     "slug": "joshua-adi-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I172@",
@@ -13901,11 +12660,7 @@
     "slug": "nathan-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I173@",
@@ -14046,11 +12801,7 @@
     "slug": "giuseppe-prostamo-1907",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I174@",
@@ -14139,11 +12890,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I175@",
@@ -14234,11 +12981,7 @@
     "slug": "giuseppe-prostamo-1907",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I176@",
@@ -14322,11 +13065,7 @@
     "slug": "giuseppe-prostamo-1907",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I177@",
@@ -14425,11 +13164,7 @@
     "slug": "giuseppe-prostamo-1907",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I178@",
@@ -14535,11 +13270,7 @@
     "slug": "giuseppe-prostamo-1907",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I179@",
@@ -14658,11 +13389,7 @@
     "slug": "antonino-prostamo-1904",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I180@",
@@ -14716,11 +13443,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I181@",
@@ -14811,19 +13534,7 @@
     "slug": "saveria-prostamo",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "inferred",
-    "what": "site/src/data/people.json against the export; reasoned from birthplace",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Parentage — a niece taken for a daughter — LEONE PROSTAMO AND ANNA VALLONE. Francessco (1900-1983) and Leone (b. 1902) are BROTHERS, both sons of Alfonso Prostamo and Caterina Melluso. Mattea was born at BUENOS AIRES in 1926; Anna Vallone was born at Buenos Aires and died there, and Mattea is the only child recorded to her. Francessco lived and died at BRIATICO and his seven children are the Briatico household. This archive already records a Prostamo branch at Buenos Aires with children born from 1926 — which is Mattea exactly. (RELABELLED 15 SEPTEMBER: this was carried as «probable», which on this page means the best reading of an ambiguous DOCUMENT. Nothing here is ambiguous to read -- the reasoning is from BIRTHPLACE, which is an inference from circumstance and belongs under «inferred».)"
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I182@",
@@ -14862,11 +13573,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I183@",
@@ -14905,11 +13612,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I184@",
@@ -14963,11 +13666,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I185@",
@@ -15050,11 +13749,7 @@
     "slug": "mattea-prostamo-1928",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I186@",
@@ -15115,11 +13810,7 @@
     "slug": "alfonso-prostamo-1926",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I187@",
@@ -15158,11 +13849,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I188@",
@@ -15223,11 +13910,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I189@",
@@ -15294,11 +13977,7 @@
     "slug": "pasquale-prostamo-1962",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I190@",
@@ -15358,11 +14037,7 @@
     "slug": "pasquale-prostamo-1962",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I191@",
@@ -15422,11 +14097,7 @@
     "slug": "antonino-prostamo-1960",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I192@",
@@ -15465,11 +14136,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I193@",
@@ -15523,11 +14190,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I194@",
@@ -15588,11 +14251,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I195@",
@@ -15652,11 +14311,7 @@
     "slug": "domenica-prostamo-1959",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I196@",
@@ -15716,11 +14371,7 @@
     "slug": "domenica-prostamo-1959",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I197@",
@@ -15780,11 +14431,7 @@
     "slug": "giuseppe-prostamo-1957",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I198@",
@@ -15853,11 +14500,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I199@",
@@ -15933,11 +14576,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I200@",
@@ -15976,11 +14615,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I201@",
@@ -16027,11 +14662,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I206@",
@@ -16085,11 +14716,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I207@",
@@ -16143,11 +14770,7 @@
     "slug": "jasmine",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I208@",
@@ -16201,11 +14824,7 @@
     "slug": "travis",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I209@",
@@ -16259,11 +14878,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I210@",
@@ -16317,11 +14932,7 @@
     "slug": "dominic",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I211@",
@@ -16375,11 +14986,7 @@
     "slug": "natasha",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I212@",
@@ -16426,11 +15033,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I213@",
@@ -16477,11 +15080,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I214@",
@@ -16541,11 +15140,7 @@
     "slug": "stella-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I215@",
@@ -16605,11 +15200,7 @@
     "slug": "stella-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I216@",
@@ -16669,11 +15260,7 @@
     "slug": "michael-john-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I217@",
@@ -16770,11 +15357,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I218@",
@@ -16863,11 +15446,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I219@",
@@ -16936,19 +15515,7 @@
     "slug": "giorgio-prostamo-di-maio",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "documented addition",
-    "what": "Briatico, Matrimoni 1849, atto 1 — Antenati an_ua87663",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The fourth generation, carried as UNTESTED until 14 September 2026 and now documented four times over. A MARINARO like his father and his son. He died at two in the morning on the last night of 1837 and his death is entered in Pizzo's SEPARATE REGISTER OF CHOLERA DEATHS, atto 327 — which is why the ordinary Morti volumes do not hold him. IN THE FAMILY TREE as antonino-prostamo-1785, where he is dated 1785 and given Pasquale Prostamo and a «Caterina Di Meio» as parents; the Pizzo register calls that same wife CATERINA MAJO."
-  ],
-  "onSpine": true,
-  "ancGen": 7
+  ]
  },
  {
   "id": "@I220@",
@@ -16995,19 +15562,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "documented addition",
-    "what": "Pizzo, Nati 1814, atto 285; Pizzo morti colerici 1837, atto 327; Briatico, Matrimoni 1849, atto 1",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Twenty-seven when her son was born in April 1814, so born about 1787. WIDOWED BY THE CHOLERA on the last night of 1837 and still living at Pizzo in June 1849, when her son married eleven kilometres away at Briatico. SHE IS IN THE FAMILY TREE, dated 1789 and married to Antonino Prostamo; this archive said for a time that she was not in it at all, which was wrong and is corrected here. What the Briatico act of 1849 adds is her widowhood, her town and her age."
-  ],
-  "onSpine": true,
-  "ancGen": 7
+  "siblings": []
  },
  {
   "id": "@I221@",
@@ -17108,11 +15663,7 @@
     "slug": "domenico-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 8
+  ]
  },
  {
   "id": "@I222@",
@@ -17166,11 +15717,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 8
+  "siblings": []
  },
  {
   "id": "@I223@",
@@ -17266,11 +15813,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 9
+  "siblings": []
  },
  {
   "id": "@I224@",
@@ -17352,11 +15895,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 9
+  "siblings": []
  },
  {
   "id": "@I225@",
@@ -17395,11 +15934,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I226@",
@@ -17446,11 +15981,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 10
+  "siblings": []
  },
  {
   "id": "@I227@",
@@ -17497,11 +16028,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 10
+  "siblings": []
  },
  {
   "id": "@I228@",
@@ -17608,11 +16135,7 @@
     "slug": "domenico-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I229@",
@@ -17658,11 +16181,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I230@",
@@ -17730,11 +16249,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I231@",
@@ -17830,11 +16345,7 @@
     "slug": "izabella-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I232@",
@@ -17894,11 +16405,7 @@
     "slug": "izabella-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I233@",
@@ -17971,11 +16478,7 @@
     "slug": "elizabetta-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I234@",
@@ -18043,11 +16546,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I235@",
@@ -18086,11 +16585,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I236@",
@@ -18129,11 +16624,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I237@",
@@ -18219,11 +16710,7 @@
     "slug": "domenico-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I238@",
@@ -18262,11 +16749,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I239@",
@@ -18352,11 +16835,7 @@
     "slug": "domenico-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I240@",
@@ -18395,11 +16874,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I241@",
@@ -18431,11 +16906,7 @@
    }
   ],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I242@",
@@ -18468,11 +16939,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I243@",
@@ -18521,11 +16988,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I244@",
@@ -18574,11 +17037,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I245@",
@@ -18703,31 +17162,7 @@
     "slug": "maria-arena-2",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1892, atto 230 — born 6 October 1892, Via Grotte 75",
-    "href": "/scilla"
-   },
-   {
-    "kind": "marriage register",
-    "what": "Scilla, Matrimoni 1885, atto 73 — married Maria Martello, 12 September 1885",
-    "href": "/scilla"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1892, atto 230",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The tree gives his birth as 10 June 1892. Act 230 says he was born on 6 OCTOBER 1892 at Via Grotte 75 and was declared on the 9th. The 1892 index holds only one Arena Giuseppe, and the act names his mother as Concetta Russo, so this is the same child.",
-   "Aged twenty-five, a marinaro, FIGLIO DI FRANCESCO ANTONIO E DI SERAFINA ARLOTTA — the father's name written out in full, which is what proves that the 'Antonio Arena' of the acts of 1854 and 1885 is Francesco Antonio. His bride's father, Paolo Martello, was already living in AMERICA.",
-   "Birth date — Born 6 October 1892 at Via Grotte 75, declared on the 9th. The year is right; the day is not."
-  ],
-  "onSpine": true,
-  "ancGen": 4
+  ]
  },
  {
   "id": "@I246@",
@@ -18861,25 +17296,7 @@
     "slug": "antonio-arena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1893, atto 22 — born 17 January 1893, Via Acquagrande 41",
-    "href": "/scilla"
-   },
-   {
-    "kind": "documented",
-    "what": "Ellis Island, the Archimede",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The tree puts her crossing to America in 1894, when she was one. The Ellis Island manifest puts it at 23 MAY 1899, aged six, off the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father, who arrived ten months later as a US citizen.",
-   "Crossing date — Crossed on 23 MAY 1899 aged six, on the Archimede out of Naples -- and on the line immediately above hers is Giavanni Arena, 45, of Scilla. She travelled with him, not with her father. THE IMAGE names the man she travelled with as her UNCLE -- her line begins with the word 'Niece' -- and he was going to join 'brother Rocco' at Mulberry Street, New York."
-  ],
-  "onSpine": true,
-  "ancGen": 4
+  ]
  },
  {
   "id": "@I247@",
@@ -18947,69 +17364,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1892, atto 230 — named as the father, aged 33, pescatore",
-    "href": "/scilla"
-   },
-   {
-    "kind": "marriage register",
-    "what": "Scilla, Matrimoni 1885, atto 86 — married Concetta Russo, 29 October 1885",
-    "href": "/scilla"
-   },
-   {
-    "kind": "documented addition",
-    "what": "Scilla, Nati 1854, atto 76",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1892, atto 230",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Ellis Island, the Archimede, 23 May 1899; Scilla, Nati 1854 atto 76",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1854, atto 76",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1854 atto 76; Matrimoni 1885 atto 86",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Antenati name index, Scilla, atto di morte 31 March 1936",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Morti 1936, parte I, atto 14",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The tree gives his birth as 1870. Act 230 of 1892 makes him thirty-three in October 1892, so he was born about 1859 — eleven years earlier. His trade, which the tree does not record, is pescatore. HIS OWN BIRTH IS NOT AT SCILLA. The Tavola for 1857, 1858, 1859 and 1860 has been read in full -- four consecutive years, two either side of the window his son's act allows -- and there is no Giovanni Arena born in any of them. The next move is his marriage to Concetta Russo, which would name his comune of birth.",
-   "THE ACT THAT SETTLES HIM. He is thirty-one, a marinaro, born at Scilla, FIGLIO DI ANTONIO E DI SERAFINA ARLOTTA — so Rocco Arena's own brother, and born about 1854. This archive had him as three separate men and searched 1857–1860 for a birth that was never going to be there: he was born on 30 APRIL 1854, act 76. The 'thirty-three' in his son's act of 1892 is three years out.",
-   "ROCCO ARENA'S ELDER BROTHER. His birth act names his father ANTONIO ARENA, thirty-four -- Francesco Antonio, born 25 November 1819, is exactly thirty-four in April 1854 -- and his mother SERAFINA ARLOTTA, and it was declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco' and enters six-year-old Anna as his NIECE. HE IS IN THE FAMILY TREE, and this archive said for a time that he was not: the tree's Giovanni Arena, husband of Concetta Russo, IS this man, dated 1870 there and born in fact on 30 April 1854. What the act adds is sixteen years and two parents, not a person.",
-   "Birth year — Born about 1859. He is thirty-three in his son's birth act of October 1892.",
-   "Trade -- missing entirely — PESCATORE, a fisherman. Living at Via Grotte 75, Scilla, in 1892.",
-   "Brother -- missing entirely — The Ellis Island manifest of 23 May 1899 states it outright: Giovanni Arena, 45, a sailor, sails to join 'BROTHER ROCCO, N. YORK, MULBERRY ST', and the six-year-old on the next line is entered not by surname but as 'NIECE, Anna Arena'. So Giovanni is Rocco Arena's brother and Anna is Rocco's daughter -- both stated on the document. HE IS IN THE TREE, and this row once said he was not: he is the Giovanni Arena the tree marries to Concetta Russo and dates to 1870. The missing people are his PARENTS. THE INDEX LINE AND THE ACT DISAGREE, AND THE DISAGREEMENT IS SETTLED. The 1854 Tavola reads «Arena Giovanni di Antonio e Arlotta ROSA, 20 April», and this archive repeated it and drew the wrong conclusion from it -- a ROSA Arlotta would be Serafina's sister, which would make the boy Rocco's COUSIN rather than his brother. The act itself, act 76, says SERAFINA and says the THIRTIETH of April, and the ages close it: Francesco Antonio was thirty-four in April 1854 to the month. The index is wrong. It is recorded here because an index this archive trusted produced a false relationship, and the next one might too.",
-   "Birth date — ROCCO ARENA'S ELDER BROTHER, born 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS before the tree's date. Son of FRANCESCO ANTONIO ARENA, 34, marinaro, and SERAFINA ARLOTTA, 22. Declared by his maternal grandfather GIOVANNI ARLOTTA, who gave the boy his own name. This is the Giovanni Arena who sails in 1899 to join 'brother Rocco'. This archive filed him for a time among the people the tree lacks. That was wrong -- the tree has him, as Concetta Russo's husband; what it lacks is his date and his parents.",
-   "Birth date — BORN 30 APRIL 1854 at Scilla, act 76 -- SIXTEEN YEARS earlier than the tree says. This archive previously corrected him to 'about 1859' from his son's birth act of 1892, which makes him thirty-three. His MARRIAGE act of 1885 makes him THIRTY-ONE, which is 1854, and his own birth act of 1854 gives the day. The 1892 age is three years out; the birth act is the authority.",
-   "Death -- missing entirely — DIED AT SCILLA ON 31 MARCH 1936, «Padre Antonio, Madre Serafina Arlotta, Coniuge Concetta Russo». He sailed for New York in May 1899 to join his brother Rocco and he came home. This is the second half of the sojourning argument: he baptised no child in America because his wife never left Scilla, and neither did he, finally.",
-   "Trade -- missing entirely — MARINAIO. His brother Rocco is «pescatore» on his own act of 1932 -- one a mariner, one a fisherman, which is a real distinction in a town like Scilla and not a scribal variant.",
-   "Death -- missing entirely — DIED AT NINE IN THE MORNING ON 31 MARCH 1936, AT VIA GROTTE 72, SCILLA. «e morto ARENA GIOVANNI, di anni OTTANTUNO, marinaio, residente in Scilla, nato in Scilla, dal fu ANTONIO e dalla fu ARLOTTA SERAFINA, MARITO DI RUSSO CONCETTA.» THE AGE IS EXACTLY RIGHT: born 30 April 1854, he was eighty-one and a month short of eighty-two. His wife CONCETTA RUSSO was still living, which is why she never appears in the Scilla death index -- she outlived the indexed span or died under a spelling not yet found."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I248@",
@@ -19098,91 +17453,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals index — the Sydney, 27 Dec 1953",
-    "href": "/crossings"
-   },
-   {
-    "kind": "passenger manifest",
-    "what": "Scilla, Nati 1861 atto 228 and 1860 atto 45 — his birth, and his brother's",
-    "href": "/scilla"
-   },
-   {
-    "kind": "marriage register",
-    "what": "Scilla, Matrimoni 1888, atto 63 — married Generosa Costa, December 1888",
-    "href": "/scilla"
-   },
-   {
-    "kind": "certain",
-    "what": "Scilla, Nati 1860 atto 45 and atto 161; Nati 1861 atto 228; Nati 1856 atto 180; Nati 1859 atto 46",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1893, atto 22",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "United States Census, 1900, Manhattan Ward 6",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Ellis Island, the San Guglielmo, 11 September 1913",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "United States, Italians to America Index, 1855-1900",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Matrimoni 1888, atto 63",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "New York Roman Catholic Parish Baptisms (Findmypast) — Our Lady of Loretto and Most Precious Blood",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Antenati name index, Scilla, atto di morte 8 February 1932 (an_ud16599906 series)",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Morti 1932, parte I, atto 9",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Morti 1932, parte I, atto 9; against Scilla, Nati 1861 atto 228 and the 1900 US census",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "RESOLVED. His parents are FRANCESCO ANTONIO ARENA, marinaro, and SERAFINA ARLOTTA, not Orazio Arena and Giovana Zirilli. The proof is a sibling pair: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, act 228 of 1861 gives them a son ROCCO. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, same order, wrong father. Orazio's own children, across four years of the register, are Domenico, Domenico and Maria Annunziata. An Ellis Island manifest independently makes Rocco 39 in March 1900, consistent with a birth at the end of 1861. THE 1900 CENSUS confirms four tree facts at once -- the 1892 arrival, Generosa Costa, Anna, and Antonio born in New York -- and adds two more: he had been MARRIED TEN YEARS (so 1890), and he gave his birth as September 1861 where act 228 says 20 December 1861. The household also held a Costa, an ARLOTTA and three more Arena including a John Arena, 42. A THIRD CROSSING: the San Guglielmo out of Messina, 11 September 1913, aged 52, still a US citizen. The tree gives Messina and 12 September -- right port, one day out. Rocco Polistena of Scilla was on the same ship the same day.",
-   "HIS OWN MARRIAGE ACT NAMES HIS PARENTS: «figlio di FRANCESCO ANTONIO, residente in Scilla, e di SERAFINA ARLOTTA». The tree puts him under Orazio Arena. This is the direct statement the correction had been waiting for. He is a MARINARO, born and living at Scilla. His bride Generosa Costa is a FILATRICE, daughter of ANTONIO COSTA and ANNA ARLOTTA.",
-   "Parentage — the circumstantial case, superseded — SUPERSEDED BY THE MARRIAGE ACT, and kept because the reasoning is worth reading. His parents are FRANCESCO ANTONIO ARENA, a sailor, and SERAFINA ARLOTTA. The proof is not the 1861 act alone but a SIBLING PAIR: act 45 of 1860 gives Francesco Antonio and Serafina a son GIUSEPPE, and act 228 of 1861 gives them a son ROCCO, twenty-one months apart. The tree gives Orazio Arena exactly two children and they are ROCCO and GUISEPPE -- the same pair, in the same order, on the wrong father. Meanwhile Orazio Arena and Giovanna Zirilli are documented across four years (1856, 1858, 1859, 1860) with children Domenico, Domenico and Maria Annunziata, and NEITHER a Rocco nor a Giuseppe ever appears. This was the case BEFORE act 63 of 1888 was found. It was built on a sibling pair and four years of negative sweeps, and it was right -- which is the point of keeping it.",
-   "Trade -- missing entirely — MARINARO, a sailor. Living at Via Acquagrande 41, Scilla, in 1893.",
-   "Marriage -- missing entirely — The 1900 census records them as having been MARRIED TEN YEARS, so they married in 1890 -- three years before Anna was born and two before Rocco first sailed.",
-   "Crossing date — Arrived 11 SEPTEMBER 1913 -- one day earlier -- on the SAN GUGLIELMO. The port of embarkation, MESSINA, is exactly as the tree has it. He was 52 and entered as a US citizen. On the same ship the same day was ROCCO POLISTENA, 44, of Scilla, four frames away: a generation later, Anna Arena's son Rocco married Angela Polistena.",
-   "Crossing date — Arrived 24 MAY 1892 off the S.S. ELYSIA out of NAPLES, aged 31, occupation SEAMAN. The 1900 census gives the year and nothing else; this dates it to the day, names the ship and the port, and adds a fourth independent statement that he worked the water.",
-   "Parentage — AND THE EDGE IS NOW DROPPED — SON OF FRANCESCO ANTONIO ARENA AND SERAFINA ARLOTTA — said outright in HIS OWN MARRIAGE ACT. The correction was previously carried on five circumstantial supports; this is the direct statement and nothing stronger exists. ACTED ON, 15 SEPTEMBER: the edge from Rocco Arena to Orazio Arena and Giovanna Zirilli HAS BEEN REMOVED from the charts, with the reason on the row in data/parent-links.tsv. The site had been arguing with itself -- proving the parentage false on this page while still drawing it on every chart. THREE PEOPLE LEFT THE BLOOD LINE WITH IT: Orazio Arena, Giovanna Zirilli and Orazio's father GIUSEPPE ARENA, who was on the spine only through this claim. The line of direct ancestors goes from sixty-two people to fifty-nine. ORAZIO AND GIOVANNA REMAIN REAL AND REMAIN ON THIS SITE. They were documented at Scilla with four children between 1853 and 1860 -- Teresa, Domenico, Domenico and Maria Annunziata -- and this archive found them. They were simply not Rocco's parents. ROCCO NOW HAS NO PARENTS ON THE CHART, because FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA are not in Michael's export. That is the honest state of the evidence, and it is exactly the gap work list row 51 exists to close.",
-   "Missing people — A WHOLE NEW YORK HOUSEHOLD — FOUR CHILDREN BORN IN MANHATTAN, none of them in the tree with a date and three of them not in it at all. ANTONIO b. 3 OCTOBER 1896; SERAFINA b. 15 AUGUST 1898; CLEMENTINA b. 21 DECEMBER 1900; and a SECOND ANTONIO b. 13 OCTOBER 1902. Every one names «father ROCCO ARENA, mother GENEROSA COSTA» -- the couple married at Scilla in December 1888. AND THE HOUSEHOLD HAS AN ADDRESS AT LAST: 141 MULBERRY STREET in 1896 and 1898, 198 MULBERRY by January 1901. That corroborates the Ellis Island manifest of 1899, which sends Giovanni Arena to «BROTHER ROCCO, N. YORK, MULBERRY ST» -- two independent sources, one street, and now a number. IT ALSO DATES THE CROSSING FROM THE INSIDE: Anna was born at Scilla in January 1893 and Antonio in Manhattan in October 1896, so the household moved between those dates, which fits the 1892 and 1894 crossings already documented.",
-   "Death -- missing entirely — DIED AT SCILLA ON 8 FEBRUARY 1932. Antenati's name index gives the act with both parents and his wife: «Padre Francesco Antonio, Madre Serafina Arlotta, Coniuge Generosa Costa» -- all three match this archive exactly, and he is the only Rocco Arena in the Scilla death index so described.",
-   "Trade -- missing entirely — PESCATORE. His death act calls him a fisherman, as it calls both declarants and both witnesses. THE MAN WHO CROSSED THE ATLANTIC FOUR TIMES AND KEPT A HOUSEHOLD ON MULBERRY STREET DIED IN THE TRADE HE WAS BORN TO.",
-   "Death -- missing entirely — DIED AT VIA PROF. ZAGARI, SCILLA, AT A QUARTER PAST SIX IN THE EVENING ON 8 FEBRUARY 1932; the act was drawn the next morning at four minutes past ten. «dal fu FRANCESCO ANTONIO ... e dalla fu ARLOTTA SERAFINA ... VEDOVO DI COSTA GENEROSA.» A WIDOWER -- Generosa Costa died in June 1916 and he outlived her by fifteen years and eight months. The declarants were PONTILLO ROCCO FU GIOVANNI, sixty-five, and LAMERI GIUSEPPE FU LUIGI, eighty; the witnesses PONTILLO SANTO FU GIOVANNI, eighty-one, and ALFONZETTI ROCCO FU ANTONINO, fifty-nine. All fishermen, all illiterate.",
-   "a document against a document — HIS DEATH ACT MAKES HIM SEVENTY-ONE ON 8 FEBRUARY 1932, WHICH WOULD PUT HIS BIRTH BEFORE FEBRUARY 1861. The archive has his birth act as Scilla Nati 1861 ATTO 228 -- a high act number, so late in the year -- and the 1900 United States census gives «b. Sept 1861», which would make him SEVENTY, not seventy-one. ONE YEAR APART, AND THE BIRTH ACT WINS. An age on a death act is what two elderly neighbours told the registrar, not something read off a record; both declarants here were fishermen in their sixties and eighties and both signed with a mark. RECORDED BECAUSE IT IS THE KIND OF SMALL DISCREPANCY THAT LATER GETS «FIXED» IN THE WRONG DIRECTION."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I249@",
@@ -19257,54 +17528,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1893, atto 22 — named as the mother, a filatrice",
-    "href": "/scilla"
-   },
-   {
-    "kind": "passenger manifest",
-    "what": "Ellis Island — sought among the Costa of Scilla, not found",
-    "href": "/crossings"
-   },
-   {
-    "kind": "census",
-    "what": "United States Census 1900, Manhattan Ward 6 — aged 30, married ten years",
-    "href": "/crossings"
-   },
-   {
-    "kind": "documented addition",
-    "what": "Scilla, Matrimoni 1888, atto 63",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1893, atto 22",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Antenati name index, Scilla, atto di morte 6 June 1916",
-    "href": "/corrections"
-   },
-   {
-    "kind": "certain",
-    "what": "Antenati name index, Scilla — atti di morte 6 June 1916 and 20 April 1937",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Four Costa gave Scilla as their last residence at Ellis Island and none is Generosa. Her crossing, which the tree dates to 1894, is not in the index under that name.",
-   "Indexed as 'Genneroso Arena'. The census makes her thirty in 1900 and married ten years, so born about 1870 and married in 1890. The New York City birth register gives her four more children than the tree has.",
-   "ROCCO ARENA'S WIFE, and SHE IS IN THE FAMILY TREE -- this row exists only to connect her to parents the tree does not have. Her marriage act of December 1888 reads «COSTA GENEROSA, FILATRICE, nata in Scilla, FIGLIA DI ANTONIO, residente in Scilla, E DI ANNA ARLOTTA, residente in Scilla». Both parents were recorded in this archive as documented people and NEITHER WAS CONNECTED TO HER, so no chart and no page could show that Rocco Arena's wife had known parents. That is the same failure as the five Melluso who sat in a spreadsheet column: a fact held in one file does not reach the reader until it is joined to another.",
-   "Trade -- missing entirely — FILATRICE, a spinner.",
-   "Death -- missing entirely — DIED AT SCILLA ON 6 JUNE 1916, «Padre ANTONINO COSTA, Madre ANNA ARLOTTA, Coniuge ROCCO ARENA». Her parents are exactly those the marriage act of 1888 gave, now from a second and independent document, and her husband is named. SHE DIED SIXTEEN YEARS BEFORE HIM: Rocco Arena followed her on 8 February 1932.",
-   "Two women of one name — A GUARD, NOT A FINDING — THERE ARE TWO AND THEY MUST NEVER BE MERGED. (1) GENEROSA COSTA, born about 1868, a filatrice, daughter of ANTONINO COSTA and ANNA ARLOTTA, married ROCCO ARENA at Scilla in December 1888, died at Scilla 6 JUNE 1916. She is on this archive's spine -- Anna Arena's mother. (2) A second GENEROSA COSTA, wife of PASQUALE DONATO, who died 20 April 1937; Pasquale is a son of DOMENICO DONATO and NUNZIATA SOFI, which makes him MICHELE DONATO'S BROTHER. So the two women sit one in each of this archive's two Scilla lines, the Arena and the Donato, and a tree that meets both will be tempted to fuse them. THE SEPARATION IS EVIDENCED, not assumed: the first was already dead in 1916, twenty-one years before the second's husband died, and their parents differ. COSTA AT SCILLA IS NOT A SMALL NAME -- the name index holds seventy-six Costa records and eighteen Costa deaths, including a THIRD Generosa in the previous generation, GENEROSA POLISTENA, for whom Rocco's wife was very likely named."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I250@",
@@ -19432,11 +17656,7 @@
     "slug": "mario-salvatore-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I251@",
@@ -19564,11 +17784,7 @@
     "slug": "mario-salvatore-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I252@",
@@ -19689,17 +17905,7 @@
     "slug": "mario-salvatore-arena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-1338",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I253@",
@@ -19812,11 +18018,7 @@
     "slug": "mario-salvatore-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I254@",
@@ -19908,17 +18110,7 @@
     "slug": "giuseppe-arena-1932",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-1456",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I255@",
@@ -19986,30 +18178,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1892, atto 230 — named as the mother, a filatrice",
-    "href": "/scilla"
-   },
-   {
-    "kind": "documented addition",
-    "what": "Scilla, Matrimoni 1885, atto 86",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1892, atto 230",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "GIOVANNI ARENA'S WIFE. IN THE FAMILY TREE, which gives her no dates and no parents; the register gives both. Her age of thirty-three in her son Giuseppe's birth act of October 1892 puts her birth about 1859, and the same act names her parents LEONARDO RUSSO and ANGELA BAGNATO -- and those two are genuinely absent from the tree.",
-   "Trade -- missing entirely — FILATRICE, a spinner."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I256@",
@@ -20131,11 +18300,7 @@
     "slug": "santa-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I257@",
@@ -20222,11 +18387,7 @@
     "slug": "domenico-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I258@",
@@ -20313,11 +18474,7 @@
     "slug": "santa-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I259@",
@@ -20411,11 +18568,7 @@
     "slug": "santa-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I260@",
@@ -20481,11 +18634,7 @@
     "slug": "maria-arena-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I261@",
@@ -20558,11 +18707,7 @@
     "slug": "maria-arena-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I262@",
@@ -20628,11 +18773,7 @@
     "slug": "fortunata-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I263@",
@@ -20686,11 +18827,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I264@",
@@ -20787,11 +18924,7 @@
     "slug": "maria-polistena-1945",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I265@",
@@ -20881,11 +19014,7 @@
     "slug": "domenica-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I266@",
@@ -20960,11 +19089,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I267@",
@@ -21036,11 +19161,7 @@
     "slug": "peter-calarco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I268@",
@@ -21112,11 +19233,7 @@
     "slug": "peter-calarco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I269@",
@@ -21188,11 +19305,7 @@
     "slug": "peter-calarco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I270@",
@@ -21260,11 +19373,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I271@",
@@ -21352,11 +19461,7 @@
     "slug": "concetta-sanfedele",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I272@",
@@ -21429,11 +19534,7 @@
     "slug": "concetta-sanfedele",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I273@",
@@ -21499,11 +19600,7 @@
     "slug": "concetta-sanfedele",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I274@",
@@ -21576,11 +19673,7 @@
     "slug": "giovanni-sanfedele",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I275@",
@@ -21634,11 +19727,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I276@",
@@ -21692,11 +19781,7 @@
     "slug": "monica-ottaviano",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I277@",
@@ -21750,11 +19835,7 @@
     "slug": "marcello-ottaviano",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I278@",
@@ -21808,11 +19889,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I279@",
@@ -21851,11 +19928,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I280@",
@@ -21902,11 +19975,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I281@",
@@ -21982,11 +20051,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I282@",
@@ -22047,11 +20112,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I283@",
@@ -22111,11 +20172,7 @@
     "slug": "deborah-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I284@",
@@ -22154,11 +20211,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I285@",
@@ -22218,11 +20271,7 @@
     "slug": "deborah-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I286@",
@@ -22282,11 +20331,7 @@
     "slug": "rocco-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I287@",
@@ -22333,11 +20378,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I288@",
@@ -22384,11 +20425,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I289@",
@@ -22448,11 +20485,7 @@
     "slug": "antonio-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I290@",
@@ -22519,19 +20552,7 @@
     "slug": "maria-arena",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "New York City Births — born 4 October 1896 at Manhattan",
-    "href": "/crossings"
-   }
-  ],
-  "corrections": [
-   "The tree says 1895 and the 1900 census says October 1895 with an age of five. The birth register says 4 October 1896."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I291@",
@@ -22585,11 +20606,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I292@",
@@ -22645,11 +20662,7 @@
     "slug": "alice-poleo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I293@",
@@ -22705,11 +20718,7 @@
     "slug": "sara-poleo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I294@",
@@ -22770,17 +20779,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot CHAP-207-CL",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I295@",
@@ -22834,17 +20833,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot CHAP-207-CR",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I296@",
@@ -22926,11 +20915,7 @@
     "slug": "maria-rosa-melluso-1907",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I297@",
@@ -23005,11 +20990,7 @@
     "slug": "saveria-melluso",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I298@",
@@ -23091,25 +21072,7 @@
     "slug": "saveria-melluso",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger manifest",
-    "what": "Ellis Island, 2 August 1906 — the Luisiana, aged 3, line 28",
-    "href": "/crossings"
-   },
-   {
-    "kind": "documented",
-    "what": "Ellis Island, the Luisiana",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Indexed as 'Foloppo Melluso Anile': the transcriber ran his surname into his mother's. He is on the line immediately after Domenica Anile, whose son he is.",
-   "Crossing -- ship named — The LUISIANA. He is three years old, on the line immediately after his mother Domenica Anile, and indexed as \"Foloppo Melluso Anile\"."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I299@",
@@ -23206,11 +21169,7 @@
     "slug": "giovanna-prostamo-1938",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I300@",
@@ -23323,11 +21282,7 @@
     "slug": "giovanna-prostamo-1938",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I301@",
@@ -23447,11 +21402,7 @@
     "slug": "giovanna-prostamo-1938",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I302@",
@@ -23542,11 +21493,7 @@
     "slug": "giovanna-prostamo-1938",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I303@",
@@ -23645,11 +21592,7 @@
     "slug": "giovanna-prostamo-1938",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I304@",
@@ -23740,11 +21683,7 @@
     "slug": "giovanna-prostamo-1938",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I305@",
@@ -23835,11 +21774,7 @@
     "slug": "concetta-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I306@",
@@ -23878,11 +21813,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I307@",
@@ -23921,11 +21852,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I308@",
@@ -23986,11 +21913,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I309@",
@@ -24057,11 +21980,7 @@
     "slug": "domenico-prostamo-1952",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I310@",
@@ -24128,11 +22047,7 @@
     "slug": "domenico-prostamo-1952",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I311@",
@@ -24192,11 +22107,7 @@
     "slug": "margarita-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I312@",
@@ -24235,11 +22146,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I313@",
@@ -24278,11 +22185,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I314@",
@@ -24343,11 +22246,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I315@",
@@ -24407,11 +22306,7 @@
     "slug": "domenico-prostamo-1958",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I316@",
@@ -24471,11 +22366,7 @@
     "slug": "domenico-prostamo-1958",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I317@",
@@ -24535,11 +22426,7 @@
     "slug": "maria-teresa-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I318@",
@@ -24578,11 +22465,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I319@",
@@ -24629,11 +22512,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I320@",
@@ -24672,11 +22551,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I321@",
@@ -24715,11 +22590,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I323@",
@@ -24773,11 +22644,7 @@
     "slug": "maria-rosa-prostamo-1956",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I324@",
@@ -24862,11 +22729,7 @@
     "slug": "carmela-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I325@",
@@ -24905,11 +22768,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I326@",
@@ -24994,11 +22853,7 @@
     "slug": "carmela-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I327@",
@@ -25037,11 +22892,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I328@",
@@ -25133,11 +22984,7 @@
     "slug": "carmela-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I329@",
@@ -25176,11 +23023,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I330@",
@@ -25267,17 +23110,7 @@
     "slug": "carmela-prostamo",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "cited in the tree",
-    "what": "I Melluso",
-    "href": "/sources"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I331@",
@@ -25316,11 +23149,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I332@",
@@ -25407,17 +23236,7 @@
     "slug": "laura-prostamo",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "cited in the tree",
-    "what": "I Melluso",
-    "href": "/sources"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I333@",
@@ -25456,11 +23275,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I334@",
@@ -25499,11 +23314,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I335@",
@@ -25578,11 +23389,7 @@
     "slug": "foca-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I336@",
@@ -25629,11 +23436,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I337@",
@@ -25687,11 +23490,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I338@",
@@ -25730,11 +23529,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I339@",
@@ -25809,11 +23604,7 @@
     "slug": "foca-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I340@",
@@ -25860,11 +23651,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I341@",
@@ -25918,11 +23705,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I342@",
@@ -25961,11 +23744,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I343@",
@@ -26054,11 +23833,7 @@
     "slug": "sebastiano-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I344@",
@@ -26119,11 +23894,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I345@",
@@ -26183,11 +23954,7 @@
     "slug": "andrea-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I346@",
@@ -26254,11 +24021,7 @@
     "slug": "andrea-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I347@",
@@ -26297,11 +24060,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I348@",
@@ -26375,11 +24134,7 @@
     "slug": "antonino-prostamo-1860",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I349@",
@@ -26425,11 +24180,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I350@",
@@ -26483,17 +24234,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "burial register",
-    "what": "Brisbane Catholic Cemeteries register — plot V-0036",
-    "href": "/nudgee"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I351@",
@@ -26566,11 +24307,7 @@
     "slug": "jack-carmelo-calahorra",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I352@",
@@ -26609,11 +24346,7 @@
     "slug": "patrick",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I353@",
@@ -26652,11 +24385,7 @@
     "slug": "tomas",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I354@",
@@ -26723,11 +24452,7 @@
     "slug": "ignazio-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I355@",
@@ -26766,19 +24491,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "documented addition",
-    "what": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129); Matrimoni 1844 atto 20; Nati 1855 atto 163",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "MICHELE DONATO'S FATHER, and a great-great-grandfather of Mia and Rocco. A sailor, like the Arena men. HE IS IN THE FAMILY TREE as Michele's father and nothing more -- no dates, no trade, no parents. This archive claimed for a time that he was absent; that was wrong. What is new is everything else about him: born about 1817, MARINARO, and son of CANDELORO DONATO and MARIA PALADINO, who are absent."
-  ],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I356@",
@@ -26817,19 +24530,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "documented addition",
-    "what": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129)",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "MICHELE DONATO'S MOTHER. IN THE FAMILY TREE, under the fuller form ANNUNZIATA SOFI, with no dates and no parents. Her son married a SOFI in his turn -- Maria Sofi -- and named his daughter NUNZIATA for her. What the 1844 Tavola adds is her parents, PASQUALE SOFI and MARIA DE AMICO, who are absent."
-  ],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I357@",
@@ -26905,11 +24606,7 @@
     "slug": "benadetta-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I358@",
@@ -26990,25 +24687,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "documented addition",
-    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original",
-    "href": "/corrections"
-   },
-   {
-    "kind": "flagged",
-    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20; Mascali, Nati 1875 atto 144",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "MARIA NICOTRA'S FATHER, and the man the Queensland death registration of 1963 calls «John Nicotra» and nothing else. Here he is in his own act: «sono comparsi GIOVANNI NICOTRA, di anni trentuno, di professione bracciante, DOMICILIATO E RESIDENTE A MASCALI, figlio di ROSARIO, di professione bracciante, e di VENERA MURABITO, contadina, domiciliati e residenti PURE IN MASCALI». HE IS NOT A PIEDIMONTE MAN. He married into the town and lived in the next one, which is why fourteen consecutive Piedimonte birth indexes produced no daughter of his.",
-   "A father six years younger in three years — TWO DECLARED AGES THAT DO NOT AGREE. «Di anni TRENTUNO» at his marriage on 7 October 1872, which puts his birth about 1841; «di anni VENTOTTO» at his daughter Maria's birth on 10 December 1875, which puts it about 1847. Six years the wrong way in three. KEPT AS A CONFLICT rather than averaged: his own birth act at Mascali, in either 1841 or 1847, would settle it and would carry his parents Rosario Nicotra and Venera Murabito independently. The identification of the two men does NOT rest on the age -- it rests on the wife, VENERA CASSANITI, named in both acts, and on the comune."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I359@",
@@ -27097,31 +24776,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "documented addition",
-    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original; Piedimonte Etneo, Nati 1848 atto 45 (annual Tavola)",
-    "href": "/corrections"
-   },
-   {
-    "kind": "probable",
-    "what": "Queensland BDM, death 1963/B/61348 and the whole surname index; Piedimonte Etneo, Nati 1875 Indice Annuale",
-    "href": "/corrections"
-   },
-   {
-    "kind": "documented",
-    "what": "Piedimonte Etneo, Matrimoni 1872 atto 20; Nati 1848 atto 45",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "MARIA NICOTRA'S MOTHER, and the archive spent days unable to touch her because the Queensland registrar wrote CASSANETI, a spelling that exists nowhere in Italy. She is CASSANITI. «E VENERA CASSANITI, di anni ventiquattro, QUI domiciliata e residente, figlia del FU GAETANO, e di FU MARIA CURRENTI» -- both her parents already dead in October 1872, and she the one of the couple who belonged to Piedimonte.",
-   "Surname — the spelling is an informant's, not a record's — PROBABLY VENERA CASSANITI. «Cassaneti» appears exactly once in the whole Queensland index -- on her daughter's 1963 death registration, taken down from an informant at a Brisbane registry -- and NOWHERE ELSE. «CASSANITI» returns five Queensland registrations and is the ordinary Catanese form; it is also what the PIEDIMONTE ETNEO birth index writes, holding a Cassaniti Sebastiano and a Cassaniti Leonardo Maria in 1875 alone. THIS MATTERS PRACTICALLY: a Sicilian register searched for «Cassaneti» will return nothing and the negative will mean nothing. Search Cassaniti.",
-   "A surname the Queensland registrar invented — VENERA CASSANITI, born about 1848 at Piedimonte Etneo, daughter of the late GAETANO CASSANITI and the late MARIA CURRENTI. «CASSANETI» appears nowhere in Italy and exactly once in the whole Queensland index -- on Maria Mazza's own death registration, taken down from an informant at a Brisbane registry counter. The Italian act settles it. She was twenty-four when she married on 7 October 1872 and both her parents were already dead."
-  ],
-  "onSpine": true,
-  "ancGen": 5
+  "siblings": []
  },
  {
   "id": "@I360@",
@@ -27183,11 +24838,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I361@",
@@ -27234,11 +24885,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I362@",
@@ -27314,11 +24961,7 @@
     "slug": "cristina-darcy",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 1
+  ]
  },
  {
   "id": "@I363@",
@@ -27372,11 +25015,7 @@
     "slug": "rocco-francesco-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I364@",
@@ -27430,11 +25069,7 @@
     "slug": "mia-josephine-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I365@",
@@ -27480,11 +25115,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 2
+  "siblings": []
  },
  {
   "id": "@I366@",
@@ -27530,11 +25161,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 2
+  "siblings": []
  },
  {
   "id": "@I367@",
@@ -27581,11 +25208,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I368@",
@@ -27632,11 +25255,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I369@",
@@ -27756,11 +25375,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I370@",
@@ -27871,11 +25486,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I371@",
@@ -27943,25 +25554,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1856 atto 180 and 1859 atto 46 — two sons named Domenico",
-    "href": "/scilla"
-   },
-   {
-    "kind": "candidate",
-    "what": "Scilla, Nati 1821 atto 10; Nati 1833 atto 1",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The tree gives him no source at all, and gives him two children, Rocco and Guiseppe. THE REGISTER GIVES HIM NEITHER. Across 1856, 1858, 1859 and 1860 he and Giovanna Zirilli have Domenico (1856), Domenico (1859) and Maria Annunziata (1860); the Rocco and Giuseppe the tree assigns him belong to Francesco Antonio Arena and Serafina Arlotta. He is a real, well documented Scilla man who has been given another household's children. His first son being Domenico twice suggests, on naming custom alone, that his own father was a Domenico Arena -- a lead, not a finding.",
-   "Generation — a lead, RETRACTED — THIS ARCHIVE WITHDRAWS ITS OWN INFERENCE. From Orazio naming two sons Domenico, naming custom suggested his father was a Domenico Arena. Two Orazio Arena births at Scilla now say otherwise: act 10 of 1821 gives him a father GIUSEPPE (and the tree's own year, 1821, exactly), and act 1 of 1833 gives a different Orazio a father BONAVENTURA. Neither is a Domenico. The mistake was not the custom but the assumption behind it: the first child this archive had FOUND was not necessarily his FIRST child. The years 1850-1855 are unread, and a son Giuseppe in one of them would restore the custom exactly. Recorded as a candidate: ORAZIO ARENA b. 14 DECEMBER 1821, son of Giuseppe Arena and a Teresa. FURTHER EVIDENCE, BOTH WAYS: Orazio's earliest known child is a DAUGHTER, Teresa, born 17 October 1853. Custom names the first daughter for her paternal grandmother, and act 10 of 1821 makes Orazio's mother a Teresa -- which SUPPORTS the 1821 candidate. But that same act makes his father a Giuseppe, and Orazio's first son is Domenico, with 1852-1855 now read and no earlier son. The two halves disagree and the archive is not picking one."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I372@",
@@ -28001,11 +25594,7 @@
    }
   ],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I373@",
@@ -28059,25 +25648,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1860, atto 45 — born 5 March 1860",
-    "href": "/scilla"
-   },
-   {
-    "kind": "documented",
-    "what": "Scilla, Nati 1860, atto 45",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The tree makes him a son of Orazio Arena. The register makes him a son of FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA, and Rocco Arena's elder brother by twenty-one months.",
-   "Parentage — Born 5 March 1860 to FRANCESCO ANTONIO ARENA and SERAFINA ARLOTTA. He is Rocco's brother, and both were attached to the wrong father."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I374@",
@@ -28124,19 +25695,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1859, atto 46 — named as the mother, with Orazio Arena",
-    "href": "/scilla"
-   }
-  ],
-  "corrections": [
-   "See the duplicate record for Giovana Zirilli. The archive has left them unmerged pending Rocco Arena's actual birth act."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I375@",
@@ -28205,11 +25764,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 7
+  "siblings": []
  },
  {
   "id": "@I376@",
@@ -28256,11 +25811,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I377@",
@@ -28307,11 +25858,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 7
+  "siblings": []
  },
  {
   "id": "@I378@",
@@ -28350,11 +25897,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 8
+  "siblings": []
  },
  {
   "id": "@I379@",
@@ -28401,11 +25944,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 8
+  "siblings": []
  },
  {
   "id": "@I381@",
@@ -28502,11 +26041,7 @@
     "slug": "concetta-anile",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I382@",
@@ -28575,11 +26110,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 7
+  "siblings": []
  },
  {
   "id": "@I383@",
@@ -28626,11 +26157,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 7
+  "siblings": []
  },
  {
   "id": "@I384@",
@@ -28750,11 +26277,7 @@
     "slug": "nunziata-nancy-mary-anile",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I385@",
@@ -28851,11 +26374,7 @@
     "slug": "nunziata-nancy-mary-anile",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I386@",
@@ -28952,11 +26471,7 @@
     "slug": "nunziata-nancy-mary-anile",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I387@",
@@ -29046,11 +26561,7 @@
     "slug": "nunziata-nancy-mary-anile",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I388@",
@@ -29140,11 +26651,7 @@
     "slug": "nunziata-nancy-mary-anile",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I389@",
@@ -29191,11 +26698,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 8
+  "siblings": []
  },
  {
   "id": "@I390@",
@@ -29242,11 +26745,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 8
+  "siblings": []
  },
  {
   "id": "@I393@",
@@ -29300,11 +26799,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I394@",
@@ -29389,22 +26884,7 @@
    }
   ],
   "spouses": [],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "cited in the tree",
-    "what": "Ancestry Family Trees",
-    "href": "/sources"
-   },
-   {
-    "kind": "cited in the tree",
-    "what": "1930 United States Federal Census",
-    "href": "/sources"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I395@",
@@ -29485,17 +26965,7 @@
     "slug": "dominick-mazzitelli-1926",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "cited in the tree",
-    "what": "Ancestry Family Trees",
-    "href": "/sources"
-   }
-  ],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I396@",
@@ -29567,11 +27037,7 @@
     "slug": "dominick-mazzitelli-1926",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I397@",
@@ -29643,11 +27109,7 @@
     "slug": "dominick-mazzitelli-1926",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I398@",
@@ -29719,11 +27181,7 @@
     "slug": "dominick-mazzitelli-1926",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I399@",
@@ -29795,11 +27253,7 @@
     "slug": "yolada-mazzitelli",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I400@",
@@ -29941,19 +27395,7 @@
     "slug": "nunziata-nancy-mary-anile",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger manifest",
-    "what": "Ellis Island, 2 August 1906 — the Luisiana, line 26",
-    "href": "/crossings"
-   }
-  ],
-  "corrections": [
-   "The manifest makes her twenty-one; the tree gives her birth as 1888, which would make her eighteen. She is the only Concetta Anile on the voyage and the tree already claimed this date and the port of Naples."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I401@",
@@ -29964,7 +27406,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 8,
+  "comp": 10,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -29985,11 +27427,7 @@
   "parents": [],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I402@",
@@ -30021,11 +27459,7 @@
   "parents": [],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I403@",
@@ -30065,11 +27499,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I404@",
@@ -30116,11 +27546,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I405@",
@@ -30167,11 +27593,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I406@",
@@ -30182,7 +27604,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 9,
+  "comp": 8,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -30210,11 +27632,7 @@
   "parents": [],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I407@",
@@ -30225,7 +27643,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 7,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
@@ -30262,11 +27680,7 @@
   "parents": [],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I408@",
@@ -30305,11 +27719,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I409@",
@@ -30359,11 +27769,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I410@",
@@ -30417,11 +27823,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I411@",
@@ -30468,11 +27870,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 6
+  "siblings": []
  },
  {
   "id": "@I412@",
@@ -30511,11 +27909,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I413@",
@@ -30576,11 +27970,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I414@",
@@ -30649,11 +28039,7 @@
     "slug": "rosanna-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I415@",
@@ -30722,11 +28108,7 @@
     "slug": "tonino-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I416@",
@@ -30779,11 +28161,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I417@",
@@ -30850,11 +28228,7 @@
     "slug": "antonio-bova",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I418@",
@@ -30936,11 +28310,7 @@
     "slug": "antonio-bova",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I419@",
@@ -31036,11 +28406,7 @@
     "slug": "annunziata-bova",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I420@",
@@ -31094,11 +28460,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I421@",
@@ -31152,11 +28514,7 @@
     "slug": "francesco-scura",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I422@",
@@ -31210,11 +28568,7 @@
     "slug": "giovanni-scura",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I423@",
@@ -31282,11 +28636,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I424@",
@@ -31352,11 +28702,7 @@
     "slug": "marco-bova",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I425@",
@@ -31417,11 +28763,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I426@",
@@ -31481,11 +28823,7 @@
     "slug": "antonio-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I427@",
@@ -31567,11 +28905,7 @@
     "slug": "antonio-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I428@",
@@ -31666,11 +29000,7 @@
     "slug": "domenico-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I429@",
@@ -31716,11 +29046,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I430@",
@@ -31774,11 +29100,7 @@
     "slug": "stefanie-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I431@",
@@ -31832,11 +29154,7 @@
     "slug": "jessica-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I432@",
@@ -31897,11 +29215,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I433@",
@@ -31961,11 +29275,7 @@
     "slug": "rebecca-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I434@",
@@ -32025,11 +29335,7 @@
     "slug": "rebecca-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I435@",
@@ -32089,11 +29395,7 @@
     "slug": "michael-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I436@",
@@ -32124,11 +29426,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I437@",
@@ -32167,11 +29465,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I438@",
@@ -32210,11 +29504,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I439@",
@@ -32288,11 +29578,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I440@",
@@ -32370,11 +29656,7 @@
     "slug": "madelena-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I441@",
@@ -32452,11 +29734,7 @@
     "slug": "madelena-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I442@",
@@ -32534,11 +29812,7 @@
     "slug": "madelena-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I443@",
@@ -32616,11 +29890,7 @@
     "slug": "madelena-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I444@",
@@ -32698,11 +29968,7 @@
     "slug": "madelena-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I445@",
@@ -32780,11 +30046,7 @@
     "slug": "tattina-donato",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I446@",
@@ -32830,11 +30092,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I447@",
@@ -32910,11 +30168,7 @@
     "slug": "giovanna-polistena-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I448@",
@@ -32968,11 +30222,7 @@
     "slug": "camillo-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I449@",
@@ -33026,11 +30276,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I450@",
@@ -33084,11 +30330,7 @@
     "slug": "polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I451@",
@@ -33142,11 +30384,7 @@
     "slug": "francesco-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I452@",
@@ -33218,11 +30456,7 @@
     "slug": "peter-calarco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I453@",
@@ -33294,11 +30528,7 @@
     "slug": "fortunato-calarco",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I454@",
@@ -33338,11 +30568,7 @@
    }
   ],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I455@",
@@ -33373,25 +30599,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [
-   {
-    "kind": "birth register",
-    "what": "Scilla, Nati 1856 atto 180 and 1859 atto 46 — named as the mother both times",
-    "href": "/scilla"
-   },
-   {
-    "kind": "flagged",
-    "what": "Scilla, Nati 1856 atto 180 and 1859 atto 46",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The export carries her twice as Orazio Arena's wife: undated here, and as Giovanna Zirilli b. 1827 with a son Guiseppe. Act 46 shows a single couple at Scilla in 1859. The two records have NOT been merged, because surname endogamy at Scilla is common enough that a second wife of the same surname is a real possibility.",
-   "Duplicate record — Almost certainly one woman entered twice. NOT merged here, because surname endogamy at Scilla is common enough that a second wife of the same surname is genuinely possible -- the 1913 marriage index alone has Bueti marrying Bueti and Vizzari marrying Vizzari. NOTE: whichever way that resolves, neither Zirilli record should carry Rocco or Giuseppe as a child -- they belong to Serafina Arlotta."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I456@",
@@ -33430,11 +30638,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I457@",
@@ -33473,11 +30677,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I458@",
@@ -33516,11 +30716,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I459@",
@@ -33559,11 +30755,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I460@",
@@ -33621,11 +30813,7 @@
     "slug": "maria-ellena-bova",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I461@",
@@ -33683,11 +30871,7 @@
     "slug": "maria-ellena-bova",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I462@",
@@ -33745,11 +30929,7 @@
     "slug": "maria-ellena-bova",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I464@",
@@ -33816,11 +30996,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I465@",
@@ -33884,11 +31060,7 @@
     "slug": "annunciata-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I466@",
@@ -33952,11 +31124,7 @@
     "slug": "annunciata-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I467@",
@@ -34020,11 +31188,7 @@
     "slug": "annunciata-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I468@",
@@ -34088,11 +31252,7 @@
     "slug": "annunciata-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I469@",
@@ -34156,11 +31316,7 @@
     "slug": "auora-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I470@",
@@ -34242,11 +31398,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I471@",
@@ -34316,11 +31468,7 @@
     "slug": "francesco-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I472@",
@@ -34390,11 +31538,7 @@
     "slug": "francesco-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I473@",
@@ -34464,11 +31608,7 @@
     "slug": "francesco-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I474@",
@@ -34538,11 +31678,7 @@
     "slug": "francesco-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I475@",
@@ -34612,11 +31748,7 @@
     "slug": "francesco-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I476@",
@@ -34686,11 +31818,7 @@
     "slug": "giovanni-arena-3",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I477@",
@@ -34750,11 +31878,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I478@",
@@ -34812,11 +31936,7 @@
     "slug": "tina-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I479@",
@@ -34874,11 +31994,7 @@
     "slug": "tina-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I480@",
@@ -34936,11 +32052,7 @@
     "slug": "tina-arena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I481@",
@@ -34998,11 +32110,7 @@
     "slug": "rocco-arena-4",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I483@",
@@ -35033,11 +32141,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I484@",
@@ -35083,11 +32187,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I485@",
@@ -35141,11 +32241,7 @@
     "slug": "anna-arena-6",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I486@",
@@ -35191,11 +32287,7 @@
     "slug": "francesco-arena-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I487@",
@@ -35271,11 +32363,7 @@
     "slug": "benadetta-polistena",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I489@",
@@ -35329,11 +32417,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I490@",
@@ -35399,19 +32483,7 @@
     "slug": "rosario-mazza-3",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "certain",
-    "what": "Piedimonte Etneo, Nati 1845 atto 64; site/src/data/people.json",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Record attached to the wrong man — a namesake three generations down — REMOVED. That Mariano is a son of the ORAZIO MAZZA BORN 1883, who is himself a son of Rosario Mazza -- so he is Rosario's grandson, born in the twentieth century, and cannot be the Mariano who declared Rosario's birth in 1845. The real man now has a row of his own as «Mariano Mazza (b. c. 1809)», with MARIA CATALANO beside him. THE RULE THIS ARCHIVE ALREADY WROTE AND THEN BROKE: a slug that matches a name is not the person the act names -- check the birth year, the birthplace, the spouse or a child before attaching anything."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I491@",
@@ -35506,11 +32578,7 @@
     "slug": "rosario-mazza-3",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I492@",
@@ -35612,11 +32680,7 @@
     "slug": "rosario-mazza-3",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I493@",
@@ -35767,19 +32831,7 @@
     "slug": "alberto-mazza",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "certain",
-    "what": "site/src/data/people.json against the export",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "Parentage — a cycle in the export — THE SECOND ORAZIO IS HIS SON, NOT A SECOND FATHER AND NOT A DUPLICATE OF THE FIRST. Rosario Mazza and Anna Cassanite named a son Orazio for his grandfather, exactly as the naming custom predicts, and the export then recorded that son in both the parents and the children. The child link stands; the parent link is removed. His father remains the Orazio Mazza born 1883 at Piedimonte Etneo, son of Rosario Mazza and Leonarda."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I494@",
@@ -35852,11 +32904,7 @@
     "slug": "giuseppa-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I495@",
@@ -35921,11 +32969,7 @@
     "slug": "giuseppa-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I496@",
@@ -35997,11 +33041,7 @@
     "slug": "giuseppa-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I497@",
@@ -36066,11 +33106,7 @@
     "slug": "giuseppa-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I498@",
@@ -36171,11 +33207,7 @@
     "slug": "concetto",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I499@",
@@ -36242,11 +33274,7 @@
     "slug": "orazio-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I500@",
@@ -36320,11 +33348,7 @@
     "slug": "orazio-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I501@",
@@ -36398,11 +33422,7 @@
     "slug": "orazio-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I502@",
@@ -36483,11 +33503,7 @@
     "slug": "antonina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I503@",
@@ -36527,11 +33543,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I504@",
@@ -36578,11 +33590,7 @@
     "slug": "angelo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I505@",
@@ -36629,11 +33637,7 @@
     "slug": "paolo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I506@",
@@ -36698,11 +33702,7 @@
     "slug": "pietro-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I507@",
@@ -36782,11 +33782,7 @@
     "slug": "pietro-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I508@",
@@ -36851,11 +33847,7 @@
     "slug": "pietro-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I509@",
@@ -36920,11 +33912,7 @@
     "slug": "pietro-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I510@",
@@ -36989,11 +33977,7 @@
     "slug": "paolo-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I511@",
@@ -37040,11 +34024,7 @@
     "slug": "umberto-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I512@",
@@ -37091,11 +34071,7 @@
     "slug": "serena-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I513@",
@@ -37142,11 +34118,7 @@
     "slug": "graziella-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I514@",
@@ -37193,11 +34165,7 @@
     "slug": "giuseppina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I515@",
@@ -37250,11 +34218,7 @@
     "slug": "francesca-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I516@",
@@ -37307,11 +34271,7 @@
     "slug": "francesca-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I517@",
@@ -37364,11 +34324,7 @@
     "slug": "leo-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I518@",
@@ -37407,11 +34363,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I519@",
@@ -37458,11 +34410,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I520@",
@@ -37502,11 +34450,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I521@",
@@ -37602,11 +34546,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I522@",
@@ -37687,11 +34627,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I523@",
@@ -37783,11 +34719,7 @@
     "slug": "vernera-cavallaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I524@",
@@ -37827,11 +34759,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I525@",
@@ -37915,11 +34843,7 @@
     "slug": "nina-nicotra",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I526@",
@@ -37995,19 +34919,7 @@
     "slug": "nina-nicotra",
     "living": false
    }
-  ],
-  "records": [
-   {
-    "kind": "probable",
-    "what": "Mascali, Nati 1873, annual index (Indice Annuale, N section)",
-    "href": "/corrections"
-   }
-  ],
-  "corrections": [
-   "The first child of the 1872 marriage — BORN AT MASCALI ON 12 DECEMBER 1873, fourteen months after her parents' marriage, and named for her mother -- or for her father's mother Venera Murabito; both are Venera, so the custom points two ways and settles nothing on its own. The 1873 annual index of Mascali births carries a PATERNITA column and gives «Nicotra Venera, 12 Dicembre 1873, Giovanni». THE ACT ITSELF IS NOT YET OPENED, so the mother is inferred from the household and not read. Index entry only."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I527@",
@@ -38083,11 +34995,7 @@
     "slug": "venera-nicotra",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I528@",
@@ -38171,11 +35079,7 @@
     "slug": "nina-nicotra",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I529@",
@@ -38266,11 +35170,7 @@
     "slug": "nina-nicotra",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I530@",
@@ -38330,11 +35230,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I531@",
@@ -38380,11 +35276,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I532@",
@@ -38468,11 +35360,7 @@
     "slug": "vernera-cavallaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I533@",
@@ -38556,11 +35444,7 @@
     "slug": "vernera-cavallaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I534@",
@@ -38644,11 +35528,7 @@
     "slug": "vernera-cavallaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I535@",
@@ -38732,11 +35612,7 @@
     "slug": "vernera-cavallaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I536@",
@@ -38820,11 +35696,7 @@
     "slug": "vita-cavallaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I537@",
@@ -38905,11 +35777,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I538@",
@@ -39014,11 +35882,7 @@
     "slug": "gina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I539@",
@@ -39110,11 +35974,7 @@
     "slug": "gina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I540@",
@@ -39205,11 +36065,7 @@
     "slug": "gina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I541@",
@@ -39285,11 +36141,7 @@
     "slug": "gina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I542@",
@@ -39380,11 +36232,7 @@
     "slug": "gina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I543@",
@@ -39482,11 +36330,7 @@
     "slug": "gina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I544@",
@@ -39584,11 +36428,7 @@
     "slug": "maria-mazza-3",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I545@",
@@ -39656,11 +36496,7 @@
     "slug": "lucia-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I546@",
@@ -39742,11 +36578,7 @@
     "slug": "grazia-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I547@",
@@ -39803,11 +36635,7 @@
     "slug": "alfio-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I548@",
@@ -39864,11 +36692,7 @@
     "slug": "alfio-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I549@",
@@ -39925,11 +36749,7 @@
     "slug": "alfio-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I550@",
@@ -39986,11 +36806,7 @@
     "slug": "alfio-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I551@",
@@ -40047,11 +36863,7 @@
     "slug": "pina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I552@",
@@ -40118,11 +36930,7 @@
     "slug": "sebestiano-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I553@",
@@ -40182,11 +36990,7 @@
     "slug": "sebestiano-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I554@",
@@ -40246,11 +37050,7 @@
     "slug": "maria-mazza-5",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I555@",
@@ -40296,11 +37096,7 @@
     "slug": "vera-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I556@",
@@ -40368,11 +37164,7 @@
     "slug": "leo-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I557@",
@@ -40411,11 +37203,7 @@
     "slug": "stefania-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I558@",
@@ -40454,11 +37242,7 @@
     "slug": "maragrazia-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I559@",
@@ -40497,11 +37281,7 @@
     "slug": "f-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I560@",
@@ -40540,11 +37320,7 @@
     "slug": "giovanni-lungo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I561@",
@@ -40599,11 +37375,7 @@
    }
   ],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I562@",
@@ -40642,11 +37414,7 @@
     "slug": "filippo-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I563@",
@@ -40700,11 +37468,7 @@
     "slug": "rosalia-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I564@",
@@ -40743,11 +37507,7 @@
     "slug": "cristian-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I565@",
@@ -40786,11 +37546,7 @@
     "slug": "angelo-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I566@",
@@ -40837,11 +37593,7 @@
     "slug": "antonella-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I567@",
@@ -40888,11 +37640,7 @@
     "slug": "giovanni-mazza-4",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I568@",
@@ -40924,11 +37672,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I569@",
@@ -40960,11 +37704,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I570@",
@@ -41030,11 +37770,7 @@
     "slug": "angelo-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I571@",
@@ -41107,11 +37843,7 @@
     "slug": "angelo-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I572@",
@@ -41177,11 +37909,7 @@
     "slug": "angelo-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I573@",
@@ -41254,11 +37982,7 @@
     "slug": "lorenza-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I574@",
@@ -41303,11 +38027,7 @@
     "slug": "andrea-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I575@",
@@ -41352,11 +38072,7 @@
     "slug": "andrea-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I576@",
@@ -41401,11 +38117,7 @@
     "slug": "lorenzo-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I577@",
@@ -41444,11 +38156,7 @@
     "slug": "fabio-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I578@",
@@ -41487,11 +38195,7 @@
     "slug": "nando-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I579@",
@@ -41536,11 +38240,7 @@
     "slug": "sofia-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I580@",
@@ -41585,11 +38285,7 @@
     "slug": "sofia-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I581@",
@@ -41634,11 +38330,7 @@
     "slug": "alessia-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I582@",
@@ -41677,11 +38369,7 @@
     "slug": "riccardo-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I583@",
@@ -41720,11 +38408,7 @@
     "slug": "francesca-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I585@",
@@ -41784,11 +38468,7 @@
     "slug": "alberto-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I586@",
@@ -41841,11 +38521,7 @@
     "slug": "annalisa-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I587@",
@@ -41884,11 +38560,7 @@
     "slug": "alessandro-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I588@",
@@ -41927,11 +38599,7 @@
     "slug": "ivan-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I589@",
@@ -41970,11 +38638,7 @@
     "slug": "emilio-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I590@",
@@ -42013,11 +38677,7 @@
     "slug": "greta-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I591@",
@@ -42049,11 +38709,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I592@",
@@ -42098,11 +38754,7 @@
     "slug": "alessandro-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I593@",
@@ -42169,11 +38821,7 @@
     "slug": "alessandro-mazza-2",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I594@",
@@ -42233,11 +38881,7 @@
     "slug": "luigi-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I595@",
@@ -42282,11 +38926,7 @@
     "slug": "gabriele-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I596@",
@@ -42331,11 +38971,7 @@
     "slug": "gabriele-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I597@",
@@ -42380,11 +39016,7 @@
     "slug": "daniele-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I598@",
@@ -42423,11 +39055,7 @@
     "slug": "cristina-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I599@",
@@ -42466,11 +39094,7 @@
     "slug": "chiara-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I600@",
@@ -42523,11 +39147,7 @@
     "slug": "gianluca-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I601@",
@@ -42572,11 +39192,7 @@
     "slug": "gianluca-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I602@",
@@ -42636,11 +39252,7 @@
     "slug": "egidio-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I603@",
@@ -42679,11 +39291,7 @@
     "slug": "mazza-3",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I604@",
@@ -42722,11 +39330,7 @@
     "slug": "francesco-mazza",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I605@",
@@ -42758,11 +39362,7 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I606@",
@@ -42808,11 +39408,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I607@",
@@ -42858,11 +39454,7 @@
     "slug": "mazzaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I608@",
@@ -42908,11 +39500,7 @@
     "slug": "fabiana-mazzaro",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I609@",
@@ -42958,11 +39546,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I500001@",
@@ -43053,11 +39637,7 @@
     "slug": "nina-nicotra",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I500002@",
@@ -43125,11 +39705,7 @@
     "slug": "antonino-prostamo-1785",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I500003@",
@@ -43208,11 +39784,7 @@
     "slug": "angela-prostamo",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I500004@",
@@ -43273,11 +39845,7 @@
     "slug": "stefanie-darcy",
     "living": false
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I500005@",
@@ -43316,10 +39884,6 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  }
 ]

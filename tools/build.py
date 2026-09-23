@@ -551,18 +551,59 @@ def kebab(s):
     s = re.sub(r"[^\w\s-]", "", (s or "").lower())
     return re.sub(r"[\s_]+", "-", s).strip("-") or "unknown"
 
+# A PERSON'S URL IS MINTED ONCE AND NEVER RECOMPUTED.
+#
+# This used to derive the slug on every run: namesakes disambiguated first by
+# BIRTH YEAR, then by a counter. Both move. This archive corrects birth years
+# constantly — that is most of what its research does — and the first
+# correction changes the person's URL under anyone who cited it. The counter
+# is worse, because it depends on iteration order, so one new namesake
+# renumbers the rest.
+#
+# It is not hypothetical. The Blazevic archive minted the same way and six
+# men swapped URLs with each other between two commits in September; this
+# archive has been lucky in the ordering, not protected.
+#
+# site/src/data/person-slugs.json is the ledger: read first, used unchanged,
+# appended to only for an id never seen before. Never edited, never deleted —
+# a published URL is a promise, and the number must not pass to another person.
+_LEDGER = os.path.join(ROOT, "site", "src", "data", "person-slugs.json") \
+    if "ROOT" in dir() else os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                         "..", "site", "src", "data", "person-slugs.json")
+try:
+    _ledger_doc = json.load(open(_LEDGER, encoding="utf-8"))
+except Exception:
+    _ledger_doc = {"_why": ["Written by tools/build.py"], "slugs": {}}
+
 people_ids = [x for x in I if canonical[x] == x]
-slug_of, used = {}, collections.Counter()
+slug_of = {x: _ledger_doc["slugs"][x] for x in people_ids if x in _ledger_doc["slugs"]}
+used = collections.Counter()
+_minted = []
 for x in sorted(people_ids, key=lambda z: (nm(z), birth_year(z) or 9999)):
+    if x in slug_of:
+        continue
     base = kebab(nm(x))
     y = birth_year(x)
+    taken = set(slug_of.values()) | set(_ledger_doc["slugs"].values())
     cand = base
-    if used[base]:
+    if cand in taken:
         cand = f"{base}-{y}" if y else f"{base}-{used[base] + 1}"
-        while cand in slug_of.values():
+        while cand in taken:
             cand += "-2"
     used[base] += 1
     slug_of[x] = cand
+    _minted.append((x, cand))
+
+# Written EVERY run, deterministically, so a stamp or an orphan check can
+# account for it: a file that is only sometimes written looks exactly like a
+# file whose generator has been deleted.
+for _pid, _sl in _minted:
+    _ledger_doc["slugs"].setdefault(_pid, _sl)
+_ledger_doc["slugs"] = dict(sorted(_ledger_doc["slugs"].items()))
+open(_LEDGER, "w", encoding="utf-8").write(
+    json.dumps(_ledger_doc, ensure_ascii=False, indent=1) + "\n")
+if _minted:
+    print(f"  person-slugs.json: {len(_minted)} new slug(s) frozen")
 
 # ------------------------------------------------------------------- sources
 
