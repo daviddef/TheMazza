@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import focus from "../data/focus.json";
+import Plates from "../components/Plates.astro";
 const M = focus.Mazza;
 const spine = M.groups.filter((g) => g.onSpine.length);
 const apart = M.groups.filter((g) => !g.onSpine.length);
@@ -442,4 +443,6 @@ const big = apart.reduce((a, g) => a + g.n, 0);
     <em>Mazza</em> arrived as a surname. <strong>The name a family is known by tells you least about
     it.</strong></p>
   </section>
+
+  <Plates see="/mazza" title="The four acts behind this page" dek="Every act named above, as it stands in the register." />
 </Base>

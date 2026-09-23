@@ -20,6 +20,7 @@ import stats from "../data/stats.json";
 import questions from "../data/questions.json";
 import unresolved from "../data/unresolved.json";
 import nameEvidence from "../data/name-evidence.json";
+import Plates from "../components/Plates.astro";
 
 const open = questions.filter((q) => q.state === "open");
 const answered = questions.length - open.length;
@@ -56,4 +57,6 @@ const answered = questions.length - open.length;
       {nameEvidence.length} where a record has since spoken are on <a href={u("/name/")}>The Name</a>.</p>
     </div>
   </section>
+
+  <Plates see="/open-questions" title="The index pages this question rests on" />
 </Base>

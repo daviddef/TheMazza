@@ -4,9 +4,22 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import { people, dead } from "../lib/people.js";
 import stats from "../data/stats.json";
+import Plates from "../components/Plates.astro";
 const here = people.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
   .some((x) => (x || "").startsWith("Piedimonte")));
-const orphans = people.filter((p) => p.comp === 2);
+/* The Mazza of this town, and how many of them the 10 September join brought in.
+   THIS USED TO READ `p.comp === 2`, AND THAT WAS A BUG WITH A PUBLISHED FACE.
+   Component numbers are assigned by iteration order and they move: on 10
+   September the documented join of Rosario Mazza merged the hundred and ten
+   into the main component, and `comp === 2` silently came to mean SEVEN
+   MAZZITELLI OF NEW YORK. This page went on calling them «Mazza of Piedimonte
+   Etneo — Mariano, Leonardo, Orazio…» and tabling the Mazzitelli underneath,
+   for thirteen days. Select people by who they are, never by a number the
+   builder is free to reshuffle — the same lesson the slug ledger learned. */
+const mazza = people.filter((p) => p.name.split(" ").pop() === "Mazza");
+const joined = mazza.filter((p) => p.comp === 1);
+const stillApart = mazza.filter((p) => p.comp !== 1);
+const earliestMazza = Math.min(...mazza.filter((p) => p.born).map((p) => p.born));
 ---
 <Base title="Piedimonte Etneo" eyebrow="Catania, Sicily"
       dek="The town on the north-east flank of Etna that gave this family its surname — and, of the four quarters, the one the archive knows least about.">
@@ -14,8 +27,8 @@ const orphans = people.filter((p) => p.comp === 2);
   <section class="blk">
     <div class="grid g3">
       <div class="stat"><div class="n">{here.length}</div><div class="l">people placed at Piedimonte Etneo</div></div>
-      <div class="stat"><div class="n">1879</div><div class="l">the earliest Mazza birth with a date</div></div>
-      <div class="stat"><div class="n">{stats.components[1]}</div><div class="l">Mazza here who are joined to nothing</div></div>
+      <div class="stat"><div class="n">{earliestMazza}</div><div class="l">the earliest Mazza birth with a date</div></div>
+      <div class="stat"><div class="n">{stillApart.length}</div><div class="l">Mazza still joined to nothing</div></div>
     </div>
   </section>
 
@@ -149,28 +162,37 @@ const orphans = people.filter((p) => p.comp === 2);
   </section>
 
   <section class="blk" style="border-bottom:0">
-    <h2>The hundred and eleven</h2>
-    <p class="dek" style="margin-top:.8rem">The family tree also contains
-    <strong>{orphans.length} Mazza of Piedimonte Etneo</strong> — Mariano, Leonardo, Orazio, Umberto,
-    Giuseppa, Serena, Graziella and the rest — who form a complete little world of their own:
-    parents, children, marriages, cousins. <strong>Not one record joins them to Sebastiano's line.</strong></p>
-    <p class="dek" style="margin-top:1rem">They are almost certainly the same family. A town of a few
-    thousand people does not produce two unrelated Mazza kindreds. But "almost certainly" is not a
-    document, and the join has to be made by a record rather than by an assumption — most likely by
-    the birth act of <strong>Salvatore Mazza, 1879</strong>, which would name his father Rosario and
-    his father's age, or by <strong>Rosario's own marriage act</strong>. Until then this archive keeps
-    them apart and says why. <a href={u("/open-questions/")}>The open questions →</a></p>
-    <div class="scroll" style="margin-top:22px">
-      <table>
-        <thead><tr><th>Name</th><th>Placed at</th><th>Status</th></tr></thead>
-        <tbody>
-          {orphans.slice(0, 200).map((p) => (
-            <tr><td>{p.living ? p.name : <a href={u("/people/" + p.slug)}>{p.name}</a>}</td>
-                <td>{p.birthPlace || "—"}</td>
-                <td><span class="chip inf">unjoined</span></td></tr>
-          ))}
-        </tbody>
-      </table>
+    <div class="lab">10 September 2026 · the archive's largest open question, closed</div>
+    <h2 style="margin-top:.4rem">The hundred and ten, joined</h2>
+    <p class="dek" style="margin:.8rem 0 1.2rem">For a while this page said the opposite, and went on
+    saying it for thirteen days after it stopped being true.</p>
+    <div class="prose">
+      <p>The family tree used to hold <strong>two Mazza kindreds that touched nowhere</strong>: the
+      line down to Sebastiano, and a separate island of a hundred and ten Piedimonte Mazza —
+      Mariano, Leonardo, Orazio, Umberto, Giuseppa, Serena, Graziella and the rest — with parents,
+      children, marriages and cousins of their own, and <em>not one record joining them</em>.</p>
+      <p><strong>Five records closed it.</strong> The export carried Salvatore Mazza's undated father
+      Rosario twice: once as a stub, once as «Rosario Mazza b. 1850 of Piedimonte Etneo» at the head
+      of the island. <em>Nati</em> 1873 atto 3 names Salvatore's father <strong>«Rosario Mazza di
+      Mariano», 28</strong>, and his mother Leonarda Bonanno; marriage proclamations of 1898, 1902
+      and 1910 give Rosario's age again — 53, 55, 65 — and name three more sons. The island's Rosario
+      has exactly those sons by a wife called Leonarda. <strong>One man.</strong></p>
+      <p>So <strong>{joined.length} of the {mazza.length} Mazza in this archive now sit in one
+      connected tree</strong>, and {stillApart.length} do not. The join is not an automatic merge —
+      the automatic rules refused it, correctly, after an earlier build fused four undated Rosario
+      Mazza on the name alone. It is <strong>declared</strong>, in <code>documented-joins.tsv</code>,
+      with its citation and with what would overturn it. <strong>An automatic merge is a rule; a
+      documented join is an argument, and an argument has to be published so it can be
+      attacked.</strong></p>
+      <p class="note" style="margin-top:18px"><strong>Why this section was wrong until 23 September.</strong>
+      It selected its people by <em>component number</em> — <code>comp === 2</code> — and component
+      numbers move. When the join merged the island into the main tree, <code>comp === 2</code> came
+      to mean <strong>seven Mazzitelli of New York</strong>, and this page tabled them under a
+      heading about the Mazza of Piedimonte Etneo while its prose named Mariano, Leonardo and Orazio.
+      Nothing was lost and no record was wrong; a page simply went on describing a question after the
+      archive had answered it. <a href={u("/open-questions/")}>The open questions →</a></p>
     </div>
   </section>
+
+  <Plates see="/piedimonte-etneo" title="The act itself" />
 </Base>

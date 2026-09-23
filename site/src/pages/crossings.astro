@@ -7,6 +7,7 @@ import ships from "../data/ships.json";
 import ellis from "../data/ellis.json";
 import census from "../data/census.json";
 import nyc from "../data/ny-children.json";
+import Plates from "../components/Plates.astro";
 const shipOf = new Map(ships.map((s) => [s.slug, s]));
 const wave1 = crossings.filter((c) => (c.year || 0) < 1940);
 const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
@@ -641,4 +642,6 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
     ever did; this branch is a normal part of that, and it is the least documented thing in the
     archive.</p>
   </section>
+
+  <Plates see="/crossings" title="The publication, as it stands" />
 </Base>

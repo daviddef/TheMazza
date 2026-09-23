@@ -1,0 +1,57 @@
+---
+/* <Plates see="/scilla" /> — every register scan this archive has declared for
+ * a page, drawn with its citation.
+ *
+ * WHY THIS EXISTS. On 23 September 2026 an estate session reported that
+ * twenty-eight images in site/public/plates/ reach no built page, twelve of
+ * them scanning an act this archive's own prose cites by year and act number:
+ * «Piedimonte Etneo, Matrimoni 1836 atto 17», and the reader is never shown
+ * it. Its diagnosis was «this archive has no plates.json».
+ *
+ * THAT WAS HALF RIGHT, AND THE OTHER HALF MATTERS. There is no plates.json,
+ * but there IS a manifest — data/register-reads.tsv — and it had already
+ * declared every one of those images WITH THE PAGE EACH BELONGS ON, in a
+ * `see` column, months before the audit ran. tools/build_plates.py turns it
+ * into site/src/data/reads.json on every build.
+ *
+ * Nothing imported reads.json. The declaration was complete, the build wrote
+ * it, and no page ever read the file. A manifest nobody consumes looks
+ * exactly like a manifest that does not exist — from the outside, and from
+ * inside a filename audit too.
+ *
+ * So this component is the missing consumer, not a new tracker. Add a plate by
+ * adding a row to data/register-reads.tsv; tools/check_plates.py refuses a
+ * build where a declared plate has no file, a file has no declaration, or a
+ * declared plate never reaches the page its own row names.
+ *
+ * The `how` column says which plates this component draws. Six are `inline` —
+ * placed by hand in briatico.astro, inside the argument they belong to, where
+ * a gallery at the foot of the page would be worse. They are still declared,
+ * and still checked; they are just not drawn from here. The rule the check
+ * enforces is REACHES A READER, not «goes through this component».
+ */
+import reads from "../data/reads.json";
+import { u } from "../lib/url.js";
+
+const { see, title = "The acts themselves", dek = null } = Astro.props;
+const mine = reads.filter((r) => r.see === see && r.how !== "inline");
+---
+{mine.length > 0 && (
+  <section class="blk" id="plates">
+    <h2>{title}</h2>
+    {dek && <p class="dek" style="margin:.7rem 0 0">{dek}</p>}
+    <p class="dek" style="margin:.7rem 0 1.2rem">{mine.length} scan{mine.length === 1 ? "" : "s"}
+    read off the films and cited elsewhere on this page.</p>
+    {mine.map((r) => (
+      <figure style="margin:0 0 2.2rem">
+        <img src={u("/plates/" + r.plate)} alt={r.title}
+             style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
+        <figcaption style="margin-top:.6rem">
+          <strong style="font-family:var(--sans);font-size:13px">{r.title}</strong>
+          {r.what && <span class="dek" style="display:block;margin-top:.35rem">{r.what}</span>}
+          <span class="cap" style="display:block;margin-top:.45rem">{r.cite}{r.when && r.when !== "—" ? ` · read ${r.when}` : ""}</span>
+        </figcaption>
+      </figure>
+    ))}
+  </section>
+)}

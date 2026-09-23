@@ -17,6 +17,7 @@ import holdings from "../data/holdings.json";
 import coverage from "../data/coverage.json";
 import additions from "../data/additions.json";
 import nic from "../data/nicotra.json";
+import Plates from "../components/Plates.astro";
 
 const HERE = "Mascali";
 const rows = holdings.rows.filter((r) => r.comune.startsWith(HERE));
@@ -224,4 +225,6 @@ const MARRS = (nic.byComuneSeries["Mascali"] || {})["Matrimoni"] || [];
       <a href={u("/giarre/")}>Giarre →</a> · <a href={u("/riposto/")}>Riposto →</a></p>
     </div>
   </section>
+
+  <Plates see="/mascali" title="The index that taught the layout" />
 </Base>

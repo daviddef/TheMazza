@@ -5,6 +5,7 @@ import { u } from "../lib/url.js";
 import { dead } from "../lib/people.js";
 import places from "../data/places.json";
 import graves from "../data/australia-graves.json";
+import Plates from "../components/Plates.astro";
 const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
   .some((x) => (x || "").startsWith("Briatico") || (x || "").includes("(Briatico)")));
 const pl = places.find((x) => x.name.startsWith("Briatico")) || {};
@@ -386,4 +387,6 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     <P n="Domenica Prostamo" /> left Genoa for Fremantle with an infant son.
     <a href={u("/crossings/")}>The crossings →</a></p>
   </section>
+
+  <Plates see="/briatico" title="And the Zambrone marriage" />
 </Base>
