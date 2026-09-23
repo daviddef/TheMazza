@@ -28,10 +28,66 @@
  "sweeps": [
   {
    "comune": "Giarre",
+   "year": "1835",
+   "series": "Matrimoni",
+   "entries": "—",
+   "note": "not read yet — container wE7KJgX banked, 87 images"
+  },
+  {
+   "comune": "Giarre",
+   "year": "1836",
+   "series": "Matrimoni",
+   "entries": "—",
+   "note": "not read yet — container wE7KJKX banked, 89 images"
+  },
+  {
+   "comune": "Giarre",
+   "year": "1837",
+   "series": "Matrimoni",
+   "entries": "—",
+   "note": "not read yet — container wk94Jr2 banked, 122 images"
+  },
+  {
+   "comune": "Giarre",
+   "year": "1838",
+   "series": "Matrimoni",
+   "entries": "two",
+   "note": "THE N SECTION HOLDS A NICOTRA. atto 2, 9 January 1838: NICOTRA ALFIO, patria Giarre, son of NICOTRA SALVADORE and LA SPINA ROSA, × Cesaro Venera of Giarre. Also atto 21, Nicolosi Salvadore, which is not a Nicotra"
+  },
+  {
+   "comune": "Giarre",
+   "year": "1839",
+   "series": "Matrimoni",
+   "entries": "none",
+   "note": "the alphabet runs L, M, then P — Pulvirenti, Pennisi, Pagano under the heading, checked at full width because the capital could be read either way. No N section"
+  },
+  {
+   "comune": "Giarre",
    "year": "1840",
    "series": "Matrimoni",
    "entries": "none",
    "note": "the whole Tavola read, first heading to the blank leaf after V: A, B, D, C, F, L, M, P, S, T, V. M runs into P and the letter was checked at full width, because this clerk does not order his sections either"
+  },
+  {
+   "comune": "Giarre",
+   "year": "1841",
+   "series": "Matrimoni",
+   "entries": "empty",
+   "note": "N written and left blank, and O beneath it, between 49 Mauro Salvadore under M and the P section — Patanè, Grasso, Russo, Pappalardo. The alphabet here IS ordered: M, N, O, P, Q, R, S"
+  },
+  {
+   "comune": "Giarre",
+   "year": "1842",
+   "series": "Matrimoni",
+   "entries": "none",
+   "note": "M runs straight into O. The two headings after 7 Messina Giuseppe read O and P at full width, NOT N and O — read at band width they look like N. No N section at all"
+  },
+  {
+   "comune": "Giarre",
+   "year": "1843",
+   "series": "Matrimoni",
+   "entries": "one",
+   "note": "the one N entry is NICOLOSI Mro Angelo × Leotta Gaetana, atto 29, his patria CATANIA, parents Nicolosi Antonino and Musumeci Angela. Not a Nicotra. O beneath it is written and blank"
   },
   {
    "comune": "Giarre",
@@ -346,10 +402,66 @@
   "Giarre": [
    {
     "comune": "Giarre",
+    "year": "1835",
+    "series": "Matrimoni",
+    "entries": "—",
+    "note": "not read yet — container wE7KJgX banked, 87 images"
+   },
+   {
+    "comune": "Giarre",
+    "year": "1836",
+    "series": "Matrimoni",
+    "entries": "—",
+    "note": "not read yet — container wE7KJKX banked, 89 images"
+   },
+   {
+    "comune": "Giarre",
+    "year": "1837",
+    "series": "Matrimoni",
+    "entries": "—",
+    "note": "not read yet — container wk94Jr2 banked, 122 images"
+   },
+   {
+    "comune": "Giarre",
+    "year": "1838",
+    "series": "Matrimoni",
+    "entries": "two",
+    "note": "THE N SECTION HOLDS A NICOTRA. atto 2, 9 January 1838: NICOTRA ALFIO, patria Giarre, son of NICOTRA SALVADORE and LA SPINA ROSA, × Cesaro Venera of Giarre. Also atto 21, Nicolosi Salvadore, which is not a Nicotra"
+   },
+   {
+    "comune": "Giarre",
+    "year": "1839",
+    "series": "Matrimoni",
+    "entries": "none",
+    "note": "the alphabet runs L, M, then P — Pulvirenti, Pennisi, Pagano under the heading, checked at full width because the capital could be read either way. No N section"
+   },
+   {
+    "comune": "Giarre",
     "year": "1840",
     "series": "Matrimoni",
     "entries": "none",
     "note": "the whole Tavola read, first heading to the blank leaf after V: A, B, D, C, F, L, M, P, S, T, V. M runs into P and the letter was checked at full width, because this clerk does not order his sections either"
+   },
+   {
+    "comune": "Giarre",
+    "year": "1841",
+    "series": "Matrimoni",
+    "entries": "empty",
+    "note": "N written and left blank, and O beneath it, between 49 Mauro Salvadore under M and the P section — Patanè, Grasso, Russo, Pappalardo. The alphabet here IS ordered: M, N, O, P, Q, R, S"
+   },
+   {
+    "comune": "Giarre",
+    "year": "1842",
+    "series": "Matrimoni",
+    "entries": "none",
+    "note": "M runs straight into O. The two headings after 7 Messina Giuseppe read O and P at full width, NOT N and O — read at band width they look like N. No N section at all"
+   },
+   {
+    "comune": "Giarre",
+    "year": "1843",
+    "series": "Matrimoni",
+    "entries": "one",
+    "note": "the one N entry is NICOLOSI Mro Angelo × Leotta Gaetana, atto 29, his patria CATANIA, parents Nicolosi Antonino and Musumeci Angela. Not a Nicotra. O beneath it is written and blank"
    },
    {
     "comune": "Giarre",
@@ -670,10 +782,66 @@
    "Matrimoni": [
     {
      "comune": "Giarre",
+     "year": "1835",
+     "series": "Matrimoni",
+     "entries": "—",
+     "note": "not read yet — container wE7KJgX banked, 87 images"
+    },
+    {
+     "comune": "Giarre",
+     "year": "1836",
+     "series": "Matrimoni",
+     "entries": "—",
+     "note": "not read yet — container wE7KJKX banked, 89 images"
+    },
+    {
+     "comune": "Giarre",
+     "year": "1837",
+     "series": "Matrimoni",
+     "entries": "—",
+     "note": "not read yet — container wk94Jr2 banked, 122 images"
+    },
+    {
+     "comune": "Giarre",
+     "year": "1838",
+     "series": "Matrimoni",
+     "entries": "two",
+     "note": "THE N SECTION HOLDS A NICOTRA. atto 2, 9 January 1838: NICOTRA ALFIO, patria Giarre, son of NICOTRA SALVADORE and LA SPINA ROSA, × Cesaro Venera of Giarre. Also atto 21, Nicolosi Salvadore, which is not a Nicotra"
+    },
+    {
+     "comune": "Giarre",
+     "year": "1839",
+     "series": "Matrimoni",
+     "entries": "none",
+     "note": "the alphabet runs L, M, then P — Pulvirenti, Pennisi, Pagano under the heading, checked at full width because the capital could be read either way. No N section"
+    },
+    {
+     "comune": "Giarre",
      "year": "1840",
      "series": "Matrimoni",
      "entries": "none",
      "note": "the whole Tavola read, first heading to the blank leaf after V: A, B, D, C, F, L, M, P, S, T, V. M runs into P and the letter was checked at full width, because this clerk does not order his sections either"
+    },
+    {
+     "comune": "Giarre",
+     "year": "1841",
+     "series": "Matrimoni",
+     "entries": "empty",
+     "note": "N written and left blank, and O beneath it, between 49 Mauro Salvadore under M and the P section — Patanè, Grasso, Russo, Pappalardo. The alphabet here IS ordered: M, N, O, P, Q, R, S"
+    },
+    {
+     "comune": "Giarre",
+     "year": "1842",
+     "series": "Matrimoni",
+     "entries": "none",
+     "note": "M runs straight into O. The two headings after 7 Messina Giuseppe read O and P at full width, NOT N and O — read at band width they look like N. No N section at all"
+    },
+    {
+     "comune": "Giarre",
+     "year": "1843",
+     "series": "Matrimoni",
+     "entries": "one",
+     "note": "the one N entry is NICOLOSI Mro Angelo × Leotta Gaetana, atto 29, his patria CATANIA, parents Nicolosi Antonino and Musumeci Angela. Not a Nicotra. O beneath it is written and blank"
     },
     {
      "comune": "Giarre",
@@ -1054,6 +1222,13 @@
    "mother": "Rosa Providenza",
    "seen": "1820",
    "note": "Nicotra Carmela, atto 228, 1 May 1820. THE NAME IS RIGHT AND THE GENERATION IS NOT: Giovanni's father Rosario was a bracciante still working in 1872, and a man fathering a child in 1820 would be past seventy-five by then. A grandfather-generation namesake is exactly what Sicilian naming custom predicts, and custom is not a document"
+  },
+  {
+   "comune": "Giarre",
+   "father": "Salvadore Nicotra",
+   "mother": "Rosa La Spina",
+   "seen": "1838",
+   "note": "named as the parents of NICOTRA ALFIO, who married Venera Cesaro at Giarre on 9 January 1838 (Matrimoni atto 2). Set beside Riposto Matrimoni 1844 — Nicotra Salvadore, patria GIARRE, son of NICOTRA ALFIO and Rosa Pappalardo — the two acts give an ALTERNATING ALFIO/SALVADORE descent at Giarre across three generations, which is exactly what Sicilian naming custom produces. NOT JOINED: the two mothers are both a Rosa and neither surname matches, and custom is not a document"
   }
  ],
  "housesByComune": {
@@ -1108,6 +1283,13 @@
     "mother": "Rosa Providenza",
     "seen": "1820",
     "note": "Nicotra Carmela, atto 228, 1 May 1820. THE NAME IS RIGHT AND THE GENERATION IS NOT: Giovanni's father Rosario was a bracciante still working in 1872, and a man fathering a child in 1820 would be past seventy-five by then. A grandfather-generation namesake is exactly what Sicilian naming custom predicts, and custom is not a document"
+   },
+   {
+    "comune": "Giarre",
+    "father": "Salvadore Nicotra",
+    "mother": "Rosa La Spina",
+    "seen": "1838",
+    "note": "named as the parents of NICOTRA ALFIO, who married Venera Cesaro at Giarre on 9 January 1838 (Matrimoni atto 2). Set beside Riposto Matrimoni 1844 — Nicotra Salvadore, patria GIARRE, son of NICOTRA ALFIO and Rosa Pappalardo — the two acts give an ALTERNATING ALFIO/SALVADORE descent at Giarre across three generations, which is exactly what Sicilian naming custom produces. NOT JOINED: the two mothers are both a Rosa and neither surname matches, and custom is not a document"
    }
   ],
   "Mascali": [
@@ -1120,7 +1302,7 @@
    }
   ]
  },
- "read": 45,
- "unread": 0,
- "withEntries": 14
+ "read": 50,
+ "unread": 3,
+ "withEntries": 16
 }
