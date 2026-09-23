@@ -747,3 +747,25 @@ stats = {
 json.dump({"stats": stats, "duplicates": duplicates, "unresolved": unresolved},
           open("data/audit.json", "w"), indent=1, ensure_ascii=False)
 print(json.dumps(stats, indent=1))
+
+# ---------------------------------------------------------------------------
+# THIS SCRIPT IS STAGE ONE OF FOUR, AND ON ITS OWN IT DESTROYS DATA.
+#
+# people.json is written here from the export alone. build_spine.py,
+# build_more.py and build_person_extras.py then ADD `records`, `corrections`,
+# `onSpine` and `ancGen` to the rows. Running build.py by itself rewrites the
+# file from scratch and drops all four from every person.
+#
+# On 22 September 2026 that happened: a commit regenerated people.json with
+# this script alone and sixty-eight people lost their `records`, among them a
+# Brisbane Catholic Cemetery burial entry. It had to be restored from the
+# previous file. Nothing warned, because every later check saw a file that was
+# internally consistent.
+#
+# So the script says so itself, every run. A warning in a memory or a commit
+# message is not in front of whoever runs this next.
+print("\n  NOTE  build.py is stage one of four. people.json is INCOMPLETE until you run:")
+print("          python3 tools/build_spine.py && python3 tools/build_more.py \\")
+print("            && python3 tools/build_person_extras.py")
+print("        Stopping here drops `records`, `corrections`, `onSpine` and `ancGen`")
+print("        from every person. See the comment at the foot of this file.")

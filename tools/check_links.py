@@ -158,6 +158,25 @@ for slug, files in sorted(named.items()):
 
 for n in notes:
     print("  note ", n)
+# THE FOUR-STAGE GUARD. people.json is written by build.py and then COMPLETED
+# by build_spine.py, build_more.py and build_person_extras.py. Running stage
+# one alone rewrites the file and silently drops these four keys from every
+# row; it happened on 22 September 2026 and sixty-eight people lost their
+# `records`, a burial register entry among them. Nothing caught it, because a
+# stripped file is still internally consistent — every other check passed.
+#
+# A file that has been through all four stages carries all four keys. A file
+# that has not, does not. That is the whole test, and it belongs in a gate
+# rather than in a comment nobody reads at the moment they need it.
+STAGES = {"records": "build_spine.py", "corrections": "build_spine.py",
+          "onSpine": "build_more.py", "ancGen": "build_person_extras.py"}
+for key, stage in STAGES.items():
+    missing = sum(1 for r in people if key not in r)
+    if missing:
+        fails.append(f"people.json is missing «{key}» on {missing} of {len(people)} rows — "
+                     f"build.py was run without {stage}. Run the full four-stage chain: "
+                     f"build.py, build_spine.py, build_more.py, build_person_extras.py")
+
 for f in fails:
     print("  FAIL ", f)
 print(f"  {'ok   ' if not fails else 'FAIL '} {len(people)} people — "

@@ -139,6 +139,52 @@ const total = nic.read;
     </div>
   </section>
 
+  <section class="blk">
+    <h2>Eight Nicotra households, and not one of them his</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Forty-five read index years turned these up. They are
+    kept because a surname that is <em>present</em> and never <em>right</em> is a different fact from
+    a surname that is absent — and because the next reader will otherwise find them again.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="m">Comune</th><th>Father</th><th>Mother</th><th class="m">Seen</th><th>What it is</th></tr></thead>
+        <tbody>
+          {nic.households.map((h) => (
+            <tr>
+              <td class="m small">{h.comune}</td>
+              <td><strong>{h.father}</strong></td>
+              <td class="small">{h.mother}</td>
+              <td class="m small">{h.seen}</td>
+              <td class="small">{h.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>None of these is a join and none is offered as
+    one.</strong> Two of the fathers are called Alfio and a third is a Rosario, which is precisely the
+    trap this archive has fallen into before — four undated Rosario Mazza were once fused on the name
+    alone, and the rule since is that <strong>two people of a surname in one district are not kin
+    until an act says so</strong>. <a href={u("/method/")}>The instruments →</a></p>
+  </section>
+
+  <section class="blk">
+    <h2>One search that cannot work, written down so nobody plans it twice</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The obvious move, when a man's birthplace is in doubt and his marriage bundle survives, is to
+      open the bundle: a <em>processetto</em> carries <strong>both spouses' birth extracts</strong> and
+      their dead parents' death acts, and would answer Giovanni Nicotra's birthplace in one image.</p>
+      <p><strong>It cannot work here, and the reason is a change of régime.</strong> The Bourbon-era
+      <em>Matrimoni, processetti</em> do carry those extracts, and this archive has mined them at
+      Piedimonte and at Scilla. The Italian-era <em>Matrimoni, allegati</em> — which is what 1872 is —
+      carry <strong>the publication certificate and little else: no birth extract, no death act</strong>.
+      What they do carry, and the processetti do not, is the printed <em>vivente / fu</em> field that
+      established Rosario Nicotra and Venera Murabito were both alive.</p>
+      <p><strong>Fascicolo 20 of 1872 has been read, and it is already giving everything it has.</strong>
+      A researcher reasoning from the processetti to the allegati will plan a search the volume cannot
+      answer.</p>
+    </div>
+  </section>
+
   <section class="blk" style="border-bottom:0">
     <h2>What would carry it further</h2>
     <div class="prose" style="margin-top:1rem">
