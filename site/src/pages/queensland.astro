@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import qld from "../data/qld-bdm.json";
+import trove from "../data/trove.json";
 const deaths = qld.filter((r) => r.type === "death");
 const marr = qld.filter((r) => r.type === "marriage");
 ---
@@ -107,5 +108,47 @@ const marr = qld.filter((r) => r.type === "marriage");
     <em>parent</em>, not the person, when you are trying to find siblings. Spellings in the index are
     as the clerk wrote them — <em>Michali</em>, <em>Salvatori</em>, <em>Lecota</em>,
     <em>Postamo</em> — so search loosely and expect the surname you want to be mangled.</p>
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <div class="lab">27 September 2026 · Trove API v3 · Commonwealth of Australia Gazette</div>
+    <h2 style="margin-top:.4rem">Seven naturalisations, and what a gazette notice is worth</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A Trove API key arrived on 27 September and unblocked a source this archive had been shut out
+      of for eight days — not by Trove, but by its own search page, which accepts a query and never
+      paints a result. The <strong>Commonwealth of Australia Gazette</strong> prints certificates of
+      naturalization, and for a family that landed in 1949 those are close to what an electoral roll
+      would give.</p>
+      <p><strong>They are thinner than that hope.</strong> A notice is <strong>a name in an
+      alphabetical list and a date</strong> — no birth date, no address, no former nationality. There
+      is nothing in one to tell two men of a name apart, and these towns produce a Maria Polistena by
+      the dozen. So <strong>{trove.candidates} of these {trove.rows.length} are candidates and none is
+      a join</strong>; {trove.new} are names the family's own export does not contain at all.</p>
+    </div>
+    <div class="scroll" style="margin-top:20px">
+      <table>
+        <thead><tr><th>Surname</th><th>Given</th><th class="m">Gazetted</th><th class="m">In the tree</th><th>What it is, and is not</th></tr></thead>
+        <tbody>
+          {trove.rows.map((r) => (
+            <tr>
+              <td><strong>{r.surname}</strong></td>
+              <td>{r.given}</td>
+              <td class="m small">{r.gazetted}</td>
+              <td class="m small">{r.inTree === "\u2014" ? <em>no</em> : r.inTree}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:16px"><strong>And the better thing Trove turned up is not in
+    this table.</strong> Its archival category surfaces <strong>Queensland State Archives</strong>
+    item records, and four are <strong>Nicotra wills</strong> — Salvatore Philip 1955, Leonarda 1962,
+    Vincenzo 1965, Filippo 1966, all in <em>Supreme Court (Northern) Ecclesiastical Files (Wills)</em>,
+    series S6220, all open access. <strong>A will names the deceased, the death date, the address, the
+    occupation and the beneficiaries.</strong> All four are Townsville district, and so are the only
+    two Nicotra family notices in the whole newspaper sweep. Whether any of it is
+    <P n="Maria Nicotra" />'s family is unknown and nothing is attached.
+    <a href={u("/worklist/")}>Work list, row 185 →</a></p>
   </section>
 </Base>
