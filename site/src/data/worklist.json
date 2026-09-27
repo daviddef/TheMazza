@@ -712,11 +712,11 @@
   },
   {
    "n": 79,
-   "what": "AUSTRALIA — Trove's naturalisation notices, unblocked by the API and swept for seven surnames",
-   "state": "running",
+   "what": "AUSTRALIA — Trove swept to the end of what it will serve",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Unblocked 27 September.** Trove's single-page app never painted a result list in this session's browser; the API returns JSON and needs no JavaScript. **Seven certificate-of-naturalization entries found** — Prostamo Angela and Antonino Giacomo (16 November 1961) and Assunta (3 November 1966); Polistena Maria Luisa (22 January 1959), Maria and Annunziato (March 1969); Melluso Francesco (6 July 1961). They are in `data/trove-gazette.tsv` as **candidates, not joins**.\n\n**And the notices are thinner than this row hoped.** It expected «a date, a street address and a former nationality». These give **a name in an alphabetical list and a date** — nothing to tell two men of one name apart. The Graceville address this archive already holds for Maria Assunta came from somewhere else.\n\n**Still to sweep:** Mazza, Arena, Donato, Nicotra and Anile — the last needs a phrase query, because a bare `Anile` returns 5.8 million results by matching inside longer words.",
+   "note": "**Unblocked 27 September.** Trove's single-page app never painted a result list in this session's browser; the API returns JSON and needs no JavaScript. **Seven certificate-of-naturalization entries found** — Prostamo Angela and Antonino Giacomo (16 November 1961) and Assunta (3 November 1966); Polistena Maria Luisa (22 January 1959), Maria and Annunziato (March 1969); Melluso Francesco (6 July 1961). They are in `data/trove-gazette.tsv` as **candidates, not joins**.\n\n**And the notices are thinner than this row hoped.** It expected «a date, a street address and a former nationality». These give **a name in an alphabetical list and a date** — nothing to tell two men of one name apart. The Graceville address this archive already holds for Maria Assunta came from somewhere else.\n\n**Still to sweep:** Mazza, Arena, Donato, Nicotra and Anile — the last needs a phrase query, because a bare `Anile` returns 5.8 million results by matching inside longer words.\n\n**SWEPT OUT 27 SEPTEMBER.** Every Australian person this archive holds searched by full name. Michele Mazza, Ignazio Mazza, Venera Mazza, Alfonso Prostamo, Caterina Melluso and Giovanni Polistena all return **nothing**. **Sixteen Queensland hits in total**, and the two that matter are **withheld**: a **naturalisation ceremony report for SEBASTIANO MAZZA, Bundaberg, 6 July 1962** — «THREE NEW CITIZENS ... three former Italian citizens received certificates of...» — and a **Family Notice naming him, 28 September 1963**. Both carry `status: currently unavailable`; Trove indexes the post-1955 Queensland papers and will not serve their text. **A copyright wall, not an absence.** See row 184.",
    "covers": [
     "src:src/nara-new-york-rocco-arena--ea309f",
     "src:src/trove-attempted-and-bl-5cbbd7"
@@ -1723,6 +1723,15 @@
    "covers": [],
    "what": "The DEATHS of Rosario Nicotra and Venera Murabito — 296 volumes, not one opened",
    "note": "Both were **alive and unmarked by «fu»** in October 1872, in an act that writes «fu» for a witness two lines above. Neither has been sought in any register of any town.\n\n**Mascali holds 78 Morti volumes, Giarre 147, Riposto 71.** They were «of Mascali» in 1872, so Mascali first. **An Italian-era death act names the deceased's parents**, which would reach **generation eight** — one further than their own marriage would. That makes this better value than the marriage sweep it has been queued behind, and it is the only line of attack that does not depend on finding Giovanni first."
+  },
+  {
+   "n": 184,
+   "state": "next",
+   "owner": "this archive",
+   "since": "2026-09-27",
+   "covers": [],
+   "what": "Three Queensland articles Trove has indexed and will not show — and one of them contradicts row 105",
+   "note": "Trove matched these inside the text and serves `status: currently unavailable`; both article URLs 404. The words exist and are reachable another way — the National Library, or the paper's own microfilm.\n\n- **News-Mail (Bundaberg), 6 July 1962, «THREE NEW CITIZENS»** — snippet: *«Supported by friends and relatives, three former Italian citizens received certificates of...»*. **SEBASTIANO MAZZA is indexed in it.**\n- **News-Mail (Bundaberg), 28 September 1963, «Family Notices»** — names him again.\n- **A Queensland «Family Notices» of 17 February 1958** naming a **CONCETTA MAZZA**.\n\n**AND THE FIRST ONE FIGHTS SOMETHING THIS ARCHIVE ALREADY ARGUES.** [Row 105](/worklist/) reasons that Sebastiano Mazza was naturalised **before 1959**, because only British subjects could enrol and he is on the 1959 roll at **Wacol**. A naturalisation ceremony at **Bundaberg in July 1962** does not fit, and Bundaberg is three hundred and fifty kilometres away. **Either it is a different Sebastiano Mazza, or one of the two readings is wrong** — and the archive holds a naturalisation file for him, NAA J25 1971/1074, which would settle it."
   }
  ],
  "accounts": [
