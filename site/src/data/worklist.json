@@ -64,10 +64,10 @@
   {
    "n": 7,
    "what": "Trove — the Brisbane Italian community, and the 1942 internments",
-   "state": "blocked",
+   "state": "next",
    "owner": "David",
    "since": "2026-09-15",
-   "note": "Worked so far through Trove's web interface, which is flaky enough that several queries had to be retried and scroll-waited. **An API key would turn this into clean JSON.** Asked on 15 September; not blocking anything else, and it will be done by hand if no key appears. Trove's newspapers also largely stop at 1955, so the yield may be modest either way. **SHARPENED 16 SEPTEMBER: this is no longer a speculative search.** The NAA has now given **two named internees in this family** — **Rosario Mazza** (MP1103/1 Q8110) and **Mario Crupi**, held at **Loveday** from 18 August 1942 to 30 December 1943. **Trove would carry what the newspapers said about it** — the round-ups of north Queensland Italians in 1942 were reported, and internees' names sometimes printed. Two names and two dates is a far better starting point than «the 1942 internments».",
+   "note": "Worked so far through Trove's web interface, which is flaky enough that several queries had to be retried and scroll-waited. **An API key would turn this into clean JSON.** Asked on 15 September; not blocking anything else, and it will be done by hand if no key appears. Trove's newspapers also largely stop at 1955, so the yield may be modest either way. **SHARPENED 16 SEPTEMBER: this is no longer a speculative search.** The NAA has now given **two named internees in this family** — **Rosario Mazza** (MP1103/1 Q8110) and **Mario Crupi**, held at **Loveday** from 18 August 1942 to 30 December 1943. **Trove would carry what the newspapers said about it** — the round-ups of north Queensland Italians in 1942 were reported, and internees' names sometimes printed. Two names and two dates is a far better starting point than «the 1942 internments».\n\n**THE KEY EXISTS AS OF 27 SEPTEMBER and this is no longer blocked.** The naturalisation sweep ran the same day; the internment half has not. Search **Rosario Mazza** and **Mario Crupi** against 1942–1943, and **Loveday** as a place — the camp was reported in the South Australian papers, which Trove holds to 1954.",
    "covers": [
     "src:src/trove-the-brisbane-italian-8e8e0b"
    ]
@@ -712,11 +712,11 @@
   },
   {
    "n": 79,
-   "what": "AUSTRALIA — Trove's naturalisation notices, blocked by the tool and not the archive",
-   "state": "blocked",
+   "what": "AUSTRALIA — Trove's naturalisation notices, unblocked by the API and swept for seven surnames",
+   "state": "running",
    "owner": "this archive",
    "since": "2026-09-15",
-   "note": "**Phase 9.** Trove has already produced **Brisbane Prostamo naturalisations** and Maria Assunta's gazettal of 4 July 1966 at 3 Frank Street, Graceville — both found incidentally rather than by a sweep. **Naturalisation notices give a date, a street address and a former nationality**, which for a 1949 migration is close to what an electoral roll would give and is free. Sweep all ten surnames, not just the two that turned up by accident. **ATTEMPTED 20 SEPTEMBER AND IT WILL NOT RUN HERE.** Trove's search page loads, accepts the query and echoes it back — *«l-artType: newspapers / All of these words: Prostamo»* — and then **never renders a result list**. No count, no articles, no empty state. The console throws **«TypeError: Cannot read properties of undefined (reading 'clear')»** twice from Trove's own vendor bundle: a storage or cache API the browser pane does not provide, and the single-page app dies on it before it paints. **This is a tooling incompatibility, not a block and not an absence** — and it is written down that way because a blank Trove page is exactly the thing somebody records as *«nothing for Prostamo in Australian newspapers»*. That would be false: Trove has already given this archive Brisbane Prostamo naturalisations and Maria Assunta's gazettal of 4 July 1966 at 3 Frank Street, Graceville. **Two ways round, and the first is the real answer:** the **Trove API v3** is free and keyed, returns JSON, and needs no JavaScript at all — a key comes from the NLA in a few minutes and would make a ten-surname sweep mechanical. Otherwise, **David's own browser**, where the page works. **Blocked on a key, which is [row 153](/worklist/).**",
+   "note": "**Unblocked 27 September.** Trove's single-page app never painted a result list in this session's browser; the API returns JSON and needs no JavaScript. **Seven certificate-of-naturalization entries found** — Prostamo Angela and Antonino Giacomo (16 November 1961) and Assunta (3 November 1966); Polistena Maria Luisa (22 January 1959), Maria and Annunziato (March 1969); Melluso Francesco (6 July 1961). They are in `data/trove-gazette.tsv` as **candidates, not joins**.\n\n**And the notices are thinner than this row hoped.** It expected «a date, a street address and a former nationality». These give **a name in an alphabetical list and a date** — nothing to tell two men of one name apart. The Graceville address this archive already holds for Maria Assunta came from somewhere else.\n\n**Still to sweep:** Mazza, Arena, Donato, Nicotra and Anile — the last needs a phrase query, because a bare `Anile` returns 5.8 million results by matching inside longer words.",
    "covers": [
     "src:src/nara-new-york-rocco-arena--ea309f",
     "src:src/trove-attempted-and-bl-5cbbd7"
@@ -1400,11 +1400,11 @@
   },
   {
    "n": 153,
-   "state": "blocked",
+   "state": "done",
    "owner": "David",
    "since": "2026-09-20",
-   "what": "A Trove API key — five minutes of David's time, and it unblocks a whole source",
-   "note": "**Trove will not run in this session's browser** ([row 79](/worklist/)): its single-page app throws inside its own vendor bundle on a storage API the pane does not provide, and never paints a result list. **The fix is not another attempt at the page.** **The Trove API v3 is free**, returns JSON, and needs no JavaScript. A key is requested from the National Library of Australia at **trove.nla.gov.au** under *For developers*; it takes a few minutes and asks only for a name and what the key is for. **What it would unblock.** Trove holds Australian newspapers and the **Commonwealth of Australia Gazette**, where **naturalisation notices give a date, a street address and a former nationality** — for a family that arrived in 1937 and 1949, that is close to what an electoral roll gives, and free. This archive has already had two finds out of Trove *by accident*: the Brisbane Prostamo naturalisations, and Maria Assunta Melluso's gazettal of **4 July 1966 at 3 Frank Street, Graceville**. Neither came from a sweep. **Ten surnames are waiting:** Mazza, Crupi, Arena, Polistena, Donato, Prostamo, Melluso, Cavallaro, Bova, Armanno. **Once the key exists**, put it somewhere this project can read and the sweep is mechanical — one GET per surname, no browser involved.",
+   "what": "A Trove API key — asked for on 15 September, granted on 27th, and it unblocked the source in an afternoon",
+   "note": "**Granted 27 September 2026, valid to December 2026.** Stored in `.env`, which is gitignored — this repository is public and the key is never committed, printed, or written into a data file. `tools/trove.py` reads it from there and **refuses to search without it**, rather than querying anonymously and reporting an empty result as a finding.\n\n**It worked the same afternoon**: seven naturalisation entries across Prostamo, Polistena and Melluso, and the eight-day block on [row 79](/worklist/) is closed. The failure had always been the tool, never the source.",
    "covers": []
   },
   {
