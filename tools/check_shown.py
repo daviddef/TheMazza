@@ -130,6 +130,49 @@ for slug, phrase, why in CANARIES:
                         f"a component by number or position stops rendering when the graph walk "
                         f"renumbers; select it by who is in it")
 
+# THE PEDIGREE MUST COUNT WHAT THE ARCHIVE HAS READ, NOT ONLY WHAT THE FILE SAYS.
+#
+# /ancestors/ counted ancestors.json — the GEDCOM — and nothing else, so it
+# reported 59 people where this archive can name 91, and 15.6% at the sixth
+# generation where it can show 34.4%. Sixteen proved parents of people already
+# on the chart were missing from it, four of them the Nicotra and Cassaniti
+# grandparents read out of Piedimonte Matrimoni 1872 atto 20. /tree/ had drawn
+# them for months. The pedigree page simply never imported the file.
+#
+# The invariant: for every generation, the count the page prints must equal the
+# export's count PLUS the documented parents this archive has proved at that
+# generation. If someone drops the import again, these numbers disagree and the
+# build stops.
+anc_page = os.path.join(DIST, "ancestors", "index.html")
+if os.path.exists(anc_page):
+    body = pages.setdefault("ancestors", text_of(anc_page))
+    anc = json.load(open("site/src/data/ancestors.json", encoding="utf-8"))
+    dp = json.load(open("site/src/data/documented-parents.json", encoding="utf-8"))
+    docgen = {}
+    for v in dp["byName"].values():
+        g = str(v.get("gen", ""))
+        if g.isdigit():
+            docgen[int(g)] = docgen.get(int(g), 0) + 1
+    shown = {int(g): int(n) for g, n in re.findall(r"Generation (\d+) · (\d+) of \d+", body)}
+    if not shown:
+        problems.append("  FAIL  /ancestors/ prints no «Generation N · X of Y» label — the check "
+                        "below cannot read the pedigree's own counts")
+    for r in anc["generations"]:
+        g = r["gen"]
+        want = r["found"] + docgen.get(g, 0)
+        got = shown.get(g)
+        if got is None:
+            problems.append(f"  FAIL  /ancestors/ draws no generation {g} at all")
+        elif got != want:
+            problems.append(
+                f"  FAIL  /ancestors/ generation {g} counts {got}, and the archive holds {want} — "
+                f"{r['found']} in the family's file plus {docgen.get(g, 0)} proved from a register. "
+                f"The page is counting ancestors.json alone; it must also count "
+                f"documented-parents.json, as /tree/ does")
+    if docgen and "from a register" not in body:
+        problems.append("  FAIL  /ancestors/ never says «from a register», so it is not "
+                        "distinguishing the people it proved from the people the export gave it")
+
 # Every non-singleton piece must appear on /components/ under its own heading.
 comps_page = os.path.join(DIST, "components", "index.html")
 if os.path.exists(comps_page):

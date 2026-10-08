@@ -3,14 +3,46 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import anc from "../data/ancestors.json";
-const { generations, anchors, total } = anc;
+import docparents from "../data/documented-parents.json";
+const { generations, anchors } = anc;
+
+/* THE EXPORT IS NOT THE ARCHIVE.
+   ancestors.json counts the people Michael's GEDCOM names. It does not count
+   the people this archive has PROVED from a register and that the export never
+   held — and that is most of the Sicilian and Calabrian research of the last
+   months. /tree/ has drawn them since build_documented_parents.py was written;
+   this page never imported the file, so it reported 59 where the archive can
+   name 91, and 15.6% at the sixth generation where it can show 34.4%.
+
+   The kit's lineage() says it in as many words: "a parent known only as a name
+   on a register is still a real thing the chart should draw, and refusing it
+   would quietly shorten the line." This page was quietly shortening the line.
+
+   Both numbers are kept and both are labelled, because the difference between
+   what a family's file asserts and what a register proves is the whole subject
+   of this archive. */
+const docByGen = {};
+for (const v of Object.values(docparents.byName)) {
+  const g = parseInt(v.gen, 10);
+  if (!Number.isNaN(g)) (docByGen[g] = docByGen[g] || []).push(v);
+}
+for (const list of Object.values(docByGen)) list.sort((a, b) => a.name.localeCompare(b.name));
+const docOf = (g) => docByGen[g] || [];
+const rows = generations.map((r) => {
+  const doc = docOf(r.gen);
+  return { ...r, doc, fromExport: r.found, withDoc: r.found + doc.length };
+});
+const total = rows.reduce((n, r) => n + r.withDoc, 0);
+const fromRegisters = total - anc.total;
+const genOf = (n) => rows.find((r) => r.gen === n);
+const g6 = genOf(6);
 const label = (g) => ["", "parents", "grandparents", "great-grandparents",
   "2× great-grandparents", "3× great-grandparents", "4× great-grandparents",
   "5× great-grandparents", "6× great-grandparents", "7× great-grandparents",
   "8× great-grandparents"][g] || `generation ${g}`;
 ---
 <Base title="The Ancestors" eyebrow={`${total} people, ten generations`}
-      dek="Everyone standing behind Mia Josephine Mazza and Rocco Francesco Mazza — counted honestly, generation by generation, against the number there ought to be.">
+      dek={`Everyone standing behind Mia Josephine Mazza and Rocco Francesco Mazza — counted honestly, generation by generation, against the number there ought to be. ${anc.total} of them are named in the family's own file; the other ${fromRegisters} this archive proved from a register, and they are marked.`}>
 
   <section class="blk">
     <p class="lede">This archive exists for two children born in Brisbane in <strong>2017</strong> and
@@ -26,20 +58,24 @@ const label = (g) => ["", "parents", "grandparents", "great-grandparents",
     <h2>How complete each generation is</h2>
     <div class="scroll" style="margin-top:18px">
       <table>
-        <thead><tr><th class="m">Gen</th><th>Who they are</th><th class="m">Found</th><th class="m">Possible</th><th>Completeness</th><th>Where they were born</th></tr></thead>
-        <tbody>{generations.map((r) => {
-          const pct = Math.round(1000 * r.found / r.possible) / 10;
+        <thead><tr><th class="m">Gen</th><th>Who they are</th><th class="m">Found</th><th class="m">In the file</th><th class="m">From a register</th><th class="m">Possible</th><th>Completeness</th><th>Where they were born</th></tr></thead>
+        <tbody>{rows.map((r) => {
+          const pct = Math.round(1000 * r.withDoc / r.possible) / 10;
+          const expct = Math.round(1000 * r.fromExport / r.possible) / 10;
           return (
           <tr>
             <td class="m">{r.gen}</td>
             <td>{label(r.gen)}</td>
-            <td class="m">{r.found}</td>
+            <td class="m"><strong>{r.withDoc}</strong></td>
+            <td class="m" style="color:var(--ink-3)">{r.fromExport}</td>
+            <td class="m">{r.doc.length || "—"}</td>
             <td class="m">{r.possible}</td>
             <td>
               <span style="display:inline-block;vertical-align:middle;width:120px;height:8px;background:var(--panel-2);border-radius:2px;overflow:hidden">
                 <span style={`display:block;height:8px;width:${Math.max(pct, 1)}%;background:var(--terra)`}></span>
               </span>
               <span class="mono" style="margin-left:9px">{pct}%</span>
+              {r.doc.length > 0 && <span class="mono" style="margin-left:6px;color:var(--ink-3)">(file alone {expct}%)</span>}
             </td>
             <td>{r.towns.map((t) => t.name.split(",")[0]).join(" · ") || "—"}</td>
           </tr>);
@@ -48,30 +84,52 @@ const label = (g) => ["", "parents", "grandparents", "great-grandparents",
       </table>
     </div>
     <p class="note" style="margin-top:24px">The shape of that column is the whole story. The archive is
-    <strong>complete</strong> for parents and grandparents, <strong>half complete</strong> for the two
-    generations above, and then it falls off a cliff: <strong>5.5%</strong> at the seventh generation
-    and <strong>0.2%</strong> at the tenth. What survives that far is a single thread — the
-    <a href={u("/briatico/")}>Prostamo of Briatico</a>. Everything else has already stopped.</p>
+    <strong>complete</strong> for parents and grandparents, <strong>half complete</strong> for the
+    three generations above, and then it falls off a cliff. Where it falls matters: on the family's
+    file alone the sixth generation is <strong>{Math.round(1000 * g6.fromExport / g6.possible) / 10}%</strong>,
+    and with the people this archive has read out of registers it is
+    <strong>{Math.round(1000 * g6.withDoc / g6.possible) / 10}%</strong>. That difference is
+    the <a href={u("/searched/")}>register work</a>, and it is why this page counts both
+    numbers instead of one.</p>
+    <p class="note" style="margin-top:16px"><strong>Two threads reach the ninth generation</strong>,
+    not one. The <a href={u("/briatico/")}>Prostamo of Briatico</a> are in the file and go furthest,
+    to Franco Antonino Prostamo and Agnere Polito about 1697. The <strong>Arena and Costa of
+    Scilla</strong> reach the ninth too — Filippo Arena the elder, Santa Ungaro, Giuseppe Costa and
+    Giacoma Turco — and not one of them was in the export. They were read out of the Scilla
+    registers, act by act, and this page reported them as nothing for as long as it counted only
+    the file.</p>
     <p class="note" style="margin-top:16px">Half of the missing half at generation three is not
     Italian at all. It is the <strong>D'Arcy</strong> side, through the children's mother, which this
     archive carries only as far as her parents. That family has
     <a href={u("/open-questions/")}>its own research</a> and is not duplicated here.</p>
   </section>
 
-  {generations.map((r) => (
+  {rows.map((r) => (
     <section class="blk">
-      <div class="lab">Generation {r.gen} · {r.found} of {r.possible}</div>
+      <div class="lab">Generation {r.gen} · {r.withDoc} of {r.possible}{r.doc.length > 0
+        ? ` · ${r.doc.length} of them from a register, not from the file` : ""}</div>
       <h2 style="margin-top:.4rem;font-size:26px">{label(r.gen).charAt(0).toUpperCase() + label(r.gen).slice(1)}</h2>
       <div class="scroll" style="margin-top:16px">
         <table>
-          <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>Line</th></tr></thead>
-          <tbody>{r.people.map((x) => (
+          <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>Line, or the act that proved them</th></tr></thead>
+          <tbody>
+            {r.people.map((x) => (
             <tr>
               <td><a href={u("/people/" + x.slug)}>{x.name}</a></td>
               <td class="m">{x.datesHidden ? <span style="color:var(--ink-3)">withheld</span>
                 : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
               <td>{x.birthPlace || "—"}</td>
               <td>{x.surname}</td>
+            </tr>))}
+            {/* Proved from a register and absent from the family's file. No person page to
+                link to — these people exist here and in documented-additions.tsv, nowhere else. */}
+            {r.doc.map((x) => (
+            <tr>
+              <td>{x.name} <span class="mono" style="color:var(--terra);font-size:11px">from a register</span></td>
+              <td class="m">{x.living || x.presumedLiving ? <span style="color:var(--ink-3)">withheld</span>
+                : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
+              <td>{x.birthPlace || "—"}</td>
+              <td style="color:var(--ink-3)">{(x.sources || []).slice(0, 2).join("; ") || "—"}</td>
             </tr>))}
           </tbody>
         </table>
@@ -83,6 +141,8 @@ const label = (g) => ["", "parents", "grandparents", "great-grandparents",
     <h2>Where it ends</h2>
     <p class="dek" style="margin-top:.8rem">At the tenth generation there are two people and they are
     <P n="Franco Antonino Prostamo" /> and <P n="Agnere Polito" />, born at Briatico about 1697 and
-    1699. Everything above them is unsearched. <a href={u("/direct-line/")}>The spine →</a></p>
+    1699. Everything above them is unsearched. One generation below them stand four more, read out
+    of the Scilla registers and in no family file: Filippo Arena the elder, Santa Ungaro, Giuseppe
+    Costa and Giacoma Turco. <a href={u("/direct-line/")}>The spine →</a></p>
   </section>
 </Base>
