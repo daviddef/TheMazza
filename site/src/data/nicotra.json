@@ -304,7 +304,7 @@
    "year": "1876",
    "series": "Morti",
    "entries": "two",
-   "note": "NICOTRA MARIA, registro 14. Also Nicolosi Rosario 7. No paternità column"
+   "note": "NICOTRA MARIA, registro 14. Also Nicolosi Rosario 7. No paternità column — ACT FETCHED AND NOT READABLE: atto 14 sits under the archive's own black cover sheet. Only «Nicotra» in the margin and fragments of the right edge survive. A WALL, NOT AN ABSENCE"
   },
   {
    "comune": "Mascali",
@@ -325,7 +325,7 @@
    "year": "1879",
    "series": "Morti",
    "entries": "three",
-   "note": "NICOTRA GIUSEPPE, registro 21. Also Nucifora Leonardo 2, Nicolosi Giuseppe 18. No paternità column, and the early M is behind a cover sheet"
+   "note": "NICOTRA GIUSEPPE, registro 21. Also Nucifora Leonardo 2, Nicolosi Giuseppe 18. No paternità column, and the early M is behind a cover sheet — ACT FETCHED 8 Oct 2026 AND THE CANDIDATE IS DEAD: atto 21, 4 April 1879, «è morto Giuseppe Nicotra, DI ANNO UNO», son of VENERO NICOTRA, bracciale, and VENERA SORBELLO, both of Mascali. An infant born about 1878, NOT the Giuseppe born 19 May 1842"
   },
   {
    "comune": "Mascali",
@@ -932,7 +932,7 @@
     "year": "1876",
     "series": "Morti",
     "entries": "two",
-    "note": "NICOTRA MARIA, registro 14. Also Nicolosi Rosario 7. No paternità column"
+    "note": "NICOTRA MARIA, registro 14. Also Nicolosi Rosario 7. No paternità column — ACT FETCHED AND NOT READABLE: atto 14 sits under the archive's own black cover sheet. Only «Nicotra» in the margin and fragments of the right edge survive. A WALL, NOT AN ABSENCE"
    },
    {
     "comune": "Mascali",
@@ -953,7 +953,7 @@
     "year": "1879",
     "series": "Morti",
     "entries": "three",
-    "note": "NICOTRA GIUSEPPE, registro 21. Also Nucifora Leonardo 2, Nicolosi Giuseppe 18. No paternità column, and the early M is behind a cover sheet"
+    "note": "NICOTRA GIUSEPPE, registro 21. Also Nucifora Leonardo 2, Nicolosi Giuseppe 18. No paternità column, and the early M is behind a cover sheet — ACT FETCHED 8 Oct 2026 AND THE CANDIDATE IS DEAD: atto 21, 4 April 1879, «è morto Giuseppe Nicotra, DI ANNO UNO», son of VENERO NICOTRA, bracciale, and VENERA SORBELLO, both of Mascali. An infant born about 1878, NOT the Giuseppe born 19 May 1842"
    },
    {
     "comune": "Mascali",
@@ -1570,7 +1570,7 @@
      "year": "1876",
      "series": "Morti",
      "entries": "two",
-     "note": "NICOTRA MARIA, registro 14. Also Nicolosi Rosario 7. No paternità column"
+     "note": "NICOTRA MARIA, registro 14. Also Nicolosi Rosario 7. No paternità column — ACT FETCHED AND NOT READABLE: atto 14 sits under the archive's own black cover sheet. Only «Nicotra» in the margin and fragments of the right edge survive. A WALL, NOT AN ABSENCE"
     },
     {
      "comune": "Mascali",
@@ -1591,7 +1591,7 @@
      "year": "1879",
      "series": "Morti",
      "entries": "three",
-     "note": "NICOTRA GIUSEPPE, registro 21. Also Nucifora Leonardo 2, Nicolosi Giuseppe 18. No paternità column, and the early M is behind a cover sheet"
+     "note": "NICOTRA GIUSEPPE, registro 21. Also Nucifora Leonardo 2, Nicolosi Giuseppe 18. No paternità column, and the early M is behind a cover sheet — ACT FETCHED 8 Oct 2026 AND THE CANDIDATE IS DEAD: atto 21, 4 April 1879, «è morto Giuseppe Nicotra, DI ANNO UNO», son of VENERO NICOTRA, bracciale, and VENERA SORBELLO, both of Mascali. An infant born about 1878, NOT the Giuseppe born 19 May 1842"
     },
     {
      "comune": "Mascali",
@@ -2009,7 +2009,14 @@
    "father": "— (seven deaths, not a household)",
    "mother": "—",
    "seen": "1875, 1876, 1879, 1880, 1881",
-   "note": "SEVEN NICOTRA DEATHS in nine years of Mascali's death indexes: ORAZIA 1875/107, MARIA 1876/14, GIUSEPPE 1879/21, SALVATORE 1880/63, LEONARDO 1880/95, NUNZIATO 1881/2, SALVATORE 1881/14. NONE IS ROSARIO AND NONE IS VENERA MURABITO. Two are worth a second look and neither is claimed: a NICOTRA GIUSEPPE dies in 1879 and the Alfio × Sudieri household had a Giuseppe born here on 19 May 1842; a NICOTRA MARIA dies in 1876 and that household had a Maria born 1847. The indexes for those two years carry NO paternità column, so the acts are the only way to test either"
+   "note": "SEVEN NICOTRA DEATHS in nine years of Mascali's death indexes: ORAZIA 1875/107, MARIA 1876/14, GIUSEPPE 1879/21, SALVATORE 1880/63, LEONARDO 1880/95, NUNZIATO 1881/2, SALVATORE 1881/14. NONE IS ROSARIO AND NONE IS VENERA MURABITO. BOTH CANDIDATES WERE TESTED BY FETCHING THE ACTS. The 1879 GIUSEPPE IS DISPROVED: he died aged ONE YEAR, son of Venero Nicotra and Venera Sorbello, not the Giuseppe born 19 May 1842. The 1876 MARIA CANNOT BE READ: her act lies under the archive's own black cover sheet"
+  },
+  {
+   "comune": "Mascali",
+   "father": "Venero Nicotra",
+   "mother": "Venera Sorbello",
+   "seen": "1879",
+   "note": "A BRACCIALE NICOTRA HOUSEHOLD AT MASCALI — the social condition Rosario Nicotra shares, and the first of its kind found here. Named in Morti 1879 atto 21, the death of their son GIUSEPPE aged ONE YEAR on 3 April 1879. Nothing attaches them to Rosario and nothing should until an act does"
   }
  ],
  "housesByComune": {
@@ -2100,7 +2107,14 @@
     "father": "— (seven deaths, not a household)",
     "mother": "—",
     "seen": "1875, 1876, 1879, 1880, 1881",
-    "note": "SEVEN NICOTRA DEATHS in nine years of Mascali's death indexes: ORAZIA 1875/107, MARIA 1876/14, GIUSEPPE 1879/21, SALVATORE 1880/63, LEONARDO 1880/95, NUNZIATO 1881/2, SALVATORE 1881/14. NONE IS ROSARIO AND NONE IS VENERA MURABITO. Two are worth a second look and neither is claimed: a NICOTRA GIUSEPPE dies in 1879 and the Alfio × Sudieri household had a Giuseppe born here on 19 May 1842; a NICOTRA MARIA dies in 1876 and that household had a Maria born 1847. The indexes for those two years carry NO paternità column, so the acts are the only way to test either"
+    "note": "SEVEN NICOTRA DEATHS in nine years of Mascali's death indexes: ORAZIA 1875/107, MARIA 1876/14, GIUSEPPE 1879/21, SALVATORE 1880/63, LEONARDO 1880/95, NUNZIATO 1881/2, SALVATORE 1881/14. NONE IS ROSARIO AND NONE IS VENERA MURABITO. BOTH CANDIDATES WERE TESTED BY FETCHING THE ACTS. The 1879 GIUSEPPE IS DISPROVED: he died aged ONE YEAR, son of Venero Nicotra and Venera Sorbello, not the Giuseppe born 19 May 1842. The 1876 MARIA CANNOT BE READ: her act lies under the archive's own black cover sheet"
+   },
+   {
+    "comune": "Mascali",
+    "father": "Venero Nicotra",
+    "mother": "Venera Sorbello",
+    "seen": "1879",
+    "note": "A BRACCIALE NICOTRA HOUSEHOLD AT MASCALI — the social condition Rosario Nicotra shares, and the first of its kind found here. Named in Morti 1879 atto 21, the death of their son GIUSEPPE aged ONE YEAR on 3 April 1879. Nothing attaches them to Rosario and nothing should until an act does"
    }
   ]
  },
