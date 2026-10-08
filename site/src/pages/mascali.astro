@@ -29,6 +29,7 @@ const riveli = rows.filter((r) => /Riveli/i.test(r.type));
 const rivFrom = Math.min(...riveli.map((r) => r.from).filter(Boolean));
 const yrs = civil.map((r) => [r.from, r.to]).flat().filter(Boolean);
 const MARRS = (nic.byComuneSeries["Mascali"] || {})["Matrimoni"] || [];
+const BIRTHS = (nic.byComuneSeries["Mascali"] || {})["Nati"] || [];
 const DEATHS = (nic.byComuneSeries["Mascali"] || {})["Morti"] || [];
 const DEATHSREAD = DEATHS.filter((r) => r.entries !== "\u2014");
 const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven deaths"));
@@ -87,6 +88,20 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
       1840s</strong>. The only Nicotra here in the whole decade is <strong>Alfio Nicotra and Carmela
       Sudieri</strong>, who appear in <strong>1840, 1842 and 1847</strong>. Giovanni's own certificate says he was
       born at <a href={u("/giarre/")}>Giarre</a>, and the search moved there.</p>
+    </div>
+    <div class="scroll" style="margin-top:20px">
+      <table>
+        <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
+        <tbody>
+          {BIRTHS.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class="m small">{r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
     <p class="note" style="margin-top:16px"><strong>All nine years were re-read whole on 7 October
     2026, and the re-read found a child.</strong> They had been cleared by checking the N section into
