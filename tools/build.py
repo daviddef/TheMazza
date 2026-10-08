@@ -594,6 +594,50 @@ for x in sorted(people_ids, key=lambda z: (nm(z), birth_year(z) or 9999)):
     slug_of[x] = cand
     _minted.append((x, cand))
 
+# ---- THE SECOND SOURCE -------------------------------------------------------
+# People proved from a register that the export never held. They are minted
+# from the SAME ledger by the SAME rule, because a register-proved person's URL
+# is exactly as much of a promise as an exported one's, and because the two
+# share one namespace: there is already an export «Rosario Nicotra» (the child
+# of 1883) and a register «Rosario Nicotra» (the bracciante of Mascali, his
+# grandfather's generation), and whichever is minted second must be the one
+# that takes a suffix. Sorting by row name makes that deterministic.
+import register_source as _reg
+_REG_ROWS = _reg.rows()
+_REG_NEW = _reg.to_create(_REG_ROWS)
+_REG_SEX = _reg.sexes(_REG_ROWS)
+reg_pid = {r["name"].strip(): "@R" + kebab(_reg.clean(r["name"])) + "@"
+           for r in _REG_NEW}
+# An id must be stable across runs or the ledger grows a second slug for the
+# same person. Two rows whose names differ only inside the parenthesis would
+# kebab to one id, so the clash is resolved here and recorded, never guessed.
+_seen_pid = {}
+for r in sorted(_REG_NEW, key=lambda z: z["name"]):
+    base_pid = reg_pid[r["name"].strip()]
+    if base_pid in _seen_pid:
+        n = 2
+        while f"{base_pid[:-1]}-{n}@" in _seen_pid:
+            n += 1
+        base_pid = f"{base_pid[:-1]}-{n}@"
+    _seen_pid[base_pid] = r["name"].strip()
+    reg_pid[r["name"].strip()] = base_pid
+for r in sorted(_REG_NEW, key=lambda z: z["name"]):
+    x = reg_pid[r["name"].strip()]
+    if x in _ledger_doc["slugs"]:
+        slug_of[x] = _ledger_doc["slugs"][x]
+        continue
+    base = kebab(_reg.clean(r["name"]))
+    y = _reg.year(r.get("born") or "") or _reg.year(r.get("died") or "")
+    taken = set(slug_of.values()) | set(_ledger_doc["slugs"].values())
+    cand = base
+    if cand in taken:
+        cand = f"{base}-{y}" if y else f"{base}-{used[base] + 1}"
+        while cand in taken:
+            cand += "-2"
+    used[base] += 1
+    slug_of[x] = cand
+    _minted.append((x, cand))
+
 # Written EVERY run, deterministically, so a stamp or an orphan check can
 # account for it: a file that is only sometimes written looks exactly like a
 # file whose generator has been deleted.
@@ -659,6 +703,29 @@ def record(x):
     return rec
 
 records = [record(x) for x in people_ids]
+
+# The register people join here, BEFORE the relationship wiring, so that every
+# rule below applies to them unchanged: the parent grading, the edges a row
+# adds that the tree never had, the children seen from the other end.
+_reg_slug_by_row = {nm_: slug_of[pid_] for nm_, pid_ in reg_pid.items()}
+for r in sorted(_REG_NEW, key=lambda z: z["name"]):
+    nm_ = r["name"].strip()
+    records.append(_reg.record(r, reg_pid[nm_], _reg_slug_by_row[nm_],
+                               _REG_SEX.get(nm_, "")))
+
+# An act's parentage becomes an edge with via «read» — the value this archive
+# already uses for a link a register proved and the tree did not carry. A
+# parent whose own row does not exist is skipped and counted, never invented.
+_reg_unfiled = []
+for kind, child, parent in _reg.edges(_REG_ROWS):
+    pslug = _reg_slug_by_row.get(parent)
+    if not pslug:
+        _reg_unfiled.append(parent)
+        continue
+    cslug = child if kind == "slug" else _reg_slug_by_row.get(child)
+    if cslug:
+        PARENT_VIA.setdefault((cslug, pslug), "read")
+
 by_id = {r["id"]: r for r in records}
 
 def link(x):

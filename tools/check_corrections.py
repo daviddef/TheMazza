@@ -28,7 +28,14 @@ import csv, json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
 
-people = json.load(open("site/src/data/people.json", encoding="utf-8"))
+_all = json.load(open("site/src/data/people.json", encoding="utf-8"))
+# «the export» below means the GEDCOM, not all of people.json. Since 9 October
+# 2026 people.json also holds the register-proved people, folded in by build.py
+# so they get person pages — and a correction row that says «not in the tree»
+# is talking about the tree, not about this archive's own additions. Thirteen
+# rows contradicted themselves the first time the fold-in ran, every one of
+# them a row whose own finding had just been given a page.
+people = [p for p in _all if not p.get("fromRegister")]
 by_slug = {p["slug"]: p for p in people}
 fails, notes = [], []
 BLANK = {"", "—", "-", "?"}

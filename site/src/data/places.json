@@ -1,5 +1,57 @@
 [
  {
+  "name": "Scilla, Reggio Calabria",
+  "born": 130,
+  "died": 8,
+  "buried": 0,
+  "lived": 0,
+  "first": 1743,
+  "last": 2007,
+  "who": [
+   "rocco-arena-1924",
+   "angela-polistena",
+   "giovanni-polistena",
+   "nunnziata-donato",
+   "michele-donato",
+   "maria-sofi",
+   "antonio-polistena-2",
+   "giovanna-pontillo",
+   "giuseppi-pontillo",
+   "nunziatta-pontillo",
+   "santa-polistena",
+   "joseph-a-polistena",
+   "giuseppa-dascoli",
+   "giovanna-polistena",
+   "antonino-polistena",
+   "antonino-polistena",
+   "maria-polistena",
+   "teressa-polistena",
+   "teressa-polistena",
+   "michael-antonio-polistena",
+   "giuseppi-polistena",
+   "rocco-bova",
+   "peter-bova",
+   "peter-bova",
+   "peter-bova-1950",
+   "giuseppe-arena",
+   "giuseppe-arena",
+   "anna-arena",
+   "anna-arena",
+   "giovanni-arena",
+   "rocco-arena",
+   "giovanni-arena-1922",
+   "giovanni-arena-1922",
+   "antonio-arena-1926",
+   "clemente-arena",
+   "giuseppe-arena-1932",
+   "giuseppe-arena-1932",
+   "mario-salvatore-arena",
+   "concetta-russo",
+   "domenico-donato"
+  ],
+  "n": 138
+ },
+ {
   "name": "Briatico, Vibo Valentia, Calabria",
   "born": 99,
   "died": 16,
@@ -102,58 +154,6 @@
    "kristina-prostamo"
   ],
   "n": 103
- },
- {
-  "name": "Scilla, Reggio Calabria",
-  "born": 70,
-  "died": 8,
-  "buried": 0,
-  "lived": 0,
-  "first": 1821,
-  "last": 2007,
-  "who": [
-   "rocco-arena-1924",
-   "angela-polistena",
-   "giovanni-polistena",
-   "nunnziata-donato",
-   "michele-donato",
-   "maria-sofi",
-   "antonio-polistena-2",
-   "giovanna-pontillo",
-   "giuseppi-pontillo",
-   "nunziatta-pontillo",
-   "santa-polistena",
-   "joseph-a-polistena",
-   "giuseppa-dascoli",
-   "giovanna-polistena",
-   "antonino-polistena",
-   "antonino-polistena",
-   "maria-polistena",
-   "teressa-polistena",
-   "teressa-polistena",
-   "michael-antonio-polistena",
-   "giuseppi-polistena",
-   "rocco-bova",
-   "peter-bova",
-   "peter-bova",
-   "peter-bova-1950",
-   "giuseppe-arena",
-   "giuseppe-arena",
-   "anna-arena",
-   "anna-arena",
-   "giovanni-arena",
-   "rocco-arena",
-   "giovanni-arena-1922",
-   "giovanni-arena-1922",
-   "antonio-arena-1926",
-   "clemente-arena",
-   "giuseppe-arena-1932",
-   "giuseppe-arena-1932",
-   "mario-salvatore-arena",
-   "concetta-russo",
-   "domenico-donato"
-  ],
-  "n": 78
  },
  {
   "name": "Piedimonte Etneo, Catania, Sicily",
@@ -463,6 +463,46 @@
   "n": 8
  },
  {
+  "name": "Piedimonte Etneo",
+  "born": 8,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1805,
+  "last": 1880,
+  "who": [
+   "anna-cavallaro-1805",
+   "gaetano-bonanno",
+   "gaetano-cassaniti",
+   "gaetano-mazza",
+   "maria-catalano",
+   "maria-currenti",
+   "mariano-mazza-1872",
+   "mariano-mazza-1809"
+  ],
+  "n": 8
+ },
+ {
+  "name": "Zambrone",
+  "born": 8,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1757,
+  "last": 1798,
+  "who": [
+   "anna-fama",
+   "anna-pappa",
+   "caterina-cichello",
+   "domenico-ventrice",
+   "francesco-cichello",
+   "giuseppe-ventrice",
+   "paolo-ventrice",
+   "vittoria-mollo"
+  ],
+  "n": 8
+ },
+ {
   "name": "Fremantle, Western Australia",
   "born": 0,
   "died": 0,
@@ -734,6 +774,20 @@
   "who": [
    "giovanni-scura",
    "francesco-scura"
+  ],
+  "n": 2
+ },
+ {
+  "name": "Mascali",
+  "born": 2,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": null,
+  "last": null,
+  "who": [
+   "rosario-nicotra-1872",
+   "venera-murabito"
   ],
   "n": 2
  },
@@ -1124,6 +1178,19 @@
   "last": null,
   "who": [
    "david-ivan-defranceski"
+  ],
+  "n": 1
+ },
+ {
+  "name": "Pizzo",
+  "born": 1,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": null,
+  "last": null,
+  "who": [
+   "caterina-majo"
   ],
   "n": 1
  }

@@ -28,7 +28,14 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
 
 rows = list(csv.DictReader(open("data/documented-additions.tsv", encoding="utf-8"), delimiter="\t"))
-people = json.load(open("site/src/data/people.json", encoding="utf-8"))
+_all = json.load(open("site/src/data/people.json", encoding="utf-8"))
+# THE EXPORT IS THE PART OF people.json THAT CAME FROM THE GEDCOM.
+# Since 9 October 2026 people.json also carries the people in THIS file, folded
+# in by build.py so they get person pages. Counting those as «the export» makes
+# every row below contradict itself: each one claims the tree lacks a person,
+# and then finds that person in people.json — because this file put them there.
+# 38 rows failed that way the first time the fold-in ran.
+people = [p for p in _all if not p.get("fromRegister")]
 fails, notes = [], []
 
 BLANK = {"", "—", "-", "?"}

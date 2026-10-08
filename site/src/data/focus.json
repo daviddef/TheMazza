@@ -1,11 +1,11 @@
 {
  "Mazza": {
   "surname": "Mazza",
-  "total": 118,
+  "total": 121,
   "groups": [
    {
-    "n": 110,
-    "earliest": 1850,
+    "n": 111,
+    "earliest": 1809,
     "latest": 1952,
     "towns": [
      "Piedimonte Etneo, Catania, Sicily",
@@ -15,6 +15,7 @@
     "component": 1,
     "onSpine": [
      "Frank Mazza",
+     "Mariano Mazza",
      "Mia Josephine Mazza",
      "Michael Rocco Mazza",
      "Rocco Francesco Mazza",
@@ -24,12 +25,34 @@
     ],
     "people": [
      {
+      "id": "@Rmariano-mazza-2@",
+      "slug": "mariano-mazza-1809",
+      "name": "Mariano Mazza",
+      "surname": "Mazza",
+      "born": 1809,
+      "died": null,
+      "bornText": "c. 1809",
+      "diedText": "after 16 April 1871",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Nati 1845 atto 64",
+       "Piedimonte Etneo, Matrimoni allegati 1871, fascicolo 14 -- «CERTIFICATO di seguita pubblicazione di matrimonio senza opposizione», 16 April 1871"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
       "id": "@I23@",
       "slug": "rosario-mazza",
       "name": "Rosario Mazza",
       "surname": "Mazza",
       "born": 1850,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -41,6 +64,10 @@
       "surname": "Mazza",
       "born": 1879,
       "died": 1929,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -52,6 +79,10 @@
       "surname": "Mazza",
       "born": 1883,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -63,6 +94,10 @@
       "surname": "Mazza",
       "born": 1885,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -74,6 +109,10 @@
       "surname": "Mazza",
       "born": 1899,
       "died": 1986,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Catania, Sicily",
       "comp": 1
@@ -85,6 +124,10 @@
       "surname": "Mazza",
       "born": 1909,
       "died": 1926,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Catania, Sicily",
       "comp": 1
@@ -96,6 +139,10 @@
       "surname": "Mazza",
       "born": 1910,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -107,6 +154,10 @@
       "surname": "Mazza",
       "born": 1920,
       "died": 2002,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -118,6 +169,10 @@
       "surname": "Mazza",
       "born": 1922,
       "died": 2012,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Catania, Sicily",
       "comp": 1
@@ -129,6 +184,10 @@
       "surname": "Mazza",
       "born": 1926,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Tully, Queensland",
       "comp": 1
@@ -140,6 +199,10 @@
       "surname": "Mazza",
       "born": 1952,
       "died": 1968,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -151,6 +214,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -162,6 +229,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -173,6 +244,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -184,6 +259,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -195,6 +274,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -206,6 +289,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -217,6 +304,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -228,6 +319,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -239,6 +334,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -250,6 +349,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -261,6 +364,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -272,6 +379,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -283,6 +394,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -294,6 +409,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -305,6 +424,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -316,6 +439,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -327,6 +454,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -338,6 +469,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -349,6 +484,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -360,6 +499,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -371,6 +514,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -382,6 +529,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -393,6 +544,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -404,6 +559,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -415,6 +574,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -426,6 +589,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -437,6 +604,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -448,6 +619,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -459,6 +634,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -470,6 +649,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -481,6 +664,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -492,6 +679,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -503,6 +694,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -514,6 +709,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -525,6 +724,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -536,6 +739,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -547,6 +754,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -558,6 +769,10 @@
       "surname": "Mazza",
       "born": null,
       "died": 1971,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -569,6 +784,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -580,6 +799,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -591,6 +814,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -602,6 +829,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -613,6 +844,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -624,6 +859,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -635,6 +874,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -646,6 +889,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -657,6 +904,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -668,6 +919,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -679,6 +934,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -690,6 +949,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -701,6 +964,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -712,6 +979,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Melbourne, Victoria",
       "comp": 1
@@ -723,6 +994,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -734,6 +1009,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -745,19 +1024,12 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I507@",
-      "slug": "maria-mazza-2",
-      "name": "Maria Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -767,17 +1039,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I553@",
-      "slug": "maria-mazza-5",
-      "name": "Maria Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -789,6 +1054,40 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I507@",
+      "slug": "maria-mazza-2",
+      "name": "Maria Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+      "comp": 1
+     },
+     {
+      "id": "@I553@",
+      "slug": "maria-mazza-5",
+      "name": "Maria Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -800,6 +1099,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -811,6 +1114,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -822,6 +1129,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -833,6 +1144,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -844,6 +1159,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -855,6 +1174,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -866,6 +1189,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -877,6 +1204,25 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I548@",
+      "slug": "orazio-mazza-4",
+      "name": "Orazio Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -888,19 +1234,12 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
-      "comp": 1
-     },
-     {
-      "id": "@I548@",
-      "slug": "orazio-mazza-4",
-      "name": "Orazio Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
       "comp": 1
      },
      {
@@ -910,6 +1249,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -921,19 +1264,12 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
-      "comp": 1
-     },
-     {
-      "id": "@I552@",
-      "slug": "pina-mazza-2",
-      "name": "Pina Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
       "comp": 1
      },
      {
@@ -943,6 +1279,25 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I552@",
+      "slug": "pina-mazza-2",
+      "name": "Pina Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -954,6 +1309,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -965,6 +1324,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -976,6 +1339,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -987,6 +1354,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -998,6 +1369,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -1009,6 +1384,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -1020,6 +1399,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1031,6 +1414,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -1042,8 +1429,27 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I32@",
+      "slug": "salvatore-mazza-1948",
+      "name": "Salvatore Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": true,
+      "birthPlace": "Briatico, Vibo Valentia, Calabria",
       "comp": 1
      },
      {
@@ -1053,6 +1459,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1064,19 +1474,12 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
-      "comp": 1
-     },
-     {
-      "id": "@I32@",
-      "slug": "salvatore-mazza-1948",
-      "name": "Salvatore Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": true,
-      "birthPlace": "Briatico, Vibo Valentia, Calabria",
       "comp": 1
      },
      {
@@ -1086,6 +1489,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -1097,6 +1504,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1108,6 +1519,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1119,6 +1534,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -1130,6 +1549,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1141,6 +1564,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1152,19 +1579,12 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I506@",
-      "slug": "umberto-mazza",
-      "name": "Umberto Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
      {
@@ -1174,6 +1594,25 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+      "comp": 1
+     },
+     {
+      "id": "@I506@",
+      "slug": "umberto-mazza",
+      "name": "Umberto Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -1185,6 +1624,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1196,6 +1639,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -1207,6 +1654,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1218,6 +1669,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -1229,6 +1684,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
@@ -1250,6 +1709,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1261,6 +1724,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1272,6 +1739,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1283,6 +1754,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1294,6 +1769,10 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1307,7 +1786,7 @@
     "towns": [
      "Brisbane, Queensland"
     ],
-    "component": 9,
+    "component": 5,
     "onSpine": [],
     "people": [
      {
@@ -1317,9 +1796,13 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
-      "comp": 9
+      "comp": 5
      }
     ]
    },
@@ -1328,7 +1811,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 4,
+    "component": 3,
     "onSpine": [],
     "people": [
      {
@@ -1338,9 +1821,13 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 4
+      "comp": 3
      }
     ]
    },
@@ -1349,7 +1836,7 @@
     "earliest": null,
     "latest": null,
     "towns": [],
-    "component": 8,
+    "component": 9,
     "onSpine": [],
     "people": [
      {
@@ -1359,9 +1846,71 @@
       "surname": "Mazza",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 8
+      "comp": 9
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1880,
+    "latest": 1880,
+    "towns": [
+     "Piedimonte Etneo"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rgaetano-mazza@",
+      "slug": "gaetano-mazza",
+      "name": "Gaetano Mazza",
+      "surname": "Mazza",
+      "born": 1880,
+      "died": null,
+      "bornText": "5 May 1880",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Nati 1880 atto 66"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1872,
+    "latest": 1872,
+    "towns": [
+     "Piedimonte Etneo"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rmariano-mazza@",
+      "slug": "mariano-mazza-1872",
+      "name": "Mariano Mazza",
+      "surname": "Mazza",
+      "born": 1872,
+      "died": null,
+      "bornText": "12 February 1872",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Nati 1872 atto 32"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
      }
     ]
    }
@@ -1369,26 +1918,135 @@
  },
  "Arena": {
   "surname": "Arena",
-  "total": 39,
+  "total": 65,
   "groups": [
    {
-    "n": 36,
-    "earliest": 1861,
+    "n": 47,
+    "earliest": 1751,
     "latest": 1937,
     "towns": [
      "Scilla, Reggio Calabria",
-     "Brisbane, Queensland",
-     "New York, New York"
+     "Scilla",
+     "Brisbane, Queensland"
     ],
     "component": 1,
     "onSpine": [
      "Anna Arena",
+     "Filippo Arena",
+     "Francesco Antonio Arena",
      "Giovanni Arena",
      "Giuseppe Arena",
      "Nancy Arena",
+     "Orazio Arena",
      "Rocco Arena"
     ],
     "people": [
+     {
+      "id": "@Rorazio-arena@",
+      "slug": "orazio-arena-1751",
+      "name": "Orazio Arena",
+      "surname": "Arena",
+      "born": 1751,
+      "died": 1830,
+      "bornText": "c. 1751",
+      "diedText": "12 July 1830",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1815 atto 29",
+       "Matrimoni 1821 atto 29"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rfilippo-arena@",
+      "slug": "filippo-arena",
+      "name": "Filippo Arena",
+      "surname": "Arena",
+      "born": 1793,
+      "died": null,
+      "bornText": "25 March 1793",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1819 atto 186",
+       "Matrimoni 1851 atto 13"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rgiuseppe-arena@",
+      "slug": "giuseppe-arena-1794",
+      "name": "Giuseppe Arena",
+      "surname": "Arena",
+      "born": 1794,
+      "died": null,
+      "bornText": "c. 1794",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1821 atto 29",
+       "Tavola annuale 1821"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rfrancesco-antonio-arena@",
+      "slug": "francesco-antonio-arena",
+      "name": "Francesco Antonio Arena",
+      "surname": "Arena",
+      "born": 1819,
+      "died": 1901,
+      "bornText": "25 November 1819",
+      "diedText": "29 August 1901",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1819 atto 186",
+       "Nati 1860 atto 45"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rfilippo-arena-3@",
+      "slug": "filippo-arena-1852",
+      "name": "Filippo Arena",
+      "surname": "Arena",
+      "born": 1852,
+      "died": null,
+      "bornText": "14 February 1852",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1852, atto 48"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rdomenica-arena@",
+      "slug": "domenica-arena",
+      "name": "Domenica Arena",
+      "surname": "Arena",
+      "born": 1853,
+      "died": null,
+      "bornText": "24 March 1853",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1853 atto 53, read in the original"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
      {
       "id": "@I248@",
       "slug": "rocco-arena",
@@ -1396,6 +2054,10 @@
       "surname": "Arena",
       "born": 1861,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1407,6 +2069,10 @@
       "surname": "Arena",
       "born": 1870,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1418,6 +2084,10 @@
       "surname": "Arena",
       "born": 1892,
       "died": 1984,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1429,6 +2099,10 @@
       "surname": "Arena",
       "born": 1893,
       "died": 1962,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1440,6 +2114,10 @@
       "surname": "Arena",
       "born": 1895,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "New York, New York",
       "comp": 1
@@ -1451,6 +2129,10 @@
       "surname": "Arena",
       "born": 1895,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1462,6 +2144,10 @@
       "surname": "Arena",
       "born": 1922,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1473,6 +2159,10 @@
       "surname": "Arena",
       "born": 1924,
       "died": 1999,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1484,6 +2174,10 @@
       "surname": "Arena",
       "born": 1926,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1495,6 +2189,10 @@
       "surname": "Arena",
       "born": 1929,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1506,6 +2204,10 @@
       "surname": "Arena",
       "born": 1932,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1517,30 +2219,12 @@
       "surname": "Arena",
       "born": 1937,
       "died": 2012,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
-      "comp": 1
-     },
-     {
-      "id": "@I479@",
-      "slug": "anna-arena-5",
-      "name": "Anna Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I466@",
-      "slug": "anna-arena-3",
-      "name": "Anna Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
       "comp": 1
      },
      {
@@ -1550,6 +2234,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1561,6 +2249,40 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I479@",
+      "slug": "anna-arena-5",
+      "name": "Anna Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I466@",
+      "slug": "anna-arena-3",
+      "name": "Anna Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1572,6 +2294,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -1583,9 +2309,31 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
+     },
+     {
+      "id": "@Rantonio-arena-3@",
+      "slug": "antonio-arena-3",
+      "name": "Antonio Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1828 atto 26",
+       "Tavola annuale 1828"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
      },
      {
       "id": "@I468@",
@@ -1594,6 +2342,25 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I474@",
+      "slug": "clemente-arena-3",
+      "name": "Clemente Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1605,20 +2372,48 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
      {
-      "id": "@I474@",
-      "slug": "clemente-arena-3",
-      "name": "Clemente Arena",
+      "id": "@Rdomenico-arena-2@",
+      "slug": "domenico-arena-2",
+      "name": "Domenico Arena",
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1838 atto 20",
+       "Tavola annuale 1838"
+      ],
       "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rfilippo-arena-2@",
+      "slug": "filippo-arena-1830",
+      "name": "Filippo Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "before 12 July 1830",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Morti 1830 atto 64"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
      },
      {
       "id": "@I261@",
@@ -1627,6 +2422,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "New York, New York",
       "comp": 1
@@ -1638,6 +2437,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1649,6 +2452,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1660,28 +2467,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I478@",
-      "slug": "giuseppe-arena-6",
-      "name": "Giuseppe Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I465@",
-      "slug": "giuseppe-arena-4",
-      "name": "Giuseppe Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1693,9 +2482,60 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
+     },
+     {
+      "id": "@I478@",
+      "slug": "giuseppe-arena-6",
+      "name": "Giuseppe Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I465@",
+      "slug": "giuseppe-arena-4",
+      "name": "Giuseppe Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@Rgiuseppe-arena-2@",
+      "slug": "giuseppe-arena-1925",
+      "name": "Giuseppe Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": 1925,
+      "bornText": "",
+      "diedText": "27 March 1925",
+      "fromRegister": true,
+      "registerSources": [
+       "Antenati name index, Scilla deaths: «Giuseppe Arena, Morte: Scilla 27/03/1925, Padre Domenico, Madre Teresa Polistena, Coniuge Serafina Vita»"
+      ],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 0
      },
      {
       "id": "@I112@",
@@ -1704,6 +2544,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -1715,6 +2559,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1726,6 +2574,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": true,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
@@ -1737,17 +2589,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I480@",
-      "slug": "rocco-arena-4",
-      "name": "Rocco Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1759,9 +2604,45 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
+     },
+     {
+      "id": "@I480@",
+      "slug": "rocco-arena-4",
+      "name": "Rocco Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@Rteresa-arena-2@",
+      "slug": "teresa-arena-1943",
+      "name": "Teresa Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": 1943,
+      "bornText": "",
+      "diedText": "27 August 1943",
+      "fromRegister": true,
+      "registerSources": [
+       "Antenati name index, Scilla deaths: «Teresa Arena, Morte: Scilla 27/08/1943, Padre Giuseppe, Madre Serafina Vita, Coniuge Gaetano Cosentino»"
+      ],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 0
      },
      {
       "id": "@I481@",
@@ -1770,6 +2651,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1781,6 +2666,10 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
@@ -1804,6 +2693,10 @@
       "surname": "Arena",
       "born": 1821,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1815,6 +2708,10 @@
       "surname": "Arena",
       "born": 1847,
       "died": 1922,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
@@ -1826,9 +2723,430 @@
       "surname": "Arena",
       "born": null,
       "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "earliest": 1743,
+    "latest": 1776,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rdomenico-arena@",
+      "slug": "domenico-arena",
+      "name": "Domenico Arena",
+      "surname": "Arena",
+      "born": 1743,
+      "died": null,
+      "bornText": "c. 1743",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1813 atto 21"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rdiego-arena@",
+      "slug": "diego-arena",
+      "name": "Diego Arena",
+      "surname": "Arena",
+      "born": 1776,
+      "died": null,
+      "bornText": "c. 1776",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1813 atto 21"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": null,
+    "latest": null,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rantonia-arena@",
+      "slug": "antonia-arena",
+      "name": "Antonia Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "before February 1811",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1811 atto 22",
+       "Matrimoni 1812 atto 1"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1896,
+    "latest": 1896,
+    "towns": [],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rantonio-arena@",
+      "slug": "antonio-arena-1896",
+      "name": "Antonio Arena",
+      "surname": "Arena",
+      "born": 1896,
+      "died": null,
+      "bornText": "3 October 1896",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "New York Roman Catholic Parish Baptisms — Our Lady of Loretto, 15 November 1896 (Findmypast US/NY/CATH/PR/BAP/01052845)"
+      ],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1902,
+    "latest": 1902,
+    "towns": [],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rantonio-arena-2@",
+      "slug": "antonio-arena-1902",
+      "name": "Antonio Arena",
+      "surname": "Arena",
+      "born": 1902,
+      "died": null,
+      "bornText": "13 October 1902",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "New York Roman Catholic Parish Baptisms, Our Lady of Loretto and Most Precious Blood (Findmypast) — US/NY/CATH/PR/BAP/PH2/00198880"
+      ],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": null,
+    "latest": null,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rcarlo-arena@",
+      "slug": "carlo-arena",
+      "name": "Carlo Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1812, Tavola annuale, atto 10"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1900,
+    "latest": 1900,
+    "towns": [],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rclementina-arena@",
+      "slug": "clementina-arena",
+      "name": "Clementina Arena",
+      "surname": "Arena",
+      "born": 1900,
+      "died": null,
+      "bornText": "21 December 1900",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "New York Roman Catholic Parish Baptisms, Our Lady of Loretto and Most Precious Blood (Findmypast) — US/NY/CATH/PR/BAP/01057021"
+      ],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1808,
+    "latest": 1808,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rdiego-arena-2@",
+      "slug": "diego-arena-1808",
+      "name": "Diego Arena",
+      "surname": "Arena",
+      "born": 1808,
+      "died": null,
+      "bornText": "c. 1808",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Morti 1830 atto 64"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1891,
+    "latest": 1891,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rfortunato-arena@",
+      "slug": "fortunato-arena",
+      "name": "Fortunato Arena",
+      "surname": "Arena",
+      "born": 1891,
+      "died": 1891,
+      "bornText": "c. 21 September 1891",
+      "diedText": "1 October 1891",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Morti 1891, atto 134"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1897,
+    "latest": 1897,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rfrancesco-giovanni-rocco-arena@",
+      "slug": "francesco-giovanni-rocco-arena",
+      "name": "Francesco Giovanni Rocco Arena",
+      "surname": "Arena",
+      "born": 1897,
+      "died": 1898,
+      "bornText": "c. August 1897",
+      "diedText": "30 June 1898",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Morti 1898, atto 91"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1805,
+    "latest": 1805,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rprospero-arena@",
+      "slug": "prospero-arena",
+      "name": "Prospero Arena",
+      "surname": "Arena",
+      "born": 1805,
+      "died": null,
+      "bornText": "c. 1805",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Morti 1830 atto 64"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": null,
+    "latest": null,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rsanto-arena@",
+      "slug": "santo-arena",
+      "name": "Santo Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "before 13 December 1833",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1833, Tavola annuale",
+       "Matrimoni 1821, Tavola annuale"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1898,
+    "latest": 1898,
+    "towns": [],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rserafina-arena@",
+      "slug": "serafina-arena",
+      "name": "Serafina Arena",
+      "surname": "Arena",
+      "born": 1898,
+      "died": null,
+      "bornText": "15 August 1898",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "New York Roman Catholic Parish Baptisms, Our Lady of Loretto and Most Precious Blood (Findmypast) — US/NY/CATH/PR/BAP/01054593"
+      ],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1912,
+    "latest": 1912,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rserafina-arena-2@",
+      "slug": "serafina-arena-1912",
+      "name": "Serafina Arena",
+      "surname": "Arena",
+      "born": 1912,
+      "died": 1912,
+      "bornText": "c. May 1912",
+      "diedText": "15 August 1912",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Morti 1912, parte I, atto 83"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": 1853,
+    "latest": 1853,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rteresa-arena@",
+      "slug": "teresa-arena",
+      "name": "Teresa Arena",
+      "surname": "Arena",
+      "born": 1853,
+      "died": null,
+      "bornText": "17 October 1853",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1853, atto 6"
+      ],
+      "datesHidden": false,
+      "birthPlace": "Scilla",
+      "comp": 0
      }
     ]
    }

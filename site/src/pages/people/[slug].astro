@@ -61,10 +61,31 @@ const dek = p.ancGen === 0 || p.onSpine
 ---
 <Base title={p.name}
       eyebrow={p.datesHidden ? "Dates withheld"
-        : ([p.born, p.died].filter(Boolean).join("–") || p.surname || "Dates unrecorded")}
+        : ([p.born, p.died].filter(Boolean).join("–")
+           || [p.bornText, p.diedText].filter(Boolean).join(" – ")
+           || p.surname || "Dates unrecorded")}
       dek={dek}>
 
   <PersonTree person={p} />
+
+  {p.fromRegister && (
+    <p class="note" style="margin-bottom:26px"><strong>This person is not in the family's
+    file.</strong> They exist here because an act names them, and this archive has read it.
+    {p.trade ? ` The register gives their trade as ${p.trade}.` : ""}
+    {(p.registerSources || []).length > 0 && (<>
+      {" "}The reading is <strong>{p.registerSources.join("; ")}</strong>.</>)}
+    {" "}Nothing on this page comes from Michael's export, which never held them — so there is no
+    tree account here to agree or disagree with, and the
+    <a href={u("/components/")}> pieces the export arrived in</a> do not include them.
+    <a href={u("/ancestors/")}> How many there are →</a></p>
+  )}
+
+  {p.registerNote && (
+    <div class="card" style="margin-bottom:26px">
+      <h2 class="ct">Why this person is here</h2>
+      <p class="small" style="margin-top:10px;white-space:pre-line">{p.registerNote}</p>
+    </div>
+  )}
 
   {p.comp !== 1 && comp && (
     <p class="note" style="margin-bottom:26px">This person is in
@@ -83,7 +104,11 @@ const dek = p.ancGen === 0 || p.onSpine
           {p.events.filter((e) => e.place || (e.what !== "lived" && e.date)).map((e) => (<>
             <div class="k">{EV[e.what] || e.what}</div>
             <div class="v">{place(e.place) || "\u2014"}</div>
-            <div class="w">{e.date || (p.datesHidden ? "withheld" : "")}</div>
+            {/* e.text is the register's own wording where the date is a bound:
+                «before 7 October 1872» is what the act supports, and 1872 is
+                not. e.date is empty for those by design — see
+                tools/register_source.py. */}
+            <div class="w">{e.date || e.text || (p.datesHidden ? "withheld" : "")}</div>
           </>))}
         </div>
       ) : (

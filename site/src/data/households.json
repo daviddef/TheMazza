@@ -94,6 +94,23 @@
   "born": 1726
  },
  {
+  "name": "Domenico Arena",
+  "head": "domenico-arena",
+  "headId": "@Rdomenico-arena@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdiego-arena@",
+    "name": "Diego Arena",
+    "slug": "diego-arena",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1743
+ },
+ {
   "name": "Caterina Scangiaterra & Antonino Prostamo",
   "head": "caterina-scangiaterra",
   "headId": "@I224@",
@@ -142,6 +159,95 @@
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
   "born": 1746
+ },
+ {
+  "name": "Giovanni Costa",
+  "head": "giovanni-costa",
+  "headId": "@Rgiovanni-costa@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenica-costa@",
+    "name": "Domenica Costa",
+    "slug": "domenica-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1750
+ },
+ {
+  "name": "Orazio Arena",
+  "head": "orazio-arena-1751",
+  "headId": "@Rorazio-arena@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfilippo-arena@",
+    "name": "Filippo Arena",
+    "slug": "filippo-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-arena@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-1794",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonio-arena-3@",
+    "name": "Antonio Arena",
+    "slug": "antonio-arena-3",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-arena-2@",
+    "name": "Domenico Arena",
+    "slug": "domenico-arena-2",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1751
+ },
+ {
+  "name": "Domenico Ventrice",
+  "head": "domenico-ventrice",
+  "headId": "@Rdomenico-ventrice@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppe-ventrice@",
+    "name": "Giuseppe Ventrice",
+    "slug": "giuseppe-ventrice",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": 1757
+ },
+ {
+  "name": "Anna Melidoni",
+  "head": "anna-melidoni",
+  "headId": "@Ranna-melidoni@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdiego-arena@",
+    "name": "Diego Arena",
+    "slug": "diego-arena",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1759
  },
  {
   "name": "Pasquale Prostamo & Caterina Di Meio",
@@ -202,6 +308,23 @@
   "born": 1762
  },
  {
+  "name": "Anna Fama",
+  "head": "anna-fama",
+  "headId": "@Ranna-fama@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppe-ventrice@",
+    "name": "Giuseppe Ventrice",
+    "slug": "giuseppe-ventrice",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": 1765
+ },
+ {
   "name": "Nicola Prostamo & Giuseppa Muzzi",
   "head": "nicola-prostamo",
   "headId": "@I228@",
@@ -238,6 +361,47 @@
   "born": 1768
  },
  {
+  "name": "Pasquale Sofi",
+  "head": "pasquale-sofi",
+  "headId": "@Rpasquale-sofi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I356@",
+    "name": "Annunziata Sofi",
+    "slug": "annunziata-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1780
+ },
+ {
+  "name": "Candeloro Donato",
+  "head": "candeloro-donato",
+  "headId": "@Rcandeloro-donato@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I355@",
+    "name": "Domenico Donato",
+    "slug": "domenico-donato-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmichele-donato@",
+    "name": "Michele Donato",
+    "slug": "michele-donato-1814",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1783
+ },
+ {
   "name": "Antonino Prostamo & Maria Fragala",
   "head": "antonino-prostamo-1785",
   "headId": "@I219@",
@@ -260,6 +424,47 @@
   "born": 1785
  },
  {
+  "name": "Marta Paladino",
+  "head": "marta-paladino",
+  "headId": "@Rmarta-paladino@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I355@",
+    "name": "Domenico Donato",
+    "slug": "domenico-donato-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmichele-donato@",
+    "name": "Michele Donato",
+    "slug": "michele-donato-1814",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1786
+ },
+ {
+  "name": "Domenica Costa",
+  "head": "domenica-costa",
+  "headId": "@Rdomenica-costa@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfrancesco-antonio-arena@",
+    "name": "Francesco Antonio Arena",
+    "slug": "francesco-antonio-arena",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1787
+ },
+ {
   "name": "Maria Fragala & Antonino Prostamo",
   "head": "maria-fragala",
   "headId": "@I220@",
@@ -280,6 +485,40 @@
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
   "born": 1789
+ },
+ {
+  "name": "Filippo Arena",
+  "head": "filippo-arena",
+  "headId": "@Rfilippo-arena@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfrancesco-antonio-arena@",
+    "name": "Francesco Antonio Arena",
+    "slug": "francesco-antonio-arena",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1793
+ },
+ {
+  "name": "Maria de Amico",
+  "head": "maria-de-amico",
+  "headId": "@Rmaria-de-amico@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I356@",
+    "name": "Annunziata Sofi",
+    "slug": "annunziata-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1793
  },
  {
   "name": "Antonino Prostamo & Caterina Marmorato",
@@ -318,6 +557,37 @@
   "born": 1796
  },
  {
+  "name": "Giuseppe Polistena",
+  "head": "giuseppe-polistena",
+  "headId": "@Rgiuseppe-polistena@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rannunziata-polistina@",
+    "name": "Annunziata Polistina",
+    "slug": "annunziata-polistina",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrocco-polistina@",
+    "name": "Rocco Polistina",
+    "slug": "rocco-polistina",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfortunata-polistina@",
+    "name": "Fortunata Polistina",
+    "slug": "fortunata-polistina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
+  "born": 1798
+ },
+ {
   "name": "Giuseppa Muzzi & Nicola Prostamo",
   "head": "giuseppa-muzzi",
   "headId": "@I230@",
@@ -354,6 +624,75 @@
   "born": 1799
  },
  {
+  "name": "Giovanni Arlotta",
+  "head": "giovanni-arlotta",
+  "headId": "@Rgiovanni-arlotta@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rserafina-arlotta@",
+    "name": "Serafina Arlotta",
+    "slug": "serafina-arlotta",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-arlotta-2@",
+    "name": "Domenico Arlotta",
+    "slug": "domenico-arlotta-1842",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-arlotta-2@",
+    "name": "Anna Arlotta",
+    "slug": "anna-arlotta-1835",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-antonio-arlotta@",
+    "name": "Giuseppe Antonio Arlotta",
+    "slug": "giuseppe-antonio-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1800
+ },
+ {
+  "name": "Anna Pontillo",
+  "head": "anna-pontillo",
+  "headId": "@Ranna-pontillo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rannunziata-polistina@",
+    "name": "Annunziata Polistina",
+    "slug": "annunziata-polistina",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrocco-polistina@",
+    "name": "Rocco Polistina",
+    "slug": "rocco-polistina",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfortunata-polistina@",
+    "name": "Fortunata Polistina",
+    "slug": "fortunata-polistina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
+  "born": 1801
+ },
+ {
   "name": "Caterina Marmorato & Antonino Prostamo",
   "head": "caterina-marmorato",
   "headId": "@I234@",
@@ -387,6 +726,44 @@
    }
   ],
   "place": "Pizzo, Vibo Valentia, Calabria",
+  "born": 1802
+ },
+ {
+  "name": "Maria Costa",
+  "head": "maria-costa",
+  "headId": "@Rmaria-costa@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rserafina-arlotta@",
+    "name": "Serafina Arlotta",
+    "slug": "serafina-arlotta",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-arlotta-2@",
+    "name": "Domenico Arlotta",
+    "slug": "domenico-arlotta-1842",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-arlotta-2@",
+    "name": "Anna Arlotta",
+    "slug": "anna-arlotta-1835",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-antonio-arlotta@",
+    "name": "Giuseppe Antonio Arlotta",
+    "slug": "giuseppe-antonio-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": 1802
  },
  {
@@ -432,6 +809,71 @@
   ],
   "place": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
   "born": 1809
+ },
+ {
+  "name": "Maria Catalano",
+  "head": "maria-catalano",
+  "headId": "@Rmaria-catalano@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I23@",
+    "name": "Rosario Mazza",
+    "slug": "rosario-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1809
+ },
+ {
+  "name": "Mariano Mazza",
+  "head": "mariano-mazza-1809",
+  "headId": "@Rmariano-mazza-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I23@",
+    "name": "Rosario Mazza",
+    "slug": "rosario-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1809
+ },
+ {
+  "name": "Francesco Antonio Arena",
+  "head": "francesco-antonio-arena",
+  "headId": "@Rfrancesco-antonio-arena@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfilippo-arena-3@",
+    "name": "Filippo Arena",
+    "slug": "filippo-arena-1852",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-arena@",
+    "name": "Domenica Arena",
+    "slug": "domenica-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@I247@",
+    "name": "Giovanni Arena",
+    "slug": "giovanni-arena",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1819
  },
  {
   "name": "Domenico Prostamo & Giovanna Ventrice",
@@ -750,6 +1192,54 @@
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
   "born": 1830
+ },
+ {
+  "name": "Serafina Arlotta",
+  "head": "serafina-arlotta",
+  "headId": "@Rserafina-arlotta@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfilippo-arena-3@",
+    "name": "Filippo Arena",
+    "slug": "filippo-arena-1852",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-arena@",
+    "name": "Domenica Arena",
+    "slug": "domenica-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@I247@",
+    "name": "Giovanni Arena",
+    "slug": "giovanni-arena",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1830
+ },
+ {
+  "name": "Antonio Costa",
+  "head": "antonio-costa",
+  "headId": "@Rantonio-costa@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I249@",
+    "name": "Generosa Costa",
+    "slug": "generosa-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1840
  },
  {
   "name": "Francesco Anile & Saveria Barbuto",
@@ -1170,6 +1660,23 @@
    }
   ],
   "place": "Scilla, Reggio Calabria",
+  "born": 1861
+ },
+ {
+  "name": "Maria Martello",
+  "head": "maria-martello",
+  "headId": "@Rmaria-martello@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfrancesco-giovanni-rocco-arena@",
+    "name": "Francesco Giovanni Rocco Arena",
+    "slug": "francesco-giovanni-rocco-arena",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": 1861
  },
  {
@@ -2398,6 +2905,23 @@
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1904
+ },
+ {
+  "name": "Gregorio Melluso",
+  "head": "gregorio-melluso",
+  "headId": "@Rgregorio-melluso@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-assunta-melluso@",
+    "name": "Maria Assunta Melluso",
+    "slug": "maria-assunta-melluso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
   "born": 1904
  },
  {
@@ -9159,6 +9683,610 @@
    }
   ],
   "place": "",
+  "born": null
+ },
+ {
+  "name": "Angela Bagnato",
+  "head": "angela-bagnato",
+  "headId": "@Rangela-bagnato@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I255@",
+    "name": "Concetta Russo",
+    "slug": "concetta-russo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Anna Arlotta",
+  "head": "anna-arlotta",
+  "headId": "@Ranna-arlotta@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I249@",
+    "name": "Generosa Costa",
+    "slug": "generosa-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Anna Barbaro",
+  "head": "anna-barbaro",
+  "headId": "@Ranna-barbaro@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiovanni-arlotta@",
+    "name": "Giovanni Arlotta",
+    "slug": "giovanni-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Anna Pappa",
+  "head": "anna-pappa",
+  "headId": "@Ranna-pappa@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenico-ventrice@",
+    "name": "Domenico Ventrice",
+    "slug": "domenico-ventrice",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": null
+ },
+ {
+  "name": "Carmela Maria Borello",
+  "head": "carmela-maria-borello",
+  "headId": "@Rcarmela-maria-borello@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-assunta-melluso@",
+    "name": "Maria Assunta Melluso",
+    "slug": "maria-assunta-melluso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Domenico Arena",
+  "head": "domenico-arena-2",
+  "headId": "@Rdomenico-arena-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppe-arena-2@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-1925",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Domenico Arlotta",
+  "head": "domenico-arlotta",
+  "headId": "@Rdomenico-arlotta@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiovanni-arlotta@",
+    "name": "Giovanni Arlotta",
+    "slug": "giovanni-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Filippo Arena",
+  "head": "filippo-arena-1830",
+  "headId": "@Rfilippo-arena-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rorazio-arena@",
+    "name": "Orazio Arena",
+    "slug": "orazio-arena-1751",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Francesco Cichello",
+  "head": "francesco-cichello",
+  "headId": "@Rfrancesco-cichello@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rcaterina-cichello@",
+    "name": "Caterina Cichello",
+    "slug": "caterina-cichello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": null
+ },
+ {
+  "name": "Francesco Crupi",
+  "head": "francesco-crupi",
+  "headId": "@Rfrancesco-crupi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpietro-crupi@",
+    "name": "Pietro Crupi",
+    "slug": "pietro-crupi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonino-crupi@",
+    "name": "Antonino Crupi",
+    "slug": "antonino-crupi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmario-crupi@",
+    "name": "Mario Crupi",
+    "slug": "mario-crupi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Gaetano Cassaniti",
+  "head": "gaetano-cassaniti",
+  "headId": "@Rgaetano-cassaniti@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I359@",
+    "name": "Venera Cassaneti",
+    "slug": "venera-cassaneti",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
+  "name": "Gennaro Melluso",
+  "head": "gennaro-melluso",
+  "headId": "@Rgennaro-melluso@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgregorio-melluso@",
+    "name": "Gregorio Melluso",
+    "slug": "gregorio-melluso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giacoma Turco",
+  "head": "giacoma-turco",
+  "headId": "@Rgiacoma-turco@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiovanni-costa@",
+    "name": "Giovanni Costa",
+    "slug": "giovanni-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Giuseppe Arena",
+  "head": "giuseppe-arena-1925",
+  "headId": "@Rgiuseppe-arena-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rteresa-arena-2@",
+    "name": "Teresa Arena",
+    "slug": "teresa-arena-1943",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Giuseppe Costa",
+  "head": "giuseppe-costa",
+  "headId": "@Rgiuseppe-costa@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiovanni-costa@",
+    "name": "Giovanni Costa",
+    "slug": "giovanni-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Leonardo Russo",
+  "head": "leonardo-russo",
+  "headId": "@Rleonardo-russo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I255@",
+    "name": "Concetta Russo",
+    "slug": "concetta-russo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Litteria Morabito",
+  "head": "litteria-morabito",
+  "headId": "@Rlitteria-morabito@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfilippo-arena@",
+    "name": "Filippo Arena",
+    "slug": "filippo-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-arena@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-1794",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonio-arena-3@",
+    "name": "Antonio Arena",
+    "slug": "antonio-arena-3",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-arena-2@",
+    "name": "Domenico Arena",
+    "slug": "domenico-arena-2",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Maria Currenti",
+  "head": "maria-currenti",
+  "headId": "@Rmaria-currenti@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I359@",
+    "name": "Venera Cassaneti",
+    "slug": "venera-cassaneti",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
+  "name": "Maria Limardo",
+  "head": "maria-limardo",
+  "headId": "@Rmaria-limardo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgregorio-melluso@",
+    "name": "Gregorio Melluso",
+    "slug": "gregorio-melluso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Maria Vecchio",
+  "head": "maria-vecchio",
+  "headId": "@Rmaria-vecchio@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpietro-crupi@",
+    "name": "Pietro Crupi",
+    "slug": "pietro-crupi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonino-crupi@",
+    "name": "Antonino Crupi",
+    "slug": "antonino-crupi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmario-crupi@",
+    "name": "Mario Crupi",
+    "slug": "mario-crupi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
+  "born": null
+ },
+ {
+  "name": "Marta Alfonzetti",
+  "head": "marta-alfonzetti",
+  "headId": "@Rmarta-alfonzetti@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenica-costa@",
+    "name": "Domenica Costa",
+    "slug": "domenica-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Paolo Ventrice",
+  "head": "paolo-ventrice",
+  "headId": "@Rpaolo-ventrice@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenico-ventrice@",
+    "name": "Domenico Ventrice",
+    "slug": "domenico-ventrice",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": null
+ },
+ {
+  "name": "Pasqualina Idone",
+  "head": "pasqualina-idone",
+  "headId": "@Rpasqualina-idone@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-costa@",
+    "name": "Maria Costa",
+    "slug": "maria-costa",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcandida-costa@",
+    "name": "Candida Costa",
+    "slug": "candida-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Raffaele Polistina",
+  "head": "raffaele-polistina",
+  "headId": "@Rraffaele-polistina@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-teresa-polistina@",
+    "name": "Maria Teresa Polistina",
+    "slug": "maria-teresa-polistina",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-polistina@",
+    "name": "Teresa Polistina",
+    "slug": "teresa-polistina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Rocco Costa",
+  "head": "rocco-costa",
+  "headId": "@Rrocco-costa@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-costa@",
+    "name": "Maria Costa",
+    "slug": "maria-costa",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcandida-costa@",
+    "name": "Candida Costa",
+    "slug": "candida-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Rosario Nicotra",
+  "head": "rosario-nicotra-1872",
+  "headId": "@Rrosario-nicotra@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I358@",
+    "name": "John Nicotra",
+    "slug": "john-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Mascali",
+  "born": null
+ },
+ {
+  "name": "Santa Ungaro",
+  "head": "santa-ungaro",
+  "headId": "@Rsanta-ungaro@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rorazio-arena@",
+    "name": "Orazio Arena",
+    "slug": "orazio-arena-1751",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Teresa Polistina",
+  "head": "teresa-polistina",
+  "headId": "@Rteresa-polistina@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppe-arena-2@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-1925",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Venera Murabito",
+  "head": "venera-murabito",
+  "headId": "@Rvenera-murabito@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I358@",
+    "name": "John Nicotra",
+    "slug": "john-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Mascali",
+  "born": null
+ },
+ {
+  "name": "Vittoria Mollo",
+  "head": "vittoria-mollo",
+  "headId": "@Rvittoria-mollo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rcaterina-cichello@",
+    "name": "Caterina Cichello",
+    "slug": "caterina-cichello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": null
+ },
+ {
+  "name": "Vittoria Morabito",
+  "head": "vittoria-morabito",
+  "headId": "@Rvittoria-morabito@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-teresa-polistina@",
+    "name": "Maria Teresa Polistina",
+    "slug": "maria-teresa-polistina",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-polistina@",
+    "name": "Teresa Polistina",
+    "slug": "teresa-polistina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": null
  }
 ]

@@ -130,48 +130,71 @@ for slug, phrase, why in CANARIES:
                         f"a component by number or position stops rendering when the graph walk "
                         f"renumbers; select it by who is in it")
 
-# THE PEDIGREE MUST COUNT WHAT THE ARCHIVE HAS READ, NOT ONLY WHAT THE FILE SAYS.
+# THE PEDIGREE MUST COUNT WHAT THE ARCHIVE HAS READ, AND EVERY ONE OF THEM
+# MUST BE REACHABLE.
 #
-# /ancestors/ counted ancestors.json — the GEDCOM — and nothing else, so it
-# reported 59 people where this archive can name 91, and 15.6% at the sixth
-# generation where it can show 34.4%. Sixteen proved parents of people already
-# on the chart were missing from it, four of them the Nicotra and Cassaniti
-# grandparents read out of Piedimonte Matrimoni 1872 atto 20. /tree/ had drawn
-# them for months. The pedigree page simply never imported the file.
+# /ancestors/ counted the GEDCOM and nothing else, so it reported 59 people
+# where the archive could name 91, and 15.6% at the sixth generation where it
+# can show 34.4%. On 9 October 2026 the register-proved people became people:
+# people.json carries them, so build_focus.py's walk reaches them and
+# ancestors.json counts them by itself.
 #
-# The invariant: for every generation, the count the page prints must equal the
-# export's count PLUS the documented parents this archive has proved at that
-# generation. If someone drops the import again, these numbers disagree and the
-# build stops.
+# Which moves the risk. The count is now structural and cannot drift, but a
+# register-proved ancestor could stop being MARKED — and then the page would
+# quietly assert that the family's file names 91 people, which is the opposite
+# falsehood and a worse one. So: every generation's register people must be
+# marked on the page, and each of them must have the person page this archive
+# now promises them.
 anc_page = os.path.join(DIST, "ancestors", "index.html")
 if os.path.exists(anc_page):
     body = pages.setdefault("ancestors", text_of(anc_page))
     anc = json.load(open("site/src/data/ancestors.json", encoding="utf-8"))
-    dp = json.load(open("site/src/data/documented-parents.json", encoding="utf-8"))
-    docgen = {}
-    for v in dp["byName"].values():
-        g = str(v.get("gen", ""))
-        if g.isdigit():
-            docgen[int(g)] = docgen.get(int(g), 0) + 1
+    reg = [x for r in anc["generations"] for x in r["people"] if x.get("fromRegister")]
     shown = {int(g): int(n) for g, n in re.findall(r"Generation (\d+) · (\d+) of \d+", body)}
-    if not shown:
-        problems.append("  FAIL  /ancestors/ prints no «Generation N · X of Y» label — the check "
-                        "below cannot read the pedigree's own counts")
     for r in anc["generations"]:
-        g = r["gen"]
-        want = r["found"] + docgen.get(g, 0)
-        got = shown.get(g)
+        got = shown.get(r["gen"])
         if got is None:
-            problems.append(f"  FAIL  /ancestors/ draws no generation {g} at all")
-        elif got != want:
-            problems.append(
-                f"  FAIL  /ancestors/ generation {g} counts {got}, and the archive holds {want} — "
-                f"{r['found']} in the family's file plus {docgen.get(g, 0)} proved from a register. "
-                f"The page is counting ancestors.json alone; it must also count "
-                f"documented-parents.json, as /tree/ does")
-    if docgen and "from a register" not in body:
-        problems.append("  FAIL  /ancestors/ never says «from a register», so it is not "
-                        "distinguishing the people it proved from the people the export gave it")
+            problems.append(f"  FAIL  /ancestors/ draws no generation {r['gen']} at all")
+        elif got != r["found"]:
+            problems.append(f"  FAIL  /ancestors/ generation {r['gen']} prints {got} and "
+                            f"ancestors.json holds {r['found']}")
+    if reg and body.count("from a register") < 2:
+        problems.append(f"  FAIL  /ancestors/ carries {len(reg)} register-proved ancestor(s) and "
+                        f"does not mark them. Unmarked, the page asserts that the family's file "
+                        f"names all {anc['total']} of these people, which it does not")
+    for x in reg:
+        page = os.path.join(DIST, "people", x["slug"], "index.html")
+        if not os.path.exists(page):
+            problems.append(f"  FAIL  «{x['name']}» is counted on the pedigree and has no person "
+                            f"page at /people/{x['slug']}/ — the archive is counting someone a "
+                            f"reader cannot open")
+        elif x["name"] not in text_of(page):
+            problems.append(f"  FAIL  /people/{x['slug']}/ does not name «{x['name']}»")
+
+# A register-proved person must say so on their own page, or the page implies
+# the export held them. 104 people are in that position; the export has none
+# of them, and the person page's component sentence is about the export alone.
+ppl = json.load(open("site/src/data/people.json", encoding="utf-8"))
+regppl = [p for p in ppl if p.get("fromRegister")]
+unmarked, nopage = [], []
+for pr in regppl:
+    page = os.path.join(DIST, "people", pr["slug"], "index.html")
+    if not os.path.exists(page):
+        nopage.append(pr["slug"])
+        continue
+    t = text_of(page)
+    if "not in the family's file" not in t:
+        unmarked.append(pr["slug"])
+if nopage:
+    problems.append(f"  FAIL  {len(nopage)} register-proved person(s) have no page: "
+                    f"{', '.join(nopage[:4])}{' …' if len(nopage) > 4 else ''}")
+if unmarked:
+    problems.append(f"  FAIL  {len(unmarked)} register-proved person(s) have a page that does not "
+                    f"say the family's file never held them: {', '.join(unmarked[:4])}"
+                    f"{' …' if len(unmarked) > 4 else ''}")
+if regppl and not nopage and not unmarked:
+    notes.append(f"  note  {len(regppl)} register-proved people, every one with a page that says "
+                 f"the export never held them")
 
 # Every non-singleton piece must appear on /components/ under its own heading.
 comps_page = os.path.join(DIST, "components", "index.html")

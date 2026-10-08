@@ -19,6 +19,14 @@ def brief(pid):
     r = P[pid]
     return {"id": pid, "slug": r["slug"], "name": r["name"], "surname": r["surname"],
             "born": r.get("born"), "died": r.get("died"),
+            # A register-proved person's dates are usually BOUNDS — «before 7
+            # October 1872» — and 66 of them are. The integers above are None
+            # for those, so the text has to travel with them or the pedigree
+            # prints an em dash for a man whose death this archive can place
+            # within a day.
+            "bornText": r.get("bornText", ""), "diedText": r.get("diedText", ""),
+            "fromRegister": bool(r.get("fromRegister")),
+            "registerSources": r.get("registerSources", [])[:2],
             "datesHidden": r.get("datesHidden", False),
             "birthPlace": r.get("birthPlace", ""), "comp": r.get("comp", 0)}
 

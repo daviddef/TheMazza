@@ -7,6 +7,10 @@
    "surname": "Mazza",
    "born": null,
    "died": null,
+   "bornText": "",
+   "diedText": "",
+   "fromRegister": false,
+   "registerSources": [],
    "datesHidden": true,
    "birthPlace": "Brisbane, Queensland",
    "comp": 1
@@ -18,6 +22,10 @@
    "surname": "Mazza",
    "born": null,
    "died": null,
+   "bornText": "",
+   "diedText": "",
+   "fromRegister": false,
+   "registerSources": [],
    "datesHidden": true,
    "birthPlace": "Brisbane, Queensland",
    "comp": 1
@@ -36,6 +44,10 @@
      "surname": "D'Arcy",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": true,
      "birthPlace": "Brisbane, Queensland",
      "comp": 1
@@ -47,6 +59,10 @@
      "surname": "Mazza",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": true,
      "birthPlace": "Brisbane, Queensland",
      "comp": 1
@@ -71,6 +87,10 @@
      "surname": "Arena",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": true,
      "birthPlace": "Brisbane, Queensland",
      "comp": 1
@@ -82,6 +102,10 @@
      "surname": "D'Arcy",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "",
      "comp": 1
@@ -93,6 +117,10 @@
      "surname": "Falco",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "",
      "comp": 1
@@ -104,6 +132,10 @@
      "surname": "Mazza",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": true,
      "birthPlace": "Brisbane, Queensland",
      "comp": 1
@@ -128,6 +160,10 @@
      "surname": "Arena",
      "born": 1924,
      "died": 1999,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -139,6 +175,10 @@
      "surname": "Mazza",
      "born": 1920,
      "died": 2002,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
      "comp": 1
@@ -150,6 +190,10 @@
      "surname": "Polistena",
      "born": 1925,
      "died": 2018,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -161,6 +205,10 @@
      "surname": "Prostamo",
      "born": 1928,
      "died": 2010,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -193,6 +241,10 @@
      "surname": "Arena",
      "born": 1893,
      "died": 1962,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -204,6 +256,10 @@
      "surname": "Arena",
      "born": 1892,
      "died": 1984,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -215,6 +271,10 @@
      "surname": "Donato",
      "born": 1892,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -226,6 +286,10 @@
      "surname": "Mazza",
      "born": 1879,
      "died": 1929,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
      "comp": 1
@@ -237,6 +301,10 @@
      "surname": "Melluso",
      "born": 1907,
      "died": 1994,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "New York, New York",
      "comp": 1
@@ -248,6 +316,10 @@
      "surname": "Nicotra",
      "born": 1875,
      "died": 1963,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
      "comp": 1
@@ -259,6 +331,10 @@
      "surname": "Polistena",
      "born": 1883,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -270,6 +346,10 @@
      "surname": "Prostamo",
      "born": 1900,
      "died": 1983,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -306,6 +386,10 @@
      "surname": "Anile",
      "born": 1880,
      "died": 1970,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -317,6 +401,10 @@
      "surname": "Arena",
      "born": 1870,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -328,6 +416,10 @@
      "surname": "Arena",
      "born": 1861,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -339,6 +431,10 @@
      "surname": "Cassaneti",
      "born": null,
      "died": 1925,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "",
      "comp": 1
@@ -350,6 +446,10 @@
      "surname": "Costa",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Italy",
      "comp": 1
@@ -361,6 +461,10 @@
      "surname": "Donato",
      "born": 1851,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -372,6 +476,10 @@
      "surname": "Mazza",
      "born": 1850,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
      "comp": 1
@@ -383,6 +491,10 @@
      "surname": "Melluso",
      "born": 1860,
      "died": 1957,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -394,6 +506,10 @@
      "surname": "Melluso",
      "born": 1875,
      "died": 1919,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -405,6 +521,10 @@
      "surname": "Nicotra",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "",
      "comp": 1
@@ -416,6 +536,10 @@
      "surname": "Polistena",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -427,6 +551,10 @@
      "surname": "Pontillo",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -438,6 +566,10 @@
      "surname": "Prostamo",
      "born": 1858,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -449,6 +581,10 @@
      "surname": "Russo",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -460,6 +596,10 @@
      "surname": "Sofi",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -487,7 +627,7 @@
   {
    "gen": 6,
    "possible": 64,
-   "found": 10,
+   "found": 22,
    "people": [
     {
      "id": "@I370@",
@@ -496,9 +636,83 @@
      "surname": "Anile",
      "born": 1843,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rfrancesco-antonio-arena@",
+     "slug": "francesco-antonio-arena",
+     "name": "Francesco Antonio Arena",
+     "surname": "Arena",
+     "born": 1819,
+     "died": 1901,
+     "bornText": "25 November 1819",
+     "diedText": "29 August 1901",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Nati 1819 atto 186",
+      "Nati 1860 atto 45"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Ranna-arlotta@",
+     "slug": "anna-arlotta",
+     "name": "Anna Arlotta",
+     "surname": "Arlotta",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1888, atto 63"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rserafina-arlotta@",
+     "slug": "serafina-arlotta",
+     "name": "Serafina Arlotta",
+     "surname": "Arlotta",
+     "born": 1830,
+     "died": 1908,
+     "bornText": "13 June 1830",
+     "diedText": "24 April 1908",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Nati 1830 atto 2",
+      "Matrimoni 1851 atto 13"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rangela-bagnato@",
+     "slug": "angela-bagnato",
+     "name": "Angela Bagnato",
+     "surname": "Bagnato",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1885, atto 86"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I369@",
@@ -507,9 +721,84 @@
      "surname": "Barbuto",
      "born": 1845,
      "died": 1892,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rgaetano-cassaniti@",
+     "slug": "gaetano-cassaniti",
+     "name": "Gaetano Cassaniti",
+     "surname": "Cassaniti",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "before 7 October 1872",
+     "fromRegister": true,
+     "registerSources": [
+      "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original",
+      "Piedimonte Etneo, Nati 1848 atto 45 (annual Tavola)"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Piedimonte Etneo",
+     "comp": 0
+    },
+    {
+     "id": "@Rmaria-catalano@",
+     "slug": "maria-catalano",
+     "name": "Maria Catalano",
+     "surname": "Catalano",
+     "born": 1809,
+     "died": null,
+     "bornText": "c. 1809",
+     "diedText": "after 16 April 1871",
+     "fromRegister": true,
+     "registerSources": [
+      "Piedimonte Etneo, Nati 1845 atto 64",
+      "Piedimonte Etneo, Matrimoni allegati 1871, fascicolo 14 -- «CERTIFICATO di seguita pubblicazione di matrimonio senza opposizione», 16 April 1871"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Piedimonte Etneo",
+     "comp": 0
+    },
+    {
+     "id": "@Rantonio-costa@",
+     "slug": "antonio-costa",
+     "name": "Antonio Costa",
+     "surname": "Costa",
+     "born": 1840,
+     "died": null,
+     "bornText": "c. 1840",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Pubblicazioni 1888 no. 63",
+      "Matrimoni 1888 atto 63"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rmaria-currenti@",
+     "slug": "maria-currenti",
+     "name": "Maria Currenti",
+     "surname": "Currenti",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "before 7 October 1872",
+     "fromRegister": true,
+     "registerSources": [
+      "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Piedimonte Etneo",
+     "comp": 0
     },
     {
      "id": "@I355@",
@@ -518,9 +807,31 @@
      "surname": "Donato",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "",
      "comp": 1
+    },
+    {
+     "id": "@Rmariano-mazza-2@",
+     "slug": "mariano-mazza-1809",
+     "name": "Mariano Mazza",
+     "surname": "Mazza",
+     "born": 1809,
+     "died": null,
+     "bornText": "c. 1809",
+     "diedText": "after 16 April 1871",
+     "fromRegister": true,
+     "registerSources": [
+      "Piedimonte Etneo, Nati 1845 atto 64",
+      "Piedimonte Etneo, Matrimoni allegati 1871, fascicolo 14 -- «CERTIFICATO di seguita pubblicazione di matrimonio senza opposizione», 16 April 1871"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Piedimonte Etneo",
+     "comp": 0
     },
     {
      "id": "@I410@",
@@ -529,9 +840,47 @@
      "surname": "Melluso",
      "born": 1855,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rvenera-murabito@",
+     "slug": "venera-murabito",
+     "name": "Venera Murabito",
+     "surname": "Murabito",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "after 7 October 1872",
+     "fromRegister": true,
+     "registerSources": [
+      "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Mascali",
+     "comp": 0
+    },
+    {
+     "id": "@Rrosario-nicotra@",
+     "slug": "rosario-nicotra-1872",
+     "name": "Rosario Nicotra",
+     "surname": "Nicotra",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "after 7 October 1872",
+     "fromRegister": true,
+     "registerSources": [
+      "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Mascali",
+     "comp": 0
     },
     {
      "id": "@I126@",
@@ -540,6 +889,10 @@
      "surname": "Pontillo",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -551,6 +904,10 @@
      "surname": "Pontillo",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
@@ -562,9 +919,30 @@
      "surname": "Prostamo",
      "born": 1820,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rleonardo-russo@",
+     "slug": "leonardo-russo",
+     "name": "Leonardo Russo",
+     "surname": "Russo",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1885, atto 86"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I356@",
@@ -573,6 +951,10 @@
      "surname": "Sofi",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "",
      "comp": 1
@@ -584,6 +966,10 @@
      "surname": "Ventrice",
      "born": 1825,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -595,6 +981,10 @@
      "surname": "Vitrale",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -602,8 +992,20 @@
    ],
    "towns": [
     {
+     "name": "Scilla",
+     "n": 6
+    },
+    {
      "name": "Briatico, Vibo Valentia, Calabria",
      "n": 5
+    },
+    {
+     "name": "Piedimonte Etneo",
+     "n": 4
+    },
+    {
+     "name": "Mascali",
+     "n": 2
     },
     {
      "name": "Scilla, Reggio Calabria",
@@ -618,7 +1020,7 @@
   {
    "gen": 7,
    "possible": 128,
-   "found": 6,
+   "found": 14,
    "people": [
     {
      "id": "@I375@",
@@ -627,9 +1029,49 @@
      "surname": "Anile",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rfilippo-arena@",
+     "slug": "filippo-arena",
+     "name": "Filippo Arena",
+     "surname": "Arena",
+     "born": 1793,
+     "died": null,
+     "bornText": "25 March 1793",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Nati 1819 atto 186",
+      "Matrimoni 1851 atto 13"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rgiovanni-arlotta@",
+     "slug": "giovanni-arlotta",
+     "name": "Giovanni Arlotta",
+     "surname": "Arlotta",
+     "born": 1800,
+     "died": null,
+     "bornText": "c. 1800",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Nati 1854 atto 76",
+      "Matrimoni 1851 atto 13"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I382@",
@@ -638,6 +1080,10 @@
      "surname": "Barbuto",
      "born": 1806,
      "died": 1876,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
      "comp": 1
@@ -649,6 +1095,10 @@
      "surname": "Birroca",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -660,9 +1110,67 @@
      "surname": "Collia",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rdomenica-costa@",
+     "slug": "domenica-costa",
+     "name": "Domenica Costa",
+     "surname": "Costa",
+     "born": 1787,
+     "died": null,
+     "bornText": "16 June 1787",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Nati 1819, atto 186",
+      "Scilla, Nati 1819 atto 186 read in the processetti of 1851"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rmaria-costa@",
+     "slug": "maria-costa",
+     "name": "Maria Costa",
+     "surname": "Costa",
+     "born": 1802,
+     "died": null,
+     "bornText": "c. 1802",
+     "diedText": "before 24 April 1908",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1851 atto 13",
+      "Nati 1830 atto 2"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rcandeloro-donato@",
+     "slug": "candeloro-donato",
+     "name": "Candeloro Donato",
+     "surname": "Donato",
+     "born": 1783,
+     "died": null,
+     "bornText": "c. 1783",
+     "diedText": "alive at Scilla, July 1844",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207",
+      "Nati 1818 atto 129)"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I220@",
@@ -671,9 +1179,31 @@
      "surname": "Fragala",
      "born": 1789,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rmarta-paladino@",
+     "slug": "marta-paladino",
+     "name": "Marta Paladino",
+     "surname": "Paladino",
+     "born": 1786,
+     "died": null,
+     "bornText": "c. 1786",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207",
+      "Nati 1818 atto 129)"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I219@",
@@ -682,12 +1212,56 @@
      "surname": "Prostamo",
      "born": 1785,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rpasquale-sofi@",
+     "slug": "pasquale-sofi",
+     "name": "Pasquale Sofi",
+     "surname": "Sofi",
+     "born": 1780,
+     "died": null,
+     "bornText": "c. 1780",
+     "diedText": "alive at Scilla, July 1844",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207",
+      "Nati 1818 atto 129)"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rmaria-de-amico@",
+     "slug": "maria-de-amico",
+     "name": "Maria de Amico",
+     "surname": "de Amico",
+     "born": 1793,
+     "died": null,
+     "bornText": "c. 1793",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207",
+      "Nati 1818 atto 129)"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     }
    ],
    "towns": [
+    {
+     "name": "Scilla",
+     "n": 8
+    },
     {
      "name": "Briatico, Vibo Valentia, Calabria",
      "n": 5
@@ -701,8 +1275,26 @@
   {
    "gen": 8,
    "possible": 256,
-   "found": 6,
+   "found": 14,
    "people": [
+    {
+     "id": "@Rmarta-alfonzetti@",
+     "slug": "marta-alfonzetti",
+     "name": "Marta Alfonzetti",
+     "surname": "Alfonzetti",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1815 atto 29",
+      "processetti 1815 n. 29, estratti di battesimo e di morte"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
     {
      "id": "@I378@",
      "slug": "fortunato-anile-2",
@@ -710,9 +1302,65 @@
      "surname": "Anile",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "",
      "comp": 1
+    },
+    {
+     "id": "@Rorazio-arena@",
+     "slug": "orazio-arena-1751",
+     "name": "Orazio Arena",
+     "surname": "Arena",
+     "born": 1751,
+     "died": 1830,
+     "bornText": "c. 1751",
+     "diedText": "12 July 1830",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1815 atto 29",
+      "Matrimoni 1821 atto 29"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rdomenico-arlotta@",
+     "slug": "domenico-arlotta",
+     "name": "Domenico Arlotta",
+     "surname": "Arlotta",
+     "born": null,
+     "died": null,
+     "bornText": "before 1779",
+     "diedText": "before 30 August 1828",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Nati 1854, atto 76"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Ranna-barbaro@",
+     "slug": "anna-barbaro",
+     "name": "Anna Barbaro",
+     "surname": "Barbaro",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1828 atto 28"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I389@",
@@ -721,9 +1369,48 @@
      "surname": "Barbuto",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Potenzioni, Catanzaro Calabria, Italy",
      "comp": 1
+    },
+    {
+     "id": "@Rgiovanni-costa@",
+     "slug": "giovanni-costa",
+     "name": "Giovanni Costa",
+     "surname": "Costa",
+     "born": 1750,
+     "died": 1790,
+     "bornText": "c. 1750",
+     "diedText": "29 March 1790",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1815 atto 29",
+      "processetti 1815 n. 29, estratto di morte"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rrocco-costa@",
+     "slug": "rocco-costa",
+     "name": "Rocco Costa",
+     "surname": "Costa",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1828 atto 28"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I222@",
@@ -732,6 +1419,10 @@
      "surname": "Di Meio",
      "born": 1762,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -743,9 +1434,30 @@
      "surname": "Grasso",
      "born": 1809,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rpasqualina-idone@",
+     "slug": "pasqualina-idone",
+     "name": "Pasqualina Idone",
+     "surname": "Idone",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1828 atto 28"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I390@",
@@ -754,9 +1466,31 @@
      "surname": "Lesto",
      "born": null,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rlitteria-morabito@",
+     "slug": "litteria-morabito",
+     "name": "Litteria Morabito",
+     "surname": "Morabito",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "after 4 September 1838",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1815 atto 29",
+      "processetti 1815 n. 29, estratto di battesimo"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I221@",
@@ -765,12 +1499,20 @@
      "surname": "Prostamo",
      "born": 1760,
      "died": 1829,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     }
    ],
    "towns": [
+    {
+     "name": "Scilla",
+     "n": 8
+    },
     {
      "name": "Briatico, Vibo Valentia, Calabria",
      "n": 2
@@ -792,8 +1534,42 @@
   {
    "gen": 9,
    "possible": 512,
-   "found": 2,
+   "found": 6,
    "people": [
+    {
+     "id": "@Rfilippo-arena-2@",
+     "slug": "filippo-arena-1830",
+     "name": "Filippo Arena",
+     "surname": "Arena",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "before 12 July 1830",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Morti 1830 atto 64"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rgiuseppe-costa@",
+     "slug": "giuseppe-costa",
+     "name": "Giuseppe Costa",
+     "surname": "Costa",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "before 29 March 1790",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, processetti 1815 n. 29, estratto di morte di Giovanni Costa"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
     {
      "id": "@I223@",
      "slug": "antonino-prostamo",
@@ -801,6 +1577,10 @@
      "surname": "Prostamo",
      "born": 1726,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -812,12 +1592,54 @@
      "surname": "Scangiaterra",
      "born": 1746,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
+    },
+    {
+     "id": "@Rgiacoma-turco@",
+     "slug": "giacoma-turco",
+     "name": "Giacoma Turco",
+     "surname": "Turco",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "before 29 March 1790",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, processetti 1815 n. 29, estratto di morte di Giovanni Costa"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rsanta-ungaro@",
+     "slug": "santa-ungaro",
+     "name": "Santa Ungaro",
+     "surname": "Ungaro",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "before 12 July 1830",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Morti 1830 atto 64"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     }
    ],
    "towns": [
+    {
+     "name": "Scilla",
+     "n": 4
+    },
     {
      "name": "Briatico, Vibo Valentia, Calabria",
      "n": 2
@@ -836,6 +1658,10 @@
      "surname": "Polito",
      "born": 1699,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -847,6 +1673,10 @@
      "surname": "Prostamo",
      "born": 1697,
      "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": false,
+     "registerSources": [],
      "datesHidden": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
@@ -860,6 +1690,6 @@
    ]
   }
  ],
- "total": 59,
+ "total": 91,
  "deepest": 10
 }

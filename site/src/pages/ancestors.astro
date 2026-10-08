@@ -3,46 +3,39 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import anc from "../data/ancestors.json";
-import docparents from "../data/documented-parents.json";
-const { generations, anchors } = anc;
+const { generations, anchors, total } = anc;
 
-/* THE EXPORT IS NOT THE ARCHIVE.
-   ancestors.json counts the people Michael's GEDCOM names. It does not count
-   the people this archive has PROVED from a register and that the export never
-   held — and that is most of the Sicilian and Calabrian research of the last
-   months. /tree/ has drawn them since build_documented_parents.py was written;
-   this page never imported the file, so it reported 59 where the archive can
-   name 91, and 15.6% at the sixth generation where it can show 34.4%.
+/* ONE SOURCE, AND IT IS THE RIGHT ONE NOW.
+   This page spent a day merging documented-parents.json on top of
+   ancestors.json, because the register-proved people existed only in a
+   parallel file and the pedigree counted the export alone — 59 where the
+   archive could name 91.
 
-   The kit's lineage() says it in as many words: "a parent known only as a name
-   on a register is still a real thing the chart should draw, and refusing it
-   would quietly shorten the line." This page was quietly shortening the line.
-
-   Both numbers are kept and both are labelled, because the difference between
-   what a family's file asserts and what a register proves is the whole subject
-   of this archive. */
-const docByGen = {};
-for (const v of Object.values(docparents.byName)) {
-  const g = parseInt(v.gen, 10);
-  if (!Number.isNaN(g)) (docByGen[g] = docByGen[g] || []).push(v);
-}
-for (const list of Object.values(docByGen)) list.sort((a, b) => a.name.localeCompare(b.name));
-const docOf = (g) => docByGen[g] || [];
-const rows = generations.map((r) => {
-  const doc = docOf(r.gen);
-  return { ...r, doc, fromExport: r.found, withDoc: r.found + doc.length };
-});
-const total = rows.reduce((n, r) => n + r.withDoc, 0);
-const fromRegisters = total - anc.total;
+   On 9 October 2026 they became people: build.py folds data/documented-
+   additions.tsv in as a second source, so build_focus.py's own walk up the
+   parent edges reaches them and ancestors.json counts 91 by itself. The merge
+   that was here is gone, because it would now count every one of them twice.
+   What is left is the MARKING — a person proved from a register is labelled
+   as one, on a page about what the family's file can and cannot name. */
+const rows = generations;
 const genOf = (n) => rows.find((r) => r.gen === n);
 const g6 = genOf(6);
+const regOf = (r) => r.people.filter((x) => x.fromRegister);
+const fileOf = (r) => r.people.filter((x) => !x.fromRegister);
+const fromRegisters = rows.reduce((n, r) => n + regOf(r).length, 0);
+const fromFile = total - fromRegisters;
+/* A register person's dates are usually a bound. Show what the act supports. */
+const dates = (x) => x.datesHidden ? null
+  : (x.bornText || x.diedText)
+    ? [x.bornText, x.diedText].filter(Boolean).join(" – ")
+    : ([x.born, x.died].filter(Boolean).join("–") || "—");
 const label = (g) => ["", "parents", "grandparents", "great-grandparents",
   "2× great-grandparents", "3× great-grandparents", "4× great-grandparents",
   "5× great-grandparents", "6× great-grandparents", "7× great-grandparents",
   "8× great-grandparents"][g] || `generation ${g}`;
 ---
 <Base title="The Ancestors" eyebrow={`${total} people, ten generations`}
-      dek={`Everyone standing behind Mia Josephine Mazza and Rocco Francesco Mazza — counted honestly, generation by generation, against the number there ought to be. ${anc.total} of them are named in the family's own file; the other ${fromRegisters} this archive proved from a register, and they are marked.`}>
+      dek={`Everyone standing behind Mia Josephine Mazza and Rocco Francesco Mazza — counted honestly, generation by generation, against the number there ought to be. ${fromFile} of them are named in the family's own file; the other ${fromRegisters} this archive proved from a register, act by act, and every one of them now has a page of their own.`}>
 
   <section class="blk">
     <p class="lede">This archive exists for two children born in Brisbane in <strong>2017</strong> and
@@ -60,22 +53,22 @@ const label = (g) => ["", "parents", "grandparents", "great-grandparents",
       <table>
         <thead><tr><th class="m">Gen</th><th>Who they are</th><th class="m">Found</th><th class="m">In the file</th><th class="m">From a register</th><th class="m">Possible</th><th>Completeness</th><th>Where they were born</th></tr></thead>
         <tbody>{rows.map((r) => {
-          const pct = Math.round(1000 * r.withDoc / r.possible) / 10;
-          const expct = Math.round(1000 * r.fromExport / r.possible) / 10;
+          const pct = Math.round(1000 * r.found / r.possible) / 10;
+          const expct = Math.round(1000 * fileOf(r).length / r.possible) / 10;
           return (
           <tr>
             <td class="m">{r.gen}</td>
             <td>{label(r.gen)}</td>
-            <td class="m"><strong>{r.withDoc}</strong></td>
-            <td class="m" style="color:var(--ink-3)">{r.fromExport}</td>
-            <td class="m">{r.doc.length || "—"}</td>
+            <td class="m"><strong>{r.found}</strong></td>
+            <td class="m" style="color:var(--ink-3)">{fileOf(r).length}</td>
+            <td class="m">{regOf(r).length || "—"}</td>
             <td class="m">{r.possible}</td>
             <td>
               <span style="display:inline-block;vertical-align:middle;width:120px;height:8px;background:var(--panel-2);border-radius:2px;overflow:hidden">
                 <span style={`display:block;height:8px;width:${Math.max(pct, 1)}%;background:var(--terra)`}></span>
               </span>
               <span class="mono" style="margin-left:9px">{pct}%</span>
-              {r.doc.length > 0 && <span class="mono" style="margin-left:6px;color:var(--ink-3)">(file alone {expct}%)</span>}
+              {regOf(r).length > 0 && <span class="mono" style="margin-left:6px;color:var(--ink-3)">(file alone {expct}%)</span>}
             </td>
             <td>{r.towns.map((t) => t.name.split(",")[0]).join(" · ") || "—"}</td>
           </tr>);
@@ -86,9 +79,9 @@ const label = (g) => ["", "parents", "grandparents", "great-grandparents",
     <p class="note" style="margin-top:24px">The shape of that column is the whole story. The archive is
     <strong>complete</strong> for parents and grandparents, <strong>half complete</strong> for the
     three generations above, and then it falls off a cliff. Where it falls matters: on the family's
-    file alone the sixth generation is <strong>{Math.round(1000 * g6.fromExport / g6.possible) / 10}%</strong>,
+    file alone the sixth generation is <strong>{Math.round(1000 * fileOf(g6).length / g6.possible) / 10}%</strong>,
     and with the people this archive has read out of registers it is
-    <strong>{Math.round(1000 * g6.withDoc / g6.possible) / 10}%</strong>. That difference is
+    <strong>{Math.round(1000 * g6.found / g6.possible) / 10}%</strong>. That difference is
     the <a href={u("/searched/")}>register work</a>, and it is why this page counts both
     numbers instead of one.</p>
     <p class="note" style="margin-top:16px"><strong>Two threads reach the ninth generation</strong>,
@@ -106,8 +99,8 @@ const label = (g) => ["", "parents", "grandparents", "great-grandparents",
 
   {rows.map((r) => (
     <section class="blk">
-      <div class="lab">Generation {r.gen} · {r.withDoc} of {r.possible}{r.doc.length > 0
-        ? ` · ${r.doc.length} of them from a register, not from the file` : ""}</div>
+      <div class="lab">Generation {r.gen} · {r.found} of {r.possible}{regOf(r).length > 0
+        ? ` · ${regOf(r).length} of them from a register, not from the file` : ""}</div>
       <h2 style="margin-top:.4rem;font-size:26px">{label(r.gen).charAt(0).toUpperCase() + label(r.gen).slice(1)}</h2>
       <div class="scroll" style="margin-top:16px">
         <table>
@@ -115,25 +108,13 @@ const label = (g) => ["", "parents", "grandparents", "great-grandparents",
           <tbody>
             {r.people.map((x) => (
             <tr>
-              <td><a href={u("/people/" + x.slug)}>{x.name}</a></td>
-              <td class="m">{x.datesHidden ? <span style="color:var(--ink-3)">withheld</span>
-                : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
+              <td><a href={u("/people/" + x.slug)}>{x.name}</a>{x.fromRegister && (
+                <span class="mono" style="color:var(--terra);font-size:11px"> from a register</span>)}</td>
+              <td class="m">{x.datesHidden ? <span style="color:var(--ink-3)">withheld</span> : dates(x)}</td>
               <td>{x.birthPlace || "—"}</td>
-              <td>{x.surname}</td>
-            </tr>))}
-            {/* Proved from a register and absent from the family's file. No person page to
-                link to — these people exist here and in documented-additions.tsv, nowhere else. */}
-            {r.doc.map((x) => (
-            <tr>
-              {/* x.key, not x.name: the key carries the disambiguator. There are two
-                  Filippo Arenas in this pedigree, at the seventh generation and the
-                  ninth, and rendering x.name printed both as «Filippo Arena». This
-                  archive's own rule is that a name is not a person. */}
-              <td>{x.key || x.name} <span class="mono" style="color:var(--terra);font-size:11px">from a register</span></td>
-              <td class="m">{x.living || x.presumedLiving ? <span style="color:var(--ink-3)">withheld</span>
-                : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
-              <td>{x.birthPlace || "—"}</td>
-              <td style="color:var(--ink-3)">{(x.sources || []).slice(0, 2).join("; ") || "—"}</td>
+              <td>{x.fromRegister
+                ? <span style="color:var(--ink-3)">{(x.registerSources || []).join("; ") || x.surname}</span>
+                : x.surname}</td>
             </tr>))}
           </tbody>
         </table>

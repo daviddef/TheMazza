@@ -22,7 +22,15 @@ export function getStaticPaths() {
 const { name, rows } = Astro.props;
 const listed = rows.map(p => ({
   name: p.name, slug: p.slug,
-  life: [p.born, p.died].filter(Boolean).join(" – "),
+  /* A register-proved person's dates are usually a BOUND, so born/died are
+     null and this read «no dates recorded» — on a page whose entire job is
+     telling namesakes apart. There are two Rosario Nicotras now: the child of
+     1883 in the family's file, and his grandfather's generation, a bracciante
+     of Mascali whom an act of 7 October 1872 places alive on that day. Saying
+     «no dates recorded» of the second one throws away the better of the two
+     facts that distinguish them. */
+  life: [p.born, p.died].filter(Boolean).join(" – ")
+        || [p.bornText, p.diedText].filter(Boolean).join(" – "),
   where: p.birthPlace || p.deathPlace || p.burialPlace || "",
 }));
 ---

@@ -12,8 +12,16 @@ P = {r["id"]: r for r in json.load(open("site/src/data/people.json"))}
 anc = json.load(open("site/src/data/ancestors.json"))
 spine = {x["id"] for g in anc["generations"] for x in g["people"]} | {a["id"] for a in anc["anchors"]}
 
+# THE EXPORT'S PIECES, AND ONLY THE EXPORT'S.
+# This page counts the disconnected pieces Michael's GEDCOM arrived in. A person
+# this archive proved out of a register was never in that file and so is in none
+# of its pieces; including them would invent a «component 0» of 104 people and
+# put a sentence on their page reading «component 0 of the export» about someone
+# the export never held.
 groups = collections.defaultdict(list)
 for r in P.values():
+    if r.get("fromRegister"):
+        continue
     groups[r.get("comp", 0)].append(r)
 
 out = []

@@ -1,16 +1,16 @@
 [
  {
   "surname": "Mazza",
-  "n": 118,
-  "dead": 118,
+  "n": 121,
+  "dead": 121,
   "living": 0,
-  "first": 1850,
+  "first": 1809,
   "last": 2012,
   "places": [
    "Piedimonte Etneo, Catania, Sicily",
    "Brisbane, Queensland",
    "Catania, Sicily",
-   "Briatico, Vibo Valentia, Calabria"
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -28,11 +28,25 @@
   ]
  },
  {
-  "surname": "Polistena",
-  "n": 44,
-  "dead": 44,
+  "surname": "Arena",
+  "n": 65,
+  "dead": 65,
   "living": 0,
-  "first": 1875,
+  "first": 1743,
+  "last": 2012,
+  "places": [
+   "Scilla",
+   "Scilla, Reggio Calabria",
+   "Brisbane, Queensland",
+   "New York, New York"
+  ]
+ },
+ {
+  "surname": "Polistena",
+  "n": 46,
+  "dead": 46,
+  "living": 0,
+  "first": 1798,
   "last": 2018,
   "places": [
    "Scilla, Reggio Calabria",
@@ -42,41 +56,43 @@
   ]
  },
  {
-  "surname": "Arena",
-  "n": 39,
-  "dead": 39,
+  "surname": "Donato",
+  "n": 25,
+  "dead": 25,
   "living": 0,
-  "first": 1821,
-  "last": 2012,
+  "first": 1783,
+  "last": 1937,
   "places": [
    "Scilla, Reggio Calabria",
-   "Brisbane, Queensland",
+   "Scilla",
    "New York, New York"
   ]
  },
  {
-  "surname": "Donato",
-  "n": 20,
-  "dead": 20,
+  "surname": "Melluso",
+  "n": 14,
+  "dead": 14,
   "living": 0,
-  "first": 1851,
-  "last": 1933,
+  "first": 1855,
+  "last": 1994,
   "places": [
-   "Scilla, Reggio Calabria",
-   "New York, New York"
+   "Briatico, Vibo Valentia, Calabria",
+   "New York, New York",
+   "Buenos Aires, Argentina"
   ]
  },
  {
   "surname": "Cavallaro",
-  "n": 13,
-  "dead": 13,
+  "n": 14,
+  "dead": 14,
   "living": 0,
-  "first": 1909,
+  "first": 1805,
   "last": 2013,
   "places": [
    "Mascali, Catania, Sicily",
    "Piedimonte Etneo, Catania, Sicily",
-   "Catania, Sicily"
+   "Catania, Sicily",
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -104,27 +120,27 @@
   ]
  },
  {
-  "surname": "Melluso",
-  "n": 11,
-  "dead": 11,
-  "living": 0,
-  "first": 1855,
-  "last": 1994,
-  "places": [
-   "Briatico, Vibo Valentia, Calabria",
-   "New York, New York",
-   "Buenos Aires, Argentina"
-  ]
- },
- {
   "surname": "Nicotra",
-  "n": 8,
-  "dead": 8,
+  "n": 9,
+  "dead": 9,
   "living": 0,
   "first": 1836,
   "last": 1963,
   "places": [
-   "Piedimonte Etneo, Catania, Sicily"
+   "Piedimonte Etneo, Catania, Sicily",
+   "Mascali"
+  ]
+ },
+ {
+  "surname": "Costa",
+  "n": 9,
+  "dead": 9,
+  "living": 0,
+  "first": 1750,
+  "last": 1840,
+  "places": [
+   "Scilla",
+   "Italy"
   ]
  },
  {
@@ -138,6 +154,17 @@
    "New York, New York",
    "Catanzaro, Calabria",
    "Italy"
+  ]
+ },
+ {
+  "surname": "Arlotta",
+  "n": 8,
+  "dead": 8,
+  "living": 0,
+  "first": 1800,
+  "last": 1918,
+  "places": [
+   "Scilla"
   ]
  },
  {
@@ -175,6 +202,17 @@
   "places": [
    "Sydney, New South Wales",
    "Scilla, Reggio Calabria"
+  ]
+ },
+ {
+  "surname": "Polistina",
+  "n": 6,
+  "dead": 6,
+  "living": 0,
+  "first": 1800,
+  "last": 1840,
+  "places": [
+   "Scilla"
   ]
  },
  {
@@ -264,6 +302,38 @@
   ]
  },
  {
+  "surname": "Pontillo",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1801,
+  "last": 1801,
+  "places": [
+   "Scilla, Reggio Calabria"
+  ]
+ },
+ {
+  "surname": "Ventrice",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1757,
+  "last": 1831,
+  "places": [
+   "Zambrone",
+   "Briatico, Vibo Valentia, Calabria"
+  ]
+ },
+ {
+  "surname": "Crupi",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1898,
+  "last": 1989,
+  "places": []
+ },
+ {
   "surname": "Turner",
   "n": 3,
   "dead": 3,
@@ -288,14 +358,15 @@
   ]
  },
  {
-  "surname": "Pontillo",
+  "surname": "Sofi",
   "n": 3,
   "dead": 3,
   "living": 0,
-  "first": null,
-  "last": null,
+  "first": 1780,
+  "last": 1780,
   "places": [
-   "Scilla, Reggio Calabria"
+   "Scilla, Reggio Calabria",
+   "Scilla"
   ]
  },
  {
@@ -307,6 +378,18 @@
   "last": null,
   "places": [
    "Great Britain"
+  ]
+ },
+ {
+  "surname": "Russo",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla, Reggio Calabria",
+   "Scilla"
   ]
  },
  {
@@ -368,6 +451,15 @@
   ]
  },
  {
+  "surname": "Zirilli",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": 1827,
+  "last": 1827,
+  "places": []
+ },
+ {
   "surname": "Scura",
   "n": 3,
   "dead": 3,
@@ -421,17 +513,6 @@
   "last": null,
   "places": [
    "Brisbane, Queensland"
-  ]
- },
- {
-  "surname": "Sofi",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Scilla, Reggio Calabria"
   ]
  },
  {
@@ -492,17 +573,6 @@
   ]
  },
  {
-  "surname": "Russo",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Scilla, Reggio Calabria"
-  ]
- },
- {
   "surname": "Noble",
   "n": 2,
   "dead": 2,
@@ -515,13 +585,26 @@
   ]
  },
  {
-  "surname": "Zirilli",
+  "surname": "Borello",
   "n": 2,
   "dead": 2,
   "living": 0,
-  "first": 1827,
-  "last": 1827,
-  "places": []
+  "first": 1861,
+  "last": 1861,
+  "places": [
+   "Catanzaro, Calabria"
+  ]
+ },
+ {
+  "surname": "Paladino",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1786,
+  "last": 1786,
+  "places": [
+   "Scilla"
+  ]
  },
  {
   "surname": "Raiti",
@@ -532,6 +615,50 @@
   "last": null,
   "places": [
    "Piedimonte Etneo, Catania, Sicily"
+  ]
+ },
+ {
+  "surname": "de Amico",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1793,
+  "last": 1813,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Romano",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1853,
+  "last": 1853,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Cichello",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1798,
+  "last": 1798,
+  "places": [
+   "Zambrone"
+  ]
+ },
+ {
+  "surname": "Morabito",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
   ]
  },
  {
@@ -741,17 +868,6 @@
   ]
  },
  {
-  "surname": "Ventrice",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": 1825,
-  "last": 1825,
-  "places": [
-   "Briatico, Vibo Valentia, Calabria"
-  ]
- },
- {
   "surname": "Di Meio",
   "n": 1,
   "dead": 1,
@@ -855,17 +971,6 @@
   "last": null,
   "places": [
    "Lismore, New South Wales, Australia"
-  ]
- },
- {
-  "surname": "Costa",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Italy"
   ]
  },
  {
@@ -1042,17 +1147,6 @@
   "last": 1857,
   "places": [
    "Briatico, Vibo Valentia, Calabria"
-  ]
- },
- {
-  "surname": "Borello",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": 1861,
-  "last": 1861,
-  "places": [
-   "Catanzaro, Calabria"
   ]
  },
  {
@@ -1257,15 +1351,6 @@
   ]
  },
  {
-  "surname": "Paladino",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": []
- },
- {
   "surname": "Scaramano",
   "n": 1,
   "dead": 1,
@@ -1348,6 +1433,222 @@
   "last": null,
   "places": [
    "Johannesburg, South Africa"
+  ]
+ },
+ {
+  "surname": "Bagnato",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Barbaro",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Fama",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1765,
+  "last": 1765,
+  "places": [
+   "Zambrone"
+  ]
+ },
+ {
+  "surname": "Melidoni",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1759,
+  "last": 1759,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Pappa",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Zambrone"
+  ]
+ },
+ {
+  "surname": "Majo",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Pizzo"
+  ]
+ },
+ {
+  "surname": "Bonanno",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1807,
+  "last": 1807,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Cassaniti",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Turco",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Catalano",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1809,
+  "last": 1809,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Currenti",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Limardo",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": []
+ },
+ {
+  "surname": "Martello",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1861,
+  "last": 1861,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Vecchio",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": []
+ },
+ {
+  "surname": "Alfonzetti",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Idone",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Ungaro",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "de Luca",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Murabito",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Mascali"
+  ]
+ },
+ {
+  "surname": "Mollo",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Zambrone"
   ]
  }
 ]

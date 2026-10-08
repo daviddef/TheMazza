@@ -4,9 +4,18 @@
  * the answer is different, which is why the annotation stays here:
  *
  * In the Falco archive an edge can come from a register act that has been read.
- * Here, EVERY relationship comes from Michael Mazza's family tree and NONE of
- * them has yet been proved by a record. The chart says so on every edge rather
- * than letting a confident diagram imply otherwise.
+ * That used to be the difference: here EVERY relationship came from Michael
+ * Mazza's family tree and none had been proved by a record, and the note below
+ * said so unconditionally.
+ *
+ * IT IS NOT TRUE ANY MORE, AND THE NOTE WENT ON SAYING IT. parent-links.tsv
+ * carries 99 edges marked «read» and 12 marked «index», and since 9 October
+ * 2026 the register-proved people are people, with edges of their own. 106
+ * person pages were telling a reader that nothing on them had been proved —
+ * including Rosario Nicotra, whose ONLY edge is his son, proved by the act that
+ * is the reason this archive knows his name at all.
+ *
+ * So the note is counted now, per person, from that person's own edges.
  *
  * What can be marked is the person: an ancestor of the two children the archive
  * is for, and whether any record about them has actually been read.
@@ -30,6 +39,12 @@ const dis = disputed[p.slug] || {};
 const disp = (slug) => dis[slug] || null;
 
 const get = (b) => (p[b] || []).map((e) => ({ ...e, rec: bySlug.get(e.slug) }));
+/* Counted from the edges actually drawn, so the sentence cannot outlive the
+   fact. «index» and «read» are both a record; «tree» is Michael's assertion. */
+const EDGES = ["parents", "spouses", "children", "siblings"]
+  .flatMap((b) => (p[b] || []).map((e) => e.via || "tree"));
+const proved = EDGES.filter((v) => v === "read" || v === "index").length;
+const asserted = EDGES.length - proved;
 const parents  = get("parents");
 const spouses  = get("spouses");
 const children = get("children");
@@ -114,11 +129,20 @@ const row = (e, mark) => ({
     {/* "Every relationship drawn here" reads as a boast about nothing when none is
         drawn, and it is the same fault as the empty chart: a sentence about a set
         that happens to be empty. */}
-    {!nothing && <p class="warn"><strong>Every relationship drawn here comes from the family tree, and not one of
-    them has yet been proved by a record.</strong> That is the honest state of this archive:
-    the chart shows what Michael Mazza's tree asserts, and the colour tells you only whether anything
-    at all has been read about the person at the other end.
+    {!nothing && proved === 0 && <p class="warn"><strong>Every relationship drawn here comes from the
+    family tree, and not one of them has yet been proved by a record.</strong> That is the honest
+    state of this archive for this person: the chart shows what Michael Mazza's tree asserts, and the
+    colour tells you only whether anything at all has been read about the person at the other end.
     <a href={u("/method/")}>The method &rarr;</a></p>}
+    {!nothing && proved > 0 && asserted > 0 && <p class="warn"><strong>{proved} of the
+    {" " + EDGES.length} relationships drawn here have been proved by a record</strong>; the other
+    {" " + asserted} come from Michael Mazza's family tree and have not. The colour on each edge says
+    which is which, and it is drawn per edge so that one proved link cannot vouch for the rest.
+    <a href={u("/method/")}>The method &rarr;</a></p>}
+    {!nothing && proved > 0 && asserted === 0 && <p class="warn"><strong>Every relationship drawn
+    here has been proved by a record</strong> — {EDGES.length === 1 ? "the one edge on this chart was"
+    : `all ${EDGES.length} edges on this chart were`} read out of a register rather than taken from
+    the family tree. <a href={u("/method/")}>The method &rarr;</a></p>}
     {clashChildren.length ? (
       <p class="warn"><strong>Two children here carry one name</strong> — {clashChildren.join(", ")}.
       In these towns that is usually not an error: <strong>a child who died was very often replaced
