@@ -3,8 +3,32 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import comps from "../data/components.json";
 import stats from "../data/stats.json";
+import people from "../data/people.json";
 const main = comps.filter((c) => c.n > 1);
 const singles = comps.filter((c) => c.n === 1);
+
+/* NOTHING ON THIS PAGE MAY SELECT A COMPONENT BY ITS NUMBER OR ITS POSITION.
+   Component numbers are assigned by the graph walk in build_components.py and
+   they MOVE between builds — a rebuild on 8 October 2026 shuffled 3 to 10 and
+   9 to 4 without a single person changing. Three faults on this page came from
+   forgetting that, and all three were live:
+
+     * the lede read `comps[1].n` and called that piece "a complete Piedimonte
+       Etneo kindred". Position 1 is the New York Mazzitelli. The page printed
+       "7 people — a complete Piedimonte Etneo kindred" directly above its own
+       heading reading "7 people — New York, New York".
+     * the Mazzitelli note was keyed `comp === 3`. Comp 3 is one Ericksen of
+       Toowoomba, so the note rendered on no page at all.
+     * the Buenos Aires note was keyed `comp === 5`, and the Argentine fragment
+       it described has since been joined into the main tree. It described a
+       component that no longer exists.
+
+   Select by who is in the piece. MAIN is the largest; NY is whichever piece
+   holds the Mazzitelli; and counts come from the data, never from prose.
+   /piedimonte-etneo/ carries the same warning for the same reason. */
+const MAIN = comps.reduce((a, b) => (b.n > a.n ? b : a));
+const NY = comps.find((c) => c.surnames.some((s) => s.name === "Mazzitelli"));
+const ARG = people.filter((p) => (p.birthPlace || "").includes("Buenos Aires"));
 ---
 <Base title="The Fourteen Pieces" eyebrow="The different lines, joined and unjoined"
       dek="The export arrived as fourteen separate pieces. Reading the Sicilian registers joined the largest two, and it is ten now — but the point of the page is unchanged: a file that draws as one tree is not necessarily one family.">
@@ -14,10 +38,15 @@ const singles = comps.filter((c) => c.n === 1);
     That canvas is a <em>rendering choice</em>, not a finding. Underneath, the file is a graph — and
     this one falls into <strong>{comps.length} disconnected pieces</strong> with no edge of any kind
     between them.</p>
-    <p class="lede" style="margin-top:1rem">Naming the pieces is not pedantry. The second one holds
-    <strong>{comps[1].n} people</strong> — a complete Piedimonte Etneo kindred with its own marriages,
-    children and cousins — and the difference between "they are probably related" and "they are
-    related" is the entire discipline.</p>
+    <p class="lede" style="margin-top:1rem">Naming the pieces is not pedantry. The largest holds
+    <strong>{MAIN.n} people</strong>; the next holds <strong>{NY.n}</strong> — the
+    Mazzitelli of {NY.towns.length ? NY.towns[0].name.split(",")[0] : "nowhere named"}, every one of
+    them dated, attached
+    to this family by nothing but having been typed into the same tree. A Piedimonte Etneo kindred
+    of a hundred and ten was a separate piece too, until it was
+    <a href={u("/the-hundred-and-ten/")}>argued onto the line</a> rather than assumed onto it — and
+    the difference between "they are probably related" and "they are related" is the entire
+    discipline.</p>
   </section>
 
   {main.map((c) => (
@@ -46,21 +75,24 @@ const singles = comps.filter((c) => c.n === 1);
           </p>
         </div>
       </div>
-      {c.comp === 1 && (
+      {c === MAIN && (
         <p class="note" style="margin-top:20px"><strong>This component grew by a hundred and two
         people on 10 September 2026.</strong> The second piece of the export — a hundred and ten
         Piedimonte Etneo Mazza attached to nothing — was proved to descend from Rosario Mazza, and
         joined here. <a href={u("/the-hundred-and-ten/")}>The argument →</a></p>
       )}
-      {c.comp === 3 && (
-        <p class="note" style="margin-top:20px">The <strong>Mazzitelli of New York</strong> — six
-        people, all dated, 1886–1926, and attached to this family by nothing but having been entered
-        in the same tree. They belong to the <a href={u("/crossings/")}>first emigration</a>.</p>
+      {c === NY && (
+        <p class="note" style="margin-top:20px">The <strong>Mazzitelli of New York</strong> — {c.n}
+        people, all {c.dated} of them dated, {c.earliest}–{c.latest}, and attached to this family by
+        nothing but having been entered in the same tree. They belong to the
+        <a href={u("/crossings/")}> first emigration</a>.</p>
       )}
-      {c.comp === 5 && (
-        <p class="note" style="margin-top:20px">A fragment of the <strong>Buenos Aires</strong>
-        Prostamo — the branch that went to Argentina rather than Australia, and the least documented
-        thing in the archive.</p>
+      {c === MAIN && ARG.length > 0 && (
+        <p class="note" style="margin-top:20px"><strong>{ARG.length} people in this component were
+        born at Buenos Aires</strong> — the branch that went to Argentina rather than Australia.
+        They are inside the main tree, not a fragment beside it, and they remain the least
+        documented thing in the archive: a generation of names with a city and a year and no act
+        behind any of them.</p>
       )}
       <details style="margin-top:18px">
         <summary style="font-family:var(--sans);font-size:12.5px;cursor:pointer;color:var(--accent)">

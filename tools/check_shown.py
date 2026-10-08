@@ -85,6 +85,66 @@ for comune, series in sorted(nic["byComuneSeries"].items()):
                 f"nicotra.json under byComuneSeries[{comune!r}][{name!r}]")
 
 # A household found at a comune should reach that comune's page or the line page.
+# ---------------------------------------------------------------------------
+# PROSE KEYED TO A NUMBER THAT MOVES.
+#
+# The sweep check above asks whether a page shows its own rows. This section
+# asks a narrower question that cost three live faults on /components/ alone:
+# when a page carries a paragraph ABOUT one particular piece of the graph,
+# does that paragraph still reach a reader?
+#
+# Component numbers are assigned by a graph walk and they move between builds.
+# A rebuild on 8 October 2026 shuffled comp 3 to 10 and 9 to 4 with nobody's
+# parentage changing. Two notes on /components/ were keyed `comp === 3` and
+# `comp === 5`; both silently stopped rendering, and one of them described a
+# fragment that had since been joined into the main tree. A third read
+# `comps[1]` and captioned the New York Mazzitelli as a Piedimonte Etneo
+# kindred — directly above the page's own heading saying New York.
+#
+# These are canaries, not a theory: one distinctive phrase per paragraph that
+# must survive on the built page. A canary cannot prove a page is right. It
+# proves a paragraph still renders, which is the failure that actually keeps
+# happening. ADD ONE whenever you write prose about a specific component,
+# household, or series — if the phrase is worth writing, it is worth proving a
+# reader can see it.
+CANARIES = [
+    ("components", "Mazzitelli of New York",
+     "the note on the unjoined New York piece, once keyed comp === 3"),
+    ("components", "born at Buenos Aires",
+     "the Argentine branch, once keyed comp === 5 as a separate fragment"),
+    ("components", "argued onto the line",
+     "the lede's correction of the Piedimonte caption that read comps[1]"),
+    ("piedimonte-etneo", "component numbers move",
+     "the page that documents this exact bug class"),
+]
+
+for slug, phrase, why in CANARIES:
+    page = os.path.join(DIST, slug, "index.html")
+    if not os.path.exists(page):
+        problems.append(f"  FAIL  canary for /{slug}/ cannot run — the page is not built")
+        continue
+    if slug not in pages:
+        pages[slug] = text_of(page)
+    if phrase not in pages[slug]:
+        problems.append(f"  FAIL  /{slug}/ no longer says «{phrase}» — {why}. Prose that selects "
+                        f"a component by number or position stops rendering when the graph walk "
+                        f"renumbers; select it by who is in it")
+
+# Every non-singleton piece must appear on /components/ under its own heading.
+comps_page = os.path.join(DIST, "components", "index.html")
+if os.path.exists(comps_page):
+    comps = json.load(open("site/src/data/components.json", encoding="utf-8"))
+    want = [c for c in comps if c.get("n", 0) > 1]
+    if slug_body := pages.get("components") or text_of(comps_page):
+        shown = len(re.findall(r"Component \d+", slug_body))
+        if shown < len(want):
+            problems.append(f"  FAIL  /components/ draws {shown} component heading(s) and the data "
+                            f"has {len(want)} piece(s) of more than one person")
+        for c in want:
+            if c.get("towns") and c["towns"][0]["name"] not in slug_body:
+                problems.append(f"  FAIL  /components/ does not name «{c['towns'][0]['name']}», the "
+                                f"principal place of a {c['n']}-person piece")
+
 line = text_of(os.path.join(DIST, "nicotra", "index.html")) \
     if os.path.exists(os.path.join(DIST, "nicotra", "index.html")) else ""
 for comune, houses in sorted(nic.get("housesByComune", {}).items()):
