@@ -125,7 +125,11 @@ const label = (g) => ["", "parents", "grandparents", "great-grandparents",
                 link to — these people exist here and in documented-additions.tsv, nowhere else. */}
             {r.doc.map((x) => (
             <tr>
-              <td>{x.name} <span class="mono" style="color:var(--terra);font-size:11px">from a register</span></td>
+              {/* x.key, not x.name: the key carries the disambiguator. There are two
+                  Filippo Arenas in this pedigree, at the seventh generation and the
+                  ninth, and rendering x.name printed both as «Filippo Arena». This
+                  archive's own rule is that a name is not a person. */}
+              <td>{x.key || x.name} <span class="mono" style="color:var(--terra);font-size:11px">from a register</span></td>
               <td class="m">{x.living || x.presumedLiving ? <span style="color:var(--ink-3)">withheld</span>
                 : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
               <td>{x.birthPlace || "—"}</td>
