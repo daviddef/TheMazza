@@ -29,7 +29,12 @@ import csv, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
 
-ENTRIES = {"none", "empty", "one", "two", "three", "—"}
+ENTRIES = {"none", "empty", "one", "two", "three", "four", "five", "—"}
+# «four» and «five» were added on 8 October 2026 when Mascali's death index of
+# 1880 turned out to hold five N entries. The vocabulary is closed to force the
+# none/empty distinction, not to cap how many a section may hold — so it grows
+# when a register says so, and the gate did its job by refusing the build until
+# somebody decided that deliberately.
 # Which series the Tavola came out of. It started as births only, and the
 # moment marriages were added a row saying «Riposto 1838, one» meant two
 # different things depending on a column that did not exist. A closed
