@@ -133,6 +133,20 @@
   },
   {
    "comune": "Giarre",
+   "year": "1825",
+   "series": "Nati",
+   "entries": "empty",
+   "note": "N, O and P written as three stacked headings after Musumeci Raffaele; N and O left blank, P holds Pafumi Mariano and Patanè Rosario. The volume ENDS AT Z — 52 Zappalà Isidoro — with a blank ruled leaf facing: NO APPENDIX"
+  },
+  {
+   "comune": "Giarre",
+   "year": "1826",
+   "series": "Nati",
+   "entries": "empty",
+   "note": "the same three stacked headings N, O, P after 199 Mangano Filippa; N and O blank, P holds 12 Pennisi Sebastiano. The volume ENDS AT Z — Zappalà Sebastiana and Giuseppa — under a flourished «Fine»: NO APPENDIX"
+  },
+  {
+   "comune": "Giarre",
    "year": "1838",
    "series": "Nati",
    "entries": "none",
@@ -595,6 +609,20 @@
     "series": "Nati",
     "entries": "empty",
     "note": "N written at the FOOT of the M page with nothing under it, after 285 Musumeci Vito; the facing page opens at P with 1 Pennisi Cleonia"
+   },
+   {
+    "comune": "Giarre",
+    "year": "1825",
+    "series": "Nati",
+    "entries": "empty",
+    "note": "N, O and P written as three stacked headings after Musumeci Raffaele; N and O left blank, P holds Pafumi Mariano and Patanè Rosario. The volume ENDS AT Z — 52 Zappalà Isidoro — with a blank ruled leaf facing: NO APPENDIX"
+   },
+   {
+    "comune": "Giarre",
+    "year": "1826",
+    "series": "Nati",
+    "entries": "empty",
+    "note": "the same three stacked headings N, O, P after 199 Mangano Filippa; N and O blank, P holds 12 Pennisi Sebastiano. The volume ENDS AT Z — Zappalà Sebastiana and Giuseppa — under a flourished «Fine»: NO APPENDIX"
    },
    {
     "comune": "Giarre",
@@ -1068,6 +1096,20 @@
      "series": "Nati",
      "entries": "empty",
      "note": "N written at the FOOT of the M page with nothing under it, after 285 Musumeci Vito; the facing page opens at P with 1 Pennisi Cleonia"
+    },
+    {
+     "comune": "Giarre",
+     "year": "1825",
+     "series": "Nati",
+     "entries": "empty",
+     "note": "N, O and P written as three stacked headings after Musumeci Raffaele; N and O left blank, P holds Pafumi Mariano and Patanè Rosario. The volume ENDS AT Z — 52 Zappalà Isidoro — with a blank ruled leaf facing: NO APPENDIX"
+    },
+    {
+     "comune": "Giarre",
+     "year": "1826",
+     "series": "Nati",
+     "entries": "empty",
+     "note": "the same three stacked headings N, O, P after 199 Mangano Filippa; N and O blank, P holds 12 Pennisi Sebastiano. The volume ENDS AT Z — Zappalà Sebastiana and Giuseppa — under a flourished «Fine»: NO APPENDIX"
     },
     {
      "comune": "Giarre",
@@ -1605,7 +1647,7 @@
    }
   ]
  },
- "read": 66,
+ "read": 68,
  "unread": 0,
  "withEntries": 23
 }
