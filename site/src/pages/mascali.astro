@@ -29,6 +29,9 @@ const riveli = rows.filter((r) => /Riveli/i.test(r.type));
 const rivFrom = Math.min(...riveli.map((r) => r.from).filter(Boolean));
 const yrs = civil.map((r) => [r.from, r.to]).flat().filter(Boolean);
 const MARRS = (nic.byComuneSeries["Mascali"] || {})["Matrimoni"] || [];
+const DEATHS = (nic.byComuneSeries["Mascali"] || {})["Morti"] || [];
+const DEATHSREAD = DEATHS.filter((r) => r.entries !== "\u2014");
+const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven deaths"));
 ---
 <Base title="Mascali" eyebrow="Catania, Sicily"
       dek="The town Etna swallowed whole in 1928 — and, ninety years before that, the comune where Maria Nicotra was born on a December night in 1875.">
@@ -207,6 +210,52 @@ const MARRS = (nic.byComuneSeries["Mascali"] || {})["Matrimoni"] || [];
       </table>
     </div>
   </section>) : null}
+
+  <section class="blk">
+    <div class="lab">8 October 2026 · Morti, Stato civile italiano</div>
+    <h2 style="margin-top:.4rem">Seven Nicotra deaths, and the one act that was worth fetching</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Rosario Nicotra and Venera Murabito were <strong>both alive and unmarked by «fu»</strong> in
+      October 1872, in an act that writes <em>fu</em> for a witness two lines above. So they died
+      after it — and an Italian death act names <strong>the deceased's parents</strong>, which would
+      reach a generation this archive has never touched.</p>
+      <p><strong>{DEATHSREAD.length} of Mascali's {DEATHS.length} death years are read, and they hold seven
+      Nicotra.</strong> Not one is Rosario. And no <strong>Murabito</strong> appears in any M section
+      that could be read — which matters, because an Italian index lists a married woman under her
+      <em>maiden</em> surname, so Venera would be there and not under N.</p>
+      <p class="note" style="margin-top:16px"><strong>Only three of the nine years print a
+      <em>paternità</em> column</strong> — the father's name beside the death, which is the whole
+      reason the series was opened. The other six give a surname, a forename and a register number,
+      so every hit costs an act on top of the sweep.</p>
+      <p style="margin-top:16px"><strong>Two were worth testing and both were tested.</strong> A
+      <em>Nicotra Giuseppe</em> died in 1879, and this town had a Giuseppe born to Alfio and Carmela
+      Sudieri on 19 May 1842. <strong>The act kills it:</strong> atto 21 of 1879 is a child
+      <em>«di anno uno»</em> — <strong>one year old</strong> — son of <strong>Venero Nicotra,
+      <em>bracciale</em></strong>, and <strong>Venera Sorbello</strong>.</p>
+      <p><strong>And that is the better find.</strong> Venero Nicotra is a <strong>day-labourer at
+      Mascali</strong> — Rosario's own condition, stated in the 1872 act — and the first labouring
+      Nicotra household found in this town. The Alfio of 1840–47 is a different household; Giarre's
+      <em>Dottor Don</em> is gentry. <strong>Nothing attaches Venero to Rosario</strong>, and nothing
+      should until an act does.</p>
+      <p>The other candidate, a <em>Nicotra Maria</em> of 1876, <strong>cannot be read at all</strong>:
+      her act lies under the archive's own black cover sheet, and there is no duplicate of that year
+      at Catania. A wall, not an absence.</p>
+    </div>
+    <div class="scroll" style="margin-top:20px">
+      <table>
+        <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
+        <tbody>
+          {DEATHS.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class="m small">{r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
 
   <section class="blk" style="border-bottom:0">
     <h2>What is left here</h2>
