@@ -77,6 +77,17 @@ for r in sweeps:
 by_cs = {}
 for r in sweeps:
     by_cs.setdefault(r["comune"], {}).setdefault(r["series"], []).append(r)
+# SORT BY YEAR, because /nicotra/ prints each series' span as rows[0].year to
+# rows[last].year. That was right only for as long as the TSV happened to be
+# hand-written in year order: a single row appended out of order would have
+# published a span like «1873-1872» and no gate would have seen it. Sorting
+# here makes the page's first-and-last reading true by construction rather
+# than by the luck of how the file was typed.
+for ser in by_cs.values():
+    for rows in ser.values():
+        rows.sort(key=lambda r: int(r["year"]))
+for rows in by_comune.values():
+    rows.sort(key=lambda r: (r["series"], int(r["year"])))
 
 read = [r for r in sweeps if r["entries"] != "—"]
 found = [r for r in sweeps if r["entries"] not in ("—", "none", "empty")]
