@@ -545,6 +545,13 @@
    "note": "the one N entry is NERI Antonia, of Neri Leonardo and Borzì Maria. Not a Nicotra — RE-READ WHOLE 7 October 2026, first heading to last, because the junction method is not safe at this comune"
   },
   {
+   "comune": "Mascali",
+   "year": "1873",
+   "series": "Nati",
+   "entries": "five",
+   "note": "FIVE N ENTRIES AND THREE OF THEM ARE NICOTRA — and one is the family's own. Read 9 October 2026, container wE72Q9W, folio 56. Nicotra Giovanni 31 (paternità Giuseppe), Neri Giuseppe 46 (Salvatore), Nicotra Orazio 83 (ALFIO), Nicolosi Angelo 124 (Giuseppe), and NICOTRA VENERA 145 (GIOVANNI). The index carries a paternità column, which is what made act 145 worth fetching, and the act proves the household: see the Mascali page. An ALFIO fathering a child at Mascali in 1873 is noted and not joined — Alfio is the Giarre and Riposto name this archive has been following, and a shared forename is not a join."
+  },
+  {
    "comune": "Riposto",
    "year": "1835",
    "series": "Matrimoni",
@@ -1227,6 +1234,13 @@
     "series": "Nati",
     "entries": "one",
     "note": "the one N entry is NERI Antonia, of Neri Leonardo and Borzì Maria. Not a Nicotra — RE-READ WHOLE 7 October 2026, first heading to last, because the junction method is not safe at this comune"
+   },
+   {
+    "comune": "Mascali",
+    "year": "1873",
+    "series": "Nati",
+    "entries": "five",
+    "note": "FIVE N ENTRIES AND THREE OF THEM ARE NICOTRA — and one is the family's own. Read 9 October 2026, container wE72Q9W, folio 56. Nicotra Giovanni 31 (paternità Giuseppe), Neri Giuseppe 46 (Salvatore), Nicotra Orazio 83 (ALFIO), Nicolosi Angelo 124 (Giuseppe), and NICOTRA VENERA 145 (GIOVANNI). The index carries a paternità column, which is what made act 145 worth fetching, and the act proves the household: see the Mascali page. An ALFIO fathering a child at Mascali in 1873 is noted and not joined — Alfio is the Giarre and Riposto name this archive has been following, and a shared forename is not a join."
    }
   ],
   "Riposto": [
@@ -1923,6 +1937,13 @@
      "series": "Nati",
      "entries": "one",
      "note": "the one N entry is NERI Antonia, of Neri Leonardo and Borzì Maria. Not a Nicotra — RE-READ WHOLE 7 October 2026, first heading to last, because the junction method is not safe at this comune"
+    },
+    {
+     "comune": "Mascali",
+     "year": "1873",
+     "series": "Nati",
+     "entries": "five",
+     "note": "FIVE N ENTRIES AND THREE OF THEM ARE NICOTRA — and one is the family's own. Read 9 October 2026, container wE72Q9W, folio 56. Nicotra Giovanni 31 (paternità Giuseppe), Neri Giuseppe 46 (Salvatore), Nicotra Orazio 83 (ALFIO), Nicolosi Angelo 124 (Giuseppe), and NICOTRA VENERA 145 (GIOVANNI). The index carries a paternità column, which is what made act 145 worth fetching, and the act proves the household: see the Mascali page. An ALFIO fathering a child at Mascali in 1873 is noted and not joined — Alfio is the Giarre and Riposto name this archive has been following, and a shared forename is not a join."
     }
    ]
   },
@@ -2185,6 +2206,13 @@
    "mother": "Venera Sorbello",
    "seen": "1879",
    "note": "A BRACCIALE NICOTRA HOUSEHOLD AT MASCALI — the social condition Rosario Nicotra shares, and the first of its kind found here. Named in Morti 1879 atto 21, the death of their son GIUSEPPE aged ONE YEAR on 3 April 1879. Nothing attaches them to Rosario and nothing should until an act does"
+  },
+  {
+   "comune": "Mascali",
+   "father": "Giuseppe Nicotra fu Angelo",
+   "mother": "—",
+   "seen": "1873",
+   "note": "Forty years old, lavorante, of Mascali, and the witness GIOVANNI NICOTRA CHOSE HIMSELF for his daughter's birth act of 13 December 1873 — «testimoni scelti dal dichiarante stesso». A man picks his own witnesses, so this is the nearest thing to a kinsman the record offers, and it is still not a join. The 1873 index has him fathering a son Giovanni at act 31. His own father ANGELO was dead by 1873."
   }
  ],
  "housesByComune": {
@@ -2283,11 +2311,18 @@
     "mother": "Venera Sorbello",
     "seen": "1879",
     "note": "A BRACCIALE NICOTRA HOUSEHOLD AT MASCALI — the social condition Rosario Nicotra shares, and the first of its kind found here. Named in Morti 1879 atto 21, the death of their son GIUSEPPE aged ONE YEAR on 3 April 1879. Nothing attaches them to Rosario and nothing should until an act does"
+   },
+   {
+    "comune": "Mascali",
+    "father": "Giuseppe Nicotra fu Angelo",
+    "mother": "—",
+    "seen": "1873",
+    "note": "Forty years old, lavorante, of Mascali, and the witness GIOVANNI NICOTRA CHOSE HIMSELF for his daughter's birth act of 13 December 1873 — «testimoni scelti dal dichiarante stesso». A man picks his own witnesses, so this is the nearest thing to a kinsman the record offers, and it is still not a join. The 1873 index has him fathering a son Giovanni at act 31. His own father ANGELO was dead by 1873."
    }
   ]
  },
- "read": 80,
+ "read": 81,
  "unread": 15,
  "absent": 2,
- "withEntries": 33
+ "withEntries": 34
 }
