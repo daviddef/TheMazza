@@ -181,7 +181,26 @@ if os.path.exists(anc_page):
 # true when typed. Each was falsified by the archive's own progress, which is
 # the one direction nobody checks, because finishing a search feels like the
 # end of the work rather than the beginning of a stale sentence.
+# THE PHRASE MUST BE ABOUT A YEAR. On 9 October 2026 this clause failed the
+# build over a note on /mascali/ reading «ACT 4, NICOTRA MARIANO, IS STILL
+# UNREAD» — which is TRUE: the sweep reads annual indexes, and an individual
+# act inside a read year can perfectly well still be unread. The check was
+# written to stop a page claiming YEARS are outstanding when the sweep is
+# finished, and it cannot do that by matching two words alone. Rewording
+# honest prose to get past a gate is the wrong repair; making the gate say
+# what it means is the right one.
 UNREAD_WORDS = ("still unread", "remain unread", "remains unread", "are unread")
+# WHAT MAKES THE SENTENCE WRONG is that it names or counts YEARS as
+# outstanding. The two real faults read «Four Riposto years remain unread» and
+# «1835, 1836 and 1837 are still unread» — a count followed by «years», or a
+# list of four-figure years. The true sentence that tripped this clause reads
+# «ACT 4, NICOTRA MARIANO, IS STILL UNREAD», where the 4 is an act number. So
+# the subject is what is tested, not the words alone.
+SUBJECT_IS_YEARS = re.compile(
+    r"(1[78]\d{2}\D{0,12}$)"                      # ...1837 are / 1837, and
+    r"|((?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|"
+    r"thirteen|fourteen|fifteen|twenty|thirty)\s+\S{0,14}?\s*years?\b\D{0,12}$)",
+    re.I)
 for comune, series in sorted(nic["byComuneSeries"].items()):
     slug = PAGE.get(comune)
     if not slug or slug not in pages:
@@ -190,7 +209,14 @@ for comune, series in sorted(nic["byComuneSeries"].items()):
     if left:
         continue
     body = pages[slug]
-    said = [w for w in UNREAD_WORDS if w in body.lower()]
+    low = body.lower()
+    said = []
+    for w in UNREAD_WORDS:
+        for m in re.finditer(re.escape(w), low):
+            before = low[max(0, m.start() - 60):m.start()]
+            if SUBJECT_IS_YEARS.search(before):
+                said.append(w)
+                break
     if said:
         problems.append(
             f"  FAIL  /{slug}/ says «{said[0]}» and every {comune} year in nicotra-sweeps.tsv is "
