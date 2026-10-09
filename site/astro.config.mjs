@@ -24,5 +24,7 @@ export default defineConfig({
      surname is placed by descent and the page can finally say WHY the name is
      here — that a person married a person, and which person. The old address
      has been published, so it redirects rather than 404s. */
-  redirects: { '/families': '/TheMazza/marriages' },
+  redirects: { '/families': '/TheMazza/marriages',
+    /* 9 October 2026: the estate's address for this page is /changes/. */
+    '/what-changed': '/TheMazza/changes/' },
 });
