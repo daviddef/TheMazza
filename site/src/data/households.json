@@ -662,6 +662,23 @@
   "born": 1800
  },
  {
+  "name": "Rosario Nicotra",
+  "head": "rosario-nicotra-1872",
+  "headId": "@Rrosario-nicotra@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I358@",
+    "name": "John Nicotra",
+    "slug": "john-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1800
+ },
+ {
   "name": "Anna Pontillo",
   "head": "anna-pontillo",
   "headId": "@Ranna-pontillo@",
@@ -10075,6 +10092,23 @@
   "born": null
  },
  {
+  "name": "Marianna Musumeci",
+  "head": "marianna-musumeci",
+  "headId": "@Rmarianna-musumeci@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rrosario-nicotra@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1872",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
   "name": "Marta Alfonzetti",
   "head": "marta-alfonzetti",
   "headId": "@Rmarta-alfonzetti@",
@@ -10181,23 +10215,6 @@
   "born": null
  },
  {
-  "name": "Rosario Nicotra",
-  "head": "rosario-nicotra-1872",
-  "headId": "@Rrosario-nicotra@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@I358@",
-    "name": "John Nicotra",
-    "slug": "john-nicotra",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Mascali",
-  "born": null
- },
- {
   "name": "Santa Ungaro",
   "head": "santa-ungaro",
   "headId": "@Rsanta-ungaro@",
@@ -10212,6 +10229,23 @@
    }
   ],
   "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Simone Nicotra",
+  "head": "simone-nicotra",
+  "headId": "@Rsimone-nicotra@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rrosario-nicotra@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1872",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
   "born": null
  },
  {

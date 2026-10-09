@@ -624,6 +624,21 @@
   "n": 3
  },
  {
+  "name": "Giarre",
+  "born": 3,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1800,
+  "last": 1800,
+  "who": [
+   "marianna-musumeci",
+   "rosario-nicotra-1872",
+   "simone-nicotra"
+  ],
+  "n": 3
+ },
+ {
   "name": "Palermo, Sicily",
   "born": 0,
   "died": 0,
@@ -774,20 +789,6 @@
   "who": [
    "giovanni-scura",
    "francesco-scura"
-  ],
-  "n": 2
- },
- {
-  "name": "Mascali",
-  "born": 2,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "rosario-nicotra-1872",
-   "venera-murabito"
   ],
   "n": 2
  },
@@ -1191,6 +1192,19 @@
   "last": null,
   "who": [
    "caterina-majo"
+  ],
+  "n": 1
+ },
+ {
+  "name": "Mascali",
+  "born": 1,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": null,
+  "last": null,
+  "who": [
+   "venera-murabito"
   ],
   "n": 1
  }

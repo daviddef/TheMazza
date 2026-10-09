@@ -121,14 +121,14 @@
  },
  {
   "surname": "Nicotra",
-  "n": 9,
-  "dead": 9,
+  "n": 10,
+  "dead": 10,
   "living": 0,
-  "first": 1836,
+  "first": 1800,
   "last": 1963,
   "places": [
-   "Piedimonte Etneo, Catania, Sicily",
-   "Mascali"
+   "Giarre",
+   "Piedimonte Etneo, Catania, Sicily"
   ]
  },
  {
@@ -1584,6 +1584,17 @@
   "first": null,
   "last": null,
   "places": []
+ },
+ {
+  "surname": "Musumeci",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
+  ]
  },
  {
   "surname": "Alfonzetti",

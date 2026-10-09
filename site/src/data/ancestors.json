@@ -856,10 +856,11 @@
      "born": null,
      "died": null,
      "bornText": "",
-     "diedText": "after 7 October 1872",
+     "diedText": "after 4 April 1890",
      "fromRegister": true,
      "registerSources": [
-      "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original"
+      "Piedimonte Etneo, Matrimoni 1872 atto 20",
+      "Mascali, Morti 1890 atto 35, read in the original"
      ],
      "datesHidden": false,
      "birthPlace": "Mascali",
@@ -870,17 +871,17 @@
      "slug": "rosario-nicotra-1872",
      "name": "Rosario Nicotra",
      "surname": "Nicotra",
-     "born": null,
-     "died": null,
-     "bornText": "",
-     "diedText": "after 13 December 1873",
+     "born": 1800,
+     "died": 1890,
+     "bornText": "c. 1800",
+     "diedText": "4 April 1890",
      "fromRegister": true,
      "registerSources": [
-      "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872)",
-      "Mascali, Nati 1873 atto 145 (13 December 1873), both read in the original"
+      "Piedimonte Etneo, Matrimoni 1872 atto 20",
+      "Mascali, Nati 1873 atto 145"
      ],
      "datesHidden": false,
-     "birthPlace": "Mascali",
+     "birthPlace": "Giarre",
      "comp": 0
     },
     {
@@ -1005,15 +1006,19 @@
      "n": 4
     },
     {
-     "name": "Mascali",
-     "n": 2
-    },
-    {
      "name": "Scilla, Reggio Calabria",
      "n": 2
     },
     {
      "name": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+     "n": 1
+    },
+    {
+     "name": "Mascali",
+     "n": 1
+    },
+    {
+     "name": "Giarre",
      "n": 1
     }
    ]
@@ -1021,7 +1026,7 @@
   {
    "gen": 7,
    "possible": 128,
-   "found": 14,
+   "found": 16,
    "people": [
     {
      "id": "@I375@",
@@ -1189,6 +1194,40 @@
      "comp": 1
     },
     {
+     "id": "@Rmarianna-musumeci@",
+     "slug": "marianna-musumeci",
+     "name": "Marianna Musumeci",
+     "surname": "Musumeci",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "before 4 April 1890",
+     "fromRegister": true,
+     "registerSources": [
+      "Mascali, Morti 1890 atto 35 (4 April 1890), read in the original"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Giarre",
+     "comp": 0
+    },
+    {
+     "id": "@Rsimone-nicotra@",
+     "slug": "simone-nicotra",
+     "name": "Simone Nicotra",
+     "surname": "Nicotra",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "before 4 April 1890",
+     "fromRegister": true,
+     "registerSources": [
+      "Mascali, Morti 1890 atto 35 (4 April 1890), read in the original"
+     ],
+     "datesHidden": false,
+     "birthPlace": "Giarre",
+     "comp": 0
+    },
+    {
      "id": "@Rmarta-paladino@",
      "slug": "marta-paladino",
      "name": "Marta Paladino",
@@ -1266,6 +1305,10 @@
     {
      "name": "Briatico, Vibo Valentia, Calabria",
      "n": 5
+    },
+    {
+     "name": "Giarre",
+     "n": 2
     },
     {
      "name": "Potenzoni (Briatico), Vibo Valentia, Calabria",
@@ -1691,6 +1734,6 @@
    ]
   }
  ],
- "total": 91,
+ "total": 93,
  "deepest": 10
 }

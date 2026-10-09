@@ -1982,7 +1982,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 9,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -2019,7 +2019,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 3,
+  "comp": 9,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -2056,7 +2056,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 3,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2085,7 +2085,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 6,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -30927,7 +30927,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 8,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -30964,7 +30964,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -31150,7 +31150,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 4,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -31194,7 +31194,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 8,
+  "comp": 10,
   "datesHidden": false,
   "born": 1930,
   "died": 2017,
@@ -48969,6 +48969,68 @@
   "ancGen": 7
  },
  {
+  "id": "@Rmarianna-musumeci@",
+  "slug": "marianna-musumeci",
+  "name": "Marianna Musumeci",
+  "key": "Marianna Musumeci",
+  "given": "Marianna",
+  "surname": "Musumeci",
+  "sex": "F",
+  "living": false,
+  "presumedLiving": false,
+  "fromRegister": true,
+  "datesHidden": false,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 4 April 1890",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 4 April 1890"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Mascali, Morti 1890 atto 35 (4 April 1890), read in the original"
+  ],
+  "registerNote": "GENERATION SEVEN, Rosario Nicotra's mother, named in his death act of 1890 as «fu MUSUMECI MARIANNA» — dead by then. Musumeci is among the commonest surnames in both Giarre and Mascali, so she cannot be traced on the name alone; what she gives is the second half of a couple and a maiden surname to search.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rrosario-nicotra@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1872",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": true,
+  "ancGen": 7
+ },
+ {
   "id": "@Rmariano-mazza@",
   "slug": "mariano-mazza-1872",
   "name": "Mariano Mazza",
@@ -50018,41 +50080,57 @@
   "presumedLiving": false,
   "fromRegister": true,
   "datesHidden": false,
-  "born": null,
-  "died": null,
-  "bornText": "",
-  "diedText": "after 13 December 1873",
+  "born": 1800,
+  "died": 1890,
+  "bornText": "c. 1800",
+  "diedText": "4 April 1890",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
-    "place": "Mascali",
-    "text": ""
+    "date": "c. 1800",
+    "year": 1800,
+    "place": "Giarre",
+    "text": "c. 1800"
    },
    {
     "what": "died",
     "tag": "DEAT",
-    "date": "",
-    "year": null,
+    "date": "4 April 1890",
+    "year": 1890,
     "place": "",
-    "text": "after 13 December 1873"
+    "text": "4 April 1890"
    }
   ],
-  "birthPlace": "Mascali",
+  "birthPlace": "Giarre",
   "deathPlace": "",
   "burialPlace": "",
-  "trade": "bracciante",
+  "trade": "contadino",
   "sources": [],
   "registerSources": [
-   "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872)",
-   "Mascali, Nati 1873 atto 145 (13 December 1873), both read in the original"
+   "Piedimonte Etneo, Matrimoni 1872 atto 20",
+   "Mascali, Nati 1873 atto 145",
+   "Mascali, Morti 1890 atto 35 — all read in the original"
   ],
-  "registerNote": "GENERATION SIX, AND THE NAMING CUSTOM CONFIRMS HIM FROM THE OTHER END. His son's marriage act names him without «fu» -- «figlio di ROSARIO, di professione bracciante ... domiciliati e residenti pure in MASCALI» -- in an act that writes «Venerando Papurri FU Ignazio» for a witness two lines earlier, so the marker was in use and its absence is a statement. AND THE FAMILY'S OWN TREE ALREADY CARRIED THE ECHO: Giovanni and Venera's children include a ROSARIO NICOTRA, which is what the custom gives a first son -- the paternal grandfather. The archive had the grandson's name for years and not the grandfather's, so the fit cannot be circular.  SECOND DOCUMENT, AND HE IS STILL ALIVE. Mascali Nati 1873 atto 145, his granddaughter Venera's birth, opens «è comparso GIOVANNI NICOTRA DI ROSARIO d'anni ventisei di professione lavorante». DI, not FU — in an act that writes «VENERA CASSANITI FU GAETANO» four lines below, so the marker was in use on the same page and its absence is a statement. That is the same argument his son's marriage act supports, made again by a different clerk fourteen months later, and it moves him from «alive in October 1872» to ALIVE IN DECEMBER 1873. He is named in two documents now and found in no register of any town.",
+  "registerNote": "FOUND, 9 October 2026, in Mascali Morti 1890 atto 35. «è morto NICOTRA ROSARIO, di anni NOVANTA CIRCA, CONTADINO, residente in Mascali, NATO IN GIARRE, da fu SIMONE, e da fu MUSUMECI MARIANNA, MARITO DI MURABITO VENERA», died 4 April 1890 at contrada Montargi. After three documents he has a birthplace, a birth year, a trade, a death, two parents and his wife named beside him. He was BORN AT GIARRE about 1800 — which is very likely why his son Giovanni said «nato a Giarre» — and he had moved to Mascali by 1872. Three independent acts now name him: his son's marriage in 1872, his granddaughter's birth in 1873 where he is «di Rosario» and alive, and his own death.",
   "registerGen": "6",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rsimone-nicotra@",
+    "name": "Simone Nicotra",
+    "slug": "simone-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmarianna-musumeci@",
+    "name": "Marianna Musumeci",
+    "slug": "marianna-musumeci",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@I358@",
@@ -50434,6 +50512,68 @@
   "ancGen": null
  },
  {
+  "id": "@Rsimone-nicotra@",
+  "slug": "simone-nicotra",
+  "name": "Simone Nicotra",
+  "key": "Simone Nicotra",
+  "given": "Simone",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "presumedLiving": false,
+  "fromRegister": true,
+  "datesHidden": false,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 4 April 1890",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 4 April 1890"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Mascali, Morti 1890 atto 35 (4 April 1890), read in the original"
+  ],
+  "registerNote": "GENERATION SEVEN, AND THE OLDEST NICOTRA THIS ARCHIVE HAS REACHED on the line that leads to the children. Named in his son's death act: «NICOTRA ROSARIO ... nato in GIARRE, da fu SIMONE, e da fu MUSUMECI MARIANNA». Dead by April 1890, and since Rosario was born about 1800 at Giarre, Simone was fathering children there at the turn of the century — before Sicilian civil registration began in 1820, which is why no birth act for Rosario can exist.\nA SIMONE NICOTRA IS ALREADY IN THIS ARCHIVE. Giarre's very first register year, Nati 1820, holds two untitled Nicotra households and one of them is SIMONE NICOTRA x DADONE. A man fathering a child at Giarre in 1820 and a man fathering Rosario at Giarre about 1800 are entirely consistent, and the forename is uncommon. IT IS NOT JOINED. The 1820 act names a wife this one does not match, and a shared forename in one town is exactly the trap this archive has refused a dozen times. The test is Giarre's pre-1820 parish registers or a Mascali marriage act for Rosario and Venera.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rrosario-nicotra@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1872",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": true,
+  "ancGen": 7
+ },
+ {
   "id": "@Rteresa-arena@",
   "slug": "teresa-arena",
   "name": "Teresa Arena",
@@ -50617,7 +50757,7 @@
   "born": null,
   "died": null,
   "bornText": "",
-  "diedText": "after 7 October 1872",
+  "diedText": "after 4 April 1890",
   "events": [
    {
     "what": "born",
@@ -50633,7 +50773,7 @@
     "date": "",
     "year": null,
     "place": "",
-    "text": "after 7 October 1872"
+    "text": "after 4 April 1890"
    }
   ],
   "birthPlace": "Mascali",
@@ -50642,9 +50782,10 @@
   "trade": "contadina",
   "sources": [],
   "registerSources": [
-   "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original"
+   "Piedimonte Etneo, Matrimoni 1872 atto 20",
+   "Mascali, Morti 1890 atto 35, read in the original"
   ],
-  "registerNote": "GIOVANNI NICOTRA'S MOTHER, of MASCALI, named without «fu» and so alive on 7 October 1872. A contadina. The tree's own household holds a daughter VENERA NICOTRA, and a first daughter is named for the paternal grandmother -- though her mother was a Venera too, so the custom points both ways here and is not evidence on its own. ENTIRELY ABSENT FROM THE FAMILY TREE, like every person above generation four on this side.",
+  "registerNote": "GIOVANNI NICOTRA'S MOTHER, of MASCALI, named without «fu» and so alive on 7 October 1872. A contadina. The tree's own household holds a daughter VENERA NICOTRA, and a first daughter is named for the paternal grandmother -- though her mother was a Venera too, so the custom points both ways here and is not evidence on its own. ENTIRELY ABSENT FROM THE FAMILY TREE, like every person above generation four on this side. ALIVE ON 4 APRIL 1890. Her husband's death act calls him «MARITO di Murabito Venera» — marito, not vedovo, and that register writes «vedovo» for a widower on the same pages. So she outlived him, and her death act is the next document to find: it would give her age, her parents, and the Murabito household she came from.",
   "registerGen": "6",
   "photos": [],
   "parents": [],
