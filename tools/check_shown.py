@@ -51,6 +51,7 @@ def norm(s):
 
 
 nic = json.load(open("site/src/data/nicotra.json", encoding="utf-8"))
+ppl = json.load(open("site/src/data/people.json", encoding="utf-8"))
 problems, notes = [], []
 
 if not os.path.isdir(DIST):
@@ -171,10 +172,45 @@ if os.path.exists(anc_page):
         elif x["name"] not in text_of(page):
             problems.append(f"  FAIL  /people/{x['slug']}/ does not name «{x['name']}»")
 
+# A PAGE MAY NOT CLAIM MORE PROVENANCE THAN ITS OWN EDGES CARRY.
+#
+# /bloodline/ read «620 people joined by what this archive has read» above a
+# chart in which 719 of 830 links are marked, correctly, as the family tree
+# asserting a relationship with no record behind it. The eyebrow claimed the
+# opposite of what the drawing showed. It had not always been false — when the
+# archive held no read edges the sentence was wrong the other way, and then
+# parent-links.tsv grew 99 «read» edges and the sentence drifted past true
+# without anyone noticing.
+#
+# So the page now counts, and this checks the count it printed against the
+# edges in people.json. A typed number goes stale silently; a counted one
+# cannot, and this is what makes sure it stays counted.
+bl = os.path.join(DIST, "bloodline", "index.html")
+if os.path.exists(bl):
+    body = pages.setdefault("bloodline", text_of(bl))
+    edge = {}
+    for r in ppl:
+        for e in r.get("parents") or []:
+            edge[f"{r['slug']}>{e['slug']}"] = e.get("via") or "tree"
+        for e in r.get("children") or []:
+            edge.setdefault(f"{e['slug']}>{r['slug']}", e.get("via") or "tree")
+    links = len(edge)
+    proved = sum(1 for v in edge.values() if v in ("read", "index"))
+    if f"{proved} of the {links}" not in body:
+        problems.append(
+            f"  FAIL  /bloodline/ does not state «{proved} of the {links}» — people.json holds "
+            f"{links} parent-and-child links and {proved} of them are proved by a record "
+            f"({100 * proved / links:.1f}%). The page must count its own edges rather than "
+            f"describe them, or the sentence drifts past true as read edges are added")
+    if "joined by what this archive has read" in body:
+        problems.append(
+            "  FAIL  /bloodline/ still claims its people are «joined by what this archive has "
+            f"read». {links - proved} of its {links} links are the family tree asserting a "
+            "relationship with no record behind it, which is what their colour says on the chart")
+
 # A register-proved person must say so on their own page, or the page implies
 # the export held them. 104 people are in that position; the export has none
 # of them, and the person page's component sentence is about the export alone.
-ppl = json.load(open("site/src/data/people.json", encoding="utf-8"))
 regppl = [p for p in ppl if p.get("fromRegister")]
 unmarked, nopage = [], []
 for pr in regppl:

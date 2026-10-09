@@ -21,10 +21,37 @@ const shape = (s) => {
   return (up ? 1000 : 0) + (down ? 1000 : 0) + (side ? 500 : 0) + up + side + down;
 };
 const start = comps[0] ? [...comps[0]].sort((a, b) => shape(b) - shape(a))[0] : null;
+
+/* WHAT JOINS THESE PEOPLE, COUNTED.
+   This page said «620 people joined by what this archive has read» and its dek
+   said «every line is drawn in the colour of the record that made it». Neither
+   was true. 719 of the 830 parent-and-child links here are Michael Mazza's
+   tree asserting a relationship and nothing else — there is no record that
+   made them, which is exactly what their colour says on the chart. The eyebrow
+   was claiming the opposite of what the drawing underneath it shows.
+
+   It was not always false. When the archive held no read edges at all the
+   sentence was wrong in the other direction and nobody noticed, and then
+   parent-links.tsv grew 99 «read» edges and 12 «index» ones and the sentence
+   drifted past true without stopping. So it is counted here, from the edges
+   themselves, and a number that comes from the data cannot go stale the way a
+   number typed into a sentence does. Same fault, same remedy, as the pedigree
+   and the components page. */
+const EDGE = new Map();
+for (const r of rows) {
+  for (const e of r.parents || []) EDGE.set(`${r.slug}>${e.slug}`, e.via || "tree");
+  for (const e of r.children || []) {
+    const k = `${e.slug}>${r.slug}`;
+    if (!EDGE.has(k)) EDGE.set(k, e.via || "tree");
+  }
+}
+const links = EDGE.size;
+const provedLinks = [...EDGE.values()].filter((v) => v === "read" || v === "index").length;
+const provedPct = Math.round(1000 * provedLinks / links) / 10;
 ---
 <Base
   title="Blood relatives"
-  eyebrow={`${linked.length} people joined by what this archive has read`}
-  dek="Choose a person and they go to the middle of the chart: parents above, brothers and sisters beside them, children below — and through them the aunts, uncles and cousins. Every line is drawn in the colour of the record that made it.">
+  eyebrow={`${linked.length} people, and ${provedLinks} of the ${links} links between them proved`}
+  dek={`Choose a person and they go to the middle of the chart: parents above, brothers and sisters beside them, children below — and through them the aunts, uncles and cousins. Every line carries the colour of what joins the two people, and for most of them that is the family tree and nothing further: ${provedLinks} of the ${links} parent-and-child links here — ${provedPct}% — have been proved by a record this archive has read. The rest are Michael Mazza's research, drawn as given and marked as unproved.`}>
   <Bloodline people={people} start={start} total={rows.length} />
 </Base>
