@@ -19,6 +19,14 @@ const cov = coverage.rows.find((r) => r.comune === HERE) || {};
 const vols = rows.reduce((n, r) => n + r.volumes, 0);
 const bought = rows.reduce((n, r) => n + r.bought, 0);
 const SER = nic.byComuneSeries["Riposto"] || {};
+const SERIES = SER;
+/* COUNTED, because the typed version of this sentence went false the day the
+   sweep it describes was finished. nicotra-sweeps.tsv is the record of what has
+   been read; a sentence that names years instead of counting them is only true
+   until the next year is read. */
+const unread = (s) => (SERIES[s] || []).filter((r) => r.entries === "\u2014").map((r) => r.year);
+const readn = (s) => (SERIES[s] || []).filter((r) => r.entries !== "\u2014").length;
+
 const BIRTHS = SER["Nati"] || [];
 const MARRS = SER["Matrimoni"] || [];
 
@@ -68,7 +76,12 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
     <p class="note" style="margin-top:16px"><strong>None of them is Rosario.</strong> Giovanni
     Nicotra's father is named in the 1872 act as <strong>Rosario</strong>, a bracciante of Mascali,
     with <strong>Venera Murabito</strong> — and no household of that name has been found in any of the
-    three towns. Four Riposto years remain unread.</p>
+    three towns.{" "}
+    {unread("Matrimoni").length + unread("Nati").length === 0
+      ? <><strong>Every Riposto year this archive has banked is now read</strong> —
+        {" " + readn("Matrimoni")} marriage Tavole and {readn("Nati")} birth Tavole, and the answer
+        did not change.</>
+      : <>{unread("Matrimoni").length + unread("Nati").length} Riposto year(s) remain unread.</>}</p>
   </section>
 
   <section class="blk">

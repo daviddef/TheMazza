@@ -18,6 +18,13 @@ const HERE = "Giarre";
 const rows = holdings.rows.filter((r) => r.comune.startsWith(HERE));
 const cov = coverage.rows.find((r) => r.comune === HERE) || {};
 const vols = rows.reduce((n, r) => n + r.volumes, 0);
+const SERIES = nic.byComuneSeries["Giarre"] || {};
+/* COUNTED, because the typed version of this sentence went false the day the
+   sweep it describes was finished. nicotra-sweeps.tsv is the record of what has
+   been read; a sentence that names years instead of counting them is only true
+   until the next year is read. */
+const unread = (s) => (SERIES[s] || []).filter((r) => r.entries === "\u2014").map((r) => r.year);
+const readn = (s) => (SERIES[s] || []).filter((r) => r.entries !== "\u2014").length;
 const nati = rows.find((r) => r.type === "Nati") || {};
 const morti = rows.find((r) => r.type === "Morti") || {};
 const matr = rows.find((r) => r.type === "Matrimoni") || {};
@@ -231,7 +238,12 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     <p class="note" style="margin-top:16px"><strong>1842 nearly became a false negative.</strong>
       At band width its alphabet appears to run M, N, O. At full width the two headings are
       <strong>O and P</strong> — the year has no N section at all, which is a different and stronger
-      fact. <strong>1835, 1836 and 1837 are still unread</strong>, containers banked.</p>
+      fact. {unread("Matrimoni").concat(unread("Nati")).length === 0
+        ? <><strong>Every Giarre year this archive has banked is now read</strong> —
+          {" " + readn("Matrimoni")} marriage Tavole and {readn("Nati")} birth Tavole. The years
+          this note once listed as banked and unread are among them.</>
+        : <><strong>{unread("Matrimoni").concat(unread("Nati")).join(", ")} are still
+          unread</strong>, containers banked.</>}</p>
     </div>
   </section>
 

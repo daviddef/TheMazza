@@ -76,6 +76,34 @@ if inline:
                  f"— a hand-written figure, or the PLATES dict in build_acts.py. Legitimate, and "
                  f"counted so the number cannot drift unnoticed.")
 
+# EVERY PORTRAIT IN THE MANIFEST MUST REACH A READER TOO.
+#
+# The manifest was used here only to EXCLUDE portraits from the orphan check
+# above — so a portrait that stopped being drawn was invisible to every gate in
+# this build, and /documents/ says in as many words that all of them appear and
+# none was lost on the way. That sentence had a typed «133» in it until today,
+# beside a counted total, and the completeness half of the claim rested on
+# nobody having checked. The page cannot count the manifest itself
+# (data/photo-manifest.json is outside Astro's root), so the claim is held here
+# where the manifest is already loaded.
+if built:
+    # A portrait may legitimately not appear — three hang off duplicate xrefs the
+    # export merges away. What may NOT happen is that it stops appearing and
+    # nobody records why, which is the state this check found the archive in.
+    # «notShown» is that record, and it is prose because the reasons differ.
+    declared_absent = {r["file"] for r in json.load(
+        open("data/photo-manifest.json", encoding="utf-8")) if r.get("notShown")}
+    lost = sorted(f for f in PORTRAITS if f not in built and f not in declared_absent)
+    held = sorted(f for f in PORTRAITS if f not in built and f in declared_absent)
+    if held:
+        notes.append(f"  note  {len(held)} portrait(s) held and deliberately not shown, each with "
+                     f"its reason in the manifest: {', '.join(held)}")
+    if lost:
+        problems.append(f"  FAIL  {len(lost)} portrait(s) are in data/photo-manifest.json, reach no "
+                        f"built page, and say nothing about why. Either they should be drawn, or "
+                        f"the row should carry «notShown» with the reason: {', '.join(lost[:4])}"
+                        f"{' …' if len(lost) > 4 else ''}")
+
 # The check the audit had to be run by hand to make.
 if os.path.isdir(DIST):
     for p, r in declared.items():

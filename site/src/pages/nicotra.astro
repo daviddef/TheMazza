@@ -20,6 +20,17 @@ const adds = additions.filter((a) => /Nicotra|Cassaniti|Murabito|Currenti/.test(
 
 const LINE = nic.line;
 const total = nic.read;
+/* Counted for the same reason as the comune pages: this paragraph said «only
+   1840 and 1844 have been read» of Giarre and «the other nine years have their
+   containers banked», and by then all ten were read. */
+const ser = (c, s2) => (nic.byComuneSeries[c] || {})[s2] || [];
+const readOf = (c, s2) => ser(c, s2).filter((r) => r.entries !== "\u2014");
+const unreadOf = (c, s2) => ser(c, s2).filter((r) => r.entries === "\u2014");
+const span = (c, s2) => { const y = readOf(c, s2).map((r) => r.year).sort();
+  return y.length ? `${y[0]}\u2013${y[y.length - 1]}` : "none"; };
+const MARR = ["Mascali", "Riposto", "Giarre"];
+const marrRead = MARR.reduce((n, c) => n + readOf(c, "Matrimoni").length, 0);
+const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
 ---
 <Base title="The Nicotra" eyebrow="Mascali · Giarre · Riposto · Piedimonte Etneo"
       dek="Three days ago this line was two names on a Queensland death certificate. It now reaches generation six on both sides, crosses four comuni — and the man it is named for is still missing."
@@ -192,11 +203,14 @@ const total = nic.read;
       born about 1815–1824 — a decade earlier than anything read here. That act names Alfio Nicotra's
       age and trade, and would say whether this Giarre household is a labouring one or the
       <em>Dottor Don</em> line under another spelling.</p>
-      <p><strong>And the rest of Giarre's marriage Tavole.</strong> Mascali's are now read whole for
-      1835–1841 and 1847, and Riposto's for 1835–1846 — twenty years of the one index that names both
-      spouses, all four parents and the comune each came from, and Rosario is in none of them. Of
-      Giarre's, only <strong>1840 and 1844</strong> have been read. The other nine years have their
-      containers banked and are held up by nothing but a rate limiter.</p>
+      <p><strong>The marriage Tavole, which is the index that would settle it.</strong> It names both
+      spouses, all four parents and the comune each came from. <strong>{marrRead} years</strong> of it
+      have now been read across the three towns — Mascali {span("Mascali", "Matrimoni")}, Riposto
+      {" " + span("Riposto", "Matrimoni")}, Giarre {span("Giarre", "Matrimoni")} — and Rosario is in
+      none of them. {marrLeft === 0
+        ? <>Not one marriage year this archive has banked is still unread, which is why the search has
+          moved to the death registers and to Giarre's earlier decade.</>
+        : <>{marrLeft} banked year(s) remain, held up by nothing but a rate limiter.</>}</p>
       <p><a href={u("/riposto/")}>Riposto, where the search stands →</a> ·
       <a href={u("/giarre/")}>Giarre, and its negative →</a> ·
       <a href={u("/mascali/")}>Mascali, and her birth act →</a></p>

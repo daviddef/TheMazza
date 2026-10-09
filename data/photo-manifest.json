@@ -427,7 +427,8 @@
   "dead": false,
   "size": 2964657,
   "rin": "MH:P46",
-  "path": "photos/living/nancy-arena-1.jpg"
+  "path": "photos/living/nancy-arena-1.jpg",
+  "notShown": "Held and not shown: byte-identical to nancy-arena-I25-1.jpg, which IS shown. This row hangs off @I19@, a duplicate of @I25@ that build.py merges away, so nothing is lost by it not appearing."
  },
  {
   "xref": "@I20@",
@@ -437,7 +438,8 @@
   "dead": false,
   "size": 1358459,
   "rin": "MH:P48",
-  "path": "photos/living/michael-mazza-1.jpg"
+  "path": "photos/living/michael-mazza-1.jpg",
+  "notShown": "Held and not shown: hangs off @I20@, a duplicate the export merges away. Byte-identical to angela-mazza-1.jpg, so this file and that one are one photograph under two names, and Michael Rocco Mazza has no photograph published at all. See question 18."
  },
  {
   "xref": "@I21@",
@@ -447,7 +449,8 @@
   "dead": false,
   "size": 1358459,
   "rin": "MH:P48",
-  "path": "photos/living/angela-mazza-1.jpg"
+  "path": "photos/living/angela-mazza-1.jpg",
+  "notShown": "Held and not shown: hangs off @I21@, a duplicate of @I27@ that build.py merges away. 3072x2304, and byte-identical to michael-mazza-1.jpg — ONE photograph filed under two people. Who is in it is an open question, not a thing to decide by picking. See question 18."
  },
  {
   "xref": "@I25@",

@@ -172,6 +172,31 @@ if os.path.exists(anc_page):
         elif x["name"] not in text_of(page):
             problems.append(f"  FAIL  /people/{x['slug']}/ does not name «{x['name']}»")
 
+# A FINISHED SWEEP MUST NOT LEAVE A «STILL UNREAD» BEHIND IT.
+#
+# Three pages said so after the sweeps they described were finished this week:
+# /riposto/ «Four Riposto years remain unread» with none unread, /giarre/
+# «1835, 1836 and 1837 are still unread» with all three read, and /nicotra/
+# «Of Giarre's, only 1840 and 1844 have been read» with all ten read. Each was
+# true when typed. Each was falsified by the archive's own progress, which is
+# the one direction nobody checks, because finishing a search feels like the
+# end of the work rather than the beginning of a stale sentence.
+UNREAD_WORDS = ("still unread", "remain unread", "remains unread", "are unread")
+for comune, series in sorted(nic["byComuneSeries"].items()):
+    slug = PAGE.get(comune)
+    if not slug or slug not in pages:
+        continue
+    left = sum(1 for rows in series.values() for r in rows if r.get("entries") == "\u2014")
+    if left:
+        continue
+    body = pages[slug]
+    said = [w for w in UNREAD_WORDS if w in body.lower()]
+    if said:
+        problems.append(
+            f"  FAIL  /{slug}/ says «{said[0]}» and every {comune} year in nicotra-sweeps.tsv is "
+            f"read. The sweep it describes is finished; count the unread years instead of naming "
+            f"them, or the sentence goes false the day the last one is read")
+
 # A PAGE MAY NOT CLAIM MORE PROVENANCE THAN ITS OWN EDGES CARRY.
 #
 # /bloodline/ read «620 people joined by what this archive has read» above a

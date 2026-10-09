@@ -24,6 +24,9 @@ const ship = ships.find((s) => s.slug === p.slug);
 const comp = components.find((c) => c.comp === p.comp);
 const sameName = people.filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name));
 const edges = ["parents", "spouses", "children", "siblings"].flatMap((b) => p[b] || []);
+/* «read» is a register act, «index» an index entry; both are a record. «tree»
+   is Michael's assertion, and a sibling edge carries no via at all. */
+const provedEdges = edges.filter((e) => e.via === "read" || e.via === "index").length;
 /* A LIVING PERSON'S PLACE IS A COUNTRY AND NOTHING FINER.
    This page withheld a living person's DATES and published their TOWN:
    Mia Josephine Mazza's read «Born  Brisbane, Queensland  withheld», and
@@ -145,10 +148,25 @@ const dek = p.ancGen === 0 || p.onSpine
     <div class="card">
       <h2 class="ct">Where this comes from</h2>
       <p class="small">
+        {/* COUNTED, because this sentence was false on 660 of these pages and on
+            Salvatore Mazza's it contradicted the chart directly above it: the
+            chart said «4 of the 8 relationships drawn here have been proved by a
+            record» and this paragraph said none of them had. Same fault as
+            PersonTree.astro's version, fixed there first and still living here,
+            because the claim was written twice and only one copy was counted. */}
         {edges.length
-          ? <span><strong>All {edges.length}</strong> of the relationships drawn above come from
-            <strong> Michael Mazza's family tree</strong>, and none of them has been proved by a
-            record this archive has read.</span>
+          ? provedEdges === 0
+            ? <span><strong>All {edges.length}</strong> of the relationships drawn above come from
+              <strong> Michael Mazza's family tree</strong>, and none of them has been proved by a
+              record this archive has read.</span>
+            : provedEdges === edges.length
+              ? <span><strong>All {edges.length}</strong> of the relationships drawn above have been
+                <strong> proved by a record</strong> this archive has read, rather than taken from
+                the family tree.</span>
+              : <span><strong>{provedEdges} of the {edges.length}</strong> relationships drawn above
+                have been <strong>proved by a record</strong> this archive has read. The other
+                {" " + (edges.length - provedEdges)} come from
+                <strong> Michael Mazza's family tree</strong> and have not.</span>
           : <span>No relationship is recorded for this person.</span>}
       </p>
       {p.records && p.records.length ? (
