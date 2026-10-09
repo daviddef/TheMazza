@@ -131,7 +131,8 @@ _by_surname = collections.Counter(r.get("surname") or "Nicotra" for r in houses)
 print(f"{_by_surname['Nicotra']} Nicotra households and {_by_surname['Murabito']} Murabito, "
       f"none of them Giovanni's Rosario")
 print(f"{len(line)} generations documented; {len(sweeps)} Tavola years listed across "
-      f"{len(by_comune)} comuni — {len(read)} read, {len(sweeps)-len(read)} still to read, "
+      f"{len(by_comune)} comuni — {len(read)} read, {len(sweeps)-len(read)-len(absent)} still to "
+      f"read, {len(absent)} never deposited, "
       f"{len(found)} holding any N entry at all")
 for c, ser in by_cs.items():
     for sname, rows in ser.items():
