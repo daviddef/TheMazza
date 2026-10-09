@@ -25,7 +25,10 @@ const SERIES = SER;
    been read; a sentence that names years instead of counting them is only true
    until the next year is read. */
 const unread = (s) => (SERIES[s] || []).filter((r) => r.entries === "\u2014").map((r) => r.year);
-const readn = (s) => (SERIES[s] || []).filter((r) => r.entries !== "\u2014").length;
+/* «absent» is a year never deposited. Not read, not outstanding. */
+const readn = (s) => (SERIES[s] || []).filter(
+  (r) => r.entries !== "\u2014" && r.entries !== "absent").length;
+
 
 const BIRTHS = SER["Nati"] || [];
 const MARRS = SER["Matrimoni"] || [];
@@ -96,7 +99,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
           {BIRTHS.map((r) => (
             <tr>
               <td class="m"><strong>{r.year}</strong></td>
-              <td class="m small">{r.entries === "—" ? <em>unread</em> : r.entries}</td>
+              <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
               <td class="small">{r.note}</td>
             </tr>
           ))}
@@ -124,7 +127,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
           {MARRS.map((r) => (
             <tr>
               <td class="m"><strong>{r.year}</strong></td>
-              <td class="m small">{r.entries === "—" ? <em>unread</em> : r.entries}</td>
+              <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
               <td class="small">{r.note}</td>
             </tr>
           ))}

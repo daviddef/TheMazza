@@ -29,7 +29,20 @@ import csv, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
 
-ENTRIES = {"none", "empty", "one", "two", "three", "four", "five", "—"}
+ENTRIES = {"absent", "none", "empty", "one", "two", "three", "four", "five", "—"}
+# «absent» was added on 9 October 2026 and does NOT mean a Tavola with nothing
+# in it. It means THERE IS NO VOLUME: the year was never deposited, so there is
+# nothing to read and never will be. Mascali has no 1844 in any restaurazione
+# series — not births, deaths, marriages, esposti, processetti or memorandum —
+# and antenati-coverage.tsv has said so since 21 September, verified against a
+# listing of 498 results and 498 distinct arks with the facets agreeing.
+#
+# It needed a word of its own because the page was showing nine birth rows
+# across a span of ten years and explaining nothing, and because a reader who
+# notices the hole has no way to tell a lost volume from an unread one. Those
+# are opposite facts: «—» is work outstanding, «absent» is work that cannot be
+# done. Counting «absent» as unread would also understate every negative this
+# archive has drawn at Mascali for a decade of births.
 # «four» and «five» were added on 8 October 2026 when Mascali's death index of
 # 1880 turned out to hold five N entries. The vocabulary is closed to force the
 # none/empty distinction, not to cap how many a section may hold — so it grows
@@ -89,8 +102,10 @@ for ser in by_cs.values():
 for rows in by_comune.values():
     rows.sort(key=lambda r: (r["series"], int(r["year"])))
 
-read = [r for r in sweeps if r["entries"] != "—"]
-found = [r for r in sweeps if r["entries"] not in ("—", "none", "empty")]
+# «absent» is neither read nor outstanding: there is no volume behind it.
+read = [r for r in sweeps if r["entries"] not in ("—", "absent")]
+absent = [r for r in sweeps if r["entries"] == "absent"]
+found = [r for r in sweeps if r["entries"] not in ("—", "absent", "none", "empty")]
 
 by_house = {}
 for r in houses:
@@ -98,7 +113,8 @@ for r in houses:
 
 json.dump({"line": line, "sweeps": sweeps, "byComune": by_comune, "byComuneSeries": by_cs,
            "households": houses, "housesByComune": by_house,
-           "read": len(read), "unread": len(sweeps) - len(read),
+           "read": len(read), "unread": len(sweeps) - len(read) - len(absent),
+           "absent": len(absent),
            "withEntries": len(found)},
           open("site/src/data/nicotra.json", "w", encoding="utf-8"),
           indent=1, ensure_ascii=False)
@@ -109,5 +125,7 @@ print(f"{len(line)} generations documented; {len(sweeps)} Tavola years listed ac
       f"{len(found)} holding any N entry at all")
 for c, ser in by_cs.items():
     for sname, rows in ser.items():
-        r = sum(1 for x in rows if x["entries"] != "—")
-        print(f"  {c:10s} {sname:10s} {r}/{len(rows)} read")
+        r = sum(1 for x in rows if x["entries"] not in ("—", "absent"))
+        a = sum(1 for x in rows if x["entries"] == "absent")
+        print(f"  {c:10s} {sname:10s} {r}/{len(rows) - a} read"
+              + (f"  ({a} year(s) never deposited)" if a else ""))

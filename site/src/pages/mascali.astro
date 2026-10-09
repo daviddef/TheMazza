@@ -31,7 +31,16 @@ const yrs = civil.map((r) => [r.from, r.to]).flat().filter(Boolean);
 const MARRS = (nic.byComuneSeries["Mascali"] || {})["Matrimoni"] || [];
 const BIRTHS = (nic.byComuneSeries["Mascali"] || {})["Nati"] || [];
 const DEATHS = (nic.byComuneSeries["Mascali"] || {})["Morti"] || [];
-const DEATHSREAD = DEATHS.filter((r) => r.entries !== "\u2014");
+/* «absent» is a year that was never deposited, not a year left unread —
+   Mascali has no 1844 in ANY restaurazione series. It must not be counted as
+   read (it inflates the negative) nor as outstanding (there is nothing to
+   open). It is shown, because a reader who sees nine rows over a ten-year
+   span deserves to know which kind of hole this is. */
+const UNREAD = (r) => r.entries === "\u2014";
+const ABSENT = (r) => r.entries === "absent";
+const READ = (r) => !UNREAD(r) && !ABSENT(r);
+const DEATHSREAD = DEATHS.filter(READ);
+
 const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven deaths"));
 ---
 <Base title="Mascali" eyebrow="Catania, Sicily"
@@ -96,7 +105,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
           {BIRTHS.map((r) => (
             <tr>
               <td class="m"><strong>{r.year}</strong></td>
-              <td class="m small">{r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
+              <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
               <td class="small">{r.note}</td>
             </tr>
           ))}
@@ -141,7 +150,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
           {MARRS.map((r) => (
             <tr>
               <td class="m"><strong>{r.year}</strong></td>
-              <td class="m small">{r.entries}</td>
+              <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
               <td class="small">{r.note}</td>
             </tr>
           ))}
@@ -263,7 +272,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
           {DEATHS.map((r) => (
             <tr>
               <td class="m"><strong>{r.year}</strong></td>
-              <td class="m small">{r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
+              <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
               <td class="small">{r.note}</td>
             </tr>
           ))}

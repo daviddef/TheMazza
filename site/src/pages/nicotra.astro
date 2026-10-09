@@ -24,7 +24,7 @@ const total = nic.read;
    1840 and 1844 have been read» of Giarre and «the other nine years have their
    containers banked», and by then all ten were read. */
 const ser = (c, s2) => (nic.byComuneSeries[c] || {})[s2] || [];
-const readOf = (c, s2) => ser(c, s2).filter((r) => r.entries !== "\u2014");
+const readOf = (c, s2) => ser(c, s2).filter((r) => r.entries !== "\u2014" && r.entries !== "absent");
 const unreadOf = (c, s2) => ser(c, s2).filter((r) => r.entries === "\u2014");
 const span = (c, s2) => { const y = readOf(c, s2).map((r) => r.year).sort();
   return y.length ? `${y[0]}\u2013${y[y.length - 1]}` : "none"; };
@@ -85,9 +85,9 @@ const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
             <tr>
               <td><strong>{c}</strong></td>
               <td class="small">{sname} {rows[0].year}–{rows[rows.length - 1].year}</td>
-              <td class="m">{rows.filter((r) => r.entries !== "\u2014").length}</td>
-              <td class="small">{rows.filter((r) => !["\u2014", "none", "empty"].includes(r.entries)).length
-                ? `${rows.filter((r) => !["\u2014", "none", "empty"].includes(r.entries)).length} year(s) hold an N entry; none of them is Rosario`
+              <td class="m">{rows.filter((r) => r.entries !== "\u2014" && r.entries !== "absent").length}</td>
+              <td class="small">{rows.filter((r) => !["\u2014", "absent", "none", "empty"].includes(r.entries)).length
+                ? `${rows.filter((r) => !["\u2014", "absent", "none", "empty"].includes(r.entries)).length} year(s) hold an N entry; none of them is Rosario`
                 : "not one N entry in any year read"}</td>
             </tr>
           )))}

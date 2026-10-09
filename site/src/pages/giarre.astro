@@ -24,7 +24,10 @@ const SERIES = nic.byComuneSeries["Giarre"] || {};
    been read; a sentence that names years instead of counting them is only true
    until the next year is read. */
 const unread = (s) => (SERIES[s] || []).filter((r) => r.entries === "\u2014").map((r) => r.year);
-const readn = (s) => (SERIES[s] || []).filter((r) => r.entries !== "\u2014").length;
+/* «absent» is a year never deposited. Not read, not outstanding. */
+const readn = (s) => (SERIES[s] || []).filter(
+  (r) => r.entries !== "\u2014" && r.entries !== "absent").length;
+
 const nati = rows.find((r) => r.type === "Nati") || {};
 const morti = rows.find((r) => r.type === "Morti") || {};
 const matr = rows.find((r) => r.type === "Matrimoni") || {};
@@ -64,8 +67,8 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
           {YEARS.map((r) => (
             <tr>
               <td class="m"><strong>{r.year}</strong></td>
-              <td class={["none","empty","\u2014"].includes(r.entries) ? "small" : ""}>
-                {["none","empty","\u2014"].includes(r.entries) ? r.entries : <strong>{r.entries}</strong>}</td>
+              <td class={["none","empty","\u2014","absent"].includes(r.entries) ? "small" : ""}>
+                {["none","empty","\u2014","absent"].includes(r.entries) ? r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries : <strong>{r.entries}</strong>}</td>
               <td class="small">{r.note}</td>
             </tr>
           ))}
