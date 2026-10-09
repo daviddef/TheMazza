@@ -24,7 +24,7 @@ Two files, because they answer two different questions:
 
   data/nicotra-*.tsv  ->  site/src/data/nicotra.json
 """
-import csv, json, os, sys
+import collections, csv, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
@@ -107,19 +107,29 @@ read = [r for r in sweeps if r["entries"] not in ("—", "absent")]
 absent = [r for r in sweeps if r["entries"] == "absent"]
 found = [r for r in sweeps if r["entries"] not in ("—", "absent", "none", "empty")]
 
+_by_surname_pre = collections.Counter(r.get("surname") or "Nicotra" for r in houses)
 by_house = {}
 for r in houses:
     by_house.setdefault(r["comune"], []).append(r)
 
 json.dump({"line": line, "sweeps": sweeps, "byComune": by_comune, "byComuneSeries": by_cs,
            "households": houses, "housesByComune": by_house,
+           "bySurname": dict(_by_surname_pre),
            "read": len(read), "unread": len(sweeps) - len(read) - len(absent),
            "absent": len(absent),
            "withEntries": len(found)},
           open("site/src/data/nicotra.json", "w", encoding="utf-8"),
           indent=1, ensure_ascii=False)
 
-print(f"{len(houses)} Nicotra households found, none of them Giovanni's Rosario")
+# COUNTED BY THE NAME EACH HOUSEHOLD ACTUALLY CARRIES. This file began as
+# Nicotra households only and the page's heading said so by taking its length.
+# On 9 October 2026 a MURABITO household was added — Venera Murabito is half
+# the name this archive is looking for — and the heading went on saying
+# «N Nicotra households» about a list that was no longer all Nicotra. A count
+# is only true of the thing it counts.
+_by_surname = collections.Counter(r.get("surname") or "Nicotra" for r in houses)
+print(f"{_by_surname['Nicotra']} Nicotra households and {_by_surname['Murabito']} Murabito, "
+      f"none of them Giovanni's Rosario")
 print(f"{len(line)} generations documented; {len(sweeps)} Tavola years listed across "
       f"{len(by_comune)} comuni — {len(read)} read, {len(sweeps)-len(read)} still to read, "
       f"{len(found)} holding any N entry at all")

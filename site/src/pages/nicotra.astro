@@ -151,17 +151,23 @@ const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
   </section>
 
   <section class="blk">
-    <h2>{nic.households.length} Nicotra households, and not one of them his</h2>
+    {/* COUNTED BY SURNAME. This read nic.households.length and said «Nicotra»,
+        which was true until a MURABITO household was added on 9 October 2026 —
+        Venera Murabito being half the name the whole search is for. A count is
+        only true of the thing it counts. */}
+    <h2>{nic.bySurname.Nicotra} Nicotra households, and not one of them his</h2>
     <p class="dek" style="margin:.7rem 0 1.2rem">{nic.read} read index years turned these up. They are
     kept because a surname that is <em>present</em> and never <em>right</em> is a different fact from
     a surname that is absent — and because the next reader will otherwise find them again.</p>
     <div class="scroll">
       <table>
-        <thead><tr><th class="m">Comune</th><th>Father</th><th>Mother</th><th class="m">Seen</th><th>What it is</th></tr></thead>
+        <thead><tr><th class="m">Comune</th><th class="m">Surname</th><th>Father</th><th>Mother</th><th class="m">Seen</th><th>What it is</th></tr></thead>
         <tbody>
           {nic.households.map((h) => (
             <tr>
               <td class="m small">{h.comune}</td>
+              <td class="m small">{h.surname !== "Nicotra"
+                ? <strong style="color:var(--terra)">{h.surname}</strong> : h.surname}</td>
               <td><strong>{h.father}</strong></td>
               <td class="small">{h.mother}</td>
               <td class="m small">{h.seen}</td>
