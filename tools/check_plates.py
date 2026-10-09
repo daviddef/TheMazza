@@ -127,6 +127,33 @@ if built:
                         f"the row should carry «notShown» with the reason: {', '.join(lost[:4])}"
                         f"{' …' if len(lost) > 4 else ''}")
 
+# THE WORKING TREE OF DOWNLOADED SCANS, WHICH NO GATE HAD EVER OPENED.
+#
+# sources/ holds 124 images, 78 MB, fetched from Antenati's IIIF endpoint and
+# tracked in git. Two of them were not images at all: 3,156 bytes of
+# «403 Forbidden — Requests for scales in excess of 100% are not allowed», a
+# Cantaloupe stack trace saved with a .jpg extension, one of them named
+# act228-arena-rocco.jpg after Rocco Arena's birth act. Nothing published them
+# — the plate of that name is a real 250 KB scan — but an error page sitting in
+# the evidence tree under the name of an act is one careless copy away from
+# being published as that act.
+#
+# A failed IIIF fetch returns 200-with-a-body often enough that «the file
+# exists» proves nothing. Decoding it is the only test that does.
+for _root, _dirs, _files in os.walk("sources"):
+    for _f in sorted(_files):
+        if not _f.lower().endswith((".jpg", ".jpeg", ".png")):
+            continue
+        _p = os.path.join(_root, _f)
+        _b = open(_p, "rb").read()
+        _is_png = _b[:8] == b"\x89PNG\r\n\x1a\n"
+        _is_jpg = _b[:2] == b"\xff\xd8" and _b[-2:] == b"\xff\xd9"
+        if not (_is_png or _is_jpg):
+            _head = _b[:60].decode("utf-8", "replace").strip().replace("\n", " ")
+            problems.append(f"  FAIL  {_p} is named as an image and is not one — it begins "
+                            f"«{_head[:48]}». A failed IIIF fetch saved under an act's name is "
+                            f"one copy away from being published as that act")
+
 # THE REGISTER PLATES, HASHED AND MEASURED.
 #
 # The portraits turned out to hold one stock graphic filed 22 times and four
