@@ -104,6 +104,32 @@ if built:
                         f"the row should carry «notShown» with the reason: {', '.join(lost[:4])}"
                         f"{' …' if len(lost) > 4 else ''}")
 
+# EVERY IMAGE MUST BE MEASURED, AND THE SMALL ONES MUST SAY SO.
+#
+# The archive held 133 photographs and did not know how big any of them was,
+# so the person page stretched each one to fill a 190px grid cell with
+# width:100%. Eleven are narrower than that and were being drawn above their
+# own resolution — Angela Mazza's lead portrait is 132x161 and was shown
+# blurred, which looked like a broken download and was not: it is a complete
+# JPEG of a small photograph, and the signed source links expired on 16
+# September 2026, so no better copy can be fetched.
+#
+# A row that cannot be measured is the real worry, because that is what a
+# truncated file looks like. So measurement is required, and the undersized
+# ones are counted rather than hidden.
+_man = json.load(open("data/photo-manifest.json", encoding="utf-8"))
+_unmeasured = [m["file"] for m in _man
+               if os.path.exists(m.get("path", "")) and not (m.get("w") and m.get("h"))]
+if _unmeasured:
+    problems.append(f"  FAIL  {len(_unmeasured)} held image(s) carry no w/h in the manifest — a file "
+                     f"whose dimensions cannot be read is what a truncated download looks like: "
+                     f"{', '.join(_unmeasured[:4])}{' …' if len(_unmeasured) > 4 else ''}")
+_tiny = sorted((m["w"], m["file"]) for m in _man if m.get("w") and m["w"] < 190)
+if _tiny:
+    notes.append(f"  note  {len(_tiny)} image(s) are narrower than the 190px grid cell and are "
+                 f"drawn at their own size with «a better scan would help» beside them — "
+                 f"smallest {_tiny[0][1]} at {_tiny[0][0]}px")
+
 # The check the audit had to be run by hand to make.
 if os.path.isdir(DIST):
     for p, r in declared.items():

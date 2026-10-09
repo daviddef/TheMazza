@@ -240,11 +240,37 @@ const dek = p.ancGen === 0 || p.onSpine
   {p.photos && p.photos.length > 0 && (
     <section class="blk">
       <h2 style="font-size:26px">Photographs</h2>
+      {/* NO IMAGE IS RENDERED LARGER THAN IT IS.
+          This grid had width:100% in cells of at least 190px, so an image held
+          at 132x161 was stretched past its own resolution and shown blurred.
+          Angela Mazza's lead photograph was one: 132x161, 3,901 bytes, a
+          complete and valid JPEG and simply small — MyHeritage held no more of
+          it, and the signed links expired on 16 September 2026, so there is no
+          better copy to fetch. Eleven of the archive's 133 images are under
+          190px wide and every one of them was being upscaled.
+
+          width:auto with max-width:100% is the whole fix: a large photograph
+          still shrinks to its cell, and a small one is drawn at the size it
+          actually is. A small photograph ought to look small. Pretending
+          otherwise is the same habit as a sentence claiming more than the data
+          holds, which is most of what this week's work has been about. */}
       <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(190px,1fr));margin-top:14px">
-        {p.photos.map((f) => (
-          <img src={u("/plates/" + f)} alt={p.name}
-               style="border:1px solid var(--rule);border-radius:3px;display:block;width:100%" />
-        ))}
+        {p.photos.map((f) => {
+          const wh = (p.photoSize || {})[f];
+          const small = wh && wh[0] < 190;
+          return (
+          <figure style="margin:0">
+            <img src={u("/plates/" + f)} alt={p.name}
+                 width={wh ? wh[0] : undefined} height={wh ? wh[1] : undefined}
+                 loading="lazy" decoding="async"
+                 style="border:1px solid var(--rule);border-radius:3px;display:block;width:auto;max-width:100%;margin:0 auto;height:auto" />
+            {small && (
+              <figcaption class="cap" style="margin-top:6px;text-align:center">
+                Held only at {wh[0]}&times;{wh[1]}. <strong>A better scan would help.</strong>
+              </figcaption>
+            )}
+          </figure>);
+        })}
       </div>
       <p class="cap">From the family's own tree, contributed by Michael Mazza and relatives. Almost
       none are captioned — <strong>identifications are the most valuable thing you can send.</strong></p>

@@ -26,9 +26,14 @@ const HELD = stats.photos;   // build.py counts data/photo-manifest.json into st
    names: it describes the subject to somebody who cannot see the image without
    describing the image. It is left as the archive wrote it rather than invented
    here - a caption for a photograph nobody has identified is not mine to write. */
+/* The kit's Gallery takes w/h per row (Gallery.astro line 75) and this page
+   never passed them, so every thumbnail was laid out without intrinsic
+   dimensions. They are measured into the manifest now. */
 const sheet = withPhotos.flatMap((p) => p.photos.map((f, i) => ({
   src: u("/plates/" + f),
   alt: p.name,
+  w: ((p.photoSize || {})[f] || [])[0],
+  h: ((p.photoSize || {})[f] || [])[1],
   title: p.name + (p.photos.length > 1 ? ` (${i + 1} of ${p.photos.length})` : ""),
   what: [p.born, p.died].filter(Boolean).join("\u2013") + (p.birthPlace ? ` \u00b7 ${p.birthPlace}` : ""),
   href: "/people/" + p.slug,

@@ -666,9 +666,15 @@ def src_of(x):
 
 photos = {}
 if os.path.exists("data/photo-manifest.json"):
+    # photos stays a list of FILENAMES, because four pages, a gate and the kit's
+    # Gallery all index it that way. The measurements go beside it in photoSize,
+    # keyed by filename, so nothing that reads photos has to change.
+    photo_size = {}
     for m in json.load(open("data/photo-manifest.json")):
         if os.path.exists(m.get("path", "")) and (m.get("dead") or not SUPPRESS_LIVING):
             photos.setdefault(m["xref"], []).append(m["file"])
+            if m.get("w") and m.get("h"):
+                photo_size[m["file"]] = [m["w"], m["h"]]
 
 # ---------------------------------------------------------------- the records
 
@@ -699,6 +705,7 @@ def record(x):
         "burialPlace": next((e["place"] for e in ev if e["tag"] == "BURI" and e["place"]), ""),
         "sources": src_of(x),
         "photos": photos.get(x, []),
+        "photoSize": {f: photo_size[f] for f in photos.get(x, []) if f in photo_size},
     })
     return rec
 

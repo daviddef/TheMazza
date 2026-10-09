@@ -7,7 +7,9 @@
   "dead": false,
   "size": 249057,
   "rin": "MH:P1",
-  "path": "photos/living/frank-mazza-1.jpg"
+  "path": "photos/living/frank-mazza-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I1@",
@@ -17,7 +19,9 @@
   "dead": false,
   "size": 120342,
   "rin": "MH:P3",
-  "path": "photos/living/frank-mazza-2.jpg"
+  "path": "photos/living/frank-mazza-2.jpg",
+  "w": 929,
+  "h": 627
  },
  {
   "xref": "@I1@",
@@ -27,7 +31,9 @@
   "dead": false,
   "size": 24906,
   "rin": "MH:P4",
-  "path": "photos/living/frank-mazza-3.jpg"
+  "path": "photos/living/frank-mazza-3.jpg",
+  "w": 220,
+  "h": 208
  },
  {
   "xref": "@I1@",
@@ -37,7 +43,9 @@
   "dead": false,
   "size": 297576,
   "rin": "MH:P5",
-  "path": "photos/living/frank-mazza-4.jpg"
+  "path": "photos/living/frank-mazza-4.jpg",
+  "w": 910,
+  "h": 650
  },
  {
   "xref": "@I1@",
@@ -47,7 +55,9 @@
   "dead": false,
   "size": 24030,
   "rin": "MH:P6",
-  "path": "photos/living/frank-mazza-5.jpg"
+  "path": "photos/living/frank-mazza-5.jpg",
+  "w": 213,
+  "h": 232
  },
  {
   "xref": "@I1@",
@@ -57,7 +67,9 @@
   "dead": false,
   "size": 106330,
   "rin": "MH:P7",
-  "path": "photos/living/frank-mazza-6.jpg"
+  "path": "photos/living/frank-mazza-6.jpg",
+  "w": 633,
+  "h": 725
  },
  {
   "xref": "@I1@",
@@ -67,7 +79,9 @@
   "dead": false,
   "size": 70705,
   "rin": "MH:P8",
-  "path": "photos/living/frank-mazza-7.jpg"
+  "path": "photos/living/frank-mazza-7.jpg",
+  "w": 317,
+  "h": 530
  },
  {
   "xref": "@I1@",
@@ -77,7 +91,9 @@
   "dead": false,
   "size": 281324,
   "rin": "MH:P9",
-  "path": "photos/living/frank-mazza-8.jpg"
+  "path": "photos/living/frank-mazza-8.jpg",
+  "w": 1700,
+  "h": 2338
  },
  {
   "xref": "@I1@",
@@ -87,7 +103,9 @@
   "dead": false,
   "size": 364491,
   "rin": "MH:P10",
-  "path": "photos/living/frank-mazza-9.jpg"
+  "path": "photos/living/frank-mazza-9.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I1@",
@@ -97,7 +115,9 @@
   "dead": false,
   "size": 2719635,
   "rin": "MH:P11",
-  "path": "photos/living/frank-mazza-10.jpg"
+  "path": "photos/living/frank-mazza-10.jpg",
+  "w": 2304,
+  "h": 3072
  },
  {
   "xref": "@I2@",
@@ -107,7 +127,9 @@
   "dead": true,
   "size": 100667,
   "rin": "MH:P12",
-  "path": "photos/deceased/sebastiano-mazza-1.jpg"
+  "path": "photos/deceased/sebastiano-mazza-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I3@",
@@ -117,7 +139,9 @@
   "dead": true,
   "size": 31677,
   "rin": "MH:P500008",
-  "path": "photos/deceased/domenica-prostamo-1.jpg"
+  "path": "photos/deceased/domenica-prostamo-1.jpg",
+  "w": 212,
+  "h": 313
  },
  {
   "xref": "@I3@",
@@ -127,7 +151,9 @@
   "dead": true,
   "size": 31696,
   "rin": "MH:P500007",
-  "path": "photos/deceased/domenica-prostamo-2.jpg"
+  "path": "photos/deceased/domenica-prostamo-2.jpg",
+  "w": 212,
+  "h": 313
  },
  {
   "xref": "@I3@",
@@ -137,7 +163,9 @@
   "dead": true,
   "size": 31672,
   "rin": "MH:P14",
-  "path": "photos/deceased/domenica-prostamo-3.jpg"
+  "path": "photos/deceased/domenica-prostamo-3.jpg",
+  "w": 212,
+  "h": 313
  },
  {
   "xref": "@I3@",
@@ -147,7 +175,9 @@
   "dead": true,
   "size": 49315,
   "rin": "MH:P16",
-  "path": "photos/deceased/domenica-prostamo-4.jpg"
+  "path": "photos/deceased/domenica-prostamo-4.jpg",
+  "w": 212,
+  "h": 483
  },
  {
   "xref": "@I3@",
@@ -157,7 +187,9 @@
   "dead": true,
   "size": 206135,
   "rin": "MH:P17",
-  "path": "photos/deceased/domenica-prostamo-5.jpg"
+  "path": "photos/deceased/domenica-prostamo-5.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I4@",
@@ -167,7 +199,9 @@
   "dead": true,
   "size": 148709,
   "rin": "MH:P18",
-  "path": "photos/deceased/salvatore-mazza-1.jpg"
+  "path": "photos/deceased/salvatore-mazza-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I4@",
@@ -177,7 +211,9 @@
   "dead": true,
   "size": 80777,
   "rin": "MH:P20",
-  "path": "photos/deceased/salvatore-mazza-2.jpg"
+  "path": "photos/deceased/salvatore-mazza-2.jpg",
+  "w": 410,
+  "h": 573
  },
  {
   "xref": "@I5@",
@@ -187,7 +223,9 @@
   "dead": true,
   "size": 262162,
   "rin": "MH:P21",
-  "path": "photos/deceased/maria-nicotra-1.jpg"
+  "path": "photos/deceased/maria-nicotra-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I5@",
@@ -197,7 +235,9 @@
   "dead": true,
   "size": 787874,
   "rin": "MH:P23",
-  "path": "photos/deceased/maria-nicotra-2.jpg"
+  "path": "photos/deceased/maria-nicotra-2.jpg",
+  "w": 988,
+  "h": 1468
  },
  {
   "xref": "@I5@",
@@ -207,7 +247,9 @@
   "dead": true,
   "size": 364425,
   "rin": "MH:P24",
-  "path": "photos/deceased/maria-nicotra-3.jpg"
+  "path": "photos/deceased/maria-nicotra-3.jpg",
+  "w": 608,
+  "h": 938
  },
  {
   "xref": "@I6@",
@@ -217,7 +259,9 @@
   "dead": true,
   "size": 4869,
   "rin": "MH:P500004",
-  "path": "photos/deceased/francessco-prostamo-1.jpg"
+  "path": "photos/deceased/francessco-prostamo-1.jpg",
+  "w": 112,
+  "h": 151
  },
  {
   "xref": "@I6@",
@@ -227,7 +271,9 @@
   "dead": true,
   "size": 4868,
   "rin": "MH:P500003",
-  "path": "photos/deceased/francessco-prostamo-2.jpg"
+  "path": "photos/deceased/francessco-prostamo-2.jpg",
+  "w": 112,
+  "h": 151
  },
  {
   "xref": "@I6@",
@@ -237,7 +283,9 @@
   "dead": true,
   "size": 27188,
   "rin": "MH:P25",
-  "path": "photos/deceased/francessco-prostamo-3.jpg"
+  "path": "photos/deceased/francessco-prostamo-3.jpg",
+  "w": 300,
+  "h": 433
  },
  {
   "xref": "@I6@",
@@ -247,7 +295,9 @@
   "dead": true,
   "size": 120157,
   "rin": "MH:P27",
-  "path": "photos/deceased/francessco-prostamo-4.jpg"
+  "path": "photos/deceased/francessco-prostamo-4.jpg",
+  "w": 929,
+  "h": 627
  },
  {
   "xref": "@I6@",
@@ -257,7 +307,9 @@
   "dead": true,
   "size": 53313,
   "rin": "MH:P28",
-  "path": "photos/deceased/francessco-prostamo-5.jpg"
+  "path": "photos/deceased/francessco-prostamo-5.jpg",
+  "w": 446,
+  "h": 710
  },
  {
   "xref": "@I6@",
@@ -267,7 +319,9 @@
   "dead": true,
   "size": 207357,
   "rin": "MH:P29",
-  "path": "photos/deceased/francessco-prostamo-6.jpg"
+  "path": "photos/deceased/francessco-prostamo-6.jpg",
+  "w": 595,
+  "h": 825
  },
  {
   "xref": "@I6@",
@@ -277,7 +331,9 @@
   "dead": true,
   "size": 110624,
   "rin": "MH:P30",
-  "path": "photos/deceased/francessco-prostamo-7.jpg"
+  "path": "photos/deceased/francessco-prostamo-7.jpg",
+  "w": 722,
+  "h": 483
  },
  {
   "xref": "@I7@",
@@ -287,7 +343,9 @@
   "dead": true,
   "size": 6882,
   "rin": "MH:P500006",
-  "path": "photos/deceased/maria-rosa-melluso-1.jpg"
+  "path": "photos/deceased/maria-rosa-melluso-1.jpg",
+  "w": 110,
+  "h": 148
  },
  {
   "xref": "@I7@",
@@ -297,7 +355,9 @@
   "dead": true,
   "size": 6872,
   "rin": "MH:P500005",
-  "path": "photos/deceased/maria-rosa-melluso-2.jpg"
+  "path": "photos/deceased/maria-rosa-melluso-2.jpg",
+  "w": 110,
+  "h": 148
  },
  {
   "xref": "@I7@",
@@ -307,7 +367,9 @@
   "dead": true,
   "size": 104793,
   "rin": "MH:P31",
-  "path": "photos/deceased/maria-rosa-melluso-3.jpg"
+  "path": "photos/deceased/maria-rosa-melluso-3.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I7@",
@@ -317,7 +379,9 @@
   "dead": true,
   "size": 16017,
   "rin": "MH:P33",
-  "path": "photos/deceased/maria-rosa-melluso-4.jpg"
+  "path": "photos/deceased/maria-rosa-melluso-4.jpg",
+  "w": 175,
+  "h": 320
  },
  {
   "xref": "@I7@",
@@ -327,7 +391,9 @@
   "dead": true,
   "size": 154065,
   "rin": "MH:P34",
-  "path": "photos/deceased/maria-rosa-melluso-5.jpg"
+  "path": "photos/deceased/maria-rosa-melluso-5.jpg",
+  "w": 616,
+  "h": 622
  },
  {
   "xref": "@I8@",
@@ -337,7 +403,9 @@
   "dead": true,
   "size": 6751,
   "rin": "MH:P35",
-  "path": "photos/deceased/domenica-anile-1.jpg"
+  "path": "photos/deceased/domenica-anile-1.jpg",
+  "w": 100,
+  "h": 146
  },
  {
   "xref": "@I8@",
@@ -347,7 +415,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P37",
-  "path": "photos/deceased/domenica-anile-2.jpg"
+  "path": "photos/deceased/domenica-anile-2.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I8@",
@@ -357,7 +427,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P38",
-  "path": "photos/deceased/domenica-anile-3.jpg"
+  "path": "photos/deceased/domenica-anile-3.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I9@",
@@ -367,7 +439,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P38",
-  "path": "photos/deceased/domenico-melluso-1.jpg"
+  "path": "photos/deceased/domenico-melluso-1.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I12@",
@@ -377,7 +451,9 @@
   "dead": false,
   "size": 50188,
   "rin": "MH:P40",
-  "path": "photos/living/connie-armanno-1.jpg"
+  "path": "photos/living/connie-armanno-1.jpg",
+  "w": 196,
+  "h": 406
  },
  {
   "xref": "@I12@",
@@ -387,7 +463,9 @@
   "dead": false,
   "size": 75055,
   "rin": "MH:P41",
-  "path": "photos/living/connie-armanno-2.jpg"
+  "path": "photos/living/connie-armanno-2.jpg",
+  "w": 200,
+  "h": 543
  },
  {
   "xref": "@I13@",
@@ -397,7 +475,9 @@
   "dead": false,
   "size": 116597,
   "rin": "MH:P42",
-  "path": "photos/living/robert-sebastian-mazza-1.jpg"
+  "path": "photos/living/robert-sebastian-mazza-1.jpg",
+  "w": 640,
+  "h": 480
  },
  {
   "xref": "@I13@",
@@ -407,7 +487,9 @@
   "dead": false,
   "size": 1347023,
   "rin": "MH:P44",
-  "path": "photos/living/robert-sebastian-mazza-2.jpg"
+  "path": "photos/living/robert-sebastian-mazza-2.jpg",
+  "w": 3508,
+  "h": 2480
  },
  {
   "xref": "@I13@",
@@ -417,7 +499,9 @@
   "dead": false,
   "size": 231434,
   "rin": "MH:P45",
-  "path": "photos/living/robert-sebastian-mazza-3.jpg"
+  "path": "photos/living/robert-sebastian-mazza-3.jpg",
+  "w": 1600,
+  "h": 1200
  },
  {
   "xref": "@I19@",
@@ -428,7 +512,9 @@
   "size": 2964657,
   "rin": "MH:P46",
   "path": "photos/living/nancy-arena-1.jpg",
-  "notShown": "Held and not shown: byte-identical to nancy-arena-I25-1.jpg, which IS shown. This row hangs off @I19@, a duplicate of @I25@ that build.py merges away, so nothing is lost by it not appearing."
+  "notShown": "Held and not shown: byte-identical to nancy-arena-I25-1.jpg, which IS shown. This row hangs off @I19@, a duplicate of @I25@ that build.py merges away, so nothing is lost by it not appearing.",
+  "w": 3072,
+  "h": 2304
  },
  {
   "xref": "@I20@",
@@ -439,7 +525,9 @@
   "size": 1358459,
   "rin": "MH:P48",
   "path": "photos/living/michael-mazza-1.jpg",
-  "notShown": "Held and not shown: hangs off @I20@, a duplicate the export merges away. Byte-identical to angela-mazza-1.jpg, so this file and that one are one photograph under two names, and Michael Rocco Mazza has no photograph published at all. See question 18."
+  "notShown": "Held and not shown: hangs off @I20@, a duplicate the export merges away. Byte-identical to angela-mazza-1.jpg, so this file and that one are one photograph under two names, and Michael Rocco Mazza has no photograph published at all. See question 18.",
+  "w": 3072,
+  "h": 2304
  },
  {
   "xref": "@I21@",
@@ -450,7 +538,9 @@
   "size": 1358459,
   "rin": "MH:P48",
   "path": "photos/living/angela-mazza-1.jpg",
-  "notShown": "Held and not shown: hangs off @I21@, a duplicate of @I27@ that build.py merges away. 3072x2304, and byte-identical to michael-mazza-1.jpg — ONE photograph filed under two people. Who is in it is an open question, not a thing to decide by picking. See question 18."
+  "notShown": "Held and not shown: hangs off @I21@, a duplicate of @I27@ that build.py merges away. 3072x2304, and byte-identical to michael-mazza-1.jpg — ONE photograph filed under two people. Who is in it is an open question, not a thing to decide by picking. See question 18.",
+  "w": 3072,
+  "h": 2304
  },
  {
   "xref": "@I25@",
@@ -460,7 +550,9 @@
   "dead": false,
   "size": 2964657,
   "rin": "MH:P51",
-  "path": "photos/living/nancy-arena-I25-1.jpg"
+  "path": "photos/living/nancy-arena-I25-1.jpg",
+  "w": 3072,
+  "h": 2304
  },
  {
   "xref": "@I27@",
@@ -470,7 +562,9 @@
   "dead": false,
   "size": 3901,
   "rin": "MH:P53",
-  "path": "photos/living/angela-mazza-I27-1.jpg"
+  "path": "photos/living/angela-mazza-I27-1.jpg",
+  "w": 132,
+  "h": 161
  },
  {
   "xref": "@I27@",
@@ -480,7 +574,9 @@
   "dead": false,
   "size": 166606,
   "rin": "MH:P55",
-  "path": "photos/living/angela-mazza-2.jpg"
+  "path": "photos/living/angela-mazza-2.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I27@",
@@ -490,7 +586,9 @@
   "dead": false,
   "size": 242696,
   "rin": "MH:P56",
-  "path": "photos/living/angela-mazza-3.jpg"
+  "path": "photos/living/angela-mazza-3.jpg",
+  "w": 680,
+  "h": 860
  },
  {
   "xref": "@I28@",
@@ -500,7 +598,9 @@
   "dead": true,
   "size": 182748,
   "rin": "MH:P57",
-  "path": "photos/deceased/rocco-arena-1.jpg"
+  "path": "photos/deceased/rocco-arena-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I29@",
@@ -510,7 +610,9 @@
   "dead": true,
   "size": 253530,
   "rin": "MH:P59",
-  "path": "photos/deceased/angela-polistena-1.jpg"
+  "path": "photos/deceased/angela-polistena-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I29@",
@@ -520,7 +622,9 @@
   "dead": true,
   "size": 345803,
   "rin": "MH:P61",
-  "path": "photos/deceased/angela-polistena-2.jpg"
+  "path": "photos/deceased/angela-polistena-2.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I29@",
@@ -530,7 +634,9 @@
   "dead": true,
   "size": 2654845,
   "rin": "MH:P62",
-  "path": "photos/deceased/angela-polistena-3.jpg"
+  "path": "photos/deceased/angela-polistena-3.jpg",
+  "w": 3072,
+  "h": 2304
  },
  {
   "xref": "@I30@",
@@ -540,7 +646,9 @@
   "dead": false,
   "size": 365159,
   "rin": "MH:P63",
-  "path": "photos/living/renee-turner-1.jpg"
+  "path": "photos/living/renee-turner-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I31@",
@@ -550,7 +658,9 @@
   "dead": false,
   "size": 105088,
   "rin": "MH:P65",
-  "path": "photos/living/jack-carmelo-calahorra-1.jpg"
+  "path": "photos/living/jack-carmelo-calahorra-1.jpg",
+  "w": 640,
+  "h": 480
  },
  {
   "xref": "@I31@",
@@ -560,7 +670,9 @@
   "dead": false,
   "size": 234198,
   "rin": "MH:P67",
-  "path": "photos/living/jack-carmelo-calahorra-2.jpg"
+  "path": "photos/living/jack-carmelo-calahorra-2.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I31@",
@@ -570,7 +682,9 @@
   "dead": false,
   "size": 127673,
   "rin": "MH:P68",
-  "path": "photos/living/jack-carmelo-calahorra-3.jpg"
+  "path": "photos/living/jack-carmelo-calahorra-3.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I32@",
@@ -580,7 +694,9 @@
   "dead": false,
   "size": 121246,
   "rin": "MH:P69",
-  "path": "photos/living/salvatore-mazza-I32-1.jpg"
+  "path": "photos/living/salvatore-mazza-I32-1.jpg",
+  "w": 360,
+  "h": 614
  },
  {
   "xref": "@I33@",
@@ -590,7 +706,9 @@
   "dead": true,
   "size": 297576,
   "rin": "MH:P5",
-  "path": "photos/deceased/mary-rosa-mazza-1.jpg"
+  "path": "photos/deceased/mary-rosa-mazza-1.jpg",
+  "w": 910,
+  "h": 650
  },
  {
   "xref": "@I33@",
@@ -600,7 +718,9 @@
   "dead": true,
   "size": 174892,
   "rin": "MH:P71",
-  "path": "photos/deceased/mary-rosa-mazza-2.jpg"
+  "path": "photos/deceased/mary-rosa-mazza-2.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I33@",
@@ -610,7 +730,9 @@
   "dead": true,
   "size": 112534,
   "rin": "MH:P73",
-  "path": "photos/deceased/mary-rosa-mazza-3.jpg"
+  "path": "photos/deceased/mary-rosa-mazza-3.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I33@",
@@ -620,7 +742,9 @@
   "dead": true,
   "size": 534358,
   "rin": "MH:P74",
-  "path": "photos/deceased/mary-rosa-mazza-4.jpg"
+  "path": "photos/deceased/mary-rosa-mazza-4.jpg",
+  "w": 1320,
+  "h": 1463
  },
  {
   "xref": "@I34@",
@@ -630,7 +754,9 @@
   "dead": false,
   "size": 44731,
   "rin": "MH:P75",
-  "path": "photos/living/giovanni-mazza-1.jpg"
+  "path": "photos/living/giovanni-mazza-1.jpg",
+  "w": 248,
+  "h": 744
  },
  {
   "xref": "@I36@",
@@ -640,7 +766,9 @@
   "dead": true,
   "size": 2719635,
   "rin": "MH:P77",
-  "path": "photos/deceased/venera-cavallaro-1.jpg"
+  "path": "photos/deceased/venera-cavallaro-1.jpg",
+  "w": 2304,
+  "h": 3072
  },
  {
   "xref": "@I36@",
@@ -650,7 +778,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P79",
-  "path": "photos/deceased/venera-cavallaro-2.jpg"
+  "path": "photos/deceased/venera-cavallaro-2.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I37@",
@@ -660,7 +790,9 @@
   "dead": true,
   "size": 112109,
   "rin": "MH:P80",
-  "path": "photos/deceased/rosario-mazza-1.jpg"
+  "path": "photos/deceased/rosario-mazza-1.jpg",
+  "w": 398,
+  "h": 610
  },
  {
   "xref": "@I37@",
@@ -670,7 +802,9 @@
   "dead": true,
   "size": 107502,
   "rin": "MH:P82",
-  "path": "photos/deceased/rosario-mazza-2.jpg"
+  "path": "photos/deceased/rosario-mazza-2.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I37@",
@@ -680,7 +814,9 @@
   "dead": true,
   "size": 764744,
   "rin": "MH:P83",
-  "path": "photos/deceased/rosario-mazza-3.jpg"
+  "path": "photos/deceased/rosario-mazza-3.jpg",
+  "w": 2336,
+  "h": 1680
  },
  {
   "xref": "@I38@",
@@ -690,7 +826,9 @@
   "dead": true,
   "size": 91978,
   "rin": "MH:P84",
-  "path": "photos/deceased/michele-mazza-1.jpg"
+  "path": "photos/deceased/michele-mazza-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I39@",
@@ -700,7 +838,9 @@
   "dead": false,
   "size": 80777,
   "rin": "MH:P86",
-  "path": "photos/living/giovanni-mazza-I39-1.jpg"
+  "path": "photos/living/giovanni-mazza-I39-1.jpg",
+  "w": 410,
+  "h": 573
  },
  {
   "xref": "@I40@",
@@ -710,7 +850,9 @@
   "dead": false,
   "size": 25299,
   "rin": "MH:P88",
-  "path": "photos/living/carmelina-micale-1.jpg"
+  "path": "photos/living/carmelina-micale-1.jpg",
+  "w": 144,
+  "h": 352
  },
  {
   "xref": "@I43@",
@@ -720,7 +862,9 @@
   "dead": false,
   "size": 292171,
   "rin": "MH:P90",
-  "path": "photos/living/anthony-john-mazza-1.jpg"
+  "path": "photos/living/anthony-john-mazza-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I50@",
@@ -730,7 +874,9 @@
   "dead": true,
   "size": 27183,
   "rin": "MH:P500010",
-  "path": "photos/deceased/alfonso-prostamo-1.jpg"
+  "path": "photos/deceased/alfonso-prostamo-1.jpg",
+  "w": 226,
+  "h": 300
  },
  {
   "xref": "@I50@",
@@ -740,7 +886,9 @@
   "dead": true,
   "size": 27169,
   "rin": "MH:P500009",
-  "path": "photos/deceased/alfonso-prostamo-2.jpg"
+  "path": "photos/deceased/alfonso-prostamo-2.jpg",
+  "w": 226,
+  "h": 300
  },
  {
   "xref": "@I50@",
@@ -750,7 +898,9 @@
   "dead": true,
   "size": 40631,
   "rin": "MH:P92",
-  "path": "photos/deceased/alfonso-prostamo-3.jpg"
+  "path": "photos/deceased/alfonso-prostamo-3.jpg",
+  "w": 307,
+  "h": 460
  },
  {
   "xref": "@I51@",
@@ -760,7 +910,9 @@
   "dead": false,
   "size": 44963,
   "rin": "MH:P94",
-  "path": "photos/living/francesca-prostamo-1.jpg"
+  "path": "photos/living/francesca-prostamo-1.jpg",
+  "w": 231,
+  "h": 352
  },
  {
   "xref": "@I51@",
@@ -770,7 +922,9 @@
   "dead": false,
   "size": 124557,
   "rin": "MH:P96",
-  "path": "photos/living/francesca-prostamo-2.jpg"
+  "path": "photos/living/francesca-prostamo-2.jpg",
+  "w": 464,
+  "h": 626
  },
  {
   "xref": "@I51@",
@@ -780,7 +934,9 @@
   "dead": false,
   "size": 317326,
   "rin": "MH:P97",
-  "path": "photos/living/francesca-prostamo-3.jpg"
+  "path": "photos/living/francesca-prostamo-3.jpg",
+  "w": 614,
+  "h": 990
  },
  {
   "xref": "@I52@",
@@ -790,7 +946,9 @@
   "dead": false,
   "size": 102468,
   "rin": "MH:P98",
-  "path": "photos/living/saveria-prostamo-1.jpg"
+  "path": "photos/living/saveria-prostamo-1.jpg",
+  "w": 395,
+  "h": 555
  },
  {
   "xref": "@I53@",
@@ -800,7 +958,9 @@
   "dead": true,
   "size": 20669,
   "rin": "MH:P100",
-  "path": "photos/deceased/carmelo-armanno-1.jpg"
+  "path": "photos/deceased/carmelo-armanno-1.jpg",
+  "w": 176,
+  "h": 292
  },
  {
   "xref": "@I54@",
@@ -810,7 +970,9 @@
   "dead": true,
   "size": 12025,
   "rin": "MH:P102",
-  "path": "photos/deceased/angelina-pagano-1.jpg"
+  "path": "photos/deceased/angelina-pagano-1.jpg",
+  "w": 115,
+  "h": 210
  },
  {
   "xref": "@I68@",
@@ -820,7 +982,9 @@
   "dead": false,
   "size": 180749,
   "rin": "MH:P104",
-  "path": "photos/living/antonietta-trungadi-1.jpg"
+  "path": "photos/living/antonietta-trungadi-1.jpg",
+  "w": 561,
+  "h": 870
  },
  {
   "xref": "@I69@",
@@ -830,7 +994,9 @@
   "dead": false,
   "size": 47618,
   "rin": "MH:P106",
-  "path": "photos/living/maria-rosa-trungadi-1.jpg"
+  "path": "photos/living/maria-rosa-trungadi-1.jpg",
+  "w": 280,
+  "h": 838
  },
  {
   "xref": "@I69@",
@@ -840,7 +1006,9 @@
   "dead": false,
   "size": 161654,
   "rin": "MH:P108",
-  "path": "photos/living/maria-rosa-trungadi-2.jpg"
+  "path": "photos/living/maria-rosa-trungadi-2.jpg",
+  "w": 805,
+  "h": 996
  },
  {
   "xref": "@I69@",
@@ -850,7 +1018,9 @@
   "dead": false,
   "size": 54850,
   "rin": "MH:P109",
-  "path": "photos/living/maria-rosa-trungadi-3.jpg"
+  "path": "photos/living/maria-rosa-trungadi-3.jpg",
+  "w": 296,
+  "h": 402
  },
  {
   "xref": "@I70@",
@@ -860,7 +1030,9 @@
   "dead": false,
   "size": 3695,
   "rin": "MH:P110",
-  "path": "photos/living/barbara-trungadi-1.jpg"
+  "path": "photos/living/barbara-trungadi-1.jpg",
+  "w": 130,
+  "h": 97
  },
  {
   "xref": "@I71@",
@@ -870,7 +1042,9 @@
   "dead": false,
   "size": 39969,
   "rin": "MH:P112",
-  "path": "photos/living/tonino-panella-1.jpg"
+  "path": "photos/living/tonino-panella-1.jpg",
+  "w": 387,
+  "h": 500
  },
  {
   "xref": "@I72@",
@@ -880,7 +1054,9 @@
   "dead": false,
   "size": 226868,
   "rin": "MH:P114",
-  "path": "photos/living/anunziata-panella-1.jpg"
+  "path": "photos/living/anunziata-panella-1.jpg",
+  "w": 542,
+  "h": 802
  },
  {
   "xref": "@I73@",
@@ -890,7 +1066,9 @@
   "dead": false,
   "size": 181097,
   "rin": "MH:P116",
-  "path": "photos/living/maria-rosa-panella-1.jpg"
+  "path": "photos/living/maria-rosa-panella-1.jpg",
+  "w": 583,
+  "h": 789
  },
  {
   "xref": "@I76@",
@@ -900,7 +1078,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P118",
-  "path": "photos/deceased/mariano-cavallaro-1.jpg"
+  "path": "photos/deceased/mariano-cavallaro-1.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I77@",
@@ -910,7 +1090,9 @@
   "dead": false,
   "size": 151859,
   "rin": "MH:P120",
-  "path": "photos/living/luciano-cavallaro-1.jpg"
+  "path": "photos/living/luciano-cavallaro-1.jpg",
+  "w": 416,
+  "h": 642
  },
  {
   "xref": "@I77@",
@@ -920,7 +1102,9 @@
   "dead": false,
   "size": 150735,
   "rin": "MH:P122",
-  "path": "photos/living/luciano-cavallaro-2.jpg"
+  "path": "photos/living/luciano-cavallaro-2.jpg",
+  "w": 418,
+  "h": 638
  },
  {
   "xref": "@I77@",
@@ -930,7 +1114,9 @@
   "dead": false,
   "size": 31599,
   "rin": "MH:P123",
-  "path": "photos/living/luciano-cavallaro-3.jpg"
+  "path": "photos/living/luciano-cavallaro-3.jpg",
+  "w": 317,
+  "h": 496
  },
  {
   "xref": "@I91@",
@@ -940,7 +1126,9 @@
   "dead": false,
   "size": 147106,
   "rin": "MH:P124",
-  "path": "photos/living/nick-spinelli-1.jpg"
+  "path": "photos/living/nick-spinelli-1.jpg",
+  "w": 459,
+  "h": 578
  },
  {
   "xref": "@I111@",
@@ -950,7 +1138,9 @@
   "dead": false,
   "size": 124523,
   "rin": "MH:P126",
-  "path": "photos/living/anna-arena-1.jpg"
+  "path": "photos/living/anna-arena-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I112@",
@@ -960,7 +1150,9 @@
   "dead": false,
   "size": 101017,
   "rin": "MH:P128",
-  "path": "photos/living/giuseppi-arena-1.jpg"
+  "path": "photos/living/giuseppi-arena-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I112@",
@@ -970,7 +1162,9 @@
   "dead": false,
   "size": 155001,
   "rin": "MH:P130",
-  "path": "photos/living/giuseppi-arena-2.jpg"
+  "path": "photos/living/giuseppi-arena-2.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I120@",
@@ -980,7 +1174,9 @@
   "dead": true,
   "size": 169388,
   "rin": "MH:P131",
-  "path": "photos/deceased/giovanni-polistena-1.jpg"
+  "path": "photos/deceased/giovanni-polistena-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I121@",
@@ -990,7 +1186,9 @@
   "dead": true,
   "size": 103546,
   "rin": "MH:P133",
-  "path": "photos/deceased/nunnziata-donato-1.jpg"
+  "path": "photos/deceased/nunnziata-donato-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I128@",
@@ -1000,7 +1198,9 @@
   "dead": true,
   "size": 272313,
   "rin": "MH:P135",
-  "path": "photos/deceased/santa-polistena-1.jpg"
+  "path": "photos/deceased/santa-polistena-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I134@",
@@ -1010,7 +1210,9 @@
   "dead": true,
   "size": 191298,
   "rin": "MH:P137",
-  "path": "photos/deceased/antonino-polistena-1.jpg"
+  "path": "photos/deceased/antonino-polistena-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I137@",
@@ -1020,7 +1222,9 @@
   "dead": true,
   "size": 140083,
   "rin": "MH:P139",
-  "path": "photos/deceased/michael-antonio-polistena-1.jpg"
+  "path": "photos/deceased/michael-antonio-polistena-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I242@",
@@ -1030,7 +1234,9 @@
   "dead": false,
   "size": 159613,
   "rin": "MH:P141",
-  "path": "photos/living/cathy-oaks-1.jpg"
+  "path": "photos/living/cathy-oaks-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I243@",
@@ -1040,7 +1246,9 @@
   "dead": false,
   "size": 6410044,
   "rin": "MH:P143",
-  "path": "photos/living/john-turner-1.jpg"
+  "path": "photos/living/john-turner-1.jpg",
+  "w": 4608,
+  "h": 3456
  },
  {
   "xref": "@I244@",
@@ -1050,7 +1258,9 @@
   "dead": false,
   "size": 6410044,
   "rin": "MH:P145",
-  "path": "photos/living/sandy-mortimer-1.jpg"
+  "path": "photos/living/sandy-mortimer-1.jpg",
+  "w": 4608,
+  "h": 3456
  },
  {
   "xref": "@I245@",
@@ -1060,7 +1270,9 @@
   "dead": true,
   "size": 83256,
   "rin": "MH:P147",
-  "path": "photos/deceased/giuseppe-arena-1.jpg"
+  "path": "photos/deceased/giuseppe-arena-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I246@",
@@ -1070,7 +1282,9 @@
   "dead": true,
   "size": 95266,
   "rin": "MH:P149",
-  "path": "photos/deceased/anna-arena-I246-1.jpg"
+  "path": "photos/deceased/anna-arena-I246-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I246@",
@@ -1080,7 +1294,9 @@
   "dead": true,
   "size": 142555,
   "rin": "MH:P151",
-  "path": "photos/deceased/anna-arena-2.jpg"
+  "path": "photos/deceased/anna-arena-2.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I292@",
@@ -1090,7 +1306,9 @@
   "dead": false,
   "size": 194743,
   "rin": "MH:P152",
-  "path": "photos/living/sara-poleo-1.jpg"
+  "path": "photos/living/sara-poleo-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I293@",
@@ -1100,7 +1318,9 @@
   "dead": false,
   "size": 137479,
   "rin": "MH:P154",
-  "path": "photos/living/alice-poleo-1.jpg"
+  "path": "photos/living/alice-poleo-1.jpg",
+  "w": 1200,
+  "h": 1600
  },
  {
   "xref": "@I296@",
@@ -1110,7 +1330,9 @@
   "dead": true,
   "size": 73116,
   "rin": "MH:P500001",
-  "path": "photos/deceased/saveria-melluso-1.jpg"
+  "path": "photos/deceased/saveria-melluso-1.jpg",
+  "w": 474,
+  "h": 633
  },
  {
   "xref": "@I297@",
@@ -1120,7 +1342,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P156",
-  "path": "photos/deceased/francesco-melluso-1.jpg"
+  "path": "photos/deceased/francesco-melluso-1.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I298@",
@@ -1130,7 +1354,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P158",
-  "path": "photos/deceased/fillipo-melluso-1.jpg"
+  "path": "photos/deceased/fillipo-melluso-1.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I351@",
@@ -1140,7 +1366,9 @@
   "dead": false,
   "size": 59890,
   "rin": "MH:P160",
-  "path": "photos/living/luca-francesco-calahorra-1.jpg"
+  "path": "photos/living/luca-francesco-calahorra-1.jpg",
+  "w": 319,
+  "h": 376
  },
  {
   "xref": "@I351@",
@@ -1150,7 +1378,9 @@
   "dead": false,
   "size": 57621,
   "rin": "MH:P162",
-  "path": "photos/living/luca-francesco-calahorra-2.jpg"
+  "path": "photos/living/luca-francesco-calahorra-2.jpg",
+  "w": 452,
+  "h": 640
  },
  {
   "xref": "@I351@",
@@ -1160,7 +1390,9 @@
   "dead": false,
   "size": 353218,
   "rin": "MH:P163",
-  "path": "photos/living/luca-francesco-calahorra-3.jpg"
+  "path": "photos/living/luca-francesco-calahorra-3.jpg",
+  "w": 1854,
+  "h": 2682
  },
  {
   "xref": "@I351@",
@@ -1170,7 +1402,9 @@
   "dead": false,
   "size": 91534,
   "rin": "MH:P164",
-  "path": "photos/living/luca-francesco-calahorra-4.jpg"
+  "path": "photos/living/luca-francesco-calahorra-4.jpg",
+  "w": 640,
+  "h": 480
  },
  {
   "xref": "@I369@",
@@ -1180,7 +1414,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P165",
-  "path": "photos/deceased/saveria-barbuto-1.jpg"
+  "path": "photos/deceased/saveria-barbuto-1.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I384@",
@@ -1190,7 +1426,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P167",
-  "path": "photos/deceased/fortunata-lucia-anile-1.jpg"
+  "path": "photos/deceased/fortunata-lucia-anile-1.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I384@",
@@ -1200,7 +1438,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P169",
-  "path": "photos/deceased/fortunata-lucia-anile-2.jpg"
+  "path": "photos/deceased/fortunata-lucia-anile-2.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I384@",
@@ -1210,7 +1450,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P170",
-  "path": "photos/deceased/fortunata-lucia-anile-3.jpg"
+  "path": "photos/deceased/fortunata-lucia-anile-3.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I384@",
@@ -1220,7 +1462,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P171",
-  "path": "photos/deceased/fortunata-lucia-anile-4.jpg"
+  "path": "photos/deceased/fortunata-lucia-anile-4.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I384@",
@@ -1230,7 +1474,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P172",
-  "path": "photos/deceased/fortunata-lucia-anile-5.jpg"
+  "path": "photos/deceased/fortunata-lucia-anile-5.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I384@",
@@ -1240,7 +1486,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P173",
-  "path": "photos/deceased/fortunata-lucia-anile-6.jpg"
+  "path": "photos/deceased/fortunata-lucia-anile-6.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I384@",
@@ -1250,7 +1498,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P174",
-  "path": "photos/deceased/fortunata-lucia-anile-7.jpg"
+  "path": "photos/deceased/fortunata-lucia-anile-7.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I384@",
@@ -1260,7 +1510,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P175",
-  "path": "photos/deceased/fortunata-lucia-anile-8.jpg"
+  "path": "photos/deceased/fortunata-lucia-anile-8.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I400@",
@@ -1270,7 +1522,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P176",
-  "path": "photos/deceased/concetta-anile-1.jpg"
+  "path": "photos/deceased/concetta-anile-1.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I400@",
@@ -1280,7 +1534,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P178",
-  "path": "photos/deceased/concetta-anile-2.jpg"
+  "path": "photos/deceased/concetta-anile-2.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I407@",
@@ -1290,7 +1546,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P179",
-  "path": "photos/deceased/noel-jack-porter-1.jpg"
+  "path": "photos/deceased/noel-jack-porter-1.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I409@",
@@ -1300,7 +1558,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P172",
-  "path": "photos/deceased/giuseppe-joe-minichiello-1.jpg"
+  "path": "photos/deceased/giuseppe-joe-minichiello-1.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I409@",
@@ -1310,7 +1570,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P182",
-  "path": "photos/deceased/giuseppe-joe-minichiello-2.jpg"
+  "path": "photos/deceased/giuseppe-joe-minichiello-2.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I409@",
@@ -1320,7 +1582,9 @@
   "dead": true,
   "size": 44660,
   "rin": "MH:P183",
-  "path": "photos/deceased/giuseppe-joe-minichiello-3.jpg"
+  "path": "photos/deceased/giuseppe-joe-minichiello-3.jpg",
+  "w": 500,
+  "h": 500
  },
  {
   "xref": "@I493@",
@@ -1330,6 +1594,8 @@
   "dead": false,
   "size": 520223,
   "rin": "MH:P184",
-  "path": "photos/living/rosario-mazza-I493-1.jpg"
+  "path": "photos/living/rosario-mazza-I493-1.jpg",
+  "w": 1470,
+  "h": 1223
  }
 ]
