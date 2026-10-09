@@ -398,17 +398,12 @@
   "burialPlace": "Nudgee, Brisbane, Queensland",
   "sources": [],
   "photos": [
-   "domenica-prostamo-1.jpg",
    "domenica-prostamo-2.jpg",
    "domenica-prostamo-3.jpg",
    "domenica-prostamo-4.jpg",
    "domenica-prostamo-5.jpg"
   ],
   "photoSize": {
-   "domenica-prostamo-1.jpg": [
-    212,
-    313
-   ],
    "domenica-prostamo-2.jpg": [
     212,
     313
@@ -927,7 +922,6 @@
   ],
   "photos": [
    "francessco-prostamo-1.jpg",
-   "francessco-prostamo-2.jpg",
    "francessco-prostamo-3.jpg",
    "francessco-prostamo-4.jpg",
    "francessco-prostamo-5.jpg",
@@ -936,10 +930,6 @@
   ],
   "photoSize": {
    "francessco-prostamo-1.jpg": [
-    112,
-    151
-   ],
-   "francessco-prostamo-2.jpg": [
     112,
     151
    ],
@@ -1142,17 +1132,12 @@
   "sources": [],
   "photos": [
    "maria-rosa-melluso-1.jpg",
-   "maria-rosa-melluso-2.jpg",
    "maria-rosa-melluso-3.jpg",
    "maria-rosa-melluso-4.jpg",
    "maria-rosa-melluso-5.jpg"
   ],
   "photoSize": {
    "maria-rosa-melluso-1.jpg": [
-    110,
-    148
-   ],
-   "maria-rosa-melluso-2.jpg": [
     110,
     148
    ],
@@ -1310,22 +1295,12 @@
   "burialPlace": "Briatico, Vibo Valentia, Calabria",
   "sources": [],
   "photos": [
-   "domenica-anile-1.jpg",
-   "domenica-anile-2.jpg",
-   "domenica-anile-3.jpg"
+   "domenica-anile-1.jpg"
   ],
   "photoSize": {
    "domenica-anile-1.jpg": [
     100,
     146
-   ],
-   "domenica-anile-2.jpg": [
-    500,
-    500
-   ],
-   "domenica-anile-3.jpg": [
-    500,
-    500
    ]
   },
   "parents": [
@@ -1484,15 +1459,8 @@
   "deathPlace": "Briatico, Vibo Valentia, Calabria",
   "burialPlace": "",
   "sources": [],
-  "photos": [
-   "domenico-melluso-1.jpg"
-  ],
-  "photoSize": {
-   "domenico-melluso-1.jpg": [
-    500,
-    500
-   ]
-  },
+  "photos": [],
+  "photoSize": {},
   "parents": [
    {
     "id": "@I410@",
@@ -2008,7 +1976,7 @@
   "sex": "F",
   "living": false,
   "presumedLiving": true,
-  "comp": 10,
+  "comp": 5,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -2082,7 +2050,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 7,
+  "comp": 4,
   "datesHidden": false,
   "born": null,
   "died": null,
@@ -2375,10 +2343,10 @@
   "burialPlace": "",
   "sources": [],
   "photos": [
-   "nancy-arena-I25-1.jpg"
+   "nancy-arena-1.jpg"
   ],
   "photoSize": {
-   "nancy-arena-I25-1.jpg": [
+   "nancy-arena-1.jpg": [
     3072,
     2304
    ]
@@ -2468,8 +2436,15 @@
   "deathPlace": "",
   "burialPlace": "",
   "sources": [],
-  "photos": [],
-  "photoSize": {},
+  "photos": [
+   "michael-mazza-1.jpg"
+  ],
+  "photoSize": {
+   "michael-mazza-1.jpg": [
+    3072,
+    2304
+   ]
+  },
   "parents": [
    {
     "id": "@I1@",
@@ -2550,11 +2525,16 @@
   "burialPlace": "",
   "sources": [],
   "photos": [
+   "angela-mazza-1.jpg",
    "angela-mazza-I27-1.jpg",
    "angela-mazza-2.jpg",
    "angela-mazza-3.jpg"
   ],
   "photoSize": {
+   "angela-mazza-1.jpg": [
+    3072,
+    2304
+   ],
    "angela-mazza-I27-1.jpg": [
     132,
     161
@@ -3631,17 +3611,12 @@
   "burialPlace": "Nudgee, Brisbane, Queensland",
   "sources": [],
   "photos": [
-   "venera-cavallaro-1.jpg",
-   "venera-cavallaro-2.jpg"
+   "venera-cavallaro-1.jpg"
   ],
   "photoSize": {
    "venera-cavallaro-1.jpg": [
     2304,
     3072
-   ],
-   "venera-cavallaro-2.jpg": [
-    500,
-    500
    ]
   },
   "parents": [
@@ -4884,15 +4859,10 @@
   "sources": [],
   "photos": [
    "alfonso-prostamo-1.jpg",
-   "alfonso-prostamo-2.jpg",
    "alfonso-prostamo-3.jpg"
   ],
   "photoSize": {
    "alfonso-prostamo-1.jpg": [
-    226,
-    300
-   ],
-   "alfonso-prostamo-2.jpg": [
     226,
     300
    ],
@@ -7303,15 +7273,8 @@
   "deathPlace": "Brisbane, Queensland",
   "burialPlace": "",
   "sources": [],
-  "photos": [
-   "mariano-cavallaro-1.jpg"
-  ],
-  "photoSize": {
-   "mariano-cavallaro-1.jpg": [
-    500,
-    500
-   ]
-  },
+  "photos": [],
+  "photoSize": {},
   "parents": [
    {
     "id": "@I521@",
@@ -23794,15 +23757,8 @@
   "deathPlace": "",
   "burialPlace": "",
   "sources": [],
-  "photos": [
-   "francesco-melluso-1.jpg"
-  ],
-  "photoSize": {
-   "francesco-melluso-1.jpg": [
-    500,
-    500
-   ]
-  },
+  "photos": [],
+  "photoSize": {},
   "parents": [
    {
     "id": "@I9@",
@@ -23886,15 +23842,8 @@
   "deathPlace": "",
   "burialPlace": "",
   "sources": [],
-  "photos": [
-   "fillipo-melluso-1.jpg"
-  ],
-  "photoSize": {
-   "fillipo-melluso-1.jpg": [
-    500,
-    500
-   ]
-  },
+  "photos": [],
+  "photoSize": {},
   "parents": [
    {
     "id": "@I9@",
@@ -28658,15 +28607,8 @@
   "deathPlace": "Briatico, Vibo Valentia, Calabria",
   "burialPlace": "",
   "sources": [],
-  "photos": [
-   "saveria-barbuto-1.jpg"
-  ],
-  "photoSize": {
-   "saveria-barbuto-1.jpg": [
-    500,
-    500
-   ]
-  },
+  "photos": [],
+  "photoSize": {},
   "parents": [
    {
     "id": "@I382@",
@@ -29678,50 +29620,8 @@
   "deathPlace": "New York, New York",
   "burialPlace": "",
   "sources": [],
-  "photos": [
-   "fortunata-lucia-anile-1.jpg",
-   "fortunata-lucia-anile-2.jpg",
-   "fortunata-lucia-anile-3.jpg",
-   "fortunata-lucia-anile-4.jpg",
-   "fortunata-lucia-anile-5.jpg",
-   "fortunata-lucia-anile-6.jpg",
-   "fortunata-lucia-anile-7.jpg",
-   "fortunata-lucia-anile-8.jpg"
-  ],
-  "photoSize": {
-   "fortunata-lucia-anile-1.jpg": [
-    500,
-    500
-   ],
-   "fortunata-lucia-anile-2.jpg": [
-    500,
-    500
-   ],
-   "fortunata-lucia-anile-3.jpg": [
-    500,
-    500
-   ],
-   "fortunata-lucia-anile-4.jpg": [
-    500,
-    500
-   ],
-   "fortunata-lucia-anile-5.jpg": [
-    500,
-    500
-   ],
-   "fortunata-lucia-anile-6.jpg": [
-    500,
-    500
-   ],
-   "fortunata-lucia-anile-7.jpg": [
-    500,
-    500
-   ],
-   "fortunata-lucia-anile-8.jpg": [
-    500,
-    500
-   ]
-  },
+  "photos": [],
+  "photoSize": {},
   "parents": [
    {
     "id": "@I370@",
@@ -30929,20 +30829,8 @@
   "deathPlace": "New York, New York",
   "burialPlace": "",
   "sources": [],
-  "photos": [
-   "concetta-anile-1.jpg",
-   "concetta-anile-2.jpg"
-  ],
-  "photoSize": {
-   "concetta-anile-1.jpg": [
-    500,
-    500
-   ],
-   "concetta-anile-2.jpg": [
-    500,
-    500
-   ]
-  },
+  "photos": [],
+  "photoSize": {},
   "parents": [
    {
     "id": "@I370@",
@@ -31027,7 +30915,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 5,
+  "comp": 6,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -31064,7 +30952,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": true,
-  "comp": 4,
+  "comp": 7,
   "datesHidden": true,
   "born": null,
   "died": null,
@@ -31250,7 +31138,7 @@
   "sex": "M",
   "living": false,
   "presumedLiving": false,
-  "comp": 6,
+  "comp": 10,
   "datesHidden": false,
   "born": 1927,
   "died": 1987,
@@ -31325,15 +31213,8 @@
   "deathPlace": "Lismore NSW",
   "burialPlace": "Lismore, Lismore City, New South Wales, Australia",
   "sources": [],
-  "photos": [
-   "noel-jack-porter-1.jpg"
-  ],
-  "photoSize": {
-   "noel-jack-porter-1.jpg": [
-    500,
-    500
-   ]
-  },
+  "photos": [],
+  "photoSize": {},
   "parents": [],
   "children": [],
   "spouses": [],
@@ -31420,25 +31301,8 @@
   "deathPlace": "New York, New York",
   "burialPlace": "",
   "sources": [],
-  "photos": [
-   "giuseppe-joe-minichiello-1.jpg",
-   "giuseppe-joe-minichiello-2.jpg",
-   "giuseppe-joe-minichiello-3.jpg"
-  ],
-  "photoSize": {
-   "giuseppe-joe-minichiello-1.jpg": [
-    500,
-    500
-   ],
-   "giuseppe-joe-minichiello-2.jpg": [
-    500,
-    500
-   ],
-   "giuseppe-joe-minichiello-3.jpg": [
-    500,
-    500
-   ]
-  },
+  "photos": [],
+  "photoSize": {},
   "parents": [],
   "children": [],
   "spouses": [

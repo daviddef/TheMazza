@@ -13,7 +13,7 @@ Every rule here exists because the export cannot be trusted as-is:
     would not yet be 100 is treated as living, and carries NAME ONLY —
     following the rule David set for the Falco archive on 10 September 2026.
 """
-import sys, os, re, json, collections
+import sys, os, re, json, collections, hashlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ged import parse, kid, kids, val, cont
 
@@ -669,12 +669,43 @@ if os.path.exists("data/photo-manifest.json"):
     # photos stays a list of FILENAMES, because four pages, a gate and the kit's
     # Gallery all index it that way. The measurements go beside it in photoSize,
     # keyed by filename, so nothing that reads photos has to change.
+    #
+    # THREE RULES, each of which was being broken on 9 October 2026.
+    #
+    # 1. CANONICALISE THE XREF. This read m["xref"] raw, so a photograph the
+    #    export attached to a person who is a DUPLICATE reached nobody: the
+    #    duplicate has no record and the surviving person never heard about the
+    #    image. Michael Rocco Mazza, who this archive is named for, had no
+    #    photograph published while a 3072x2304 one sat in photos/living/
+    #    attached to @I20@, a duplicate of his own @I26@.
+    #
+    # 2. SKIP A ROW THAT SAYS IT SHOULD NOT BE DRAWN. «notShown» carries the
+    #    reason in prose. 26 rows have one: 22 are a single MyHeritage stock
+    #    collection graphic that arrived under 22 names for 11 people — nine of
+    #    whom had no other image, so their whole Photographs section was stock
+    #    art captioned with their name — and 4 are one photograph held twice,
+    #    proved by decoding both and differing by at most 4 levels of 255.
+    #
+    # 3. NEVER SHOW ONE PERSON THE SAME FILE TWICE. Canonicalising merges two
+    #    xrefs' photographs together, and some of those are byte-identical
+    #    copies, so they are deduplicated by content. ACROSS people they are
+    #    left alone: one photograph showing two relatives is tagged to both in
+    #    the export, and that is correct rather than a fault.
     photo_size = {}
+    _seen_hash = {}
     for m in json.load(open("data/photo-manifest.json")):
-        if os.path.exists(m.get("path", "")) and (m.get("dead") or not SUPPRESS_LIVING):
-            photos.setdefault(m["xref"], []).append(m["file"])
-            if m.get("w") and m.get("h"):
-                photo_size[m["file"]] = [m["w"], m["h"]]
+        if not os.path.exists(m.get("path", "")):
+            continue
+        if m.get("notShown") or not (m.get("dead") or not SUPPRESS_LIVING):
+            continue
+        who = canonical.get(m["xref"], m["xref"])
+        digest = hashlib.sha256(open(m["path"], "rb").read()).hexdigest()
+        if digest in _seen_hash.setdefault(who, set()):
+            continue
+        _seen_hash[who].add(digest)
+        photos.setdefault(who, []).append(m["file"])
+        if m.get("w") and m.get("h"):
+            photo_size[m["file"]] = [m["w"], m["h"]]
 
 # ---------------------------------------------------------------- the records
 
@@ -816,6 +847,12 @@ stats = {
     "families": len(F), "sources": len(S),
     "components": [len(c) for c in comps],
     "photos": sum(len(v) for v in photos.values()),
+    # What the archive HOLDS, as against what it draws. The two differ by the
+    # rows carrying «notShown» — the MyHeritage stock graphic and one
+    # photograph held twice — plus any byte-identical twin the dedupe above
+    # drops. /documents/ needs both numbers or its sentence is a tautology.
+    "photosHeld": sum(1 for _m in json.load(open("data/photo-manifest.json"))
+                      if os.path.exists(_m.get("path", ""))),
     "earliest": min([r["born"] for r in records if r.get("born")] or [0]),
 }
 json.dump({"stats": stats, "duplicates": duplicates, "unresolved": unresolved},

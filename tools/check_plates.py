@@ -22,7 +22,7 @@ to be run by hand to find:
 The third is the one that bit. It cannot be checked from the data alone — it
 needs the BUILT page — so this runs after astro, like checklinks.
 """
-import csv, json, os, sys
+import csv, hashlib, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
@@ -93,7 +93,30 @@ if built:
     # «notShown» is that record, and it is prose because the reasons differ.
     declared_absent = {r["file"] for r in json.load(
         open("data/photo-manifest.json", encoding="utf-8")) if r.get("notShown")}
-    lost = sorted(f for f in PORTRAITS if f not in built and f not in declared_absent)
+    # A byte-identical twin that IS drawn is not a loss, and needs no prose to
+    # say so. build.py deduplicates a person's photographs by content after
+    # canonicalising the xref, so when the export attached one image to a person
+    # AND to a duplicate of that person, one of the two filenames stops being
+    # drawn. Nothing is missing: the same bytes reach the reader under the other
+    # name. Requiring a hand-written reason for that would be asking someone to
+    # annotate an automatic, correct and entirely explainable absence.
+    _by_hash = {}
+    for _m in json.load(open("data/photo-manifest.json", encoding="utf-8")):
+        if os.path.exists(_m.get("path", "")):
+            _by_hash.setdefault(
+                hashlib.sha256(open(_m["path"], "rb").read()).hexdigest(), []).append(_m["file"])
+    def _twin_is_drawn(f):
+        for _h, _files in _by_hash.items():
+            if f in _files:
+                return any(g != f and g in built for g in _files)
+        return False
+    lost = sorted(f for f in PORTRAITS
+                  if f not in built and f not in declared_absent and not _twin_is_drawn(f))
+    twins = sorted(f for f in PORTRAITS
+                   if f not in built and f not in declared_absent and _twin_is_drawn(f))
+    if twins:
+        notes.append(f"  note  {len(twins)} portrait(s) are not drawn because the identical image "
+                     f"is already drawn for the same person under another name: {', '.join(twins)}")
     held = sorted(f for f in PORTRAITS if f not in built and f in declared_absent)
     if held:
         notes.append(f"  note  {len(held)} portrait(s) held and deliberately not shown, each with "
@@ -103,6 +126,28 @@ if built:
                         f"built page, and say nothing about why. Either they should be drawn, or "
                         f"the row should carry «notShown» with the reason: {', '.join(lost[:4])}"
                         f"{' …' if len(lost) > 4 else ''}")
+
+# THE STOCK GRAPHIC MUST NEVER BE DRAWN AS SOMEBODY'S PHOTOGRAPH.
+#
+# One MyHeritage collection graphic — a greyscale montage of a generic
+# passenger manifest, watermarked — arrived 22 times under 22 rins for 11
+# people, and nine of them had no other image, so their entire «Photographs»
+# section was stock art captioned with their name and dates. It is identified
+# by content, not by filename, because it came in under 22 different names and
+# would come in under a 23rd.
+_STOCK = "9459994d854efa27e137bf92d3a13cd1546d57f210ea5aded69c7b5b1166c7f1"
+_stock_undeclared = []
+for _m in json.load(open("data/photo-manifest.json", encoding="utf-8")):
+    if not os.path.exists(_m.get("path", "")):
+        continue
+    if hashlib.sha256(open(_m["path"], "rb").read()).hexdigest() == _STOCK \
+            and not _m.get("notShown"):
+        _stock_undeclared.append(_m["file"])
+if _stock_undeclared:
+    problems.append(f"  FAIL  {len(_stock_undeclared)} row(s) hold the MyHeritage stock collection "
+                    f"graphic and do not say so, so it will be drawn as a photograph of a named "
+                    f"person: {', '.join(_stock_undeclared[:4])}"
+                    f"{' …' if len(_stock_undeclared) > 4 else ''}")
 
 # EVERY IMAGE MUST BE MEASURED, AND THE SMALL ONES MUST SAY SO.
 #

@@ -13,7 +13,7 @@ const n = withPhotos.reduce((a, p) => a + p.photos.length, 0);
    off duplicate xrefs that build.py merges away, so the page was telling a
    reader that every image appears while three did not, and no gate asked.
    Both numbers are counted now and the gap is explained rather than hidden. */
-const HELD = stats.photos;   // build.py counts data/photo-manifest.json into stats
+const HELD = stats.photosHeld;   // every file the archive holds, drawn or not
 
 /* THIS PAGE IS A GALLERY UNDER A DOCUMENTS LABEL. It holds photographs grouped
    by the person they show, out of a family tree export - not primary sources
@@ -46,10 +46,13 @@ const sheet = withPhotos.flatMap((p) => p.photos.map((f, i) => ({
   <p class="note">These came out of the MyHeritage export as signed links that were due to expire on
   <strong>16 September 2026</strong>. They were downloaded on 10 September and are now held in the
   repository, so the archive no longer depends on a URL that dies. <strong>{n}</strong> of the
-  {" "}<strong>{HELD}</strong> held here appear below.{HELD > n && (<> The other {HELD - n} hang off
-  duplicate records the export merges away, and each says in the manifest why it is not shown — one
-  is an exact copy of an image that IS shown, and the other two are
-  <a href={u("/open-questions/")}> one photograph filed under two people's names</a>.</>)}</p>
+  {" "}<strong>{HELD}</strong> held here appear below.{HELD > n && (<> The other <strong>{HELD - n}</strong> are held and
+  not drawn, and each says in the manifest why. <strong>Twenty-two of them are one image</strong>:
+  a MyHeritage stock collection graphic — a watermarked montage of a generic passenger manifest —
+  that arrived under twenty-two names for eleven people, nine of whom had no other photograph, so
+  their pages showed stock art captioned with their name until 9 October 2026. Four more are one
+  photograph held twice, proved by decoding both. The rest are exact copies of an image already
+  shown.</>)}</p>
   {/* «Of 133 images, all {n} now appear here» carried a typed 133 beside a
       counted {n}. They agree today. On the day they stop agreeing the sentence
       reads «Of 133 images, all 140 now appear here» and contradicts itself in

@@ -141,7 +141,8 @@
   "rin": "MH:P500008",
   "path": "photos/deceased/domenica-prostamo-1.jpg",
   "w": 212,
-  "h": 313
+  "h": 313,
+  "notShown": "One photograph held twice. Decoded and compared pixel by pixel against domenica-prostamo-2.jpg on 9 October 2026: same 212x313, maximum difference 4 level(s) out of 255 and a mean of well under one, which is JPEG re-encoding noise and not two exposures — two photographs of one person cannot agree to within a quantisation step. The export gave them separate rins (MH:P500008 and MH:P500007, both in the MH:P5000xx range that marks a later addition) so it believes they are different images. The larger file is kept because it lost least; this one is held and not drawn, so the page shows the photograph once."
  },
  {
   "xref": "@I3@",
@@ -273,7 +274,8 @@
   "rin": "MH:P500003",
   "path": "photos/deceased/francessco-prostamo-2.jpg",
   "w": 112,
-  "h": 151
+  "h": 151,
+  "notShown": "One photograph held twice. Decoded and compared pixel by pixel against francessco-prostamo-1.jpg on 9 October 2026: same 112x151, maximum difference 1 level(s) out of 255 and a mean of well under one, which is JPEG re-encoding noise and not two exposures — two photographs of one person cannot agree to within a quantisation step. The export gave them separate rins (MH:P500004 and MH:P500003, both in the MH:P5000xx range that marks a later addition) so it believes they are different images. The larger file is kept because it lost least; this one is held and not drawn, so the page shows the photograph once."
  },
  {
   "xref": "@I6@",
@@ -357,7 +359,8 @@
   "rin": "MH:P500005",
   "path": "photos/deceased/maria-rosa-melluso-2.jpg",
   "w": 110,
-  "h": 148
+  "h": 148,
+  "notShown": "One photograph held twice. Decoded and compared pixel by pixel against maria-rosa-melluso-1.jpg on 9 October 2026: same 110x148, maximum difference 3 level(s) out of 255 and a mean of well under one, which is JPEG re-encoding noise and not two exposures — two photographs of one person cannot agree to within a quantisation step. The export gave them separate rins (MH:P500006 and MH:P500005, both in the MH:P5000xx range that marks a later addition) so it believes they are different images. The larger file is kept because it lost least; this one is held and not drawn, so the page shows the photograph once."
  },
  {
   "xref": "@I7@",
@@ -417,7 +420,8 @@
   "rin": "MH:P37",
   "path": "photos/deceased/domenica-anile-2.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I8@",
@@ -429,7 +433,8 @@
   "rin": "MH:P38",
   "path": "photos/deceased/domenica-anile-3.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I9@",
@@ -441,7 +446,8 @@
   "rin": "MH:P38",
   "path": "photos/deceased/domenico-melluso-1.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I12@",
@@ -512,7 +518,6 @@
   "size": 2964657,
   "rin": "MH:P46",
   "path": "photos/living/nancy-arena-1.jpg",
-  "notShown": "Held and not shown: byte-identical to nancy-arena-I25-1.jpg, which IS shown. This row hangs off @I19@, a duplicate of @I25@ that build.py merges away, so nothing is lost by it not appearing.",
   "w": 3072,
   "h": 2304
  },
@@ -525,7 +530,6 @@
   "size": 1358459,
   "rin": "MH:P48",
   "path": "photos/living/michael-mazza-1.jpg",
-  "notShown": "Held and not shown: hangs off @I20@, a duplicate the export merges away. Byte-identical to angela-mazza-1.jpg, so this file and that one are one photograph under two names, and Michael Rocco Mazza has no photograph published at all. See question 18.",
   "w": 3072,
   "h": 2304
  },
@@ -538,7 +542,6 @@
   "size": 1358459,
   "rin": "MH:P48",
   "path": "photos/living/angela-mazza-1.jpg",
-  "notShown": "Held and not shown: hangs off @I21@, a duplicate of @I27@ that build.py merges away. 3072x2304, and byte-identical to michael-mazza-1.jpg — ONE photograph filed under two people. Who is in it is an open question, not a thing to decide by picking. See question 18.",
   "w": 3072,
   "h": 2304
  },
@@ -780,7 +783,8 @@
   "rin": "MH:P79",
   "path": "photos/deceased/venera-cavallaro-2.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I37@",
@@ -888,7 +892,8 @@
   "rin": "MH:P500009",
   "path": "photos/deceased/alfonso-prostamo-2.jpg",
   "w": 226,
-  "h": 300
+  "h": 300,
+  "notShown": "One photograph held twice. Decoded and compared pixel by pixel against alfonso-prostamo-1.jpg on 9 October 2026: same 226x300, maximum difference 3 level(s) out of 255 and a mean of well under one, which is JPEG re-encoding noise and not two exposures — two photographs of one person cannot agree to within a quantisation step. The export gave them separate rins (MH:P500010 and MH:P500009, both in the MH:P5000xx range that marks a later addition) so it believes they are different images. The larger file is kept because it lost least; this one is held and not drawn, so the page shows the photograph once."
  },
  {
   "xref": "@I50@",
@@ -1080,7 +1085,8 @@
   "rin": "MH:P118",
   "path": "photos/deceased/mariano-cavallaro-1.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I77@",
@@ -1344,7 +1350,8 @@
   "rin": "MH:P156",
   "path": "photos/deceased/francesco-melluso-1.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I298@",
@@ -1356,7 +1363,8 @@
   "rin": "MH:P158",
   "path": "photos/deceased/fillipo-melluso-1.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I351@",
@@ -1416,7 +1424,8 @@
   "rin": "MH:P165",
   "path": "photos/deceased/saveria-barbuto-1.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I384@",
@@ -1428,7 +1437,8 @@
   "rin": "MH:P167",
   "path": "photos/deceased/fortunata-lucia-anile-1.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I384@",
@@ -1440,7 +1450,8 @@
   "rin": "MH:P169",
   "path": "photos/deceased/fortunata-lucia-anile-2.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I384@",
@@ -1452,7 +1463,8 @@
   "rin": "MH:P170",
   "path": "photos/deceased/fortunata-lucia-anile-3.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I384@",
@@ -1464,7 +1476,8 @@
   "rin": "MH:P171",
   "path": "photos/deceased/fortunata-lucia-anile-4.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I384@",
@@ -1476,7 +1489,8 @@
   "rin": "MH:P172",
   "path": "photos/deceased/fortunata-lucia-anile-5.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I384@",
@@ -1488,7 +1502,8 @@
   "rin": "MH:P173",
   "path": "photos/deceased/fortunata-lucia-anile-6.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I384@",
@@ -1500,7 +1515,8 @@
   "rin": "MH:P174",
   "path": "photos/deceased/fortunata-lucia-anile-7.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I384@",
@@ -1512,7 +1528,8 @@
   "rin": "MH:P175",
   "path": "photos/deceased/fortunata-lucia-anile-8.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I400@",
@@ -1524,7 +1541,8 @@
   "rin": "MH:P176",
   "path": "photos/deceased/concetta-anile-1.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I400@",
@@ -1536,7 +1554,8 @@
   "rin": "MH:P178",
   "path": "photos/deceased/concetta-anile-2.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I407@",
@@ -1548,7 +1567,8 @@
   "rin": "MH:P179",
   "path": "photos/deceased/noel-jack-porter-1.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I409@",
@@ -1560,7 +1580,8 @@
   "rin": "MH:P172",
   "path": "photos/deceased/giuseppe-joe-minichiello-1.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I409@",
@@ -1572,7 +1593,8 @@
   "rin": "MH:P182",
   "path": "photos/deceased/giuseppe-joe-minichiello-2.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I409@",
@@ -1584,7 +1606,8 @@
   "rin": "MH:P183",
   "path": "photos/deceased/giuseppe-joe-minichiello-3.jpg",
   "w": 500,
-  "h": 500
+  "h": 500,
+  "notShown": "Not a photograph of anybody. This is a MyHeritage stock collection graphic — a greyscale montage of a generic passenger manifest and two stock emigration photographs with a watermark across it — and the identical file, sha256 9459994d…, arrived 22 times under 22 different rins for 11 different people. Nine of them had no other image, so their whole «Photographs» section was stock art captioned with their name and dates. Established 9 October 2026 by hashing every held image and then looking at it."
  },
  {
   "xref": "@I493@",

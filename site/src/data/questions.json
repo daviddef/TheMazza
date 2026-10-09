@@ -171,11 +171,11 @@
  },
  {
   "n": 18,
-  "q": "One photograph, two people, and the proband has none",
-  "state": "open",
+  "q": "One photograph, two people, and the proband has none — ANSWERED, and it was a bug",
+  "state": "answered",
   "known": "data/photo-manifest.json carries 133 images. Three reach no page because they hang off duplicate xrefs the export merges away — and two of those three, angela-mazza-1.jpg (@I21@) and michael-mazza-1.jpg (@I20@), are BYTE-IDENTICAL: sha256 7ec58416d96612f0, 1,358,459 bytes, 3072x2304. One photograph is filed under two people's names. Meanwhile Michael Rocco Mazza (@I26@), the person this archive is named for, has no photograph published at all, and the canonical Angela Mazza (@I27@) publishes a 132x161 THUMBNAIL as her first image while a 3072x2304 original of somebody sits unused in photos/living/.",
-  "tried": "Established 9 October 2026 by hashing every manifest file after a new gate found three portraits reaching no page. The third, nancy-arena-1.jpg, is a harmless exact duplicate of a file that IS shown. These two are not: they are one image with two claims on it.",
-  "settles": "A relative looking at the image and saying who it is. This is the one question on this page that needs no archive and no register — /documents/ already says identifications are the most valuable thing a reader can give, and this is the case in point. Until then the archive shows neither copy and says why, because picking one would be the archive asserting an identification it does not have.",
+  "tried": "ANSWERED 9 OCTOBER 2026, and the framing in this row was wrong. A photograph tagged to two people is not a puzzle — that is how the export records a picture with two relatives in it, and the same rin MH:P48 on both rows says so plainly. The real fault was in build.py: it attached photographs by the RAW xref, so an image the export hung on a person who is a duplicate reached nobody, because the duplicate has no page and the surviving person was never told. @I20@ and @I21@ merge into @I26@ and @I27@. Canonicalising the xref restores that 3072x2304 photograph to Michael Rocco Mazza, who had none, and to Angela Mazza; a byte-identical twin for one person is then dropped by content so nobody is shown the same file twice. Nothing needed identifying. What the hashing DID find was worse and is fixed in the same pass: one MyHeritage stock collection graphic filed 22 times under 22 names for 11 people, nine of whom had no other image.",
+  "settles": "Nothing. It was a line of code, not a question for a relative. What is still worth a reader's eye is the captioning: almost none of these photographs are identified, and that remains the most valuable thing anybody can send.",
   "since": "9 October 2026",
   "rank": "2"
  }
