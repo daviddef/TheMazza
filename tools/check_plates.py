@@ -22,7 +22,7 @@ to be run by hand to find:
 The third is the one that bit. It cannot be checked from the data alone — it
 needs the BUILT page — so this runs after astro, like checklinks.
 """
-import csv, hashlib, json, os, sys
+import csv, hashlib, json, os, struct, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
@@ -126,6 +126,60 @@ if built:
                         f"built page, and say nothing about why. Either they should be drawn, or "
                         f"the row should carry «notShown» with the reason: {', '.join(lost[:4])}"
                         f"{' …' if len(lost) > 4 else ''}")
+
+# THE REGISTER PLATES, HASHED AND MEASURED.
+#
+# The portraits turned out to hold one stock graphic filed 22 times and four
+# photographs held twice, none of which any gate could see, because nothing
+# had ever looked at the BYTES. The plates are evidence rather than
+# decoration — a plate standing for the wrong act is a false citation with a
+# picture attached — so they get the same treatment, permanently.
+#
+# All 53 were checked by hand on 9 October 2026 and were sound: no duplicate,
+# no blank, no truncation, widths from 1006 to 2960. Two scored 0.94 on a
+# whole-image correlation and turned out to be Scilla marriage acts 73/74 and
+# 85/86 — different openings of the same pre-printed form, which is why a
+# correlation test is NOT run here. On a printed register form the ink that
+# differs between two acts is a few percent of the page, so «looks alike» is
+# the normal case and only an exact match means anything.
+def _jpeg_dims(b):
+    i = 2
+    while i < len(b) - 9:
+        if b[i] != 0xFF:
+            i += 1
+            continue
+        mk = b[i + 1]
+        if mk in (0xC0, 0xC1, 0xC2, 0xC3):
+            return struct.unpack(">HH", b[i + 5:i + 9])[::-1]
+        if mk in (0xD8, 0xD9) or 0xD0 <= mk <= 0xD7:
+            i += 2
+            continue
+        try:
+            i += 2 + struct.unpack(">H", b[i + 2:i + 4])[0]
+        except Exception:
+            return None
+    return None
+
+_plate_hash, _broken, _widths = {}, [], []
+for _f in sorted(on_disk - PORTRAITS):
+    _b = open(os.path.join(PLATES, _f), "rb").read()
+    _d = _jpeg_dims(_b)
+    if _b[:2] != b"\xff\xd8" or _b[-2:] != b"\xff\xd9" or not _d:
+        _broken.append(_f)
+    else:
+        _widths.append(_d[0])
+    _plate_hash.setdefault(hashlib.sha256(_b).hexdigest(), []).append(_f)
+if _broken:
+    problems.append(f"  FAIL  {len(_broken)} register plate(s) are truncated or cannot be measured, "
+                    f"which is what a half-finished download looks like: {', '.join(_broken[:4])}")
+for _h, _fs in sorted(_plate_hash.items()):
+    if len(_fs) > 1:
+        problems.append(f"  FAIL  one image is standing for {len(_fs)} different plates — identical "
+                        f"bytes under {len(_fs)} names, so at least one act is illustrated by "
+                        f"another act's page: {', '.join(_fs)}")
+if _widths:
+    notes.append(f"  note  {len(_widths)} register plate(s) hashed and measured, "
+                 f"{min(_widths)}px to {max(_widths)}px wide, no duplicate and none truncated")
 
 # THE STOCK GRAPHIC MUST NEVER BE DRAWN AS SOMEBODY'S PHOTOGRAPH.
 #
