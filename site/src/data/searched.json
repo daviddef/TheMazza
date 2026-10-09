@@ -1982,5 +1982,21 @@
   "source": "Antenati — which endpoints the rate limiter actually governs",
   "scope": "Tested across a working day while the site was refusing traffic: the ark landing pages (antenati.cultura.gov.it/ark:/12657/...), the search listing (/ricerca/), the IIIF image service (iiif-antenati.cultura.gov.it) and the container manifest (dam-antenati.cultura.gov.it/antenati/containers/<id>/manifest).",
   "result": "THE THROTTLE IS ON THE HTML, NOT ON THE IMAGES. Ark pages and /ricerca/ returned a blanket 403 all day, including to an ordinary browser, while the IIIF image service and the container manifest served every request without complaint. So a volume whose CONTAINER is already recorded can be read in full during a throttle; only the ark-to-container lookup is blocked. That is the argument for banking container ids in the ark tables as they are found. Also: asking IIIF for a width greater than the image's own returns a 403 whose BODY IS AN HTML ERROR PAGE, which will be saved as a .jpg by anything that does not check."
+ },
+ {
+  "key": "src/antenati-mascali-f49949",
+  "status": "done",
+  "when": "9 Oct 2026",
+  "source": "Antenati — Mascali Morti 1882, and the early M of 1881",
+  "scope": "Mascali (Catania), Stato civile italiano. 1882: ark an_ua81729, segnatura 8853, container 0JbrlJG, 53 images, Indice Annuale at folio 40. 1881: ark an_ua81728, segnatura 8852, container LPR9gW8, 63 images, index at folio 38. Both indexes read whole, M and N, across the paired exposures described in the row below.",
+  "result": "BOTH NULL ON NICOTRA'S ROSARIO AND ON MURABITO. 1882 holds three N entries — Neri Maria 75, Nucifora Filippo 82, Nicolosi Enna 106 — and no Murabito in M. 1881 holds five — Nicotra Nunziato 2, Nicotra Salvatore 14, Neri Salvatore 16, Neri Maria 37, Nucifora Maria 61 — and its EARLY M, previously unread behind the card, holds no Murabito either. That matters because an Italian death index files a married woman under her maiden surname, so the M section is where a Venera Murabito would appear and half of 1881's had never been looked at. 1882 had been recorded as unreadable and was not."
+ },
+ {
+  "key": "src/antenati-the-dupl-c5cb02",
+  "status": "done",
+  "when": "9 Oct 2026",
+  "source": "Antenati — the DUPLICATA card is moved between exposures, so a covered page is not a lost one",
+  "scope": "Observed in two Mascali death volumes at the Archivio di Stato di Catania, containers 0JbrlJG (1882, images 51 and 52) and LPR9gW8 (1881, images 61 and 62). Method note, not a family finding.",
+  "result": "WHERE A BLACK «DUPLICATA» CARD COVERS HALF AN OPENING, LOOK AT THE ADJACENT IMAGE. The opening is photographed TWICE and the card is moved between exposures — once resting on the left-hand page, once on the right — so the two images together give every column. The card identifies the archive's duplicate copy; it is not damage and it is not a redaction. A session that reads one image and stops will record a year as unreadable when it is fully legible, and that is exactly what happened here: Mascali Morti 1882 sat as «hidden behind the cover sheet» for a day, and 1881 had half its M section written off the same way. Neither volume has a second copy to fall back on, so the mistake would have been permanent. Separately: the volume's back cover may carry the archive's own condition labels — PAG. ONDULATE, PAG. MACCHIATA, PAG. TRASPARENTE, TUTTO IL VOLUME, IMPOSSIBILE FARE DI MEGLIO — which describe the paper and say nothing about whether the index can be read."
  }
 ]
