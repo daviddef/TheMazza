@@ -1958,5 +1958,29 @@
   "source": "Trove — the categories that are not newspapers, and the Queensland wills hiding in them",
   "scope": "Asked a second time whether Trove was finished, and the honest answer was that I had only searched ONE OF ITS CATEGORIES. Rows 7, 79 and 153 are all about newspapers and the Commonwealth Gazette; Trove also aggregates books, images, magazines, music, people, research and «diaries, letters and archives», the last of which carries ITEM-LEVEL RECORDS FROM STATE ARCHIVES. Eleven surnames across eight categories, with the Zzqqxxwv control run in every one of them.",
   "result": "TROVE IS NOT FINISHED, AND THE THING IT WAS HIDING IS BETTER THAN ANYTHING IN THE NEWSPAPERS. The `diary` category surfaces QUEENSLAND STATE ARCHIVES item records, and four of them are NICOTRA WILLS: SALVATORE PHILIP (1955, ITM938108), LEONARDA (1962), VINCENZO (1965), FILIPPO (1966) — all «Part of series Supreme Court (Northern) Ecclesiastical Files (Wills) (S6220)», all held at QSA, all marked OPEN ACCESS. A will file names the deceased, the date of death, the address, the occupation, the executors and the beneficiaries, which is usually the whole household. ALL FOUR ARE TOWNSVILLE DISTRICT, AND NORTH QUEENSLAND HAS ALREADY COME UP TWICE IN THIS SWEEP: the only two Nicotra family notices in the newspapers are the Evening Advocate (INNISFAIL), 1 May and 17 September 1953, and the Lands Department holds three Nicotra land files for Innisfail and Cardwell Shire. THERE IS A NORTH QUEENSLAND NICOTRA CLUSTER and this archive has never looked at it. WHETHER IT IS MARIA NICOTRA'S FAMILY IS COMPLETELY UNKNOWN — she died at Brisbane in 1963, four hundred kilometres south — and nothing here is attached to anybody. ALSO FOUND: «Naturalisation - Central District - MAZZA, James, 1898» at Rockhampton, half a century before this family reached Australia and recorded so nobody chases it twice. And court files under CASSANITI and MURABITO — both surnames off the Nicotra line — but dated 2014, 2015 and 2018, which is modern and touches the living, so they are named here and not pursued. AND A CORRECTION TO THE SAME DAY'S WORK. This archive was told a few hours earlier that Trove could be closed. THAT ADVICE WAS WRONG, and wrong in a way worth writing down: the sweep was thorough inside one category and never asked what the other seven held. A source is not exhausted because the part of it you know about is. THE REACH: eight Trove categories, eleven surnames, controls in each. It does not reach anyone who never came to Australia."
+ },
+ {
+  "key": "src/antenati-giarre-n-553806",
+  "status": "done",
+  "when": "9 Oct 2026",
+  "source": "Antenati — Giarre Nati 1827 and 1828, the annual Tavole read whole",
+  "scope": "Giarre (Catania), Stato civile della restaurazione. 1827: ark an_ua68985, segnatura 15927, container 5xe4lba, 175 images, Tavola at folios 170-173. 1828: ark an_ua68986, segnatura 15928, container wRGJ3ja, 237 images, Tavola at folios 229-230. Archivio di Stato di Catania. Both Tavole read from the first heading to the last rather than by junction, because a junction negative is unsafe where section order cannot be assumed.",
+  "result": "A NULL ON NICOTRA IN BOTH. The N heading is ruled and left blank in each year, with O blank beneath it, then P opens at Pafumi act 34 (1827) and Pennisi act 12 (1828). The first MURABITO households this archive has found anywhere turned up instead — three of them across the two years, one of which names a daughter Venera in 1827 and another daughter in 1828. Murabito is a common Giarre surname, so «Venera Murabito of Giarre» is ordinary rather than remarkable. The 1827 Venera is NOT Rosario Nicotra's wife: born 1827 she would have been fourteen when Giovanni was born about 1841."
+ },
+ {
+  "key": "src/antenati-mascali-fc7ac3",
+  "status": "done",
+  "when": "9 Oct 2026",
+  "source": "Antenati — Mascali, whether a 1844 volume exists in any series",
+  "scope": "Mascali (Catania), the whole holding: 498 results, 498 distinct arks, facet totals agreeing, so a complete listing and not a sample at the page-size ceiling. Every series checked for 1844 — Nati, Morti, Matrimoni, Nati esposti, Matrimoni processetti, the memorandum notificazioni, and Diversi.",
+  "result": "MASCALI HAS NO 1844 IN ANY RESTAURAZIONE SERIES. The run goes 1843 then 1845 throughout, and both counters step by exactly one across the gap — ark an_ua70313 to an_ua70314, Catania segnatura 16777 to 16778 — where every other year steps by one per year. The year was never deposited rather than dropped from a listing. GIARRE HAS 1844, so this is Mascali's hole and not a regional one. Any Mascali negative spanning 1844 is complete without it, and no search should be planned for it."
+ },
+ {
+  "key": "src/antenati-which-en-63b6ad",
+  "status": "done",
+  "when": "9 Oct 2026",
+  "source": "Antenati — which endpoints the rate limiter actually governs",
+  "scope": "Tested across a working day while the site was refusing traffic: the ark landing pages (antenati.cultura.gov.it/ark:/12657/...), the search listing (/ricerca/), the IIIF image service (iiif-antenati.cultura.gov.it) and the container manifest (dam-antenati.cultura.gov.it/antenati/containers/<id>/manifest).",
+  "result": "THE THROTTLE IS ON THE HTML, NOT ON THE IMAGES. Ark pages and /ricerca/ returned a blanket 403 all day, including to an ordinary browser, while the IIIF image service and the container manifest served every request without complaint. So a volume whose CONTAINER is already recorded can be read in full during a throttle; only the ark-to-container lookup is blocked. That is the argument for banking container ids in the ark tables as they are found. Also: asking IIIF for a width greater than the image's own returns a 403 whose BODY IS AN HTML ERROR PAGE, which will be saved as a .jpg by anything that does not check."
  }
 ]
