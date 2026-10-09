@@ -18,7 +18,11 @@ import json, os, re, unicodedata, html
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DIST = os.path.join(ROOT, "site", "dist")
+# ARCHIVE_OUT beats the default, as in every kit tool (kit/tools/outdir.py): an isolated
+# build lives in site/$ARCHIVE_OUT, and this step read site/dist regardless, so a session
+# building somewhere of its own derived its index from whoever last built the shared
+# directory. The default is still dist, which CI uploads.
+DIST = os.path.join(ROOT, "site", os.environ.get("ARCHIVE_OUT") or "dist")
 OUT = os.path.join(ROOT, "site", "public", "searchindex.json")
 
 NOINDEX = re.compile(r'name=["\']robots["\'][^>]*noindex', re.I)

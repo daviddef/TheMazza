@@ -1,0 +1,80 @@
+{
+  "note": "Antenati publishes most of the civil registers this archive reads, and most of its answers came off a screen. These are the places that stops. Each ask below is something a comune, a diocese or a state archive holds and does not publish, so it needs a letter or an order, not a search. They come from this archive's own work list, where each is marked blocked. None is recorded as sent, and none as answered.",
+  "doors": [
+    {
+      "where": "Comune di Scilla (RC), Ufficio di Stato Civile",
+      "why": "Antenati's Scilla series ends in 1913 for marriages and 1943 for deaths. The two acts below fall outside it, in the period the comune still holds.",
+      "asks": [
+        {
+          "what": "Marriage of Giovanni Polistena and Nunziata Donato, about 1916, and the death act of Nunziata Donato, 1975, act no. 30",
+          "ref": "Marriage: not on Antenati (series stops at 1913; 1913 read in full, all 58 marriages, and it is not there). Death: Scilla 1975, act 30",
+          "why": "The marriage would give both spouses' ages, trades and parents, and Giovanni Polistena's own parents, where this archive has only the 1908 New Orleans manifest's statement. The death act would give her date and place of birth and name her parents a second time. Her father Michele Donato's own birthplace has since been settled from the free registers (Scilla, 3 October 1855), so that is no longer the reason to ask.",
+          "ask": "An estratto per riassunto of each act, for genealogical research. This is normally free. A copia integrale can require a stated legal interest, so ask for the summary. Send it to the Ufficio di Stato Civile by PEC or ordinary email; Antenati's Richieste di certificati page lists the route.",
+          "state": "written",
+          "stateLabel": "Written, no send recorded",
+          "draft": "Spett.le Ufficio di Stato Civile, Comune di Scilla (RC). Oggetto: richiesta di estratti per riassunto, atti di matrimonio e di morte, a fini di ricerca genealogica. Il sottoscritto, discendente della famiglia, chiede il rilascio di estratti per riassunto dei seguenti atti: 1. Atto di matrimonio fra POLISTENA GIOVANNI e DONATO NUNZIATA, celebrato in codesto Comune presumibilmente negli anni 1915-1918; 2. Atto di morte n. 30 dell'anno 1975, intestato a DONATO NUNZIATA, coniugata POLISTENA GIOVANNI, figlia di DONATO MICHELE e di SOFI MARIA. La richiesta è avanzata esclusivamente a fini di ricerca genealogica familiare. Ringraziando anticipatamente, porgo distinti saluti. [nome, indirizzo, recapito, data]",
+          "links": [
+            [
+              "Antenati",
+              "https://antenati.cultura.gov.it/"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "where": "Comune di Zambrone (VV), Ufficio di Stato Civile",
+      "why": "Every act in the Napoleonic and Bourbon registers was written twice, one copy kept by the comune and one sent to the tribunale. Antenati digitises the Archivio di Stato, which holds the tribunale's copies, so the missing years are missing from the court's copy. The comune's own copy may survive.",
+      "asks": [
+        {
+          "what": "The comune's own copy of Zambrone's deaths, 1813 to 1821",
+          "ref": "Antenati: Archivio di Stato di Catanzaro, Stato civile napoleonico, Zambrone, 1811-1839. The nine years are absent from that series",
+          "why": "It is the only route to four people: Domenico Ventrice, Anna Maropoli, Francesco Cichello and Vittoria Mollo. There is a reason to think the act survived. In 1849 the chancery certified a copy of Domenico Ventrice's death for a marriage at Briatico, thirty-four years after it was written, so something was still being copied from.",
+          "ask": "Whether the comune holds its own copy of the death register for 1813 to 1821, and if so an estratto of the four acts.",
+          "state": "unwritten",
+          "stateLabel": "Not written",
+          "links": []
+        }
+      ]
+    },
+    {
+      "where": "Archivio Storico Diocesano, Reggio Calabria",
+      "why": "Civil registration in the Kingdom of Naples begins in 1809. Everything above Orazio Arena and Setteria Morabito at Scilla is parish, and Scilla falls under the Archdiocese of Reggio Calabria-Bova. Its historical archive is not on Antenati or FamilySearch's Italian civil collections, and the 1908 Messina earthquake is a real risk to what survives.",
+      "asks": [
+        {
+          "what": "What survives of the Scilla parish books before 1809, named by book, custodian and year",
+          "ref": "The 1815 marriage bundle quotes the books: the liber Baptizatorum and the liber Defunctorum of the Chiesa Matrice, kept by the archpriest D. Giuseppe Ingigneri and searched by the economo curato Leonardo Cantore Bandiera, who signed the extracts in May and October 1815. The baptism book was open at 1787 and 1793, the death book at 1790",
+          "why": "Giovanni Costa died at Scilla on 29 March 1790, and the 1815 act says his death record si conserva, is preserved. A letter that names books, custodians and years gets answered where a general question does not.",
+          "ask": "Whether those two books survive, and if so what a researcher may see or have copied.",
+          "state": "unwritten",
+          "stateLabel": "Not written",
+          "links": []
+        }
+      ]
+    },
+    {
+      "where": "Archivio di Stato (the archive holding each series)",
+      "why": "Two registers that exist on paper and not on Antenati. Each would have to be ordered from, or visited at, an Italian state archive, or not at all.",
+      "asks": [
+        {
+          "what": "Pizzo's 1837 cholera register, act 327",
+          "ref": "Only the index survives online: acts 209 to 325. The act wanted is 327, two past the end",
+          "why": "The act is indexed and cannot be read.",
+          "ask": "Act 327 of the Pizzo deaths for 1837.",
+          "state": "unwritten",
+          "stateLabel": "Not written",
+          "links": []
+        },
+        {
+          "what": "Piedimonte Etneo, deaths 1880, act 122: Mazza, Gaetano",
+          "ref": "Indexed but never filmed",
+          "why": "The act is in the index and nowhere on screen.",
+          "ask": "Act 122 of the Piedimonte Etneo deaths for 1880.",
+          "state": "unwritten",
+          "stateLabel": "Not written",
+          "links": []
+        }
+      ]
+    }
+  ]
+}
