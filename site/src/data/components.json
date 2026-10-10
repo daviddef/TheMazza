@@ -5344,183 +5344,7 @@
   ]
  },
  {
-  "comp": 8,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [
-   {
-    "name": "Brisbane, Queensland",
-    "n": 1
-   }
-  ],
-  "surnames": [
-   {
-    "name": "Turner",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "ranee-turner",
-    "name": "Ranee Turner",
-    "surname": "Turner",
-    "born": null,
-    "died": null,
-    "datesHidden": true,
-    "birthPlace": "Brisbane, Queensland"
-   }
-  ]
- },
- {
   "comp": 3,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [
-   {
-    "name": "Brisbane, Queensland",
-    "n": 1
-   }
-  ],
-  "surnames": [
-   {
-    "name": "Mazza",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "jack-mazza",
-    "name": "Jack Mazza",
-    "surname": "Mazza",
-    "born": null,
-    "died": null,
-    "datesHidden": true,
-    "birthPlace": "Brisbane, Queensland"
-   }
-  ]
- },
- {
-  "comp": 7,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [],
-  "surnames": [
-   {
-    "name": "Mazza",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "mazza",
-    "name": "Mazza",
-    "surname": "Mazza",
-    "born": null,
-    "died": null,
-    "datesHidden": false,
-    "birthPlace": ""
-   }
-  ]
- },
- {
-  "comp": 4,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [],
-  "surnames": [
-   {
-    "name": "Mazza",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "mazza-2",
-    "name": "Mazza",
-    "surname": "Mazza",
-    "born": null,
-    "died": null,
-    "datesHidden": false,
-    "birthPlace": ""
-   }
-  ]
- },
- {
-  "comp": 5,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [
-   {
-    "name": "Toowoomba, Queensland",
-    "n": 1
-   }
-  ],
-  "surnames": [
-   {
-    "name": "Eriksen",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "ty-eriksen",
-    "name": "Ty Eriksen",
-    "surname": "Eriksen",
-    "born": null,
-    "died": null,
-    "datesHidden": true,
-    "birthPlace": "Toowoomba, Queensland"
-   }
-  ]
- },
- {
-  "comp": 10,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [
-   {
-    "name": "Toowoomba, Queensland",
-    "n": 1
-   }
-  ],
-  "surnames": [
-   {
-    "name": "Ericksen",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "noah-ericksen",
-    "name": "Noah Ericksen",
-    "surname": "Ericksen",
-    "born": null,
-    "died": null,
-    "datesHidden": true,
-    "birthPlace": "Toowoomba, Queensland"
-   }
-  ]
- },
- {
-  "comp": 6,
   "n": 1,
   "earliest": 1927,
   "latest": 1927,
@@ -5551,7 +5375,121 @@
   ]
  },
  {
-  "comp": 9,
+  "comp": 4,
+  "n": 1,
+  "earliest": null,
+  "latest": null,
+  "dated": 0,
+  "towns": [
+   {
+    "name": "Brisbane, Queensland",
+    "n": 1
+   }
+  ],
+  "surnames": [
+   {
+    "name": "Mazza",
+    "n": 1
+   }
+  ],
+  "onSpine": 0,
+  "people": [
+   {
+    "slug": "jack-mazza",
+    "name": "Jack Mazza",
+    "surname": "Mazza",
+    "born": null,
+    "died": null,
+    "datesHidden": true,
+    "birthPlace": "Brisbane, Queensland"
+   }
+  ]
+ },
+ {
+  "comp": 5,
+  "n": 1,
+  "earliest": null,
+  "latest": null,
+  "dated": 0,
+  "towns": [],
+  "surnames": [
+   {
+    "name": "Mazza",
+    "n": 1
+   }
+  ],
+  "onSpine": 0,
+  "people": [
+   {
+    "slug": "mazza",
+    "name": "Mazza",
+    "surname": "Mazza",
+    "born": null,
+    "died": null,
+    "datesHidden": false,
+    "birthPlace": ""
+   }
+  ]
+ },
+ {
+  "comp": 6,
+  "n": 1,
+  "earliest": null,
+  "latest": null,
+  "dated": 0,
+  "towns": [],
+  "surnames": [
+   {
+    "name": "Mazza",
+    "n": 1
+   }
+  ],
+  "onSpine": 0,
+  "people": [
+   {
+    "slug": "mazza-2",
+    "name": "Mazza",
+    "surname": "Mazza",
+    "born": null,
+    "died": null,
+    "datesHidden": false,
+    "birthPlace": ""
+   }
+  ]
+ },
+ {
+  "comp": 7,
+  "n": 1,
+  "earliest": null,
+  "latest": null,
+  "dated": 0,
+  "towns": [
+   {
+    "name": "Toowoomba, Queensland",
+    "n": 1
+   }
+  ],
+  "surnames": [
+   {
+    "name": "Ericksen",
+    "n": 1
+   }
+  ],
+  "onSpine": 0,
+  "people": [
+   {
+    "slug": "noah-ericksen",
+    "name": "Noah Ericksen",
+    "surname": "Ericksen",
+    "born": null,
+    "died": null,
+    "datesHidden": true,
+    "birthPlace": "Toowoomba, Queensland"
+   }
+  ]
+ },
+ {
+  "comp": 8,
   "n": 1,
   "earliest": 1930,
   "latest": 1930,
@@ -5573,6 +5511,68 @@
     "died": 2017,
     "datesHidden": false,
     "birthPlace": ""
+   }
+  ]
+ },
+ {
+  "comp": 9,
+  "n": 1,
+  "earliest": null,
+  "latest": null,
+  "dated": 0,
+  "towns": [
+   {
+    "name": "Brisbane, Queensland",
+    "n": 1
+   }
+  ],
+  "surnames": [
+   {
+    "name": "Turner",
+    "n": 1
+   }
+  ],
+  "onSpine": 0,
+  "people": [
+   {
+    "slug": "ranee-turner",
+    "name": "Ranee Turner",
+    "surname": "Turner",
+    "born": null,
+    "died": null,
+    "datesHidden": true,
+    "birthPlace": "Brisbane, Queensland"
+   }
+  ]
+ },
+ {
+  "comp": 10,
+  "n": 1,
+  "earliest": null,
+  "latest": null,
+  "dated": 0,
+  "towns": [
+   {
+    "name": "Toowoomba, Queensland",
+    "n": 1
+   }
+  ],
+  "surnames": [
+   {
+    "name": "Eriksen",
+    "n": 1
+   }
+  ],
+  "onSpine": 0,
+  "people": [
+   {
+    "slug": "ty-eriksen",
+    "name": "Ty Eriksen",
+    "surname": "Eriksen",
+    "born": null,
+    "died": null,
+    "datesHidden": true,
+    "birthPlace": "Toowoomba, Queensland"
    }
   ]
  }

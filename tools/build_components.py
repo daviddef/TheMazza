@@ -25,7 +25,13 @@ for r in P.values():
     groups[r.get("comp", 0)].append(r)
 
 out = []
-for comp, members in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+# Largest piece first, then by the number itself. The size is what the page
+# leads with; the number is the tie-break because build.py already assigned it
+# from a frozen slug, and leaning on it here keeps this file from having a
+# second opinion about the order. Without the second key the eight one-person
+# pieces came out in people.json's order, which reads as noise next to the
+# «Components 3, 4, 5…» label the page prints above them.
+for comp, members in sorted(groups.items(), key=lambda kv: (-len(kv[1]), kv[0])):
     years = [m["born"] for m in members if m.get("born")]
     towns = collections.Counter(m["birthPlace"] for m in members if m.get("birthPlace"))
     surs = collections.Counter(m["surname"] for m in members if m["surname"])
