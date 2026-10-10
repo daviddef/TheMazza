@@ -32,6 +32,28 @@ const nati = rows.find((r) => r.type === "Nati") || {};
 const morti = rows.find((r) => r.type === "Morti") || {};
 const matr = rows.find((r) => r.type === "Matrimoni") || {};
 const proc = rows.find((r) => /processetti/.test(r.type)) || {};
+/* The Morti sweep, counted. Added 11 October 2026 when Giarre Morti began to
+   be read for SIMONE NICOTRA. Every figure below is computed from
+   nicotra-sweeps.tsv, because the last time this page stated a sweep's size in
+   prose the sentence went false the day the sweep grew. */
+const MORTI = SERIES["Morti"] || [];
+const mortiRead = MORTI.filter((r) => r.entries !== "\u2014" && r.entries !== "absent");
+const mortiWith = MORTI.filter(
+  (r) => r.entries !== "\u2014" && r.entries !== "absent"
+        && r.entries !== "none" && r.entries !== "empty");
+const mortiBlank = MORTI.filter((r) => r.entries === "empty" || r.entries === "none");
+const mortiSpan = mortiRead.length
+  ? mortiRead.map((r) => Number(r.year)).sort((a, b) => a - b)
+  : [];
+/* The Nicotra households these death Tavole name, each a father-and-mother pair
+   the index itself writes. Kept as data so the count cannot drift from the list. */
+const HOUSES = [
+  ["Simone", "Daidone Marianna", "1820, atto 179 — and the same couple in Nati 1820 atto 198"],
+  ["Salvadore", "Spina Rosa", "1820, atto 181"],
+  ["Mariano", "Spina Santa", "1821, atto 14"],
+  ["Francesco", "Fresta Anna", "1827, atti 94 and 123 — two daughters in one year"],
+  ["Alfio", "Pappalardo Rosa", "1831, atto 149 — Isidoro, contadino"],
+];
 const YEARS = nic.byComune["Giarre"] || [];
 const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
 
@@ -247,6 +269,56 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
           this note once listed as banked and unread are among them.</>
         : <><strong>{unread("Matrimoni").concat(unread("Nati")).join(", ")} are still
           unread</strong>, containers banked.</>}</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">11 October 2026 · Giarre, Morti — looking for Simone</div>
+    <h2 style="margin-top:.4rem">A man born about 1776, and the death act that would name his parents</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><strong>Giarre Nati 1820, atto 198</strong> puts a <strong>Simone Nicotra, di anni
+      quarantaquattro, contadino</strong>, in the <em>quartiere S. Alfio</em>, declaring a daughter
+      by <strong>Marianna Daidone</strong>. Rosario Nicotra was born about 1800 at Giarre and his own
+      death act of 1890 names his parents as <em>fu Simone</em> and <em>fu Musumeci Marianna</em>.
+      The forename matches exactly and the surname does not, and neither reading is strained.</p>
+      <p>A <strong>death act names the deceased's parents and the spouse</strong> — both halves of
+      that question at once. Simone was forty-four in April 1820, so he died somewhere between then
+      and about 1860. Giarre's death registers begin in 1820. All forty-one years to 1860 are
+      banked; <strong>{mortiRead.length}</strong> of them are read.</p>
+      <p>So far: <strong>{mortiWith.length}</strong> of those years hold an N entry of any surname
+      and <strong>{mortiBlank.length}</strong> have the heading ruled and left blank.
+      <strong>Simone is not among them.</strong> What the sweep has found instead is how many
+      Nicotra households Giarre held at once — <strong>{HOUSES.length}</strong> of them, each a
+      couple the index itself names:</p>
+      <ul class="prose" style="margin-top:.6rem">
+        {HOUSES.map((h) => (
+          <li><strong>Nicotra {h[0]}</strong> × {h[1]} <span class="dek">— {h[2]}</span></li>
+        ))}
+      </ul>
+      <p style="margin-top:1rem">That list is the reason none of them is attached to anybody. Six
+      Nicotra fathers in one small town, in one generation, is exactly the situation in which a
+      shared surname proves nothing. <strong>Simone and Marianna Daidone appear twice</strong> —
+      registering a daughter in April 1820 and burying another in May — which makes them a real
+      household and still not Rosario's.</p>
+      <p class="note" style="margin-top:16px"><strong>Said plainly about this sweep's shape.</strong>
+      In these Giarre death <em>Tavole</em> the M and N sections are adjacent, so
+      <strong>Musumeci is read in the same view as Nicotra</strong> at no extra cost, and no
+      Marianna Musumeci has appeared. <strong>The D section, for Daidone, sits pages earlier and has
+      not been read.</strong> An Italian death index files a married woman under her maiden name, so
+      Marianna could be waiting under D in a year already counted here as read. That gap is recorded
+      rather than assumed.</p>
+      <table class="tab" style="margin-top:18px">
+        <thead><tr><th>Year</th><th>N section</th><th>What is in it</th></tr></thead>
+        <tbody>
+          {mortiRead.map((r) => (
+            <tr>
+              <td>{r.year}</td>
+              <td>{r.entries}</td>
+              <td class="dek">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   </section>
 
