@@ -29,7 +29,14 @@ import collections, csv, json, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
 
-ENTRIES = {"absent", "none", "empty", "one", "two", "three", "four", "five", "—"}
+ENTRIES = {"absent", "none", "empty",
+           "one", "two", "three", "four", "five", "six", "seven", "—"}
+# «six» and «seven» were added on 11 October 2026 for GIARRE MORTI. The
+# vocabulary is closed to stop typos, not to cap what a register holds, and
+# Giarre's death Tavole are much larger than its marriage ones: 1857 rules five
+# N entries and 1860 rules seven. Writing «five» for seven would have been a
+# false count dressed as a valid word, which is the one thing a closed
+# vocabulary must never be allowed to produce.
 # «absent» was added on 9 October 2026 and does NOT mean a Tavola with nothing
 # in it. It means THERE IS NO VOLUME: the year was never deposited, so there is
 # nothing to read and never will be. Mascali has no 1844 in any restaurazione
