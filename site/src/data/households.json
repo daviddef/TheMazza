@@ -9822,6 +9822,23 @@
   "born": null
  },
  {
+  "name": "Domenico Bassi",
+  "head": "domenico-bassi",
+  "headId": "@Rdomenico-bassi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmargherita-bassi@",
+    "name": "Margherita Bassi",
+    "slug": "margherita-bassi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Mascali",
+  "born": null
+ },
+ {
   "name": "Filippo Arena",
   "head": "filippo-arena-1830",
   "headId": "@Rfilippo-arena-2@",
@@ -9969,6 +9986,40 @@
    }
   ],
   "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Giuseppe Nicotra",
+  "head": "giuseppe-nicotra",
+  "headId": "@Rgiuseppe-nicotra@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ralfio-nicotra@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
+  "name": "Leonarda Pennisi",
+  "head": "leonarda-pennisi",
+  "headId": "@Rleonarda-pennisi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ralfio-nicotra@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
   "born": null
  },
  {
@@ -10212,6 +10263,23 @@
    }
   ],
   "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Santa Dajdone",
+  "head": "santa-dajdone",
+  "headId": "@Rsanta-dajdone@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmargherita-bassi@",
+    "name": "Margherita Bassi",
+    "slug": "margherita-bassi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Mascali",
   "born": null
  },
  {

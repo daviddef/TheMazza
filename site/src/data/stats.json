@@ -1,16 +1,16 @@
 {
  "exported": 614,
- "people": 698,
+ "people": 707,
  "duplicates": 22,
  "unresolvedNames": 57,
  "suppressLiving": false,
  "living": 0,
  "presumedLiving": 411,
- "written": 698,
- "withDeath": 90,
+ "written": 707,
+ "withDeath": 95,
  "datesHidden": 131,
  "ageThreshold": 80,
- "deceased": 698,
+ "deceased": 707,
  "families": 212,
  "sources": 39,
  "components": [
@@ -30,9 +30,9 @@
  "earliest": 1697,
  "noDeathRecord": 411,
  "places": 67,
- "surnames": 151,
+ "surnames": 154,
  "crossings": 21,
  "burials": 20,
- "households": 332,
+ "households": 336,
  "nudgee": 13
 }

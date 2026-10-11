@@ -541,6 +541,25 @@
   "n": 7
  },
  {
+  "name": "Giarre",
+  "born": 7,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1800,
+  "last": 1800,
+  "who": [
+   "alfio-nicotra",
+   "alfio-nicotra-1796",
+   "giuseppe-nicotra",
+   "leonarda-pennisi",
+   "marianna-musumeci",
+   "rosario-nicotra-1872",
+   "simone-nicotra"
+  ],
+  "n": 7
+ },
+ {
   "name": "Gold Coast, Queensland",
   "born": 6,
   "died": 0,
@@ -573,6 +592,24 @@
    "carmela-anile",
    "antonio-anile-1873",
    "saveria-lesto"
+  ],
+  "n": 6
+ },
+ {
+  "name": "Mascali",
+  "born": 6,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": null,
+  "last": null,
+  "who": [
+   "angela-dajdone",
+   "catarina-tomarchio",
+   "domenico-bassi",
+   "margherita-bassi",
+   "santa-dajdone",
+   "venera-murabito"
   ],
   "n": 6
  },
@@ -620,21 +657,6 @@
    "iian-whitaker",
    "laura-whitaker",
    "thomas-whitaker"
-  ],
-  "n": 3
- },
- {
-  "name": "Giarre",
-  "born": 3,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1800,
-  "last": 1800,
-  "who": [
-   "marianna-musumeci",
-   "rosario-nicotra-1872",
-   "simone-nicotra"
   ],
   "n": 3
  },
@@ -1192,19 +1214,6 @@
   "last": null,
   "who": [
    "caterina-majo"
-  ],
-  "n": 1
- },
- {
-  "name": "Mascali",
-  "born": 1,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "venera-murabito"
   ],
   "n": 1
  }

@@ -96,6 +96,18 @@
   ]
  },
  {
+  "surname": "Nicotra",
+  "n": 13,
+  "dead": 13,
+  "living": 0,
+  "first": 1800,
+  "last": 1963,
+  "places": [
+   "Giarre",
+   "Piedimonte Etneo, Catania, Sicily"
+  ]
+ },
+ {
   "surname": "Bova",
   "n": 13,
   "dead": 13,
@@ -117,18 +129,6 @@
   "places": [
    "Briatico, Vibo Valentia, Calabria",
    "Potenzoni (Briatico), Vibo Valentia, Calabria"
-  ]
- },
- {
-  "surname": "Nicotra",
-  "n": 10,
-  "dead": 10,
-  "living": 0,
-  "first": 1800,
-  "last": 1963,
-  "places": [
-   "Giarre",
-   "Piedimonte Etneo, Catania, Sicily"
   ]
  },
  {
@@ -493,6 +493,17 @@
   ]
  },
  {
+  "surname": "Pennisi",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Tomsic",
   "n": 2,
   "dead": 2,
@@ -618,6 +629,17 @@
   ]
  },
  {
+  "surname": "Dajdone",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1841,
+  "last": 1841,
+  "places": [
+   "Mascali"
+  ]
+ },
+ {
   "surname": "de Amico",
   "n": 2,
   "dead": 2,
@@ -651,6 +673,17 @@
   ]
  },
  {
+  "surname": "Bassi",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1828,
+  "last": 1828,
+  "places": [
+   "Mascali"
+  ]
+ },
+ {
   "surname": "Morabito",
   "n": 2,
   "dead": 2,
@@ -660,15 +693,6 @@
   "places": [
    "Scilla"
   ]
- },
- {
-  "surname": "Pennisi",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": []
  },
  {
   "surname": "Cupo",
@@ -1488,6 +1512,17 @@
   "last": null,
   "places": [
    "Zambrone"
+  ]
+ },
+ {
+  "surname": "Tomarchio",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1828,
+  "last": 1828,
+  "places": [
+   "Mascali"
   ]
  },
  {

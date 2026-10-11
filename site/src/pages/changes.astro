@@ -5,7 +5,9 @@ import { u } from "../lib/url.js";
 import corrections from "../data/corrections.json";
 import additions from "../data/additions.json";
 
-/* A reader arriving at 62 corrections needs to be told what moved and when.
+/* A reader arriving at this many corrections needs to be told what moved and when.
+   THE DEK IS DERIVED FROM corrections.count, not typed: it said «Sixty-two» until
+   11 October 2026 while the stat box three lines below it already rendered 235.
    Newest first. Each entry says what the record was and what it changed. */
 const days = [
   {
@@ -57,7 +59,7 @@ const days = [
 ];
 ---
 <Base title="What changed" eyebrow="A log of the days this archive moved"
-      dek="Sixty-two corrections is too many to arrive at cold. This is what moved, when, and what the record was — including the things this archive got wrong and had to take back.">
+      dek={`${corrections.count} corrections is too many to arrive at cold. This is what moved, when, and what the record was — including the things this archive got wrong and had to take back.`}>
 
   <section class="blk">
     <div class="grid g3">

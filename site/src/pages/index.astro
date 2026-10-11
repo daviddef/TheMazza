@@ -11,14 +11,21 @@ import Numbers from "@daviddef/archive-kit/components/Numbers.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import stats from "../data/stats.json";
+import anc from "../data/ancestors.json";
 import places from "../data/places.json";
 import searched from "../data/searched.json";
 import atlas from "../../public/atlas-data.json";
 import { people } from "../lib/people.js";
 
 const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
+/* DERIVED, NOT TYPED. This line read «Sixty-two people ... five per cent» until
+   11 October 2026, when the ancestors data said 93 and the seventh generation
+   was 16 of 128. A number written into prose goes stale the next time the
+   registers give something up, and this one had. */
+const g7 = anc.generations[6];
+const g7pc = Math.round(100 * g7.found / g7.possible);  /* `found` is a COUNT, not an array */
 const more = [
-  ["/ancestors", "The ancestors of Mia and Rocco", "Sixty-two people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, five per cent complete by the seventh generation, and one thread at the tenth."],
+  ["/ancestors", "The ancestors of Mia and Rocco", `${anc.total} people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, ${g7pc}% complete by the seventh generation, and one thread at the tenth.`],
   ["/the-hundred-and-ten", "The hundred and ten", "The archive's largest open question, answered on the day it was built: a hundred and ten Piedimonte Etneo Mazza who turned out to be the families of Michael Rocco Mazza's great-great-uncles."],
   ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1815, to two children born in Brisbane."],
   ["/arena", "The Arena", "Thirty-nine Arena of Scilla in a single unbroken family — the counter-example, and the reason a surname tells you least about a family."],
