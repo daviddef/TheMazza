@@ -1,0 +1,13 @@
+# Pages this archive draws by hand although three or more archives carry the
+# name. Each line is "page: reason", and checkpages.py prints the reason on
+# every run — an exemption nobody reads is an exemption nobody revisits.
+#
+# CHANGES IS NOT HERE. It was harmonised onto the kit's Changes component on
+# 11 October 2026, which is what seven of the eight archives already did. The
+# two below are different: in each the shared NAME hides a different OBJECT,
+# and the check's own documentation says forcing those onto a shared component
+# would measure the wrong thing.
+
+lines: SAME NAME, DIFFERENT SUBJECT. The two archives that harmonised this page use BranchRivers, which draws several families of ONE SURNAME as lanes — Blazevic's is titled "The Lines of a Name" and exists because a surname is not a family. This archive's /lines/ is "The Four Quarters": Michael Rocco Mazza's four grandparents, four separate families from three towns, and four very different depths of evidence. It is an argument about how unequal the four sides of one person's ancestry are, not about one surname branching. BranchRivers has no lane for that and would have to be fed invented lanes to render it.
+
+name: THE COMPONENT NEEDS DATA THIS ARCHIVE DOES NOT HAVE. Six of the seven archives draw /name/ with Distribution, which renders one horizontal bar per place from a country-count-density table. This archive holds no surname-frequency data of any kind — the siblings derive theirs from a `world` array that has no equivalent here, and name-evidence.json is seven people's name spellings, not a distribution. /name/ here is 67 lines of prose about what the ten surnames mean and whether sharing one tells you anything about kinship; it draws no bars by hand, so there is no duplicated drawing for the check to be catching. Adding the component would mean inventing frequency figures, which is the one thing this archive must not do. REVISIT IF real distribution data is ever sourced — then the component is the right answer and this exemption should go.

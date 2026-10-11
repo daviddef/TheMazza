@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import corrections from "../data/corrections.json";
 import additions from "../data/additions.json";
+import Changes from "@daviddef/archive-kit/components/Changes.astro";
 
 /* A reader arriving at this many corrections needs to be told what moved and when.
    THE DEK IS DERIVED FROM corrections.count, not typed: it said «Sixty-two» until
@@ -85,6 +86,30 @@ const days = [
     ],
   },
 ];
+
+/* HARMONISED 11 October 2026. The estate check counts a page that three or more
+   archives carry as a shared idea, and seven of the eight already drew this one
+   with the kit's Changes component while this archive drew it by hand.
+   THE DATA ABOVE IS UNTOUCHED — only the rendering changed. The two-part shape
+   this page has always had, «what the records gave» against «what this archive
+   had wrong», survives as the component's `kind`, which it renders as a chip and
+   turns into filter buttons. A retraction's first sentence becomes its title and
+   the rest its body, because these were written as prose and have no short name. */
+const firstSentence = (t) => {
+  const i = t.indexOf(". ");
+  return i > 0 && i < 140 ? [t.slice(0, i + 1), t.slice(i + 2)] : [t, ""];
+};
+const kitDays = days.map((d) => ({
+  when: d.date,
+  id: d.date.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
+  entries: [
+    ...(d.found || []).map(([src, what]) => ({ title: src, found: what, kind: "from a register" })),
+    ...(d.fixed || []).map((f) => {
+      const [head, rest] = firstSentence(f);
+      return { title: head, did: rest || null, kind: "taken back" };
+    }),
+  ],
+}));
 ---
 <Base title="What changed" eyebrow="A log of the days this archive moved"
       dek={`${corrections.count} corrections is too many to arrive at cold. This is what moved, when, and what the record was — including the things this archive got wrong and had to take back.`}>
@@ -97,32 +122,14 @@ const days = [
     </div>
   </section>
 
-  {days.map((d) => (
-    <section class="blk">
-      <div class="lab">{d.date}</div>
-      <h2 style="margin-top:.4rem">{d.title}</h2>
-
-      <h3 style="margin-top:1.6rem;margin-bottom:.6rem">What the records gave</h3>
-      <div class="rec">
-        {d.found.map(([src, what]) => (
-          <>
-            <div class="k">{src}</div>
-            <div class="v">{what}</div>
-            <div class="w">documented</div>
-          </>
-        ))}
-      </div>
-
-      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">What this archive had wrong</h3>
-      <ul class="prose" style="margin-top:.6rem">
-        {d.fixed.map((f) => <li style="margin-bottom:.5rem">{f}</li>)}
-      </ul>
-      <p class="note" style="margin-top:18px">Every one of these is still on the page where it was
-      first argued, with the reasoning that led to it. Nothing has been quietly deleted. An archive
-      that only ever agrees with itself is not doing any work — and the retractions are the part a
-      reader can check the method by.</p>
-    </section>
-  ))}
+  <section class="blk">
+    <p class="note" style="margin-bottom:1.2rem"><strong>What the records gave</strong> and
+    <strong>what this archive had wrong</strong> are different things, and the chips below keep them
+    apart — reading a register for six hours and finding nothing is a day's work and no discovery.
+    Every retraction is still on the page where it was first argued, with the reasoning that led to
+    it. Nothing has been quietly deleted.</p>
+    <Changes days={kitDays} u={u} />
+  </section>
 
   <section class="blk">
     <p class="note"><strong>This page is curated, and it has a hole in it.</strong> It records the
