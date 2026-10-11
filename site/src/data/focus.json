@@ -223,8 +223,8 @@
       "comp": 1
      },
      {
-      "id": "@I594@",
-      "slug": "alessandro-mazza-2",
+      "id": "@I588@",
+      "slug": "alessandro-mazza",
       "name": "Alessandro Mazza",
       "surname": "Mazza",
       "born": null,
@@ -238,8 +238,8 @@
       "comp": 1
      },
      {
-      "id": "@I588@",
-      "slug": "alessandro-mazza",
+      "id": "@I594@",
+      "slug": "alessandro-mazza-2",
       "name": "Alessandro Mazza",
       "surname": "Mazza",
       "born": null,
@@ -763,21 +763,6 @@
       "comp": 1
      },
      {
-      "id": "@I566@",
-      "slug": "giovanni-mazza-4",
-      "name": "Giovanni Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I354@",
       "slug": "giovanni-mazza-3",
       "name": "Giovanni Mazza",
@@ -790,6 +775,21 @@
       "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
+      "comp": 1
+     },
+     {
+      "id": "@I566@",
+      "slug": "giovanni-mazza-4",
+      "name": "Giovanni Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
       "comp": 1
      },
      {
@@ -1033,36 +1033,6 @@
       "comp": 1
      },
      {
-      "id": "@I543@",
-      "slug": "maria-mazza-3",
-      "name": "Maria Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I553@",
-      "slug": "maria-mazza-5",
-      "name": "Maria Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I507@",
       "slug": "maria-mazza-2",
       "name": "Maria Mazza",
@@ -1078,8 +1048,38 @@
       "comp": 1
      },
      {
+      "id": "@I543@",
+      "slug": "maria-mazza-3",
+      "name": "Maria Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
       "id": "@I547@",
       "slug": "maria-mazza-4",
+      "name": "Maria Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I553@",
+      "slug": "maria-mazza-5",
       "name": "Maria Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1273,8 +1273,8 @@
       "comp": 1
      },
      {
-      "id": "@I552@",
-      "slug": "pina-mazza-2",
+      "id": "@I550@",
+      "slug": "pina-mazza",
       "name": "Pina Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1288,8 +1288,8 @@
       "comp": 1
      },
      {
-      "id": "@I550@",
-      "slug": "pina-mazza",
+      "id": "@I552@",
+      "slug": "pina-mazza-2",
       "name": "Pina Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1588,8 +1588,8 @@
       "comp": 1
      },
      {
-      "id": "@I512@",
-      "slug": "umberto-mazza-2",
+      "id": "@I506@",
+      "slug": "umberto-mazza",
       "name": "Umberto Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1603,8 +1603,8 @@
       "comp": 1
      },
      {
-      "id": "@I506@",
-      "slug": "umberto-mazza",
+      "id": "@I512@",
+      "slug": "umberto-mazza-2",
       "name": "Umberto Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1781,83 +1781,6 @@
    },
    {
     "n": 1,
-    "earliest": null,
-    "latest": null,
-    "towns": [
-     "Brisbane, Queensland"
-    ],
-    "component": 3,
-    "onSpine": [],
-    "people": [
-     {
-      "id": "@I15@",
-      "slug": "jack-mazza",
-      "name": "Jack Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
-      "comp": 3
-     }
-    ]
-   },
-   {
-    "n": 1,
-    "earliest": null,
-    "latest": null,
-    "towns": [],
-    "component": 7,
-    "onSpine": [],
-    "people": [
-     {
-      "id": "@I17@",
-      "slug": "mazza",
-      "name": "Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 7
-     }
-    ]
-   },
-   {
-    "n": 1,
-    "earliest": null,
-    "latest": null,
-    "towns": [],
-    "component": 4,
-    "onSpine": [],
-    "people": [
-     {
-      "id": "@I18@",
-      "slug": "mazza-2",
-      "name": "Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 4
-     }
-    ]
-   },
-   {
-    "n": 1,
     "earliest": 1880,
     "latest": 1880,
     "towns": [
@@ -1887,6 +1810,33 @@
    },
    {
     "n": 1,
+    "earliest": null,
+    "latest": null,
+    "towns": [
+     "Brisbane, Queensland"
+    ],
+    "component": 4,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@I15@",
+      "slug": "jack-mazza",
+      "name": "Jack Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": true,
+      "birthPlace": "Brisbane, Queensland",
+      "comp": 4
+     }
+    ]
+   },
+   {
+    "n": 1,
     "earliest": 1872,
     "latest": 1872,
     "towns": [
@@ -1911,6 +1861,56 @@
       "datesHidden": false,
       "birthPlace": "Piedimonte Etneo",
       "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": null,
+    "latest": null,
+    "towns": [],
+    "component": 5,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@I17@",
+      "slug": "mazza",
+      "name": "Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 5
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": null,
+    "latest": null,
+    "towns": [],
+    "component": 6,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@I18@",
+      "slug": "mazza-2",
+      "name": "Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 6
      }
     ]
    }
@@ -2228,6 +2228,36 @@
       "comp": 1
      },
      {
+      "id": "@I111@",
+      "slug": "anna-arena-1955",
+      "name": "Anna Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": true,
+      "birthPlace": "Brisbane, Queensland",
+      "comp": 1
+     },
+     {
+      "id": "@I466@",
+      "slug": "anna-arena-3",
+      "name": "Anna Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
       "id": "@I472@",
       "slug": "anna-arena-4",
       "name": "Anna Arena",
@@ -2270,36 +2300,6 @@
       "registerSources": [],
       "datesHidden": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I466@",
-      "slug": "anna-arena-3",
-      "name": "Anna Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I111@",
-      "slug": "anna-arena-1955",
-      "name": "Anna Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
       "comp": 1
      },
      {
@@ -2351,21 +2351,6 @@
       "comp": 1
      },
      {
-      "id": "@I474@",
-      "slug": "clemente-arena-3",
-      "name": "Clemente Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
       "id": "@I260@",
       "slug": "clemente-arena-2",
       "name": "Clemente Arena",
@@ -2378,6 +2363,21 @@
       "registerSources": [],
       "datesHidden": false,
       "birthPlace": "Scilla, Reggio Calabria",
+      "comp": 1
+     },
+     {
+      "id": "@I474@",
+      "slug": "clemente-arena-3",
+      "name": "Clemente Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
       "comp": 1
      },
      {
@@ -2476,6 +2476,38 @@
       "comp": 1
      },
      {
+      "id": "@Rgiuseppe-arena-2@",
+      "slug": "giuseppe-arena-1925",
+      "name": "Giuseppe Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": 1925,
+      "bornText": "",
+      "diedText": "27 March 1925",
+      "fromRegister": true,
+      "registerSources": [
+       "Antenati name index, Scilla deaths: «Giuseppe Arena, Morte: Scilla 27/03/1925, Padre Domenico, Madre Teresa Polistena, Coniuge Serafina Vita»"
+      ],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 0
+     },
+     {
+      "id": "@I465@",
+      "slug": "giuseppe-arena-4",
+      "name": "Giuseppe Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "datesHidden": false,
+      "birthPlace": "",
+      "comp": 1
+     },
+     {
       "id": "@I471@",
       "slug": "giuseppe-arena-5",
       "name": "Giuseppe Arena",
@@ -2504,38 +2536,6 @@
       "datesHidden": false,
       "birthPlace": "",
       "comp": 1
-     },
-     {
-      "id": "@I465@",
-      "slug": "giuseppe-arena-4",
-      "name": "Giuseppe Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@Rgiuseppe-arena-2@",
-      "slug": "giuseppe-arena-1925",
-      "name": "Giuseppe Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": 1925,
-      "bornText": "",
-      "diedText": "27 March 1925",
-      "fromRegister": true,
-      "registerSources": [
-       "Antenati name index, Scilla deaths: «Giuseppe Arena, Morte: Scilla 27/03/1925, Padre Domenico, Madre Teresa Polistena, Coniuge Serafina Vita»"
-      ],
-      "datesHidden": false,
-      "birthPlace": "",
-      "comp": 0
      },
      {
       "id": "@I112@",

@@ -496,13 +496,13 @@ for x in {canonical.get(z, z) for z in I}:
                 seen.add(n2)
                 st.append(n2)
     comps.append(comp)
-comps.sort(key=len, reverse=True)
-comp_of = {}
-for idx, c in enumerate(comps, 1):
-    for x in c:
-        comp_of[x] = idx
-for z in I:                      # every original id inherits its canonical's component
-    comp_of.setdefault(z, comp_of.get(canonical.get(z, z), 0))
+
+# MEMBERSHIP IS DECIDED HERE; THE NUMBERS ARE HANDED OUT LATER.
+# The walk above visits a set, so it discovers the pieces in whatever order
+# this interpreter's hash seed produces. That is harmless for membership — who
+# is in a piece does not depend on when it was found — but it must not be
+# allowed to reach the numbers, so numbering waits until the slug ledger is
+# read and can supply a frozen tie-break. See «component numbers» below.
 
 # ------------------------------------------------------------------ families
 
@@ -648,6 +648,41 @@ open(_LEDGER, "w", encoding="utf-8").write(
     json.dumps(_ledger_doc, ensure_ascii=False, indent=1) + "\n")
 if _minted:
     print(f"  person-slugs.json: {len(_minted)} new slug(s) frozen")
+
+# --------------------------------------------------------- component numbers
+#
+# A NUMBER MAY NOT DEPEND ON THE ORDER THE GRAPH WALK HAPPENED TO FIND THINGS.
+#
+# The pieces were found above by a walk over a set, so their discovery order
+# changes with the interpreter's hash seed. Sorting by size alone does not fix
+# that: `sort` is stable, so same-size pieces keep the order they arrived in,
+# and this export is mostly same-size pieces — eight of the ten are a single
+# person each. Two builds of identical data therefore renumbered them freely:
+# 7 became 8 and 9 became 3 with nobody's parentage changing, and the notes on
+# /components/ that were keyed to a number stopped rendering. check_shown.py
+# carries the canaries that caught it.
+#
+# So: largest piece first, and ties broken by the alphabetically first slug in
+# the piece. Size first because every page that lists the pieces leads with the
+# biggest, and the slug because it is the one name for a person this archive
+# promises never to recompute — person-slugs.json freezes it at birth. Breaking
+# the tie on a birth year or a display name would hand the numbering straight
+# back to the research, which corrects both constantly; breaking it on the
+# GEDCOM id would be stable but arbitrary, and would order the singles table
+# @I1@, @I10@, @I100@, @I2@. Ordering by slug makes that table's numbers climb
+# with the names beside them.
+#
+# This is still a number assigned by a build, and it still moves when the data
+# moves: join two pieces and everything below them shifts up. It is stable
+# across runs, not across findings — so prose must go on selecting a piece by
+# who is in it, exactly as the comment at the top of components.astro insists.
+comps.sort(key=lambda c: (-len(c), min(slug_of.get(x, "\uffff") for x in c)))
+comp_of = {}
+for idx, c in enumerate(comps, 1):
+    for x in c:
+        comp_of[x] = idx
+for z in I:                      # every original id inherits its canonical's component
+    comp_of.setdefault(z, comp_of.get(canonical.get(z, z), 0))
 
 # ------------------------------------------------------------------- sources
 

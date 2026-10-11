@@ -105,20 +105,37 @@ def descent_groups(surname):
         groups.append(comp)
     out = []
     for comp in groups:
-        ppl = [brief(i) for i in comp]
+        # ORDER THE PEOPLE FIRST, AND ON A KEY THAT CANNOT TIE.
+        # The walk above pushes from `adj[c]`, which is a set, so it hands the
+        # group back in an order that changes with the interpreter's hash seed.
+        # Sorting on (year, name) does not launder that: this surname runs to
+        # four undated Giovanni Mazza and five undated Anna Arena, so the key is
+        # a dead tie for them and a stable sort just preserves whatever the
+        # walk did. Two builds of identical data swapped the namesakes, and
+        # every figure drawn off this list below — the towns, the component,
+        # the earliest year — inherited the coin toss, because Counter reports
+        # ties in insertion order. The slug is the tie-break because it is
+        # unique by construction and frozen in person-slugs.json for good.
+        ppl = sorted((brief(i) for i in comp),
+                     key=lambda r: (r["born"] or 9999, r["name"], r["slug"]))
         years = [p["born"] for p in ppl if p["born"]]
         towns = collections.Counter(p["birthPlace"] for p in ppl if p["birthPlace"])
-        ppl.sort(key=lambda r: (r["born"] or 9999, r["name"]))
+        comp_counts = collections.Counter(p["comp"] for p in ppl)
         out.append({
             "n": len(ppl),
             "earliest": min(years) if years else None,
             "latest": max(years) if years else None,
-            "towns": [t for t, _ in towns.most_common(3)],
-            "component": collections.Counter(p["comp"] for p in ppl).most_common(1)[0][0],
+            # Commonest first, then alphabetically — so an even split between
+            # two towns stops depending on which one was counted first.
+            "towns": [t for t, _ in sorted(towns.items(), key=lambda kv: (-kv[1], kv[0]))[:3]],
+            "component": min(comp_counts.items(), key=lambda kv: (-kv[1], kv[0]))[0],
             "onSpine": sorted({p["name"] for p in ppl if p["id"] in spine_ids}),
             "people": ppl,
         })
-    out.sort(key=lambda gset: (-len(gset["onSpine"]), -gset["n"]))
+    # Spine groups first, then the biggest; the earliest slug settles the rest,
+    # because most of these groups are a single undated bearer and so tie on
+    # both of the keys that matter.
+    out.sort(key=lambda g: (-len(g["onSpine"]), -g["n"], g["people"][0]["slug"]))
     return out
 
 focus = {}
