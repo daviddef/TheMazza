@@ -11,7 +11,35 @@ import additions from "../data/additions.json";
    Newest first. Each entry says what the record was and what it changed. */
 const days = [
   {
-    date: "13–14 September 2026, the second run",
+    date: "11 October 2026, the Sicilian day",
+    title: "Simone Nicotra ruled out of two towns, and three false negatives found in this archive's own record",
+    found: [
+      ["Giarre, Morti 1820\u20131860 \u2014 the D section, all 39 readable years",
+       "MARIANNA DAIDONE is in no Giarre death Tavola. The first pass had read M and N together, because they sit side by side, and skipped D in every single year \u2014 and an Italian death index files a married woman under her MAIDEN name. Eight years rule D blank outright; 1841 gives the letter a whole empty page of its own."],
+      ["Mascali, Morti 1820\u20131872 \u2014 51 of its 52 years",
+       "Neither Simone nor Marianna died at Mascali either. But both surnames LIVE there, which Giarre could never show: SIX Nicotra decedents, and in 1841 the first DAIDONE decedent found anywhere in this project \u2014 Angela Dajdone, aged fifty, \u00abnata in Mascali\u00bb."],
+      ["Mascali, Morti 1869 atto 63",
+       "ALFIO NICOTRA, died 13 May 1869 aged SEVENTY-THREE, \u00abnato in Giarre\u00bb, \u00abfiglio del fu GIUSEPPE e della fu CATERINA, morta in Giarre\u00bb. He is the father named in both the 1848 and 1851 Mascali Nicotra acts, so GIUSEPPE NICOTRA OF GIARRE stands in Simone's own generation. A brother is the natural reading and is NOT proved."],
+      ["Mascali, Morti 1828 atti 49 and 103",
+       "Two widows alive at Mascali in 1828 and named by their children's acts: MARIA NICOTRA, widow of Carmelo Tomarchio, and DONNA SANTA DAJDONE, widow of Don Domenico Bassi. Neither ever appears as a decedent in the fifty-one years swept afterwards."],
+      ["Giarre, Morti 1842 atto 189",
+       "\u00abALFIO NICOTRA D'ANNI SETTANTA, SPOSO DI ROSA PAPPALARDO \u2026 FIGLIO DI FU GIUSEPPE e di FU LEONARDA PENNISI\u00bb. This archive had inferred that identification from the Tavola and never checked it against the act. The act confirms it \u2014 and proves there are TWO Alfio Nicotras, born about 1772 and about 1796, who must not be merged."],
+      ["Giarre, Matrimoni 1845\u20131860 \u2014 15 of 16 years",
+       "No Nicotra groom in any of them, so Simone had no son who married at Giarre in those years. A marriage act names BOTH sets of parents, which is why this was the right book. 1851 turns out to be ordered by the groom's FORENAME, so a surname search finds nothing while appearing to work."],
+      ["Giarre, Morti 1854",
+       "The Tavola mapped from its start for the first time. Its D section had never been reached and is now read \u2014 no Daidone. Its N section is NOT unread: the binder put 1856's N-to-Z run where 1854's belongs, so the letters are not in the volume at all."],
+    ],
+    fixed: [
+      "\u00abGIARRE MORTI 1850\u00bb WAS READ IN MACCHIA'S REGISTER. This archive recorded 1850's missing index as recovered from \u00abthe duplicate deposit\u00bb and called it the first time the two-deposit rule had paid. That container is labelled MACCHIA \u2014 a different comune. The year is now marked unread and the sweep stands at 39 of 41 years, not 40.",
+      "321 OF THE 808 ROWS IN THE GIARRE ARK LIST WERE MACCHIA REGISTERS, filed as Giarre and counted as Giarre's own second copies. They are split into their own file, and both build tools now know Macchia exists. The tell had been visible all along: those volumes' PATRIA column names Milo, Macchia and Dagala, which are Macchia's hamlets.",
+      "\u00abGIARRE HOLDS TWO COPIES OF EVERY YEAR\u00bb was never true, and this page's sibling said so to readers for weeks. The second copy was always the neighbouring town.",
+      "NINE DOCUMENTED PEOPLE HAD NO PAGES. They were added to the data, every gate passed and the deploy went green \u2014 but `npm run build` does not rebuild people.json, so none of them reached the site. The archive went from 698 people to 707 once the root chain was actually run.",
+      "TWO HEADLINE NUMBERS WERE STALE. This page's own opening line said \u00abSixty-two corrections\u00bb while the stat box three lines below it rendered 235, and the home page offered \u00abSixty-two people across ten generations\u00bb where the ancestors data says 93. Both are now derived from the data instead of typed.",
+      "TWENTY SWEEP ROWS still ended \u00abTHE D SECTION, FOR DAIDONE, WAS NOT READ IN THIS PASS\u00bb after it had been read, and the 1842 row dated Alfio Nicotra's death to February when the act says 16 December.",
+    ],
+  },
+  {
+    date: "13\u201314 September 2026, the second run",
     title: "Rocco Arena's own marriage act, and two register series nobody knew were there",
     found: [
       ["Scilla, Matrimoni 1888 atto 63",
@@ -95,6 +123,15 @@ const days = [
       reader can check the method by.</p>
     </section>
   ))}
+
+  <section class="blk">
+    <p class="note"><strong>This page is curated, and it has a hole in it.</strong> It records the
+    days somebody sat down and wrote them up, not every day the archive moved — and between
+    <strong>14 September and 11 October 2026</strong> more than three hundred commits landed that are
+    not described here. The honest record of those is the commit log and
+    <a href={u("/searched/")}>What Has Been Read</a>, which is generated from the data and cannot
+    fall behind it. If the newest date above is far behind today, trust those two and not this.</p>
+  </section>
 
   <section class="blk" style="border-bottom:0">
     <h2>Where to read the detail</h2>
