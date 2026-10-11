@@ -52,7 +52,11 @@ const HOUSES = [
   ["Salvadore", "Spina Rosa", "1820, atto 181"],
   ["Mariano", "Spina Santa", "1821, atto 14"],
   ["Francesco", "Fresta Anna", "1827, atti 94 and 123 — two daughters in one year"],
-  ["Alfio", "Pappalardo Rosa", "1831, atto 149 — Isidoro, contadino"],
+  ["Alfio", "Pappalardo Rosa", "1831, atto 149 and 1836, atto 113 — Isidoro and Francesca, both grown"],
+  ["Giuseppe", "Pennisi Leonarda", "1842, atto 189 — Alfio's own parents, named by his death act"],
+  ["Dottor Don Alfio", "Consoli Donna Antonina", "1847, atto 146 — the titled line"],
+  ["Don Ferdinando", "Rubbiero Concetta", "1856, atto 34 — titled also"],
+  ["Giuseppe", "Coco Carmela", "1859, atto 4 — not the Giuseppe of Matrimoni 1820, who married a Cattabiano"],
 ];
 const YEARS = nic.byComune["Giarre"] || [];
 const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
@@ -295,18 +299,29 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
           <li><strong>Nicotra {h[0]}</strong> × {h[1]} <span class="dek">— {h[2]}</span></li>
         ))}
       </ul>
-      <p style="margin-top:1rem">That list is the reason none of them is attached to anybody. Six
-      Nicotra fathers in one small town, in one generation, is exactly the situation in which a
-      shared surname proves nothing. <strong>Simone and Marianna Daidone appear twice</strong> —
-      registering a daughter in April 1820 and burying another in May — which makes them a real
-      household and still not Rosario's.</p>
-      <p class="note" style="margin-top:16px"><strong>Said plainly about this sweep's shape.</strong>
-      In these Giarre death <em>Tavole</em> the M and N sections are adjacent, so
-      <strong>Musumeci is read in the same view as Nicotra</strong> at no extra cost, and no
-      Marianna Musumeci has appeared. <strong>The D section, for Daidone, sits pages earlier and has
-      not been read.</strong> An Italian death index files a married woman under her maiden name, so
-      Marianna could be waiting under D in a year already counted here as read. That gap is recorded
-      rather than assumed.</p>
+      <p style="margin-top:1rem">That list is the reason none of them is attached to anybody.
+      <strong>{HOUSES.length} Nicotra fathers</strong> in one small town, across three generations,
+      is exactly the situation in which a shared surname proves nothing. <strong>Simone and Marianna
+      Daidone appear twice</strong> — registering a daughter in April 1820 and burying another in
+      May — which makes them a real household and still not Rosario's.</p>
+      <p class="note" style="margin-top:16px"><strong>All three surnames were read, and that
+      took two passes.</strong> In these <em>Tavole</em> the M and N sections are adjacent, so
+      <strong>Musumeci came free with Nicotra</strong> and no Marianna Musumeci appeared. The
+      <strong>D</strong> section, for <strong>Daidone</strong>, sits pages earlier and the first
+      pass skipped it in all forty years — an Italian death index files a married woman under her
+      maiden name, so she could have been sitting under D in a year already counted as read. That
+      gap was written down rather than assumed, and then it was closed:
+      <strong>every D section from 1820 to 1860 has now been read, and there is no Daidone in any
+      of them.</strong> What is there instead is D'Urso, D'Angelo, D'Agata, Di Bella, Di Stefano and
+      a great many foundlings — 1823, 1825, 1827, 1828, 1830, 1832, 1841 and 1847 rule D blank
+      altogether, and 1841 gives the letter a whole empty page of its own.</p>
+      <p class="note" style="margin-top:12px"><strong>So the plain result.</strong> Neither Simone
+      Nicotra nor his wife Marianna — looked for under <em>Nicotra</em>, under <em>Daidone</em> and
+      under <em>Musumeci</em> — died at Giarre between 1820 and 1860. He was forty-four in 1820 and
+      would have been eighty-four at the end of it. They died after 1860, or they died somewhere
+      else. Rosario was at Mascali by 1841, which is where his son was born, so
+      <strong>Mascali's own death registers before 1873 are the place to look next</strong>; this
+      archive has read them only from 1873.</p>
       <table class="tab" style="margin-top:18px">
         <thead><tr><th>Year</th><th>N section</th><th>What is in it</th></tr></thead>
         <tbody>
