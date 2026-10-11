@@ -37,6 +37,14 @@ ARKS = {
     "Zambrone": ["data/zambrone-arks.tsv"],
     "Mascali": ["data/mascali-arks.tsv"],
     "Giarre": ["data/giarre-arks.tsv"],
+    # MACCHIA WAS INSIDE GIARRE'S FILE UNTIL 11 OCTOBER 2026. 321 of that
+    # file's 808 rows were Macchia registers, filed as Giarre, and this map
+    # counted every one of them as Giarre's. The discriminator is the ark:
+    # every an_ua1999* is Macchia and every other is Giarre, checked against
+    # eight manifest labels across 1821-1871 and confirmed by the two groups
+    # sharing no segnatura value. Macchia is its own comune, later absorbed
+    # into Giarre; its registers were never a second copy of Giarre's.
+    "Macchia": ["data/macchia-arks.tsv"],
     "Riposto": ["data/riposto-arks.tsv"],
 }
 

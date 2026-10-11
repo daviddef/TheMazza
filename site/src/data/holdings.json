@@ -171,7 +171,7 @@
    "type": "Matrimoni",
    "from": 1866,
    "to": 1893,
-   "volumes": 46,
+   "volumes": 28,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -182,7 +182,7 @@
    "type": "Matrimoni, allegati",
    "from": 1870,
    "to": 1893,
-   "volumes": 42,
+   "volumes": 26,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -193,7 +193,7 @@
    "type": "Matrimoni, pubblicazioni",
    "from": 1866,
    "to": 1893,
-   "volumes": 46,
+   "volumes": 29,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -204,7 +204,7 @@
    "type": "Matrimoni, pubblicazioni allegati",
    "from": 1871,
    "to": 1893,
-   "volumes": 35,
+   "volumes": 21,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -215,7 +215,7 @@
    "type": "Morti",
    "from": 1866,
    "to": 1893,
-   "volumes": 57,
+   "volumes": 29,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -226,7 +226,7 @@
    "type": "Morti, allegati",
    "from": 1866,
    "to": 1893,
-   "volumes": 22,
+   "volumes": 20,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -237,7 +237,7 @@
    "type": "Nati",
    "from": 1866,
    "to": 1893,
-   "volumes": 63,
+   "volumes": 37,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -248,7 +248,7 @@
    "type": "Nati, allegati",
    "from": 1872,
    "to": 1893,
-   "volumes": 20,
+   "volumes": 19,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -259,7 +259,7 @@
    "type": "Diversi",
    "from": 1820,
    "to": 1860,
-   "volumes": 31,
+   "volumes": 26,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -269,8 +269,8 @@
    "fondo": "restaurazione",
    "type": "Matrimoni",
    "from": 1820,
-   "to": 1862,
-   "volumes": 85,
+   "to": 1860,
+   "volumes": 41,
    "bought": 25,
    "indexed": 0,
    "noindex": 0
@@ -281,7 +281,7 @@
    "type": "Matrimoni, memorandum notificazioni ed opposizioni",
    "from": 1841,
    "to": 1860,
-   "volumes": 48,
+   "volumes": 22,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -291,8 +291,8 @@
    "fondo": "restaurazione",
    "type": "Matrimoni, processetti",
    "from": 1841,
-   "to": 1864,
-   "volumes": 44,
+   "to": 1860,
+   "volumes": 20,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -302,20 +302,9 @@
    "fondo": "restaurazione",
    "type": "Morti",
    "from": 1820,
-   "to": 1862,
-   "volumes": 90,
-   "bought": 42,
-   "indexed": 0,
-   "noindex": 0
-  },
-  {
-   "comune": "Giarre, Catania",
-   "fondo": "restaurazione",
-   "type": "Morti, annotazioni",
-   "from": 1852,
-   "to": 1893,
-   "volumes": 1,
-   "bought": 0,
+   "to": 1860,
+   "volumes": 45,
+   "bought": 41,
    "indexed": 0,
    "noindex": 0
   },
@@ -324,8 +313,8 @@
    "fondo": "restaurazione",
    "type": "Nati",
    "from": 1820,
-   "to": 1865,
-   "volumes": 101,
+   "to": 1860,
+   "volumes": 47,
    "bought": 29,
    "indexed": 0,
    "noindex": 0
@@ -337,6 +326,171 @@
    "from": 1820,
    "to": 1860,
    "volumes": 41,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 18,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, allegati",
+   "from": 1878,
+   "to": 1893,
+   "volumes": 16,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, pubblicazioni",
+   "from": 1867,
+   "to": 1893,
+   "volumes": 17,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "italiano",
+   "type": "Matrimoni, pubblicazioni allegati",
+   "from": 1878,
+   "to": 1893,
+   "volumes": 14,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "italiano",
+   "type": "Morti",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 28,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "italiano",
+   "type": "Morti, allegati",
+   "from": 1878,
+   "to": 1887,
+   "volumes": 2,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "italiano",
+   "type": "Nati",
+   "from": 1866,
+   "to": 1893,
+   "volumes": 26,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "italiano",
+   "type": "Nati, allegati",
+   "from": 1887,
+   "to": 1887,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "restaurazione",
+   "type": "Diversi",
+   "from": 1842,
+   "to": 1859,
+   "volumes": 5,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni",
+   "from": 1821,
+   "to": 1862,
+   "volumes": 44,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni, memorandum notificazioni ed opposizioni",
+   "from": 1841,
+   "to": 1860,
+   "volumes": 26,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "restaurazione",
+   "type": "Matrimoni, processetti",
+   "from": 1841,
+   "to": 1864,
+   "volumes": 24,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "restaurazione",
+   "type": "Morti",
+   "from": 1821,
+   "to": 1862,
+   "volumes": 45,
+   "bought": 1,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "restaurazione",
+   "type": "Morti, annotazioni",
+   "from": 1852,
+   "to": 1893,
+   "volumes": 1,
+   "bought": 0,
+   "indexed": 0,
+   "noindex": 0
+  },
+  {
+   "comune": "Macchia, Catania",
+   "fondo": "restaurazione",
+   "type": "Nati",
+   "from": 1821,
+   "to": 1865,
+   "volumes": 54,
    "bought": 0,
    "indexed": 0,
    "noindex": 0
@@ -1150,7 +1304,7 @@
   "bought": 521,
   "indexed": 3,
   "noindex": 7,
-  "comuni": 7
+  "comuni": 8
  },
  "named": [
   {

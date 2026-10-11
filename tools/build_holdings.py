@@ -45,8 +45,21 @@ BANKS = [
     ("data/mascali-arks.tsv",         "Mascali, Catania",               "year",  None),
     # The sixth town, opened 21 September off the words «nato a GIARRE» in
     # Giovanni Nicotra's 1872 publication certificate. The largest comune in
-    # this archive, and the only one that holds TWO COPIES OF EVERY YEAR.
+    # this archive.
+    #
+    # IT WAS DESCRIBED HERE AS «the only one that holds TWO COPIES OF EVERY
+    # YEAR» AND THAT WAS NEVER TRUE. The second copy was MACCHIA — a separate
+    # comune, later absorbed into Giarre — whose 321 registers sat inside
+    # data/giarre-arks.tsv and were counted here as Giarre's own duplicates.
+    # The belief cost something real: a sweep read MACCHIA Morti 1850 as
+    # Giarre's, on the strength of it being «the duplicate deposit», and
+    # recorded a Giarre negative that was a Macchia one. Split 11 October 2026.
     ("data/giarre-arks.tsv",          "Giarre, Catania",                "year",  None),
+    # Macchia, split out of Giarre's file on 11 October 2026. Every ark here
+    # begins an_ua1999; that is the discriminator, checked against eight
+    # manifest labels spread over 1821-1871 and corroborated by the two
+    # groups sharing no segnatura value at all.
+    ("data/macchia-arks.tsv",         "Macchia, Catania",               "year",  None),
     # The seventh town. Giarre's registers do not hold Giovanni Nicotra although
     # his own certificate says «nato a Giarre», and RIPOSTO registers separately
     # from 1821 -- so a man from the lower town could say Giarre and be entered
