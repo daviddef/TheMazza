@@ -12,6 +12,10 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import holdings from "../data/holdings.json";
 import coverage from "../data/coverage.json";
+/* DERIVED, NOT TYPED — this archive has been bitten four times by a number
+   written into prose and left to go stale. */
+const MACCHIA_N = coverage.held?.Macchia ?? 0;
+import coverage from "../data/coverage.json";
 import nic from "../data/nicotra.json";
 
 const HERE = "Giarre";
@@ -203,13 +207,20 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     every year. It does not, and the mistake cost a reading.</strong> Each register did appear to come
     twice under different <em>segnature</em>, and that looked like a duplicate deposit — a resource
     this archive had nowhere else. <strong>The second copy was a different town.</strong> Of the 808
-    rows once banked here, <strong>321 are MACCHIA</strong>, a neighbouring comune later absorbed into
+    rows once banked here, <strong>{MACCHIA_N} are MACCHIA</strong>, a neighbouring comune later absorbed into
     Giarre, and they are now kept separately; Giarre holds {nati.volumes} Nati, {morti.volumes} Morti
     and {matr.volumes} Matrimoni volumes in its own right. The tell was there to be read: the Macchia
     volumes' <em>Patria</em> column names Milo, Macchia and Dagala, which are Macchia's hamlets and not
     Giarre's. The discriminator is the ark — every <em>an_ua1999*</em> is Macchia — checked against
     eight manifest labels spread across 1821 to 1871, and the two groups share no <em>segnatura</em>
     between them.</p>
+    <p class="note" style="margin-top:12px"><strong>Macchia is now a comune this archive holds and has
+    barely opened.</strong> Those {MACCHIA_N} registers are counted to Macchia and no longer to Giarre, which is
+    the correct attribution and also means they are shown on no page of their own — a town with one
+    year read does not yet make an argument. <strong>Exactly one of them has been read</strong>:
+    Macchia <em>Morti</em> 1862, swept at D and N for Nicotra and Daidone, both absent. Everything
+    else is unexplored, and the count is a count of rows this archive holds rather than a listing
+    verified against the archive's own catalogue, which is why its coverage status stays open.</p>
     <p class="note" style="margin-top:12px"><strong>What it cost.</strong> Giarre's own
     <em>Morti</em> 1850 is scanned short and carries no index. A sweep took the index from what it
     believed was the duplicate and banked the year as read — <em>«the first time the two-deposit rule
