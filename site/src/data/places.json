@@ -401,6 +401,28 @@
   "n": 10
  },
  {
+  "name": "Mascali",
+  "born": 10,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": null,
+  "last": null,
+  "who": [
+   "angela-dajdone",
+   "angela-nicotra-1851",
+   "carmela-nicotra",
+   "carmelo-tomarchio",
+   "catarina-tomarchio",
+   "domenico-bassi",
+   "margherita-bassi",
+   "maria-nicotra-1",
+   "santa-dajdone",
+   "venera-murabito"
+  ],
+  "n": 10
+ },
+ {
   "name": "Catania, Sicily",
   "born": 8,
   "died": 1,
@@ -459,6 +481,26 @@
    "orazio-arena",
    "guiseppe-arena",
    "dominick-mazzitelli"
+  ],
+  "n": 8
+ },
+ {
+  "name": "Giarre",
+  "born": 8,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1800,
+  "last": 1800,
+  "who": [
+   "alfio-nicotra",
+   "alfio-nicotra-1796",
+   "giuseppe-nicotra",
+   "leonarda-pennisi",
+   "marianna-musumeci",
+   "rosario-nicotra-1872",
+   "salvadore-nicotra",
+   "simone-nicotra"
   ],
   "n": 8
  },
@@ -541,25 +583,6 @@
   "n": 7
  },
  {
-  "name": "Giarre",
-  "born": 7,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1800,
-  "last": 1800,
-  "who": [
-   "alfio-nicotra",
-   "alfio-nicotra-1796",
-   "giuseppe-nicotra",
-   "leonarda-pennisi",
-   "marianna-musumeci",
-   "rosario-nicotra-1872",
-   "simone-nicotra"
-  ],
-  "n": 7
- },
- {
   "name": "Gold Coast, Queensland",
   "born": 6,
   "died": 0,
@@ -592,24 +615,6 @@
    "carmela-anile",
    "antonio-anile-1873",
    "saveria-lesto"
-  ],
-  "n": 6
- },
- {
-  "name": "Mascali",
-  "born": 6,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "angela-dajdone",
-   "catarina-tomarchio",
-   "domenico-bassi",
-   "margherita-bassi",
-   "santa-dajdone",
-   "venera-murabito"
   ],
   "n": 6
  },

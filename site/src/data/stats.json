@@ -1,16 +1,16 @@
 {
  "exported": 614,
- "people": 707,
+ "people": 712,
  "duplicates": 22,
  "unresolvedNames": 57,
  "suppressLiving": false,
  "living": 0,
  "presumedLiving": 411,
- "written": 707,
- "withDeath": 95,
+ "written": 712,
+ "withDeath": 98,
  "datesHidden": 131,
  "ageThreshold": 80,
- "deceased": 707,
+ "deceased": 712,
  "families": 212,
  "sources": 39,
  "components": [
@@ -33,6 +33,6 @@
  "surnames": 154,
  "crossings": 21,
  "burials": 20,
- "households": 336,
+ "households": 338,
  "nudgee": 13
 }

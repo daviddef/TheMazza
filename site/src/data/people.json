@@ -44513,7 +44513,7 @@
   "key": "Alfio Nicotra (of Rosa Pappalardo)",
   "given": "Alfio",
   "surname": "Nicotra",
-  "sex": "",
+  "sex": "M",
   "living": false,
   "presumedLiving": false,
   "fromRegister": true,
@@ -44567,7 +44567,15 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rsalvadore-nicotra@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -44582,7 +44590,7 @@
   "key": "Alfio Nicotra (of Santa Previtera)",
   "given": "Alfio",
   "surname": "Nicotra",
-  "sex": "",
+  "sex": "M",
   "living": false,
   "presumedLiving": false,
   "fromRegister": true,
@@ -44621,7 +44629,15 @@
   "registerGen": "6",
   "photos": [],
   "parents": [],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rangela-nicotra@",
+    "name": "Angela Nicotra",
+    "slug": "angela-nicotra-1851",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -44729,6 +44745,68 @@
   "registerGen": "6",
   "photos": [],
   "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rangela-nicotra@",
+  "slug": "angela-nicotra-1851",
+  "name": "Angela Nicotra",
+  "key": "Angela Nicotra (of Alfio and Santa Previtera)",
+  "given": "Angela",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "presumedLiving": false,
+  "fromRegister": true,
+  "datesHidden": false,
+  "born": null,
+  "died": 1851,
+  "bornText": "",
+  "diedText": "30 December 1851",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Mascali",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "30 December 1851",
+    "year": 1851,
+    "place": "",
+    "text": "30 December 1851"
+   }
+  ],
+  "birthPlace": "Mascali",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "braccialiera",
+  "sources": [],
+  "registerSources": [
+   "Mascali, Morti 1851 atto 108 (Tavola, verified by native-scale crop)"
+  ],
+  "registerNote": "«NICOTRA ANGELA | d. | bracc.a | NICOTRA ALFIO / PREVITERA SANTA | 30 Dicembre 1851». Verified by crop because the SAME PAGE spells NICOLOSI twice, which makes the -tr- unambiguous. SHE IS NOT THE ANGELA NICOTRA ALREADY IN THIS ARCHIVE: that one comes from the family's own file with no dates and no source, and merging them on a shared forename is exactly the error this file exists to prevent. Her father is the Alfio who died at Mascali in 1869 aged seventy-three, «nato in Giarre». THE ACT ITSELF IS NOT YET READ. Generation is inferred from birth or death against SIMONE NICOTRA, who is gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent.",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Ralfio-nicotra-2@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra-1796",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [],
   "spouses": [],
   "siblings": [],
@@ -45997,6 +46075,114 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rcarmela-nicotra@",
+  "slug": "carmela-nicotra",
+  "name": "Carmela Nicotra",
+  "key": "Carmela Nicotra (of Giovanni)",
+  "given": "Carmela",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "presumedLiving": false,
+  "fromRegister": true,
+  "datesHidden": false,
+  "born": null,
+  "died": 1862,
+  "bornText": "",
+  "diedText": "3 July 1862",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Mascali",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "3 July 1862",
+    "year": 1862,
+    "place": "",
+    "text": "3 July 1862"
+   }
+  ],
+  "birthPlace": "Mascali",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Mascali, Morti 1862 atto 48 (Tavola, verified by native-scale crop)"
+  ],
+  "registerNote": "«NICOTRA CARMELA | d. | GIOVANNI | 3 Luglio 1862». The «d.» repeats Mascali from the line above, so she was Mascali-born — by the 1860s Nicotra is a resident surname there and not only a Giarre one passing through. Verified by crop because atto 13, two lines above in the same hand, is spelt NICOLOSI. Her father GIOVANNI NICOTRA is not otherwise placed and is deliberately not given a row: this archive holds several men of that name and a forename alone identifies none of them. THE ACT ITSELF IS NOT YET READ. Generation is inferred from birth or death against SIMONE NICOTRA, who is gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent.",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rcarmelo-tomarchio@",
+  "slug": "carmelo-tomarchio",
+  "name": "Carmelo Tomarchio",
+  "key": "Carmelo Tomarchio",
+  "given": "Carmelo",
+  "surname": "Tomarchio",
+  "sex": "",
+  "living": false,
+  "presumedLiving": false,
+  "fromRegister": true,
+  "datesHidden": false,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 14 June 1828",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Mascali",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 14 June 1828"
+   }
+  ],
+  "birthPlace": "Mascali",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Mascali, Morti 1828 atto 49, read in the original"
+  ],
+  "registerNote": "«FIGLIA DEL FU CARMELO» in his daughter Catarina's death act, so dead by June 1828. Husband of MARIA NICOTRA, who outlived him. Their daughter was twenty-two in 1828, so the marriage predates civil registration in 1820 and its act is parish-only. Generation is inferred from birth or death against SIMONE NICOTRA, who is gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -49278,6 +49464,52 @@
   "ancGen": null
  },
  {
+  "id": "@Rmaria-nicotra@",
+  "slug": "maria-nicotra-1",
+  "name": "Maria Nicotra",
+  "key": "Maria Nicotra (widow of Carmelo Tomarchio)",
+  "given": "Maria",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "presumedLiving": false,
+  "fromRegister": true,
+  "datesHidden": false,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Mascali",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Mascali",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Mascali, Morti 1828 atto 49, read in the original"
+  ],
+  "registerNote": "«e di MARIA NICOTRA domiciliata ANCHE IVI» — alive at Mascali in June 1828 and the first Nicotra trace in that comune. SHE IS NOT THE MARIA NICOTRA AT GENERATION FOUR, Salvatore Mazza's wife, born at Mascali in 1875 and died at Brisbane in 1963; the two are a century apart and the parenthesis is here to keep them apart. Of Simone Nicotra's own generation. SHE NEVER APPEARS AS A DECEDENT: fifty-one years of Mascali deaths were swept afterwards and she is not in them, so she died before 1820, after 1872, or elsewhere. Generation is inferred from birth or death against SIMONE NICOTRA, who is gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rmaria-teresa-polistina@",
   "slug": "maria-teresa-polistina",
   "name": "Maria Teresa Polistina",
@@ -50632,6 +50864,68 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 6
+ },
+ {
+  "id": "@Rsalvadore-nicotra@",
+  "slug": "salvadore-nicotra",
+  "name": "Salvadore Nicotra",
+  "key": "Salvadore Nicotra (of Alfio and Rosa Pappalardo)",
+  "given": "Salvadore",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "presumedLiving": false,
+  "fromRegister": true,
+  "datesHidden": false,
+  "born": null,
+  "died": 1848,
+  "bornText": "",
+  "diedText": "11 December 1848",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "11 December 1848",
+    "year": 1848,
+    "place": "",
+    "text": "11 December 1848"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Mascali, Morti 1848 atto 118 (Tavola, verified by native-scale crop)"
+  ],
+  "registerNote": "«NICOTRA SALVADORE | GIARRE | bracciale | NICOTRA ALFIO / PAPPALARDO ROSA | 11 Dicembre 1848». THE FIRST NICOTRA DECEDENT FOUND AT MASCALI, and the patria column gives GIARRE — a Giarre native who died in the next comune, which is what removed the objection that a Giarre Nicotra would not appear in Mascali's registers. This archive already held him from the other end: RIPOSTO Matrimoni 1844 atto 39 marries «NICOTRA SALVADORE, patria Giarre, son of Nicotra Alfio and Pappalardo Rosa» to Barbagallo Maria, and Riposto's births hold his children Alfio (1845) and Rosa (1847). So he married at Riposto in 1844 and died at Mascali in 1848. His father's death act, Giarre Morti 1842 atto 189, was read in the original. THE ACT ITSELF IS NOT YET READ — this rests on the Tavola. Generation is inferred from birth or death against SIMONE NICOTRA, who is gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Ralfio-nicotra@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rsanta-dajdone@",

@@ -69,6 +69,19 @@
   ]
  },
  {
+  "surname": "Nicotra",
+  "n": 17,
+  "dead": 17,
+  "living": 0,
+  "first": 1800,
+  "last": 1963,
+  "places": [
+   "Giarre",
+   "Mascali",
+   "Piedimonte Etneo, Catania, Sicily"
+  ]
+ },
+ {
   "surname": "Melluso",
   "n": 14,
   "dead": 14,
@@ -93,18 +106,6 @@
    "Piedimonte Etneo, Catania, Sicily",
    "Catania, Sicily",
    "Piedimonte Etneo"
-  ]
- },
- {
-  "surname": "Nicotra",
-  "n": 13,
-  "dead": 13,
-  "living": 0,
-  "first": 1800,
-  "last": 1963,
-  "places": [
-   "Giarre",
-   "Piedimonte Etneo, Catania, Sicily"
   ]
  },
  {
@@ -659,6 +660,17 @@
   "last": 1853,
   "places": [
    "Scilla"
+  ]
+ },
+ {
+  "surname": "Tomarchio",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1828,
+  "last": 1828,
+  "places": [
+   "Mascali"
   ]
  },
  {
@@ -1512,17 +1524,6 @@
   "last": null,
   "places": [
    "Zambrone"
-  ]
- },
- {
-  "surname": "Tomarchio",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": 1828,
-  "last": 1828,
-  "places": [
-   "Mascali"
   ]
  },
  {

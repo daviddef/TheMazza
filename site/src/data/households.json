@@ -9703,6 +9703,40 @@
   "born": null
  },
  {
+  "name": "Alfio Nicotra",
+  "head": "alfio-nicotra",
+  "headId": "@Ralfio-nicotra@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvadore-nicotra@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
+  "name": "Alfio Nicotra",
+  "head": "alfio-nicotra-1796",
+  "headId": "@Ralfio-nicotra-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rangela-nicotra@",
+    "name": "Angela Nicotra",
+    "slug": "angela-nicotra-1851",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
   "name": "Angela Bagnato",
   "head": "angela-bagnato",
   "headId": "@Rangela-bagnato@",
