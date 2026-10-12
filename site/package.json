@@ -51,7 +51,7 @@
     "check:arks": "python3 ../tools/check_arks.py"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#800db5774638b19af6d0c15f0a160084a1fe497b",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#281c8d6520fa14131c70252af52aecc568dd0541",
     "astro": "^5.18.2"
   },
   "devDependencies": {
