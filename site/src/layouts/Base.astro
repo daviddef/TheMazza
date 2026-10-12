@@ -24,10 +24,31 @@ const nav = [
 
 const here = Astro.url.pathname.replace(/\/$/, "");
 const on = (h) => here === u(h).replace(/\/$/, "");
-/* which of the seven this is, worked out the same way the ring does */
-const thisArchive = ring.archives.find(
+/* WHICH OF THE SEVEN THIS IS, and it must not be answered by `base` any more.
+   Every archive that moves to its own domain gets base "", and six of the seven
+   now have. `find(a => a.base === "")` returns the FIRST of them, which is the
+   Defranceschi archive — so this line was about to hand this page somebody
+   else's accent colour and, through VisitCount below, SOMEBODY ELSE'S
+   GOATCOUNTER SITE. That is not hypothetical: on 12 October 2026
+   lerena.defranceski.com and darcy.defranceski.com were both logging their
+   pageviews to thedefranceski.goatcounter.com, because they still ask this
+   question the old way.
+   whoami() settles it on the ORIGIN — it matches import.meta.env.SITE against
+   each entry's url — which is why astro.config's `site` and the ring's url for
+   this archive have to agree, and now do. */
+/* This is whoami()'s logic from the kit's lib/ring.js, inlined. The kit module
+   cannot be imported here as a bare specifier: it does `import ring from
+   "../data/archives.json"` with no `with { type: "json" }`, and Node's ESM
+   loader refuses that during static generation. SocialHead gets away with it
+   because Vite resolves its relative import. Inlined rather than patched so
+   that six other archives do not have to be re-pinned for a one-line fix. */
+const originOf = (x) => { try { return new URL(x).origin; } catch { return ""; } };
+const SITE_ORIGIN = originOf(import.meta.env.SITE || "");
+const onBase = ring.archives.filter(
   (a) => a.base === (import.meta.env.BASE_URL || "/").replace(/\/$/, "")
 );
+const thisArchive =
+  (SITE_ORIGIN && onBase.find((a) => originOf(a.url) === SITE_ORIGIN)) || onBase[0];
 ---
 <html lang="en" data-base={u("")}>
 <head>
