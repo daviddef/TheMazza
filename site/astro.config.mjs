@@ -1,10 +1,16 @@
 import { defineConfig } from 'astro/config';
 
-// GitHub Pages project site. To serve from a custom domain later,
-// set base to '/' and site to that domain.
+// Custom domain, from 12 October 2026: https://mazza.defranceski.com/
+// Served by GitHub Pages from this project repo. `base` is '/' because every
+// link here is now site-root relative, and site/public/CNAME is what keeps the
+// domain attached across Actions deploys — a CNAME that exists only in dist/ is
+// wiped by the next build, which is why a sibling archive with correct DNS still
+// serves a 404. The DNS was already right long before this: mazza.defranceski.com
+// has pointed at daviddef.github.io and the four GitHub Pages addresses all along,
+// and the only thing missing was this file and this line.
 export default defineConfig({
-  site: 'https://daviddef.github.io',
-  base: '/TheMazza',
+  site: 'https://mazza.defranceski.com',
+  base: '/',
   /* WHY outDir IS A VARIABLE, and why the default must stay 'dist'.
      Several sessions build this estate at once, and `astro build` EMPTIES its
      outDir before it refills it — so one session's build wipes the tree
@@ -24,7 +30,7 @@ export default defineConfig({
      surname is placed by descent and the page can finally say WHY the name is
      here — that a person married a person, and which person. The old address
      has been published, so it redirects rather than 404s. */
-  redirects: { '/families': '/TheMazza/marriages',
+  redirects: { '/families': '/marriages',
     /* 9 October 2026: the estate's address for this page is /changes/. */
-    '/what-changed': '/TheMazza/changes/' },
+    '/what-changed': '/changes/' },
 });
