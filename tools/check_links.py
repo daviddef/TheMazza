@@ -149,7 +149,17 @@ for row in csv.DictReader(open("data/corrections.tsv", encoding="utf-8"),
 for slug, files in sorted(named.items()):
     person = by_slug.get(slug)
     if person is None:
-        continue                      # the slug checks above already caught it
+        # NOT CAUGHT HERE, AND THE COMMENT THAT USED TO SIT ON THIS LINE SAID IT
+        # WAS. It read «the slug checks above already caught it», and the checks
+        # above read parent-links.tsv, qld-bdm.tsv and documented-joins.tsv —
+        # never corrections.tsv or documented-additions.tsv, whose slugs arrive
+        # a dozen lines below. Proved on 13 October 2026 by planting
+        # «ghost-person-xyz» in corrections.tsv: this file passed and
+        # check_corrections.py caught it.
+        # So the guard is real but it is SOMEWHERE ELSE, and anyone trimming
+        # check_corrections.py on the strength of that comment would have
+        # removed the only thing watching.
+        continue
     if not person.get("records") and not person.get("corrections"):
         fails.append(
             f"{slug} is named in {' and '.join(sorted(files))} and their page carries "
