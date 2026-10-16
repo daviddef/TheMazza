@@ -1,4 +1,5 @@
 ---
+import { md } from "@daviddef/archive-kit/lib/md.js";
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
@@ -103,10 +104,10 @@ const kitDays = days.map((d) => ({
   when: d.date,
   id: d.date.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
   entries: [
-    ...(d.found || []).map(([src, what]) => ({ title: src, found: what, kind: "from a register" })),
+    ...(d.found || []).map(([src, what]) => ({ title: md(src), found: md(what), kind: "from a register" })),
     ...(d.fixed || []).map((f) => {
       const [head, rest] = firstSentence(f);
-      return { title: head, did: rest || null, kind: "taken back" };
+      return { title: md(head), did: rest ? md(rest) : null, kind: "taken back" };
     }),
   ],
 }));

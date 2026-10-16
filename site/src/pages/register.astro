@@ -105,7 +105,7 @@ const regRows = groups.flatMap((g) => g.rows.map((r) => {
     .filter(([lab, cell], i) => i !== g.nameAt && cell && !isLevel(cell))
     .map(([lab, cell]) => (lab ? `<span class="dim">${esc(lab)}</span> ${esc(cell)}` : esc(cell)));
   return {
-    name: esc(r[g.nameAt] || "\u2014"),
+    name: r[g.nameAt] || "\u2014",
     kind: g.title,
     detail: bits.join(" &middot; "),
     source: g.where,

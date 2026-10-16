@@ -1,4 +1,5 @@
 ---
+import { md } from "@daviddef/archive-kit/lib/md.js";
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import WorkList from "@daviddef/archive-kit/components/WorkList.astro";
@@ -11,13 +12,13 @@ import work from "../data/worklist.json";
     <div class="lab">The register the others do not keep</div>
     <h2 style="margin-top:.4rem">{work.rows.filter((r) => !["done", "struck"].includes(r.state)).length} open, {work.rows.length} in all</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>{work.lead}</p>
+      <p set:html={md(work.lead)} />
     </div>
 
     <WorkList work={work} u={u} />
 
     <div class="prose" style="margin-top:1.6rem">
-      <p>{work.close}</p>
+      <p set:html={md(work.close)} />
     </div>
   </section>
 

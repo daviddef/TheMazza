@@ -7,6 +7,7 @@
  * not. Both statements are read, and the page's job is to leave them standing
  * beside each other rather than quietly preferring one.
  */
+import { md } from "@daviddef/archive-kit/lib/md.js";
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
@@ -99,7 +100,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
               <td class="m"><strong>{r.year}</strong></td>
               <td class={["none","empty","\u2014","absent"].includes(r.entries) ? "small" : ""}>
                 {["none","empty","\u2014","absent"].includes(r.entries) ? r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries : <strong>{r.entries}</strong>}</td>
-              <td class="small">{r.note}</td>
+              <td class="small" set:html={md(r.note)} />
             </tr>
           ))}
         </tbody>
@@ -352,7 +353,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
             <tr>
               <td>{r.year}</td>
               <td>{r.entries}</td>
-              <td class="dek">{r.note}</td>
+              <td class="dek" set:html={md(r.note)} />
             </tr>
           ))}
         </tbody>

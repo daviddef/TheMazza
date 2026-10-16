@@ -1,4 +1,5 @@
 ---
+import { md } from "@daviddef/archive-kit/lib/md.js";
 import Base from "../../layouts/Base.astro";
 import P from "../../components/P.astro";
 import PersonTree from "../../components/PersonTree.astro";
@@ -85,7 +86,7 @@ const dek = p.ancGen === 0 || p.onSpine
   {p.registerNote && (
     <div class="card" style="margin-bottom:26px">
       <h2 class="ct">Why this person is here</h2>
-      <p class="small" style="margin-top:10px;white-space:pre-line">{p.registerNote}</p>
+      <p class="small" style="margin-top:10px;white-space:pre-line" set:html={md(p.registerNote)} />
     </div>
   )}
 

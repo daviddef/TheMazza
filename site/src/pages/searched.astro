@@ -1,4 +1,5 @@
 ---
+import { md } from "@daviddef/archive-kit/lib/md.js";
 import Base from "../layouts/Base.astro";
 import Searched from "@daviddef/archive-kit/components/Searched.astro";
 import { u } from "../lib/url.js";
@@ -32,7 +33,7 @@ const LABEL = { open: "reachable", partial: "listing incomplete",
         {fmp.map((r) => (
           <>
             <div class="k">{r.kind.toLowerCase()}</div>
-            <div class="v"><strong>{r.what}</strong> — {r.result}</div>
+            <div class="v"><strong>{r.what}</strong> — <Fragment set:html={md(r.result)} /></div>
             <div class="w"></div>
           </>
         ))}
@@ -164,7 +165,7 @@ const LABEL = { open: "reachable", partial: "listing incomplete",
     every search, negatives included.</p>
     <Searched u={u} nil={["not-yet", "outstanding"]}
       rows={searched.map((r) => ({
-        when: r.when, src: r.source, what: r.scope, got: r.result, outcome: r.status,
+        when: r.when, src: r.source, what: md(r.scope), got: md(r.result), outcome: r.status,
       }))} />
     <p style="margin-top:24px"><a href={u("/open-questions/")}>The questions each of these would answer →</a></p>
   </section>
