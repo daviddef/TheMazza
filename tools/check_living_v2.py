@@ -710,12 +710,24 @@ def selftest(dist, data_dir, root, ged):
             lambda: edit_people(lambda d: d.append({**d[0], "id": held, "slug": "planted-held"})))
 
         def f_held_name():
-            nm = base.held_names[0]
+            # The held-out name check skips a name that a published person also bears, and
+            # held_names comes from iterating a SET, so [0] was a different name every run and
+            # sometimes one the check does not scan: the fault was "not caught" about one run in
+            # three. Plant a name the check really looks for.
+            _dead = {re.sub(r"\s+", " ", p["name"]).lower() for p in base.people}
+            nm = next(n for n in sorted(base.held_names)
+                      if len(n.split()) >= 2 and n.lower() not in _dead)
             path = os.path.join(d2, "about", "index.html")
             write(path, open(path, encoding="utf-8").read().replace("</main>", f"<p>{nm}</p></main>"))
         add(5, "a held-out name on a built page (GEDCOM)", f_held_name, True)
         def f_held_name_json():
-            nm = base.held_names[0]
+            # The held-out name check skips a name that a published person also bears, and
+            # held_names comes from iterating a SET, so [0] was a different name every run and
+            # sometimes one the check does not scan: the fault was "not caught" about one run in
+            # three. Plant a name the check really looks for.
+            _dead = {re.sub(r"\s+", " ", p["name"]).lower() for p in base.people}
+            nm = next(n for n in sorted(base.held_names)
+                      if len(n.split()) >= 2 and n.lower() not in _dead)
             write(os.path.join(s2, "stats.json"),
                   open(os.path.join(s2, "stats.json"), encoding="utf-8").read()[:-1] + f', "planted": "{nm}"}}')
         add(5, "a held-out name in a shipped data file (GEDCOM)", f_held_name_json, True)
