@@ -1,0 +1,283 @@
+---
+/* ONE TEMPLATE FOR THE FAMILY PAGES THE ARCHIVE DID NOT HAVE.
+ *
+ * /mazza/, /arena/ and /nicotra/ are written by hand; this builds the others
+ * (src/lib/familylist.js says which) from people.json and the research files,
+ * through src/lib/families.js, and says only what that data says.
+ *
+ * A LIVING PERSON IS NEVER NAMED HERE. The page is indexed; a living person's
+ * own page is not. The living are counted and the reader is sent to the roster.
+ */
+import Base from "../layouts/Base.astro";
+import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
+import { u } from "../lib/url.js";
+import { BUILT } from "../lib/familylist.js";
+import { buildFamily } from "../lib/families.js";
+
+export function getStaticPaths() {
+  return BUILT.map((spec) => ({ params: { family: spec.slug }, props: { f: buildFamily(spec) } }));
+}
+const { f } = Astro.props;
+
+const many = (n, one, other) => `${n} ${n === 1 ? one : other}`;
+const years = f.first && f.last ? (f.first === f.last ? String(f.first) : `${f.first}–${f.last}`) : "";
+const nameList = f.names.length > 1
+  ? f.names.slice(0, -1).join(", ") + " or " + f.names[f.names.length - 1]
+  : f.surname;
+const oneGroup = f.groups.length === 1;
+const stateWord = { running: "running", waiting: "waiting", blocked: "blocked", done: "done", parked: "parked" };
+const CAP = 4;
+const ROWS = 12;
+---
+<Base title={`The ${f.surname}`}
+      eyebrow={[...f.topPlaces, years].filter(Boolean).join(" · ")}
+      dek={`${many(f.dead, "person", "people")} called ${nameList} ${f.dead === 1 ? "is" : "are"} published in this archive${years ? `, from ${f.first} to ${f.last}` : ""}. This page gathers them under the name, and shows how they are — and are not — joined to one another and to the other families.`}>
+
+  <section class="blk">
+    <div class="grid g3">
+      <div class="stat"><div class="n">{f.dead}</div>
+        <div class="l">{f.dead === 1 ? "person" : "people"} of this name, published here</div></div>
+      <div class="stat"><div class="n">{f.line.length}</div>
+        <div class="l">{f.line.length === 1 ? "is a direct ancestor" : "are direct ancestors"}, through {many(f.quarterCount, "of the four grandparents", "of the four grandparents")}</div></div>
+      <div class="stat"><div class="n">{f.groups.length}</div>
+        <div class="l">{oneGroup ? "descent group: every bearer is joined to every other" : "descent groups that no record joins"}</div></div>
+    </div>
+  </section>
+
+  {f.note && (
+    <section class="blk">
+      <div class="lab">What the name is</div>
+      <p class="dek" style="margin:.6rem 0 0" set:html={f.note} />
+      <p class="cap" style="margin-top:.8rem">As <a href={u("/name/")}>The Name</a> puts it. A surname is a label, not a family:
+      the lines below are the ones this archive can draw, and no others.</p>
+    </section>
+  )}
+
+  <section class="blk">
+    <div class="lab">Who bears it</div>
+    <h2 style="margin-top:.4rem">{many(f.dead, "person", "people")}, {oneGroup ? "one descent group" : many(f.groups.length, "descent group", "descent groups")}</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A <strong>descent group</strong> is every bearer of the name who can be reached from one another through
+      parent, child and marriage links between bearers — the rule the <a href={u("/mazza/")}>Mazza</a> and
+      <a href={u("/arena/")}>Arena</a> pages use. {oneGroup
+        ? "Here there is only one: no bearer stands alone."
+        : "Two groups are two groups until a record joins them, however alike their names and their towns."}</p>
+      {f.variantCounts.length > 0 && (
+        <p><strong>Also written</strong> {f.variantCounts.map(([a, n], i) => (<>{i ? ", " : ""}<em>{a}</em> ({many(n, "person", "people")})</>))}.
+        The data carries these as separate surnames; they are gathered on this page by the surname alone, each
+        person keeps the name as written, and no two people are merged.</p>
+      )}
+    </div>
+    {!oneGroup && (
+      <div class="scroll" style="margin-top:16px">
+        <table>
+          <thead><tr><th>Group</th><th class="m">People</th><th class="m">Years</th><th>Born mainly at</th><th class="m">Direct ancestors</th><th class="m">With a record read</th></tr></thead>
+          <tbody>{f.groups.map((g) => (
+            <tr>
+              <td><strong>{g.letter}</strong></td>
+              <td class="m">{g.n}</td>
+              <td class="m">{g.first ? (g.first === g.last ? g.first : `${g.first}–${g.last}`) : "—"}</td>
+              <td>{g.places.join(", ") || "—"}</td>
+              <td class="m">{g.ancestors || "—"}</td>
+              <td class="m">{g.withRecord || "—"}</td>
+            </tr>))}
+          </tbody>
+        </table>
+      </div>
+    )}
+    <p class="note" style="margin-top:18px"><strong>The living.</strong>
+      {f.living > 0
+        ? <>{many(f.living, "living person bears", "living people bear")} the name in the tree. A living person is named with relationships and a town and country, on a page of their own that search engines do not index, so they are counted here and not listed.
+           {" "}<a href={u("/people/") + "?q=" + encodeURIComponent(f.surname)}>The roster, filtered to {f.surname} →</a></>
+        : <>The tree holds no living person of this name.</>}
+    </p>
+  </section>
+
+  {f.line.length > 0 && (
+    <section class="blk">
+      <div class="lab">The direct line</div>
+      <h2 style="margin-top:.4rem">{many(f.line.length, "ancestor", "ancestors")} of the two children this archive is for</h2>
+      <p class="dek" style="margin:.7rem 0 1.2rem">Generation 1 is their parents; the generation counts back from there
+      (<a href={u("/ancestors/")}>The Ancestors</a>). The quarter is the grandparent whose parent links lead up to the person
+      (<a href={u("/lines/")}>The Four Quarters</a>).</p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th class="m">Gen</th><th>Name</th><th class="m">Dates</th><th>Born at</th><th>Through</th><th>Evidence</th></tr></thead>
+          <tbody>{f.line.map((r) => (
+            <tr>
+              <td class="m">{r.gen}</td>
+              <td><a href={u("/people/" + r.slug)}>{r.name}</a></td>
+              <td class="m">{r.life || "—"}</td>
+              <td>{r.place || "—"}</td>
+              <td class="small">{r.quarters.join(", ") || "—"}</td>
+              <td><Evidence level={r.documented ? "documented" : "family"} />{r.contradicted ? <> <Evidence level="disputed" /></> : null}</td>
+            </tr>))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )}
+
+  <section class="blk">
+    <div class="lab">Where</div>
+    <h2 style="margin-top:.4rem">Where the name is recorded</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Counted from the places recorded for these {f.dead} people (birth, death, burial), as the archive's gazetteer spells them.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Place</th><th class="m">People</th><th class="m">Born</th><th class="m">Died or buried</th><th class="m">Years</th></tr></thead>
+        <tbody>{f.places.map((p) => (
+          <tr>
+            <td>{p.href ? <a href={u(p.href)}>{p.place}</a> : p.place}{p.town && <> <span class="small">(<a href={u(p.town)}>the town page</a>)</span></>}</td>
+            <td class="m">{p.people}</td>
+            <td class="m">{p.born || "—"}</td>
+            <td class="m">{p.other || "—"}</td>
+            <td class="m">{p.first ? (p.first === p.last ? p.first : `${p.first}–${p.last}`) : "—"}</td>
+          </tr>))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  {f.joined.length > 0 && (
+    <section class="blk">
+      <div class="lab">How it connects</div>
+      <h2 style="margin-top:.4rem">The families it is joined to</h2>
+      <p class="dek" style="margin:.7rem 0 1.2rem">Every parent, child or marriage link from one of these people to a person of
+      another surname, as the archive draws it. A living person on the other end is left out. The surname is the other
+      person's, not a claim about their family.</p>
+      <div class="scroll">
+        <table>
+          <thead><tr><th>Family</th><th class="m">Marriages</th><th class="m">Child of</th><th class="m">Parent of</th><th>The people</th></tr></thead>
+          <tbody>{f.joined.slice(0, ROWS).map((j) => (
+            <tr>
+              <td>{j.href ? <a href={u(j.href)}><strong>{j.surname}</strong></a> : <strong>{j.surname}</strong>}</td>
+              <td class="m">{j.marriages || "—"}</td>
+              <td class="m">{j.parents || "—"}</td>
+              <td class="m">{j.children || "—"}</td>
+              <td class="small">
+                {j.pairs.slice(0, CAP).map((x, i) => (
+                  <>{i ? "; " : ""}<a href={u("/people/" + x.a.slug)}>{x.a.name}</a>{" " + x.kind + " "}<a href={u("/people/" + x.b.slug)}>{x.b.name}</a></>
+                ))}
+                {j.pairs.length > CAP && (
+                  <details style="display:inline"><summary style="display:inline;cursor:pointer;color:var(--ink-3)"> and {j.pairs.length - CAP} more</summary>
+                    {j.pairs.slice(CAP).map((x, i) => (
+                      <>{i ? "; " : ""}<a href={u("/people/" + x.a.slug)}>{x.a.name}</a>{" " + x.kind + " "}<a href={u("/people/" + x.b.slug)}>{x.b.name}</a></>
+                    ))}
+                  </details>
+                )}
+              </td>
+            </tr>))}
+          </tbody>
+        </table>
+      </div>
+      {f.joined.length > ROWS && (
+        <details style="margin-top:14px"><summary style="cursor:pointer;color:var(--ink-3)">{f.joined.length - ROWS} more families, each joined by fewer links</summary>
+          <div class="scroll" style="margin-top:10px">
+            <table>
+              <thead><tr><th>Family</th><th class="m">Marriages</th><th class="m">Child of</th><th class="m">Parent of</th><th>The people</th></tr></thead>
+              <tbody>{f.joined.slice(ROWS).map((j) => (
+                <tr>
+                  <td>{j.href ? <a href={u(j.href)}><strong>{j.surname}</strong></a> : <strong>{j.surname}</strong>}</td>
+                  <td class="m">{j.marriages || "—"}</td>
+                  <td class="m">{j.parents || "—"}</td>
+                  <td class="m">{j.children || "—"}</td>
+                  <td class="small">{j.pairs.map((x, i) => (
+                    <>{i ? "; " : ""}<a href={u("/people/" + x.a.slug)}>{x.a.name}</a>{" " + x.kind + " "}<a href={u("/people/" + x.b.slug)}>{x.b.name}</a></>
+                  ))}</td>
+                </tr>))}
+              </tbody>
+            </table>
+          </div>
+        </details>
+      )}
+      <p class="cap">The wider picture, family by family, is on <a href={u("/marriages/")}>The Marriages</a>.</p>
+    </section>
+  )}
+
+  <section class="blk">
+    <div class="lab">Everyone</div>
+    <h2 style="margin-top:.4rem">All {f.dead} people of the name, oldest first</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Each has a page of their own. {f.rows.filter((r) => !r.life).length > 0
+      ? `${f.rows.filter((r) => !r.life).length} have no date in the data; they are known because a tree entry or a record names them.` : ""}</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Name</th><th class="m">Dates</th><th>Born at</th>{!oneGroup && <th class="m">Group</th>}<th>Evidence</th></tr></thead>
+        <tbody>{f.rows.map((r) => (
+          <tr>
+            <td><a href={u("/people/" + r.slug)}>{r.name}</a>{r.ancestor && <> <span class="chip doc">ancestor</span></>}</td>
+            <td class="m">{r.life || "—"}</td>
+            <td>{r.place || "—"}</td>
+            {!oneGroup && <td class="m">{r.group}</td>}
+            <td><Evidence level={r.documented ? "documented" : "family"} /></td>
+          </tr>))}
+        </tbody>
+      </table>
+    </div>
+    {f.sharedNames.length > 0 && (
+      <p class="cap" style="margin-top:14px">{many(f.sharedNames.length, "name here is", "names here are")} borne by more than one person and the archive does not decide which is which:
+      {" "}{f.sharedNames.slice(0, 8).map((s, i) => (<>{i ? ", " : ""}<a href={u(s.who)}>{s.name}</a> ({s.n})</>))}{f.sharedNames.length > 8 ? `, and ${f.sharedNames.length - 8} more` : ""}.
+      <a href={u("/who/")}>Every name →</a></p>
+    )}
+  </section>
+
+  <section class="blk">
+    <div class="lab">How we know</div>
+    <h2 style="margin-top:.4rem">What rests on a record and what rests on the tree</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p><strong>{f.withRecord} of the {f.dead}</strong> have at least one record read for them
+      (<Evidence level="documented" />); {f.dead - f.withRecord === 0
+        ? "none is known from the family tree alone."
+        : <>the other {f.dead - f.withRecord} {f.dead - f.withRecord === 1 ? "is" : "are"} known only from the family tree this archive was built from
+      (<Evidence level="family" />), which cites little and is not evidence.</>}
+      {f.links > 0 && <> Of the <strong>{f.links}</strong> parent, child and marriage links that touch these people, <strong>{f.proved}</strong>
+      {f.proved === 1 ? " is" : " are"} proved by a register or an index this archive has read; the other {f.links - f.proved} come from the tree alone.</>}
+      {f.contradicted > 0 && <> {many(f.contradicted, "person has", "people have")} a register reading that disagrees with the tree
+      (<Evidence level="disputed" />): it is on their own page and the <a href={u("/corrections/")}>Corrections</a>.</>}</p>
+      <p>The five words are explained on <a href={u("/method/#ladder")}>Method</a>.</p>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The work</div>
+    <h2 style="margin-top:.4rem">What the archive has already written about this name</h2>
+    {(f.wallRows.length + f.qRows.length + f.wlRows.length + f.corrCount + f.evidenceNotes.length) === 0 ? (
+      <p class="dek" style="margin-top:.8rem">The <a href={u("/worklist/")}>work list</a>, the <a href={u("/open-questions/")}>open questions</a>, the
+      <a href={u("/corrections/")}>corrections</a> and the walls do not yet name this family in their headings.</p>
+    ) : (
+      <div class="prose" style="margin-top:1rem">
+        {f.wallRows.map((w) => (
+          <div class="note" style="margin-bottom:14px"><strong>Where the line stops: {w.who}, {w.town}.</strong> {w.reason}
+            <span class="small" style="display:block;margin-top:.4rem;color:var(--ink-3)">Established {w.established}.</span></div>
+        ))}
+        {f.evidenceNotes.map((n) => (
+          <div class="note" style="margin-bottom:14px"><strong>{n.name}.</strong> {n.text}</div>
+        ))}
+        {f.qRows.length > 0 && (<>
+          <h3 style="margin:1.2rem 0 .4rem">Open questions that name it</h3>
+          <ul>{f.qRows.map((q) => (<li>{q.q}</li>))}</ul>
+          <p class="small"><a href={u("/open-questions/")}>Open Questions →</a></p>
+        </>)}
+        {f.wlRows.length > 0 && (<>
+          <h3 style="margin:1.2rem 0 .4rem">On the work list</h3>
+          <ul>{f.wlRows.slice(0, 8).map((r) => (<li>{r.what} <span class="small" style="color:var(--ink-3)">({r.state})</span></li>))}</ul>
+          <p class="small">{f.wlRows.length > 8 ? `${f.wlRows.length - 8} more. ` : ""}<a href={u("/worklist/")}>The work list →</a></p>
+        </>)}
+        {f.corrCount > 0 && (
+          <p>{many(f.corrCount, "correction", "corrections")} name this family in their heading. <a href={u("/corrections/")}>Corrections →</a></p>
+        )}
+      </div>
+    )}
+  </section>
+
+  <section class="blk" style="border-bottom:0">
+    <div class="notclaimed">
+      <span class="lab">Not claimed</span>
+      <p class="prose">That everyone who bears this name is one family. They are gathered here by the name, and a line is drawn
+      between two of them only where the tree or a register draws it. Where this page says "group", it means exactly that
+      and no more.</p>
+    </div>
+    <p class="small" style="margin-top:1.4rem"><a href={u("/name/")}>The Name</a> · <a href={u("/marriages/")}>The Marriages</a> ·
+    <a href={u("/lines/")}>The Four Quarters</a> · <a href={u("/ancestors/")}>The Ancestors</a> · <a href={u("/people/")}>The People</a> ·
+    <a href={u("/who/")}>Every Name</a></p>
+  </section>
+</Base>

@@ -2,7 +2,10 @@
 import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import families from "../data/families.json";
+import people from "../data/people.json";
+import { PAGE_OF, HAND_BUILT, BUILT } from "../lib/familylist.js";
 const f = (s) => families.find((x) => x.surname === s) || { n: 0 };
+const bearing = (x) => people.filter((p) => p.surname === x.surname || (x.also || []).includes(p.surname)).length;
 const rows = ["Mazza", "Prostamo", "Polistena", "Arena", "Nicotra", "Melluso", "Anile", "Donato", "Cavallaro", "Bova"];
 ---
 <Base title="The Name" eyebrow="Mazza, and the nine names around it"
@@ -32,24 +35,42 @@ const rows = ["Mazza", "Prostamo", "Polistena", "Arena", "Nicotra", "Melluso", "
       <table>
         <thead><tr><th>Name</th><th class="m">Here</th><th>Where it belongs</th><th>What it is</th></tr></thead>
         <tbody>
-          <tr><td>Prostamo</td><td class="m">{f("Prostamo").n}</td><td>Briatico, Vibo Valentia</td>
+          <tr><td>{PAGE_OF.has("Prostamo") ? <a href={u(PAGE_OF.get("Prostamo"))}>Prostamo</a> : "Prostamo"}</td><td class="m">{f("Prostamo").n}</td><td>Briatico, Vibo Valentia</td>
             <td><strong>Rare, and concentrated.</strong> Almost the whole Italian distribution sits in a few Calabrian comuni around Vibo Valentia. A rare surname in one small place is the best gift a genealogist gets: two Prostamo of Briatico almost certainly <em>are</em> related.</td></tr>
-          <tr><td>Polistena</td><td class="m">{f("Polistena").n}</td><td>Scilla, Reggio Calabria</td>
+          <tr><td>{PAGE_OF.has("Polistena") ? <a href={u(PAGE_OF.get("Polistena"))}>Polistena</a> : "Polistena"}</td><td class="m">{f("Polistena").n}</td><td>Scilla, Reggio Calabria</td>
             <td>A <strong>toponymic</strong> — from the town of Polistena in the province of Reggio Calabria. It marks a family that moved <em>from</em> there, and was named for having done so.</td></tr>
-          <tr><td>Arena</td><td class="m">{f("Arena").n}</td><td>Scilla, Reggio Calabria</td>
+          <tr><td>{PAGE_OF.has("Arena") ? <a href={u(PAGE_OF.get("Arena"))}>Arena</a> : "Arena"}</td><td class="m">{f("Arena").n}</td><td>Scilla, Reggio Calabria</td>
             <td>Very common across Calabria and Sicily; from <em>arena</em>, sand — a place-name element. Common enough that a shared Arena surname is worth nothing on its own. The archive holds four undated Giuseppe Arena and keeps them apart.</td></tr>
-          <tr><td>Nicotra</td><td class="m">{f("Nicotra").n}</td><td>Piedimonte Etneo, Catania</td>
+          <tr><td>{PAGE_OF.has("Nicotra") ? <a href={u(PAGE_OF.get("Nicotra"))}>Nicotra</a> : "Nicotra"}</td><td class="m">{f("Nicotra").n}</td><td>Piedimonte Etneo, Catania</td>
             <td>Strongly eastern Sicilian, and heavily concentrated around Catania — which is exactly where this archive finds it.</td></tr>
-          <tr><td>Melluso</td><td class="m">{f("Melluso").n}</td><td>Briatico</td>
+          <tr><td>{PAGE_OF.has("Melluso") ? <a href={u(PAGE_OF.get("Melluso"))}>Melluso</a> : "Melluso"}</td><td class="m">{f("Melluso").n}</td><td>Briatico</td>
             <td>Southern, both Sicilian and Calabrian; probably from <em>mele</em>, honey, or a diminutive of a personal name.</td></tr>
-          <tr><td>Anile</td><td class="m">{f("Anile").n}</td><td>Briatico / Potenzoni</td>
+          <tr><td>{PAGE_OF.has("Anile") ? <a href={u(PAGE_OF.get("Anile"))}>Anile</a> : "Anile"}</td><td class="m">{f("Anile").n}</td><td>Briatico / Potenzoni</td>
             <td>Calabrian and uncommon, clustered in the Vibo Valentia area.</td></tr>
-          <tr><td>Donato</td><td class="m">{f("Donato").n}</td><td>Scilla</td>
+          <tr><td>{PAGE_OF.has("Donato") ? <a href={u(PAGE_OF.get("Donato"))}>Donato</a> : "Donato"}</td><td class="m">{f("Donato").n}</td><td>Scilla</td>
             <td>From the personal name Donato — "given". Common everywhere in the south.</td></tr>
-          <tr><td>Cavallaro</td><td class="m">{f("Cavallaro").n}</td><td>Scilla / Brisbane</td>
+          <tr><td>{PAGE_OF.has("Cavallaro") ? <a href={u(PAGE_OF.get("Cavallaro"))}>Cavallaro</a> : "Cavallaro"}</td><td class="m">{f("Cavallaro").n}</td><td>Scilla / Brisbane</td>
             <td>A trade name: a horseman, a groom, a keeper of horses.</td></tr>
-          <tr><td>Bova</td><td class="m">{f("Bova").n}</td><td>Reggio Calabria</td>
+          <tr><td>{PAGE_OF.has("Bova") ? <a href={u(PAGE_OF.get("Bova"))}>Bova</a> : "Bova"}</td><td class="m">{f("Bova").n}</td><td>Reggio Calabria</td>
             <td>Another toponymic — Bova is a Greek-speaking comune in the far south of Calabria.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>The family pages</h2>
+    <p class="dek" style="margin:.8rem 0 1.2rem">The surnames that carry the direct line and have the most people in the tree
+    have a page of their own: who bears the name here, where and when, how the bearers are and are not joined,
+    and how much of it rests on a record. The first three are written by hand; the rest are built from the same
+    data as the people pages.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Family</th><th class="m">In the tree</th></tr></thead>
+        <tbody>
+          {[...HAND_BUILT, ...BUILT].map((x) => (
+            <tr><td><a href={u(x.href || "/" + x.slug + "/")}>The {x.surname}</a></td><td class="m">{bearing(x)}</td></tr>
+          ))}
         </tbody>
       </table>
     </div>
