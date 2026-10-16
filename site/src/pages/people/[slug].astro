@@ -18,52 +18,50 @@ export function getStaticPaths() {
 }
 const { p } = Astro.props;
 
-const grave = nudgee.burials.find((b) => b.slug === p.slug);
-const fixes = nudgee.corrections.filter((c) => c.slug === p.slug);
-const ship = ships.find((s) => s.slug === p.slug);
+const grave = p.living ? null : nudgee.burials.find((b) => b.slug === p.slug);
+const fixes = p.living ? [] : nudgee.corrections.filter((c) => c.slug === p.slug);
+const ship = p.living ? null : ships.find((s) => s.slug === p.slug);
 const comp = components.find((c) => c.comp === p.comp);
 const sameName = people.filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name));
 const edges = ["parents", "spouses", "children", "siblings"].flatMap((b) => p[b] || []);
 /* «read» is a register act, «index» an index entry; both are a record. «tree»
    is Michael's assertion, and a sibling edge carries no via at all. */
 const provedEdges = edges.filter((e) => e.via === "read" || e.via === "index").length;
-/* A PERSON WHO MIGHT STILL BE ALIVE: NAME, RELATIONSHIP, TOWN AND COUNTRY (David, 16 October 2026).
-   The estate standard for a living person is a name, a relationship, and the
-   town and country they are in; no dates, no records, no photograph, no
-   structured data, and a noindex page. The place is therefore printed in full
-   here. (From 22 September to 16 October this page reduced the place to a
-   country; that was stricter than the standard and is withdrawn.)
-   KEYED TO `datesHidden`, NOT `presumedLiving`, and the difference is 280
-   people. `presumedLiving` is true for anyone the tree cannot show died —
-   which in this archive means anyone with no dates at all, «416 of 599,
-   in a tree that reaches 1697». Mazza turned suppression off on 10
-   September for exactly that reason. Keying off it would withhold the dates
-   and photographs of 280 people who are plainly dead, including ten named in
-   records from 1816 to 1892: Domenico Donato appears in an act of 1816 and
-   would be over two hundred. That is the opposite harm — withholding real
-   nineteenth century evidence — and it is what the 10 September decision
-   existed to prevent.
+/* A LIVING PERSON: NAME, RELATIONSHIPS, TOWN AND COUNTRY, AND NOTHING MORE
+   (David, 16 October 2026; the estate's living-people standard v2).
 
-   `datesHidden` is this archive's actual might-still-be-alive test: 80 or
-   younger, with no death recorded. 131 people, and it is the same test
-   the dates use, so places and dates can never disagree about who is
-   being protected. */
-const hidden = !!(p.datesHidden || p.living);
+   WHO IS LIVING is decided once, in tools/living_v2.py, by the kit's
+   living_rule.py: 80 or younger by year, no death or burial recorded anywhere
+   this archive has read, and no citation from a public record source. It is NOT
+   the old `datesHidden` (the tree alone) and NOT `presumedLiving` (the tree
+   cannot show they died), which was true of 280 people who are plainly dead and
+   who are ordinary pages here. Someone with no birth year is not living by this
+   test.
+
+   The data for a living person is built from name, relationships and town and
+   country only (tools/build.py record()): there is nothing else in
+   people.json for this page to leave out, and this branch is the second lock,
+   not the first. The page is noindex, carries no structured data, no table, no
+   image and no year. A possible minor is not published at all: there is no page
+   for them and they are nobody's relative. */
+const hidden = !!p.living;
 const place = (v) => v || "";
 const home = place(p.birthPlace || p.deathPlace || p.burialPlace || "");
 const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
              christened: "Christened", lived: "Lived", arrival: "Arrived", departure: "Left" };
 
-const dek = p.ancGen === 0 || p.onSpine
-  ? (p.ancGen ? `An ancestor of Mia and Rocco — generation ${p.ancGen} above them.`
-              : "One of the two children this archive is for.")
+const dek = p.living
+  ? (home ? `Of ${home}.` : "A living person, named here with their relationships.")
+  : p.ancGen === 0 || p.onSpine
+  ? (p.ancGen ? `An ancestor of the two children this archive is for — generation ${p.ancGen} above them.`
+              : "On the line of ancestors this archive is built around.")
   : home ? `Of ${home}.`
   : edges.length ? "Known from the family tree. No record has been read for this person."
   : "Named in this archive, with no relationship recorded for them yet.";
 ---
 <Base title={p.name}
       noindex={hidden}
-      eyebrow={p.datesHidden ? "Dates withheld"
+      eyebrow={p.living ? "A living person"
         : ([p.born, p.died].filter(Boolean).join("–")
            || [p.bornText, p.diedText].filter(Boolean).join(" – ")
            || p.surname || "Dates unrecorded")}
@@ -90,19 +88,23 @@ const dek = p.ancGen === 0 || p.onSpine
     </div>
   )}
 
-  {p.comp !== 1 && comp && (
+  {!p.living && p.comp !== 1 && comp && (
     <p class="note" style="margin-bottom:26px">This person is in
     <strong> component {p.comp}</strong> of the export — a group of {comp.n}
     {comp.towns.length ? ` mostly of ${comp.towns[0].name}` : ""} that
-    <strong> no record joins</strong> to the line reaching Mia and Rocco.
+    <strong> no record joins</strong> to the line reaching the two children this archive is for.
     They are very probably kin. The archive does not yet say how.
     <a href={u("/open-questions/")}>Why →</a></p>
   )}
 
   <div class="grid two">
     <div class="card">
-      <h2 class="ct">What is recorded</h2>
-      {p.events && p.events.length ? (
+      <h2 class="ct">{p.living ? "Where" : "What is recorded"}</h2>
+      {p.living ? (
+        <p class="small" style="margin-top:10px">{home
+          ? <>Of <strong>{home}</strong>.</>
+          : "No town is recorded for this person."}</p>
+      ) : p.events && p.events.length ? (
         <div class="rec" style="margin-top:12px">
           {p.events.filter((e) => e.place || (e.what !== "lived" && e.date)).map((e) => (<>
             <div class="k">{EV[e.what] || e.what}</div>
@@ -111,7 +113,7 @@ const dek = p.ancGen === 0 || p.onSpine
                 «before 7 October 1872» is what the act supports, and 1872 is
                 not. e.date is empty for those by design — see
                 tools/register_source.py. */}
-            <div class="w">{e.date || e.text || (p.datesHidden ? "withheld" : "")}</div>
+            <div class="w">{e.date || e.text || ""}</div>
           </>))}
         </div>
       ) : (
@@ -128,7 +130,7 @@ const dek = p.ancGen === 0 || p.onSpine
           corrections.tsv carries prose and not a field name, and guessing which
           fact a paragraph is about is exactly the kind of inference this archive
           refuses. So it says that one of them is, and where to look. */}
-      {p.corrections && p.corrections.length ? (
+      {!p.living && p.corrections && p.corrections.length ? (
         <p class="small" style="margin-top:10px">
           <strong>A register contradicts what is written above.</strong> The lines in this block are
           the family tree's account. {p.corrections.length === 1 ? "One reading" : `${p.corrections.length} readings`}
@@ -136,12 +138,12 @@ const dek = p.ancGen === 0 || p.onSpine
           it — <a href="#disputed">what the registers say →</a>
         </p>
       ) : null}
-      {p.datesHidden && (
-        <p class="small" style="margin-top:14px"><strong>Dates withheld on purpose.</strong> This
-        person would be {stats.ageThreshold} or younger today and the tree records no death for them.
-        Their dates are <strong>stripped in the build</strong> — they are not in this page's HTML and
-        not recoverable from this site. Their page shows no photograph and is kept out of search
-        engines, for the same reason. See <a href={u("/method/")}>Method</a>.</p>
+      {p.living && (
+        <p class="small" style="margin-top:14px"><strong>A living person</strong> (80 or younger, with
+        no death recorded) <strong>is named with their relationships and their town and country, and
+        nothing more.</strong> This page has no dates, no records, no sources and no photograph,
+        because none are built for them, and it is kept out of search engines and the sitemap.
+        See <a href={u("/method/#living")}>Method</a>.</p>
       )}
     </div>
 
@@ -169,7 +171,10 @@ const dek = p.ancGen === 0 || p.onSpine
                 <strong> Michael Mazza's family tree</strong> and have not.</span>
           : <span>No relationship is recorded for this person.</span>}
       </p>
-      {p.records && p.records.length ? (
+      {p.living ? (
+        <p class="small" style="margin-top:12px">What this archive holds about a living person is not
+        published beyond the relationships above.</p>
+      ) : p.records && p.records.length ? (
         <>
           <p class="small" style="margin-top:12px"><strong>{p.records.length} record{p.records.length === 1 ? " has" : "s have"} been
           read about them:</strong></p>
@@ -183,7 +188,7 @@ const dek = p.ancGen === 0 || p.onSpine
         <p class="small" style="margin-top:12px"><strong>No record has been read for this person.</strong>
         {" "}What is known of them is what the tree asserts, and it is <strong>unverified</strong>.</p>
       )}
-      {p.corrections && p.corrections.length ? (
+      {!p.living && p.corrections && p.corrections.length ? (
         <div class="note" style="margin-top:14px" id="disputed">
           <strong>What a register says about this person, which the tree does not.</strong>
           {p.corrections.map((c) => <p style="margin-top:.5rem">{c}</p>)}
@@ -192,10 +197,10 @@ const dek = p.ancGen === 0 || p.onSpine
           was given — <a href={u("/scilla/")}>the acts are here</a>.</p>
         </div>
       ) : null}
-      {p.onSpine && (
+      {!p.living && p.onSpine && (
         <p class="small" style="margin-top:12px"><a href={u("/ancestors/")}>See this generation on the ancestors page →</a></p>
       )}
-      <p class="small" style="margin-top:12px"><strong>Component {p.comp}</strong> ·
+      <p class="small" style="margin-top:12px">{!p.living && <><strong>Component {p.comp}</strong> ·</>}
         <a href={u("/people/") + "?q=" + encodeURIComponent(p.surname)}> every {p.surname || "person"} in the archive →</a></p>
     </div>
   </div>
@@ -237,12 +242,10 @@ const dek = p.ancGen === 0 || p.onSpine
     </section>
   )}
 
-  {/* NO PHOTOGRAPH OF A PERSON WHO MIGHT STILL BE ALIVE (16 October 2026). This is the
-      estate rule, name and relationship only, and `hidden` is this archive's own
-      might-still-be-alive test (80 or younger, no death recorded). The page is also
-      noindex, so it is out of the sitemap and the search index: both tools skip a page
-      that noindexes itself. The place is the full town and country: the estate standard
-      for a living person is name, relationship, town and country (David, 16 October 2026). */}
+  {/* NO PHOTOGRAPH OF A LIVING PERSON (16 October 2026). `hidden` is the estate's
+      living test (tools/living_v2.py). A living person has no photographs in
+      people.json at all, and the files themselves are withdrawn from the build. The
+      page is noindex, so it is out of the sitemap and the search index. */}
   {!hidden && p.photos && p.photos.length > 0 && (
     <section class="blk">
       <h2 style="font-size:26px">Photographs</h2>
@@ -293,9 +296,9 @@ const dek = p.ancGen === 0 || p.onSpine
       <ul style="margin:.8rem 0 0;padding-left:18px;font-family:var(--sans);font-size:13.5px;line-height:1.8">
         {sameName.map((q) => (
           <li><a href={u("/people/" + q.slug)}>{q.name}</a>
-            <span style="color:var(--ink-3)"> — {q.datesHidden ? "dates withheld"
+            <span style="color:var(--ink-3)"> — {q.living ? "a living person"
               : ([q.born, q.died].filter(Boolean).join("–") || "undated")}
-              {q.birthPlace ? `, ${q.birthPlace}` : ""}, component {q.comp}</span></li>
+              {q.birthPlace ? `, ${q.birthPlace}` : ""}{q.living ? "" : `, component ${q.comp}`}</span></li>
         ))}
       </ul>
     </section>

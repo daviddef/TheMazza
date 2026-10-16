@@ -58,9 +58,12 @@ for (const p of people) if (KIN.has(p.id))
 const reach = (p) => BLOOD.has(p.id) ? "blood" : MARRIED.has(p.id) ? "married"
   : KIN.has(p.id) ? "kin" : SECOND.has(p.id) ? "second" : "unconnected";
 
-/* The living are named and nothing more: no date, no place. This archive marks
-   them presumedLiving and already hides their dates; the page does not undo it. */
-const hidden = (p) => p.living || p.presumedLiving;
+/* A living person (tools/living_v2.py) is named with their relationships and their
+   town and country, and nothing more. They have no dates in the data, so nothing is
+   withheld here; they are listed with the rest, and the kit's rows print them as
+   "living, named only". The old `presumedLiving` flag is gone: it was true of 280
+   people who are plainly dead. */
+const isLiving = (p) => !!p.living;
 
 const STRENGTH = ["blood", "married", "kin", "second", "unconnected"];
 const GROUPS = [
@@ -94,14 +97,14 @@ const primary = (list) => STRENGTH.find((k) => list.some((p) => reach(p) === k))
 
 const fam = (surname, list) => {
   const meta = META.get(surname) || {};
-  const shown = list.filter((p) => !hidden(p));
+  const shown = list;
   const marr = [];
   for (const p of list) for (const s of mates(p)) {
     if (BLOOD.has(p.id) === BLOOD.has(s.id)) continue;
     const k = [p.id, s.id].sort().join("|");
     if (marr.some((m) => m.k === k)) continue;
-    marr.push({ k, who: p.name, whoSlug: hidden(p) ? "" : p.slug,
-      to: s.name, toSlug: hidden(s) ? "" : s.slug, living: hidden(p) || hidden(s) });
+    marr.push({ k, who: p.name, whoSlug: isLiving(p) ? "" : p.slug,
+      to: s.name, toSlug: isLiving(s) ? "" : s.slug, living: isLiving(p) || isLiving(s) });
   }
   return {
     surname, n: shown.length,
@@ -126,11 +129,11 @@ const GROUPED = GROUPS.map((g) => {
   const mine = ALL.filter((x) => x.key === g.key);
   return {
     ...g, count: mine.length,
-    families: mine.filter((x) => x.list.filter((p) => !hidden(p)).length >= 4)
+    families: mine.filter((x) => x.list.length >= 4)
       .sort((a, b) => b.list.length - a.list.length).map((x) => fam(x.s, x.list)),
-    thin: mine.filter((x) => { const n = x.list.filter((p) => !hidden(p)).length; return n > 0 && n < 4; })
+    thin: mine.filter((x) => { const n = x.list.length; return n > 0 && n < 4; })
       .sort((a, b) => a.s.localeCompare(b.s)).map((x) => fam(x.s, x.list)),
-    held: mine.filter((x) => !x.list.some((p) => !hidden(p)))
+    held: mine.filter((x) => !x.list.length)
       .sort((a, b) => a.s.localeCompare(b.s))
       .map((x) => ({ surname: x.s, withheld: x.list.length })),
   };
@@ -148,18 +151,18 @@ const couples = (() => {
     seen.add(k);
     const yr = (x) => (String(x.born || "").match(/\d{4}/) || [""])[0];
     out.push({
-      a: { name: p.name, slug: hidden(p) ? "" : p.slug, living: hidden(p) },
-      b: { name: s.name, slug: hidden(s) ? "" : s.slug, living: hidden(s) },
-      when: hidden(p) || hidden(s) ? "" : [yr(p), yr(s)].filter(Boolean).sort()[0] || "",
-      where: hidden(p) || hidden(s) ? "" : [p.birthPlace, s.birthPlace].filter(Boolean)[0] || "",
+      a: { name: p.name, slug: isLiving(p) ? "" : p.slug, living: isLiving(p) },
+      b: { name: s.name, slug: isLiving(s) ? "" : s.slug, living: isLiving(s) },
+      when: isLiving(p) || isLiving(s) ? "" : [yr(p), yr(s)].filter(Boolean).sort()[0] || "",
+      where: isLiving(p) || isLiving(s) ? "" : [p.birthPlace, s.birthPlace].filter(Boolean)[0] || "",
       sort: [yr(p), yr(s)].filter(Boolean).sort()[0] || "9999",
     });
   }
   return out.sort((a, b) => a.sort.localeCompare(b.sort));
 })();
 
-const nNamed = people.filter((p) => !hidden(p)).length;
-const nHidden = people.length - nNamed;
+const nNamed = people.length;
+const nHidden = people.filter(isLiving).length;
 const nCouples = (() => {
   const seen = new Set();
   for (const p of people) for (const s of mates(p)) seen.add([p.id, s.id].sort().join("|"));
@@ -170,7 +173,7 @@ const counts = Object.fromEntries(GROUPS.map((g) => [g.key, ALL.filter((x) => x.
 /* No marriage dates in this archive's data, so the dots are births — the
    people it can date — and the caption says so rather than letting a reader
    assume they are weddings. */
-const timelinePoints = people.filter((x) => !hidden(x) && x.born && /\d{4}/.test(String(x.born)))
+const timelinePoints = people.filter((x) => !isLiving(x) && x.born && /\d{4}/.test(String(x.born)))
   .map((x) => ({ label: x.name, year: String(x.born), sub: x.birthPlace ? x.birthPlace.split(",")[0] : undefined }));
 
 ---
@@ -191,10 +194,10 @@ const timelinePoints = people.filter((x) => !hidden(x) && x.born && /\d{4}/.test
     one of those</strong>, and {counts.unconnected === 0 ? "none reach it not at all" :
     `${counts.unconnected} cannot yet be reached from it at all`}. Nothing below matches a name
     against a name: every link walked is a parent, child or spouse edge carried in the data.</p>
-    <p style="margin-top:.6rem"><strong>The living are named and nothing more.</strong>
-    {" "}{nHidden} people are held as living: a name and a relationship, no date and no place. Where
-    a family shows <em>no named people at all</em>, every person the archive holds for that surname
-    is living.</p>
+    <p style="margin-top:.6rem"><strong>A living person is named with their relationships and their
+    town and country, and nothing more.</strong>
+    {" "}{nHidden} people are living (80 or younger, with no death recorded): each is listed here by
+    name, with no date beside them, and has a page of their own.</p>
   </div>
 
   <EraTimeline points={timelinePoints}
@@ -206,7 +209,7 @@ const timelinePoints = people.filter((x) => !hidden(x) && x.born && /\d{4}/.test
 
   <Marriages u={u} groups={GROUPED} openAt={8} subject="Mazza"
     metrics={[{ n: nCouples, label: "couples" }, { n: bySurname.size, label: "families" },
-              { n: nNamed, label: "people named" }, { n: nHidden, label: "living, withheld" },
+              { n: nNamed, label: "people named" }, { n: nHidden, label: "living, named only" },
               { n: counts.blood, label: "carry this blood" }]}
     couples={couples}
     couplesTitle="Every couple the archive can name"

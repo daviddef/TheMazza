@@ -3,9 +3,10 @@
  * Built by tools/build.py from the MyHeritage export. Two rules carry over
  * from The Falco Archive and are the reason this file exists at all:
  *
- *  1. A LIVING PERSON HAS A NAME AND NOTHING ELSE. No date, no place, no
- *     record, no photograph. The build never emits those fields for them,
- *     so there is nothing here to leak.
+ *  1. A LIVING PERSON HAS A NAME, RELATIONSHIPS AND A TOWN AND COUNTRY, AND
+ *     NOTHING ELSE (David, 16 October 2026). No date, no record, no
+ *     photograph. The build never emits those fields for them, so there is
+ *     nothing here to leak. Who is living is decided in tools/living_v2.py.
  *  2. A SHARED NAME IS NOT AN IDENTIFICATION. The export holds four men
  *     called Rosario Mazza and four called Giuseppe Arena, most without a
  *     single date. Where the archive cannot tell them apart it says so and

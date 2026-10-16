@@ -378,7 +378,7 @@ const big = apart.reduce((a, g) => a + g.n, 0);
         <P n="Rosario Mazza" /> — of whom one single fact is known, that he fathered Salvatore —
         then <P n="Salvatore Mazza" /> born at Piedimonte Etneo in 1879, <P n="Sebastiano Mazza" />
         who sailed on the <em>Toscana</em> in 1949, and down to
-        <strong>Mia</strong> and <strong>Rocco Francesco</strong>. It is the
+        <strong>the two children this archive is for</strong>. It is the
         <a href={u("/lines/")}>shallowest of the four quarters</a> by five generations.</p>
         <div class="scroll" style="margin-top:20px">
           <table>
@@ -386,7 +386,7 @@ const big = apart.reduce((a, g) => a + g.n, 0);
             <tbody>{g.people.map((x) => (
               <tr>
                 <td><a href={u("/people/" + x.slug)}>{x.name}</a></td>
-                <td class="m">{x.datesHidden ? <span style="color:var(--ink-3)">withheld</span>
+                <td class="m">{x.living ? <span style="color:var(--ink-3)">living</span>
                   : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
                 <td>{x.birthPlace || "—"}</td>
                 <td>{g.onSpine.includes(x.name) ? <span class="chip doc">ancestor</span> : ""}</td>

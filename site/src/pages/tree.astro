@@ -60,10 +60,10 @@ const parentsOf = (r) => {
 const root = lineage(byId.get("@I1@"), {
   parentsOf,
   place: (r) => r.birthPlace || "",
-  /* The archive hides a presumed-living person's dates already; the chart
-     treats that as living outright, which also takes the birthplace. */
-  living: (r) => !!r.living || !!r.presumedLiving,
-  conf: (r) => (r.living || r.presumedLiving ? "living"
+  /* A living person (tools/living_v2.py) has no dates in the data; the chart draws
+     the name and the relationship. */
+  living: (r) => !!r.living,
+  conf: (r) => (r.living ? "living"
                 : (r.sources && r.sources.length) ? "doc" : "lore"),
   extra: (r) => ({ slug: r.slug }),
 });

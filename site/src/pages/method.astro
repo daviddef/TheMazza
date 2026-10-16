@@ -96,29 +96,42 @@ const word = (n) => WORD[n] || String(n);
     most of it — this site says that too. Converting those assertions into documents is the work.</p>
   </section>
 
-  <section class="blk">
-    <h2>Dates, and who does not get one</h2>
+  <section class="blk" id="living">
+    <h2>Living people, and who counts as one</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>The companion <a href="https://falco.defranceski.com/">Falco archive</a> names living
-      relatives and publishes nothing else about them at all. That rule was tried here first and it
-      failed badly: the test it rests on treats a person as possibly alive unless the tree records a
-      death — and <strong>{stats.presumedLiving} of these {stats.people} people have no death
-      recorded</strong>, because most of this tree is <em>undated</em>, not <em>alive</em>. Only
-      {stats.withDeath} people in it have a death anywhere. Suppressing seven-tenths of an archive
-      makes it unreadable without making anybody safer.</p>
-      <p>So this archive uses a narrower rule, set by David on 10 September 2026:</p>
-      <blockquote><strong>Anyone who would be {stats.ageThreshold} or younger today, and whose death
-      is not recorded, has their dates withheld.</strong> Their name, their places, their family,
-      their photographs and their records are all published. Only the dates are held back.</blockquote>
-      <p>That covers <strong>{stats.datesHidden}</strong> people. It deliberately does <em>not</em>
-      cover anyone the tree records as dead: a death date is a documented fact about a person with no
-      remaining interest in privacy, and withholding it would gut the archive — Mary Rosa Mazza died
-      at sixteen, and an archive that will not say so is not telling the truth about this family.</p>
-      <p>The withheld dates are <strong>stripped in the build</strong>, not hidden by the page. They
-      are not in the HTML, not in the JSON the page loads, and not recoverable from the published
-      site. Both rules are switches in <code>tools/build.py</code> —
-      <code>SUPPRESS_LIVING</code> and <code>AGE_THRESHOLD</code> — so either can be tightened in one
-      line and a rebuild.</p>
+      <p><strong>A living person (80 or younger, with no death recorded) is named with their
+      relationships and their town and country, and nothing more.</strong> They get a page of their
+      own, so that no name here is a dead end, but the page has no dates, no records, no sources and
+      no photograph; it carries no structured data and it is kept out of search engines and the
+      sitemap. A name page whose every bearer is living is kept out in the same way. This is the
+      estate's one rule, set by David on 16 October 2026 and applied by the same code in every
+      archive.</p>
+      <p>Who is living is decided in one place, <code>tools/living_v2.py</code>, which hands each
+      person's facts to the kit's <code>living_rule.py</code>:</p>
+      <ul>
+        <li><strong>80 or younger</strong>, counting by year (this year less the birth year), with
+        <strong>no death or burial recorded</strong> anywhere this archive has read &mdash; the tree
+        and the registers alike. A recorded death or burial, dated or not, means dead.</li>
+        <li><strong>A public record source</strong> (FamilySearch, MyHeritage record collections,
+        Findmypast and the others in the kit's list) naming the person takes them out of the living,
+        and what that source says may be shown. A private family-tree entry does not count.</li>
+        <li><strong>No birth year</strong> means the person cannot be shown to be 80 or younger, so
+        they are not living by this test. That is why {stats.people - stats.living} of this
+        archive's {stats.people} people are ordinary pages: most of this tree is <em>undated</em>,
+        not <em>alive</em>, and only {stats.withDeath} have a death recorded anywhere. The older
+        test (&ldquo;the tree cannot show they died&rdquo;) treated 411 people as possibly alive, and
+        280 of them were never living at all: 263 are now ordinary pages, written up in full, and
+        17 are undated children of living parents, who are held out.</li>
+      </ul>
+      <p>A person who is not recorded dead, has no public source, and is <strong>under 18 by year</strong>
+      &mdash; or has no birth year and a living parent &mdash; <strong>may be a child and is not
+      published at all</strong>: no page, and no name as anyone&rsquo;s relative. {stats.heldOut}
+      people are held out. A living person&rsquo;s town is cut back to the town and country if the
+      tree gives anything finer, such as a hospital or a street.</p>
+      <p>The living person&rsquo;s fields are built from name, relationships and place only; their
+      dates, sources and photographs never enter any file this repository publishes, because every
+      committed file here is public. The build refuses to ship if that is ever untrue
+      (<code>check:living</code> and <code>check:living-v2</code>).</p>
       <p>A removal request is honoured within days, without argument and without requiring a reason.</p>
     </div>
   </section>
@@ -147,8 +160,7 @@ const word = (n) => WORD[n] || String(n);
       <p>A rule that keys on the exact name is defeated by a <strong>single middle initial</strong>.
       The tree holds <em>Joseph A Polistena</em> and <em>Joseph Polistena</em> as two men — same wife,
       <strong>same full death date, 15 February 2012</strong>, same grave at Arneytown, New Jersey.
-      It also holds <em>Michael Mazza</em> and <em>Michael Rocco Mazza</em>, same parents, both born
-      1988. One man each time, and the first version of this build refused to join either.</p>
+      It also holds <em>Michael Mazza</em> and <em>Michael Rocco Mazza</em>, same parents, the same birth year. One man each time, and the first version of this build refused to join either.</p>
       <p>So names are compared a second time at a looser key — <strong>surname plus first
       forename</strong>, middle names and initials dropped — and because that test is weaker, the
       corroboration demanded is stronger: an identical <em>full</em> death date, or identical parents

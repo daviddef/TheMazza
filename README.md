@@ -23,7 +23,7 @@ Sister archive to [The Falco Archive](https://github.com/daviddef/TheFalco).
 - **599 people**, 280 households, 63 places, 123 surnames.
   Only **69** of them have a death recorded anywhere — a measure of how undated this
   tree still is, not of who is alive.
-- **The ancestors of Mia and Rocco.** 62 people across 10 generations, counted
+- **The ancestors of the two children this archive is for.** 62 people across 10 generations, counted
   against the 2,046 there ought to be: **complete** for grandparents, **50%** at the third generation,
   **5.5%** at the seventh, **0.2%** at the tenth. What survives that far is one thread.
 - **The Mazza name line runs seven generations** — from **Mariano Mazza**, born about 1815 and named
@@ -83,16 +83,20 @@ standing apart** rather than invent a descent.
 Most of this archive currently sits at a fourth level the Falco archive did not need: **asserted by
 the family tree**. Converting those assertions into documents is the work.
 
-**Dates are withheld for anyone 80 or younger.** Everyone in the tree is written
-up in full — name, places, family, photographs, records — but the **134 people** who
-would be 80 or younger today, and whose death is not recorded, have their dates held
-back. Those dates are stripped in the build, not hidden by the page: they are not in the HTML and not
-recoverable from the published site. People the tree records as dead keep their dates.
-
-The blunter Falco rule — living people named and nothing else — is a switch
-(`SUPPRESS_LIVING` in `tools/build.py`) and is currently **off**, because the test underneath it
-treated 416 of 599 people as possibly alive in a family reaching back to
-1697. A removal request is honoured within days, without argument and without requiring a reason.
+**Living people.** A living person (80 or younger, with no death recorded) is named with their
+relationships and their town and country, and nothing more. Who is living is decided in one place,
+`tools/living_v2.py`, by the kit's `living_rule.py`: 80 or younger by year, no death or burial
+recorded anywhere this archive has read, and no citation from a public record source (FamilySearch,
+MyHeritage records, Findmypast and the like). Someone with no birth year is not living by this test,
+so the 280 people the older "the tree cannot show they died" flag caught who are plainly dead are
+ordinary pages. A living person has a page of their own with no dates, records, sources or photograph;
+it is `noindex`, carries no structured data, and is out of the sitemap and the search index. A person
+who may be a child (not recorded dead, no public source, under 18 by year, or no birth year and a
+living parent) is **not published at all**: no page, and no name as anyone's relative; their GEDCOM
+ids are in `data/held-out.json`. A living person's dates, sources and photographs are never built
+into any file, because every committed file here is public. `npm run build` refuses to ship if that
+is untrue (`check:living`, `check:living-v2` and its planted-fault self-test). A removal request is
+honoured within days, without argument and without requiring a reason.
 
 ## Running it
 
@@ -111,7 +115,7 @@ Deploys to GitHub Pages on every push to `main`.
 sources/mazza-myheritage.ged     the export everything is built from
 tools/                           ged.py, build.py, build_more.py, build_spine.py, fetch_photos.py
 data/                            audit.json, photo-manifest.json, ahnentafel.json
-photos/deceased/                 published;  photos/living/ is gitignored
+photos/                          photographs of people who are NOT living; a living person's photograph is never kept here
 site/src/data/                   people, quarters, spine, places, families, crossings, burials
 site/src/pages/                  the archive itself
 ```

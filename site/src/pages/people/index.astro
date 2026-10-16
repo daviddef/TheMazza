@@ -7,14 +7,16 @@ import { people, span, homeOf } from "../../lib/people.js";
 const rows = [...people].sort((a, b) =>
   (a.surname || "zzz").localeCompare(b.surname || "zzz") || a.name.localeCompare(b.name));
 const surnames = [...new Set(people.map((p) => p.surname).filter(Boolean))].sort();
-const status = (p) => p.died
+const status = (p) => p.living
+  ? '<span class="chip lore">living</span>'
+  : p.died
   ? '<span class="chip doc">death recorded</span>'
   : p.born ? `<span class="chip inf">born ${p.born}</span>`
            : '<span class="chip lore">undated</span>';
 ---
 <Base title="The People" eyebrow="Everyone in the archive"
-      dek={`All ${people.length} people in the tree. Only ${people.filter((p) =>
- p.died).length} of them have a death recorded anywhere — the rest are undated rather than necessarily alive.`}>
+      dek={`All ${people.length} people the archive names. ${people.filter((p) => p.living).length} are living — 80 or younger, with no death recorded — and are named with their relationships and their town and country, and nothing more. Only ${people.filter((p) =>
+ p.died).length} of the rest have a death recorded anywhere; the others are undated, not necessarily alive.`}>
 
 <NameLists here="people" u={u} />
 
@@ -25,10 +27,10 @@ const status = (p) => p.died
       { key: "sur", label: "Surname", all: "all surnames",
         options: surnames.map((s) => ({ v: s, label: s })) },
       { key: "dated", label: "Show", all: "everyone", options: [
-        { v: "dated", label: "With dates" }, { v: "undated", label: "Undated" }] },
+        { v: "dated", label: "With dates" }, { v: "undated", label: "Undated" }, { v: "living", label: "Living" }] },
     ]}
     rows={rows.map((p) => ({
-      facets: { sur: p.surname || "", dated: (p.born || p.died) ? "dated" : "undated" },
+      facets: { sur: p.surname || "", dated: p.living ? "living" : (p.born || p.died) ? "dated" : "undated" },
       cells: [
         `<a href="${u("/people/" + p.slug + "/")}">${p.name}</a>`,
         span(p) || "",

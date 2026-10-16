@@ -136,7 +136,7 @@ const line = [
         <tbody>{g.people.map((x) => (
           <tr>
             <td><a href={u("/people/" + x.slug)}>{x.name}</a></td>
-            <td class="m">{x.datesHidden ? <span style="color:var(--ink-3)">withheld</span>
+            <td class="m">{x.living ? <span style="color:var(--ink-3)">living</span>
               : ([x.born, x.died].filter(Boolean).join("–") || "—")}</td>
             <td>{x.birthPlace || "—"}</td>
             <td>{g.onSpine.includes(x.name) ? <span class="chip doc">ancestor</span> : ""}</td>

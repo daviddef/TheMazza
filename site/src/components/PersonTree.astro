@@ -20,7 +20,8 @@
  * What can be marked is the person: an ancestor of the two children the archive
  * is for, and whether any record about them has actually been read.
  *
- * Dates for anyone 80 or younger are absent from the data, not hidden here.
+ * A living person (tools/living_v2.py) has no dates in the data: nothing is hidden
+ * here, there is simply nothing to draw. Their relatives are drawn by name.
  */
 import { u } from "../lib/url.js";
 import { bySlug } from "../lib/people.js";
@@ -35,7 +36,7 @@ const { person: p } = Astro.props;
    Michael's research and this archive does not silently rewrite it -- but a
    reader should not have to find the prose on another page to learn that the
    line they are looking at is disputed. */
-const dis = disputed[p.slug] || {};
+const dis = p.living ? {} : (disputed[p.slug] || {});
 const disp = (slug) => dis[slug] || null;
 
 const get = (b) => (p[b] || []).map((e) => ({ ...e, rec: bySlug.get(e.slug) }));
@@ -56,18 +57,16 @@ const siblings = get("siblings");
    FAMILY RECORD here names them — checked against families.json directly, id by
    id, not inferred from the empty chart.
 
-   It is not about being living, which was my first guess and wrong: 411 people
-   here are presumed living and 405 of them sit in a component with others, so
-   withholding dates does not cut anybody out of the chart. Six of the eight are
-   presumed living and the self node already says «dates withheld — 80 or
-   younger»; the other two died in 1987 and 2017. The sentence is the same for
-   all eight because the reason is the same. */
+   It is not about being living, which was my first guess and wrong: living
+   people sit in components with others, so being living does not cut anybody
+   out of the chart. The sentence is the same for all of them because the
+   reason is the same. */
 const nothing = !parents.length && !spouses.length && !children.length
   && !siblings.length;
 
 const dates = (r) => {
   if (!r) return "";
-  if (r.datesHidden) return "";
+  if (r.living) return "";
   if (r.born && r.died) return `${r.born} – ${r.died}`;
   if (r.born) return `b. ${r.born}`;
   if (r.died) return `d. ${r.died}`;
@@ -105,15 +104,15 @@ const row = (e, mark) => ({
 ---
 <PersonTree
   self={{ name: p.name, dates: dates(p),
-          gen: p.ancGen ? `generation ${p.ancGen} above the children` : "",
-          note: p.datesHidden ? "dates withheld — 80 or younger" : "", noteCls: "living" }}
+          gen: p.ancGen && !p.living ? `generation ${p.ancGen} above the children` : "",
+          note: p.living ? "a living person" : "", noteCls: "living" }}
   parents={parents.map((e) => row(e, "disputed"))}
   spouses={spouses.map((e) => row(e, true))}
   children={children.map((e) => row(e, "disputed"))}
   siblings={siblings.map((e) => row(e, false))}
   always
   keys={nothing ? [] : [
-    { cls: "line", label: "an ancestor of Mia and Rocco" },
+    { cls: "line", label: "on the archive's own line of ancestors" },
     { cls: "register", label: "a record about them has been read" },
     { cls: "tree", label: "from the family tree, unverified" },
   ]}

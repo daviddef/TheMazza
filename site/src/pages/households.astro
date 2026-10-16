@@ -9,7 +9,7 @@ const undated = households.filter((h) => !h.born);
 const shape = (h) => ({
   head: h.name, born: h.born, where: h.place,
   children: (h.children || []).map((c) => ({
-    name: c.name, living: !!c.living, href: c.living ? null : "/people/" + c.slug,
+    name: c.name, living: !!c.living, href: "/people/" + c.slug,
   })),
 });
 const datedRows = dated.map(shape);

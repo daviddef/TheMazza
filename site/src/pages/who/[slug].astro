@@ -31,15 +31,16 @@ const listed = rows.map(p => ({
      facts that distinguish them. */
   life: [p.born, p.died].filter(Boolean).join(" – ")
         || [p.bornText, p.diedText].filter(Boolean).join(" – "),
-  /* A PERSON WHO MIGHT STILL BE ALIVE SHOWS THEIR TOWN AND COUNTRY, as on their own page:
-     the estate standard is name, relationship, town and country (David, 16 October 2026).
-     Their dates are already absent from the data; the page below is noindex when no
-     bearer of the name is anyone else. */
+  /* A LIVING PERSON SHOWS THEIR TOWN AND COUNTRY, as on their own page: the estate
+     standard is name, relationship, town and country (David, 16 October 2026). Their
+     dates are not in the data; the page below is noindex when no bearer of the name is
+     anyone else. */
   where: p.birthPlace || p.deathPlace || p.burialPlace || "",
 }));
-/* A name page whose every bearer might be alive says nothing a search engine should
-   hold: it is out of the sitemap and the search index by the same noindex rule. */
-const allHidden = rows.length > 0 && rows.every((p) => p.datesHidden || p.living);
+/* A name page whose every bearer is living says nothing a search engine should
+   hold: it is noindex, so it is out of the sitemap and the search index, and it names
+   no canonical elsewhere. */
+const allHidden = rows.length > 0 && rows.every((p) => p.living);
 ---
 <Base title={name}
       noindex={allHidden}

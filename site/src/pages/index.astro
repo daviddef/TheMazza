@@ -25,9 +25,9 @@ const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
 const g7 = anc.generations[6];
 const g7pc = Math.round(100 * g7.found / g7.possible);  /* `found` is a COUNT, not an array */
 const more = [
-  ["/ancestors", "The ancestors of Mia and Rocco", `${anc.total} people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, ${g7pc}% complete by the seventh generation, and one thread at the tenth.`],
+  ["/ancestors", "The ancestors of the two children", `${anc.total} people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, ${g7pc}% complete by the seventh generation, and one thread at the tenth.`],
   ["/the-hundred-and-ten", "The hundred and ten", "The archive's largest open question, answered on the day it was built: a hundred and ten Piedimonte Etneo Mazza who turned out to be the families of Michael Rocco Mazza's great-great-uncles."],
-  ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1815, to two children born in Brisbane."],
+  ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1815, to the Brisbane generation now living."],
   ["/arena", "The Arena", "Thirty-nine Arena of Scilla in a single unbroken family — the counter-example, and the reason a surname tells you least about a family."],
   ["/lines", "The four quarters", "Michael Rocco Mazza has four grandparents and they came from four different places. Three towns in the south of Italy, and the shipping line that brought all four to one suburb of Brisbane."],
   ["/briatico-tested", "Testing the 1697", "The archive's largest claim, audited: two Prostamo generations proved, four shown to rest on nothing, and a family of sailors the tree had recorded as farmers."],
@@ -63,11 +63,12 @@ const kinCards = (slug, band) => {
   const rec = slug ? P_BY_SLUG.get(slug) : null;
   return ((rec && rec[band]) || []).map((c) => {
     const full = P_BY_SLUG.get(c.slug);
-    const hide = !full || full.living || full.presumedLiving || full.datesHidden;
+    /* A living person has a page of their own (a name, relationships, town and
+       country) and no dates in the data, so there is nothing to withhold here. */
     return {
       name: c.name,
-      href: c.slug && !hide ? `/people/${c.slug}/` : null,
-      dates: hide ? "" : [full.born, full.died].filter(Boolean).join("\u2013"),
+      href: c.slug && full ? `/people/${c.slug}/` : null,
+      dates: full ? [full.born, full.died].filter(Boolean).join("\u2013") : "",
     };
   });
 };
@@ -77,14 +78,14 @@ const spineRows = spineData.spine.map((g) => {
     gen: g.gen,
     era: [g.born, g.died].filter(Boolean).join(" \u2192 ") || undefined,
     name: g.name,
-    href: g.slug && !g.living ? `/people/${g.slug}/` : "",
+    href: g.slug ? `/people/${g.slug}/` : "",
     living: !!g.living,
     via: g.via || "",
     born: g.born ? String(g.born) : "",
     died: g.died ? String(g.died) : "",
     place: g.birthPlace || g.deathPlace || "",
     spouse: g.spouse || "",
-    spouseHref: g.spouseSlug && !g.living ? `/people/${g.spouseSlug}/` : null,
+    spouseHref: g.spouseSlug ? `/people/${g.spouseSlug}/` : null,
     children: kinCards(g.slug, "children"),
     hisSiblings: kinCards(g.slug, "siblings"),
     herSiblings: kinCards(hers && hers.slug, "siblings"),
@@ -128,8 +129,8 @@ const spineRows = spineData.spine.map((g) => {
 
   
   <p class="lede" style="margin-top:14px">
-    It is a public archive with one rule: <b>a living person is named and nothing more</b> — and
-    dates are withheld for anyone eighty or younger, living or not. And a second rule,
+    It is a public archive with one rule: <b>a living person (80 or younger, with no death recorded)
+    is named with their relationships and their town and country, and nothing more</b>. And a second rule,
     which is harder: <b>every claim says how well it is known</b>.
     <span class="chip doc" style="padding:2px 8px;font-size:10px">Documented</span>
     <span class="chip inf" style="padding:2px 8px;font-size:10px">Inferred</span>
@@ -278,13 +279,15 @@ const spineRows = spineData.spine.map((g) => {
 
   <section class="blk" style="border-bottom:0">
     <div class="lab">A standing rule</div>
-    <h2 style="margin-top:.4rem">Dates are withheld for anyone {stats.ageThreshold} or younger</h2>
-    <p class="dek" style="margin-top:.8rem">Everyone in this tree is written up in full — name,
-    places, family, photographs, records. But <strong>{stats.datesHidden} people</strong> who would be
-    {stats.ageThreshold} or younger today, and whose death is not recorded, have their
-    <strong>dates withheld</strong>. Those dates are stripped in the build, not hidden by the page:
-    they are not in the HTML and not recoverable from this site. A removal request is honoured within
-    days, without argument and without requiring a reason. <a href={u("/method/")}>The method →</a></p>
+    <h2 style="margin-top:.4rem">A living person is named, and nothing more</h2>
+    <p class="dek" style="margin-top:.8rem">Everyone who has died is written up in full — name,
+    places, family, photographs, records. <strong>{stats.living} people</strong> who are
+    {stats.ageThreshold} or younger today, with no death recorded and no public record naming them,
+    are living: each is named with their relationships and their town and country, and nothing more.
+    Their dates, records and photographs are not built, so they are not in the HTML and not
+    recoverable from this site. Possible minors are not published at all. A removal request is
+    honoured within days, without argument and without requiring a reason.
+    <a href={u("/method/#living")}>The method →</a></p>
   </section>
 
   <Numbers rows={[

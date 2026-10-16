@@ -38,7 +38,7 @@ const below = anchors.reduce((n, [, v]) => n + (v.down || []).length, 0);
             <div class="evlist">
               {q.line.map((r) => (
                 <div><b>{r.born || "····"}</b>
-                  {r.living ? r.name : <a href={u("/people/" + r.slug)}>{r.name}</a>}</div>
+                  <a href={u("/people/" + r.slug)}>{r.name}</a></div>
               ))}
             </div>
           </div>

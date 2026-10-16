@@ -160,6 +160,11 @@ for slug, files in sorted(named.items()):
         # check_corrections.py on the strength of that comment would have
         # removed the only thing watching.
         continue
+    if person.get("living"):
+        # A living person's page carries no record and no correction BY RULE
+        # (the living-people standard, 16 October 2026): the row is evidence about
+        # other people's relationships and stays on /corrections/ only.
+        continue
     if not person.get("records") and not person.get("corrections"):
         fails.append(
             f"{slug} is named in {' and '.join(sorted(files))} and their page carries "
@@ -181,7 +186,8 @@ for n in notes:
 STAGES = {"records": "build_spine.py", "corrections": "build_spine.py",
           "onSpine": "build_more.py", "ancGen": "build_person_extras.py"}
 for key, stage in STAGES.items():
-    missing = sum(1 for r in people if key not in r)
+    # a living row is built without these four keys on purpose (tools/living_v2.py)
+    missing = sum(1 for r in people if key not in r and not r.get("living"))
     if missing:
         fails.append(f"people.json is missing «{key}» on {missing} of {len(people)} rows — "
                      f"build.py was run without {stage}. Run the full four-stage chain: "
