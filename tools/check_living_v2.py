@@ -177,8 +177,17 @@ class Gate:
     def rule2_classification(self):
         # (i) nobody published as not living who the rule makes living
         bad = []
+        # an undated parent is living when their youngest child with a known birth year is 60 or less
+        # (17 October 2026). A living child's year is not published, so this half sees only the children
+        # whose year is; the GEDCOM half below sees them all.
+        kid_year = {}
+        for q in self.people:
+            if q.get("born"):
+                for e in (q.get("parents") or []):
+                    kid_year[e.get("id")] = max(kid_year.get(e.get("id"), 0), q["born"])
         for p in self.dead:
-            if lr.is_living(p.get("born"), self.dead_recorded(p), self.cites_of(p), self.today):
+            if lr.is_living(p.get("born"), self.dead_recorded(p), self.cites_of(p), self.today,
+                            kid_year.get(p["id"])):
                 bad.append(p["id"])
         if bad:
             self.fail(2, f"{len(bad)} person(s) are published as not living but the rule makes them "
@@ -237,12 +246,20 @@ class Gate:
             info[x] = {"by": by_of(x),
                        "dead": bool(kid(I[x], "DEAT") or kid(I[x], "BURI")) or (sl in ev["dead"]),
                        "cites": titles(x) + ev["cites"].get(sl, []), "parents": parents_of(x)}
-        living_now = {x for x, i in info.items() if lr.is_living(i["by"], i["dead"], i["cites"], self.today)}
+        # the youngest child with a known birth year, from the export's own family records (17 October 2026)
+        young = {}
+        for x, i in info.items():
+            if i["by"] is not None:
+                for q in i["parents"]:
+                    young[q] = max(young.get(q, 0), i["by"])
+        living_now = {x for x, i in info.items()
+                      if lr.is_living(i["by"], i["dead"], i["cites"], self.today, young.get(x))}
         held_now = set()
         for x, i in info.items():
             pl = any(q in living_now for q in i["parents"])
-            if lr.is_held_out(x, i["by"], i["dead"], i["cites"], pl, (), self.today):
+            if lr.is_held_out(x, i["by"], i["dead"], i["cites"], pl, (), self.today, young.get(x)):
                 held_now.add(x)
+        self.recent_parent_ids = sorted(x for x in living_now if info[x]["by"] is None)
         self.no_twin = {x for x in I if len(twins.get(name_key(x), [])) == 1}
         exempt = mism = 0
         for p in self.people:
@@ -274,6 +291,15 @@ class Gate:
         if len(undated_held) != len(held_now):
             self.fail(5, "a person with a birth year is held out by the rule: only the undated are")
         self.info["dated_children_published"] = len([x for x in kids if x in self.by_id])
+        rp = [x for x in self.recent_parent_ids if x in self.by_id]
+        self.info["undated_parents_living_by_recent_child"] = len(rp)
+        for x in rp:
+            if not self.by_id[x].get("living"):
+                self.fail(2, f"{x} is an undated parent of a child born 60 years ago or less, so living "
+                             "by the rule, but is published as not living")
+            if x in self.held_ids:
+                self.fail(5, f"{x} is an undated parent of a recent child, so an adult and not held out, "
+                             "but is recorded as held out")
         leaked = [x for x in held_now if x in self.by_id]
         for x in leaked:
             self.fail(5, f"{x} is held out by the rule but is published in people.json")
@@ -562,6 +588,8 @@ def report(g, quiet=False):
               f"living by rule · GEDCOM: {i.get('ged')}")
         print(f"        dated children (under 18 by year) published with a page: "
               f"{i.get('dated_children_published', 'not checked (needs the private GEDCOM)')}")
+        print(f"        undated parents of a recent child, living by the rule: "
+              f"{i.get('undated_parents_living_by_recent_child', 'not checked (needs the private GEDCOM)')}")
         print(f"        named without a page: {i.get('named_without_page')} · held-out name in built pages: "
               f"{i.get('held_name_in_built_pages')} · in shipped json: {i.get('held_name_in_shipped_json', 'not checked (needs the private GEDCOM; runs locally)')}")
     return 0
@@ -588,6 +616,10 @@ def selftest(dist, data_dir, root, ged):
         if base.fails:
             print("  FAIL  living-v2 selftest: the unmodified copy does not pass, so no fault can be judged")
             report(base)
+            return 1
+        wrong = LV.selfcheck(lr.this_year())
+        if wrong:
+            print("  FAIL  living-v2 selftest: the recent-child rule's planted cases do not hold: " + "; ".join(wrong))
             return 1
         people = jload(os.path.join(s2, "people.json"))
         living = [p for p in people if p.get("living")]
@@ -742,6 +774,18 @@ def selftest(dist, data_dir, root, ged):
                                       "ids": jload(os.path.join(r2, "data", "held-out.json"))["ids"] + [kid_ids()]})), True)
         add(6, "a dated child with no page (GEDCOM)",
             lambda: edit_people(lambda d: [d.remove(x) for x in [next(y for y in d if y["id"] == kid_ids())]]), True)
+        def recent_parent():
+            ids = [x for x in getattr(base, "recent_parent_ids", []) if x in getattr(base, "no_twin", set())
+                   and x in base.by_id]
+            if not ids:
+                raise StopIteration
+            return ids[0]
+        add(2, "an undated parent of a recent child published as not living (GEDCOM)",
+            lambda: edit_people(lambda d: next(x for x in d if x["id"] == recent_parent()).update({"living": False})), True)
+        add(5, "an undated parent of a recent child recorded as held out (GEDCOM)",
+            lambda: write(os.path.join(r2, "data", "held-out.json"),
+                          json.dumps({**jload(os.path.join(r2, "data", "held-out.json")),
+                                      "ids": jload(os.path.join(r2, "data", "held-out.json"))["ids"] + [recent_parent()]})), True)
         add(5, "an empty held-out list",
             lambda: write(os.path.join(r2, "data", "held-out.json"), json.dumps({"ids": []})))
         add(6, "a relationship to nobody",

@@ -3331,8 +3331,7 @@
     "id": "@I413@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-5",
-    "living": false,
-    "via": "tree"
+    "living": true
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -3768,8 +3767,7 @@
     "id": "@I108@",
     "name": "Quinto Pellagrini",
     "slug": "quinto-pellagrini",
-    "living": false,
-    "via": "tree"
+    "living": true
    }
   ],
   "place": "Tully, Queensland",
@@ -4744,7 +4742,7 @@
    "id": "@I81@",
    "name": "Marilyn",
    "slug": "marilyn",
-   "living": false
+   "living": true
   },
   "children": [
    {
@@ -5089,7 +5087,7 @@
    "id": "@I44@",
    "name": "Alfina Pennisi",
    "slug": "alfina-pennisi",
-   "living": false
+   "living": true
   },
   "children": [
    {
@@ -5176,7 +5174,7 @@
    "id": "@I109@",
    "name": "Rachel",
    "slug": "rachel",
-   "living": false
+   "living": true
   },
   "children": [
    {
@@ -5354,7 +5352,7 @@
    "id": "@I161@",
    "name": "Iian Whitaker",
    "slug": "iian-whitaker",
-   "living": false
+   "living": true
   },
   "children": [
    {
@@ -5617,8 +5615,7 @@
     "id": "@I108@",
     "name": "Quinto Pellagrini",
     "slug": "quinto-pellagrini",
-    "living": false,
-    "via": "tree"
+    "living": true
    }
   ],
   "place": "Melbourne, Victoria",
@@ -5632,7 +5629,7 @@
    "id": "@I118@",
    "name": "Emma",
    "slug": "emma",
-   "living": false
+   "living": true
   },
   "children": [
    {
@@ -5701,7 +5698,7 @@
    "id": "@I108@",
    "name": "Quinto Pellagrini",
    "slug": "quinto-pellagrini",
-   "living": false
+   "living": true
   },
   "children": [
    {
@@ -5989,7 +5986,7 @@
     "living": true
    }
   ],
-  "place": "Great Britain",
+  "place": "Great Britain, United Kingdom",
   "born": null
  },
  {
@@ -6663,7 +6660,7 @@
    "id": "@I366@",
    "name": "Josephine Falco",
    "slug": "josephine-falco",
-   "living": false
+   "living": true
   },
   "children": [
    {
@@ -6690,7 +6687,7 @@
    "id": "@I365@",
    "name": "Ian D'Arcy",
    "slug": "ian-darcy",
-   "living": false
+   "living": true
   },
   "children": [
    {
@@ -6987,8 +6984,7 @@
     "id": "@I413@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-5",
-    "living": false,
-    "via": "tree"
+    "living": true
    }
   ],
   "place": "",
@@ -7604,7 +7600,7 @@
    "id": "@I413@",
    "name": "Giovanni Polistena",
    "slug": "giovanni-polistena-5",
-   "living": false
+   "living": true
   },
   "children": [
    {

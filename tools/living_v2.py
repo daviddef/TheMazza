@@ -113,21 +113,96 @@ def evidence():
     return {"cites": cites, "dead": dead}
 
 
+def youngest_child_years(people):
+    """{parent id: birth year of that parent's youngest child with a known birth year}.
+
+    Taken from the archive's own parent edges (people[id]["parents"]), so a child's year counts
+    for each parent the archive records. A child with no birth year counts for nothing.
+    """
+    out = {}
+    for _id, p in people.items():
+        if p["by"] is None:
+            continue
+        for q in p["parents"]:
+            if q not in out or p["by"] > out[q]:
+                out[q] = p["by"]
+    return out
+
+
 def classify(people, today_year=None):
     """people: {id: {"by": int|None, "dead": bool, "cites": [str], "parents": [id]}}
 
     Returns (living, held_out) as sets of ids. Living is computed first, because
     a possible minor with no birth year is defined by a living parent.
+
+    RECENT CHILD (17 October 2026, kit living_rule 26a4cba): an UNDATED person with no recorded
+    death and no public source whose youngest child with a known birth year was born 60 years ago
+    or less is an adult parent, so LIVING (name, relationships, town and country; not held out).
+    The year comes from the archive's own parent edges (youngest_child_years).
     """
     y = today_year or lr.this_year()
+    yc = youngest_child_years(people)
     living = {i for i, p in people.items()
-              if lr.is_living(p["by"], p["dead"], p["cites"], y)}
+              if lr.is_living(p["by"], p["dead"], p["cites"], y, yc.get(i))}
     held = set()
     for i, p in people.items():
         pl = any(q in living for q in p["parents"])
-        if lr.is_held_out(i, p["by"], p["dead"], p["cites"], pl, (), y):
+        if lr.is_held_out(i, p["by"], p["dead"], p["cites"], pl, (), y, yc.get(i)):
             held.add(i)
     return living, held
+
+
+def selfcheck(today_year=2026):
+    """Planted cases for the recent-child rule, on invented people (no private data, so it runs in CI).
+    Returns a list of what is wrong; empty when every case holds."""
+    bad = []
+    pub = ["a public record"]
+
+    def P(by=None, dead=False, cites=(), parents=()):
+        return {"by": by, "dead": dead, "cites": list(cites), "parents": list(parents)}
+
+    def run(people):
+        return classify(people, today_year)
+
+    # an undated parent whose youngest dated child is 20 years old is living, and not held out
+    L, H = run({"p": P(), "k": P(today_year - 20, parents=["p"])})
+    if "p" not in L or "p" in H:
+        bad.append("an undated parent of a recent child is not living")
+    # the child's year is the youngest: a 70-year-old child and a 30-year-old child, the younger counts
+    L, H = run({"p": P(), "old": P(today_year - 70, parents=["p"]), "k": P(today_year - 30, parents=["p"])})
+    if "p" not in L:
+        bad.append("the youngest child's year was not the one used")
+    # a child born 61 years ago (60 is the bound) leaves the parent not living
+    L, H = run({"p": P(), "k": P(today_year - 61, parents=["p"])})
+    if "p" in L:
+        bad.append("a child born more than 60 years ago made an undated parent living")
+    L, H = run({"p": P(), "k": P(today_year - 60, parents=["p"])})
+    if "p" not in L:
+        bad.append("a child born exactly 60 years ago did not make an undated parent living")
+    # no child, or a child with no birth year: nothing changes (the default)
+    L, H = run({"p": P(), "k": P(None, parents=["p"])})
+    if "p" in L:
+        bad.append("an undated child made an undated parent living")
+    # a recorded death, or a public source, still means not living
+    L, H = run({"p": P(dead=True), "k": P(today_year - 20, parents=["p"])})
+    if "p" in L:
+        bad.append("a recorded death did not override the recent-child rule")
+    L, H = run({"p": P(cites=pub + ["FamilySearch"]), "k": P(today_year - 20, parents=["p"])})
+    if "p" in L:
+        bad.append("a public source did not override the recent-child rule")
+    # an undated parent of a recent child who has a living parent is an adult: living, NOT a possible minor
+    L, H = run({"g": P(today_year - 50), "p": P(parents=["g"]), "k": P(today_year - 5, parents=["p"])})
+    if "p" not in L or "p" in H:
+        bad.append("an undated parent of a recent child with a living parent was held out, not made living")
+    # an undated person with a living parent and no child is still a possible minor
+    L, H = run({"g": P(today_year - 50), "p": P(parents=["g"])})
+    if "p" not in H or "p" in L:
+        bad.append("an undated person with a living parent and no child is no longer held out")
+    # a dated person is judged by their own year alone
+    L, H = run({"p": P(today_year - 90), "k": P(today_year - 20, parents=["p"])})
+    if "p" in L:
+        bad.append("a dated person was made living by a child's year")
+    return bad
 
 
 # ---- the town and country of a living person --------------------------------

@@ -2944,7 +2944,7 @@
     "id": "@I44@",
     "name": "Alfina Pennisi",
     "slug": "alfina-pennisi",
-    "living": false
+    "living": true
    }
   ],
   "siblings": [
@@ -3777,17 +3777,9 @@
   "given": "Alfina",
   "surname": "Pennisi",
   "sex": "F",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": null,
-  "died": null,
-  "events": [],
   "birthPlace": "",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
   "parents": [],
   "children": [
    {
@@ -3811,11 +3803,7 @@
     "living": true
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I45@",
@@ -3838,7 +3826,7 @@
     "id": "@I44@",
     "name": "Alfina Pennisi",
     "slug": "alfina-pennisi",
-    "living": false
+    "living": true
    }
   ],
   "children": [
@@ -3854,7 +3842,7 @@
     "id": "@I109@",
     "name": "Rachel",
     "slug": "rachel",
-    "living": false
+    "living": true
    }
   ],
   "siblings": [
@@ -3887,7 +3875,7 @@
     "id": "@I44@",
     "name": "Alfina Pennisi",
     "slug": "alfina-pennisi",
-    "living": false
+    "living": true
    }
   ],
   "children": [],
@@ -5385,7 +5373,7 @@
     "id": "@I161@",
     "name": "Iian Whitaker",
     "slug": "iian-whitaker",
-    "living": false
+    "living": true
    }
   ],
   "siblings": [
@@ -6142,7 +6130,7 @@
     "id": "@I81@",
     "name": "Marilyn",
     "slug": "marilyn",
-    "living": false
+    "living": true
    }
   ],
   "siblings": [],
@@ -6424,8 +6412,7 @@
     "id": "@I108@",
     "name": "Quinto Pellagrini",
     "slug": "quinto-pellagrini",
-    "living": false,
-    "via": "tree"
+    "living": true
    }
   ],
   "spouses": [
@@ -6464,17 +6451,9 @@
   "given": "Marilyn",
   "surname": "",
   "sex": "F",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": null,
-  "died": null,
-  "events": [],
   "birthPlace": "",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
   "parents": [],
   "children": [
    {
@@ -6498,11 +6477,7 @@
     "living": false
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I82@",
@@ -6525,7 +6500,7 @@
     "id": "@I81@",
     "name": "Marilyn",
     "slug": "marilyn",
-    "living": false
+    "living": true
    }
   ],
   "children": [],
@@ -6560,7 +6535,7 @@
     "id": "@I81@",
     "name": "Marilyn",
     "slug": "marilyn",
-    "living": false
+    "living": true
    }
   ],
   "children": [],
@@ -7695,8 +7670,7 @@
     "id": "@I108@",
     "name": "Quinto Pellagrini",
     "slug": "quinto-pellagrini",
-    "living": false,
-    "via": "tree"
+    "living": true
    }
   ],
   "spouses": [
@@ -7744,7 +7718,7 @@
     "id": "@I108@",
     "name": "Quinto Pellagrini",
     "slug": "quinto-pellagrini",
-    "living": false
+    "living": true
    }
   ]
  },
@@ -7755,31 +7729,21 @@
   "given": "Quinto",
   "surname": "Pellagrini",
   "sex": "M",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": null,
-  "died": null,
-  "events": [],
   "birthPlace": "",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
   "parents": [
    {
     "id": "@I106@",
     "name": "Franco Pellagrini",
     "slug": "franco-pellagrini",
-    "living": false,
-    "via": "tree"
+    "living": false
    },
    {
     "id": "@I80@",
     "name": "Carmela Mazza",
     "slug": "carmela-mazza",
-    "living": false,
-    "via": "tree"
+    "living": false
    }
   ],
   "children": [
@@ -7795,7 +7759,7 @@
     "id": "@I118@",
     "name": "Emma",
     "slug": "emma",
-    "living": false
+    "living": true
    }
   ],
   "siblings": [
@@ -7805,11 +7769,7 @@
     "slug": "loretta-mazza",
     "living": true
    }
-  ],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I109@",
@@ -7818,17 +7778,9 @@
   "given": "Rachel",
   "surname": "",
   "sex": "F",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": null,
-  "died": null,
-  "events": [],
   "birthPlace": "",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
   "parents": [],
   "children": [
    {
@@ -7846,11 +7798,7 @@
     "living": true
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I110@",
@@ -7873,7 +7821,7 @@
     "id": "@I109@",
     "name": "Rachel",
     "slug": "rachel",
-    "living": false
+    "living": true
    }
   ],
   "children": [],
@@ -8081,17 +8029,9 @@
   "given": "Emma",
   "surname": "",
   "sex": "F",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": null,
-  "died": null,
-  "events": [],
   "birthPlace": "",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
   "parents": [],
   "children": [
    {
@@ -8106,14 +8046,10 @@
     "id": "@I108@",
     "name": "Quinto Pellagrini",
     "slug": "quinto-pellagrini",
-    "living": false
+    "living": true
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I119@",
@@ -8130,13 +8066,13 @@
     "id": "@I108@",
     "name": "Quinto Pellagrini",
     "slug": "quinto-pellagrini",
-    "living": false
+    "living": true
    },
    {
     "id": "@I118@",
     "name": "Emma",
     "slug": "emma",
-    "living": false
+    "living": true
    }
   ],
   "children": [],
@@ -9676,8 +9612,7 @@
     "id": "@I413@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-5",
-    "living": false,
-    "via": "tree"
+    "living": true
    }
   ],
   "spouses": [
@@ -11535,25 +11470,9 @@
   "given": "Iian",
   "surname": "Whitaker",
   "sex": "M",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": null,
-  "died": null,
-  "events": [
-   {
-    "what": "born",
-    "tag": "BIRT",
-    "date": "",
-    "year": null,
-    "place": "Great Britain"
-   }
-  ],
-  "birthPlace": "Great Britain",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
+  "birthPlace": "Great Britain, United Kingdom",
   "parents": [],
   "children": [
    {
@@ -11577,11 +11496,7 @@
     "living": true
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I162@",
@@ -11598,7 +11513,7 @@
     "id": "@I161@",
     "name": "Iian Whitaker",
     "slug": "iian-whitaker",
-    "living": false
+    "living": true
    },
    {
     "id": "@I65@",
@@ -11633,7 +11548,7 @@
     "id": "@I161@",
     "name": "Iian Whitaker",
     "slug": "iian-whitaker",
-    "living": false
+    "living": true
    },
    {
     "id": "@I65@",
@@ -23863,13 +23778,13 @@
     "id": "@I365@",
     "name": "Ian D'Arcy",
     "slug": "ian-darcy",
-    "living": false
+    "living": true
    },
    {
     "id": "@I366@",
     "name": "Josephine Falco",
     "slug": "josephine-falco",
-    "living": false
+    "living": true
    }
   ],
   "children": [
@@ -23980,17 +23895,9 @@
   "given": "Ian",
   "surname": "D'Arcy",
   "sex": "M",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": null,
-  "died": null,
-  "events": [],
   "birthPlace": "",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
   "parents": [],
   "children": [
    {
@@ -24011,14 +23918,10 @@
     "id": "@I366@",
     "name": "Josephine Falco",
     "slug": "josephine-falco",
-    "living": false
+    "living": true
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 2
+  "siblings": []
  },
  {
   "id": "@I366@",
@@ -24027,17 +23930,9 @@
   "given": "Josephine",
   "surname": "Falco",
   "sex": "F",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": null,
-  "died": null,
-  "events": [],
   "birthPlace": "",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
   "parents": [],
   "children": [
    {
@@ -24058,14 +23953,10 @@
     "id": "@I365@",
     "name": "Ian D'Arcy",
     "slug": "ian-darcy",
-    "living": false
+    "living": true
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": true,
-  "ancGen": 2
+  "siblings": []
  },
  {
   "id": "@I367@",
@@ -26821,8 +26712,7 @@
     "id": "@I413@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-5",
-    "living": false,
-    "via": "tree"
+    "living": true
    }
   ],
   "spouses": [
@@ -26846,31 +26736,21 @@
   "given": "Giovanni",
   "surname": "Polistena",
   "sex": "M",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": null,
-  "died": null,
-  "events": [],
   "birthPlace": "",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
   "parents": [
    {
     "id": "@I134@",
     "name": "Antonino Polistena",
     "slug": "antonino-polistena",
-    "living": false,
-    "via": "tree"
+    "living": false
    },
    {
     "id": "@I412@",
     "name": "Rosa Polistena",
     "slug": "rosa-polistena",
-    "living": false,
-    "via": "tree"
+    "living": false
    }
   ],
   "children": [
@@ -26895,11 +26775,7 @@
     "living": true
    }
   ],
-  "siblings": [],
-  "records": [],
-  "corrections": [],
-  "onSpine": false,
-  "ancGen": null
+  "siblings": []
  },
  {
   "id": "@I414@",
@@ -26916,7 +26792,7 @@
     "id": "@I413@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-5",
-    "living": false
+    "living": true
    },
    {
     "id": "@I489@",
@@ -26958,7 +26834,7 @@
     "id": "@I413@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-5",
-    "living": false
+    "living": true
    },
    {
     "id": "@I489@",
@@ -30948,7 +30824,7 @@
     "id": "@I413@",
     "name": "Giovanni Polistena",
     "slug": "giovanni-polistena-5",
-    "living": false
+    "living": true
    }
   ],
   "siblings": []
@@ -38742,13 +38618,13 @@
     "id": "@I365@",
     "name": "Ian D'Arcy",
     "slug": "ian-darcy",
-    "living": false
+    "living": true
    },
    {
     "id": "@I366@",
     "name": "Josephine Falco",
     "slug": "josephine-falco",
-    "living": false
+    "living": true
    }
   ],
   "children": [],

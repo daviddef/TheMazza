@@ -43,8 +43,8 @@
  {
   "surname": "Polistena",
   "n": 40,
-  "dead": 32,
-  "living": 8,
+  "dead": 31,
+  "living": 9,
   "first": 1798,
   "last": 2018,
   "places": [
@@ -332,8 +332,8 @@
  {
   "surname": "Pellagrini",
   "n": 3,
-  "dead": 2,
-  "living": 1,
+  "dead": 1,
+  "living": 2,
   "first": null,
   "last": null,
   "places": [
@@ -355,13 +355,11 @@
  {
   "surname": "Whitaker",
   "n": 3,
-  "dead": 1,
-  "living": 2,
+  "dead": 0,
+  "living": 3,
   "first": null,
   "last": null,
-  "places": [
-   "Great Britain"
-  ]
+  "places": []
  },
  {
   "surname": "Russo",
@@ -405,8 +403,8 @@
  {
   "surname": "D'Arcy",
   "n": 3,
-  "dead": 1,
-  "living": 2,
+  "dead": 0,
+  "living": 3,
   "first": null,
   "last": null,
   "places": []
@@ -468,8 +466,8 @@
  {
   "surname": "Pennisi",
   "n": 2,
-  "dead": 2,
-  "living": 0,
+  "dead": 1,
+  "living": 1,
   "first": null,
   "last": null,
   "places": [
@@ -1208,8 +1206,8 @@
  {
   "surname": "Falco",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
   "places": []
