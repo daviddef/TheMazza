@@ -8,7 +8,7 @@ Built from `sources/mazza-myheritage.ged`, exported from MyHeritage on 9 Septemb
 ### The shape of the family
 
 Michael Rocco Mazza is the proband; the archive is anchored on his two children,
-**Mia Josephine (2017)** and **Rocco Francesco (2019)**. He is David Defranceski's brother-in-law
+**Mia Josephine** and **Rocco Francesco**. He is David Defranceski's brother-in-law
 through the D'Arcy sisters — David married Cristina D'Arcy, Michael married Stefanie D'Arcy.
 
 **Four grandparents, three towns:**
