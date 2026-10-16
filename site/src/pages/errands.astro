@@ -24,7 +24,7 @@ import er from "../data/errands.json";
    /TheMazza/https://antenati... and the kit's link gate said so. An absolute URL
    is left alone. */
 const link = (p) => (/^https?:\/\//.test(p) ? p : u(p));
-const COLOUR = { written: "#1E5F8C", unwritten: "#7A7A7A" };
+const COLOUR = { written: "var(--st-running)", unwritten: "var(--st-struck)" };
 const groups = er.doors.map((d) => ({
   label: d.where,
   note: d.why,
