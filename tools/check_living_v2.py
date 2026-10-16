@@ -541,7 +541,7 @@ def report(g, quiet=False):
         print(f"        classification: {i.get('published_as_dead_but_living_by_rule')} published as dead but "
               f"living by rule · GEDCOM: {i.get('ged')}")
         print(f"        named without a page: {i.get('named_without_page')} · held-out name in built pages: "
-              f"{i.get('held_name_in_built_pages')} · in shipped json: {i.get('held_name_in_shipped_json')}")
+              f"{i.get('held_name_in_built_pages')} · in shipped json: {i.get('held_name_in_shipped_json', 'not checked (needs the private GEDCOM; runs locally)')}")
     return 0
 
 
