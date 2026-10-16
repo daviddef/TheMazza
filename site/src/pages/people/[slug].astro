@@ -63,6 +63,7 @@ const dek = p.ancGen === 0 || p.onSpine
   : "Named in this archive, with no relationship recorded for them yet.";
 ---
 <Base title={p.name}
+      noindex={hidden}
       eyebrow={p.datesHidden ? "Dates withheld"
         : ([p.born, p.died].filter(Boolean).join("–")
            || [p.bornText, p.diedText].filter(Boolean).join(" – ")
@@ -237,7 +238,13 @@ const dek = p.ancGen === 0 || p.onSpine
     </section>
   )}
 
-  {p.photos && p.photos.length > 0 && (
+  {/* NO PHOTOGRAPH OF A PERSON WHO MIGHT STILL BE ALIVE (16 October 2026). This is the
+      estate rule, name and relationship only, and `hidden` is this archive's own
+      might-still-be-alive test (80 or younger, no death recorded). The page is also
+      noindex, so it is out of the sitemap and the search index: both tools skip a page
+      that noindexes itself. The place stays at country level, which David chose on
+      22 September; that is the one place this page is looser than the estate rule. */}
+  {!hidden && p.photos && p.photos.length > 0 && (
     <section class="blk">
       <h2 style="font-size:26px">Photographs</h2>
       {/* NO IMAGE IS RENDERED LARGER THAN IT IS.
