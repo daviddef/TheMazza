@@ -3,7 +3,7 @@
 
 Every other page here works from Michael Mazza's export. This one does not: it
 holds people who are NOT in the export and who the registers nevertheless place
-in the direct line of the two children this archive is for. They cannot be drawn on the charts, because
+in the direct line of Mia and Rocco. They cannot be drawn on the charts, because
 the charts draw the tree as given -- so they are listed here instead, with the
 act that names each one.
 """

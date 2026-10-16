@@ -1,16 +1,16 @@
 [
  {
   "surname": "Mazza",
-  "n": 119,
-  "dead": 105,
-  "living": 14,
+  "n": 121,
+  "dead": 106,
+  "living": 15,
   "first": 1809,
   "last": 2012,
   "places": [
    "Piedimonte Etneo, Catania, Sicily",
    "Catania, Sicily",
    "Piedimonte Etneo",
-   "Brisbane, Queensland"
+   "Briatico, Vibo Valentia, Calabria"
   ]
  },
  {
@@ -256,6 +256,15 @@
   ]
  },
  {
+  "surname": "Calahorra",
+  "n": 4,
+  "dead": 0,
+  "living": 4,
+  "first": null,
+  "last": null,
+  "places": []
+ },
+ {
   "surname": "Pagano",
   "n": 4,
   "dead": 4,
@@ -321,15 +330,6 @@
   "places": []
  },
  {
-  "surname": "Calahorra",
-  "n": 3,
-  "dead": 0,
-  "living": 3,
-  "first": null,
-  "last": null,
-  "places": []
- },
- {
   "surname": "Pellagrini",
   "n": 3,
   "dead": 2,
@@ -386,6 +386,15 @@
  },
  {
   "surname": "Poleo",
+  "n": 3,
+  "dead": 0,
+  "living": 3,
+  "first": null,
+  "last": null,
+  "places": []
+ },
+ {
+  "surname": "Muller",
   "n": 3,
   "dead": 0,
   "living": 3,
@@ -566,15 +575,6 @@
   "places": [
    "Catanzaro, Calabria"
   ]
- },
- {
-  "surname": "Muller",
-  "n": 2,
-  "dead": 0,
-  "living": 2,
-  "first": null,
-  "last": null,
-  "places": []
  },
  {
   "surname": "Paladino",
@@ -1255,6 +1255,24 @@
   "places": [
    "Potenzoni (Briatico), Vibo Valentia, Calabria"
   ]
+ },
+ {
+  "surname": "Eriksen",
+  "n": 1,
+  "dead": 0,
+  "living": 1,
+  "first": null,
+  "last": null,
+  "places": []
+ },
+ {
+  "surname": "Ericksen",
+  "n": 1,
+  "dead": 0,
+  "living": 1,
+  "first": null,
+  "last": null,
+  "places": []
  },
  {
   "surname": "Gow",

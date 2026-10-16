@@ -27,7 +27,8 @@ WHAT IT ENFORCES (and why each part can fail)
      a name page whose every bearer is living is noindex and names no canonical
   5  a held-out person appears nowhere: not by id in any data file, not as a page,
      not by name in a built page or data file (the name test needs the GEDCOM, so
-     it runs locally; the id test runs everywhere)
+     it runs locally; the id test runs everywhere). Held out is ONLY an undated
+     person with a living parent; a child with a known birth year is published.
   6  every person the archive names has a page (each relationship edge resolves to
      a record, and each record has a built page)
 
@@ -59,6 +60,7 @@ sys.path.insert(0, LV.KIT_TOOLS)
 import outdir as _outdir  # noqa: E402
 
 PLANT_YEAR = 1799                       # no living person can have this
+CHILD_AGE = 18                          # a child is under 18 by year (estate standard)
 YEAR = re.compile(r"\b(1[5-9]\d\d|20\d\d)\b")
 NOINDEX = re.compile(r'<meta[^>]+name=["\']robots["\'][^>]*noindex', re.I)
 LDJSON = re.compile(r'application/ld\+json', re.I)
@@ -164,7 +166,7 @@ class Gate:
         c = list(p.get("sources") or [])
         c += [r.get("what", "") for r in (p.get("records") or [])]
         c += list(p.get("registerSources") or [])
-        return c
+        return LV.with_addresses(c)
 
     def dead_recorded(self, p):
         if p.get("died"):
@@ -254,6 +256,24 @@ class Gate:
                 else:
                     mism += 1
                     self.fail(2, f"{x}: the rule says living={want}, the data says {bool(p.get('living'))}")
+        # A CHILD WITH A KNOWN BIRTH YEAR IS NOT HELD OUT (David, 16 October 2026): every
+        # child under 18 by year follows the same standard as any living person, so is
+        # published with a page. Only an undated person with a living parent is held out.
+        kids = {x for x in living_now if info[x]["by"] and self.today - info[x]["by"] < CHILD_AGE}
+        self.child_ids = sorted(kids)
+        for x in sorted(kids):
+            if x not in self.by_id:
+                self.fail(6, f"{x} is a dated child (under 18 by year) with no record: a known child "
+                             "is published like any living person, not held out")
+            elif not self.by_id[x].get("living"):
+                self.fail(2, f"{x} is a dated child but is not flagged living")
+        for x in sorted(self.held_ids - held_now):
+            self.fail(5, f"{x} is recorded as held out but the rule publishes them "
+                         "(held out is only an undated person with a living parent)")
+        undated_held = [x for x in held_now if not info[x]["by"]]
+        if len(undated_held) != len(held_now):
+            self.fail(5, "a person with a birth year is held out by the rule: only the undated are")
+        self.info["dated_children_published"] = len([x for x in kids if x in self.by_id])
         leaked = [x for x in held_now if x in self.by_id]
         for x in leaked:
             self.fail(5, f"{x} is held out by the rule but is published in people.json")
@@ -540,6 +560,8 @@ def report(g, quiet=False):
         print(f"        control (not-living pages sampled): {i.get('control_dead_pages')}")
         print(f"        classification: {i.get('published_as_dead_but_living_by_rule')} published as dead but "
               f"living by rule · GEDCOM: {i.get('ged')}")
+        print(f"        dated children (under 18 by year) published with a page: "
+              f"{i.get('dated_children_published', 'not checked (needs the private GEDCOM)')}")
         print(f"        named without a page: {i.get('named_without_page')} · held-out name in built pages: "
               f"{i.get('held_name_in_built_pages')} · in shipped json: {i.get('held_name_in_shipped_json', 'not checked (needs the private GEDCOM; runs locally)')}")
     return 0
@@ -697,6 +719,17 @@ def selftest(dist, data_dir, root, ged):
             write(os.path.join(s2, "stats.json"),
                   open(os.path.join(s2, "stats.json"), encoding="utf-8").read()[:-1] + f', "planted": "{nm}"}}')
         add(5, "a held-out name in a shipped data file (GEDCOM)", f_held_name_json, True)
+        def kid_ids():
+            ids = getattr(base, "child_ids", [])
+            if not ids:
+                raise StopIteration
+            return ids[0]
+        add(5, "a known child wrongly held out (GEDCOM)",
+            lambda: write(os.path.join(r2, "data", "held-out.json"),
+                          json.dumps({**jload(os.path.join(r2, "data", "held-out.json")),
+                                      "ids": jload(os.path.join(r2, "data", "held-out.json"))["ids"] + [kid_ids()]})), True)
+        add(6, "a dated child with no page (GEDCOM)",
+            lambda: edit_people(lambda d: [d.remove(x) for x in [next(y for y in d if y["id"] == kid_ids())]]), True)
         add(5, "an empty held-out list",
             lambda: write(os.path.join(r2, "data", "held-out.json"), json.dumps({"ids": []})))
         add(6, "a relationship to nobody",

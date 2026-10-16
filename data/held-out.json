@@ -1,9 +1,9 @@
 {
  "_why": [
-  "Ids of people the archive does not publish at all: possible minors, under the estate's living-people standard v2 (16 October 2026). By id and never by name.",
+  "Ids of people the archive does not publish at all: undated people with a living parent, under the estate's living-people standard v2 (16 October 2026). By id and never by name.",
   "A held-out person has no page, is nobody's relative here, and has no entry in site/src/data/person-slugs.json. Recomputed by tools/living_v2.py on every build."
  ],
- "rule": "not recorded dead, no public-source citation, and under 18 by year, or no birth year and a living parent",
+ "rule": "not recorded dead, no public-source citation, no birth year, and a living parent",
  "ids": [
   "@I102@",
   "@I113@",
@@ -13,14 +13,8 @@
   "@I214@",
   "@I215@",
   "@I216@",
-  "@I351@",
   "@I352@",
   "@I353@",
-  "@I361@",
-  "@I363@",
-  "@I364@",
-  "@I401@",
-  "@I402@",
   "@I430@",
   "@I431@",
   "@I433@",

@@ -4,13 +4,13 @@
 A family-tree program draws every person on one canvas and lets you believe
 you are looking at one family. You are not. This file reports each connected
 component separately — who is in it, where they were, and whether anything at
-all joins it to the line that reaches the two children this archive is for.
+all joins it to the line that reaches Mia and Rocco.
 """
 import json, collections
 
 P = {r["id"]: r for r in json.load(open("site/src/data/people.json"))}
 anc = json.load(open("site/src/data/ancestors.json"))
-spine = {x["id"] for g in anc["generations"] for x in g["people"]}
+spine = {x["id"] for g in anc["generations"] for x in g["people"]} | {a["id"] for a in anc["anchors"]}
 
 # THE EXPORT'S PIECES, AND ONLY THE EXPORT'S.
 # This page counts the disconnected pieces Michael's GEDCOM arrived in. A person

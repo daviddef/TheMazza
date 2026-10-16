@@ -1,14 +1,14 @@
 [
  {
   "comp": 1,
-  "n": 556,
+  "n": 560,
   "earliest": 1697,
   "latest": 1970,
-  "dated": 201,
+  "dated": 202,
   "towns": [
    {
     "name": "Briatico, Vibo Valentia, Calabria",
-    "n": 85
+    "n": 86
    },
    {
     "name": "Scilla, Reggio Calabria",
@@ -16,7 +16,7 @@
    },
    {
     "name": "Brisbane, Queensland, Australia",
-    "n": 52
+    "n": 55
    },
    {
     "name": "Piedimonte Etneo, Catania, Sicily",
@@ -26,7 +26,7 @@
   "surnames": [
    {
     "name": "Mazza",
-    "n": 113
+    "n": 115
    },
    {
     "name": "Prostamo",
@@ -57,7 +57,7 @@
     "n": 12
    }
   ],
-  "onSpine": 59,
+  "onSpine": 61,
   "people": [
    {
     "slug": "franco-antonino-prostamo",
@@ -1851,6 +1851,15 @@
     "birthPlace": "Scilla, Reggio Calabria"
    },
    {
+    "slug": "salvatore-mazza-2",
+    "name": "Salvatore Mazza",
+    "surname": "Mazza",
+    "born": 1948,
+    "died": null,
+    "living": false,
+    "birthPlace": "Briatico, Vibo Valentia, Calabria"
+   },
+   {
     "slug": "mary-rosa-mazza",
     "name": "Mary rosa Mazza",
     "surname": "Mazza",
@@ -3444,6 +3453,15 @@
     "birthPlace": "Lismore, New South Wales, Australia"
    },
    {
+    "slug": "josef-muller",
+    "name": "Josef Muller",
+    "surname": "Muller",
+    "born": null,
+    "died": null,
+    "living": true,
+    "birthPlace": "Brisbane, Queensland, Australia"
+   },
+   {
     "slug": "josephine-falco",
     "name": "Josephine Falco",
     "surname": "Falco",
@@ -3613,6 +3631,15 @@
     "died": null,
     "living": true,
     "birthPlace": "Melbourne, Victoria, Australia"
+   },
+   {
+    "slug": "luca-francesco-calahorra",
+    "name": "Luca Francesco Calahorra",
+    "surname": "Calahorra",
+    "born": null,
+    "died": null,
+    "living": true,
+    "birthPlace": "Parkville Vic Australia"
    },
    {
     "slug": "lucia-mazza",
@@ -3973,6 +4000,15 @@
     "died": null,
     "living": false,
     "birthPlace": ""
+   },
+   {
+    "slug": "mia-josephine-mazza",
+    "name": "Mia Josephine Mazza",
+    "surname": "Mazza",
+    "born": null,
+    "died": null,
+    "living": true,
+    "birthPlace": "Brisbane, Queensland, Australia"
    },
    {
     "slug": "micelle-donato",
@@ -4434,6 +4470,15 @@
     "birthPlace": "Brisbane, Queensland, Australia"
    },
    {
+    "slug": "rocco-francesco-mazza",
+    "name": "Rocco Francesco Mazza",
+    "surname": "Mazza",
+    "born": null,
+    "died": null,
+    "living": true,
+    "birthPlace": "Brisbane, Queensland, Australia"
+   },
+   {
     "slug": "rosa",
     "name": "Rosa",
     "surname": "",
@@ -4603,15 +4648,6 @@
     "died": null,
     "living": false,
     "birthPlace": ""
-   },
-   {
-    "slug": "salvatore-mazza-2",
-    "name": "Salvatore Mazza",
-    "surname": "Mazza",
-    "born": null,
-    "died": null,
-    "living": true,
-    "birthPlace": "Briatico, Vibo Valentia, Calabria, Italy"
    },
    {
     "slug": "salvatore-mazza-3",
@@ -5269,6 +5305,37 @@
   ]
  },
  {
+  "comp": 7,
+  "n": 1,
+  "earliest": null,
+  "latest": null,
+  "dated": 0,
+  "towns": [
+   {
+    "name": "Toowoomba, Queensland, Australia",
+    "n": 1
+   }
+  ],
+  "surnames": [
+   {
+    "name": "Ericksen",
+    "n": 1
+   }
+  ],
+  "onSpine": 0,
+  "people": [
+   {
+    "slug": "noah-ericksen",
+    "name": "Noah Ericksen",
+    "surname": "Ericksen",
+    "born": null,
+    "died": null,
+    "living": true,
+    "birthPlace": "Toowoomba, Queensland, Australia"
+   }
+  ]
+ },
+ {
   "comp": 8,
   "n": 1,
   "earliest": 1930,
@@ -5322,6 +5389,37 @@
     "died": null,
     "living": true,
     "birthPlace": "Brisbane, Queensland, Australia"
+   }
+  ]
+ },
+ {
+  "comp": 10,
+  "n": 1,
+  "earliest": null,
+  "latest": null,
+  "dated": 0,
+  "towns": [
+   {
+    "name": "Toowoomba, Queensland, Australia",
+    "n": 1
+   }
+  ],
+  "surnames": [
+   {
+    "name": "Eriksen",
+    "n": 1
+   }
+  ],
+  "onSpine": 0,
+  "people": [
+   {
+    "slug": "ty-eriksen",
+    "name": "Ty Eriksen",
+    "surname": "Eriksen",
+    "born": null,
+    "died": null,
+    "living": true,
+    "birthPlace": "Toowoomba, Queensland, Australia"
    }
   ]
  }

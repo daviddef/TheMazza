@@ -62,7 +62,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I33@",
@@ -162,7 +162,8 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": true
+    "living": false,
+    "via": "tree"
    },
    {
     "id": "@I33@",
@@ -356,7 +357,8 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": true
+    "living": false,
+    "via": "tree"
    },
    {
     "id": "@I33@",
@@ -1760,6 +1762,12 @@
     "name": "Jack Carmelo Calahorra",
     "slug": "jack-carmelo-calahorra",
     "living": true
+   },
+   {
+    "id": "@I351@",
+    "name": "Luca Francesco Calahorra",
+    "slug": "luca-francesco-calahorra",
+    "living": true
    }
   ],
   "spouses": [
@@ -2154,7 +2162,20 @@
     "living": true
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@I363@",
+    "name": "Mia Josephine Mazza",
+    "slug": "mia-josephine-mazza",
+    "living": true
+   },
+   {
+    "id": "@I364@",
+    "name": "Rocco Francesco Mazza",
+    "slug": "rocco-francesco-mazza",
+    "living": true
+   }
+  ],
   "spouses": [
    {
     "id": "@I362@",
@@ -2196,7 +2217,14 @@
     "living": true
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@I361@",
+    "name": "Josef Muller",
+    "slug": "josef-muller",
+    "living": true
+   }
+  ],
   "spouses": [
    {
     "id": "@I360@",
@@ -2599,6 +2627,12 @@
     "name": "Jack Carmelo Calahorra",
     "slug": "jack-carmelo-calahorra",
     "living": true
+   },
+   {
+    "id": "@I351@",
+    "name": "Luca Francesco Calahorra",
+    "slug": "luca-francesco-calahorra",
+    "living": true
    }
   ],
   "spouses": [
@@ -2637,7 +2671,14 @@
   ],
   "children": [],
   "spouses": [],
-  "siblings": []
+  "siblings": [
+   {
+    "id": "@I351@",
+    "name": "Luca Francesco Calahorra",
+    "slug": "luca-francesco-calahorra",
+    "living": true
+   }
+  ]
  },
  {
   "id": "@I32@",
@@ -2646,21 +2687,53 @@
   "given": "Salvatore",
   "surname": "Mazza",
   "sex": "M",
-  "living": true,
+  "living": false,
   "comp": 1,
-  "birthPlace": "Briatico, Vibo Valentia, Calabria, Italy",
+  "born": 1948,
+  "died": null,
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "8 April 1948",
+    "year": 1948,
+    "place": "Briatico, Vibo Valentia, Calabria"
+   },
+   {
+    "what": "arrival",
+    "tag": "EVEN",
+    "date": "March 1951",
+    "year": 1951,
+    "place": "Fremantle, Western Australia"
+   },
+   {
+    "what": "departure",
+    "tag": "EVEN",
+    "date": "",
+    "year": null,
+    "place": "Genoa, Liguria"
+   }
+  ],
+  "birthPlace": "Briatico, Vibo Valentia, Calabria",
+  "deathPlace": "",
+  "burialPlace": "",
+  "sources": [],
+  "photos": [],
+  "photoSize": {},
   "parents": [
    {
     "id": "@I2@",
     "name": "Sebastiano Mazza",
     "slug": "sebastiano-mazza",
-    "living": false
+    "living": false,
+    "via": "tree"
    },
    {
     "id": "@I3@",
     "name": "Domenica Prostamo",
     "slug": "domenica-prostamo",
-    "living": false
+    "living": false,
+    "via": "tree"
    }
   ],
   "children": [
@@ -2710,7 +2783,19 @@
     "slug": "giovanni-mazza",
     "living": true
    }
-  ]
+  ],
+  "records": [
+   {
+    "kind": "passenger index",
+    "what": "NAA passenger arrivals — placed on his mother's March 1951 voyage",
+    "href": "/crossings"
+   }
+  ],
+  "corrections": [
+   "Born at Briatico in 1948, so two years old in March 1951, which matches the family account that Domenica Prostamo followed her husband with a son not yet three. Infants are routinely not indexed separately."
+  ],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@I33@",
@@ -2790,7 +2875,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I1@",
@@ -2867,7 +2952,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I33@",
@@ -3557,7 +3642,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": true
+    "living": false
    }
   ],
   "siblings": []
@@ -3577,7 +3662,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I40@",
@@ -3618,7 +3703,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I40@",
@@ -3659,7 +3744,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": true
+    "living": false
    },
    {
     "id": "@I40@",
@@ -23134,6 +23219,41 @@
   "ancGen": null
  },
  {
+  "id": "@I351@",
+  "slug": "luca-francesco-calahorra",
+  "name": "Luca Francesco Calahorra",
+  "given": "Luca Francesco",
+  "surname": "Calahorra",
+  "sex": "M",
+  "living": true,
+  "comp": 1,
+  "birthPlace": "Parkville Vic Australia",
+  "parents": [
+   {
+    "id": "@I13@",
+    "name": "Robert Sebastian Mazza",
+    "slug": "robert-sebastian-mazza",
+    "living": true
+   },
+   {
+    "id": "@I30@",
+    "name": "Renee Turner",
+    "slug": "renee-turner",
+    "living": true
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [
+   {
+    "id": "@I31@",
+    "name": "Jack Carmelo Calahorra",
+    "slug": "jack-carmelo-calahorra",
+    "living": true
+   }
+  ]
+ },
+ {
   "id": "@I354@",
   "slug": "giovanni-mazza-3",
   "name": "Giovanni Mazza",
@@ -23263,7 +23383,7 @@
    }
   ],
   "corrections": [
-   "MICHELE DONATO'S FATHER, and a great-great-grandfather of the two children this archive is for. A sailor, like the Arena men. HE IS IN THE FAMILY TREE as Michele's father and nothing more -- no dates, no trade, no parents. This archive claimed for a time that he was absent; that was wrong. What is new is everything else about him: born about 1817, MARINARO, and son of CANDELORO DONATO and MARIA PALADINO, who are absent."
+   "MICHELE DONATO'S FATHER, and a great-great-grandfather of Mia and Rocco. A sailor, like the Arena men. HE IS IN THE FAMILY TREE as Michele's father and nothing more -- no dates, no trade, no parents. This archive claimed for a time that he was absent; that was wrong. What is new is everything else about him: born about 1817, MARINARO, and son of CANDELORO DONATO and MARIA PALADINO, who are absent."
   ],
   "onSpine": true,
   "ancGen": 6
@@ -23682,7 +23802,14 @@
     "living": true
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@I361@",
+    "name": "Josef Muller",
+    "slug": "josef-muller",
+    "living": true
+   }
+  ],
   "spouses": [
    {
     "id": "@I27@",
@@ -23691,6 +23818,34 @@
     "living": true
    }
   ],
+  "siblings": []
+ },
+ {
+  "id": "@I361@",
+  "slug": "josef-muller",
+  "name": "Josef Muller",
+  "given": "Josef",
+  "surname": "Muller",
+  "sex": "M",
+  "living": true,
+  "comp": 1,
+  "birthPlace": "Brisbane, Queensland, Australia",
+  "parents": [
+   {
+    "id": "@I360@",
+    "name": "Reinhard Muller",
+    "slug": "reinhard-muller",
+    "living": true
+   },
+   {
+    "id": "@I27@",
+    "name": "Angela Mazza",
+    "slug": "angela-mazza",
+    "living": true
+   }
+  ],
+  "children": [],
+  "spouses": [],
   "siblings": []
  },
  {
@@ -23717,7 +23872,20 @@
     "living": false
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@I363@",
+    "name": "Mia Josephine Mazza",
+    "slug": "mia-josephine-mazza",
+    "living": true
+   },
+   {
+    "id": "@I364@",
+    "name": "Rocco Francesco Mazza",
+    "slug": "rocco-francesco-mazza",
+    "living": true
+   }
+  ],
   "spouses": [
    {
     "id": "@I26@",
@@ -23731,6 +23899,76 @@
     "id": "@I500004@",
     "name": "Cristina D'Arcy",
     "slug": "cristina-darcy",
+    "living": true
+   }
+  ]
+ },
+ {
+  "id": "@I363@",
+  "slug": "mia-josephine-mazza",
+  "name": "Mia Josephine Mazza",
+  "given": "Mia  Josephine",
+  "surname": "Mazza",
+  "sex": "F",
+  "living": true,
+  "comp": 1,
+  "birthPlace": "Brisbane, Queensland, Australia",
+  "parents": [
+   {
+    "id": "@I26@",
+    "name": "Michael Rocco Mazza",
+    "slug": "michael-rocco-mazza",
+    "living": true
+   },
+   {
+    "id": "@I362@",
+    "name": "Stefanie D'Arcy",
+    "slug": "stefanie-darcy",
+    "living": true
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [
+   {
+    "id": "@I364@",
+    "name": "Rocco Francesco Mazza",
+    "slug": "rocco-francesco-mazza",
+    "living": true
+   }
+  ]
+ },
+ {
+  "id": "@I364@",
+  "slug": "rocco-francesco-mazza",
+  "name": "Rocco Francesco Mazza",
+  "given": "Rocco Francesco",
+  "surname": "Mazza",
+  "sex": "M",
+  "living": true,
+  "comp": 1,
+  "birthPlace": "Brisbane, Queensland, Australia",
+  "parents": [
+   {
+    "id": "@I26@",
+    "name": "Michael Rocco Mazza",
+    "slug": "michael-rocco-mazza",
+    "living": true
+   },
+   {
+    "id": "@I362@",
+    "name": "Stefanie D'Arcy",
+    "slug": "stefanie-darcy",
+    "living": true
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [
+   {
+    "id": "@I363@",
+    "name": "Mia Josephine Mazza",
+    "slug": "mia-josephine-mazza",
     "living": true
    }
   ]
@@ -26160,6 +26398,36 @@
   ],
   "onSpine": false,
   "ancGen": null
+ },
+ {
+  "id": "@I401@",
+  "slug": "ty-eriksen",
+  "name": "Ty Eriksen",
+  "given": "Ty",
+  "surname": "Eriksen",
+  "sex": "M",
+  "living": true,
+  "comp": 10,
+  "birthPlace": "Toowoomba, Queensland, Australia",
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": []
+ },
+ {
+  "id": "@I402@",
+  "slug": "noah-ericksen",
+  "name": "Noah Ericksen",
+  "given": "Noah",
+  "surname": "Ericksen",
+  "sex": "M",
+  "living": true,
+  "comp": 7,
+  "birthPlace": "Toowoomba, Queensland, Australia",
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": []
  },
  {
   "id": "@I403@",
@@ -39052,7 +39320,7 @@
   "registerSources": [
    "Scilla, Matrimoni 1828 atto 28"
   ],
-  "registerNote": "GIOVANNI ARLOTTA'S MOTHER, and ALIVE at her son's wedding on 30 August 1828 -- «domiciliata ivi», where her husband is «fu». A name this archive has never held. She is Serafina Arlotta's grandmother and a great-great-great-great-great-grandmother of the two children this archive is for. BARBARO is a Scilla surname in its own right -- an Antonio Barbaro marries there the following year.",
+  "registerNote": "GIOVANNI ARLOTTA'S MOTHER, and ALIVE at her son's wedding on 30 August 1828 -- «domiciliata ivi», where her husband is «fu». A name this archive has never held. She is Serafina Arlotta's grandmother and a great-great-great-great-great-grandmother of Mia and Rocco. BARBARO is a Scilla surname in its own right -- an Antonio Barbaro marries there the following year.",
   "registerGen": "8",
   "photos": [],
   "parents": [],
@@ -40797,7 +41065,7 @@
   "registerSources": [
    "Scilla, Nati 1854, atto 76"
   ],
-  "registerNote": "THE DEEPEST PERSON THIS ARCHIVE HAS REACHED ON THE CALABRIAN SIDE. Named only as 'il fu Domenico' in his son Giovanni Arlotta's own words, in the birth act of his great-grandson Giovanni Arena, 30 April 1854. A great-great-great-great-great-grandfather of the two children this archive is for. ENTIRELY ABSENT FROM THE FAMILY TREE. TIGHTENED BY TWENTY-SIX YEARS: he is «FU Domenico Arlotta» in his son's marriage act of 30 AUGUST 1828, so dead before then, not merely before April 1854. AND HE HAS A WIFE NOW: ANNA BARBARO, who was alive at that wedding.",
+  "registerNote": "THE DEEPEST PERSON THIS ARCHIVE HAS REACHED ON THE CALABRIAN SIDE. Named only as 'il fu Domenico' in his son Giovanni Arlotta's own words, in the birth act of his great-grandson Giovanni Arena, 30 April 1854. A great-great-great-great-great-grandfather of Mia and Rocco. ENTIRELY ABSENT FROM THE FAMILY TREE. TIGHTENED BY TWENTY-SIX YEARS: he is «FU Domenico Arlotta» in his son's marriage act of 30 AUGUST 1828, so dead before then, not merely before April 1854. AND HE HAS A WIFE NOW: ANNA BARBARO, who was alive at that wedding.",
   "registerGen": "8",
   "photos": [],
   "parents": [],

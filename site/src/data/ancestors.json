@@ -1,4 +1,36 @@
 {
+ "anchors": [
+  {
+   "id": "@I363@",
+   "slug": "mia-josephine-mazza",
+   "name": "Mia Josephine Mazza",
+   "surname": "Mazza",
+   "born": null,
+   "died": null,
+   "bornText": "",
+   "diedText": "",
+   "fromRegister": false,
+   "registerSources": [],
+   "living": true,
+   "birthPlace": "Brisbane, Queensland, Australia",
+   "comp": 1
+  },
+  {
+   "id": "@I364@",
+   "slug": "rocco-francesco-mazza",
+   "name": "Rocco Francesco Mazza",
+   "surname": "Mazza",
+   "born": null,
+   "died": null,
+   "bornText": "",
+   "diedText": "",
+   "fromRegister": false,
+   "registerSources": [],
+   "living": true,
+   "birthPlace": "Brisbane, Queensland, Australia",
+   "comp": 1
+  }
+ ],
  "generations": [
   {
    "gen": 1,

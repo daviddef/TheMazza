@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import anc from "../data/ancestors.json";
-const { generations, total } = anc;
+const { generations, anchors, total } = anc;
 
 /* ONE SOURCE, AND IT IS THE RIGHT ONE NOW.
    This page spent a day merging documented-parents.json on top of
@@ -35,11 +35,11 @@ const label = (g) => ["", "parents", "grandparents", "great-grandparents",
   "8× great-grandparents"][g] || `generation ${g}`;
 ---
 <Base title="The Ancestors" eyebrow={`${total} people, ten generations`}
-      dek={`Everyone standing behind the two children this archive is for — counted honestly, generation by generation, against the number there ought to be. ${fromFile} of them are named in the family's own file; the other ${fromRegisters} this archive proved from a register, act by act, and every one of them now has a page of their own.`}>
+      dek={`Everyone standing behind Mia Josephine Mazza and Rocco Francesco Mazza — counted honestly, generation by generation, against the number there ought to be. ${fromFile} of them are named in the family's own file; the other ${fromRegisters} this archive proved from a register, act by act, and every one of them now has a page of their own.`}>
 
   <section class="blk">
-    <p class="lede">This archive exists for two children. They are not named or described here: they
-    are young enough that the archive holds them out of its pages, as it does every possible minor. A pedigree drawn downward from an ancestor decides in advance which line
+    <p class="lede">This archive exists for two children born in Brisbane in <strong>2017</strong> and
+    <strong>2019</strong>. A pedigree drawn downward from an ancestor decides in advance which line
     matters. Drawn upward from them, it simply reports who is actually behind them — and, just as
     usefully, <strong>how much is missing</strong>.</p>
     <p class="lede" style="margin-top:1rem">Every person has 2 parents, 4 grandparents, 8

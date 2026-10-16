@@ -54,11 +54,15 @@ const rows = spineData.spine.map((g, i) => ({
     <div class="linerow">
       <div>
         <div class="lab">Generation {spine.length + 1}</div>
-        {/* THE TWO CHILDREN ARE HELD OUT (16 October 2026). They are possible minors,
-            so the archive publishes no page for them and no name: the estate's
-            standard is that a person who may be a child is not published at all.
-            The sentence beside this says what the reader needs, which is that
-            they are the generation below. */}
+        <div style="font-size:26px;line-height:1.15;margin-top:8px">
+          {kids.map((c) => c.name).join(" · ")}
+        </div>
+        {/* THESE ARE LIVING CHILDREN AND THIS LINE GAVE THEIR BIRTH YEARS.
+            The rule this estate keeps is that a living person gets a name
+            and a relationship and nothing else — no dates, no places — and
+            it is kept hardest for children. Removed; the sentence beside
+            it already says what the reader needs, which is that they are
+            the generation below. */}
       </div>
       <div>
         <p class="qw">The two children this archive was assembled for. Between them and

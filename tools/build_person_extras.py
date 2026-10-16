@@ -58,7 +58,7 @@ for r in csv.DictReader(open("data/corrections.tsv"), delimiter="\t"):
 nudgee = {b["slug"]: b for b in json.load(open("site/src/data/nudgee.json"))["burials"]}
 ships = {s["slug"]: s for s in json.load(open("site/src/data/ships.json"))}
 anc = json.load(open("site/src/data/ancestors.json"))
-spine = {x["id"] for g in anc["generations"] for x in g["people"]}
+spine = {x["id"] for g in anc["generations"] for x in g["people"]} | {a["id"] for a in anc["anchors"]}
 gen_of = {}
 for g in anc["generations"]:
     for x in g["people"]:
@@ -114,5 +114,5 @@ for p in P:
 
 json.dump(P, open(PATH, "w"), indent=1, ensure_ascii=False)
 print(f"{sum(1 for p in P if p.get('records'))} people carry a record that has been read; "
-      f"{sum(1 for p in P if p.get('onSpine'))} are ancestors of the two children this archive is for; "
+      f"{sum(1 for p in P if p.get('onSpine'))} are ancestors of Mia and Rocco; "
       f"{sum(1 for p in P if p.get('corrections'))} carry a correction the registers forced")

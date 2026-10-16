@@ -158,7 +158,20 @@
    "spouseSlug": "stefanie-darcy"
   }
  ],
- "children": [],
+ "children": [
+  {
+   "id": "@I363@",
+   "name": "Mia Josephine Mazza",
+   "slug": "mia-josephine-mazza",
+   "living": true
+  },
+  {
+   "id": "@I364@",
+   "name": "Rocco Francesco Mazza",
+   "slug": "rocco-francesco-mazza",
+   "living": true
+  }
+ ],
  "proband": {
   "gen": 0,
   "id": "@I26@",

@@ -1,10 +1,10 @@
 {
  "Mazza": {
   "surname": "Mazza",
-  "total": 119,
+  "total": 121,
   "groups": [
    {
-    "n": 109,
+    "n": 111,
     "earliest": 1809,
     "latest": 1952,
     "towns": [
@@ -16,7 +16,9 @@
     "onSpine": [
      "Frank Mazza",
      "Mariano Mazza",
+     "Mia Josephine Mazza",
      "Michael Rocco Mazza",
+     "Rocco Francesco Mazza",
      "Rosario Mazza",
      "Salvatore Mazza",
      "Sebastiano Mazza"
@@ -188,6 +190,21 @@
       "registerSources": [],
       "living": false,
       "birthPlace": "Tully, Queensland",
+      "comp": 1
+     },
+     {
+      "id": "@I32@",
+      "slug": "salvatore-mazza-2",
+      "name": "Salvatore Mazza",
+      "surname": "Mazza",
+      "born": 1948,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "living": false,
+      "birthPlace": "Briatico, Vibo Valentia, Calabria",
       "comp": 1
      },
      {
@@ -1136,6 +1153,21 @@
       "comp": 1
      },
      {
+      "id": "@I363@",
+      "slug": "mia-josephine-mazza",
+      "name": "Mia Josephine Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
+      "comp": 1
+     },
+     {
       "id": "@I26@",
       "slug": "michael-rocco-mazza",
       "name": "Michael Rocco Mazza",
@@ -1331,6 +1363,21 @@
       "comp": 1
      },
      {
+      "id": "@I364@",
+      "slug": "rocco-francesco-mazza",
+      "name": "Rocco Francesco Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
+      "comp": 1
+     },
+     {
       "id": "@I500@",
       "slug": "rosa-mazza",
       "name": "Rosa Mazza",
@@ -1403,21 +1450,6 @@
       "registerSources": [],
       "living": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I32@",
-      "slug": "salvatore-mazza-2",
-      "name": "Salvatore Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "living": true,
-      "birthPlace": "Briatico, Vibo Valentia, Calabria, Italy",
       "comp": 1
      },
      {

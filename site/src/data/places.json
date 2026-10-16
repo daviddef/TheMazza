@@ -53,7 +53,7 @@
  },
  {
   "name": "Briatico, Vibo Valentia, Calabria",
-  "born": 86,
+  "born": 87,
   "died": 16,
   "buried": 2,
   "lived": 0,
@@ -73,6 +73,7 @@
    "alfonso-prostamo",
    "caterina-melluso",
    "caterina-melluso",
+   "salvatore-mazza-2",
    "domenico-prostamo-1930",
    "antonio-giacomo-prostamo",
    "alfonso-prostamo-1936",
@@ -98,10 +99,9 @@
    "maria-fragala",
    "pasquale-prostamo",
    "caterina-di-meio",
-   "antonino-prostamo",
-   "caterina-scangiaterra"
+   "antonino-prostamo"
   ],
-  "n": 104
+  "n": 105
  },
  {
   "name": "Piedimonte Etneo, Catania, Sicily",
@@ -313,6 +313,28 @@
   "n": 12
  },
  {
+  "name": "Genoa, Liguria",
+  "born": 0,
+  "died": 0,
+  "buried": 0,
+  "lived": 10,
+  "first": null,
+  "last": null,
+  "who": [
+   "domenica-prostamo",
+   "francessco-prostamo",
+   "rocco-arena-1924",
+   "angela-polistena",
+   "salvatore-mazza-2",
+   "venera-cavallaro",
+   "mariano-cavallaro",
+   "luciano-cavallaro",
+   "antonino-polistena",
+   "michael-antonio-polistena"
+  ],
+  "n": 10
+ },
+ {
   "name": "Catanzaro, Calabria",
   "born": 10,
   "died": 0,
@@ -355,27 +377,6 @@
    "venera-murabito"
   ],
   "n": 10
- },
- {
-  "name": "Genoa, Liguria",
-  "born": 0,
-  "died": 0,
-  "buried": 0,
-  "lived": 9,
-  "first": null,
-  "last": null,
-  "who": [
-   "domenica-prostamo",
-   "francessco-prostamo",
-   "rocco-arena-1924",
-   "angela-polistena",
-   "venera-cavallaro",
-   "mariano-cavallaro",
-   "luciano-cavallaro",
-   "antonino-polistena",
-   "michael-antonio-polistena"
-  ],
-  "n": 9
  },
  {
   "name": "Catania, Sicily",
@@ -504,18 +505,19 @@
   "born": 0,
   "died": 0,
   "buried": 0,
-  "lived": 6,
+  "lived": 7,
   "first": 1925,
   "last": 1957,
   "who": [
    "sebastiano-mazza",
    "domenica-prostamo",
    "francessco-prostamo",
+   "salvatore-mazza-2",
    "michele-mazza",
    "mariano-cavallaro",
    "michael-antonio-polistena"
   ],
-  "n": 6
+  "n": 7
  },
  {
   "name": "Potenzoni (Briatico), Vibo Valentia, Calabria",

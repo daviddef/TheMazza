@@ -49,7 +49,7 @@ Mazza by six, Rosario Mazza by five.
 ### Filippo Arena and Domenica Costa
 
 - **The tree says:** Not in the tree
-- **The record says:** FILIPPO ARENA and DOMENICA COSTA, married by 1819 at Scilla. They are Francesco Antonio Arena's parents, Rocco Arena's grandparents, and great-great-great-great-grandparents of the two children this archive is for. Filippo is named TWICE and independently: the 1819 Tavola gives his son as 'Filippo e Dom.ca Costa', and act 228 of 1861 calls Francesco Antonio 'figlio di Filippo'. CONFIRMED AGAIN by the marriage act of 1851, which also gives Filippo's trade: marinaro.
+- **The record says:** FILIPPO ARENA and DOMENICA COSTA, married by 1819 at Scilla. They are Francesco Antonio Arena's parents, Rocco Arena's grandparents, and great-great-great-great-grandparents of Mia and Rocco. Filippo is named TWICE and independently: the 1819 Tavola gives his son as 'Filippo e Dom.ca Costa', and act 228 of 1861 calls Francesco Antonio 'figlio di Filippo'. CONFIRMED AGAIN by the marriage act of 1851, which also gives Filippo's trade: marinaro.
 - **Source:** Scilla, Nati 1819 atto 186; Matrimoni 1851 atto 13; Nati 1861 atto 228
 
 ### Francesco Antonio Arena
@@ -85,13 +85,13 @@ Mazza by six, Rosario Mazza by five.
 ### Giovanni Arlotta and Maria Costa
 
 - **The tree says:** Not in the tree
-- **The record says:** SERAFINA ARLOTTA'S PARENTS, named in the marriage act of 7 February 1851: GIOVANNI ARLOTTA, a MARINARO, and MARIA COSTA. They are Rocco Arena's maternal grandparents and great-great-great-great-grandparents of the two children this archive is for. The same act confirms FILIPPO ARENA and DOMENICA COSTA from a second independent document and gives Filippo's trade as 'professione stessa' -- the same as his son's, marinaro. So the sea trade runs Filippo, Francesco Antonio, Rocco: three generations of sailors, with Giovanni Arlotta a fourth alongside.
+- **The record says:** SERAFINA ARLOTTA'S PARENTS, named in the marriage act of 7 February 1851: GIOVANNI ARLOTTA, a MARINARO, and MARIA COSTA. They are Rocco Arena's maternal grandparents and great-great-great-great-grandparents of Mia and Rocco. The same act confirms FILIPPO ARENA and DOMENICA COSTA from a second independent document and gives Filippo's trade as 'professione stessa' -- the same as his son's, marinaro. So the sea trade runs Filippo, Francesco Antonio, Rocco: three generations of sailors, with Giovanni Arlotta a fourth alongside.
 - **Source:** Scilla, Matrimoni 1851, atto 13
 
 ### Domenico Arlotta
 
 - **The tree says:** Not in the tree
-- **The record says:** DOMENICO ARLOTTA, dead before April 1854, father of Giovanni Arlotta the sailor and so Serafina Arlotta's grandfather. A great-great-great-great-great-grandfather of the two children this archive is for, and the deepest person this archive has reached on the Calabrian side.
+- **The record says:** DOMENICO ARLOTTA, dead before April 1854, father of Giovanni Arlotta the sailor and so Serafina Arlotta's grandfather. A great-great-great-great-great-grandfather of Mia and Rocco, and the deepest person this archive has reached on the Calabrian side.
 - **Source:** Scilla, Nati 1854, atto 76
 
 ### Domenico Donato and Nunziata Sofi

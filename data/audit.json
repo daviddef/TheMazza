@@ -1,16 +1,16 @@
 {
  "stats": {
   "exported": 614,
-  "people": 689,
+  "people": 695,
   "duplicates": 14,
   "unresolvedNames": 50,
   "livingRule": "80 or younger by year, no death or burial recorded, no public-source citation",
-  "living": 125,
-  "heldOut": 23,
-  "written": 564,
+  "living": 130,
+  "heldOut": 17,
+  "written": 565,
   "withDeath": 98,
   "ageThreshold": 80,
-  "deceased": 564,
+  "deceased": 565,
   "families": 212,
   "sources": 39,
   "components": [
@@ -160,8 +160,9 @@
  "unresolved": [
   {
    "name": "Salvatore Mazza",
-   "copies": 3,
+   "copies": 4,
    "ids": [
+    "@I32@",
     "@I499@",
     "@I4@",
     "@I574@"

@@ -23,7 +23,7 @@ Sister archive to [The Falco Archive](https://github.com/daviddef/TheFalco).
 - **599 people**, 280 households, 63 places, 123 surnames.
   Only **69** of them have a death recorded anywhere — a measure of how undated this
   tree still is, not of who is alive.
-- **The ancestors of the two children this archive is for.** 62 people across 10 generations, counted
+- **The ancestors of Mia and Rocco.** 62 people across 10 generations, counted
   against the 2,046 there ought to be: **complete** for grandparents, **50%** at the third generation,
   **5.5%** at the seventh, **0.2%** at the tenth. What survives that far is one thread.
 - **The Mazza name line runs seven generations** — from **Mariano Mazza**, born about 1815 and named
@@ -91,8 +91,8 @@ MyHeritage records, Findmypast and the like). Someone with no birth year is not 
 so the 280 people the older "the tree cannot show they died" flag caught who are plainly dead are
 ordinary pages. A living person has a page of their own with no dates, records, sources or photograph;
 it is `noindex`, carries no structured data, and is out of the sitemap and the search index. A person
-who may be a child (not recorded dead, no public source, under 18 by year, or no birth year and a
-living parent) is **not published at all**: no page, and no name as anyone's relative; their GEDCOM
+who may be a child (not recorded dead, no public source, no birth year, and a living parent) is
+**not published at all**; a child with a known birth year is a living person like any other: no page, and no name as anyone's relative; their GEDCOM
 ids are in `data/held-out.json`. A living person's dates, sources and photographs are never built
 into any file, because every committed file here is public. `npm run build` refuses to ship if that
 is untrue (`check:living`, `check:living-v2` and its planted-fault self-test). A removal request is

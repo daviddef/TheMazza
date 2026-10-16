@@ -8,8 +8,10 @@ counts in THIS archive as a recorded death or burial.
   LIVING   80 or younger by year, no death or burial recorded, and no citation
            from a public record source (FamilySearch, MyHeritage records,
            Findmypast...). Someone with no birth year is not living by this test.
-  HELD OUT possible minors: not recorded dead, no public source, and under 18 by
-           year, or with no birth year and a living parent. Not published at all.
+  HELD OUT an undated person with a living parent (they might be a child): not
+           recorded dead, no public source, no birth year. Not published at all.
+           A child with a KNOWN birth year is NOT held out (David, 16 October 2026):
+           they are living, like anyone else 80 or younger, and have a page.
 
 This replaces three older tests, none of which survives:
   * `datesHidden`    (80 or younger, no death in the TREE) - it ignored a burial
@@ -44,6 +46,23 @@ def _blank(v):
     return (v or "").strip() in BLANK
 
 
+NAA = re.compile(r"\bNAA\b|National Archives of Australia", re.I)
+
+
+def with_addresses(cites):
+    """Add the public address a citation stands for, where the archive writes only a name.
+
+    The archive cites "NAA ..." and the kit's list matches the National Archives
+    of Australia by its address (naa.gov.au, added in kit 6cefc79), so the address
+    is stated once here instead of the list being widened. Same function for the
+    generator and the gate.
+    """
+    cites = list(cites or [])
+    if any(NAA.search(str(c)) for c in cites):
+        cites.append("recordsearch.naa.gov.au")
+    return cites
+
+
 def evidence():
     """What the ARCHIVE has read about a person, keyed by slug.
 
@@ -61,6 +80,11 @@ def evidence():
         if _blank(slug):
             return
         cites.setdefault(slug, []).extend(s for s in strings if s)
+        # An NAA citation is a citation of the National Archives of Australia, whose
+        # public RecordSearch address is on the kit's public-source list (6cefc79).
+        # The archive writes it as "NAA ..." and the list matches the address, so
+        # the address is stated here, once, rather than the list being widened.
+        cites[slug] = with_addresses(cites[slug])
 
     for r in _rows("data/read-people.tsv"):
         add(r["slug"], r["kind"], r["what"], r["href"])

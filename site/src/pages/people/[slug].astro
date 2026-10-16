@@ -42,7 +42,7 @@ const provedEdges = edges.filter((e) => e.via === "read" || e.via === "index").l
    country only (tools/build.py record()): there is nothing else in
    people.json for this page to leave out, and this branch is the second lock,
    not the first. The page is noindex, carries no structured data, no table, no
-   image and no year. A possible minor is not published at all: there is no page
+   image and no year. An undated person with a living parent is not published at all: there is no page
    for them and they are nobody's relative. */
 const hidden = !!p.living;
 const place = (v) => v || "";
@@ -53,8 +53,8 @@ const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
 const dek = p.living
   ? (home ? `Of ${home}.` : "A living person, named here with their relationships.")
   : p.ancGen === 0 || p.onSpine
-  ? (p.ancGen ? `An ancestor of the two children this archive is for — generation ${p.ancGen} above them.`
-              : "On the line of ancestors this archive is built around.")
+  ? (p.ancGen ? `An ancestor of Mia and Rocco — generation ${p.ancGen} above them.`
+              : "One of the two children this archive is for.")
   : home ? `Of ${home}.`
   : edges.length ? "Known from the family tree. No record has been read for this person."
   : "Named in this archive, with no relationship recorded for them yet.";
@@ -92,7 +92,7 @@ const dek = p.living
     <p class="note" style="margin-bottom:26px">This person is in
     <strong> component {p.comp}</strong> of the export — a group of {comp.n}
     {comp.towns.length ? ` mostly of ${comp.towns[0].name}` : ""} that
-    <strong> no record joins</strong> to the line reaching the two children this archive is for.
+    <strong> no record joins</strong> to the line reaching Mia and Rocco.
     They are very probably kin. The archive does not yet say how.
     <a href={u("/open-questions/")}>Why →</a></p>
   )}

@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """The spine: every ancestor of the two children who carry the name.
 
-The archive is anchored on two children, who are held out of the build
-(possible minors, 16 October 2026) — not on an ancestor. A pedigree drawn downwards decides in
+The archive is anchored on Mia Josephine Mazza (2017) and Rocco Francesco
+Mazza (2019) — not on an ancestor. A pedigree drawn downwards decides in
 advance which line matters; drawn upwards from the living it simply reports
 who is actually behind them, and how far each line reaches before it stops.
 """
 import json, collections, re
 
 P = {r["id"]: r for r in json.load(open("site/src/data/people.json"))}
+ANCHORS = ["@I363@", "@I364@"]      # Mia and Rocco Francesco
 PROBAND = "@I26@"                   # Michael Rocco Mazza
 
 def up(start):
@@ -54,7 +55,7 @@ for i, g in sorted(gen.items(), key=lambda kv: kv[1]):
         r = P[i]
         print(f"  {r['name']:26s} b {r.get('born') or '····'}  {r.get('birthPlace','')}")
 
-json.dump({"gen": gen, "proband": PROBAND},
+json.dump({"gen": gen, "proband": PROBAND, "anchors": ANCHORS},
           open("data/ahnentafel.json", "w"), indent=1)
 
 # --- the deepest single descent, written out

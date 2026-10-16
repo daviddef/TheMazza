@@ -25,9 +25,9 @@ const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
 const g7 = anc.generations[6];
 const g7pc = Math.round(100 * g7.found / g7.possible);  /* `found` is a COUNT, not an array */
 const more = [
-  ["/ancestors", "The ancestors of the two children", `${anc.total} people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, ${g7pc}% complete by the seventh generation, and one thread at the tenth.`],
+  ["/ancestors", "The ancestors of Mia and Rocco", `${anc.total} people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, ${g7pc}% complete by the seventh generation, and one thread at the tenth.`],
   ["/the-hundred-and-ten", "The hundred and ten", "The archive's largest open question, answered on the day it was built: a hundred and ten Piedimonte Etneo Mazza who turned out to be the families of Michael Rocco Mazza's great-great-uncles."],
-  ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1815, to the Brisbane generation now living."],
+  ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1815, to two children born in Brisbane."],
   ["/arena", "The Arena", "Thirty-nine Arena of Scilla in a single unbroken family — the counter-example, and the reason a surname tells you least about a family."],
   ["/lines", "The four quarters", "Michael Rocco Mazza has four grandparents and they came from four different places. Three towns in the south of Italy, and the shipping line that brought all four to one suburb of Brisbane."],
   ["/briatico-tested", "Testing the 1697", "The archive's largest claim, audited: two Prostamo generations proved, four shown to rest on nothing, and a family of sailors the tree had recorded as farmers."],
@@ -285,7 +285,7 @@ const spineRows = spineData.spine.map((g) => {
     {stats.ageThreshold} or younger today, with no death recorded and no public record naming them,
     are living: each is named with their relationships and their town and country, and nothing more.
     Their dates, records and photographs are not built, so they are not in the HTML and not
-    recoverable from this site. Possible minors are not published at all. A removal request is
+    recoverable from this site. An undated person with a living parent, who may be a child, is not published at all. A removal request is
     honoured within days, without argument and without requiring a reason.
     <a href={u("/method/#living")}>The method →</a></p>
   </section>
