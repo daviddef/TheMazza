@@ -1,7 +1,7 @@
 [
  {
   "name": "Scilla, Reggio Calabria",
-  "born": 130,
+  "born": 127,
   "died": 8,
   "buried": 0,
   "lived": 0,
@@ -32,7 +32,6 @@
    "rocco-bova",
    "peter-bova",
    "peter-bova",
-   "peter-bova-1950",
    "giuseppe-arena",
    "giuseppe-arena",
    "anna-arena",
@@ -47,13 +46,14 @@
    "giuseppe-arena-1932",
    "mario-salvatore-arena",
    "concetta-russo",
-   "domenico-donato"
+   "domenico-donato",
+   "santa-donato"
   ],
-  "n": 138
+  "n": 135
  },
  {
   "name": "Briatico, Vibo Valentia, Calabria",
-  "born": 99,
+  "born": 86,
   "died": 16,
   "buried": 2,
   "lived": 0,
@@ -73,15 +73,12 @@
    "alfonso-prostamo",
    "caterina-melluso",
    "caterina-melluso",
-   "salvatore-mazza-1948",
    "domenico-prostamo-1930",
    "antonio-giacomo-prostamo",
    "alfonso-prostamo-1936",
    "alfonso-prostamo-1936",
    "francesca-prostamo",
-   "saveria-prostamo",
    "maria-melluso",
-   "anunziata-panella",
    "mario-napoli",
    "domenico-prostamo-1889",
    "maria-rosa-melluso",
@@ -99,61 +96,12 @@
    "giovanna-ventrice",
    "antonino-prostamo-1785",
    "maria-fragala",
-   "pasquale-prostamo"
+   "pasquale-prostamo",
+   "caterina-di-meio",
+   "antonino-prostamo",
+   "caterina-scangiaterra"
   ],
-  "n": 117
- },
- {
-  "name": "Brisbane, Queensland",
-  "born": 78,
-  "died": 20,
-  "buried": 0,
-  "lived": 5,
-  "first": 1949,
-  "last": 2019,
-  "who": [
-   "frank-mazza",
-   "sebastiano-mazza",
-   "domenica-prostamo",
-   "maria-nicotra",
-   "connie-armanno",
-   "robert-sebastian-mazza",
-   "ranee-turner",
-   "jack-mazza",
-   "nancy-arena",
-   "michael-rocco-mazza",
-   "angela-mazza",
-   "rocco-arena-1924",
-   "rocco-arena-1924",
-   "angela-polistena",
-   "angela-polistena",
-   "jack-carmelo-calahorra",
-   "mary-rosa-mazza",
-   "mary-rosa-mazza",
-   "giovanni-mazza",
-   "venera-cavallaro",
-   "venera-cavallaro",
-   "rosario-mazza-1899",
-   "carmelina-micale",
-   "sebastian-michael-mazza",
-   "domenica-rita-mazza",
-   "anthony-john-mazza",
-   "jiani-mazza",
-   "maria-rosa-mazza",
-   "carmelo-armanno",
-   "angelina-pagano",
-   "vennero-armanno",
-   "maria-melluso",
-   "frank-prostamo",
-   "gregory-prostamo",
-   "maria-prostamo",
-   "carmela-prostamo-1976",
-   "maria-rosa-prostamo-1956",
-   "francesco-prostamo-1961",
-   "tony-prostamo",
-   "kristina-prostamo"
-  ],
-  "n": 103
+  "n": 104
  },
  {
   "name": "Piedimonte Etneo, Catania, Sicily",
@@ -208,8 +156,54 @@
   "n": 41
  },
  {
+  "name": "Brisbane, Queensland",
+  "born": 9,
+  "died": 20,
+  "buried": 0,
+  "lived": 5,
+  "first": 1949,
+  "last": 2019,
+  "who": [
+   "sebastiano-mazza",
+   "domenica-prostamo",
+   "maria-nicotra",
+   "rocco-arena-1924",
+   "rocco-arena-1924",
+   "angela-polistena",
+   "angela-polistena",
+   "mary-rosa-mazza",
+   "mary-rosa-mazza",
+   "venera-cavallaro",
+   "venera-cavallaro",
+   "rosario-mazza-1899",
+   "carmelo-armanno",
+   "angelina-pagano",
+   "maria-melluso",
+   "mariano-cavallaro",
+   "luciano-cavallaro",
+   "angela-cupo",
+   "giovanni-giammona-1970",
+   "giovanna-polistena",
+   "antonino-polistena",
+   "michael-antonio-polistena",
+   "rocco-bova",
+   "claire",
+   "clemente-arena",
+   "mario-salvatore-arena",
+   "maria-antonia-tropeia",
+   "luciano-pagano",
+   "mary",
+   "camillo-polistena",
+   "giovanna-polistena-2",
+   "pauline",
+   "francesco-polistena",
+   "polistena"
+  ],
+  "n": 34
+ },
+ {
   "name": "New York, New York",
-  "born": 17,
+  "born": 13,
   "died": 4,
   "buried": 0,
   "lived": 7,
@@ -220,12 +214,9 @@
    "maria-rosa-melluso-1907",
    "maria-rosa-melluso-1907",
    "domenica-anile",
-   "josephine-polistena",
    "nunziatta-polistena",
    "benadetta-polistena",
    "domenica-minni-donato",
-   "nancy-polistena",
-   "maria-polistena-1956",
    "rocco-arena",
    "fortunata-arena",
    "antonio-arena",
@@ -242,68 +233,9 @@
    "concetta-anile",
    "concetta-anile",
    "concetta-anile",
-   "giuseppe-joe-minichiello",
-   "domenico-polistena"
+   "giuseppe-joe-minichiello"
   ],
-  "n": 28
- },
- {
-  "name": "Buenos Aires, Argentina",
-  "born": 17,
-  "died": 2,
-  "buried": 0,
-  "lived": 0,
-  "first": 1903,
-  "last": 1933,
-  "who": [
-   "giuseppe-prostamo-1907",
-   "anna-vallone",
-   "anna-vallone",
-   "mattea-prostamo-1926",
-   "michele-ferro",
-   "giuseppina-limards",
-   "alfonso-prostamo-1926",
-   "mattea-prostamo-1928",
-   "carmelo-napoli",
-   "concetta-melluso",
-   "giuseppina-prostamo",
-   "antonino-prostamo-1960",
-   "pasquale-prostamo-1962",
-   "nicola-prostamo-1955",
-   "giuseppa-melluso",
-   "teresa-prostamo",
-   "giuseppe-prostamo-1957",
-   "domenica-prostamo-1959",
-   "maria-g-prostamo"
-  ],
-  "n": 19
- },
- {
-  "name": "Sydney, New South Wales",
-  "born": 13,
-  "died": 2,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "sam-calarco",
-   "giovanni-calarco",
-   "giuseppe-calarco",
-   "domenica-sanfedele",
-   "nino-sanfedele",
-   "giovanni-sanfedele",
-   "concetta-sanfedele",
-   "luciano-ottaviano",
-   "marcello-ottaviano",
-   "monica-ottaviano",
-   "michael-chronopoulos",
-   "fortunato-calarco",
-   "peter-calarco",
-   "rosa-curcuruto-mazza",
-   "angela-mazza-2"
-  ],
-  "n": 15
+  "n": 24
  },
  {
   "name": "Pizzo, Vibo Valentia, Calabria",
@@ -357,26 +289,28 @@
   "n": 13
  },
  {
-  "name": "Genoa, Liguria",
-  "born": 0,
-  "died": 0,
+  "name": "Buenos Aires, Argentina",
+  "born": 10,
+  "died": 2,
   "buried": 0,
-  "lived": 10,
-  "first": null,
-  "last": null,
+  "lived": 0,
+  "first": 1903,
+  "last": 1933,
   "who": [
-   "domenica-prostamo",
-   "francessco-prostamo",
-   "rocco-arena-1924",
-   "angela-polistena",
-   "salvatore-mazza-1948",
-   "venera-cavallaro",
-   "mariano-cavallaro",
-   "luciano-cavallaro",
-   "antonino-polistena",
-   "michael-antonio-polistena"
+   "giuseppe-prostamo-1907",
+   "anna-vallone",
+   "anna-vallone",
+   "mattea-prostamo-1926",
+   "michele-ferro",
+   "giuseppina-limards",
+   "alfonso-prostamo-1926",
+   "mattea-prostamo-1928",
+   "carmelo-napoli",
+   "concetta-melluso",
+   "giuseppa-melluso",
+   "maria-g-prostamo"
   ],
-  "n": 10
+  "n": 12
  },
  {
   "name": "Catanzaro, Calabria",
@@ -421,6 +355,27 @@
    "venera-murabito"
   ],
   "n": 10
+ },
+ {
+  "name": "Genoa, Liguria",
+  "born": 0,
+  "died": 0,
+  "buried": 0,
+  "lived": 9,
+  "first": null,
+  "last": null,
+  "who": [
+   "domenica-prostamo",
+   "francessco-prostamo",
+   "rocco-arena-1924",
+   "angela-polistena",
+   "venera-cavallaro",
+   "mariano-cavallaro",
+   "luciano-cavallaro",
+   "antonino-polistena",
+   "michael-antonio-polistena"
+  ],
+  "n": 9
  },
  {
   "name": "Catania, Sicily",
@@ -549,54 +504,16 @@
   "born": 0,
   "died": 0,
   "buried": 0,
-  "lived": 7,
+  "lived": 6,
   "first": 1925,
   "last": 1957,
   "who": [
    "sebastiano-mazza",
    "domenica-prostamo",
    "francessco-prostamo",
-   "salvatore-mazza-1948",
    "michele-mazza",
    "mariano-cavallaro",
    "michael-antonio-polistena"
-  ],
-  "n": 7
- },
- {
-  "name": "Melbourne, Victoria",
-  "born": 5,
-  "died": 2,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "carmela-mazza",
-   "franco-pellagrini",
-   "franco-pellagrini",
-   "loretta-mazza",
-   "luke-pellagrini",
-   "lynette-noble",
-   "luca-francesco-calahorra"
-  ],
-  "n": 7
- },
- {
-  "name": "Gold Coast, Queensland",
-  "born": 6,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "steven-prostamo",
-   "lisa-brown",
-   "dane-prostamo",
-   "elle-prostamo",
-   "nathan-prostamo",
-   "joshua-adi-prostamo"
   ],
   "n": 6
  },
@@ -619,49 +536,33 @@
   "n": 6
  },
  {
-  "name": "Milan, Lombardy",
-  "born": 4,
-  "died": 0,
+  "name": "Sydney, New South Wales",
+  "born": 2,
+  "died": 2,
   "buried": 0,
   "lived": 0,
   "first": null,
   "last": null,
   "who": [
-   "maria-rosa-trungadi",
-   "barbara-trungadi",
-   "sara-poleo",
-   "alice-poleo"
+   "fortunato-calarco",
+   "peter-calarco",
+   "rosa-curcuruto-mazza",
+   "angela-mazza-2"
   ],
   "n": 4
  },
  {
-  "name": "San Costantino Calabro, Vibo Valentia, Calabria",
-  "born": 4,
-  "died": 0,
+  "name": "Melbourne, Victoria",
+  "born": 1,
+  "died": 2,
   "buried": 0,
   "lived": 0,
   "first": null,
   "last": null,
   "who": [
-   "tonino-panella",
-   "maria-rosa-panella",
-   "francesco-panella",
-   "domenico-twin-panella"
-  ],
-  "n": 4
- },
- {
-  "name": "Great Britain",
-  "born": 3,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "iian-whitaker",
-   "laura-whitaker",
-   "thomas-whitaker"
+   "carmela-mazza",
+   "franco-pellagrini",
+   "franco-pellagrini"
   ],
   "n": 3
  },
@@ -722,20 +623,6 @@
   "n": 2
  },
  {
-  "name": "Lismore, New South Wales, Australia",
-  "born": 2,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "john-turner",
-   "sandy-mortimer"
-  ],
-  "n": 2
- },
- {
   "name": "Giarre, Catania, Sicily",
   "born": 2,
   "died": 0,
@@ -778,20 +665,6 @@
   "n": 2
  },
  {
-  "name": "Toowoomba, Queensland",
-  "born": 2,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "ty-eriksen",
-   "noah-ericksen"
-  ],
-  "n": 2
- },
- {
   "name": "Lismore NSW",
   "born": 1,
   "died": 1,
@@ -818,32 +691,6 @@
    "francesco-scura"
   ],
   "n": 2
- },
- {
-  "name": "St Flannan's Catholic Church, Zillmere, Qld Australia",
-  "born": 0,
-  "died": 0,
-  "buried": 0,
-  "lived": 1,
-  "first": null,
-  "last": null,
-  "who": [
-   "robert-sebastian-mazza"
-  ],
-  "n": 1
- },
- {
-  "name": "Moree, New South Wales, Australia",
-  "born": 1,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "renee-turner"
-  ],
-  "n": 1
  },
  {
   "name": "Queensland",
@@ -976,7 +823,7 @@
   "n": 1
  },
  {
-  "name": "Bali, Indonesia",
+  "name": "Great Britain",
   "born": 1,
   "died": 0,
   "buried": 0,
@@ -984,7 +831,7 @@
   "first": null,
   "last": null,
   "who": [
-   "putu-nuniarti"
+   "iian-whitaker"
   ],
   "n": 1
  },
@@ -1028,19 +875,6 @@
   "n": 1
  },
  {
-  "name": "Fiji",
-  "born": 1,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "sailowama-quaiuci"
-  ],
-  "n": 1
- },
- {
   "name": "Miami, Florida, USA",
   "born": 0,
   "died": 0,
@@ -1050,45 +884,6 @@
   "last": 1961,
   "who": [
    "francesco-melluso"
-  ],
-  "n": 1
- },
- {
-  "name": "Royal Women's Hospital, Parkville Vic Australia",
-  "born": 1,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "luca-francesco-calahorra"
-  ],
-  "n": 1
- },
- {
-  "name": "St Gerrard Majella Catholic Church, Chermside West, Qld Australia",
-  "born": 0,
-  "died": 0,
-  "buried": 0,
-  "lived": 1,
-  "first": null,
-  "last": null,
-  "who": [
-   "luca-francesco-calahorra"
-  ],
-  "n": 1
- },
- {
-  "name": "Boonah, Queensland, Australia",
-  "born": 1,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "irene-waters"
   ],
   "n": 1
  },
@@ -1167,45 +962,6 @@
   "last": null,
   "who": [
    "cosimo-scura"
-  ],
-  "n": 1
- },
- {
-  "name": "brookly, New York City, New York, USA",
-  "born": 1,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "antonio-polistena"
-  ],
-  "n": 1
- },
- {
-  "name": "Reggio di Calabria, Calabria, Italy",
-  "born": 1,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "maria-nostro"
-  ],
-  "n": 1
- },
- {
-  "name": "Johannesburg, South Africa",
-  "born": 1,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "david-ivan-defranceski"
   ],
   "n": 1
  },

@@ -135,7 +135,7 @@
    "living": true,
    "born": null,
    "died": null,
-   "birthPlace": "Brisbane, Queensland",
+   "birthPlace": "Brisbane, Queensland, Australia",
    "deathPlace": "",
    "burialPlace": "",
    "spouse": "Nancy Arena",
@@ -151,29 +151,14 @@
    "living": true,
    "born": null,
    "died": null,
-   "birthPlace": "Brisbane, Queensland",
+   "birthPlace": "Brisbane, Queensland, Australia",
    "deathPlace": "",
    "burialPlace": "",
    "spouse": "Stefanie D'Arcy",
    "spouseSlug": "stefanie-darcy"
   }
  ],
- "children": [
-  {
-   "id": "@I363@",
-   "name": "Mia Josephine Mazza",
-   "slug": "mia-josephine-mazza",
-   "living": false,
-   "via": "tree"
-  },
-  {
-   "id": "@I364@",
-   "name": "Rocco Francesco Mazza",
-   "slug": "rocco-francesco-mazza",
-   "living": false,
-   "via": "tree"
-  }
- ],
+ "children": [],
  "proband": {
   "gen": 0,
   "id": "@I26@",
@@ -183,7 +168,7 @@
   "living": true,
   "born": null,
   "died": null,
-  "birthPlace": "Brisbane, Queensland",
+  "birthPlace": "Brisbane, Queensland, Australia",
   "deathPlace": "",
   "burialPlace": "",
   "spouse": "Stefanie D'Arcy",

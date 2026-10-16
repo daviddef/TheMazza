@@ -154,13 +154,11 @@ def record(r, pid, slug, sex=""):
         "surname": surname_of(r["name"]),
         "sex": sex,
         "living": False,
-        "presumedLiving": False,
         # NO COMPONENT. /components/ is about the pieces the EXPORT arrived in
         # and this person was never in it. build_components.py skips them and
         # the person page must not say «component N of the export» of someone
         # the export never held.
         "fromRegister": True,
-        "datesHidden": False,
         "born": year(born_t) if exact(born_t) else None,
         "died": year(died_t) if exact(died_t) else None,
         "bornText": born_t,

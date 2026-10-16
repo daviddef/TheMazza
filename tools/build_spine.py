@@ -42,13 +42,10 @@ def chain(start):
 def row(pid, gen):
     r = P[pid]
     return {"gen": gen, "id": pid, "slug": r["slug"], "name": r["name"],
-            # PRESUMED LIVING IS LIVING. people.json carries `living: false`
-            # beside `presumedLiving: true` and `datesHidden: true` for Frank
-            # and Michael Rocco, and the spine copied only the first of the
-            # three — so the ladder treated two people who are almost
-            # certainly alive as deceased and printed their town beside them.
+            # `living` is the estate's v2 test (tools/living_v2.py); a living
+            # person has no dates in people.json, so none can be copied here.
             "surname": r["surname"],
-            "living": bool(r["living"] or r.get("presumedLiving")),
+            "living": bool(r.get("living")),
             "born": r.get("born"), "died": r.get("died"),
             "birthPlace": r.get("birthPlace", ""), "deathPlace": r.get("deathPlace", ""),
             "burialPlace": r.get("burialPlace", ""),

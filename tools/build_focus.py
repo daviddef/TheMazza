@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Two things the archive is FOR.
 
-1. The ancestors of Mia and Rocco Francesco Mazza — every one the tree can
+1. The ancestors of the two children this archive is for — every one the tree can
    reach, by generation, with the gaps counted rather than glossed. A pedigree
    that does not say how much of itself is missing is a advertisement.
 
@@ -13,7 +13,11 @@ import json, collections
 
 P = {r["id"]: r for r in json.load(open("site/src/data/people.json"))}
 BY_SLUG = {r["slug"]: r for r in P.values()}
-ANCHORS = ["@I363@", "@I364@"]           # Mia Josephine, Rocco Francesco
+# THE TWO CHILDREN THIS ARCHIVE IS FOR ARE HELD OUT (16 October 2026): possible
+# minors, not published at all, so they are no longer a starting node. Their
+# pedigree starts where it always started, one generation up: their two parents,
+# who are generation 1. The numbering is unchanged; only the children are gone.
+PARENTS_OF_THE_CHILDREN = ["@I26@", "@I362@"]
 
 def brief(pid):
     r = P[pid]
@@ -27,13 +31,16 @@ def brief(pid):
             "bornText": r.get("bornText", ""), "diedText": r.get("diedText", ""),
             "fromRegister": bool(r.get("fromRegister")),
             "registerSources": r.get("registerSources", [])[:2],
-            "datesHidden": r.get("datesHidden", False),
+            "living": bool(r.get("living")),
             "birthPlace": r.get("birthPlace", ""), "comp": r.get("comp", 0)}
 
 # ---------------------------------------------------------------- ancestors
-def ancestry(start):
-    """{generation: [ids]} above `start`. Gen 1 = parents."""
-    gens, frontier, seen = collections.defaultdict(list), [(start, 0)], {start}
+def ancestry(starts):
+    """{generation: [ids]} above the held-out children. Gen 1 = their parents."""
+    gens, frontier, seen = collections.defaultdict(list), [], set(starts)
+    for s0 in starts:
+        gens[1].append(s0)
+        frontier.append((s0, 1))
     while frontier:
         pid, g = frontier.pop(0)
         for par in P.get(pid, {}).get("parents", []):
@@ -44,7 +51,7 @@ def ancestry(start):
             frontier.append((par["id"], g + 1))
     return gens
 
-gens = ancestry(ANCHORS[0])
+gens = ancestry(PARENTS_OF_THE_CHILDREN)
 rows = []
 for g in sorted(gens):
     people = [brief(i) for i in gens[g]]
@@ -57,20 +64,19 @@ for g in sorted(gens):
     })
 
 total_found = sum(r["found"] for r in rows)
-json.dump({"anchors": [brief(a) for a in ANCHORS],
-           "generations": rows,
+json.dump({"generations": rows,
            "total": total_found,
            "deepest": max(rows, key=lambda r: r["gen"])["gen"]},
           open("site/src/data/ancestors.json", "w"), indent=1, ensure_ascii=False)
 
-print(f"ancestors of Mia & Rocco: {total_found} across {len(rows)} generations")
+print(f"ancestors of the two children: {total_found} across {len(rows)} generations")
 for r in rows:
     pct = 100 * r["found"] / r["possible"]
     print(f"  gen {r['gen']:2d}: {r['found']:3d} of {r['possible']:4d} possible ({pct:5.1f}%)  "
           f"{', '.join(t['name'].split(',')[0] for t in r['towns'][:3])}")
 
 # ------------------------------------------------------- surnames as families
-spine_ids = {i for gl in gens.values() for i in gl} | set(ANCHORS)
+spine_ids = {i for gl in gens.values() for i in gl}
 
 def descent_groups(surname):
     """Sort every bearer of a surname into the descent group they sit in.

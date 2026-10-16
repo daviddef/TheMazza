@@ -97,7 +97,6 @@ def scrap(r):
         "died": when(r.get("died")),
         "birthPlace": "",
         "living": False,
-        "presumedLiving": False,
         "sources": [s.strip() for s in (r.get("source") or "").split(";") if s.strip()],
         "gen": (r.get("gen") or "").strip(),
         "trade": (r.get("trade") or "").strip(),

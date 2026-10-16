@@ -58,13 +58,20 @@ for r in csv.DictReader(open("data/corrections.tsv"), delimiter="\t"):
 nudgee = {b["slug"]: b for b in json.load(open("site/src/data/nudgee.json"))["burials"]}
 ships = {s["slug"]: s for s in json.load(open("site/src/data/ships.json"))}
 anc = json.load(open("site/src/data/ancestors.json"))
-spine = {x["id"] for g in anc["generations"] for x in g["people"]} | {a["id"] for a in anc["anchors"]}
+spine = {x["id"] for g in anc["generations"] for x in g["people"]}
 gen_of = {}
 for g in anc["generations"]:
     for x in g["people"]:
         gen_of[x["id"]] = g["gen"]
 
 for p in P:
+    if p.get("living"):
+        # A LIVING PERSON CARRIES NO RECORD, NO CORRECTION AND NO PLACE ON THE
+        # SPINE: name, relationships, town and country (16 October 2026). Their
+        # keys are removed rather than emptied, so a stale file cannot keep them.
+        for k in ("records", "corrections", "onSpine", "ancGen"):
+            p.pop(k, None)
+        continue
     recs = []
     if p["slug"] in nudgee:
         b = nudgee[p["slug"]]
@@ -106,6 +113,6 @@ for p in P:
     p["ancGen"] = gen_of.get(p["id"])
 
 json.dump(P, open(PATH, "w"), indent=1, ensure_ascii=False)
-print(f"{sum(1 for p in P if p['records'])} people carry a record that has been read; "
-      f"{sum(1 for p in P if p['onSpine'])} are ancestors of Mia and Rocco; "
-      f"{sum(1 for p in P if p['corrections'])} carry a correction the registers forced")
+print(f"{sum(1 for p in P if p.get('records'))} people carry a record that has been read; "
+      f"{sum(1 for p in P if p.get('onSpine'))} are ancestors of the two children this archive is for; "
+      f"{sum(1 for p in P if p.get('corrections'))} carry a correction the registers forced")

@@ -1,36 +1,4 @@
 {
- "anchors": [
-  {
-   "id": "@I363@",
-   "slug": "mia-josephine-mazza",
-   "name": "Mia Josephine Mazza",
-   "surname": "Mazza",
-   "born": null,
-   "died": null,
-   "bornText": "",
-   "diedText": "",
-   "fromRegister": false,
-   "registerSources": [],
-   "datesHidden": true,
-   "birthPlace": "Brisbane, Queensland",
-   "comp": 1
-  },
-  {
-   "id": "@I364@",
-   "slug": "rocco-francesco-mazza",
-   "name": "Rocco Francesco Mazza",
-   "surname": "Mazza",
-   "born": null,
-   "died": null,
-   "bornText": "",
-   "diedText": "",
-   "fromRegister": false,
-   "registerSources": [],
-   "datesHidden": true,
-   "birthPlace": "Brisbane, Queensland",
-   "comp": 1
-  }
- ],
  "generations": [
   {
    "gen": 1,
@@ -48,8 +16,8 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": true,
-     "birthPlace": "Brisbane, Queensland",
+     "living": true,
+     "birthPlace": "Brisbane, Queensland, Australia",
      "comp": 1
     },
     {
@@ -63,14 +31,14 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": true,
-     "birthPlace": "Brisbane, Queensland",
+     "living": true,
+     "birthPlace": "Brisbane, Queensland, Australia",
      "comp": 1
     }
    ],
    "towns": [
     {
-     "name": "Brisbane, Queensland",
+     "name": "Brisbane, Queensland, Australia",
      "n": 2
     }
    ]
@@ -91,8 +59,8 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": true,
-     "birthPlace": "Brisbane, Queensland",
+     "living": true,
+     "birthPlace": "Brisbane, Queensland, Australia",
      "comp": 1
     },
     {
@@ -106,7 +74,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "",
      "comp": 1
     },
@@ -121,7 +89,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "",
      "comp": 1
     },
@@ -136,14 +104,14 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": true,
-     "birthPlace": "Brisbane, Queensland",
+     "living": true,
+     "birthPlace": "Brisbane, Queensland, Australia",
      "comp": 1
     }
    ],
    "towns": [
     {
-     "name": "Brisbane, Queensland",
+     "name": "Brisbane, Queensland, Australia",
      "n": 2
     }
    ]
@@ -164,7 +132,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -179,7 +147,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
      "comp": 1
     },
@@ -194,7 +162,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -209,7 +177,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     }
@@ -245,7 +213,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -260,7 +228,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -275,7 +243,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -290,7 +258,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
      "comp": 1
     },
@@ -305,7 +273,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "New York, New York",
      "comp": 1
     },
@@ -320,7 +288,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
      "comp": 1
     },
@@ -335,7 +303,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -350,7 +318,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     }
@@ -390,7 +358,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -405,7 +373,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -420,7 +388,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -435,7 +403,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "",
      "comp": 1
     },
@@ -450,7 +418,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Italy",
      "comp": 1
     },
@@ -465,7 +433,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -480,7 +448,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Piedimonte Etneo, Catania, Sicily",
      "comp": 1
     },
@@ -495,7 +463,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -510,7 +478,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -525,7 +493,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "",
      "comp": 1
     },
@@ -540,7 +508,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -555,7 +523,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -570,7 +538,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -585,7 +553,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -600,7 +568,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     }
@@ -640,7 +608,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -658,7 +626,7 @@
       "Scilla, Nati 1819 atto 186",
       "Nati 1860 atto 45"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -675,7 +643,7 @@
      "registerSources": [
       "Scilla, Matrimoni 1888, atto 63"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -693,7 +661,7 @@
       "Scilla, Nati 1830 atto 2",
       "Matrimoni 1851 atto 13"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -710,7 +678,7 @@
      "registerSources": [
       "Scilla, Matrimoni 1885, atto 86"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -725,7 +693,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -743,7 +711,7 @@
       "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original",
       "Piedimonte Etneo, Nati 1848 atto 45 (annual Tavola)"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Piedimonte Etneo",
      "comp": 0
     },
@@ -761,7 +729,7 @@
       "Piedimonte Etneo, Nati 1845 atto 64",
       "Piedimonte Etneo, Matrimoni allegati 1871, fascicolo 14 -- «CERTIFICATO di seguita pubblicazione di matrimonio senza opposizione», 16 April 1871"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Piedimonte Etneo",
      "comp": 0
     },
@@ -779,7 +747,7 @@
       "Scilla, Pubblicazioni 1888 no. 63",
       "Matrimoni 1888 atto 63"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -796,7 +764,7 @@
      "registerSources": [
       "Piedimonte Etneo, Matrimoni 1872 atto 20 (7 October 1872), read in the original"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Piedimonte Etneo",
      "comp": 0
     },
@@ -811,7 +779,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "",
      "comp": 1
     },
@@ -829,7 +797,7 @@
       "Piedimonte Etneo, Nati 1845 atto 64",
       "Piedimonte Etneo, Matrimoni allegati 1871, fascicolo 14 -- «CERTIFICATO di seguita pubblicazione di matrimonio senza opposizione», 16 April 1871"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Piedimonte Etneo",
      "comp": 0
     },
@@ -844,7 +812,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -862,7 +830,7 @@
       "Piedimonte Etneo, Matrimoni 1872 atto 20",
       "Mascali, Morti 1890 atto 35, read in the original"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Mascali",
      "comp": 0
     },
@@ -880,7 +848,7 @@
       "Piedimonte Etneo, Matrimoni 1872 atto 20",
       "Mascali, Nati 1873 atto 145"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Giarre",
      "comp": 0
     },
@@ -895,7 +863,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -910,7 +878,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla, Reggio Calabria",
      "comp": 1
     },
@@ -925,7 +893,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -942,7 +910,7 @@
      "registerSources": [
       "Scilla, Matrimoni 1885, atto 86"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -957,7 +925,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "",
      "comp": 1
     },
@@ -972,7 +940,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -987,7 +955,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     }
@@ -1039,7 +1007,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1057,7 +1025,7 @@
       "Scilla, Nati 1819 atto 186",
       "Matrimoni 1851 atto 13"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1075,7 +1043,7 @@
       "Scilla, Nati 1854 atto 76",
       "Matrimoni 1851 atto 13"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1090,7 +1058,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1105,7 +1073,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1120,7 +1088,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1138,7 +1106,7 @@
       "Scilla, Nati 1819, atto 186",
       "Scilla, Nati 1819 atto 186 read in the processetti of 1851"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1156,7 +1124,7 @@
       "Scilla, Matrimoni 1851 atto 13",
       "Nati 1830 atto 2"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1174,7 +1142,7 @@
       "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207",
       "Nati 1818 atto 129)"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1189,7 +1157,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1206,7 +1174,7 @@
      "registerSources": [
       "Mascali, Morti 1890 atto 35 (4 April 1890), read in the original"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Giarre",
      "comp": 0
     },
@@ -1223,7 +1191,7 @@
      "registerSources": [
       "Mascali, Morti 1890 atto 35 (4 April 1890), read in the original"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Giarre",
      "comp": 0
     },
@@ -1241,7 +1209,7 @@
       "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207",
       "Nati 1818 atto 129)"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1256,7 +1224,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1274,7 +1242,7 @@
       "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207",
       "Nati 1818 atto 129)"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1292,7 +1260,7 @@
       "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207",
       "Nati 1818 atto 129)"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     }
@@ -1335,7 +1303,7 @@
       "Scilla, Matrimoni 1815 atto 29",
       "processetti 1815 n. 29, estratti di battesimo e di morte"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1350,7 +1318,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "",
      "comp": 1
     },
@@ -1368,7 +1336,7 @@
       "Scilla, Matrimoni 1815 atto 29",
       "Matrimoni 1821 atto 29"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1385,7 +1353,7 @@
      "registerSources": [
       "Scilla, Nati 1854, atto 76"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1402,7 +1370,7 @@
      "registerSources": [
       "Scilla, Matrimoni 1828 atto 28"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1417,7 +1385,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Potenzioni, Catanzaro Calabria, Italy",
      "comp": 1
     },
@@ -1435,7 +1403,7 @@
       "Scilla, Matrimoni 1815 atto 29",
       "processetti 1815 n. 29, estratto di morte"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1452,7 +1420,7 @@
      "registerSources": [
       "Scilla, Matrimoni 1828 atto 28"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1467,7 +1435,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1482,7 +1450,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1499,7 +1467,7 @@
      "registerSources": [
       "Scilla, Matrimoni 1828 atto 28"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1514,7 +1482,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Potenzoni (Briatico), Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1532,7 +1500,7 @@
       "Scilla, Matrimoni 1815 atto 29",
       "processetti 1815 n. 29, estratto di battesimo"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1547,7 +1515,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     }
@@ -1593,7 +1561,7 @@
      "registerSources": [
       "Scilla, Morti 1830 atto 64"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1610,7 +1578,7 @@
      "registerSources": [
       "Scilla, processetti 1815 n. 29, estratto di morte di Giovanni Costa"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1625,7 +1593,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1640,7 +1608,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1657,7 +1625,7 @@
      "registerSources": [
       "Scilla, processetti 1815 n. 29, estratto di morte di Giovanni Costa"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     },
@@ -1674,7 +1642,7 @@
      "registerSources": [
       "Scilla, Morti 1830 atto 64"
      ],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Scilla",
      "comp": 0
     }
@@ -1706,7 +1674,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     },
@@ -1721,7 +1689,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "datesHidden": false,
+     "living": false,
      "birthPlace": "Briatico, Vibo Valentia, Calabria",
      "comp": 1
     }

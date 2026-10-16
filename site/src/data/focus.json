@@ -1,24 +1,22 @@
 {
  "Mazza": {
   "surname": "Mazza",
-  "total": 121,
+  "total": 119,
   "groups": [
    {
-    "n": 111,
+    "n": 109,
     "earliest": 1809,
     "latest": 1952,
     "towns": [
      "Piedimonte Etneo, Catania, Sicily",
-     "Brisbane, Queensland",
+     "Brisbane, Queensland, Australia",
      "Catania, Sicily"
     ],
     "component": 1,
     "onSpine": [
      "Frank Mazza",
      "Mariano Mazza",
-     "Mia Josephine Mazza",
      "Michael Rocco Mazza",
-     "Rocco Francesco Mazza",
      "Rosario Mazza",
      "Salvatore Mazza",
      "Sebastiano Mazza"
@@ -38,7 +36,7 @@
        "Piedimonte Etneo, Nati 1845 atto 64",
        "Piedimonte Etneo, Matrimoni allegati 1871, fascicolo 14 -- «CERTIFICATO di seguita pubblicazione di matrimonio senza opposizione», 16 April 1871"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo",
       "comp": 0
      },
@@ -53,7 +51,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -68,7 +66,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -83,7 +81,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -98,7 +96,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -113,7 +111,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Catania, Sicily",
       "comp": 1
      },
@@ -128,7 +126,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Catania, Sicily",
       "comp": 1
      },
@@ -143,7 +141,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -158,7 +156,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -173,7 +171,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Catania, Sicily",
       "comp": 1
      },
@@ -188,7 +186,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Tully, Queensland",
       "comp": 1
      },
@@ -203,7 +201,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Brisbane, Queensland",
       "comp": 1
      },
@@ -218,7 +216,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -233,7 +231,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -248,7 +246,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -263,7 +261,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -278,7 +276,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -293,7 +291,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -308,8 +306,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -323,7 +321,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -338,7 +336,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -353,7 +351,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -368,8 +366,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -383,7 +381,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -398,7 +396,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -413,7 +411,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -428,7 +426,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -443,7 +441,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -458,7 +456,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -473,7 +471,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -488,7 +486,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -503,7 +501,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -518,8 +516,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -533,7 +531,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -548,7 +546,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -563,7 +561,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -578,7 +576,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -593,7 +591,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -608,7 +606,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -623,7 +621,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -638,7 +636,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -653,8 +651,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -668,7 +666,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -683,7 +681,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -698,7 +696,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -713,7 +711,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -728,7 +726,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -743,8 +741,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -758,7 +756,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -773,7 +771,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -788,7 +786,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -803,7 +801,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -818,7 +816,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -833,7 +831,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -848,7 +846,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -863,7 +861,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -878,7 +876,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -893,8 +891,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -908,7 +906,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -923,7 +921,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -938,7 +936,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -953,7 +951,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -968,7 +966,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -983,8 +981,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Melbourne, Victoria",
+      "living": true,
+      "birthPlace": "Melbourne, Victoria, Australia",
       "comp": 1
      },
      {
@@ -998,7 +996,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1013,7 +1011,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1028,7 +1026,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1043,7 +1041,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1058,7 +1056,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1073,7 +1071,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1088,7 +1086,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1103,8 +1101,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -1118,7 +1116,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1133,23 +1131,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I363@",
-      "slug": "mia-josephine-mazza",
-      "name": "Mia Josephine Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
       "comp": 1
      },
      {
@@ -1163,8 +1146,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -1178,7 +1161,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1193,7 +1176,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1208,7 +1191,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1223,7 +1206,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1238,7 +1221,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1253,7 +1236,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1268,7 +1251,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1283,7 +1266,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1298,7 +1281,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1313,7 +1296,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1328,8 +1311,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -1343,23 +1326,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I364@",
-      "slug": "rocco-francesco-mazza",
-      "name": "Rocco Francesco Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
       "comp": 1
      },
      {
@@ -1373,7 +1341,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1388,7 +1356,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1403,7 +1371,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1418,8 +1386,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -1433,13 +1401,13 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
      {
       "id": "@I32@",
-      "slug": "salvatore-mazza-1948",
+      "slug": "salvatore-mazza-2",
       "name": "Salvatore Mazza",
       "surname": "Mazza",
       "born": null,
@@ -1448,8 +1416,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Briatico, Vibo Valentia, Calabria",
+      "living": true,
+      "birthPlace": "Briatico, Vibo Valentia, Calabria, Italy",
       "comp": 1
      },
      {
@@ -1463,7 +1431,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1478,7 +1446,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1493,8 +1461,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -1508,7 +1476,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1523,7 +1491,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1538,7 +1506,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1553,7 +1521,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1568,7 +1536,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1583,7 +1551,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1598,7 +1566,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1613,7 +1581,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1628,7 +1596,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1643,7 +1611,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1658,7 +1626,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1673,7 +1641,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      },
@@ -1688,7 +1656,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo, Catania, Sicily",
       "comp": 1
      }
@@ -1713,7 +1681,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1728,7 +1696,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1743,7 +1711,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1758,7 +1726,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -1773,7 +1741,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      }
@@ -1802,7 +1770,7 @@
       "registerSources": [
        "Piedimonte Etneo, Nati 1880 atto 66"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo",
       "comp": 0
      }
@@ -1813,7 +1781,7 @@
     "earliest": null,
     "latest": null,
     "towns": [
-     "Brisbane, Queensland"
+     "Brisbane, Queensland, Australia"
     ],
     "component": 4,
     "onSpine": [],
@@ -1829,8 +1797,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 4
      }
     ]
@@ -1858,7 +1826,7 @@
       "registerSources": [
        "Piedimonte Etneo, Nati 1872 atto 32"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Piedimonte Etneo",
       "comp": 0
      }
@@ -1883,7 +1851,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 5
      }
@@ -1908,7 +1876,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 6
      }
@@ -1927,7 +1895,7 @@
     "towns": [
      "Scilla, Reggio Calabria",
      "Scilla",
-     "Brisbane, Queensland"
+     "Brisbane, Queensland, Australia"
     ],
     "component": 1,
     "onSpine": [
@@ -1955,7 +1923,7 @@
        "Scilla, Matrimoni 1815 atto 29",
        "Matrimoni 1821 atto 29"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -1973,7 +1941,7 @@
        "Scilla, Nati 1819 atto 186",
        "Matrimoni 1851 atto 13"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -1991,7 +1959,7 @@
        "Scilla, Matrimoni 1821 atto 29",
        "Tavola annuale 1821"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -2009,7 +1977,7 @@
        "Scilla, Nati 1819 atto 186",
        "Nati 1860 atto 45"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -2026,7 +1994,7 @@
       "registerSources": [
        "Scilla, Nati 1852, atto 48"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -2043,7 +2011,7 @@
       "registerSources": [
        "Scilla, Nati 1853 atto 53, read in the original"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -2058,7 +2026,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2073,7 +2041,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2088,7 +2056,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2103,7 +2071,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2118,7 +2086,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "New York, New York",
       "comp": 1
      },
@@ -2133,7 +2101,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2148,7 +2116,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2163,7 +2131,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2178,7 +2146,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2193,7 +2161,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2208,7 +2176,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2223,13 +2191,13 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
      {
       "id": "@I111@",
-      "slug": "anna-arena-1955",
+      "slug": "anna-arena-2",
       "name": "Anna Arena",
       "surname": "Arena",
       "born": null,
@@ -2238,8 +2206,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -2253,7 +2221,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2268,7 +2236,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2283,7 +2251,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2298,7 +2266,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2313,7 +2281,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2331,7 +2299,7 @@
        "Scilla, Matrimoni 1828 atto 26",
        "Tavola annuale 1828"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -2346,7 +2314,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2361,7 +2329,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2376,7 +2344,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2394,7 +2362,7 @@
        "Scilla, Matrimoni 1838 atto 20",
        "Tavola annuale 1838"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -2411,7 +2379,7 @@
       "registerSources": [
        "Scilla, Morti 1830 atto 64"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -2426,7 +2394,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "New York, New York",
       "comp": 1
      },
@@ -2441,7 +2409,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2456,7 +2424,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2471,7 +2439,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2488,7 +2456,7 @@
       "registerSources": [
        "Antenati name index, Scilla deaths: «Giuseppe Arena, Morte: Scilla 27/03/1925, Padre Domenico, Madre Teresa Polistena, Coniuge Serafina Vita»"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 0
      },
@@ -2503,7 +2471,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2518,7 +2486,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2533,7 +2501,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2548,8 +2516,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -2563,7 +2531,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2578,8 +2546,8 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": true,
-      "birthPlace": "Brisbane, Queensland",
+      "living": true,
+      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -2593,7 +2561,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2608,7 +2576,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2623,7 +2591,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2640,7 +2608,7 @@
       "registerSources": [
        "Antenati name index, Scilla deaths: «Teresa Arena, Morte: Scilla 27/08/1943, Padre Giuseppe, Madre Serafina Vita, Coniuge Gaetano Cosentino»"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 0
      },
@@ -2655,7 +2623,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      },
@@ -2670,7 +2638,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 1
      }
@@ -2697,7 +2665,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2712,7 +2680,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      },
@@ -2727,7 +2695,7 @@
       "diedText": "",
       "fromRegister": false,
       "registerSources": [],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
      }
@@ -2756,7 +2724,7 @@
       "registerSources": [
        "Scilla, Matrimoni 1813 atto 21"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      },
@@ -2773,7 +2741,7 @@
       "registerSources": [
        "Scilla, Matrimoni 1813 atto 21"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }
@@ -2803,7 +2771,7 @@
        "Scilla, Matrimoni 1811 atto 22",
        "Matrimoni 1812 atto 1"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }
@@ -2830,7 +2798,7 @@
       "registerSources": [
        "New York Roman Catholic Parish Baptisms — Our Lady of Loretto, 15 November 1896 (Findmypast US/NY/CATH/PR/BAP/01052845)"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 0
      }
@@ -2857,7 +2825,7 @@
       "registerSources": [
        "New York Roman Catholic Parish Baptisms, Our Lady of Loretto and Most Precious Blood (Findmypast) — US/NY/CATH/PR/BAP/PH2/00198880"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 0
      }
@@ -2886,7 +2854,7 @@
       "registerSources": [
        "Scilla, Matrimoni 1812, Tavola annuale, atto 10"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }
@@ -2913,7 +2881,7 @@
       "registerSources": [
        "New York Roman Catholic Parish Baptisms, Our Lady of Loretto and Most Precious Blood (Findmypast) — US/NY/CATH/PR/BAP/01057021"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 0
      }
@@ -2942,7 +2910,7 @@
       "registerSources": [
        "Scilla, Morti 1830 atto 64"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }
@@ -2971,7 +2939,7 @@
       "registerSources": [
        "Scilla, Morti 1891, atto 134"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }
@@ -3000,7 +2968,7 @@
       "registerSources": [
        "Scilla, Morti 1898, atto 91"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }
@@ -3029,7 +2997,7 @@
       "registerSources": [
        "Scilla, Morti 1830 atto 64"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }
@@ -3059,7 +3027,7 @@
        "Scilla, Matrimoni 1833, Tavola annuale",
        "Matrimoni 1821, Tavola annuale"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }
@@ -3086,7 +3054,7 @@
       "registerSources": [
        "New York Roman Catholic Parish Baptisms, Our Lady of Loretto and Most Precious Blood (Findmypast) — US/NY/CATH/PR/BAP/01054593"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "",
       "comp": 0
      }
@@ -3115,7 +3083,7 @@
       "registerSources": [
        "Scilla, Morti 1912, parte I, atto 83"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }
@@ -3144,7 +3112,7 @@
       "registerSources": [
        "Scilla, Nati 1853, atto 6"
       ],
-      "datesHidden": false,
+      "living": false,
       "birthPlace": "Scilla",
       "comp": 0
      }

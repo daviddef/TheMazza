@@ -16,6 +16,8 @@ Every rule here exists because the export cannot be trusted as-is:
 import sys, os, re, json, collections, hashlib
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ged import parse, kid, kids, val, cont
+import living_v2 as LV
+lr = LV.lr          # the kit's living_rule.py: the estate's one definition
 
 OUT = "site/src/data"
 R = parse()
@@ -160,63 +162,30 @@ def death_year(x):
 def has_death(x):
     return bool(kid(I[x], "DEAT") or kid(I[x], "BURI"))
 
-CENTENARY = 1926
-
 # ---------------------------------------------------------------------------
-# PUBLISHING THE LIVING
+# WHO IS LIVING (David, 16 October 2026; the estate's living-people standard v2)
 #
-# The Falco rule was that a living person carries a name and nothing else.
-# David turned it off for this archive on 10 September 2026: most of the people
-# in this tree are in fact long dead, and the test below was catching them —
-# 416 of 599, in a tree that reaches 1697 — because it treats "no dates at all"
-# as "possibly alive". The whole unjoined Piedimonte Etneo cluster fell into it.
+# One definition, and it is not in this file: tools/living_v2.py hands each
+# person's facts to the kit's `living_rule.py`, which decides.
 #
-# So the suppression is a SWITCH, not a deletion. `presumedLiving` is still
-# computed and still recorded on every person, so turning it back on is one
-# line rather than a rebuild.
+#   living   80 or younger by year, no death or burial recorded (in the tree OR
+#            in anything this archive has read), and no citation from a public
+#            record source (FamilySearch, MyHeritage records, Findmypast...).
+#            A person with no birth year cannot be shown to be 80 or younger, so
+#            is not living by this test.
+#   held out a possible minor (not recorded dead, no public source, and under 18
+#            by year, or no birth year and a living parent). Not published at
+#            all: no page, and no name as anyone's relative.
+#
+# This replaces `datesHidden` (the 80-year test on the tree alone, which began
+# here on 10 September), `presumedLiving` (true of 280 plainly dead people
+# because the tree gives them no dates) and the 100-year bound in fetch_photos.
+# A living person is BUILT from name, relationships and town and country only:
+# their dates, events, sources, records, notes and photographs never enter any
+# file this script writes, because every committed file in this repository is
+# public. See record() below.
 # ---------------------------------------------------------------------------
-SUPPRESS_LIVING = False
-
-# ---------------------------------------------------------------------------
-# HIDING DATES
-#
-# David's rule, 10 September 2026: "hide dates for anyone that's 80 and younger
-# in age." It replaces the blunt living/dead split with a graduated one — the
-# whole archive is readable, and only the dates of people who might still be
-# alive are withheld.
-#
-# Applied to a person whose death is NOT recorded and who would be 80 or under
-# today. Someone the tree records as dead keeps their dates: a death date is a
-# documented fact about a person who no longer has an interest in privacy, and
-# withholding it would gut the archive (Mary Rosa Mazza died at sixteen).
-#
-# Names, places, relationships, households, photographs and record citations
-# are unaffected. Only DATES are withheld — and they are stripped in the build,
-# not hidden by the page, so they never reach the HTML.
-# ---------------------------------------------------------------------------
-THIS_YEAR = 2026
-AGE_THRESHOLD = 80
-
-def hide_dates(x):
-    if has_death(x):
-        return False
-    y = birth_year(x)
-    if not y:
-        return False          # nothing to hide
-    return (THIS_YEAR - y) <= AGE_THRESHOLD
-
-def presumed_living(x):
-    """Not a claim that they are alive — only that the tree cannot show they died."""
-    if has_death(x):
-        return False
-    y = birth_year(x)
-    if y:
-        return y >= CENTENARY
-    return True          # no dates at all: unknown, not necessarily alive
-
-def is_dead(x):
-    """Whether the archive will write about this person in full."""
-    return True if not SUPPRESS_LIVING else not presumed_living(x)
+THIS_YEAR = lr.this_year()
 
 # ------------------------------------------------------ duplicates & components
 
@@ -697,6 +666,58 @@ def src_of(x):
             out.append(cont(s))
     return out
 
+# ------------------------------------------------- who is living, who is held out
+
+_EV = LV.evidence()
+def _first_year(ids):
+    for z in ids:
+        y = birth_year(z)
+        if y:
+            return y
+    return None
+
+_status_in = {}
+for x in people_ids:
+    _orig = [x] + [z for z in I if canonical[z] == x and z != x]
+    _status_in[x] = {
+        "by": _first_year(_orig),
+        "dead": any(has_death(z) for z in _orig) or slug_of[x] in _EV["dead"],
+        "cites": [s for z in _orig for s in src_of(z)] + _EV["cites"].get(slug_of[x], []),
+        "parents": sorted({canonical.get(q) for z in _orig for q in parents(z)} - {None, x}),
+    }
+LIVING, HELD = LV.classify(_status_in, THIS_YEAR)
+PUBLIC_SOURCE = {x for x in people_ids if lr.public_source(_status_in[x]["cites"])}
+print(f"  living {len(LIVING)}  held out {len(HELD)}  "
+      f"(of {len(people_ids)} people; {len(PUBLIC_SOURCE)} carry a public-source citation)")
+
+# A LIVING PERSON'S URL MAY NOT CARRY A BIRTH YEAR. Namesakes were told apart by
+# the birth year ("a-name-1799"), which put a living person's year in
+# a path, a link and a file name. A living person's slug is re-minted without it
+# (name, then the first free number). Their old URLs stop resolving: those pages
+# were noindex and are rebuilt under the new slug. The ledger is updated in the
+# same run. The hand-kept files that key a person by slug (data/corrections.tsv,
+# parent-links.tsv, read-people.tsv) were moved with it.
+_YEAR_SLUG = re.compile(r"-(1[5-9]\d\d|20\d\d)$")
+_reslug = {}
+for x in sorted(LIVING, key=lambda z: slug_of[z]):
+    if _YEAR_SLUG.search(slug_of[x]):
+        base = _YEAR_SLUG.sub("", slug_of[x])
+        taken = set(slug_of.values()) | set(_ledger_doc["slugs"].values())
+        n = 2
+        while f"{base}-{n}" in taken:
+            n += 1
+        _reslug[slug_of[x]] = f"{base}-{n}"
+        slug_of[x] = f"{base}-{n}"
+        _ledger_doc["slugs"][x] = slug_of[x]
+if _reslug:
+    print(f"  living slugs re-minted without a birth year: {len(_reslug)}")
+
+def is_living(x):
+    return x in LIVING
+
+def is_held(x):
+    return x in HELD
+
 # -------------------------------------------------------------- photo lookup
 
 photos = {}
@@ -731,9 +752,11 @@ if os.path.exists("data/photo-manifest.json"):
     for m in json.load(open("data/photo-manifest.json")):
         if not os.path.exists(m.get("path", "")):
             continue
-        if m.get("notShown") or not (m.get("dead") or not SUPPRESS_LIVING):
+        if m.get("notShown"):
             continue
         who = canonical.get(m["xref"], m["xref"])
+        if who in LIVING or who in HELD:
+            continue          # no photograph of a living or a held-out person
         digest = hashlib.sha256(open(m["path"], "rb").read()).hexdigest()
         if digest in _seen_hash.setdefault(who, set()):
             continue
@@ -742,29 +765,53 @@ if os.path.exists("data/photo-manifest.json"):
         if m.get("w") and m.get("h"):
             photo_size[m["file"]] = [m["w"], m["h"]]
 
+# THE MANIFEST NAMES EVERY PHOTOGRAPH AND WHOSE IT IS, and it is a committed file.
+# A photograph of a living or held-out person is withdrawn from it here, so
+# neither the person nor the picture is listed anywhere that is published.
+if os.path.exists("data/photo-manifest.json"):
+    _man = json.load(open("data/photo-manifest.json"))
+    _keep = [m for m in _man if canonical.get(m["xref"], m["xref"]) not in LIVING | HELD]
+    if len(_keep) != len(_man):
+        print(f"  photo-manifest.json: {len(_man) - len(_keep)} photograph(s) of living or held-out people withdrawn")
+        json.dump(_keep, open("data/photo-manifest.json", "w"), indent=1, ensure_ascii=False)
+
 # ---------------------------------------------------------------- the records
 
+LIVING_PLACE_CUT = collections.Counter()   # how each living person's place was settled
+
+def living_place(x):
+    """A living person's TOWN AND COUNTRY: nothing finer, nothing else.
+
+    The birth place if the tree gives one, else a place they are recorded living
+    at. Cut back to the town if it names a street, an address-like string or an
+    institution (a hospital, a care home), and given its country if it lacks one.
+    """
+    ev = events(x)
+    raw = next((e["place"] for e in ev if e["tag"] == "BIRT" and e["place"]), "") \
+        or next((e["place"] for e in ev if e["tag"] == "RESI" and e["place"]), "")
+    text, how = LV.town_country(raw, country)
+    LIVING_PLACE_CUT[how or ("place" if text else "none")] += 1
+    return text
+
 def record(x):
-    dead = is_dead(x)
     rec = {
         "id": x, "slug": slug_of[x], "name": nm(x),
         "given": given(x), "surname": surname(x),
         "sex": val(I[x], "SEX"),
-        "living": presumed_living(x) if SUPPRESS_LIVING else False,
-        "presumedLiving": presumed_living(x),
+        "living": is_living(x),
         "comp": comp_of.get(x, 0),
     }
-    if not dead:
-        return rec  # NAME ONLY. No dates, no places, no records, no photographs.
+    if is_living(x):
+        # NAME, RELATIONSHIPS (wired below), TOWN AND COUNTRY, AND NOTHING MORE.
+        # No dates, no events, no sources, no records, no photographs: they are
+        # not hidden by a template, they are never built, so they cannot reach a
+        # file this repository publishes.
+        rec["birthPlace"] = living_place(x)
+        return rec
     ev = events(x)
-    hide = hide_dates(x)
-    if hide:
-        # keep the event and its place; drop every date on it
-        ev = [{**e, "date": "", "year": None} for e in ev]
     rec.update({
-        "datesHidden": hide,
-        "born": None if hide else birth_year(x),
-        "died": None if hide else death_year(x),
+        "born": birth_year(x),
+        "died": death_year(x),
         "events": ev,
         "birthPlace": next((e["place"] for e in ev if e["tag"] == "BIRT" and e["place"]), ""),
         "deathPlace": next((e["place"] for e in ev if e["tag"] == "DEAT" and e["place"]), ""),
@@ -775,7 +822,8 @@ def record(x):
     })
     return rec
 
-records = [record(x) for x in people_ids]
+records = [record(x) for x in people_ids if not is_held(x)]
+print(f"  living places settled: {dict(LIVING_PLACE_CUT)}")
 
 # The register people join here, BEFORE the relationship wiring, so that every
 # rule below applies to them unchanged: the parent grading, the edges a row
@@ -785,6 +833,14 @@ for r in sorted(_REG_NEW, key=lambda z: z["name"]):
     nm_ = r["name"].strip()
     records.append(_reg.record(r, reg_pid[nm_], _reg_slug_by_row[nm_],
                                _REG_SEX.get(nm_, "")))
+
+# A register person comes from an act, so is long dead: say so with the same rule
+# rather than assume it. If a register row ever described somebody 80 or younger
+# with no death, this refuses to build instead of publishing them in full.
+for _rp in records:
+    if _rp.get("fromRegister"):
+        assert not lr.is_living(_rp.get("born"), bool(_rp.get("died") or _rp.get("diedText")), [], THIS_YEAR), \
+            "a register person would be living under the standard: " + _rp["id"]
 
 # An act's parentage becomes an edge with via «read» — the value this archive
 # already uses for a link a register proved and the tree did not carry. A
@@ -864,20 +920,71 @@ for r in records:
                          "living": ch["living"], "via": v})
     r["children"] = kept
 
+# HOW AN EDGE IS KNOWN IS A RECORD, and a living person has none on the page: an
+# edge with a living end keeps the relationship and loses the grade that says
+# which register proved it.
+_living_slugs = {r["slug"] for r in records if r["living"]}
+for r in records:
+    for b in ("parents", "children"):
+        for e in r[b]:
+            if r["living"] or e["slug"] in _living_slugs:
+                e.pop("via", None)
+
+# THE HELD-OUT, BY ID. A possible minor is not published, so the only thing this
+# repository may say about them is that a GEDCOM id is withheld: no name, no year,
+# no slug. tools/check_living_v2.py reads this file to prove none of them appears
+# anywhere, and (with the private GEDCOM, locally) recomputes the list from scratch
+# and fails if it differs. `proseMentionsAllowed` is a ratchet on the number of
+# built pages that still name a held-out person in prose, and only ever goes down.
+_hp = "data/held-out.json"
+_prev = json.load(open(_hp)) if os.path.exists(_hp) else {}
+json.dump({
+    "_why": ["Ids of people the archive does not publish at all: possible minors, under the estate's "
+             "living-people standard v2 (16 October 2026). By id and never by name.",
+             "A held-out person has no page, is nobody's relative here, and has no entry in "
+             "site/src/data/person-slugs.json. Recomputed by tools/living_v2.py on every build."],
+    "rule": "not recorded dead, no public-source citation, and under 18 by year, or no birth year and a living parent",
+    "ids": sorted(HELD),
+    "proseMentionsAllowed": _prev.get("proseMentionsAllowed", 0),
+}, open(_hp, "w"), indent=1)
+
+# THE SLUG LEDGER NAMES EVERYONE IT HAS EVER MINTED FOR, and a held-out person is
+# not published, so they cannot stay in a published file by id and name.
+for _h in HELD:
+    _ledger_doc["slugs"].pop(_h, None)
+open(_LEDGER, "w", encoding="utf-8").write(
+    json.dumps(_ledger_doc, ensure_ascii=False, indent=1) + "\n")
+
 os.makedirs(OUT, exist_ok=True)
 json.dump(records, open(f"{OUT}/people.json", "w"), indent=1, ensure_ascii=False)
+
+# A DUPLICATE OR AN UNRESOLVED NAME IS PUBLISHED IN data/audit.json AND ON /audit,
+# by name and year. Where the person is living or held out, the entry is not
+# published at all; the COUNT of what was left out is kept.
+def _is_nonpublic(i):
+    c = canonical.get(i, i)
+    return c in LIVING or c in HELD
+_dup_all = len(duplicates)
+duplicates = [d for d in duplicates
+              if not (_is_nonpublic(d["kept"]) or any(_is_nonpublic(z) for z in d["dropped"]))]
+_unres_all = len(unresolved)
+_un = []
+for u in unresolved:
+    ids = [i for i in u["ids"] if not _is_nonpublic(i)]
+    if len(ids) > 1:                       # still a name two or more PUBLISHED people share
+        _un.append({**u, "ids": ids, "copies": len(ids)})
+unresolved = _un
 
 stats = {
     "exported": len(I), "people": len(records),
     "duplicates": sum(len(d["dropped"]) for d in duplicates),
     "unresolvedNames": len(unresolved),
-    "suppressLiving": SUPPRESS_LIVING,
+    "livingRule": "80 or younger by year, no death or burial recorded, no public-source citation",
     "living": sum(1 for r in records if r["living"]),
-    "presumedLiving": sum(1 for r in records if r.get("presumedLiving")),
+    "heldOut": len(HELD),
     "written": sum(1 for r in records if not r["living"]),
     "withDeath": sum(1 for r in records if r.get("died")),
-    "datesHidden": sum(1 for r in records if r.get("datesHidden")),
-    "ageThreshold": AGE_THRESHOLD,
+    "ageThreshold": lr.LIVING_YEARS,
     "deceased": sum(1 for r in records if not r["living"]),
     "families": len(F), "sources": len(S),
     "components": [len(c) for c in comps],

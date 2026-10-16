@@ -1,17 +1,16 @@
 {
  "stats": {
   "exported": 614,
-  "people": 712,
-  "duplicates": 22,
-  "unresolvedNames": 57,
-  "suppressLiving": false,
-  "living": 0,
-  "presumedLiving": 411,
-  "written": 712,
+  "people": 689,
+  "duplicates": 14,
+  "unresolvedNames": 50,
+  "livingRule": "80 or younger by year, no death or burial recorded, no public-source citation",
+  "living": 125,
+  "heldOut": 23,
+  "written": 564,
   "withDeath": 98,
-  "datesHidden": 131,
   "ageThreshold": 80,
-  "deceased": 712,
+  "deceased": 564,
   "families": 212,
   "sources": 39,
   "components": [
@@ -26,47 +25,11 @@
    1,
    1
   ],
-  "photos": 106,
-  "photosHeld": 133,
+  "photos": 56,
+  "photosHeld": 82,
   "earliest": 1697
  },
  "duplicates": [
-  {
-   "name": "Frank Mazza",
-   "year": 1955,
-   "kept": "@I1@",
-   "dropped": [
-    "@I16@"
-   ],
-   "why": "same name and same birth year"
-  },
-  {
-   "name": "Nancy Arena",
-   "year": 1956,
-   "kept": "@I25@",
-   "dropped": [
-    "@I19@"
-   ],
-   "why": "same name and same birth year"
-  },
-  {
-   "name": "Michael Rocco Mazza",
-   "year": 1988,
-   "kept": "@I26@",
-   "dropped": [
-    "@I20@"
-   ],
-   "why": "names differing only by a middle name or initial — the same parents, the same birth year (1988)"
-  },
-  {
-   "name": "Angela Mazza",
-   "year": 1990,
-   "kept": "@I27@",
-   "dropped": [
-    "@I21@"
-   ],
-   "why": "same name and same birth year"
-  },
   {
    "name": "Rosario Mazza",
    "year": 1850,
@@ -82,15 +45,6 @@
    "kept": "@I181@",
    "dropped": [
     "@I47@"
-   ],
-   "why": "same name and same birth year"
-  },
-  {
-   "name": "Maria Rosa Prostamo",
-   "year": 1956,
-   "kept": "@I62@",
-   "dropped": [
-    "@I322@"
    ],
    "why": "same name and same birth year"
   },
@@ -138,33 +92,6 @@
     "@I202@"
    ],
    "why": "documented join — THE EXPORT HOLDS THIS WOMAN TWICE, born at BUENOS AIRES in 1930 (@I202@) and 1933 (@I194@). Again the evidence is internal. THEIR CHILDREN ARE THE SAME THREE PE…"
-  },
-  {
-   "name": "Teresa Prostamo",
-   "year": 1955,
-   "kept": "@I195@",
-   "dropped": [
-    "@I203@"
-   ],
-   "why": "same name and same birth year"
-  },
-  {
-   "name": "Giuseppe Prostamo",
-   "year": 1957,
-   "kept": "@I196@",
-   "dropped": [
-    "@I204@"
-   ],
-   "why": "documented join — THE SAME HOUSEHOLD IS IN THE EXPORT TWICE, and this is the son of it. The two runs are consecutive — @I194@ to @I197@ and @I202@ to @I205@ — and each holds a Gi…"
-  },
-  {
-   "name": "Domenica Prostamo",
-   "year": 1959,
-   "kept": "@I197@",
-   "dropped": [
-    "@I205@"
-   ],
-   "why": "documented join — The fourth and last pair of the duplicated Buenos Aires household — see the Giuseppe Prostamo row above, which sets out the two consecutive runs @I194@-@I197@ a…"
   },
   {
    "name": "Carmela Collia",
@@ -232,19 +159,9 @@
  ],
  "unresolved": [
   {
-   "name": "Domenica Prostamo",
-   "copies": 2,
-   "ids": [
-    "@I197@",
-    "@I3@"
-   ],
-   "why": "same name, no shared date and no shared family — left as separate people"
-  },
-  {
    "name": "Salvatore Mazza",
-   "copies": 4,
+   "copies": 3,
    "ids": [
-    "@I32@",
     "@I499@",
     "@I4@",
     "@I574@"
@@ -283,15 +200,6 @@
    "why": "same name, no shared date and no shared family — left as separate people"
   },
   {
-   "name": "Angela Mazza",
-   "copies": 2,
-   "ids": [
-    "@I21@",
-    "@I561@"
-   ],
-   "why": "same name, no shared date and no shared family — left as separate people"
-  },
-  {
    "name": "Rosario Mazza",
    "copies": 4,
    "ids": [
@@ -315,9 +223,8 @@
   },
   {
    "name": "Giovanni Mazza",
-   "copies": 4,
+   "copies": 3,
    "ids": [
-    "@I34@",
     "@I354@",
     "@I39@",
     "@I566@"
@@ -346,41 +253,12 @@
   },
   {
    "name": "Domenico Prostamo",
-   "copies": 6,
+   "copies": 4,
    "ids": [
     "@I173@",
     "@I217@",
-    "@I311@",
-    "@I317@",
     "@I48@",
     "@I500003@"
-   ],
-   "why": "same name, no shared date and no shared family — left as separate people"
-  },
-  {
-   "name": "Carmela Prostamo",
-   "copies": 2,
-   "ids": [
-    "@I332@",
-    "@I60@"
-   ],
-   "why": "same name, no shared date and no shared family — left as separate people"
-  },
-  {
-   "name": "Maria Rosa Prostamo",
-   "copies": 2,
-   "ids": [
-    "@I309@",
-    "@I62@"
-   ],
-   "why": "same name, no shared date and no shared family — left as separate people"
-  },
-  {
-   "name": "Francesco Prostamo",
-   "copies": 2,
-   "ids": [
-    "@I303@",
-    "@I63@"
    ],
    "why": "same name, no shared date and no shared family — left as separate people"
   },
@@ -426,9 +304,8 @@
   },
   {
    "name": "Anna Arena",
-   "copies": 6,
+   "copies": 5,
    "ids": [
-    "@I111@",
     "@I246@",
     "@I466@",
     "@I472@",
@@ -439,14 +316,12 @@
   },
   {
    "name": "Giovanni Polistena",
-   "copies": 6,
+   "copies": 4,
    "ids": [
     "@I120@",
     "@I148@",
     "@I263@",
-    "@I413@",
-    "@I427@",
-    "@I459@"
+    "@I413@"
    ],
    "why": "same name, no shared date and no shared family — left as separate people"
   },
@@ -461,11 +336,10 @@
   },
   {
    "name": "Antonio Polistena",
-   "copies": 3,
+   "copies": 2,
    "ids": [
     "@I124@",
-    "@I146@",
-    "@I428@"
+    "@I146@"
    ],
    "why": "same name, no shared date and no shared family — left as separate people"
   },
@@ -489,10 +363,9 @@
   },
   {
    "name": "Maria Polistena",
-   "copies": 3,
+   "copies": 2,
    "ids": [
     "@I135@",
-    "@I153@",
     "@I265@"
    ],
    "why": "same name, no shared date and no shared family — left as separate people"
@@ -503,15 +376,6 @@
    "ids": [
     "@I140@",
     "@I145@"
-   ],
-   "why": "same name, no shared date and no shared family — left as separate people"
-  },
-  {
-   "name": "Peter Bova",
-   "copies": 2,
-   "ids": [
-    "@I155@",
-    "@I156@"
    ],
    "why": "same name, no shared date and no shared family — left as separate people"
   },
@@ -537,10 +401,9 @@
   },
   {
    "name": "Antonino Prostamo",
-   "copies": 8,
+   "copies": 7,
    "ids": [
     "@I178@",
-    "@I190@",
     "@I219@",
     "@I223@",
     "@I231@",
@@ -552,10 +415,9 @@
   },
   {
    "name": "Giuseppe Prostamo",
-   "copies": 4,
+   "copies": 3,
    "ids": [
     "@I179@",
-    "@I196@",
     "@I300@",
     "@I326@"
    ],
@@ -563,9 +425,8 @@
   },
   {
    "name": "Pasquale Prostamo",
-   "copies": 3,
+   "copies": 2,
    "ids": [
-    "@I191@",
     "@I221@",
     "@I328@"
    ],
@@ -573,9 +434,8 @@
   },
   {
    "name": "Nicola Prostamo",
-   "copies": 3,
+   "copies": 2,
    "ids": [
-    "@I192@",
     "@I228@",
     "@I335@"
    ],
@@ -657,15 +517,6 @@
    "ids": [
     "@I298@",
     "@I410@"
-   ],
-   "why": "same name, no shared date and no shared family — left as separate people"
-  },
-  {
-   "name": "Laura Prostamo",
-   "copies": 2,
-   "ids": [
-    "@I315@",
-    "@I330@"
    ],
    "why": "same name, no shared date and no shared family — left as separate people"
   },

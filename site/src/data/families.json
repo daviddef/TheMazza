@@ -1,51 +1,50 @@
 [
  {
   "surname": "Mazza",
-  "n": 121,
-  "dead": 121,
-  "living": 0,
+  "n": 119,
+  "dead": 105,
+  "living": 14,
   "first": 1809,
   "last": 2012,
   "places": [
    "Piedimonte Etneo, Catania, Sicily",
-   "Brisbane, Queensland",
    "Catania, Sicily",
-   "Piedimonte Etneo"
+   "Piedimonte Etneo",
+   "Brisbane, Queensland"
   ]
  },
  {
   "surname": "Prostamo",
-  "n": 82,
-  "dead": 82,
-  "living": 0,
+  "n": 79,
+  "dead": 50,
+  "living": 29,
   "first": 1697,
   "last": 2010,
   "places": [
    "Briatico, Vibo Valentia, Calabria",
-   "Brisbane, Queensland",
    "Buenos Aires, Argentina",
-   "Gold Coast, Queensland"
+   "Italy",
+   "Pizzo, Vibo Valentia, Calabria"
   ]
  },
  {
   "surname": "Arena",
   "n": 65,
-  "dead": 65,
-  "living": 0,
+  "dead": 62,
+  "living": 3,
   "first": 1743,
   "last": 2012,
   "places": [
    "Scilla",
    "Scilla, Reggio Calabria",
-   "Brisbane, Queensland",
    "New York, New York"
   ]
  },
  {
   "surname": "Polistena",
-  "n": 46,
-  "dead": 46,
-  "living": 0,
+  "n": 40,
+  "dead": 32,
+  "living": 8,
   "first": 1798,
   "last": 2018,
   "places": [
@@ -97,8 +96,8 @@
  {
   "surname": "Cavallaro",
   "n": 14,
-  "dead": 14,
-  "living": 0,
+  "dead": 12,
+  "living": 2,
   "first": 1805,
   "last": 2013,
   "places": [
@@ -111,13 +110,12 @@
  {
   "surname": "Bova",
   "n": 13,
-  "dead": 13,
-  "living": 0,
+  "dead": 11,
+  "living": 2,
   "first": 1916,
   "last": 2000,
   "places": [
-   "Scilla, Reggio Calabria",
-   "Brisbane, Queensland"
+   "Scilla, Reggio Calabria"
   ]
  },
  {
@@ -169,26 +167,13 @@
   ]
  },
  {
-  "surname": "Coco",
-  "n": 7,
-  "dead": 7,
-  "living": 0,
-  "first": 1910,
-  "last": 1945,
-  "places": [
-   "Brisbane, Queensland",
-   "Sicily"
-  ]
- },
- {
   "surname": "Napoli",
   "n": 6,
-  "dead": 6,
-  "living": 0,
+  "dead": 2,
+  "living": 4,
   "first": 1926,
   "last": 1934,
   "places": [
-   "Brisbane, Queensland",
    "Briatico, Vibo Valentia, Calabria",
    "Buenos Aires, Argentina"
   ]
@@ -196,8 +181,8 @@
  {
   "surname": "Calarco",
   "n": 6,
-  "dead": 6,
-  "living": 0,
+  "dead": 3,
+  "living": 3,
   "first": 1936,
   "last": 1936,
   "places": [
@@ -219,20 +204,28 @@
  {
   "surname": "Panella",
   "n": 5,
-  "dead": 5,
-  "living": 0,
+  "dead": 0,
+  "living": 5,
   "first": null,
   "last": null,
+  "places": []
+ },
+ {
+  "surname": "Coco",
+  "n": 5,
+  "dead": 3,
+  "living": 2,
+  "first": 1910,
+  "last": 1945,
   "places": [
-   "San Costantino Calabro, Vibo Valentia, Calabria",
-   "Briatico, Vibo Valentia, Calabria"
+   "Sicily"
   ]
  },
  {
   "surname": "Giammona",
   "n": 5,
-  "dead": 5,
-  "living": 0,
+  "dead": 4,
+  "living": 1,
   "first": 1910,
   "last": 2023,
   "places": [
@@ -243,37 +236,23 @@
  {
   "surname": "Sanfedele",
   "n": 5,
-  "dead": 5,
-  "living": 0,
+  "dead": 1,
+  "living": 4,
   "first": 1936,
   "last": 1936,
   "places": [
-   "Sydney, New South Wales",
    "Scilla, Reggio Calabria"
   ]
  },
  {
   "surname": "Armanno",
   "n": 4,
-  "dead": 4,
-  "living": 0,
+  "dead": 1,
+  "living": 3,
   "first": 1924,
   "last": 2019,
   "places": [
-   "Brisbane, Queensland",
    "Piedimonte Etneo, Catania, Sicily"
-  ]
- },
- {
-  "surname": "Calahorra",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Brisbane, Queensland",
-   "Royal Women's Hospital, Parkville Vic Australia"
   ]
  },
  {
@@ -292,14 +271,12 @@
  {
   "surname": "Trungadi",
   "n": 4,
-  "dead": 4,
-  "living": 0,
+  "dead": 1,
+  "living": 3,
   "first": 1940,
   "last": 2021,
   "places": [
-   "Milan, Lombardy",
-   "Bagnara Calabra, Calabria, Italy",
-   "Brisbane, Queensland"
+   "Bagnara Calabra, Calabria, Italy"
   ]
  },
  {
@@ -337,21 +314,26 @@
  {
   "surname": "Turner",
   "n": 3,
-  "dead": 3,
-  "living": 0,
+  "dead": 0,
+  "living": 3,
   "first": null,
   "last": null,
-  "places": [
-   "Brisbane, Queensland",
-   "Moree, New South Wales, Australia",
-   "Lismore, New South Wales, Australia"
-  ]
+  "places": []
+ },
+ {
+  "surname": "Calahorra",
+  "n": 3,
+  "dead": 0,
+  "living": 3,
+  "first": null,
+  "last": null,
+  "places": []
  },
  {
   "surname": "Pellagrini",
   "n": 3,
-  "dead": 3,
-  "living": 0,
+  "dead": 2,
+  "living": 1,
   "first": null,
   "last": null,
   "places": [
@@ -373,8 +355,8 @@
  {
   "surname": "Whitaker",
   "n": 3,
-  "dead": 3,
-  "living": 0,
+  "dead": 1,
+  "living": 2,
   "first": null,
   "last": null,
   "places": [
@@ -396,47 +378,29 @@
  {
   "surname": "Ottaviano",
   "n": 3,
-  "dead": 3,
-  "living": 0,
+  "dead": 0,
+  "living": 3,
   "first": null,
   "last": null,
-  "places": [
-   "Sydney, New South Wales"
-  ]
+  "places": []
  },
  {
   "surname": "Poleo",
   "n": 3,
-  "dead": 3,
-  "living": 0,
+  "dead": 0,
+  "living": 3,
   "first": null,
   "last": null,
-  "places": [
-   "Milan, Lombardy",
-   "Briatico, Vibo Valentia, Calabria"
-  ]
- },
- {
-  "surname": "Muller",
-  "n": 3,
-  "dead": 3,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Brisbane, Queensland"
-  ]
+  "places": []
  },
  {
   "surname": "D'Arcy",
   "n": 3,
-  "dead": 3,
-  "living": 0,
+  "dead": 1,
+  "living": 2,
   "first": null,
   "last": null,
-  "places": [
-   "Brisbane, Queensland"
-  ]
+  "places": []
  },
  {
   "surname": "Barbuto",
@@ -484,12 +448,11 @@
  {
   "surname": "Micale",
   "n": 2,
-  "dead": 2,
-  "living": 0,
+  "dead": 1,
+  "living": 1,
   "first": 1923,
   "last": 2016,
   "places": [
-   "Brisbane, Queensland",
    "Giarre, Catania, Sicily"
   ]
  },
@@ -519,13 +482,11 @@
  {
   "surname": "Spenelli",
   "n": 2,
-  "dead": 2,
-  "living": 0,
+  "dead": 0,
+  "living": 2,
   "first": null,
   "last": null,
-  "places": [
-   "Brisbane, Queensland"
-  ]
+  "places": []
  },
  {
   "surname": "Grasso",
@@ -587,12 +548,11 @@
  {
   "surname": "Noble",
   "n": 2,
-  "dead": 2,
-  "living": 0,
+  "dead": 1,
+  "living": 1,
   "first": 1942,
   "last": 1942,
   "places": [
-   "Melbourne, Victoria",
    "Newcastle, New South Wales, Australia"
   ]
  },
@@ -606,6 +566,15 @@
   "places": [
    "Catanzaro, Calabria"
   ]
+ },
+ {
+  "surname": "Muller",
+  "n": 2,
+  "dead": 0,
+  "living": 2,
+  "first": null,
+  "last": null,
+  "places": []
  },
  {
   "surname": "Paladino",
@@ -720,13 +689,11 @@
  {
   "surname": "Spinelli",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Brisbane, Queensland"
-  ]
+  "places": []
  },
  {
   "surname": "Torrisi",
@@ -749,8 +716,8 @@
  {
   "surname": "Lanzfami",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
   "places": []
@@ -767,13 +734,11 @@
  {
   "surname": "Trabucco",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Brisbane, Queensland"
-  ]
+  "places": []
  },
  {
   "surname": "D'Ascoli",
@@ -798,13 +763,11 @@
  {
   "surname": "Filipello",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Brisbane, Queensland"
-  ]
+  "places": []
  },
  {
   "surname": "Fatur",
@@ -820,13 +783,11 @@
  {
   "surname": "Brown",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Gold Coast, Queensland"
-  ]
+  "places": []
  },
  {
   "surname": "Liversegle",
@@ -840,13 +801,11 @@
  {
   "surname": "Nuniarti",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Bali, Indonesia"
-  ]
+  "places": []
  },
  {
   "surname": "Vallone",
@@ -895,13 +854,11 @@
  {
   "surname": "Longhurst",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Brisbane, Queensland"
-  ]
+  "places": []
  },
  {
   "surname": "Di Meio",
@@ -1001,24 +958,20 @@
  {
   "surname": "Mortimer",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Lismore, New South Wales, Australia"
-  ]
+  "places": []
  },
  {
   "surname": "Chronopoulos",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Sydney, New South Wales"
-  ]
+  "places": []
  },
  {
   "surname": "Benedetto",
@@ -1056,13 +1009,11 @@
  {
   "surname": "Quaiuci",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Fiji"
-  ]
+  "places": []
  },
  {
   "surname": "Tropeia",
@@ -1100,24 +1051,20 @@
  {
   "surname": "Vardi",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Briatico, Vibo Valentia, Calabria"
-  ]
+  "places": []
  },
  {
   "surname": "Nigrelli",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Briatico, Vibo Valentia, Calabria"
-  ]
+  "places": []
  },
  {
   "surname": "Delorenzo",
@@ -1270,13 +1217,11 @@
  {
   "surname": "Waters",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Boonah, Queensland, Australia"
-  ]
+  "places": []
  },
  {
   "surname": "Collia",
@@ -1309,28 +1254,6 @@
   "last": null,
   "places": [
    "Potenzoni (Briatico), Vibo Valentia, Calabria"
-  ]
- },
- {
-  "surname": "Eriksen",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Toowoomba, Queensland"
-  ]
- },
- {
-  "surname": "Ericksen",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Toowoomba, Queensland"
   ]
  },
  {
@@ -1398,13 +1321,11 @@
  {
   "surname": "Nostro",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Reggio di Calabria, Calabria, Italy"
-  ]
+  "places": []
  },
  {
   "surname": "Barbargallo",
@@ -1463,13 +1384,11 @@
  {
   "surname": "Defranceski",
   "n": 1,
-  "dead": 1,
-  "living": 0,
+  "dead": 0,
+  "living": 1,
   "first": null,
   "last": null,
-  "places": [
-   "Johannesburg, South Africa"
-  ]
+  "places": []
  },
  {
   "surname": "Bagnato",

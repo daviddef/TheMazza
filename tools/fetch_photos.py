@@ -8,7 +8,19 @@ is built against local copies.
 
 Photos are sorted by whether the person they belong to is dead. The archive
 publishes the dead; the living are kept out of the build entirely.
+
+RETIRED ON 16 OCTOBER 2026. The links expired on 16 September, so this can no
+longer download anything, and it decided who was "living" with its own test (the
+100-year bound below), which the estate's standard v2 replaced with one shared
+definition (tools/living_v2.py, the kit's living_rule.py). Running it again would
+rewrite data/photo-manifest.json with every photograph of every living person and
+every possible minor in it, and file their images under photos/living/. So it
+refuses to run. The manifest is now written by tools/build.py, which withdraws a
+living or held-out person's photographs from it.
 """
+import sys
+sys.exit("fetch_photos.py is retired: it would put living people's and minors' photographs back "
+         "into data/photo-manifest.json. See the docstring.")
 import sys, os, re, json, urllib.request, collections
 sys.path.insert(0, os.path.dirname(__file__))
 from ged import parse, kid, kids, val
