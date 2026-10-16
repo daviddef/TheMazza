@@ -36,6 +36,13 @@ Advisory by default; `--strict` exits 1.
 """
 import csv, os, re, sys
 
+def _ratchet(flag):
+    """--max-X N fails when the count goes UP. Nothing has to be fixed today; it may only go down."""
+    if flag in sys.argv:
+        return int(sys.argv[sys.argv.index(flag) + 1])
+    return None
+
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
 
@@ -103,4 +110,9 @@ for r in flagged:
     print(f"        {(r.get('source') or r.get('key') or '?')[:96]}")
     print(f"            {r.get('key')}   [{r.get('status')}]")
 
+_cap = _ratchet("--max-flagged")
+if _cap is not None and len(flagged) > _cap:
+    print(f"  FAIL  nils       {len(flagged)} row(s) assert a nil with no reachability sentence, "
+          f"and the ratchet is {_cap} — this number may only go down")
+    sys.exit(1)
 sys.exit(1 if "--strict" in sys.argv else 0)

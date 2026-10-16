@@ -22,6 +22,13 @@ to stay at zero.
 """
 import json, os, sys
 
+def _ratchet(flag):
+    """--max-X N fails when the count goes UP. Nothing has to be fixed today; it may only go down."""
+    if flag in sys.argv:
+        return int(sys.argv[sys.argv.index(flag) + 1])
+    return None
+
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 os.chdir(os.path.join(HERE, ".."))
 
@@ -91,4 +98,9 @@ for slug, name, pslug, pname, act in sorted(gaps):
     print(f"        {name} → {pname}")
     print(f"            {slug} → {pslug}   ({act[:96]})")
 
+_cap = _ratchet("--max-gaps")
+if _cap is not None and len(gaps) > _cap:
+    print(f"  FAIL  grades     {len(gaps)} edge(s) are dashed although an act has been read for the child, "
+          f"and the ratchet is {_cap} — this number may only go down")
+    sys.exit(1)
 sys.exit(1 if "--strict" in sys.argv else 0)
