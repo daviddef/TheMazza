@@ -5,6 +5,7 @@ import Base from "../../layouts/Base.astro";
 import Namesakes from "@daviddef/archive-kit/components/Namesakes.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
+import { countryOnly } from "@daviddef/archive-kit/lib/place.js";
 
 export function getStaticPaths() {
   const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -31,10 +32,19 @@ const listed = rows.map(p => ({
      facts that distinguish them. */
   life: [p.born, p.died].filter(Boolean).join(" – ")
         || [p.bornText, p.diedText].filter(Boolean).join(" – "),
-  where: p.birthPlace || p.deathPlace || p.burialPlace || "",
+  /* A PERSON WHO MIGHT STILL BE ALIVE IS A COUNTRY AT MOST, HERE AS ON THEIR OWN PAGE.
+     This line printed the full birthplace for all 131 of them, a town, on a page that
+     is indexed, while /people/ kept to the country David chose on 22 September. */
+  where: (p.datesHidden || p.living)
+    ? countryOnly(p.birthPlace || p.deathPlace || p.burialPlace || "")
+    : p.birthPlace || p.deathPlace || p.burialPlace || "",
 }));
+/* A name page whose every bearer might be alive says nothing a search engine should
+   hold: it is out of the sitemap and the search index by the same noindex rule. */
+const allHidden = rows.length > 0 && rows.every((p) => p.datesHidden || p.living);
 ---
 <Base title={name}
+      noindex={allHidden}
       eyebrow={rows.length > 1 ? `${rows.length} people of this name` : "One person of this name"}
       dek={rows.length > 1
         ? `${rows.length} different people in this archive were called ${name}. This page tells them apart.`
