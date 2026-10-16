@@ -3,7 +3,6 @@ import Base from "../../layouts/Base.astro";
 import P from "../../components/P.astro";
 import PersonTree from "../../components/PersonTree.astro";
 import { u } from "../../lib/url.js";
-import { countryOnly } from "@daviddef/archive-kit/lib/place.js";
 import { people, norm } from "../../lib/people.js";
 import stats from "../../data/stats.json";
 import nudgee from "../../data/nudgee.json";
@@ -27,30 +26,29 @@ const edges = ["parents", "spouses", "children", "siblings"].flatMap((b) => p[b]
 /* «read» is a register act, «index» an index entry; both are a record. «tree»
    is Michael's assertion, and a sibling edge carries no via at all. */
 const provedEdges = edges.filter((e) => e.via === "read" || e.via === "index").length;
-/* A LIVING PERSON'S PLACE IS A COUNTRY AND NOTHING FINER.
-   This page withheld a living person's DATES and published their TOWN:
-   Mia Josephine Mazza's read «Born  Brisbane, Queensland  withheld», and
-   256 living people were in the same state. David's instruction on 22
-   September was to keep the country — enough to say a family ended up in
-   Australia rather than Italy, not enough to put a child in a town.
+/* A PERSON WHO MIGHT STILL BE ALIVE: NAME, RELATIONSHIP, TOWN AND COUNTRY (David, 16 October 2026).
+   The estate standard for a living person is a name, a relationship, and the
+   town and country they are in; no dates, no records, no photograph, no
+   structured data, and a noindex page. The place is therefore printed in full
+   here. (From 22 September to 16 October this page reduced the place to a
+   country; that was stricter than the standard and is withdrawn.)
    KEYED TO `datesHidden`, NOT `presumedLiving`, and the difference is 280
    people. `presumedLiving` is true for anyone the tree cannot show died —
    which in this archive means anyone with no dates at all, «416 of 599,
    in a tree that reaches 1697». Mazza turned suppression off on 10
-   September for exactly that reason. The first version of this change
-   keyed off it anyway and reduced the birthplace of 280 people who are
-   plainly dead, including ten named in records from 1816 to 1892:
-   Domenico Donato appears in an act of 1816 and would be over two
-   hundred. That is the opposite harm — withholding real nineteenth
-   century evidence — and it is what the 10 September decision existed to
-   prevent.
+   September for exactly that reason. Keying off it would withhold the dates
+   and photographs of 280 people who are plainly dead, including ten named in
+   records from 1816 to 1892: Domenico Donato appears in an act of 1816 and
+   would be over two hundred. That is the opposite harm — withholding real
+   nineteenth century evidence — and it is what the 10 September decision
+   existed to prevent.
 
    `datesHidden` is this archive's actual might-still-be-alive test: 80 or
    younger, with no death recorded. 131 people, and it is the same test
    the dates use, so places and dates can never disagree about who is
    being protected. */
 const hidden = !!(p.datesHidden || p.living);
-const place = (v) => (hidden ? countryOnly(v) : v || "");
+const place = (v) => v || "";
 const home = place(p.birthPlace || p.deathPlace || p.burialPlace || "");
 const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
              christened: "Christened", lived: "Lived", arrival: "Arrived", departure: "Left" };
@@ -141,8 +139,8 @@ const dek = p.ancGen === 0 || p.onSpine
         <p class="small" style="margin-top:14px"><strong>Dates withheld on purpose.</strong> This
         person would be {stats.ageThreshold} or younger today and the tree records no death for them.
         Their dates are <strong>stripped in the build</strong> — they are not in this page's HTML and
-        not recoverable from this site, and their places are <strong>reduced to a country</strong>
-        for the same reason. See <a href={u("/method/")}>Method</a>.</p>
+        not recoverable from this site. Their page shows no photograph and is kept out of search
+        engines, for the same reason. See <a href={u("/method/")}>Method</a>.</p>
       )}
     </div>
 
@@ -242,8 +240,8 @@ const dek = p.ancGen === 0 || p.onSpine
       estate rule, name and relationship only, and `hidden` is this archive's own
       might-still-be-alive test (80 or younger, no death recorded). The page is also
       noindex, so it is out of the sitemap and the search index: both tools skip a page
-      that noindexes itself. The place stays at country level, which David chose on
-      22 September; that is the one place this page is looser than the estate rule. */}
+      that noindexes itself. The place is the full town and country: the estate standard
+      for a living person is name, relationship, town and country (David, 16 October 2026). */}
   {!hidden && p.photos && p.photos.length > 0 && (
     <section class="blk">
       <h2 style="font-size:26px">Photographs</h2>
@@ -296,7 +294,7 @@ const dek = p.ancGen === 0 || p.onSpine
           <li><a href={u("/people/" + q.slug)}>{q.name}</a>
             <span style="color:var(--ink-3)"> — {q.datesHidden ? "dates withheld"
               : ([q.born, q.died].filter(Boolean).join("–") || "undated")}
-              {q.birthPlace ? `, ${q.datesHidden || q.living ? countryOnly(q.birthPlace) : q.birthPlace}` : ""}, component {q.comp}</span></li>
+              {q.birthPlace ? `, ${q.birthPlace}` : ""}, component {q.comp}</span></li>
         ))}
       </ul>
     </section>
