@@ -693,3 +693,12 @@ li{margin:5px 0}
    exactly what the h3 rendered at, so promoting the level changed nothing on
    the page. Measured from the built page, not guessed. */
 .ct{font-size:20px;line-height:1.62;margin:0 0 .3rem;font-weight:500}
+
+/* PHONE WIDTH: a record's note column («the Casa comunale», a quoted phrase from the act) was
+   white-space:nowrap in a track sized to its longest line, so on a phone the row pushed the
+   page 70-160px sideways. Below 600px the third column may wrap and shrink. */
+@media (max-width:600px){
+  .rec{grid-template-columns:minmax(76px,auto) minmax(0,1fr) minmax(0,34%)}
+  .rec .v,.rec .w{overflow-wrap:anywhere}
+  .rec .w{white-space:normal}
+}
