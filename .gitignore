@@ -24,3 +24,7 @@ sources/*.gedcom
 # scoped `git add` picks up another session's work, which has happened in this
 # estate more than once tonight.
 site/dist-*/
+
+# The prose gate's feed: the names of every living person, built from the private export.
+# tools/build_checkprose_feed.py writes it here; it is never committed.
+private/

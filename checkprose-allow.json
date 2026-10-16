@@ -1,0 +1,152 @@
+[
+ {
+  "file": "README.md",
+  "phrase": "michael mazza",
+  "year": "2026",
+  "reason": "the date the MyHeritage export was made, beside the tree's contributor (tree id @I20@); a document date, not a life date"
+ },
+ {
+  "file": "README.md",
+  "phrase": "michael rocco mazza",
+  "year": "1920",
+  "reason": "the years are the birth years of the proband's four grandparents, all dead, in a sentence about the quarters of the tree; none is a date of the named person (tree id @I26@)"
+ },
+ {
+  "file": "README.md",
+  "phrase": "rocco mazza",
+  "year": "1920",
+  "reason": "the years are the birth years of the proband's four grandparents, all dead, in a sentence about the quarters of the tree; none is a date of the named person (tree id @I364@)"
+ },
+ {
+  "file": "data/documented-joins.tsv",
+  "phrase": "teresa prostamo",
+  "year": "2026",
+  "reason": "the date the join was recorded, the last field of the row; the named person (tree id @I195@) appears only as the shared child of the two copies"
+ },
+ {
+  "file": "data/findmypast.tsv",
+  "phrase": "domenica mazza",
+  "year": "1928",
+  "reason": "the years are the life span of a dead woman whose married name equals the name of a living namesake (tree id @I42@); the row reads a Findmypast search on that name"
+ },
+ {
+  "file": "data/findmypast.tsv",
+  "phrase": "michael mazza",
+  "year": "1920",
+  "reason": "the years are the life span of the named person's grandfather (dead) and the year of an electoral roll that lists him; the named person (tree id @I20@) is mentioned only as his grandchild"
+ },
+ {
+  "file": "data/parent-links.tsv",
+  "phrase": "maria rosa prostamo",
+  "year": "1935",
+  "reason": "the year is the birth year of the father of one of two women of the same name, dead by age; the row tells the two apart (tree id @I309@ is the namesake)"
+ },
+ {
+  "file": "data/qld-bdm.tsv",
+  "phrase": "frank mazza",
+  "year": "1973",
+  "reason": "the date and the burial are those of a dead woman in a row that corrects a link to a living namesake; no date is given for the living person (tree id @I16@)"
+ },
+ {
+  "file": "data/qld-bdm.tsv",
+  "phrase": "maria coco",
+  "year": "1939",
+  "reason": "the date is the 1939 marriage of a dead woman; the quoted name with a life span is a Nudgee burial entry of a dead woman whose name equals a living namesake (tree id @I104@)"
+ },
+ {
+  "file": "data/qld-bdm.tsv",
+  "phrase": "nancy arena",
+  "year": "1973",
+  "reason": "the date and the burial are those of a dead woman in a row that corrects a link to a living namesake; no date is given for the living person (tree id @I19@)"
+ },
+ {
+  "file": "data/qld-bdm.tsv",
+  "phrase": "reinhard muller",
+  "year": "1973",
+  "reason": "the date and the burial are those of a dead woman in a row that corrects a link to a living namesake; no date is given for the living person (tree id @I360@)"
+ },
+ {
+  "file": "data/questions.tsv",
+  "phrase": "michael rocco mazza",
+  "year": "2026",
+  "reason": "the date the question was answered; 'aged' is the age of a father named in an 1873 birth act; the named person (tree id @I26@) is mentioned only as a descendant"
+ },
+ {
+  "file": "data/questions.tsv",
+  "phrase": "rocco mazza",
+  "year": "2026",
+  "reason": "the date the question was answered; 'aged' is the age of a father named in an 1873 birth act; the named person (tree id @I364@) is mentioned only as a descendant"
+ },
+ {
+  "file": "data/read-people.tsv",
+  "phrase": "michael mazza",
+  "year": "1899",
+  "reason": "the date is the birth date in a 1942 internment dossier of the named person's great-uncle, dead; the named person (tree id @I20@) is mentioned only as his great-nephew"
+ },
+ {
+  "file": "data/read-people.tsv",
+  "phrase": "michael mazza",
+  "year": "1953",
+  "reason": "the year is the opening year of a naturalisation file of the named person's dead grandfather; the named person (tree id @I20@) is mentioned only as his grandchild"
+ },
+ {
+  "file": "data/scilla-reads.tsv",
+  "phrase": "nancy arena",
+  "year": "1819",
+  "reason": "the dates are the births of dead ancestors in a descent line that ends at the named person (tree id @I19@), who is given no date"
+ },
+ {
+  "file": "data/searched.tsv",
+  "phrase": "domenico polistena",
+  "year": "2026",
+  "reason": "the date a search was recorded; the other dates in the row are National Archives of Australia arrival items of immigrants of the 1950s and 1960s who share a name with a living person (tree id @I426@), not that person's"
+ },
+ {
+  "file": "data/searched.tsv",
+  "phrase": "michael mazza",
+  "year": "2026",
+  "reason": "the date a search was recorded; the rest of the row describes records of dead relatives; the named person (tree id @I20@) is mentioned only as their grandchild"
+ },
+ {
+  "file": "data/searched.tsv",
+  "phrase": "michael rocco mazza",
+  "year": "2026",
+  "reason": "the date a search was recorded; the other years are the earliest years each of the four lines reaches; the named person (tree id @I26@) is given no date"
+ },
+ {
+  "file": "data/searched.tsv",
+  "phrase": "rocco mazza",
+  "year": "2026",
+  "reason": "the date a search was recorded; the other years are the earliest years each of the four lines reaches; the named person (tree id @I364@) is given no date"
+ },
+ {
+  "file": "data/sources.tsv",
+  "phrase": "michael mazza",
+  "year": "2026",
+  "reason": "the date the MyHeritage export was made, beside the tree's contributor (tree id @I20@); a document date, not a life date"
+ },
+ {
+  "file": "notes/findings.md",
+  "phrase": "domenica mazza",
+  "year": "1928",
+  "reason": "the dates are the life span of a dead woman buried at Nudgee, entered in the cemetery register under a name that equals a living namesake (tree id @I42@)"
+ },
+ {
+  "file": "notes/findings.md",
+  "phrase": "maria coco",
+  "year": "1939",
+  "reason": "the date is the 1939 marriage of a dead woman; the quoted name with a life span is a Nudgee burial entry of a dead woman whose name equals a living namesake (tree id @I104@)"
+ },
+ {
+  "file": "notes/findings.md",
+  "phrase": "nancy arena",
+  "year": "1893",
+  "reason": "the years are the birth years of two dead ancestors in a descent line that ends at the named person (tree id @I19@), who is given no date"
+ },
+ {
+  "file": "site/src/data/worklist.json",
+  "phrase": "michael mazza",
+  "year": "1899",
+  "reason": "the date is the birth date in a 1942 internment dossier of the named person's great-uncle, dead; the named person (tree id @I20@) is mentioned only as his great-nephew"
+ }
+]
