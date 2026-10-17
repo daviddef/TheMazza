@@ -38803,6 +38803,65 @@
   "ancGen": null
  },
  {
+  "id": "@Ralfio-nicotra-3@",
+  "slug": "alfio-nicotra-1845",
+  "name": "Alfio Nicotra",
+  "key": "Alfio Nicotra (son of Salvadore and Maria Barbagallo)",
+  "given": "Alfio",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1845,
+  "died": null,
+  "bornText": "9 May 1845",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "9 May 1845",
+    "year": 1845,
+    "place": "Riposto",
+    "text": "9 May 1845"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Nati 1845 atto 75 (Tavola)"
+  ],
+  "registerNote": "«NICOTRA ALFIO, atto 75 — father SALVADORE, mother Maria Barbagallo». The THIRD Alfio Nicotra in this archive: the other two were born about 1772 and about 1796, and this one must not be merged with either. He carries his paternal grandfather's name, which is naming custom and so weak evidence by this archive's own rule — it is noted, not relied on. His father died at Mascali in December 1848, when he was three. READ FROM THE TAVOLA, NOT THE ACT: the annual index gives the entry, the parents and the date, and the act itself has not been opened. The Tavola's date column is the date of the act and may follow the birth by a few days. Generation is inferred from the parent's, against SIMONE NICOTRA at gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent.",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-barbagallo@",
+    "name": "Maria Barbagallo",
+    "slug": "maria-barbagallo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rangela-bagnato@",
   "slug": "angela-bagnato",
   "name": "Angela Bagnato",
@@ -43094,6 +43153,66 @@
   "ancGen": null
  },
  {
+  "id": "@Rmaria-barbagallo@",
+  "slug": "maria-barbagallo",
+  "name": "Maria Barbagallo",
+  "key": "Maria Barbagallo (wife of Salvadore Nicotra)",
+  "given": "Maria",
+  "surname": "Barbagallo",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Matrimoni 1844 atto 39 (index)",
+   "Nati 1845 atto 75 and 1847 atto 152 (Tavola)"
+  ],
+  "registerNote": "«Barbagallo Maria of Riposto, daughter of ROSARIO BARBAGALLO and ANNA CAMPAGNA», marrying Salvadore Nicotra of Giarre in July 1844, and named as the mother in both children's entries. Her parents are named in the index and are deliberately not given rows here: nothing about them has been read beyond that line. She was a widow by 11 December 1848, when her husband died at Mascali — whether she stayed at Riposto, followed him there, or returned is not known. READ FROM THE TAVOLA, NOT THE ACT: the annual index gives the entry, the parents and the date, and the act itself has not been opened. The Tavola's date column is the date of the act and may follow the birth by a few days. Generation is inferred from the parent's, against SIMONE NICOTRA at gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Ralfio-nicotra-3@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra-1845",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-nicotra@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1847",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rmaria-catalano@",
   "slug": "maria-catalano",
   "name": "Maria Catalano",
@@ -44740,6 +44859,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rrosa-nicotra@",
+  "slug": "rosa-nicotra-1847",
+  "name": "Rosa Nicotra",
+  "key": "Rosa Nicotra (of Salvadore and Maria Barbagallo)",
+  "given": "Rosa",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1847,
+  "died": null,
+  "bornText": "15 November 1847",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "15 November 1847",
+    "year": 1847,
+    "place": "Riposto",
+    "text": "15 November 1847"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Nati 1847 atto 152 (Tavola)"
+  ],
+  "registerNote": "«152. NICOTRA ROSA — NICOTRA SALVADORE / Barbagallo Maria, 15 [Nov]». SHE IS NOT THE OTHER ROSA NICOTRA REGISTERED AT RIPOSTO THAT SAME WEEK: the entry above hers is a Rosa of GIUSEPPE NICOTRA and Angela Autieri, dated 17 November 1847, a separate household this archive has not placed. Nor is she the bare ROSA NICOTRA already in this archive from the family's own file, who has no dates and no source. She carries her paternal grandmother's name, Rosa Pappalardo, which is naming custom and weak evidence. Her father died at Mascali thirteen months after she was registered. READ FROM THE TAVOLA, NOT THE ACT: the annual index gives the entry, the parents and the date, and the act itself has not been opened. The Tavola's date column is the date of the act and may follow the birth by a few days. Generation is inferred from the parent's, against SIMONE NICOTRA at gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent.",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-barbagallo@",
+    "name": "Maria Barbagallo",
+    "slug": "maria-barbagallo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rrosario-nicotra@",
   "slug": "rosario-nicotra-1872",
   "name": "Rosario Nicotra",
@@ -44823,7 +45001,7 @@
   "key": "Salvadore Nicotra (of Alfio and Rosa Pappalardo)",
   "given": "Salvadore",
   "surname": "Nicotra",
-  "sex": "",
+  "sex": "M",
   "living": false,
   "fromRegister": true,
   "born": null,
@@ -44868,7 +45046,22 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Ralfio-nicotra-3@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra-1845",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-nicotra@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1847",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],

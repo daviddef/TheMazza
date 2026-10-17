@@ -106,7 +106,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "living": false,
+     "living": true,
      "birthPlace": "",
      "comp": 1
     },
@@ -121,7 +121,7 @@
      "diedText": "",
      "fromRegister": false,
      "registerSources": [],
-     "living": false,
+     "living": true,
      "birthPlace": "",
      "comp": 1
     },

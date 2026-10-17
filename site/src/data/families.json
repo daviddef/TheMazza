@@ -69,14 +69,15 @@
  },
  {
   "surname": "Nicotra",
-  "n": 17,
-  "dead": 17,
+  "n": 19,
+  "dead": 19,
   "living": 0,
   "first": 1800,
   "last": 1963,
   "places": [
    "Giarre",
    "Mascali",
+   "Riposto",
    "Piedimonte Etneo, Catania, Sicily"
   ]
  },
@@ -594,6 +595,17 @@
   "last": null,
   "places": [
    "Piedimonte Etneo, Catania, Sicily"
+  ]
+ },
+ {
+  "surname": "Barbagallo",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Riposto"
   ]
  },
  {
@@ -1372,15 +1384,6 @@
  },
  {
   "surname": "Lungo",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": []
- },
- {
-  "surname": "Barbagallo",
   "n": 1,
   "dead": 1,
   "living": 0,

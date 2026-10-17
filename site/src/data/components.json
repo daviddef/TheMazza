@@ -1937,7 +1937,7 @@
     "surname": "Pennisi",
     "born": null,
     "died": null,
-    "living": false,
+    "living": true,
     "birthPlace": ""
    },
    {
@@ -2729,7 +2729,7 @@
     "surname": "",
     "born": null,
     "died": null,
-    "living": false,
+    "living": true,
     "birthPlace": ""
    },
    {
@@ -3170,7 +3170,7 @@
     "surname": "Polistena",
     "born": null,
     "died": null,
-    "living": false,
+    "living": true,
     "birthPlace": ""
    },
    {
@@ -3368,7 +3368,7 @@
     "surname": "D'Arcy",
     "born": null,
     "died": null,
-    "living": false,
+    "living": true,
     "birthPlace": ""
    },
    {
@@ -3377,8 +3377,8 @@
     "surname": "Whitaker",
     "born": null,
     "died": null,
-    "living": false,
-    "birthPlace": "Great Britain"
+    "living": true,
+    "birthPlace": "Great Britain, United Kingdom"
    },
    {
     "slug": "irene-waters",
@@ -3467,7 +3467,7 @@
     "surname": "Falco",
     "born": null,
     "died": null,
-    "living": false,
+    "living": true,
     "birthPlace": ""
    },
    {
@@ -3971,7 +3971,7 @@
     "surname": "",
     "born": null,
     "died": null,
-    "living": false,
+    "living": true,
     "birthPlace": ""
    },
    {
@@ -4367,7 +4367,7 @@
     "surname": "Pellagrini",
     "born": null,
     "died": null,
-    "living": false,
+    "living": true,
     "birthPlace": ""
    },
    {
@@ -4376,7 +4376,7 @@
     "surname": "",
     "born": null,
     "died": null,
-    "living": false,
+    "living": true,
     "birthPlace": ""
    },
    {

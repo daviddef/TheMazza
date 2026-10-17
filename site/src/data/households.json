@@ -9431,6 +9431,30 @@
   "born": null
  },
  {
+  "name": "Maria Barbagallo",
+  "head": "maria-barbagallo",
+  "headId": "@Rmaria-barbagallo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ralfio-nicotra-3@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra-1845",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-nicotra@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1847",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Riposto",
+  "born": null
+ },
+ {
   "name": "Maria Currenti",
   "head": "maria-currenti",
   "headId": "@Rmaria-currenti@",
@@ -9616,6 +9640,30 @@
    }
   ],
   "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Salvadore Nicotra",
+  "head": "salvadore-nicotra",
+  "headId": "@Rsalvadore-nicotra@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ralfio-nicotra-3@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra-1845",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-nicotra@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1847",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
   "born": null
  },
  {
