@@ -4,6 +4,8 @@ import PlaceSpark from "@daviddef/archive-kit/components/PlaceSpark.astro";
 import MarriageChart from "@daviddef/archive-kit/components/MarriageChart.astro";
 import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import spineData from "../data/spine.json";
+import quarters from "../data/quarters.json";
+import sicilySpine from "../data/sicily-spine.json";
 import people from "../data/people.json";
 import { chartGroups } from "../lib/marriedin.js";
 import WaysIn from "@daviddef/archive-kit/components/WaysIn.astro";
@@ -45,20 +47,24 @@ const more = [
    direct-line.astro already uses — except the href, which a compact ladder
    does not take: it links each row to that page's generation anchor, because
    position in a line is unique and a name is not. */
-const UNSOURCED_HOME = new Set([9, 10]);
-/* THE DESCENT. The compact ladder goes; the kit's Descent row takes its
-   place — the couple in two equal columns, the children beneath, the
-   brothers and sisters under whichever of the two they belong to.
+/* WHICH LINE IS PRIMARY. This ladder used to be spine.json's «deepest descent»: Michael,
+   Frank, and then — because the deepest line runs through Frank's MOTHER — a jump to
+   Domenica Prostamo and eight generations of Prostamo, with a note that «the name
+   changes here». David asked on 17 October 2026 why the front page showed Frank and
+   then switched, and for the paternal line to lead and the maternal lines to follow.
 
-   people.json records children and siblings per person with a slug, so
-   nothing here is derived: the spine row carries the person's own slug and
-   both sides are read off their own records. HER siblings come from HER
-   record, which is the whole point of the second column.
-
-   The surname band survives the move. Eight Prostamos sit above one Mazza
-   because the line passes through a daughter, and build_spine.py derives
-   that sentence from the descent itself. */
+   So there are now two things on this page, and they say which they are:
+   the MAZZA NAME LINE (father's father's father: the line the family is named for, and
+   the one that is documented at every Sicilian step), and then the LONGER LINES that
+   come in through the women — Prostamo through Frank's mother, Arena and Polistena
+   through Michael's. The generation numbers are shared: Sebastiano Mazza and
+   Domenica Prostamo are both generation 2, because they are husband and wife. */
+const UNSOURCED_HOME = new Set([6, 7, 8, 9]);   /* as /direct-line/: the four generations the tree asserts */
 const P_BY_SLUG = new Map(people.map((q) => [q.slug, q]));
+/* The family tree's years for these two are wrong (it has Salvatore born 1879 and Rosario 1850);
+   the registers say 1873 and 1845. A kin card must not repeat the tree's error beside the row
+   that corrects it. */
+const REGISTER_DATES = { "salvatore-mazza": "1873\u20131929", "rosario-mazza": "1845\u20131924" };
 const kinCards = (slug, band) => {
   const rec = slug ? P_BY_SLUG.get(slug) : null;
   return ((rec && rec[band]) || []).map((c) => {
@@ -68,33 +74,69 @@ const kinCards = (slug, band) => {
     return {
       name: c.name,
       href: c.slug && full ? `/people/${c.slug}/` : null,
-      dates: full ? [full.born, full.died].filter(Boolean).join("\u2013") : "",
+      dates: REGISTER_DATES[c.slug] || (full ? [full.born, full.died].filter(Boolean).join("\u2013") : ""),
     };
   });
 };
-const spineRows = spineData.spine.map((g) => {
-  const hers = ((P_BY_SLUG.get(g.slug) || {}).spouses || [])[0] || null;
+/* One row of the descent from a person's own record. `o` overrides what the record
+   gets wrong: the Sicilian rows take their years from the registers (sicily-spine.json),
+   not from the family tree, which has Salvatore born 1879 and Rosario born 1850. */
+const rowOf = (slug, gen, o = {}) => {
+  const rec = P_BY_SLUG.get(slug) || {};
+  const hers = (rec.spouses || [])[0] || null;
+  const hersRec = hers ? P_BY_SLUG.get(hers.slug) : null;
+  const born = o.born !== undefined ? o.born : rec.born;
+  const died = o.died !== undefined ? o.died : rec.died;
+  const spouseName = o.spouse || (hers && hers.name) || "";
+  const spouseSlug = o.spouseSlug !== undefined ? o.spouseSlug : hers && hers.slug;
   return {
-    gen: g.gen,
-    era: [g.born, g.died].filter(Boolean).join(" \u2192 ") || undefined,
-    name: g.name,
-    href: g.slug ? `/people/${g.slug}/` : "",
-    living: !!g.living,
-    via: g.via || "",
-    born: g.born ? String(g.born) : "",
-    died: g.died ? String(g.died) : "",
-    place: g.birthPlace || g.deathPlace || "",
-    spouse: g.spouse || "",
-    spouseHref: g.spouseSlug ? `/people/${g.spouseSlug}/` : null,
-    children: kinCards(g.slug, "children"),
-    hisSiblings: kinCards(g.slug, "siblings"),
-    herSiblings: kinCards(hers && hers.slug, "siblings"),
-    hisLabel: String(g.name).split(" ")[0] + "\u2019s",
-    herLabel: g.spouse ? String(g.spouse).split(" ")[0] + "\u2019s" : "Theirs",
-    weak: UNSOURCED_HOME.has(g.gen),
-    weakNote: "This generation rests on the family tree alone.",
+    gen,
+    era: [born, died].filter(Boolean).join(" \u2192 ") || undefined,
+    name: rec.name || slug,
+    href: `/people/${slug}/`,
+    living: !!rec.living,
+    via: o.via || "",
+    born: born ? String(born) : "",
+    died: died ? String(died) : "",
+    place: o.place || rec.birthPlace || rec.deathPlace || "",
+    spouse: spouseName,
+    spouseHref: spouseSlug && P_BY_SLUG.get(spouseSlug) ? `/people/${spouseSlug}/` : null,
+    children: kinCards(slug, "children"),
+    hisSiblings: kinCards(slug, "siblings"),
+    herSiblings: kinCards(spouseSlug, "siblings"),
+    hisLabel: String(rec.name || slug).split(" ")[0] + "\u2019s",
+    herLabel: spouseName ? String(spouseName).split(" ")[0] + "\u2019s" : "Theirs",
+    weak: !!o.weak,
+    weakNote: o.weak ? "This generation rests on the family tree alone." : "",
   };
-});
+};
+
+/* THE MAZZA NAME LINE — the father's father's father, back to the first Mazza the
+   Piedimonte registers name. Dates from sicily-spine.json; `year` takes the four digits
+   or keeps «c. 1809», because the registers give Mariano only an age. */
+const yr = (t) => { const m = String(t || "").match(/(c\. )?(1[5-9]\d\d)/); return m ? (m[1] || "") + m[2] : undefined; };
+const SICILY = Object.fromEntries(sicilySpine.map((g) => [g.name, g]));
+const reg = (n) => ({ born: yr(SICILY[n]?.born), died: yr(SICILY[n]?.died) });
+const mazzaRows = [  /* oldest first, as every ladder on this page */
+  rowOf("michael-rocco-mazza", 0),
+  rowOf("frank-mazza", 1),
+  rowOf("sebastiano-mazza", 2),
+  rowOf("salvatore-mazza", 3, { ...reg("Salvatore Mazza"), place: "Piedimonte Etneo, Catania, Sicily" }),
+  rowOf("rosario-mazza", 4, { ...reg("Rosario Mazza"), spouse: "Leonarda Bonanno", spouseSlug: "leonarda" }),
+  rowOf("mariano-mazza-1809", 5, { ...reg("Mariano Mazza"), spouse: "Maria Catalano", spouseSlug: "maria-catalano" }),
+].reverse();
+
+/* THE LONGER LINES, through the women. Prostamo is spine.json's own descent (gen 2 down
+   to 9); Arena and Polistena are the chains quarters.json already holds. Each is cut at
+   generation 2 — the couple's own generation — because Michael and Frank are above, in
+   the name line, and repeating them is exactly what read as «the line switched». */
+const climb = (line) => line.map((g, i) => rowOf(g.slug, line.length - 1 - i + 2, {}));
+const prostamoRows = spineData.spine
+  .filter((g) => g.gen >= 2)
+  .map((g) => rowOf(g.slug, g.gen, { weak: UNSOURCED_HOME.has(g.gen) }));
+const arenaRows = climb(quarters.find((q) => q.grandparent.surname === "Arena").line);
+const polistenaRows = climb(quarters.find((q) => q.grandparent.surname === "Polistena").line);
+const weakN = prostamoRows.filter((r) => r.weak).length;
 ---
 <Base title="The Mazza Archive" bare={true}>
   <figure class="fhero">
@@ -226,11 +268,35 @@ const spineRows = spineData.spine.map((g) => {
   
 <section class="blk">
   <section class="blk">
-    <h2>The line, ten generations</h2>
-    <p class="dek">Back to the 1690s in Calabria, with the two generations that rest on the family
-    tree alone marked where they fall.</p>
-    <Descent rows={spineRows} u={u} archiveKey="mazza" />
-    <p class="cap" style="margin-top:14px"><a href={u("/direct-line/")}>The full spine →</a></p>
+    <h2>The Mazza line</h2>
+    <p class="dek">The line the family is named for: father to father, from Michael back to
+    Mariano Mazza of Piedimonte Etneo, born about 1809. Every step in Sicily is a register entry,
+    and it is the shortest line in the archive. <a href={u("/the-name-line/")}>How it was found →</a></p>
+    <Descent rows={mazzaRows} u={u} archiveKey="mazza" />
+    <p class="cap" style="margin-top:14px">The lines that run deeper come in through the women of this
+    family, and are below.</p>
+  </section>
+
+  <section class="blk">
+    <h2>The longer lines, through the women</h2>
+    <p class="dek">Domenica Prostamo (Frank&rsquo;s mother, and Sebastiano&rsquo;s wife) and Nancy Arena
+    (Michael&rsquo;s mother) each bring a line that goes back further than the Mazza do. Generation numbers
+    match the Mazza line above: Domenica is generation 2 beside her husband Sebastiano.</p>
+
+    <h3 style="margin-top:1.4rem">Frank&rsquo;s mother: the Prostamo of Briatico, Calabria</h3>
+    <p class="dek">The longest descent in the archive, to 1697 — and {weakN === 1 ? "one generation rests" : `${weakN} generations rest`} on
+    the family tree alone, marked where they fall. <a href={u("/briatico-tested/")}>Testing the 1697 →</a></p>
+    <Descent rows={prostamoRows} u={u} archiveKey="mazza" />
+
+    <h3 style="margin-top:2rem">Michael&rsquo;s mother: the Arena of Scilla, Calabria</h3>
+    <p class="dek">Nancy Arena&rsquo;s father&rsquo;s line, back to the 1750s.</p>
+    <Descent rows={arenaRows} u={u} archiveKey="mazza" />
+
+    <h3 style="margin-top:2rem">Michael&rsquo;s mother&rsquo;s mother: the Polistena and Donato of Scilla</h3>
+    <p class="dek">Angela Polistena&rsquo;s line, through her mother Nunnziata Donato.</p>
+    <Descent rows={polistenaRows} u={u} archiveKey="mazza" />
+    <p class="cap" style="margin-top:14px"><a href={u("/lines/")}>The four quarters, compared →</a> ·
+    <a href={u("/direct-line/")}>The full Prostamo spine →</a></p>
   </section>
 
   <h2>The families who married in</h2>
