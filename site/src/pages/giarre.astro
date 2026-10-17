@@ -16,6 +16,17 @@ import coverage from "../data/coverage.json";
 /* DERIVED, NOT TYPED — this archive has been bitten four times by a number
    written into prose and left to go stale. */
 const MACCHIA_N = coverage.held?.Macchia ?? 0;
+/* MACCHIA'S DEATH SWEEP, counted from nicotra-sweeps.tsv. This page said «Exactly one
+   of them has been read» until the day forty were; a count typed into prose is only true
+   until the next year is read. */
+const MDEATHS = (nic.byComuneSeries["Macchia"] || {})["Morti"] || [];
+const mRead = MDEATHS.filter((r) => r.entries !== "\u2014" && r.entries !== "absent");
+const mAbsent = MDEATHS.filter((r) => r.entries === "absent").length;
+const mUnread = MDEATHS.filter((r) => r.entries === "\u2014").length;
+const mWith = MDEATHS.filter((r) => ["one","two","three","four","five","six","seven"].includes(r.entries));
+const mSpan = mRead.length
+  ? `${Math.min(...mRead.map((r) => Number(r.year)))}\u2013${Math.max(...mRead.map((r) => Number(r.year)))}`
+  : "\u2014";
 import coverage from "../data/coverage.json";
 import nic from "../data/nicotra.json";
 
@@ -216,13 +227,12 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     Giarre's. The discriminator is the ark — every <em>an_ua1999*</em> is Macchia — checked against
     eight manifest labels spread across 1821 to 1871, and the two groups share no <em>segnatura</em>
     between them.</p>
-    <p class="note" style="margin-top:12px"><strong>Macchia is now a comune this archive holds and has
-    barely opened.</strong> Those {MACCHIA_N} registers are counted to Macchia and no longer to Giarre, which is
-    the correct attribution and also means they are shown on no page of their own — a town with one
-    year read does not yet make an argument. <strong>Exactly one of them has been read</strong>:
-    Macchia <em>Morti</em> 1862, swept at D and N for Nicotra and Daidone, both absent. Everything
-    else is unexplored, and the count is a count of rows this archive holds rather than a listing
-    verified against the archive's own catalogue, which is why its coverage status stays open.</p>
+    <p class="note" style="margin-top:12px"><strong>Macchia is a comune this archive holds and has
+    only begun to open.</strong> Those {MACCHIA_N} registers are counted to Macchia and no longer to Giarre, which is
+    the correct attribution and also means they have had no page of their own until their deaths were swept, below. <strong>{mRead.length} Macchia <em>Morti</em> years, {mSpan}, are now read</strong>
+    — see the section below. Everything else Macchia holds (its births and marriages, and its deaths after
+    1862) is unexplored, and the count of {MACCHIA_N} is a count of rows this archive holds rather than a
+    listing verified against the archive's own catalogue, which is why its coverage status stays open.</p>
     <p class="note" style="margin-top:12px"><strong>What it cost.</strong> Giarre's own
     <em>Morti</em> 1850 is scanned short and carries no index. A sweep took the index from what it
     believed was the duplicate and banked the year as read — <em>«the first time the two-deposit rule
@@ -231,6 +241,31 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     sweep now counts {mortiRead.length} of the {MORTI.length - mortiAbsent} years that exist as read</strong>, and
     a further {mortiAbsent} have no volume at all. Unlike <a href={u("/mascali/")}>Mascali</a> Giarre does
     have 1844.</p>
+  </section>
+
+  <section class="blk">
+    <h2>Macchia's deaths, swept for Simone and Marianna</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Macchia is a separate comune beside Giarre, and Simone
+    Nicotra's household lived at Giarre's edge. A death at Macchia would never appear in Giarre's own index.
+    <strong>{mRead.length} years, {mSpan}, are read</strong> at the <strong>N</strong> and <strong>D</strong>
+    sections — Nicotra, and Marianna's maiden name Daidone, which a death index files under D. {mWith.length}
+    of them hold a Nicotra; {mAbsent} year has no volume and {mUnread} is not yet read. <strong>No Simone and
+    no Marianna Daidone appear in any of them.</strong> What the sweep did find is a <strong>Milo</strong>
+    Nicotra family — a hamlet of Macchia — recorded in the notes below, and none of it is linked to Simone.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
+        <tbody>
+          {MDEATHS.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   </section>
 
   <section class="blk" style="border-bottom:0">

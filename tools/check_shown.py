@@ -36,7 +36,9 @@ DIST = os.path.join("site", os.environ.get("ARCHIVE_OUT", "dist"))
 # comune -> the page that owns it. A comune with no page of its own is not a
 # fault: say so and move on, rather than inventing a requirement.
 PAGE = {"Mascali": "mascali", "Giarre": "giarre", "Riposto": "riposto",
-        "Piedimonte Etneo": "piedimonte-etneo"}
+        "Piedimonte Etneo": "piedimonte-etneo",
+        # Macchia has no page of its own; its death sweep is rendered on /giarre/
+        "Macchia": "giarre"}
 
 
 def text_of(path):

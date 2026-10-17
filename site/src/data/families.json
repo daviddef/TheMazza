@@ -28,6 +28,20 @@
   ]
  },
  {
+  "surname": "Nicotra",
+  "n": 67,
+  "dead": 67,
+  "living": 0,
+  "first": 1740,
+  "last": 1963,
+  "places": [
+   "Giarre",
+   "Riposto",
+   "Mascali",
+   "Piedimonte Etneo, Catania, Sicily"
+  ]
+ },
+ {
   "surname": "Arena",
   "n": 65,
   "dead": 62,
@@ -38,20 +52,6 @@
    "Scilla",
    "Scilla, Reggio Calabria",
    "New York, New York"
-  ]
- },
- {
-  "surname": "Nicotra",
-  "n": 41,
-  "dead": 41,
-  "living": 0,
-  "first": 1794,
-  "last": 1963,
-  "places": [
-   "Riposto",
-   "Giarre",
-   "Mascali",
-   "Piedimonte Etneo, Catania, Sicily"
   ]
  },
  {
@@ -133,14 +133,15 @@
  },
  {
   "surname": "Costa",
-  "n": 9,
-  "dead": 9,
+  "n": 10,
+  "dead": 10,
   "living": 0,
   "first": 1750,
   "last": 1840,
   "places": [
    "Scilla",
-   "Italy"
+   "Italy",
+   "Giarre"
   ]
  },
  {
@@ -313,6 +314,19 @@
   ]
  },
  {
+  "surname": "Russo",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla, Reggio Calabria",
+   "Scilla",
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Crupi",
   "n": 4,
   "dead": 4,
@@ -363,15 +377,16 @@
   "places": []
  },
  {
-  "surname": "Russo",
+  "surname": "Grasso",
   "n": 3,
   "dead": 3,
   "living": 0,
-  "first": null,
-  "last": null,
+  "first": 1809,
+  "last": 1928,
   "places": [
-   "Scilla, Reggio Calabria",
-   "Scilla"
+   "Briatico, Vibo Valentia, Calabria",
+   "Mandaradoni (Briatico), Vibo Valentia, Calabria",
+   "Giarre"
   ]
  },
  {
@@ -506,18 +521,6 @@
   "first": null,
   "last": null,
   "places": []
- },
- {
-  "surname": "Grasso",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": 1809,
-  "last": 1928,
-  "places": [
-   "Briatico, Vibo Valentia, Calabria",
-   "Mandaradoni (Briatico), Vibo Valentia, Calabria"
-  ]
  },
  {
   "surname": "Fragala",
@@ -1421,6 +1424,17 @@
   "places": []
  },
  {
+  "surname": "Cannavò",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Aiello",
   "n": 1,
   "dead": 1,
@@ -1520,6 +1534,17 @@
   ]
  },
  {
+  "surname": "Grimaldi",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Bonanno",
   "n": 1,
   "dead": 1,
@@ -1553,6 +1578,17 @@
   ]
  },
  {
+  "surname": "Nicolosi",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Ragonesi",
   "n": 1,
   "dead": 1,
@@ -1564,6 +1600,17 @@
   ]
  },
  {
+  "surname": "Strano",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1790,
+  "last": 1790,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Mangano",
   "n": 1,
   "dead": 1,
@@ -1572,6 +1619,17 @@
   "last": null,
   "places": [
    "Riposto"
+  ]
+ },
+ {
+  "surname": "Bella",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
   ]
  },
  {
@@ -1617,6 +1675,17 @@
   ]
  },
  {
+  "surname": "Melita",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Messina",
   "n": 1,
   "dead": 1,
@@ -1625,6 +1694,17 @@
   "last": null,
   "places": [
    "Riposto"
+  ]
+ },
+ {
+  "surname": "Patti",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
   ]
  },
  {
