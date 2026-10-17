@@ -13,11 +13,14 @@ import Evidence from "@daviddef/archive-kit/components/Evidence.astro";
 import { u } from "../lib/url.js";
 import { BUILT } from "../lib/familylist.js";
 import { buildFamily } from "../lib/families.js";
+import Descent from "@daviddef/archive-kit/components/Descent.astro";
+import { LADDERS } from "../lib/descent.js";
 
 export function getStaticPaths() {
   return BUILT.map((spec) => ({ params: { family: spec.slug }, props: { f: buildFamily(spec) } }));
 }
 const { f } = Astro.props;
+const ladder = LADDERS[Astro.params.family];
 
 const many = (n, one, other) => `${n} ${n === 1 ? one : other}`;
 const years = f.first && f.last ? (f.first === f.last ? String(f.first) : `${f.first}–${f.last}`) : "";
@@ -50,6 +53,16 @@ const ROWS = 12;
       <p class="dek" style="margin:.6rem 0 0" set:html={f.note} />
       <p class="cap" style="margin-top:.8rem">As <a href={u("/name/")}>The Name</a> puts it. A surname is a label, not a family:
       the lines below are the ones this archive can draw, and no others.</p>
+    </section>
+  )}
+
+  {ladder && (
+    <section class="blk">
+      <div class="lab">The line</div>
+      <h2 style="margin-top:.4rem">How this family reaches the children</h2>
+      <p class="dek" style="margin:.6rem 0 1.2rem">{ladder.who}{ladder.weak > 0 ? ` ${ladder.weak === 1 ? "One generation rests" : `${ladder.weak} generations rest`} on the family tree alone, marked where they fall.` : ""} Living people are not named on family pages.
+        {" "}The line the family is named for is on the <a href={u("/")}>front page</a>.</p>
+      <Descent rows={ladder.rows} u={u} archiveKey="mazza" />
     </section>
   )}
 

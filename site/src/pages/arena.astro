@@ -1,4 +1,6 @@
 ---
+import Descent from "@daviddef/archive-kit/components/Descent.astro";
+import { LADDERS } from "../lib/descent.js";
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
@@ -51,6 +53,14 @@ const line = [
       <div class="stat"><div class="n">1819</div><div class="l">the earliest with a documented birth</div></div>
       <div class="stat"><div class="n">{arenaAdds.length}</div><div class="l">proved by record, absent from the tree</div></div>
     </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">The line</div>
+    <h2 style="margin-top:.4rem">How the Arena reach the children, as the family tree draws it</h2>
+    <p class="dek" style="margin:.6rem 0 1.2rem">{LADDERS.arena.who} Living people are not named here. The registers correct this line below, so read the two together.
+      The line the family is named for is on the <a href={u("/")}>front page</a>.</p>
+    <Descent rows={LADDERS.arena.rows} u={u} archiveKey="mazza" />
   </section>
 
   <section class="blk">
