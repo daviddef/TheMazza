@@ -11,7 +11,8 @@
    NAME, RELATIONSHIPS AND PLACE ONLY by design: the birth year the rule needs is not in any committed file.
    So, for exactly those people, the adapter hands the kit rule `saidLiving: true`, which is what that input
    is for: the archive's own statement that someone is living, where the data cannot show it. The kit then
-   draws them as living, and never reads a date it was not given.
+   draws them as living, and never reads a date it was not given. Since kit 02d9aa5 `saidLiving` also keeps a
+   living child of a living parent from being held out as a possible minor, so their children are drawn.
 
    FOR EVERYONE ELSE the adapter passes only fields people.json publishes (born, died, dead, citations and the
    youngest known child's birth year) and `agreeWithGenerator` runs the kit's JavaScript rule over them at
@@ -110,16 +111,6 @@ export function kitPerson(p, { lede = '' } = {}) {
   const relations = {};
   for (const b of BANDS) relations[b] = (p[b] || []).map((e) => row(e, p, { quiet: live }));
   if (live) {
-    /* KIT GAP, NAMED: the kit holds out an UNDATED child of a living person (it might be a minor), and a
-       living child's birth year is exactly what people.json does not hold. This archive publishes them
-       because the generator knows the year; the kit's JavaScript rule has no input that says so
-       (`saidLiving` is read by isLiving but not by possibleMinor), and a stand-in year is not an option. So
-       in `relations.children` the chart would silently drop them, and a living parent would read as having
-       no children. They go in `dropped` instead, which the chart prints as a name and a relationship under
-       the figure and never holds out. When the kit's possibleMinor reads saidLiving, delete this branch. */
-    const kids = relations.children.filter((r) => r.saidLiving);
-    relations.children = relations.children.filter((r) => !r.saidLiving);
-    relations.dropped = kids.map((r) => ({ id: r.id, name: r.name, href: r.href, saidLiving: true, rel: 'child' }));
     return { id: p.id, name: p.name, saidLiving: true, place: p.birthPlace || '', relations };
   }
   const events = (p.events || []).filter((e) => e.place || (e.what !== 'lived' && e.date));
