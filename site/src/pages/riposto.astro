@@ -32,6 +32,13 @@ const readn = (s) => (SERIES[s] || []).filter(
 
 const BIRTHS = SER["Nati"] || [];
 const MARRS = SER["Matrimoni"] || [];
+const DEATHS = SER["Morti"] || [];
+/* DERIVED, NOT TYPED. This page said «Twenty-three Riposto years are read» and
+   «Twelve years, 1835 to 1846» for marriages while nicotra-sweeps.tsv already held
+   26 marriage years and 11 birth years: the sweep had grown and the prose had not. */
+const span = (rs) => (rs.length ? `${rs[0].year}\u2013${rs[rs.length - 1].year}` : "\u2014");
+const nRead = readn("Nati") + readn("Matrimoni");
+const deathsRead = readn("Morti");
 
 const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
 ---
@@ -91,7 +98,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
     <h2>Every birth year read, and what it said</h2>
     <p class="dek" style="margin:.7rem 0 1.2rem">Riposto's <em>Tavola</em> is alphabetical and names
     both parents. Each N section was checked into the next letter before anything was written down.
-    <strong>Eleven consecutive years, 1838 to 1848, are now read end to end.</strong></p>
+    <strong>{readn("Nati")} years, {span(BIRTHS)}, are now read end to end.</strong></p>
     <div class="scroll">
       <table>
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
@@ -117,7 +124,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
 
   <section class="blk">
     <h2>And then the marriages, which were the better instrument</h2>
-    <p class="dek" style="margin:.7rem 0 1.2rem">Twelve years, 1835 to 1846. The marriage
+    <p class="dek" style="margin:.7rem 0 1.2rem">{readn("Matrimoni")} years, {span(MARRS)}. The marriage
     <em>Tavola</em> names both spouses, <strong>all four parents, and the comune each spouse came
     from</strong> — so a single row can carry a whole generation.</p>
     <div class="scroll">
@@ -150,6 +157,33 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
   </section>
 
   <section class="blk">
+    <h2>The deaths, which nobody had opened here</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">Riposto's death <em>Tavola</em> is alphabetical and names
+    both parents. <strong>{deathsRead} years{DEATHS.length ? `, ${span(DEATHS)},` : ""} are read</strong> for the
+    surnames a death of Simone Nicotra or his wife would be filed under: <strong>Nicotra</strong>, her
+    maiden name <strong>Daidone</strong> (and its spellings), and <strong>Musumeci</strong>, the name she
+    carries in her son's death act. Riposto is <em>not</em> name-indexed on Antenati, so every year was
+    read by eye, and the N, D and M sections each time.</p>
+    <p class="note" style="margin:0 0 1rem">A death index files a married woman under her
+    <strong>maiden</strong> name, which is why Daidone is searched as well as Nicotra — and why a sweep
+    of the husband's surname alone would never have looked for her.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
+        <tbody>
+          {DEATHS.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk">
     <h2>What Riposto holds</h2>
     <p class="dek" style="margin:.7rem 0 1.2rem">{vols} volumes, facet total {vols} — complete in one
     page load, comfortably under the ceiling. {bought} openable now.</p>
@@ -177,7 +211,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
 
   <section class="blk" style="border-bottom:0">
     <h2>What would end this</h2>
-    <p class="dek" style="margin:.8rem 0 1.2rem">Twenty-three Riposto years are read and Rosario is in
+    <p class="dek" style="margin:.8rem 0 1.2rem">{nRead} Riposto birth and marriage years are read and Rosario is in
     none of them. That is now a finding rather than a gap.</p>
     <div class="prose" style="margin-top:1rem">
       <ul style="font-family:var(--sans);font-size:14px;line-height:1.75;color:var(--ink-2);padding-left:20px">
