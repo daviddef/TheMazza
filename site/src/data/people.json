@@ -40587,6 +40587,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rcarmela-nicotra-2@",
+  "slug": "carmela-nicotra-1820",
+  "name": "Carmela Nicotra",
+  "key": "Carmela Nicotra (of Rosario and Paola Previtera, b. 1820)",
+  "given": "Carmela",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1820,
+  "died": null,
+  "bornText": "1 May 1820",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "1 May 1820",
+    "year": 1820,
+    "place": "Giarre",
+    "text": "1 May 1820"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Giarre, Nati 1820 atto 228, read in the original"
+  ],
+  "registerNote": "Born at the contrada of S. Giovanni, Giarre. Nothing further is known of her.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-nicotra-2@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1794",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rpaola-previtera@",
+    "name": "Paola Previtera",
+    "slug": "paola-previtera",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rcarmelo-tomarchio@",
   "slug": "carmelo-tomarchio",
   "name": "Carmelo Tomarchio",
@@ -42918,6 +42977,65 @@
     "id": "@Rmaria-sapienza@",
     "name": "Maria Sapienza",
     "slug": "maria-sapienza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppa-nicotra-2@",
+  "slug": "giuseppa-nicotra-1821",
+  "name": "Giuseppa Nicotra",
+  "key": "Giuseppa Nicotra (of Rosario and Paola Previtera, b. 1821)",
+  "given": "Giuseppa",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1821,
+  "died": null,
+  "bornText": "19 May 1821",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "19 May 1821",
+    "year": 1821,
+    "place": "Giarre",
+    "text": "19 May 1821"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Giarre, Nati 1821 atto 191, read in the original"
+  ],
+  "registerNote": "Baptised in the church of S. Giovanni and named Giuseppa; the Tavola wrote Giuseppe. Nothing further is known of her.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-nicotra-2@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1794",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rpaola-previtera@",
+    "name": "Paola Previtera",
+    "slug": "paola-previtera",
     "living": false,
     "via": "read"
    }
@@ -45679,6 +45797,65 @@
   "ancGen": 8
  },
  {
+  "id": "@Rpaola-previtera@",
+  "slug": "paola-previtera",
+  "name": "Paola Previtera",
+  "key": "Paola Previtera (wife of Rosario Nicotra)",
+  "given": "Paola",
+  "surname": "Previtera",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1792,
+  "died": null,
+  "bornText": "c. 1792",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1792",
+    "year": 1792,
+    "place": "Giarre",
+    "text": "c. 1792"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Giarre, Nati 1820 atto 228 and 1821 atto 191, read in the original"
+  ],
+  "registerNote": "Written PAOLA PREVITERA in the acts, and «ROSA PROVIDENZA» in the 1820 Tavola, which is the same woman misread. Wife of the Rosario Nicotra of S. Giovanni and mother of two daughters. The surname PREVITERA also belongs to Santa Previtera, mother of the Alfio Nicotra who died at Mascali in 1869; no link between the two is claimed.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rcarmela-nicotra-2@",
+    "name": "Carmela Nicotra",
+    "slug": "carmela-nicotra-1820",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-nicotra-2@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra-1821",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rpaolo-nicotra@",
   "slug": "paolo-nicotra",
   "name": "Paolo Nicotra",
@@ -46648,6 +46825,65 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 6
+ },
+ {
+  "id": "@Rrosario-nicotra-2@",
+  "slug": "rosario-nicotra-1794",
+  "name": "Rosario Nicotra",
+  "key": "Rosario Nicotra (of S. Giovanni, husband of Paola Previtera)",
+  "given": "Rosario",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1794,
+  "died": null,
+  "bornText": "c. 1794",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1794",
+    "year": 1794,
+    "place": "Giarre",
+    "text": "c. 1794"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "contadino",
+  "sources": [],
+  "registerSources": [
+   "Giarre, Nati 1820 atto 228 and 1821 atto 191, both read in the original"
+  ],
+  "registerNote": "A SECOND ROSARIO NICOTRA AT GIARRE, found 17 October 2026 by opening two acts the sweep had only listed. Domiciled in the contrada of S. GIOVANNI (BATTISTA), a contadino, with a wife Paola Previtera of the same age bracket (28) and two daughters registered a year apart. HE IS A CANDIDATE FOR THE ROSARIO OF THE SIMONE LINE AND NOTHING MORE: his acts name no parents, and the arithmetic is against it — born about 1794 he would be six years older than the Rosario of 1890 («novanta circa»), and Marianna Daidone, Simone's wife, was «quaranta» in April 1820 and would have been fourteen at his birth. The 1872 certificate gives Giovanni Nicotra's mother as VENERA MURABITO, not Paola Previtera, so if he is the same man Paola would have to have died and Venera been a second wife. NOT LINKED; no marriage, death or later child has been found for him.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rcarmela-nicotra-2@",
+    "name": "Carmela Nicotra",
+    "slug": "carmela-nicotra-1820",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-nicotra-2@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra-1821",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rsalvadore-barbagallo@",

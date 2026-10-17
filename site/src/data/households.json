@@ -487,6 +487,30 @@
   "born": 1789
  },
  {
+  "name": "Paola Previtera",
+  "head": "paola-previtera",
+  "headId": "@Rpaola-previtera@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rcarmela-nicotra-2@",
+    "name": "Carmela Nicotra",
+    "slug": "carmela-nicotra-1820",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-nicotra-2@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra-1821",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1792
+ },
+ {
   "name": "Filippo Arena",
   "head": "filippo-arena",
   "headId": "@Rfilippo-arena@",
@@ -519,6 +543,30 @@
   ],
   "place": "Scilla",
   "born": 1793
+ },
+ {
+  "name": "Rosario Nicotra",
+  "head": "rosario-nicotra-1794",
+  "headId": "@Rrosario-nicotra-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rcarmela-nicotra-2@",
+    "name": "Carmela Nicotra",
+    "slug": "carmela-nicotra-1820",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-nicotra-2@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra-1821",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1794
  },
  {
   "name": "Antonino Prostamo & Caterina Marmorato",

@@ -278,6 +278,34 @@
   "n": 24
  },
  {
+  "name": "Giarre",
+  "born": 16,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1792,
+  "last": 1871,
+  "who": [
+   "alfia-cavallaro",
+   "alfio-nicotra",
+   "alfio-nicotra-1796",
+   "carmela-nicotra-1820",
+   "francesco-nicotra",
+   "giuseppa-nicotra-1821",
+   "giuseppe-nicotra",
+   "leonarda-pennisi",
+   "marianna-musumeci",
+   "paola-previtera",
+   "paolo-nicotra",
+   "rosario-nicotra-1872",
+   "rosario-nicotra-1794",
+   "salvadore-nicotra",
+   "santo-nicotra",
+   "simone-nicotra"
+  ],
+  "n": 16
+ },
+ {
   "name": "Pizzo, Vibo Valentia, Calabria",
   "born": 4,
   "died": 8,
@@ -349,30 +377,6 @@
    "concetta-melluso",
    "giuseppa-melluso",
    "maria-g-prostamo"
-  ],
-  "n": 12
- },
- {
-  "name": "Giarre",
-  "born": 12,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1800,
-  "last": 1871,
-  "who": [
-   "alfia-cavallaro",
-   "alfio-nicotra",
-   "alfio-nicotra-1796",
-   "francesco-nicotra",
-   "giuseppe-nicotra",
-   "leonarda-pennisi",
-   "marianna-musumeci",
-   "paolo-nicotra",
-   "rosario-nicotra-1872",
-   "salvadore-nicotra",
-   "santo-nicotra",
-   "simone-nicotra"
   ],
   "n": 12
  },
