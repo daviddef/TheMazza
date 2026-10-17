@@ -11,7 +11,10 @@ import SocialHead from "@daviddef/archive-kit/components/SocialHead.astro";
 import JsonLd from "@daviddef/archive-kit/components/JsonLd.astro";
 import VisitCount from "@daviddef/archive-kit/components/VisitCount.astro";
 import ring from "@daviddef/archive-kit/data/archives.json";
-const { title, description = "", dek, eyebrow, bare, noindex } = Astro.props;
+/* `ownHeading` is for a page whose content draws its own h1 and its one sentence (the shared people page,
+   kit PersonPage: it carries the name, the life dates and the sentence inside its own header). Base then
+   renders no page head, so the document keeps exactly one h1, and `dek` is used for the description only. */
+const { title, description = "", dek, eyebrow, bare, noindex, ownHeading = false } = Astro.props;
 const SITE = "The Mazza Archive";
 const nav = [
   ["Start", [["/", "Home"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree/", "Our line, drawn"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/lines/", "The Four Quarters"]]],
@@ -101,7 +104,7 @@ const thisArchive =
 
 <main id="main" tabindex="-1">
   <div class="wrap">
-    {!bare && (
+    {!bare && !ownHeading && (
       <div class="pagehead">
         {eyebrow && <div class="lab">{eyebrow}</div>}
         <h1>{title}</h1>
