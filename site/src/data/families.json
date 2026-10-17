@@ -55,6 +55,20 @@
   ]
  },
  {
+  "surname": "Nicotra",
+  "n": 38,
+  "dead": 38,
+  "living": 0,
+  "first": 1800,
+  "last": 1963,
+  "places": [
+   "Riposto",
+   "Giarre",
+   "Mascali",
+   "Piedimonte Etneo, Catania, Sicily"
+  ]
+ },
+ {
   "surname": "Donato",
   "n": 25,
   "dead": 25,
@@ -68,17 +82,17 @@
   ]
  },
  {
-  "surname": "Nicotra",
-  "n": 19,
-  "dead": 19,
-  "living": 0,
-  "first": 1800,
-  "last": 1963,
+  "surname": "Cavallaro",
+  "n": 15,
+  "dead": 13,
+  "living": 2,
+  "first": 1805,
+  "last": 2013,
   "places": [
-   "Giarre",
-   "Mascali",
-   "Riposto",
-   "Piedimonte Etneo, Catania, Sicily"
+   "Mascali, Catania, Sicily",
+   "Piedimonte Etneo, Catania, Sicily",
+   "Catania, Sicily",
+   "Giarre"
   ]
  },
  {
@@ -92,20 +106,6 @@
    "Briatico, Vibo Valentia, Calabria",
    "New York, New York",
    "Buenos Aires, Argentina"
-  ]
- },
- {
-  "surname": "Cavallaro",
-  "n": 14,
-  "dead": 12,
-  "living": 2,
-  "first": 1805,
-  "last": 2013,
-  "places": [
-   "Mascali, Catania, Sicily",
-   "Piedimonte Etneo, Catania, Sicily",
-   "Catania, Sicily",
-   "Piedimonte Etneo"
   ]
  },
  {
@@ -454,6 +454,17 @@
   "places": []
  },
  {
+  "surname": "Barbagallo",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Riposto"
+  ]
+ },
+ {
   "surname": "Micale",
   "n": 2,
   "dead": 1,
@@ -598,17 +609,6 @@
   ]
  },
  {
-  "surname": "Barbagallo",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Riposto"
-  ]
- },
- {
   "surname": "Dajdone",
   "n": 2,
   "dead": 2,
@@ -672,6 +672,17 @@
   "last": 1828,
   "places": [
    "Mascali"
+  ]
+ },
+ {
+  "surname": "Daidone",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1848,
+  "last": 1848,
+  "places": [
+   "Riposto"
   ]
  },
  {
@@ -1410,6 +1421,28 @@
   "places": []
  },
  {
+  "surname": "Aiello",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Riposto"
+  ]
+ },
+ {
+  "surname": "Autieri",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Riposto"
+  ]
+ },
+ {
   "surname": "Bagnato",
   "n": 1,
   "dead": 1,
@@ -1429,6 +1462,17 @@
   "last": null,
   "places": [
    "Scilla"
+  ]
+ },
+ {
+  "surname": "Castorina",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Riposto"
   ]
  },
  {
@@ -1509,6 +1553,28 @@
   ]
  },
  {
+  "surname": "Ragonesi",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1824,
+  "last": 1850,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Mangano",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Riposto"
+  ]
+ },
+ {
   "surname": "Catalano",
   "n": 1,
   "dead": 1,
@@ -1548,6 +1614,28 @@
   "last": 1861,
   "places": [
    "Scilla"
+  ]
+ },
+ {
+  "surname": "Messina",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Riposto"
+  ]
+ },
+ {
+  "surname": "Sapienza",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Riposto"
   ]
  },
  {
@@ -1601,6 +1689,17 @@
   "last": null,
   "places": [
    "Scilla"
+  ]
+ },
+ {
+  "surname": "Testa",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Riposto"
   ]
  },
  {

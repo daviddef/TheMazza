@@ -202,6 +202,46 @@
   "n": 34
  },
  {
+  "name": "Riposto",
+  "born": 28,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1811,
+  "last": 1869,
+  "who": [
+   "alfio-nicotra-1845",
+   "angela-aiello",
+   "angela-autieri",
+   "anna-castorina",
+   "antonio-nicotra",
+   "filippa-nicotra",
+   "gaetano-nicotra",
+   "gaetano-nicotra-1869",
+   "gaetano-nicotra-3",
+   "giuseppa-nicotra",
+   "giuseppe-daidone",
+   "giuseppe-nicotra-1856",
+   "giuseppe-nicotra-1811",
+   "leonarda-mangano",
+   "leonarda-nicotra",
+   "leonarda-nicotra-1853",
+   "maria-barbagallo",
+   "maria-messina",
+   "maria-nicotra-1839",
+   "maria-nicotra-1860",
+   "maria-sapienza",
+   "raffaele-nicotra",
+   "rosa-nicotra-1847",
+   "rosa-nicotra-1847-2",
+   "rosaria-daidone",
+   "salvadore-barbagallo",
+   "sebastiana-testa",
+   "venera-nicotra-1839"
+  ],
+  "n": 28
+ },
+ {
   "name": "New York, New York",
   "born": 13,
   "died": 4,
@@ -313,6 +353,30 @@
   "n": 12
  },
  {
+  "name": "Giarre",
+  "born": 12,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1800,
+  "last": 1871,
+  "who": [
+   "alfia-cavallaro",
+   "alfio-nicotra",
+   "alfio-nicotra-1796",
+   "francesco-nicotra",
+   "giuseppe-nicotra",
+   "leonarda-pennisi",
+   "marianna-musumeci",
+   "paolo-nicotra",
+   "rosario-nicotra-1872",
+   "salvadore-nicotra",
+   "santo-nicotra",
+   "simone-nicotra"
+  ],
+  "n": 12
+ },
+ {
   "name": "Genoa, Liguria",
   "born": 0,
   "died": 0,
@@ -379,6 +443,28 @@
   "n": 10
  },
  {
+  "name": "Piedimonte Etneo",
+  "born": 10,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1805,
+  "last": 1880,
+  "who": [
+   "anna-cavallaro-1805",
+   "gaetano-bonanno",
+   "gaetano-cassaniti",
+   "gaetano-mazza",
+   "giuseppa-ragonesi",
+   "maria-catalano",
+   "maria-currenti",
+   "mariano-mazza-1872",
+   "mariano-mazza-1809",
+   "teresa-nicotra"
+  ],
+  "n": 10
+ },
+ {
   "name": "Catania, Sicily",
   "born": 8,
   "died": 1,
@@ -437,46 +523,6 @@
    "orazio-arena",
    "guiseppe-arena",
    "dominick-mazzitelli"
-  ],
-  "n": 8
- },
- {
-  "name": "Giarre",
-  "born": 8,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1800,
-  "last": 1800,
-  "who": [
-   "alfio-nicotra",
-   "alfio-nicotra-1796",
-   "giuseppe-nicotra",
-   "leonarda-pennisi",
-   "marianna-musumeci",
-   "rosario-nicotra-1872",
-   "salvadore-nicotra",
-   "simone-nicotra"
-  ],
-  "n": 8
- },
- {
-  "name": "Piedimonte Etneo",
-  "born": 8,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1805,
-  "last": 1880,
-  "who": [
-   "anna-cavallaro-1805",
-   "gaetano-bonanno",
-   "gaetano-cassaniti",
-   "gaetano-mazza",
-   "maria-catalano",
-   "maria-currenti",
-   "mariano-mazza-1872",
-   "mariano-mazza-1809"
   ],
   "n": 8
  },
@@ -565,21 +611,6 @@
    "carmela-mazza",
    "franco-pellagrini",
    "franco-pellagrini"
-  ],
-  "n": 3
- },
- {
-  "name": "Riposto",
-  "born": 3,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1845,
-  "last": 1847,
-  "who": [
-   "alfio-nicotra-1845",
-   "maria-barbagallo",
-   "rosa-nicotra-1847"
   ],
   "n": 3
  },

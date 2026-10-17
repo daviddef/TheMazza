@@ -38668,6 +38668,58 @@
   "siblings": []
  },
  {
+  "id": "@Ralfia-cavallaro@",
+  "slug": "alfia-cavallaro",
+  "name": "Alfia Cavallaro",
+  "key": "Alfia Cavallaro (wife of Santo Nicotra)",
+  "given": "Alfia",
+  "surname": "Cavallaro",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1872 atto 155, read in the original"
+  ],
+  "registerNote": "«ALFIA CAVALLARO vivente» in her son's death act, October 1872.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rpaolo-nicotra@",
+    "name": "Paolo Nicotra",
+    "slug": "paolo-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Ralfio-nicotra@",
   "slug": "alfio-nicotra",
   "name": "Alfio Nicotra",
@@ -38854,6 +38906,138 @@
    }
   ],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rangela-aiello@",
+  "slug": "angela-aiello",
+  "name": "Angela Aiello",
+  "key": "Angela Aiello (wife of Raffaele Nicotra)",
+  "given": "Angela",
+  "surname": "Aiello",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1860 atto 114 and 1871 atto 207, read in the original"
+  ],
+  "registerNote": "Written AJELLO in the 1860 Tavola and AIELLO in the acts; «vivente, residente in Riposto» in December 1871, when she had buried a third child.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rmaria-nicotra-3@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1860",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgaetano-nicotra@",
+    "name": "Gaetano Nicotra",
+    "slug": "gaetano-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgaetano-nicotra-2@",
+    "name": "Gaetano Nicotra",
+    "slug": "gaetano-nicotra-1869",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rangela-autieri@",
+  "slug": "angela-autieri",
+  "name": "Angela Autieri",
+  "key": "Angela Autieri (wife of Giuseppe Nicotra)",
+  "given": "Angela",
+  "surname": "Autieri",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1849 atto 25, 1853 atto 55 and 1856 atto 13, read in the original"
+  ],
+  "registerNote": "Written AUTIERI and AUTERI in different acts. Wife of Giuseppe Nicotra, calzolajo, and mother of Rosa (1847) and the two Leonardas; a widow from 26 February 1856. THE SERAFINA POSSIBILITY, UNPROVEN: the Riposto Morti 1859 Tavola lists two children of LEONARDO SERAFINA and AUTIERI ANGELA (February and May 1859). If this is the same woman she remarried within three years of her widowhood; a second Angela Autieri cannot be excluded and no marriage act has been looked up.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rrosa-nicotra-2@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1847-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-nicotra@",
+    "name": "Leonarda Nicotra",
+    "slug": "leonarda-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-nicotra-2@",
+    "name": "Leonarda Nicotra",
+    "slug": "leonarda-nicotra-1853",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -39274,6 +39458,58 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 8
+ },
+ {
+  "id": "@Ranna-castorina@",
+  "slug": "anna-castorina",
+  "name": "Anna Castorina",
+  "key": "Anna Castorina (wife of Gaetano Nicotra)",
+  "given": "Anna",
+  "surname": "Castorina",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1824 atto 90 (Tavola)"
+  ],
+  "registerNote": "Mother of Filippa, died 1824, written CASTORINA ANNA. READ FROM THE TAVOLA, NOT THE ACT.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rfilippa-nicotra@",
+    "name": "Filippa Nicotra",
+    "slug": "filippa-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Ranna-cavallaro@",
@@ -39986,6 +40222,58 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 6
+ },
+ {
+  "id": "@Rantonio-nicotra@",
+  "slug": "antonio-nicotra",
+  "name": "Antonio Nicotra",
+  "key": "Antonio Nicotra (husband of Maria Messina)",
+  "given": "Antonio",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1839 atto 104 (Tavola)"
+  ],
+  "registerNote": "Father of Venera, died 1839. A separate household from Francesco's. READ FROM THE TAVOLA, NOT THE ACT.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rvenera-nicotra@",
+    "name": "Venera Nicotra",
+    "slug": "venera-nicotra-1839",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rcandeloro-donato@",
@@ -41223,6 +41511,73 @@
   "ancGen": null
  },
  {
+  "id": "@Rfilippa-nicotra@",
+  "slug": "filippa-nicotra",
+  "name": "Filippa Nicotra",
+  "key": "Filippa Nicotra (d. 1824, of Gaetano and Anna Castorina)",
+  "given": "Filippa",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": 1824,
+  "bornText": "",
+  "diedText": "8 October 1824",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "8 October 1824",
+    "year": 1824,
+    "place": "",
+    "text": "8 October 1824"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1824 atto 90 (Tavola, verified by native-scale crop)"
+  ],
+  "registerNote": "THE FIRST NICOTRA DECEDENT FOUND AT RIPOSTO. «NICOTRA FILIPPA, atto 90, parents GAETANO and CASTORINA ANNA, patria Riposto, died 8 October 1824». READ FROM THE TAVOLA, NOT THE ACT: the annual index gives the entry, the parents and the date, and the act itself has not been opened. NOBODY HERE IS ATTACHED TO THE TREE; the household is placed in time and place, not in the descent.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgaetano-nicotra-3@",
+    "name": "Gaetano Nicotra",
+    "slug": "gaetano-nicotra-3",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-castorina@",
+    "name": "Anna Castorina",
+    "slug": "anna-castorina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rfilippo-arena@",
   "slug": "filippo-arena",
   "name": "Filippo Arena",
@@ -41799,6 +42154,66 @@
   "ancGen": null
  },
  {
+  "id": "@Rfrancesco-nicotra@",
+  "slug": "francesco-nicotra",
+  "name": "Francesco Nicotra",
+  "key": "Francesco Nicotra (of Giuseppe and Rosaria Misano)",
+  "given": "Francesco",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Matrimoni 1830 atto 12",
+   "Morti 1833 atto 53 and 1839 atto 11 (Tavola)"
+  ],
+  "registerNote": "«D. FRANCESCO NICOTRA, born at Giarre, son of D. Giuseppe and Rosaria Misano», marrying MARIA SAPIENZA at Riposto in 1830. THE DEATHS OF 1833 AND 1839 name a Francesco as father: that Francesco is almost certainly this man, by the match of the given names and the dates, but the death entries do not give his parentage and the acts have not been opened. NOT LINKED to Simone Nicotra: a «D.» Nicotra family of Giarre, one generation younger than Simone, and nothing yet joins them.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rgiuseppa-nicotra@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-2@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1839",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgaetano-bonanno@",
   "slug": "gaetano-bonanno",
   "name": "Gaetano Bonanno",
@@ -41950,6 +42365,192 @@
   "photos": [],
   "parents": [],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgaetano-nicotra@",
+  "slug": "gaetano-nicotra",
+  "name": "Gaetano Nicotra",
+  "key": "Gaetano Nicotra (d. 1868, of Raffaele and Angela Aiello)",
+  "given": "Gaetano",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1866,
+  "died": 1868,
+  "bornText": "c. November 1866",
+  "diedText": "5 May 1868",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. November 1866",
+    "year": 1866,
+    "place": "Riposto",
+    "text": "c. November 1866"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "5 May 1868",
+    "year": 1868,
+    "place": "",
+    "text": "5 May 1868"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1868 atto 55, read in the original"
+  ],
+  "registerNote": "Died at ten in the morning at the Strada Inglese. Declarants Antonio Ligresti, 52, and Giovanni Castorina, calzolajo.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rraffaele-nicotra@",
+    "name": "Raffaele Nicotra",
+    "slug": "raffaele-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-aiello@",
+    "name": "Angela Aiello",
+    "slug": "angela-aiello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgaetano-nicotra-2@",
+  "slug": "gaetano-nicotra-1869",
+  "name": "Gaetano Nicotra",
+  "key": "Gaetano Nicotra (d. 1871, of Raffaele and Angela Aiello)",
+  "given": "Gaetano",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1869,
+  "died": 1871,
+  "bornText": "c. 1869",
+  "diedText": "15 December 1871",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1869",
+    "year": 1869,
+    "place": "Riposto",
+    "text": "c. 1869"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "15 December 1871",
+    "year": 1871,
+    "place": "",
+    "text": "15 December 1871"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1871 atto 207, read in the original"
+  ],
+  "registerNote": "The SECOND Gaetano of this household, the name given again after the first died in 1868. Died at seven at night in the Strada Giardini. Declarants Salvatore Bombara, 48, becchino of Giarre, and Ferdinando Alessi, 46, facchino.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rraffaele-nicotra@",
+    "name": "Raffaele Nicotra",
+    "slug": "raffaele-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-aiello@",
+    "name": "Angela Aiello",
+    "slug": "angela-aiello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgaetano-nicotra-3@",
+  "slug": "gaetano-nicotra-3",
+  "name": "Gaetano Nicotra",
+  "key": "Gaetano Nicotra (husband of Anna Castorina)",
+  "given": "Gaetano",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1824 atto 90 (Tavola)"
+  ],
+  "registerNote": "Father of Filippa, died 1824. READ FROM THE TAVOLA, NOT THE ACT.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rfilippa-nicotra@",
+    "name": "Filippa Nicotra",
+    "slug": "filippa-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -42263,6 +42864,133 @@
   "ancGen": 8
  },
  {
+  "id": "@Rgiuseppa-nicotra@",
+  "slug": "giuseppa-nicotra",
+  "name": "Giuseppa Nicotra",
+  "key": "Giuseppa Nicotra (d. 1833, of Francesco and Maria Sapienza)",
+  "given": "Giuseppa",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": 1833,
+  "bornText": "",
+  "diedText": "10 August 1833",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "10 August 1833",
+    "year": 1833,
+    "place": "",
+    "text": "10 August 1833"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1833 atto 53 (Tavola, verified by native-scale crop)"
+  ],
+  "registerNote": "«NICOTRA GIUSEPPA, atto 53, parents FRANCESCO and SAPIENZA MARIA, patria Riposto». Almost certainly the daughter of the 1830 marriage; she would have been under three. READ FROM THE TAVOLA, NOT THE ACT: the annual index gives the entry, the parents and the date, and the act itself has not been opened. NOBODY HERE IS ATTACHED TO THE TREE; the household is placed in time and place, not in the descent.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rfrancesco-nicotra@",
+    "name": "Francesco Nicotra",
+    "slug": "francesco-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-sapienza@",
+    "name": "Maria Sapienza",
+    "slug": "maria-sapienza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppa-ragonesi@",
+  "slug": "giuseppa-ragonesi",
+  "name": "Giuseppa Ragonesi",
+  "key": "Giuseppa Ragonesi (daughter of Teresa Nicotra)",
+  "given": "Giuseppa",
+  "surname": "Ragonesi",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1824,
+  "died": 1850,
+  "bornText": "c. 1824",
+  "diedText": "23 October 1850",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1824",
+    "year": 1824,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1824"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "23 October 1850",
+    "year": 1850,
+    "place": "",
+    "text": "23 October 1850"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "contadina",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1850 atto 94, read in the original (a first reading from a thumbnail was wrong and was corrected at native scale)"
+  ],
+  "registerNote": "«GIUSEPPA RAGONESI, di anni VENTISEI, moglie di SALVADORE BARBAGALLO, nata in PIEDIMONTE, contadina», daughter of Salvadore, contadino, and of Teresa Nicotra; died at the house of Mro Giovanni Vecchio. The act does not give her father's surname.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rteresa-nicotra@",
+    "name": "Teresa Nicotra",
+    "slug": "teresa-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiuseppe-antonio-arlotta@",
   "slug": "giuseppe-antonio-arlotta",
   "name": "Giuseppe Antonio Arlotta",
@@ -42509,6 +43237,58 @@
   "ancGen": 9
  },
  {
+  "id": "@Rgiuseppe-daidone@",
+  "slug": "giuseppe-daidone",
+  "name": "Giuseppe Daidone",
+  "key": "Giuseppe Daidone (bracciale, of Calatabiano)",
+  "given": "Giuseppe",
+  "surname": "Daidone",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale (day labourer)",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1848 atto 85, read in the original"
+  ],
+  "registerNote": "Father of the infant Rosaria. The act says he was domiciled at Riposto, in the Strada Vigna, with his wife; his daughter was BORN AT CALATABIANO about two months earlier, so the family moved to Riposto within weeks. Spelled DAIDONE at Riposto, DAJDONE at Mascali. NOT claimed as anyone's son; Calatabiano adjoins Mascali on its north, where Angela Dajdone (died 1841) was born. (Placed at Riposto, where the act places the family; Calatabiano is not one of the comuni this archive maps.)",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rrosaria-daidone@",
+    "name": "Rosaria Daidone",
+    "slug": "rosaria-daidone",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiuseppe-nicotra@",
   "slug": "giuseppe-nicotra",
   "name": "Giuseppe Nicotra",
@@ -42557,6 +43337,165 @@
     "id": "@Ralfio-nicotra@",
     "name": "Alfio Nicotra",
     "slug": "alfio-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppe-nicotra-2@",
+  "slug": "giuseppe-nicotra-1856",
+  "name": "Giuseppe Nicotra",
+  "key": "Giuseppe Nicotra (senior, husband of Leonarda Mangano)",
+  "given": "Giuseppe",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 26 February 1856",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 26 February 1856"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1856 atto 13, read in the original"
+  ],
+  "registerNote": "Named as «FU GIUSEPPE» in his son's death act, so dead by February 1856. Father of the shoemaker Giuseppe Nicotra, who was born at Riposto about 1811. NOT LINKED to Simone Nicotra (born about 1776): nothing connects them.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rleonarda-mangano@",
+    "name": "Leonarda Mangano",
+    "slug": "leonarda-mangano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [
+   {
+    "id": "@Rgiuseppe-nicotra-3@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1811",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppe-nicotra-3@",
+  "slug": "giuseppe-nicotra-1811",
+  "name": "Giuseppe Nicotra",
+  "key": "Giuseppe Nicotra (son of Giuseppe senior, calzolajo, husband of Angela Autieri)",
+  "given": "Giuseppe",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1811,
+  "died": 1856,
+  "bornText": "c. 1811",
+  "diedText": "26 February 1856",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1811",
+    "year": 1811,
+    "place": "Riposto",
+    "text": "c. 1811"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "26 February 1856",
+    "year": 1856,
+    "place": "",
+    "text": "26 February 1856"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "calzolajo (shoemaker)",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1856 atto 13, read in the original",
+   "Nati 1847 and 1848 (Tavola)",
+   "Morti 1849 atto 25 and 1853 atto 55, read in the original"
+  ],
+  "registerNote": "«GIUSEPPE NICOTRA, di anni QUARANTAQUATTRO, MARITO DI ANGELA AUTERI, nato in Riposto, di professione CALZOLAJO», son of the late Giuseppe and the late Leonarda Mangano; died at nine in the morning at Strada Maria Teresa, Riposto. Declarants Rosario Giamingo, 40, and Domenico Grasso, 62, becchino of Giarre. THREE CHILDREN ARE KNOWN: Rosa (registered 17 November 1847), Leonarda (died 18 February 1849 at one month and 26 days) and a second Leonarda (died 23 July 1853 at five months). He is a shoemaker in every act that names a trade. His widow Angela Autieri appears to have remarried — see her row.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-2@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1856",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-mangano@",
+    "name": "Leonarda Mangano",
+    "slug": "leonarda-mangano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [
+   {
+    "id": "@Rrosa-nicotra-2@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1847-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-nicotra@",
+    "name": "Leonarda Nicotra",
+    "slug": "leonarda-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-nicotra-2@",
+    "name": "Leonarda Nicotra",
+    "slug": "leonarda-nicotra-1853",
     "living": false,
     "via": "read"
    }
@@ -42781,6 +43720,208 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rleonarda-mangano@",
+  "slug": "leonarda-mangano",
+  "name": "Leonarda Mangano",
+  "key": "Leonarda Mangano (wife of Giuseppe Nicotra)",
+  "given": "Leonarda",
+  "surname": "Mangano",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 26 February 1856",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 26 February 1856"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1856 atto 13, read in the original"
+  ],
+  "registerNote": "Named as «FU LEONARDA MANGANO» in her son's death act, with the note that she was domiciled at FIUMEFREDDO — so she was a Fiumefreddo woman, or had gone back there; the act's «domiciliata» and its «fu» sit awkwardly together. (Placed at Riposto, where the act places the family; Fiumefreddo is not one of the comuni this archive maps.)",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rgiuseppe-nicotra-2@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1856",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-3@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1811",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rleonarda-nicotra@",
+  "slug": "leonarda-nicotra",
+  "name": "Leonarda Nicotra",
+  "key": "Leonarda Nicotra (d. 1849, of Giuseppe and Angela Autieri)",
+  "given": "Leonarda",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1848,
+  "died": 1849,
+  "bornText": "c. 22 December 1848",
+  "diedText": "18 February 1849",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 22 December 1848",
+    "year": 1848,
+    "place": "Riposto",
+    "text": "c. 22 December 1848"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "18 February 1849",
+    "year": 1849,
+    "place": "",
+    "text": "18 February 1849"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1849 atto 25, read in the original",
+   "Nati 1848 (Tavola)"
+  ],
+  "registerNote": "«LEONARDA NICOTRA, di mesi UNO e giorni VENTISEI, lattante, NATA IN RIPOSTO», in the house at Strada Vignetti. The Tavola's surname looked like «NIESTRA» in this clerk's hand and the entry was recognised only by its parents. The 1848 BIRTH Tavola gives the forename as Leonardo; the death act's Leonarda shows a girl, so the birth row's forename is very likely a misreading. Declarants Giuseppe Trovatello, 50, becchino of Giarre, and Rosario Greco, 33, bastagio of Riposto — the same two men who attest every Riposto death of that year.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-3@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1811",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-autieri@",
+    "name": "Angela Autieri",
+    "slug": "angela-autieri",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rleonarda-nicotra-2@",
+  "slug": "leonarda-nicotra-1853",
+  "name": "Leonarda Nicotra",
+  "key": "Leonarda Nicotra (d. 1853, of Giuseppe and Angela Autieri)",
+  "given": "Leonarda",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1853,
+  "died": 1853,
+  "bornText": "c. 10 February 1853",
+  "diedText": "23 July 1853",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 10 February 1853",
+    "year": 1853,
+    "place": "Riposto",
+    "text": "c. 10 February 1853"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "23 July 1853",
+    "year": 1853,
+    "place": "",
+    "text": "23 July 1853"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1853 atto 55, read in the original"
+  ],
+  "registerNote": "The SECOND Leonarda of this household: the name was given again after the first died in February 1849. Died at Strada Maria Teresa. Declarants Giuseppe Trovatello, 54, becchino of Giarre, and Giuseppe Ferlito, 68, bastagio. The Tavola again wrote the forename as «Leonardo»; the act says Leonarda.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-3@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1811",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-autieri@",
+    "name": "Angela Autieri",
+    "slug": "angela-autieri",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -43580,6 +44721,58 @@
   "ancGen": null
  },
  {
+  "id": "@Rmaria-messina@",
+  "slug": "maria-messina",
+  "name": "Maria Messina",
+  "key": "Maria Messina (wife of Antonio Nicotra)",
+  "given": "Maria",
+  "surname": "Messina",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1839 atto 104 (Tavola)"
+  ],
+  "registerNote": "Mother of Venera, died 1839, written MESSINA MARIA. READ FROM THE TAVOLA, NOT THE ACT.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rvenera-nicotra@",
+    "name": "Venera Nicotra",
+    "slug": "venera-nicotra-1839",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rmaria-nicotra@",
   "slug": "maria-nicotra-1",
   "name": "Maria Nicotra",
@@ -43616,6 +44809,200 @@
   "photos": [],
   "parents": [],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rmaria-nicotra-2@",
+  "slug": "maria-nicotra-1839",
+  "name": "Maria Nicotra",
+  "key": "Maria Nicotra (young child, d. 1839, of Francesco and Maria)",
+  "given": "Maria",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": 1839,
+  "bornText": "",
+  "diedText": "10 February 1839",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "10 February 1839",
+    "year": 1839,
+    "place": "",
+    "text": "10 February 1839"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1839 atto 11 (Tavola, verified by native-scale crop)"
+  ],
+  "registerNote": "«NICOTRA MARIA, parents FRANCESCO and a MARIA (surname unresolved, reads Spirea/Sapienza)». PLAUSIBLY a second daughter of the same couple; the mother's surname is not clean. READ FROM THE TAVOLA, NOT THE ACT: the annual index gives the entry, the parents and the date, and the act itself has not been opened. NOBODY HERE IS ATTACHED TO THE TREE; the household is placed in time and place, not in the descent.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rfrancesco-nicotra@",
+    "name": "Francesco Nicotra",
+    "slug": "francesco-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-sapienza@",
+    "name": "Maria Sapienza",
+    "slug": "maria-sapienza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rmaria-nicotra-3@",
+  "slug": "maria-nicotra-1860",
+  "name": "Maria Nicotra",
+  "key": "Maria Nicotra (young child, d. 1860, of Raffaele and Angela Aiello)",
+  "given": "Maria",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1860,
+  "died": 1860,
+  "bornText": "c. June 1860",
+  "diedText": "26 August 1860",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. June 1860",
+    "year": 1860,
+    "place": "Riposto",
+    "text": "c. June 1860"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "26 August 1860",
+    "year": 1860,
+    "place": "",
+    "text": "26 August 1860"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1860 atto 114, read in the original"
+  ],
+  "registerNote": "Born and dead at Riposto, two months old. The first child of this household found.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rraffaele-nicotra@",
+    "name": "Raffaele Nicotra",
+    "slug": "raffaele-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-aiello@",
+    "name": "Angela Aiello",
+    "slug": "angela-aiello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rmaria-sapienza@",
+  "slug": "maria-sapienza",
+  "name": "Maria Sapienza",
+  "key": "Maria Sapienza (wife of Francesco Nicotra)",
+  "given": "Maria",
+  "surname": "Sapienza",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Matrimoni 1830 atto 12",
+   "Morti 1833 atto 53 (Tavola)"
+  ],
+  "registerNote": "Married D. Francesco Nicotra at Riposto in 1830 and named SAPIENZA MARIA as the mother in the 1833 death entry of Giuseppa. The 1839 entry reads her surname as Spirea or Sapienza.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rgiuseppa-nicotra@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-2@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1839",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -44292,6 +45679,73 @@
   "ancGen": 8
  },
  {
+  "id": "@Rpaolo-nicotra@",
+  "slug": "paolo-nicotra",
+  "name": "Paolo Nicotra",
+  "key": "Paolo Nicotra (of Santo and Alfia Cavallaro)",
+  "given": "Paolo",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1871,
+  "died": 1872,
+  "bornText": "c. May 1871",
+  "diedText": "29 October 1872",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. May 1871",
+    "year": 1871,
+    "place": "Giarre",
+    "text": "c. May 1871"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "29 October 1872",
+    "year": 1872,
+    "place": "",
+    "text": "29 October 1872"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1872 atto 155, read in the original"
+  ],
+  "registerNote": "«PAOLO NICOTRA, di mesi DICIASSETTE, NATO NEL COMUNE DI GIARRE, residente nella campagna di questo Comune». Died at six in the morning. Declarants Salvatore Bombara, 49, becchino of Giarre, and Antonino Ligresti, 65, bettolaro. His Giarre birth act, of 1871, has not been looked up.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsanto-nicotra@",
+    "name": "Santo Nicotra",
+    "slug": "santo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfia-cavallaro@",
+    "name": "Alfia Cavallaro",
+    "slug": "alfia-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rpaolo-ventrice@",
   "slug": "paolo-ventrice",
   "name": "Paolo Ventrice",
@@ -44629,6 +46083,72 @@
   "ancGen": null
  },
  {
+  "id": "@Rraffaele-nicotra@",
+  "slug": "raffaele-nicotra",
+  "name": "Raffaele Nicotra",
+  "key": "Raffaele Nicotra (tinsmith, husband of Angela Aiello)",
+  "given": "Raffaele",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "stagnaro / maestro di latta (tinsmith)",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1860 atto 114, 1868 atto 55 and 1871 atto 207, read in the original"
+  ],
+  "registerNote": "Written RAFFAELLO in 1860 and 1868 and RAFFAELE in 1871 and in the 1872 Tavola. His trade is written «stegnatore», «stagnaro» and «MAESTRO DI LATTA» — a tinsmith. Living at Riposto in the Strada Inglese in 1868 and the Strada Giardini in 1871. THREE OF HIS CHILDREN DIED YOUNG: Maria (26 August 1860, two months), Gaetano (5 May 1868, eighteen months) and a second Gaetano (15 December 1871, two years). His own parents are not named in any act read. NOT LINKED to Simone Nicotra or to any other household.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rmaria-nicotra-3@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1860",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgaetano-nicotra@",
+    "name": "Gaetano Nicotra",
+    "slug": "gaetano-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgaetano-nicotra-2@",
+    "name": "Gaetano Nicotra",
+    "slug": "gaetano-nicotra-1869",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rraffaele-polistina@",
   "slug": "raffaele-polistina",
   "name": "Raffaele Polistina",
@@ -44869,9 +46389,9 @@
   "living": false,
   "fromRegister": true,
   "born": 1847,
-  "died": null,
+  "died": 1850,
   "bornText": "15 November 1847",
-  "diedText": "",
+  "diedText": "3 November 1850",
   "events": [
    {
     "what": "born",
@@ -44880,6 +46400,14 @@
     "year": 1847,
     "place": "Riposto",
     "text": "15 November 1847"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "3 November 1850",
+    "year": 1850,
+    "place": "",
+    "text": "3 November 1850"
    }
   ],
   "birthPlace": "Riposto",
@@ -44888,9 +46416,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Riposto, Nati 1847 atto 152 (Tavola)"
+   "Riposto, Nati 1847 atto 152 (Tavola)",
+   "Riposto, Morti 1850 atto 96, read in the original"
   ],
-  "registerNote": "«152. NICOTRA ROSA — NICOTRA SALVADORE / Barbagallo Maria, 15 [Nov]». SHE IS NOT THE OTHER ROSA NICOTRA REGISTERED AT RIPOSTO THAT SAME WEEK: the entry above hers is a Rosa of GIUSEPPE NICOTRA and Angela Autieri, dated 17 November 1847, a separate household this archive has not placed. Nor is she the bare ROSA NICOTRA already in this archive from the family's own file, who has no dates and no source. She carries her paternal grandmother's name, Rosa Pappalardo, which is naming custom and weak evidence. Her father died at Mascali thirteen months after she was registered. READ FROM THE TAVOLA, NOT THE ACT: the annual index gives the entry, the parents and the date, and the act itself has not been opened. The Tavola's date column is the date of the act and may follow the birth by a few days. Generation is inferred from the parent's, against SIMONE NICOTRA at gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent.",
+  "registerNote": "«152. NICOTRA ROSA — NICOTRA SALVADORE / Barbagallo Maria, 15 [Nov]». SHE IS NOT THE OTHER ROSA NICOTRA REGISTERED AT RIPOSTO THAT SAME WEEK: the entry above hers is a Rosa of GIUSEPPE NICOTRA and Angela Autieri, dated 17 November 1847, a separate household this archive has not placed. Nor is she the bare ROSA NICOTRA already in this archive from the family's own file, who has no dates and no source. She carries her paternal grandmother's name, Rosa Pappalardo, which is naming custom and weak evidence. Her father died at Mascali thirteen months after she was registered. READ FROM THE TAVOLA, NOT THE ACT: the annual index gives the entry, the parents and the date, and the act itself has not been opened. The Tavola's date column is the date of the act and may follow the birth by a few days. Generation is inferred from the parent's, against SIMONE NICOTRA at gen 7 and born about 1776. NOBODY HERE IS ATTACHED TO THE TREE; the number places them in time, not in the descent. UPDATE, 17 OCTOBER 2026: SHE DIED AT THREE. Riposto Morti 1850 atto 96 (3 November 1850) was opened: ROSA NICOTRA, aged three, born at Riposto, daughter of the LATE Salvadore and of Maria Barbagallo, who was still living with her in the countryside of Riposto. The same act confirms that her mother stayed at Riposto after the husband's death at Mascali.",
   "registerGen": "5",
   "photos": [],
   "parents": [
@@ -44905,6 +46434,132 @@
     "id": "@Rmaria-barbagallo@",
     "name": "Maria Barbagallo",
     "slug": "maria-barbagallo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rrosa-nicotra-2@",
+  "slug": "rosa-nicotra-1847-2",
+  "name": "Rosa Nicotra",
+  "key": "Rosa Nicotra (registered 1847, of Giuseppe and Angela Autieri)",
+  "given": "Rosa",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1847,
+  "died": null,
+  "bornText": "17 November 1847",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "17 November 1847",
+    "year": 1847,
+    "place": "Riposto",
+    "text": "17 November 1847"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Nati 1847 (Tavola)"
+  ],
+  "registerNote": "The Rosa registered at Riposto in the same week as the Rosa of Salvadore Nicotra and Maria Barbagallo — the two are not the same child. NOT SEEN AGAIN, and no death has been found under this name; whether she survived is not known. READ FROM THE TAVOLA, NOT THE ACT. Her parents' household is placed by the acts of 1849, 1853 and 1856.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-3@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1811",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-autieri@",
+    "name": "Angela Autieri",
+    "slug": "angela-autieri",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rrosaria-daidone@",
+  "slug": "rosaria-daidone",
+  "name": "Rosaria Daidone",
+  "key": "Rosaria Daidone",
+  "given": "Rosaria",
+  "surname": "Daidone",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1848,
+  "died": 1848,
+  "bornText": "c. June 1848",
+  "diedText": "28 August 1848",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. June 1848",
+    "year": 1848,
+    "place": "Riposto",
+    "text": "c. June 1848"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "28 August 1848",
+    "year": 1848,
+    "place": "",
+    "text": "28 August 1848"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "lattante (infant)",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1848 atto 85, read in the original"
+  ],
+  "registerNote": "THE FIRST DAIDONE FOUND AT RIPOSTO. «ROSARIA DAIDONE, DI MESI DUE, celibe, NATA IN CALATABIANO». Registered on 29 August 1848; the Tavola gives the death as 28 August. Declarants Giuseppe Trovatello, 49, becchino of Giarre, and Rosario Greco, 32. Not Marianna Daidone of Simone Nicotra's household (born about 1780); a different Daidone family, arrived from Calatabiano. (Placed at Riposto, where the act places the family; Calatabiano is not one of the comuni this archive maps.)",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-daidone@",
+    "name": "Giuseppe Daidone",
+    "slug": "giuseppe-daidone",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsebastiana-testa@",
+    "name": "Sebastiana Testa",
+    "slug": "sebastiana-testa",
     "living": false,
     "via": "read"
    }
@@ -44993,6 +46648,50 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 6
+ },
+ {
+  "id": "@Rsalvadore-barbagallo@",
+  "slug": "salvadore-barbagallo",
+  "name": "Salvadore Barbagallo",
+  "key": "Salvadore Barbagallo (husband of Giuseppa Ragonesi)",
+  "given": "Salvadore",
+  "surname": "Barbagallo",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1850 atto 94, read in the original"
+  ],
+  "registerNote": "Husband of Giuseppa Ragonesi, a widower from 23 October 1850.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rsalvadore-nicotra@",
@@ -45235,6 +46934,110 @@
   "photos": [],
   "parents": [],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsanto-nicotra@",
+  "slug": "santo-nicotra",
+  "name": "Santo Nicotra",
+  "key": "Santo Nicotra (husband of Alfia Cavallaro)",
+  "given": "Santo",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1872 atto 155, read in the original"
+  ],
+  "registerNote": "Father of Paolo, born at GIARRE in 1871 and living in the countryside of Riposto in 1872. No other act names him; NOT LINKED to any other Nicotra household.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rpaolo-nicotra@",
+    "name": "Paolo Nicotra",
+    "slug": "paolo-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsebastiana-testa@",
+  "slug": "sebastiana-testa",
+  "name": "Sebastiana Testa",
+  "key": "Sebastiana Testa (wife of Giuseppe Daidone)",
+  "given": "Sebastiana",
+  "surname": "Testa",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1848 atto 85, read in the original"
+  ],
+  "registerNote": "Mother of the infant Rosaria Daidone, domiciled at Riposto with her husband in August 1848.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rrosaria-daidone@",
+    "name": "Rosaria Daidone",
+    "slug": "rosaria-daidone",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -45638,6 +47441,58 @@
   "ancGen": null
  },
  {
+  "id": "@Rteresa-nicotra@",
+  "slug": "teresa-nicotra",
+  "name": "Teresa Nicotra",
+  "key": "Teresa Nicotra (mother of Giuseppa Ragonesi)",
+  "given": "Teresa",
+  "surname": "Nicotra",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Piedimonte Etneo",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1850 atto 94, read in the original"
+  ],
+  "registerNote": "A NICOTRA WOMAN FOUND INSIDE A DEATH ACT OF ANOTHER SURNAME, which no sweep of the N section could have reached. Named only as the mother, «TERESA NICOTRA, domiciliata ivi pure», of Giuseppa Ragonesi, who was born at Piedimonte; so Teresa probably lived at PIEDIMONTE ETNEO — the comune of this archive's Mazza line — and was at Riposto, or had moved there, by 1850. Whether Nicotra is her own or her married surname is not stated. Her husband is named only as «Salvadore, contadino». NOT LINKED.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rgiuseppa-ragonesi@",
+    "name": "Giuseppa Ragonesi",
+    "slug": "giuseppa-ragonesi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rteresa-polistina@",
   "slug": "teresa-polistina",
   "name": "Teresa Polistina",
@@ -45764,6 +47619,73 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 6
+ },
+ {
+  "id": "@Rvenera-nicotra@",
+  "slug": "venera-nicotra-1839",
+  "name": "Venera Nicotra",
+  "key": "Venera Nicotra (d. 1839, of Antonio and Maria Messina)",
+  "given": "Venera",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": 1839,
+  "bornText": "",
+  "diedText": "10 June 1839",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Riposto",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "10 June 1839",
+    "year": 1839,
+    "place": "",
+    "text": "10 June 1839"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Morti 1839 atto 104 (Tavola, verified by native-scale crop)"
+  ],
+  "registerNote": "«NICOTRA VENERA, parents ANTONIO and MESSINA MARIA». READ FROM THE TAVOLA, NOT THE ACT: the annual index gives the entry, the parents and the date, and the act itself has not been opened. NOBODY HERE IS ATTACHED TO THE TREE; the household is placed in time and place, not in the descent.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rantonio-nicotra@",
+    "name": "Antonio Nicotra",
+    "slug": "antonio-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-messina@",
+    "name": "Maria Messina",
+    "slug": "maria-messina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rvittoria-mollo@",
