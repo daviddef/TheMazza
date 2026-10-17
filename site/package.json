@@ -57,7 +57,7 @@
     "check:familypages:selftest": "python3 ../tools/check_familypages.py --selftest"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#dabcb63c73fe95753638f2d4230c184fd2e07def",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#02d9aa5bd0871bd77dbe9d3e69b65e47a236968a",
     "astro": "^5.18.2"
   },
   "devDependencies": {
