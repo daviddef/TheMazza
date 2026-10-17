@@ -1,0 +1,129 @@
+{
+  "title": "The Mazza Archive",
+  "front": {
+    "label": "Front matter",
+    "intro": "How to read this book, and the rules it keeps.",
+    "chapters": [
+      { "path": "/", "title": "The cover", "blurb": "Three towns, one strait, and a suburb of Brisbane." },
+      { "path": "/about/", "title": "About", "blurb": "Every claim carries one of five words, every correction is published, and living people are named with their relationships and place, and nothing more." },
+      { "path": "/method/", "title": "Method", "blurb": "Which claims are documents, which are inferences, and which are things the family remembers: the rules." }
+    ]
+  },
+  "parts": [
+    {
+      "id": "where-from",
+      "numeral": "I",
+      "title": "Three towns on a strait",
+      "intro": "Four Sicilian comuni lie close together around Etna (Piedimonte Etneo, Giarre, Mascali and Riposto), and on the other side of the strait are the Calabrian towns of Briatico and Scilla. The last chapter asks what the surnames mean, and how much it tells you that two people share one.",
+      "flags": "🇮🇹",
+      "chapters": [
+        { "path": "/atlas/", "title": "The Atlas", "blurb": "Every place this archive can put a person in.", "group": "The map" },
+        { "path": "/piedimonte-etneo/", "title": "Piedimonte Etneo", "blurb": "The town on the north-east flank of Etna that gave this family its surname.", "group": "Sicily, at the foot of Etna" },
+        { "path": "/giarre/", "title": "Giarre", "blurb": "A town named by a document, contradicted by eleven of its own years: the largest comune in this archive." },
+        { "path": "/mascali/", "title": "Mascali", "blurb": "The town Etna swallowed whole in 1928." },
+        { "path": "/riposto/", "title": "Riposto", "blurb": "The lower town, separate from Giarre since 1821." },
+        { "path": "/briatico/", "title": "Briatico", "blurb": "A small comune on the Tyrrhenian coast of Calabria that sent its people to three different continents.", "group": "Calabria, across the strait" },
+        { "path": "/scilla/", "title": "Scilla", "blurb": "The rock at the northern gate of the Strait of Messina, and the fishing quarter beneath it." },
+        { "path": "/name/", "title": "The Name", "blurb": "What the surnames mean, roughly how common they are, and how much sharing one tells you.", "group": "The names" }
+      ]
+    },
+    {
+      "id": "four-grandparents",
+      "numeral": "II",
+      "title": "Four grandparents, four families",
+      "intro": "Every person has four grandparents, and they are the honest unit of a family history: four separate families, four separate depths of evidence. These four were born within eight years of each other in three towns that had no connection. The chapters take the quarters in turn: Piedimonte Etneo (the Mazza and the Nicotra), Briatico (the Prostamo and the families around them), and Scilla (the Arena, and the Polistena).",
+      "flags": "🇮🇹",
+      "chapters": [
+        { "path": "/lines/", "title": "The Four Quarters", "blurb": "Four separate families, four separate depths of evidence, side by side.", "group": "The line, and the four quarters together" },
+        { "path": "/trees/", "title": "The trees", "blurb": "Four Italian families, four different depths of proof, each drawn in the form its evidence supports." },
+        { "path": "/tree/", "title": "Our line, drawn", "blurb": "Every branch of the ancestry followed to the end of what is known, as a single chart." },
+        { "path": "/direct-line/", "title": "The Spine", "blurb": "The longest descent the family tree asserts, from Briatico in 1697 to Brisbane; its top four generations carry no source." },
+        { "path": "/ancestors/", "title": "The Ancestors", "blurb": "Everyone standing behind the line, counted generation by generation against the number there ought to be." },
+        { "path": "/mazza/", "title": "The Mazza", "blurb": "The surname this archive is named for is also the most fragmented thing in it.", "group": "Piedimonte Etneo quarter" },
+        { "path": "/nicotra/", "title": "The Nicotra", "blurb": "A line that reaches generation six on both sides and crosses four comuni; the man it is named for is still missing." },
+        { "path": "/the-name-line/", "title": "The Mazza Name Line", "blurb": "The Mazza name reached back four generations and stopped; it now runs seven, and every step in Sicily is a document." },
+        { "path": "/prostamo/", "title": "The Prostamo", "blurb": "Every Prostamo in the archive, and how they are and are not joined to one another and to the other families.", "group": "Briatico quarter" },
+        { "path": "/melluso/", "title": "The Melluso", "blurb": "Every Melluso in the archive, and how they are and are not joined to one another and to the other families." },
+        { "path": "/anile/", "title": "The Anile", "blurb": "Every Anile in the archive, and how they are and are not joined to one another and to the other families." },
+        { "path": "/barbuto/", "title": "The Barbuto", "blurb": "Every Barbuto in the archive, and how they are and are not joined to one another and to the other families." },
+        { "path": "/ventrice/", "title": "The Ventrice", "blurb": "Every Ventrice in the archive, and how they are and are not joined to one another and to the other families." },
+        { "path": "/arena/", "title": "The Arena", "blurb": "Sailors of Scilla for at least four generations: the family tree has the wrong father at the top, and the registers have the rest.", "group": "Scilla quarter: the Arena" },
+        { "path": "/costa/", "title": "The Costa", "blurb": "Every Costa in the archive, and how they are and are not joined to one another and to the other families." },
+        { "path": "/arlotta/", "title": "The Arlotta", "blurb": "Every Arlotta in the archive, and how they are and are not joined to one another and to the other families." },
+        { "path": "/russo/", "title": "The Russo", "blurb": "Every Russo in the archive, and how they are and are not joined to one another and to the other families." },
+        { "path": "/polistena/", "title": "The Polistena", "blurb": "Every Polistena or Polistina in the archive, and how they are and are not joined to one another and to the other families.", "group": "Scilla quarter: the Polistena" },
+        { "path": "/donato/", "title": "The Donato", "blurb": "Every Donato in the archive, and how they are and are not joined to one another and to the other families." },
+        { "path": "/pontillo/", "title": "The Pontillo", "blurb": "Every Pontillo in the archive, and how they are and are not joined to one another and to the other families." },
+        { "path": "/sofi/", "title": "The Sofi", "blurb": "Every Sofi in the archive, and how they are and are not joined to one another and to the other families." }
+      ]
+    },
+    {
+      "id": "crossing",
+      "numeral": "III",
+      "title": "The crossings, and Brisbane",
+      "intro": "The family emigrated twice, in two waves half a century apart, to opposite sides of the world: the first went to America, the second to Australia, and both left from the same three towns. Every arrival after the Second World War came through Genoa, and in Brisbane four families from three towns became one.",
+      "flags": "🇮🇹 🇺🇸 🇦🇷 🇦🇺",
+      "chapters": [
+        { "path": "/crossings/", "title": "The Crossings", "blurb": "Two waves of emigration half a century apart, to opposite sides of the world: America first, Australia second." },
+        { "path": "/brisbane/", "title": "Brisbane", "blurb": "Where four families from three towns became one." },
+        { "path": "/nudgee/", "title": "Nudgee", "blurb": "Graves with a plot number and an exact date, and four plots in a row." }
+      ]
+    },
+    {
+      "id": "lines-join",
+      "numeral": "IV",
+      "title": "How the lines join",
+      "intro": "Every surname in this archive is here because a person married a person, and the marriages say which families came with whom. The Piedimonte Etneo Mazza who were once joined to the family by nothing are joined to it, and any person's aunts, uncles and cousins can be drawn, each line coloured by what joins the two. The family file arrived in separate pieces, and a file that draws as one tree is not necessarily one family.",
+      "chapters": [
+        { "path": "/marriages/", "title": "The Marriages", "blurb": "Who married whom, and which families came with them." },
+        { "path": "/the-hundred-and-ten/", "title": "The Hundred and Ten", "blurb": "Once the largest open question: a hundred and ten Piedimonte Etneo Mazza joined to the family by nothing at all." },
+        { "path": "/bloodline/", "title": "Blood relatives, drawn", "blurb": "Choose a person to see the aunts, uncles and cousins, each line coloured by what joins the two people." },
+        { "path": "/components/", "title": "The Pieces", "blurb": "The export arrived as separate pieces; a file that draws as one tree is not necessarily one family." }
+      ]
+    },
+    {
+      "id": "everyone",
+      "numeral": "V",
+      "title": "Everyone, and everything in order",
+      "intro": "Everyone the archive names, every name and how many different people bore it, every place, the family reassembled as households, every record the archive has put its eyes on, and the events in order. A person's page links back to the list of people, a name's page to Every Name, a place's page to Places.",
+      "chapters": [
+        { "path": "/people/", "title": "The People", "blurb": "Everyone the archive names. A living person is named with their relationships and their town and country, and nothing more." },
+        { "path": "/who/", "title": "Every Name", "blurb": "A name is not a person: every name in the archive, and how many different people bore it." },
+        { "path": "/places/", "title": "Places", "blurb": "Every place this archive can attach to a person, with the years it covers and how many events fall there." },
+        { "path": "/households/", "title": "Households", "blurb": "The family reassembled as households rather than as a pedigree." },
+        { "path": "/register/", "title": "The Register", "blurb": "Every record this archive has actually put its eyes on, with what it says and where it is." },
+        { "path": "/timeline/", "title": "The Timeline", "blurb": "Everything this archive can put a year against, in order, and what each one rests on." }
+      ]
+    },
+    {
+      "id": "how-we-know",
+      "numeral": "VI",
+      "title": "How we know, and what is missing",
+      "intro": "What this archive rests on, and for every line of it whether the document itself has been read or only an index to it. The investigations come next: the Sicilian and Queensland registers, the audit of searches that proved to be open, and the test of the claim that runs to 1697. Last come what has been read, the questions that remain, where a document and the family tree disagree, and what is being done as opposed to what is known.",
+      "chapters": [
+        { "path": "/sources/", "title": "Sources", "blurb": "What this archive rests on, and whether the document itself has been read or only an index to it.", "group": "What it rests on" },
+        { "path": "/documents/", "title": "Documents", "blurb": "The photographs and papers held in the family's own tree, saved down before the links expired." },
+        { "path": "/register-1879/", "title": "The Sicilian Registers", "blurb": "Nine annual indexes and six acts, hunting one man who is still missing.", "group": "Investigations" },
+        { "path": "/queensland/", "title": "The Queensland Register", "blurb": "The Registry's historical index is free, authoritative, and can be searched by a father's or a mother's name." },
+        { "path": "/audit/", "title": "The Audit", "blurb": "A search that had been closed turned out to be open, so each negative was re-read to ask what set its window." },
+        { "path": "/briatico-tested/", "title": "Testing the 1697", "blurb": "The largest claim, eleven generations to Briatico about 1697: four of those generations rest on nothing, and are not testable online." },
+        { "path": "/searched/", "title": "What Has Been Read", "blurb": "A search that found nothing is still a result: what has been done and what is still outstanding.", "group": "What is missing, and what is being done" },
+        { "path": "/open-questions/", "title": "Open Questions", "blurb": "Each question written down with the document that would settle it, and where that document is." },
+        { "path": "/corrections/", "title": "Corrections", "blurb": "Every place where a document and the family tree disagree, with the source for each." },
+        { "path": "/changes/", "title": "What changed", "blurb": "What moved, when, and what the record was, including what this archive got wrong and took back." },
+        { "path": "/errands/", "title": "Errands", "blurb": "Records a comune, a diocese or a state archive holds and does not publish, and what would go in the letter for each." },
+        { "path": "/worklist/", "title": "The work list", "blurb": "What is being done here, as opposed to what is known." }
+      ]
+    }
+  ],
+  "inherit": {
+    "/people/": "/people/",
+    "/who/": "/who/",
+    "/places/": "/places/"
+  },
+  "outside": [
+    "/search/",
+    "/families/",
+    "/what-changed/"
+  ]
+}

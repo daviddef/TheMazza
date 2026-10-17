@@ -49,6 +49,7 @@ TYPED_DIRS = ("data", "site/src/data")
 HAND_EDITED = {
     "data/gazetteer-local.json",     # coordinates set by hand, each with its reason
     "data/pe-volumes.json",          # register volumes and their arks, filled in by hand as they are found
+    "site/src/data/book.json",       # the book's order: part titles, intros and one-line blurbs, written by hand
     "site/src/data/errands.json",    # the letters and orders this archive still needs: written by hand
     "site/src/data/place-spellings.json",   # misspellings of place names, each with a note
     "site/src/data/the-110.json",    # the join of the hundred and ten: a page's text, written by hand
