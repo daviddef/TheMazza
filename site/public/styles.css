@@ -725,3 +725,38 @@ li{margin:5px 0}
 .wl-pill[style*="#B04A16"]{--c:var(--st-blocked)!important}
 .wl-pill[style*="#12703F"]{--c:var(--st-done)!important}
 .wl-pill[style*="#7A7A7A"]{--c:var(--st-struck)!important}
+
+/* LAYOUT PASS, 17 October 2026 (layout audit). Tables and the work-list note only.
+   1. A table cell breaks a word only when the word alone is wider than the column:
+      `break-word` keeps the column's minimum at its longest word (`anywhere` would let it
+      shrink to one letter and stack a date three lines high). No automatic hyphens.
+   2. On a full-width desktop page (1080px and up, where the page column is at its widest)
+      no column is narrower than 6.25rem, so a short label or a year span
+      beside a long note column is not squeezed into a sliver. Below that the content decides, as
+      before: a floor on every column would make a mid-width table scroll sideways.
+   3. A date that leads a row (the log's WHEN column) stays on one line.
+   4. A table in a prose box, and a work-list note, use the width of the page column; the
+      paragraphs, lists and quotations in them keep the reading measure. */
+td,th{overflow-wrap:break-word;word-break:normal;hyphens:manual}
+.scroll{width:100%}
+td.small.mono:first-child{white-space:nowrap}
+/* The log's last column is free prose and one row carries a bare 120-character web
+   address, whose width made the whole table wider than the page column. That column
+   may break inside such a word on a desktop page (on a phone it would shrink to a sliver
+   beside the scrolling table); no other table does. The column before it keeps a
+   floor so the two prose columns share the width instead of one taking it all. */
+@media (min-width:721px){
+  .ft-table td:nth-child(3){min-width:16rem}
+}
+@media (min-width:1080px){
+  td,th{min-width:6.25rem}
+}
+@media (min-width:901px){
+  .ft-table td:nth-child(4){overflow-wrap:anywhere}
+}
+div.prose{max-width:none}
+div.prose>*{max-width:min(100%,45.6rem)}
+div.prose>:is(table,.scroll,figure,.rec,.panel,.card,.grid){max-width:none}
+div.wl-one div.wl-note{max-width:none}
+div.wl-one div.wl-note>*{max-width:min(100%,36rem)}
+div.wl-one div.wl-note>:is(table,.scroll){max-width:none}
