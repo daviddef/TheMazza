@@ -29,8 +29,8 @@
  },
  {
   "surname": "Nicotra",
-  "n": 67,
-  "dead": 67,
+  "n": 70,
+  "dead": 70,
   "living": 0,
   "first": 1740,
   "last": 1963,
@@ -1611,6 +1611,17 @@
   ]
  },
  {
+  "surname": "Vitale",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Mangano",
   "n": 1,
   "dead": 1,
@@ -1729,6 +1740,17 @@
  },
  {
   "surname": "Musumeci",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
+  "surname": "Trovato",
   "n": 1,
   "dead": 1,
   "living": 0,

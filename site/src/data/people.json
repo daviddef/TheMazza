@@ -39046,6 +39046,13 @@
     "slug": "salvadore-nicotra-1827",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-6@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1810",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -43944,6 +43951,66 @@
   "ancGen": null
  },
  {
+  "id": "@Rgiuseppa-vitale@",
+  "slug": "giuseppa-vitale",
+  "name": "Giuseppa Vitale",
+  "key": "Giuseppa Vitale (wife of Salvadore Nicotra, father of Rosa)",
+  "given": "Giuseppa",
+  "surname": "Vitale",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 1870",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 1870"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Morti 1870 atto 31, read in the original"
+  ],
+  "registerNote": "Named «fu GIUSEPPA VITALE» in her daughter Rosa's death act.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rrosa-nicotra-3@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1830",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiuseppe-antonio-arlotta@",
   "slug": "giuseppe-antonio-arlotta",
   "name": "Giuseppe Antonio Arlotta",
@@ -44573,6 +44640,73 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppe-nicotra-6@",
+  "slug": "giuseppe-nicotra-1810",
+  "name": "Giuseppe Nicotra",
+  "key": "Giuseppe Nicotra (the old Milo bracciale d. 1870, son of Alfio and Lucia Bella)",
+  "given": "Giuseppe",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1810,
+  "died": 1870,
+  "bornText": "c. 1810",
+  "diedText": "10 January 1870",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1810",
+    "year": 1810,
+    "place": "Giarre",
+    "text": "c. 1810"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "10 January 1870",
+    "year": 1870,
+    "place": "",
+    "text": "10 January 1870"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Morti 1870 atto 6, read in the original"
+  ],
+  "registerNote": "Died at six in the evening in his house at MILO, «figlio del fu ALFIO e della fu LUCIA DI BELLA di detto Milo». His brother Salvadore died in July 1843, six days after their father, and his sister Vincenza in 1832. Declarants Rosario Torrisi, 40, and Salvadore Sorbello, 50, bracciali of Milo. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Ralfio-nicotra-4@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra-1783",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rlucia-bella@",
+    "name": "Lucia Bella",
+    "slug": "lucia-bella",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -45244,7 +45378,7 @@
   "born": null,
   "died": null,
   "bornText": "",
-  "diedText": "",
+  "diedText": "before 10 January 1870",
   "events": [
    {
     "what": "born",
@@ -45253,6 +45387,14 @@
     "year": null,
     "place": "Giarre",
     "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 10 January 1870"
    }
   ],
   "birthPlace": "Giarre",
@@ -45263,7 +45405,7 @@
   "registerSources": [
    "Macchia, Morti 1843 atto 51, read in the original"
   ],
-  "registerNote": "«LUCIA DI BELLA» in her husband's death act and «LUCIA DI BELLA, domiciliata ivi pure» in her son's: she buried a husband and a son in the same week.",
+  "registerNote": "«LUCIA DI BELLA» in her husband's death act and «LUCIA DI BELLA, domiciliata ivi pure» in her son's: she buried a husband and a son in the same week. UPDATE 17 OCTOBER 2026: «la fu LUCIA DI BELLA» in her son Giuseppe's death act of 10 January 1870 (Macchia Morti 1870 atto 6), so dead by then.",
   "registerGen": "—",
   "photos": [],
   "parents": [],
@@ -45279,6 +45421,13 @@
     "id": "@Rsalvadore-nicotra-4@",
     "name": "Salvadore Nicotra",
     "slug": "salvadore-nicotra-1827",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-6@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1810",
     "living": false,
     "via": "read"
    }
@@ -46740,6 +46889,50 @@
   "ancGen": 6
  },
  {
+  "id": "@Rmariano-trovato@",
+  "slug": "mariano-trovato",
+  "name": "Mariano Trovato",
+  "key": "Mariano Trovato (husband of Rosa Nicotra, of Milo)",
+  "given": "Mariano",
+  "surname": "Trovato",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Morti 1870 atto 31, read in the original"
+  ],
+  "registerNote": "«sposa di MARIANO TROVATO di Milo», a widower from the day his wife died.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rmario-crupi@",
   "slug": "mario-crupi",
   "name": "Mario Crupi",
@@ -48025,6 +48218,73 @@
   "ancGen": null
  },
  {
+  "id": "@Rrosa-nicotra-3@",
+  "slug": "rosa-nicotra-1830",
+  "name": "Rosa Nicotra",
+  "key": "Rosa Nicotra (wife of Mariano Trovato, d. 1870)",
+  "given": "Rosa",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1830,
+  "died": 1870,
+  "bornText": "c. 1830",
+  "diedText": "March 1870",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1830",
+    "year": 1830,
+    "place": "Giarre",
+    "text": "c. 1830"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "March 1870",
+    "year": 1870,
+    "place": "",
+    "text": "March 1870"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Morti 1870 atto 31, read in the original"
+  ],
+  "registerNote": "Of Milo, 'povera' (a pauper). The day in March was written 'ventuno' or 'ventitre' and was not secured. Declarants Santo Messina, 20, and Sebastiano Calì, 48, bracciali of Milo. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-7@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1870",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-vitale@",
+    "name": "Giuseppa Vitale",
+    "slug": "giuseppa-vitale",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rrosa-russo@",
   "slug": "rosa-russo",
   "name": "Rosa Russo",
@@ -49218,6 +49478,66 @@
    }
   ],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsalvadore-nicotra-7@",
+  "slug": "salvadore-nicotra-1870",
+  "name": "Salvadore Nicotra",
+  "key": "Salvadore Nicotra (zero known kin: father of Rosa Nicotra, husband of Giuseppa Vitale)",
+  "given": "Salvadore",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 1870",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 1870"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Morti 1870 atto 31, read in the original"
+  ],
+  "registerNote": "Named «fu SALVADORE» in his daughter Rosa's death act. HE MATCHES NO SALVADORE NICOTRA FOUND IN THIS ARCHIVE (those of Strano, Costa, Cannavò and Bella are accounted for by other marriages), so he is a further Nicotra of Milo, or one of the others under a second marriage; nothing decides it.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rrosa-nicotra-3@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1830",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],

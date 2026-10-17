@@ -420,6 +420,13 @@
     "slug": "salvadore-nicotra-1827",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-6@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1810",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -9850,6 +9857,23 @@
   "born": null
  },
  {
+  "name": "Giuseppa Vitale",
+  "head": "giuseppa-vitale",
+  "headId": "@Rgiuseppa-vitale@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rrosa-nicotra-3@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1830",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
   "name": "Giuseppe Arena",
   "head": "giuseppe-arena-1925",
   "headId": "@Rgiuseppe-arena-2@",
@@ -10081,6 +10105,13 @@
     "id": "@Rsalvadore-nicotra-4@",
     "name": "Salvadore Nicotra",
     "slug": "salvadore-nicotra-1827",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-6@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1810",
     "living": false,
     "via": "read"
    }
@@ -10499,6 +10530,23 @@
     "id": "@Rrosario-nicotra-5@",
     "name": "Rosario Nicotra",
     "slug": "rosario-nicotra-1830",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
+  "name": "Salvadore Nicotra",
+  "head": "salvadore-nicotra-1870",
+  "headId": "@Rsalvadore-nicotra-7@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rrosa-nicotra-3@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1830",
     "living": false,
     "via": "read"
    }
