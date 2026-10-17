@@ -592,6 +592,34 @@ for r in sorted(_REG_NEW, key=lambda z: z["name"]):
         base_pid = f"{base_pid[:-1]}-{n}@"
     _seen_pid[base_pid] = r["name"].strip()
     reg_pid[r["name"].strip()] = base_pid
+
+# THE GUARD THAT THE COMMENT ABOVE NEEDED. «An id must be stable across runs» was a
+# promise and nothing enforced it. Clash ids are numbered by NAME ORDER, so a new
+# namesake whose name sorts BETWEEN two existing ones renumbers the later one: on
+# 17 October 2026 a third Alfio Nicotra, «(of Salvadore and Maria Barbagallo)»,
+# sorted between «(of Rosa Pappalardo)» and «(of Santa Previtera)», the 1869
+# man's id moved from -2 to -3, and the ledger handed his slug to the NEW child.
+# The ledger itself never changed, which is why nothing noticed: it maps id to
+# slug, and it was the person behind the id that moved. THE FIX I TRIED FIRST,
+# numbering by file order, passed a ledger-only test and then swapped the birth
+# years of two other namesake pairs (Mariano Mazza, Filippo Arena), because those
+# ids had been minted under name order. So the rule is NOT changed. What is
+# recorded is who owns each id, and a build where an id now belongs to a
+# different name FAILS instead of silently moving a page address.
+_names_doc = _ledger_doc.setdefault("names", {})
+_cur_names = {v: k for k, v in reg_pid.items()}
+_drift = [(i, _names_doc[i], _cur_names[i]) for i in _cur_names
+          if i in _names_doc and _names_doc[i] != _cur_names[i]]
+if _drift:
+    for _i, _was, _now in _drift:
+        print(f"  FAIL  slug ledger: id {_i} was «{_was}» and is now «{_now}» — its slug "
+              f"{_ledger_doc['slugs'].get(_i, '?')} would silently move to a different person")
+    print("        Clash ids are numbered by NAME ORDER. Give the new row a name that sorts "
+          "AFTER its namesakes, or the ids of people already published will shift.")
+    sys.exit(1)
+for _i, _n in _cur_names.items():
+    _names_doc.setdefault(_i, _n)
+_ledger_doc["names"] = dict(sorted(_names_doc.items()))
 for r in sorted(_REG_NEW, key=lambda z: z["name"]):
     x = reg_pid[r["name"].strip()]
     if x in _ledger_doc["slugs"]:
