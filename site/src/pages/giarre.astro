@@ -47,6 +47,7 @@ const mortiWith = MORTI.filter(
   (r) => r.entries !== "\u2014" && r.entries !== "absent"
         && r.entries !== "none" && r.entries !== "empty");
 const mortiBlank = MORTI.filter((r) => r.entries === "empty" || r.entries === "none");
+const mortiAbsent = MORTI.filter((r) => r.entries === "absent").length;
 const mortiSpan = mortiRead.length
   ? mortiRead.map((r) => Number(r.year)).sort((a, b) => a - b)
   : [];
@@ -226,8 +227,9 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     <em>Morti</em> 1850 is scanned short and carries no index. A sweep took the index from what it
     believed was the duplicate and banked the year as read — <em>«the first time the two-deposit rule
     has actually paid here»</em>. It had not paid; it had read <strong>Macchia's dead</strong>. That
-    year is now marked unread, the names taken from it belong to Macchia, and <strong>Giarre Morti
-    stands at 39 of 41 years, not 40</strong>. Unlike <a href={u("/mascali/")}>Mascali</a> Giarre does
+    year is now marked unread and the names taken from it belong to Macchia. <strong>The Giarre death
+    sweep now counts {mortiRead.length} of the {MORTI.length - mortiAbsent} years that exist as read</strong>, and
+    a further {mortiAbsent} have no volume at all. Unlike <a href={u("/mascali/")}>Mascali</a> Giarre does
     have 1844.</p>
   </section>
 
