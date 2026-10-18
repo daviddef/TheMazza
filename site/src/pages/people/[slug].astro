@@ -110,7 +110,10 @@ const events = (p.events || []).filter((e) => e.place || (e.what !== "lived" && 
    check:era, fails any note found on one). Only the kinds of event that happen in a place, on a date the page prints plainly:
    plainYear gives no year for «c. 1783», «about 1772», «before 1820», so those get no note, and eraAt gives none for a year on
    an era's edge, an approximate or contested era, or a place the Atlas has no region for. The year is the one people.json
-   holds (e.year), and plainYear refuses it unless it agrees with the date the row prints. */
+   holds (e.year), and plainYear refuses it unless it agrees with the date the row prints.
+   RULERS (kit rule m, 18 October 2026, the Calabria pilot): the note names who reigned, in the Atlas's own words, only where the
+   snapshot says the region has rulers and exactly one reign covers the year, well inside it, of a polity the era's regime allows
+   (so today a Calabria note and no other; never on a boundary-year or edge note). Silence otherwise. check:era --rulers holds it. */
 const ERA_KINDS = new Set(["born", "baptised", "christened", "marriage", "died", "buried", "arrival", "departure"]);
 const eraOf = (e) => (living || meta.noindex || !e.place || !ERA_KINDS.has(e.what)) ? null
   : eraAt(eraSnapshot, e.place, plainYear(e.date, e.year));
@@ -195,7 +198,7 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
         <div class="rec">
           {events.map((e) => (<>
             <div class="k">{EV[e.what] || e.what}</div>
-            <div class="v">{e.place || "—"}<EraNote era={eraOf(e)} /></div>
+            <div class="v">{e.place || "—"}<EraNote era={eraOf(e)} rulers /></div>
             {/* e.text is the register's own wording where the date is a bound:
                 «before 7 October 1872» is what the act supports, and 1872 is
                 not. e.date is empty for those by design — see

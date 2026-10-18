@@ -29,6 +29,10 @@ NOINDEX = re.compile(r'name=["\']robots["\'][^>]*noindex', re.I)
 TITLE = re.compile(r"<title>(.*?)</title>", re.S | re.I)
 DESC = re.compile(r'<meta name="description" content="(.*?)"', re.S | re.I)
 STRIP = re.compile(r"<(script|style|nav|header|footer)[^>]*>.*?</\1>", re.S | re.I)
+# The kit's "at the time" note (a span.era-note: the Record Atlas's regime label and, since the rulers were switched on, a monarch's
+# name) is context about the ground and is not the page's own text: a search for «Umberto» or «Two Sicilies» must not find a
+# person page because of it. Its children are spans and one link, never a nested note.
+ERA_NOTE = re.compile(r'<span class="era-note"[^>]*>(?:<span[^>]*>.*?</span>|<a[^>]*>.*?</a>|\s)*</span>', re.S | re.I)
 TAGS = re.compile(r"<[^>]+>")
 WS = re.compile(r"\s+")
 
@@ -73,7 +77,7 @@ for dp, _, fns in os.walk(DIST):
     d = DESC.search(raw)
     sub = html.unescape(WS.sub(" ", d.group(1))).strip()[:120] if d else ""
 
-    body = TAGS.sub(" ", STRIP.sub(" ", raw))
+    body = TAGS.sub(" ", STRIP.sub(" ", ERA_NOTE.sub(" ", raw)))
     body = WS.sub(" ", html.unescape(body)).strip()[:2600]
 
     rows.append(searchkit.row(kind(path), title, sub, path, body))

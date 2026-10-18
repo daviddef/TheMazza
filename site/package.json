@@ -67,7 +67,7 @@
     "check:rec": "python3 ../tools/check_rec.py",
     "check:rec:selftest": "python3 ../tools/check_rec.py --selftest",
     "check:era-ground": "python3 ../tools/build_era.py --check",
-    "check:era": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkera.py --dist dist --snapshot src/data/era-snapshot.json --living-urls ../private/living.json --require-tracked",
+    "check:era": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkera.py --dist dist --snapshot src/data/era-snapshot.json --living-urls ../private/living.json --require-tracked --rulers",
     "check:era:selftest": "python3 node_modules/@daviddef/archive-kit/kit/tools/era_selftest.py",
     "check:readnames:selftest": "python3 ../tools/check_read_names.py --selftest"
   },
