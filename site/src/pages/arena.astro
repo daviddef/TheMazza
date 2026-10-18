@@ -7,9 +7,12 @@ import { u } from "../lib/url.js";
 import focus from "../data/focus.json";
 import additions from "../data/additions.json";
 import nameEvidence from "../data/name-evidence.json";
+import { words } from "../lib/words.js";
 const A = focus.Arena;
 const g = A.groups[0];
-const dated = g.people.filter((x) => x.born);
+const rest = A.groups.slice(1);
+const restN = rest.reduce((a, x) => a + x.n, 0);
+const dated = A.groups.flatMap((x) => x.people).filter((x) => x.born);
 const arenaAdds = additions.filter((a) => /Arena|Arlotta|Costa/.test(a.name));
 
 /* The documented descent, as the registers give it — not as the export draws it.
@@ -137,9 +140,11 @@ const line = [
 
   <section class="blk">
     <h2>Everyone called Arena in the tree</h2>
-    <p class="dek" style="margin:.8rem 0 1.2rem">Every Arena in the export is connected to every
-    other by parent, child or marriage — one descent group, which is what makes this the cleanest
-    line in the archive and the counter-example to the <a href={u("/mazza/")}>Mazza</a>.</p>
+    <p class="dek" style="margin:.8rem 0 1.2rem">The {A.total} Arena in the export fall into
+    {words(A.groups.length)} descent groups, by the rule the <a href={u("/mazza/")}>Mazza</a> page uses. The
+    first, of {g.n}, is connected by parent, child or marriage and carries the spine; the other
+    {restN} are listed after it.</p>
+    <div class="lab">Group 1</div>
     <div class="scroll">
       <table>
         <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>On the spine</th></tr></thead>
@@ -153,6 +158,35 @@ const line = [
           </tr>))}
         </tbody>
       </table>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="lab">Groups 2 to {A.groups.length}</div>
+    <h2 style="margin-top:.4rem">The {restN} who share the name and are not in the first group</h2>
+    <div class="stack" style="margin-top:1rem">
+      {rest.map((r, i) => (
+        <div>
+          <h3 style="font-size:21px">Group {i + 2}
+            <span class="mono" style="font-size:12px;color:var(--ink-3);margin-left:12px">
+              {r.n} {r.n === 1 ? "person" : "people"}
+              {r.earliest ? ` · ${r.earliest}–${r.latest}` : " · undated"}
+              {r.towns.length ? ` · ${r.towns[0]}` : ""}
+            </span>
+          </h3>
+          {r.n > 3 ? (
+            <div class="evlist" style="margin-top:12px">
+              {r.people.map((x) => (
+                <div><b>{x.born || "····"}</b><a href={u("/people/" + x.slug)}>{x.name}</a></div>
+              ))}
+            </div>
+          ) : (
+            <p style="font-family:var(--sans);font-size:13.5px;margin-top:8px;color:var(--ink-2)">
+              {r.people.map((x, j) => (<>{j > 0 && " · "}<a href={u("/people/" + x.slug)}>{x.name}</a></>))}
+            </p>
+          )}
+        </div>
+      ))}
     </div>
     <p class="cap">{dated.length} of the {A.total} carry a birth year. The rest are known because
     somebody else's record names them.</p>

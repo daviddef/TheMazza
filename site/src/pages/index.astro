@@ -15,6 +15,8 @@ import anc from "../data/ancestors.json";
 import places from "../data/places.json";
 import searched from "../data/searched.json";
 import atlas from "../../public/atlas-data.json";
+import focus from "../data/focus.json";
+import { FURTHEST_KM } from "../lib/distance.js";
 import { people } from "../lib/people.js";
 
 const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
@@ -27,8 +29,8 @@ const g7pc = Math.round(100 * g7.found / g7.possible);  /* `found` is a COUNT, n
 const more = [
   ["/ancestors", "The ancestors of Mia and Rocco", `${anc.total} people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, ${g7pc}% complete by the seventh generation, and one thread at the tenth.`],
   ["/the-hundred-and-ten", "The hundred and ten", "The archive's largest open question, answered on the day it was built: a hundred and ten Piedimonte Etneo Mazza who turned out to be the families of Michael Rocco Mazza's great-great-uncles."],
-  ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1815, to two children born in Brisbane."],
-  ["/arena", "The Arena", "Thirty-nine Arena of Scilla in a single unbroken family — the counter-example, and the reason a surname tells you least about a family."],
+  ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1809, to two children born in Brisbane."],
+  ["/arena", "The Arena", `${focus.Arena.total} Arena of Scilla in ${focus.Arena.groups.length} descent groups, ${focus.Arena.groups[0].n} of them in one — and the reason a surname tells you least about a family.`],
   ["/lines", "The four quarters", "Michael Rocco Mazza has four grandparents and they came from four different places. Three towns in the south of Italy, and the shipping line that brought all four to one suburb of Brisbane."],
   ["/briatico-tested", "Testing the 1697", "The archive's largest claim, audited: two Prostamo generations proved, four shown to rest on nothing, and a family of sailors the tree had recorded as farmers."],
   ["/briatico", "Briatico", "The Calabrian coastal comune that sent its people to New York, to Buenos Aires and to Brisbane in three separate departures."],
@@ -91,7 +93,7 @@ const spineRows = mazzaRows;
   </p>
 
   <WaysIn doors={[
-    { href: u("/lines/"), name: "The four quarters", blurb: "Four families out of three towns six hundred kilometres apart — Mazza, Prostamo, Arena, Polistena — and where each of them met the others.", cta: "Compare them →" },
+    { href: u("/lines/"), name: "The four quarters", blurb: `Four families out of three towns about ${FURTHEST_KM} kilometres apart — Mazza, Prostamo, Arena, Polistena — and where each of them met the others.`, cta: "Compare them →" },
     { href: u("/briatico-tested/"), name: "A claim, tested", blurb: "The Prostamo were said to reach 1697. The audit shows what is documented, what is asserted, and by a tree already wrong by six years elsewhere.", cta: "The audit →" },
     { href: u("/nudgee/"), name: "Four plots in a row", blurb: "All four of Michael Rocco Mazza's grandparents lie in consecutive plots V-1026 to V-1029, having arrived on four different sailings.", cta: "The register →" },
   ]} />
@@ -105,8 +107,8 @@ const spineRows = mazzaRows;
 
 <section class="blk">
     <h2>Where they came from</h2>
-    <p class="dek" style="margin:.7rem 0 1.4rem">Four grandparents, three towns, and about six hundred
-    kilometres of coast between the furthest two. Nothing in the Italian record joins these families
+    <p class="dek" style="margin:.7rem 0 1.4rem">Four grandparents, three towns, and about {FURTHEST_KM}
+    kilometres between the furthest two. Nothing in the Italian record joins these families
     to each other. They were joined in Queensland.</p>
     <div class="grid two">
       <a class="cardlink" href={u("/briatico/")}>
@@ -208,7 +210,7 @@ const spineRows = mazzaRows;
       </div>
       <div class="card">
         <h3>Four plots in a row</h3>
-        <p>All four of Michael Rocco Mazza's grandparents — born in three towns six hundred
+        <p>All four of Michael Rocco Mazza's grandparents — born in three towns about {FURTHEST_KM}
         kilometres apart, arrived on four different sailings — lie in <strong>consecutive plots
         V-1026 to V-1029</strong> at Nudgee. <a href={u("/nudgee/")}>The register →</a></p>
       </div>

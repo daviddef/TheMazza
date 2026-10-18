@@ -5,7 +5,9 @@ import { u } from "../lib/url.js";
 import d from "../data/the-110.json";
 import stats from "../data/stats.json";
 import focus from "../data/focus.json";
+import comps from "../data/components.json";
 const M = focus.Mazza.groups[0];
+const MAIN = comps.reduce((a, b) => (b.n > a.n ? b : a));
 ---
 <Base title="The Hundred and Ten" eyebrow="Answered, 10 September 2026"
       dek="From the day this archive was built its largest open question was a hundred and ten Piedimonte Etneo Mazza joined to the family by nothing at all. They are Salvatore's brothers' descendants.">
@@ -81,7 +83,7 @@ const M = focus.Mazza.groups[0];
     <div class="lab">What changed in the archive</div>
     <h2 style="margin-top:.4rem">Fourteen pieces became ten</h2>
     <div class="grid g3">
-      <div class="stat"><div class="n">581</div><div class="l">people now in one connected family, up from 479</div></div>
+      <div class="stat"><div class="n">{MAIN.n}</div><div class="l">people now in one connected family, up from 479</div></div>
       <div class="stat"><div class="n">{M.n}</div><div class="l">Mazza in a single descent group, where there were six</div></div>
       <div class="stat"><div class="n">106</div><div class="l">of the hundred and ten come through Orazio alone</div></div>
     </div>
