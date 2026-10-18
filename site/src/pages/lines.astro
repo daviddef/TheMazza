@@ -5,6 +5,9 @@ import { u } from "../lib/url.js";
 import quarters from "../data/quarters.json";
 import documented from "../data/documented-line.json";
 import walls from "../data/walls.json";
+import { FURTHEST_KM } from "../lib/distance.js";
+import { words, Words } from "../lib/words.js";
+const stopsShort = quarters.filter((q) => !q.line[0].born).sort((a, b) => a.line.length - b.line.length)[0];
 const anchors = Object.entries(documented).sort((a, b) => b[1].up.length - a[1].up.length);
 const beyond = anchors.reduce((n, [, v]) => n + v.up.length, 0);
 const below = anchors.reduce((n, [, v]) => n + (v.down || []).length, 0);
@@ -13,7 +16,7 @@ const below = anchors.reduce((n, [, v]) => n + (v.down || []).length, 0);
       dek="Every person has four grandparents, and they are the honest unit of a family history: four separate families, four separate depths of evidence, and no reason at all for them to be equal.">
 
   <p class="note">These four were born within eight years of each other — 1920, 1924, 1925, 1928 —
-  in three towns that had no connection whatsoever. Two of them are about six hundred kilometres
+  in three towns that had no connection whatsoever. Two of them are about {FURTHEST_KM} kilometres
   apart. All four were in Queensland by 1954.</p>
 
   <div class="stack" style="margin-top:38px">
@@ -48,12 +51,12 @@ const below = anchors.reduce((n, [, v]) => n + (v.down || []).length, 0);
   </div>
 
   <section class="blk" style="margin-top:20px">
-    <div class="lab">Where each quarter stops, and why</div>
-    <h2 style="margin-top:.4rem">Four walls, four different reasons</h2>
+    <div class="lab">Where {words(walls.length)} of the lines stop, and why</div>
+    <h2 style="margin-top:.4rem">{Words(walls.length)} walls, {words(walls.length)} different reasons</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Every one of these lines ends at a named person, and <strong>none of them ends because
-      nobody looked</strong>. Each wall below was established by reading until the absence was
-      provable — four complete years of marriages here, a province probed year by year there, a
+      <p>Every wall below ends a line at a named person, and <strong>none of them ends because
+      nobody looked</strong>. Each wall was established by reading until the absence was
+      provable — a province probed year by year, a register that begins in 1823, a
       volume opened to find nine years physically missing. <strong>A wall established by reading is a
       finding. A wall assumed from silence is a shrug</strong>, and the difference is most of what
       this archive is for.</p>
@@ -126,8 +129,8 @@ const below = anchors.reduce((n, [, v]) => n + (v.down || []).length, 0);
 
   <section class="blk" style="margin-top:20px">
     <h2>The quarters are not equal, and that is the finding</h2>
-    <p class="dek" style="margin-top:.8rem">One quarter reaches 1697 and eight generations. Another
-    stops after three, at a man with no dates at all. This is not because one family was more
+    <p class="dek" style="margin-top:.8rem">One quarter reaches {Math.min(...quarters.map((q) => q.reach))} and {words(Math.max(...quarters.map((q) => q.line.length)))} generations. Another
+    stops after {words(stopsShort.line.length)}, at a man with no dates at all. This is not because one family was more
     important — it is because <strong>Calabrian civil registration survives better than Sicilian</strong>
     for these particular comuni, and because the Briatico line has been worked on by relatives in
     Italy and Argentina for years while the Sicilian line has not.

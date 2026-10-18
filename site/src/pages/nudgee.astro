@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
+import { FURTHEST_KM } from "../lib/distance.js";
 import nudgee from "../data/nudgee.json";
 import burials from "../data/burials.json";
 import arneytown from "../data/arneytown.json";
@@ -28,7 +29,7 @@ const other = burials.filter((b) => !b.place.includes("Nudgee"));
     <p class="dek" style="margin:.9rem 0 1.4rem">Michael Rocco Mazza's four grandparents were born in
     three towns — <a href={u("/piedimonte-etneo/")}>Piedimonte Etneo</a> on Etna,
     <a href={u("/briatico/")}>Briatico</a> on the Tyrrhenian coast, and
-    <a href={u("/scilla/")}>Scilla</a> on the strait — about six hundred kilometres apart, in families
+    <a href={u("/scilla/")}>Scilla</a> on the strait — about {FURTHEST_KM} kilometres apart, in families
     that had never met. They arrived in Australia between 1949 and 1953 on four different sailings.
     They are buried in <strong>four consecutive plots</strong>.</p>
 
