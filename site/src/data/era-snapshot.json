@@ -1,16 +1,24 @@
 {
  "atlas": {
   "base": "https://recordatlas.org",
-  "rings_sha256": "da1972abcb8b3fee942ad2e123dd9151a3e499a7647a597a9ad96f519e80b338"
+  "rings_sha256": null,
+  "rings_source": "contract"
  },
  "built": "2026-10-18",
  "contract": {
   "generated": "2026-10-18",
   "name": "recordatlas-context",
-  "sha256": "fec3ee88709b32515530ab21c384f618b913f0cc7a4abee626f4675777318ee3",
-  "version": "1.7.0"
+  "sha256": "e649c1c925dbf4da9f54c1ebadf1a10c7c7da45d3d7512b42c7bf3405e7772e3",
+  "version": "1.12.0"
  },
  "dropped": [
+  {
+   "from": 1580,
+   "id": "buenos-aires--era-1580",
+   "reason": "a bound whose margin is unknowable (null) or not a whole number of years",
+   "region": "buenos-aires",
+   "to": 1776
+  },
   {
    "from": 1200,
    "id": "calabria--era-1200",
@@ -26,14 +34,67 @@
    "to": 1806
   },
   {
+   "from": 1806,
+   "id": "campania--era-1806",
+   "reason": "contested about its regime or a part, not its bounds only (contestedScope)",
+   "region": "campania",
+   "to": 1815
+  },
+  {
    "from": 1200,
    "id": "sicily--era-1200",
    "reason": "regime is the project's own shorthand, not a state",
    "region": "sicily",
    "to": 1816
+  },
+  {
+   "from": 1816,
+   "id": "sicily--era-1816",
+   "reason": "contested about its regime or a part, not its bounds only (contestedScope)",
+   "region": "sicily",
+   "to": 1861
   }
  ],
+ "edge_neighbours": {
+  "bagnara calabra calabria italy": {
+   "kind": "edge",
+   "regions": [
+    "sicily"
+   ]
+  },
+  "messina sicily": {
+   "kind": "edge",
+   "regions": [
+    "calabria"
+   ]
+  },
+  "reggio calabria citta metropolitana di reggio calabria calabria italy": {
+   "kind": "ring-conflict",
+   "regions": [
+    "sicily"
+   ]
+  },
+  "scilla": {
+   "kind": "edge",
+   "regions": [
+    "sicily"
+   ]
+  },
+  "scilla reggio calabria": {
+   "kind": "edge",
+   "regions": [
+    "sicily"
+   ]
+  },
+  "scillla": {
+   "kind": "edge",
+   "regions": [
+    "sicily"
+   ]
+  }
+ },
  "places": {
+  "bagnara calabra calabria italy": "calabria",
   "briatico vibo valentia calabria": "calabria",
   "brisbane queensland": "queensland",
   "buenos aires argentina": "buenos-aires",
@@ -45,6 +106,7 @@
   "mandaradoni briatico vibo valentia calabria": "calabria",
   "mascali": "sicily",
   "mascali catania sicily": "sicily",
+  "messina sicily": "sicily",
   "mirabella eclano avellino campania italy": "campania",
   "naples campania": "campania",
   "nudgee brisbane queensland": "queensland",
@@ -57,23 +119,25 @@
   "potenzoni briatico vibo valentia calabria": "calabria",
   "queensland": "queensland",
   "queensland australia": "queensland",
+  "reggio calabria citta metropolitana di reggio calabria calabria italy": "calabria",
   "riposto": "sicily",
+  "scilla": "calabria",
+  "scilla reggio calabria": "calabria",
+  "scillla": "calabria",
   "serrata citta metropolitana di reggio calabria calabria italy": "calabria",
   "sorianno calabro": "calabria",
   "tully queensland": "queensland",
   "zambrone": "calabria"
  },
- "places_silent": {
-  "bagnara calabra calabria italy": "edge",
-  "messina sicily": "edge",
-  "reggio calabria citta metropolitana di reggio calabria calabria italy": "ring-conflict",
-  "scilla": "edge",
-  "scilla reggio calabria": "edge",
-  "scillla": "edge"
- },
+ "places_silent": {},
  "policy": {
+  "approx": "margin",
   "boundary": "newer",
+  "contested": "scope",
+  "edge": "agree",
   "edge_km": 15,
+  "margin_years": 5,
+  "margins": {},
   "recent_from": 1990,
   "unassessed": "allow"
  },
@@ -88,339 +152,537 @@
  "regions": {
   "buenos-aires": [
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
-    "from": 1580,
-    "id": "buenos-aires--era-1580",
-    "label": "Spanish Empire",
-    "polity": "Spanish Empire — Governorate of the Río de la Plata",
-    "present": false,
-    "regime": "spain",
-    "seeded_from_archive": false,
-    "to": 1776,
-    "url": "/region/buenos-aires/#era-1580"
-   },
-   {
-    "approx": null,
-    "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1776,
+    "from_margin": 1,
     "id": "buenos-aires--era-1776",
     "label": "Spanish Empire",
+    "margin_ok": {
+     "first": 1787,
+     "kind": "margin",
+     "last": 1798
+    },
+    "margin_sourced": false,
+    "margin_src": "contract",
     "polity": "Viceroyalty of the Río de la Plata",
     "present": false,
     "regime": "spain",
     "seeded_from_archive": false,
     "to": 1810,
-    "url": "/region/buenos-aires/#era-1776"
+    "to_margin": 6,
+    "url": "/region/buenos-aires/#era-1776",
+    "why": null
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1810,
+    "from_margin": 6,
     "id": "buenos-aires--era-1810",
     "label": "Argentina",
+    "margin_ok": {
+     "first": 1817,
+     "kind": "margin",
+     "last": 1846
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "United Provinces, then the Argentine Confederation under Rosas",
     "present": false,
     "regime": "argentina",
     "seeded_from_archive": false,
     "to": 1852,
-    "url": "/region/buenos-aires/#era-1810"
+    "to_margin": 0,
+    "url": "/region/buenos-aires/#era-1810",
+    "why": null
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1852,
+    "from_margin": 0,
     "id": "buenos-aires--era-1852",
     "label": "Argentina",
+    "margin_ok": {
+     "first": 1858,
+     "kind": "margin",
+     "last": 1855
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "State of Buenos Aires (secessionist)",
     "present": false,
     "regime": "argentina",
     "seeded_from_archive": false,
     "to": 1861,
-    "url": "/region/buenos-aires/#era-1852"
+    "to_margin": 2,
+    "url": "/region/buenos-aires/#era-1852",
+    "why": null
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1861,
+    "from_margin": 2,
     "id": "buenos-aires--era-1861",
     "label": "Argentina",
+    "margin_ok": {
+     "first": 1867,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Argentina — Province of Buenos Aires",
     "present": true,
     "regime": "argentina",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/buenos-aires/#era-1861"
+    "to_margin": null,
+    "url": "/region/buenos-aires/#era-1861",
+    "why": null
    }
   ],
   "calabria": [
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": true,
+    "contested_scope": "bounds",
     "from": 1806,
+    "from_margin": 0,
     "id": "calabria--era-1806",
     "label": "Napoleonic Kingdom of Naples",
+    "margin_ok": {
+     "first": 1812,
+     "kind": "contested",
+     "last": 1809
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Napoleonic Kingdom of Naples",
     "present": false,
     "regime": "napo",
     "seeded_from_archive": false,
     "to": 1815,
-    "url": "/region/calabria/#era-1806"
+    "to_margin": 1,
+    "url": "/region/calabria/#era-1806",
+    "why": "All sources give 1806 for the change: Joseph Bonaparte entered Naples 15 Feb 1806 (crowned by Napoleon's act of 30 Mar); British troops held Calabria and won at Maida 4 Jul 1806; Massena had not pacified it until end of summer 1806; brigandage persisted under Murat. Ferdinand kept Sicily and never renounced the crown (rival claimant, British-backed). Contested for Calabria specifically."
    },
    {
-    "approx": null,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1815,
+    "from_margin": 1,
     "id": "calabria--era-1815",
     "label": "Naples / the Two Sicilies",
+    "margin_ok": {
+     "first": 1821,
+     "kind": "approx",
+     "last": 1855
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Kingdom of the Two Sicilies",
     "present": false,
     "regime": "twosicilies",
     "seeded_from_archive": false,
     "to": 1861,
-    "url": "/region/calabria/#era-1815"
+    "to_margin": 1,
+    "url": "/region/calabria/#era-1815",
+    "why": "Ferdinand restored by the Treaty of Casalanza 20 May 1815 (Tolentino 2 or 3 May; Congress of Vienna 9 Jun 1815), but the Kingdom of the Two Sicilies is created only on 8 Dec 1816 (Wikipedia Two Sicilies and Naples infoboxes; Treccani: 1816). De facto restoration 1815 versus de jure union 1816 is a gap of about 19 months. FIX: polity for 1815-1816 should read Kingdom of Naples (restored Bourbon); 'Two Sicilies' from 8 Dec 1816. No source fetched shows a split of authority in Calabria itself in 1815-1860 apart from the 1860-61 change (covered under 1861)."
    },
    {
-    "approx": null,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1861,
+    "from_margin": 1,
     "id": "calabria--era-1861",
     "label": "Italy",
+    "margin_ok": {
+     "first": 1867,
+     "kind": "approx",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Italy — Provincia di Vibo Valentia",
     "present": true,
     "regime": "italy",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/calabria/#era-1861"
+    "to_margin": null,
+    "url": "/region/calabria/#era-1861",
+    "why": "Garibaldi landed in Calabria 19 Aug 1860 and took Reggio 21 Aug (Expedition of the Thousand); plebiscite 21 Oct 1860 and annexation decree 17 Dec 1860 (Dickinson House Divided, citing Wambaugh); Gaeta capitulated 13 Feb 1861 and Civitella del Tronto 20 Mar 1861; Kingdom of Italy proclaimed 17 Mar 1861. The change of sovereignty ran Aug 1860 to Mar 1861. Allied landings at Reggio 3 Sep 1943 (Operation Baytown) were under the Italian armistice; sovereignty stayed with the Kingdom of Italy, so not treated as contested. FIX: 'Provincia di Vibo Valentia' is anachronistic for 1861-1995: law of 6 Mar 1992, effective 1 Jan 1996; before that Briatico was in Catanzaro province."
    }
   ],
   "campania": [
    {
-    "approx": null,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
-    "from": 1806,
-    "id": "campania--era-1806",
-    "label": "Napoleonic Kingdom of Naples",
-    "polity": "Napoleonic Kingdom of Naples",
-    "present": false,
-    "regime": "napo",
-    "seeded_from_archive": false,
-    "to": 1815,
-    "url": "/region/campania/#era-1806"
-   },
-   {
-    "approx": null,
-    "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1815,
+    "from_margin": 1,
     "id": "campania--era-1815",
     "label": "Naples / the Two Sicilies",
+    "margin_ok": {
+     "first": 1821,
+     "kind": "approx",
+     "last": 1855
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Kingdom of the Two Sicilies",
     "present": false,
     "regime": "twosicilies",
     "seeded_from_archive": false,
     "to": 1861,
-    "url": "/region/campania/#era-1815"
+    "to_margin": 1,
+    "url": "/region/campania/#era-1815",
+    "why": "Ferdinand restored by the Treaty of Casalanza 20 May 1815 (Tolentino 2 or 3 May; Congress of Vienna 9 Jun 1815), but the Kingdom of the Two Sicilies is created only on 8 Dec 1816 (Wikipedia Two Sicilies and Naples infoboxes; Treccani: 1816). De facto restoration 1815 versus de jure union 1816 is a gap of about 19 months. FIX: polity for 1815-1816 should read Kingdom of Naples (restored Bourbon); 'Two Sicilies' from 8 Dec 1816. The final months 1860-61 (Naples taken 7 Sep 1860, Gaeta held by Francis II until 13 Feb 1861) are covered by the approx flag on 1861."
    },
    {
-    "approx": null,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1861,
+    "from_margin": 1,
     "id": "campania--era-1861",
     "label": "Italy",
+    "margin_ok": {
+     "first": 1867,
+     "kind": "approx",
+     "last": 1940
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Kingdom of Italy",
     "present": false,
     "regime": "italy",
     "seeded_from_archive": false,
     "to": 1946,
-    "url": "/region/campania/#era-1861"
+    "to_margin": 0,
+    "url": "/region/campania/#era-1861",
+    "why": "Garibaldi landed in Calabria 19 Aug 1860 and took Reggio 21 Aug (Expedition of the Thousand); plebiscite 21 Oct 1860 and annexation decree 17 Dec 1860 (Dickinson House Divided, citing Wambaugh); Gaeta capitulated 13 Feb 1861 and Civitella del Tronto 20 Mar 1861; Kingdom of Italy proclaimed 17 Mar 1861. The change of sovereignty ran Aug 1860 to Mar 1861. Kingdom of Italy sovereignty continued through WWII (Allied military government administered, Badoglio government at Brindisi), so not treated as contested."
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1946,
+    "from_margin": 0,
     "id": "campania--era-1946",
     "label": "Italy",
+    "margin_ok": {
+     "first": 1952,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Italy — Provincia di Caserta",
     "present": true,
     "regime": "italy",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/campania/#era-1946"
+    "to_margin": null,
+    "url": "/region/campania/#era-1946",
+    "why": "1946: referendum 2 Jun, provisional result 10 Jun, Umberto II left 13 Jun, Court of Cassation final result 18 Jun; Constitution in force 1 Jan 1948. One clean year for the change to a republic; monarchist appeals were rejected 12 to 7, no rival authority. FIX: the label 'Provincia di Caserta' fits Caserta/Arienzo (province re-established 1945, current form 1970) but Naples is not in it and Arpaia is not in Caserta's municipality list on Wikipedia (it is in Benevento province; not independently verified)."
    }
   ],
   "queensland": [
    {
-    "approx": null,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1788,
+    "from_margin": 54,
     "id": "queensland--era-1788",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1843,
+     "kind": "approx",
+     "last": 1853
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "New South Wales",
     "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": 1859,
-    "url": "/region/queensland/#era-1788"
+    "to_margin": 0,
+    "url": "/region/queensland/#era-1788",
+    "why": "1788 is the founding of New South Wales (arrival 18 Jan, colony proclaimed 7 Feb 1788), not of European authority at Moreton Bay: convict settlement there began 1824 (Brisbane site 2 Dec 1824), free settlement allowed 1842. Much of the region's ground (north, west to 138E) was not administered for decades. No rival state claimant found in sources read; Indigenous sovereignty is not discussed in them."
    },
    {
-    "approx": null,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1859,
+    "from_margin": 0,
     "id": "queensland--era-1859",
     "label": "Britain and its colonies",
+    "margin_ok": {
+     "first": 1865,
+     "kind": "approx",
+     "last": 1895
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Colony of Queensland",
     "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
     "to": 1901,
-    "url": "/region/queensland/#era-1859"
+    "to_margin": 0,
+    "url": "/region/queensland/#era-1859",
+    "why": "Queensland separation: Letters Patent signed 6 Jun 1859, but the colony was proclaimed in Brisbane 10 Dec 1859, 'separation became a legal reality' only then. Two dates six months apart; Queensland Day marks 6 June but the Queensland State Archives says the colony was born at the proclamation. Until then NSW law applied. The 1862 western boundary move (141E to 138E) is noted, and the 28 deg S border is stated differently in one Archives post (29 deg)."
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1901,
+    "from_margin": 0,
     "id": "queensland--era-1901",
     "label": "Australia",
+    "margin_ok": {
+     "first": 1907,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Australia — State of Queensland",
     "present": true,
     "regime": "australia",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/queensland/#era-1901"
+    "to_margin": null,
+    "url": "/region/queensland/#era-1901",
+    "why": "Commonwealth proclaimed and Queensland became a State on 1 Jan 1901 (Constitution in force); one clean date."
    }
   ],
   "sicily": [
    {
-    "approx": null,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
-    "from": 1816,
-    "id": "sicily--era-1816",
-    "label": "Naples / the Two Sicilies",
-    "polity": "Kingdom of the Two Sicilies",
-    "present": false,
-    "regime": "twosicilies",
-    "seeded_from_archive": false,
-    "to": 1861,
-    "url": "/region/sicily/#era-1816"
-   },
-   {
-    "approx": null,
-    "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1861,
+    "from_margin": 1,
     "id": "sicily--era-1861",
     "label": "Italy",
+    "margin_ok": {
+     "first": 1867,
+     "kind": "approx",
+     "last": 1940
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Kingdom of Italy",
     "present": false,
     "regime": "italy",
     "seeded_from_archive": false,
     "to": 1946,
-    "url": "/region/sicily/#era-1861"
+    "to_margin": 0,
+    "url": "/region/sicily/#era-1861",
+    "why": "Garibaldi landed at Marsala 11 May 1860, proclaimed himself Dictator of Sicily 7 Jul 1860 in Victor Emmanuel's name, conquest complete 1 Aug 1860 (Syracuse, Augusta, Milazzo); plebiscite 21 Oct 1860, annexation 17 Dec 1860, Kingdom of Italy 17 Mar 1861. Allied military government (AMGOT) ran Sicily from 10 Jul 1943 and handed administration to the Badoglio cabinet in Feb 1944, but Italian sovereignty was not transferred, so not treated as contested."
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1946,
+    "from_margin": 0,
     "id": "sicily--era-1946",
     "label": "Italy",
+    "margin_ok": {
+     "first": 1952,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Italy — Provincia di Catania",
     "present": true,
     "regime": "italy",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/sicily/#era-1946"
+    "to_margin": null,
+    "url": "/region/sicily/#era-1946",
+    "why": "1946: referendum 2 Jun, provisional result 10 Jun, Umberto II left 13 Jun, Court of Cassation final result 18 Jun; Constitution in force 1 Jan 1948. One clean year for the change to a republic; monarchist appeals were rejected 12 to 7, no rival authority."
    }
   ],
   "veneto": [
    {
-    "approx": null,
+    "approx": true,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1406,
+    "from_margin": 20,
     "id": "veneto--era-1406",
     "label": "Republic of Venice",
+    "margin_ok": {
+     "first": 1432,
+     "kind": "approx",
+     "last": 1786
+    },
+    "margin_sourced": false,
+    "margin_src": "contract",
     "polity": "Republic of Venice — the Terraferma",
     "present": false,
     "regime": "venice",
     "seeded_from_archive": false,
     "to": 1797,
-    "url": "/region/veneto/#era-1406"
+    "to_margin": 0,
+    "url": "/region/veneto/#era-1406",
+    "why": "Venetian rule on the mainland was won between 1339 and the 1400s; 1406 is the fall of the Carrara of Padua"
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1797,
+    "from_margin": 0,
     "id": "veneto--era-1797",
     "label": "Habsburg / Austria–Hungary",
+    "margin_ok": {
+     "first": 1808,
+     "kind": "margin",
+     "last": 1795
+    },
+    "margin_sourced": false,
+    "margin_src": "contract",
     "polity": "Austria — Venetia (Treaty of Campo Formio)",
     "present": false,
     "regime": "habsburg",
     "seeded_from_archive": false,
     "to": 1806,
-    "url": "/region/veneto/#era-1797"
+    "to_margin": 1,
+    "url": "/region/veneto/#era-1797",
+    "why": null
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1806,
+    "from_margin": 1,
     "id": "veneto--era-1806",
     "label": "Napoleonic Kingdom of Italy",
+    "margin_ok": {
+     "first": 1817,
+     "kind": "margin",
+     "last": 1803
+    },
+    "margin_sourced": false,
+    "margin_src": "contract",
     "polity": "Napoleonic Kingdom of Italy",
     "present": false,
     "regime": "napo",
     "seeded_from_archive": false,
     "to": 1814,
-    "url": "/region/veneto/#era-1806"
+    "to_margin": 1,
+    "url": "/region/veneto/#era-1806",
+    "why": null
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1814,
+    "from_margin": 1,
     "id": "veneto--era-1814",
     "label": "Habsburg / Austria–Hungary",
+    "margin_ok": {
+     "first": 1820,
+     "kind": "margin",
+     "last": 1860
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Austria — Kingdom of Lombardy–Venetia",
     "present": false,
     "regime": "habsburg",
     "seeded_from_archive": false,
     "to": 1866,
-    "url": "/region/veneto/#era-1814"
+    "to_margin": 0,
+    "url": "/region/veneto/#era-1814",
+    "why": null
    },
    {
-    "approx": null,
+    "approx": false,
+    "assessed": true,
     "basis": "not-recorded",
-    "contested": null,
+    "contested": false,
+    "contested_scope": "none",
     "from": 1866,
+    "from_margin": 0,
     "id": "veneto--era-1866",
     "label": "Italy",
+    "margin_ok": {
+     "first": 1872,
+     "kind": "margin",
+     "last": null
+    },
+    "margin_sourced": true,
+    "margin_src": "contract",
     "polity": "Italy — Veneto",
     "present": true,
     "regime": "italy",
     "seeded_from_archive": false,
     "to": null,
-    "url": "/region/veneto/#era-1866"
+    "to_margin": null,
+    "url": "/region/veneto/#era-1866",
+    "why": null
    }
   ]
  },
  "unchecked_edge": [],
- "version": 2
+ "version": 4
 }

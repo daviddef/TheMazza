@@ -9,15 +9,17 @@ town the Atlas's approximate ring would give to its neighbour) and refuses to pa
     python3 ../tools/build_era.py                       write src/data/era-places.json
     python3 ../tools/build_era.py --check               build gate: the file is what the rows build, every place in a
                                                         non-living person's events has a row, and no row is stale
-    python3 ../tools/build_era.py --snapshot <Record Atlas>/site/public/context.json --rings <Record Atlas>/data/regions.json
+    python3 ../tools/build_era.py --snapshot <a local copy of the Record Atlas's site/public/context.json> [--report drops.json]
                                                         also rebuild src/data/era-snapshot.json from the Atlas's versioned
                                                         contract (the deliberate refresh: nothing in a build ever reads the Atlas).
-                                                        The contract carries no rings; they come from the Atlas's regions.json.
+                                                        The rings and bboxes come from the contract itself (1.8.0 and later).
 
-    THE POLICY ON ERAS THE ATLAS HAS NOT ASSESSED. The contract (1.7.0) carries `contested` and `approx` as null on every region
-    era: nobody has assessed them. The kit refuses such an era by default, which leaves no note at all, so this archive builds
-    its snapshot with --unassessed allow, on purpose and on the record: the snapshot's policy says so, the gate prints how many
-    notes rest on an unassessed era, and dropping the flag below (then rebuilding) is the whole of going strict.
+    THE POLICY ON ERAS THE ATLAS HAS NOT ASSESSED. The contract carries `contested` and `approx` as null on a region era nobody
+    has assessed. The kit refuses such an era by default, which would leave no note on England, Santa Fe and the other older
+    regions, so this archive builds its snapshot with --unassessed allow, on purpose and on the record: the snapshot's policy
+    says so, the gate prints how many notes rest on an unassessed era, and dropping the flag below (then rebuilding) is the whole
+    of going strict. An assessed era is held to the kit's boundary-margin rule (kit/docs/era-notes.md, rule l, snapshot version 4):
+    the kit's defaults (--approx margin, --contested scope, --margin-years 5) are used and not overridden here.
 
 Only places of people who are NOT living are read: a living person's page prints a town and a country and no event, and
 the notes are never drawn there.
@@ -131,7 +133,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--snapshot", default=None, help="a local copy of the Record Atlas's context.json (the versioned contract): also rebuild era-snapshot.json")
-    ap.add_argument("--rings", default=None, help="the Atlas's regions.json (data/regions.json in the Atlas repository), for the ring-edge rule")
+    ap.add_argument("--report", default=None, help="with --snapshot: write the kit's per-region drops report here (counts only)")
     a = ap.parse_args()
     rows, used, table = build()
     missing = sorted(set(used) - set(rows))
@@ -165,12 +167,11 @@ def main():
         print("  WARNING %d place string(s) in events have no row in data/era-ground.tsv" % len(missing))
         return 1
     if a.snapshot:
-        if not a.rings:
-            print("  FAIL  era-ground  --snapshot needs --rings <the Atlas's regions.json>: the contract carries no rings")
-            return 2
-        r = subprocess.run([sys.executable, os.path.join(KIT_TOOLS, "erasnap.py"), "--contract", a.snapshot, "--rings", a.rings,
-                            "--places", OUT, "--out", SNAP, "--unassessed", "allow"])
-        return r.returncode
+        cmd = [sys.executable, os.path.join(KIT_TOOLS, "erasnap.py"), "--contract", a.snapshot,
+               "--places", OUT, "--out", SNAP, "--unassessed", "allow"]
+        if a.report:
+            cmd += ["--report", a.report]
+        return subprocess.run(cmd).returncode
     return 0
 
 
