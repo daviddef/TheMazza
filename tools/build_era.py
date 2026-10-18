@@ -21,6 +21,10 @@ town the Atlas's approximate ring would give to its neighbour) and refuses to pa
     of going strict. An assessed era is held to the kit's boundary-margin rule (kit/docs/era-notes.md, rule l, snapshot version 4):
     the kit's defaults (--approx margin, --contested scope, --margin-years 5) are used and not overridden here.
 
+    RULERS (kit rule m, snapshot version 5): the kit carries a region's reigns into the snapshot from a contract of 1.11.0 or later,
+    with its default polity table (twosicilies -> the Two Sicilies; italy -> the Kingdom of Italy and the Republic); this archive does
+    not override the table (no --ruler-polities). The person page passes `rulers` to EraNote and check:era runs with --rulers.
+
 Only places of people who are NOT living are read: a living person's page prints a town and a country and no event, and
 the notes are never drawn there.
 """
