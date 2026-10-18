@@ -4,11 +4,14 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import births from "../data/mazza-births.json";
 import acts from "../data/sicilian-acts.json";
+import Rec from "../components/Rec.astro";
 const { households, plates } = acts;
 const ros = households.find((h) => h.father.startsWith("Rosario"));
 const sal = households.find((h) => h.father.startsWith("Salvatore"));
 const pas = households.find((h) => h.father.startsWith("Pasquale"));
 const plate = (f) => plates.find((p) => p.f === f);
+/* the scan of an act, where the archive holds one: the plate whose caption opens "Act 164, 1877" */
+const scanOf = (c) => plates.find((p) => p.t.startsWith(`Act ${c.act}, ${c.year}`));
 ---
 <Base autolink title="The Sicilian Registers" eyebrow="Read 10 September 2026"
       dek="Nine annual indexes and six acts, hunting one man. He is still missing — and in looking for him the archive found Rosario, and a generation above him nobody knew was there.">
@@ -18,14 +21,14 @@ const plate = (f) => plates.find((p) => p.f === f);
     1879</strong>, son of a <P n="Rosario Mazza" /> about whom exactly one thing was known: that he
     existed. Finding Salvatore's act of birth was supposed to name Rosario and settle everything.</p>
     <p class="lede" style="margin-top:1rem"><strong>Salvatore is not in the register</strong> — not in
-    <strong>1875, 1876, 1877, 1878, 1879, 1880, 1881 or 1882</strong> at Piedimonte Etneo, nor at
+    <strong><Rec c="Piedimonte Etneo" k="Nati" y="1875">1875</Rec>, <Rec c="Piedimonte Etneo" k="Nati" y="1876">1876</Rec>, <Rec c="Piedimonte Etneo" k="Nati" y="1877">1877</Rec>, <Rec c="Piedimonte Etneo" k="Nati" y="1878">1878</Rec>, 1879, <Rec c="Piedimonte Etneo" k="Nati" y="1880">1880</Rec>, <Rec c="Piedimonte Etneo" k="Nati" y="1881">1881</Rec> or <Rec c="Piedimonte Etneo" k="Nati" y="1882">1882</Rec></strong> at Piedimonte Etneo, nor at
     Mascali or Giarre in 1879.
     But the five Mazza births that <em>are</em> there, and <strong>two marriage acts</strong>, have
     between them built <strong>three documented households</strong>, proved <strong>two of the men
     brothers</strong>, and reached <strong>a generation the family tree does not contain at all</strong>.</p>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="the-finding">
     <div class="lab">The finding</div>
     <h2 style="margin-top:.4rem">Innocenzio Mazza and Domenica Cavallaro</h2>
     <p class="dek" style="margin:.9rem 0 1.4rem">A birth act names a father. <strong>A marriage act
@@ -33,12 +36,12 @@ const plate = (f) => plates.find((p) => p.f === f);
     five births. Two of them, two years apart, name the same couple:</p>
 
     <div class="rec">
-      <div class="k">1874, atto 26</div>
+      <div class="k"><Rec c="Piedimonte Etneo" k="Matrimoni" y="1874" a="26">1874, atto 26</Rec></div>
       <div class="v"><strong>Antonino Mazza</strong>, di anni <strong>trentuno</strong>, bracciante,
       qui nato, <strong>figlio d'Innocenzio</strong>, bracciante, <strong>e di Domenica Cavallaro</strong>,
       industriosa — marries <strong>Rosa Raiti</strong>, 20, daughter of Giuseppe Raiti and Agata Pennisi.</div>
       <div class="w">19 July 1874</div>
-      <div class="k">1876, atto 5</div>
+      <div class="k"><Rec c="Piedimonte Etneo" k="Matrimoni" y="1876" a="5">1876, atto 5</Rec></div>
       <div class="v"><strong>Mazza Salvatore</strong>, di anni <strong>trentaquattro</strong>,
       bracciante, nato in Piedimonte Etneo, <strong>figlio di Senzio</strong>
       <strong>e di Cavallaro Domenica</strong> — marries <strong>Concetta Sciacca</strong>, 19,
@@ -73,11 +76,11 @@ const plate = (f) => plates.find((p) => p.f === f);
     <div class="lab">A correction, in the open</div>
     <h2 style="margin-top:.4rem">This page said «Venerio» for six hours, and it was wrong</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Reading act 5 alone, this archive rendered the father's name as <strong>Venerio</strong> —
+      <p>Reading <Rec c="Piedimonte Etneo" k="Matrimoni" y="1876" a="5">act 5</Rec> alone, this archive rendered the father's name as <strong>Venerio</strong> —
       and then built an argument on it: that Salvatore's son of 1879, christened <em>Venerio</em>, was
       named for his paternal grandfather in the ordinary Sicilian way, so custom and document agreed.
       It was a satisfying piece of reasoning and it was <strong>built on a misreading</strong>.</p>
-      <p>Act 26 of 1874 spells the same man's name out in full: <strong>Innocenzio</strong>.
+      <p><Rec c="Piedimonte Etneo" k="Matrimoni" y="1874" a="26">Act 26 of 1874</Rec> spells the same man's name out in full: <strong>Innocenzio</strong>.
       Magnified, act 5 says <strong>«Senzio»</strong> — the standard Sicilian contraction of
       Innocenzio, not Venerio at all.</p>
       <p><strong>So the naming inference is withdrawn.</strong> Venerio Mazza, born 1879, is not named
@@ -104,7 +107,7 @@ const plate = (f) => plates.find((p) => p.f === f);
           <div class="mono" style="margin-top:5px;color:var(--ink-3)">{h.streets.join(" · ")}</div>
           <div class="evlist" style="margin-top:12px">
             {h.children.map((c) => (
-              <div><b>{c.date.split(" ").slice(-1)}</b>{c.name} — act {c.act}, {c.date}</div>
+              <div><b>{c.date.split(" ").slice(-1)}</b>{c.name} — <Rec c="Piedimonte Etneo" k="Nati" y={c.year} a={c.act} ark={c.ark}>act {c.act}</Rec>, {c.date}{scanOf(c) && <a class="platethumb" href={u("/plates/" + scanOf(c).f)} aria-label={"The scan: " + scanOf(c).t} title={"The scan: " + scanOf(c).t}><img src={u("/plates/" + scanOf(c).f)} alt="" width="64" height="44" loading="lazy" decoding="async" /></a>}</div>
             ))}
           </div>
         </div>
@@ -155,8 +158,8 @@ const plate = (f) => plates.find((p) => p.f === f);
         </tbody>
       </table>
     </div>
-    <p class="cap">Piedimonte Etneo births 1877–1882 and the 1879 supplement; Mascali 1879; Giarre
-    1879; Piedimonte Etneo marriages 1875 and 1876. Archivio di Stato di Catania, Stato civile
+    <p class="cap"><Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Piedimonte%20Etneo" title="Antenati: the Piedimonte Etneo registers, as the portal lists them">Piedimonte Etneo births 1877–1882</Rec> and the 1879 supplement; <Rec c="Mascali" k="Nati" y="1879">Mascali 1879</Rec>; <Rec c="Giarre" k="Nati" y="1879">Giarre
+    1879</Rec>; Piedimonte Etneo marriages <Rec c="Piedimonte Etneo" k="Matrimoni" y="1875">1875</Rec> and <Rec c="Piedimonte Etneo" k="Matrimoni" y="1876">1876</Rec>. Archivio di Stato di Catania, Stato civile
     italiano, via Antenati. Every volume carries an alphabetical <em>Indice Annuale</em> in its last
     pages — which is how twelve volumes were checked without reading one of them through.</p>
   </section>
@@ -177,13 +180,13 @@ const plate = (f) => plates.find((p) => p.f === f);
   <section class="blk" style="border-bottom:0">
     <h2>Two corrections this made</h2>
     <div class="prose" style="margin-top:1rem">
-      <p><strong>The index is not the act.</strong> The 1877 annual index lists act 168 as
+      <p><strong>The index is not the act.</strong> <Rec c="Piedimonte Etneo" k="Nati" y="1877">The 1877 annual index</Rec> lists <Rec c="Piedimonte Etneo" k="Nati" y="1877" a="168">act 168</Rec> as
       <em>Mazza Grazia</em>. The act itself says <strong>Orazio</strong> — a boy, not a girl. An index
       is a clerk's abstract and it can be wrong; the act is the record.</p>
-      <p><strong>And a misreading of my own, corrected by a second document.</strong> Reading act 205
+      <p><strong>And a misreading of my own, corrected by a second document.</strong> Reading <Rec c="Piedimonte Etneo" k="Nati" y="1879" a="205" ark="an_ua83493">act 205</Rec>
       alone, this archive gave Salvatore Mazza's wife as <em>Greco Concetta</em> — which produced an
-      absurdity, two women of that name on one street bearing children six weeks apart. The 1876
-      marriage index settles it: Salvatore married <strong>Concetta Sciacca</strong>. It is
+      absurdity, two women of that name on one street bearing children six weeks apart. <Rec c="Piedimonte Etneo" k="Matrimoni" y="1876">The 1876
+      marriage index</Rec> settles it: Salvatore married <strong>Concetta Sciacca</strong>. It is
       <strong>Pasquale</strong> whose wife is Concetta Greco, and that is confirmed twice, in 1877 and
       1879. Two documents beat one, and the absurdity was the tell.</p>
     </div>

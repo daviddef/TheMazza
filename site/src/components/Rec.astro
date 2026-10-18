@@ -1,0 +1,65 @@
+---
+/* <Rec c="Scilla" k="Matrimoni" y="1888" a="63">Scilla, Matrimoni 1888, atto 63</Rec>
+ *
+ * A citation that can be followed. The text between the tags is the author's own citation, word for word; this
+ * component only wraps it in the link to the record, so a reader who meets "atto 63" can go and look at the act.
+ *
+ * WHERE THE LINK GOES, in this order, and it is the same for every page that uses it:
+ *   own="/path"    the archive's own page, for a record that is not on a public site and is kept here instead
+ *                  (a letter, a transcription, a log of what was searched)
+ *   fs="3:1:..."   a FamilySearch ark, as the archive writes it (a manifest, a census, a parish register)
+ *   ark="an_ua..." an Antenati ark the archive holds (data/*arks*.tsv, data/scilla-reads.tsv, data/pe-mazza-acts.tsv)
+ *   c, k, y        else the one volume the ark tables list for that comune, kind and year
+ * An ark the archive has never written down, a year with two volumes and no ark given to choose between them, and
+ * a record with nowhere to go all STOP THE BUILD: a link that is a guess is worse than no link.
+ *
+ * It is a link to the record's landing page, never a copy of it. The scan the archive may show sits beside the
+ * passage (PlateFig) and in the gallery at the foot (Plates); this is the way out to the original.
+ *
+ * PROPS   c  comune (default Scilla)        k  Nati | Matrimoni | Morti | Pubblicazioni | Processetti
+ *         y  year                           a  act number (for the title only)
+ *         ark | fs | own                    as above
+ *         href  an address on Antenati (the portal's search for a place), FamilySearch, the National Archives of Australia
+ *               (RecordSearch), Queensland's BDM index, Trove, or this archive's repository,
+ *               for a citation of a series rather than one record ("Antenati has 57 volumes"); nothing else is accepted
+ *         title  the link's tooltip, when the record the link goes to is not the record the text names (a death of
+ *               1975 is on no public site; its entry is in the margin of the 1892 birth act, and the tooltip says so)
+ *         soft  a name page (/who/) lists records the archive has only some of the addresses for: with soft, a
+ *               record that cannot be resolved is drawn as plain text instead of stopping the build
+ */
+import records from "../data/records.json";
+import { u } from "../lib/url.js";
+const { c = "Scilla", k, y, a, ark, fs, own, href: out, title: tip, soft = false } = Astro.props;
+let what = [k || y ? c : null, k && y ? `${k} ${y}` : y, a ? `atto ${a}` : null].filter(Boolean).join(", ");
+/* a bare ark ("Antenati an_ua87663" in a caption) is named by what the ark tables say it is, not by a default comune */
+if (!what && ark && records.ark[ark]) {
+  const i = records.ark[ark];
+  what = i.comune && i.tipologia ? `${i.comune}, ${i.tipologia} ${i.year}` : `ark ${ark}`;
+}
+let href = null, via = null, title = null;
+const fail = (m) => { if (soft) return null; throw new Error(m); };
+if (out) {
+  const ok = /^https:\/\/(antenati\.cultura\.gov\.it\/|www\.familysearch\.org\/|recordsearch\.naa\.gov\.au\/|www\.familyhistory\.bdm\.qld\.gov\.au\/|trove\.nla\.gov\.au\/|github\.com\/daviddef\/)/.test(out);
+  if (!ok) fail(`<Rec href="${out}">: only Antenati, FamilySearch, the NAA, Queensland BDM, Trove and this archive's repository`);
+  else { href = out; via = out.includes("familysearch") ? "familysearch" : out.includes("github") ? "repository" : out.includes("naa.gov.au") ? "naa" : out.includes("bdm.qld") ? "bdm" : out.includes("trove") ? "trove" : "antenati"; title = what; }
+} else if (own) {
+  href = u(own); via = "own"; title = `This archive's own record of ${what}`;
+} else if (fs) {
+  if (!/^[0-9]:[0-9]:[0-9A-Z]{3,5}(-[0-9A-Z]{1,5}){1,3}$/.test(fs)) fail(`<Rec fs="${fs}">: not a FamilySearch ark id`);
+  else { href = `https://www.familysearch.org/ark:/61903/${fs}`; via = "familysearch"; title = `FamilySearch: ${what || fs}`; }
+} else {
+  let a1 = ark;
+  if (!a1) {
+    const vols = records.vol[`${c}|${k}|${y}`] || [];
+    if (vols.length !== 1) {
+      fail(`<Rec c="${c}" k="${k}" y="${y}">: the ark tables list ${vols.length} volume(s) for it, so give ark="..." `
+        + `(an ark from data/*arks*.tsv or the act tables) or own="/page"`);
+    } else a1 = vols[0];
+  }
+  if (a1) {
+    if (!records.ark[a1]) fail(`<Rec ark="${a1}">: that ark is in none of the archive's ark tables`);
+    else { href = `https://antenati.cultura.gov.it/ark:/12657/${a1}`; via = "antenati"; title = `Antenati: ${what || a1}`; }
+  }
+}
+---
+{href ? <a class="reclink" href={href} data-rec={via} title={tip || title} rel={via === "own" ? undefined : "noopener"}><slot /></a> : <slot />}

@@ -512,6 +512,29 @@ a[data-autolink]{color:inherit;text-decoration:none;
 a[data-autolink]:hover{border-bottom-color:currentColor}
 a[data-autolink][href*="?q="]{border-bottom-style:dashed}
 
+/* A citation that can be followed (components/Rec.astro): the author's own words, linked to the record. The same
+   quiet rule as a name link; a dotted line, so a reader can tell a record from a person. */
+a.reclink{color:inherit;text-decoration:none;border-bottom:1px dotted color-mix(in srgb,currentColor 55%,transparent)}
+a.reclink:hover{color:var(--accent);border-bottom-style:solid;border-bottom-color:currentColor}
+a.reclink code{color:inherit}
+
+/* The scan of a record, beside the passage that cites it (components/PlateFig.astro). Small, and a link to the
+   full scan; the gallery at the foot of the page keeps the large one. */
+figure.platefig{display:grid;grid-template-columns:minmax(0,230px) minmax(0,1fr);gap:0 18px;align-items:start;
+  margin:18px 0 6px;padding:12px 0 0;border-top:1px solid var(--rule)}
+figure.platefig .platefig-img{display:block;border:1px solid var(--rule);line-height:0;background:var(--panel-2)}
+figure.platefig img{width:100%;height:auto;max-height:300px;object-fit:cover;object-position:top}
+figure.platefig figcaption{font-family:var(--sans);font-size:12.5px;line-height:1.55;color:var(--ink-3)}
+figure.platefig figcaption > span{display:block}
+figure.platefig figcaption strong{display:block;font-size:13px;color:var(--ink);margin:2px 0 3px}
+figure.platefig .platefig-k{font-size:10.5px;font-weight:600;letter-spacing:.11em;text-transform:uppercase}
+figure.platefig .platefig-more{margin-top:6px}
+/* A scan too small for a figure, in a line of a list (the households of /register-1879/): a thumbnail that opens the scan. */
+a.platethumb{display:inline-block;vertical-align:middle;margin-left:10px;border:1px solid var(--rule);line-height:0;background:var(--panel-2)}
+a.platethumb img{width:64px;height:44px;object-fit:cover;object-position:top}
+@media (max-width:560px){figure.platefig{grid-template-columns:minmax(0,1fr);gap:10px 0}
+  figure.platefig .platefig-img{max-width:260px}}
+
 /* Home-page banner — used only when an image has been placed at /art/banner.webp */
 .banner { margin: 0 0 30px; }
 

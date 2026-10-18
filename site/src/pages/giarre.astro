@@ -30,6 +30,8 @@ const mSpan = mRead.length
 import coverage from "../data/coverage.json";
 import nic from "../data/nicotra.json";
 
+import Rec from "../components/Rec.astro";
+import Cites from "../components/Cites.astro";
 const HERE = "Giarre";
 const rows = holdings.rows.filter((r) => r.comune.startsWith(HERE));
 const cov = coverage.rows.find((r) => r.comune === HERE) || {};
@@ -76,6 +78,14 @@ const HOUSES = [
   ["Giuseppe", "Coco Carmela", "1859, atto 4 — not the Giuseppe of Matrimoni 1820, who married a Cattabiano"],
 ];
 const YEARS = nic.byComune["Giarre"] || [];
+/* the acts the death Tavole name, by their words (Cites.astro finds "Nati 1820 atto 198" by itself) */
+const HLINKS = Object.fromEntries([
+  ["1820, atto 179", "1820", "179"], ["1820, atto 181", "1820", "181"], ["1821, atto 14", "1821", "14"],
+  ["1827, atti 94 and 123", "1827", "94 and 123"], ["1831, atto 149", "1831", "149"], ["1836, atto 113", "1836", "113"],
+  ["1842, atto 189", "1842", "189"], ["1856, atto 34", "1856", "34"], ["1859, atto 4", "1859", "4"],
+].map(([t, y, n]) => [t, { c: "Giarre", k: "Morti", y, a: n }]));
+/* 1847 has more than one death volume at Giarre, so the act is cited to the portal's listing, not to one of them */
+HLINKS["1847, atto 146"] = { href: "https://antenati.cultura.gov.it/search-registry/?localita=Giarre", title: "Antenati: the Giarre registers (1847 has more than one death volume, so the act is not tied to one)" };
 const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
 
 ---
@@ -132,8 +142,8 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
       <p>The eleven years above are still eleven years, and they still do not hold Giovanni. But the
       sentence they seemed to support — that Giarre's Nicotra were <em>all</em> gentry — was never
       what they said. It was what eleven years of one register could not see.</p>
-      <p><a href={u("/riposto/")}>Riposto</a>'s marriage <em>Tavola</em> for <strong>1844</strong>,
-      atto 39, marries <strong>Nicotra Salvadore</strong> to Maria Barbagallo. The <em>patria</em>
+      <p><a href={u("/riposto/")}>Riposto</a>'s <Rec c="Riposto" k="Matrimoni" y="1844" a="39">marriage <em>Tavola</em> for <strong>1844</strong>,
+      atto 39</Rec>, marries <strong>Nicotra Salvadore</strong> to Maria Barbagallo. The <em>patria</em>
       column gives his as <strong>GIARRE</strong>. His parents are written plainly, with no
       <em>Don</em> and no <em>Donna</em>: <strong>Alfio Nicotra and Rosa Pappalardo</strong>. He then
       registers two children at Riposto, in 1845 and 1847.</p>
@@ -148,7 +158,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
   </section>
 
   <section class="blk">
-    <div class="lab">22 September 2026 · Giarre, Nati 1820, the first year of all</div>
+    <div class="lab">22 September 2026 · <Rec c="Giarre" k="Nati" y="1820">Giarre, Nati 1820</Rec>, the first year of all</div>
     <h2 style="margin-top:.4rem">The decade was wrong, not the town</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Salvadore Nicotra's marriage pointed at a birth around 1815–1824, so the first Giarre volume
@@ -156,13 +166,13 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
       nothing before it anywhere south of the strait. Its N section was read whole.</p>
       <p><strong>It holds two Nicotra households, and neither carries a title.</strong></p>
       <div class="rec" style="margin-top:12px">
-        <div class="k">atto 198</div><div class="v"><strong>Nicotra Rosaria</strong> — of <strong>Nicotra Simone</strong> and Marianna Dadone</div><div class="w">13 April 1820</div>
-        <div class="k">atto 228</div><div class="v"><strong>Nicotra Carmela</strong> — of <strong>Nicotra Rosario</strong> and Rosa Providenza</div><div class="w">1 May 1820</div>
+        <div class="k"><Rec c="Giarre" k="Nati" y="1820" a="198">atto 198</Rec></div><div class="v"><strong>Nicotra Rosaria</strong> — of <strong>Nicotra Simone</strong> and Marianna Dadone</div><div class="w">13 April 1820</div>
+        <div class="k"><Rec c="Giarre" k="Nati" y="1820" a="228">atto 228</Rec></div><div class="v"><strong>Nicotra Carmela</strong> — of <strong>Nicotra Rosario</strong> and Rosa Providenza</div><div class="w">1 May 1820</div>
       </div>
         <figure style="margin-top:1.4rem">
         <img src={u("/plates/giarre1820-nati-nicotra.jpg")} alt="Giarre, Nati 1820 — the N section, with two Nicotra households"
              style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
-        <figcaption class="dek" style="margin-top:.6rem">Giarre, Stato civile della restaurazione, <strong>Nati 1820</strong>, the annual <em>Tavola</em> at the N section — Archivio di Stato di Catania (Antenati <em>an_ua68978</em>, image 553). <strong>198 · Nicotra Rosaria</strong> — Nicotra Simone / Dadone Marianna, 13 April. <strong>228 · Nicotra Carmela</strong> — <strong>Nicotra Rosario</strong> / Providenza Rosa, 1 May. Below them Nucifora, Nicolosi and Nota, and then O. No <em>Don</em> and no <em>Donna</em> on the page.</figcaption>
+        <figcaption class="dek" style="margin-top:.6rem">Giarre, Stato civile della restaurazione, <strong>Nati 1820</strong>, the annual <em>Tavola</em> at the N section — Archivio di Stato di Catania (Antenati <Rec ark="an_ua68978"><em>an_ua68978</em></Rec>, image 553). <strong>198 · Nicotra Rosaria</strong> — Nicotra Simone / Dadone Marianna, 13 April. <strong>228 · Nicotra Carmela</strong> — <strong>Nicotra Rosario</strong> / Providenza Rosa, 1 May. Below them Nucifora, Nicolosi and Nota, and then O. No <em>Don</em> and no <em>Donna</em> on the page.</figcaption>
       </figure>
 
       <p style="margin-top:16px">So the sentence this page carried for a day — that Giarre's Nicotra
@@ -224,7 +234,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     Giarre, and they are now kept separately; Giarre holds {nati.volumes} Nati, {morti.volumes} Morti
     and {matr.volumes} Matrimoni volumes in its own right. The tell was there to be read: the Macchia
     volumes' <em>Patria</em> column names Milo, Macchia and Dagala, which are Macchia's hamlets and not
-    Giarre's. The discriminator is the ark — every <em>an_ua1999*</em> is Macchia — checked against
+    Giarre's. The discriminator is the ark — every <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Macchia" title="Antenati: the Macchia registers (every ark an_ua1999…)"><em>an_ua1999*</em></Rec> is Macchia — checked against
     eight manifest labels spread across 1821 to 1871, and the two groups share no <em>segnatura</em>
     between them.</p>
     <p class="note" style="margin-top:12px"><strong>Macchia is a comune this archive holds and has
@@ -234,7 +244,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     after 1875) is unexplored, and the count of {MACCHIA_N} is a count of rows this archive holds rather than a
     listing verified against the archive's own catalogue, which is why its coverage status stays open.</p>
     <p class="note" style="margin-top:12px"><strong>What it cost.</strong> Giarre's own
-    <em>Morti</em> 1850 is scanned short and carries no index. A sweep took the index from what it
+    <Rec c="Giarre" k="Morti" y="1850"><em>Morti</em> 1850</Rec> is scanned short and carries no index. A sweep took the index from what it
     believed was the duplicate and banked the year as read — <em>«the first time the two-deposit rule
     has actually paid here»</em>. It had not paid; it had read <strong>Macchia's dead</strong>. That
     year is now marked unread and the names taken from it belong to Macchia. <strong>The Giarre death
@@ -292,17 +302,17 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
   </section>
 
   <section class="blk">
-    <div class="lab">23 September 2026 · Giarre, Matrimoni 1838, atto 2</div>
+    <div class="lab">23 September 2026 · <Rec c="Giarre" k="Matrimoni" y="1838" a="2">Giarre, Matrimoni 1838, atto 2</Rec></div>
     <h2 style="margin-top:.4rem">An untitled Nicotra marrying at Giarre, and a grandfather behind him</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Seven of Giarre's ten banked marriage years are now read whole. Rosario Nicotra is in none
       of them. What 1838 holds instead is the plainest Nicotra household this archive has found here:</p>
       <div class="rec" style="margin-top:12px">
-        <div class="k">atto 2</div><div class="v"><strong>Nicotra Alfio</strong> — of <strong>Nicotra Salvadore</strong> and <strong>La Spina Rosa</strong></div><div class="w">9 January 1838</div>
+        <div class="k"><Rec c="Giarre" k="Matrimoni" y="1838" a="2">atto 2</Rec></div><div class="v"><strong>Nicotra Alfio</strong> — of <strong>Nicotra Salvadore</strong> and <strong>La Spina Rosa</strong></div><div class="w">9 January 1838</div>
         <div class="k">married</div><div class="v">Cesaro Venera, of Giarre</div><div class="w">no <em>Don</em>, no <em>Donna</em></div>
       </div>
-      <p style="margin-top:16px">Set that beside <a href={u("/riposto/")}>Riposto</a>'s marriage of
-      1844 — <strong>Nicotra Salvadore, <em>patria Giarre</em>, son of Nicotra Alfio and Rosa
+      <p style="margin-top:16px">Set that beside <a href={u("/riposto/")}>Riposto</a>'s <Rec c="Riposto" k="Matrimoni" y="1844">marriage of
+      1844</Rec> — <strong>Nicotra Salvadore, <em>patria Giarre</em>, son of Nicotra Alfio and Rosa
       Pappalardo</strong> — and the two acts give <strong>an alternating Alfio and Salvadore running
       three generations deep at Giarre</strong>, which is precisely what Sicilian naming custom
       produces when the first son takes his paternal grandfather's name.</p>
@@ -313,7 +323,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
       that ordinary labouring Nicotra were at Giarre continuously from at least 1820 to 1844, in a
       town whose eleven read birth years show none of them.</p>
       <p style="margin-top:16px"><strong>And his own birth act is not here either.</strong> Giarre's
-      births are now read for <strong>eighteen years</strong>: 1820 to 1826 end to end, and 1838 to
+      births are now read for <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Giarre" title="Antenati: the Giarre registers, as the portal lists them"><strong>eighteen years</strong></Rec>: 1820 to 1826 end to end, and 1838 to
       1848. Salvadore married in 1844, so a Giarre birth puts him about 1815–1824 — and
       <strong>1822, 1823, 1824, 1825 and 1826 have the N heading written and left blank</strong>,
       three of them stacking <em>N, O, P</em> in one column and disposing of two letters at a stroke.
@@ -323,7 +333,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
       <strong>before 1820</strong> — and <a href={u("/method/")}>Sicilian civil registration begins in
       1820</a>, so there is no act to find and only the parish books could hold him — or he said
       <em>Giarre</em> and was registered somewhere else. <strong>Two Nicotra men now say «patria
-      Giarre» and neither is in Giarre's registers.</strong> Salvadore from 1844, Giovanni from 1872.
+      Giarre» and neither is in Giarre's registers.</strong> Salvadore from <Rec c="Riposto" k="Matrimoni" y="1844" a="39">1844</Rec>, Giovanni from <Rec c="Piedimonte Etneo" k="Matrimoni" y="1872" a="20">1872</Rec>.
       Two is not a coincidence.</p>
     <p class="note" style="margin-top:16px"><strong>1842 nearly became a false negative.</strong>
       At band width its alphabet appears to run M, N, O. At full width the two headings are
@@ -341,7 +351,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     <div class="lab">11 October 2026 · Giarre, Morti — looking for Simone</div>
     <h2 style="margin-top:.4rem">A man born about 1776, and the death act that would name his parents</h2>
     <div class="prose" style="margin-top:1rem">
-      <p><strong>Giarre Nati 1820, atto 198</strong> puts a <strong>Simone Nicotra, di anni
+      <p><strong><Rec c="Giarre" k="Nati" y="1820" a="198">Giarre Nati 1820, atto 198</Rec></strong> puts a <strong>Simone Nicotra, di anni
       quarantaquattro, contadino</strong>, in the <em>quartiere S. Alfio</em>, declaring a daughter
       by <strong>Marianna Daidone</strong>. Rosario Nicotra was born about 1800 at Giarre and his own
       death act of 1890 names his parents as <em>fu Simone</em> and <em>fu Musumeci Marianna</em>.
@@ -357,7 +367,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
       couple the index itself names:</p>
       <ul class="prose" style="margin-top:.6rem">
         {HOUSES.map((h) => (
-          <li><strong>Nicotra {h[0]}</strong> × {h[1]} <span class="dek">— {h[2]}</span></li>
+          <li><strong>Nicotra {h[0]}</strong> × {h[1]} <span class="dek">— <Cites text={h[2]} c="Giarre" links={HLINKS} /></span></li>
         ))}
       </ul>
       <p style="margin-top:1rem">That list is the reason none of them is attached to anybody.
@@ -402,12 +412,12 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     <div class="lab">22 September 2026 · two registers, one man, two birthplaces</div>
     <h2 style="margin-top:.4rem">The same man is «of S. Giovanni» here and «of Giarre» there</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Giarre's marriage <em>Tavola</em> for <strong>1844</strong> holds the wedding of the
-      <em>Dottor Don</em> himself — <strong>atto 54, 19 August 1844: Nicotra D.<sup>r</sup> D. Alfio
+      <p><Rec c="Giarre" k="Matrimoni" y="1844">Giarre's marriage <em>Tavola</em> for <strong>1844</strong></Rec> holds the wedding of the
+      <em>Dottor Don</em> himself — <strong><Rec c="Giarre" k="Matrimoni" y="1844" a="54">atto 54</Rec>, 19 August 1844: Nicotra D.<sup>r</sup> D. Alfio
       of Giarre, son of Nicotra D. Giuseppe and Caltabiano D. Gioachina, marrying Consoli D.
       Antonina.</strong> They are the couple whose Salvatore appears in the birth index in 1846 and
       again in 1848.</p>
-      <p>Six years earlier, <strong>Riposto</strong>'s marriage Tavola records <strong>atto 15, 23
+      <p>Six years earlier, <strong>Riposto</strong>'s marriage Tavola records <strong><Rec c="Riposto" k="Matrimoni" y="1838" a="15">atto 15</Rec>, 23
       April 1838: Nicotra D. Alfio, son of <em>fu</em> D. Giuseppe and D. Gioachina Cattabiano,
       marrying Ligresti D. Angela.</strong> <strong>The same two parents.</strong> It is one man,
       widowed and remarried — not two namesakes, which is what this archive had written down while it
@@ -415,7 +425,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
         <figure style="margin-top:1.4rem">
         <img src={u("/plates/giarre1844-matr54-don-alfio.jpg")} alt="Giarre, Matrimoni 1844, atto 54 — Nicotra D.r D. Alfio"
              style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
-        <figcaption class="dek" style="margin-top:.6rem">Giarre, <strong>Matrimoni 1844</strong>, the annual <em>Tavola</em>, <strong>atto 54</strong> — Archivio di Stato di Catania (Antenati <em>an_ua68872</em>, image 162). «<strong>Nicotra D.<sup>r</sup> D. Alfio</strong> — <em>Giarre</em> — <strong>Nicotra D. Giuseppe / Caltabiano D. Gioachina</strong>» marrying «Consoli D. Antonina — Consoli D. Biaggio…», 19 August. Those two parents are the same pair Riposto wrote for its Don Alfio six years earlier, which is what joins the two acts into one man.</figcaption>
+        <figcaption class="dek" style="margin-top:.6rem">Giarre, <strong>Matrimoni 1844</strong>, the annual <em>Tavola</em>, <strong>atto 54</strong> — Archivio di Stato di Catania (Antenati <Rec ark="an_ua68872"><em>an_ua68872</em></Rec>, image 162). «<strong>Nicotra D.<sup>r</sup> D. Alfio</strong> — <em>Giarre</em> — <strong>Nicotra D. Giuseppe / Caltabiano D. Gioachina</strong>» marrying «Consoli D. Antonina — Consoli D. Biaggio…», 19 August. Those two parents are the same pair Riposto wrote for its Don Alfio six years earlier, which is what joins the two acts into one man.</figcaption>
       </figure>
 
       <p>And the two registers give him <strong>two different birthplaces</strong>. Riposto's clerk

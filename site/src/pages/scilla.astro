@@ -7,6 +7,8 @@ import places from "../data/places.json";
 import reads from "../data/scilla-reads.json";
 import m13 from "../data/scilla-matr-1913.json";
 import Plates from "../components/Plates.astro";
+import Rec from "../components/Rec.astro";
+import PlateFig from "../components/PlateFig.astro";
 const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
   .some((x) => (x || "").startsWith("Scilla")));
 const pl = places.find((x) => x.name.startsWith("Scilla")) || {};
@@ -23,19 +25,19 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Act 163 of 1855 — 14 September 2026</div>
+  <section class="blk" id="act-163-of-1855">
+    <div class="lab"><Rec k="Nati" y="1855" a="163" ark="an_ua2002913">Act 163 of 1855</Rec> — 14 September 2026</div>
     <h2 style="margin-top:.4rem">Michele Donato was born at Scilla after all, and the answer sat one
     volume to the left</h2>
     <div class="prose" style="margin-top:1rem">
       <p>This has been the longest-running open question in the archive. <P n="Michele Donato" />'s
-      birth could not be found: the <strong>D section of the 1851 Tavola</strong> was read complete
-      and held no Donato, and so were <strong>1856</strong> and <strong>1859</strong>. Three years,
+      birth could not be found: the <strong><Rec k="Nati" y="1851">D section of the 1851 Tavola</Rec></strong> was read complete
+      and held no Donato, and so were <Rec k="Nati" y="1856" ark="an_ua2002920"><strong>1856</strong></Rec> and <Rec k="Nati" y="1859"><strong>1859</strong></Rec>. Three years,
       three negatives. The conclusion drawn here was that he came to Scilla from somewhere else — and
       <a href={u("/searched")}>eleven years of marriage indexes</a> then showed he had not married
       there either.</p>
-      <p><strong>The manifest broke it open.</strong> The New Orleans list of the <em>Liguria</em>,
-      March 1908, is a <strong>two-page form</strong>, and this site had only ever read the first
+      <p><strong>The manifest broke it open.</strong> <Rec fs="3:1:33SQ-G5CH-GM1" title="FamilySearch: the New Orleans list of the Liguria, March 1908 (second page, frame 764)">The New Orleans list of the <em>Liguria</em>,
+      March 1908</Rec>, is a <strong>two-page form</strong>, and this site had only ever read the first
       page. The second carries <strong>column 29: Place of Birth</strong>. Against
       <strong>line 15 — Michele Donato</strong> the clerk wrote <strong>R. Calabria / Scilla</strong>.
       Not a bulk copy of the residence column either: lines 9–11 of the same sheet say
@@ -58,10 +60,11 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <div class="v">Candeloro Benedetto, 31, <em>pastaro</em>; Rocco Pizzarello, 32,
         <em>fabbro</em></div><div class="w">—</div>
       </div>
+      <PlateFig plate="scilla-nati1855-atto163.jpg" />
 
       <p style="margin-top:1.2rem"><strong>The ages check exactly at both ends.</strong> Born 3
-      October 1855, he is <strong>thirty-six in July 1892</strong> — which is what act 162 of that
-      year says — and <strong>fifty-two in March 1908</strong>, which is what the manifest says.</p>
+      October 1855, he is <strong>thirty-six in July 1892</strong> — which is what <Rec k="Nati" y="1892" a="162">act 162 of that
+      year</Rec> says — and <strong>fifty-two in March 1908</strong>, which is what <Rec fs="3:1:33SQ-G5CH-GM1" title="FamilySearch: the New Orleans list of the Liguria, March 1908 (second page, frame 764)">the manifest says</Rec>.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">His mother was a Sofi, and so was his
       wife</h3>
@@ -75,25 +78,25 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       Sofi</strong> but not her parents. Both are in one document: <strong>Domenico Donato and
       Nunziata Sofi's own marriage</strong>. He was thirty-eight and she thirty-seven in October
       1855, so they were born about 1817–18 and married most likely between 1838 and 1848.</p>
-      <p>The Tavole of the Scilla marriages have now been read complete for <strong>1838, 1839,
-      1840, 1841 and 1843</strong> — small years, fourteen to twenty-six weddings each, with a D
+      <p>The Tavole of the Scilla marriages have now been read complete for <strong><Rec k="Matrimoni" y="1838">1838</Rec>, <Rec k="Matrimoni" y="1839">1839</Rec>,
+      <Rec k="Matrimoni" y="1840">1840</Rec>, <Rec k="Matrimoni" y="1841">1841</Rec> and <Rec k="Matrimoni" y="1843">1843</Rec></strong> — small years, fourteen to twenty-six weddings each, with a D
       section of two or three lines — and there is <strong>no Domenico Donato among the grooms</strong>
       in any of them.</p>
-      <p><strong>But 1843 gives something else.</strong> At act 11, <strong>Donato Antonio</strong> of
+      <p><strong>But 1843 gives something else.</strong> At <Rec k="Matrimoni" y="1843" a="11">act 11</Rec>, <strong>Donato Antonio</strong> of
       Scilla, <em>figlio di <strong>Bruno</strong></em>, marries <strong>Antonia Lanza</strong> of
       Catona. A Donato whose father is Bruno — and a <strong>Donato Bruno</strong> marries at Scilla
-      in 1878. So there are at least <strong>two Donato lines</strong> in this town: the
+      <Rec k="Matrimoni" y="1878" a="22">in 1878</Rec>. So there are at least <strong>two Donato lines</strong> in this town: the
       <strong>Bruno</strong> line and the <strong>Candeloro</strong> line that Michele comes from.
       Telling them apart is going to matter.</p>
-      <p><strong>1847 too, read and negative.</strong> Its D section is a single line — De Marco
+      <p><strong><Rec k="Matrimoni" y="1847">1847</Rec> too, read and negative.</strong> Its D section is a single line — De Marco
       Rocco — and that is the whole of it.</p>
       <p><strong>What is left is not simply unread; some of it is unreadable.</strong> 1835–37 and
-      1848–54 have not been opened. <strong>1842 and 1844 have</strong>, and both carry the
+      1848–54 have not been opened. <strong><Rec k="Matrimoni" y="1842">1842</Rec> and <Rec k="Matrimoni" y="1844">1844</Rec> have</strong>, and both carry the
       archivist's own slips — <em>inchiostro sbiadito</em>, <em>tight binding</em> — with the D
       section running into the gutter. Neither could be read with confidence, and they will need the
       <em>acts</em>, scanned down their margins, rather than the index.</p>
       <p class="note" style="margin-top:14px"><strong>And a trap in this archive's own ark list.</strong>
-      The 1845 and 1846 arks in <code>data/scilla-arks.tsv</code> lead to <strong>notificazioni</strong>
+      The 1845 and 1846 arks in <Rec href="https://github.com/daviddef/TheMazza/blob/main/data/scilla-arks.tsv" title="This archive's ark list for the Scilla registers (in the repository)"><code>data/scilla-arks.tsv</code></Rec> lead to <strong>notificazioni</strong>
       volumes, not to the marriage acts. Scilla has two or three separate volumes a year in this
       series and the list does not distinguish them — so a year can look read when the wrong book was
       opened.</p>
@@ -109,12 +112,12 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="death-registers">
     <div class="lab">The death registers — 13 September 2026</div>
     <h2 style="margin-top:.4rem">A ten-day-old boy at Via Grotte 70, and a lead that had to be let
     go</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Antenati holds <strong>eighty-one volumes of Scilla deaths, 1866 to 1943</strong> — a series
+      <p>Antenati holds <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Scilla" title="Antenati: the Scilla registers, as the portal lists them"><strong>eighty-one volumes of Scilla deaths, 1866 to 1943</strong></Rec> — a series
       this site did not know existed until today. Their annual indexes are better than the marriage
       ones: every line carries a <strong>patronymic</strong> — <em>di X</em> where the father was
       living, <em>fu X</em> where he was not. Reading the A block for eight years threw up two
@@ -122,7 +125,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
 
       <div class="rec" style="margin-top:18px">
         <div class="k">1 October 1891</div>
-        <div class="v">act <strong>134</strong> — at half past three that morning, in the house at
+        <div class="v"><Rec k="Morti" y="1891" a="134">act <strong>134</strong></Rec> — at half past three that morning, in the house at
         <strong>Via Grotte 70</strong>, died <strong>Arena Fortunato</strong>, <strong><em>di giorni
         dieci</em></strong> — ten days old</div><div class="w">born about 21 September</div>
         <div class="k">His parents</div>
@@ -134,6 +137,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         Witnesses Perina Giuseppe, 57, and <strong>Arlotta Giuseppe</strong>, 55, both
         <em>pescatori</em></div><div class="w">an Arlotta again</div>
       </div>
+      <PlateFig plate="scilla-morti1891-atto134.jpg" />
       <p style="margin-top:1.2rem">So <P n="Giovanni Arena" /> and Concetta Russo lost a son at ten
       days in the autumn of 1891, and <strong>the family tree does not have him</strong>. The act
       also pins the household: Giovanni is a <em>pescatore</em> here, exactly as his son Giuseppe's
@@ -142,8 +146,8 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">A second child at Via Grotte, in another
       family</h3>
-      <p>The same index turned up <strong><em>Donato Maria di Michele</em></strong> at act 22 of
-      1891, and that one is ours. On <strong>16 February 1891</strong>, at half past four in the
+      <p>The same index turned up <strong><em>Donato Maria di Michele</em></strong> at <Rec k="Morti" y="1891" a="22">act 22 of
+      1891</Rec>, and that one is ours. On <strong>16 February 1891</strong>, at half past four in the
       afternoon, in the house at <strong>Via Grotte 21</strong>, died <strong>Maria Donato,
       <em>di mesi ventotto</em></strong> — twenty-eight months old — born in this comune of
       <strong>Michele, <em>pescatore</em></strong>, and <strong>Maria Sofi, <em>filatrice</em></strong>.</p>
@@ -151,6 +155,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       1888</strong> who died at two years and four months, <strong>a sister of Nunziata that the
       family tree does not have</strong>. The act also gives Michele a trade — <em>pescatore</em> —
       and puts the household at <strong>Via Grotte 21</strong>.</p>
+      <PlateFig plate="scilla-morti1891-atto22.jpg" />
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">One short lane, five families</h3>
       <p>Put the addresses together and a neighbourhood appears. <strong>Via Grotte 21</strong>: the
@@ -159,8 +164,8 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       Nostro died at <em>the same number</em>, so seventy was a tenement and not a house.
       <strong>Via Grotte 75</strong>: the same Arena couple, where Giuseppe was born in 1892.</p>
       <p>And the same men keep signing. <strong>Arlotta Giuseppe</strong>, 55, <em>pescatore</em>, and
-      <strong>Sofi Michelangelo</strong>, 56, <em>pescatore</em>, witness both Via Grotte 70 deaths of
-      1891. <strong>Perina Giuseppe</strong>, 57, <em>pescatore</em>, witnesses the Arena child and
+      <strong>Sofi Michelangelo</strong>, 56, <em>pescatore</em>, witness both Via Grotte 70 <Rec k="Morti" y="1891">deaths of
+      1891</Rec>. <strong>Perina Giuseppe</strong>, 57, <em>pescatore</em>, witnesses the Arena child and
       the Donato child. These are neighbours doing for each other what neighbours do — and it is the
       plainest explanation this site has for why an Arlotta declared Giovanni Arena's birth in 1854,
       why an Arlotta lodged with Rocco Arena in Manhattan in 1900, and why a Donato married a Sofi.</p>
@@ -171,21 +176,22 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       to <strong>Giovanna Zirilli</strong>. This site moved those two sons to Francesco Antonio Arena
       and Serafina Arlotta, and Rocco's own marriage act now says so outright. That left one thing
       unsettled: <em>who was Orazio Arena?</em></p>
-      <p>An Orazio Arena died at Scilla on <strong>31 August 1895</strong>, act 133 — sixty-five, a
+      <p>An Orazio Arena died at Scilla on <strong>31 August 1895</strong>, <Rec k="Morti" y="1895" a="133">act 133</Rec> — sixty-five, a
       <em>pescatore</em>, at <strong>Via Acquagrande 70</strong>. His parents were the late
       <strong>Antonio Arena</strong>, <em>proprietario</em>, and the late <strong>Serafina
       Deluca</strong>. His wife was <strong>Concetta Maria Nestro</strong>. <strong>Different wife,
       different parents — a third Arena household.</strong> Born about 1830 he is the right
       generation to be mistaken for Francesco Antonio, and that is very likely how the confusion
       started.</p>
+      <PlateFig plate="scilla-morti1895-atto133.jpg" />
       <p class="note" style="margin-top:18px"><strong>And a caution worth more than the act.</strong>
-      His mother is a <strong>Serafina</strong> too — Serafina <em>Deluca</em>. Act 2 of the same year
+      His mother is a <strong>Serafina</strong> too — Serafina <em>Deluca</em>. <Rec k="Morti" y="1895" a="2">Act 2 of the same year</Rec>
       turns up a third: <strong>Serafina Bellantoni</strong>. Three Serafinas in one small circle of
       Scilla. <strong>A given name is not an identification</strong>, and this archive has now been
       caught by that twice.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Neighbours in the same lane</h3>
-      <p>Act 2 of 1895 is a nine-month-old, <strong>Arlotta Domenico</strong>, dead at
+      <p><Rec k="Morti" y="1895" a="2">Act 2 of 1895</Rec> is a nine-month-old, <strong>Arlotta Domenico</strong>, dead at
       <strong>Via Grotte 60</strong>, son of a Giovanni Arlotta, <em>marinaro</em>, and Serafina
       Bellantoni. Not our Giovanni Arlotta — ours would have been a hundred and sixteen. But the
       address is the finding.</p>
@@ -197,19 +203,19 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       Rocco Arena in Manhattan in 1900.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">And the one that had to be let go</h3>
-      <p>The other lead was <strong>Arena Raffaela <em>fu Antonio</em></strong>, act 5 of 1893 —
+      <p>The other lead was <strong>Arena Raffaela <em>fu Antonio</em></strong>, <Rec k="Morti" y="1893" a="5">act 5 of 1893</Rec> —
       promising, because Francesco Antonio Arena is called plain <em>Antonio</em> in three acts, and
       a death in that window would have explained a great deal. <strong>The act says otherwise.</strong>
       She was sixty-one, a <em>filatrice</em> of Via Acquagrande 60, daughter of the late
       <strong>Antonio Arena</strong> and the late <strong>Teresa Pontillo</strong>, widow of Perina
       Rocco. A household this site had never met, and not this family.</p>
-      <p><strong>Neither Francesco Antonio Arena nor Serafina Arlotta is in the death indexes for
-      1889 through 1900, or 1902</strong> — twelve years read. The banns of November 1888 put him
+      <p><strong>Neither Francesco Antonio Arena nor Serafina Arlotta is in the <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Scilla" title="Antenati: the Scilla registers, as the portal lists them">death indexes for
+      1889 through 1900, or 1902</Rec></strong> — twelve years read. The banns of November 1888 put him
       alive at sixty-eight and her alive and working. Twelve years on, neither has died at Scilla.
       Either they died in one of the three years still unchecked — 1901, 1903, 1904 — or later, or
       they left. The series runs to 1943.</p>
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">A loose end, closed by arithmetic</h3>
-      <p>The 1898 index carried a line reading <em>Arena Francesco Giovanni</em> with the register
+      <p><Rec k="Morti" y="1898">The 1898 index</Rec> carried a line reading <em>Arena Francesco Giovanni</em> with the register
       column apparently <strong>blank</strong> — and an entry with no number cannot be opened. It was
       not blank. <strong>The name runs to three given names</strong>, spills onto the next line, and
       the number sits beside the overflow.</p>
@@ -218,7 +224,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <code>act = 33 + 4 × (image − 10)</code> puts all three on <strong>one opening</strong>.</p>
       <div class="rec" style="margin-top:18px">
         <div class="k">30 June 1898</div>
-        <div class="v">act <strong>91</strong> — at a quarter past four in the afternoon, at
+        <div class="v"><Rec k="Morti" y="1898" a="91">act <strong>91</strong></Rec> — at a quarter past four in the afternoon, at
         <strong>Via Acquagrande 30</strong>, died <strong>Arena Francesco</strong>, <strong><em>di
         mesi dieci compiti</em></strong></div><div class="w">born about August 1897</div>
         <div class="k">His parents</div>
@@ -228,8 +234,8 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <div class="v"><strong>Francesco Giovanni Rocco</strong></div>
         <div class="w">grandfather, uncle, uncle</div>
       </div>
-      <p style="margin-top:1.2rem">Giuseppe Arena and Maria Martello married on 12 September 1885, act
-      73. So this is <strong>a nephew of Rocco Arena</strong>, dead at ten months, and the family tree
+      <p style="margin-top:1.2rem">Giuseppe Arena and Maria Martello married on 12 September 1885, <Rec k="Matrimoni" y="1885" a="73">act
+      73</Rec>. So this is <strong>a nephew of Rocco Arena</strong>, dead at ten months, and the family tree
       does not have him.</p>
       <p><strong>And look at the name.</strong> His paternal grandfather was <strong>Francesco</strong>
       Antonio Arena. His uncles were <strong>Giovanni</strong> and <strong>Rocco</strong>. One infant
@@ -244,22 +250,22 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Act 63 of 1888 — 13 September 2026</div>
+  <section class="blk" id="act-63-of-1888">
+    <div class="lab"><Rec k="Matrimoni" y="1888" a="63">Act 63 of 1888</Rec> — 13 September 2026</div>
     <h2 style="margin-top:.4rem">Rocco Arena's own marriage act, and it says the thing outright</h2>
     <div class="prose" style="margin-top:1rem">
       <p>This site corrected <P n="Rocco Arena" />'s parentage — from <strong>Orazio Arena</strong>,
       where the family tree puts him, to <strong>Francesco Antonio Arena and Serafina
       Arlotta</strong> — on five circumstantial supports: a sibling pair in the register, a naming
-      custom, an Arlotta lodging with him in New York, a daughter called Serafina, and the marriage
-      act of 1851. It was a good case built entirely out of other people's documents.</p>
+      custom, an Arlotta lodging with him in New York, a daughter called Serafina, and <Rec k="Matrimoni" y="1851" a="13">the marriage
+      act of 1851</Rec>. It was a good case built entirely out of other people's documents.</p>
       <p><strong>Here is his own.</strong></p>
 
       <div class="rec" style="margin-top:18px">
         <div class="k">Married</div>
         <div class="v"><strong>December 1888</strong>, ten in the morning, in the Casa Comunale of
         Scilla, before <strong>Minasi Francesco</strong>, sindaco. The day of the month is lost under
-        an ink blot</div><div class="w">the census implied 1890</div>
+        an ink blot</div><div class="w"><Rec fs="1:1:MSJ5-T7D" title="FamilySearch: the 1900 census of Manhattan, ED 117, sheet 17A, line 16">the census</Rec> implied 1890</div>
         <div class="k">The groom</div>
         <div class="v"><strong>Arena Rocco</strong>, <em>marinaro</em>, born and living at Scilla —
         <strong><em>figlio di Francesco Antonio</em></strong> <em>e di</em> <strong>Serafina
@@ -271,12 +277,12 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       </div>
 
       <p style="margin-top:1.2rem"><strong>Nothing stronger than this exists.</strong> A man's own
-      marriage act, sworn before the sindaco with his parents named and living in the same town, is
-      the end of that argument.</p>
+      marriage act, sworn before the sindaco with his parents named and living in the same town, is the end of that argument.</p>
+      <PlateFig plate="scilla-matr1888-atto63.jpg" />
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The banns, three weeks earlier — and a
       sworn answer</h3>
-      <p>The banns volume that rescued this act turns out to hold more than the marriage does. On
+      <p><Rec k="Pubblicazioni" y="1888" ark="an_ua16594926">The banns volume</Rec> that rescued this act turns out to hold more than the marriage does. On
       <strong>Sunday 18 November 1888</strong>, at 9.36 in the morning, Rocco Arena came to the Casa
       Comunale to ask for them; the first publication went on the door that day, the second on the
       25th, and the wedding followed in December.</p>
@@ -303,6 +309,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       his 1819 birth act, and it is exact to the week. It also fixes the end of what is known about
       him: <strong>alive on 18 November 1888</strong>, and not in the Scilla death indexes for 1889
       through 1896.</p>
+      <PlateFig plate="scilla-pubb1888-no63.jpg" />
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Were Rocco and Generosa cousins? No</h3>
       <p>Finding <strong>Anna Arlotta</strong> as Generosa's mother — alongside <strong>Serafina
@@ -327,33 +334,33 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">How it was found, with the index
       destroyed</h3>
-      <p>The 1888 marriage index is ruined — the archivist's own slip lies on the page,
+      <p><Rec k="Matrimoni" y="1888">The 1888 marriage index</Rec> is ruined — the archivist's own slip lies on the page,
       <em>IMPOSSIBILE FARE MEGLIO</em>, and the damage falls on exactly the A entries. Nine other
       years were read and the couple was in none of them. Two steps got round it, and both are worth
       keeping.</p>
-      <p><strong>First, the banns.</strong> Antenati holds a <strong>separate series of 46
-      volumes</strong> of <em>Matrimoni, pubblicazioni</em>, each with <strong>its own annual
-      index</strong> — and the 1888 banns index survives where the marriage index does not. Under
+      <p><strong>First, the banns.</strong> Antenati holds a <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Scilla" title="Antenati: the Scilla registers, as the portal lists them"><strong>separate series of 46
+      volumes</strong> of <em>Matrimoni, pubblicazioni</em></Rec>, each with <strong>its own annual
+      index</strong> — and <Rec k="Pubblicazioni" y="1888" ark="an_ua16594926">the 1888 banns index</Rec> survives where <Rec k="Matrimoni" y="1888">the marriage index does not</Rec>. Under
       <strong>A</strong> it reads, in a clear hand, <strong>Arena Rocco / Costa Generosa</strong>.
       The number beside it is under the stain, but the year was now certain.</p>
       <p><strong>Second, the margins.</strong> Every act page carries a boxed margin with the act
       number and both names. Cutting just those boxes and montaging them lets the whole volume —
-      forty-five openings, sixty-six acts — be scanned <strong>in four images</strong>. Act 63 turned
-      up on image 33.</p>
+      forty-five openings, sixty-six acts — be scanned <strong>in four images</strong>. <Rec k="Matrimoni" y="1888" a="63">Act 63 turned
+      up on image 33</Rec>.</p>
       <p class="note" style="margin-top:18px"><strong>The rule.</strong> A damaged index is not a
       dead end. There is nearly always a second index of the same events, and failing that the acts
       index themselves in the margin.</p>
     </div>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="scilla-1885">
     <div class="lab">Scilla 1885 — 13 September 2026</div>
     <h2 style="margin-top:.4rem">A coverage note that was wrong for a fortnight, and the two
     weddings behind it</h2>
     <div class="prose" style="margin-top:1rem">
       <p>This site has been saying that Scilla's marriages on Antenati run to 1865 and then jump to
       1905. <strong>That is wrong.</strong> The <em>Stato civile italiano</em> series holds
-      <strong>forty-eight volumes of marriages, 1866 to 1913, unbroken</strong> — and alongside them
+      <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Scilla" title="Antenati: the Scilla registers, as the portal lists them"><strong>forty-eight volumes of marriages, 1866 to 1913, unbroken</strong></Rec> — and alongside them
       <strong>46 volumes of <em>pubblicazioni</em></strong> (the banns, which name the parents),
       <strong>81 of <em>morti</em></strong> and 51 of <em>cittadinanze</em>. Every volume ends with an
       <em>Indice Annuale</em> pairing both spouses against the act number. The bad note had blocked
@@ -361,7 +368,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
 
       <div class="rec" style="margin-top:18px">
         <div class="k">12 September 1885</div>
-        <div class="v">act <strong>73</strong> — <strong>Giuseppe Arena</strong>, 25,
+        <div class="v"><Rec k="Matrimoni" y="1885" a="73">act <strong>73</strong></Rec> — <strong>Giuseppe Arena</strong>, 25,
         <em>marinaro</em>, <em>figlio di</em> <strong>Francesco Antonio</strong> <em>e di</em>
         <strong>Serafina Arlotta</strong>, marries <strong>Maria Martello</strong>, 24,
         <em>filatrice</em></div><div class="w">Rocco's brother</div>
@@ -370,7 +377,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <strong>AMERICA</strong> — and her mother Giovanna Chirico, at Scilla</div>
         <div class="w">1885, seven years before Rocco sailed</div>
         <div class="k">29 October 1885</div>
-        <div class="v">act <strong>86</strong> — <strong>Giovanni Arena</strong>, <strong>31</strong>,
+        <div class="v"><Rec k="Matrimoni" y="1885" a="86">act <strong>86</strong></Rec> — <strong>Giovanni Arena</strong>, <strong>31</strong>,
         <em>marinaro</em>, <em>figlio di</em> <strong>Antonio</strong> <em>e di</em> <strong>Serafina
         Arlotta</strong>, marries <strong>Concetta Russo</strong>, 26, <em>filatrice</em></div>
         <div class="w">Rocco's other brother</div>
@@ -379,15 +386,17 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         Scilla. She could not sign — <em>meno della sposa perché illetterata</em></div>
         <div class="w">new</div>
       </div>
-      <p style="margin-top:1.2rem">Act 73 writes the father out in full — <strong>Francesco
+      <p style="margin-top:1.2rem"><Rec k="Matrimoni" y="1885" a="73">Act 73</Rec> writes the father out in full — <strong>Francesco
       Antonio</strong> — which is what proves that the <em>Antonio Arena</em> of the acts of 1854 and
       1885 is the same man. And Giuseppe at twenty-five in September 1885 is the Giuseppe born
       <strong>5 March 1860</strong>, exactly. <strong>Two of Rocco's brothers married seven weeks
       apart.</strong></p>
+      <PlateFig plate="scilla-matr1885-atto73.jpg" />
+      <PlateFig plate="scilla-matr1885-atto86.jpg" />
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Three men turn out to be one</h3>
       <p>This archive had kept three Giovanni Arena apart: the boy born in 1854; the man who married
-      Concetta Russo; and the <em>pescatore</em> of act 230 of 1892, entered as thirty-three, whose
+      Concetta Russo; and the <em>pescatore</em> of <Rec k="Nati" y="1892" a="230">act 230 of 1892</Rec>, entered as thirty-three, whose
       birth four years of searching (1857–1860) could not find. <strong>The marriage act makes him
       thirty-one in October 1885 — which is 1854.</strong></p>
       <p>They are one man: <strong>born 30 April 1854, married 29 October 1885, father of Giuseppe on
@@ -395,19 +404,19 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       because it trusted an age. The 1892 act is three years out, and the archive looked in the years
       that age implied instead of the years the family implied.</p>
       <p class="note" style="margin-top:18px"><strong>One Giovanni Arena stays separate, and he is
-      real.</strong> Act 94 of the same year marries a <strong>Filippo Arena</strong>, 28,
+      real.</strong> <Rec k="Matrimoni" y="1885" a="94">Act 94 of the same year</Rec> marries a <strong>Filippo Arena</strong>, 28,
       <em>pescatore</em> — the right name and the right age to be Rocco's eldest brother — and his
       parents are <em>il fu <strong>Giovanni</strong></em> and <strong>Natalizia Longordo</strong>.
       A different household altogether. There were at least four Arena families at Scilla in 1885,
       and that is exactly why this site does not merge people on a shared name.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">And one wedding that is still missing</h3>
-      <p>The 1900 census of Manhattan has Rocco Arena and Generosa Costa <strong>married ten
-      years</strong>. The Scilla indexes have now been read for <strong>1885, 1886, 1887, 1889, 1890,
-      1891, 1892, 1893 and 1894</strong>, and there is no Rocco Arena marrying a Costa in any of them.
-      (There is an <em>Arena Rocco Maria</em> marrying a <em>Lico</em> at act 12 of 1891 — a
+      <p><Rec fs="1:1:MSJ5-T7D" title="FamilySearch: the 1900 census of Manhattan, ED 117, sheet 17A, line 16">The 1900 census of Manhattan</Rec> has Rocco Arena and Generosa Costa <strong>married ten
+      years</strong>. The Scilla indexes have now been read for <strong><Rec k="Matrimoni" y="1885">1885</Rec>, <Rec k="Matrimoni" y="1886">1886</Rec>, <Rec k="Matrimoni" y="1887">1887</Rec>, <Rec k="Matrimoni" y="1889">1889</Rec>, <Rec k="Matrimoni" y="1890">1890</Rec>,
+      <Rec k="Matrimoni" y="1891">1891</Rec>, <Rec k="Matrimoni" y="1892">1892</Rec>, <Rec k="Matrimoni" y="1893">1893</Rec> and <Rec k="Matrimoni" y="1894">1894</Rec></strong>, and there is no Rocco Arena marrying a Costa in any of them.
+      (There is an <em>Arena Rocco Maria</em> marrying a <em>Lico</em> at <Rec k="Matrimoni" y="1891" a="12">act 12 of 1891</Rec> — a
       different man, and a warning.)</p>
-      <p><strong>One year cannot be excluded.</strong> The 1888 volume carries the archivist's own
+      <p><strong>One year cannot be excluded.</strong> <Rec k="Matrimoni" y="1888">The 1888 volume</Rec> carries the archivist's own
       slip laid on the page: <em>VOLUME DANNEGGIATO DALL'UMIDITÀ — VOLUME LACERO — IMPOSSIBILE FARE
       MEGLIO</em>. The damage falls on the top-left of the index, which is exactly where the A
       entries are. So <strong>1888 is the open year</strong>, and it sits within two of what the
@@ -415,12 +424,12 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Act 76 of 1854 — 13 September 2026</div>
+  <section class="blk" id="act-76-of-1854">
+    <div class="lab"><Rec k="Nati" y="1854" a="76">Act 76 of 1854</Rec> — 13 September 2026</div>
     <h2 style="margin-top:.4rem">A seventy-five-year-old sailor walks into the town hall, and the
     Arena line goes back another generation</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>The 1854 Tavola of Scilla <strong>carries no act numbers</strong> — the column beside the
+      <p><Rec k="Nati" y="1854">The 1854 Tavola of Scilla</Rec> <strong>carries no act numbers</strong> — the column beside the
       date is ruled and empty — so for a fortnight the act behind its one Arena entry could not be
       opened. It can be reached by arithmetic instead. In this volume there are <strong>two acts to
       an opening</strong>, and act = 66 + 2 × (image − 36), which puts the last days of April at
@@ -445,6 +454,8 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <em>marinaro</em></div><div class="w">new</div>
       </div>
 
+      <PlateFig plate="scilla-nati1854-atto76.jpg" />
+
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">What this archive got wrong, and how</h3>
       <p>The index entry reads <em>Arena Giovanni di Antonio e Arlotta <strong>Rosa</strong>, 20
       April</em>. On that reading this site said the boy's mother was a <strong>Rosa</strong> Arlotta,
@@ -456,7 +467,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       born 13 June 1830, so she is twenty-three and ten months, entered as twenty-two. Both are
       <em>marinari</em>. And <em>Antonio Arena</em> is Francesco Antonio with the first name dropped —
       which is how the acts of 1853 and 1861 have him too.</p>
-      <p><strong>So Giovanni Arena is Rocco Arena's full brother</strong>, and the 1899 manifest in
+      <p><strong>So Giovanni Arena is Rocco Arena's full brother</strong>, and <Rec own="/crossings/" title="The 1899 manifest, as this archive reads it (The Crossings)">the 1899 manifest</Rec> in
       which a Giovanni Arena sails to join <em>brother Rocco</em>, entering six-year-old Anna as his
       <em>niece</em>, is now documented at both ends.</p>
 
@@ -502,13 +513,13 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </p>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="registers-opened">
     <div class="lab">The registers, opened 10 September 2026</div>
     <h2 style="margin-top:.4rem">An index that names the parents — and misleads</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Scilla is <strong>not</strong> in FamilySearch's full-text corpus — four searches
       place-matched to it returned nothing, and its Calabrian holdings are Catanzaro and Vibo
-      Valentia. But <strong>Antenati has 57 volumes</strong> from the Archivio di Stato di Reggio
+      Valentia. But <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Scilla" title="Antenati: the Scilla registers, as the portal lists them"><strong>Antenati has 57 volumes</strong></Rec> from the Archivio di Stato di Reggio
       Calabria, births from <strong>1850</strong>; marriages run <strong>1905–1913 only</strong>.</p>
       <p>The pre-unification <em>Stato civile della restaurazione</em> index is laid out far better
       than the Italian one that replaced it. Its columns are <strong>N. d'ord · Cognomi e Nomi dei
@@ -519,8 +530,8 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Act 228 of 1861</div>
+  <section class="blk" id="act-228-of-1861">
+    <div class="lab"><Rec k="Nati" y="1861" a="228" ark="an_ua2002933">Act 228 of 1861</Rec></div>
     <h2 style="margin-top:.4rem">Rocco Arena, born 20 December 1861</h2>
     <div class="hero-plate" style="margin-top:1.2rem">
       <img src={u("/plates/scilla-act228-arena-rocco.jpg")} alt="Scilla birth register 1861, act 228" />
@@ -532,18 +543,18 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <strong>quarantadue</strong>, di professione <strong>marinaro</strong>, domiciliato in Scilla…
         è nat[o] da <strong>Serafina Arlotta</strong>, di anni <strong>ventotto</strong>… nel giorno
         <strong>venti</strong> del mese di Dicembre… il nome di <strong>Rocco</strong>.</blockquote>
-        <p><strong>Three generations in one act:</strong> <strong>Filippo Arena</strong>, his son
+        <p><strong><Rec k="Nati" y="1861" a="228" ark="an_ua2002933">Three generations in one act</Rec>:</strong> <strong>Filippo Arena</strong>, his son
         <strong>Francesco Antonio Arena</strong> — born about 1819, and a <em>marinaro</em>, a sailor —
         and the boy <strong>Rocco</strong>. Witnessed by Giuseppe Idone, 64, and Francesco Antonio
         Polì, 70, <em>proprietario</em>; the parish note records the baptism on the 23rd.</p>
         <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
-        della restaurazione, Scilla, Nati 1861, atto 228 — Antenati <code>an_ua2002933</code>, image 117.</p>
+        della restaurazione, <Rec k="Nati" y="1861" a="228" ark="an_ua2002933">Scilla, Nati 1861, atto 228</Rec> — Antenati <Rec ark="an_ua2002933"><code>an_ua2002933</code></Rec>, image 117.</p>
       </div>
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Act 206 of 1883</div>
+  <section class="blk" id="act-206-of-1883">
+    <div class="lab"><Rec k="Nati" y="1883" a="206">Act 206 of 1883</Rec></div>
     <h2 style="margin-top:.4rem">Giovanni Polistena, born 16 September 1883</h2>
     <div class="hero-plate" style="margin-top:1.2rem">
       <img src={u("/plates/scilla-act206-polistena-giovanni.jpg")} alt="Scilla birth register 1883, act 206" />
@@ -565,13 +576,13 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         that Giovanna two parents <em>both</em> surnamed Pontillo, which reads like an error in the
         tree rather than a second marriage.</p>
         <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
-        italiano, Scilla, Nati 1883, atto 206 — Antenati <code>an_ua16601246</code>, image 73.</p>
+        italiano, <Rec k="Nati" y="1883" a="206">Scilla, Nati 1883, atto 206</Rec> — Antenati <Rec ark="an_ua16601246"><code>an_ua16601246</code></Rec>, image 73.</p>
       </div>
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Act 230 of 1892</div>
+  <section class="blk" id="act-230-of-1892">
+    <div class="lab"><Rec k="Nati" y="1892" a="230">Act 230 of 1892</Rec></div>
     <h2 style="margin-top:.4rem">Giuseppe Arena, born 6 October 1892 — and his father is eleven years older than the tree says</h2>
     <div class="hero-plate" style="margin-top:1.2rem">
       <img src={u("/plates/scilla-act230-arena-giuseppe-1892.jpg")} alt="Scilla birth register 1892, act 230" />
@@ -613,14 +624,14 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <a href={u("/people/giovanni-polistena/")}>Giovanni Polistena</a> was born nine years earlier
         at number 47. Two of this family's four Calabrian quarters begin in the same street.</p>
         <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
-        italiano, Scilla, Nati 1892, atto 230 — Antenati <code>an_ua16601257</code>, container
+        italiano, <Rec k="Nati" y="1892" a="230">Scilla, Nati 1892, atto 230</Rec> — Antenati <Rec ark="an_ua16601257"><code>an_ua16601257</code></Rec>, container
         <code>5Yb6no7</code>, image 79.</p>
       </div>
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Act 22 of 1893</div>
+  <section class="blk" id="act-22-of-1893">
+    <div class="lab"><Rec k="Nati" y="1893" a="22">Act 22 of 1893</Rec></div>
     <h2 style="margin-top:.4rem">Anna Arena, born 17 January 1893 — and the midwife who declared her</h2>
     <div class="hero-plate" style="margin-top:1.2rem">
       <img src={u("/plates/scilla-act22-arena-anna-1893.jpg")} alt="Scilla birth register 1893, act 22" />
@@ -633,7 +644,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <strong>Costa Generosa</strong>, <strong>filatrice</strong>, moglie di <strong>Arena Rocco,
         marinaro</strong>, ambedue domiciliati in Scilla… a cui dà il nome di
         <strong>Anna</strong>.</blockquote>
-        <p>This act was opened to do to <P n="Rocco Arena" /> what act 230 did to Giovanni Arena —
+        <p>This act was opened to do to <P n="Rocco Arena" /> what <Rec k="Nati" y="1892" a="230">act 230</Rec> did to Giovanni Arena —
         pin his birth year from his child's act. <strong>It does not, and the reason is in the first
         line.</strong> The declarant is not the father but <strong>Giovanna Zumbo, sixty, the town
         midwife</strong>, and a midwife's declaration names the parents without their ages.</p>
@@ -641,33 +652,33 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <strong>Generosa Costa</strong> match the tree exactly. And Rocco Arena gets a trade:
         <strong><em>marinaro</em>, a sailor</strong>.</p>
         <p style="margin-top:.8rem"><strong>That trade cuts against this archive's own working
-        hypothesis, so it is recorded plainly.</strong> The Rocco Arena of act 228 of 1861 — the one
+        hypothesis, so it is recorded plainly.</strong> The Rocco Arena of <Rec k="Nati" y="1861" a="228">act 228 of 1861</Rec> — the one
         whose parents are Francesco Antonio Arena and Serafina Arlotta rather than the tree's Orazio
         and Giovanna Zirilli — is the son of a <em>marinaro</em>, and these trades passed from father
         to son. It is weak evidence. It points the other way from
-        <strong>act 46 of 1859</strong> below, and the question stays open rather than being
+        <strong><Rec k="Nati" y="1859" a="46">act 46 of 1859</Rec></strong> below, and the question stays open rather than being
         quietly resolved in the direction the archive was leaning.</p>
         <div class="rec" style="margin-top:14px">
           <div class="k">Via Grotte</div>
-          <div class="v"><strong>Giovanni Arena</strong>, <em>pescatore</em>, at no. 75 —
-          <P n="Giuseppe Arena" />'s household</div><div class="w">1892</div>
+          <div class="v"><strong>Giovanni Arena</strong>, <em>pescatore</em>, <Rec k="Nati" y="1892" a="230">at no. 75</Rec> —
+          <P n="Giuseppe Arena" />'s household</div><div class="w"><Rec k="Nati" y="1892" a="230">1892</Rec></div>
           <div class="k">Via Acquagrande</div>
-          <div class="v"><strong>Rocco Arena</strong>, <em>marinaro</em>, at no. 41 —
-          <P n="Anna Arena" />'s household</div><div class="w">1893</div>
+          <div class="v"><strong>Rocco Arena</strong>, <em>marinaro</em>, <Rec k="Nati" y="1893" a="22">at no. 41</Rec> —
+          <P n="Anna Arena" />'s household</div><div class="w"><Rec k="Nati" y="1893" a="22">1893</Rec></div>
         </div>
         <p style="margin-top:1rem"><strong>Two Arena families, in two different quarters of the same
         small town</strong> — and a year apart they each had a child who would marry the other.
         Giuseppe and Anna are both great-grandparents here.</p>
         <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
-        italiano, Scilla, Nati 1893, atto 22 — Antenati <code>an_ua16601258</code>, container
+        italiano, <Rec k="Nati" y="1893" a="22">Scilla, Nati 1893, atto 22</Rec> — Antenati <Rec ark="an_ua16601258"><code>an_ua16601258</code></Rec>, container
         <code>w9WVxa9</code>, image 9. The ark was <em>computed</em>, not looked up, from the rule
         recorded in the method notes, and the volume's title page confirmed it.</p>
       </div>
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Act 162 of 1892</div>
+  <section class="blk" id="act-162-of-1892">
+    <div class="lab"><Rec k="Nati" y="1892" a="162">Act 162 of 1892</Rec></div>
     <h2 style="margin-top:.4rem">Annunziata Donato, born 6 July 1892 — and why 1851 was empty</h2>
     <div class="hero-plate" style="margin-top:1.2rem">
       <img src={u("/plates/scilla-act162-donato-annunziata-1892.jpg")} alt="Scilla birth register 1892, act 162" />
@@ -678,7 +689,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         <strong>sei</strong> del corrente mese, nella casa posta in <strong>Via Grotte</strong> al
         numero <strong>trentuno</strong>, da <strong>Maria Sofi</strong> sua moglie,
         <strong>filatrice</strong>… a cui dà i nomi di <strong>Annunziata</strong>.</blockquote>
-        <p><strong>This cost nothing.</strong> The 1892 volume was already open for act 230, and a
+        <p><strong>This cost nothing.</strong> The 1892 volume was already open for <Rec k="Nati" y="1892" a="230">act 230</Rec>, and a
         child's birth act names its father <em>with an age</em> — so the fastest route to a man who
         cannot be found is often his children, not him.</p>
         <p style="margin-top:.8rem"><strong>Michele Donato is thirty-six in July 1892</strong>, so
@@ -688,33 +699,33 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         never gave him — <strong>pescatore</strong>.</p>
         <p style="margin-top:.8rem">The witnesses are both fishermen too: <strong>Arlotta
         Giuseppe</strong>, 56, and <strong>Ponte Antonio</strong>, 38. <em>Arlotta</em> is the
-        surname of Rocco Arena's mother in act 228 of 1861 — thirty-one years and two families
+        surname of Rocco Arena's mother in <Rec k="Nati" y="1861" a="228">act 228 of 1861</Rec> — thirty-one years and two families
         apart, on the same few hundred metres of shore.</p>
         <div class="rec" style="margin-top:14px">
           <div class="k">New</div>
-          <div class="v">The marginal annotation records a death <strong>the tree does not have at
+          <div class="v"><Rec k="Nati" y="1892" a="162" title="Antenati: the birth act of 1892 (atto 162), in whose margin the death of 1975 is entered; the 1975 act itself is on no public site">The marginal annotation</Rec> records a death <strong>the tree does not have at
           all</strong>: <strong><P n="Nunnziata Donato" /> died at Scilla on 26 August 1975</strong>,
-          death act 30 of that year. She was 83.</div><div class="w">atto 30 / 1975</div>
+          death act 30 of that year. She was 83.</div><div class="w"><Rec k="Nati" y="1892" a="162" title="The death act of 1975 is on no public site; Antenati: the 1892 birth act (atto 162), in whose margin it is entered">atto 30 / 1975</Rec></div>
         </div>
         <p style="margin-top:1rem">That last fact rearranges the family's shape a little. Her
         daughters <P n="Angela Polistena" /> and <P n="Giovanna Polistena" /> are both in the
-        <a href={u("/nudgee/")}>Nudgee burial register</a> in Brisbane. <strong>Their mother never
+        <Rec own="/nudgee/" title="The Nudgee burial register, as transcribed in this archive">Nudgee burial register</Rec> in Brisbane. <strong>Their mother never
         left.</strong> She was still at Scilla half a century after they sailed.</p>
         <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
-        italiano, Scilla, Nati 1892, atto 162 — Antenati <code>an_ua16601257</code>, container
+        italiano, <Rec k="Nati" y="1892" a="162">Scilla, Nati 1892, atto 162</Rec> — Antenati <Rec ark="an_ua16601257"><code>an_ua16601257</code></Rec>, container
         <code>5Yb6no7</code>, image 56.</p>
       </div>
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Act 81 of 1870</div>
+  <section class="blk" id="act-81-of-1870">
+    <div class="lab"><Rec k="Nati" y="1870" a="81">Act 81 of 1870</Rec></div>
     <h2 style="margin-top:.4rem">The Arena boy who was not the one we wanted</h2>
     <div class="hero-plate" style="margin-top:1.2rem">
       <img src={u("/plates/scilla-act81-arena-1870.jpg")} alt="Scilla birth register 1870, act 81" />
       <div>
         <p>Before act 230 was found, the obvious way to reach Giovanni Arena was to open
-        <strong>Scilla, Nati 1870</strong> and look for him. The annual index gave three Arena births
+        <strong><Rec k="Nati" y="1870">Scilla, Nati 1870</Rec></strong> and look for him. The annual index gave three Arena births
         that year, and exactly one with <em>Giovanni</em> among his names:</p>
         <blockquote style="margin:.9rem 0">…è comparso <strong>Giuseppe Arena di Domenico</strong>, di
         anni <strong>trenta</strong>, <strong>cordaio</strong>, domiciliato e residente in Scilla…
@@ -726,18 +737,19 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
         Giovanni Arena named his own first son <strong>Giuseppe</strong>, which is exactly what
         Calabrian naming custom would predict if his father were a Giuseppe.</p>
         <p style="margin-top:.8rem"><strong>It is the wrong man, and three things say so.</strong>
-        The marginal annotation records that he married at Scilla on <strong>30 November 1899</strong>
+        The marginal annotation records that he married at Scilla on <Rec k="Matrimoni" y="1899" a="62"><strong>30 November 1899</strong></Rec>
         to <strong>Arena Maria</strong>, born there in 1869 — not to Concetta Russo. The annotation
         calls him <strong>Arena Domenico</strong>, not Giovanni, which the naming custom also
-        predicts: Domenico was his father's father, Giovanni only his mother's. And act 230 then
+        predicts: Domenico was his father's father, Giovanni only his mother's. And <Rec k="Nati" y="1892" a="230">act 230</Rec> then
         settled it outright by making the tree's Giovanni eleven years older than this child.</p>
+      <PlateFig plate="scilla-matr1899-atto62.jpg" />
         <p style="margin-top:.8rem">His father's trade is worth keeping too. <strong>Giuseppe Arena
         was a <em>cordaio</em>, a ropemaker</strong> — the first man in the Calabrian lines this
         archive has found who does not work the water, though rope is not far from boats.</p>
         <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
-        italiano, Scilla, Nati 1870, atto 81 — Antenati <code>an_ua16601232</code>, container
+        italiano, <Rec k="Nati" y="1870" a="81">Scilla, Nati 1870, atto 81</Rec> — Antenati <Rec ark="an_ua16601232"><code>an_ua16601232</code></Rec>, container
         <code>wWqVnPB</code>, image 19. The mother's surname <strong>Vita</strong> is a real Scilla
-        surname, not a misreading of <em>Sita</em>: it appears three times in the 1913 marriage index
+        surname, not a misreading of <em>Sita</em>: it appears three times in <Rec k="Matrimoni" y="1913">the 1913 marriage index</Rec>
         below, and <em>Sita</em> never.</p>
       </div>
     </div>
@@ -749,11 +761,11 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     <div class="prose" style="margin-top:1rem">
       <p>Every man the registers have named in this archive's Calabrian lines works the water:</p>
       <div class="rec" style="margin-top:14px">
-        <div class="k">Scilla, 1861</div>
+        <div class="k"><Rec k="Nati" y="1861" a="228">Scilla, 1861</Rec></div>
         <div class="v"><strong>Francesco Antonio Arena</strong> — <em>marinaro</em></div><div class="w">sailor</div>
-        <div class="k">Scilla, 1883</div>
+        <div class="k"><Rec k="Nati" y="1883" a="206">Scilla, 1883</Rec></div>
         <div class="v"><strong>Camillo Antonio Polistena</strong> — <em>pescatore</em></div><div class="w">fisherman</div>
-        <div class="k">Scilla, 1892</div>
+        <div class="k"><Rec k="Nati" y="1892" a="230">Scilla, 1892</Rec></div>
         <div class="v"><strong>Giovanni Arena</strong> — <em>pescatore</em></div><div class="w">fisherman</div>
         <div class="k">Briatico, 1886</div>
         <div class="v"><strong>Alfonso Prostamo</strong> and his father <strong>Domenico</strong> — <em>marinari</em></div><div class="w">sailors</div>
@@ -772,15 +784,15 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Scilla, Nati 1819 — act 186</div>
+  <section class="blk" id="nati-1819-act-186">
+    <div class="lab"><Rec k="Nati" y="1819" a="186">Scilla, Nati 1819 — act 186</Rec></div>
     <h2 style="margin-top:.4rem">Two generations the family tree does not have</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Once act 45 of 1860 had moved <P n="Rocco Arena" /> from Orazio Arena to <strong>Francesco
-      Antonio Arena</strong>, a door opened that had been shut. Act 228 of 1861 gives Francesco
+      <p>Once <Rec k="Nati" y="1860" a="45">act 45 of 1860</Rec> had moved <P n="Rocco Arena" /> from Orazio Arena to <strong>Francesco
+      Antonio Arena</strong>, a door opened that had been shut. <Rec k="Nati" y="1861" a="228">Act 228 of 1861</Rec> gives Francesco
       Antonio an age — <strong>forty-two</strong> — and calls him, in as many words,
       <em>figlio di Filippo</em>. Forty-two in December 1861 means born about 1819. The
-      <strong>Tavola annuale alfabetica de' nati in questo Comune di Scilla nell'anno 1819</strong>
+      <strong><Rec k="Nati" y="1819">Tavola annuale alfabetica de' nati in questo Comune di Scilla nell'anno 1819</Rec></strong>
       has an A section of five entries, and the fifth is this:</p>
       <blockquote style="margin:1.1rem 0;font-size:17px"><strong>5 · Arena Francesco ·
       Filippo e Dom.<sup>ca</sup> Costa · 25 9<sup>bre</sup> · 186</strong></blockquote>
@@ -812,16 +824,16 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       it is needed, and the 1901 <em>Neustria</em> carried a Costa and a Donato of Scilla two lines
       apart.</p>
       <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
-      della restaurazione, Scilla, Nati 1819 — Antenati <code>an_ua2002808</code>, container
+      della restaurazione, Scilla, Nati 1819 — Antenati <Rec ark="an_ua2002808"><code>an_ua2002808</code></Rec>, container
       <code>58rKlpd</code>, Tavola at images 115–121.</p>
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Scilla, Nati 1830 — atto 2</div>
+  <section class="blk" id="nati-1830-atto-2">
+    <div class="lab"><Rec k="Nati" y="1830" a="2">Scilla, Nati 1830 — atto 2</Rec></div>
     <h2 style="margin-top:.4rem">Serafina Arlotta, born 13 June 1830</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>The marriage act of 1851 gave <strong>Serafina Arlotta</strong> parents — Giovanni Arlotta,
+      <p><Rec k="Matrimoni" y="1851" a="13">The marriage act of 1851</Rec> gave <strong>Serafina Arlotta</strong> parents — Giovanni Arlotta,
       <em>marinaro</em>, and Maria Costa — and an age, twenty. The 1830 Tavola gives her a date and
       confirms the parents from a second, independent document:</p>
       <blockquote style="margin:1.1rem 0;font-size:17px"><strong>2 · Arlotta Serafina ·
@@ -830,17 +842,17 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       Exact. Rocco Arena's mother now has a birth date, and his maternal grandparents are documented
       twice over.</p>
       <p class="note" style="margin-top:20px"><strong>It also corrects an age this archive had been
-      carrying.</strong> Act 228 of 1861 makes Serafina <strong>28</strong>, which would put her birth
+      carrying.</strong> <Rec k="Nati" y="1861" a="228">Act 228 of 1861</Rec> makes Serafina <strong>28</strong>, which would put her birth
       in 1833 — and this archive recorded that. She was <strong>31</strong>. The register's own ages
       are the loosest thing in it, which is exactly why a birth act beats an age every time.</p>
       <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Scilla,
-      Nati 1830 — Antenati <code>an_ua2002840</code>, container <code>LaNd12r</code>, Tavola at images
+      Nati 1830 — Antenati <Rec ark="an_ua2002840"><code>an_ua2002840</code></Rec>, container <code>LaNd12r</code>, Tavola at images
       119–125.</p>
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Scilla, Matrimoni 1851 — atto 13</div>
+  <section class="blk" id="matrimoni-1851-atto-13">
+    <div class="lab"><Rec k="Matrimoni" y="1851" a="13">Scilla, Matrimoni 1851 — atto 13</Rec></div>
     <h2 style="margin-top:.4rem">Four parents in one act</h2>
     <div class="prose" style="margin-top:1rem">
       <p>The Scilla marriage register is the most efficient document in the whole system: it names
@@ -854,7 +866,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <strong>stessa</strong>, e di <strong>Domenica Costa</strong>… E <strong>Serafina Arlotta</strong>
       di anni <strong>venti</strong>, nata in questo Comune, <strong>figlia di Giovanni</strong>, di
       professione <strong>marinaro</strong>, e di <strong>Maria Costa</strong>.</blockquote>
-      <p><strong>Thirty-one on 7 February 1851 means born about 1819 — and act 186 of 1819 gives
+      <p><strong>Thirty-one on 7 February 1851 means born about 1819 — and <Rec k="Nati" y="1819" a="186">act 186 of 1819</Rec> gives
       25 November 1819.</strong> Exact. The promise was made on the 7th and the church celebrated it
       on the 16th.</p>
       <div class="rec" style="margin-top:18px">
@@ -879,33 +891,33 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       evidence this is a common Scilla surname recurring, and it has now recurred four times.</p>
       <p class="note" style="margin-top:20px"><strong>How this was found, and the mistake on the
       way.</strong> The marriage Tavola's number column was first read as <strong>19 and 20</strong>.
-      Acts 19 and 20 were duly opened and turned out to be Bruno × Calario and Papalia × Briganti.
+      <Rec k="Matrimoni" y="1851" a="19 and 20">Acts 19 and 20</Rec> were duly opened and turned out to be Bruno × Calario and Papalia × Briganti.
       The archive then wrote that the tavola must index some other series — and it was wrong. <strong>The
       numbers are 13 and 6.</strong> It had misread its own digits and blamed the document. The lesson
       is small and worth keeping: when a record does not match, check your own reading before you
       theorise about the record.</p>
       <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Stato civile
-      della restaurazione, Scilla, Matrimoni 1851, atto 13 — Antenati <code>an_ua2002614</code>,
+      della restaurazione, <Rec k="Matrimoni" y="1851" a="13">Scilla, Matrimoni 1851, atto 13</Rec> — Antenati <Rec ark="an_ua2002614"><code>an_ua2002614</code></Rec>,
       container <code>LD6brxB</code>, image 15; Tavola at images 88–96.</p>
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Scilla, Nati 1860 — acts 45 and 161</div>
+  <section class="blk" id="nati-1860">
+    <div class="lab"><Rec k="Nati" y="1860" a="45 and 161">Scilla, Nati 1860 — acts 45 and 161</Rec></div>
     <h2 style="margin-top:.4rem">The tree gave Orazio Arena another man's children</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Four days of this archive have gone on one contradiction: the tree makes
-      <P n="Rocco Arena" /> the son of <P n="Orazio Arena" /> and Giovana Zirilli; act 228 of 1861
-      says <strong>Francesco Antonio Arena</strong> and <strong>Serafina Arlotta</strong>. The 1860
-      Tavola settles it, and not by arithmetic.</p>
+      <P n="Rocco Arena" /> the son of <P n="Orazio Arena" /> and Giovana Zirilli; <Rec k="Nati" y="1861" a="228">act 228 of 1861</Rec>
+      says <strong>Francesco Antonio Arena</strong> and <strong>Serafina Arlotta</strong>. The <Rec k="Nati" y="1860">1860
+      Tavola</Rec> settles it, and not by arithmetic.</p>
       <div class="rec" style="margin-top:18px">
         <div class="k">The tree</div>
         <div class="v"><strong>Orazio Arena</strong> has exactly <strong>two</strong> children:
         <strong>Rocco</strong> and <strong>Guiseppe</strong></div><div class="w">no source</div>
-        <div class="k">atto 45 · 1860</div>
+        <div class="k"><Rec k="Nati" y="1860" a="45">atto 45 · 1860</Rec></div>
         <div class="v"><strong>Arena Giuseppe</strong> — <em>Franc. Ant.o e Arlotta Serafina</em> —
         5 March 1860</div><div class="w">register</div>
-        <div class="k">atto 228 · 1861</div>
+        <div class="k"><Rec k="Nati" y="1861" a="228">atto 228 · 1861</Rec></div>
         <div class="v"><strong>Arena Rocco</strong> — <em>Francesco Antonio Arena, marinaro, e
         Serafina Arlotta</em> — 20 December 1861</div><div class="w">register</div>
       </div>
@@ -914,12 +926,12 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       Giuseppe and nothing else.</strong> It is the same sibling pair, in the same order, hung on the
       wrong father.</p>
       <p>And Orazio's real children are now on the page. Across four years of the Tavola —
-      <strong>1856, 1858, 1859 and 1860</strong> — Orazio Arena and Giovanna Zirilli produce:</p>
+      <strong><Rec k="Nati" y="1856" ark="an_ua2002920">1856</Rec>, <Rec k="Nati" y="1858">1858</Rec>, <Rec k="Nati" y="1859">1859</Rec> and <Rec k="Nati" y="1860">1860</Rec></strong> — Orazio Arena and Giovanna Zirilli produce:</p>
       <div class="rec" style="margin-top:16px">
-        <div class="k">1856 · atto 180</div><div class="v">Domenico, 3 September</div><div class="w"></div>
-        <div class="k">1859 · atto 46</div><div class="v">Domenico, 10 February — the first boy
+        <div class="k"><Rec k="Nati" y="1856" a="180" ark="an_ua2002917">1856 · atto 180</Rec></div><div class="v">Domenico, 3 September</div><div class="w"></div>
+        <div class="k"><Rec k="Nati" y="1859" a="46">1859 · atto 46</Rec></div><div class="v">Domenico, 10 February — the first boy
         having evidently died, and the name reused</div><div class="w"></div>
-        <div class="k">1860 · atto 161</div><div class="v">Maria Annunziata, 27 August</div><div class="w"></div>
+        <div class="k"><Rec k="Nati" y="1860" a="161">1860 · atto 161</Rec></div><div class="v">Maria Annunziata, 27 August</div><div class="w"></div>
       </div>
       <p style="margin-top:1.2rem"><strong>No Rocco. No Giuseppe.</strong> Not in any of the four
       years read. The couple is real, well documented and busy — and neither of the two children the
@@ -934,26 +946,26 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       act 43, of <em>Giovanni e Longordo Maddalena</em></strong> — a Giovanni Arena fathering a child
       in 1860, so an adult born in the 1830s, and <em>not</em> the Giovanni Arena this archive wants.
       Recorded so the two are never merged. Archivio di Stato di Reggio Calabria, Stato civile della
-      restaurazione, Scilla, Nati 1860 — <code>an_ua2002931</code>, container <code>wr9rbv8</code>,
+      restaurazione, <Rec k="Nati" y="1860">Scilla, Nati 1860</Rec> — <Rec ark="an_ua2002931"><code>an_ua2002931</code></Rec>, container <code>wr9rbv8</code>,
       Tavola at images 136–142.</p>
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Scilla, Nati 1859 — act 46</div>
+  <section class="blk" id="nati-1859-act-46">
+    <div class="lab"><Rec k="Nati" y="1859" a="46">Scilla, Nati 1859 — act 46</Rec></div>
     <h2 style="margin-top:.4rem">Orazio Arena and Giovanna Zirilli exist after all</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>The 1859 volume was opened looking for <strong>Giovanni Arena</strong>, whom act 230 of 1892
+      <p><Rec k="Nati" y="1859">The 1859 volume</Rec> was opened looking for <strong>Giovanni Arena</strong>, whom <Rec k="Nati" y="1892" a="230">act 230 of 1892</Rec>
       had just relocated from 1870 to about 1859. He is not there. The A section holds exactly three
       Arena births — and the first of them is worth more than the one that was wanted:</p>
       <div class="rec" style="margin-top:16px">
-        <div class="k">act 46</div>
+        <div class="k"><Rec k="Nati" y="1859" a="46">act 46</Rec></div>
         <div class="v"><strong>Arena Domenico</strong>, Scilla — <strong>Orazio e Zirilli
         Giovanna</strong> — 10 February 1859</div><div class="w">the couple</div>
-        <div class="k">act 111</div>
+        <div class="k"><Rec k="Nati" y="1859" a="111">act 111</Rec></div>
         <div class="v">Arena Maria, Scilla — Giosafatto e Longordo Rosaria — 1 May 1859</div>
         <div class="w">not in the tree</div>
-        <div class="k">act 205</div>
+        <div class="k"><Rec k="Nati" y="1859" a="205">act 205</Rec></div>
         <div class="v">Arena Annunziato, Scilla — Santo e Gioffrè Giovanna — 15 September 1859</div>
         <div class="w">not in the tree</div>
       </div>
@@ -969,7 +981,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       on Salvatore Mazza, six on Orazio Mazza and <strong>eleven on Giovanni Arena</strong>. A Rocco
       Arena di Orazio in some other year is now a specific, findable thing rather than a hope.</p>
       <p class="small" style="margin-top:.8rem">Archivio di Stato di Reggio Calabria, Stato civile
-      della restaurazione, Scilla, Nati 1859 — Antenati <code>an_ua2002928</code>, container
+      della restaurazione, Scilla, Nati 1859 — Antenati <Rec ark="an_ua2002928"><code>an_ua2002928</code></Rec>, container
       <code>5vEYzey</code>, index at images 156–163. Read from the <strong>whole uncropped
       page</strong>: after the 1861 misalignment, this archive no longer reads parentage off a
       cropped index column, because on a full page you can see for yourself that the child's name and
@@ -977,8 +989,8 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Scilla, Nati 1851 — the Bourbon index, which names the parents</div>
+  <section class="blk" id="nati-1851">
+    <div class="lab"><Rec k="Nati" y="1851">Scilla, Nati 1851</Rec> — the Bourbon index, which names the parents</div>
     <h2 style="margin-top:.4rem">Michele Donato is not in the year the tree gives him</h2>
     <div class="prose" style="margin-top:1rem">
       <p>The pre-unification <em>Tavola annuale alfabetica de' Nati</em> is the best-designed index in
@@ -987,25 +999,25 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       parents</strong>, so a whole year's households can be read off one opening without opening a
       single act. For <P n="Michele Donato" /> — <P n="Nunnziata Donato" />'s father, who sailed from
       Palermo and landed at New Orleans on 11 March 1908 — it should have been one crop.</p>
-      <p><strong>The D section of 1851 runs from entry 65 to entry 75, and there is no Donato in
+      <p><strong>The D section of <Rec k="Nati" y="1851">1851</Rec> runs from entry 65 to entry 75, and there is no Donato in
       it.</strong> Eleven births: seven Di Franco, two Dormì, one De Marco, one De Alessandro. Entry
       64 is the last C and entry 76 begins the F, so the block is complete and nothing is hidden by a
       page turn.</p>
-      <p><strong>The explanation is above.</strong> Act 162 of 1892 makes him thirty-six in July of
+      <p><strong>The explanation is above.</strong> <Rec k="Nati" y="1892" a="162">Act 162 of 1892</Rec> makes him thirty-six in July of
       that year, so born about <strong>1856</strong> — the archive was reading a volume five years
       too early. What follows was written before that act was found, and is left standing because the
       reasoning was right even while the conclusion was still open:</p>
       <p>Two explanations are open, and this archive has evidence for only one of them.
       <strong>The tree's birth years have been wrong before</strong> — six years out on Salvatore
-      Mazza, six on Orazio Mazza, and, as of act 230 above, <strong>eleven years out on Giovanni
+      Mazza, six on Orazio Mazza, and, as of <Rec k="Nati" y="1892" a="230">act 230</Rec> above, <strong>eleven years out on Giovanni
       Arena</strong>. His eldest recorded son was born in 1878, which puts his own birth anywhere from
       about 1848 to 1858. A wrong year is likelier than a wrong town, but that is a hypothesis and it
       is filed as one.</p>
       <p class="small" style="margin-top:.8rem">The same opening yields one further fact worth
-      keeping: <strong>the 1851 A section holds a single Arena birth</strong> — Arena Maria, of
+      keeping: <strong><Rec k="Nati" y="1851">the 1851 A section</Rec> holds a single Arena birth</strong> — Arena Maria, of
       Pasquale, at Scilla. The Arena of Scilla were not numerous in the 1850s.</p>
       <p class="small" style="margin-top:.8rem">Archivio di Stato di Reggio Calabria, Stato civile
-      della restaurazione, Scilla, Nati 1851 — Antenati <code>an_ua2002901</code>, container
+      della restaurazione, Scilla, Nati 1851 — Antenati <Rec ark="an_ua2002901"><code>an_ua2002901</code></Rec>, container
       <code>LeJQDD6</code>, index at images 123–131. <strong>These scans are small</strong> — about
       1000 × 1500 pixels, against 4600 × 3700 for the Italian-era volumes — which is why the IIIF
       request must ask for <code>/full/</code> and not a width, and why the 1861 index misled this
@@ -1013,30 +1025,30 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">The sibling sweep — Scilla, Nati 1852–1855</div>
+  <section class="blk" id="nati-1852-1855">
+    <div class="lab">The sibling sweep — Scilla, Nati <Rec k="Nati" y="1852" ark="an_ua2002904">1852</Rec>–<Rec k="Nati" y="1855" ark="an_ua2002914">1855</Rec></div>
     <h2 style="margin-top:.4rem">Rocco Arena's brothers, and the custom landing exactly</h2>
     <div class="prose" style="margin-top:1rem">
       <p>With Rocco Arena reassigned to <strong>Francesco Antonio Arena</strong> and Serafina
       Arlotta, the obvious next question was how many other children that couple had — and the
-      obvious place to look was the years the archive had not read. <strong>1852, 1853, 1854 and
-      1855 are now read in full.</strong></p>
+      obvious place to look was the years the archive had not read. <strong><Rec k="Nati" y="1852" ark="an_ua2002904">1852</Rec>, <Rec k="Nati" y="1853">1853</Rec>, <Rec k="Nati" y="1854">1854</Rec> and
+      <Rec k="Nati" y="1855" ark="an_ua2002914">1855</Rec> are now read in full.</strong></p>
       <div class="rec" style="margin-top:18px">
-        <div class="k">1852 · atto 48</div>
+        <div class="k"><Rec k="Nati" y="1852" a="48" ark="an_ua2002904">1852 · atto 48</Rec></div>
         <div class="v"><strong>Arena FILIPPO</strong> — <em>Ant.<sup>o</sup> e Arlotta Serafina</em>
         — 14 February</div><div class="w">the eldest</div>
-        <div class="k">1853 · atto 2</div>
+        <div class="k"><Rec k="Nati" y="1853">1853 · atto 2</Rec></div>
         <div class="v">Arena Domenico — <em>Francesant.<sup>o</sup> e Serafina Arlotta</em> —
         24 March</div><div class="w"></div>
-        <div class="k">1860 · atto 45</div>
+        <div class="k"><Rec k="Nati" y="1860" a="45">1860 · atto 45</Rec></div>
         <div class="v">Arena Giuseppe — <em>Franc. Ant.<sup>o</sup> e Arlotta Serafina</em> —
         5 March</div><div class="w"></div>
-        <div class="k">1861 · atto 228</div>
+        <div class="k"><Rec k="Nati" y="1861" a="228">1861 · atto 228</Rec></div>
         <div class="v"><P n="Rocco Arena" /> — <em>Francesco Antonio Arena, marinaro, e Serafina
         Arlotta</em> — 20 December</div><div class="w">the youngest</div>
       </div>
       <p style="margin-top:1.4rem"><strong>The first son is called Filippo — and Filippo is exactly
-      who he should be.</strong> Act 186 of 1819 gives Francesco Antonio's own father as
+      who he should be.</strong> <Rec k="Nati" y="1819" a="186">Act 186 of 1819</Rec> gives Francesco Antonio's own father as
       <strong>Filippo Arena</strong>. Calabrian custom names the first son for his father's father.
       The archive did not go looking for this; it fell out of a sweep run for a different reason,
       which is the strongest kind of confirmation there is.</p>
@@ -1044,7 +1056,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       is the real reason they are absent from the Scilla marriage indexes of 1858 and 1859, and it
       retires the guess that Serafina was married in her own comune. <em>That</em> may still be true;
       it is simply no longer needed to explain anything.</p>
-      <p class="note" style="margin-top:20px"><strong>One honest caveat on act 48.</strong> The 1852
+      <p class="note" style="margin-top:20px"><strong>One honest caveat on <Rec k="Nati" y="1852" a="48" ark="an_ua2002904">act 48</Rec>.</strong> The 1852
       index writes the father as <em>"Ant.<sup>o</sup>"</em> where 1853 writes
       <em>"Francesant.<sup>o</sup>"</em>. So the identification rests on the surname plus the wife's
       distinctive name — <strong>Arlotta Serafina</strong> — and not on the father's forename. A
@@ -1052,12 +1064,12 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       unlikely.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">And Orazio's first child was a daughter</h3>
-      <p>The same 1853 opening gives <strong>Arena Teresa, of <em>Orazio e Giov.<sup>a</sup>
+      <p><Rec k="Nati" y="1853">The same 1853 opening</Rec> gives <strong>Arena Teresa, of <em>Orazio e Giov.<sup>a</sup>
       Zirilli</em>, 17 October</strong> — three years before the Domenico of 1856, and the earliest
       child of theirs the archive has found. 1852, 1854 and 1855 hold none.</p>
       <p><strong>That vindicates the retraction above</strong>: Domenico was not Orazio's first
       child, so no argument about first sons could ever have been run on him. And custom gives the
-      first <em>daughter</em> her <strong>paternal grandmother's</strong> name — where act 10 of 1821
+      first <em>daughter</em> her <strong>paternal grandmother's</strong> name — where <Rec k="Nati" y="1821" a="10">act 10 of 1821</Rec>
       makes Orazio's mother a <strong>Teresa</strong>.</p>
       <p class="note" style="margin-top:20px"><strong>It is still not settled, and here is the part
       that does not fit.</strong> If the 1821 Orazio is ours, his father was a <em>Giuseppe</em> —
@@ -1067,14 +1079,14 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       pick whichever half suits it.</strong> Orazio Arena's own birth stays a candidate, not a
       finding.</p>
       <p style="margin-top:.8rem" class="small">Scilla, Nati 1852 — the acts are
-      <code>an_ua2002904</code> (container <code>wX9avAO</code>) and the Tavola is bound separately as
-      <code>an_ua2002907</code> (container <code>LNolBvO</code>, images 33–40), the same split as 1856
-      and 1875. Nati 1853 <code>an_ua2002909</code>; 1854 <code>an_ua2002911</code>;
-      1855 <code>an_ua2002914</code>.</p>
+      <Rec ark="an_ua2002904"><code>an_ua2002904</code></Rec> (container <code>wX9avAO</code>) and the Tavola is bound separately as
+      <Rec ark="an_ua2002907"><code>an_ua2002907</code></Rec> (container <code>LNolBvO</code>, images 33–40), the same split as 1856
+      and 1875. Nati 1853 <Rec ark="an_ua2002909"><code>an_ua2002909</code></Rec>; 1854 <Rec ark="an_ua2002911"><code>an_ua2002911</code></Rec>;
+      1855 <Rec ark="an_ua2002914"><code>an_ua2002914</code></Rec>.</p>
     </div>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="retraction">
     <div class="lab">A retraction, and what it teaches</div>
     <h2 style="margin-top:.4rem">The archive withdraws its own inference about Orazio's father</h2>
     <div class="prose" style="margin-top:1rem">
@@ -1085,21 +1097,21 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <p><strong>Two acts now say otherwise.</strong> Scilla has two Orazio Arena births in the
       right era:</p>
       <div class="rec" style="margin-top:16px">
-        <div class="k">1821 · atto 10</div>
+        <div class="k"><Rec k="Nati" y="1821" a="10">1821 · atto 10</Rec></div>
         <div class="v"><strong>Arena Orazio</strong> — <em>Gius.<sup>e</sup> e M[igliara?]
         Teresa</em> — 14 December</div><div class="w">matches the tree's year</div>
-        <div class="k">1833 · atto 1</div>
+        <div class="k"><Rec k="Nati" y="1833" a="1">1833 · atto 1</Rec></div>
         <div class="v">Arena Orazio — <em>Bonaventura e Romano Marianna</em> — 4 February</div>
         <div class="w">twelve years adrift</div>
       </div>
-      <p style="margin-top:1.2rem"><strong>Neither father is a Domenico.</strong> The 1821 act is
+      <p style="margin-top:1.2rem"><strong>Neither father is a Domenico.</strong> <Rec k="Nati" y="1821" a="10">The 1821 act</Rec> is
       much the better candidate — the family tree dates Orazio to <strong>1821</strong> and gives no
       source for it, and here is an Orazio Arena born 14 December 1821.</p>
       <p><strong>The instructive part is why the inference failed.</strong> It was not the custom
       that was wrong. It was the assumption underneath: that the first child <em>this archive had
       found</em> was Orazio's <em>first</em> child. The Scilla indexes for <strong>1850–1855 are
       unread</strong>. A son Giuseppe in any of them — named for a paternal grandfather Giuseppe,
-      exactly as act 10 of 1821 would predict — would restore the custom perfectly and leave Domenico
+      exactly as <Rec k="Nati" y="1821" a="10">act 10 of 1821</Rec> would predict — would restore the custom perfectly and leave Domenico
       as the second son, named for Giovanna Zirilli's father.</p>
       <p class="note" style="margin-top:20px"><strong>The rule this leaves.</strong> Naming custom is
       only as good as your knowledge of the birth order, and a register read from 1856 onward cannot
@@ -1107,35 +1119,35 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       been made from a partial sweep — and it is written up here rather than quietly deleted, because
       the reasoning is the part worth keeping.</p>
       <p style="margin-top:.8rem" class="small">Archivio di Stato di Reggio Calabria, Scilla,
-      Nati 1821 — <code>an_ua2002812</code>, container <code>04rZVeY</code>, Tavola at images 94–99;
-      Nati 1833 — <code>an_ua2002847</code>, container <code>5B6RQPk</code>, Tavola at images 94–100.
+      Nati 1821 — <Rec ark="an_ua2002812"><code>an_ua2002812</code></Rec>, container <code>04rZVeY</code>, Tavola at images 94–99;
+      Nati 1833 — <Rec ark="an_ua2002847"><code>an_ua2002847</code></Rec>, container <code>5B6RQPk</code>, Tavola at images 94–100.
       The 1821 mother's surname is read from a single index line and is not certain.</p>
     </div>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="three-d-sections">
     <div class="lab">Three D sections, three years, no Donato</div>
     <h2 style="margin-top:.4rem">The question changes shape</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Act 162 of 1892 puts <P n="Michele Donato" />'s birth at about <strong>1856</strong>. So the
-      1856 Tavola was opened, and then 1859 for good measure. <strong>Neither has a Donato in it,
+      <p><Rec k="Nati" y="1892" a="162">Act 162 of 1892</Rec> puts <P n="Michele Donato" />'s birth at about <strong>1856</strong>. So the
+      <Rec k="Nati" y="1856" ark="an_ua2002920">1856 Tavola</Rec> was opened, and then <Rec k="Nati" y="1859">1859</Rec> for good measure. <strong>Neither has a Donato in it,
       and neither did 1851.</strong> Each D block is complete — bounded by the last C above and the
       first F below — so nothing is hidden by a page turn:</p>
       <div class="rec" style="margin-top:16px">
-        <div class="k">1851</div>
+        <div class="k"><Rec k="Nati" y="1851">1851</Rec></div>
         <div class="v">entries 65–75 — seven Di Franco, two Dormì, one De Marco, one
         De Alessandro</div><div class="w">no Donato</div>
-        <div class="k">1856</div>
+        <div class="k"><Rec k="Nati" y="1856" ark="an_ua2002920">1856</Rec></div>
         <div class="v">entries 24–235 — Denisi, six Difranco, two Dormì, D'Elia, De Nava,
         De Marco</div><div class="w">no Donato</div>
-        <div class="k">1859</div>
+        <div class="k"><Rec k="Nati" y="1859">1859</Rec></div>
         <div class="v">entries 73–275 — six De Franco, two Dormì, De Ciccio, De Elia,
         D'Ignoto</div><div class="w">no Donato</div>
       </div>
       <p style="margin-top:1.2rem"><strong>Three years spanning the whole window his daughter's act
       allows, and the surname is simply not there.</strong> Meanwhile the 1892 index has
-      <em>two</em> Donato households — <strong>Donato Annunziata di Michele</strong> at act 162 and
-      <strong>Donato Domenico di Rocco</strong> at act 38.</p>
+      <em>two</em> Donato households — <strong>Donato Annunziata di Michele</strong> at <Rec k="Nati" y="1892" a="162">act 162</Rec> and
+      <strong>Donato Domenico di Rocco</strong> at <Rec k="Nati" y="1892" a="38">act 38</Rec>.</p>
       <p>That is a different question from the one this archive started with. It is no longer
       <em>"which year was Michele Donato born at Scilla?"</em> but <strong>"when did the Donato come
       to Scilla, and from where?"</strong> — because on this evidence the surname arrives somewhere
@@ -1150,11 +1162,11 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
   </section>
 
-  <section class="blk">
-    <div class="lab">Scilla, Matrimoni 1913 — the whole index</div>
+  <section class="blk" id="matrimoni-1913">
+    <div class="lab"><Rec k="Matrimoni" y="1913">Scilla, Matrimoni 1913</Rec> — the whole index</div>
     <h2 style="margin-top:.4rem">Fifty-eight marriages, and four surnames that are not among them</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Antenati's Scilla marriage series runs <strong>1905–1913 only</strong>. The 1913 volume's
+      <p>Antenati's Scilla marriage series runs <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Scilla" title="Antenati: the Scilla registers, as the portal lists them"><strong>1905–1913 only</strong></Rec>. <Rec k="Matrimoni" y="1913">The 1913 volume's</Rec>
       container was already in hand, and — unlike the portal's HTML, which rate-limits after about
       three page loads — <strong>the IIIF images are not throttled at all</strong>. So all eleven
       index openings came down for nothing, and the year is transcribed here in full.</p>
@@ -1199,23 +1211,24 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
     <p class="note" style="margin-top:22px">One entry was worth opening the act for. Index no. 32 read
     as a possible <strong>Mazza</strong> bride — which would have put the Sicilian surname in Scilla,
-    a genuinely surprising thing. <strong>Act 31 says <em>Muzzi</em>.</strong> Majori Carmelo, 27, a
+    a genuinely surprising thing. <strong><Rec k="Matrimoni" y="1913" a="31">Act 31</Rec> says <em>Muzzi</em>.</strong> Majori Carmelo, 27, a
     carpenter born at Gallico, married <strong>Muzzi Santa Maria</strong>, 24, of Scilla, on
     20 September 1913. Read the act, not the index.</p>
     <p class="small" style="margin-top:14px">Archivio di Stato di Reggio Calabria, Stato civile
-    italiano, Scilla, Matrimoni 1913 — Antenati <code>an_ua16594965</code>, container
+    italiano, Scilla, Matrimoni 1913 — Antenati <Rec ark="an_ua16594965"><code>an_ua16594965</code></Rec>, container
     <code>5K7arD3</code>, index at images 75–85.</p>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="correction">
     <div class="lab">A correction, in the open</div>
     <h2 style="margin-top:.4rem">The index said something else, and the caution caught it</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>Reading the 1861 index, this archive recorded Rocco Arena's parents as
+      <p>Reading <Rec k="Nati" y="1861">the 1861 index</Rec>, this archive recorded Rocco Arena's parents as
       <strong>«Giuseppe e Zirilli Grazia»</strong> — and noted that while the rare surname
       <em>Zirilli</em> agreed with the family tree's <em>Giovana Zirilli</em>, both forenames did not.
       It was filed as a <strong>candidate, not a join</strong>, with the words <em>"read the act
       itself before joining"</em>.</p>
+      <PlateFig plate="scilla-1861-index-A.jpg" />
       <p><strong>The act says Francesco Antonio Arena and Serafina Arlotta.</strong> The index's
       parents column had been misaligned by one row: it is a wide ruled table photographed across a
       gutter, and once the columns are cropped apart the row a name sits on is not reliably the row
@@ -1237,7 +1250,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <div class="k">The register says</div>
       <div class="v">Rocco Arena, b. <strong>20 December 1861</strong>, son of
       <strong>Francesco Antonio Arena</strong>, marinaro, and <strong>Serafina Arlotta</strong></div>
-      <div class="w">atto 228</div>
+      <div class="w"><Rec k="Nati" y="1861" a="228">atto 228</Rec></div>
     </div>
     <p class="note" style="margin-top:22px">The 1861 Scilla register contains <strong>exactly one
     Rocco Arena</strong>, and <strong>neither parent matches</strong>. So either the tree's parents

@@ -43,7 +43,7 @@ const mine = reads.filter((r) => r.see === see && r.how !== "inline");
     <p class="dek" style="margin:.7rem 0 1.2rem">{mine.length} scan{mine.length === 1 ? "" : "s"}
     read off the films and cited elsewhere on this page.</p>
     {mine.map((r) => (
-      <figure style="margin:0 0 2.2rem">
+      <figure style="margin:0 0 2.2rem" id={"plate-" + r.plate.replace(/\.[a-z]+$/i, "")}>
         <img src={u("/plates/" + r.plate)} alt={r.title}
              style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
         <figcaption style="margin-top:.6rem">

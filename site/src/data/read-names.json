@@ -1,0 +1,4282 @@
+{
+ "_why": [
+  "Written by tools/build_read_names.py from data/read-names.tsv. People READ from a register act who are in no family file: one /who/ name page each. Name, role, record; never a date, a family or a /people/ page."
+ ],
+ "pages": {
+  "/scilla/": "the Scilla page",
+  "/crossings/": "the Crossings page",
+  "/briatico/": "the Briatico page",
+  "/mazza/": "the Mazza page",
+  "/giarre/": "the Giarre page",
+  "/queensland/": "the Queensland Register page",
+  "/mascali/": "the Mascali page",
+  "/nicotra/": "the Nicotra page",
+  "/register-1879/": "the Sicilian Registers page",
+  "/the-name-line/": "the Mazza Name Line page",
+  "/riposto/": "the Riposto page",
+  "/piedimonte-etneo/": "the Piedimonte Etneo page"
+ },
+ "names": [
+  {
+   "name": "Agata Catalano",
+   "slug": "agata-catalano",
+   "aliases": [],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Mariano Mazza (born at Macchia)",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1836",
+     "no": "17",
+     "act": "Piedimonte Etneo, Matrimoni 1836, atto 17",
+     "ark": "an_ua72256",
+     "age": "28",
+     "trade": "",
+     "page": "/mazza/#piedimonte-1871-1845"
+    }
+   ]
+  },
+  {
+   "name": "Agata Pennisi",
+   "slug": "agata-pennisi",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the bride",
+     "of": "Rosa Raiti",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1874",
+     "no": "26",
+     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
+     "ark": "an_ua83395",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/#the-finding"
+    }
+   ]
+  },
+  {
+   "name": "Angela De Franco",
+   "slug": "angela-de-franco",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the groom",
+     "of": "Candeloro Donato",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1877",
+     "no": "43",
+     "act": "Scilla, Matrimoni 1877, atto 43",
+     "ark": "an_ua16594989",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Angela Previtera",
+   "slug": "angela-previtera",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Maria Nicotra (the child), wife of Alfio Nicotra",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1875",
+     "no": "34",
+     "act": "Piedimonte Etneo, Nati 1875, atto 34",
+     "ark": "an_ua83488",
+     "age": "",
+     "trade": "giornaliera",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Anna Alfonzetto",
+   "slug": "anna-alfonzetto",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the bride",
+     "of": "Serafina de Luca",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1828",
+     "no": "26",
+     "act": "Scilla, Matrimoni 1828, atto 26",
+     "ark": "an_ua2002545",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Anna Maria Bova",
+   "slug": "anna-maria-bova",
+   "aliases": [
+    "Bova Anna Maria"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Candeloro Donato",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1877",
+     "no": "43",
+     "act": "Scilla, Matrimoni 1877, atto 43",
+     "ark": "an_ua16594989",
+     "age": "21",
+     "trade": "filatrice",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Antonia Lanza",
+   "slug": "antonia-lanza",
+   "aliases": [
+    "Lanza Antonia"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of Catona, who married",
+     "of": "Antonio Donato",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1843",
+     "no": "11",
+     "act": "Scilla, Matrimoni 1843, atto 11",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Antonino Bajoni",
+   "slug": "antonino-bajoni",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco of Briatico before whom the marriage was made",
+     "of": "",
+     "comune": "Briatico",
+     "kind": "Matrimoni",
+     "year": "1849",
+     "no": "1",
+     "act": "Briatico, Matrimoni 1849, atto 1",
+     "ark": "an_ua87663",
+     "age": "",
+     "trade": "",
+     "page": "/briatico/"
+    }
+   ]
+  },
+  {
+   "name": "Antonino D'Amico Vita",
+   "slug": "antonino-d-amico-vita",
+   "aliases": [
+    "D'Amico Vita Antonino"
+   ],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the death was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1904",
+     "no": "122",
+     "act": "Scilla, Morti 1904, atto 122",
+     "ark": "an_ua16601216",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    },
+    {
+     "as": "official",
+     "role": "sindaco before whom the death was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1908",
+     "no": "55",
+     "act": "Scilla, Morti 1908, atto 55",
+     "ark": "an_ua16601220",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Antonino De Amico",
+   "slug": "antonino-de-amico",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1855",
+     "no": "163",
+     "act": "Scilla, Nati 1855, atto 163",
+     "ark": "an_ua2002913",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Antonino Di Lava",
+   "slug": "antonino-di-lava",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness (son of the late Giuseppe) to",
+     "of": "the marriage of Rosario Mazza and Leonarda Bonanno",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1871",
+     "no": "14",
+     "act": "Piedimonte Etneo, Matrimoni 1871, atto 14",
+     "ark": "an_ua83392",
+     "age": "46",
+     "trade": "bracciante",
+     "page": "/mazza/#piedimonte-1871-1845"
+    }
+   ]
+  },
+  {
+   "name": "Antonino Donato",
+   "slug": "antonino-donato",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of the groom",
+     "of": "Candeloro Donato",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1877",
+     "no": "43",
+     "act": "Scilla, Matrimoni 1877, atto 43",
+     "ark": "an_ua16594989",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Antonino Grassi",
+   "slug": "antonino-grassi",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1845",
+     "no": "64",
+     "act": "Piedimonte Etneo, Nati 1845, atto 64",
+     "ark": "an_ua72387",
+     "age": "",
+     "trade": "",
+     "page": "/mazza/#piedimonte-1871-1845"
+    }
+   ]
+  },
+  {
+   "name": "Antonino Mazza",
+   "slug": "antonino-mazza",
+   "aliases": [
+    "Mazza Antonino"
+   ],
+   "records": [
+    {
+     "as": "groom",
+     "role": "groom",
+     "of": "Rosa Raiti",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1874",
+     "no": "26",
+     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
+     "ark": "an_ua83395",
+     "age": "31",
+     "trade": "bracciante",
+     "page": "/register-1879/#the-finding"
+    },
+    {
+     "as": "child",
+     "role": "child born, son of",
+     "of": "Pasquale Mazza and Concetta Greco",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1877",
+     "no": "164",
+     "act": "Piedimonte Etneo, Nati 1877, atto 164",
+     "ark": "an_ua83490",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/#the-finding"
+    }
+   ]
+  },
+  {
+   "name": "Antonino Satriano",
+   "slug": "antonino-satriano",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco of Briatico before whom the birth was declared",
+     "of": "",
+     "comune": "Briatico",
+     "kind": "Nati",
+     "year": "1828",
+     "no": "12",
+     "act": "Briatico, Nati 1828, atto 12",
+     "ark": "an_ua87730",
+     "age": "",
+     "trade": "",
+     "page": "/briatico/"
+    }
+   ]
+  },
+  {
+   "name": "Antonino Sciacca",
+   "slug": "antonino-sciacca",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father (already dead) of the bride",
+     "of": "Concetta Sciacca",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1876",
+     "no": "5",
+     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
+     "ark": "an_ua83397",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/#the-finding"
+    }
+   ]
+  },
+  {
+   "name": "Antonio Cardona",
+   "slug": "antonio-cardona",
+   "aliases": [
+    "Cardona Antonio"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Giovanni Arena and Concetta Russo",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1885",
+     "no": "86",
+     "act": "Scilla, Matrimoni 1885, atto 86",
+     "ark": "an_ua16595004",
+     "age": "30",
+     "trade": "civile",
+     "page": "/scilla/#scilla-1885"
+    }
+   ]
+  },
+  {
+   "name": "Antonio Caroleo",
+   "slug": "antonio-caroleo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Fortunato Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1891",
+     "no": "134",
+     "act": "Scilla, Morti 1891, atto 134",
+     "ark": "an_ua16601203",
+     "age": "38",
+     "trade": "becchino",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Antonio Donato",
+   "slug": "antonio-donato",
+   "aliases": [
+    "Donato Antonio"
+   ],
+   "records": [
+    {
+     "as": "groom",
+     "role": "groom of Scilla, \"figlio di Bruno\", who married",
+     "of": "Antonia Lanza of Catona",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1843",
+     "no": "11",
+     "act": "Scilla, Matrimoni 1843, atto 11",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Antonio Ponte",
+   "slug": "antonio-ponte",
+   "aliases": [
+    "Ponte Antonio"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Annunziata Donato",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1892",
+     "no": "162",
+     "act": "Scilla, Nati 1892, atto 162",
+     "ark": "an_ua16601257",
+     "age": "38",
+     "trade": "pescatore",
+     "page": "/scilla/#act-162-of-1892"
+    }
+   ]
+  },
+  {
+   "name": "Bonaventura Arena",
+   "slug": "bonaventura-arena",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of",
+     "of": "Orazio Arena (the child born 1833)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1833",
+     "no": "1",
+     "act": "Scilla, Nati 1833, atto 1",
+     "ark": "an_ua2002847",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#retraction"
+    }
+   ]
+  },
+  {
+   "name": "Bruno Donato",
+   "slug": "bruno-donato",
+   "aliases": [
+    "Donato Bruno"
+   ],
+   "records": [
+    {
+     "as": "groom",
+     "role": "groom",
+     "of": "Concetta Caterina Milano",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1878",
+     "no": "22",
+     "act": "Scilla, Matrimoni 1878, atto 22",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Bruno Ingrigneri",
+   "slug": "bruno-ingrigneri",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "present at the church wedding of 7 September 1828",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1828",
+     "no": "28",
+     "act": "Scilla, Matrimoni 1828, atto 28",
+     "ark": "an_ua2002545",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Camillo Antonio Polistena",
+   "slug": "camillo-antonio-polistena",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of",
+     "of": "the person the act concerns",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1883",
+     "no": "206",
+     "act": "Scilla, Nati 1883, atto 206",
+     "ark": "an_ua16601246",
+     "age": "48",
+     "trade": "pescatore",
+     "page": "/scilla/#act-206-of-1883"
+    }
+   ]
+  },
+  {
+   "name": "Candeloro Benedetto",
+   "slug": "candeloro-benedetto",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Michele Donato",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1855",
+     "no": "163",
+     "act": "Scilla, Nati 1855, atto 163",
+     "ark": "an_ua2002913",
+     "age": "31",
+     "trade": "pastaro",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Candeloro Ciccone",
+   "slug": "candeloro-ciccone",
+   "aliases": [
+    "Ciccone Candeloro"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Domenico-Giovanni-Camillo Arena",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1870",
+     "no": "81",
+     "act": "Scilla, Nati 1870, atto 81",
+     "ark": "an_ua16601232",
+     "age": "30",
+     "trade": "serviente",
+     "page": "/scilla/#act-81-of-1870"
+    },
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Giuseppe Arena and Maria Martello",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1885",
+     "no": "73",
+     "act": "Scilla, Matrimoni 1885, atto 73",
+     "ark": "an_ua16595004",
+     "age": "45",
+     "trade": "guardia",
+     "page": "/scilla/#scilla-1885"
+    }
+   ]
+  },
+  {
+   "name": "Carmela Donato",
+   "slug": "carmela-donato",
+   "aliases": [
+    "Donato Carmela"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Mariano Tedesco",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1875",
+     "no": "26",
+     "act": "Scilla, Matrimoni 1875, atto 26",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Carmelo Majori",
+   "slug": "carmelo-majori",
+   "aliases": [
+    "Majori Carmelo"
+   ],
+   "records": [
+    {
+     "as": "groom",
+     "role": "groom",
+     "of": "Santa Maria Muzzi",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1913",
+     "no": "31",
+     "act": "Scilla, Matrimoni 1913, atto 31",
+     "ark": "an_ua16594965",
+     "age": "27",
+     "trade": "falegname (carpenter), born at Gallico",
+     "page": "/scilla/#matrimoni-1913"
+    }
+   ]
+  },
+  {
+   "name": "Caterina Martello",
+   "slug": "caterina-martello",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the bride",
+     "of": "Antonia Lanza",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1843",
+     "no": "11",
+     "act": "Scilla, Matrimoni 1843, atto 11",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Clementina Farfari",
+   "slug": "clementina-farfari",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Cosmo Arena (the deceased infant)",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1904",
+     "no": "122",
+     "act": "Scilla, Morti 1904, atto 122",
+     "ark": "an_ua16601216",
+     "age": "",
+     "trade": "lavandaia",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Clementina Furfari",
+   "slug": "clementina-furfari",
+   "aliases": [
+    "Furfari Clementina"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Filippo Arena",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1885",
+     "no": "94",
+     "act": "Scilla, Matrimoni 1885, atto 94",
+     "ark": "an_ua16595004",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#scilla-1885"
+    }
+   ]
+  },
+  {
+   "name": "Concetta Caterina Milano",
+   "slug": "concetta-caterina-milano",
+   "aliases": [
+    "Milano Concetta Caterina"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Bruno Donato",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1878",
+     "no": "22",
+     "act": "Scilla, Matrimoni 1878, atto 22",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Concetta Greco",
+   "slug": "concetta-greco",
+   "aliases": [
+    "Greco Concetta"
+   ],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Antonino Mazza (the child)",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1877",
+     "no": "164",
+     "act": "Piedimonte Etneo, Nati 1877, atto 164",
+     "ark": "an_ua83490",
+     "age": "",
+     "trade": "contadina",
+     "page": "/register-1879/#the-finding"
+    },
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Rosaria Mazza (the child)",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1879",
+     "no": "167",
+     "act": "Piedimonte Etneo, Nati 1879, atto 167",
+     "ark": "an_ua83492",
+     "age": "",
+     "trade": "industriosa",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Concetta Leotta",
+   "slug": "concetta-leotta",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the bride",
+     "of": "Nunziata Matra",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1882",
+     "no": "48",
+     "act": "Scilla, Matrimoni 1882, atto 48",
+     "ark": "an_ua16594999",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Concetta Maria Nestro",
+   "slug": "concetta-maria-nestro",
+   "aliases": [],
+   "records": [
+    {
+     "as": "other",
+     "role": "wife of",
+     "of": "Orazio Arena (the deceased)",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1895",
+     "no": "133",
+     "act": "Scilla, Morti 1895, atto 133",
+     "ark": "an_ua16601207",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Concetta Romano",
+   "slug": "concetta-romano",
+   "aliases": [
+    "Romano Concetta"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Rocco Donato",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1879",
+     "no": "31",
+     "act": "Scilla, Matrimoni 1879, atto 31",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Concetta Sciacca",
+   "slug": "concetta-sciacca",
+   "aliases": [
+    "Sciacca Concetta"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Salvatore Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1876",
+     "no": "5",
+     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
+     "ark": "an_ua83397",
+     "age": "19",
+     "trade": "",
+     "page": "/register-1879/#the-finding"
+    },
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Venerio Mazza (the child)",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1879",
+     "no": "205",
+     "act": "Piedimonte Etneo, Nati 1879, atto 205",
+     "ark": "an_ua83493",
+     "age": "",
+     "trade": "industriosa",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Cosmo Arena",
+   "slug": "cosmo-arena",
+   "aliases": [
+    "Arena Cosmo"
+   ],
+   "records": [
+    {
+     "as": "deceased",
+     "role": "about three months old, son of",
+     "of": "Filippo Arena and Clementina Farfari",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1904",
+     "no": "122",
+     "act": "Scilla, Morti 1904, atto 122",
+     "ark": "an_ua16601216",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Diana Idone",
+   "slug": "diana-idone",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the bride",
+     "of": "Maria Giuseppa Pontillo",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1813",
+     "no": "21",
+     "act": "Scilla, Matrimoni 1813, atto 21",
+     "ark": "an_ua2093374",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Domenica Cavallaro",
+   "slug": "domenica-cavallaro",
+   "aliases": [
+    "Cavallaro Domenica"
+   ],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the groom",
+     "of": "Antonino Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1874",
+     "no": "26",
+     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
+     "ark": "an_ua83395",
+     "age": "",
+     "trade": "industriosa",
+     "page": "/register-1879/#the-finding"
+    },
+    {
+     "as": "parent",
+     "role": "mother of the groom",
+     "of": "Salvatore Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1876",
+     "no": "5",
+     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
+     "ark": "an_ua83397",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/#the-finding"
+    }
+   ]
+  },
+  {
+   "name": "Domenico Bellantoni",
+   "slug": "domenico-bellantoni",
+   "aliases": [
+    "Bellantoni Domenico"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Giuseppe Arena and Maria Martello",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1885",
+     "no": "73",
+     "act": "Scilla, Matrimoni 1885, atto 73",
+     "ark": "an_ua16595004",
+     "age": "45",
+     "trade": "civile",
+     "page": "/scilla/#scilla-1885"
+    }
+   ]
+  },
+  {
+   "name": "Domenico Belvedere",
+   "slug": "domenico-belvedere",
+   "aliases": [],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "declarant of the death of",
+     "of": "the person the act concerns",
+     "comune": "Pizzo",
+     "kind": "Morti",
+     "year": "1829",
+     "no": "7",
+     "act": "Pizzo, Morti 1829, atto 7",
+     "ark": "an_ua37926878",
+     "age": "56",
+     "trade": "marinaro",
+     "page": "/briatico/"
+    }
+   ]
+  },
+  {
+   "name": "Domenico Caliota",
+   "slug": "domenico-caliota",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Annunziata Polistina",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1836",
+     "no": "204",
+     "act": "Scilla, Nati 1836, atto 204",
+     "ark": "an_ua2002856",
+     "age": "49",
+     "trade": "fornaro (baker)",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Domenico Cesoriero",
+   "slug": "domenico-cesoriero",
+   "aliases": [
+    "Cesoriero Domenico"
+   ],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Francesco Antonio Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1901",
+     "no": "96",
+     "act": "Scilla, Morti 1901, atto 96",
+     "ark": "an_ua16601213",
+     "age": "46",
+     "trade": "becchino",
+     "page": "/scilla/"
+    },
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Cosmo Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1904",
+     "no": "122",
+     "act": "Scilla, Morti 1904, atto 122",
+     "ark": "an_ua16601216",
+     "age": "49",
+     "trade": "becchino",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Domenico Costa",
+   "slug": "domenico-costa",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Serafina Arlotta",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1830",
+     "no": "89",
+     "act": "Scilla, Nati 1830, atto 89",
+     "ark": "an_ua2002840",
+     "age": "46",
+     "trade": "commerciante",
+     "page": "/scilla/#nati-1830-atto-2"
+    }
+   ]
+  },
+  {
+   "name": "Domenico Gulli",
+   "slug": "domenico-gulli",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1819",
+     "no": "186",
+     "act": "Scilla, Nati 1819, atto 186",
+     "ark": "an_ua2002808",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#nati-1819-act-186"
+    }
+   ]
+  },
+  {
+   "name": "Domenico Tesoriere",
+   "slug": "domenico-tesoriere",
+   "aliases": [
+    "Tesoriere Domenico"
+   ],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Orazio Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1895",
+     "no": "133",
+     "act": "Scilla, Morti 1895, atto 133",
+     "ark": "an_ua16601207",
+     "age": "39",
+     "trade": "becchino",
+     "page": "/scilla/#death-registers"
+    },
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Francesco Giovanni Rocco Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1898",
+     "no": "91",
+     "act": "Scilla, Morti 1898, atto 91",
+     "ark": "an_ua16601210",
+     "age": "44",
+     "trade": "becchino",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Domenico Zanghi",
+   "slug": "domenico-zanghi",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "present at the church wedding of 7 September 1828",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1828",
+     "no": "28",
+     "act": "Scilla, Matrimoni 1828, atto 28",
+     "ark": "an_ua2002545",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Emanuele Musco",
+   "slug": "emanuele-musco",
+   "aliases": [
+    "Musco Emanuele"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the banns of Rocco Arena and Generosa Costa",
+     "comune": "Scilla",
+     "kind": "Pubblicazioni",
+     "year": "1888",
+     "no": "63",
+     "act": "Scilla, Matrimoni pubblicazioni 1888, no. 63",
+     "ark": "an_ua16594926",
+     "age": "48",
+     "trade": "civile",
+     "page": "/scilla/#act-63-of-1888"
+    }
+   ]
+  },
+  {
+   "name": "Felice Sisinni",
+   "slug": "felice-sisinni",
+   "aliases": [
+    "Sisinni Felice"
+   ],
+   "records": [
+    {
+     "as": "official",
+     "role": "segretario, acting for the Regio Commissario, before whom the death was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1906",
+     "no": "41",
+     "act": "Scilla, Morti 1906, atto 41",
+     "ark": "an_ua16601218",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Ferdinando Farcia",
+   "slug": "ferdinando-farcia",
+   "aliases": [
+    "Farcia Ferdinando"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Cosmo Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1904",
+     "no": "122",
+     "act": "Scilla, Morti 1904, atto 122",
+     "ark": "an_ua16601216",
+     "age": "58",
+     "trade": "giornaliero",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Ferdinando Nostro",
+   "slug": "ferdinando-nostro",
+   "aliases": [
+    "Nostro Ferdinando"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Maria Donato",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1891",
+     "no": "22",
+     "act": "Scilla, Morti 1891, atto 22",
+     "ark": "an_ua16601203",
+     "age": "53",
+     "trade": "pescatore",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Filippo De Luca",
+   "slug": "filippo-de-luca",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father (already dead) of the bride",
+     "of": "Serafina de Luca",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1828",
+     "no": "26",
+     "act": "Scilla, Matrimoni 1828, atto 26",
+     "ark": "an_ua2002545",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Filippo Paladino",
+   "slug": "filippo-paladino",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Annunziata Polistina",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1836",
+     "no": "204",
+     "act": "Scilla, Nati 1836, atto 204",
+     "ark": "an_ua2002856",
+     "age": "70",
+     "trade": "marinaro",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Filippo Panebianco",
+   "slug": "filippo-panebianco",
+   "aliases": [
+    "Panebianco Filippo"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the banns of Rocco Arena and Generosa Costa",
+     "comune": "Scilla",
+     "kind": "Pubblicazioni",
+     "year": "1888",
+     "no": "63",
+     "act": "Scilla, Matrimoni pubblicazioni 1888, no. 63",
+     "ark": "an_ua16594926",
+     "age": "54",
+     "trade": "pittore (painter)",
+     "page": "/scilla/#act-63-of-1888"
+    }
+   ]
+  },
+  {
+   "name": "Francesca Cannucci",
+   "slug": "francesca-cannucci",
+   "aliases": [
+    "Cannucci Francesca"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Michelangelo Donato",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1882",
+     "no": "14",
+     "act": "Scilla, Matrimoni 1882, atto 14",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Francesca Martello",
+   "slug": "francesca-martello",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Giovanna Arena (the deceased girl, died at Marseille)",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1908",
+     "no": "II/2",
+     "act": "Scilla, Morti 1908, parte II, atto 2",
+     "ark": "an_ua16601220",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Francescantonio Polistina",
+   "slug": "francescantonio-polistina",
+   "aliases": [
+    "Polistina Francescantonio"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Cosmo Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1904",
+     "no": "122",
+     "act": "Scilla, Morti 1904, atto 122",
+     "ark": "an_ua16601216",
+     "age": "72",
+     "trade": "pescatore",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Francesco Antonio Poli",
+   "slug": "francesco-antonio-poli",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Rocco Arena",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1861",
+     "no": "228",
+     "act": "Scilla, Nati 1861, atto 228",
+     "ark": "an_ua2002933",
+     "age": "70",
+     "trade": "proprietario",
+     "page": "/scilla/#act-228-of-1861"
+    }
+   ]
+  },
+  {
+   "name": "Francesco Di Franco",
+   "slug": "francesco-di-franco",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Rocco Polistina",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1833",
+     "no": "174",
+     "act": "Scilla, Nati 1833, atto 174",
+     "ark": "an_ua2002847",
+     "age": "48",
+     "trade": "scalpellino (stonecutter)",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Francesco Macri",
+   "slug": "francesco-macri",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Filippo Arena and Domenica Costa",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1815",
+     "no": "29",
+     "act": "Scilla, Matrimoni 1815, atto 29",
+     "ark": "an_ua2093378",
+     "age": "28",
+     "trade": "civile",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Francesco Minasi",
+   "slug": "francesco-minasi",
+   "aliases": [
+    "Minasi Francesco"
+   ],
+   "records": [
+    {
+     "as": "official",
+     "role": "assessore delegato before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1881",
+     "no": "4",
+     "act": "Scilla, Matrimoni 1881, atto 4",
+     "ark": "an_ua16594997",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    },
+    {
+     "as": "official",
+     "role": "assessore delegato before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1882",
+     "no": "48",
+     "act": "Scilla, Matrimoni 1882, atto 48",
+     "ark": "an_ua16594999",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    },
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Giovanni Arena and Concetta Russo",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1885",
+     "no": "86",
+     "act": "Scilla, Matrimoni 1885, atto 86",
+     "ark": "an_ua16595004",
+     "age": "31",
+     "trade": "proprietario",
+     "page": "/scilla/#scilla-1885"
+    },
+    {
+     "as": "official",
+     "role": "sindaco before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1888",
+     "no": "63",
+     "act": "Scilla, Matrimoni 1888, atto 63",
+     "ark": "an_ua16595010",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-63-of-1888"
+    }
+   ]
+  },
+  {
+   "name": "Francesco Palmisano",
+   "slug": "francesco-palmisano",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1853",
+     "no": "53",
+     "act": "Scilla, Nati 1853, atto 53",
+     "ark": "an_ua2002909",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#nati-1852-1855"
+    },
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1854",
+     "no": "76",
+     "act": "Scilla, Nati 1854, atto 76",
+     "ark": "an_ua2002911",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-76-of-1854"
+    }
+   ]
+  },
+  {
+   "name": "Francesco Principato",
+   "slug": "francesco-principato",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Filippo Arena and Domenica Costa",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1815",
+     "no": "29",
+     "act": "Scilla, Matrimoni 1815, atto 29",
+     "ark": "an_ua2093378",
+     "age": "44",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Francesco Romano",
+   "slug": "francesco-romano",
+   "aliases": [
+    "Romano Francesco"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Domenico Arlotta",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1895",
+     "no": "2",
+     "act": "Scilla, Morti 1895, atto 2",
+     "ark": "an_ua16601207",
+     "age": "60",
+     "trade": "marinaro",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Francesco Zagari",
+   "slug": "francesco-zagari",
+   "aliases": [
+    "Zagari Francesco"
+   ],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Cosmo Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1904",
+     "no": "122",
+     "act": "Scilla, Morti 1904, atto 122",
+     "ark": "an_ua16601216",
+     "age": "33",
+     "trade": "becchino",
+     "page": "/scilla/"
+    },
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Serafina Arlotta",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1908",
+     "no": "55",
+     "act": "Scilla, Morti 1908, atto 55",
+     "ark": "an_ua16601220",
+     "age": "46",
+     "trade": "becchino",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Gaetano Cardillo",
+   "slug": "gaetano-cardillo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Maria Nicotra",
+     "comune": "Mascali",
+     "kind": "Nati",
+     "year": "1875",
+     "no": "144",
+     "act": "Mascali, Nati 1875, atto 144",
+     "ark": "an_ua81754",
+     "age": "30",
+     "trade": "lavorante",
+     "page": "/mascali/"
+    }
+   ]
+  },
+  {
+   "name": "Gaetano D'Amico",
+   "slug": "gaetano-d-amico",
+   "aliases": [
+    "D'Amico Gaetano"
+   ],
+   "records": [
+    {
+     "as": "official",
+     "role": "assessore before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1885",
+     "no": "86",
+     "act": "Scilla, Matrimoni 1885, atto 86",
+     "ark": "an_ua16595004",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#scilla-1885"
+    },
+    {
+     "as": "official",
+     "role": "assessore before whom the death was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1891",
+     "no": "134",
+     "act": "Scilla, Morti 1891, atto 134",
+     "ark": "an_ua16601203",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#death-registers"
+    },
+    {
+     "as": "official",
+     "role": "assessore before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1892",
+     "no": "162",
+     "act": "Scilla, Nati 1892, atto 162",
+     "ark": "an_ua16601257",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-162-of-1892"
+    },
+    {
+     "as": "official",
+     "role": "assessore delegato before whom the death was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1901",
+     "no": "96",
+     "act": "Scilla, Morti 1901, atto 96",
+     "ark": "an_ua16601213",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Gaetano Ferrante",
+   "slug": "gaetano-ferrante",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1851",
+     "no": "13",
+     "act": "Scilla, Matrimoni 1851, atto 13",
+     "ark": "an_ua2002614",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#matrimoni-1851-atto-13"
+    },
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1852",
+     "no": "48",
+     "act": "Scilla, Nati 1852, atto 48",
+     "ark": "an_ua2002904",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#nati-1852-1855"
+    }
+   ]
+  },
+  {
+   "name": "Gaetano Minasi",
+   "slug": "gaetano-minasi",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1844",
+     "no": "137",
+     "act": "Scilla, Nati 1844, atto 137",
+     "ark": "an_ua2002878",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Gerolimo Tranquillo",
+   "slug": "gerolimo-tranquillo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco of Pizzo before whom the death was declared",
+     "of": "",
+     "comune": "Pizzo",
+     "kind": "Morti",
+     "year": "1829",
+     "no": "7",
+     "act": "Pizzo, Morti 1829, atto 7",
+     "ark": "an_ua37926878",
+     "age": "",
+     "trade": "",
+     "page": "/briatico/"
+    }
+   ]
+  },
+  {
+   "name": "Giacomo Matra",
+   "slug": "giacomo-matra",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of the bride",
+     "of": "Nunziata Matra",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1882",
+     "no": "48",
+     "act": "Scilla, Matrimoni 1882, atto 48",
+     "ark": "an_ua16594999",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giacomo Minasi",
+   "slug": "giacomo-minasi",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1813",
+     "no": "21",
+     "act": "Scilla, Matrimoni 1813, atto 21",
+     "ark": "an_ua2093374",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    },
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1836",
+     "no": "204",
+     "act": "Scilla, Nati 1836, atto 204",
+     "ark": "an_ua2002856",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giosafatto Arena",
+   "slug": "giosafatto-arena",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of",
+     "of": "Maria Arena (the child)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1859",
+     "no": "111",
+     "act": "Scilla, Nati 1859, atto 111",
+     "ark": "an_ua2002928",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#nati-1859-act-46"
+    }
+   ]
+  },
+  {
+   "name": "Giovanna Chirico",
+   "slug": "giovanna-chirico",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the bride",
+     "of": "Maria Martello",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1885",
+     "no": "73",
+     "act": "Scilla, Matrimoni 1885, atto 73",
+     "ark": "an_ua16595004",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#scilla-1885"
+    }
+   ]
+  },
+  {
+   "name": "Giovanna Gioffrè",
+   "slug": "giovanna-gioffre",
+   "aliases": [
+    "Gioffrè Giovanna"
+   ],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Rocco Arena (the child born 1858)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1858",
+     "no": "60",
+     "act": "Scilla, Nati 1858, atto 60",
+     "ark": "an_ua2002925",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    },
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Annunziato Arena (the child)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1859",
+     "no": "205",
+     "act": "Scilla, Nati 1859, atto 205",
+     "ark": "an_ua2002928",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#nati-1859-act-46"
+    }
+   ]
+  },
+  {
+   "name": "Giovanna Romano",
+   "slug": "giovanna-romano",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "the person the act concerns",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1883",
+     "no": "206",
+     "act": "Scilla, Nati 1883, atto 206",
+     "ark": "an_ua16601246",
+     "age": "",
+     "trade": "filatrice",
+     "page": "/scilla/#act-206-of-1883"
+    }
+   ]
+  },
+  {
+   "name": "Giovanna Vita",
+   "slug": "giovanna-vita",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the bride",
+     "of": "Anna Maria Bova",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1877",
+     "no": "43",
+     "act": "Scilla, Matrimoni 1877, atto 43",
+     "ark": "an_ua16594989",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giovanna Zumbo",
+   "slug": "giovanna-zumbo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "midwife (levatrice) who declared the birth of",
+     "of": "the person the act concerns",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1893",
+     "no": "22",
+     "act": "Scilla, Nati 1893, atto 22",
+     "ark": "an_ua16601258",
+     "age": "60",
+     "trade": "levatrice",
+     "page": "/scilla/#act-22-of-1893"
+    }
+   ]
+  },
+  {
+   "name": "Giovanni Cuzzo",
+   "slug": "giovanni-cuzzo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Filippo Arena and Domenica Costa",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1815",
+     "no": "29",
+     "act": "Scilla, Matrimoni 1815, atto 29",
+     "ark": "an_ua2093378",
+     "age": "47",
+     "trade": "impiegato militare",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giovanni De Costa",
+   "slug": "giovanni-de-costa",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father (died at Scilla, 29 March 1790) of the bride",
+     "of": "Domenica Costa",
+     "comune": "Scilla",
+     "kind": "Processetti",
+     "year": "1815",
+     "no": "n. 29",
+     "act": "Scilla, Matrimoni processetti 1815, n. 29",
+     "ark": "an_ua2093354",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giovanni Galli",
+   "slug": "giovanni-galli",
+   "aliases": [
+    "Galli Giovanni"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Candeloro Donato and Anna Maria Bova",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1877",
+     "no": "43",
+     "act": "Scilla, Matrimoni 1877, atto 43",
+     "ark": "an_ua16594989",
+     "age": "30",
+     "trade": "civile",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giovanni Nicotra",
+   "slug": "giovanni-nicotra",
+   "aliases": [],
+   "records": [
+    {
+     "as": "groom",
+     "role": "groom, \"domiciliato e residente a Mascali\" and \"nato a Giarre\", who married",
+     "of": "Venera Cassaniti",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1872",
+     "no": "20",
+     "act": "Piedimonte Etneo, Matrimoni 1872, atto 20",
+     "ark": "an_ua83393",
+     "age": "31",
+     "trade": "bracciante",
+     "page": "/mascali/"
+    },
+    {
+     "as": "parent",
+     "role": "father of",
+     "of": "Maria Nicotra (the child), declarant in person",
+     "comune": "Mascali",
+     "kind": "Nati",
+     "year": "1875",
+     "no": "144",
+     "act": "Mascali, Nati 1875, atto 144",
+     "ark": "an_ua81754",
+     "age": "28",
+     "trade": "lavorante",
+     "page": "/mascali/"
+    }
+   ]
+  },
+  {
+   "name": "Giovanni Pantillo",
+   "slug": "giovanni-pantillo",
+   "aliases": [
+    "Pantillo Giovanni"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Serafina Arlotta",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1908",
+     "no": "55",
+     "act": "Scilla, Morti 1908, atto 55",
+     "ark": "an_ua16601220",
+     "age": "47",
+     "trade": "pescatore",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giovanni Pontillo",
+   "slug": "giovanni-pontillo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of the bride",
+     "of": "Maria Giuseppa Pontillo",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1813",
+     "no": "21",
+     "act": "Scilla, Matrimoni 1813, atto 21",
+     "ark": "an_ua2093374",
+     "age": "42",
+     "trade": "commerciante",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giovanni Sgarlata",
+   "slug": "giovanni-sgarlata",
+   "aliases": [
+    "Sgarlata Giovanni"
+   ],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Orazio Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1895",
+     "no": "133",
+     "act": "Scilla, Morti 1895, atto 133",
+     "ark": "an_ua16601207",
+     "age": "56",
+     "trade": "becchino",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Giovanni Sgarlato",
+   "slug": "giovanni-sgarlato",
+   "aliases": [
+    "Sgarlato Giovanni"
+   ],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Francesco Giovanni Rocco Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1898",
+     "no": "91",
+     "act": "Scilla, Morti 1898, atto 91",
+     "ark": "an_ua16601210",
+     "age": "54",
+     "trade": "becchino",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Giovanni Zagari",
+   "slug": "giovanni-zagari",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1874",
+     "no": "62",
+     "act": "Scilla, Matrimoni 1874, atto 62",
+     "ark": "an_ua16594983",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppa Adaloro",
+   "slug": "giuseppa-adaloro",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Clemente Arena (the child)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1857",
+     "no": "68",
+     "act": "Scilla, Nati 1857, atto 68",
+     "ark": "an_ua2002922",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppa Cotronei",
+   "slug": "giuseppa-cotronei",
+   "aliases": [],
+   "records": [
+    {
+     "as": "other",
+     "role": "godmother at the baptism of",
+     "of": "Domenica Costa",
+     "comune": "Scilla",
+     "kind": "Processetti",
+     "year": "1815",
+     "no": "n. 29",
+     "act": "Scilla, Matrimoni processetti 1815, n. 29",
+     "ark": "an_ua2093354",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppa De Girolamo",
+   "slug": "giuseppa-de-girolamo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "midwife (levatrice) who declared the birth of",
+     "of": "Giuseppe Arena",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1860",
+     "no": "45",
+     "act": "Scilla, Nati 1860, atto 45",
+     "ark": "an_ua2002931",
+     "age": "23",
+     "trade": "levatrice",
+     "page": "/scilla/#nati-1860"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppa Pulvirenti",
+   "slug": "giuseppa-pulvirenti",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the groom, aged sixty,",
+     "of": "Mariano Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1836",
+     "no": "17",
+     "act": "Piedimonte Etneo, Matrimoni 1836, atto 17",
+     "ark": "an_ua72256",
+     "age": "60",
+     "trade": "",
+     "page": "/mazza/#piedimonte-1871-1845"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppe Arlotta",
+   "slug": "giuseppe-arlotta",
+   "aliases": [
+    "Arlotta Giuseppe"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Fortunato Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1891",
+     "no": "134",
+     "act": "Scilla, Morti 1891, atto 134",
+     "ark": "an_ua16601203",
+     "age": "55",
+     "trade": "pescatore",
+     "page": "/scilla/#death-registers"
+    },
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Annunziata Donato",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1892",
+     "no": "162",
+     "act": "Scilla, Nati 1892, atto 162",
+     "ark": "an_ua16601257",
+     "age": "56",
+     "trade": "pescatore",
+     "page": "/scilla/#act-162-of-1892"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppe Carolei",
+   "slug": "giuseppe-carolei",
+   "aliases": [
+    "Carolei Giuseppe"
+   ],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Serafina Arlotta",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1908",
+     "no": "55",
+     "act": "Scilla, Morti 1908, atto 55",
+     "ark": "an_ua16601220",
+     "age": "50",
+     "trade": "becchino",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppe Caroleo",
+   "slug": "giuseppe-caroleo",
+   "aliases": [
+    "Caroleo Giuseppe"
+   ],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Nicolina Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1906",
+     "no": "41",
+     "act": "Scilla, Morti 1906, atto 41",
+     "ark": "an_ua16601218",
+     "age": "46",
+     "trade": "becchino",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppe De Nizza",
+   "slug": "giuseppe-de-nizza",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the death was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1830",
+     "no": "64",
+     "act": "Scilla, Morti 1830, atto 64",
+     "ark": "an_ua2002696",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppe Idone",
+   "slug": "giuseppe-idone",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Domenica Arena",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1853",
+     "no": "53",
+     "act": "Scilla, Nati 1853, atto 53",
+     "ark": "an_ua2002909",
+     "age": "40",
+     "trade": "",
+     "page": "/scilla/#nati-1852-1855"
+    },
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Rocco Arena",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1861",
+     "no": "228",
+     "act": "Scilla, Nati 1861, atto 228",
+     "ark": "an_ua2002933",
+     "age": "64",
+     "trade": "",
+     "page": "/scilla/#act-228-of-1861"
+    },
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Domenico-Giovanni-Camillo Arena",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1870",
+     "no": "81",
+     "act": "Scilla, Nati 1870, atto 81",
+     "ark": "an_ua16601232",
+     "age": "72",
+     "trade": "",
+     "page": "/scilla/#act-81-of-1870"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppe Ingigneri",
+   "slug": "giuseppe-ingigneri",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "archpriest who baptised the bride, Domenica Costa, on 16 June 1787",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Processetti",
+     "year": "1815",
+     "no": "n. 29",
+     "act": "Scilla, Matrimoni processetti 1815, n. 29",
+     "ark": "an_ua2093354",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppe Perina",
+   "slug": "giuseppe-perina",
+   "aliases": [
+    "Perina Giuseppe"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Fortunato Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1891",
+     "no": "134",
+     "act": "Scilla, Morti 1891, atto 134",
+     "ark": "an_ua16601203",
+     "age": "57",
+     "trade": "pescatore",
+     "page": "/scilla/#death-registers"
+    },
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Maria Donato",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1891",
+     "no": "22",
+     "act": "Scilla, Morti 1891, atto 22",
+     "ark": "an_ua16601203",
+     "age": "57",
+     "trade": "pescatore",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppe Polistina",
+   "slug": "giuseppe-polistina",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of",
+     "of": "Annunziata Polistina (the child)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1836",
+     "no": "204",
+     "act": "Scilla, Nati 1836, atto 204",
+     "ark": "an_ua2002856",
+     "age": "38",
+     "trade": "marinaro",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Giuseppe Raiti",
+   "slug": "giuseppe-raiti",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of the bride",
+     "of": "Rosa Raiti",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1874",
+     "no": "26",
+     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
+     "ark": "an_ua83395",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/#the-finding"
+    }
+   ]
+  },
+  {
+   "name": "Guglielmo Zagari",
+   "slug": "guglielmo-zagari",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "decurione acting as sindaco, before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1833",
+     "no": "174",
+     "act": "Scilla, Nati 1833, atto 174",
+     "ark": "an_ua2002847",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    },
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1860",
+     "no": "45",
+     "act": "Scilla, Nati 1860, atto 45",
+     "ark": "an_ua2002931",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#nati-1860"
+    }
+   ]
+  },
+  {
+   "name": "Ida Fedele",
+   "slug": "ida-fedele",
+   "aliases": [
+    "Fedele Ida"
+   ],
+   "records": [
+    {
+     "as": "official",
+     "role": "secondo eletto and officer of the civil state before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1828",
+     "no": "28",
+     "act": "Scilla, Matrimoni 1828, atto 28",
+     "ark": "an_ua2002545",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Ignazio Fontana",
+   "slug": "ignazio-fontana",
+   "aliases": [
+    "Fontana Ignazio"
+   ],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Fortunato Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1891",
+     "no": "134",
+     "act": "Scilla, Morti 1891, atto 134",
+     "ark": "an_ua16601203",
+     "age": "48",
+     "trade": "becchino",
+     "page": "/scilla/#death-registers"
+    },
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Francesco Antonio Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1901",
+     "no": "96",
+     "act": "Scilla, Morti 1901, atto 96",
+     "ark": "an_ua16601213",
+     "age": "52",
+     "trade": "becchino",
+     "page": "/scilla/"
+    },
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Nicolina Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1906",
+     "no": "41",
+     "act": "Scilla, Morti 1906, atto 41",
+     "ark": "an_ua16601218",
+     "age": "58",
+     "trade": "becchino",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Innocenzio Mazza",
+   "slug": "innocenzio-mazza",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of the groom",
+     "of": "Antonino Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1874",
+     "no": "26",
+     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
+     "ark": "an_ua83395",
+     "age": "",
+     "trade": "bracciante",
+     "page": "/register-1879/#the-finding"
+    },
+    {
+     "as": "parent",
+     "role": "father (written \"Senzio\" in this act) of the groom",
+     "of": "Salvatore Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1876",
+     "no": "5",
+     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
+     "ark": "an_ua83397",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/#the-finding"
+    }
+   ]
+  },
+  {
+   "name": "Leonarda Bonaccorso",
+   "slug": "leonarda-bonaccorso",
+   "aliases": [
+    "Bonaccorso Leonarda"
+   ],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Orazio Mazza (the child), wife of Rosario Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1877",
+     "no": "168",
+     "act": "Piedimonte Etneo, Nati 1877, atto 168",
+     "ark": "an_ua83490",
+     "age": "",
+     "trade": "contadina",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Leonarda Bonanno",
+   "slug": "leonarda-bonanno",
+   "aliases": [
+    "Bonanno Leonarda"
+   ],
+   "records": [
+    {
+     "as": "child",
+     "role": "child born to",
+     "of": "Gaetano Bonanno and Anna Cavallaro",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1843",
+     "no": "101",
+     "act": "Piedimonte Etneo, Nati 1843, atto 101",
+     "ark": "an_ua72385",
+     "age": "",
+     "trade": "",
+     "page": "/mazza/#piedimonte-1871-1845"
+    },
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Rosario Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1871",
+     "no": "14",
+     "act": "Piedimonte Etneo, Matrimoni 1871, atto 14",
+     "ark": "an_ua83392",
+     "age": "26",
+     "trade": "bracciante",
+     "page": "/mazza/#piedimonte-1871-1845"
+    },
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Mariano Mazza (the child), daughter of Gaetano",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1872",
+     "no": "32",
+     "act": "Piedimonte Etneo, Nati 1872, atto 32",
+     "ark": "an_ua83485",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/"
+    },
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Gaetano Mazza (the child), wife of Rosario Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1880",
+     "no": "66",
+     "act": "Piedimonte Etneo, Nati 1880, atto 66",
+     "ark": "an_ua83494",
+     "age": "",
+     "trade": "industriosa",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Leonarda Monacorso",
+   "slug": "leonarda-monacorso",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "a second Orazio Mazza (the child) in the same year, in the household that is not the family's, the wife of another Rosario Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1877",
+     "no": "168",
+     "act": "Piedimonte Etneo, Nati 1877, atto 168",
+     "ark": "an_ua83490",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Letteria Morabito",
+   "slug": "letteria-morabito",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of both the groom, Domenico Arena, and the bride, Teresa Polistina (the entry reads her name twice)",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1838",
+     "no": "20",
+     "act": "Scilla, Matrimoni 1838, atto 20",
+     "ark": "an_ua2002572",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Luigi Carmelo Polistina",
+   "slug": "luigi-carmelo-polistina",
+   "aliases": [
+    "Polistina Luigi Carmelo"
+   ],
+   "records": [
+    {
+     "as": "groom",
+     "role": "groom",
+     "of": "Nunziata Matra",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1882",
+     "no": "48",
+     "act": "Scilla, Matrimoni 1882, atto 48",
+     "ark": "an_ua16594999",
+     "age": "30",
+     "trade": "marinaio",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Luigi Minasi",
+   "slug": "luigi-minasi",
+   "aliases": [
+    "Minasi Luigi"
+   ],
+   "records": [
+    {
+     "as": "official",
+     "role": "assessore before whom the banns were asked",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Pubblicazioni",
+     "year": "1888",
+     "no": "63",
+     "act": "Scilla, Matrimoni pubblicazioni 1888, no. 63",
+     "ark": "an_ua16594926",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-63-of-1888"
+    },
+    {
+     "as": "official",
+     "role": "assessore, acting as sindaco, before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1892",
+     "no": "230",
+     "act": "Scilla, Nati 1892, atto 230",
+     "ark": "an_ua16601257",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-230-of-1892"
+    }
+   ]
+  },
+  {
+   "name": "Maddalena Longordo",
+   "slug": "maddalena-longordo",
+   "aliases": [
+    "Longordo Maddalena"
+   ],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Filippo Arena (the child born 1857)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1857",
+     "no": "100",
+     "act": "Scilla, Nati 1857, atto 100",
+     "ark": "an_ua2002922",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    },
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Domenico Arena (the child)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1860",
+     "no": "43",
+     "act": "Scilla, Nati 1860, atto 43",
+     "ark": "an_ua2002931",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#nati-1860"
+    }
+   ]
+  },
+  {
+   "name": "Marcello Caroleo",
+   "slug": "marcello-caroleo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Maria Donato",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1891",
+     "no": "22",
+     "act": "Scilla, Morti 1891, atto 22",
+     "ark": "an_ua16601203",
+     "age": "71",
+     "trade": "becchino",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Maria Annunziata Arena",
+   "slug": "maria-annunziata-arena",
+   "aliases": [],
+   "records": [
+    {
+     "as": "child",
+     "role": "child born, daughter of",
+     "of": "Orazio Arena and Giovanna Zirilli",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1860",
+     "no": "161",
+     "act": "Scilla, Nati 1860, atto 161",
+     "ark": "an_ua2002931",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#nati-1860"
+    }
+   ]
+  },
+  {
+   "name": "Maria Cardile",
+   "slug": "maria-cardile",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the bride",
+     "of": "Agata Catalano",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1836",
+     "no": "17",
+     "act": "Piedimonte Etneo, Matrimoni 1836, atto 17",
+     "ark": "an_ua72256",
+     "age": "60",
+     "trade": "",
+     "page": "/mazza/#piedimonte-1871-1845"
+    }
+   ]
+  },
+  {
+   "name": "Maria Lofaro",
+   "slug": "maria-lofaro",
+   "aliases": [
+    "Lofaro Maria"
+   ],
+   "records": [
+    {
+     "as": "other",
+     "role": "widow of",
+     "of": "Rocco Gulli",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1908",
+     "no": "II/2",
+     "act": "Scilla, Morti 1908, parte II, atto 2",
+     "ark": "an_ua16601220",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Maria Paladino",
+   "slug": "maria-paladino",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the groom",
+     "of": "Michele Donato",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1845",
+     "no": "31",
+     "act": "Scilla, Matrimoni 1845, atto 31",
+     "ark": "an_ua2002591",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Marianna Romano",
+   "slug": "marianna-romano",
+   "aliases": [
+    "Romano Marianna"
+   ],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Orazio Arena (the child born 1833)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1833",
+     "no": "1",
+     "act": "Scilla, Nati 1833, atto 1",
+     "ark": "an_ua2002847",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#retraction"
+    },
+    {
+     "as": "parent",
+     "role": "mother (already dead) of",
+     "of": "Nicolina Arena (the deceased)",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1906",
+     "no": "41",
+     "act": "Scilla, Morti 1906, atto 41",
+     "ark": "an_ua16601218",
+     "age": "",
+     "trade": "filatrice",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Mariano Tedesco",
+   "slug": "mariano-tedesco",
+   "aliases": [
+    "Tedesco Mariano"
+   ],
+   "records": [
+    {
+     "as": "groom",
+     "role": "groom",
+     "of": "Carmela Donato",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1875",
+     "no": "26",
+     "act": "Scilla, Matrimoni 1875, atto 26",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Michelangelo Donato",
+   "slug": "michelangelo-donato",
+   "aliases": [
+    "Donato Michelangelo"
+   ],
+   "records": [
+    {
+     "as": "groom",
+     "role": "groom",
+     "of": "Francesca Cannucci",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1882",
+     "no": "14",
+     "act": "Scilla, Matrimoni 1882, atto 14",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Michelangelo Sofi",
+   "slug": "michelangelo-sofi",
+   "aliases": [
+    "Sofi Michelangelo"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Orazio Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1895",
+     "no": "133",
+     "act": "Scilla, Morti 1895, atto 133",
+     "ark": "an_ua16601207",
+     "age": "62",
+     "trade": "pescatore",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Michele Romano",
+   "slug": "michele-romano",
+   "aliases": [
+    "Romano Michele"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Serafina Arlotta",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1908",
+     "no": "55",
+     "act": "Scilla, Morti 1908, atto 55",
+     "ark": "an_ua16601220",
+     "age": "70",
+     "trade": "contadino",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Natalizia Longordo",
+   "slug": "natalizia-longordo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the groom",
+     "of": "Filippo Arena",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1885",
+     "no": "94",
+     "act": "Scilla, Matrimoni 1885, atto 94",
+     "ark": "an_ua16595004",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#scilla-1885"
+    }
+   ]
+  },
+  {
+   "name": "Nicola Nicchella",
+   "slug": "nicola-nicchella",
+   "aliases": [],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "porter who declared the death of",
+     "of": "the person the act concerns",
+     "comune": "Pizzo",
+     "kind": "Morti",
+     "year": "1829",
+     "no": "7",
+     "act": "Pizzo, Morti 1829, atto 7",
+     "ark": "an_ua37926878",
+     "age": "",
+     "trade": "porter",
+     "page": "/briatico/"
+    }
+   ]
+  },
+  {
+   "name": "Nicolina Arena",
+   "slug": "nicolina-arena",
+   "aliases": [
+    "Arena Nicolina"
+   ],
+   "records": [
+    {
+     "as": "deceased",
+     "role": "aged forty, daughter of",
+     "of": "Giuseppe Arena and the late Marianna Romano",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1906",
+     "no": "41",
+     "act": "Scilla, Morti 1906, atto 41",
+     "ark": "an_ua16601218",
+     "age": "40",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Nunziata Matra",
+   "slug": "nunziata-matra",
+   "aliases": [
+    "Matra Nunziata"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Luigi Carmelo Polistina",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1882",
+     "no": "48",
+     "act": "Scilla, Matrimoni 1882, atto 48",
+     "ark": "an_ua16594999",
+     "age": "",
+     "trade": "filatrice",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Nunziata Sofi",
+   "slug": "nunziata-sofi",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Michele Donato (the child)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1855",
+     "no": "163",
+     "act": "Scilla, Nati 1855, atto 163",
+     "ark": "an_ua2002913",
+     "age": "37",
+     "trade": "",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Nunzio Matra",
+   "slug": "nunzio-matra",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Domenica Arena",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1853",
+     "no": "53",
+     "act": "Scilla, Nati 1853, atto 53",
+     "ark": "an_ua2002909",
+     "age": "40",
+     "trade": "marinaro",
+     "page": "/scilla/#nati-1852-1855"
+    }
+   ]
+  },
+  {
+   "name": "Nunzio Sofi",
+   "slug": "nunzio-sofi",
+   "aliases": [
+    "Sofi Nunzio"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Domenico Arlotta",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1895",
+     "no": "2",
+     "act": "Scilla, Morti 1895, atto 2",
+     "ark": "an_ua16601207",
+     "age": "53",
+     "trade": "pescatore",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Onofrio Pontillo",
+   "slug": "onofrio-pontillo",
+   "aliases": [
+    "Pontillo Onofrio"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Francesco Giovanni Rocco Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1898",
+     "no": "91",
+     "act": "Scilla, Morti 1898, atto 91",
+     "ark": "an_ua16601210",
+     "age": "40",
+     "trade": "pescatore",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Paolo Martello",
+   "slug": "paolo-martello",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of the bride",
+     "of": "Maria Martello (resident in America)",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1885",
+     "no": "73",
+     "act": "Scilla, Matrimoni 1885, atto 73",
+     "ark": "an_ua16595004",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#scilla-1885"
+    }
+   ]
+  },
+  {
+   "name": "Pasquale Florio",
+   "slug": "pasquale-florio",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1870",
+     "no": "81",
+     "act": "Scilla, Nati 1870, atto 81",
+     "ark": "an_ua16601232",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-81-of-1870"
+    }
+   ]
+  },
+  {
+   "name": "Pasquale Mazza",
+   "slug": "pasquale-mazza",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of",
+     "of": "Antonino Mazza (the child)",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1877",
+     "no": "164",
+     "act": "Piedimonte Etneo, Nati 1877, atto 164",
+     "ark": "an_ua83490",
+     "age": "48",
+     "trade": "bracciante",
+     "page": "/register-1879/#the-finding"
+    },
+    {
+     "as": "parent",
+     "role": "father of",
+     "of": "Rosaria Mazza (the child)",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1879",
+     "no": "167",
+     "act": "Piedimonte Etneo, Nati 1879, atto 167",
+     "ark": "an_ua83492",
+     "age": "50",
+     "trade": "bracciante",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Raffaela Arena",
+   "slug": "raffaela-arena",
+   "aliases": [
+    "Arena Raffaela"
+   ],
+   "records": [
+    {
+     "as": "deceased",
+     "role": "aged sixty-one, daughter of the late Antonio Arena and the late Teresa Pontillo, widow of Rocco Perina",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1893",
+     "no": "5",
+     "act": "Scilla, Morti 1893, atto 5",
+     "ark": "an_ua16601205",
+     "age": "61",
+     "trade": "",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Raffaele Gulli",
+   "slug": "raffaele-gulli",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "second eletto acting as sindaco before whom the promise was made",
+     "of": "",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1836",
+     "no": "17",
+     "act": "Piedimonte Etneo, Matrimoni 1836, atto 17",
+     "ark": "an_ua72256",
+     "age": "",
+     "trade": "",
+     "page": "/mazza/#piedimonte-1871-1845"
+    }
+   ]
+  },
+  {
+   "name": "Raffaele Minasi",
+   "slug": "raffaele-minasi",
+   "aliases": [
+    "Minasi Raffaele"
+   ],
+   "records": [
+    {
+     "as": "official",
+     "role": "assessore before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1883",
+     "no": "206",
+     "act": "Scilla, Nati 1883, atto 206",
+     "ark": "an_ua16601246",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-206-of-1883"
+    },
+    {
+     "as": "official",
+     "role": "sindaco before whom the birth was declared",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1893",
+     "no": "22",
+     "act": "Scilla, Nati 1893, atto 22",
+     "ark": "an_ua16601258",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-22-of-1893"
+    }
+   ]
+  },
+  {
+   "name": "Raffaele Perina",
+   "slug": "raffaele-perina",
+   "aliases": [
+    "Perina Raffaele"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Orazio Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1895",
+     "no": "133",
+     "act": "Scilla, Morti 1895, atto 133",
+     "ark": "an_ua16601207",
+     "age": "65",
+     "trade": "pescatore",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Raffaele Polistena",
+   "slug": "raffaele-polistena",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "father of the groom",
+     "of": "Luigi Carmelo Polistina",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1882",
+     "no": "48",
+     "act": "Scilla, Matrimoni 1882, atto 48",
+     "ark": "an_ua16594999",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Restato Perina",
+   "slug": "restato-perina",
+   "aliases": [
+    "Perina Restato"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the death of Francesco Giovanni Rocco Arena",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1898",
+     "no": "91",
+     "act": "Scilla, Morti 1898, atto 91",
+     "ark": "an_ua16601210",
+     "age": "33",
+     "trade": "pescatore",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Rocco D'Ascoli",
+   "slug": "rocco-d-ascoli",
+   "aliases": [
+    "D'Ascoli Rocco"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Domenico Arena and Maria Arena",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1899",
+     "no": "62",
+     "act": "Scilla, Matrimoni 1899, atto 62",
+     "ark": "an_ua16595032",
+     "age": "48",
+     "trade": "civile",
+     "page": "/scilla/#act-81-of-1870"
+    }
+   ]
+  },
+  {
+   "name": "Rocco De Marco",
+   "slug": "rocco-de-marco",
+   "aliases": [
+    "De Marco Rocco"
+   ],
+   "records": [
+    {
+     "as": "groom",
+     "role": "the one name in the D section of the index, as a groom",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1847",
+     "no": "",
+     "act": "Scilla, Matrimoni 1847, annual index",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#three-d-sections"
+    }
+   ]
+  },
+  {
+   "name": "Rocco Furfari",
+   "slug": "rocco-furfari",
+   "aliases": [],
+   "records": [
+    {
+     "as": "declarant",
+     "role": "becchino (gravedigger) who declared the death of",
+     "of": "Maria Donato",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1891",
+     "no": "22",
+     "act": "Scilla, Morti 1891, atto 22",
+     "ark": "an_ua16601203",
+     "age": "61",
+     "trade": "becchino",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Rocco Gulli",
+   "slug": "rocco-gulli",
+   "aliases": [
+    "Gulli Rocco"
+   ],
+   "records": [
+    {
+     "as": "deceased",
+     "role": "deceased in New York, 17 August 1907, entered in the same opening",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1908",
+     "no": "II/2",
+     "act": "Scilla, Morti 1908, parte II, atto 2",
+     "ark": "an_ua16601220",
+     "age": "27",
+     "trade": "bracciante",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Rocco Longordo",
+   "slug": "rocco-longordo",
+   "aliases": [
+    "Longordo Rocco"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Domenico Arena and Maria Arena",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1899",
+     "no": "62",
+     "act": "Scilla, Matrimoni 1899, atto 62",
+     "ark": "an_ua16595032",
+     "age": "55",
+     "trade": "civile",
+     "page": "/scilla/#act-81-of-1870"
+    }
+   ]
+  },
+  {
+   "name": "Rocco Minasi",
+   "slug": "rocco-minasi",
+   "aliases": [
+    "Minasi Rocco"
+   ],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1899",
+     "no": "62",
+     "act": "Scilla, Matrimoni 1899, atto 62",
+     "ark": "an_ua16595032",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-81-of-1870"
+    }
+   ]
+  },
+  {
+   "name": "Rocco Perina",
+   "slug": "rocco-perina",
+   "aliases": [
+    "Perina Rocco"
+   ],
+   "records": [
+    {
+     "as": "other",
+     "role": "husband (already dead) of",
+     "of": "Raffaela Arena (the deceased)",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1893",
+     "no": "5",
+     "act": "Scilla, Morti 1893, atto 5",
+     "ark": "an_ua16601205",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Rocco Pizzarello",
+   "slug": "rocco-pizzarello",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Filippo Arena",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1852",
+     "no": "48",
+     "act": "Scilla, Nati 1852, atto 48",
+     "ark": "an_ua2002904",
+     "age": "30",
+     "trade": "ferraro (blacksmith)",
+     "page": "/scilla/#nati-1852-1855"
+    },
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Michele Donato",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1855",
+     "no": "163",
+     "act": "Scilla, Nati 1855, atto 163",
+     "ark": "an_ua2002913",
+     "age": "32",
+     "trade": "fabbro (blacksmith)",
+     "page": "/scilla/#act-163-of-1855"
+    }
+   ]
+  },
+  {
+   "name": "Rosa Raiti",
+   "slug": "rosa-raiti",
+   "aliases": [],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Antonino Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1874",
+     "no": "26",
+     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
+     "ark": "an_ua83395",
+     "age": "20",
+     "trade": "",
+     "page": "/register-1879/#the-finding"
+    }
+   ]
+  },
+  {
+   "name": "Rosaria Greco",
+   "slug": "rosaria-greco",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the bride",
+     "of": "Concetta Sciacca",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1876",
+     "no": "5",
+     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
+     "ark": "an_ua83397",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/#the-finding"
+    }
+   ]
+  },
+  {
+   "name": "Rosaria Longordo",
+   "slug": "rosaria-longordo",
+   "aliases": [
+    "Longordo Rosaria"
+   ],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Maria Arena (the child)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1859",
+     "no": "111",
+     "act": "Scilla, Nati 1859, atto 111",
+     "ark": "an_ua2002928",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#nati-1859-act-46"
+    }
+   ]
+  },
+  {
+   "name": "Rosaria Mazza",
+   "slug": "rosaria-mazza",
+   "aliases": [
+    "Mazza Rosaria"
+   ],
+   "records": [
+    {
+     "as": "child",
+     "role": "child born, daughter of",
+     "of": "Pasquale Mazza and Concetta Greco",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1879",
+     "no": "167",
+     "act": "Piedimonte Etneo, Nati 1879, atto 167",
+     "ark": "an_ua83492",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Rosario Caviola",
+   "slug": "rosario-caviola",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Rocco Polistina",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1833",
+     "no": "174",
+     "act": "Scilla, Nati 1833, atto 174",
+     "ark": "an_ua2002847",
+     "age": "47",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Salvatore Dimauro",
+   "slug": "salvatore-dimauro",
+   "aliases": [
+    "Dimauro Salvatore"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Gaetano Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1880",
+     "no": "66",
+     "act": "Piedimonte Etneo, Nati 1880, atto 66",
+     "ark": "an_ua83494",
+     "age": "22",
+     "trade": "bracciante",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Salvatore Greco",
+   "slug": "salvatore-greco",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Rosario Mazza and Leonarda Bonanno",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1871",
+     "no": "14",
+     "act": "Piedimonte Etneo, Matrimoni 1871, atto 14",
+     "ark": "an_ua83392",
+     "age": "38",
+     "trade": "calzolaio (shoemaker)",
+     "page": "/mazza/#piedimonte-1871-1845"
+    }
+   ]
+  },
+  {
+   "name": "Salvatore Leo",
+   "slug": "salvatore-leo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Maria Nicotra",
+     "comune": "Mascali",
+     "kind": "Nati",
+     "year": "1875",
+     "no": "144",
+     "act": "Mascali, Nati 1875, atto 144",
+     "ark": "an_ua81754",
+     "age": "30",
+     "trade": "lavorante",
+     "page": "/mascali/"
+    }
+   ]
+  },
+  {
+   "name": "Santa Maria Muzzi",
+   "slug": "santa-maria-muzzi",
+   "aliases": [
+    "Muzzi Santa Maria"
+   ],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Carmelo Majori",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1913",
+     "no": "31",
+     "act": "Scilla, Matrimoni 1913, atto 31",
+     "ark": "an_ua16594965",
+     "age": "24",
+     "trade": "",
+     "page": "/scilla/#matrimoni-1913"
+    }
+   ]
+  },
+  {
+   "name": "Sebastiano Zappala",
+   "slug": "sebastiano-zappala",
+   "aliases": [
+    "Zappalà Sebastiano"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Gaetano Mazza",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1880",
+     "no": "66",
+     "act": "Piedimonte Etneo, Nati 1880, atto 66",
+     "ark": "an_ua83494",
+     "age": "24",
+     "trade": "bracciante",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Serafina Bellantoni",
+   "slug": "serafina-bellantoni",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Domenico Arlotta (the deceased infant)",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1895",
+     "no": "2",
+     "act": "Scilla, Morti 1895, atto 2",
+     "ark": "an_ua16601207",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Serafina Deluca",
+   "slug": "serafina-deluca",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother (already dead) of",
+     "of": "Orazio Arena (the deceased)",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1895",
+     "no": "133",
+     "act": "Scilla, Morti 1895, atto 133",
+     "ark": "an_ua16601207",
+     "age": "",
+     "trade": "filatrice",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Serafina Vita",
+   "slug": "serafina-vita",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Domenico-Giovanni-Camillo Arena (the child)",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1870",
+     "no": "81",
+     "act": "Scilla, Nati 1870, atto 81",
+     "ark": "an_ua16601232",
+     "age": "20",
+     "trade": "donna di casa",
+     "page": "/scilla/#act-81-of-1870"
+    },
+    {
+     "as": "parent",
+     "role": "mother of the groom (already dead)",
+     "of": "Domenico Arena",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1899",
+     "no": "62",
+     "act": "Scilla, Matrimoni 1899, atto 62",
+     "ark": "an_ua16595032",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#act-81-of-1870"
+    }
+   ]
+  },
+  {
+   "name": "Setteria Morabito",
+   "slug": "setteria-morabito",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother of the groom (written \"Setteria\" here)",
+     "of": "Filippo Arena",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1815",
+     "no": "29",
+     "act": "Scilla, Matrimoni 1815, atto 29",
+     "ark": "an_ua2093378",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Teresa Pontillo",
+   "slug": "teresa-pontillo",
+   "aliases": [],
+   "records": [
+    {
+     "as": "parent",
+     "role": "mother (already dead) of",
+     "of": "Raffaela Arena (the deceased)",
+     "comune": "Scilla",
+     "kind": "Morti",
+     "year": "1893",
+     "no": "5",
+     "act": "Scilla, Morti 1893, atto 5",
+     "ark": "an_ua16601205",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/#death-registers"
+    }
+   ]
+  },
+  {
+   "name": "Tommaso Cardona",
+   "slug": "tommaso-cardona",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the act",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1844",
+     "no": "137",
+     "act": "Scilla, Nati 1844, atto 137",
+     "ark": "an_ua2002878",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    },
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the birth of Filippo Arena",
+     "comune": "Scilla",
+     "kind": "Nati",
+     "year": "1852",
+     "no": "48",
+     "act": "Scilla, Nati 1852, atto 48",
+     "ark": "an_ua2002904",
+     "age": "30",
+     "trade": "falegname (carpenter)",
+     "page": "/scilla/#nati-1852-1855"
+    }
+   ]
+  },
+  {
+   "name": "Tommaso Cutelle",
+   "slug": "tommaso-cutelle",
+   "aliases": [
+    "Cutelle Tommaso"
+   ],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1815",
+     "no": "29",
+     "act": "Scilla, Matrimoni 1815, atto 29",
+     "ark": "an_ua2093378",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Tommaso Cutelli",
+   "slug": "tommaso-cutelli",
+   "aliases": [],
+   "records": [
+    {
+     "as": "official",
+     "role": "sindaco before whom the marriage was made",
+     "of": "",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1821",
+     "no": "29",
+     "act": "Scilla, Matrimoni 1821, atto 29",
+     "ark": "an_ua2002526",
+     "age": "",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Venera Cassaniti",
+   "slug": "venera-cassaniti",
+   "aliases": [],
+   "records": [
+    {
+     "as": "bride",
+     "role": "bride of",
+     "of": "Giovanni Nicotra, \"qui domiciliata\"",
+     "comune": "Piedimonte Etneo",
+     "kind": "Matrimoni",
+     "year": "1872",
+     "no": "20",
+     "act": "Piedimonte Etneo, Matrimoni 1872, atto 20",
+     "ark": "an_ua83393",
+     "age": "24",
+     "trade": "",
+     "page": "/mascali/"
+    },
+    {
+     "as": "parent",
+     "role": "mother of",
+     "of": "Maria Nicotra (the child)",
+     "comune": "Mascali",
+     "kind": "Nati",
+     "year": "1875",
+     "no": "144",
+     "act": "Mascali, Nati 1875, atto 144",
+     "ark": "an_ua81754",
+     "age": "",
+     "trade": "",
+     "page": "/mascali/"
+    }
+   ]
+  },
+  {
+   "name": "Venerio Mazza",
+   "slug": "venerio-mazza",
+   "aliases": [
+    "Mazza Venerio"
+   ],
+   "records": [
+    {
+     "as": "child",
+     "role": "child born, son of",
+     "of": "Salvatore Mazza and Concetta Sciacca",
+     "comune": "Piedimonte Etneo",
+     "kind": "Nati",
+     "year": "1879",
+     "no": "205",
+     "act": "Piedimonte Etneo, Nati 1879, atto 205",
+     "ark": "an_ua83493",
+     "age": "",
+     "trade": "",
+     "page": "/register-1879/"
+    }
+   ]
+  },
+  {
+   "name": "Vincenzo Musco",
+   "slug": "vincenzo-musco",
+   "aliases": [
+    "Musco Vincenzo"
+   ],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Candeloro Donato and Anna Maria Bova",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1877",
+     "no": "43",
+     "act": "Scilla, Matrimoni 1877, atto 43",
+     "ark": "an_ua16594989",
+     "age": "28",
+     "trade": "civile",
+     "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Vincenzo Ochoa",
+   "slug": "vincenzo-ochoa",
+   "aliases": [],
+   "records": [
+    {
+     "as": "witness",
+     "role": "witness to",
+     "of": "the marriage of Filippo Arena and Domenica Costa",
+     "comune": "Scilla",
+     "kind": "Matrimoni",
+     "year": "1815",
+     "no": "29",
+     "act": "Scilla, Matrimoni 1815, atto 29",
+     "ark": "an_ua2093378",
+     "age": "32",
+     "trade": "",
+     "page": "/scilla/"
+    }
+   ]
+  }
+ ]
+}

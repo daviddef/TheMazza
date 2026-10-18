@@ -8,6 +8,7 @@ import ellis from "../data/ellis.json";
 import census from "../data/census.json";
 import nyc from "../data/ny-children.json";
 import Plates from "../components/Plates.astro";
+import Rec from "../components/Rec.astro";
 const shipOf = new Map(ships.map((s) => [s.slug, s]));
 const wave1 = crossings.filter((c) => (c.year || 0) < 1940);
 const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
@@ -16,7 +17,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       dek="This family emigrated twice, in two waves half a century apart, to opposite sides of the world. The first went to America. The second went to Australia. Both left from the same three towns.">
 
   <section class="blk">
-    <div class="lab">The manifests, read properly — 14 September 2026</div>
+    <div class="lab"><Rec own="/crossings/#manifests" title="The manifests this archive has read, on this page">The manifests</Rec>, read properly — 14 September 2026</div>
     <h2 style="margin-top:.4rem">Four crossings, four ships, and a column nobody had read</h2>
     <div class="prose" style="margin-top:1rem">
       <p>This site has carried <P n="Rocco Arena" />'s four Atlantic crossings as a list with one
@@ -28,21 +29,21 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
         <strong>31</strong></div><div class="w">his first</div>
         <div class="k">1894</div><div class="v"><strong>Suevia</strong>, out of Naples — aged
         <strong>33</strong></div><div class="w">no longer "probable"</div>
-        <div class="k">1900</div><div class="v"><strong>Trave</strong>, out of Genoa — aged
+        <div class="k">1900</div><div class="v"><Rec fs="3:1:3Q9M-C9TH-F86F" title="FamilySearch: the S.S. Trave, Genoa to New York, 21 March 1900 (Ellis Island manifest page)"><strong>Trave</strong></Rec>, out of Genoa — aged
         <strong>39</strong>, <strong>US Citizen</strong>, residence <strong>Scilla</strong></div>
         <div class="w">naturalised already</div>
-        <div class="k">1913</div><div class="v"><strong>San Guglielmo</strong>, out of Messina — aged
+        <div class="k">1913</div><div class="v"><Rec fs="3:1:3Q9M-C9TX-DCWN" title="FamilySearch: the S.S. San Guglielmo, Messina to New York, 11 September 1913 (Ellis Island manifest page)"><strong>San Guglielmo</strong></Rec>, out of Messina — aged
         <strong>52</strong>, US Citizen</div><div class="w">the last</div>
       </div>
-      <p style="margin-top:1.2rem">The 1900 line says something the archive did not know: in March
+      <p style="margin-top:1.2rem"><Rec fs="3:1:3Q9M-C9TH-F86F" title="FamilySearch: the S.S. Trave, Genoa to New York, 21 March 1900 (Ellis Island manifest page)">The 1900 line</Rec> says something the archive did not know: in March
       1900 he was <strong>already an American citizen and living at Scilla</strong>. Three months
-      later the census finds him in Manhattan with a wife and two children. He was going back and
+      later <Rec fs="1:1:MSJ5-T7D" title="FamilySearch: the 1900 census of Manhattan, ED 117, sheet 17A, line 16">the census</Rec> finds him in Manhattan with a wife and two children. He was going back and
       forth with a passport, not emigrating.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The column nobody had read</h3>
       <p>A passenger manifest has two <strong>relation</strong> fields — who you left behind at the
       departure port, and who you were going to at the arrival port. This archive had never used
-      them. The 1913 line reads:</p>
+      them. <Rec fs="3:1:3Q9M-C9TX-DCWN" title="FamilySearch: the S.S. San Guglielmo, Messina to New York, 11 September 1913 (Ellis Island manifest page)">The 1913 line</Rec> reads:</p>
       <p style="margin:.8rem 0 0 1.2rem"><strong>Departure port relation (WIFE): Corta
       Generosa</strong><br /><strong>Arrival port relation (NEPHEW): Antonio Arena</strong></p>
       <p style="margin-top:.8rem">So Generosa Costa — her surname mangled to <em>Corta</em> — stayed
@@ -53,7 +54,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       <em>nephew</em> for <em>son</em>.</p>
       <p class="note" style="margin-top:18px"><strong>Reading the neighbours is the technique.</strong>
       It is also what exposed the Clementina error below: the line above hers named a father and a
-      residence four hundred kilometres from this family. <strong>A manifest line on its own is a
+      residence four hundred kilometres from this family. <strong><Rec own="/crossings/#manifests" title="The manifests this archive has read, on this page">A manifest line</Rec> on its own is a
       name; a manifest line with its neighbours is a household.</strong></p>
     </div>
   </section>
@@ -66,9 +67,9 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       Arena and Generosa, their two children, and five lodgers. One of the five is
       <strong>John Arena, 42</strong>.</p>
       <p>Read on its own, that is a man with a common surname boarding with strangers. Read against
-      the Scilla marriage act of 1885, it is not. <strong>Giovanni Arena is Rocco's own
+      <Rec k="Matrimoni" y="1885" a="86">the Scilla marriage act of 1885</Rec>, it is not. <strong>Giovanni Arena is Rocco's own
       brother</strong> — born 30 April 1854, married Concetta Russo in October 1885 — and he
-      <strong>landed at Ellis Island on 23 May 1899, aged forty-five, travelling with Rocco's
+      <strong><Rec fs="3:1:3Q9M-C9TH-X9BL-2" title="FamilySearch: the S.S. Archimede, Naples to New York, 23 May 1899 (Ellis Island manifest page)">landed at Ellis Island on 23 May 1899</Rec>, aged forty-five, travelling with Rocco's
       six-year-old daughter Anna</strong>, who is entered on the line above his as his
       <em>niece</em>. A brother who arrives in May 1899 bringing his niece to her father, and who is
       still under that roof thirteen months later, is not a boarder.</p>
@@ -76,15 +77,15 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       same size and direction of error as the <em>thirty-three</em> in his son's birth act of 1892.</p>
       <p class="note" style="margin-top:18px"><strong>Stated as an inference.</strong> The census
       gives no relationship for lodgers. Nothing in the record itself says <em>brother</em>; what
-      says it is the birth act, the marriage act and the manifest, read together.</p>
+      says it is <Rec k="Nati" y="1854" a="76">the birth act</Rec>, <Rec k="Matrimoni" y="1885" a="86">the marriage act</Rec> and <Rec fs="3:1:3Q9M-C9TH-X9BL-2" title="FamilySearch: the S.S. Archimede, Naples to New York, 23 May 1899 (Ellis Island manifest page)">the manifest</Rec>, read together.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">One parish, one colony</h3>
-      <p>The New York Roman Catholic index holds <strong>eighty-four Arena baptisms</strong>, and at
+      <p>The <Rec own="/searched/" title="What this archive has searched: the indexes it has read, with what each held">New York Roman Catholic index</Rec> holds <strong>eighty-four Arena baptisms</strong>, and at
       <strong>Our Lady of Loretto</strong> alone the Arena fathers are Rocco, Giovanni, Rosario,
       Michele, Felice, Pietro, Mariano, Ignazio, Angelo, Vincenzo, Giacomo and Aurelio. That is not a
       family; it is a <strong>town in exile</strong>, christening its children in one Manhattan
       church.</p>
-      <p>Three of Rocco's own are there — <strong>Antonio 1896, Serafina 1898, Clementina 1900</strong>.
+      <p><Rec own="/searched/" title="What this archive has searched: the indexes it has read, with what each held">Three of Rocco's own are there</Rec> — <strong>Antonio 1896, Serafina 1898, Clementina 1900</strong>.
       And two that may be his brother's: an <strong>Angelica Arena</strong>, born and baptised 1900,
       father entered as <em>Giovannie</em>, and a <strong>Michela Arena</strong>, born 1908, father
       <em>Giovanni</em>. Giovanni Arena landed in May 1899 and was under Rocco's roof in June 1900.
@@ -106,8 +107,8 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       <p>First this page said the crossing was <strong>not found</strong>: the Statue of Liberty index
       returns only a <strong>Clemente Arena — male</strong>, twenty-six, out of Messina on the
       <em>San Giovanni</em>. <strong>That was right.</strong></p>
-      <p>Then it was &ldquo;corrected&rdquo;, on the strength of a FindMyPast record this archive had
-      held for months — <em>Clementina Arena, Ellis Island, 1921</em>. <strong>That correction was
+      <p>Then it was &ldquo;corrected&rdquo;, on the strength of <Rec own="/searched/" title="What this archive has searched: the indexes it has read, with what each held">a FindMyPast record this archive had
+      held for months</Rec> — <em>Clementina Arena, Ellis Island, 1921</em>. <strong>That correction was
       wrong</strong>, and the record had never been opened. Reading the neighbouring lines settles it:
       the same manifest — the <em>Giuseppe Verdi</em> out of Naples — carries at line 1 a
       <strong>Rosa Arena</strong>, twenty-seven, <strong>resident at Vittoria</strong>, in the
@@ -121,7 +122,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       nothing more than that, and it survived for months because it looked like a find rather than a
       guess. A negative that has been tested is worth more than a positive that has not.</p>
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">And his children name his parents back</h3>
-      <p>Three free index rows settle it beyond argument. Rocco Arlotta's marriage act of June 1900
+      <p>Three free index rows settle it beyond argument. <Rec own="/searched/" title="What this archive has searched: the indexes it has read, with what each held">Rocco Arlotta's marriage act of June 1900</Rec>
       gives his father as <strong>Antonio</strong>, his mother as <strong>Nicolina Caratozzola</strong>,
       and his wife's mother as <strong>Peppina Fusto</strong>. His children, baptised at the Arena's
       own parish, are:</p>
@@ -142,12 +143,12 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       Arlotta were in New York in numbers, like the Arena.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Two absences that say something</h3>
-      <p><strong>Rocco Arena has no naturalisation petition in this collection</strong>, though he is
+      <p><Rec own="/searched/" title="What this archive has searched: the indexes it has read, with what each held"><strong>Rocco Arena has no naturalisation petition in this collection</strong></Rec>, though he is
       entered as a <em>US Citizen</em> on the manifests of both 1900 and 1913. The set begins too late
       for him; his declaration is in an earlier New York court series, which means the National
       Archives rather than a subscription.</p>
-      <p><strong>And Antonio Arena, born in Manhattan on 4 October 1896, is not in the New York draft
-      registrations of 1917–18.</strong> He was an American citizen and should have been. Put that
+      <p><strong>And Antonio Arena, born in Manhattan on 4 October 1896, is <Rec own="/searched/" title="What this archive has searched: the indexes it has read, with what each held">not in the New York draft
+      registrations of 1917–18</Rec>.</strong> He was an American citizen and should have been. Put that
       beside Rocco's missing 1910 census entry and the 1913 manifest on which he sails
       <em>without</em> Generosa, and it reads one way: <strong>the family had gone back to Italy, and
       the children with them.</strong> The boy born in Manhattan was living at Scilla when his own
@@ -156,9 +157,9 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The Arlotta lodger, identified</h3>
       <p>The census puts a <strong>Rocco Arlotta, 23</strong> in the household, and that Arlotta is
       one of the five supports for this site's correction of the Arena parentage. He was, until now,
-      an age and a surname. Ellis Island held two Rocco Arlotta of Scilla — 1898 and 1904 — and the
+      an age and a surname. <Rec own="/crossings/#manifests-table" title="The Ellis Island and New Orleans lines this archive has read, in the table on this page">Ellis Island held two Rocco Arlotta of Scilla</Rec> — 1898 and 1904 — and the
       1898 man is entered at <strong>thirty-two</strong>, nine years too old.</p>
-      <p><strong>FindMyPast has settled it.</strong> The United States Marriages index gives
+      <p><strong>FindMyPast has settled it.</strong> <Rec own="/searched/" title="What this archive has searched: the indexes it has read, with what each held">The United States Marriages index</Rec> gives
       <strong>Rocco Arlotta, twenty-two, born 1878</strong>, marrying <strong>Antonietta
       Tavani</strong> in <strong>Manhattan on 4 June 1900</strong> — the same month the census found
       him under Rocco Arena's roof. His father was <strong>Antonio Arlotta</strong>, his mother
@@ -203,21 +204,21 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
     Australian.</p>
   </section>
 
-  <section class="blk">
-    <div class="lab">The Ellis Island and New Orleans manifests, read 13 September 2026</div>
+  <section class="blk" id="manifests">
+    <div class="lab"><Rec own="/crossings/#manifests-table" title="The Ellis Island and New Orleans lines this archive has read, in the table on this page">The Ellis Island and New Orleans manifests</Rec>, read 13 September 2026</div>
     <h2 style="margin-top:.4rem">An age is a birth year, and this family's birth years keep being wrong</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Two men this archive had failed to find in Italian registers left records in America. That
       turned out to be the way in, because <strong>an arrival manifest records an age</strong> — and
       an age converts to a birth year, which is precisely the thing the family tree keeps getting
-      wrong. The Statue of Liberty Foundation's Arrival Records Collection is free, needs no account
+      wrong. <Rec own="/crossings/#manifests-table" title="The Ellis Island and New Orleans lines this archive has read, in the table on this page">The Statue of Liberty Foundation's Arrival Records Collection</Rec> is free, needs no account
       for the index, and covers New Orleans as well as Ellis Island.</p>
     </div>
 
     <div class="rec" style="margin-top:20px">
       <div class="k">CONFIRMED</div>
-      <div class="v"><strong><P n="Rocco Arena" /></strong> — Ellis Island, <strong>21 March
-      1900</strong>, off the <em>Trave</em> out of Genoa. Last residence <strong>Scilla</strong>,
+      <div class="v"><strong><P n="Rocco Arena" /></strong> — Ellis Island, <Rec fs="3:1:3Q9M-C9TH-F86F" title="FamilySearch: the S.S. Trave, Genoa to New York, 21 March 1900 (Ellis Island manifest page)"><strong>21 March
+      1900</strong>, off the <em>Trave</em></Rec> out of Genoa. Last residence <strong>Scilla</strong>,
       married, <strong>aged 39</strong>, indexed year of birth <strong>1861</strong>. Recorded as a
       <strong>US citizen</strong>.</div><div class="w">the tree was right</div>
       <div class="k">CONFIRMED</div>
@@ -225,32 +226,32 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       off the <em>Liguria</em>, <strong>aged 52</strong> — a birth about <strong>1856</strong>.</div>
       <div class="w">the tree was wrong</div>
       <div class="k">CORRECTED</div>
-      <div class="v"><strong><P n="Anna Arena" /></strong> — Ellis Island, <strong>23 May 1899</strong>,
-      off the <em>Archimede</em> out of Naples, <strong>aged 6</strong>. The tree puts her crossing in
+      <div class="v"><strong><P n="Anna Arena" /></strong> — Ellis Island, <Rec fs="3:1:3Q9M-C9TH-X9BL-2" title="FamilySearch: the S.S. Archimede, Naples to New York, 23 May 1899 (Ellis Island manifest page)"><strong>23 May 1899</strong>,
+      off the <em>Archimede</em></Rec> out of Naples, <strong>aged 6</strong>. The tree puts her crossing in
       <strong>1894</strong>, when she was one year old.</div><div class="w">five years</div>
     </div>
 
     <div class="prose" style="margin-top:1.6rem">
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The Liguria, 22 February 1908 — the image, and
       the oldest question in this archive</h3>
-      <p>The index gave <P n="Michele Donato" />'s age and nothing else. <strong>The manifest page
-      itself gives five more things, and one of them closes a question that has been open since the
+      <p>The index gave <P n="Michele Donato" />'s age and nothing else. <strong><Rec fs="3:1:33S7-95CH-L8S" title="FamilySearch: the S.S. Liguria, Palermo to New Orleans, 22 February 1908 (NARA T905 roll 19, image 763)">The manifest page
+      itself</Rec> gives five more things, and one of them closes a question that has been open since the
       first week.</strong></p>
-      <blockquote style="margin:1.1rem 0">S.S. <strong>Liguria</strong>, sailing from
-      <strong>Palermo</strong>, <strong>22 February 1908</strong> — <em>List or Manifest of Alien
+      <blockquote style="margin:1.1rem 0"><Rec fs="3:1:33S7-95CH-L8S" title="FamilySearch: the S.S. Liguria, Palermo to New Orleans, 22 February 1908 (NARA T905 roll 19, image 763)">S.S. <strong>Liguria</strong>, sailing from
+      <strong>Palermo</strong>, <strong>22 February 1908</strong></Rec> — <em>List or Manifest of Alien
       Passengers for the United States</em></blockquote>
       <div class="rec" style="margin-top:16px">
         <div class="k">line 15</div>
         <div class="v"><strong>Donato, Michele</strong> — 52 — married — <strong>sailor</strong> —
         Italian, South Calabria, <strong>Scilla</strong><br />
         <span class="small">nearest relative: <strong>"Wife Maria Sofi, Via Grotte, Scilla"</strong>
-        · destination <strong>Quincy, Florida</strong></span></div><div class="w">no. 130</div>
+        · destination <strong>Quincy, Florida</strong></span></div><div class="w"><Rec fs="3:1:33S7-95CH-L8S" title="FamilySearch: the S.S. Liguria, Palermo to New Orleans, 22 February 1908 (NARA T905 roll 19, image 763)">no. 130</Rec></div>
         <div class="k">line 16</div>
         <div class="v"><strong>Polistena, Giovanni</strong> — 24 — single —
         <strong>sailor</strong> — Italian, South Calabria, <strong>Scilla</strong><br />
         <span class="small">nearest relative: <strong>"Father Antonino Polistena and mother Giovanna
         Romano, Scilla"</strong> · destination <strong>Quincy, Florida</strong></span></div>
-        <div class="w">no. 131</div>
+        <div class="w"><Rec fs="3:1:33S7-95CH-L8S" title="FamilySearch: the S.S. Liguria, Palermo to New Orleans, 22 February 1908 (NARA T905 roll 19, image 763)">no. 131</Rec></div>
       </div>
       <p style="margin-top:1.4rem"><strong>They are on consecutive lines.</strong>
       <P n="Michele Donato" /> and <P n="Giovanni Polistena" /> crossed the Atlantic together in
@@ -259,10 +260,10 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
 
       <h3 style="margin-top:1.6rem;margin-bottom:.6rem">Romano, not Pontillo — settled</h3>
       <p>The family tree gives Giovanni Polistena's mother as <strong>Giovanna Pontillo</strong>.
-      <a href={u("/scilla/")}>Act 206 of 1883</a> says <strong>Giovanna Romano</strong>. This archive
+      <Rec own="/scilla/#act-206-of-1883" title="Act 206 of 1883, as this archive reads it (Scilla)">Act 206 of 1883</Rec> says <strong>Giovanna Romano</strong>. This archive
       has carried that as an open conflict for days, noting each time that <em>Pontillo</em> is a
       real Scilla surname and the tree might yet be right.</p>
-      <p><strong>It is not.</strong> A United States immigration manifest, filled in from Giovanni's
+      <p><strong>It is not.</strong> <Rec fs="3:1:33S7-95CH-L8S" title="FamilySearch: the S.S. Liguria, Palermo to New Orleans, 22 February 1908 (NARA T905 roll 19, image 763)">A United States immigration manifest</Rec>, filled in from Giovanni's
       own statement <strong>twenty-five years after his birth and half a world from Scilla</strong>,
       names his mother <strong>Giovanna Romano</strong>. Two independent records, two continents, one
       answer.</p>
@@ -270,13 +271,13 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       tree. The 1883 act calls him <strong>Camillo Antonio Polistena</strong>; the tree calls him
       <strong>Antonio</strong>; his son in 1908 calls him <strong>Antonino</strong>. All three are
       the same man, and the tree's version was never the problem.</p>
-      <p style="margin-top:.8rem" class="small">Louisiana, New Orleans Passenger Lists, 1820–1945
-      (NARA T905), roll 19, image 763 — FamilySearch <code>3:1:33S7-95CH-L8S</code>. The page was
+      <p style="margin-top:.8rem" class="small"><Rec fs="3:1:33S7-95CH-L8S" title="FamilySearch: the S.S. Liguria, Palermo to New Orleans, 22 February 1908 (NARA T905 roll 19, image 763)">Louisiana, New Orleans Passenger Lists, 1820–1945
+      (NARA T905), roll 19, image 763</Rec> — FamilySearch <Rec fs="3:1:33S7-95CH-L8S" title="FamilySearch: the S.S. Liguria, Palermo to New Orleans, 22 February 1908 (NARA T905 roll 19, image 763)"><code>3:1:33S7-95CH-L8S</code></Rec>. The page was
       read by stitching its DeepZoom tiles at native resolution, 4048 × 4097.</p>
 
       <h3 style="margin-bottom:.6rem">Michele Donato: two independent witnesses to 1856</h3>
-      <p>The tree puts his birth at Scilla in <strong>1851</strong>. His daughter's birth act makes
-      him <strong>36 in July 1892</strong>. This manifest makes him <strong>52 in 1908</strong>.
+      <p>The tree puts his birth at Scilla in <strong>1851</strong>. His daughter's <Rec k="Nati" y="1892" a="162">birth act</Rec> makes
+      him <strong>36 in July 1892</strong>. <Rec fs="3:1:33S7-95CH-L8S" title="FamilySearch: the S.S. Liguria, Palermo to New Orleans, 22 February 1908 (NARA T905 roll 19, image 763)">This manifest</Rec> makes him <strong>52 in 1908</strong>.
       <strong>Both give about 1856, and neither supports 1851</strong> — and the manifest image above makes a third — which is exactly why the
       1851 index had no Donato in it. It is the only New Orleans arrival among forty-nine Michele
       Donato records in the collection, and it matches the port and the year the tree already
@@ -284,7 +285,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       <p style="margin-top:.8rem">It also settles a doubt this archive raised three days ago. Having
       found no Donato in the Scilla birth indexes for 1851, 1856 or 1859, the working hypothesis was
       that <em>the surname arrived at Scilla late and Michele was born elsewhere</em>.
-      <strong>Fifteen Donato gave Scilla as their last residence at Ellis Island</strong> between
+      <Rec own="/crossings/#manifests-table" title="The Ellis Island and New Orleans lines this archive has read, in the table on this page"><strong>Fifteen Donato gave Scilla as their last residence at Ellis Island</strong></Rec> between
       1893 and 1921. They were unquestionably a Scilla family. Where Michele was <em>born</em> is
       still open — but "the Donato are not really of Scilla" is not the answer.</p>
 
@@ -292,18 +293,18 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       the tree's parents rather than its dates</h3>
       <p>This archive has spent three days on a single contradiction. The tree makes
       <P n="Rocco Arena" /> — born 1861 — the son of <P n="Orazio Arena" /> and Giovana Zirilli.
-      <a href={u("/scilla/")}>Act 228 of the 1861 Scilla register</a> says <strong>Francesco Antonio
+      <Rec own="/scilla/#act-228-of-1861" title="Act 228 of 1861, as this archive reads it (Scilla)">Act 228 of the 1861 Scilla register</Rec> says <strong>Francesco Antonio
       Arena</strong>, <em>marinaro</em>, and <strong>Serafina Arlotta</strong>, and 1861 holds
       <strong>exactly one</strong> Rocco Arena. Either the parents were wrong or the year was.</p>
       <p><strong>Three independent strands now point the same way.</strong></p>
       <div class="rec" style="margin-top:14px">
         <div class="k">The register</div>
         <div class="v">1861 contains one Rocco Arena, and he is Francesco Antonio's</div>
-        <div class="w">atto 228</div>
+        <div class="w"><Rec k="Nati" y="1861" a="228">atto 228</Rec></div>
         <div class="k">The trade</div>
         <div class="v">Rocco is a <em>marinaro</em> in 1893; Francesco Antonio is a <em>marinaro</em>
-        in 1861. These trades passed from father to son.</div><div class="w">atto 22 / 1893</div>
-        <div class="k">The manifest</div>
+        in 1861. These trades passed from father to son.</div><div class="w"><Rec k="Nati" y="1893" a="22">atto 22 / 1893</Rec></div>
+        <div class="k"><Rec fs="3:1:3Q9M-C9TH-F86F" title="FamilySearch: the S.S. Trave, Genoa to New York, 21 March 1900 (Ellis Island manifest page)">The manifest</Rec></div>
         <div class="v">A Rocco Arena of Scilla, married, <strong>aged 39 in March 1900</strong> — born
         about <strong>1861</strong>, from a source that has never seen this family tree. The image
         adds his trade: <strong>Sailor</strong>, matching the <em>marinaro</em> of 1893.</div>
@@ -315,18 +316,18 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       different household that the tree attached him to.</p>
       <div class="note" style="margin-top:20px">
         <p><strong>Added later the same day, and it cuts the other way.</strong> The 1858 Tavola was
-        opened looking for Giovanni Arena. He is not in it — but <strong>act 60 of 1858 is a
+        opened looking for Giovanni Arena. He is not in it — but <strong><Rec k="Nati" y="1858" a="60">act 60 of 1858</Rec> is a
         <em>Rocco</em> Arena</strong>, born 23 April, son of <strong>Santo Arena and Giovanna
         Gioffrè</strong>. The claim above is still literally true — <em>1861</em> holds exactly one
         Rocco Arena — but the useful version of it, that there is only one Rocco Arena of about the
         right age to choose from, <strong>is not true any more</strong>.</p>
         <p style="margin-top:.6rem">The arithmetic still favours 1861. A man born 20 December 1861 is
-        <strong>38</strong> in March 1900; the 1858 boy would be <strong>41</strong>; the manifest
-        says <strong>39</strong>. And the tree, independently, says 1861. But "three strands agree"
+        <strong>38</strong> in March 1900; the 1858 boy would be <strong>41</strong>; <Rec fs="3:1:3Q9M-C9TH-F86F" title="FamilySearch: the S.S. Trave, Genoa to New York, 21 March 1900 (Ellis Island manifest page)">the manifest
+        says</Rec> <strong>39</strong>. And the tree, independently, says 1861. But "three strands agree"
         was a cleaner sentence yesterday than it is today, and the archive would rather say so than
         leave the cleaner sentence standing.</p>
       </div>
-      <p class="note" style="margin-top:20px"><strong>One honest caveat.</strong> Manifest ages are
+      <p class="note" style="margin-top:20px"><strong>One honest caveat.</strong> <Rec own="/crossings/#manifests-table" title="The Ellis Island and New Orleans lines this archive has read, in the table on this page">Manifest ages</Rec> are
       approximate and the indexed "year of birth" is derived from the age, not copied from a
       document. A man born on 20 December 1861 would be <strong>38</strong> in March 1900, not 39 —
       so this is a year loose. It does not pin the date. What it does do is rule out the alternative
@@ -344,10 +345,10 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
         <div class="k">10 Aug 1894</div>
         <div class="v">the <em>Suevia</em> out of Naples — aged 33, occupation <em>Tailor</em></div>
         <div class="w">candidate</div>
-        <div class="k">21 March 1900</div>
+        <div class="k"><Rec fs="3:1:3Q9M-C9TH-F86F" title="FamilySearch: the S.S. Trave, Genoa to New York, 21 March 1900 (Ellis Island manifest page)">21 March 1900</Rec></div>
         <div class="v">the <em>Trave</em> out of <strong>Genoa</strong> — aged 39, married, a
         <strong>US citizen</strong></div><div class="w">documented</div>
-        <div class="k">11 Sept 1913</div>
+        <div class="k"><Rec fs="3:1:3Q9M-C9TX-DCWN" title="FamilySearch: the S.S. San Guglielmo, Messina to New York, 11 September 1913 (Ellis Island manifest page)">11 Sept 1913</Rec></div>
         <div class="v">the <em>San Guglielmo</em> out of <strong>Messina</strong> — aged 52, still a
         US citizen</div><div class="w">documented</div>
       </div>
@@ -366,12 +367,12 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       gives him a departure from <strong>Messina</strong> — right — and an arrival on
       <strong>12 September 1913</strong>. It was the <strong>11th</strong>.</p>
       <p class="note" style="margin-top:18px"><strong>And he was not travelling alone.</strong> Four
-      frames away on the same manifest — T715-2174, frame 292, line 19 — is <strong>Rocco Polistena,
+      frames away on <Rec fs="3:1:3Q9M-C9TX-DCWN" title="FamilySearch: the S.S. San Guglielmo, Messina to New York, 11 September 1913 (Ellis Island manifest page)">the same manifest — T715-2174, frame 292, line 19</Rec> — is <strong>Rocco Polistena,
       44, of Scilla</strong>. An Arena and a Polistena came off the same ship on the same day in 1913.
       A generation later <P n="Anna Arena" />'s son Rocco married <P n="Angela Polistena" />.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Who took a six-year-old across the Atlantic</h3>
-      <p>Anna Arena crossed on the <em>Archimede</em> on 23 May 1899, aged six. On the
+      <p>Anna Arena crossed on <Rec fs="3:1:3Q9M-C9TH-X9BL-2" title="FamilySearch: the S.S. Archimede, Naples to New York, 23 May 1899 (Ellis Island manifest page)">the <em>Archimede</em> on 23 May 1899</Rec>, aged six. On the
       <strong>same film, the same frame, the line immediately above hers</strong>, is
       <strong>Giavanni Arena, 45, married, of Scilla</strong>. She travelled with him, not with her
       father — who arrived ten months later, and as an American citizen. Her brother Antonio had
@@ -381,8 +382,8 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       in 1899 by another Arena; and the family later went home to Scilla, where Anna married Giuseppe
       Arena and their son Rocco was born in 1924.</p>
       <div class="note" style="margin-top:20px">
-        <p><strong>The image settles who he was, and it does so twice.</strong> Line 4 of the
-        manifest does not begin with a surname. It begins with the word <strong>"Niece"</strong> —
+        <p><strong>The image settles who he was, and it does so twice.</strong> <Rec fs="3:1:3Q9M-C9TH-X9BL-2" title="FamilySearch: the S.S. Archimede, Naples to New York, 23 May 1899 (Ellis Island manifest page)">Line 4 of the
+        manifest</Rec> does not begin with a surname. It begins with the word <strong>"Niece"</strong> —
         <em>"Niece, Anna Arena, 6, occupation none"</em>. And in the column asking whether the
         passenger goes to join a relative, line 3 reads
         <strong>"brother Rocco, N. York, Mulberry St"</strong>.</p>
@@ -395,8 +396,8 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
         written <em>"Ant.º"</em>, exactly as the 1852 act writes Francesco Antonio.</p>
       </div>
 
-      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Five lines of one manifest: the Luisiana,
-      2 August 1906</h3>
+      <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Five lines of one manifest: <Rec fs="3:1:3Q9M-C95M-JS7N-Z" title="FamilySearch: the S.S. Luisiana, 2 August 1906 (Ellis Island manifest page)">the Luisiana,
+      2 August 1906</Rec></h3>
       <p>The tree records three people arriving at New York on <strong>2 August 1906</strong> and
       names no ship. It was the <strong><em>Luisiana</em></strong>, and they were not three people
       but <strong>five, on five consecutive lines</strong> of one page:</p>
@@ -413,8 +414,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
         <div class="w">not in the tree</div>
       </div>
       <p style="margin-top:1.2rem">Domenica Anile's birth is given in the tree as
-      <strong>20 February 1880</strong>, which makes her <strong>twenty-six</strong> on the day —
-      and the manifest says twenty-six. The three-year-old on the next line is her son by Domenico
+      <strong>20 February 1880</strong>, which makes her <strong>twenty-six</strong> on the day — and <Rec fs="3:1:3Q9M-C95M-JS7N-Z" title="FamilySearch: the S.S. Luisiana, 2 August 1906 (Ellis Island manifest page)">the manifest says</Rec> twenty-six. The three-year-old on the next line is her son by Domenico
       Melluso, and the transcriber ran the child's surname into his mother's, which is how a
       <strong>Filippo Melluso</strong> came to be indexed as <em>Foloppo Melluso Anile</em>.</p>
       <p><strong>Two people on that page are not in the family tree at all</strong> — Teresa Anile,
@@ -430,7 +430,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
         across the group are <em>brother</em> (or <em>mother</em>), <strong>husband</strong>,
         <strong>father</strong>, <strong>father</strong>, <em>cousin</em>.</p>
         <p style="margin-top:.6rem">So <P n="Domenica Anile" /> was sailing to her
-        <strong>husband</strong> — which the tree already says, and the manifest now confirms — and
+        <strong>husband</strong> — which the tree already says, and <Rec fs="3:1:3Q9M-C95M-JS7N-Z" title="FamilySearch: the S.S. Luisiana, 2 August 1906 (Ellis Island manifest page)">the manifest</Rec> now confirms — and
         the two small boys to their <strong>father</strong>. The name column carries only
         <strong>two written surnames</strong>, <em>Anile</em> against the women and <em>Melluso</em>
         against the children, with ditto braces. <strong>That is exactly how the index came to hand a
@@ -448,18 +448,18 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The Polistena and the Donato were already
       together in 1903</h3>
-      <p>On the <em>Sicilian Prince</em>, 12 August 1903, line 1 is <strong>Annunziata Polistena,
+      <p>On <Rec own="/crossings/#manifests-table" title="The Ellis Island and New Orleans lines this archive has read, in the table on this page">the <em>Sicilian Prince</em>, 12 August 1903</Rec>, line 1 is <strong>Annunziata Polistena,
       17</strong>, and line 2 is <strong>Giovanni Donato, 16</strong> — both of Scilla, side by side
       on the same page. Further down the same manifest, lines 28 and 29, are <strong>Giuseppe
       Polistena, 30</strong>, and <strong>Maria Polistena, 27</strong>, a married couple.</p>
       <p><strong>Giovanni Polistena did not marry Nunziata Donato until about 1916.</strong> Thirteen
       years earlier two teenagers from those families were crossing the Atlantic on consecutive lines
-      of one ship's manifest. And in 1901 on the <em>Neustria</em>, Pasquale Donato and Lorenjo Costa
+      of one ship's manifest. And in 1901 on <Rec own="/crossings/#manifests-table" title="The Ellis Island and New Orleans lines this archive has read, in the table on this page">the <em>Neustria</em></Rec>, Pasquale Donato and Lorenjo Costa
       of Scilla are two lines apart — Costa being <P n="Generosa Costa" />'s surname. These were not
       three families who happened to marry; they were neighbours who moved together.</p>
     </div>
 
-    <div class="scroll" style="margin-top:22px">
+    <div class="scroll" id="manifests-table" style="margin-top:22px">
       <table data-no-autolink>
         <thead><tr><th>Name</th><th class="m">Arrived</th><th>Port</th><th class="m">Age</th><th class="m">→ born</th><th>Ship</th><th class="m">Line</th></tr></thead>
         <tbody>
@@ -477,20 +477,20 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
         </tbody>
       </table>
     </div>
-    <p class="small" style="margin-top:14px">Statue of Liberty &amp; Ellis Island Foundation, Arrival
-    Records Collection — <em>New York, Passenger Arrival Lists (Ellis Island), 1892–1925</em> and
+    <p class="small" style="margin-top:14px"><Rec own="/crossings/#manifests-table" title="The Ellis Island and New Orleans lines this archive has read, in the table on this page">Statue of Liberty &amp; Ellis Island Foundation, Arrival
+    Records Collection</Rec> — <em>New York, Passenger Arrival Lists (Ellis Island), 1892–1925</em> and
     <em>Louisiana, New Orleans Passenger Lists, 1820–1945</em> (NARA T905). Every row carries a
     FamilySearch ark for the manifest page itself. <strong>The Liguria page has now been read in
     full</strong> — see above. The remaining images are still to do.</p>
   </section>
 
   <section class="blk">
-    <div class="lab">The 1900 United States Census — Manhattan, Ward 6</div>
+    <div class="lab"><Rec fs="1:1:MSJ5-T7D" title="FamilySearch: the 1900 census of Manhattan, ED 117, sheet 17A, line 16">The 1900 United States Census</Rec> — Manhattan, Ward 6</div>
     <h2 style="margin-top:.4rem">One line, and a whole Scilla household under a New York roof</h2>
     <div class="prose" style="margin-top:1rem">
       <p>A manifest gives you one person at a time. <strong>A census sheet gives you everyone in the
-      building.</strong> The 1899 manifest sent <P n="Giovanni Arena" />'s brother to Mulberry Street;
-      Mulberry Street is in Ward 6; and here, on sheet 17A, line 16, household 325, is
+      building.</strong> <Rec fs="3:1:3Q9M-C9TH-X9BL-2" title="FamilySearch: the S.S. Archimede, Naples to New York, 23 May 1899 (Ellis Island manifest page)">The 1899 manifest</Rec> sent <P n="Giovanni Arena" />'s brother to Mulberry Street;
+      Mulberry Street is in Ward 6; and here, on <Rec fs="1:1:MSJ5-T7D" title="FamilySearch: the 1900 census of Manhattan, ED 117, sheet 17A, line 16">sheet 17A, line 16, household 325</Rec>, is
       <P n="Rocco Arena" />.</p>
       <div class="rec" style="margin-top:18px">
         {census[0].memberList.map((m, i) => (
@@ -503,9 +503,9 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       </div>
       <p style="margin-top:1.4rem"><strong>It confirms the family tree on four points at once</strong>
       — the 1892 arrival, Generosa Costa as his wife, Anna as his daughter, and Antonio born in New
-      York — and it adds two things the tree does not have. He had been <strong>married ten
-      years</strong>, so <strong>Rocco Arena and Generosa Costa married in 1890</strong>. And he gave
-      his own birth as <strong>September 1861</strong>, where act 228 of 1861 says 20 December.
+      York — and it adds two things the tree does not have. He had been <Rec fs="1:1:MSJ5-T7D" title="FamilySearch: the 1900 census of Manhattan, ED 117, sheet 17A, line 16"><strong>married ten
+      years</strong></Rec>, so <strong>Rocco Arena and Generosa Costa married in 1890</strong>. And he gave
+      his own birth as <strong>September 1861</strong>, where <Rec k="Nati" y="1861" a="228">act 228 of 1861</Rec> says 20 December.
       Census months are self-reported and three months adrift is ordinary; <strong>the year
       agrees</strong>, which is the part that was ever in doubt.</p>
       <p><strong>The other five names are the finding.</strong> Living with them: a
@@ -518,11 +518,11 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       13 March 1901, two lines from a Donato.</p>
       <p class="small" style="margin-top:.8rem">United States Census, 1900 — Borough of Manhattan,
       Election District 5, New York City Ward 6, ED 117, New York County; NARA T623. FamilySearch
-      <code>1:1:MSJ5-T7D</code>.</p>
+      <Rec fs="1:1:MSJ5-T7D" title="FamilySearch: the 1900 census of Manhattan, ED 117, sheet 17A, line 16"><code>1:1:MSJ5-T7D</code></Rec>.</p>
     </div>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="ny-births">
     <div class="lab">New York, New York City Births and Deaths</div>
     <h2 style="margin-top:.4rem">Four children born in Manhattan, three of whom the tree never knew</h2>
     <div class="prose" style="margin-top:1rem">
@@ -544,11 +544,11 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
           </tbody>
         </table>
       </div>
-      <p style="margin-top:1.2rem"><strong>Sarafina Arena, born 14 August 1898, died on 30 January
-      1900</strong> and was buried the next day, aged seventeen months. That is why she is not in the
+      <p style="margin-top:1.2rem"><strong><Rec own="/crossings/#ny-births" title="New York City births and deaths: the children born in Manhattan, in the table above">Sarafina Arena, born 14 August 1898, died on 30 January
+      1900</Rec></strong> and was buried the next day, aged seventeen months. That is why she is not in the
       census taken that June, and it is why nobody remembered her.</p>
-      <p class="note" style="margin-top:20px"><strong>And her name is evidence.</strong> Act 228 of
-      1861 gives Rocco Arena's mother as <strong>Serafina Arlotta</strong> — the parentage this
+      <p class="note" style="margin-top:20px"><strong>And her name is evidence.</strong> <Rec k="Nati" y="1861" a="228">Act 228 of
+      1861</Rec> gives Rocco Arena's mother as <strong>Serafina Arlotta</strong> — the parentage this
       archive spent four days arguing about. In New York in 1898, Rocco named a daughter
       <strong>Serafina</strong>. It is not proof, and it is the third separate thing to point the
       same way: the sibling pair in the register, the <em>Arlotta</em> lodging with them in 1900, and
@@ -576,9 +576,9 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
   </section>
 
   <section class="blk">
-    <div class="lab">10 September 2026 — the National Archives passenger index</div>
+    <div class="lab">10 September 2026 — <Rec href="https://recordsearch.naa.gov.au/" title="National Archives of Australia: RecordSearch">the National Archives passenger index</Rec></div>
     <h2 style="margin-top:.4rem">Nine of them now have a ship</h2>
-    <p class="dek" style="margin:.9rem 0 1.4rem">The NAA passenger arrivals index, 1898–1972, is
+    <p class="dek" style="margin:.9rem 0 1.4rem"><Rec href="https://recordsearch.naa.gov.au/" title="National Archives of Australia: RecordSearch">The NAA passenger arrivals index, 1898–1972</Rec>, is
     arranged by <strong>voyage</strong>: one item is one ship on one date, and every passenger aboard
     shares the item number. Searching it by name and date turned nine of these eighteen crossings from
     a date into a named vessel.</p>
@@ -604,7 +604,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
     <h3 class="lab" style="margin-top:32px">Where the index corrects the tree</h3>
     <div class="stack" style="margin-top:14px">
       {ships.filter((s) => s.note).map((s) => (
-        <p class="qn" style="max-width:88ch"><b>{s.name}</b> — {s.note}</p>
+        <p class="qn" style="max-width:88ch"><b><Rec href={`https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?Number=${s.itemId}`} title={`National Archives of Australia: item ${s.itemId}, the ${s.ship} voyage`}>{s.name}</Rec></b> — {s.note}</p>
       ))}
     </div>
 

@@ -14,6 +14,8 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import additions from "../data/additions.json";
 import nic from "../data/nicotra.json";
+import Rec from "../components/Rec.astro";
+import Cites from "../components/Cites.astro";
 
 const adds = additions.filter((a) => /Nicotra|Cassaniti|Murabito|Currenti/.test(a.name));
 
@@ -40,7 +42,7 @@ const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
     <h2>Where it started</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Everything this archive knew about the Nicotra came from one Australian document: the
-      <strong>1963 Queensland death registration</strong> of <P n="Maria Nicotra" />, which names her
+      <strong><Rec own="/queensland/" title="The 1963 Queensland death registration of Maria Nicotra, as read in this archive (The Queensland Register)">1963 Queensland death registration</Rec></strong> of <P n="Maria Nicotra" />, which names her
       parents as <strong>«John Nicotra»</strong> and <strong>«Venera Cassaneti»</strong>. No dates, no
       places, no act — and one of those surnames <strong>does not exist in Italy</strong>. «Cassaneti»
       appears exactly once in the whole Queensland index, on that certificate, taken down from an
@@ -60,7 +62,7 @@ const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
           <div class="lab">generation {r.gen}</div>
           <h3 style="margin:.3rem 0 .4rem">{r.who}</h3>
           <p style="margin:0">{r.what}</p>
-          <p class="small" style="margin-top:.4rem;color:var(--ink-3)">{r.src}</p>
+          <p class="small" style="margin-top:.4rem;color:var(--ink-3)"><Cites text={r.src} c="Piedimonte Etneo" /></p>
         </div>
       ))}
     </div>
@@ -123,7 +125,7 @@ const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
   </section>) : null}
 
   <section class="blk">
-    <div class="lab">22 September 2026 · Riposto, Matrimoni 1844, atto 39</div>
+    <div class="lab">22 September 2026 · <Rec c="Riposto" k="Matrimoni" y="1844" a="39">Riposto, Matrimoni 1844, atto 39</Rec></div>
     <h2 style="margin-top:.4rem">The wrong Nicotra, and the right shape</h2>
     <div class="prose" style="margin-top:1rem">
       <p>Twelve years of Riposto's marriage <em>Tavole</em> were read for exactly the row that would

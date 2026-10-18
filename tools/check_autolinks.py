@@ -14,6 +14,9 @@ kit/tools/checklinks.py holds the pass to its index and to a ratchet. This holds
   * a link to a person sits against a word that makes a longer name the data holds ("Mary" + a link on "Rosa Mazza"
     where "Mary Rosa Mazza" is a person): the text names somebody else. A roster link is exempt: it lists every bearer
     of the shorter name, the longer one included;
+  * a link to /who/<name>/ (a name READ from a register act, in no family file: tools/read_names.py) is to a name that
+    site/src/data/read-names.json holds, whose text is that name or its register-order form, that nobody in people.json
+    also bears, and that does not sit against a word making a longer name the data holds;
   * the pass added nothing (it did not run).
 
 Names are compared folded for case, accents, apostrophes and hyphens. Prints counts, and for a failure the page and the
@@ -33,6 +36,7 @@ sys.path.insert(0, HERE)
 import build_names_index as B  # noqa: E402  (plain, fold, register_order: the index's own rules)
 
 PEOPLE = os.path.join(ROOT, "site", "src", "data", "people.json")
+READ = os.path.join(ROOT, "site", "src", "data", "read-names.json")
 LINK = re.compile(r'<a href="([^"]*)" data-autolink>(.*?)</a>', re.S)
 TAG = re.compile(r"<[^>]+>")
 WORD = re.compile(r"[^\W\d_][\w'’\-]*")
@@ -61,6 +65,15 @@ def main(argv=None):
         by_key.setdefault(B.fold(p["name"]), []).append(p)
         by_slug[p["slug"]] = p
     names = set(by_key)
+    read_by_slug, read_keys = {}, {}
+    if os.path.exists(READ):
+        with open(READ, encoding="utf-8") as f:
+            for rn in json.load(f)["names"]:
+                ks = {B.fold(rn["name"])} | {B.fold(x) for x in rn.get("aliases", [])}
+                read_by_slug[rn["slug"]] = (rn, ks)
+                for k in ks:
+                    read_keys[k] = rn["slug"]
+        names |= set(read_keys)
 
     # the committed floor must not name a person: a page's address under /people/ or /who/ is a name
     floor = os.path.join(ROOT, "site", ".linkfloor.json")
@@ -73,7 +86,7 @@ def main(argv=None):
                   "addresses are names (some are living people's). Write it with tools/write_linkfloor.py." % len(named))
             return 1
 
-    n = n_person = n_search = n_alias = 0
+    n = n_person = n_search = n_alias = n_read = 0
     problems = []                       # (page, kind, text or None)
     for path in pages(dist):
         page = "/" + os.path.relpath(os.path.dirname(path), dist).replace(os.sep, "/") + "/"
@@ -93,6 +106,35 @@ def main(argv=None):
                     problems.append((page, "search link for a name a living person bears", None))
                 elif B.fold(unquote(href.split("?q=", 1)[1])) != k:
                     problems.append((page, "search link whose address names another name", text))
+                continue
+            if href.startswith("/who/"):
+                rn = read_by_slug.get(unquote(href.rstrip("/").split("/")[-1]))
+                if rn is None:
+                    problems.append((page, "link to a /who/ address that is not a name read from the registers", text))
+                    continue
+                if k not in rn[1]:
+                    problems.append((page, "link text is not the name of the page it links to", text))
+                    continue
+                if any(x in by_key for x in rn[1]):
+                    problems.append((page, "link to a read name that people.json also bears", text))
+                    continue
+                n_read += 1
+                if rn[0]["slug"] != read_keys.get(k) or len([1 for s2, (r2, ks2) in read_by_slug.items() if k in ks2]) != 1:
+                    problems.append((page, "link to a read name another read name also uses", text))
+                    continue
+                pre = WORD.findall(TAG.sub(" ", t[max(0, m.start() - 160):m.start()]))[-2:]
+                post = WORD.findall(TAG.sub(" ", t[m.end():m.end() + 160]))[:2]
+                ext = []
+                if pre:
+                    ext.append(pre[-1] + " " + text)
+                if len(pre) > 1:
+                    ext.append(pre[-2] + " " + pre[-1] + " " + text)
+                if post:
+                    ext.append(text + " " + post[0])
+                if len(post) > 1:
+                    ext.append(text + " " + post[0] + " " + post[1])
+                if any(B.fold(e) in names for e in ext):
+                    problems.append((page, "link on part of a longer name", text))
                 continue
             n_person += 1
             p = by_slug.get(unquote(href.rstrip("/").split("/")[-1])) if href.startswith("/people/") else None
@@ -129,8 +171,8 @@ def main(argv=None):
                 ext.append(text + " " + post[0] + " " + post[1])
             if any(B.fold(e) in names for e in ext):
                 problems.append((page, "link on part of a longer name", text))
-    print("check_autolinks: %d links read (%d to one person, %d of them by the register-order form; %d to the roster)"
-          % (n, n_person, n_alias, n_search))
+    print("check_autolinks: %d links read (%d to one person, %d of them by the register-order form; %d to the roster; "
+          "%d to a name read from the registers)" % (n, n_person, n_alias, n_search, n_read))
     if n == 0:
         print("check_autolinks: FAIL, the pass added no link: it did not run, or the index is empty")
         return 1

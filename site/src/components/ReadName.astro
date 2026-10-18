@@ -1,0 +1,58 @@
+---
+/* One /who/ page for a NAME that was read from a register act and is in no family file here.
+ *
+ * /people/<person> is one human; /who/<name> is everyone who bore the name. For the people who are in the
+ * family file the two link to each other. For these there is no person page, and none is made: the registers say a
+ * name, a role and an act, and that is what this page says, and no more. It never says two acts are one man; the
+ * archive's oldest rule is that a name alone does not merge anyone.
+ *
+ *   name     the name as the narrative pages print it
+ *   aliases  the other way round, as a register prints it (Surname Given)
+ *   records  [{ as, role, of, act, comune, kind, year, no, ark, age, trade, page }]  one per act
+ *   pages    { "/scilla/": "Scilla", ... }   the title of each narrative page, for the way back
+ */
+import Rec from "./Rec.astro";
+import { u } from "../lib/url.js";
+const { name, aliases = [], records = [], pages = {} } = Astro.props;
+const many = records.length > 1;
+const up = (s) => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+const said = (r) => [up(r.role) + (r.of ? " " + r.of : ""), r.age ? `aged ${r.age} in the act` : null, r.trade || null]
+  .filter(Boolean).join(", ");
+const where = (r) => {
+  if (!r.page) return null;
+  const [path, frag] = r.page.split("#");
+  return { href: u(path) + (frag ? "#" + frag : ""), label: pages[path] || path };
+};
+---
+<div class="rdn">
+  <p class="rdn-lede">
+    <strong>{name}</strong> is not in this archive's family file. The name was read in
+    {many ? <><strong>{records.length} register acts</strong>. They are listed below, and they are not claimed to be one person: this
+    page says where the name was read, not who bore it.</> : <>one register act, listed below.</>}
+    {aliases.length > 0 && <> A register prints it the other way round too: {aliases.join(", ")}.</>}
+  </p>
+  <ol class="rdn-list">
+    {records.map((r) => {
+      const w = where(r);
+      return (
+        <li>
+          <span class="rdn-act"><Rec soft c={r.comune} k={r.kind} y={r.year} a={r.no} ark={r.ark || undefined}>{r.act}</Rec></span>
+          <span class="rdn-said">{said(r)}</span>
+          {w && <span class="rdn-where"><a href={w.href}>Discussed on {w.label}</a></span>}
+        </li>
+      );
+    })}
+  </ol>
+  <p class="rdn-warn">Nothing else is known here: no dates, no family, no page of their own. Where the act names
+  the person's place in a family, the act is the evidence and the link above goes to it.</p>
+</div>
+
+<style>
+  .rdn-lede { font-size: 17px; line-height: 1.6; color: var(--ink-2); }
+  .rdn-list { list-style: none; margin: 20px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .rdn-list li { border-left: 3px solid var(--rule-strong); padding: 8px 0 8px 14px; }
+  .rdn-act { display: block; font-family: var(--serif); font-size: 18px; }
+  .rdn-said { display: block; font-size: 15px; color: var(--ink-2); margin-top: 3px; }
+  .rdn-where { display: block; font-family: var(--sans); font-size: 13px; color: var(--ink-3); margin-top: 3px; }
+  .rdn-warn { margin-top: 18px; font-size: 14px; color: var(--ink-3); border-left: 2px solid var(--ochre); padding-left: 12px; }
+</style>

@@ -19,6 +19,7 @@ import additions from "../data/additions.json";
 import nic from "../data/nicotra.json";
 import Plates from "../components/Plates.astro";
 
+import Rec from "../components/Rec.astro";
 const HERE = "Mascali";
 const rows = holdings.rows.filter((r) => r.comune.startsWith(HERE));
 const cov = coverage.rows.find((r) => r.comune === HERE) || {};
@@ -56,7 +57,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
       <strong>fourteen consecutive Piedimonte birth indexes, 1870 to 1883</strong>, looking for her,
       and the Nicotra are in them the whole time and never produce her.</p>
       <p>The explanation was six words in an act nobody had opened. Her parents' marriage —
-      Piedimonte, <em>Matrimoni</em> 1872 atto 20 — puts <strong>Giovanni Nicotra</strong>
+      <Rec c="Piedimonte Etneo" k="Matrimoni" y="1872" a="20">Piedimonte, <em>Matrimoni</em> 1872 atto 20</Rec> — puts <strong>Giovanni Nicotra</strong>
       <em>«domiciliato e residente a MASCALI»</em> and <strong>Venera Cassaniti</strong>
       <em>«qui domiciliata»</em>. A wife went to her husband's comune. <strong>The children were
       registered here.</strong></p>
@@ -64,7 +65,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
   </section>
 
   <section class="blk">
-    <div class="lab">Mascali, Nati 1875, atto 144</div>
+    <div class="lab"><Rec c="Mascali" k="Nati" y="1875" a="144">Mascali, Nati 1875, atto 144</Rec></div>
     <h2 style="margin-top:.4rem">Born at half past nine in the evening</h2>
     <div class="rec" style="margin-top:12px">
       <div class="k">Born</div><div class="v">8 December 1875, 9.30 p.m.</div><div class="w">contrada Sopra Pietrafitta</div>
@@ -76,7 +77,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
     <figure style="margin-top:1.4rem">
       <img src={u("/plates/mascali1875-act144-maria-nicotra.jpg")} alt="Mascali, Nati 1875, atto 144 — the birth of Maria Nicotra"
            style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
-      <figcaption class="dek" style="margin-top:.6rem">Mascali, Stato civile italiano, <strong>Nati 1875, atto 144</strong> — Archivio di Stato di Catania (Antenati <em>an_ua81754</em>, image 68, right-hand page). «È comparso <strong>Giovanni Nicotra</strong>, di anni <em>ventotto</em>, <em>lavorante</em>, domiciliato in Mascali… alle ore <em>pomeridiane nove e minuti trenta</em>, del dì <em>otto</em> del corrente mese, nella casa posta in <em>contrada Sopra Pietrafitta</em>… da <strong>Venera Cassaniti</strong> di lui moglie… a cui dà il nome di <strong>Maria</strong>.» The witnesses are Gaetano Cardillo and Salvatore Leo, both thirty, both <em>lavoranti</em>, and neither could write.</figcaption>
+      <figcaption class="dek" style="margin-top:.6rem">Mascali, Stato civile italiano, <Rec c="Mascali" k="Nati" y="1875" a="144"><strong>Nati 1875, atto 144</strong></Rec> — Archivio di Stato di Catania (Antenati <Rec ark="an_ua81754"><em>an_ua81754</em></Rec>, image 68, right-hand page). «È comparso <strong>Giovanni Nicotra</strong>, di anni <em>ventotto</em>, <em>lavorante</em>, domiciliato in Mascali… alle ore <em>pomeridiane nove e minuti trenta</em>, del dì <em>otto</em> del corrente mese, nella casa posta in <em>contrada Sopra Pietrafitta</em>… da <strong>Venera Cassaniti</strong> di lui moglie… a cui dà il nome di <strong>Maria</strong>.» The witnesses are Gaetano Cardillo and Salvatore Leo, both thirty, both <em>lavoranti</em>, and neither could write.</figcaption>
     </figure>
 
     <p class="note" style="margin-top:16px">She died at Brisbane in 1963 <strong>aged eighty-eight</strong>,
@@ -90,7 +91,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
     <div class="prose" style="margin-top:1rem">
       <p>Having found her, the obvious question was whether her father's household was here too —
       because if it was, his own birth should be. Every surviving birth <em>Tavola</em> from
-      <strong>1839 to 1848</strong> was read at the N section, every entry, each one checked into the
+      <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Mascali" title="Antenati: the Mascali registers, as the portal lists them"><strong>1839 to 1848</strong></Rec> was read at the N section, every entry, each one checked into the
       next letter before anything was written down. <strong>1844 does not exist in this series at
       all</strong>, and <strong>1842 is torn</strong>, its M-to-P run on the lost side.</p>
       <p>The answer is that <strong>Rosario Nicotra's household was not at Mascali in the
@@ -116,7 +117,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
     2026, and the re-read found a child.</strong> They had been cleared by checking the N section into
     the next letter, which assumes the sections are in order — and <a href={u("/mascali/#plates")}>at
     Mascali they are not</a>. Read first heading to last, <strong>1842 holds <em>Nicotra Giuseppe</em>,
-    atto 20, born 19 May to the same Alfio and Carmela Sudieri</strong>, and the junction sweep had
+    <Rec c="Mascali" k="Nati" y="1842" a="20">atto 20</Rec>, born 19 May to the same Alfio and Carmela Sudieri</strong>, and the junction sweep had
     never seen that N section at all. <strong>The household has three children here, not two.</strong>
     The negative itself survives — there is still no Rosario in any of the nine years — but it is a
     read negative now rather than a provisional one.</p>
@@ -128,8 +129,8 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
     <div class="prose" style="margin-top:1rem">
       <p>Mascali's marriage <em>Tavole</em> were swept next, because the marriage index names both
       spouses, all four parents and the comune each came from — one row would have carried a whole
-      generation. <strong>Eight years, 1835 to 1847. No Nicotra in any of them.</strong></p>
-      <p>What the sweep turned up instead is a caution. <strong>The 1847 clerk wrote his sections in
+      generation. <strong>Eight years, <Rec c="Mascali" k="Matrimoni" y="1835">1835</Rec> to <Rec c="Mascali" k="Matrimoni" y="1847">1847</Rec>. No Nicotra in any of them.</strong></p>
+      <p>What the sweep turned up instead is a caution. <strong>The <Rec c="Mascali" k="Matrimoni" y="1847">1847 clerk</Rec> wrote his sections in
       the order C, then N, then M.</strong> 1841 and 1835 put V before S. These are not slips in one
       volume; they are how this office worked.</p>
       <p><strong>So at Mascali, «the alphabet runs M straight into P» proves nothing.</strong> The N
@@ -140,7 +141,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
     <figure style="margin-top:1.4rem">
       <img src={u("/plates/mascali1847-sections-out-of-order.jpg")} alt="Mascali, Matrimoni 1847 — the Tavola's sections run C, then N, then M"
            style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
-      <figcaption class="dek" style="margin-top:.6rem">Mascali, Matrimoni <strong>1847</strong>, the annual <em>Tavola</em> — Archivio di Stato di Catania (Antenati <em>an_ua70173</em>, image 23). Read down the headings: <strong>C</strong> (Currnaci, Costa), then <strong>N</strong> (Neri Leonardo, atto 8), then <strong>M</strong> (Maccarrone). <strong>The N sits before the M.</strong> This is the page that cost nine Mascali birth years their certainty — a reading that clears a year by checking M into the next letter cannot work here.</figcaption>
+      <figcaption class="dek" style="margin-top:.6rem">Mascali, Matrimoni <strong>1847</strong>, the annual <em>Tavola</em> — Archivio di Stato di Catania (Antenati <Rec ark="an_ua70173"><em>an_ua70173</em></Rec>, image 23). Read down the headings: <strong>C</strong> (Currnaci, Costa), then <strong>N</strong> (Neri Leonardo, atto 8), then <strong>M</strong> (Maccarrone). <strong>The N sits before the M.</strong> This is the page that cost nine Mascali birth years their certainty — a reading that clears a year by checking M into the next letter cannot work here.</figcaption>
     </figure>
 
     <div class="scroll" style="margin-top:20px">
@@ -180,7 +181,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
       </table>
     </div>
     <p class="note" style="margin-top:16px"><strong>Two things in that table are worth stopping
-    at.</strong> The civil registration runs <strong>1820 to 1893</strong> and <strong>there is no
+    at.</strong> The civil registration runs <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Mascali" title="Antenati: the Mascali registers, as the portal lists them"><strong>1820 to 1893</strong></Rec> and <strong>there is no
     1844</strong> — a hole in every series at once, not a gap in one. And the volumes held at
     <strong>Palermo</strong> are not civil registration: they are <strong><em>riveli</em></strong>,
     household returns made to the Sicilian parliament, and the earliest is <strong>{rivFrom}</strong>.
@@ -193,7 +194,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
     <h2 style="margin-top:.4rem">Two centuries older than anything else here, and it has an index</h2>
     <div class="prose" style="margin-top:1rem">
       <p>The <em>riveli di beni e di anime</em> are household returns made to the Sicilian parliament
-      — who lived in the house, and what they owned. The <strong>1616</strong> volume runs to
+      — who lived in the house, and what they owned. The <Rec c="Mascali" k="Riveli" y="1616" ark="an_ua37944845"><strong>1616</strong> volume</Rec> runs to
       <strong>546 images</strong>, and this archive expected to have to read all of them.</p>
       <p>It does not. <strong>The book opens with an alphabetical name index, and the letter tabs are
       cut into the fore-edge of the pages</strong> — B, C, D, E, F, G, I, L, M, <strong>N</strong>, P,
@@ -204,7 +205,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
       <strong>N</strong> tab leads to the Natales and the Nicolòs, <strong>not to the Nicotra</strong>,
       and looking for a surname means reading the index through. That is about twenty images instead
       of five hundred and forty-six, which is the difference between an errand and a wall.</p>
-      <p>The surnames on a single opening are already the ones the 1840s registers are full of —
+      <p><Rec c="Mascali" k="Riveli" y="1616" ark="an_ua37944845">The surnames on a single opening</Rec> are already the ones the 1840s registers are full of —
       Barbagallo, Musumeci, Finocchiaro, Grasso, Gagliano, Pinnisi, Strano, Arcidiacono. That says the
       population of this town is continuous across two hundred years. <strong>It does not draw a line
       of descent and nothing here ever will</strong>: there is no bridge between 1616 and 1875. What
@@ -253,7 +254,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
       so every hit costs an act on top of the sweep.</p>
       <p style="margin-top:16px"><strong>Two were worth testing and both were tested.</strong> A
       <em>Nicotra Giuseppe</em> died in 1879, and this town had a Giuseppe born to Alfio and Carmela
-      Sudieri on 19 May 1842. <strong>The act kills it:</strong> atto 21 of 1879 is a child
+      Sudieri on 19 May 1842. <strong>The act kills it:</strong> <Rec c="Mascali" k="Morti" y="1879" a="21">atto 21 of 1879</Rec> is a child
       <em>«di anno uno»</em> — <strong>one year old</strong> — son of <strong>Venero Nicotra,
       <em>bracciale</em></strong>, and <strong>Venera Sorbello</strong>.</p>
       <p><strong>And that is the better find.</strong> Venero Nicotra is a <strong>day-labourer at
@@ -293,7 +294,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
         <li><strong>The deaths.</strong> Not opened here at all. Rosario Nicotra and Venera Murabito
         were both alive in October 1872 and no death has been sought for either, in any of the four
         towns. The marriages, by contrast, are now swept for 1835–1841 and 1847.</li>
-        <li><strong>The <em>riveli</em> of {rivFrom}.</strong> Forty-six volumes at Palermo that this
+        <li><strong><Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Mascali" title="Antenati: the Mascali registers, as the portal lists them">The <em>riveli</em> of {rivFrom}.</Rec></strong> Forty-six volumes at Palermo that this
         archive knows how to read — it has used the Piedimonte ones — and has not touched.</li>
       </ul>
       <p style="margin-top:14px"><a href={u("/nicotra/")}>The Nicotra line →</a> · <a href={u("/searched/")}>What has been read →</a> ·

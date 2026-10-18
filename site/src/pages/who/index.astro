@@ -5,6 +5,7 @@ import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import EveryName from "@daviddef/archive-kit/components/EveryName.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
+import readNames from "../../data/read-names.json";
 
 function slugify(s) {
   return String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -21,15 +22,28 @@ for (const p of people) {
 const names = [...by.entries()].map(([slug, v]) => ({ slug, ...v }))
   .sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
 const shared = names.filter(n => n.n > 1);
+/* names read from register acts, in no family file: n is the number of ACTS, not of people */
+const read = readNames.names.map((r) => ({
+  slug: r.slug, name: r.name, n: r.records.length,
+  detail: r.records.map((x) => x.act).slice(0, 3).join("; ") + (r.records.length > 3 ? "; …" : ""),
+})).sort((a, b) => a.name.localeCompare(b.name));
 ---
 <Base title="Every Name"
-      eyebrow={`${names.length} names · ${shared.length} held by more than one person`}
-      dek="A name is not a person. This is every name in the archive, and how many different people bore it.">
+      eyebrow={`${names.length} names · ${shared.length} held by more than one person · ${read.length} more read from the registers`}
+      dek="A name is not a person. This is every name in the archive, and how many different people bore it — and, below it, the names the registers give that no family file holds.">
 
 <NameLists here="who" u={u} />
 
 
   <section class="blk">
     <EveryName names={names} u={u} />
+  </section>
+
+  <section class="blk" id="read">
+    <h2>Read from the registers</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">{read.length} names that a register act gives — a mother, a witness, the officer who
+    received the act — and that no family file holds. Each has a page that says where the name was read. The
+    number is the number of acts, and an act is not a person: two acts are never called one man on a name alone.</p>
+    <EveryName names={read} u={u} counts="records" noun="names read from the registers" detailLabel="Read in" />
   </section>
 </Base>

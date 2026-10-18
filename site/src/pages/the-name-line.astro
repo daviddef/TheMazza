@@ -3,6 +3,17 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import spine from "../data/sicily-spine.json";
+import Rec from "../components/Rec.astro";
+import Cites from "../components/Cites.astro";
+/* what a citation in the spine's text points at, where the patterns in Cites.astro cannot know */
+const LINKS = {
+  "Morti 1924": { fs: "1:1:XWTK-5R8Q", title: "FamilySearch: Italy, Catania, Catania, Civil Registration (Tribunale), 1866–1929 — the death act of Rosario Mazza, 15 November 1924" },
+  "30 APRIL 1871, act 14": { c: "Piedimonte Etneo", k: "Matrimoni", y: "1871", a: "14" },
+  "parish marriage 25 Apr 1898": { fs: "3:1:3QS7-99ZG-7XNZ", title: "FamilySearch: Piedimonte Etneo parish register, Marriage Records 1777–1911" },
+  "Nudgee register": { own: "/nudgee/", title: "The Nudgee burial register, as transcribed in this archive" },
+  "Nudgee, plots V-1026 and V-1027": { own: "/nudgee/", title: "The Nudgee burial register, as transcribed in this archive" },
+  "NAA passenger index": { href: "https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?Number=9243236", title: "National Archives of Australia: Sebastiano Mazza, Toscana, Genoa to Melbourne, 4 October 1949 (item 9243236)" },
+};
 ---
 <Base autolink title="The Mazza Name Line" eyebrow="Piedimonte Etneo, from about 1809"
       dek="On the morning this archive was built the Mazza name reached back four generations and stopped at a man with no dates. It now runs seven, and every step in Sicily is a document.">
@@ -37,7 +48,7 @@ import spine from "../data/sicily-spine.json";
         And Rosario is <strong>«di Mariano»</strong> — son of a <strong>Mariano Mazza</strong> whom
         nothing in this archive had ever named.</p>
         <p style="margin-top:.8rem" class="small">Archivio di Stato di Catania, Stato civile
-        italiano, Piedimonte Etneo, Nati 1873, atto 3 — Antenati <code>an_ua83486</code>, images 3–4.</p>
+        italiano, <Rec c="Piedimonte Etneo" k="Nati" y="1873" a="3">Piedimonte Etneo, Nati 1873, atto 3</Rec> — Antenati <Rec ark="an_ua83486"><code>an_ua83486</code></Rec>, images 3–4.</p>
       </div>
     </div>
   </section>
@@ -55,12 +66,12 @@ import spine from "../data/sicily-spine.json";
             </div>
           </div>
           <div>
-            {g.bornNote !== "—" && <p class="qw">{g.bornNote}</p>}
+            {g.bornNote !== "—" && <p class="qw"><Cites text={g.bornNote} c="Piedimonte Etneo" links={LINKS} /></p>}
             {g.spouse !== "—" && (
               <p class="qn" style="margin-top:10px">Married <strong>{g.spouse}</strong>.
-              {g.spouseNote !== "—" ? " " + g.spouseNote : ""}</p>
+              {g.spouseNote !== "—" ? <> <Cites text={g.spouseNote} c="Piedimonte Etneo" links={LINKS} /></> : ""}</p>
             )}
-            <p class="ab"><strong>Source:</strong> {g.source}</p>
+            <p class="ab"><strong>Source:</strong> <Cites text={g.source} c="Piedimonte Etneo" links={LINKS} /></p>
           </div>
         </div>
       ))}
@@ -80,9 +91,9 @@ import spine from "../data/sicily-spine.json";
       Contrada Grotta Nicodemo, on <strong>19 September 1929</strong>, aged fifty-six.</p>
       <p><strong>The lesson is about search strategy, not about the tree.</strong> Eight registers
       were read on the strength of one undocumented year. What actually broke it open was working
-      from a <em>different</em> record — the Queensland death index, which gave Salvatore's son
-      Rosario a birth year of 1899 and his wife her full name — and then finding the parish marriage
-      of 1898 and the civil death act of 1929, each of which names Salvatore's parents. <strong>Three
+      from a <em>different</em> record — <Rec own="/queensland/" title="The Queensland death index, as read in this archive (The Queensland Register)">the Queensland death index</Rec>, which gave Salvatore's son
+      Rosario a birth year of 1899 and his wife her full name — and then finding <Rec fs="3:1:3QS7-99ZG-7XNZ" title="FamilySearch: Piedimonte Etneo parish register, Marriage Records 1777–1911">the parish marriage
+      of 1898</Rec> and the civil death act of 1929, each of which names Salvatore's parents. <strong>Three
       records converged on the man before the register was opened at the right page.</strong></p>
     </div>
   </section>

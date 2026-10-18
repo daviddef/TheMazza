@@ -1,0 +1,266 @@
+# People READ from a register act who are in no family file. One row per (name, act). See tools/read_names.py.
+#
+# name   the name as the page prints it, given name(s) first. When the author's text gives the surname first
+#        and the order is not certain, the name is left as written (Candeloro Benedetto).
+# form   the form the register or the notes print, when it is the surname-first one ("Minasi Francesco"). It
+#        becomes an alias, so the build-time linker finds both.
+# as     child, deceased, groom, bride, parent, witness, official, declarant, other
+# role   what the act calls them (completes "<role> <of>")
+# of     the other person(s) in the act the role is about
+# kind   Nati, Matrimoni, Morti, Pubblicazioni, Processetti   year   the act's year   no   the act number
+# age    the age the ACT gives, a number or empty. It, and the year, are all the living rule is given.
+# ark    the Antenati ark of the volume, from the archive's own tables (checked against them) or empty
+# cite   the citation, when it is not simply "<comune>, <kind> <year>, atto <no>"
+# page   the narrative page (and section) where the act is discussed
+# from   the row of the archive's own data this rests on, checked by tools/check_read_names.py:
+#          scilla-reads:<year>/<act>   a row of data/scilla-reads.tsv     register-reads:<plate>   data/register-reads.tsv
+#          scilla-matr-1913:<act>      data/scilla-matr-1913.tsv          notes:findings.md        notes/findings.md
+#          pe-mazza-acts:<year>/<act>  data/pe-mazza-acts.tsv             sicily-reads:<who>       a row of data/sicily-reads.tsv, by its first words
+#          page:<name>                 the narrative page itself (a name the page prints from the act it describes)
+# Nothing here is a person's page. A name page says who was read under the name and where; it never says two
+# acts are one man. Nobody is on it whom the living rule cannot show to be dead from the act's year and age.
+name	form	as	role	of	comune	kind	year	no	age	trade	ark	cite	page	from
+Antonino Bajoni		official	sindaco of Briatico before whom the marriage was made		Briatico	Matrimoni	1849	1			an_ua87663		/briatico/	register-reads:briatico-matr1849-atto1.jpg
+Gerolimo Tranquillo		official	sindaco of Pizzo before whom the death was declared		Pizzo	Morti	1829	7			an_ua37926878		/briatico/	register-reads:pizzo-morti1829-atto7.jpg
+Nicola Nicchella		declarant	porter who declared the death of	Pasquale Prostamo	Pizzo	Morti	1829	7		porter	an_ua37926878		/briatico/	page:briatico
+Domenico Belvedere		declarant	declarant of the death of	Pasquale Prostamo	Pizzo	Morti	1829	7	56	marinaro	an_ua37926878		/briatico/	page:briatico
+Antonino Satriano		official	sindaco of Briatico before whom the birth was declared		Briatico	Nati	1828	12			an_ua87730		/briatico/	register-reads:briatico-nati1828-atto12.jpg
+Leonarda Bonanno		bride	bride of	Rosario Mazza	Piedimonte Etneo	Matrimoni	1871	14	26	bracciante	an_ua83392		/mazza/#piedimonte-1871-1845	sicily-reads:Rosario Mazza x Leonarda Bonanno
+Salvatore Greco		witness	witness to	the marriage of Rosario Mazza and Leonarda Bonanno	Piedimonte Etneo	Matrimoni	1871	14	38	calzolaio (shoemaker)	an_ua83392		/mazza/#piedimonte-1871-1845	sicily-reads:Rosario Mazza x Leonarda Bonanno
+Antonino Di Lava		witness	witness (son of the late Giuseppe) to	the marriage of Rosario Mazza and Leonarda Bonanno	Piedimonte Etneo	Matrimoni	1871	14	46	bracciante	an_ua83392		/mazza/#piedimonte-1871-1845	sicily-reads:Rosario Mazza x Leonarda Bonanno
+Leonarda Bonanno		child	child born to	Gaetano Bonanno and Anna Cavallaro	Piedimonte Etneo	Nati	1843	101			an_ua72385		/mazza/#piedimonte-1871-1845	sicily-reads:Leonarda Bonanno
+Antonino Grassi		official	sindaco before whom the birth was declared		Piedimonte Etneo	Nati	1845	64			an_ua72387		/mazza/#piedimonte-1871-1845	sicily-reads:Rosario Mazza
+Giuseppa Pulvirenti		parent	mother of the groom, aged sixty,	Mariano Mazza	Piedimonte Etneo	Matrimoni	1836	17	60		an_ua72256		/mazza/#piedimonte-1871-1845	register-reads:pe-matr1836-atto17.jpg
+Agata Catalano		bride	bride of	Mariano Mazza (born at Macchia)	Piedimonte Etneo	Matrimoni	1836	17	28		an_ua72256		/mazza/#piedimonte-1871-1845	register-reads:pe-matr1836-atto17.jpg
+Maria Cardile		parent	mother of the bride	Agata Catalano	Piedimonte Etneo	Matrimoni	1836	17	60		an_ua72256		/mazza/#piedimonte-1871-1845	register-reads:pe-matr1836-atto17.jpg
+Raffaele Gulli		official	second eletto acting as sindaco before whom the promise was made		Piedimonte Etneo	Matrimoni	1836	17			an_ua72256		/mazza/#piedimonte-1871-1845	register-reads:pe-matr1836-atto17.jpg
+Pasquale Mazza		parent	father of	Antonino Mazza (the child)	Piedimonte Etneo	Nati	1877	164	48	bracciante	an_ua83490		/register-1879/#the-finding	pe-mazza-acts:1877/164
+Concetta Greco	Greco Concetta	parent	mother of	Antonino Mazza (the child)	Piedimonte Etneo	Nati	1877	164		contadina	an_ua83490		/register-1879/#the-finding	pe-mazza-acts:1877/164
+Leonarda Bonaccorso	Bonaccorso Leonarda	parent	mother of	Orazio Mazza (the child), wife of Rosario Mazza	Piedimonte Etneo	Nati	1877	168		contadina	an_ua83490		/register-1879/	pe-mazza-acts:1877/168
+Leonarda Monacorso		parent	mother of	a second Orazio Mazza (the child) in the same year, in the household that is not the family's, the wife of another Rosario Mazza	Piedimonte Etneo	Nati	1877	168			an_ua83490		/register-1879/	pe-mazza-acts:1877/168
+Pasquale Mazza		parent	father of	Rosaria Mazza (the child)	Piedimonte Etneo	Nati	1879	167	50	bracciante	an_ua83492		/register-1879/	pe-mazza-acts:1879/167
+Concetta Greco	Greco Concetta	parent	mother of	Rosaria Mazza (the child)	Piedimonte Etneo	Nati	1879	167		industriosa	an_ua83492		/register-1879/	pe-mazza-acts:1879/167
+Concetta Sciacca	Sciacca Concetta	parent	mother of	Venerio Mazza (the child)	Piedimonte Etneo	Nati	1879	205		industriosa	an_ua83493		/register-1879/	pe-mazza-acts:1879/205
+Leonarda Bonanno	Bonanno Leonarda	parent	mother of	Gaetano Mazza (the child), wife of Rosario Mazza	Piedimonte Etneo	Nati	1880	66		industriosa	an_ua83494		/register-1879/	pe-mazza-acts:1880/66
+Salvatore Dimauro	Dimauro Salvatore	witness	witness to	the birth of Gaetano Mazza	Piedimonte Etneo	Nati	1880	66	22	bracciante	an_ua83494		/register-1879/	pe-mazza-acts:1880/66
+Sebastiano Zappala	Zappalà Sebastiano	witness	witness to	the birth of Gaetano Mazza	Piedimonte Etneo	Nati	1880	66	24	bracciante	an_ua83494		/register-1879/	pe-mazza-acts:1880/66
+Leonarda Bonanno		parent	mother of	Mariano Mazza (the child), daughter of Gaetano	Piedimonte Etneo	Nati	1872	32			an_ua83485		/register-1879/	pe-mazza-acts:1872/32
+Antonino Mazza		groom	groom	Rosa Raiti	Piedimonte Etneo	Matrimoni	1874	26	31	bracciante	an_ua83395		/register-1879/#the-finding	pe-mazza-acts:1874/26
+Rosa Raiti		bride	bride of	Antonino Mazza	Piedimonte Etneo	Matrimoni	1874	26	20		an_ua83395		/register-1879/#the-finding	pe-mazza-acts:1874/26
+Innocenzio Mazza		parent	father of the groom	Antonino Mazza	Piedimonte Etneo	Matrimoni	1874	26		bracciante	an_ua83395		/register-1879/#the-finding	pe-mazza-acts:1874/26
+Domenica Cavallaro	Cavallaro Domenica	parent	mother of the groom	Antonino Mazza	Piedimonte Etneo	Matrimoni	1874	26		industriosa	an_ua83395		/register-1879/#the-finding	pe-mazza-acts:1874/26
+Giuseppe Raiti		parent	father of the bride	Rosa Raiti	Piedimonte Etneo	Matrimoni	1874	26			an_ua83395		/register-1879/#the-finding	pe-mazza-acts:1874/26
+Agata Pennisi		parent	mother of the bride	Rosa Raiti	Piedimonte Etneo	Matrimoni	1874	26			an_ua83395		/register-1879/#the-finding	pe-mazza-acts:1874/26
+Concetta Sciacca	Sciacca Concetta	bride	bride of	Salvatore Mazza	Piedimonte Etneo	Matrimoni	1876	5	19		an_ua83397		/register-1879/#the-finding	pe-mazza-acts:1876/5
+Innocenzio Mazza		parent	father (written "Senzio" in this act) of the groom	Salvatore Mazza	Piedimonte Etneo	Matrimoni	1876	5			an_ua83397		/register-1879/#the-finding	pe-mazza-acts:1876/5
+Domenica Cavallaro	Cavallaro Domenica	parent	mother of the groom	Salvatore Mazza	Piedimonte Etneo	Matrimoni	1876	5			an_ua83397		/register-1879/#the-finding	pe-mazza-acts:1876/5
+Antonino Sciacca		parent	father (already dead) of the bride	Concetta Sciacca	Piedimonte Etneo	Matrimoni	1876	5			an_ua83397		/register-1879/#the-finding	pe-mazza-acts:1876/5
+Rosaria Greco		parent	mother of the bride	Concetta Sciacca	Piedimonte Etneo	Matrimoni	1876	5			an_ua83397		/register-1879/#the-finding	pe-mazza-acts:1876/5
+Angela Previtera		parent	mother of	Maria Nicotra (the child), wife of Alfio Nicotra	Piedimonte Etneo	Nati	1875	34		giornaliera	an_ua83488		/register-1879/	pe-mazza-acts:1875/34
+Giovanni Nicotra		parent	father of	Maria Nicotra (the child), declarant in person	Mascali	Nati	1875	144	28	lavorante	an_ua81754		/mascali/	page:mascali
+Venera Cassaniti		parent	mother of	Maria Nicotra (the child)	Mascali	Nati	1875	144			an_ua81754		/mascali/	page:mascali
+Gaetano Cardillo		witness	witness to	the birth of Maria Nicotra	Mascali	Nati	1875	144	30	lavorante	an_ua81754		/mascali/	page:mascali
+Salvatore Leo		witness	witness to	the birth of Maria Nicotra	Mascali	Nati	1875	144	30	lavorante	an_ua81754		/mascali/	page:mascali
+Giovanni Nicotra		groom	groom, "domiciliato e residente a Mascali" and "nato a Giarre", who married	Venera Cassaniti	Piedimonte Etneo	Matrimoni	1872	20	31	bracciante	an_ua83393		/mascali/	page:mascali
+Venera Cassaniti		bride	bride of	Giovanni Nicotra, "qui domiciliata"	Piedimonte Etneo	Matrimoni	1872	20	24		an_ua83393		/mascali/	page:mascali
+Antonino Mazza	Mazza Antonino	child	child born, son of	Pasquale Mazza and Concetta Greco	Piedimonte Etneo	Nati	1877	164			an_ua83490		/register-1879/#the-finding	pe-mazza-acts:1877/164
+Rosaria Mazza	Mazza Rosaria	child	child born, daughter of	Pasquale Mazza and Concetta Greco	Piedimonte Etneo	Nati	1879	167			an_ua83492		/register-1879/	pe-mazza-acts:1879/167
+Venerio Mazza	Mazza Venerio	child	child born, son of	Salvatore Mazza and Concetta Sciacca	Piedimonte Etneo	Nati	1879	205			an_ua83493		/register-1879/	pe-mazza-acts:1879/205
+Gaetano Mazza	Mazza Gaetano	child	child born, son of	Rosario Mazza and Leonarda Bonanno	Piedimonte Etneo	Nati	1880	66			an_ua83494		/register-1879/	pe-mazza-acts:1880/66
+Giuseppe Idone		witness	witness to	the birth of Rocco Arena	Scilla	Nati	1861	228	64		an_ua2002933		/scilla/#act-228-of-1861	scilla-reads:1861/228
+Francesco Antonio Poli		witness	witness to	the birth of Rocco Arena	Scilla	Nati	1861	228	70	proprietario	an_ua2002933		/scilla/#act-228-of-1861	scilla-reads:1861/228
+Camillo Antonio Polistena		parent	father of	Giovanni Polistena (the child)	Scilla	Nati	1883	206	48	pescatore	an_ua16601246		/scilla/#act-206-of-1883	scilla-reads:1883/206
+Giovanna Romano		parent	mother of	Giovanni Polistena (the child)	Scilla	Nati	1883	206		filatrice	an_ua16601246		/scilla/#act-206-of-1883	scilla-reads:1883/206
+Raffaele Minasi	Minasi Raffaele	official	assessore before whom the birth was declared		Scilla	Nati	1883	206			an_ua16601246		/scilla/#act-206-of-1883	scilla-reads:1883/206
+Serafina Vita		parent	mother of	Domenico-Giovanni-Camillo Arena (the child)	Scilla	Nati	1870	81	20	donna di casa	an_ua16601232		/scilla/#act-81-of-1870	scilla-reads:1870/81
+Pasquale Florio		official	sindaco before whom the birth was declared		Scilla	Nati	1870	81			an_ua16601232		/scilla/#act-81-of-1870	scilla-reads:1870/81
+Giuseppe Idone		witness	witness to	the birth of Domenico-Giovanni-Camillo Arena	Scilla	Nati	1870	81	72		an_ua16601232		/scilla/#act-81-of-1870	scilla-reads:1870/81
+Candeloro Ciccone		witness	witness to	the birth of Domenico-Giovanni-Camillo Arena	Scilla	Nati	1870	81	30	serviente	an_ua16601232		/scilla/#act-81-of-1870	scilla-reads:1870/81
+Luigi Minasi	Minasi Luigi	official	assessore, acting as sindaco, before whom the birth was declared		Scilla	Nati	1892	230			an_ua16601257		/scilla/#act-230-of-1892	scilla-reads:1892/230
+Gaetano D'Amico	D'Amico Gaetano	official	assessore before whom the birth was declared		Scilla	Nati	1892	162			an_ua16601257		/scilla/#act-162-of-1892	scilla-reads:1892/162
+Giuseppe Arlotta	Arlotta Giuseppe	witness	witness to	the birth of Annunziata Donato	Scilla	Nati	1892	162	56	pescatore	an_ua16601257		/scilla/#act-162-of-1892	scilla-reads:1892/162
+Antonio Ponte	Ponte Antonio	witness	witness to	the birth of Annunziata Donato	Scilla	Nati	1892	162	38	pescatore	an_ua16601257		/scilla/#act-162-of-1892	scilla-reads:1892/162
+Giovanna Zumbo		declarant	midwife (levatrice) who declared the birth of	Anna Arena	Scilla	Nati	1893	22	60	levatrice	an_ua16601258		/scilla/#act-22-of-1893	scilla-reads:1893/22
+Raffaele Minasi	Minasi Raffaele	official	sindaco before whom the birth was declared		Scilla	Nati	1893	22			an_ua16601258		/scilla/#act-22-of-1893	scilla-reads:1893/22
+Giosafatto Arena		parent	father of	Maria Arena (the child)	Scilla	Nati	1859	111			an_ua2002928		/scilla/#nati-1859-act-46	scilla-reads:1859/111
+Rosaria Longordo	Longordo Rosaria	parent	mother of	Maria Arena (the child)	Scilla	Nati	1859	111			an_ua2002928		/scilla/#nati-1859-act-46	scilla-reads:1859/111
+Santo Arena		parent	father of	Annunziato Arena (the child)	Scilla	Nati	1859	205			an_ua2002928		/scilla/#nati-1859-act-46	scilla-reads:1859/205
+Giovanna Gioffrè	Gioffrè Giovanna	parent	mother of	Annunziato Arena (the child)	Scilla	Nati	1859	205			an_ua2002928		/scilla/#nati-1859-act-46	scilla-reads:1859/205
+Santo Arena		parent	father of	Rocco Arena (the child born 1858)	Scilla	Nati	1858	60			an_ua2002925		/scilla/	scilla-reads:1858/60
+Giovanna Gioffrè		parent	mother of	Rocco Arena (the child born 1858)	Scilla	Nati	1858	60			an_ua2002925		/scilla/	scilla-reads:1858/60
+Maddalena Longordo	Longordo Maddalena	parent	mother of	Domenico Arena (the child)	Scilla	Nati	1860	43			an_ua2002931		/scilla/#nati-1860	scilla-reads:1860/43
+Giuseppa De Girolamo		declarant	midwife (levatrice) who declared the birth of	Giuseppe Arena	Scilla	Nati	1860	45	23	levatrice	an_ua2002931		/scilla/#nati-1860	scilla-reads:1860/45
+Guglielmo Zagari		official	sindaco before whom the birth was declared		Scilla	Nati	1860	45			an_ua2002931		/scilla/#nati-1860	scilla-reads:1860/45
+Maddalena Longordo	Longordo Maddalena	parent	mother of	Filippo Arena (the child born 1857)	Scilla	Nati	1857	100			an_ua2002922		/scilla/	scilla-reads:1857/100
+Giuseppa Adaloro		parent	mother of	Clemente Arena (the child)	Scilla	Nati	1857	68			an_ua2002922		/scilla/	scilla-reads:1857/68
+Domenico Gulli		official	sindaco before whom the birth was declared		Scilla	Nati	1819	186			an_ua2002808		/scilla/#nati-1819-act-186	scilla-reads:1819/186
+Bonaventura Arena		parent	father of	Orazio Arena (the child born 1833)	Scilla	Nati	1833	1			an_ua2002847		/scilla/#retraction	scilla-reads:1833/1
+Marianna Romano	Romano Marianna	parent	mother of	Orazio Arena (the child born 1833)	Scilla	Nati	1833	1			an_ua2002847		/scilla/#retraction	scilla-reads:1833/1
+Giuseppe Idone		witness	witness to	the birth of Domenica Arena	Scilla	Nati	1853	53	40		an_ua2002909		/scilla/#nati-1852-1855	scilla-reads:1853/53
+Nunzio Matra		witness	witness to	the birth of Domenica Arena	Scilla	Nati	1853	53	40	marinaro	an_ua2002909		/scilla/#nati-1852-1855	scilla-reads:1853/53
+Francesco Palmisano		official	sindaco before whom the birth was declared		Scilla	Nati	1853	53			an_ua2002909		/scilla/#nati-1852-1855	scilla-reads:1853/53
+Francesco Palmisano		official	sindaco before whom the birth was declared		Scilla	Nati	1854	76			an_ua2002911		/scilla/#act-76-of-1854	scilla-reads:1854/76
+Rocco Pizzarello		witness	witness to	the birth of Filippo Arena	Scilla	Nati	1852	48	30	ferraro (blacksmith)	an_ua2002904		/scilla/#nati-1852-1855	scilla-reads:1852/48
+Tommaso Cardona		witness	witness to	the birth of Filippo Arena	Scilla	Nati	1852	48	30	falegname (carpenter)	an_ua2002904		/scilla/#nati-1852-1855	scilla-reads:1852/48
+Gaetano Ferrante		official	sindaco before whom the birth was declared		Scilla	Nati	1852	48			an_ua2002904		/scilla/#nati-1852-1855	scilla-reads:1852/48
+Domenico Costa		witness	witness to	the birth of Serafina Arlotta	Scilla	Nati	1830	89	46	commerciante	an_ua2002840		/scilla/#nati-1830-atto-2	scilla-reads:1830/89
+Gaetano Ferrante		official	sindaco before whom the marriage was made		Scilla	Matrimoni	1851	13			an_ua2002614		/scilla/#matrimoni-1851-atto-13	scilla-reads:1851 M/13
+Anna Barbaro		parent	mother of the groom	Giovanni Arlotta	Scilla	Matrimoni	1828	28			an_ua2002545		/scilla/	scilla-reads:1828/28
+Rocco Costa		parent	father of the bride	Maria Costa	Scilla	Matrimoni	1828	28		marinaro	an_ua2002545		/scilla/	scilla-reads:1828/28
+Pasqualina Idone		parent	mother of the bride	Maria Costa	Scilla	Matrimoni	1828	28			an_ua2002545		/scilla/	scilla-reads:1828/28
+Ida Fedele	Fedele Ida	official	secondo eletto and officer of the civil state before whom the marriage was made		Scilla	Matrimoni	1828	28			an_ua2002545		/scilla/	scilla-reads:1828/28
+Domenico Zanghi		official	present at the church wedding of 7 September 1828		Scilla	Matrimoni	1828	28			an_ua2002545		/scilla/	scilla-reads:1828/28
+Bruno Ingrigneri		official	present at the church wedding of 7 September 1828		Scilla	Matrimoni	1828	28			an_ua2002545		/scilla/	scilla-reads:1828/28
+Domenico Bellantoni	Bellantoni Domenico	witness	witness to	the marriage of Giuseppe Arena and Maria Martello	Scilla	Matrimoni	1885	73	45	civile	an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/73
+Candeloro Ciccone	Ciccone Candeloro	witness	witness to	the marriage of Giuseppe Arena and Maria Martello	Scilla	Matrimoni	1885	73	45	guardia	an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/73
+Paolo Martello		parent	father of the bride	Maria Martello (resident in America)	Scilla	Matrimoni	1885	73			an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/73
+Giovanna Chirico		parent	mother of the bride	Maria Martello	Scilla	Matrimoni	1885	73			an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/73
+Gaetano D'Amico	D'Amico Gaetano	official	assessore before whom the marriage was made		Scilla	Matrimoni	1885	86			an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/86
+Antonio Cardona	Cardona Antonio	witness	witness to	the marriage of Giovanni Arena and Concetta Russo	Scilla	Matrimoni	1885	86	30	civile	an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/86
+Francesco Minasi	Minasi Francesco	witness	witness to	the marriage of Giovanni Arena and Concetta Russo	Scilla	Matrimoni	1885	86	31	proprietario	an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/86
+Leonardo Russo		parent	father of the bride	Concetta Russo	Scilla	Matrimoni	1885	86			an_ua16595004		/scilla/#scilla-1885	page:scilla
+Angela Bagnato		parent	mother of the bride	Concetta Russo	Scilla	Matrimoni	1885	86			an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/86
+Natalizia Longordo		parent	mother of the groom	Filippo Arena	Scilla	Matrimoni	1885	94			an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/94
+Clementina Furfari	Furfari Clementina	bride	bride of	Filippo Arena	Scilla	Matrimoni	1885	94			an_ua16595004		/scilla/#scilla-1885	scilla-reads:1885/94
+Francesco Minasi	Minasi Francesco	official	sindaco before whom the marriage was made		Scilla	Matrimoni	1888	63			an_ua16595010		/scilla/#act-63-of-1888	scilla-reads:1888/63
+Luigi Minasi	Minasi Luigi	official	assessore before whom the banns were asked		Scilla	Pubblicazioni	1888	63			an_ua16594926	Scilla, Matrimoni pubblicazioni 1888, no. 63	/scilla/#act-63-of-1888	scilla-reads:1888/63 (banns)
+Emanuele Musco	Musco Emanuele	witness	witness to	the banns of Rocco Arena and Generosa Costa	Scilla	Pubblicazioni	1888	63	48	civile	an_ua16594926	Scilla, Matrimoni pubblicazioni 1888, no. 63	/scilla/#act-63-of-1888	scilla-reads:1888/63 (banns)
+Filippo Panebianco	Panebianco Filippo	witness	witness to	the banns of Rocco Arena and Generosa Costa	Scilla	Pubblicazioni	1888	63	54	pittore (painter)	an_ua16594926	Scilla, Matrimoni pubblicazioni 1888, no. 63	/scilla/#act-63-of-1888	scilla-reads:1888/63 (banns)
+Luigi Carmelo Polistina	Polistina Luigi Carmelo	groom	groom	Nunziata Matra	Scilla	Matrimoni	1882	48	30	marinaio	an_ua16594999		/scilla/	scilla-reads:1882/48
+Nunziata Matra	Matra Nunziata	bride	bride of	Luigi Carmelo Polistina	Scilla	Matrimoni	1882	48		filatrice	an_ua16594999		/scilla/	scilla-reads:1882/48
+Raffaele Polistena		parent	father of the groom	Luigi Carmelo Polistina	Scilla	Matrimoni	1882	48			an_ua16594999		/scilla/	scilla-reads:1882/48
+Teresa Donato		parent	mother of the groom	Luigi Carmelo Polistina	Scilla	Matrimoni	1882	48			an_ua16594999		/scilla/	scilla-reads:1882/48
+Giacomo Matra		parent	father of the bride	Nunziata Matra	Scilla	Matrimoni	1882	48			an_ua16594999		/scilla/	scilla-reads:1882/48
+Concetta Leotta		parent	mother of the bride	Nunziata Matra	Scilla	Matrimoni	1882	48			an_ua16594999		/scilla/	scilla-reads:1882/48
+Francesco Minasi	Minasi Francesco	official	assessore delegato before whom the marriage was made		Scilla	Matrimoni	1882	48			an_ua16594999		/scilla/	scilla-reads:1882/48
+Annunziato Romano		parent	father of the bride	Giovanna Romano	Scilla	Matrimoni	1881	4			an_ua16594997		/scilla/	scilla-reads:1881/4
+Angela Zirilli		parent	mother of the bride	Giovanna Romano	Scilla	Matrimoni	1881	4			an_ua16594997		/scilla/	scilla-reads:1881/4
+Francesco Minasi	Minasi Francesco	official	assessore delegato before whom the marriage was made		Scilla	Matrimoni	1881	4			an_ua16594997		/scilla/	scilla-reads:1881/4
+Anna Maria Bova	Bova Anna Maria	bride	bride of	Candeloro Donato	Scilla	Matrimoni	1877	43	21	filatrice	an_ua16594989		/scilla/	scilla-reads:1877/43
+Antonino Donato		parent	father of the groom	Candeloro Donato	Scilla	Matrimoni	1877	43			an_ua16594989		/scilla/	scilla-reads:1877/43
+Angela De Franco		parent	mother of the groom	Candeloro Donato	Scilla	Matrimoni	1877	43			an_ua16594989		/scilla/	scilla-reads:1877/43
+Giovanna Vita		parent	mother of the bride	Anna Maria Bova	Scilla	Matrimoni	1877	43			an_ua16594989		/scilla/	scilla-reads:1877/43
+Vincenzo Musco	Musco Vincenzo	witness	witness to	the marriage of Candeloro Donato and Anna Maria Bova	Scilla	Matrimoni	1877	43	28	civile	an_ua16594989		/scilla/	scilla-reads:1877/43
+Giovanni Galli	Galli Giovanni	witness	witness to	the marriage of Candeloro Donato and Anna Maria Bova	Scilla	Matrimoni	1877	43	30	civile	an_ua16594989		/scilla/	scilla-reads:1877/43
+Giovanni Zagari		official	sindaco before whom the marriage was made		Scilla	Matrimoni	1874	62			an_ua16594983		/scilla/#act-163-of-1855	register-reads:scilla-matr1874-atto62.jpg
+Rocco Minasi	Minasi Rocco	official	sindaco before whom the marriage was made		Scilla	Matrimoni	1899	62			an_ua16595032		/scilla/#act-81-of-1870	register-reads:scilla-matr1899-atto62.jpg
+Rocco Longordo	Longordo Rocco	witness	witness to	the marriage of Domenico Arena and Maria Arena	Scilla	Matrimoni	1899	62	55	civile	an_ua16595032		/scilla/#act-81-of-1870	register-reads:scilla-matr1899-atto62.jpg
+Rocco D'Ascoli	D'Ascoli Rocco	witness	witness to	the marriage of Domenico Arena and Maria Arena	Scilla	Matrimoni	1899	62	48	civile	an_ua16595032		/scilla/#act-81-of-1870	register-reads:scilla-matr1899-atto62.jpg
+Serafina Vita		parent	mother of the groom (already dead)	Domenico Arena	Scilla	Matrimoni	1899	62			an_ua16595032		/scilla/#act-81-of-1870	scilla-reads:1899/62
+Angela De Amico	Angela de Amico	bride	bride of	Michele Donato	Scilla	Matrimoni	1845	31			an_ua2002591		/scilla/	scilla-reads:1845/31
+Maria Paladino		parent	mother of the groom	Michele Donato	Scilla	Matrimoni	1845	31			an_ua2002591		/scilla/	scilla-reads:1845/31
+Pasquale Sofi		parent	father of the bride	Nunziata Sofi	Scilla	Matrimoni	1844	Tavola 17			an_ua2002588	Scilla, Matrimoni 1844, Tavola annuale, entry 17	/scilla/#act-163-of-1855	scilla-reads:1844/Tavola 17
+Maria De Amico	Maria de Amico	parent	mother of the bride	Nunziata Sofi	Scilla	Matrimoni	1844	Tavola 17			an_ua2002588	Scilla, Matrimoni 1844, Tavola annuale, entry 17	/scilla/#act-163-of-1855	scilla-reads:1844/Tavola 17
+Marta Paladino		parent	mother of the groom	Domenico Donato	Scilla	Processetti	1844	n. 20			an_ua2002480	Scilla, Matrimoni processetti 1842-1845, fascicolo 20	/scilla/#act-163-of-1855	scilla-reads:1842-45/20
+Nunziata Sofi		parent	mother of	Michele Donato (the child)	Scilla	Nati	1855	163	37		an_ua2002913		/scilla/#act-163-of-1855	scilla-reads:1855/163
+Antonino De Amico		official	sindaco before whom the birth was declared		Scilla	Nati	1855	163			an_ua2002913		/scilla/#act-163-of-1855	scilla-reads:1855/163
+Candeloro Benedetto		witness	witness to	the birth of Michele Donato	Scilla	Nati	1855	163	31	pastaro	an_ua2002913		/scilla/#act-163-of-1855	scilla-reads:1855/163
+Rocco Pizzarello		witness	witness to	the birth of Michele Donato	Scilla	Nati	1855	163	32	fabbro (blacksmith)	an_ua2002913		/scilla/#act-163-of-1855	scilla-reads:1855/163
+Antonio Donato	Donato Antonio	groom	groom of Scilla, "figlio di Bruno", who married	Antonia Lanza of Catona	Scilla	Matrimoni	1843	11				Scilla, Matrimoni 1843, atto 11	/scilla/#act-163-of-1855	scilla-reads:1838-47/—
+Antonia Lanza	Lanza Antonia	bride	bride of Catona, who married	Antonio Donato	Scilla	Matrimoni	1843	11				Scilla, Matrimoni 1843, atto 11	/scilla/#act-163-of-1855	scilla-reads:1838-47/—
+Caterina Martello		parent	mother of the bride	Antonia Lanza	Scilla	Matrimoni	1843	11				Scilla, Matrimoni 1843, atto 11	/scilla/#act-163-of-1855	scilla-reads:1838-47/—
+Bruno Donato	Donato Bruno	groom	groom	Concetta Caterina Milano	Scilla	Matrimoni	1878	22				Scilla, Matrimoni 1878, atto 22	/scilla/#act-163-of-1855	scilla-reads:1874-78/—
+Concetta Caterina Milano	Milano Concetta Caterina	bride	bride of	Bruno Donato	Scilla	Matrimoni	1878	22				Scilla, Matrimoni 1878, atto 22	/scilla/#act-163-of-1855	scilla-reads:1874-78/—
+Carmela Donato	Donato Carmela	bride	bride of	Mariano Tedesco	Scilla	Matrimoni	1875	26				Scilla, Matrimoni 1875, atto 26	/scilla/	scilla-reads:1874-78/—
+Mariano Tedesco	Tedesco Mariano	groom	groom	Carmela Donato	Scilla	Matrimoni	1875	26				Scilla, Matrimoni 1875, atto 26	/scilla/	scilla-reads:1874-78/—
+Rocco Donato	Donato Rocco	groom	groom	Concetta Romano	Scilla	Matrimoni	1879	31				Scilla, Matrimoni 1879, atto 31	/scilla/	scilla-reads:1874-85/—
+Concetta Romano	Romano Concetta	bride	bride of	Rocco Donato	Scilla	Matrimoni	1879	31				Scilla, Matrimoni 1879, atto 31	/scilla/	scilla-reads:1874-85/—
+Michelangelo Donato	Donato Michelangelo	groom	groom	Francesca Cannucci	Scilla	Matrimoni	1882	14				Scilla, Matrimoni 1882, atto 14	/scilla/	scilla-reads:1874-85/—
+Francesca Cannucci	Cannucci Francesca	bride	bride of	Michelangelo Donato	Scilla	Matrimoni	1882	14				Scilla, Matrimoni 1882, atto 14	/scilla/	scilla-reads:1874-85/—
+Rocco De Marco	De Marco Rocco	groom	the one name in the D section of the index, as a groom		Scilla	Matrimoni	1847					Scilla, Matrimoni 1847, annual index	/scilla/#three-d-sections	notes:findings.md
+Ignazio Fontana	Fontana Ignazio	declarant	becchino (gravedigger) who declared the death of	Fortunato Arena	Scilla	Morti	1891	134	48	becchino	an_ua16601203		/scilla/#death-registers	scilla-reads:1891/134
+Antonio Caroleo		declarant	becchino (gravedigger) who declared the death of	Fortunato Arena	Scilla	Morti	1891	134	38	becchino	an_ua16601203		/scilla/#death-registers	scilla-reads:1891/134
+Giuseppe Perina	Perina Giuseppe	witness	witness to	the death of Fortunato Arena	Scilla	Morti	1891	134	57	pescatore	an_ua16601203		/scilla/#death-registers	scilla-reads:1891/134
+Giuseppe Arlotta	Arlotta Giuseppe	witness	witness to	the death of Fortunato Arena	Scilla	Morti	1891	134	55	pescatore	an_ua16601203		/scilla/#death-registers	scilla-reads:1891/134
+Gaetano D'Amico	D'Amico Gaetano	official	assessore before whom the death was declared		Scilla	Morti	1891	134			an_ua16601203		/scilla/#death-registers	scilla-reads:1891/134
+Marcello Caroleo		declarant	becchino (gravedigger) who declared the death of	Maria Donato	Scilla	Morti	1891	22	71	becchino	an_ua16601203		/scilla/#death-registers	scilla-reads:1891/22
+Rocco Furfari		declarant	becchino (gravedigger) who declared the death of	Maria Donato	Scilla	Morti	1891	22	61	becchino	an_ua16601203		/scilla/#death-registers	scilla-reads:1891/22
+Ferdinando Nostro	Nostro Ferdinando	witness	witness to	the death of Maria Donato	Scilla	Morti	1891	22	53	pescatore	an_ua16601203		/scilla/#death-registers	scilla-reads:1891/22
+Giuseppe Perina	Perina Giuseppe	witness	witness to	the death of Maria Donato	Scilla	Morti	1891	22	57	pescatore	an_ua16601203		/scilla/#death-registers	scilla-reads:1891/22
+Antonio Arena		parent	father (already dead) of	Orazio Arena (the deceased)	Scilla	Morti	1895	133		proprietario	an_ua16601207		/scilla/#death-registers	scilla-reads:1895/133
+Serafina Deluca		parent	mother (already dead) of	Orazio Arena (the deceased)	Scilla	Morti	1895	133		filatrice	an_ua16601207		/scilla/#death-registers	scilla-reads:1895/133
+Concetta Maria Nestro		other	wife of	Orazio Arena (the deceased)	Scilla	Morti	1895	133			an_ua16601207		/scilla/#death-registers	scilla-reads:1895/133
+Giovanni Sgarlata	Sgarlata Giovanni	declarant	becchino (gravedigger) who declared the death of	Orazio Arena	Scilla	Morti	1895	133	56	becchino	an_ua16601207		/scilla/#death-registers	scilla-reads:1895/133
+Domenico Tesoriere	Tesoriere Domenico	declarant	becchino (gravedigger) who declared the death of	Orazio Arena	Scilla	Morti	1895	133	39	becchino	an_ua16601207		/scilla/#death-registers	scilla-reads:1895/133
+Raffaele Perina	Perina Raffaele	witness	witness to	the death of Orazio Arena	Scilla	Morti	1895	133	65	pescatore	an_ua16601207		/scilla/#death-registers	scilla-reads:1895/133
+Michelangelo Sofi	Sofi Michelangelo	witness	witness to	the death of Orazio Arena	Scilla	Morti	1895	133	62	pescatore	an_ua16601207		/scilla/#death-registers	scilla-reads:1895/133
+Serafina Bellantoni		parent	mother of	Domenico Arlotta (the deceased infant)	Scilla	Morti	1895	2			an_ua16601207		/scilla/#death-registers	scilla-reads:1895/2
+Francesco Romano	Romano Francesco	witness	witness to	the death of Domenico Arlotta	Scilla	Morti	1895	2	60	marinaro	an_ua16601207		/scilla/#death-registers	scilla-reads:1895/2
+Nunzio Sofi	Sofi Nunzio	witness	witness to	the death of Domenico Arlotta	Scilla	Morti	1895	2	53	pescatore	an_ua16601207		/scilla/#death-registers	scilla-reads:1895/2
+Teresa Pontillo		parent	mother (already dead) of	Raffaela Arena (the deceased)	Scilla	Morti	1893	5			an_ua16601205		/scilla/#death-registers	scilla-reads:1893/5
+Rocco Perina	Perina Rocco	other	husband (already dead) of	Raffaela Arena (the deceased)	Scilla	Morti	1893	5			an_ua16601205		/scilla/#death-registers	scilla-reads:1893/5
+Giovanni Sgarlato	Sgarlato Giovanni	declarant	becchino (gravedigger) who declared the death of	Francesco Giovanni Rocco Arena	Scilla	Morti	1898	91	54	becchino	an_ua16601210		/scilla/#death-registers	scilla-reads:1898/91
+Domenico Tesoriere	Tesoriere Domenico	declarant	becchino (gravedigger) who declared the death of	Francesco Giovanni Rocco Arena	Scilla	Morti	1898	91	44	becchino	an_ua16601210		/scilla/#death-registers	scilla-reads:1898/91
+Restato Perina	Perina Restato	witness	witness to	the death of Francesco Giovanni Rocco Arena	Scilla	Morti	1898	91	33	pescatore	an_ua16601210		/scilla/#death-registers	scilla-reads:1898/91
+Onofrio Pontillo	Pontillo Onofrio	witness	witness to	the death of Francesco Giovanni Rocco Arena	Scilla	Morti	1898	91	40	pescatore	an_ua16601210		/scilla/#death-registers	scilla-reads:1898/91
+Santa Ungaro		parent	mother (already dead) of	Orazio Arena (the deceased)	Scilla	Morti	1830	64			an_ua2002696		/scilla/	scilla-reads:Morti 1830/64
+Diego Arena		declarant	declarant of the death of	Orazio Arena	Scilla	Morti	1830	64	22	marinaro	an_ua2002696		/scilla/	scilla-reads:Morti 1830/64
+Giuseppe De Nizza		official	sindaco before whom the death was declared		Scilla	Morti	1830	64			an_ua2002696		/scilla/	scilla-reads:Morti 1830/64
+Domenico Cesoriero	Cesoriero Domenico	declarant	becchino (gravedigger) who declared the death of	Francesco Antonio Arena	Scilla	Morti	1901	96	46	becchino	an_ua16601213		/scilla/	scilla-reads:1901/96
+Ignazio Fontana	Fontana Ignazio	declarant	becchino (gravedigger) who declared the death of	Francesco Antonio Arena	Scilla	Morti	1901	96	52	becchino	an_ua16601213		/scilla/	scilla-reads:1901/96
+Gaetano D'Amico	D'Amico Gaetano	official	assessore delegato before whom the death was declared		Scilla	Morti	1901	96			an_ua16601213		/scilla/	scilla-reads:1901/96
+Antonino D'Amico Vita	D'Amico Vita Antonino	official	sindaco before whom the death was declared		Scilla	Morti	1908	55			an_ua16601220		/scilla/	scilla-reads:1908/55
+Francesco Zagari	Zagari Francesco	declarant	becchino (gravedigger) who declared the death of	Serafina Arlotta	Scilla	Morti	1908	55	46	becchino	an_ua16601220		/scilla/	scilla-reads:1908/55
+Giuseppe Carolei	Carolei Giuseppe	declarant	becchino (gravedigger) who declared the death of	Serafina Arlotta	Scilla	Morti	1908	55	50	becchino	an_ua16601220		/scilla/	scilla-reads:1908/55
+Giovanni Pantillo	Pantillo Giovanni	witness	witness to	the death of Serafina Arlotta	Scilla	Morti	1908	55	47	pescatore	an_ua16601220		/scilla/	scilla-reads:1908/55
+Michele Romano	Romano Michele	witness	witness to	the death of Serafina Arlotta	Scilla	Morti	1908	55	70	contadino	an_ua16601220		/scilla/	scilla-reads:1908/55
+Antonino D'Amico Vita	D'Amico Vita Antonino	official	sindaco before whom the death was declared		Scilla	Morti	1904	122			an_ua16601216		/scilla/	scilla-reads:1904/122
+Clementina Farfari		parent	mother of	Cosmo Arena (the deceased infant)	Scilla	Morti	1904	122		lavandaia	an_ua16601216		/scilla/	scilla-reads:1904/122
+Francesco Zagari	Zagari Francesco	declarant	becchino (gravedigger) who declared the death of	Cosmo Arena	Scilla	Morti	1904	122	33	becchino	an_ua16601216		/scilla/	scilla-reads:1904/122
+Domenico Cesoriero	Cesoriero Domenico	declarant	becchino (gravedigger) who declared the death of	Cosmo Arena	Scilla	Morti	1904	122	49	becchino	an_ua16601216		/scilla/	scilla-reads:1904/122
+Francescantonio Polistina	Polistina Francescantonio	witness	witness to	the death of Cosmo Arena	Scilla	Morti	1904	122	72	pescatore	an_ua16601216		/scilla/	scilla-reads:1904/122
+Ferdinando Farcia	Farcia Ferdinando	witness	witness to	the death of Cosmo Arena	Scilla	Morti	1904	122	58	giornaliero	an_ua16601216		/scilla/	scilla-reads:1904/122
+Marianna Romano	Romano Marianna	parent	mother (already dead) of	Nicolina Arena (the deceased)	Scilla	Morti	1906	41		filatrice	an_ua16601218		/scilla/	scilla-reads:1906/41
+Giuseppe Caroleo	Caroleo Giuseppe	declarant	becchino (gravedigger) who declared the death of	Nicolina Arena	Scilla	Morti	1906	41	46	becchino	an_ua16601218		/scilla/	scilla-reads:1906/41
+Ignazio Fontana	Fontana Ignazio	declarant	becchino (gravedigger) who declared the death of	Nicolina Arena	Scilla	Morti	1906	41	58	becchino	an_ua16601218		/scilla/	scilla-reads:1906/41
+Felice Sisinni	Sisinni Felice	official	segretario, acting for the Regio Commissario, before whom the death was declared		Scilla	Morti	1906	41			an_ua16601218		/scilla/	scilla-reads:1906/41
+Francesca Martello		parent	mother of	Giovanna Arena (the deceased girl, died at Marseille)	Scilla	Morti	1908	II/2			an_ua16601220	Scilla, Morti 1908, parte II, atto 2	/scilla/	scilla-reads:1908/II/2
+Rocco Gulli	Gulli Rocco	deceased	deceased in New York, 17 August 1907, entered in the same opening		Scilla	Morti	1908	II/2	27	bracciante	an_ua16601220	Scilla, Morti 1908, parte II, atto 2	/scilla/	scilla-reads:1908/II/2
+Maria Lofaro	Lofaro Maria	other	widow of	Rocco Gulli	Scilla	Morti	1908	II/2			an_ua16601220	Scilla, Morti 1908, parte II, atto 2	/scilla/	scilla-reads:1908/II/2
+Giuseppe Polistina		parent	father of	Annunziata Polistina (the child)	Scilla	Nati	1836	204	38	marinaro	an_ua2002856		/scilla/	scilla-reads:1836/204
+Teresa Arena		declarant	midwife (levatrice) who declared the birth of	Annunziata Polistina	Scilla	Nati	1836	204	44	levatrice	an_ua2002856		/scilla/	scilla-reads:1836/204
+Filippo Paladino		witness	witness to	the birth of Annunziata Polistina	Scilla	Nati	1836	204	70	marinaro	an_ua2002856		/scilla/	scilla-reads:1836/204
+Domenico Caliota		witness	witness to	the birth of Annunziata Polistina	Scilla	Nati	1836	204	49	fornaro (baker)	an_ua2002856		/scilla/	scilla-reads:1836/204
+Giacomo Minasi		official	sindaco before whom the birth was declared		Scilla	Nati	1836	204			an_ua2002856		/scilla/	scilla-reads:1836/204
+Teresa Arena		declarant	midwife (levatrice) who declared the birth of	Rocco Polistina	Scilla	Nati	1833	174	38	levatrice	an_ua2002847		/scilla/	scilla-reads:1833/174
+Francesco Di Franco		witness	witness to	the birth of Rocco Polistina	Scilla	Nati	1833	174	48	scalpellino (stonecutter)	an_ua2002847		/scilla/	scilla-reads:1833/174
+Rosario Caviola		witness	witness to	the birth of Rocco Polistina	Scilla	Nati	1833	174	47		an_ua2002847		/scilla/	scilla-reads:1833/174
+Guglielmo Zagari		official	decurione acting as sindaco, before whom the birth was declared		Scilla	Nati	1833	174			an_ua2002847		/scilla/	scilla-reads:1833/174
+Tommaso Cardona		witness	witness to	the birth of Camillo Antonio Polistena	Scilla	Nati	1844	137			an_ua2002878		/scilla/	scilla-reads:1844/137
+Gaetano Minasi		official	sindaco before whom the birth was declared		Scilla	Nati	1844	137			an_ua2002878		/scilla/	scilla-reads:1844/137
+Setteria Morabito		parent	mother of the groom (written "Setteria" here)	Filippo Arena	Scilla	Matrimoni	1815	29			an_ua2093378		/scilla/	scilla-reads:Matrimoni 1815/29
+Marta Alfonzetti		parent	mother of the bride	Domenica Costa	Scilla	Matrimoni	1815	29			an_ua2093378		/scilla/	scilla-reads:Matrimoni 1815/29
+Tommaso Cutelle	Cutelle Tommaso	official	sindaco before whom the marriage was made		Scilla	Matrimoni	1815	29			an_ua2093378		/scilla/	scilla-reads:Matrimoni 1815/29
+Giovanni Cuzzo		witness	witness to	the marriage of Filippo Arena and Domenica Costa	Scilla	Matrimoni	1815	29	47	impiegato militare	an_ua2093378		/scilla/	scilla-reads:Matrimoni 1815/29
+Francesco Macri		witness	witness to	the marriage of Filippo Arena and Domenica Costa	Scilla	Matrimoni	1815	29	28	civile	an_ua2093378		/scilla/	scilla-reads:Matrimoni 1815/29
+Vincenzo Ochoa		witness	witness to	the marriage of Filippo Arena and Domenica Costa	Scilla	Matrimoni	1815	29	32		an_ua2093378		/scilla/	scilla-reads:Matrimoni 1815/29
+Francesco Principato		witness	witness to	the marriage of Filippo Arena and Domenica Costa	Scilla	Matrimoni	1815	29	44		an_ua2093378		/scilla/	scilla-reads:Matrimoni 1815/29
+Litteria Morabito		parent	mother of the groom	Filippo Arena	Scilla	Processetti	1815	n. 29			an_ua2093354	Scilla, Matrimoni processetti 1815, n. 29	/scilla/	scilla-reads:Processetti 1815/n. 29
+Giacoma Turco		parent	mother of Giovanni de Costa, the bride's late father	Domenica Costa	Scilla	Processetti	1815	n. 29			an_ua2093354	Scilla, Matrimoni processetti 1815, n. 29	/scilla/	scilla-reads:Processetti 1815/n. 29
+Giovanni De Costa		parent	father (died at Scilla, 29 March 1790) of the bride	Domenica Costa	Scilla	Processetti	1815	n. 29			an_ua2093354	Scilla, Matrimoni processetti 1815, n. 29	/scilla/	scilla-reads:Processetti 1815/n. 29
+Giuseppe Ingigneri		official	archpriest who baptised the bride, Domenica Costa, on 16 June 1787		Scilla	Processetti	1815	n. 29			an_ua2093354	Scilla, Matrimoni processetti 1815, n. 29	/scilla/	scilla-reads:Processetti 1815/n. 29
+Giuseppa Cotronei		other	godmother at the baptism of	Domenica Costa	Scilla	Processetti	1815	n. 29			an_ua2093354	Scilla, Matrimoni processetti 1815, n. 29	/scilla/	scilla-reads:Processetti 1815/n. 29
+Domenico Arena		parent	father of the groom	Diego Arena	Scilla	Matrimoni	1813	21	70	barbiere	an_ua2093374		/scilla/	scilla-reads:Matrimoni 1813/21
+Giovanni Pontillo		parent	father of the bride	Maria Giuseppa Pontillo	Scilla	Matrimoni	1813	21	42	commerciante	an_ua2093374		/scilla/	scilla-reads:Matrimoni 1813/21
+Anna Melidoni		parent	mother of the groom	Diego Arena	Scilla	Matrimoni	1813	21	54		an_ua2093374		/scilla/	scilla-reads:Matrimoni 1813/21
+Diana Idone		parent	mother of the bride	Maria Giuseppa Pontillo	Scilla	Matrimoni	1813	21			an_ua2093374		/scilla/	scilla-reads:Matrimoni 1813/21
+Giacomo Minasi		official	sindaco before whom the marriage was made		Scilla	Matrimoni	1813	21			an_ua2093374		/scilla/	scilla-reads:Matrimoni 1813/21
+Maria Teresa Polistina		bride	bride of	Giuseppe Arena	Scilla	Matrimoni	1821	29			an_ua2002526		/scilla/	scilla-reads:Matrimoni 1821/29
+Raffaele Polistina		parent	father (already dead) of the bride	Maria Teresa Polistina	Scilla	Matrimoni	1821	29			an_ua2002526		/scilla/	scilla-reads:Matrimoni 1821/29
+Tommaso Cutelli		official	sindaco before whom the marriage was made		Scilla	Matrimoni	1821	29			an_ua2002526		/scilla/	scilla-reads:Matrimoni 1821/29
+Serafina De Luca	Serafina de Luca	bride	bride of	Antonio Arena	Scilla	Matrimoni	1828	26			an_ua2002545		/scilla/	scilla-reads:Matrimoni 1828/26 (Tavola entry 1)
+Filippo De Luca	Filippo de Luca	parent	father (already dead) of the bride	Serafina de Luca	Scilla	Matrimoni	1828	26			an_ua2002545		/scilla/	scilla-reads:Matrimoni 1828/26 (Tavola entry 1)
+Anna Alfonzetto		parent	mother of the bride	Serafina de Luca	Scilla	Matrimoni	1828	26			an_ua2002545		/scilla/	scilla-reads:Matrimoni 1828/26 (Tavola entry 1)
+Teresa Polistina		bride	bride of	Domenico Arena	Scilla	Matrimoni	1838	20			an_ua2002572		/scilla/	scilla-reads:Matrimoni 1838/20 (Tavola entry 1)
+Letteria Morabito		parent	mother of both the groom, Domenico Arena, and the bride, Teresa Polistina (the entry reads her name twice)		Scilla	Matrimoni	1838	20			an_ua2002572		/scilla/	scilla-reads:Matrimoni 1838/20 (Tavola entry 1)
+Carmelo Majori	Majori Carmelo	groom	groom	Santa Maria Muzzi	Scilla	Matrimoni	1913	31	27	falegname (carpenter), born at Gallico	an_ua16594965		/scilla/#matrimoni-1913	scilla-matr-1913:31
+Santa Maria Muzzi	Muzzi Santa Maria	bride	bride of	Carmelo Majori	Scilla	Matrimoni	1913	31	24		an_ua16594965		/scilla/#matrimoni-1913	scilla-matr-1913:31
+Clemente Arena		child	child born, son of	Antonio Arena and Giuseppa Adaloro	Scilla	Nati	1857	68			an_ua2002922		/scilla/	scilla-reads:1857/68
+Maria Annunziata Arena		child	child born, daughter of	Orazio Arena and Giovanna Zirilli	Scilla	Nati	1860	161			an_ua2002931		/scilla/#nati-1860	scilla-reads:1860/161
+Annunziata Polistina	Polistina Annunziata	child	child born, daughter of	Giuseppe Polistina and Anna Pontillo	Scilla	Nati	1836	204			an_ua2002856		/scilla/	scilla-reads:1836/204
+Rocco Polistina		child	child born, son of	Giuseppe Polistina and Anna Pontillo	Scilla	Nati	1833	174			an_ua2002847		/scilla/	scilla-reads:1833/174
+Francesco Giovanni Rocco Arena		deceased	ten months old, son of	Giuseppe Arena and Maria Martello	Scilla	Morti	1898	91			an_ua16601210		/scilla/#death-registers	scilla-reads:1898/91
+Cosmo Arena	Arena Cosmo	deceased	about three months old, son of	Filippo Arena and Clementina Farfari	Scilla	Morti	1904	122			an_ua16601216		/scilla/	scilla-reads:1904/122
+Nicolina Arena	Arena Nicolina	deceased	aged forty, daughter of	Giuseppe Arena and the late Marianna Romano	Scilla	Morti	1906	41	40		an_ua16601218		/scilla/	scilla-reads:1906/41
+Raffaela Arena	Arena Raffaela	deceased	aged sixty-one, daughter of the late Antonio Arena and the late Teresa Pontillo, widow of Rocco Perina		Scilla	Morti	1893	5	61		an_ua16601205		/scilla/#death-registers	scilla-reads:1893/5
+Domenico Arlotta	Arlotta Domenico	deceased	nine months old, son of	Giovanni Arlotta and Serafina Bellantoni	Scilla	Morti	1895	2			an_ua16601207		/scilla/#death-registers	scilla-reads:1895/2

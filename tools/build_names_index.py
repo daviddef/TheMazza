@@ -23,6 +23,13 @@ public pages. So a build with the private export and a build without it (GitHub 
              given and surname fields the page already shows; dropped where another person's name or alias is
              the same string
 
+  read       a name READ from a register act and in no family file (site/src/data/read-names.json, made by
+             tools/read_names.py from data/read-names.tsv): the address is its /who/<name>/ page, which lists the
+             acts it was read in and never says they are one person. Added only where no person, alias or other
+             read name already uses the same folded string; an alias is the register-order form the notes print.
+             They are `people` rows to the linker (one address), and the living check below covers them as it
+             does every other row.
+
   Never in the index: a name of one word, a name with a digit or a bracketed note ("Rosa 1 st wife"), a name a
   living person bears (as a name or as an alias), a person who is living. "Bears" is judged on the name folded for
   case, accents, apostrophes and hyphens, so two spellings of one name are one name and are never called unique.
@@ -212,6 +219,42 @@ def build_public(people):
     return index, {"names": living_terms, "urls": living_urls}, stats
 
 
+def add_read_names(index, stats):
+    """Add the names read from register acts (their /who/ pages) to index["people"]; count what was left out."""
+    path = os.path.join(DATA, "read-names.json")
+    if not os.path.exists(path):
+        return
+    with open(path, encoding="utf-8") as f:
+        doc = json.load(f)
+    taken = set()
+    for e in index["people"]:
+        taken.add(fold(e["name"]))
+        taken.update(fold(a) for a in e.get("aliases", []))
+    taken.update(fold(e["name"]) for e in index["ambiguous"])
+    added = aliases = clashed = 0
+    for n in doc["names"]:
+        if fold(n["name"]) in taken:
+            clashed += 1
+            continue
+        taken.add(fold(n["name"]))
+        entry = {"name": n["name"], "url": "/who/%s/" % n["slug"]}
+        keep = []
+        for a in n.get("aliases", []):
+            if fold(a) in taken:
+                continue
+            taken.add(fold(a))
+            keep.append(a)
+        if keep:
+            entry["aliases"] = keep
+            aliases += len(keep)
+        index["people"].append(entry)
+        added += 1
+    index["people"].sort(key=lambda e: e["name"])
+    stats["index read-name rows (a /who/ page each)"] = added
+    stats["index read-name aliases (register order)"] = aliases
+    stats["read names left out (the same string is already in the index)"] = clashed
+
+
 def slugify(s):
     s = unicodedata.normalize("NFD", str(s)).encode("ascii", "ignore").decode()
     return re.sub(r"[^A-Za-z0-9]+", "-", s).strip("-").lower()
@@ -244,6 +287,7 @@ def main(argv=None):
     with open(os.path.join(DATA, "people.json"), encoding="utf-8") as f:
         people = json.load(f)
     index, living, stats = build_public(people)
+    add_read_names(index, stats)
 
     fb = load_module(os.path.join(HERE, "build_checkprose_feed.py"), "build_checkprose_feed")
     feed, why = fb.build(a.gedcom)

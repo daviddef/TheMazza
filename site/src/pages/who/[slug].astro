@@ -3,8 +3,12 @@
    the name, and the two link to each other. */
 import Base from "../../layouts/Base.astro";
 import Namesakes from "@daviddef/archive-kit/components/Namesakes.astro";
+import ReadName from "../../components/ReadName.astro";
 import { u } from "../../lib/url.js";
 import people from "../../data/people.json";
+/* People READ from register acts who are in no family file (tools/read_names.py, data/read-names.tsv): one name
+   page each, built from the act they were read in. None of these names is borne by anyone in people.json. */
+import readNames from "../../data/read-names.json";
 
 export function getStaticPaths() {
   const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -16,10 +20,13 @@ export function getStaticPaths() {
     if (!by.has(k)) by.set(k, { name: p.name, rows: [] });
     by.get(k).rows.push(p);
   }
-  return [...by.entries()].map(([slug, v]) => ({ params: { slug }, props: v }));
+  return [
+    ...[...by.entries()].map(([slug, v]) => ({ params: { slug }, props: v })),
+    ...readNames.names.map((n) => ({ params: { slug: n.slug }, props: { name: n.name, rows: [], read: n } })),
+  ];
 }
 
-const { name, rows } = Astro.props;
+const { name, rows, read = null } = Astro.props;
 const listed = rows.map(p => ({
   name: p.name, slug: p.slug,
   /* A register-proved person's dates are usually a BOUND, so born/died are
@@ -42,6 +49,17 @@ const listed = rows.map(p => ({
    no canonical elsewhere. */
 const allHidden = rows.length > 0 && rows.every((p) => p.living);
 ---
+{read ? (
+<Base title={name}
+      eyebrow="A name read from the registers"
+      dek={`${name} is in a register act and in no family file here. This page says where the name was read.`}>
+  <section class="blk">
+    <ReadName name={name} aliases={read.aliases} records={read.records} pages={readNames.pages} />
+    <p class="dek" style="margin-top:1.6rem">A name is not a person. This page does not say that the acts above
+    are one man or one woman — see <a href={u("/method/#ladder")}>how this archive grades what it says</a>.</p>
+  </section>
+</Base>
+) : (
 <Base title={name}
       noindex={allHidden}
       eyebrow={rows.length > 1 ? `${rows.length} people of this name` : "One person of this name"}
@@ -55,3 +73,4 @@ const allHidden = rows.length > 0 && rows.every((p) => p.living);
     grades what it says</a>.</p>
   </section>
 </Base>
+)}

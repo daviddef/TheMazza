@@ -5,6 +5,7 @@ import { u } from "../lib/url.js";
 import { people, dead } from "../lib/people.js";
 import stats from "../data/stats.json";
 import Plates from "../components/Plates.astro";
+import Rec from "../components/Rec.astro";
 const here = people.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
   .some((x) => (x || "").startsWith("Piedimonte")));
 /* The Mazza of this town, and how many of them the 10 September join brought in.
@@ -173,7 +174,7 @@ const earliestMazza = Math.min(...mazza.filter((p) => p.born).map((p) => p.born)
       children, marriages and cousins of their own, and <em>not one record joining them</em>.</p>
       <p><strong>Five records closed it.</strong> The export carried Salvatore Mazza's undated father
       Rosario twice: once as a stub, once as «Rosario Mazza b. 1850 of Piedimonte Etneo» at the head
-      of the island. <em>Nati</em> 1873 atto 3 names Salvatore's father <strong>«Rosario Mazza di
+      of the island. <Rec c="Piedimonte Etneo" k="Nati" y="1873" a="3"><em>Nati</em> 1873 atto 3</Rec> names Salvatore's father <strong>«Rosario Mazza di
       Mariano», 28</strong>, and his mother Leonarda Bonanno; marriage proclamations of 1898, 1902
       and 1910 give Rosario's age again — 53, 55, 65 — and name three more sons. The island's Rosario
       has exactly those sons by a wife called Leonarda. <strong>One man.</strong></p>

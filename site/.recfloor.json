@@ -1,0 +1,18 @@
+{
+ "version": 1,
+ "note": "Per page: passages that cite a record and carry no link to one. A page may only go down. Written by check_rec.py --write-floor; raise a number only by hand, in a commit that says why.",
+ "pages": {
+  "/briatico/": 0,
+  "/crossings/": 0,
+  "/giarre/": 0,
+  "/mascali/": 0,
+  "/mazza/": 0,
+  "/nicotra/": 1,
+  "/piedimonte-etneo/": 0,
+  "/queensland/": 0,
+  "/register-1879/": 0,
+  "/riposto/": 0,
+  "/scilla/": 0,
+  "/the-name-line/": 0
+ }
+}

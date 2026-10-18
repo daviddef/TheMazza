@@ -4,6 +4,11 @@ import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import qld from "../data/qld-bdm.json";
 import trove from "../data/trove.json";
+import Rec from "../components/Rec.astro";
+import Cites from "../components/Cites.astro";
+const NUDGEE = [{ re: "Nudgee (?:interment of [^,.]+(?:, plot V-[0-9]+)?|register interred an? [A-Z][a-z]+ [A-Z][a-z]+ on [0-9A-Za-z ]+)", props: { own: "/nudgee/", title: "The Nudgee burial register, as transcribed in this archive" } },
+  { re: "Trove independently has her: «[^»]+»", props: { href: "https://trove.nla.gov.au/newspaper/article/241038779", title: "Trove: the Commonwealth of Australia Gazette of 3 November 1966 (article 241038779)" } },
+  { re: "The Brisbane Courier of Tuesday 26 June 1928, page 12", props: { href: "https://trove.nla.gov.au/", title: "Trove: the Brisbane Courier of 26 June 1928, page 12 (the funeral notice)" } }];
 const deaths = qld.filter((r) => r.type === "death");
 const marr = qld.filter((r) => r.type === "marriage");
 ---
@@ -11,7 +16,7 @@ const marr = qld.filter((r) => r.type === "marriage");
       dek="The Registry's historical index is free, it is authoritative, and — the part that matters — it can be searched by a father's or a mother's name. One search returned three of Sebastiano Mazza's siblings.">
 
   <section class="blk">
-    <p class="lede">The Queensland Registry of Births, Deaths and Marriages publishes a searchable
+    <p class="lede">The <Rec href="https://www.familyhistory.bdm.qld.gov.au/" title="Queensland Registry of Births, Deaths and Marriages: the historical index">Queensland Registry of Births, Deaths and Marriages</Rec> publishes a searchable
     historical index: <strong>deaths to 1996, marriages to 1951, births to 1926</strong>. Every death
     and birth entry carries <strong>the names of both parents</strong>, and the search box will take a
     parent's name as the query.</p>
@@ -29,9 +34,9 @@ const marr = qld.filter((r) => r.type === "marriage");
       <strong>21 April 1925</strong>, aged about sixteen, and died the following year. The family tree
       asserted he was kin and produced nothing to show it. The archive has carried the question since
       the day it was built: <em>was he the reason they chose Queensland?</em></p>
-      <p>The Registry's index answers it:</p>
-      <blockquote style="margin:1rem 0"><strong>Michali Mazza</strong> · death registration
-      <strong>14 November 1926</strong> · <strong>1926/C/3983</strong> ·
+      <p>The Registry's <Rec href="https://www.familyhistory.bdm.qld.gov.au/" title="Queensland Registry of Births, Deaths and Marriages: the historical index">index</Rec> answers it:</p>
+      <blockquote style="margin:1rem 0"><strong>Michali Mazza</strong> · <Rec href="https://www.familyhistory.bdm.qld.gov.au/" title="Queensland Registry of Births, Deaths and Marriages: the historical index">death registration
+      <strong>14 November 1926</strong> · <strong>1926/C/3983</strong></Rec> ·
       father <strong>Salvatori Mazza</strong> · mother <strong>Maria Lecota</strong>.</blockquote>
       <p><em>Lecota</em> is the index's rendering of <strong>Nicotra</strong> — and the same search
       returns <strong>Rosario Mazza, born 1899</strong>, whose parents are given in full as
@@ -65,7 +70,7 @@ const marr = qld.filter((r) => r.type === "marriage");
     </div>
     <div class="stack" style="margin-top:22px">
       {deaths.map((r) => (
-        <p class="qn" style="max-width:88ch"><b>{r.name}</b> — {r.note}</p>
+        <p class="qn" style="max-width:88ch"><b>{r.name}</b> — <Cites text={r.note} rules={NUDGEE} /></p>
       ))}
     </div>
   </section>
@@ -82,7 +87,7 @@ const marr = qld.filter((r) => r.type === "marriage");
       </table>
     </div>
     <div class="stack" style="margin-top:22px">
-      {marr.map((r) => <p class="qn" style="max-width:88ch"><b>{r.name}</b> — {r.note}</p>)}
+      {marr.map((r) => <p class="qn" style="max-width:88ch"><b>{r.name}</b> — <Cites text={r.note} rules={NUDGEE} /></p>)}
     </div>
   </section>
 
@@ -102,7 +107,7 @@ const marr = qld.filter((r) => r.type === "marriage");
   <section class="blk" style="border-bottom:0">
     <h2>Method</h2>
     <p class="dek" style="margin-top:.8rem">
-    <code>familyhistory.bdm.qld.gov.au</code> — free to search, no account needed; images are paid and
+    <Rec href="https://www.familyhistory.bdm.qld.gov.au/" title="Queensland Registry of Births, Deaths and Marriages: the historical index"><code>familyhistory.bdm.qld.gov.au</code></Rec> — free to search, no account needed; images are paid and
     were not bought. The form's useful fields are <strong>Father's/parent's name(s)</strong> and
     <strong>Mother's/parent's name(s)</strong>, which work on births and deaths only. Search the
     <em>parent</em>, not the person, when you are trying to find siblings. Spellings in the index are
@@ -111,12 +116,12 @@ const marr = qld.filter((r) => r.type === "marriage");
   </section>
 
   <section class="blk" style="border-bottom:0">
-    <div class="lab">27 September 2026 · Trove API v3 · Commonwealth of Australia Gazette</div>
+    <div class="lab">27 September 2026 · <Rec href="https://trove.nla.gov.au/" title="Trove, the National Library of Australia">Trove API v3</Rec> · Commonwealth of Australia Gazette</div>
     <h2 style="margin-top:.4rem">Seven naturalisations, and what a gazette notice is worth</h2>
     <div class="prose" style="margin-top:1rem">
       <p>A Trove API key arrived on 27 September and unblocked a source this archive had been shut out
       of for eight days — not by Trove, but by its own search page, which accepts a query and never
-      paints a result. The <strong>Commonwealth of Australia Gazette</strong> prints certificates of
+      paints a result. The <Rec href="https://trove.nla.gov.au/" title="Trove, the National Library of Australia"><strong>Commonwealth of Australia Gazette</strong></Rec> prints certificates of
       naturalization, and for a family that landed in 1949 those are close to what an electoral roll
       would give.</p>
       <p><strong>They are thinner than that hope.</strong> A notice is <strong>a name in an
@@ -142,7 +147,7 @@ const marr = qld.filter((r) => r.type === "marriage");
       </table>
     </div>
     <p class="note" style="margin-top:16px"><strong>And the better thing Trove turned up is not in
-    this table.</strong> Its archival category surfaces <strong>Queensland State Archives</strong>
+    this table.</strong> Its <Rec href="https://trove.nla.gov.au/" title="Trove, the National Library of Australia">archival category</Rec> surfaces <strong>Queensland State Archives</strong>
     item records, and four are <strong>Nicotra wills</strong> — Salvatore Philip 1955, Leonarda 1962,
     Vincenzo 1965, Filippo 1966, all in <em>Supreme Court (Northern) Ecclesiastical Files (Wills)</em>,
     series S6220, all open access. <strong>A will names the deceased, the death date, the address, the

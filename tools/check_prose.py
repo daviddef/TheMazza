@@ -78,7 +78,7 @@ GENERATED_SITE = {
     "census", "components", "corrections", "coverage", "crossings", "disputed", "documented-line",
     "documented-parents", "ellis", "families", "findmypast", "focus", "holdings", "households", "instruments",
     "living", "mazza-births", "name-evidence", "namefold", "nicotra", "nudgee", "ny-children", "people",
-    "person-slugs", "places", "qld-bdm", "quarters", "questions", "reads", "scilla-matr-1913", "scilla-reads",
+    "person-slugs", "places", "qld-bdm", "quarters", "questions", "read-names", "reads", "records", "scilla-matr-1913", "scilla-reads",
     "searched", "ships", "sicilian-acts", "sicily-reads", "sicily-spine", "sources", "spine", "stats", "trove",
     "unresolved", "walls",
 }

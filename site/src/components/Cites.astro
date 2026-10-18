@@ -1,0 +1,48 @@
+---
+/* <Cites text={row.source} c="Piedimonte Etneo" /> — a citation written in DATA, with its links.
+ *
+ * Some passages are not typed in a page but come out of a data file ("Piedimonte Etneo, Nati 1845 atto 64; Matrimoni
+ * 1871 atto 14" is a column of site/src/data/sicily-spine.json). Rec.astro links a citation an author typed; this
+ * finds the citations in a string and wraps each in the same Rec, and leaves the rest of the string exactly as it
+ * was. A citation it finds but the archive holds no ark for stays plain text (soft), never a guessed link.
+ *
+ *   text   the string
+ *   c      the comune a bare "Nati 1845 atto 64" belongs to
+ *   links  { "Morti 1924": { fs: "1:1:XWTK-5R8Q" } }  citations the patterns cannot know, by their exact words, with
+ *          the Rec props that follow them (fs, ark, own, href, title)
+ *   rules  [{ re: "Nudgee interment of [^.]*?plot V-\\d+", props: { own: "/nudgee/" } }]  a pattern of the page's own
+ *
+ * WHAT IT RECOGNISES   [Comune,] Nati|Matrimoni|Morti 1873[,] atto 3        "Act 64 of the Piedimonte births of 1845"
+ */
+import Rec from "./Rec.astro";
+const { text = "", c = "Scilla", links = {}, rules = [] } = Astro.props;
+const s = String(text);
+const COMUNE = { Piedimonte: "Piedimonte Etneo" };
+const KIND = { births: "Nati", marriages: "Matrimoni", deaths: "Morti" };
+const esc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const pats = [
+  { re: new RegExp(String.raw`(?:(Scilla|Piedimonte Etneo|Mascali|Giarre|Riposto|Briatico|Macchia|Zambrone|Pizzo),\s+)?(Nati|Matrimoni|Morti)\s+(\d{4}),?\s+atto\s+(\d+)`, "g"),
+    make: (m) => ({ c: m[1] || c, k: m[2], y: m[3], a: m[4] }) },
+  { re: new RegExp(String.raw`[Aa]ct\s+(\d+)\s+of\s+the\s+(Scilla|Piedimonte|Mascali|Giarre|Riposto|Briatico)\s+(births|marriages|deaths)\s+of\s+(\d{4})`, "g"),
+    make: (m) => ({ c: COMUNE[m[2]] || m[2], k: KIND[m[3]], y: m[4], a: m[1] }) },
+  ...Object.entries(links).map(([k, v]) => ({ re: new RegExp(esc(k), "g"), make: () => v })),
+  ...rules.map((r) => ({ re: new RegExp(r.re, "g"), make: () => r.props })),
+];
+const out = [];
+let pos = 0;
+while (pos < s.length) {
+  let best = null;
+  for (const p of pats) {
+    p.re.lastIndex = pos;
+    const m = p.re.exec(s);
+    if (m && (best === null || m.index < best.m.index || (m.index === best.m.index && m[0].length > best.m[0].length))) best = { m, p };
+  }
+  if (!best) break;
+  const { m, p } = best;
+  if (m.index > pos) out.push({ t: s.slice(pos, m.index) });
+  out.push({ t: m[0], props: p.make(m) });
+  pos = m.index + m[0].length;
+}
+if (pos < s.length) out.push({ t: s.slice(pos) });
+---
+{out.map((p) => p.props ? <Rec soft {...p.props}>{p.t}</Rec> : p.t)}

@@ -1,0 +1,52 @@
+---
+/* <PlateFig plate="scilla-matr1888-atto63.jpg" /> — the scan of a record, in the section that cites it.
+ *
+ * Until 18 October 2026 a passage that quoted act 63 of 1888 and the scan of act 63 of 1888 were a hundred
+ * thousand characters apart: the scan was drawn once, in the gallery at the foot of the page (Plates.astro), and
+ * the argument that depends on it was somewhere else. The gallery stays. This draws the same plate, from the
+ * same manifest row (data/register-reads.tsv, via site/src/data/reads.json), small, next to the passage, and
+ * links it to the full scan and to the gallery entry.
+ *
+ * ONLY WHAT THE ARCHIVE ALREADY SHOWS. A plate is drawable here only if the manifest declares it, so the rule
+ * about what may be shown (Antenati's own register images, attributed, with the ark; never a FamilySearch frame,
+ * never anything about a person who is living) is still decided in one place, the manifest, and not on a page.
+ * A plate that is not in the manifest stops the build.
+ */
+import fs from "node:fs";
+import path from "node:path";
+import reads from "../data/reads.json";
+import { u } from "../lib/url.js";
+const { plate, note = null } = Astro.props;
+const r = reads.find((x) => x.plate === plate);
+if (!r) throw new Error(`<PlateFig plate="${plate}">: not declared in data/register-reads.tsv`);
+/* the pixel size, so the page does not jump when the image arrives (JPEG: read the SOF marker) */
+let w = 0, h = 0;
+try {
+  const b = fs.readFileSync(path.join(process.cwd(), "public", "plates", plate));
+  let i = 2;
+  while (i < b.length - 9) {
+    if (b[i] !== 0xff) { i++; continue; }
+    const m = b[i + 1];
+    if (m >= 0xc0 && m <= 0xc3) { h = b.readUInt16BE(i + 5); w = b.readUInt16BE(i + 7); break; }
+    if (m === 0xd8 || m === 0xd9 || (m >= 0xd0 && m <= 0xd7)) { i += 2; continue; }
+    i += 2 + b.readUInt16BE(i + 2);
+  }
+} catch (e) { /* no size: the image still draws */ }
+const slug = plate.replace(/\.[a-z]+$/i, "");
+/* the gallery entry is on the page the manifest names (`see`); from any other page the link goes there */
+const here = Astro.url.pathname.replace(/\/$/, "");
+const galleryHref = (u(r.see) === here ? "" : u(r.see + "/")) + "#plate-" + slug;
+---
+<figure class="platefig" id={"scan-" + slug}>
+  <a href={u("/plates/" + plate)} class="platefig-img" aria-label={"The scan: " + r.title}>
+    <img src={u("/plates/" + plate)} alt={"The scan of the register: " + r.title}
+         width={w || undefined} height={h || undefined} loading="lazy" decoding="async" />
+  </a>
+  <figcaption>
+    <span class="platefig-k">The scan</span>
+    <strong>{r.title}</strong>
+    <span class="platefig-cite">{r.cite}</span>
+    {note && <span class="platefig-note">{note}</span>}
+    <span class="platefig-more"><a href={u("/plates/" + plate)}>Full scan</a> {r.how !== "inline" && <>· <a href={galleryHref}>{u(r.see) === here ? "in the gallery below" : "in the gallery"}</a></>}</span>
+  </figcaption>
+</figure>

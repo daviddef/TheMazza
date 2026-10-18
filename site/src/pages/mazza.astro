@@ -6,6 +6,8 @@ import focus from "../data/focus.json";
 import sicilySpine from "../data/sicily-spine.json";
 import Plates from "../components/Plates.astro";
 import { words, Words } from "../lib/words.js";
+import Rec from "../components/Rec.astro";
+import PlateFig from "../components/PlateFig.astro";
 const M = focus.Mazza;
 const A = focus.Arena;
 const spine = M.groups.filter((g) => g.onSpine.length);
@@ -19,16 +21,16 @@ const loose = big - inTree;
 <Base autolink title="The Mazza" eyebrow={`${M.total} bearers, ${M.groups.length} descent groups`}
       dek={`The surname this archive is named for is also the most fragmented thing in it. ${M.total} Mazza sit in ${words(M.groups.length)} groups that no record joins to each other.`}>
 
-  <section class="blk">
+  <section class="blk" id="piedimonte-1871-1845">
     <div class="lab">Piedimonte Etneo — 13 September 2026</div>
     <h2 style="margin-top:.4rem">The marriage, and then the birth: two acts close the deepest Sicilian generation</h2>
     <div class="prose" style="margin-top:1rem">
-      <p>The parish register was the wrong door. It was browsed to the right year and it held
+      <p><Rec fs="3:1:3QS7-99ZG-7XNZ" title="FamilySearch: Piedimonte Etneo parish register, Marriage Records 1777–1911">The parish register</Rec> was the wrong door. It was browsed to the right year and it held
       nothing, and the reason turned out to be simple enough to be embarrassing: <strong>civil
       registration began in the south in 1866</strong>, so a marriage of about 1870 is a
       <em>civil</em> act, kept by the comune and now on the Antenati portal — and the civil act is
       the one that names all four parents.</p>
-      <p>The annual index of the Piedimonte Etneo marriages of 1871 gives, in a clerk's hand,
+      <p>The annual index of the Piedimonte Etneo <Rec c="Piedimonte Etneo" k="Matrimoni" y="1871">marriages of 1871</Rec> gives, in a clerk's hand,
       <strong>Mazza Rosario / Bonanno Leonarda — numero di registro 14</strong>. Here is the act.</p>
 
       <div class="rec" style="margin-top:18px">
@@ -53,9 +55,10 @@ const loose = big - inTree;
         <div class="v">Salvatore Greco, 38, <em>calzolaio</em>; Antonino Di Lava <em>fu</em> Giuseppe,
         46, <em>bracciante</em></div><div class="w">new</div>
       </div>
-      <p style="margin-top:1.2rem" class="small">Piedimonte Etneo, Matrimoni 1871, atto 14 — Antenati
-      <code>an_ua83392</code>, images 13–14. Act 15 follows at half past four the same afternoon; the
+      <p style="margin-top:1.2rem" class="small"><Rec c="Piedimonte Etneo" k="Matrimoni" y="1871" a="14">Piedimonte Etneo, Matrimoni 1871, atto 14</Rec> — Antenati
+      <Rec ark="an_ua83392"><code>an_ua83392</code></Rec>, images 13–14. Act 15 follows at half past four the same afternoon; the
       registrar was running a set of weddings that day.</p>
+      <PlateFig plate="pe-matr1871-atto14.jpg" />
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Anna Cavallaro, and a generation the tree
       does not have</h3>
@@ -83,18 +86,19 @@ const loose = big - inTree;
         <div class="k">Mother</div>
         <div class="v"><strong>Maria Catalano</strong>, <strong>aged thirty-six</strong></div>
         <div class="w">so born c. 1809</div>
-        <div class="k">Baptised</div>
+        <div class="k"><Rec c="Piedimonte Etneo" k="Nati" y="1845" a="64">Baptised</Rec></div>
         <div class="v">the same day, <strong>2 June 1845</strong> — the <em>parroco</em> of the
         Chiesa Maggiore returned the notice at once</div><div class="w">new</div>
       </div>
-      <p style="margin-top:1.2rem" class="small">Piedimonte Etneo, Nati 1845, atto 64 — Antenati
-      <code>an_ua72387</code>, image 66. Comune di Piedimonte, distretto di Acireale, Provincia di
+      <p style="margin-top:1.2rem" class="small"><Rec c="Piedimonte Etneo" k="Nati" y="1845" a="64">Piedimonte Etneo, Nati 1845, atto 64</Rec> — Antenati
+      <Rec ark="an_ua72387"><code>an_ua72387</code></Rec>, image 66. Comune di Piedimonte, distretto di Acireale, Provincia di
       Catania.</p>
+      <PlateFig plate="pe-nati1845-atto64.jpg" />
 
       <p style="margin-top:1.2rem">Put the three acts side by side and the deepest Sicilian
       generation is no longer an inference from anything. <strong>Mariano Mazza and Maria
-      Catalano</strong> are named as Rosario's parents in his <strong>birth act of 1845</strong>, in
-      his <strong>marriage act of 1871</strong>, and in his <strong>death act of 1924</strong> —
+      Catalano</strong> are named as Rosario's parents in his <Rec c="Piedimonte Etneo" k="Nati" y="1845" a="64"><strong>birth act of 1845</strong></Rec>, in
+      his <Rec c="Piedimonte Etneo" k="Matrimoni" y="1871" a="14"><strong>marriage act of 1871</strong></Rec>, and in his <Rec fs="1:1:XWTK-5R8Q" title="FamilySearch: Italy, Catania, Catania, Civil Registration (Tribunale), 1866–1929 — the death act of Rosario Mazza, 15 November 1924"><strong>death act of 1924</strong></Rec> —
       three registers, seventy-nine years apart, one couple. The birth act also does what neither of
       the others could: it dates <em>them</em>, both at thirty-six in June 1845, so both born about
       <strong>1809</strong>.</p>
@@ -105,9 +109,9 @@ const loose = big - inTree;
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">One generation further — probable, and not
       written down as fact</h3>
       <p>With the birth act in hand, the next question is Mariano's own marriage. The Piedimonte
-      marriage indexes were read for <strong>sixteen consecutive years, 1830 to 1845</strong> — about
+      marriage indexes were read for <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Piedimonte%20Etneo" title="Antenati: the Piedimonte Etneo registers, as the portal lists them"><strong>sixteen consecutive years, 1830 to 1845</strong></Rec> — about
       three hundred and fifty marriages. In all of them there is <strong>exactly one groom called
-      Mazza Mariano</strong>: <strong>act 17 of 1836</strong>. Here is the act itself.</p>
+      Mazza Mariano</strong>: <strong><Rec c="Piedimonte Etneo" k="Matrimoni" y="1836" a="17">act 17 of 1836</Rec></strong>. Here is the act itself.</p>
       <div class="rec" style="margin-top:18px">
         <div class="k">Promised</div>
         <div class="v"><strong>7 September 1836</strong>, at twenty-three o'clock Italian time,
@@ -128,6 +132,7 @@ const loose = big - inTree;
         <div class="v">the late <strong>Carlo</strong> [Catalano] and <strong>Maria Cardile</strong>,
         aged sixty</div><div class="w">—</div>
       </div>
+      <PlateFig plate="pe-matr1836-atto17.jpg" />
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">A correction of this archive's own</h3>
       <p>The index column was read on this page as <strong>&ldquo;Mazza Orazio&rdquo;</strong>. The
@@ -157,23 +162,24 @@ const loose = big - inTree;
       under Ignazio Mazza and Giuseppa Pulvirenti, or his death act.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Leonarda, to the day — and two more people dated</h3>
-      <p>The same method run on the bride's side. Entry <strong>101</strong> of the Piedimonte births
-      of <strong>1843</strong>: <em>Bonanno Leonarda — Piedimonte — Bonanno Gaetano / Cavallaro
+      <p>The same method run on the bride's side. Entry <strong>101</strong> of the Piedimonte <Rec c="Piedimonte Etneo" k="Nati" y="1843" a="101">births
+      of <strong>1843</strong></Rec>: <em>Bonanno Leonarda — Piedimonte — Bonanno Gaetano / Cavallaro
       Anna</em>. The act has her <strong>born 7 November 1843</strong> at eight in the morning, in
       her parents' house, declared the next day by <strong>Gaetano Bonanno, thirty-six, a
       <em>bracciale</em></strong>, with <strong>Anna Cavallaro, thirty-eight</strong>. So
       <strong>Gaetano was born about 1807 and Anna about 1805</strong> — and Leonarda was
       <strong>twenty-seven</strong> when she married, not the twenty-six her marriage act gives her.
       That is the third declared age on this page to come out a year or more wrong.</p>
+      <PlateFig plate="pe-nati1843-atto101.jpg" />
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Two searches that came back empty, and are
       worth as much</h3>
       <p><strong>Rosario has no brothers or sisters at Piedimonte.</strong> The birth registers of
-      <strong>1844, 1845, 1846 and 1847</strong> have now been read entire — something over five
-      hundred births. Mariano Mazza and Maria Catalano appear in exactly one of them: Rosario, act 64
-      of 1845. Nothing in the two years before him, nothing in the two after.</p>
+      <strong><Rec c="Piedimonte Etneo" k="Nati" y="1844">1844</Rec>, <Rec c="Piedimonte Etneo" k="Nati" y="1845">1845</Rec>, <Rec c="Piedimonte Etneo" k="Nati" y="1846">1846</Rec> and <Rec c="Piedimonte Etneo" k="Nati" y="1847">1847</Rec></strong> have now been read entire — something over five
+      hundred births. Mariano Mazza and Maria Catalano appear in exactly one of them: Rosario, <Rec c="Piedimonte Etneo" k="Nati" y="1845" a="64">act 64
+      of 1845</Rec>. Nothing in the two years before him, nothing in the two after.</p>
       <p><strong>Gaetano Bonanno did not marry at Piedimonte.</strong> Eighteen consecutive years of
-      marriage indexes, <strong>1828 to 1845</strong>, hold no Gaetano Bonanno among the grooms —
+      marriage indexes, <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Piedimonte%20Etneo" title="Antenati: the Piedimonte Etneo registers, as the portal lists them"><strong>1828 to 1845</strong></Rec>, hold no Gaetano Bonanno among the grooms —
       three Bonanno women marrying out, and no Bonanno man. He was born about 1807, so a marriage
       before 1828 would have him under twenty-one. The likelier reading is that he married in
       <strong>Anna Cavallaro's own comune</strong> and the couple settled at Piedimonte after — which
@@ -183,9 +189,9 @@ const loose = big - inTree;
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">A question that would join two threads of
       this archive</h3>
       <p>The only other Mazza births in those four years belong to one couple: <strong>Innocenzio
-      Mazza and Domenica Cavallaro</strong> — an Alfio at act 90 of 1845, a Sebastiana at act 31 of
-      1847. This archive already knows them <em>from the other end</em>: the Piedimonte marriage acts
-      of 1874 and 1876 make both <strong>Antonino Mazza</strong> and <strong>Salvatore Mazza</strong>
+      Mazza and Domenica Cavallaro</strong> — an Alfio at <Rec c="Piedimonte Etneo" k="Nati" y="1845" a="90">act 90 of 1845</Rec>, a Sebastiana at <Rec c="Piedimonte Etneo" k="Nati" y="1847" a="31">act 31 of
+      1847</Rec>. This archive already knows them <em>from the other end</em>: the Piedimonte marriage acts
+      of <Rec c="Piedimonte Etneo" k="Matrimoni" y="1874">1874</Rec> and <Rec c="Piedimonte Etneo" k="Matrimoni" y="1876">1876</Rec> make both <strong>Antonino Mazza</strong> and <strong>Salvatore Mazza</strong>
       <em>figlio d'Innocenzio e di Domenica Cavallaro</em>.</p>
       <p>And the marriage act of 1836 makes Mariano Mazza the son of an <strong>Ignazio</strong>.
       Ignazio and Innocenzio are not the same name — but a man called Ignazio with a son called
@@ -199,10 +205,10 @@ const loose = big - inTree;
       of.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">Twenty-six years, and one Mazza groom</h3>
-      <p>The marriage indexes have since been read for <strong>every year from 1820 — the first civil
-      volume that exists at Piedimonte — to 1845</strong>. Twenty-six consecutive years, something
+      <p>The marriage indexes have since been read for <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Piedimonte%20Etneo" title="Antenati: the Piedimonte Etneo registers, as the portal lists them"><strong>every year from 1820 — the first civil
+      volume that exists at Piedimonte — to 1845</strong></Rec>. Twenty-six consecutive years, something
       over five hundred marriages. <strong>There is exactly one groom called Mazza in all of
-      them</strong>, and he is Mariano, act 17 of 1836.</p>
+      them</strong>, and he is Mariano, <Rec c="Piedimonte Etneo" k="Matrimoni" y="1836" a="17">act 17 of 1836</Rec>.</p>
       <p>That cuts two ways. It strengthens the identification above — the objection was never that
       a rival candidate existed, and now there demonstrably is none. And it closes a door: <strong>
       Innocenzio Mazza did not marry at Piedimonte either</strong>, so the question of whether he and
@@ -210,8 +216,8 @@ const loose = big - inTree;
       is parish-only, or in another comune.</p>
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">And one target that can be struck off</h3>
-      <p>Mariano Mazza is <strong>thirty</strong> in the marriage act of 1836 and
-      <strong>thirty-six</strong> in his son's birth act of 1845, so he was born about 1806–09.
+      <p>Mariano Mazza is <strong>thirty</strong> in the <Rec c="Piedimonte Etneo" k="Matrimoni" y="1836" a="17">marriage act of 1836</Rec> and
+      <strong>thirty-six</strong> in his son's <Rec c="Piedimonte Etneo" k="Nati" y="1845" a="64">birth act of 1845</Rec>, so he was born about 1806–09.
       <strong>Civil registration at Piedimonte begins in 1820.</strong> His birth act does not exist
       and never did — his baptism is a parish record, in the books of the Chiesa Maggiore, and the
       Acireale diocesan films are the only place it can be. The same is true of
@@ -220,9 +226,9 @@ const loose = big - inTree;
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">How few the Mazza were</h3>
       <p>A negative worth writing down, because it changes what to expect. The Piedimonte birth
-      registers of <strong>1844</strong> and <strong>1846</strong> were read entire — 128 births in
+      registers of <strong><Rec c="Piedimonte Etneo" k="Nati" y="1844">1844</Rec></strong> and <strong><Rec c="Piedimonte Etneo" k="Nati" y="1846">1846</Rec></strong> were read entire — 128 births in
       one year, 146 in the other — and contain <strong>no Mazza at all</strong>. 1845 contains two:
-      Rosario, and an Alfio Mazza at act 90, son of <em>Innocenzo Mazza and Domenica Cavallaro</em>.
+      Rosario, and an Alfio Mazza at <Rec c="Piedimonte Etneo" k="Nati" y="1845" a="90">act 90</Rec>, son of <em>Innocenzo Mazza and Domenica Cavallaro</em>.
       Across the sixteen years of marriages the Mazza appear four times, three of them as brides.
       <strong>The Mazza were a small family at Piedimonte</strong>, not a numerous one — which makes
       it less likely, not more, that the {big} unjoined Mazza in the tree are cousins from there.</p>
@@ -236,7 +242,7 @@ const loose = big - inTree;
     </div>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="sicily-at-last">
     <div class="lab">Sicily, at last — 13 September 2026</div>
     <h2 style="margin-top:.4rem">Rosario Mazza's death act, and the name line stops being an inference</h2>
     <div class="prose" style="margin-top:1rem">
@@ -246,7 +252,7 @@ const loose = big - inTree;
       <div class="rec" style="margin-top:18px">
         <div class="k">Died</div>
         <div class="v"><strong>15 November 1924</strong> at <strong>Presa, Piedimonte Etneo</strong>,
-        aged <strong>seventy-nine</strong> — certificate 15</div><div class="w">the tree has no death</div>
+        aged <strong>seventy-nine</strong> — <Rec fs="1:1:XWTK-5R8Q" title="FamilySearch: Italy, Catania, Catania, Civil Registration (Tribunale), 1866–1929 — the death act of Rosario Mazza, 15 November 1924">certificate 15</Rec></div><div class="w">the tree has no death</div>
         <div class="k">Born</div>
         <div class="v"><strong>1845</strong>, Piedimonte Etneo. The tree says <strong>1850</strong>.</div>
         <div class="w">five years</div>
@@ -291,18 +297,18 @@ const loose = big - inTree;
 
       <h3 style="margin-top:1.8rem;margin-bottom:.6rem">The register browsed, and the range pinned</h3>
       <p>The parish marriage register was then browsed by hand. <strong>The act is not found yet — but
-      it is now cornered.</strong> Film 007490025 runs to 2,976 images, and reading pages gives the
+      it is now cornered.</strong> <Rec fs="3:1:3QS7-99ZG-7XNZ" title="FamilySearch: Piedimonte Etneo parish register, Marriage Records 1777–1911">Film 007490025 runs to 2,976 images</Rec>, and reading pages gives the
       calibration:</p>
       <div class="rec" style="margin-top:16px">
-        <div class="k">image 919</div><div class="v"><strong>1898</strong> — Salvatore Mazza's
+        <div class="k"><Rec fs="3:1:3QS7-99ZG-7XNZ" title="FamilySearch: Piedimonte Etneo parish register, Marriage Records 1777–1911">image 919</Rec></div><div class="v"><strong>1898</strong> — Salvatore Mazza's
         marriage</div><div class="w">known</div>
-        <div class="k">image 849</div><div class="v"><strong>1888</strong> — entries 65–70</div>
+        <div class="k"><Rec fs="3:1:3QS7-99ZG-7XNZ" title="FamilySearch: Piedimonte Etneo parish register, Marriage Records 1777–1911">image 849</Rec></div><div class="v"><strong>1888</strong> — entries 65–70</div>
         <div class="w">read</div>
-        <div class="k">image 723</div><div class="v"><strong>late 1869</strong> — entries 74–79,
+        <div class="k"><Rec fs="3:1:3QS7-99ZG-7XNZ" title="FamilySearch: Piedimonte Etneo parish register, Marriage Records 1777–1911">image 723</Rec></div><div class="v"><strong>late 1869</strong> — entries 74–79,
         <em>Die 22 Novembris 1869</em></div><div class="w">read</div>
       </div>
       <p style="margin-top:1.2rem">That is about <strong>seven images to the year</strong>, so 1870
-      opens around <strong>image 724–726</strong> and the marriage — which their eldest child dates to
+      opens around <strong><Rec fs="3:1:3QS7-99ZG-7XNZ" title="FamilySearch: Piedimonte Etneo parish register, Marriage Records 1777–1911">image 724–726</Rec></strong> and the marriage — which their eldest child dates to
       about 1870–72 — should lie in <strong>images 724 to 745</strong>. Twenty openings, and the next
       person to sit down with this does not have to start from 1777.</p>
       <p class="note" style="margin-top:18px"><strong>Notes for whoever continues.</strong> The
@@ -340,8 +346,8 @@ const loose = big - inTree;
       the same word badly read twice. It stays unresolved, and it is worse than it was this
       morning.</p>
       <p style="margin-top:.8rem" class="small">Italy, Catania, Catania, Civil Registration
-      (Tribunale), 1866–1929 — FamilySearch <code>1:1:XWTK-5R8Q</code>. Piedimonte Etneo parish
-      register, Marriage Records 1777–1911 — <code>3:1:3QS7-99ZG-7XNZ</code>. Italy, Catania, Diocesi
+      (Tribunale), 1866–1929 — FamilySearch <Rec fs="1:1:XWTK-5R8Q" title="FamilySearch: Italy, Catania, Catania, Civil Registration (Tribunale), 1866–1929 — the death act of Rosario Mazza, 15 November 1924"><code>1:1:XWTK-5R8Q</code></Rec>. Piedimonte Etneo parish
+      register, Marriage Records 1777–1911 — <Rec fs="3:1:3QS7-99ZG-7XNZ" title="FamilySearch: Piedimonte Etneo parish register, Marriage Records 1777–1911"><code>3:1:3QS7-99ZG-7XNZ</code></Rec>. Italy, Catania, Diocesi
       di Acireale, Catholic Church Records, 1560–1950.</p>
     </div>
   </section>

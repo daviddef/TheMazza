@@ -6,6 +6,7 @@ import { dead } from "../lib/people.js";
 import places from "../data/places.json";
 import graves from "../data/australia-graves.json";
 import Plates from "../components/Plates.astro";
+import Rec from "../components/Rec.astro";
 const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
   .some((x) => (x || "").startsWith("Briatico") || (x || "").includes("(Briatico)")));
 const pl = places.find((x) => x.name.startsWith("Briatico")) || {};
@@ -39,8 +40,8 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       reason is not that the register is thin. <strong>The Prostamo were not there yet.</strong>
       This act is the family's first appearance in the town, and the work now moves to
       <strong>Pizzo</strong>, whose registers this archive has never opened.</p>
-      <p class="dek">One more line is worth keeping. The groom produced <em>la fede di morte del
-      padre, e dell'<strong>avo paterno</strong></em> — his grandfather's death certificate. So the
+      <p class="dek">One more line is worth keeping. The groom produced <Rec ark="an_ua37921205" k="Processetti" y="1849" c="Briatico" title="Antenati: Briatico, Matrimoni processetti 1849–1854, the bundle filed with the marriage of 14 June 1849"><em>la fede di morte del
+      padre, e dell'<strong>avo paterno</strong></em></Rec> — his grandfather's death certificate. So the
       third generation was dead by 1849 and his death act exists. The tree, independently, puts
       Pasquale Prostamo's death at <strong>Pizzo</strong> on 4 January 1829. Two things agreeing is
       not a source, and the generation stays marked untested until that act is opened — but they
@@ -50,7 +51,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <img src={u("/plates/briatico-matr1849-atto1.jpg")} alt="Briatico, Matrimoni 1849, atto 1"
            style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
       <figcaption class="dek" style="margin-top:.6rem">Briatico, Stato civile della restaurazione,
-      Matrimoni 1849, atto 1 — Archivio di Stato di Catanzaro (Antenati an_ua87663, image 2).</figcaption>
+      Matrimoni 1849, atto 1 — Archivio di Stato di Catanzaro (Antenati <Rec ark="an_ua87663">an_ua87663</Rec>, image 2).</figcaption>
     </figure>
   </section>
 
@@ -61,9 +62,9 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <p>Every Italian marriage leaves a second file — the <em>processetti</em>, the loose papers the
       couple had to produce. Briatico's for 1849 survive, and the first bundle in the volume is
       <P n="Domenico Prostamo" />'s. It settles four things at once.</p>
-      <p><strong>His father's death.</strong> On 20 May 1849 the archivist of Pizzo certified that,
+      <p><strong>His father's death.</strong> On 20 May 1849 <Rec ark="an_ua37921205" k="Processetti" y="1849" c="Briatico" title="Antenati: Briatico, Matrimoni processetti 1849–1854, the bundle filed with the marriage of 14 June 1849">the archivist of Pizzo certified</Rec> that,
       having searched the death register, <em>«ha ritrovato in quello <strong>DI MORTI COLERICI
-      dell'anno 1837</strong> la seguente partitola»</em> — and copied out act <strong>327</strong>:
+      dell'anno 1837</strong> la seguente partitola»</em> — and copied out <Rec ark="an_ua37921205" k="Processetti" y="1849" c="Briatico" title="Antenati: Briatico, Matrimoni processetti 1849–1854, the bundle filed with the marriage of 14 June 1849">act <strong>327</strong></Rec>:
       <em>«A dì 31 Dicembre anno milleottocento trentasette ad ore due di notte è morto ANTONINO
       PROSTAMO di anni 56, marinaro, domiciliato alla Ripa della Marinella, marito di MARIA FRAGALÀ
       del Pizzo.»</em></p>
@@ -73,12 +74,12 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       long time without being found. Fifty-six puts his birth about <strong>1781</strong>, and that
       agrees with the thirty-two he gave when he declared his son's birth in 1814. Maria Fragalà
       outlived him by at least twelve years.</p>
-      <p><strong>The descent.</strong> Filed beside it is a certified extract of <em>Pizzo, Morti
-      1829, act 7</em> — Pasquale Prostamo's death — produced as the groom's <em>fede di morte
+      <p><strong>The descent.</strong> Filed beside it is a <Rec ark="an_ua37921205" k="Processetti" y="1849" c="Briatico" title="Antenati: Briatico, Matrimoni processetti 1849–1854, the bundle filed with the marriage of 14 June 1849">certified extract</Rec> of <Rec ark="an_ua37926878" c="Pizzo" k="Morti" y="1829" a="7" title="Antenati: Pizzo, Morti 1829–1831, atto 7 of 1829"><em>Pizzo, Morti
+      1829, act 7</em></Rec> — Pasquale Prostamo's death — produced as the groom's <em>fede di morte
       dell'<strong>avo paterno</strong></em>. So Pasquale was Domenico's paternal grandfather, which
       is to say <strong>Antonino's father</strong>. The link this page called untested that morning is
       a document by the afternoon.</p>
-      <p><strong>And the groom had another name.</strong> The bundle holds his birth extract: act
+      <p><strong>And the groom had another name.</strong> <Rec ark="an_ua37921205" k="Processetti" y="1849" c="Briatico" title="Antenati: Briatico, Matrimoni processetti 1849–1854, the bundle filed with the marriage of 14 June 1849">The bundle</Rec> holds his birth extract: act
       <strong>285</strong>, born at eighteen o'clock on <strong>2 April 1814</strong> at Pizzo,
       <em>alle Moli</em>, to Antonino, 32, and Maria Fragalà, 27 — and entered in the register as
       <strong>ANTONIO</strong> Prostamo. So on the morning of the wedding he and four witnesses swore
@@ -93,14 +94,14 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <strong>Anna Fama</strong> and son of the late <strong>Paolo Ventrice</strong> and the late
       <strong>Anna Pappa</strong>. Five names on the bride's side, none of them in the family tree.</p>
       <p><strong>Zambrone was opened for the original, and it is not there either.</strong> The comune
-      has one pre-unification death volume on Antenati, <em>Morti 1811–1839</em>. It holds 1811, then
+      has one pre-unification death volume on Antenati, <Rec c="Zambrone" k="Morti" y="1811–1839" ark="an_ua37932358"><em>Morti 1811–1839</em></Rec>. It holds 1811, then
       1812 twice — once for Zambrone and once for <strong>San Giovanni</strong>, a hamlet that kept a
       register of its own — and then <strong>jumps straight to 1822</strong>. Every year from there is
       in order, 1822 through 1839. <strong>The years 1813 to 1821 are simply not in it</strong>, and
       the portal's Zambrone holdings then stop until 1911. So for the second time in a day, the
       clerk's copy in the marriage bundle is the only readable text of an act.</p>
-      <p><strong>And the bride herself now has a day.</strong> Briatico's births for 1828 hold her at
-      act 12: on <strong>23 June 1828</strong>, at nine in the morning, <strong>Giuseppe Ventrice</strong>,
+      <p><strong>And the bride herself now has a day.</strong> Briatico's <Rec c="Briatico" k="Nati" y="1828">births for 1828</Rec> hold her at
+      <Rec c="Briatico" k="Nati" y="1828" a="12">act 12</Rec>: on <strong>23 June 1828</strong>, at nine in the morning, <strong>Giuseppe Ventrice</strong>,
       <em>di anni <strong>trentatré</strong></em>, a <em>bracciale</em>, came to the town hall and
       presented a girl born that morning <em>nella casa di loro propria abitazione</em> to
       <strong>Caterina Cichello</strong>, <em>di anni <strong>ventinove</strong></em>, and named her
@@ -114,8 +115,8 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       beside it.</p>
       <p><strong>A correction, and it is mine.</strong> This page first gave that death as
       <strong>21 June 1839</strong>. It is <strong>21 June 1831</strong>. I read
-      <em>milleottocento trentuno</em> in the 1849 chancery copy as <em>trentanove</em>; the original
-      register settles it, and so does the 1839 register itself — its act 12 is the death of D.a Olimpia
+      <em>milleottocento trentuno</em> in the 1849 chancery copy as <em>trentanove</em>; <Rec c="Briatico" k="Morti" y="1831" a="12" ark="an_ua87689">the original
+      register</Rec> settles it, and so does the 1839 register itself — its act 12 is the death of D.a Olimpia
       La Torre on 14 August, and that year's Tavola agrees. The original also names the second declarant
       <strong>Rosario Zungri</strong> where the copy has Sergi: the third Calabrian chancery copy caught
       drifting from the act it was copying.</p>
@@ -127,7 +128,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <p><strong>Zambrone's marriages were opened next, and they cannot hold the couple either.</strong>
       Domenico was about fifty-eight when he died in January 1815 and Anna Fama about fifty; their son
       Giuseppe was born about 1809. Civil registration began in Calabria in <strong>1809</strong> and
-      Zambrone's marriage volume begins in <strong>1811</strong>. A couple whose son was born in 1809
+      <Rec c="Zambrone" k="Matrimoni" y="1811–1858" ark="an_ua37928578">Zambrone's marriage volume</Rec> begins in <strong>1811</strong>. A couple whose son was born in 1809
       married before the register existed — so their marriage is in the <strong>parish</strong> books,
       which Antenati does not hold. It is the same wall this archive met at Pizzo with Pasquale
       Prostamo, and it is where the Calabrian line stops being testable online.</p>
@@ -144,15 +145,15 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       stands beside his trade and is read here as <strong>his</strong>, which puts his birth about
       1757; the fifty is read as his wife's. This page first said he was fifty. Where the original is
       gone, the ambiguity cannot be resolved — only recorded.</p>
-      <p><strong>The register itself was looked for, and it is not there.</strong> Pizzo's deaths for
-      1836–1840 are on Antenati in one volume of 427 images. Its ordinary register for 1837 runs to
+      <p><strong>The register itself was looked for, and it is not there.</strong> <Rec ark="an_ua37926907" c="Pizzo" k="Morti" y="1836–1840">Pizzo's deaths for
+      1836–1840</Rec> are on Antenati in one volume of 427 images. Its ordinary register for 1837 runs to
       act 207 and then <strong>stops, on 16 July 1837</strong>. From act 209 the town was writing its
       dead into a <strong>second book</strong> — and that book has not been digitised. What has
       survived into the volume is its <strong>index</strong>, bound in after the ordinary register:
       twelve openings listing acts <strong>209 to 325</strong> with names, ages, trades and quarters.
       Antonino Prostamo is act <strong>327</strong>, two past the last line of it.</p>
       <p>So the extract above is not a convenience copy of something better. As far as this archive
-      can reach, <strong>it is the only readable text of act 327</strong> — and it survives only
+      can reach, <Rec ark="an_ua37921205" k="Processetti" y="1849" c="Briatico" title="Antenati: Briatico, Matrimoni processetti 1849–1854, the bundle filed with the marriage of 14 June 1849"><strong>it is the only readable text of act 327</strong></Rec> — and it survives only
       because a clerk at Pizzo copied it out in May 1849 so that a sailor could marry at Briatico
       three weeks later.</p>
       <p class="dek">The shape of the volume is its own evidence. A town's ordinary death register
@@ -171,20 +172,20 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <img src={u("/plates/briatico-morti1831-atto12.jpg")} alt="Briatico, Morti 1831, atto 12"
            style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
       <figcaption class="dek" style="margin-top:.6rem">Briatico, Morti 1831, atto 12 — the death of
-      Giuseppe Ventrice, read in the original (Antenati an_ua87689, image 7).</figcaption>
+      Giuseppe Ventrice, read in the original (Antenati <Rec ark="an_ua87689">an_ua87689</Rec>, image 7).</figcaption>
     </figure>
     <figure style="margin-top:1.4rem">
       <img src={u("/plates/briatico-nati1828-atto12.jpg")} alt="Briatico, Nati 1828, atto 12"
            style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
       <figcaption class="dek" style="margin-top:.6rem">Briatico, Nati 1828, atto 12 — the birth of
-      Giovanna Ventrice (Antenati an_ua87730, image 13).</figcaption>
+      Giovanna Ventrice (Antenati <Rec ark="an_ua87730">an_ua87730</Rec>, image 13).</figcaption>
     </figure>
     <figure style="margin-top:1.4rem">
       <img src={u("/plates/zambrone-morti1815-atto40.jpg")} alt="Zambrone, Morti 1815, atto 40"
            style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
       <figcaption class="dek" style="margin-top:.6rem">Zambrone, Morti 1815, atto 40 — the certified
       extract of 26 May 1849, filed in Briatico, Matrimoni processetti 1849–1854 (Antenati
-      an_ua37921205, image 3). The register it was copied from is not among the digitised
+      <Rec ark="an_ua37921205">an_ua37921205</Rec>, image 3). The register it was copied from is not among the digitised
       volumes.</figcaption>
     </figure>
     <figure style="margin-top:1.4rem">
@@ -192,7 +193,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
            style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
       <figcaption class="dek" style="margin-top:.6rem">Pizzo, registro dei morti colerici 1837, atto
       327 — the certified extract of 20 May 1849, filed in Briatico, Matrimoni processetti 1849–1854
-      (Antenati an_ua37921205, image 7).</figcaption>
+      (Antenati <Rec ark="an_ua37921205">an_ua37921205</Rec>, image 7).</figcaption>
     </figure>
   </section>
 
@@ -203,7 +204,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       <p>The marriage act said Pizzo, so Pizzo was opened. The family tree puts
       <strong>Pasquale Prostamo</strong>'s death there on 4 January 1829 and gives no source, which
       meant the answer — if there was one — would be in the first few acts of the year.</p>
-      <p>It is act 7. On 14 January 1829, Nicola Nicchella, a porter, and Domenico Belvedere,
+      <p>It is <Rec ark="an_ua37926878" c="Pizzo" k="Morti" y="1829" a="7" title="Antenati: Pizzo, Morti 1829–1831, atto 7 of 1829">act 7</Rec>. On 14 January 1829, Nicola Nicchella, a porter, and Domenico Belvedere,
       fifty-six, a <em>marinaro</em>, came before the sindaco of Pizzo to say that the evening
       before, at twenty-four o'clock, <strong>Pasquale Prostamo</strong> had died — <em>di anni
       SETTANTACINQUE, VEDOVO DI CATERINA MAJO, nato al Pizzo, di professione MARINARO, domiciliato
@@ -222,14 +223,14 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       and since he married before 1809, when civil registration began in Calabria, his marriage is in
       parish books that Antenati does not hold. The tree's first two generations, 1697 and 1726, may
       not be testable online at all. <strong>The descent, though, is no longer in doubt</strong>: later
-      the same day a certified copy of this very act turned up in Domenico's marriage bundle, filed as
+      the same day <Rec ark="an_ua37921205" k="Processetti" y="1849" c="Briatico" title="Antenati: Briatico, Matrimoni processetti 1849–1854, the bundle filed with the marriage of 14 June 1849">a certified copy of this very act</Rec> turned up in Domenico's marriage bundle, filed as
       the groom's <em>fede di morte dell'avo paterno</em>. See below.</p>
     </div>
     <figure style="margin-top:1.4rem">
       <img src={u("/plates/pizzo-morti1829-atto7.jpg")} alt="Pizzo, Morti 1829, atto 7"
            style="width:100%;height:auto;border:1px solid var(--rule)" loading="lazy" />
       <figcaption class="dek" style="margin-top:.6rem">Pizzo, Stato civile della restaurazione,
-      Morti 1829–1831, atto 7 of 1829 — Archivio di Stato di Catanzaro (Antenati an_ua37926878,
+      Morti 1829–1831, atto 7 of 1829 — Archivio di Stato di Catanzaro (Antenati <Rec ark="an_ua37926878">an_ua37926878</Rec>,
       image 6).</figcaption>
     </figure>
   </section>
@@ -244,16 +245,16 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       — Domenico Prostamo, and only because his son's marriage papers named him. Everything above is
       marked <em>untested</em> because nobody had looked.</p>
       <p>There was nothing to stop them. The Archivio di Stato di Catanzaro has
-      <strong>five hundred and fifty-five volumes</strong> for Briatico on Antenati, with
+      <Rec href="https://antenati.cultura.gov.it/search-registry/?localita=Briatico" title="Antenati: the Briatico registers, as the portal lists them"><strong>five hundred and fifty-five volumes</strong></Rec> for Briatico on Antenati, with
       <strong>Potenzoni</strong> — where this family also appears — catalogued separately.</p>
 
       <div class="rec" style="margin-top:18px">
         <div class="k">From</div><div class="v"><strong>1806</strong>, and civil registration proper
         from <strong>1809</strong> under the French</div><div class="w">before Scilla</div>
         <div class="k">Nati</div><div class="v">Napoleonic 1809–1815, then restaurazione from 1816 —
-        <strong>sequential</strong>: <code>ark(Y) = an_ua87718 + (Y − 1816)</code></div>
+        <strong>sequential</strong>: <code>ark(Y) = <Rec ark="an_ua87718" c="Briatico" k="Nati" y="1816" title="Antenati: Briatico, Nati 1816 — the first of the sequential volumes">an_ua87718</Rec> + (Y − 1816)</code></div>
         <div class="w">86 volumes</div>
-        <div class="k">Matrimoni</div><div class="v">1840–1858 — <code>ark(Y) = an_ua87654 + (Y −
+        <div class="k">Matrimoni</div><div class="v">1840–1858 — <code>ark(Y) = <Rec ark="an_ua87654" c="Briatico" k="Matrimoni" y="1840" title="Antenati: Briatico, Matrimoni 1840 — the first of the sequential volumes">an_ua87654</Rec> + (Y −
         1840)</code> — <strong>then nothing until 1911</strong></div><div class="w">88 volumes</div>
         <div class="k">Morti</div><div class="v">91 volumes, untouched</div><div class="w">—</div>
         <div class="k">Processetti</div><div class="v"><strong>72 volumes</strong> of the papers filed
