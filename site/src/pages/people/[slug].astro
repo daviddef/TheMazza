@@ -85,6 +85,9 @@ const dek = p.ancGen === 0 || p.onSpine
 const person = kitPerson(p, { lede: dek });
 agreeWithGenerator(p, person);
 const meta = personMeta(person, { siteName: "", sources: PS });
+/* The structured data restates only the name and the life dates the page shows (David, 18 October 2026):
+   the kit also offers birthPlace and deathPlace, and this archive leaves them out. The page still shows the place. */
+const { birthPlace: _bp, deathPlace: _dp, ...about } = meta.about || {};
 /* PersonPage draws the stub sentence only when NO `record` slot is passed, and Astro counts a slot as passed
    even when its condition is false, so a conditional slot would leave the heading with nothing under it.
    The slot is therefore always passed and says the same two things the kit says (PersonPage.astro). */
@@ -116,7 +119,7 @@ const clashOther = [...new Set([...clash(p.siblings || []), ...clash(p.parents |
 const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--terra)",
                   tree: "var(--ink-3)", via: "var(--ink-3)", gen: "var(--terra)" };
 ---
-<Base title={meta.title} dek={meta.description} noindex={meta.noindex} person={meta.about ?? undefined} ownHeading>
+<Base title={meta.title} dek={meta.description} noindex={meta.noindex} person={meta.about ? about : undefined} ownHeading>
 
   <PersonPage person={person} peopleHref={u("/people/")} edgeLevel={false} palette={palette}
               stubNote={stubNote}>
