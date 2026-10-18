@@ -10,7 +10,7 @@ const sal = households.find((h) => h.father.startsWith("Salvatore"));
 const pas = households.find((h) => h.father.startsWith("Pasquale"));
 const plate = (f) => plates.find((p) => p.f === f);
 ---
-<Base title="The Sicilian Registers" eyebrow="Read 10 September 2026"
+<Base autolink title="The Sicilian Registers" eyebrow="Read 10 September 2026"
       dek="Nine annual indexes and six acts, hunting one man. He is still missing — and in looking for him the archive found Rosario, and a generation above him nobody knew was there.">
 
   <section class="blk">
@@ -143,7 +143,7 @@ const plate = (f) => plates.find((p) => p.f === f);
   <section class="blk">
     <h2>What was read</h2>
     <div class="scroll" style="margin-top:16px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Year</th><th>Comune</th><th class="m">Act</th><th>Mazza birth</th><th>Father</th><th>Mother</th></tr></thead>
         <tbody>{births.map((b) => (
           <tr>

@@ -12,7 +12,7 @@ const shipOf = new Map(ships.map((s) => [s.slug, s]));
 const wave1 = crossings.filter((c) => (c.year || 0) < 1940);
 const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
 ---
-<Base title="The Crossings" eyebrow="Eighteen recorded arrivals and departures"
+<Base autolink title="The Crossings" eyebrow="Eighteen recorded arrivals and departures"
       dek="This family emigrated twice, in two waves half a century apart, to opposite sides of the world. The first went to America. The second went to Australia. Both left from the same three towns.">
 
   <section class="blk">
@@ -186,7 +186,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
     them — <P n="Fillipo Melluso" />, <P n="Domenica Anile" /> and <P n="Concetta Anile" /> — came
     off the same ship at New York on <strong>2 August 1906</strong>.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Who</th><th class="m">Born</th><th>From</th><th>Left</th><th>Arrived</th><th class="m">Date</th></tr></thead>
         <tbody>{wave1.map((c) => (
           <tr><td><a href={u("/people/" + c.slug)}>{c.who}</a></td>
@@ -460,7 +460,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
     </div>
 
     <div class="scroll" style="margin-top:22px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Name</th><th class="m">Arrived</th><th>Port</th><th class="m">Age</th><th class="m">→ born</th><th>Ship</th><th class="m">Line</th></tr></thead>
         <tbody>
           {ellis.rows.map((r) => (
@@ -529,7 +529,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
       <p>The family tree has Rocco Arena and Generosa Costa going to America and coming home. It does
       not have what happened in between.</p>
       <div class="scroll" style="margin-top:16px">
-        <table>
+        <table data-no-autolink>
           <thead><tr><th>Name</th><th class="m">Born</th><th>In the tree?</th></tr></thead>
           <tbody>
             {nyc.map((c) => (
@@ -563,7 +563,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
     Australia was run out of the northern ports under the 1951 Italian–Australian migration agreement,
     and a Calabrian or Sicilian family travelled the length of the country to board.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Who</th><th class="m">Born</th><th>From</th><th>Left</th><th>Arrived</th><th class="m">Date</th></tr></thead>
         <tbody>{wave2.map((c) => (
           <tr><td><a href={u("/people/" + c.slug)}>{c.who}</a></td>
@@ -583,7 +583,7 @@ const wave2 = crossings.filter((c) => (c.year || 0) >= 1940);
     shares the item number. Searching it by name and date turned nine of these eighteen crossings from
     a date into a named vessel.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Who</th><th class="m">Date</th><th>Ship</th><th>From</th><th>Arrived</th><th class="m">NAA item</th><th>Confidence</th></tr></thead>
         <tbody>{ships.map((s) => (
           <tr>

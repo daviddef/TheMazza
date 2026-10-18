@@ -16,7 +16,7 @@ const big = apart.reduce((a, g) => a + g.n, 0);
 const inTree = apart.flatMap((g) => g.people).filter((x) => x.comp === 1).length;
 const loose = big - inTree;
 ---
-<Base title="The Mazza" eyebrow={`${M.total} bearers, ${M.groups.length} descent groups`}
+<Base autolink title="The Mazza" eyebrow={`${M.total} bearers, ${M.groups.length} descent groups`}
       dek={`The surname this archive is named for is also the most fragmented thing in it. ${M.total} Mazza sit in ${words(M.groups.length)} groups that no record joins to each other.`}>
 
   <section class="blk">
@@ -388,7 +388,7 @@ const loose = big - inTree;
         <strong>Mia</strong> and <strong>Rocco Francesco</strong>. Every step in Sicily is
         <a href={u("/the-name-line/")}>a document</a>.</p>
         <div class="scroll" style="margin-top:20px">
-          <table>
+          <table data-no-autolink>
             <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>On the spine</th></tr></thead>
             <tbody>{g.people.map((x) => (
               <tr>

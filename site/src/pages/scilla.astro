@@ -12,7 +12,7 @@ const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
 const pl = places.find((x) => x.name.startsWith("Scilla")) || {};
 const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort();
 ---
-<Base title="Scilla" eyebrow="Reggio Calabria"
+<Base autolink title="Scilla" eyebrow="Reggio Calabria"
       dek="The rock at the northern gate of the Strait of Messina, and the fishing quarter beneath it. Two of the four grandparents were born here, four years apart, and did not marry until Brisbane.">
 
   <section class="blk">
@@ -1183,7 +1183,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
       is the population the Arena, Polistena and Donato households were marrying into.</p>
     </div>
     <div class="scroll" style="margin-top:20px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Groom</th><th>of</th><th>Bride</th><th>of</th><th class="m">Date</th><th class="m">Act</th></tr></thead>
         <tbody>
           {m13.rows.map((r) => (
@@ -1250,7 +1250,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
   <section class="blk" style="border-bottom:0">
     <h2>Everyone the archive places here</h2>
     <div class="scroll" style="margin-top:16px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>Died</th></tr></thead>
         <tbody>
           {here.sort((a, b) => (a.born || 9999) - (b.born || 9999)).map((p) => (

@@ -32,7 +32,7 @@ const MARR = ["Mascali", "Riposto", "Giarre"];
 const marrRead = MARR.reduce((n, c) => n + readOf(c, "Matrimoni").length, 0);
 const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
 ---
-<Base title="The Nicotra" eyebrow="Mascali · Giarre · Riposto · Piedimonte Etneo"
+<Base autolink title="The Nicotra" eyebrow="Mascali · Giarre · Riposto · Piedimonte Etneo"
       dek="Three days ago this line was two names on a Queensland death certificate. It now reaches generation six on both sides, crosses four comuni — and the man it is named for is still missing."
 
 >
@@ -77,7 +77,7 @@ const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
     <p class="dek" style="margin:.7rem 0 1.2rem">Rosario Nicotra and Venera Murabito are named in one
     act and appear in no register.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Comune</th><th>Series</th><th class="m">Years read</th><th>What it said</th></tr></thead>
         <tbody>
           {Object.entries(nic.byComuneSeries).map(([c, ser]) =>
@@ -105,7 +105,7 @@ const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
   <section class="blk">
     <h2>The people these acts added</h2>
     <div class="scroll" style="margin-top:12px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Who</th><th class="m">Gen</th><th class="m">Place</th><th>Trade</th><th class="m">In the tree</th></tr></thead>
         <tbody>
           {adds.map((a) => (
@@ -160,7 +160,7 @@ const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
     kept because a surname that is <em>present</em> and never <em>right</em> is a different fact from
     a surname that is absent — and because the next reader will otherwise find them again.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Comune</th><th class="m">Surname</th><th>Father</th><th>Mother</th><th class="m">Seen</th><th>What it is</th></tr></thead>
         <tbody>
           {nic.households.map((h) => (

@@ -79,7 +79,7 @@ const YEARS = nic.byComune["Giarre"] || [];
 const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
 
 ---
-<Base title="Giarre" eyebrow="Catania, Sicily"
+<Base autolink title="Giarre" eyebrow="Catania, Sicily"
       dek="A town named by a document, contradicted by eleven of its own years, and then answered by its first. The largest comune in this archive.">
 
   <section class="blk">
@@ -104,7 +104,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     <p class="dek" style="margin:.7rem 0 1.2rem">Giarre's annual <em>Tavola</em> is alphabetical and
     names both parents, so a Nicotra of a Rosario would identify itself without an act being opened.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Year</th><th>The N section</th><th>What is around it</th></tr></thead>
         <tbody>
           {YEARS.map((r) => (
@@ -201,7 +201,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     <p class="dek" style="margin:.7rem 0 1.2rem">{vols} volumes — the largest holding of any comune in
     this archive, and the listing that proved <code>s_size=500</code> is a page and not a ceiling.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Fondo</th><th>Record type</th><th class="m">Years</th><th class="m">Volumes</th><th class="m">Openable</th></tr></thead>
         <tbody>
           {rows.map((r) => (
@@ -253,7 +253,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     no Marianna Daidone appear in any of them.</strong> What the sweep did find is a <strong>Milo</strong>
     Nicotra family — a hamlet of Macchia — recorded in the notes below, and none of it is linked to Simone.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
           {MDEATHS.map((r) => (
@@ -383,7 +383,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
       else. Rosario was at Mascali by 1841, which is where his son was born, so
       <strong>Mascali's own death registers before 1873 are the place to look next</strong>; this
       archive has read them only from 1873.</p>
-      <table class="tab" style="margin-top:18px">
+      <table data-no-autolink class="tab" style="margin-top:18px">
         <thead><tr><th>Year</th><th>N section</th><th>What is in it</th></tr></thead>
         <tbody>
           {mortiRead.map((r) => (

@@ -43,7 +43,7 @@ const DEATHSREAD = DEATHS.filter(READ);
 
 const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven deaths"));
 ---
-<Base title="Mascali" eyebrow="Catania, Sicily"
+<Base autolink title="Mascali" eyebrow="Catania, Sicily"
       dek="The town Etna swallowed whole in 1928 — and, ninety years before that, the comune where Maria Nicotra was born on a December night in 1875.">
 
   <section class="blk">
@@ -99,7 +99,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
       born at <a href={u("/giarre/")}>Giarre</a>, and the search moved there.</p>
     </div>
     <div class="scroll" style="margin-top:20px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
           {BIRTHS.map((r) => (
@@ -144,7 +144,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
     </figure>
 
     <div class="scroll" style="margin-top:20px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
           {MARRS.map((r) => (
@@ -164,7 +164,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
     <p class="dek" style="margin:.7rem 0 1.2rem">{vols} volumes, listed whole and verified against the
     result facets — not a sample sitting at the ceiling.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Fondo</th><th>Record type</th><th class="m">Years</th><th class="m">Volumes</th><th class="m">Openable</th></tr></thead>
         <tbody>
           {rows.map((r) => (
@@ -219,7 +219,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
     <p class="dek" style="margin:.7rem 0 1.2rem">Added from a register read here, and absent from the
     family's own export.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Who</th><th class="m">Gen</th><th>Trade</th><th>Named in</th></tr></thead>
         <tbody>
           {docs.map((d) => (
@@ -266,7 +266,7 @@ const NICDEAD = nic.households.find((h) => h.father.startsWith("\u2014 (seven de
       at Catania. A wall, not an absence.</p>
     </div>
     <div class="scroll" style="margin-top:20px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
           {DEATHS.map((r) => (

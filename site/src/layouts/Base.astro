@@ -14,7 +14,11 @@ import BookHead from "@daviddef/archive-kit/components/BookHead.astro";
 import BookFoot from "@daviddef/archive-kit/components/BookFoot.astro";
 import book from "../data/book.json";
 import ring from "@daviddef/archive-kit/data/archives.json";
-const { title, description = "", dek, eyebrow, bare, noindex } = Astro.props;
+const { title, description = "", dek, eyebrow, bare, noindex, autolink = false } = Astro.props;
+/* THE BUILD-TIME NAME LINKER (kit/tools/autolink.py, run by `npm run autolink`) links the first mention of each
+   name that resolves to one dead person, in every <main> it is allowed into. It is allowed into a page only when
+   the page says so (<Base autolink>): the twelve long research narratives. Every other page, the person and name
+   pages, the registers, the logs, the lists, keeps data-no-autolink on <main> and is left exactly as written. */
 const SITE = "The Mazza Archive";
 const nav = [
   ["Start", [["/", "Home"], ["/about/", "About"], ["/trees/", "The trees"], ["/tree/", "Our line, drawn"], ["/atlas/", "The Atlas"], ["/timeline/", "The Timeline"], ["/lines/", "The Four Quarters"]]],
@@ -103,7 +107,7 @@ const thisArchive =
 </header>
 <BookHead book={book} u={u} />
 
-<main id="main" tabindex="-1">
+<main id="main" tabindex="-1" data-no-autolink={autolink ? undefined : ""}>
   <div class="wrap">
     {!bare && (
       <div class="pagehead">

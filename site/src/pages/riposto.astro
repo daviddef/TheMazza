@@ -42,7 +42,7 @@ const deathsRead = readn("Morti");
 
 const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
 ---
-<Base title="Riposto" eyebrow="Catania, Sicily"
+<Base autolink title="Riposto" eyebrow="Catania, Sicily"
       dek="The lower town, separate from Giarre since 1821 — and the only comune left that fits the man this archive cannot find.">
 
   <section class="blk">
@@ -73,7 +73,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
   <section class="blk">
     <h2>The Nicotra of Riposto</h2>
     <div class="scroll" style="margin-top:12px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Father</th><th>Mother</th><th class="m">Seen</th><th>The children</th></tr></thead>
         <tbody>
           {HOUSEHOLDS.map((h) => (
@@ -100,7 +100,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
     both parents. Each N section was checked into the next letter before anything was written down.
     <strong>{readn("Nati")} years, {span(BIRTHS)}, are now read end to end.</strong></p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
           {BIRTHS.map((r) => (
@@ -128,7 +128,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
     <em>Tavola</em> names both spouses, <strong>all four parents, and the comune each spouse came
     from</strong> — so a single row can carry a whole generation.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
           {MARRS.map((r) => (
@@ -168,7 +168,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
     <strong>maiden</strong> name, which is why Daidone is searched as well as Nicotra — and why a sweep
     of the husband's surname alone would never have looked for her.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
           {DEATHS.map((r) => (
@@ -188,7 +188,7 @@ const HOUSEHOLDS = nic.housesByComune["Riposto"] || [];
     <p class="dek" style="margin:.7rem 0 1.2rem">{vols} volumes, facet total {vols} — complete in one
     page load, comfortably under the ceiling. {bought} openable now.</p>
     <div class="scroll">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Fondo</th><th>Record type</th><th class="m">Years</th><th class="m">Volumes</th><th class="m">Openable</th></tr></thead>
         <tbody>
           {rows.map((r) => (

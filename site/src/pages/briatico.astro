@@ -11,7 +11,7 @@ const here = dead.filter((p) => [p.birthPlace, p.deathPlace, p.burialPlace]
 const pl = places.find((x) => x.name.startsWith("Briatico")) || {};
 const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort();
 ---
-<Base title="Briatico" eyebrow="Vibo Valentia, Calabria"
+<Base autolink title="Briatico" eyebrow="Vibo Valentia, Calabria"
       dek="The deepest line in this archive, and the one that does not carry the surname. A small comune on the Tyrrhenian coast of Calabria that sent its people to three different continents.">
 
   <section class="blk">
@@ -321,7 +321,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
   <section class="blk">
     <h2>Everyone the archive places here</h2>
     <div class="scroll" style="margin-top:16px">
-      <table>
+      <table data-no-autolink>
         <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>Died</th></tr></thead>
         <tbody>
           {here.sort((a, b) => (a.born || 9999) - (b.born || 9999)).map((p) => (
@@ -361,7 +361,7 @@ const surnames = [...new Set(here.map((p) => p.surname).filter(Boolean))].sort()
     </div>
     <div class="tw" style="margin-top:1.2rem">
       <div class="scroll">
-      <table class="tbl">
+      <table data-no-autolink class="tbl">
         <thead><tr><th>Name</th><th class="m">Dates</th><th>Cemetery</th><th class="m">Plot</th></tr></thead>
         <tbody>
           {graves.map((g) => (

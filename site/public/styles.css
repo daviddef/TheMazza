@@ -498,6 +498,15 @@ a.wholink{
   transition:border-color .15s,background .15s;
 }
 
+/* A name linked by the build-time pass (kit/tools/autolink.py): the same look as the helper's
+   <P n="..."/> link (a.pl in components/P.astro), which the new anchor cannot reach because P's style is
+   scoped to pages that import P and the pass adds no class. A name shared by several people goes to the
+   roster, so its rule is dashed, as a.pl-several is. */
+a[data-autolink]{color:inherit;text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb,currentColor 28%,transparent)}
+a[data-autolink]:hover{border-bottom-color:currentColor}
+a[data-autolink][href*="?q="]{border-bottom-style:dashed}
+
 /* Home-page banner — used only when an image has been placed at /art/banner.webp */
 .banner { margin: 0 0 30px; }
 
