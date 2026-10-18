@@ -427,6 +427,13 @@
     "slug": "giuseppe-nicotra-1810",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rconcetta-nicotra@",
+    "name": "Concetta Nicotra",
+    "slug": "concetta-nicotra",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -473,6 +480,34 @@
     "id": "@Rsalvadore-nicotra-5@",
     "name": "Salvadore Nicotra",
     "slug": "salvadore-nicotra-1824",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcirino-nicotra@",
+    "name": "Cirino Nicotra",
+    "slug": "cirino-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosario-nicotra-4@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1815",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippo-nicotra@",
+    "name": "Filippo Nicotra",
+    "slug": "filippo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgaetano-nicotra-4@",
+    "name": "Gaetano Nicotra",
+    "slug": "gaetano-nicotra-1835",
     "living": false,
     "via": "read"
    }
@@ -584,6 +619,20 @@
     "slug": "salvadore-nicotra-1824",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rfilippo-nicotra@",
+    "name": "Filippo Nicotra",
+    "slug": "filippo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgaetano-nicotra-4@",
+    "name": "Gaetano Nicotra",
+    "slug": "gaetano-nicotra-1835",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -672,6 +721,23 @@
   "born": 1794
  },
  {
+  "name": "Angelo Nicotra",
+  "head": "angelo-nicotra",
+  "headId": "@Rangelo-nicotra@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rrosario-nicotra-6@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1828",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1795
+ },
+ {
   "name": "Antonino Prostamo & Caterina Marmorato",
   "head": "antonino-prostamo-1796",
   "headId": "@I231@",
@@ -705,6 +771,23 @@
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1796
+ },
+ {
+  "name": "Sebastiana Nicotra",
+  "head": "sebastiana-nicotra",
+  "headId": "@Rsebastiana-nicotra@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rangela-spoto@",
+    "name": "Angela Spoto",
+    "slug": "angela-spoto",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
   "born": 1796
  },
  {
@@ -935,6 +1018,23 @@
   "born": 1802
  },
  {
+  "name": "Angela Costa",
+  "head": "angela-costa",
+  "headId": "@Rangela-costa@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rrosario-nicotra-6@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1828",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1805
+ },
+ {
   "name": "Antonio Barbuto & Domenica Birroca",
   "head": "antonio-barbuto",
   "headId": "@I382@",
@@ -1104,6 +1204,23 @@
   ],
   "place": "Giarre",
   "born": 1812
+ },
+ {
+  "name": "Giuseppa Nicolosi",
+  "head": "giuseppa-nicolosi",
+  "headId": "@Rgiuseppa-nicolosi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppa-nicotra-3@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra-1851",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1813
  },
  {
   "name": "Francesco Antonio Arena",
@@ -1394,6 +1511,23 @@
    }
   ],
   "place": "",
+  "born": 1827
+ },
+ {
+  "name": "Filippo Nicotra",
+  "head": "filippo-nicotra",
+  "headId": "@Rfilippo-nicotra@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppa-nicotra-3@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra-1851",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
   "born": 1827
  },
  {
@@ -9272,6 +9406,13 @@
   "spouse": null,
   "children": [
    {
+    "id": "@Rcirino-nicotra@",
+    "name": "Cirino Nicotra",
+    "slug": "cirino-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rrosario-nicotra-4@",
     "name": "Rosario Nicotra",
     "slug": "rosario-nicotra-1815",
@@ -9527,6 +9668,20 @@
     "slug": "rosario-nicotra-1830",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rcaterina-nicotra@",
+    "name": "Caterina Nicotra",
+    "slug": "caterina-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-6@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1824",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -9649,23 +9804,6 @@
    }
   ],
   "place": "Scilla",
-  "born": null
- },
- {
-  "name": "Filippo Nicotra",
-  "head": "filippo-nicotra",
-  "headId": "@Rfilippo-nicotra@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rgiuseppa-nicotra-3@",
-    "name": "Giuseppa Nicotra",
-    "slug": "giuseppa-nicotra-1851",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Giarre",
   "born": null
  },
  {
@@ -9837,23 +9975,6 @@
    }
   ],
   "place": "Scilla",
-  "born": null
- },
- {
-  "name": "Giuseppa Nicolosi",
-  "head": "giuseppa-nicolosi",
-  "headId": "@Rgiuseppa-nicolosi@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rgiuseppa-nicotra-3@",
-    "name": "Giuseppa Nicotra",
-    "slug": "giuseppa-nicotra-1851",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Giarre",
   "born": null
  },
  {
@@ -10112,6 +10233,13 @@
     "id": "@Rgiuseppe-nicotra-6@",
     "name": "Giuseppe Nicotra",
     "slug": "giuseppe-nicotra-1810",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-nicotra@",
+    "name": "Concetta Nicotra",
+    "slug": "concetta-nicotra",
     "living": false,
     "via": "read"
    }
@@ -10530,6 +10658,20 @@
     "id": "@Rrosario-nicotra-5@",
     "name": "Rosario Nicotra",
     "slug": "rosario-nicotra-1830",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-nicotra@",
+    "name": "Caterina Nicotra",
+    "slug": "caterina-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-6@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1824",
     "living": false,
     "via": "read"
    }

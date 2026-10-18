@@ -23,6 +23,12 @@ const MDEATHS = (nic.byComuneSeries["Macchia"] || {})["Morti"] || [];
 const mRead = MDEATHS.filter((r) => r.entries !== "\u2014" && r.entries !== "absent");
 const mAbsent = MDEATHS.filter((r) => r.entries === "absent").length;
 const mUnread = MDEATHS.filter((r) => r.entries === "\u2014").length;
+/* MACCHIA'S MARRIAGES, counted the same way. */
+const MMARR = (nic.byComuneSeries["Macchia"] || {})["Matrimoni"] || [];
+const marRead = MMARR.filter((r) => r.entries !== "\u2014" && r.entries !== "absent");
+const marAbsent = MMARR.filter((r) => r.entries === "absent").length;
+const marPartly = MMARR.filter((r) => r.entries === "\u2014").length;
+const marWith = MMARR.filter((r) => ["one","two","three","four","five"].includes(r.entries));
 const mWith = MDEATHS.filter((r) => ["one","two","three","four","five","six","seven"].includes(r.entries));
 const mSpan = mRead.length
   ? `${Math.min(...mRead.map((r) => Number(r.year)))}\u2013${Math.max(...mRead.map((r) => Number(r.year)))}`
@@ -267,6 +273,32 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
           {MDEATHS.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Macchia's marriages, swept for a Nicotra</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">A marriage act names both sets of parents, so a son of
+    Simone Nicotra marrying here would be written «figlio di Simone Nicotra e Marianna Daidone».
+    <strong>{marRead.length} years, {marRead.length ? `${marRead[0].year}\u2013${marRead[marRead.length - 1].year}` : "\u2014"}, are read</strong>;
+    {marWith.length} hold a Nicotra and {marPartly} are only partly read. {marAbsent} years between 1861 and 1877
+    have no volume. <strong>No marriage names Simone or Marianna</strong>, and no Nicotra groom of the right age
+    turns up. What does turn up is the Milo family again — Cirino (1835), Giuseppe three times over (1841, 1851,
+    1857), Filippo, and four Nicotra daughters who married in — plus a separate household at Sant&rsquo;Alfio,
+    where Simone lived in 1820. None of it is linked to Simone.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
+        <tbody>
+          {MMARR.map((r) => (
             <tr>
               <td class="m"><strong>{r.year}</strong></td>
               <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>

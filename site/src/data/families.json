@@ -29,8 +29,8 @@
  },
  {
   "surname": "Nicotra",
-  "n": 70,
-  "dead": 70,
+  "n": 77,
+  "dead": 77,
   "living": 0,
   "first": 1740,
   "last": 1963,
@@ -133,15 +133,15 @@
  },
  {
   "surname": "Costa",
-  "n": 10,
-  "dead": 10,
+  "n": 11,
+  "dead": 11,
   "living": 0,
   "first": 1750,
   "last": 1840,
   "places": [
    "Scilla",
-   "Italy",
-   "Giarre"
+   "Giarre",
+   "Italy"
   ]
  },
  {
@@ -523,6 +523,17 @@
   "places": []
  },
  {
+  "surname": "Torrisi",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1810,
+  "last": 1930,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Fragala",
   "n": 2,
   "dead": 2,
@@ -678,6 +689,18 @@
   ]
  },
  {
+  "surname": "Catalano",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1809,
+  "last": 1821,
+  "places": [
+   "Giarre",
+   "Piedimonte Etneo"
+  ]
+ },
+ {
   "surname": "Daidone",
   "n": 2,
   "dead": 2,
@@ -700,6 +723,17 @@
   ]
  },
  {
+  "surname": "Vasti",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1814,
+  "last": 1823,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Cupo",
   "n": 1,
   "dead": 1,
@@ -717,15 +751,6 @@
   "living": 1,
   "first": null,
   "last": null,
-  "places": []
- },
- {
-  "surname": "Torrisi",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": 1930,
-  "last": 1930,
   "places": []
  },
  {
@@ -1468,6 +1493,28 @@
   ]
  },
  {
+  "surname": "Caruso",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1832,
+  "last": 1832,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
+  "surname": "Spoto",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1828,
+  "last": 1828,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Barbaro",
   "n": 1,
   "dead": 1,
@@ -1534,6 +1581,17 @@
   ]
  },
  {
+  "surname": "Giomingo",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1827,
+  "last": 1827,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Grimaldi",
   "n": 1,
   "dead": 1,
@@ -1582,8 +1640,8 @@
   "n": 1,
   "dead": 1,
   "living": 0,
-  "first": null,
-  "last": null,
+  "first": 1813,
+  "last": 1813,
   "places": [
    "Giarre"
   ]
@@ -1641,17 +1699,6 @@
   "last": null,
   "places": [
    "Giarre"
-  ]
- },
- {
-  "surname": "Catalano",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": 1809,
-  "last": 1809,
-  "places": [
-   "Piedimonte Etneo"
   ]
  },
  {
@@ -1791,6 +1838,17 @@
   "last": null,
   "places": [
    "Scilla"
+  ]
+ },
+ {
+  "surname": "Sorbello",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1826,
+  "last": 1826,
+  "places": [
+   "Giarre"
   ]
  },
  {

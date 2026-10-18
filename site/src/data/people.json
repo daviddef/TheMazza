@@ -38713,6 +38713,13 @@
   "parents": [],
   "children": [
    {
+    "id": "@Rcirino-nicotra@",
+    "name": "Cirino Nicotra",
+    "slug": "cirino-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rrosario-nicotra-4@",
     "name": "Rosario Nicotra",
     "slug": "rosario-nicotra-1815",
@@ -39053,6 +39060,13 @@
     "slug": "giuseppe-nicotra-1810",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rconcetta-nicotra@",
+    "name": "Concetta Nicotra",
+    "slug": "concetta-nicotra",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -39247,6 +39261,102 @@
   "ancGen": 6
  },
  {
+  "id": "@Rangela-caruso@",
+  "slug": "angela-caruso",
+  "name": "Angela Caruso",
+  "key": "Angela Caruso (wife of Rosario Nicotra, young man of Sant'Alfio)",
+  "given": "Angela",
+  "surname": "Caruso",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1832,
+  "died": null,
+  "bornText": "c. 1832",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1832",
+    "year": 1832,
+    "place": "Giarre",
+    "text": "c. 1832"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1855 atto 30, read in the original"
+  ],
+  "registerNote": "Born at Macchia, daughter of Mariano Caruso and Caterina Tomarchio.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rangela-costa@",
+  "slug": "angela-costa",
+  "name": "Angela Costa",
+  "key": "Angela Costa (wife of Angelo Nicotra, of Sant'Alfio)",
+  "given": "Angela",
+  "surname": "Costa",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1805,
+  "died": null,
+  "bornText": "c. 1805",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1805",
+    "year": 1805,
+    "place": "Giarre",
+    "text": "c. 1805"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1855 atto 30, read in the original"
+  ],
+  "registerNote": "Living at Sant'Alfio in October 1855.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rrosario-nicotra-6@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1828",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rangela-dajdone@",
   "slug": "angela-dajdone",
   "name": "Angela Dajdone",
@@ -39425,6 +39535,110 @@
   "ancGen": null
  },
  {
+  "id": "@Rangela-spoto@",
+  "slug": "angela-spoto",
+  "name": "Angela Spoto",
+  "key": "Angela Spoto (wife of Rosario Lizzio, daughter of Sebastiana Nicotra)",
+  "given": "Angela",
+  "surname": "Spoto",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1828,
+  "died": null,
+  "bornText": "c. 1828",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1828",
+    "year": 1828,
+    "place": "Giarre",
+    "text": "c. 1828"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1849 atto 18, read in the original"
+  ],
+  "registerNote": "Born at Milo, daughter of the late Francesco Spoto and of Sebastiana Nicotra; married Rosario Lizzio in 1849.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsebastiana-nicotra@",
+    "name": "Sebastiana Nicotra",
+    "slug": "sebastiana-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rangela-torrisi@",
+  "slug": "angela-torrisi",
+  "name": "Angela Torrisi",
+  "key": "Angela Torrisi (first wife of Giuseppe Nicotra, the Milo pecoraio)",
+  "given": "Angela",
+  "surname": "Torrisi",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1810,
+  "died": null,
+  "bornText": "c. 1810",
+  "diedText": "before 9 February 1851",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1810",
+    "year": 1810,
+    "place": "Giarre",
+    "text": "c. 1810"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 9 February 1851"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1841 atto 15, read in the original"
+  ],
+  "registerNote": "Born at Macchia, living at Milo; daughter of Venerando Torrisi (66, bracciale) and the late Filippa Sorbello. Married GIUSEPPE NICOTRA, pecoraio, son of Alfio and Lucia Bella, in May 1841; he was a widower again by February 1851. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rangela-zirilli@",
   "slug": "angela-zirilli",
   "name": "Angela Zirilli",
@@ -39496,6 +39710,58 @@
   "photos": [],
   "parents": [],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rangelo-nicotra@",
+  "slug": "angelo-nicotra",
+  "name": "Angelo Nicotra",
+  "key": "Angelo Nicotra (of Sant'Alfio, husband of Angela Costa)",
+  "given": "Angelo",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1795,
+  "died": null,
+  "bornText": "c. 1795",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1795",
+    "year": 1795,
+    "place": "Giarre",
+    "text": "c. 1795"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1855 atto 30, read in the original"
+  ],
+  "registerNote": "A bracciale living at SANT'ALFIO, father of Rosario (b. about 1828 at San Giovanni). NOT LINKED to the Milo Nicotra or to Simone, though Sant'Alfio is the quarter where Simone Nicotra lived in 1820. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rrosario-nicotra-6@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1828",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -39850,6 +40116,20 @@
     "id": "@Rrosario-nicotra-5@",
     "name": "Rosario Nicotra",
     "slug": "rosario-nicotra-1830",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-nicotra@",
+    "name": "Caterina Nicotra",
+    "slug": "caterina-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-6@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1824",
     "living": false,
     "via": "read"
    }
@@ -41166,6 +41446,66 @@
   "ancGen": null
  },
  {
+  "id": "@Rcaterina-nicotra@",
+  "slug": "caterina-nicotra",
+  "name": "Caterina Nicotra",
+  "key": "Caterina Nicotra (wife of Salvadore Vasti, of Salvadore and Anna Costa)",
+  "given": "Caterina",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1821,
+  "died": null,
+  "bornText": "12 February 1821",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "12 February 1821",
+    "year": 1821,
+    "place": "Giarre",
+    "text": "12 February 1821"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Giarre, Nati 1821 atto 58 (Tavola)",
+   "Macchia, Matrimoni 1851 atto 1, read in the original"
+  ],
+  "registerNote": "Born at SANT'ALFIO, living at Milo; married SALVADORE VASTI, 28, of Dagala, son of the late Giuseppe Vasti and Maria Gulisano, in January 1851 (promise 4 January, church 12 January). The first child known of this household, and the only one of five who lived to marry beside Maria. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-3@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-costa@",
+    "name": "Anna Costa",
+    "slug": "anna-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rcirino-nicotra@",
   "slug": "cirino-nicotra",
   "name": "Cirino Nicotra",
@@ -41196,12 +41536,28 @@
   "sources": [],
   "registerSources": [
    "Macchia, Morti 1836 atto 22, 1841 atto 25, 1844 atto 70, read in the original",
-   "1852 atto 130"
+   "1852 atto 130",
+   "Macchia, Matrimoni 1835 atto 2, read in the original"
   ],
-  "registerNote": "A bracciale of Milo and the father of three children who died young, in 1836, 1841 and 1844. Alive in December 1852, when he is a declarant. NOT SHOWN to be a son of the elder Cirino: the name pattern invites it and nothing proves it. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map.",
+  "registerNote": "A bracciale of Milo and the father of three children who died young, in 1836, 1841 and 1844. Alive in December 1852, when he is a declarant. NOT SHOWN to be a son of the elder Cirino: the name pattern invites it and nothing proves it. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map.  UPDATE 18 OCTOBER 2026: Macchia Matrimoni 1835 atto 2 names his parents: «SALVADORE (70, bracciale) and ALFIA CANNAVÒ (50)», of Milo; he was 25, so born about 1809-10, and married ROSA RUSSO (28, born at Acireale) on 19 January 1835. THE SALVADORE IS TAKEN TO BE THE SALVADORE × GIUSEPPA STRANO WHO DIED IN 1838 (same trade, same place, the same two declared ages of «70»); the 1820 marriage act that makes that Salvadore 36 does not fit, and the mother's name (Alfia here, Agata in the 1838 death act) is a second conflict. The link is an inference.",
   "registerGen": "—",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-2@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1784",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfia-cannavò@",
+    "name": "Alfia Cannavò",
+    "slug": "alfia-cannavò",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@Rsalvadore-nicotra-6@",
@@ -41344,6 +41700,65 @@
   "registerGen": "4",
   "photos": [],
   "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rconcetta-nicotra@",
+  "slug": "concetta-nicotra",
+  "name": "Concetta Nicotra",
+  "key": "Concetta Nicotra (wife of Francesco Catalano, of Alfio and Lucia Bella)",
+  "given": "Concetta",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1823,
+  "died": null,
+  "bornText": "c. 1823",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1823",
+    "year": 1823,
+    "place": "Giarre",
+    "text": "c. 1823"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1849 atto 31, read in the original"
+  ],
+  "registerNote": "Born at MILO; married FRANCESCO CATALANO, 28, born at Macchia, bracciale of Milo, son of Rosario Catalano (55) and Giuseppa Torrisi (56). Her mother Lucia di Bello was 60 and living; her father was dead. A sister of Giuseppe (b. about 1810), Vincenza (d. 1832) and Salvadore (d. 1843). MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Ralfio-nicotra-4@",
+    "name": "Alfio Nicotra",
+    "slug": "alfio-nicotra-1783",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rlucia-bella@",
+    "name": "Lucia Bella",
+    "slug": "lucia-bella",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [],
   "spouses": [],
   "siblings": [],
@@ -42274,18 +42689,18 @@
   "sex": "M",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1827,
   "died": null,
-  "bornText": "",
+  "bornText": "c. 1827",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "c. 1827",
+    "year": 1827,
     "place": "Giarre",
-    "text": ""
+    "text": "c. 1827"
    }
   ],
   "birthPlace": "Giarre",
@@ -42294,12 +42709,28 @@
   "trade": "bracciale",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1855 atto 3, read in the original"
+   "Macchia, Morti 1855 atto 3, read in the original",
+   "Macchia, Matrimoni 1851 atto 5, read in the original"
   ],
-  "registerNote": "A bracciale of Milo, father of a daughter of four who died in January 1855.",
+  "registerNote": "A bracciale of Milo, father of a daughter of four who died in January 1855. UPDATE 18 OCTOBER 2026: Macchia Matrimoni 1851 atto 5 (promise 26 January, church 27 January 1851): FILIPPO NICOTRA, 24, born at SANT'ALFIO, bracciale, «figlio del fu SALVADORE e di GIUSEPPA STRANO», 53, living at Milo — the widow of the Salvadore who died in 1838. HE MARRIED GIUSEPPA NICOLOSI, A WIDOW OF 37, so the «daughter of four» who died in January 1855 (Macchia Morti 1855 atto 3) cannot be their child of four years' marriage; she is the widow's child by her first husband, or the age is a clerk's guess.",
   "registerGen": "—",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-2@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1784",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-strano@",
+    "name": "Giuseppa Strano",
+    "slug": "giuseppa-strano",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@Rgiuseppa-nicotra-3@",
@@ -42417,6 +42848,50 @@
   ],
   "registerNote": "A son of ROCCO ARENA'S BROTHER Giovanni, dead at ten days. NOT IN THE FAMILY TREE. His death act fixes the household at VIA GROTTE -- the same street where his brother Giuseppe would be born thirteen months later, at number 75 -- and calls his father a PESCATORE, as Giuseppe's birth act does.",
   "registerGen": "4",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfrancesca-giomingo@",
+  "slug": "francesca-giomingo",
+  "name": "Francesca Giomingo",
+  "key": "Francesca Giomingo (third wife of Giuseppe Nicotra, the Milo pecoraio)",
+  "given": "Francesca",
+  "surname": "Giomingo",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1827,
+  "died": null,
+  "bornText": "c. 1827",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1827",
+    "year": 1827,
+    "place": "Giarre",
+    "text": "c. 1827"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1857 atto 3, read in the original"
+  ],
+  "registerNote": "Born at Macchia, daughter of Raffaello Giomingo (60, bracciale) and Santa Foti (56). Married the widower Giuseppe Nicotra on 12 January 1857.",
+  "registerGen": "—",
   "photos": [],
   "parents": [],
   "children": [],
@@ -42584,6 +43059,50 @@
   ],
   "onSpine": true,
   "ancGen": 6
+ },
+ {
+  "id": "@Rfrancesco-catalano@",
+  "slug": "francesco-catalano",
+  "name": "Francesco Catalano",
+  "key": "Francesco Catalano (husband of Concetta Nicotra)",
+  "given": "Francesco",
+  "surname": "Catalano",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1821,
+  "died": null,
+  "bornText": "c. 1821",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1821",
+    "year": 1821,
+    "place": "Giarre",
+    "text": "c. 1821"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1849 atto 31, read in the original"
+  ],
+  "registerNote": "Born at Macchia, living at Milo.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rfrancesco-cichello@",
@@ -43183,6 +43702,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rgaetano-nicotra-4@",
+  "slug": "gaetano-nicotra-1835",
+  "name": "Gaetano Nicotra",
+  "key": "Gaetano Nicotra (witness of 1866, son of Salvadore and Giuseppa Strano)",
+  "given": "Gaetano",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1835,
+  "died": null,
+  "bornText": "c. 1835",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1835",
+    "year": 1835,
+    "place": "Giarre",
+    "text": "c. 1835"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1866 act 9, read in the original"
+  ],
+  "registerNote": "A witness, domiciled and living at MILO, «figlio di fu SALVADORE e di GIUSEPPA STRANO, d'anni sessanta, domiciliata in borgata Milo». The fourth child known of Salvadore Nicotra and Giuseppa Strano, born the year the 1835 act shows Salvadore at 70. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-2@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1784",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-strano@",
+    "name": "Giuseppa Strano",
+    "slug": "giuseppa-strano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgenerosa-polistena@",
   "slug": "generosa-polistena",
   "name": "Generosa Polistena",
@@ -43587,18 +44165,18 @@
   "sex": "F",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1813,
   "died": null,
-  "bornText": "",
+  "bornText": "c. 1813",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "c. 1813",
+    "year": 1813,
     "place": "Giarre",
-    "text": ""
+    "text": "c. 1813"
    }
   ],
   "birthPlace": "Giarre",
@@ -43607,9 +44185,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1855 atto 3, read in the original"
+   "Macchia, Morti 1855 atto 3, read in the original",
+   "Macchia, Matrimoni 1851 atto 5, read in the original"
   ],
-  "registerNote": "Of Milo; the act writes her Nicoloso.",
+  "registerNote": "Of Milo; the act writes her Nicoloso. UPDATE 18 OCTOBER 2026: a widow of 37, born at Milo, daughter of the late VENERANDO NICOLOSI and the late CARMELA MURABITO, when she married Filippo Nicotra in January 1851. Her first husband is not named.",
   "registerGen": "—",
   "photos": [],
   "parents": [],
@@ -43939,6 +44518,20 @@
     "id": "@Rsalvadore-nicotra-5@",
     "name": "Salvadore Nicotra",
     "slug": "salvadore-nicotra-1824",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippo-nicotra@",
+    "name": "Filippo Nicotra",
+    "slug": "filippo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgaetano-nicotra-4@",
+    "name": "Gaetano Nicotra",
+    "slug": "gaetano-nicotra-1835",
     "living": false,
     "via": "read"
    }
@@ -45430,6 +46023,13 @@
     "slug": "giuseppe-nicotra-1810",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rconcetta-nicotra@",
+    "name": "Concetta Nicotra",
+    "slug": "concetta-nicotra",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -46441,6 +47041,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rmaria-nicotra-6@",
+  "slug": "maria-nicotra-1824",
+  "name": "Maria Nicotra",
+  "key": "Maria Nicotra (youngest known: wife of Salvadore Sorbello, of Salvadore and Anna Costa)",
+  "given": "Maria",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1824,
+  "died": null,
+  "bornText": "c. 1824",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1824",
+    "year": 1824,
+    "place": "Giarre",
+    "text": "c. 1824"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1858 atto 5, read in the original"
+  ],
+  "registerNote": "Born at MILO; married SALVADORE SORBELLO, 32, born at Macchia, son of Alfio (70, bracciale) and Agata Sorbello; promise 31 January, church 8 February 1858. Her parents were then both living at Milo, Salvadore 60 and Anna Costa 60. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-3@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-costa@",
+    "name": "Anna Costa",
+    "slug": "anna-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rmaria-patti@",
   "slug": "maria-patti",
   "name": "Maria Patti",
@@ -46604,6 +47263,58 @@
     "via": "read"
    }
   ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rmaria-vasti@",
+  "slug": "maria-vasti",
+  "name": "Maria Vasti",
+  "key": "Maria Vasti (second wife of Giuseppe Nicotra, the Milo pecoraio)",
+  "given": "Maria",
+  "surname": "Vasti",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1814,
+  "died": null,
+  "bornText": "c. 1814",
+  "diedText": "before 11 January 1857",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1814",
+    "year": 1814,
+    "place": "Giarre",
+    "text": "c. 1814"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 11 January 1857"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1851 atto 11, read in the original"
+  ],
+  "registerNote": "Born at Milo, daughter of the late Gaetano Vasti and of Rosa Fichera (60). Married Giuseppe Nicotra in February 1851 (promise 9 February, church 10 February); he was a widower by January 1857.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
   "children": [],
   "spouses": [],
   "siblings": [],
@@ -48926,12 +49637,20 @@
   "trade": "bracciale",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1834 atto 4, read in the original"
+   "Macchia, Morti 1834 atto 4, read in the original",
+   "Macchia, Matrimoni 1835 atto 2 (his brother's marriage)"
   ],
-  "registerNote": "Unmarried, born at Macchia, a bracciale of Milo, «figlio di SALVADORE, bracciale, domiciliato ivi pure, e della fu ALFIA CANNAVÒ». Not the Rosario of the Simone line. His father is not linked to any one of the Salvadores of this archive.",
+  "registerNote": "Unmarried, born at Macchia, a bracciale of Milo, «figlio di SALVADORE, bracciale, domiciliato ivi pure, e della fu ALFIA CANNAVÒ». Not the Rosario of the Simone line. His father is not linked to any one of the Salvadores of this archive. UPDATE 18 OCTOBER 2026: brother of Cirino Nicotra (Macchia Matrimoni 1835 atto 2: both are sons of Salvadore and Alfia Cannavò), so his father is the Salvadore of that act.",
   "registerGen": "—",
   "photos": [],
   "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-2@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1784",
+    "living": false,
+    "via": "read"
+   },
    {
     "id": "@Ralfia-cannavò@",
     "name": "Alfia Cannavò",
@@ -49003,6 +49722,65 @@
     "id": "@Ranna-costa@",
     "name": "Anna Costa",
     "slug": "anna-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rrosario-nicotra-6@",
+  "slug": "rosario-nicotra-1828",
+  "name": "Rosario Nicotra",
+  "key": "Rosario Nicotra (young man of Sant'Alfio, husband of Angela Caruso)",
+  "given": "Rosario",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1828,
+  "died": null,
+  "bornText": "c. 1828",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1828",
+    "year": 1828,
+    "place": "Giarre",
+    "text": "c. 1828"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1855 atto 30, read in the original"
+  ],
+  "registerNote": "BORN AT SAN GIOVANNI (La Punta), living at Sant'Alfio; married ANGELA CARUSO, 23, born at Macchia, daughter of Mariano Caruso (50) and Caterina Tomarchio. A different Rosario from the Rosario born about 1800 whose father was Simone. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rangelo-nicotra@",
+    "name": "Angelo Nicotra",
+    "slug": "angelo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-costa@",
+    "name": "Angela Costa",
+    "slug": "angela-costa",
     "living": false,
     "via": "read"
    }
@@ -49175,7 +49953,7 @@
    "Giarre, Matrimoni 1820 atto 30",
    "Macchia, Morti 1838 atto 28, read in the original"
   ],
-  "registerNote": "Born at Milo; a bracciale; died in his house at Milo on 24 May 1838, «MARITO DI GIUSEPPA STRANO». Two children are known: Maria (died 1822) and Salvadore (died 1824), both at Macchia. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map. Declarants Gaetano Spoto, 40, and Rosario Fichera, 54, both of Milo.",
+  "registerNote": "Born at Milo; a bracciale; died in his house at Milo on 24 May 1838, «MARITO DI GIUSEPPA STRANO». Two children are known: Maria (died 1822) and Salvadore (died 1824), both at Macchia. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map. Declarants Gaetano Spoto, 40, and Rosario Fichera, 54, both of Milo. UPDATE 18 OCTOBER 2026: HIS CHILDREN BY GIUSEPPA STRANO NOW RUN MARIA (d. 1822), SALVADORE (d. 1824), FILIPPO (b. about 1827 at Sant'Alfio, m. 1851) AND GAETANO (b. about 1835, a witness in 1866). Macchia Matrimoni 1835 atto 2 shows a CIRINO (b. about 1810) and a ROSARIO (b. about 1815) as sons of a Salvadore (70) and Alfia Cannavò, almost certainly the same man by an earlier marriage; the declared ages (36 in 1820, 70 in 1835 and 1838) cannot all be right.",
   "registerGen": "—",
   "photos": [],
   "parents": [
@@ -49206,6 +49984,34 @@
     "id": "@Rsalvadore-nicotra-5@",
     "name": "Salvadore Nicotra",
     "slug": "salvadore-nicotra-1824",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcirino-nicotra@",
+    "name": "Cirino Nicotra",
+    "slug": "cirino-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosario-nicotra-4@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1815",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippo-nicotra@",
+    "name": "Filippo Nicotra",
+    "slug": "filippo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgaetano-nicotra-4@",
+    "name": "Gaetano Nicotra",
+    "slug": "gaetano-nicotra-1835",
     "living": false,
     "via": "read"
    }
@@ -49273,6 +50079,20 @@
     "id": "@Rrosario-nicotra-5@",
     "name": "Rosario Nicotra",
     "slug": "rosario-nicotra-1830",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-nicotra@",
+    "name": "Caterina Nicotra",
+    "slug": "caterina-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-6@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1824",
     "living": false,
     "via": "read"
    }
@@ -49546,6 +50366,94 @@
   "ancGen": null
  },
  {
+  "id": "@Rsalvadore-sorbello@",
+  "slug": "salvadore-sorbello",
+  "name": "Salvadore Sorbello",
+  "key": "Salvadore Sorbello (husband of Maria Nicotra, of Salvadore and Anna Costa)",
+  "given": "Salvadore",
+  "surname": "Sorbello",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1826,
+  "died": null,
+  "bornText": "c. 1826",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1826",
+    "year": 1826,
+    "place": "Giarre",
+    "text": "c. 1826"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1858 atto 5, read in the original"
+  ],
+  "registerNote": "Born at Macchia, a bracciale, son of Alfio Sorbello and Agata Sorbello.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsalvadore-vasti@",
+  "slug": "salvadore-vasti",
+  "name": "Salvadore Vasti",
+  "key": "Salvadore Vasti (husband of Caterina Nicotra)",
+  "given": "Salvadore",
+  "surname": "Vasti",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1823,
+  "died": null,
+  "bornText": "c. 1823",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1823",
+    "year": 1823,
+    "place": "Giarre",
+    "text": "c. 1823"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1851 atto 1, read in the original"
+  ],
+  "registerNote": "Born at Dagala, a bracciale, son of the late Giuseppe Vasti and of Maria Gulisano (60). MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rsanta-dajdone@",
   "slug": "santa-dajdone",
   "name": "Santa Dajdone",
@@ -49759,6 +50667,58 @@
     "id": "@Rpaolo-nicotra@",
     "name": "Paolo Nicotra",
     "slug": "paolo-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsebastiana-nicotra@",
+  "slug": "sebastiana-nicotra",
+  "name": "Sebastiana Nicotra",
+  "key": "Sebastiana Nicotra (widow of Francesco Spoto, mother of Angela Spoto)",
+  "given": "Sebastiana",
+  "surname": "Nicotra",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1796,
+  "died": null,
+  "bornText": "c. 1796",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1796",
+    "year": 1796,
+    "place": "Giarre",
+    "text": "c. 1796"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Matrimoni 1849 atto 18, read in the original"
+  ],
+  "registerNote": "A NICOTRA WOMAN FOUND ONLY INSIDE HER DAUGHTER'S MARRIAGE ACT, which no N-section sweep could reach: living at Milo in 1849, widow of the late FRANCESCO SPOTO, mother of ANGELA SPOTO, who married ROSARIO LIZZIO (29, of S. Giovanni, son of Matteo and Anna Bonomo) on 4 September 1849. NOT LINKED to any other Nicotra. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rangela-spoto@",
+    "name": "Angela Spoto",
+    "slug": "angela-spoto",
     "living": false,
     "via": "read"
    }
