@@ -1,19 +1,54 @@
 ---
+/* /people/<slug>/ - ONE PAGE FOR EVERY PERSON THIS ARCHIVE NAMES, DRAWN BY THE KIT'S SHARED PEOPLE PAGE
+   (PERSON-PAGE-SPEC.md). Pilot on this archive, 17 October 2026 (the second, after Luwinski).
+
+   WHAT THE KIT DECIDES NOW, and this page no longer does: the order and the words of the headings
+   (Family, What the record says, Where this comes from, Others of the same name, Photographs and papers,
+   Notes and corrections), the chart's source words and legend, how a date is written, what a living
+   relative looks like, and what a living person's page may hold. THE LIVING STANDARD (version 2) is the
+   kit's: a living person is named with their relationships and their town and country and nothing more;
+   their page is `noindex`, has no structured data, no table, no image, no year, and the kit's PersonPage
+   does not render a record, a source, a note or a photograph for them at all. tools/check_living_v2.py
+   reads the built pages and still fails on any of it.
+
+   WHO IS LIVING is not decided here. tools/build.py asks tools/living_v2.py (the kit's living_rule.py) and
+   writes `living` into people.json; src/lib/personpage.js hands that answer to the kit's JavaScript rule
+   as `saidLiving`, for those people only, and checks at build time that the rule agrees with the generator
+   about everybody else. No birth year is ever supplied that the data does not hold.
+
+   THIS ARCHIVE MARKS THE PERSON, NOT THE LINK, so the chart is drawn with edgeLevel={false}: its caption says
+   that each person is marked by what is known of them. «A record has been read about them» is `read`, every
+   other relative is `tree`, and an ancestor of the two children is on the direct line (a bar, not a source).
+
+   WHAT THE KIT'S CHART CANNOT SAY, said under it instead of dropped: the count of relationships proved by a
+   record, two children who share a name, the names this archive refuses to merge, and the edges a record
+   contradicts. They are the archive's own prose, moved into the chart's notes slot unchanged.
+
+   WHAT IS THIS ARCHIVE'S OWN: «Why this person is here», «The burial» and «The crossing» are drawn after the
+   six shared sections as kind="more" (the page labels them «this archive only»).
+
+   WHY THIS ROUTE CARRIES KIT COMPONENTS. `people/[slug]` and `people/index` are page names other archives
+   also have, and checkpages counts a shared page name as bespoke if the page uses NO kit component at all;
+   this archive's cap is zero. */
 import { md } from "@daviddef/archive-kit/lib/md.js";
+import PS from "@daviddef/archive-kit/data/public-sources.json";
+import { personMeta, stubReason } from "@daviddef/archive-kit/lib/person.js";
+import PersonPage from "@daviddef/archive-kit/components/PersonPage.astro";
+import PersonSection from "@daviddef/archive-kit/components/PersonSection.astro";
+import "@daviddef/archive-kit/styles/persontree.css";
+import "@daviddef/archive-kit/styles/personpage.css";
 import Base from "../../layouts/Base.astro";
-import P from "../../components/P.astro";
-import PersonTree from "../../components/PersonTree.astro";
 import { u } from "../../lib/url.js";
 import { people, norm } from "../../lib/people.js";
-import stats from "../../data/stats.json";
+import { kitPerson, agreeWithGenerator } from "../../lib/personpage.js";
+import disputed from "../../data/disputed.json";
 import nudgee from "../../data/nudgee.json";
 import ships from "../../data/ships.json";
 import components from "../../data/components.json";
 
 export function getStaticPaths() {
-  /* Everyone in the tree gets a page. The living-suppression rule is off while
-     the archive is being got right; dates for anyone 80 or younger are absent
-     from the data rather than hidden here. See /method. */
+  /* Everyone in the tree gets a page. The living standard (v2) decides what a living person's page holds;
+     dates for anyone 80 or younger are absent from the data rather than hidden here. See /method. */
   return people.map((p) => ({ params: { slug: p.slug }, props: { p } }));
 }
 const { p } = Astro.props;
@@ -27,88 +62,123 @@ const edges = ["parents", "spouses", "children", "siblings"].flatMap((b) => p[b]
 /* «read» is a register act, «index» an index entry; both are a record. «tree»
    is Michael's assertion, and a sibling edge carries no via at all. */
 const provedEdges = edges.filter((e) => e.via === "read" || e.via === "index").length;
+const asserted = edges.length - provedEdges;
 /* A LIVING PERSON: NAME, RELATIONSHIPS, TOWN AND COUNTRY, AND NOTHING MORE
-   (David, 16 October 2026; the estate's living-people standard v2).
-
-   WHO IS LIVING is decided once, in tools/living_v2.py, by the kit's
-   living_rule.py: 80 or younger by year, no death or burial recorded anywhere
-   this archive has read, and no citation from a public record source. It is NOT
-   the old `datesHidden` (the tree alone) and NOT `presumedLiving` (the tree
-   cannot show they died), which was true of 280 people who are plainly dead and
-   who are ordinary pages here. Someone with no birth year is not living by this
-   test.
-
-   The data for a living person is built from name, relationships and town and
-   country only (tools/build.py record()): there is nothing else in
-   people.json for this page to leave out, and this branch is the second lock,
-   not the first. The page is noindex, carries no structured data, no table, no
-   image and no year. An undated person with a living parent is not published at all: there is no page
-   for them and they are nobody's relative. */
-const hidden = !!p.living;
-const place = (v) => v || "";
-const home = place(p.birthPlace || p.deathPlace || p.burialPlace || "");
+   (David, 16 October 2026; the estate's living-people standard v2). The data for a living person is built
+   from name, relationships and town and country only (tools/build.py record()): there is nothing else in
+   people.json for this page to leave out, and the kit is the second lock, not the first. An undated person
+   with a living parent is not published at all: there is no page for them and they are nobody's relative. */
+const living = !!p.living;
+const home = p.birthPlace || p.deathPlace || p.burialPlace || "";
 const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
              christened: "Christened", lived: "Lived", arrival: "Arrived", departure: "Left" };
 
-const dek = p.living
-  ? (home ? `Of ${home}.` : "A living person, named here with their relationships.")
-  : p.ancGen === 0 || p.onSpine
+/* The one sentence under the name, which is also the description. It is the line this page has always had
+   under its name; a living person gets the standard's fixed sentence from the kit instead. */
+const dek = p.ancGen === 0 || p.onSpine
   ? (p.ancGen ? `An ancestor of Mia and Rocco — generation ${p.ancGen} above them.`
               : "One of the two children this archive is for.")
   : home ? `Of ${home}.`
   : edges.length ? "Known from the family tree. No record has been read for this person."
   : "Named in this archive, with no relationship recorded for them yet.";
+
+const person = kitPerson(p, { lede: dek });
+agreeWithGenerator(p, person);
+const meta = personMeta(person, { siteName: "", sources: PS });
+/* PersonPage draws the stub sentence only when NO `record` slot is passed, and Astro counts a slot as passed
+   even when its condition is false, so a conditional slot would leave the heading with nothing under it.
+   The slot is therefore always passed and says the same two things the kit says (PersonPage.astro). */
+const stubNote = "the family tree that names them";
+const stub = living ? null : stubReason(person);
+
+/* The register's own words, kept in the record section wherever the header could not print a date: a bound
+   («before 7 January 1834»), a date with a place after it, a statement that someone was alive. */
+const lifeLine = [p.bornText ? `Born ${p.bornText}` : "", p.diedText ? `died ${p.diedText}` : ""].filter(Boolean).join(" · ");
+const lossy = !living && ((p.bornText && !person.born) || (p.diedText && !person.died));
+
+const events = (p.events || []).filter((e) => e.place || (e.what !== "lived" && e.date));
+const hasCorrections = !living && p.corrections && p.corrections.length > 0;
+const hasRecord = !living && (events.length > 0 || lossy || hasCorrections);
+const dis = living ? {} : (disputed[p.slug] || {});
+const nothing = !edges.length;
+
+/* Names repeat relentlessly in these three towns, and the archive refuses to
+   merge on a name. Where two people in one row answer to the same name, say so
+   — it is usually a dead child's name given again, and it is also exactly how
+   a records-matcher invents one person out of two. */
+const clash = (rows) => {
+  const seen = {};
+  for (const r of rows) seen[r.name] = (seen[r.name] || 0) + 1;
+  return Object.entries(seen).filter(([, n]) => n > 1).map(([n]) => n);
+};
+const clashChildren = clash(p.children || []);
+const clashOther = [...new Set([...clash(p.siblings || []), ...clash(p.parents || []), ...clash(p.spouses || [])])];
+const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--terra)",
+                  tree: "var(--ink-3)", via: "var(--ink-3)", gen: "var(--terra)" };
 ---
-<Base title={p.name}
-      noindex={hidden}
-      eyebrow={p.living ? "A living person"
-        : ([p.born, p.died].filter(Boolean).join("–")
-           || [p.bornText, p.diedText].filter(Boolean).join(" – ")
-           || p.surname || "Dates unrecorded")}
-      dek={dek}>
+<Base title={meta.title} dek={meta.description} noindex={meta.noindex} person={meta.about ?? undefined} ownHeading>
 
-  <PersonTree person={p} />
+  <PersonPage person={person} peopleHref={u("/people/")} edgeLevel={false} palette={palette}
+              stubNote={stubNote}>
 
-  {p.fromRegister && (
-    <p class="note" style="margin-bottom:26px"><strong>This person is not in the family's
-    file.</strong> They exist here because an act names them, and this archive has read it.
-    {p.trade ? ` The register gives their trade as ${p.trade}.` : ""}
-    {(p.registerSources || []).length > 0 && (<>
-      {" "}The reading is <strong>{p.registerSources.join("; ")}</strong>.</>)}
-    {" "}Nothing on this page comes from Michael's export, which never held them — so there is no
-    tree account here to agree or disagree with, and the
-    <a href={u("/components/")}> pieces the export arrived in</a> do not include them.
-    <a href={u("/ancestors/")}> How many there are →</a></p>
-  )}
+    <Fragment slot="chart-notes">
+      {nothing && (
+        <p class="warn">No family record in this archive names this person &mdash; not as a
+          child, not as a spouse, not as a parent. They are held here because the
+          tree holds them, and no relationship of theirs is recorded to draw.</p>
+      )}
+      {/* "Every relationship drawn here" reads as a boast about nothing when none is
+          drawn, and it is the same fault as the empty chart: a sentence about a set
+          that happens to be empty. */}
+      {!nothing && provedEdges === 0 && <p class="warn"><strong>Every relationship drawn here comes from the
+      family tree, and not one of them has yet been proved by a record.</strong> That is the honest
+      state of this archive for this person: the chart shows what Michael Mazza's tree asserts, and the
+      colour tells you only whether anything at all has been read about the person at the other end.
+      <a href={u("/method/")}>The method &rarr;</a></p>}
+      {!nothing && provedEdges > 0 && asserted > 0 && <p class="warn"><strong>{provedEdges} of the
+      {" " + edges.length} relationships drawn here have been proved by a record</strong>; the other
+      {" " + asserted} come from Michael Mazza's family tree and have not. The colour on each edge says
+      which is which, and it is drawn per edge so that one proved link cannot vouch for the rest.
+      <a href={u("/method/")}>The method &rarr;</a></p>}
+      {!nothing && provedEdges > 0 && asserted === 0 && <p class="warn"><strong>Every relationship drawn
+      here has been proved by a record</strong> — {edges.length === 1 ? "the one edge on this chart was"
+      : `all ${edges.length} edges on this chart were`} read out of a register rather than taken from
+      the family tree. <a href={u("/method/")}>The method &rarr;</a></p>}
+      {clashChildren.length ? (
+        <p class="warn"><strong>Two children here carry one name</strong> — {clashChildren.join(", ")}.
+        In these towns that is usually not an error: <strong>a child who died was very often replaced
+        by a later child given the same name.</strong> It is also exactly how a records-matcher invents
+        one person out of two, which is why they are kept apart here and the reader is told.</p>
+      ) : null}
+      {clashOther.length ? (
+        <p class="warn"><strong>More than one person in this row carries the same name</strong> —
+        {" " + clashOther.join(", ")}. That is what the source says. <strong>This archive does not merge
+        records on a name</strong>, so they are drawn separately even where one duplicated entry is the
+        likelier explanation. <a href={u("/open-questions/")}>The 58 names it refuses to merge →</a></p>
+      ) : null}
+    </Fragment>
 
-  {p.registerNote && (
-    <div class="card" style="margin-bottom:26px">
-      <h2 class="ct">Why this person is here</h2>
-      <p class="small" style="margin-top:10px;white-space:pre-line" set:html={md(p.registerNote)} />
-    </div>
-  )}
+    {Object.keys(dis).length ? (
+      <figcaption class="disputed-note" slot="after">
+        <strong>One or more of the lines above is contradicted by a record this archive has read.</strong>
+        <ul>
+          {Object.entries(dis).map(([slug, d]) => (
+            <li><a href={u("/people/" + slug)}>{slug.replace(/-/g, " ")}</a> — {d.why}</li>
+          ))}
+        </ul>
+        <p>The chart still draws the family tree exactly as it was given. This archive does not
+        silently rewrite someone else's research — it marks the edge and shows its working.</p>
+      </figcaption>
+    ) : null}
 
-  {!p.living && p.comp !== 1 && comp && (
-    <p class="note" style="margin-bottom:26px">This person is in
-    <strong> component {p.comp}</strong> of the export — a group of {comp.n}
-    {comp.towns.length ? ` mostly of ${comp.towns[0].name}` : ""} that
-    <strong> no record joins</strong> to the line reaching Mia and Rocco.
-    They are very probably kin. The archive does not yet say how.
-    <a href={u("/open-questions/")}>Why →</a></p>
-  )}
-
-  <div class="grid two">
-    <div class="card">
-      <h2 class="ct">{p.living ? "Where" : "What is recorded"}</h2>
-      {p.living ? (
-        <p class="small" style="margin-top:10px">{home
-          ? <>Of <strong>{home}</strong>.</>
-          : "No town is recorded for this person."}</p>
-      ) : p.events && p.events.length ? (
-        <div class="rec" style="margin-top:12px">
-          {p.events.filter((e) => e.place || (e.what !== "lived" && e.date)).map((e) => (<>
+    <Fragment slot="record">
+      {hasRecord ? (<>
+      {lossy && <p class="small"><strong>{lifeLine}</strong></p>}
+      {events.length ? (
+        <div class="rec">
+          {events.map((e) => (<>
             <div class="k">{EV[e.what] || e.what}</div>
-            <div class="v">{place(e.place) || "\u2014"}</div>
+            <div class="v">{e.place || "—"}</div>
             {/* e.text is the register's own wording where the date is a bound:
                 «before 7 October 1872» is what the act supports, and 1872 is
                 not. e.date is empty for those by design — see
@@ -116,10 +186,7 @@ const dek = p.living
             <div class="w">{e.date || e.text || ""}</div>
           </>))}
         </div>
-      ) : (
-        <p class="small" style="margin-top:10px">Nothing but a name and a place in the family. This
-        person is known only because somebody else's record names them.</p>
-      )}
+      ) : null}
       {/* A reader who skims stops at the block above, and the block above is the
           TREE's account. Where a register contradicts it the correction is
           further down the page, and Maria Nicotra is the case that showed this
@@ -130,25 +197,39 @@ const dek = p.living
           corrections.tsv carries prose and not a field name, and guessing which
           fact a paragraph is about is exactly the kind of inference this archive
           refuses. So it says that one of them is, and where to look. */}
-      {!p.living && p.corrections && p.corrections.length ? (
-        <p class="small" style="margin-top:10px">
+      {hasCorrections ? (
+        <p class="small">
           <strong>A register contradicts what is written above.</strong> The lines in this block are
           the family tree's account. {p.corrections.length === 1 ? "One reading" : `${p.corrections.length} readings`}
           {" "}taken from the original acts {p.corrections.length === 1 ? "disagrees" : "disagree"} with
           it — <a href="#disputed">what the registers say →</a>
         </p>
       ) : null}
-      {p.living && (
-        <p class="small" style="margin-top:14px"><strong>A living person</strong> (80 or younger, with
-        no death recorded) <strong>is named with their relationships and their town and country, and
-        nothing more.</strong> This page has no dates, no records, no sources and no photograph,
-        because none are built for them, and it is kept out of search engines and the sitemap.
-        See <a href={u("/method/#living")}>Method</a>.</p>
-      )}
-    </div>
+      </>) : stub
+        ? <p class="pnone pstub">Known only from {stubNote}; nothing else is recorded yet.</p>
+        : <p class="pnone">No event is recorded for this person in this archive.</p>}
+    </Fragment>
 
-    <div class="card">
-      <h2 class="ct">Where this comes from</h2>
+    <Fragment slot="sources">
+      {p.fromRegister && (
+        <p class="small"><strong>This person is not in the family's
+        file.</strong> They exist here because an act names them, and this archive has read it.
+        {p.trade ? ` The register gives their trade as ${p.trade}.` : ""}
+        {(p.registerSources || []).length > 0 && (<>
+          {" "}The reading is <strong>{p.registerSources.join("; ")}</strong>.</>)}
+        {" "}Nothing on this page comes from Michael's export, which never held them — so there is no
+        tree account here to agree or disagree with, and the
+        <a href={u("/components/")}> pieces the export arrived in</a> do not include them.
+        <a href={u("/ancestors/")}> How many there are →</a></p>
+      )}
+      {p.comp !== 1 && comp && (
+        <p class="small">This person is in
+        <strong> component {p.comp}</strong> of the export — a group of {comp.n}
+        {comp.towns.length ? ` mostly of ${comp.towns[0].name}` : ""} that
+        <strong> no record joins</strong> to the line reaching Mia and Rocco.
+        They are very probably kin. The archive does not yet say how.
+        <a href={u("/open-questions/")}>Why →</a></p>
+      )}
       <p class="small">
         {/* COUNTED, because this sentence was false on 660 of these pages and on
             Salvatore Mazza's it contradicted the chart directly above it: the
@@ -167,103 +248,72 @@ const dek = p.living
                 the family tree.</span>
               : <span><strong>{provedEdges} of the {edges.length}</strong> relationships drawn above
                 have been <strong>proved by a record</strong> this archive has read. The other
-                {" " + (edges.length - provedEdges)} come from
+                {" " + asserted} come from
                 <strong> Michael Mazza's family tree</strong> and have not.</span>
           : <span>No relationship is recorded for this person.</span>}
       </p>
-      {p.living ? (
-        <p class="small" style="margin-top:12px">What this archive holds about a living person is not
-        published beyond the relationships above.</p>
-      ) : p.records && p.records.length ? (
+      {p.records && p.records.length ? (
         <>
-          <p class="small" style="margin-top:12px"><strong>{p.records.length} record{p.records.length === 1 ? " has" : "s have"} been
+          <p class="small"><strong>{p.records.length} record{p.records.length === 1 ? " has" : "s have"} been
           read about them:</strong></p>
-          <ul style="margin:.4rem 0 0;padding-left:18px;font-family:var(--sans);font-size:13px;line-height:1.6;color:var(--ink-2)">
+          <ul class="small" style="margin:.4rem 0 0;padding-left:18px;font-family:var(--sans);font-size:13px;line-height:1.6;color:var(--ink-2)">
             {p.records.map((r) => (
               <li><a href={u(r.href)}>{r.what}</a> <span style="color:var(--ink-3)">— {r.kind}</span></li>
             ))}
           </ul>
         </>
       ) : (
-        <p class="small" style="margin-top:12px"><strong>No record has been read for this person.</strong>
+        <p class="small"><strong>No record has been read for this person.</strong>
         {" "}What is known of them is what the tree asserts, and it is <strong>unverified</strong>.</p>
       )}
-      {!p.living && p.corrections && p.corrections.length ? (
-        <div class="note" style="margin-top:14px" id="disputed">
-          <strong>What a register says about this person, which the tree does not.</strong>
-          {p.corrections.map((c) => <p style="margin-top:.5rem">{c}</p>)}
-          <p style="margin-top:.5rem" class="small">Where the two disagree, <strong>the chart above
-          still draws the tree as it stands</strong>. This archive does not silently rewrite what it
-          was given — <a href={u("/scilla/")}>the acts are here</a>.</p>
-        </div>
-      ) : null}
-      {!p.living && p.onSpine && (
-        <p class="small" style="margin-top:12px"><a href={u("/ancestors/")}>See this generation on the ancestors page →</a></p>
+      {p.onSpine && (
+        <p class="small"><a href={u("/ancestors/")}>See this generation on the ancestors page →</a></p>
       )}
-      <p class="small" style="margin-top:12px">{!p.living && <><strong>Component {p.comp}</strong> ·</>}
+      <p class="small">{p.comp != null && <><strong>Component {p.comp}</strong> ·</>}
         <a href={u("/people/") + "?q=" + encodeURIComponent(p.surname)}> every {p.surname || "person"} in the archive →</a></p>
-    </div>
-  </div>
+    </Fragment>
 
-  {grave && (
-    <section class="blk">
-      <div class="lab">Read from the register</div>
-      <h2 style="margin-top:.4rem;font-size:26px">The burial</h2>
-      <div class="rec" style="margin-top:14px">
-        <div class="k">Plot</div><div class="v"><strong>{grave.plot}</strong></div><div class="w">{grave.cemetery}</div>
-        <div class="k">Born</div><div class="v">{grave.birth || "—"}</div><div class="w"></div>
-        <div class="k">Died</div><div class="v">{grave.death || "—"}</div><div class="w"></div>
-        <div class="k">Interred</div><div class="v">{grave.interment || "—"}</div><div class="w"></div>
-        <div class="k">Entered as</div><div class="v">{grave.registerName}</div><div class="w"></div>
-      </div>
-      <p class="cap">Brisbane Catholic Cemeteries deceased register, read 10 September 2026.
-      <a href={u("/nudgee/")}> Nudgee →</a></p>
-      {fixes.length > 0 && (
-        <p class="note" style="margin-top:16px">The register <strong>corrects the family tree</strong>
-        here: {fixes.map((c, i) => (<>{i > 0 && "; "}{c.field === "birth" ? "born" : "died"}
-        {" "}<span style="text-decoration:line-through;color:var(--ink-3)">{c.was}</span> → <strong>{c.now}</strong></>))}.
-        The site uses the register.</p>
-      )}
-    </section>
-  )}
+    {/* The sections below are optional, and Astro counts a conditional named slot as passed even when its
+        condition is false (an empty heading, a claim made in silence), so they are PersonSection elements in
+        the default slot, which PersonPage draws after the first three in the order they are written here:
+        the same ids and the same headings as the kit's slots, only present when there is something to say. */}
+    {sameName.length > 0 && (
+    <PersonSection kind="namesakes">
+      <p class="small">These three towns repeat their names relentlessly — this
+      archive holds four men called Rosario Mazza and four called Giuseppe Arena.
+      <strong> These are different people, kept apart on purpose rather than merged into one.</strong>
+      <a href={u("/method/")}> Why →</a></p>
+      <ul style="margin:.8rem 0 0;padding-left:18px;font-family:var(--sans);font-size:13.5px;line-height:1.8">
+        {sameName.map((q) => (
+          <li><a href={u("/people/" + q.slug)}>{q.name}</a>
+            <span style="color:var(--ink-3)"> — {q.living ? "a living person"
+              : ([q.born, q.died].filter(Boolean).join("–") || "undated")}
+              {q.birthPlace ? `, ${q.birthPlace}` : ""}{q.living || q.comp == null ? "" : `, component ${q.comp}`}</span></li>
+        ))}
+      </ul>
+    </PersonSection>
+    )}
 
-  {ship && (
-    <section class="blk">
-      <div class="lab">Read from the passenger index</div>
-      <h2 style="margin-top:.4rem;font-size:26px">The crossing</h2>
-      <div class="rec" style="margin-top:14px">
-        <div class="k">Ship</div><div class="v"><strong><em>{ship.ship.charAt(0) + ship.ship.slice(1).toLowerCase()}</em></strong></div><div class="w">{ship.confidence}</div>
-        <div class="k">Sailed from</div><div class="v">{ship.naaFrom}</div><div class="w"></div>
-        <div class="k">Arrived</div><div class="v">{ship.naaPort}</div><div class="w">{ship.naaDate}</div>
-        <div class="k">NAA item</div><div class="v"><a href={`https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?Number=${ship.itemId}`} rel="noopener">{ship.itemId}</a></div><div class="w"></div>
-      </div>
-      <p class="cap">{ship.note} — National Archives of Australia, passenger arrivals index
-      1898–1972, read 10 September 2026. <a href={u("/crossings/")}>The crossings →</a></p>
-    </section>
-  )}
+    {/* NO IMAGE IS RENDERED LARGER THAN IT IS.
+        This grid had width:100% in cells of at least 190px, so an image held
+        at 132x161 was stretched past its own resolution and shown blurred.
+        Angela Mazza's lead photograph was one: 132x161, 3,901 bytes, a
+        complete and valid JPEG and simply small — MyHeritage held no more of
+        it, and the signed links expired on 16 September 2026, so there is no
+        better copy to fetch. Eleven of the archive's 133 images are under
+        190px wide and every one of them was being upscaled.
 
-  {/* NO PHOTOGRAPH OF A LIVING PERSON (16 October 2026). `hidden` is the estate's
-      living test (tools/living_v2.py). A living person has no photographs in
-      people.json at all, and the files themselves are withdrawn from the build. The
-      page is noindex, so it is out of the sitemap and the search index. */}
-  {!hidden && p.photos && p.photos.length > 0 && (
-    <section class="blk">
-      <h2 style="font-size:26px">Photographs</h2>
-      {/* NO IMAGE IS RENDERED LARGER THAN IT IS.
-          This grid had width:100% in cells of at least 190px, so an image held
-          at 132x161 was stretched past its own resolution and shown blurred.
-          Angela Mazza's lead photograph was one: 132x161, 3,901 bytes, a
-          complete and valid JPEG and simply small — MyHeritage held no more of
-          it, and the signed links expired on 16 September 2026, so there is no
-          better copy to fetch. Eleven of the archive's 133 images are under
-          190px wide and every one of them was being upscaled.
+        width:auto with max-width:100% is the whole fix: a large photograph
+        still shrinks to its cell, and a small one is drawn at the size it
+        actually is. A small photograph ought to look small. Pretending
+        otherwise is the same habit as a sentence claiming more than the data
+        holds, which is most of what this week's work has been about.
 
-          width:auto with max-width:100% is the whole fix: a large photograph
-          still shrinks to its cell, and a small one is drawn at the size it
-          actually is. A small photograph ought to look small. Pretending
-          otherwise is the same habit as a sentence claiming more than the data
-          holds, which is most of what this week's work has been about. */}
-      <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(190px,1fr));margin-top:14px">
+        NO PHOTOGRAPH OF A LIVING PERSON (16 October 2026): a living person has no photographs in people.json
+        at all, the files themselves are withdrawn from the build, and the kit does not draw the slot. */}
+    {!living && p.photos && p.photos.length > 0 && (
+    <PersonSection kind="media">
+      <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(190px,1fr))">
         {p.photos.map((f) => {
           const wh = (p.photoSize || {})[f];
           const small = wh && wh[0] < 190;
@@ -273,36 +323,72 @@ const dek = p.living
                  width={wh ? wh[0] : undefined} height={wh ? wh[1] : undefined}
                  loading="lazy" decoding="async"
                  style="border:1px solid var(--rule);border-radius:3px;display:block;width:auto;max-width:100%;margin:0 auto;height:auto" />
-            {small && (
-              <figcaption class="cap" style="margin-top:6px;text-align:center">
-                Held only at {wh[0]}&times;{wh[1]}. <strong>A better scan would help.</strong>
-              </figcaption>
-            )}
+            <figcaption class="cap" style="margin-top:6px;text-align:center">
+              {p.name}, from the family's own tree.
+              {small && (<> Held only at {wh[0]}&times;{wh[1]}. <strong>A better scan would help.</strong></>)}
+            </figcaption>
           </figure>);
         })}
       </div>
       <p class="cap">From the family's own tree, contributed by Michael Mazza and relatives. Almost
       none are captioned — <strong>identifications are the most valuable thing you can send.</strong></p>
-    </section>
-  )}
+    </PersonSection>
+    )}
 
-  {sameName.length > 0 && (
-    <section class="blk">
-      <h2 style="font-size:26px">Others of the same name</h2>
-      <p class="small" style="margin-top:8px">These three towns repeat their names relentlessly — this
-      archive holds four men called Rosario Mazza and four called Giuseppe Arena.
-      <strong> These are different people, kept apart on purpose rather than merged into one.</strong>
-      <a href={u("/method/")}> Why →</a></p>
-      <ul style="margin:.8rem 0 0;padding-left:18px;font-family:var(--sans);font-size:13.5px;line-height:1.8">
-        {sameName.map((q) => (
-          <li><a href={u("/people/" + q.slug)}>{q.name}</a>
-            <span style="color:var(--ink-3)"> — {q.living ? "a living person"
-              : ([q.born, q.died].filter(Boolean).join("–") || "undated")}
-              {q.birthPlace ? `, ${q.birthPlace}` : ""}{q.living ? "" : `, component ${q.comp}`}</span></li>
-        ))}
-      </ul>
-    </section>
-  )}
+    {hasCorrections && (
+    <PersonSection kind="notes">
+      <div class="note" id="disputed">
+        <strong>What a register says about this person, which the tree does not.</strong>
+        {p.corrections.map((c) => <p style="margin-top:.5rem">{c}</p>)}
+        <p style="margin-top:.5rem" class="small">Where the two disagree, <strong>the chart above
+        still draws the tree as it stands</strong>. This archive does not silently rewrite what it
+        was given — <a href={u("/scilla/")}>the acts are here</a>.</p>
+      </div>
+    </PersonSection>
+    )}
 
-  <p class="small" style="margin-top:2rem"><a href={u("/people/")}>← All {stats.people} people</a></p>
+    {/* The archive's own sections, drawn after the six the kit shares (kind="more": the page labels
+        each «this archive only»). A living person has none: the kit does not draw the default slot for
+        them, and `grave`, `fixes` and `ship` are null for them in any case. */}
+    {p.registerNote && (
+      <PersonSection kind="more" title="Why this person is here">
+        <p class="small" style="white-space:pre-line" set:html={md(p.registerNote)} />
+      </PersonSection>
+    )}
+
+    {grave && (
+      <PersonSection kind="more" title="The burial">
+        <div class="lab">Read from the register</div>
+        <div class="rec" style="margin-top:14px">
+          <div class="k">Plot</div><div class="v"><strong>{grave.plot}</strong></div><div class="w">{grave.cemetery}</div>
+          <div class="k">Born</div><div class="v">{grave.birth || "—"}</div><div class="w"></div>
+          <div class="k">Died</div><div class="v">{grave.death || "—"}</div><div class="w"></div>
+          <div class="k">Interred</div><div class="v">{grave.interment || "—"}</div><div class="w"></div>
+          <div class="k">Entered as</div><div class="v">{grave.registerName}</div><div class="w"></div>
+        </div>
+        <p class="cap">Brisbane Catholic Cemeteries deceased register, read 10 September 2026.
+        <a href={u("/nudgee/")}> Nudgee →</a></p>
+        {fixes.length > 0 && (
+          <p class="note" style="margin-top:16px">The register <strong>corrects the family tree</strong>
+          here: {fixes.map((c, i) => (<>{i > 0 && "; "}{c.field === "birth" ? "born" : "died"}
+          {" "}<span style="text-decoration:line-through;color:var(--ink-3)">{c.was}</span> → <strong>{c.now}</strong></>))}.
+          The site uses the register.</p>
+        )}
+      </PersonSection>
+    )}
+
+    {ship && (
+      <PersonSection kind="more" title="The crossing">
+        <div class="lab">Read from the passenger index</div>
+        <div class="rec" style="margin-top:14px">
+          <div class="k">Ship</div><div class="v"><strong><em>{ship.ship.charAt(0) + ship.ship.slice(1).toLowerCase()}</em></strong></div><div class="w">{ship.confidence}</div>
+          <div class="k">Sailed from</div><div class="v">{ship.naaFrom}</div><div class="w"></div>
+          <div class="k">Arrived</div><div class="v">{ship.naaPort}</div><div class="w">{ship.naaDate}</div>
+          <div class="k">NAA item</div><div class="v"><a href={`https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?Number=${ship.itemId}`} rel="noopener">{ship.itemId}</a></div><div class="w"></div>
+        </div>
+        <p class="cap">{ship.note} — National Archives of Australia, passenger arrivals index
+        1898–1972, read 10 September 2026. <a href={u("/crossings/")}>The crossings →</a></p>
+      </PersonSection>
+    )}
+  </PersonPage>
 </Base>
