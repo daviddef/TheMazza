@@ -75,7 +75,7 @@ GENERATED_PREFIXES = (
 )
 GENERATED_SITE = {
     "additions", "ancestors", "arneytown", "audit-negatives", "australia-graves", "briatico-line", "burials",
-    "census", "components", "corrections", "coverage", "crossings", "disputed", "documented-line",
+    "census", "components", "corrections", "coverage", "crossings", "disputed", "documented-line", "era-places", "era-snapshot",
     "documented-parents", "ellis", "families", "findmypast", "focus", "holdings", "households", "instruments",
     "living", "mazza-births", "name-evidence", "namefold", "nicotra", "nudgee", "ny-children", "people",
     "person-slugs", "places", "qld-bdm", "quarters", "questions", "read-names", "reads", "records", "scilla-matr-1913", "scilla-reads",

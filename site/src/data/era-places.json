@@ -1,0 +1,187 @@
+{
+ "_about": "Built by tools/build_era.py from data/era-ground.tsv. Place as printed -> {region, lat, lon}, or null where no Atlas region covers it. Read by kit erasnap.py.",
+ "places": {
+  "America": null,
+  "Arneytown, Burlington County, New Jersey": null,
+  "Austria": null,
+  "Bagnara Calabra, Calabria, Italy": {
+   "lat": 38.2885,
+   "lon": 15.8078,
+   "region": "calabria"
+  },
+  "Bergamo, Lombardia, Italy": null,
+  "Briatico, Vibo Valentia, Calabria": {
+   "lat": 38.7253,
+   "lon": 16.0324,
+   "region": "calabria"
+  },
+  "Brisbane, Queensland": {
+   "lat": -27.469,
+   "lon": 153.0235,
+   "region": "queensland"
+  },
+  "Buenos Aires, Argentina": null,
+  "Catania, Sicily": {
+   "lat": 37.5024,
+   "lon": 15.0874,
+   "region": "sicily"
+  },
+  "Catanzaro, Calabria": {
+   "lat": 38.83,
+   "lon": 16.4316,
+   "region": "calabria"
+  },
+  "Cosenza, Calabria, Italy": {
+   "lat": 39.5967,
+   "lon": 16.3331,
+   "region": "calabria"
+  },
+  "Fremantle, Western Australia": null,
+  "Genoa, Liguria": null,
+  "Giarre": {
+   "lat": 37.7269,
+   "lon": 15.1877,
+   "region": "sicily"
+  },
+  "Giarre, Catania, Sicily": {
+   "lat": 37.7269,
+   "lon": 15.1877,
+   "region": "sicily"
+  },
+  "Italy": null,
+  "Jackson, Ocean, New Jersey": null,
+  "Lismore NSW": null,
+  "Lismore, Lismore City, New South Wales, Australia": null,
+  "Mandaradoni (Briatico), Vibo Valentia, Calabria": {
+   "lat": 38.6831,
+   "lon": 15.985,
+   "region": "calabria"
+  },
+  "Mascali": {
+   "lat": 37.7603,
+   "lon": 15.1974,
+   "region": "sicily"
+  },
+  "Mascali, Catania, Sicily": {
+   "lat": 37.7603,
+   "lon": 15.1974,
+   "region": "sicily"
+  },
+  "Melbourne, Victoria": null,
+  "Messina, Sicily": {
+   "lat": 38.1938,
+   "lon": 15.5542,
+   "region": "sicily"
+  },
+  "Miami, Florida, USA": null,
+  "Mirabella Eclano, Avellino, Campania, Italy": {
+   "lat": 41.0449,
+   "lon": 14.9987,
+   "region": "campania"
+  },
+  "Murwillumbah NSW": null,
+  "Naples, Campania": {
+   "lat": 40.8359,
+   "lon": 14.2488,
+   "region": "campania"
+  },
+  "New Orleans, Louisiana": null,
+  "New York, New York": null,
+  "Newcastle, New South Wales, Australia": null,
+  "Nudgee, Brisbane, Queensland": {
+   "lat": -27.469,
+   "lon": 153.0235,
+   "region": "queensland"
+  },
+  "Palermo, Sicily": null,
+  "Piedimonte Etneo": {
+   "lat": 37.8067,
+   "lon": 15.1782,
+   "region": "sicily"
+  },
+  "Piedimonte Etneo, Catania, Sicily": {
+   "lat": 37.8067,
+   "lon": 15.1782,
+   "region": "sicily"
+  },
+  "Pizzo": {
+   "lat": 38.7357,
+   "lon": 16.1623,
+   "region": "calabria"
+  },
+  "Pizzo, Vibo Valentia, Calabria": {
+   "lat": 38.7357,
+   "lon": 16.1623,
+   "region": "calabria"
+  },
+  "Postuman, Veneto, Italy": null,
+  "Potenzioni, Catanzaro Calabria, Italy": {
+   "lat": 38.83,
+   "lon": 16.4316,
+   "region": "calabria"
+  },
+  "Potenzoni (Briatico), Vibo Valentia, Calabria": {
+   "lat": 38.6904,
+   "lon": 16.0036,
+   "region": "calabria"
+  },
+  "Queensland": {
+   "lat": -22.1647,
+   "lon": 144.5845,
+   "region": "queensland"
+  },
+  "Queensland, Australia": {
+   "lat": -22.1647,
+   "lon": 144.5845,
+   "region": "queensland"
+  },
+  "Reggio Calabria, Città Metropolitana di Reggio Calabria, Calabria, Italy": {
+   "lat": 38.1035,
+   "lon": 15.6398,
+   "region": "calabria"
+  },
+  "Riposto": {
+   "lat": 37.7319,
+   "lon": 15.2042,
+   "region": "sicily"
+  },
+  "Scilla": {
+   "lat": 38.2507,
+   "lon": 15.719,
+   "region": "calabria"
+  },
+  "Scilla, Reggio Calabria": {
+   "lat": 38.2507,
+   "lon": 15.719,
+   "region": "calabria"
+  },
+  "Scillla": {
+   "lat": 38.2507,
+   "lon": 15.719,
+   "region": "calabria"
+  },
+  "Serrata, Città Metropolitana di Reggio Calabria, Calabria, Italy": {
+   "lat": 38.5129,
+   "lon": 16.1007,
+   "region": "calabria"
+  },
+  "Sicily": null,
+  "Sorianno Calabro": {
+   "lat": 38.5969,
+   "lon": 16.2304,
+   "region": "calabria"
+  },
+  "Sydney, New South Wales": null,
+  "Township of Washington, New Jersey": null,
+  "Tully, Queensland": {
+   "lat": -17.934,
+   "lon": 145.9232,
+   "region": "queensland"
+  },
+  "Zambrone": {
+   "lat": 38.6991,
+   "lon": 15.9901,
+   "region": "calabria"
+  }
+ }
+}

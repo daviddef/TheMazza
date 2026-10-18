@@ -1,0 +1,59 @@
+# Which Record Atlas region (regions.json) each place string this archive prints on a person's page belongs to, for the 'at the time' notes
+# (site/src/pages/people/[slug].astro, kit/docs/era-notes.md). One row per place string AS PRINTED. A region of '-' means: looked at, and no
+# Atlas region covers it, so that place gets no note. A new place string in people.json fails tools/build_era.py until it is decided here.
+# Mapped by hand against the Atlas's regions and rings; erasnap.py then refuses any place whose coordinates fall in a DIFFERENT region's ring.
+place	region	why
+Bagnara Calabra, Calabria, Italy	calabria	inside the 'calabria' ring
+Briatico, Vibo Valentia, Calabria	calabria	a frazione or the comune of Briatico, Vibo Valentia: the Atlas region 'calabria' names Briatico and its ring covers it
+Catanzaro, Calabria	calabria	inside the 'calabria' ring
+Cosenza, Calabria, Italy	calabria	inside the 'calabria' ring
+Mandaradoni (Briatico), Vibo Valentia, Calabria	calabria	a frazione or the comune of Briatico, Vibo Valentia: the Atlas region 'calabria' names Briatico and its ring covers it
+Pizzo	calabria	Pizzo, Vibo Valentia: inside the 'calabria' ring
+Pizzo, Vibo Valentia, Calabria	calabria	inside the 'calabria' ring
+Potenzioni, Catanzaro Calabria, Italy	calabria	a spelling of the Briatico frazione, or Catanzaro province: Calabria either way; inside the 'calabria' ring
+Potenzoni (Briatico), Vibo Valentia, Calabria	calabria	a frazione or the comune of Briatico, Vibo Valentia: the Atlas region 'calabria' names Briatico and its ring covers it
+Reggio Calabria, Città Metropolitana di Reggio Calabria, Calabria, Italy	calabria	Reggio Calabria is in Calabria, but the Atlas draws its Sicily ring over the city: erasnap.py refuses it on the coordinates, so no note (a town on a ring's edge must not be given its neighbour's era)
+Scilla	calabria	Scilla, Reggio Calabria (place-spellings.tsv: the same town without the province): inside the 'calabria' ring
+Scilla, Reggio Calabria	calabria	inside the 'calabria' ring
+Scillla	calabria	a keyboard slip for Scilla (place-spellings.tsv); inside the 'calabria' ring
+Serrata, Città Metropolitana di Reggio Calabria, Calabria, Italy	calabria	Serrata, Reggio Calabria province: inside the 'calabria' ring
+Sorianno Calabro	calabria	a slip for Soriano Calabro, Vibo Valentia (place-spellings.tsv): inside the 'calabria' ring
+Zambrone	calabria	Zambrone, Vibo Valentia: inside the 'calabria' ring
+Mirabella Eclano, Avellino, Campania, Italy	campania	inside the 'campania' ring
+Naples, Campania	campania	inside the 'campania' ring
+Brisbane, Queensland	queensland	Queensland: the Atlas region 'queensland' (Brisbane, Ipswich, Toowoomba); its eras are the colony's and the state's
+Nudgee, Brisbane, Queensland	queensland	Queensland: the Atlas region 'queensland' (Brisbane, Ipswich, Toowoomba); its eras are the colony's and the state's
+Queensland	queensland	Queensland: the Atlas region 'queensland' (Brisbane, Ipswich, Toowoomba); its eras are the colony's and the state's
+Queensland, Australia	queensland	Queensland: the Atlas region 'queensland' (Brisbane, Ipswich, Toowoomba); its eras are the colony's and the state's
+Tully, Queensland	queensland	Queensland: the Atlas region 'queensland' (Brisbane, Ipswich, Toowoomba); its eras are the colony's and the state's
+Catania, Sicily	sicily	Catania province: the Atlas region 'sicily' (Eastern Sicily, Piedimonte Etneo, Catania, Acireale); its ring covers it
+Giarre	sicily	Catania province: the Atlas region 'sicily' (Eastern Sicily, Piedimonte Etneo, Catania, Acireale); its ring covers it
+Giarre, Catania, Sicily	sicily	Catania province: the Atlas region 'sicily' (Eastern Sicily, Piedimonte Etneo, Catania, Acireale); its ring covers it
+Mascali	sicily	Catania province: the Atlas region 'sicily' (Eastern Sicily, Piedimonte Etneo, Catania, Acireale); its ring covers it
+Mascali, Catania, Sicily	sicily	Catania province: the Atlas region 'sicily' (Eastern Sicily, Piedimonte Etneo, Catania, Acireale); its ring covers it
+Messina, Sicily	sicily	inside the 'sicily' ring (Eastern Sicily); the same sovereignty chain
+Piedimonte Etneo	sicily	Catania province: the Atlas region 'sicily' (Eastern Sicily, Piedimonte Etneo, Catania, Acireale); its ring covers it
+Piedimonte Etneo, Catania, Sicily	sicily	Catania province: the Atlas region 'sicily' (Eastern Sicily, Piedimonte Etneo, Catania, Acireale); its ring covers it
+Riposto	sicily	Catania province: the Atlas region 'sicily' (Eastern Sicily, Piedimonte Etneo, Catania, Acireale); its ring covers it
+America	-	a country, not a place; no region
+Arneytown, Burlington County, New Jersey	-	no Atlas region covers New Jersey
+Austria	-	a country; the Atlas has no region for the part meant
+Bergamo, Lombardia, Italy	-	no Atlas region covers Lombardy
+Buenos Aires, Argentina	-	the Atlas has one Argentine region (Santa Fe); Buenos Aires is not in it
+Fremantle, Western Australia	-	no Atlas region covers Western Australia
+Genoa, Liguria	-	no Atlas region covers Liguria
+Italy	-	a country; the Atlas's country timelines are not used (rule a)
+Jackson, Ocean, New Jersey	-	no Atlas region covers New Jersey
+Lismore NSW	-	New South Wales: the Atlas's Queensland ring is a rectangle that runs over the border, so the ring would wrongly cover it; no region
+Lismore, Lismore City, New South Wales, Australia	-	New South Wales, as above; no region
+Melbourne, Victoria	-	no Atlas region covers Victoria
+Miami, Florida, USA	-	no Atlas region covers Florida
+Murwillumbah NSW	-	New South Wales, as above; no region
+New Orleans, Louisiana	-	no Atlas region covers Louisiana
+New York, New York	-	no Atlas region covers New York
+Newcastle, New South Wales, Australia	-	no Atlas region covers New South Wales
+Palermo, Sicily	-	Western Sicily: outside the Atlas's Eastern Sicily ring
+Postuman, Veneto, Italy	-	no Atlas region covers the Veneto
+Sicily	-	the whole island is wider than the Atlas's Eastern Sicily region
+Sydney, New South Wales	-	no Atlas region covers New South Wales
+Township of Washington, New Jersey	-	no Atlas region covers New Jersey

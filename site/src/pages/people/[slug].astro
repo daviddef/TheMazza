@@ -35,6 +35,8 @@ import PS from "@daviddef/archive-kit/data/public-sources.json";
 import { personMeta, stubReason } from "@daviddef/archive-kit/lib/person.js";
 import PersonPage from "@daviddef/archive-kit/components/PersonPage.astro";
 import PersonSection from "@daviddef/archive-kit/components/PersonSection.astro";
+import EraNote from "@daviddef/archive-kit/components/EraNote.astro";
+import { eraAt, plainYear } from "@daviddef/archive-kit/lib/era.js";
 import "@daviddef/archive-kit/styles/persontree.css";
 import "@daviddef/archive-kit/styles/personpage.css";
 import Base from "../../layouts/Base.astro";
@@ -45,6 +47,7 @@ import disputed from "../../data/disputed.json";
 import nudgee from "../../data/nudgee.json";
 import ships from "../../data/ships.json";
 import components from "../../data/components.json";
+import eraSnapshot from "../../data/era-snapshot.json";
 
 export function getStaticPaths() {
   /* Everyone in the tree gets a page. The living standard (v2) decides what a living person's page holds;
@@ -100,6 +103,17 @@ const lifeLine = [p.bornText ? `Born ${p.bornText}` : "", p.diedText ? `died ${p
 const lossy = !living && ((p.bornText && !person.born) || (p.diedText && !person.died));
 
 const events = (p.events || []).filter((e) => e.place || (e.what !== "lived" && e.date));
+/* AN «AT THE TIME» NOTE beside a dated place-event (kit/docs/era-notes.md; David, 18 October 2026): who held that ground in
+   that year, from the Record Atlas's REGION eras, as this archive committed them (src/data/era-snapshot.json, rebuilt
+   deliberately by tools/build_era.py --snapshot). Context about the ground, never a claim about the family. NEVER on a living
+   or noindex page (the event list is not drawn for a living person at all; the guard is here as well, and the build gate,
+   check:era, fails any note found on one). Only the kinds of event that happen in a place, on a date the page prints plainly:
+   plainYear gives no year for «c. 1783», «about 1772», «before 1820», so those get no note, and eraAt gives none for a year on
+   an era's edge, an approximate or contested era, or a place the Atlas has no region for. The year is the one people.json
+   holds (e.year), and plainYear refuses it unless it agrees with the date the row prints. */
+const ERA_KINDS = new Set(["born", "baptised", "christened", "marriage", "died", "buried", "arrival", "departure"]);
+const eraOf = (e) => (living || meta.noindex || !e.place || !ERA_KINDS.has(e.what)) ? null
+  : eraAt(eraSnapshot, e.place, plainYear(e.date, e.year));
 const hasCorrections = !living && p.corrections && p.corrections.length > 0;
 const hasRecord = !living && (events.length > 0 || lossy || hasCorrections);
 const dis = living ? {} : (disputed[p.slug] || {});
@@ -181,7 +195,7 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
         <div class="rec">
           {events.map((e) => (<>
             <div class="k">{EV[e.what] || e.what}</div>
-            <div class="v">{e.place || "—"}</div>
+            <div class="v">{e.place || "—"}<EraNote era={eraOf(e)} /></div>
             {/* e.text is the register's own wording where the date is a bound:
                 «before 7 October 1872» is what the act supports, and 1872 is
                 not. e.date is empty for those by design — see

@@ -1,0 +1,222 @@
+{
+ "atlas": {
+  "base": "https://recordatlas.org",
+  "file_sha256": "629bf65fed16b26783d7572276629244e04e4aaf09136a68e154919ba4882335"
+ },
+ "atlas_commit_or_etag": "ef8a786989eaa0289cb111cd749704cb3759f683",
+ "built": "2026-10-18",
+ "dropped": [
+  {
+   "from": 1200,
+   "reason": "regime is the project's own shorthand, not a state",
+   "region": "calabria",
+   "to": 1806
+  },
+  {
+   "from": 1200,
+   "reason": "regime is the project's own shorthand, not a state",
+   "region": "campania",
+   "to": 1806
+  },
+  {
+   "from": 1200,
+   "reason": "regime is the project's own shorthand, not a state",
+   "region": "sicily",
+   "to": 1816
+  }
+ ],
+ "places": {
+  "bagnara calabra calabria italy": "calabria",
+  "briatico vibo valentia calabria": "calabria",
+  "brisbane queensland": "queensland",
+  "catania sicily": "sicily",
+  "catanzaro calabria": "calabria",
+  "cosenza calabria italy": "calabria",
+  "giarre": "sicily",
+  "giarre catania sicily": "sicily",
+  "mandaradoni briatico vibo valentia calabria": "calabria",
+  "mascali": "sicily",
+  "mascali catania sicily": "sicily",
+  "messina sicily": "sicily",
+  "mirabella eclano avellino campania italy": "campania",
+  "naples campania": "campania",
+  "nudgee brisbane queensland": "queensland",
+  "piedimonte etneo": "sicily",
+  "piedimonte etneo catania sicily": "sicily",
+  "pizzo": "calabria",
+  "pizzo vibo valentia calabria": "calabria",
+  "potenzioni catanzaro calabria italy": "calabria",
+  "potenzoni briatico vibo valentia calabria": "calabria",
+  "queensland": "queensland",
+  "queensland australia": "queensland",
+  "riposto": "sicily",
+  "scilla": "calabria",
+  "scilla reggio calabria": "calabria",
+  "scillla": "calabria",
+  "serrata citta metropolitana di reggio calabria calabria italy": "calabria",
+  "sorianno calabro": "calabria",
+  "tully queensland": "queensland",
+  "zambrone": "calabria"
+ },
+ "regimes": {
+  "australia": "Australia",
+  "britain": "Britain and its colonies",
+  "italy": "Italy",
+  "napo": "Napoleonic",
+  "twosicilies": "Naples / the Two Sicilies"
+ },
+ "regions": {
+  "calabria": [
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1806,
+    "regime": "napo",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 1815
+   },
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1815,
+    "regime": "twosicilies",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 1861
+   },
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1861,
+    "regime": "italy",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 2026
+   }
+  ],
+  "campania": [
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1806,
+    "regime": "napo",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 1815
+   },
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1815,
+    "regime": "twosicilies",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 1861
+   },
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1861,
+    "regime": "italy",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 1946
+   },
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1946,
+    "regime": "italy",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 2026
+   }
+  ],
+  "queensland": [
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1788,
+    "regime": "britain",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 1859
+   },
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1859,
+    "regime": "britain",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 1901
+   },
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1901,
+    "regime": "australia",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 2026
+   }
+  ],
+  "sicily": [
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1816,
+    "regime": "twosicilies",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 1861
+   },
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1861,
+    "regime": "italy",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 1946
+   },
+   {
+    "approx": false,
+    "contested": false,
+    "from": 1946,
+    "regime": "italy",
+    "seeded_from_archive": false,
+    "sources": [
+     "regions.json"
+    ],
+    "to": 2026
+   }
+  ]
+ },
+ "version": 1
+}
