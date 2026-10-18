@@ -20,7 +20,11 @@
    "lon": 153.0235,
    "region": "queensland"
   },
-  "Buenos Aires, Argentina": null,
+  "Buenos Aires, Argentina": {
+   "lat": -34.6096,
+   "lon": -58.3888,
+   "region": "buenos-aires"
+  },
   "Catania, Sicily": {
    "lat": 37.5024,
    "lon": 15.0874,
@@ -114,7 +118,11 @@
    "lon": 16.1623,
    "region": "calabria"
   },
-  "Postuman, Veneto, Italy": null,
+  "Postuman, Veneto, Italy": {
+   "lat": 45.4992,
+   "lon": 11.119,
+   "region": "veneto"
+  },
   "Potenzioni, Catanzaro Calabria, Italy": {
    "lat": 38.83,
    "lon": 16.4316,

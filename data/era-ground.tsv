@@ -39,7 +39,7 @@ America	-	a country, not a place; no region
 Arneytown, Burlington County, New Jersey	-	no Atlas region covers New Jersey
 Austria	-	a country; the Atlas has no region for the part meant
 Bergamo, Lombardia, Italy	-	no Atlas region covers Lombardy
-Buenos Aires, Argentina	-	the Atlas has one Argentine region (Santa Fe); Buenos Aires is not in it
+Buenos Aires, Argentina	buenos-aires	the Atlas's buenos-aires region (contract 1.5.0) covers the city: inside its ring
 Fremantle, Western Australia	-	no Atlas region covers Western Australia
 Genoa, Liguria	-	no Atlas region covers Liguria
 Italy	-	a country; the Atlas's country timelines are not used (rule a)
@@ -53,7 +53,7 @@ New Orleans, Louisiana	-	no Atlas region covers Louisiana
 New York, New York	-	no Atlas region covers New York
 Newcastle, New South Wales, Australia	-	no Atlas region covers New South Wales
 Palermo, Sicily	-	Western Sicily: outside the Atlas's Eastern Sicily ring
-Postuman, Veneto, Italy	-	no Atlas region covers the Veneto
+Postuman, Veneto, Italy	veneto	the Atlas's veneto region (contract 1.3.0) covers the Veneto: the place is written with it and its coordinates are inside the ring
 Sicily	-	the whole island is wider than the Atlas's Eastern Sicily region
 Sydney, New South Wales	-	no Atlas region covers New South Wales
 Township of Washington, New Jersey	-	no Atlas region covers New Jersey

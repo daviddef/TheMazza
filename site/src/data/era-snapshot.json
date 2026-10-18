@@ -1,34 +1,42 @@
 {
  "atlas": {
   "base": "https://recordatlas.org",
-  "file_sha256": "629bf65fed16b26783d7572276629244e04e4aaf09136a68e154919ba4882335"
+  "rings_sha256": "da1972abcb8b3fee942ad2e123dd9151a3e499a7647a597a9ad96f519e80b338"
  },
- "atlas_commit_or_etag": "ef8a786989eaa0289cb111cd749704cb3759f683",
  "built": "2026-10-18",
+ "contract": {
+  "generated": "2026-10-18",
+  "name": "recordatlas-context",
+  "sha256": "fec3ee88709b32515530ab21c384f618b913f0cc7a4abee626f4675777318ee3",
+  "version": "1.7.0"
+ },
  "dropped": [
   {
    "from": 1200,
+   "id": "calabria--era-1200",
    "reason": "regime is the project's own shorthand, not a state",
    "region": "calabria",
    "to": 1806
   },
   {
    "from": 1200,
+   "id": "campania--era-1200",
    "reason": "regime is the project's own shorthand, not a state",
    "region": "campania",
    "to": 1806
   },
   {
    "from": 1200,
+   "id": "sicily--era-1200",
    "reason": "regime is the project's own shorthand, not a state",
    "region": "sicily",
    "to": 1816
   }
  ],
  "places": {
-  "bagnara calabra calabria italy": "calabria",
   "briatico vibo valentia calabria": "calabria",
   "brisbane queensland": "queensland",
+  "buenos aires argentina": "buenos-aires",
   "catania sicily": "sicily",
   "catanzaro calabria": "calabria",
   "cosenza calabria italy": "calabria",
@@ -37,7 +45,6 @@
   "mandaradoni briatico vibo valentia calabria": "calabria",
   "mascali": "sicily",
   "mascali catania sicily": "sicily",
-  "messina sicily": "sicily",
   "mirabella eclano avellino campania italy": "campania",
   "naples campania": "campania",
   "nudgee brisbane queensland": "queensland",
@@ -45,178 +52,375 @@
   "piedimonte etneo catania sicily": "sicily",
   "pizzo": "calabria",
   "pizzo vibo valentia calabria": "calabria",
+  "postuman veneto italy": "veneto",
   "potenzioni catanzaro calabria italy": "calabria",
   "potenzoni briatico vibo valentia calabria": "calabria",
   "queensland": "queensland",
   "queensland australia": "queensland",
   "riposto": "sicily",
-  "scilla": "calabria",
-  "scilla reggio calabria": "calabria",
-  "scillla": "calabria",
   "serrata citta metropolitana di reggio calabria calabria italy": "calabria",
   "sorianno calabro": "calabria",
   "tully queensland": "queensland",
   "zambrone": "calabria"
  },
- "regimes": {
-  "australia": "Australia",
-  "britain": "Britain and its colonies",
-  "italy": "Italy",
-  "napo": "Napoleonic",
-  "twosicilies": "Naples / the Two Sicilies"
+ "places_silent": {
+  "bagnara calabra calabria italy": "edge",
+  "messina sicily": "edge",
+  "reggio calabria citta metropolitana di reggio calabria calabria italy": "ring-conflict",
+  "scilla": "edge",
+  "scilla reggio calabria": "edge",
+  "scillla": "edge"
+ },
+ "policy": {
+  "boundary": "newer",
+  "edge_km": 15,
+  "recent_from": 1990,
+  "unassessed": "allow"
+ },
+ "quality": {
+  "counts": {
+   "gaps": 52,
+   "overlaps": 36
+  },
+  "gaps": [],
+  "overlaps": []
  },
  "regions": {
+  "buenos-aires": [
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1580,
+    "id": "buenos-aires--era-1580",
+    "label": "Spanish Empire",
+    "polity": "Spanish Empire — Governorate of the Río de la Plata",
+    "present": false,
+    "regime": "spain",
+    "seeded_from_archive": false,
+    "to": 1776,
+    "url": "/region/buenos-aires/#era-1580"
+   },
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1776,
+    "id": "buenos-aires--era-1776",
+    "label": "Spanish Empire",
+    "polity": "Viceroyalty of the Río de la Plata",
+    "present": false,
+    "regime": "spain",
+    "seeded_from_archive": false,
+    "to": 1810,
+    "url": "/region/buenos-aires/#era-1776"
+   },
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1810,
+    "id": "buenos-aires--era-1810",
+    "label": "Argentina",
+    "polity": "United Provinces, then the Argentine Confederation under Rosas",
+    "present": false,
+    "regime": "argentina",
+    "seeded_from_archive": false,
+    "to": 1852,
+    "url": "/region/buenos-aires/#era-1810"
+   },
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1852,
+    "id": "buenos-aires--era-1852",
+    "label": "Argentina",
+    "polity": "State of Buenos Aires (secessionist)",
+    "present": false,
+    "regime": "argentina",
+    "seeded_from_archive": false,
+    "to": 1861,
+    "url": "/region/buenos-aires/#era-1852"
+   },
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1861,
+    "id": "buenos-aires--era-1861",
+    "label": "Argentina",
+    "polity": "Argentina — Province of Buenos Aires",
+    "present": true,
+    "regime": "argentina",
+    "seeded_from_archive": false,
+    "to": null,
+    "url": "/region/buenos-aires/#era-1861"
+   }
+  ],
   "calabria": [
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1806,
+    "id": "calabria--era-1806",
+    "label": "Napoleonic Kingdom of Naples",
+    "polity": "Napoleonic Kingdom of Naples",
+    "present": false,
     "regime": "napo",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 1815
+    "to": 1815,
+    "url": "/region/calabria/#era-1806"
    },
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1815,
+    "id": "calabria--era-1815",
+    "label": "Naples / the Two Sicilies",
+    "polity": "Kingdom of the Two Sicilies",
+    "present": false,
     "regime": "twosicilies",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 1861
+    "to": 1861,
+    "url": "/region/calabria/#era-1815"
    },
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1861,
+    "id": "calabria--era-1861",
+    "label": "Italy",
+    "polity": "Italy — Provincia di Vibo Valentia",
+    "present": true,
     "regime": "italy",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 2026
+    "to": null,
+    "url": "/region/calabria/#era-1861"
    }
   ],
   "campania": [
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1806,
+    "id": "campania--era-1806",
+    "label": "Napoleonic Kingdom of Naples",
+    "polity": "Napoleonic Kingdom of Naples",
+    "present": false,
     "regime": "napo",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 1815
+    "to": 1815,
+    "url": "/region/campania/#era-1806"
    },
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1815,
+    "id": "campania--era-1815",
+    "label": "Naples / the Two Sicilies",
+    "polity": "Kingdom of the Two Sicilies",
+    "present": false,
     "regime": "twosicilies",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 1861
+    "to": 1861,
+    "url": "/region/campania/#era-1815"
    },
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1861,
+    "id": "campania--era-1861",
+    "label": "Italy",
+    "polity": "Kingdom of Italy",
+    "present": false,
     "regime": "italy",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 1946
+    "to": 1946,
+    "url": "/region/campania/#era-1861"
    },
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1946,
+    "id": "campania--era-1946",
+    "label": "Italy",
+    "polity": "Italy — Provincia di Caserta",
+    "present": true,
     "regime": "italy",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 2026
+    "to": null,
+    "url": "/region/campania/#era-1946"
    }
   ],
   "queensland": [
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1788,
+    "id": "queensland--era-1788",
+    "label": "Britain and its colonies",
+    "polity": "New South Wales",
+    "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 1859
+    "to": 1859,
+    "url": "/region/queensland/#era-1788"
    },
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1859,
+    "id": "queensland--era-1859",
+    "label": "Britain and its colonies",
+    "polity": "Colony of Queensland",
+    "present": false,
     "regime": "britain",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 1901
+    "to": 1901,
+    "url": "/region/queensland/#era-1859"
    },
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1901,
+    "id": "queensland--era-1901",
+    "label": "Australia",
+    "polity": "Australia — State of Queensland",
+    "present": true,
     "regime": "australia",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 2026
+    "to": null,
+    "url": "/region/queensland/#era-1901"
    }
   ],
   "sicily": [
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1816,
+    "id": "sicily--era-1816",
+    "label": "Naples / the Two Sicilies",
+    "polity": "Kingdom of the Two Sicilies",
+    "present": false,
     "regime": "twosicilies",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 1861
+    "to": 1861,
+    "url": "/region/sicily/#era-1816"
    },
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1861,
+    "id": "sicily--era-1861",
+    "label": "Italy",
+    "polity": "Kingdom of Italy",
+    "present": false,
     "regime": "italy",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 1946
+    "to": 1946,
+    "url": "/region/sicily/#era-1861"
    },
    {
-    "approx": false,
-    "contested": false,
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
     "from": 1946,
+    "id": "sicily--era-1946",
+    "label": "Italy",
+    "polity": "Italy — Provincia di Catania",
+    "present": true,
     "regime": "italy",
     "seeded_from_archive": false,
-    "sources": [
-     "regions.json"
-    ],
-    "to": 2026
+    "to": null,
+    "url": "/region/sicily/#era-1946"
+   }
+  ],
+  "veneto": [
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1406,
+    "id": "veneto--era-1406",
+    "label": "Republic of Venice",
+    "polity": "Republic of Venice — the Terraferma",
+    "present": false,
+    "regime": "venice",
+    "seeded_from_archive": false,
+    "to": 1797,
+    "url": "/region/veneto/#era-1406"
+   },
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1797,
+    "id": "veneto--era-1797",
+    "label": "Habsburg / Austria–Hungary",
+    "polity": "Austria — Venetia (Treaty of Campo Formio)",
+    "present": false,
+    "regime": "habsburg",
+    "seeded_from_archive": false,
+    "to": 1806,
+    "url": "/region/veneto/#era-1797"
+   },
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1806,
+    "id": "veneto--era-1806",
+    "label": "Napoleonic Kingdom of Italy",
+    "polity": "Napoleonic Kingdom of Italy",
+    "present": false,
+    "regime": "napo",
+    "seeded_from_archive": false,
+    "to": 1814,
+    "url": "/region/veneto/#era-1806"
+   },
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1814,
+    "id": "veneto--era-1814",
+    "label": "Habsburg / Austria–Hungary",
+    "polity": "Austria — Kingdom of Lombardy–Venetia",
+    "present": false,
+    "regime": "habsburg",
+    "seeded_from_archive": false,
+    "to": 1866,
+    "url": "/region/veneto/#era-1814"
+   },
+   {
+    "approx": null,
+    "basis": "not-recorded",
+    "contested": null,
+    "from": 1866,
+    "id": "veneto--era-1866",
+    "label": "Italy",
+    "polity": "Italy — Veneto",
+    "present": true,
+    "regime": "italy",
+    "seeded_from_archive": false,
+    "to": null,
+    "url": "/region/veneto/#era-1866"
    }
   ]
  },
- "version": 1
+ "unchecked_edge": [],
+ "version": 2
 }
