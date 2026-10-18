@@ -36,8 +36,8 @@ Sister archive to [The Falco Archive](https://github.com/daviddef/TheFalco).
 - **Nine ships, named.** The tree recorded eighteen crossings and no vessel. The NAA passenger index
   gave nine: the *Toscana* out of Genoa for Sebastiano Mazza, 4 October 1949; the *Surriento*; the
   *Roma*; the *Palermo* that landed a sixteen-year-old Michele Mazza at Brisbane in 1925.
-- **The Mazza and the Arena as names.** 120 Mazza in **6
-  descent groups that no record joins**; 39 Arena in **one unbroken family**.
+- **The Mazza and the Arena as names.** 121 Mazza in **7
+  descent groups that no record joins**; 65 Arena in **16 descent groups**, 47 of them in one.
   The surname the archive is named for is the most fragmented thing in it.
 - **Two emigrations, fifty years apart** — New York from 1906, Fremantle and Brisbane 1949–1957 —
   and a third branch to **Buenos Aires**.

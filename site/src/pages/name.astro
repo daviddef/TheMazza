@@ -3,6 +3,8 @@ import Base from "../layouts/Base.astro";
 import { u } from "../lib/url.js";
 import families from "../data/families.json";
 import people from "../data/people.json";
+import focus from "../data/focus.json";
+import { words } from "../lib/words.js";
 import { PAGE_OF, HAND_BUILT, BUILT } from "../lib/familylist.js";
 const f = (s) => families.find((x) => x.surname === s) || { n: 0 };
 const bearing = (x) => people.filter((p) => p.surname === x.surname || (x.also || []).includes(p.surname)).length;
@@ -24,7 +26,7 @@ const rows = ["Mazza", "Prostamo", "Polistena", "Arena", "Nicotra", "Melluso", "
       Two Mazza households in the same Sicilian town are much more likely to be related than two Mazza
       in different provinces — but "much more likely" is a probability, and this archive does not
       publish probabilities as descents. That is precisely the situation at
-      <a href={u("/piedimonte-etneo/")}>Piedimonte Etneo</a>, where {f("Mazza").n} Mazza sit in two
+      <a href={u("/piedimonte-etneo/")}>Piedimonte Etneo</a>, where {f("Mazza").n} Mazza sit in {words(focus.Mazza.groups.length)}
       groups that no record joins.</p>
     </div>
   </section>

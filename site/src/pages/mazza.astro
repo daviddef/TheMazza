@@ -3,14 +3,21 @@ import Base from "../layouts/Base.astro";
 import P from "../components/P.astro";
 import { u } from "../lib/url.js";
 import focus from "../data/focus.json";
+import sicilySpine from "../data/sicily-spine.json";
 import Plates from "../components/Plates.astro";
+import { words, Words } from "../lib/words.js";
 const M = focus.Mazza;
+const A = focus.Arena;
 const spine = M.groups.filter((g) => g.onSpine.length);
 const apart = M.groups.filter((g) => !g.onSpine.length);
 const big = apart.reduce((a, g) => a + g.n, 0);
+/* Of the people outside the spine group, the ones the export does draw into the family
+   tree (component 1, through a relative who is not a Mazza) and the ones it does not. */
+const inTree = apart.flatMap((g) => g.people).filter((x) => x.comp === 1).length;
+const loose = big - inTree;
 ---
 <Base title="The Mazza" eyebrow={`${M.total} bearers, ${M.groups.length} descent groups`}
-      dek="The surname this archive is named for is also the most fragmented thing in it. A hundred and twenty Mazza sit in six groups that no record joins to each other.">
+      dek={`The surname this archive is named for is also the most fragmented thing in it. ${M.total} Mazza sit in ${words(M.groups.length)} groups that no record joins to each other.`}>
 
   <section class="blk">
     <div class="lab">Piedimonte Etneo — 13 September 2026</div>
@@ -345,7 +352,7 @@ const big = apart.reduce((a, g) => a + g.n, 0);
     <div class="grid g3">
       <div class="stat"><div class="n">{M.total}</div><div class="l">people called Mazza in the tree</div></div>
       <div class="stat"><div class="n">{M.groups.length}</div><div class="l">separate descent groups</div></div>
-      <div class="stat"><div class="n">{big}</div><div class="l">still joined to the family by nothing</div></div>
+      <div class="stat"><div class="n">{loose}</div><div class="l">joined to the family by nothing, of the {big} outside the first group</div></div>
     </div>
   </section>
 
@@ -358,7 +365,7 @@ const big = apart.reduce((a, g) => a + g.n, 0);
       medieval personal name <em>Mazzo</em>, a short form of Giacomazzo, Tommazzo and the like.</p>
       <p>It is among the most widespread surnames in Italy and it was <strong>coined independently,
       many times over</strong>, from Lombardy to Sicily. There is no founding Mazza family. That is
-      not a disclaimer — it is the operative fact of this page, and it is why the six groups below
+      not a disclaimer — it is the operative fact of this page, and it is why the {words(M.groups.length)} groups below
       are kept apart rather than drawn as one tree.</p>
     </div>
   </section>
@@ -374,12 +381,12 @@ const big = apart.reduce((a, g) => a + g.n, 0);
           <span>{g.towns.join(" · ")}</span>
           <span>component {g.component}</span>
         </div>
-        <p class="dek" style="max-width:80ch">Five generations and then it stops:
-        <P n="Rosario Mazza" /> — of whom one single fact is known, that he fathered Salvatore —
-        then <P n="Salvatore Mazza" /> born at Piedimonte Etneo in 1879, <P n="Sebastiano Mazza" />
-        who sailed on the <em>Toscana</em> in 1949, and down to
-        <strong>Mia</strong> and <strong>Rocco Francesco</strong>. It is the
-        <a href={u("/lines/")}>shallowest of the four quarters</a> by five generations.</p>
+        <p class="dek" style="max-width:80ch">{Words(sicilySpine.length)} generations, and then it stops:
+        Mariano Mazza, born {sicilySpine[0].born.replace("c. ", "about ")}, then his son
+        <P n="Rosario Mazza" />, then <P n="Salvatore Mazza" /> born at Piedimonte Etneo in
+        1873, <P n="Sebastiano Mazza" /> who sailed on the <em>Toscana</em> in 1949, and down to
+        <strong>Mia</strong> and <strong>Rocco Francesco</strong>. Every step in Sicily is
+        <a href={u("/the-name-line/")}>a document</a>.</p>
         <div class="scroll" style="margin-top:20px">
           <table>
             <thead><tr><th>Name</th><th class="m">Dates</th><th>Born</th><th>On the spine</th></tr></thead>
@@ -400,19 +407,20 @@ const big = apart.reduce((a, g) => a + g.n, 0);
 
   <section class="blk">
     <div class="lab">Groups 2 to {M.groups.length}</div>
-    <h2 style="margin-top:.4rem">The {big} who still share the name and nothing else</h2>
+    <h2 style="margin-top:.4rem">The {big} outside the first group</h2>
     <p class="dek" style="margin:.9rem 0 1.4rem">The big one is gone: the hundred and ten Piedimonte
     Etneo Mazza who once sat here unattached are now <a href={u("/the-hundred-and-ten/")}>part of group
     one</a>, proved the descendants of Salvatore's brothers by five register acts. What is left are
-    fragments — a handful of people entered with no parent, spouse or child, who cannot be placed
-    either way.</p>
+    {words(M.groups.length - 1)} smaller groups. {Words(inTree)} of the {big} sit in the same piece of the family tree as
+    group one, linked through relatives who are not counted as Mazza; the other {words(loose)} are
+    fragments — people entered with no parent, spouse or child, who cannot be placed either way.</p>
 
     <div class="stack">
       {apart.map((g, i) => (
         <div>
           <h3 style="font-size:21px">Group {i + 2}
             <span class="mono" style="font-size:12px;color:var(--ink-3);margin-left:12px">
-              {g.n} {g.n === 1 ? "person" : "people"} · component {g.component}
+              {g.n} {g.n === 1 ? "person" : "people"} · {g.component ? `component ${g.component}` : "no component (register only)"}
               {g.earliest ? ` · ${g.earliest}–${g.latest}` : " · undated"}
               {g.towns.length ? ` · ${g.towns[0]}` : ""}
             </span>
@@ -436,11 +444,11 @@ const big = apart.reduce((a, g) => a + g.n, 0);
 
   <section class="blk" style="border-bottom:0">
     <h2>Compare the Arena</h2>
-    <p class="dek" style="margin-top:.8rem">Thirty-nine <a href={u("/arena/")}>Arena</a> in this tree
-    form <strong>one single unbroken family</strong>, 1821 to 1937, all of Scilla. A hundred and
-    twenty Mazza form six groups. That is not because the Arena were better recorded — it is because
-    <em>Arena</em> arrived in this archive through one household that had been worked on, and
-    <em>Mazza</em> arrived as a surname. <strong>The name a family is known by tells you least about
+    <p class="dek" style="margin-top:.8rem">Of the {A.total} <a href={u("/arena/")}>Arena</a> in this tree,
+    {A.groups[0].n} form <strong>one connected group</strong>, {A.groups[0].earliest} to {A.groups[0].latest}; the other
+    {A.total - A.groups[0].n} sit in {words(A.groups.length - 1)} more. The {M.total} Mazza form {words(M.groups.length)} groups, {M.groups[0].n} of
+    them in one. <em>Arena</em> arrived in this archive through one household that had been worked
+    on, and <em>Mazza</em> arrived as a surname. <strong>The name a family is known by tells you least about
     it.</strong></p>
   </section>
 
