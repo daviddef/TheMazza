@@ -14,7 +14,10 @@ import BookHead from "@daviddef/archive-kit/components/BookHead.astro";
 import BookFoot from "@daviddef/archive-kit/components/BookFoot.astro";
 import book from "../data/book.json";
 import ring from "@daviddef/archive-kit/data/archives.json";
-const { title, description = "", dek, eyebrow, bare, noindex, autolink = false } = Astro.props;
+/* `ownHeading` is for a page whose content draws its own h1 and its one sentence (the shared people page,
+   kit PersonPage: it carries the name, the life dates and the sentence inside its own header). Base then
+   renders no page head, so the document keeps exactly one h1, and `dek` is used for the description only. */
+const { title, description = "", dek, eyebrow, bare, noindex, ownHeading = false, autolink = false } = Astro.props;
 /* THE BUILD-TIME NAME LINKER (kit/tools/autolink.py, run by `npm run autolink`) links the first mention of each
    name that resolves to one dead person, in every <main> it is allowed into. It is allowed into a page only when
    the page says so (<Base autolink>): the twelve long research narratives. Every other page, the person and name
@@ -109,7 +112,7 @@ const thisArchive =
 
 <main id="main" tabindex="-1" data-no-autolink={autolink ? undefined : ""}>
   <div class="wrap">
-    {!bare && (
+    {!bare && !ownHeading && (
       <div class="pagehead">
         {eyebrow && <div class="lab">{eyebrow}</div>}
         <h1>{title}</h1>
