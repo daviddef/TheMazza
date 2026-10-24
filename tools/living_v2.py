@@ -129,6 +129,25 @@ def youngest_child_years(people):
     return out
 
 
+def cites_for_living(p):
+    """The citations the LIVING test may see for a person.
+
+    ROOT CAUSE of the 25 October 2026 leak (a man born 1948, 78 years old, no death, published
+    as dead with his year, parents, spouse and children): the kit's `living_rule.is_living`
+    returns False for ANY person with a public-source citation, whatever their birth year, on
+    the reasoning that "what that source says may be shown". A passenger-index line (the
+    National Archives of Australia, which the kit lists as public) was enough to make a person
+    80 or younger "not living". A public source can show that someone was born or arrived; it
+    cannot show that they are dead, and David's rule is 80 or younger with no death recorded.
+
+    So for a person WITH a birth year the citations are not passed: the year and the absence
+    of a death decide, alone. An UNDATED person is unchanged (a public source still releases
+    the recent-child inference, which is only an inference). The kit is not edited; the gap in
+    its rule is reported. Same function for the generator and the gate.
+    """
+    return [] if p["by"] is not None else p["cites"]
+
+
 def classify(people, today_year=None):
     """people: {id: {"by": int|None, "dead": bool, "cites": [str], "parents": [id]}}
 
@@ -143,7 +162,7 @@ def classify(people, today_year=None):
     y = today_year or lr.this_year()
     yc = youngest_child_years(people)
     living = {i for i, p in people.items()
-              if lr.is_living(p["by"], p["dead"], p["cites"], y, yc.get(i))}
+              if lr.is_living(p["by"], p["dead"], cites_for_living(p), y, yc.get(i))}
     held = set()
     for i, p in people.items():
         pl = any(q in living for q in p["parents"])
@@ -183,7 +202,20 @@ def selfcheck(today_year=2026):
     L, H = run({"p": P(), "k": P(None, parents=["p"])})
     if "p" in L:
         bad.append("an undated child made an undated parent living")
-    # a recorded death, or a public source, still means not living
+    # a public source does NOT make a dated person 80 or younger with no death "not living" (25 October 2026)
+    L, H = run({"p": P(today_year - 78, cites=pub + ["FamilySearch", "recordsearch.naa.gov.au"])})
+    if "p" not in L:
+        bad.append("a public-source citation made a person aged 78 with no death not living")
+    L, H = run({"p": P(today_year - 80, cites=pub)})
+    if "p" not in L:
+        bad.append("a person aged exactly 80 with a public source is not living")
+    L, H = run({"p": P(today_year - 81, cites=pub)})
+    if "p" in L:
+        bad.append("a person aged 81 was made living")
+    L, H = run({"p": P(today_year - 78, dead=True, cites=pub)})
+    if "p" in L:
+        bad.append("a recorded death did not override the 80-year rule")
+    # a recorded death, or a public source on an UNDATED person, still means not living
     L, H = run({"p": P(dead=True), "k": P(today_year - 20, parents=["p"])})
     if "p" in L:
         bad.append("a recorded death did not override the recent-child rule")

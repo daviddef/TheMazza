@@ -193,21 +193,6 @@
       "comp": 1
      },
      {
-      "id": "@I32@",
-      "slug": "salvatore-mazza-2",
-      "name": "Salvatore Mazza",
-      "surname": "Mazza",
-      "born": 1948,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "living": false,
-      "birthPlace": "Briatico, Vibo Valentia, Calabria",
-      "comp": 1
-     },
-     {
       "id": "@I33@",
       "slug": "mary-rosa-mazza",
       "name": "Mary rosa Mazza",
@@ -1450,6 +1435,21 @@
       "registerSources": [],
       "living": false,
       "birthPlace": "",
+      "comp": 1
+     },
+     {
+      "id": "@I32@",
+      "slug": "salvatore-mazza-2",
+      "name": "Salvatore Mazza",
+      "surname": "Mazza",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "living": true,
+      "birthPlace": "Briatico, Vibo Valentia, Calabria, Italy",
       "comp": 1
      },
      {

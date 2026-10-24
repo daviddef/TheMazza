@@ -74,7 +74,7 @@ function ruleFields(p) {
     born: bornText, died: diedText,
     birthYear: Number.isInteger(p.born) ? p.born : undefined,
     dead: deadRecorded(p) || undefined,
-    citations: citationsOf(p),
+    citations: Number.isInteger(p.born) ? [] : citationsOf(p),   // a public source never releases a DATED person (tools/living_v2.py cites_for_living)
     parentLiving: livingParent(p) || undefined,
     youngestChildYear: youngestChildYear(p),
   };
@@ -132,7 +132,12 @@ export function agreeWithGenerator(p, person) {
     if (isHeldOut(person, { ...RULE, heldIds: [] })) throw new Error(`personpage.js: the kit's rule holds out living ${p.id}, yet the generator publishes them`);
     return;
   }
-  if (isLiving(person, RULE))
+  /* A DATED person is judged by their year and their death alone: the kit's rule lets any public-source
+     citation make a person 80 or younger "not living", which is how a man born in 1948 was published as dead
+     (25 October 2026). The net therefore strips citations and sources from anyone with a birth year, exactly as
+     tools/living_v2.py cites_for_living does for the generator. */
+  const bare = Number.isInteger(p.born) ? { ...person, citations: [], sources: [] } : person;
+  if (isLiving(bare, RULE))
     throw new Error(`personpage.js: people.json publishes ${p.id} as not living but the kit's rule calls them living; fix the data or the generator, do not draw this page`);
   if (isHeldOut(person, { ...RULE, heldIds: [], parentLiving: person.parentLiving === true }))
     throw new Error(`personpage.js: the kit's rule holds out ${p.id}, yet people.json publishes them`);

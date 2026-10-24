@@ -1,0 +1,12 @@
+{
+ "_why": [
+  "Text that may carry a birth year in the 80-year window although no living person is meant, because the line records a death.",
+  "Read by tools/check_living_v2.py rule 7. Each entry is a decision: add one only where a death is recorded beside the year."
+ ],
+ "allow": [
+  {
+   "text": "Giovanni Mazza (b. 1958)",
+   "why": "Queensland death registration 1988/9150, parents Angelo Mazza and Francesca Strano: a registered death, a different household from the tree's Giovanni Mazza (data/qld-bdm.tsv). Flagged to David: the year equals a living namesake's, so the two may be one man."
+  }
+ ]
+}

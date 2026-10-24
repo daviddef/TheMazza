@@ -31,6 +31,17 @@ WHAT IT ENFORCES (and why each part can fail)
      person with a living parent; a child with a known birth year is published.
   6  every person the archive names has a page (each relationship edge resolves to
      a record, and each record has a built page)
+  7  NO BIRTH YEAR OF A PERSON WITH NO DEATH IS PUBLISHED ANYWHERE (25 October 2026):
+     not in any data row, built page or data file, whatever the row's `living` flag
+     says (rule7_years). It also refuses a row that names a living person by slug or
+     id and carries a life field, flagged living or not.
+
+  RULE 2 AND PUBLIC SOURCES. The kit's `living_rule.is_living` lets any public-source
+  citation (the NAA passenger index, FamilySearch...) make a person 80 or younger "not
+  living". A man born in 1948 with no death was published as dead, with his year, parents,
+  spouse and children, on exactly that. This gate therefore does NOT pass citations to the
+  kit's rule for anyone with a birth year: year and absence of death decide, alone. (Kit gap,
+  reported: the exemption belongs in the kit's rule, not in each archive.)
 
   POSITIVE CONTROLS. A check that can only pass proves nothing, so the gate also
   proves the opposite on ordinary pages: a non-living person's page is indexable,
@@ -186,7 +197,9 @@ class Gate:
                 for e in (q.get("parents") or []):
                     kid_year[e.get("id")] = max(kid_year.get(e.get("id"), 0), q["born"])
         for p in self.dead:
-            if lr.is_living(p.get("born"), self.dead_recorded(p), self.cites_of(p), self.today,
+            # a dated person is judged without their citations (see the header: public sources)
+            if lr.is_living(p.get("born"), self.dead_recorded(p),
+                            [] if p.get("born") else self.cites_of(p), self.today,
                             kid_year.get(p["id"])):
                 bad.append(p["id"])
         if bad:
@@ -253,7 +266,8 @@ class Gate:
                 for q in i["parents"]:
                     young[q] = max(young.get(q, 0), i["by"])
         living_now = {x for x, i in info.items()
-                      if lr.is_living(i["by"], i["dead"], i["cites"], self.today, young.get(x))}
+                      if lr.is_living(i["by"], i["dead"], [] if i["by"] is not None else i["cites"],
+                                      self.today, young.get(x))}
         held_now = set()
         for x, i in info.items():
             pl = any(q in living_now for q in i["parents"])
@@ -268,8 +282,13 @@ class Gate:
                 continue                      # a register person: not in the GEDCOM
             want = x in living_now
             if want != bool(p.get("living")):
-                if len(twins.get(name_key(x), [])) > 1:
-                    exempt += 1               # a merged duplicate may carry the death or the year
+                # A merged duplicate may carry the death or the year, so a name twin explains a
+                # mismatch, but only where the published record SHOWS the explanation: a death, or a
+                # birth year more than 80 years ago. A twin with neither is not an explanation (a
+                # blanket exemption is how a man born in 1948 was published as dead).
+                explained = self.dead_recorded(p) or (p.get("born") and self.today - int(p["born"]) > lr.LIVING_YEARS)
+                if len(twins.get(name_key(x), [])) > 1 and (explained or not want):
+                    exempt += 1
                 else:
                     mism += 1
                     self.fail(2, f"{x}: the rule says living={want}, the data says {bool(p.get('living'))}")
@@ -308,6 +327,14 @@ class Gate:
             self.fail(5, f"{len(missing)} held-out id(s) are not recorded in data/held-out.json: {sorted(missing)[:6]}")
         self.held_names = [re.sub(r"\s+", " ", re.sub(r"/", " ", kid(I[x], "NAME")["val"])).strip()
                            for x in held_now if kid(I[x], "NAME")]
+        # kept for rule 7: who the export says is 80 or younger with no death, by name and year
+        self.window = []
+        for x, i in info.items():
+            if i["by"] is not None and not i["dead"] and self.today - i["by"] <= lr.LIVING_YEARS:
+                n = kid(I[x], "NAME")
+                nm = re.sub(r"\s+", " ", (n["val"] if n else "").replace("/", " ")).strip()
+                if len(nm.split()) >= 2:
+                    self.window.append((x, nm, i["by"]))
         self.info["ged"] = (f"recomputed from the GEDCOM: {len(living_now)} living, {len(held_now)} held out, "
                             f"{mism} mismatch(es), {exempt} explained by a name twin")
 
@@ -542,6 +569,120 @@ class Gate:
             self.fail(6, f"no built page for /people/{s}/")
         self.info["named_without_page"] = dangling + len(missing)
 
+
+    # ----------------------------------------------------------------- rule 7
+    BORN_KEYS = ("born", "birth", "birthYear", "bornYear")
+    DEATH_KEYS = ("died", "death", "diedText", "buried", "deathYear")
+
+    def _allow(self):
+        """Snippets that may carry an in-window year because the person has a recorded death.
+        data/living-year-allow.json: {"allow": [{"text": "...", "why": "..."}]}. Kept by hand,
+        so each entry is a decision."""
+        ap = os.path.join(self.root, "data", "living-year-allow.json")
+        if not os.path.exists(ap):
+            return []
+        return [a["text"] for a in jload(ap).get("allow", []) if a.get("text")]
+
+    def rule7_years(self):
+        """No birth year of a person with no death is published anywhere (25 October 2026).
+
+        The fault this closes: a man born in 1948 was published as dead, and his year turned up
+        on the namesake lists, in derived data files that only some generators regenerate, and in
+        hand-written prose, none of which the living checks read because they all started from a
+        row flagged living. Here nothing starts from the flag.
+          7a  a data row (any file, source or built) that names a living person by slug or id
+              must carry no life field, whatever its own `living` says
+          7b  a data row with a birth year in the 80-year window and no death field, and not
+              flagged living, is a person published as dead on a year that makes them living
+          7c  a built page or data file with «b. YYYY» in the window, or a namesake line whose
+              year is in the window and is not a death year, is a year with no death beside it
+          7d  (needs the private export) a person the export says is 80 or younger with no death,
+              followed by their own birth year in any built page or data file
+        """
+        cut = self.today - lr.LIVING_YEARS
+        window = lambda y: isinstance(y, int) and y >= cut and y <= self.today
+        living_keys = {p["slug"] for p in self.living} | {p["id"] for p in self.living}
+        allow = self._allow()
+        json_files = [os.path.join(self.data, f) for f in sorted(os.listdir(self.data)) if f.endswith(".json")]
+        text_files = []
+        for dp, _, fns in os.walk(self.dist):
+            for fn in fns:
+                path = os.path.join(dp, fn)
+                if fn.endswith(".json"):
+                    json_files.append(path)
+                if fn.endswith((".html", ".json", ".xml", ".txt")):
+                    text_files.append(path)
+        n_rows = 0
+        for path in json_files:
+            try:
+                doc = jload(path)
+            except Exception:
+                continue
+            rel = os.path.relpath(path, os.path.dirname(self.data) if path.startswith(self.data) else self.dist)
+            for r in rows_in(doc):
+                key = r.get("slug") if isinstance(r.get("slug"), str) else None
+                ident = r.get("id") if isinstance(r.get("id"), str) else None
+                is_living_row = r.get("living") is True
+                if not is_living_row and (key in living_keys or ident in living_keys):
+                    n_rows += 1
+                    bad = [k for k in FORBIDDEN_KEYS if r.get(k) not in (None, "", [], {}, False, 0)]
+                    if bad:
+                        self.fail(7, f"{rel}: a row that names a living person carries {sorted(bad)[:3]} "
+                                     "and is not flagged living (a derived file that was not regenerated?)")
+                born = next((r[k] for k in self.BORN_KEYS if isinstance(r.get(k), int)), None)
+                if window(born) and not is_living_row \
+                        and not any(r.get(k) not in (None, "", [], {}, False) for k in self.DEATH_KEYS):
+                    self.fail(7, f"{rel}: a row with a birth year in the 80-year window, no death and no "
+                                 f"living flag ({r.get('slug') or r.get('id') or r.get('name') or 'unnamed'})")
+        self.info["rows_naming_living_checked"] = n_rows
+        # 7c / 7d: text
+        dead_fmt = set()
+        for q in self.dead:
+            if q.get("died"):
+                dead_fmt.add("–".join(str(x) for x in (q.get("born"), q.get("died")) if x))
+        B = re.compile(r"\bb\.\s*(\d{4})\b")
+        NS = re.compile(r"(?is)Others of the same name(.*?)</section>")
+        ITEM = re.compile(r"—\s*(\d{4}(?:\s*–\s*\d{4})?)")
+        names = {}
+        for x, nm, by in getattr(self, "window", []):
+            names.setdefault(re.sub(r"\s+", " ", nm), set()).add(by)
+        name_rx = None
+        if names:
+            name_rx = re.compile("|".join(r"\s+".join(re.escape(t) for t in n.split())
+                                          for n in sorted(names, key=len, reverse=True)))
+        hits_b = hits_ns = hits_nm = 0
+        for path in text_files:
+            t = open(path, encoding="utf-8", errors="replace").read()
+            for a in allow:
+                t = t.replace(a, " ")
+            rel = os.path.relpath(path, self.dist)
+            plain = re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<script.*?</script>|<style.*?</style>", " ", t)) \
+                if path.endswith(".html") else t
+            for m in B.finditer(plain):
+                if window(int(m.group(1))):
+                    hits_b += 1
+                    self.fail(7, f"{rel}: «b. {m.group(1)}» is a birth year in the 80-year window with no death shown")
+            if path.endswith(".html"):
+                for seg in NS.findall(t):
+                    for m in ITEM.finditer(re.sub(r"<[^>]+>", " ", seg)):
+                        first = int(re.match(r"\d{4}", m.group(1)).group(0))
+                        tok = re.sub(r"\s+", "", m.group(1))
+                        if window(first) and tok not in dead_fmt:
+                            hits_ns += 1
+                            self.fail(7, f"{rel}: a namesake line shows a year in the 80-year window that is "
+                                         "not a recorded death")
+            if name_rx:
+                for m in name_rx.finditer(plain):
+                    nm = re.sub(r"\s+", " ", m.group(0))
+                    tail = plain[m.end(): m.end() + 100]
+                    fm = re.search(r"\d{4}", tail)
+                    if fm and re.fullmatch(r"[^\d]*", tail[:fm.start()]) and int(fm.group(0)) in names.get(nm, ()):
+                        hits_nm += 1
+                        self.fail(7, f"{rel}: a person the export gives as 80 or younger with no death is "
+                                     "followed by their own birth year")
+        self.info["year_text_hits"] = f"b. {hits_b} · namesake {hits_ns} · name+year {hits_nm}" + \
+            ("" if names else " (name+year needs the private export; runs locally)")
+
     def run(self):
         self.load()
         self.rule1_empty()
@@ -551,6 +692,7 @@ class Gate:
             self.rule4_pages()
             self.rule5_held()
             self.rule6_pages_for_named()
+            self.rule7_years()
         return self.fails
 
 
@@ -590,6 +732,8 @@ def report(g, quiet=False):
               f"{i.get('dated_children_published', 'not checked (needs the private GEDCOM)')}")
         print(f"        undated parents of a recent child, living by the rule: "
               f"{i.get('undated_parents_living_by_recent_child', 'not checked (needs the private GEDCOM)')}")
+        print(f"        no birth year of a person with no death (rule 7): rows naming a living person "
+              f"{i.get('rows_naming_living_checked')} · text hits {i.get('year_text_hits')}")
         print(f"        named without a page: {i.get('named_without_page')} · held-out name in built pages: "
               f"{i.get('held_name_in_built_pages')} · in shipped json: {i.get('held_name_in_shipped_json', 'not checked (needs the private GEDCOM; runs locally)')}")
     return 0
@@ -607,7 +751,7 @@ def selftest(dist, data_dir, root, ged):
         shutil.copytree(dist, d2)
         shutil.copytree(data_dir, s2)
         os.makedirs(os.path.join(r2, "data"))
-        for fn in ("held-out.json", "photo-manifest.json"):
+        for fn in ("held-out.json", "photo-manifest.json", "living-year-allow.json"):
             if os.path.exists(os.path.join(root, "data", fn)):
                 shutil.copy(os.path.join(root, "data", fn), os.path.join(r2, "data"))
 
@@ -677,6 +821,10 @@ def selftest(dist, data_dir, root, ged):
             lambda: edit_people(lambda d: next(x for x in d if x["id"] == D["id"]).update(
                 {"born": yr_young, "died": None, "events": [], "sources": [], "records": []})))
         Lflip = next((p for p in living if p["id"] in getattr(base, "no_twin", set())), L)
+        add(2, "a dated living-by-rule person with a public source published as dead (the 1948 fault)",
+            lambda: edit_people(lambda d: next(x for x in d if x["id"] == D["id"]).update(
+                {"born": yr_young, "died": None, "events": [], "sources": ["FamilySearch"],
+                 "records": [{"kind": "passenger index", "what": "NAA passenger arrivals", "href": "/crossings"}]})))
         add(2, "a living flag flipped (GEDCOM recompute)",
             lambda: edit_people(lambda d: next(x for x in d if x["id"] == Lflip["id"]).update({"living": False})), True)
         add(3, "a death year on a living row",
@@ -732,6 +880,26 @@ def selftest(dist, data_dir, root, ged):
         add(4, "the control broken: every ordinary page noindexed",
             lambda: [write(lp(x), open(lp(x), encoding="utf-8").read().replace("<head>", '<head><meta name="robots" content="noindex">', 1))
                      for x in dead[:200] if os.path.exists(lp(x))])
+        def f_plant_rows(rows):
+            return lambda: write(os.path.join(s2, "planted-rows.json"), json.dumps(rows))
+        add(7, "a derived data row for a living person that kept the year and a dead flag",
+            f_plant_rows([{"slug": L["slug"], "name": "Planted", "born": yr_young, "died": None, "living": False}]))
+        add(7, "a data row with a birth year in the window, no death and no living flag",
+            f_plant_rows([{"slug": "planted-nobody-here", "name": "Planted", "born": yr_young}]))
+        add(7, "a «b. YYYY» in the window on a built page",
+            lambda: write(os.path.join(d2, "about", "index.html"),
+                          open(os.path.join(d2, "about", "index.html"), encoding="utf-8").read().replace(
+                              "</main>", f"<p>Planted Person (b. {yr_young})</p></main>")))
+        add(7, "a namesake line with a birth year in the window on a built page",
+            lambda: write(os.path.join(d2, "about", "index.html"),
+                          open(os.path.join(d2, "about", "index.html"), encoding="utf-8").read().replace(
+                              "</main>", '<section class="blk"><h2>Others of the same name</h2><ul><li>'
+                              f'<a href="/x/">Planted</a><span> \u2014 {yr_young}, Town</span></li></ul></section></main>')))
+        def f_name_year():
+            x, nm, by = base.window[0]
+            path = os.path.join(d2, "about", "index.html")
+            write(path, open(path, encoding="utf-8").read().replace("</main>", f"<p>{nm} {by}</p></main>"))
+        add(7, "a living person's name followed by their birth year (GEDCOM)", f_name_year, True)
         add(5, "a held-out id in a data file",
             lambda: write(os.path.join(s2, "stats.json"),
                           open(os.path.join(s2, "stats.json"), encoding="utf-8").read()[:-1] + f', "planted": "{held}"}}'))

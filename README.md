@@ -86,8 +86,10 @@ the family tree**. Converting those assertions into documents is the work.
 **Living people.** A living person (80 or younger, with no death recorded) is named with their
 relationships and their town and country, and nothing more. Who is living is decided in one place,
 `tools/living_v2.py`, by the kit's `living_rule.py`: 80 or younger by year, no death or burial
-recorded anywhere this archive has read, and no citation from a public record source (FamilySearch,
-MyHeritage records, Findmypast and the like). Someone with no birth year is not living by this test,
+recorded anywhere this archive has read. A public-record citation (FamilySearch, the NAA passenger
+index and the like) does not make a person with a birth year "not living": it can show someone was
+born or arrived, never that they died (a man born in 1948 was published as dead for that reason until
+25 October 2026). Someone with no birth year is not living by this test,
 so the 280 people the older "the tree cannot show they died" flag caught who are plainly dead are
 ordinary pages. A living person has a page of their own with no dates, records, sources or photograph;
 it is `noindex`, carries no structured data, and is out of the sitemap and the search index. A person

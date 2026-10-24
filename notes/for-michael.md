@@ -430,7 +430,7 @@ Mazza by six, Rosario Mazza by five.
 ### Domenica Prostamo
 
 - **The tree says:** March 1951, no ship
-- **The record says:** Probably the UGOLINO VIVALDI, 1 March 1951 out of Genoa, indexed under her married name as "MAZZA Domenico" -- one letter from Domenica. Her son Salvatore, born 1948, was two, which matches the family account of a son not yet three.
+- **The record says:** Probably the UGOLINO VIVALDI, 1 March 1951 out of Genoa, indexed under her married name as "MAZZA Domenico" -- one letter from Domenica. Her youngest child, a living person (details withheld under the living-people standard), was a small child, which matches the family account.
 - **Source:** NAA passenger arrivals index, item 30133197
 
 

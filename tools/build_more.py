@@ -134,7 +134,7 @@ json.dump(uniq, open(f"{OUT}/households.json", "w"), indent=1, ensure_ascii=Fals
 
 # ------------------------------------------------------ the living (reference)
 # Who the build holds as living under the estate standard (80 or younger by year,
-# no death recorded, no public-source citation: tools/living_v2.py). A living
+# no death recorded: tools/living_v2.py). A living
 # person is a name and a slug here and nothing else. This file used to list the
 # 411 people "the tree cannot show died", with their birth years, 280 of whom
 # were plainly dead.

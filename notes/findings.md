@@ -1385,9 +1385,8 @@ It returned "session expired" for a whole day on 10 September. On 13 September i
   is the right month, year, embarkation port and *married* surname, one letter out on the given name
   — an ordinary slip off a handwritten manifest. The only Mazza on the voyage. **Candidate, not a
   documented identification.**
-- **SALVATORE MAZZA b. 1948** placed on the same voyage. The family account has Domenica following
-  her husband *with a son not yet three*; a boy born 1948 is two in March 1951. Infants are routinely
-  not indexed.
+- **A living child of Domenica** placed on the same voyage (details withheld under the living-people
+  standard). Infants are routinely not indexed.
 - **FRANCESCA PROSTAMO — the open question answered.** She was flagged as "on the *Roma* with
   Francessco and not in the family tree". **She is in the tree**: his daughter, born 1945 at
   Briatico, aged twelve. What was missing was her crossing, not her.
@@ -1931,8 +1930,8 @@ stated as caution. After a fortnight in the Scilla registers it can be stated as
   hesitating.
 - **Filippo Arena** — grandfather and grandson, which the naming custom guarantees every second
   generation.
-- **Salvatore Mazza** — one born 1873 at Piedimonte Etneo and dead at Catania in 1929; another born
-  1948 at Briatico who sailed to Fremantle as an infant. Seventy-five years and two provinces apart.
+- **Salvatore Mazza** — one born 1873 at Piedimonte Etneo and dead at Catania in 1929; another a living
+  person of Briatico, two provinces away.
 
 ### Rocco Arena's third crossing — the San Guglielmo, 11 September 1913
 

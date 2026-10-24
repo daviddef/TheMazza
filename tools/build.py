@@ -1009,7 +1009,7 @@ stats = {
     "exported": len(I), "people": len(records),
     "duplicates": sum(len(d["dropped"]) for d in duplicates),
     "unresolvedNames": len(unresolved),
-    "livingRule": "80 or younger by year, no death or burial recorded, no public-source citation",
+    "livingRule": "80 or younger by year, no death or burial recorded",
     "living": sum(1 for r in records if r["living"]),
     "heldOut": len(HELD),
     "written": sum(1 for r in records if not r["living"]),

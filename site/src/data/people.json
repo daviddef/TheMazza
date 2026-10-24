@@ -62,7 +62,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false
+    "living": true
    },
    {
     "id": "@I33@",
@@ -162,8 +162,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false,
-    "via": "tree"
+    "living": true
    },
    {
     "id": "@I33@",
@@ -357,8 +356,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false,
-    "via": "tree"
+    "living": true
    },
    {
     "id": "@I33@",
@@ -2687,53 +2685,21 @@
   "given": "Salvatore",
   "surname": "Mazza",
   "sex": "M",
-  "living": false,
+  "living": true,
   "comp": 1,
-  "born": 1948,
-  "died": null,
-  "events": [
-   {
-    "what": "born",
-    "tag": "BIRT",
-    "date": "8 April 1948",
-    "year": 1948,
-    "place": "Briatico, Vibo Valentia, Calabria"
-   },
-   {
-    "what": "arrival",
-    "tag": "EVEN",
-    "date": "March 1951",
-    "year": 1951,
-    "place": "Fremantle, Western Australia"
-   },
-   {
-    "what": "departure",
-    "tag": "EVEN",
-    "date": "",
-    "year": null,
-    "place": "Genoa, Liguria"
-   }
-  ],
-  "birthPlace": "Briatico, Vibo Valentia, Calabria",
-  "deathPlace": "",
-  "burialPlace": "",
-  "sources": [],
-  "photos": [],
-  "photoSize": {},
+  "birthPlace": "Briatico, Vibo Valentia, Calabria, Italy",
   "parents": [
    {
     "id": "@I2@",
     "name": "Sebastiano Mazza",
     "slug": "sebastiano-mazza",
-    "living": false,
-    "via": "tree"
+    "living": false
    },
    {
     "id": "@I3@",
     "name": "Domenica Prostamo",
     "slug": "domenica-prostamo",
-    "living": false,
-    "via": "tree"
+    "living": false
    }
   ],
   "children": [
@@ -2783,19 +2749,7 @@
     "slug": "giovanni-mazza",
     "living": true
    }
-  ],
-  "records": [
-   {
-    "kind": "passenger index",
-    "what": "NAA passenger arrivals — placed on his mother's March 1951 voyage",
-    "href": "/crossings"
-   }
-  ],
-  "corrections": [
-   "Born at Briatico in 1948, so two years old in March 1951, which matches the family account that Domenica Prostamo followed her husband with a son not yet three. Infants are routinely not indexed separately."
-  ],
-  "onSpine": false,
-  "ancGen": null
+  ]
  },
  {
   "id": "@I33@",
@@ -2875,7 +2829,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false
+    "living": true
    },
    {
     "id": "@I1@",
@@ -2952,7 +2906,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false
+    "living": true
    },
    {
     "id": "@I33@",
@@ -3642,7 +3596,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false
+    "living": true
    }
   ],
   "siblings": []
@@ -3662,7 +3616,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false
+    "living": true
    },
    {
     "id": "@I40@",
@@ -3703,7 +3657,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false
+    "living": true
    },
    {
     "id": "@I40@",
@@ -3744,7 +3698,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false
+    "living": true
    },
    {
     "id": "@I40@",

@@ -4,11 +4,11 @@
   "n": 560,
   "earliest": 1697,
   "latest": 1970,
-  "dated": 202,
+  "dated": 201,
   "towns": [
    {
     "name": "Briatico, Vibo Valentia, Calabria",
-    "n": 86
+    "n": 85
    },
    {
     "name": "Scilla, Reggio Calabria",
@@ -1849,15 +1849,6 @@
     "died": 1950,
     "living": false,
     "birthPlace": "Scilla, Reggio Calabria"
-   },
-   {
-    "slug": "salvatore-mazza-2",
-    "name": "Salvatore Mazza",
-    "surname": "Mazza",
-    "born": 1948,
-    "died": null,
-    "living": false,
-    "birthPlace": "Briatico, Vibo Valentia, Calabria"
    },
    {
     "slug": "mary-rosa-mazza",
@@ -4648,6 +4639,15 @@
     "died": null,
     "living": false,
     "birthPlace": ""
+   },
+   {
+    "slug": "salvatore-mazza-2",
+    "name": "Salvatore Mazza",
+    "surname": "Mazza",
+    "born": null,
+    "died": null,
+    "living": true,
+    "birthPlace": "Briatico, Vibo Valentia, Calabria, Italy"
    },
    {
     "slug": "salvatore-mazza-3",

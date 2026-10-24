@@ -3797,8 +3797,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false,
-    "via": "tree"
+    "living": true
    },
    {
     "id": "@I33@",
@@ -4343,8 +4342,7 @@
     "id": "@I32@",
     "name": "Salvatore Mazza",
     "slug": "salvatore-mazza-2",
-    "living": false,
-    "via": "tree"
+    "living": true
    },
    {
     "id": "@I33@",
@@ -5200,39 +5198,6 @@
   "born": 1945
  },
  {
-  "name": "Salvatore Mazza & Carmelina Micale",
-  "head": "salvatore-mazza-2",
-  "headId": "@I32@",
-  "spouse": {
-   "id": "@I40@",
-   "name": "Carmelina Micale",
-   "slug": "carmelina-micale",
-   "living": true
-  },
-  "children": [
-   {
-    "id": "@I42@",
-    "name": "Domenica Rita Mazza",
-    "slug": "domenica-rita-mazza",
-    "living": true
-   },
-   {
-    "id": "@I41@",
-    "name": "Sebastian Michael Mazza",
-    "slug": "sebastian-michael-mazza",
-    "living": true
-   },
-   {
-    "id": "@I43@",
-    "name": "Anthony John Mazza",
-    "slug": "anthony-john-mazza",
-    "living": true
-   }
-  ],
-  "place": "Briatico, Vibo Valentia, Calabria",
-  "born": 1948
- },
- {
   "name": "Frank Mazza & Nancy Arena",
   "head": "frank-mazza",
   "headId": "@I1@",
@@ -5458,6 +5423,39 @@
   "born": null
  },
  {
+  "name": "Salvatore Mazza & Carmelina Micale",
+  "head": "salvatore-mazza-2",
+  "headId": "@I32@",
+  "spouse": {
+   "id": "@I40@",
+   "name": "Carmelina Micale",
+   "slug": "carmelina-micale",
+   "living": true
+  },
+  "children": [
+   {
+    "id": "@I42@",
+    "name": "Domenica Rita Mazza",
+    "slug": "domenica-rita-mazza",
+    "living": true
+   },
+   {
+    "id": "@I41@",
+    "name": "Sebastian Michael Mazza",
+    "slug": "sebastian-michael-mazza",
+    "living": true
+   },
+   {
+    "id": "@I43@",
+    "name": "Anthony John Mazza",
+    "slug": "anthony-john-mazza",
+    "living": true
+   }
+  ],
+  "place": "Briatico, Vibo Valentia, Calabria, Italy",
+  "born": null
+ },
+ {
   "name": "Giovanni Mazza & Alfina Pennisi",
   "head": "giovanni-mazza",
   "headId": "@I34@",
@@ -5492,7 +5490,7 @@
    "id": "@I32@",
    "name": "Salvatore Mazza",
    "slug": "salvatore-mazza-2",
-   "living": false
+   "living": true
   },
   "children": [
    {
