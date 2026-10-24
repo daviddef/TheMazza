@@ -37,7 +37,7 @@ import build_names_index as B  # noqa: E402  (plain, fold, register_order: the i
 
 PEOPLE = os.path.join(ROOT, "site", "src", "data", "people.json")
 READ = os.path.join(ROOT, "site", "src", "data", "read-names.json")
-LINK = re.compile(r'<a href="([^"]*)" data-autolink>(.*?)</a>', re.S)
+LINK = re.compile(r'<a href="([^"]*)" data-autolink(?:="[a-z]*")?[^>]*>(.*?)</a>', re.S)   # the kit marks a link data-autolink="person|near|search"
 TAG = re.compile(r"<[^>]+>")
 WORD = re.compile(r"[^\W\d_][\w'’\-]*")
 
