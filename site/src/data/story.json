@@ -1497,9 +1497,9 @@
       "title": "Under the mountain",
       "chapter": "salvatore",
       "extent": {
-        "west": 14.95,
-        "east": 16.3,
-        "south": 37.6,
+        "west": 14.55,
+        "east": 16.35,
+        "south": 37.5,
         "north": 38.85,
         "projection": "equirectangular"
       },
@@ -1510,8 +1510,8 @@
           "lat": 37.80671,
           "lon": 15.17819,
           "chapter": "mariano",
-          "dx": -8,
-          "dy": -8,
+          "dx": -10,
+          "dy": -6,
           "anchor": "end",
           "note": "the Mazza, from 1845"
         },
@@ -1521,9 +1521,10 @@
           "lat": 37.7602846,
           "lon": 15.1974313,
           "chapter": "salvatore",
-          "dx": 8,
-          "dy": 14,
-          "note": "Maria Nicotra born, 1875"
+          "dx": 10,
+          "dy": 12,
+          "note": "Maria Nicotra born, 1875",
+          "anchor": "start"
         },
         {
           "id": "messina",
@@ -1531,7 +1532,7 @@
           "lat": 38.19376,
           "lon": 15.55421,
           "chapter": "salvatore",
-          "dx": -8,
+          "dx": -10,
           "dy": 4,
           "anchor": "end",
           "note": "the Palermo sailed, 1925"
@@ -1542,7 +1543,7 @@
           "lat": 38.72525,
           "lon": 16.03237,
           "chapter": "sebastiano",
-          "dx": -8,
+          "dx": -10,
           "dy": 4,
           "anchor": "end",
           "note": "Domenica, by the tree"
@@ -1556,7 +1557,11 @@
           "chapter": "salvatore",
           "years": "1875 → 1898",
           "evidence": "/mascali/",
-          "bend": 0.4
+          "bend": 0.4,
+          "labelOffset": [
+            46,
+            6
+          ]
         }
       ],
       "regions": [
@@ -1573,10 +1578,10 @@
       "title": "To the other side of the world",
       "chapter": "sebastiano",
       "extent": {
-        "west": 5,
+        "west": 0,
         "east": 157,
         "south": -42,
-        "north": 47,
+        "north": 50,
         "projection": "equirectangular"
       },
       "places": [
@@ -1586,8 +1591,9 @@
           "lat": 37.80671,
           "lon": 15.17819,
           "chapter": "mariano",
-          "dx": 8,
-          "dy": 14
+          "dx": -6,
+          "dy": 22,
+          "anchor": "start"
         },
         {
           "id": "briatico",
@@ -1595,8 +1601,9 @@
           "lat": 38.72525,
           "lon": 16.03237,
           "chapter": "sebastiano",
-          "dx": 8,
-          "dy": -6
+          "dx": 10,
+          "dy": -8,
+          "anchor": "start"
         },
         {
           "id": "messina",
@@ -1604,8 +1611,9 @@
           "lat": 38.19376,
           "lon": 15.55421,
           "chapter": "salvatore",
-          "dx": 8,
-          "dy": 28
+          "dx": 12,
+          "dy": 4,
+          "anchor": "start"
         },
         {
           "id": "genoa",
@@ -1614,7 +1622,8 @@
           "lon": 8.93386,
           "chapter": "sebastiano",
           "dx": 8,
-          "dy": -8
+          "dy": -6,
+          "anchor": "start"
         },
         {
           "id": "fremantle",
