@@ -113,6 +113,29 @@ def evidence():
     return {"cites": cites, "dead": dead}
 
 
+def ged_death_kind(indi):
+    """What a GEDCOM INDI node holds about a death: "record", "flag" or None (the kit's death_kind).
+
+    record : a DEAT with a date, a place, an age at death or a source, or any BURI (a burial).
+    flag   : a DEAT that is only the yes-flag (`1 DEAT Y`, at most a note): the tree's belief with nothing
+             behind it. For a person born in the window it is NOT a death (they stay living); for an
+             undated person it means dead (kit living_rule, 25 October 2026).
+    The node shape is tools/ged.py's: {"tag", "val", "kids"}. One function for the generator, the
+    prose feed and the gate, so a flag is classed the same way everywhere.
+    """
+    def kid_val(n, tag):
+        k = next((c for c in n.get("kids", []) if c["tag"] == tag), None)
+        return (k["val"] or "").strip() if k else ""
+    deat = [n for n in indi.get("kids", []) if n["tag"] == "DEAT"]
+    buri = [n for n in indi.get("kids", []) if n["tag"] == "BURI"]
+    return lr.death_kind(
+        died=next((kid_val(n, "DATE") for n in deat if kid_val(n, "DATE")), None),
+        death_place=next((kid_val(n, "PLAC") for n in deat if kid_val(n, "PLAC")), None),
+        dead_flag=bool(deat),
+        # a burial is a register line that records a death, undated or not (the word "buried" alone would read as a flag)
+        death_recorded=bool(buri) or any(c["tag"] in ("AGE", "SOUR") for n in deat for c in n.get("kids", [])))
+
+
 def youngest_child_years(people):
     """{parent id: birth year of that parent's youngest child with a known birth year}.
 
@@ -149,7 +172,10 @@ def cites_for_living(p):
 
 
 def classify(people, today_year=None):
-    """people: {id: {"by": int|None, "dead": bool, "cites": [str], "parents": [id]}}
+    """people: {id: {"by": int|None, "dead": bool, "cites": [str], "parents": [id], "undated_dead": bool}}
+
+    "dead" is a death RECORD only (a date, a place, a burial, a register line). "undated_dead" is the
+    tree's bare death FLAG (kit living_rule, 25 October 2026): it frees nobody born in the window.
 
     Returns (living, held_out) as sets of ids. Living is computed first, because
     a possible minor with no birth year is defined by a living parent.
@@ -162,11 +188,13 @@ def classify(people, today_year=None):
     y = today_year or lr.this_year()
     yc = youngest_child_years(people)
     living = {i for i, p in people.items()
-              if lr.is_living(p["by"], p["dead"], cites_for_living(p), y, yc.get(i))}
+              if lr.is_living(p["by"], p["dead"], cites_for_living(p), y, yc.get(i),
+                              undated_dead=p.get("undated_dead", False))}
     held = set()
     for i, p in people.items():
         pl = any(q in living for q in p["parents"])
-        if lr.is_held_out(i, p["by"], p["dead"], p["cites"], pl, (), y, yc.get(i)):
+        if lr.is_held_out(i, p["by"], p["dead"], p["cites"], pl, (), y, yc.get(i),
+                          undated_dead=p.get("undated_dead", False)):
             held.add(i)
     return living, held
 
@@ -177,8 +205,8 @@ def selfcheck(today_year=2026):
     bad = []
     pub = ["a public record"]
 
-    def P(by=None, dead=False, cites=(), parents=()):
-        return {"by": by, "dead": dead, "cites": list(cites), "parents": list(parents)}
+    def P(by=None, dead=False, cites=(), parents=(), flag=False):
+        return {"by": by, "dead": dead, "cites": list(cites), "parents": list(parents), "undated_dead": flag}
 
     def run(people):
         return classify(people, today_year)
@@ -230,6 +258,36 @@ def selfcheck(today_year=2026):
     L, H = run({"g": P(today_year - 50), "p": P(parents=["g"])})
     if "p" not in H or "p" in L:
         bad.append("an undated person with a living parent and no child is no longer held out")
+    # a bare death FLAG (the tree says "deceased", nothing behind it) frees nobody born in the window
+    # (kit living_rule, 25 October 2026); it still means dead for an undated person and for anyone older
+    L, H = run({"p": P(today_year - 78, flag=True)})
+    if "p" not in L:
+        bad.append("a bare death flag made a person aged 78 not living")
+    L, H = run({"p": P(today_year - 80, flag=True)})
+    if "p" not in L:
+        bad.append("a bare death flag made a person aged exactly 80 not living")
+    L, H = run({"p": P(today_year - 81, flag=True)})
+    if "p" in L:
+        bad.append("a person aged 81 with a death flag was made living")
+    L, H = run({"p": P(flag=True), "k": P(today_year - 20, parents=["p"])})
+    if "p" in L or "p" in H:
+        bad.append("an undated person with a death flag was made living or held out")
+    L, H = run({"p": P(today_year - 78, flag=True, dead=True)})
+    if "p" in L:
+        bad.append("a death record beside a flag did not make a person aged 78 not living")
+    # the GEDCOM classing of a death: a bare yes-flag is a flag, a date or place or any burial is a record
+    def node(tag, val="", kids=()):
+        return {"tag": tag, "val": val, "kids": list(kids)}
+    for nodes, want in (([node("DEAT", "Y")], "flag"),
+                        ([node("DEAT", "Y", [node("NOTE", "Spanish Flu")])], "flag"),
+                        ([node("DEAT", "Y", [node("DATE", "1918")])], "record"),
+                        ([node("DEAT", "Y", [node("PLAC", "Scilla")])], "record"),
+                        ([node("DEAT", "Y", [node("AGE", "70y")])], "record"),
+                        ([node("BURI", "", [node("PLAC", "Scilla")])], "record"),
+                        ([node("BURI")], "record"),
+                        ([], None)):
+        if ged_death_kind({"kids": nodes}) != want:
+            bad.append(f"a GEDCOM death of {[n['tag'] for n in nodes]} was not classed {want}")
     # a dated person is judged by their own year alone
     L, H = run({"p": P(today_year - 90), "k": P(today_year - 20, parents=["p"])})
     if "p" in L:

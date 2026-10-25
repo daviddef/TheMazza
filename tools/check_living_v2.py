@@ -252,12 +252,24 @@ class Gate:
                     out += [h["val"] for h in kids(F[fc["val"]], r) if h["val"] in I]
             return out
 
+        def death_kind(x):
+            # re-derived here from the kit's own death_kind, not from the generator's helper: a DEAT with a
+            # date, a place, an age or a source, or any BURI, is a record; a bare `DEAT Y` is a flag
+            d = kid(I[x], "DEAT")
+            return lr.death_kind(
+                died=val(d, "DATE") if d else None,
+                death_place=val(d, "PLAC") if d else None,
+                dead_flag=d is not None,
+                death_recorded=bool(kid(I[x], "BURI") or (d and (kid(d, "AGE") or kid(d, "SOUR")))))
+
         slug_of = {p["id"]: p["slug"] for p in self.people}
         info = {}
         for x in I:
             sl = slug_of.get(x)
+            dk = death_kind(x)
             info[x] = {"by": by_of(x),
-                       "dead": bool(kid(I[x], "DEAT") or kid(I[x], "BURI")) or (sl in ev["dead"]),
+                       "dead": dk == "record" or (sl in ev["dead"]),
+                       "flag": dk == "flag",
                        "cites": titles(x) + ev["cites"].get(sl, []), "parents": parents_of(x)}
         # the youngest child with a known birth year, from the export's own family records (17 October 2026)
         young = {}
@@ -267,11 +279,12 @@ class Gate:
                     young[q] = max(young.get(q, 0), i["by"])
         living_now = {x for x, i in info.items()
                       if lr.is_living(i["by"], i["dead"], [] if i["by"] is not None else i["cites"],
-                                      self.today, young.get(x))}
+                                      self.today, young.get(x), undated_dead=i["flag"])}
         held_now = set()
         for x, i in info.items():
             pl = any(q in living_now for q in i["parents"])
-            if lr.is_held_out(x, i["by"], i["dead"], i["cites"], pl, (), self.today, young.get(x)):
+            if lr.is_held_out(x, i["by"], i["dead"], i["cites"], pl, (), self.today, young.get(x),
+                              undated_dead=i["flag"]):
                 held_now.add(x)
         self.recent_parent_ids = sorted(x for x in living_now if info[x]["by"] is None)
         self.no_twin = {x for x in I if len(twins.get(name_key(x), [])) == 1}

@@ -1,12 +1,22 @@
 {
  "_why": [
   "Text that may carry a birth year in the 80-year window although no living person is meant, because the line records a death.",
-  "Read by tools/check_living_v2.py rule 7. Each entry is a decision: add one only where a death is recorded beside the year."
+  "Read by tools/check_living_v2.py rule 7 and by the kit's printed-year gate (checkliving.py --years, standard.json living_years). Each entry is a decision: add one only where a death is recorded beside the year, or where the year is not a birth at all."
  ],
  "allow": [
   {
    "text": "Giovanni Mazza (b. 1958)",
    "why": "Queensland death registration 1988/9150, parents Angelo Mazza and Francesca Strano: a registered death, a different household from the tree's Giovanni Mazza (data/qld-bdm.tsv). Flagged to David: the year equals a living namesake's, so the two may be one man."
+  },
+  {
+   "file": "lines/index.html",
+   "text": "established 15 September 2026",
+   "why": "The date a wall was established by reading (data/walls.json), printed under a person whose birth year sits just before it; it is a research date, not anyone's birth."
+  },
+  {
+   "file": "searchindex.json",
+   "text": "established 15 september 2026",
+   "why": "The same wall date in the lower-cased search index (public/searchindex.json); a research date, not anyone's birth."
   }
  ]
 }

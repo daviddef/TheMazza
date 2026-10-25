@@ -160,7 +160,12 @@ def death_year(x):
     return None
 
 def has_death(x):
+    """Any DEAT or BURI node, a bare flag included. For the LIVING test use death_kind(x)."""
     return bool(kid(I[x], "DEAT") or kid(I[x], "BURI"))
+
+def death_kind(x):
+    """"record" (a date, place, age, source or a burial), "flag" (`DEAT Y` and nothing behind it) or None."""
+    return LV.ged_death_kind(I[x])
 
 # ---------------------------------------------------------------------------
 # WHO IS LIVING (David, 16 October 2026; the estate's living-people standard v2)
@@ -711,7 +716,9 @@ for x in people_ids:
     _orig = [x] + [z for z in I if canonical[z] == x and z != x]
     _status_in[x] = {
         "by": _first_year(_orig),
-        "dead": any(has_death(z) for z in _orig) or slug_of[x] in _EV["dead"],
+        # a death RECORD only; a bare `DEAT Y` is undated_dead (kit living_rule, 25 Oct 2026: it frees no one born in the window)
+        "dead": any(death_kind(z) == "record" for z in _orig) or slug_of[x] in _EV["dead"],
+        "undated_dead": any(death_kind(z) == "flag" for z in _orig),
         "cites": [s for z in _orig for s in src_of(z)] + _EV["cites"].get(slug_of[x], []),
         "parents": sorted({canonical.get(q) for z in _orig for q in parents(z)} - {None, x}),
     }

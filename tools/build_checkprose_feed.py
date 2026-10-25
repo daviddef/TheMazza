@@ -128,7 +128,8 @@ def classify_export(R, people, year):
     for x in I:
         sl = slug_of.get(x)
         info[x] = {"by": by_of(x),
-                   "dead": bool(kid(I[x], "DEAT") or kid(I[x], "BURI")) or (sl in ev["dead"]),
+                   "dead": LV.ged_death_kind(I[x]) == "record" or (sl in ev["dead"]),
+                   "undated_dead": LV.ged_death_kind(I[x]) == "flag",
                    "cites": titles(x) + ev["cites"].get(sl, []), "parents": parents_of(x)}
     living, held = LV.classify(info, year)
     return living, held, set(I) - living - held, I
