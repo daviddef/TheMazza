@@ -7,17 +7,44 @@ import documented from "../data/documented-line.json";
 import walls from "../data/walls.json";
 import { FURTHEST_KM } from "../lib/distance.js";
 import { words, Words } from "../lib/words.js";
+import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
+import { ledger } from "@daviddef/archive-kit/lib/lines.js";
+import lines from "../data/lines.json";
+import people from "../data/people.json";
 const stopsShort = quarters.filter((q) => !q.line[0].born).sort((a, b) => a.line.length - b.line.length)[0];
 const anchors = Object.entries(documented).sort((a, b) => b[1].up.length - a[1].up.length);
 const beyond = anchors.reduce((n, [, v]) => n + v.up.length, 0);
 const below = anchors.reduce((n, [, v]) => n + (v.down || []).length, 0);
+/* THE DRAWING (25 October 2026). The four quarters as the kit's lines figure: one lane per grandparent's chain, each
+   with a status that says how far back its evidence reaches, and under the lanes the people who are on none of them.
+   The data is written by tools/build_lines.py from quarters.json, walls.json, components.json and people.json, never by
+   hand; tools/checklines.py (npm run check:lines) holds it to its own claims. Every number printed here comes from
+   ledger(), or from the data that made it. The names are the dead people's alone: a living person is on no lane. */
+const L = ledger(lines);
+const names = Object.fromEntries(people.filter((p) => !p.living).map((p) => [p.slug, p.name]));
+const towns = new Set(quarters.map((q) => String(q.town).split(",")[0])).size;
+const collateral = people.filter((p) => !p.living).length - L.peopleOnLanes - L.peopleInPens;
 ---
-<Base title="The Four Quarters" eyebrow="Four grandparents, three towns"
+<Base title="The Four Quarters" eyebrow={`${Words(L.lanes)} grandparents, ${words(towns)} towns`}
       dek="Every person has four grandparents, and they are the honest unit of a family history: four separate families, four separate depths of evidence, and no reason at all for them to be equal.">
 
   <p class="note">These four were born within eight years of each other — 1920, 1924, 1925, 1928 —
   in three towns that had no connection whatsoever. Two of them are about {FURTHEST_KM} kilometres
   apart. All four were in Queensland by 1954.</p>
+
+  <section class="blk" style="margin-top:28px">
+    <div class="lab">The lines, drawn</div>
+    <h2 style="margin-top:.4rem">How far back each line is proved</h2>
+    <figure class="rivers" style="margin:1rem 0 0">
+      <BranchRivers rivers={lines} title={lines.title} caption={lines.caption} names={names} />
+    </figure>
+    <p class="small" style="margin-top:.8rem;color:var(--ink-2)">{Words(L.lanes)} lines drawn, with {L.peopleOnLanes} people on them
+    and {L.peopleInPens} more in the pens under them. The other {collateral} people who have died are in the archive but not on this drawing: a line is a
+    chain of direct ancestors, and these are the people around it, the brothers and sisters, cousins and married-in families, and the few
+    entered in the tree and joined to nobody. {Words(L.tiers.documented || 0)} of the lines
+    are documented all the way up, {words(L.tiers.inferred || 0)} stands on the family tree above its oldest document and
+    {words(L.tiers["origin-unknown"] || 0)} stops at a wall. <a href={u("/components/")}>The pieces →</a></p>
+  </section>
 
   <div class="stack" style="margin-top:38px">
     {quarters.map((q) => (

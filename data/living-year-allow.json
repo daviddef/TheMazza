@@ -12,11 +12,6 @@
    "file": "lines/index.html",
    "text": "established 15 September 2026",
    "why": "The date a wall was established by reading (data/walls.json), printed under a person whose birth year sits just before it; it is a research date, not anyone's birth."
-  },
-  {
-   "file": "searchindex.json",
-   "text": "established 15 september 2026",
-   "why": "The same wall date in the lower-cased search index (public/searchindex.json); a research date, not anyone's birth."
   }
  ]
 }

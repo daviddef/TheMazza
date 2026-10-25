@@ -62,6 +62,9 @@ ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "site", "src", "data")
 OUT_INDEX = os.path.join(ROOT, "site", ".autolink", "names-index.json")
 OUT_LIVING = os.path.join(ROOT, "private", "living.json")
+# The same people as slugs, in the shape the kit's lines gate reads (--living: {"slugs": [...]}); living.json holds names and
+# addresses for the name linker and keeps its own shape.
+OUT_LIVING_SLUGS = os.path.join(ROOT, "private", "living-slugs.json")
 
 
 def load_module(path, name):
@@ -336,6 +339,7 @@ def main(argv=None):
         return 0
     write_json(a.index, index)
     write_json(a.living, {"names": sorted(living["names"]), "urls": sorted(living["urls"])}, private=True)
+    write_json(OUT_LIVING_SLUGS, {"slugs": sorted(u.split("/")[2] for u in living["urls"] if u.startswith("/people/"))}, private=True)
     print("names: wrote the index (%d people, %d ambiguous) and the living list (%d terms, %d addresses; names inside, "
           "not for commit)" % (len(index["people"]), len(index["ambiguous"]), len(living["names"]), len(living["urls"])))
     return 0

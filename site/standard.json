@@ -1,9 +1,13 @@
 {
- "_note": "Settings the kit's gates read from this archive. living_years: the printed-year gate (checkliving.py --years); its registry is data/living-year-allow.json, which tools/check_living_v2.py rule 7 reads too. lines: checklines.py.",
+ "_note": "Settings the kit's gates read from this archive. living_years: the printed-year gate (checkliving.py --years); its registry is data/living-year-allow.json, which tools/check_living_v2.py rule 7 reads too. lines: checklines.py (src/data/lines.json is written by tools/build_lines.py).",
  "version": 1,
  "living_years": {
   "allow_file": "../data/living-year-allow.json",
   "allow_prefixes": [],
   "data": "src/data"
+ },
+ "lines": {
+  "exclusive": true,
+  "personBase": "/people/"
  }
 }
