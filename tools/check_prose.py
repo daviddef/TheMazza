@@ -53,6 +53,7 @@ HAND_EDITED = {
     "site/src/data/book.json",       # the book's order: part titles, intros and one-line blurbs, written by hand
     "site/src/data/errands.json",    # the letters and orders this archive still needs: written by hand
     "site/src/data/place-spellings.json",   # misspellings of place names, each with a note
+    "site/src/data/story.json",      # the family story (/story/): a short book, written by hand to the kit's contract
     "site/src/data/the-110.json",    # the join of the hundred and ten: a page's text, written by hand
     "site/src/data/trees.json",      # the /trees page: one row per line, each in the words its author chose
     "site/src/data/worklist.json",   # the work list: a research session appends to it

@@ -1,0 +1,1921 @@
+{
+  "_note": "The family story (/story/), drawn by the kit's StoryBook (kit/docs/story.md is the contract, kit/tools/checkfamilystory.py the gate). Hand-written. Every sentence about a person traces to a page of this archive, linked in its paragraph's evidence; every passage about the world is marked archive (this archive's own pages) or history (general history, listed in closing.notes). The line is the Mazza name line, the one line the front page draws (src/lib/descent.js). The living are a relationship and a town; the two children are initials.",
+  "title": "From the Foot of the Mountain",
+  "eyebrow": "The story · the Mazza name line · Sicily and Calabria to Brisbane",
+  "dek": "The line this archive is named for, told once as a short book: a day-labourer on the slope of Etna, his son and grandson in the contrade of the same town, a ship out of Genoa, a builder's labourer at Wacol, four plots in a row at Nudgee. Under every chapter, a small family tree and the documents it rests on. Every paragraph says how well it is known.",
+  "cardsNote": "The documents this chapter rests on, in their own words.",
+  "prologue": {
+    "title": "Start here",
+    "paragraphs": [
+      {
+        "id": "start-1",
+        "grade": "doc",
+        "text": "This is the short version of a long archive: four generations of the family whose name it carries, from a day-labourer on the slope of Etna to a builder's labourer in Brisbane, and a short page for the living.",
+        "evidence": [
+          {
+            "href": "/the-name-line/",
+            "why": "The Mazza name line, generation by generation, with the act under each"
+          }
+        ]
+      },
+      {
+        "id": "start-2",
+        "grade": "doc",
+        "text": "Everything said here about a person comes from a paper the archive holds, or is marked when it does not. Each paragraph ends with a mark: **doc** where a document says so, **inf** where the archive reasons from documents, **lore** where it rests on the family's memory or its tree. A paragraph takes the mark of its weakest sentence, and every mark links to the evidence.",
+        "evidence": [
+          {
+            "href": "/method/",
+            "why": "The archive's method: documented, inferred, family lore"
+          }
+        ]
+      },
+      {
+        "id": "start-3",
+        "grade": "doc",
+        "text": "Passages set in under *In the world around them* describe the place and the years, never what these people did or saw. They are marked **archive** for this archive's own pages or **history** for general history, listed at the end.",
+        "evidence": [
+          {
+            "href": "/method/",
+            "why": "The archive's method"
+          }
+        ]
+      },
+      {
+        "id": "start-4",
+        "grade": "doc",
+        "text": "Why this line. The archive keeps [four quarters](/lines/), four grandparents out of Piedimonte Etneo in Sicily and Briatico and Scilla in Calabria, and its longest line runs through the Prostamo. The front page draws one line only, the one the family is named for, and this book follows it: the [Mazza name line](/the-name-line/), father to son, documented at every Sicilian step. Calabria comes into it through a wife.",
+        "evidence": [
+          {
+            "href": "/the-name-line/",
+            "why": "The Mazza name line"
+          },
+          {
+            "href": "/direct-line/",
+            "why": "The Spine: «This is not the Mazza line»"
+          },
+          {
+            "href": "/lines/",
+            "why": "The four quarters"
+          }
+        ]
+      },
+      {
+        "id": "start-5",
+        "grade": "doc",
+        "text": "The names hold still and the clerks do not: Rosario is *Rogerius* in the Latin parish books, and his son's wife's mother is written four ways. Each chapter ends with *The papers for this chapter*.",
+        "evidence": [
+          {
+            "href": "/mazza/#sicily-at-last",
+            "why": "Rogerius, and the readings of Venera's surname"
+          }
+        ]
+      }
+    ]
+  },
+  "ribbon": {
+    "note": "Each card names that generation's man of the Mazza name and where he came from, with the place a later document finds the household where it differs, and his wife and where she came from. The outline carries the evidence for where he came from: solid documented, dashed inferred, dotted the family's tree or memory. The last two are living, and carry no dates.",
+    "cards": [
+      {
+        "name": "Mariano Mazza",
+        "years": "c. 1809 – after 1871",
+        "origin": "Piedimonte Etneo",
+        "originGrade": "inf",
+        "spouse": "Maria Catalano",
+        "spouseOrigin": "place not known",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "mariano",
+        "person": "mariano-mazza-1809",
+        "spousePerson": "maria-catalano",
+        "title": "A bracciale at Piedimonte Etneo in 1845 and still living there in 1871; born there if he is the groom of 1836"
+      },
+      {
+        "name": "Rosario Mazza",
+        "years": "1845–1924",
+        "origin": "Piedimonte Etneo",
+        "originGrade": "doc",
+        "spouse": "Leonarda Bonanno",
+        "spouseOrigin": "of Piedimonte Etneo",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "rosario",
+        "person": "rosario-mazza",
+        "spousePerson": "leonarda",
+        "title": "Born at Piedimonte Etneo, 2 June 1845; died there, at Presa, 15 November 1924"
+      },
+      {
+        "name": "Salvatore Mazza",
+        "years": "1873–1929",
+        "origin": "Piedimonte Etneo",
+        "originGrade": "doc",
+        "spouse": "Maria Nicotra",
+        "spouseOrigin": "of Mascali",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "salvatore",
+        "person": "salvatore-mazza",
+        "spousePerson": "maria-nicotra",
+        "title": "Born in Contrada Terremorte, 5 January 1873; died in the frazione of Vena, 19 September 1929"
+      },
+      {
+        "name": "Sebastiano Mazza",
+        "years": "1920–2002",
+        "origin": "Piedimonte Etneo",
+        "originGrade": "lore",
+        "spouse": "Domenica Prostamo",
+        "spouseOrigin": "of Briatico",
+        "atPlace": "Wacol, Brisbane",
+        "atYear": "1959",
+        "living": false,
+        "chapter": "sebastiano",
+        "person": "sebastiano-mazza",
+        "spousePerson": "domenica-prostamo",
+        "title": "Born 22 October 1920, at Piedimonte Etneo by the family's tree; on the Toscana from Genoa in 1949; at Wacol in 1959"
+      },
+      {
+        "name": "Frank",
+        "years": "",
+        "origin": "Brisbane",
+        "originGrade": "lore",
+        "spouse": "Nancy",
+        "spouseOrigin": "of Brisbane",
+        "atPlace": "",
+        "atYear": "",
+        "living": true,
+        "chapter": "brisbane",
+        "person": "frank-mazza",
+        "spousePerson": "nancy-arena",
+        "spouseLiving": true,
+        "title": "Living: named with a relationship and a town, nothing more"
+      },
+      {
+        "name": "Michael",
+        "years": "",
+        "origin": "Brisbane",
+        "originGrade": "lore",
+        "spouse": "Stefanie",
+        "spouseOrigin": "of Brisbane",
+        "atPlace": "",
+        "atYear": "",
+        "living": true,
+        "chapter": "brisbane",
+        "person": "michael-rocco-mazza",
+        "spousePerson": "stefanie-darcy",
+        "spouseLiving": true,
+        "title": "Living: named with a relationship and a town, nothing more"
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "mariano",
+      "numeral": "I",
+      "title": "The day-labourer of 1845",
+      "place": "Piedimonte Etneo",
+      "years": "about 1809 – after 1871",
+      "generation": 1,
+      "paragraphs": [
+        {
+          "id": "mariano-1",
+          "grade": "doc",
+          "text": "At eleven in the morning on 2 June 1845 a boy was born at Piedimonte Etneo, in the house his parents lived in, and the same day his father declared him before the sindaco, Antonino Grassi. The clerk wrote the father down as [Mariano Mazza](person:mariano-mazza-1809), aged thirty-six, by trade a *bracciale*, and the mother as [Maria Catalano](person:maria-catalano), also thirty-six. The boy was [Rosario](person:rosario-mazza). The parish of the Chiesa Maggiore baptised him that day and sent the notice back at once.",
+          "evidence": [
+            {
+              "href": "/mazza/#scan-pe-nati1845-atto64",
+              "why": "Piedimonte Etneo, Nati 1845, atto 64: the act and its scan"
+            }
+          ]
+        },
+        {
+          "id": "mariano-2",
+          "grade": "inf",
+          "text": "Their two ages are nearly all the papers give of their beginnings: both were born about 1809. Neither is in the family's tree. They are in this archive because a register named them, not because anyone remembered them.",
+          "evidence": [
+            {
+              "href": "person:mariano-mazza-1809",
+              "why": "Mariano: «Not in the family tree»"
+            },
+            {
+              "href": "person:maria-catalano",
+              "why": "Maria Catalano: «nowhere in the family tree»"
+            }
+          ]
+        },
+        {
+          "id": "mariano-w1",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Piedimonte Etneo means the foot of the mountain, and it is exactly that: a comune of the province of Catania on the north-eastern slope of Etna, above Fiumefreddo and the Alcantara valley, looking out at the Ionian Sea. Mascali and Giarre lie a few kilometres down the same coast road.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/piedimonte-etneo/",
+              "why": "The archive's page on the town"
+            }
+          ]
+        },
+        {
+          "id": "mariano-w2",
+          "register": "world",
+          "worldSource": "history",
+          "text": "On this side of Etna the volcanic soil was given over above all to vines, with hazel and chestnut on the higher ground, and much of the work on it was done by labourers hired by the day.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H2",
+              "why": "General history: the north-eastern slope of Etna"
+            }
+          ],
+          "tbc": "A general description of the district, not drawn from any paper about this family."
+        },
+        {
+          "id": "mariano-3",
+          "grade": "doc",
+          "text": "*Bracciale* is the register's word for a day-labourer. In his son's death act of 1924 he is remembered as a *contadino*, a peasant farmer. What he worked at, and on whose land, no paper says.",
+          "evidence": [
+            {
+              "href": "/the-name-line/",
+              "why": "«fu Mariano gia contadino», 1924"
+            },
+            {
+              "href": "person:gaetano-bonanno",
+              "why": "«bracciale (day labourer)»"
+            }
+          ]
+        },
+        {
+          "id": "mariano-4",
+          "grade": "inf",
+          "text": "He may have married in the same town in September 1836. The marriage indexes of Piedimonte, read for every year from 1820, when its civil registers begin, to 1845, hold one groom called Mazza in twenty-six years, and he is a Mariano: a *bracciale* of thirty, born at Piedimonte, son of an Ignazio and of Giuseppa Pulvirenti. His bride was twenty-eight, born at Macchia, and the act calls her Agata Catalano. Her age fits the mother of 1845, and so do the surname, his trade and his town. Her first name does not, and his age is three years out. The archive calls it probable, not proven, and so does this book.",
+          "evidence": [
+            {
+              "href": "/mazza/#scan-pe-matr1836-atto17",
+              "why": "Piedimonte Etneo, Matrimoni 1836, atto 17: the act and what it settles"
+            }
+          ],
+          "tbc": "The groom of 1836 is Rosario's father by inference only: the bride is Agata, not Maria, and his age is three years out."
+        },
+        {
+          "id": "mariano-5",
+          "grade": "doc",
+          "text": "If the couple had other children, none was born at Piedimonte in the years around Rosario. The birth registers for 1844, 1845, 1846 and 1847 have been read entire, something over five hundred births, and Mariano and Maria appear once, as Rosario's parents.",
+          "evidence": [
+            {
+              "href": "/mazza/#piedimonte-1871-1845",
+              "why": "«Rosario has no brothers or sisters at Piedimonte»"
+            }
+          ]
+        },
+        {
+          "id": "mariano-w3",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "The Mazza were few in this town. In 1844 and 1846 the births of Piedimonte hold no Mazza at all, and in 1845 two. The name itself is the Italian for a club or a mallet, and it was coined independently many times over, from Lombardy to Sicily: there is no founding Mazza family.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/mazza/",
+              "why": "«How few the Mazza were» and «What the name is»"
+            },
+            {
+              "kind": "archive",
+              "href": "/name/",
+              "why": "The Name"
+            }
+          ]
+        },
+        {
+          "id": "mariano-w4",
+          "register": "world",
+          "worldSource": "history",
+          "text": "When Rosario was born, Sicily was not yet Italy. It belonged to the Bourbon Kingdom of the Two Sicilies, ruled from Naples, until Garibaldi's expedition of 1860; in 1861 it became part of the new Kingdom of Italy.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H1",
+              "why": "General history: Sicily, 1860-1861"
+            }
+          ]
+        },
+        {
+          "id": "mariano-6",
+          "grade": "doc",
+          "text": "Twenty-six years later Mariano is in the papers once more. On 16 April 1871 the comune certified the banns for Rosario's marriage, and its printed form had a place for whether the groom's father was alive. The clerk wrote «figlio del vivente Mariano»: son of the living Mariano, *bracciante*, resident there. Maria Catalano was living too, and for the first time a paper gives her a trade: *industriosa*, the word these registers use for a woman doing piecework at home.",
+          "evidence": [
+            {
+              "href": "person:mariano-mazza-1809",
+              "why": "The publication certificate of 16 April 1871"
+            },
+            {
+              "href": "person:maria-catalano",
+              "why": "«e della vivente Maria Catalano, professione industriosa»"
+            }
+          ]
+        },
+        {
+          "id": "mariano-7",
+          "grade": "doc",
+          "text": "After that, silence. No death act has been found for either of them. By 1924 both were dead: their son's death act calls them «fu Mariano gia contadino» and «fu Catalano Maria gia casalinga», the late Mariano, once a farmer, and the late Maria Catalano, once a housewife.",
+          "evidence": [
+            {
+              "href": "/the-name-line/",
+              "why": "Rosario's death act of 1924, as the name-line page gives it"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "field",
+        "note": "Mariano and Maria are known from their son's papers. The couple of 1836, and the Ignazio and Giuseppa Pulvirenti named there, are not drawn: the archive holds them as probable and keeps them off its charts.",
+        "thread": "rosario1",
+        "rows": [
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "mariano",
+                "name": "Mariano Mazza",
+                "years": "c. 1809, bracciale",
+                "grade": "doc",
+                "person": "mariano-mazza-1809"
+              },
+              {
+                "id": "catalano",
+                "name": "Maria Catalano",
+                "years": "c. 1809, industriosa",
+                "grade": "doc",
+                "person": "maria-catalano"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "rosario1",
+                "name": "Rosario",
+                "years": "1845",
+                "grade": "doc",
+                "person": "rosario-mazza"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1871 · Piedimonte Etneo",
+        "title": "Still living, and still working",
+        "text": "«figlio del vivente Mariano, professione bracciante, residente anche ivi»",
+        "source": "Publication certificate for Rosario Mazza's marriage, 16 April 1871 (Piedimonte Etneo, Matrimoni allegati 1871, fascicolo 14)",
+        "hardLimit": "It is the last paper that shows him alive. No death act for him has been found."
+      },
+      "plates": [],
+      "papers": [
+        {
+          "title": "The birth act of 1845",
+          "href": "/mazza/#scan-pe-nati1845-atto64"
+        },
+        {
+          "title": "The marriage of 1836, probable and not proven",
+          "href": "/mazza/#scan-pe-matr1836-atto17"
+        },
+        {
+          "title": "Mariano Mazza",
+          "href": "person:mariano-mazza-1809"
+        },
+        {
+          "title": "Maria Catalano",
+          "href": "person:maria-catalano"
+        },
+        {
+          "title": "The Mazza name line",
+          "href": "/the-name-line/"
+        },
+        {
+          "title": "Piedimonte Etneo",
+          "href": "/piedimonte-etneo/"
+        },
+        {
+          "title": "The Name",
+          "href": "/name/"
+        }
+      ]
+    },
+    {
+      "id": "rosario",
+      "numeral": "II",
+      "title": "Rosario di Mariano",
+      "place": "Piedimonte Etneo: San Basilio, Terremorte, Presa",
+      "years": "1845–1924",
+      "generation": 2,
+      "paragraphs": [
+        {
+          "id": "rosario-1",
+          "grade": "doc",
+          "text": "At four in the afternoon on 30 April 1871 the sindaco of Piedimonte Etneo, Barone Mariano, married two day-labourers in the casa comunale. The groom was [Rosario Mazza](person:rosario-mazza), single, born and living in the town, a *bracciante*. The bride was [Leonarda Bonanno](person:leonarda), single, born and living there too, and a *bracciante* in her own right. A shoemaker of thirty-eight, Salvatore Greco, and a labourer of forty-six, Antonino Di Lava, stood witness. The next wedding was entered at half past four: the registrar was working through a set of them that afternoon.",
+          "evidence": [
+            {
+              "href": "/mazza/#scan-pe-matr1871-atto14",
+              "why": "Piedimonte Etneo, Matrimoni 1871, atto 14: the act and its scan"
+            }
+          ]
+        },
+        {
+          "id": "rosario-2",
+          "grade": "doc",
+          "text": "Leonarda had been born on 7 November 1843, at eight in the morning, in her parents' house. Her father, [Gaetano Bonanno](person:gaetano-bonanno), a *bracciale* of thirty-six, declared her the next day; her mother was [Anna Cavallaro](person:anna-cavallaro-1805). In April 1871 her father was still living. Like Rosario's parents, hers are not in the family's tree.",
+          "evidence": [
+            {
+              "href": "/mazza/#scan-pe-nati1843-atto101",
+              "why": "Piedimonte Etneo, Nati 1843, atto 101"
+            },
+            {
+              "href": "person:gaetano-bonanno",
+              "why": "«figlia del vivente Gaetano», 1871"
+            }
+          ]
+        },
+        {
+          "id": "rosario-3",
+          "grade": "doc",
+          "text": "Their first son was born in February 1872, at ten at night, in contrada San Basilio, and Rosario went in person to declare him at noon the next day. They named him [Mariano](person:mariano-mazza-1872), which was Rosario's father's name. Eleven months later, on 5 January 1873, a second son was born in Contrada Terremorte, and he, Salvatore, carries the line into the next chapter. Whether the first Mariano lived, nobody has yet looked.",
+          "evidence": [
+            {
+              "href": "person:mariano-mazza-1872",
+              "why": "Piedimonte Etneo, Nati 1872, atto 32"
+            },
+            {
+              "href": "/the-name-line/",
+              "why": "Nati 1873, atto 3"
+            }
+          ]
+        },
+        {
+          "id": "rosario-w1",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "In these towns a family's first son was named for his father's father, and the next son for his mother's father.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/the-hundred-and-ten/",
+              "why": "The naming custom, as the archive uses it"
+            },
+            {
+              "kind": "archive",
+              "href": "person:gaetano-mazza",
+              "why": "«the name the Sicilian custom gives after the mother's father»"
+            }
+          ]
+        },
+        {
+          "id": "rosario-4",
+          "grade": "doc",
+          "text": "The other children can be followed through the registers, though never in one book. Giovanni was twenty-seven when his banns were read in 1902, so born about 1875. [Gaetano](person:gaetano-mazza), with the name of Leonarda's father, was born on 5 May 1880 in via San Basilio, and Rosario, entered as a *bracciante* of thirty-two, declared him four days later. A parish book gives Santo, born about 8 April 1882, «ex Rosario e Leonarda Bonanno». [Ignazio](person:ignazio-mazza) was twenty-three at his banns in 1910, and both his parents came before the clerk to give their consent.",
+          "evidence": [
+            {
+              "href": "/the-hundred-and-ten/",
+              "why": "The proclamations of 1902 and 1910, and Santo's baptism"
+            },
+            {
+              "href": "person:gaetano-mazza",
+              "why": "Piedimonte Etneo, Nati 1880, atto 66"
+            }
+          ]
+        },
+        {
+          "id": "rosario-5",
+          "grade": "lore",
+          "text": "The family's tree gives Rosario three sons, Orazio, Ignazio and [Giovanni](person:giovanni-mazza-3), by a wife it calls only Leonarda. An Orazio Mazza was born at Piedimonte in October 1877, and one page of this archive counts him as theirs; another shows that his mother was a different Leonarda, living in a different street. Until that act is settled, [Orazio](person:orazio-mazza) is the tree's.",
+          "evidence": [
+            {
+              "href": "person:orazio-mazza",
+              "why": "«the obvious act is somebody else's»"
+            },
+            {
+              "href": "/the-hundred-and-ten/",
+              "why": "Where the same act is counted for this household"
+            }
+          ],
+          "tbc": "The archive's pages disagree whether Nati 1877 atto 168 belongs to this household."
+        },
+        {
+          "id": "rosario-6",
+          "grade": "inf",
+          "text": "Those sons are why the archive is larger than the line. The family's tree arrived in pieces, and one piece held a hundred and ten Piedimonte Mazza joined to the family by nothing at all. Register acts showed that its head, a Rosario with a wife called Leonarda, was this Rosario. The hundred and ten are the families of his sons, and a hundred and six of them come down through Orazio alone. The join is declared and argued in public, so that it can be attacked.",
+          "evidence": [
+            {
+              "href": "/the-hundred-and-ten/",
+              "why": "The Hundred and Ten: the argument, and what would overturn it"
+            }
+          ]
+        },
+        {
+          "id": "rosario-7",
+          "grade": "doc",
+          "text": "The registers could not keep his name straight. In the Latin parish books he is *Rogerius*, and other entries for the same household give the father as *Rosarius*, *Joannes* and *Gaspare*. The archive's working rule for this town is that the given name is unreliable and the wife's name is the stable handle.",
+          "evidence": [
+            {
+              "href": "/mazza/#sicily-at-last",
+              "why": "«The registers spell his father four different ways»"
+            }
+          ]
+        },
+        {
+          "id": "rosario-8",
+          "grade": "doc",
+          "text": "The clerks wrote his age down again and again, and it drifts: twenty-eight in January 1873, thirty-two in 1880, fifty-three in 1898, sixty-five in 1910. His act of birth outranks them all. He was a *bracciante* when he married and when his sons were born; by the end the register called him a *contadino*.",
+          "evidence": [
+            {
+              "href": "person:rosario-mazza",
+              "why": "His declared ages, and his trade at death"
+            }
+          ]
+        },
+        {
+          "id": "rosario-9",
+          "grade": "doc",
+          "text": "He died on 15 November 1924 at Presa, in the comune of Piedimonte Etneo, at seventy-nine. The death act names his father Mariano, his mother Maria Catalano and his wife Leonarda Bonanno, and it is the paper that made the deepest Sicilian generation of this archive a document rather than an inference. Leonarda was alive in 1910. When she died, no paper yet says.",
+          "evidence": [
+            {
+              "href": "/mazza/#sicily-at-last",
+              "why": "Rosario Mazza's death act, certificate 15"
+            },
+            {
+              "href": "/the-hundred-and-ten/",
+              "why": "1910: both parents present and consenting"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "field",
+        "note": "Orazio's outline is dotted: he is the family tree's son, and the archive's own pages disagree about his birth act. The others are in registers.",
+        "thread": "salvatore1",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "mariano-up",
+                "name": "Mariano",
+                "years": "c. 1809",
+                "grade": "doc",
+                "person": "mariano-mazza-1809"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "rosario",
+                "name": "Rosario Mazza",
+                "years": "1845–1924, contadino",
+                "grade": "doc",
+                "person": "rosario-mazza"
+              },
+              {
+                "id": "leonarda",
+                "name": "Leonarda Bonanno",
+                "years": "1843",
+                "grade": "doc",
+                "person": "leonarda"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "mariano72",
+                "name": "Mariano",
+                "years": "1872",
+                "grade": "doc",
+                "person": "mariano-mazza-1872"
+              },
+              {
+                "id": "salvatore1",
+                "name": "Salvatore",
+                "years": "1873",
+                "grade": "doc",
+                "person": "salvatore-mazza"
+              },
+              {
+                "id": "giovanni75",
+                "name": "Giovanni",
+                "years": "c. 1875",
+                "grade": "doc",
+                "person": "giovanni-mazza-3"
+              },
+              {
+                "id": "gaetano",
+                "name": "Gaetano",
+                "years": "1880",
+                "grade": "doc",
+                "person": "gaetano-mazza"
+              },
+              {
+                "id": "santo",
+                "name": "Santo",
+                "years": "c. 1882",
+                "grade": "doc"
+              },
+              {
+                "id": "ignazio",
+                "name": "Ignazio",
+                "years": "c. 1887",
+                "grade": "doc",
+                "person": "ignazio-mazza"
+              },
+              {
+                "id": "orazio",
+                "name": "Orazio",
+                "years": "in the tree",
+                "grade": "lore",
+                "person": "orazio-mazza"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1880 · Piedimonte Etneo",
+        "title": "A son for the mother's father",
+        "text": "«Mazza Rosario, di anni trentadue, bracciante … da Bonanno Leonarda, industriosa, sua moglie … via S. Basilio … il nome di Gaetano»",
+        "source": "Piedimonte Etneo, Nati 1880, atto 66 (born 5 May 1880)",
+        "hardLimit": "The clerk made him thirty-two; his own birth act makes him nearly thirty-five. Declared ages drift, and the birth act outranks them."
+      },
+      "plates": [],
+      "papers": [
+        {
+          "title": "The marriage of 1871",
+          "href": "/mazza/#scan-pe-matr1871-atto14"
+        },
+        {
+          "title": "Leonarda's birth, 1843",
+          "href": "/mazza/#scan-pe-nati1843-atto101"
+        },
+        {
+          "title": "Rosario's death act, and the four spellings",
+          "href": "/mazza/#sicily-at-last"
+        },
+        {
+          "title": "The Hundred and Ten",
+          "href": "/the-hundred-and-ten/"
+        },
+        {
+          "title": "Rosario Mazza",
+          "href": "person:rosario-mazza"
+        },
+        {
+          "title": "Gaetano Bonanno",
+          "href": "person:gaetano-bonanno"
+        },
+        {
+          "title": "Mariano, the first son",
+          "href": "person:mariano-mazza-1872"
+        },
+        {
+          "title": "Orazio, and the act that is somebody else's",
+          "href": "person:orazio-mazza"
+        }
+      ]
+    },
+    {
+      "id": "salvatore",
+      "numeral": "III",
+      "title": "The boy from Contrada Terremorte",
+      "place": "Piedimonte Etneo · Mascali",
+      "years": "1873–1929",
+      "generation": 3,
+      "paragraphs": [
+        {
+          "id": "salvatore-1",
+          "grade": "doc",
+          "text": "In January 1873 Rosario went before the clerk again. «è comparso Rosario Mazza di Mariano», the act says: aged twenty-eight, a *bracciante* living in the town, who presented a boy born to him on the fifth of the month, at seven in the morning, by his wife Leonarda Bonanno, in their house in Contrada Terremorte. He gave the boy the name *Salvadore*. This is [Salvatore](person:salvatore-mazza).",
+          "evidence": [
+            {
+              "href": "/the-name-line/",
+              "why": "Piedimonte Etneo, Nati 1873, atto 3: the act, quoted"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-2",
+          "grade": "doc",
+          "text": "*Di Mariano*, son of Mariano: two words, and a line that had stopped at a Rosario with no dates reached back another generation. The family's tree had Salvatore born in 1879 and dead at Catania. Acting on that year, the archive read eight years of Piedimonte births and found nothing. He was born six years earlier, and he died in his own comune.",
+          "evidence": [
+            {
+              "href": "/the-name-line/",
+              "why": "«Six years, and eight wasted registers»"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-3",
+          "grade": "doc",
+          "text": "His wife came from the next town down the coast. [Maria Nicotra](person:maria-nicotra) was born at Mascali at half past nine in the evening on 8 December 1875, in contrada Sopra Pietrafitta, and her father, [Giovanni Nicotra](person:john-nicotra), a *lavorante* of twenty-eight, registered her two days later. Her mother was Venera Cassaniti, of Piedimonte. The two witnesses were labourers of thirty, and neither could write. The family's tree says Maria was born at Piedimonte; the archive read fourteen years of that town's births before it found her in the right one.",
+          "evidence": [
+            {
+              "href": "/mascali/",
+              "why": "Mascali, Nati 1875, atto 144: the act"
+            },
+            {
+              "href": "/nicotra/",
+              "why": "Piedimonte Etneo, Matrimoni 1872, atto 20: her parents' marriage"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-w1",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Mascali kept registers of its own, and a wife who went to her husband's comune had her children entered there. The four comuni around this corner of Etna, Piedimonte, Mascali, Giarre and Riposto, lie within ten kilometres of each other and kept four separate sets of books.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/mascali/",
+              "why": "«A wife went to her husband's comune. The children were registered here.»"
+            },
+            {
+              "kind": "archive",
+              "href": "/piedimonte-etneo/",
+              "why": "«Ten kilometres, four comuni, four separate sets of registers»"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-4",
+          "grade": "doc",
+          "text": "They married in the parish of Piedimonte Etneo on 25 April 1898. In the civil banns Salvatore was twenty-five, son of Rosario, fifty-three, and of Leonarda Bonanno; in the Latin of the parish book he is *Salvator*, son of *Rogerius*. Maria's mother is a different woman in every paper: Venera Cassaniti at her birth, Venera Monti in the banns, Venera Cosentino in the parish book, and Venera Cassaneti on a Queensland death registration. Only *Venera* never changes.",
+          "evidence": [
+            {
+              "href": "/the-name-line/",
+              "why": "«Married 25 April 1898 in the parish of Piedimonte Etneo»"
+            },
+            {
+              "href": "/the-hundred-and-ten/",
+              "why": "The proclamation of 1898"
+            },
+            {
+              "href": "/mazza/#sicily-at-last",
+              "why": "«A two-way conflict becomes a three-way one»"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-5",
+          "grade": "inf",
+          "text": "Their children are scattered across the papers of two countries. [Rosario](person:rosario-mazza-1899), the eldest the archive knows, was born on 20 February 1899, a date that comes from an Australian internment file. [Michele](person:michele-mazza) was born about 1909. Queensland death registrations name Salvatore and Maria as the parents of both. The archive takes [Sebastiano](person:sebastiano-mazza), born on 22 October 1920, for their son as well: the family's tree puts him in that household, beside the brothers the registrations prove, though the act of his own birth has not been opened.",
+          "evidence": [
+            {
+              "href": "person:rosario-mazza-1899",
+              "why": "NAA MP1103/1, Q8110: «Date of birth - 20 February 1899»"
+            },
+            {
+              "href": "/queensland/",
+              "why": "The Queensland Register: the parents named"
+            },
+            {
+              "href": "/nudgee/",
+              "why": "Plot V-1026: born 22 October 1920"
+            },
+            {
+              "href": "person:sebastiano-mazza",
+              "why": "His parents, by the tree and the index; the Piedimonte act not yet opened"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-w2",
+          "register": "world",
+          "worldSource": "history",
+          "text": "In the years around 1900 emigration from Sicily rose to its height. Most of those who left went to the Americas; fewer went the other way round the world, to Australia.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H3",
+              "why": "General history of Sicilian emigration"
+            }
+          ],
+          "tbc": "General history, to be checked against a source David approves."
+        },
+        {
+          "id": "salvatore-6",
+          "grade": "doc",
+          "text": "Michele went first, and alone. On 21 April 1925 the *Palermo*, out of Messina, landed him at Brisbane, at about sixteen. A Queensland death registration dated 14 November 1926 is his, in a country district, not in Brisbane. The index writes him *Michali*, his father *Salvatori* and his mother *Maria Lecota*, which is how a Queensland clerk heard Nicotra. He had been in the country nineteen months. The index gives a date and a number, not a grave, and the archive does not know where he lies, or why he went.",
+          "evidence": [
+            {
+              "href": "/queensland/",
+              "why": "Death registration 1926/C/3983, and the Palermo"
+            },
+            {
+              "href": "/crossings/",
+              "why": "NAA item 12260784: Messina to Brisbane"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-7",
+          "grade": "doc",
+          "text": "Rosario, the eldest, was in Queensland too; when he came, no paper yet says. In the Second World War he was held there as an internee, on a file that runs from 1942 to 1944, and in 1944 he was in the Civil Aliens Corps. In 1959 he kept a shop at 225 Leichhardt Street, in the city of Brisbane.",
+          "evidence": [
+            {
+              "href": "person:rosario-mazza-1899",
+              "why": "NAA MP1103/1, Q8110 and J1737, MAZZA R"
+            },
+            {
+              "href": "/register/",
+              "why": "The 1959 electoral roll: Rosario Mazza, shopkeeper"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-w3",
+          "register": "world",
+          "worldSource": "history",
+          "text": "Italy entered the war in June 1940, and in Australia many Italian-born men were interned as enemy aliens.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H5",
+              "why": "General history: internment in Australia"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-w4",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Interned Italians were released not into freedom but into the Civil Aliens Corps, a labour corps that put them to road and timber work under military administration.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "person:rosario-mazza-1899",
+              "why": "«What happened after the camp»"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-8",
+          "grade": "doc",
+          "text": "Salvatore died in his own comune. He died on 19 September 1929 at Piedimonte Etneo, at fifty-six, a *contadino* living in the frazione of Vena, and the act puts his death in Contrada Grotta Nicodemo. No paper this archive holds says he ever left Sicily.",
+          "evidence": [
+            {
+              "href": "/the-name-line/",
+              "why": "Piedimonte Etneo, Morti 1929, atto 9"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-w5",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "In 1928 an eruption of Etna destroyed Mascali, the only town the mountain has swallowed whole in modern times.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/piedimonte-etneo/",
+              "why": "«Living on Etna is a recurring administrative fact»"
+            },
+            {
+              "kind": "archive",
+              "href": "/mascali/",
+              "why": "Mascali"
+            }
+          ]
+        },
+        {
+          "id": "salvatore-9",
+          "grade": "doc",
+          "text": "Maria outlived him by thirty-four years. Her own alien registration file says she arrived at Sydney on 20 April 1962, a widow of eighty-six. She died at Brisbane on 24 September 1963 and was buried the next day at Nudgee, in plot V-0044, entered in the register under her married name.",
+          "evidence": [
+            {
+              "href": "/crossings/",
+              "why": "NAA BP25/1: «arrived Sydney 20 April 1962»"
+            },
+            {
+              "href": "/queensland/",
+              "why": "Death registration 1963/B/61348"
+            },
+            {
+              "href": "/nudgee/",
+              "why": "Plot V-0044, interred 25 September 1963"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "hill",
+        "note": "Leonarda, Venera and Giovanni are the family tree's: their outlines are dotted. Queensland registrations name this couple as the parents of Rosario and Michele; the thread to Sebastiano is dashed, because no paper yet names his.",
+        "thread": "sebastiano1",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "rosario-up",
+                "name": "Rosario",
+                "years": "1845–1924",
+                "grade": "doc",
+                "person": "rosario-mazza"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "salvatore",
+                "name": "Salvatore",
+                "years": "1873–1929, contadino",
+                "grade": "doc",
+                "person": "salvatore-mazza"
+              },
+              {
+                "id": "nicotra",
+                "name": "Maria Nicotra",
+                "years": "1875–1963, of Mascali",
+                "grade": "doc",
+                "person": "maria-nicotra"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "rosario99",
+                "name": "Rosario",
+                "years": "1899–1986",
+                "grade": "doc",
+                "person": "rosario-mazza-1899"
+              },
+              {
+                "id": "michele",
+                "name": "Michele",
+                "years": "c. 1909–1926",
+                "grade": "doc",
+                "person": "michele-mazza"
+              },
+              {
+                "id": "leonarda10",
+                "name": "Leonarda",
+                "years": "1910",
+                "grade": "lore",
+                "person": "leonarda-mazza"
+              },
+              {
+                "id": "venera",
+                "name": "Venera",
+                "years": "1916–2013",
+                "grade": "lore",
+                "person": "venera-cavallaro"
+              },
+              {
+                "id": "sebastiano1",
+                "name": "Sebastiano",
+                "years": "1920",
+                "grade": "inf",
+                "person": "sebastiano-mazza"
+              },
+              {
+                "id": "giovanni-t",
+                "name": "Giovanni",
+                "years": "in the tree",
+                "grade": "lore",
+                "person": "giovanni-mazza-2"
+              }
+            ]
+          }
+        ]
+      },
+      "quote": [
+        {
+          "label": "1873 · Piedimonte Etneo",
+          "title": "Di Mariano",
+          "text": "«…è comparso Rosario Mazza di Mariano, di anni ventotto, bracciante, qui domiciliato, il quale mi ha presentato un bambino di sesso maschile che dichiara essergli nato il giorno cinque corrente Gennaro alle ore sette antemeridiane, dalla di lui moglie Leonarda Bonanno di Gaetano…»",
+          "source": "Piedimonte Etneo, Nati 1873, atto 3 (Antenati an_ua83486, images 3–4)",
+          "hardLimit": "It names the grandfather and the contrada. It does not say what the house was like, or who else lived in it."
+        },
+        {
+          "label": "1875 · Mascali",
+          "title": "A girl named Maria",
+          "text": "«…da Venera Cassaniti di lui moglie… a cui dà il nome di Maria.»",
+          "source": "Mascali, Nati 1875, atto 144 (Antenati an_ua81754, image 68)",
+          "hardLimit": "The act says where she was born, not where she grew up."
+        }
+      ],
+      "plates": [],
+      "papers": [
+        {
+          "title": "The act that did it",
+          "href": "/the-name-line/"
+        },
+        {
+          "title": "Maria's birth at Mascali",
+          "href": "/mascali/"
+        },
+        {
+          "title": "The Nicotra",
+          "href": "/nicotra/"
+        },
+        {
+          "title": "The Queensland Register",
+          "href": "/queensland/"
+        },
+        {
+          "title": "The crossings",
+          "href": "/crossings/"
+        },
+        {
+          "title": "Salvatore",
+          "href": "person:salvatore-mazza"
+        },
+        {
+          "title": "Maria Nicotra",
+          "href": "person:maria-nicotra"
+        },
+        {
+          "title": "Michele",
+          "href": "person:michele-mazza"
+        },
+        {
+          "title": "Rosario, the internee",
+          "href": "person:rosario-mazza-1899"
+        }
+      ]
+    },
+    {
+      "id": "sebastiano",
+      "numeral": "IV",
+      "title": "A ship out of Genoa",
+      "place": "Piedimonte Etneo · Briatico · Brisbane",
+      "years": "1920–2010",
+      "generation": 4,
+      "paragraphs": [
+        {
+          "id": "sebastiano-1",
+          "grade": "doc",
+          "text": "The National Archives of Australia keep an index of passenger arrivals, one item to each ship on each date. Item 9243236 is the *Toscana*, out of Genoa, dated 4 October 1949, and on it is [Sebastiano Mazza](person:sebastiano-mazza). That one line is nearly all the papers say of him between his birth and his tenth year in Australia.",
+          "evidence": [
+            {
+              "href": "/crossings/",
+              "why": "NAA passenger arrivals index, item 9243236"
+            },
+            {
+              "href": "person:sebastiano-mazza",
+              "why": "The crossing, read from the passenger index"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-2",
+          "grade": "lore",
+          "text": "He was born on 22 October 1920, a son of Salvatore and Maria. The day comes from his burial register; the town, Piedimonte Etneo, from the family's tree. What he did in the twenty-nine years before the ship, no paper this archive holds says.",
+          "evidence": [
+            {
+              "href": "/nudgee/",
+              "why": "Plot V-1026: born 22 October 1920"
+            },
+            {
+              "href": "person:sebastiano-mazza",
+              "why": "Born at Piedimonte Etneo, by the family's tree"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-3",
+          "grade": "lore",
+          "text": "The index gives his port of arrival as Melbourne, though other passengers on the same item were put ashore at Fremantle, which is where the family's tree has him land. The archive keeps both and has not chosen.",
+          "evidence": [
+            {
+              "href": "/crossings/",
+              "why": "«the index records Sebastiano's port as Melbourne»"
+            }
+          ],
+          "tbc": "Melbourne (the index) or Fremantle (the tree): the passenger list for the item has not been read."
+        },
+        {
+          "id": "sebastiano-w1",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Fremantle was the first Australian landfall for ships coming by the Suez route, and a migrant bound for Brisbane was often put ashore and recorded there, and went on east.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/brisbane/",
+              "why": "The Brisbane page, on the post-war arrivals"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-w2",
+          "register": "world",
+          "worldSource": "history",
+          "text": "The *Toscana* was one of the Lloyd Triestino liners that carried migrants from Genoa to Australia by way of Suez in the years after the war.",
+          "evidence": [
+            {
+              "kind": "history",
+              "href": "#world-H4",
+              "why": "General shipping history"
+            }
+          ],
+          "tbc": "General shipping history, to be checked against a source David approves."
+        },
+        {
+          "id": "sebastiano-4",
+          "grade": "doc",
+          "text": "Ten years on he is in an Australian civil record of his own. The Queensland electoral roll of 1959 has Sebastiano Mazza, builder's labourer, of Progress Road, Wacol, in the sub-district of Inala. His wife is not on it, under her married name or her own.",
+          "evidence": [
+            {
+              "href": "/register/",
+              "why": "Findmypast, Australia Electoral Rolls: 1959, no. 3779, and the negative for his wife"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-w3",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Wacol and Inala were the post-war migrant housing belt on Brisbane's south-west edge, built for the people who came on the ships of 1949 and after.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/register/",
+              "why": "The 1959 roll, as the archive reads it"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-5",
+          "grade": "lore",
+          "text": "His wife was [Domenica](person:domenica-prostamo), a Prostamo of Briatico, on the Tyrrhenian coast of Calabria, the daughter of [Francessco Prostamo](person:francessco-prostamo) and [Maria Rosa Melluso](person:maria-rosa-melluso-1907) by the family's tree. The Nudgee register gives her birthday as 3 May 1928, where the tree had March. How a man from the slope of Etna came to marry a woman from the other side of the strait, and where, and when, no paper this archive holds says.",
+          "evidence": [
+            {
+              "href": "person:domenica-prostamo",
+              "why": "Domenica: born at Briatico, by the family's tree"
+            },
+            {
+              "href": "/nudgee/",
+              "why": "Plot V-1027: born 3 May 1928"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-6",
+          "grade": "lore",
+          "text": "Her father's family, by the tree, ran back to the sea. The archive has documented the Prostamo men above him as *marinari*, sailors, of Briatico and Pizzo: [Alfonso](person:alfonso-prostamo), who married at Briatico in 1887; his father Domenico, born at Pizzo in 1814; and back to a Pasquale, a sailor who died at Pizzo in 1829. Above him, the tree's two generations to 1697 rest on nothing the archive could find.",
+          "evidence": [
+            {
+              "href": "/briatico-tested/",
+              "why": "Testing the 1697: the generations, and what supports each"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-7",
+          "grade": "lore",
+          "text": "She followed him, by the family's tree, in March 1951, from Genoa to Fremantle. The ship is not known. The archive read the whole manifest of the *Ugolino Vivaldi*, the likeliest sailing, and she is not on it. A file in the National Archives at Brisbane, running from 1950 to 1971 and titled «Mazza, Sebastiano; wife Domenica [nee Prostamo]», is the best hope of an answer; it needs an access request before anyone can read it.",
+          "evidence": [
+            {
+              "href": "person:domenica-prostamo",
+              "why": "The Ugolino Vivaldi, read and withdrawn; NAA J25, 1971/1074"
+            },
+            {
+              "href": "/queensland/",
+              "why": "The naturalisation file"
+            }
+          ],
+          "tbc": "Her crossing in March 1951 rests on the family's tree alone."
+        },
+        {
+          "id": "sebastiano-w4",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "The crossings of these families follow the ordinary shape of chain migration: a man went first and worked, then sent for his wife; her relatives followed, and the old came last, when there was somewhere to arrive.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/crossings/",
+              "why": "«What the order of arrival says»"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-8",
+          "grade": "doc",
+          "text": "They had a daughter, [Mary Rosa](person:mary-rosa-mazza), who died in August 1968, at sixteen. Her death registration names her father Sebastiano Mazza and her mother «Domenica Postamo», and she lies at Nudgee, in plot V-0165.",
+          "evidence": [
+            {
+              "href": "/queensland/",
+              "why": "Death registration 1968/B/936"
+            },
+            {
+              "href": "/nudgee/",
+              "why": "Plot V-0165, interred 10 August 1968"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-10",
+          "grade": "doc",
+          "text": "Sebastiano died on 2 April 2002 and was buried at Nudgee three days later, in plot V-1026. Domenica died on 29 January 2010 and was laid beside him in V-1027, entered in the register under her married name. The next two plots, V-1028 and V-1029, hold [Angela Polistena](person:angela-polistena) and [Rocco Arena](person:rocco-arena-1924), of Scilla. Four people born in three towns about 130 kilometres apart, who came on four different sailings, lie in four consecutive plots, buried in the order they died: nineteen years between the first burial and the last.",
+          "evidence": [
+            {
+              "href": "/nudgee/",
+              "why": "«Four plots in a row»: the Nudgee register"
+            }
+          ]
+        },
+        {
+          "id": "sebastiano-w5",
+          "register": "world",
+          "worldSource": "archive",
+          "text": "Nudgee, beside Holy Cross church at Banyo, has been the Catholic burying ground of northern Brisbane since the 1860s. The Archdiocese keeps its register, and a woman is entered there under her married name.",
+          "evidence": [
+            {
+              "kind": "archive",
+              "href": "/nudgee/",
+              "why": "Nudgee"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "ship",
+        "note": "Their three sons are living, drawn filled and without dates; one of them, Frank, carries the line on.",
+        "thread": "frank1",
+        "rows": [
+          {
+            "kind": "above",
+            "nodes": [
+              {
+                "id": "salvatore-up",
+                "name": "Salvatore",
+                "years": "1873–1929",
+                "grade": "doc",
+                "person": "salvatore-mazza"
+              }
+            ]
+          },
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "sebastiano",
+                "name": "Sebastiano Mazza",
+                "years": "1920–2002, builder's labourer",
+                "grade": "doc",
+                "person": "sebastiano-mazza"
+              },
+              {
+                "id": "domenica",
+                "name": "Domenica Prostamo",
+                "years": "1928–2010, of Briatico",
+                "grade": "doc",
+                "person": "domenica-prostamo"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "son-a",
+                "name": "living",
+                "living": true
+              },
+              {
+                "id": "maryrosa",
+                "name": "Mary Rosa",
+                "years": "1952–1968",
+                "grade": "doc",
+                "person": "mary-rosa-mazza"
+              },
+              {
+                "id": "frank1",
+                "name": "Frank",
+                "living": true,
+                "person": "frank-mazza"
+              },
+              {
+                "id": "son-b",
+                "name": "living",
+                "living": true
+              }
+            ]
+          }
+        ]
+      },
+      "quote": {
+        "label": "1959 · Wacol, Brisbane",
+        "title": "An address and a trade",
+        "text": "Sebastiano Mazza, male, builder's labourer, Progress Road, Wacol",
+        "source": "Queensland electoral roll, 1959, sub-district Inala, district McPherson, no. 3779 (Findmypast transcript)",
+        "hardLimit": "Ten years after the Toscana, the first Australian paper that gives him an address. His naturalisation file, which would say more, has not been opened."
+      },
+      "plates": [],
+      "papers": [
+        {
+          "title": "The crossings",
+          "href": "/crossings/"
+        },
+        {
+          "title": "Nudgee: four plots in a row",
+          "href": "/nudgee/"
+        },
+        {
+          "title": "The Register: the 1959 roll",
+          "href": "/register/"
+        },
+        {
+          "title": "Testing the 1697",
+          "href": "/briatico-tested/"
+        },
+        {
+          "title": "Briatico",
+          "href": "/briatico/"
+        },
+        {
+          "title": "Brisbane",
+          "href": "/brisbane/"
+        },
+        {
+          "title": "Sebastiano Mazza",
+          "href": "person:sebastiano-mazza"
+        },
+        {
+          "title": "Domenica",
+          "href": "person:domenica-prostamo"
+        },
+        {
+          "title": "Mary Rosa",
+          "href": "person:mary-rosa-mazza"
+        }
+      ]
+    },
+    {
+      "id": "brisbane",
+      "numeral": "V",
+      "title": "Brisbane, now",
+      "place": "Brisbane",
+      "years": "",
+      "generation": [
+        5,
+        6
+      ],
+      "paragraphs": [
+        {
+          "id": "brisbane-1",
+          "grade": "lore",
+          "text": "Their son [Frank](person:frank-mazza) lives in Brisbane. He married [Nancy Arena](person:nancy-arena), of Brisbane, the daughter of Rocco Arena and Angela Polistena of Scilla, so that the two couples at Nudgee are his parents and hers.",
+          "evidence": [
+            {
+              "href": "person:frank-mazza",
+              "why": "Frank, as the family's tree gives him"
+            },
+            {
+              "href": "person:nancy-arena",
+              "why": "Nancy, daughter of Rocco Arena and Angela Polistena"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-2",
+          "grade": "lore",
+          "text": "Their son, [Michael Rocco Mazza](person:michael-rocco-mazza), lives in Brisbane with his wife, [Stefanie D'Arcy](person:stefanie-darcy). The family's tree this archive was built from is his. Their two children, M. and R., are the youngest of the name, and the archive was made for them.",
+          "evidence": [
+            {
+              "href": "person:michael-rocco-mazza",
+              "why": "Michael, as the family's tree gives him"
+            },
+            {
+              "href": "/the-name-line/",
+              "why": "Generation seven: «The two children this archive is for»"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-3",
+          "grade": "doc",
+          "text": "All of them are living, and by this archive's rule the living are named with their relationships and their towns, and nothing more; the two youngest, by their initials only.",
+          "evidence": [
+            {
+              "href": "/method/#living",
+              "why": "The rule for the living"
+            }
+          ]
+        },
+        {
+          "id": "brisbane-4",
+          "grade": "doc",
+          "text": "So the name runs from a day-labourer who stood before the sindaco of Piedimonte Etneo in 1845 to a suburb on the far side of the world: Piedimonte, Mascali, Genoa, Wacol, Nudgee. Papers in Italian, Latin and English; a mother's surname spelled four ways; a grandfather named in two words, *di Mariano*. And two children in Brisbane, for whom it was written down.",
+          "evidence": [
+            {
+              "href": "/the-name-line/",
+              "why": "The Mazza name line"
+            }
+          ]
+        }
+      ],
+      "tree": {
+        "glyph": "gable",
+        "note": "Living people are drawn as filled nodes: the adults by first name, the two children by their initials only, with no dates.",
+        "thread": "michael1",
+        "rows": [
+          {
+            "kind": "couple",
+            "nodes": [
+              {
+                "id": "frank",
+                "name": "Frank",
+                "living": true,
+                "person": "frank-mazza"
+              },
+              {
+                "id": "nancy",
+                "name": "Nancy",
+                "living": true,
+                "person": "nancy-arena"
+              }
+            ]
+          },
+          {
+            "kind": "children",
+            "nodes": [
+              {
+                "id": "michael1",
+                "name": "Michael",
+                "living": true,
+                "person": "michael-rocco-mazza"
+              }
+            ]
+          },
+          {
+            "kind": "grandchildren",
+            "nodes": [
+              {
+                "id": "kid-m",
+                "name": "M.",
+                "living": true,
+                "minor": true
+              },
+              {
+                "id": "kid-r",
+                "name": "R.",
+                "living": true,
+                "minor": true
+              }
+            ]
+          }
+        ]
+      },
+      "papers": [
+        {
+          "title": "The Mazza name line, the last generations",
+          "href": "/the-name-line/"
+        },
+        {
+          "title": "The four quarters",
+          "href": "/lines/"
+        },
+        {
+          "title": "The rule for the living",
+          "href": "/method/#living"
+        }
+      ]
+    }
+  ],
+  "maps": [
+    {
+      "id": "etna",
+      "title": "Under the mountain",
+      "chapter": "salvatore",
+      "extent": {
+        "west": 14.95,
+        "east": 16.3,
+        "south": 37.6,
+        "north": 38.85,
+        "projection": "equirectangular"
+      },
+      "places": [
+        {
+          "id": "piedimonte",
+          "name": "Piedimonte Etneo",
+          "lat": 37.80671,
+          "lon": 15.17819,
+          "chapter": "mariano",
+          "dx": -8,
+          "dy": -8,
+          "anchor": "end",
+          "note": "the Mazza, from 1845"
+        },
+        {
+          "id": "mascali",
+          "name": "Mascali",
+          "lat": 37.7602846,
+          "lon": 15.1974313,
+          "chapter": "salvatore",
+          "dx": 8,
+          "dy": 14,
+          "note": "Maria Nicotra born, 1875"
+        },
+        {
+          "id": "messina",
+          "name": "Messina",
+          "lat": 38.19376,
+          "lon": 15.55421,
+          "chapter": "salvatore",
+          "dx": -8,
+          "dy": 4,
+          "anchor": "end",
+          "note": "the Palermo sailed, 1925"
+        },
+        {
+          "id": "briatico",
+          "name": "Briatico",
+          "lat": 38.72525,
+          "lon": 16.03237,
+          "chapter": "sebastiano",
+          "dx": -8,
+          "dy": 4,
+          "anchor": "end",
+          "note": "Domenica, by the tree"
+        }
+      ],
+      "legs": [
+        {
+          "from": "mascali",
+          "to": "piedimonte",
+          "grade": "doc",
+          "chapter": "salvatore",
+          "years": "1875 → 1898",
+          "evidence": "/mascali/",
+          "bend": 0.4
+        }
+      ],
+      "regions": [
+        {
+          "label": "ETNA",
+          "lat": 37.75,
+          "lon": 15.0,
+          "radius": 0
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "title": "To the other side of the world",
+      "chapter": "sebastiano",
+      "extent": {
+        "west": 5,
+        "east": 157,
+        "south": -42,
+        "north": 47,
+        "projection": "equirectangular"
+      },
+      "places": [
+        {
+          "id": "piedimonte",
+          "name": "Piedimonte Etneo",
+          "lat": 37.80671,
+          "lon": 15.17819,
+          "chapter": "mariano",
+          "dx": 8,
+          "dy": 14
+        },
+        {
+          "id": "briatico",
+          "name": "Briatico",
+          "lat": 38.72525,
+          "lon": 16.03237,
+          "chapter": "sebastiano",
+          "dx": 8,
+          "dy": -6
+        },
+        {
+          "id": "messina",
+          "name": "Messina",
+          "lat": 38.19376,
+          "lon": 15.55421,
+          "chapter": "salvatore",
+          "dx": 8,
+          "dy": 28
+        },
+        {
+          "id": "genoa",
+          "name": "Genoa",
+          "lat": 44.40726,
+          "lon": 8.93386,
+          "chapter": "sebastiano",
+          "dx": 8,
+          "dy": -8
+        },
+        {
+          "id": "fremantle",
+          "name": "Fremantle",
+          "lat": -32.05341,
+          "lon": 115.75862,
+          "chapter": "sebastiano",
+          "dx": -8,
+          "dy": 4,
+          "anchor": "end"
+        },
+        {
+          "id": "melbourne",
+          "name": "Melbourne",
+          "lat": -37.81425,
+          "lon": 144.96317,
+          "chapter": "sebastiano",
+          "dx": -8,
+          "dy": 14,
+          "anchor": "end"
+        },
+        {
+          "id": "sydney",
+          "name": "Sydney",
+          "lat": -33.86984,
+          "lon": 151.20828,
+          "chapter": "salvatore",
+          "dx": -8,
+          "dy": 4,
+          "anchor": "end"
+        },
+        {
+          "id": "brisbane",
+          "name": "Brisbane",
+          "lat": -27.46896,
+          "lon": 153.0235,
+          "chapter": "sebastiano",
+          "dx": -8,
+          "dy": -8,
+          "anchor": "end",
+          "note": "Wacol 1959; Nudgee"
+        }
+      ],
+      "legs": [
+        {
+          "from": "messina",
+          "to": "brisbane",
+          "grade": "doc",
+          "chapter": "salvatore",
+          "years": "1925",
+          "evidence": "/queensland/",
+          "bend": 0.12
+        },
+        {
+          "from": "piedimonte",
+          "to": "genoa",
+          "grade": "lore",
+          "chapter": "sebastiano",
+          "years": "1949",
+          "routeKnown": false,
+          "evidence": "/crossings/"
+        },
+        {
+          "from": "genoa",
+          "to": "melbourne",
+          "grade": "doc",
+          "chapter": "sebastiano",
+          "years": "1949",
+          "evidence": "/crossings/",
+          "bend": -0.12
+        },
+        {
+          "from": "melbourne",
+          "to": "brisbane",
+          "grade": "inf",
+          "chapter": "sebastiano",
+          "years": "by 1959",
+          "routeKnown": false,
+          "evidence": "/register/"
+        },
+        {
+          "from": "briatico",
+          "to": "genoa",
+          "grade": "lore",
+          "chapter": "sebastiano",
+          "years": "1951",
+          "routeKnown": false,
+          "evidence": "/people/domenica-prostamo/"
+        },
+        {
+          "from": "genoa",
+          "to": "fremantle",
+          "grade": "lore",
+          "chapter": "sebastiano",
+          "years": "1951",
+          "evidence": "/people/domenica-prostamo/",
+          "bend": 0.08
+        },
+        {
+          "from": "fremantle",
+          "to": "brisbane",
+          "grade": "lore",
+          "chapter": "sebastiano",
+          "years": "1951",
+          "routeKnown": false,
+          "evidence": "/people/domenica-prostamo/"
+        },
+        {
+          "from": "sydney",
+          "to": "brisbane",
+          "grade": "doc",
+          "chapter": "salvatore",
+          "years": "1962–63",
+          "routeKnown": false,
+          "evidence": "/crossings/"
+        }
+      ]
+    }
+  ],
+  "closing": {
+    "after": {
+      "title": "And the parts that are not the line",
+      "text": "Around this one thread stand the other families of the archive, each with its own page. The Arena of Scilla, sailors on the strait for generations, and the Polistena of Scilla came into the line by a marriage in Brisbane. The Nicotra of Mascali and Giarre are Maria's, followed back through four comuni. The Prostamo of Briatico and Pizzo are Domenica's, documented back to a sailor who died at Pizzo in 1829 and asserted by the tree to 1697. And there are the hundred and ten, the families of Rosario's other sons, this line's cousins. They are here because people married people, and this book keeps to the name.",
+      "links": [
+        {
+          "title": "The Nicotra",
+          "href": "/nicotra/"
+        },
+        {
+          "title": "The Prostamo",
+          "href": "/prostamo/"
+        },
+        {
+          "title": "The Arena",
+          "href": "/arena/"
+        },
+        {
+          "title": "The Polistena",
+          "href": "/polistena/"
+        },
+        {
+          "title": "The Hundred and Ten",
+          "href": "/the-hundred-and-ten/"
+        },
+        {
+          "title": "The four quarters",
+          "href": "/lines/"
+        }
+      ]
+    },
+    "unknown": {
+      "title": "What we do not know",
+      "lead": "Every chapter has its silences. These are the ones a single act, a request by name or an afternoon in a reading room could break.",
+      "items": [
+        {
+          "text": "**Whether Mariano married Agata Catalano in 1836.** His own baptism, in the Acireale diocesan films, or his death act, would settle it, and with it the Ignazio and Giuseppa Pulvirenti named above him.",
+          "href": "/mazza/#scan-pe-matr1836-atto17"
+        },
+        {
+          "text": "**When Mariano, Maria Catalano and Leonarda Bonanno died.** The Piedimonte death registers after 1871, and after 1910.",
+          "href": "/people/mariano-mazza-1809/"
+        },
+        {
+          "text": "**Which Orazio is Rosario's son.** The Piedimonte births of 1874 to 1876, and from 1884, unread at the M section.",
+          "href": "/people/orazio-mazza/"
+        },
+        {
+          "text": "**Where Michele lies, and why he went.** The image of his Queensland death registration, 1926/C/3983, which names the place.",
+          "href": "/queensland/"
+        },
+        {
+          "text": "**Where Sebastiano landed in 1949.** The passenger list behind NAA item 9243236: Melbourne, as the index says, or Fremantle, as the tree says.",
+          "href": "/crossings/"
+        },
+        {
+          "text": "**Where and when Sebastiano and Domenica married, and how she crossed.** NAA J25, 1971/1074, the naturalisation file in Brisbane, needs an access request before anyone can read it.",
+          "href": "/people/sebastiano-mazza/"
+        },
+        {
+          "text": "**Maria Nicotra's mother's surname.** Cassaniti, Monti, Cosentino or Cassaneti: her mother's own birth act would decide it.",
+          "href": "/nicotra/"
+        }
+      ]
+    },
+    "papers": {
+      "title": "Read the papers",
+      "lead": "This book is the front door. The evidence is behind it.",
+      "links": [
+        {
+          "title": "The Mazza name line",
+          "href": "/the-name-line/",
+          "why": "the generations, and the act under each"
+        },
+        {
+          "title": "The Mazza",
+          "href": "/mazza/",
+          "why": "the acts of 1836, 1843, 1845 and 1871, and Rosario's death"
+        },
+        {
+          "title": "The Hundred and Ten",
+          "href": "/the-hundred-and-ten/",
+          "why": "the join, argued in public"
+        },
+        {
+          "title": "The Nicotra",
+          "href": "/nicotra/",
+          "why": "Maria's people, across four comuni"
+        },
+        {
+          "title": "The crossings",
+          "href": "/crossings/",
+          "why": "every ship, named or not"
+        },
+        {
+          "title": "Nudgee",
+          "href": "/nudgee/",
+          "why": "the burial register"
+        },
+        {
+          "title": "The Queensland Register",
+          "href": "/queensland/",
+          "why": "the deaths that named the parents"
+        },
+        {
+          "title": "Open questions",
+          "href": "/open-questions/",
+          "why": "what is being looked for"
+        },
+        {
+          "title": "Method",
+          "href": "/method/",
+          "why": "documented, inferred, family lore"
+        }
+      ]
+    },
+    "notes": {
+      "title": "Where the world comes from",
+      "lead": "Passages marked history draw on general history, not on this archive's papers; these are the claims, and where they can be checked. Each is to be confirmed.",
+      "items": [
+        {
+          "key": "H1",
+          "claim": "Sicily belonged to the Bourbon Kingdom of the Two Sicilies, ruled from Naples, until Garibaldi's expedition of 1860; in 1861 it became part of the new Kingdom of Italy.",
+          "source": "Standard Italian history of the Risorgimento.",
+          "tbc": true
+        },
+        {
+          "key": "H2",
+          "claim": "On the north-eastern slope of Etna the volcanic soil was given over above all to vines, with hazel and chestnut on the higher ground, and much of the work was done by day-labourers.",
+          "source": "Standard regional geography of eastern Sicily.",
+          "tbc": true
+        },
+        {
+          "key": "H3",
+          "claim": "In the years around 1900 emigration from Sicily rose to its height; most went to the Americas, fewer to Australia.",
+          "source": "Standard history of Italian emigration.",
+          "tbc": true
+        },
+        {
+          "key": "H4",
+          "claim": "The Toscana was one of the Lloyd Triestino liners that carried migrants from Genoa to Australia by way of Suez after the Second World War.",
+          "source": "Standard shipping history of the post-war Italian migrant run.",
+          "tbc": true
+        },
+        {
+          "key": "H5",
+          "claim": "Italy entered the Second World War in June 1940, and in Australia many Italian-born men were interned as enemy aliens.",
+          "source": "Standard Australian history of wartime internment.",
+          "tbc": true
+        }
+      ]
+    },
+    "mapNote": "The maps: coastlines and borders from Natural Earth (public domain, naturalearthdata.com), simplified and clipped for this page. Town dots stand at this archive's own gazetteer coordinates, and only where a document or the family's tree puts the family. A solid leg has a document at each end; a dashed leg is inferred; a dotted leg rests on the family's tree; a route nobody has recorded is listed and not drawn. The living are not placed on a map."
+  },
+  "conflicts": [
+    {
+      "chapter": "rosario",
+      "note": "Orazio: The Hundred and Ten counts Piedimonte Etneo, Nati 1877, atto 168 (21 October 1877) as Rosario and Leonarda's son and one of its five records; Orazio's own page and the corrections say that act belongs to the other Rosario Mazza of the town, whose wife was Leonarda Monacorso, of via Grotta Nicodemo. The name-line page gives Rosario that street too."
+    },
+    {
+      "chapter": "rosario",
+      "note": "Leonarda's age at marriage: The Mazza page says the 1871 act enters her as twenty-six; What Has Been Read reads the same papers as «ventitré compiuti», twenty-three. Her birth act of 1843 makes her twenty-seven."
+    },
+    {
+      "chapter": "salvatore",
+      "note": "Michele's landing in 1925: the Queensland Register page and the crossings correction give Brisbane, from Messina; the Brisbane page still gives Fremantle, from the family's tree."
+    },
+    {
+      "chapter": "salvatore",
+      "note": "The Piedimonte Etneo page still gives the family tree's account of this line (Rosario with no dates; Salvatore 1879–1929, died at Catania), and the Queensland Register page still says Salvatore's birth has not been found; the name-line page and his birth and death acts have replaced both."
+    },
+    {
+      "chapter": "salvatore",
+      "note": "Maria Nicotra: the Nicotra page says she married Salvatore «about 1900» and sailed at «about eighty-six»; the parish marriage is 25 April 1898, and the crossings page says «about eighty-seven»."
+    },
+    {
+      "chapter": "sebastiano",
+      "note": "Sebastiano's crossing: the passenger index gives the Toscana's port as Melbourne; the family's tree, the Brisbane and crossings tables and his person page give Fremantle; the name-line page says the Toscana «sailed … out of Genoa, 4 October 1949», where the crossings page reads the same date as the arrival."
+    },
+    {
+      "chapter": "sebastiano",
+      "note": "The Prostamo line: the front page and the verdict on Testing the 1697 say it is documented to Domenico, dead before 1886, with four generations asserted above him; the same page's table now documents Antonino (c. 1781) and Pasquale (died 1829) as well, leaving two asserted."
+    }
+  ]
+}

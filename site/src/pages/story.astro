@@ -1,0 +1,16 @@
+---
+/* THE FAMILY STORY: the Mazza name line told once as a short book (David, 25 October 2026: «an easy first place to go»).
+   The page is the kit's (components/StoryBook.astro, kit/docs/story.md); everything about this family is data, in
+   src/data/story.json, and kit/tools/checkfamilystory.py (npm run check:story) holds it to the contract. The line is the one
+   the front page draws, the Mazza name line (src/lib/descent.js), not the longer Prostamo spine on /direct-line/, whose own
+   first sentence says it is not the Mazza line. No autolink: every person in the story is linked by hand, by slug, because
+   this archive holds several men of each name. */
+import Base from "../layouts/Base.astro";
+import StoryBook from "@daviddef/archive-kit/components/StoryBook.astro";
+import book from "../data/story.json";
+import { u } from "../lib/url.js";
+const personHref = (slug) => u(`/people/${slug}/`);
+---
+<Base title={book.title} eyebrow={book.eyebrow} dek={book.dek}>
+  <StoryBook book={book} personHref={personHref} u={u} />
+</Base>

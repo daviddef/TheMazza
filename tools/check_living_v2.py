@@ -92,6 +92,14 @@ FORBIDDEN_KEYS = {"born", "died", "bornText", "diedText", "events", "sources",
                   "onSpine", "ancGen", "datesHidden", "presumedLiving", "note",
                   "bornNote", "birth", "death", "dates", "reach", "spouseBorn",
                   "married", "alt"}
+# THE FAMILY STORY (site/src/data/story.json, kit/docs/story.md) draws the living as a ribbon card and a tree node, and the
+# kit's contract gives those a few presentation fields: where the card's chapter is, which outline the card's origin takes,
+# the town written as "of Brisbane", a link to the person's own page (which exists, with no dates), and «minor», which makes
+# the kit show initials only. None of them is about the person's life. They are allowed in that one file and nowhere else;
+# «years» and «atYear» are NOT among them, so a date on a living card still fails here, and every string is still read for a
+# year below. kit/tools/checkfamilystory.py (npm run check:story) holds the same rows to the living rule a second time.
+STORY_KEYS = {"origin", "originGrade", "spouseOrigin", "atPlace", "chapter", "person", "spousePerson", "spouseLiving",
+              "title", "minor"}
 
 
 def jload(path):
@@ -371,7 +379,7 @@ class Gate:
                         continue
                     if k in FORBIDDEN_KEYS:
                         self.fail(3, f"{fn}: a living row carries «{k}»")
-                    elif k not in ALLOWED_KEYS:
+                    elif k not in ALLOWED_KEYS and not (fn == "story.json" and k in STORY_KEYS):
                         self.fail(3, f"{fn}: a living row carries the field «{k}», which is not name, "
                                      "relationship or place")
                     elif k in ("birthPlace", "place") and isinstance(v, str):
