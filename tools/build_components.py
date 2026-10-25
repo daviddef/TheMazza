@@ -4,7 +4,7 @@
 A family-tree program draws every person on one canvas and lets you believe
 you are looking at one family. You are not. This file reports each connected
 component separately — who is in it, where they were, and whether anything at
-all joins it to the line that reaches Mia and Rocco.
+all joins it to the line that reaches the two children.
 """
 import json, collections
 

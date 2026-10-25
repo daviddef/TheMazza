@@ -1,9 +1,9 @@
 [
  {
   "surname": "Mazza",
-  "n": 121,
+  "n": 118,
   "dead": 105,
-  "living": 16,
+  "living": 13,
   "first": 1809,
   "last": 2012,
   "places": [
@@ -258,15 +258,6 @@
   ]
  },
  {
-  "surname": "Calahorra",
-  "n": 4,
-  "dead": 0,
-  "living": 4,
-  "first": null,
-  "last": null,
-  "places": []
- },
- {
   "surname": "Pagano",
   "n": 4,
   "dead": 4,
@@ -400,15 +391,6 @@
  },
  {
   "surname": "Poleo",
-  "n": 3,
-  "dead": 0,
-  "living": 3,
-  "first": null,
-  "last": null,
-  "places": []
- },
- {
-  "surname": "Muller",
   "n": 3,
   "dead": 0,
   "living": 3,
@@ -599,6 +581,24 @@
   "places": [
    "Catanzaro, Calabria"
   ]
+ },
+ {
+  "surname": "Muller",
+  "n": 2,
+  "dead": 0,
+  "living": 2,
+  "first": null,
+  "last": null,
+  "places": []
+ },
+ {
+  "surname": "Calahorra",
+  "n": 2,
+  "dead": 0,
+  "living": 2,
+  "first": null,
+  "last": null,
+  "places": []
  },
  {
   "surname": "Paladino",
@@ -1304,24 +1304,6 @@
   "places": [
    "Potenzoni (Briatico), Vibo Valentia, Calabria"
   ]
- },
- {
-  "surname": "Eriksen",
-  "n": 1,
-  "dead": 0,
-  "living": 1,
-  "first": null,
-  "last": null,
-  "places": []
- },
- {
-  "surname": "Ericksen",
-  "n": 1,
-  "dead": 0,
-  "living": 1,
-  "first": null,
-  "last": null,
-  "places": []
  },
  {
   "surname": "Gow",

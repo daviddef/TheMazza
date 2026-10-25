@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Two things the archive is FOR.
 
-1. The ancestors of Mia and Rocco Francesco Mazza — every one the tree can
-   reach, by generation, with the gaps counted rather than glossed. A pedigree
-   that does not say how much of itself is missing is a advertisement.
+1. The ancestors of the two children of Michael Rocco Mazza and Stefanie D'Arcy
+   — every one the tree can reach, by generation, with the gaps counted rather
+   than glossed. A pedigree that does not say how much of itself is missing is
+   a advertisement. The two children are NOT NAMED and have no record here
+   (possible minors, held out: tools/living_v2.py possible_minors, 25 October
+   2026); generation 1 is their parents, so every count is what it was.
 
 2. The Mazza and the Arena as SURNAMES — every bearer in the tree, sorted into
    the descent groups they actually belong to, and honest about which of those
@@ -13,7 +16,8 @@ import json, collections
 
 P = {r["id"]: r for r in json.load(open("site/src/data/people.json"))}
 BY_SLUG = {r["slug"]: r for r in P.values()}
-ANCHORS = ["@I363@", "@I364@"]           # Mia Josephine, Rocco Francesco
+ANCHORS = []                              # the two children are held out: no record, so no anchor
+PARENTS = ["@I26@", "@I362@"]             # their parents: generation 1 of every count below
 
 def brief(pid):
     r = P[pid]
@@ -31,9 +35,12 @@ def brief(pid):
             "birthPlace": r.get("birthPlace", ""), "comp": r.get("comp", 0)}
 
 # ---------------------------------------------------------------- ancestors
-def ancestry(start):
-    """{generation: [ids]} above `start`. Gen 1 = parents."""
-    gens, frontier, seen = collections.defaultdict(list), [(start, 0)], {start}
+def ancestry(starts):
+    """{generation: [ids]} above the two held-out children. Gen 1 = their parents (`starts`)."""
+    gens, frontier, seen = collections.defaultdict(list), [], set(starts)
+    for s in starts:
+        gens[1].append(s)
+        frontier.append((s, 1))
     while frontier:
         pid, g = frontier.pop(0)
         for par in P.get(pid, {}).get("parents", []):
@@ -44,7 +51,7 @@ def ancestry(start):
             frontier.append((par["id"], g + 1))
     return gens
 
-gens = ancestry(ANCHORS[0])
+gens = ancestry(PARENTS)
 rows = []
 for g in sorted(gens):
     people = [brief(i) for i in gens[g]]
@@ -63,7 +70,7 @@ json.dump({"anchors": [brief(a) for a in ANCHORS],
            "deepest": max(rows, key=lambda r: r["gen"])["gen"]},
           open("site/src/data/ancestors.json", "w"), indent=1, ensure_ascii=False)
 
-print(f"ancestors of Mia & Rocco: {total_found} across {len(rows)} generations")
+print(f"ancestors of the two children: {total_found} across {len(rows)} generations")
 for r in rows:
     pct = 100 * r["found"] / r["possible"]
     print(f"  gen {r['gen']:2d}: {r['found']:3d} of {r['possible']:4d} possible ({pct:5.1f}%)  "

@@ -1,10 +1,10 @@
 {
  "Mazza": {
   "surname": "Mazza",
-  "total": 121,
+  "total": 118,
   "groups": [
    {
-    "n": 111,
+    "n": 109,
     "earliest": 1809,
     "latest": 1952,
     "towns": [
@@ -16,9 +16,7 @@
     "onSpine": [
      "Frank Mazza",
      "Mariano Mazza",
-     "Mia Josephine Mazza",
      "Michael Rocco Mazza",
-     "Rocco Francesco Mazza",
      "Rosario Mazza",
      "Salvatore Mazza",
      "Sebastiano Mazza"
@@ -1138,21 +1136,6 @@
       "comp": 1
      },
      {
-      "id": "@I363@",
-      "slug": "mia-josephine-mazza",
-      "name": "Mia Josephine Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "living": true,
-      "birthPlace": "Brisbane, Queensland, Australia",
-      "comp": 1
-     },
-     {
       "id": "@I26@",
       "slug": "michael-rocco-mazza",
       "name": "Michael Rocco Mazza",
@@ -1345,21 +1328,6 @@
       "registerSources": [],
       "living": false,
       "birthPlace": "",
-      "comp": 1
-     },
-     {
-      "id": "@I364@",
-      "slug": "rocco-francesco-mazza",
-      "name": "Rocco Francesco Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "living": true,
-      "birthPlace": "Brisbane, Queensland, Australia",
       "comp": 1
      },
      {
@@ -1805,33 +1773,6 @@
       "living": false,
       "birthPlace": "Piedimonte Etneo",
       "comp": 0
-     }
-    ]
-   },
-   {
-    "n": 1,
-    "earliest": null,
-    "latest": null,
-    "towns": [
-     "Brisbane, Queensland, Australia"
-    ],
-    "component": 4,
-    "onSpine": [],
-    "people": [
-     {
-      "id": "@I15@",
-      "slug": "jack-mazza",
-      "name": "Jack Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "living": true,
-      "birthPlace": "Brisbane, Queensland, Australia",
-      "comp": 4
      }
     ]
    },

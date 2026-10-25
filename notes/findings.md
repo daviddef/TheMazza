@@ -7,8 +7,8 @@ Built from `sources/mazza-myheritage.ged`, exported from MyHeritage on 9 Septemb
 
 ### The shape of the family
 
-Michael Rocco Mazza is the proband; the archive is anchored on his two children,
-**Mia Josephine** and **Rocco Francesco**. He is David Defranceski's brother-in-law
+Michael Rocco Mazza is the proband; the archive is anchored on his two children
+(not named here: possible minors, held out of every page and list). He is David Defranceski's brother-in-law
 through the D'Arcy sisters — David married Cristina D'Arcy, Michael married Stefanie D'Arcy.
 
 **Four grandparents, three towns:**
@@ -197,7 +197,7 @@ page, so they are not in the HTML. Anyone the tree records as dead keeps their d
 died at sixteen, and an archive that will not say so is not telling the truth about this family.
 Boundary verified — born 1946 (age 80) withheld, born 1945 (age 81) shown, zero leaks in the JSON.
 
-### The ancestors of Mia and Rocco, counted
+### The ancestors of the two children, counted
 
 62 people across 10 generations, against 2,046 possible:
 
@@ -757,7 +757,7 @@ Aged 56 on 19 September 1929 ⇒ born **late 1872 or early 1873**. That is what 
 | 2 | **Rosario Mazza** | b. c. 1844–45 (28 in Jan 1873, 31 in Oct 1877, 32 in May 1880) × **Leonarda Bonanno di Gaetano** |
 | 3 | **Salvatore Mazza** | **b. 5 January 1873**, Contrada Terremorte — **d. 19 September 1929**, frazione Vena × **Maria Nicotra**, m. 25 Apr 1898 |
 | 4 | **Sebastiano Mazza** | b. 22 Oct 1920 – d. 2 Apr 2002. The *Toscana*, 1949. |
-| 5–7 | Frank · Michael Rocco · **Mia and Rocco Francesco** | dates withheld |
+| 5–7 | Frank · Michael Rocco · **the two children** (not named) | dates withheld |
 
 **Four generations this morning, seven tonight**, and every Sicilian step is a document.
 
@@ -1511,11 +1511,11 @@ Act 228 of 1861 makes Francesco Antonio Arena **42** on 23 December 1861 and cal
 *figlio di Filippo*. A birth on **25 November 1819** makes him forty-two years and one month.
 **Exact.**
 
-The direct line of Mia and Rocco now runs:
+The direct line of the two children now runs:
 
 **Filippo Arena × Domenica Costa** → **Francesco Antonio Arena** (b. 25 Nov 1819, *marinaro*) ×
 **Serafina Arlotta** → **Rocco Arena** (b. 20 Dec 1861, *marinaro*) × Generosa Costa →
-**Anna Arena** (b. 1893) → Rocco Arena (b. 1924) → Nancy Arena → Mia and Rocco.
+**Anna Arena** (b. 1893) → Rocco Arena (b. 1924) → Nancy Arena → the two children.
 
 **Four of those people are not in the export at all.** Recorded in `data/documented-additions.tsv`
 and on `/corrections`, because the charts draw the tree as given and these cannot go on them.
@@ -2232,7 +2232,7 @@ Francesco Antonio with the first name dropped, as in 1853 and 1861.
 *niece*) is documented at both ends.
 
 → **DOMENICO ARLOTTA** — named only as *il fu Domenico*, dead before April 1854. A
-great-great-great-great-great-grandfather of Mia and Rocco, and the deepest name on the Calabrian
+great-great-great-great-great-grandfather of the two children, and the deepest name on the Calabrian
 side. **Giovanni Arlotta b. c.1779**, previously undated.
 
 → Four generations of sailors in a line: Domenico Arlotta → Giovanni Arlotta → Francesco Antonio

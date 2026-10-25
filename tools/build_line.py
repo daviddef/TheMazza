@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """The spine: every ancestor of the two children who carry the name.
 
-The archive is anchored on Mia Josephine Mazza (2017) and Rocco Francesco
-Mazza (2019) — not on an ancestor. A pedigree drawn downwards decides in
+The archive is anchored on the two children of Michael Rocco Mazza and Stefanie
+D'Arcy (not named: possible minors, held out) — not on an ancestor. A pedigree drawn downwards decides in
 advance which line matters; drawn upwards from the living it simply reports
 who is actually behind them, and how far each line reaches before it stops.
 """
 import json, collections, re
 
 P = {r["id"]: r for r in json.load(open("site/src/data/people.json"))}
-ANCHORS = ["@I363@", "@I364@"]      # Mia and Rocco Francesco
+ANCHORS = []                        # the two children: held out, no record
 PROBAND = "@I26@"                   # Michael Rocco Mazza
 
 def up(start):

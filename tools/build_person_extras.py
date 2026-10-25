@@ -114,5 +114,5 @@ for p in P:
 
 json.dump(P, open(PATH, "w"), indent=1, ensure_ascii=False)
 print(f"{sum(1 for p in P if p.get('records'))} people carry a record that has been read; "
-      f"{sum(1 for p in P if p.get('onSpine'))} are ancestors of Mia and Rocco; "
+      f"{sum(1 for p in P if p.get('onSpine'))} are ancestors of the two children; "
       f"{sum(1 for p in P if p.get('corrections'))} carry a correction the registers forced")

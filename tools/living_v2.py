@@ -8,10 +8,18 @@ counts in THIS archive as a recorded death or burial.
   LIVING   80 or younger by year, no death or burial recorded, and no citation
            from a public record source (FamilySearch, MyHeritage records,
            Findmypast...). Someone with no birth year is not living by this test.
-  HELD OUT an undated person with a living parent (they might be a child): not
-           recorded dead, no public source, no birth year. Not published at all.
-           A child with a KNOWN birth year is NOT held out (David, 16 October 2026):
-           they are living, like anyone else 80 or younger, and have a page.
+  HELD OUT a possible minor: not published at all (no page, no name, no photograph).
+           Two tests, both held here and NOT in the kit (David, 25 October 2026):
+             * the kit's: an undated person with a living parent (not recorded dead,
+               no public source, no birth year);
+             * ours, `possible_minors` below: a person under 18 by year (born
+               this_year - 18 or later) with no death recorded, or an UNDATED person
+               with a parent born 1975 or later and no death recorded.
+           David ruled on 16 October that a child with a KNOWN birth year follows the
+           standard of any living person and has a page; on 25 October he ruled that
+           possible minors are not published at all. The kit's living_rule.possible_minor
+           still carries the 16 October exemption and cannot be edited from here, so the
+           supplement is this archive's and is reported as a kit gap.
 
 This replaces three older tests, none of which survives:
   * `datesHidden`    (80 or younger, no death in the TREE) - it ignored a burial
@@ -171,6 +179,48 @@ def cites_for_living(p):
     return [] if p["by"] is not None else p["cites"]
 
 
+# ---- possible minors (David, 25 October 2026): NOT PUBLISHED AT ALL -----------------------------
+MINOR_AGE = 18               # under 18 by year: born this_year - 18 or later (2008 in 2026)
+PARENT_YEAR_FLOOR = 1975     # an undated person whose parent was born in or after this year may be a child
+
+
+def minor_cutoff_year(today_year=None):
+    """Born in this year or later is a possible minor (2008 in 2026); one derived number, never typed."""
+    return int(today_year or lr.this_year()) - MINOR_AGE
+
+
+def possible_minors(people, today_year=None):
+    """Ids of the possible minors: held out whatever the kit's rule says.
+
+    people: the same {id: {"by", "dead", "undated_dead", "parents", ...}} classify() takes.
+
+    ROOT CAUSE of the 25 October 2026 leak (eight children, each with a known birth year, were published by
+    name with a page, and two of them were the anchors the whole archive was built on): the kit's
+    `living_rule.possible_minor` holds out only an UNDATED person with a living parent, and says in
+    so many words that a child with a known birth year follows the living standard (David, 16
+    October). That ruling was superseded on 25 October. Here the test is the child's own year, or,
+    for an undated person, the parent's: born 2008 or later, or undated with a parent born 1975 or
+    later. A recorded death takes a person out of it (a dead child is an ordinary page), and so
+    does an undated bare death flag (the kit's own reading: for the undated it means dead).
+    """
+    y = today_year or lr.this_year()
+    floor = minor_cutoff_year(y)
+    out = set()
+    for i, p in people.items():
+        if p["dead"]:
+            continue
+        if p["by"] is not None:
+            if p["by"] >= floor:
+                out.add(i)
+        elif not p.get("undated_dead", False):
+            for q in p["parents"]:
+                qy = people.get(q, {}).get("by")
+                if qy is not None and qy >= PARENT_YEAR_FLOOR:
+                    out.add(i)
+                    break
+    return out
+
+
 def classify(people, today_year=None):
     """people: {id: {"by": int|None, "dead": bool, "cites": [str], "parents": [id], "undated_dead": bool}}
 
@@ -178,7 +228,9 @@ def classify(people, today_year=None):
     tree's bare death FLAG (kit living_rule, 25 October 2026): it frees nobody born in the window.
 
     Returns (living, held_out) as sets of ids. Living is computed first, because
-    a possible minor with no birth year is defined by a living parent.
+    a possible minor with no birth year is defined by a living parent. The kit's held-out set is
+    then widened by `possible_minors` (25 October 2026), and those people are not living here:
+    they are not published, so nothing downstream may treat them as a living person.
 
     RECENT CHILD (17 October 2026, kit living_rule 26a4cba): an UNDATED person with no recorded
     death and no public source whose youngest child with a known birth year was born 60 years ago
@@ -196,7 +248,8 @@ def classify(people, today_year=None):
         if lr.is_held_out(i, p["by"], p["dead"], p["cites"], pl, (), y, yc.get(i),
                           undated_dead=p.get("undated_dead", False)):
             held.add(i)
-    return living, held
+    held |= possible_minors(people, y)
+    return living - held, held
 
 
 def selfcheck(today_year=2026):
@@ -250,10 +303,14 @@ def selfcheck(today_year=2026):
     L, H = run({"p": P(cites=pub + ["FamilySearch"]), "k": P(today_year - 20, parents=["p"])})
     if "p" in L:
         bad.append("a public source did not override the recent-child rule")
-    # an undated parent of a recent child who has a living parent is an adult: living, NOT a possible minor
-    L, H = run({"g": P(today_year - 50), "p": P(parents=["g"]), "k": P(today_year - 5, parents=["p"])})
+    # an undated parent of a recent child whose own parent is OLD (born before 1975) is an adult: living, NOT a possible minor
+    L, H = run({"g": P(today_year - 70), "p": P(parents=["g"]), "k": P(today_year - 5, parents=["p"])})
     if "p" not in L or "p" in H:
-        bad.append("an undated parent of a recent child with a living parent was held out, not made living")
+        bad.append("an undated parent of a recent child with an old living parent was held out, not made living")
+    # but an undated person whose parent was born in 1975 or later is a possible minor whatever else is known (25 Oct 2026)
+    L, H = run({"g": P(today_year - 50), "p": P(parents=["g"]), "k": P(today_year - 5, parents=["p"])})
+    if "p" not in H or "p" in L:
+        bad.append("an undated person with a parent born in 1975 or later was published (a possible minor)")
     # an undated person with a living parent and no child is still a possible minor
     L, H = run({"g": P(today_year - 50), "p": P(parents=["g"])})
     if "p" not in H or "p" in L:
@@ -292,6 +349,29 @@ def selfcheck(today_year=2026):
     L, H = run({"p": P(today_year - 90), "k": P(today_year - 20, parents=["p"])})
     if "p" in L:
         bad.append("a dated person was made living by a child's year")
+    # POSSIBLE MINORS (David, 25 October 2026): not published at all, a known birth year or not
+    cut = minor_cutoff_year(today_year)
+    L, H = run({"p": P(today_year - 40), "k": P(cut, parents=["p"])})
+    if "k" not in H or "k" in L:
+        bad.append("a child born in the cutoff year was published")
+    L, H = run({"p": P(today_year - 40), "k": P(cut - 1, parents=["p"])})
+    if "k" in H or "k" not in L:
+        bad.append("a person born the year before the cutoff was held out (an adult is living)")
+    L, H = run({"p": P(today_year - 40), "k": P(today_year - 8, parents=["p"], flag=True)})
+    if "k" not in H:
+        bad.append("a bare death flag freed a dated child")
+    L, H = run({"p": P(today_year - 40), "k": P(today_year - 8, dead=True, parents=["p"])})
+    if "k" in H:
+        bad.append("a child with a recorded death was held out (a dead child is an ordinary page)")
+    L, H = run({"p": P(PARENT_YEAR_FLOOR), "k": P(parents=["p"], cites=pub + ["FamilySearch"])})
+    if "k" not in H:
+        bad.append("an undated child of a parent born in the floor year was published (a public source frees nobody here)")
+    L, H = run({"p": P(today_year - 130), "k": P(parents=["p"])})
+    if "k" in H:
+        bad.append("an undated person whose parent was born long before the floor year was held out as a minor")
+    L, H = run({"p": P(PARENT_YEAR_FLOOR), "k": P(parents=["p"], flag=True)})
+    if "k" in H:
+        bad.append("an undated person with a death flag was held out as a minor")
     return bad
 
 

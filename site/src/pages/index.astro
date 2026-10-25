@@ -27,9 +27,9 @@ const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
 const g7 = anc.generations[6];
 const g7pc = Math.round(100 * g7.found / g7.possible);  /* `found` is a COUNT, not an array */
 const more = [
-  ["/ancestors", "The ancestors of Mia and Rocco", `${anc.total} people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, ${g7pc}% complete by the seventh generation, and one thread at the tenth.`],
+  ["/ancestors", "The ancestors of the two children", `${anc.total} people across ten generations — counted against the 2,046 there ought to be. Complete for grandparents, ${g7pc}% complete by the seventh generation, and one thread at the tenth.`],
   ["/the-hundred-and-ten", "The hundred and ten", "The archive's largest open question, answered on the day it was built: a hundred and ten Piedimonte Etneo Mazza who turned out to be the families of Michael Rocco Mazza's great-great-uncles."],
-  ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1809, to two children born in Brisbane."],
+  ["/the-name-line", "The Mazza name line", "Four generations this morning, seven tonight — from Mariano Mazza, born about 1809, to two young children."],
   ["/arena", "The Arena", `${focus.Arena.total} Arena of Scilla in ${focus.Arena.groups.length} descent groups, ${focus.Arena.groups[0].n} of them in one — and the reason a surname tells you least about a family.`],
   ["/lines", "The four quarters", "Michael Rocco Mazza has four grandparents and they came from four different places. Three towns in the south of Italy, and the shipping line that brought all four to one suburb of Brisbane."],
   ["/briatico-tested", "Testing the 1697", "The archive's largest claim, audited: two Prostamo generations proved, four shown to rest on nothing, and a family of sailors the tree had recorded as farmers."],

@@ -27,8 +27,20 @@ WHAT IT ENFORCES (and why each part can fail)
      a name page whose every bearer is living is noindex and names no canonical
   5  a held-out person appears nowhere: not by id in any data file, not as a page,
      not by name in a built page or data file (the name test needs the GEDCOM, so
-     it runs locally; the id test runs everywhere). Held out is ONLY an undated
-     person with a living parent; a child with a known birth year is published.
+     it runs locally; the id test runs everywhere). Held out is a possible minor:
+     an undated person with a living parent (the kit's test), a person under 18 by
+     year, or an undated person whose parent was born in 1975 or later (rule 8).
+  8  NO POSSIBLE MINOR IS PUBLISHED (25 October 2026, after two children with known birth
+     years were found with pages, and the archive built on them). Recomputed from the
+     GEDCOM, by this file's own code and not by tools/living_v2.py: a person with no
+     death record who was born (this year - 18) or later, or who is undated and has a
+     parent born in 1975 or later, must be in data/held-out.json, must have no record in
+     people.json, and must be named nowhere (full name, first given name + surname, or
+     the pair of siblings' given names) on any built page or shipped data file. In CI
+     (no GEDCOM) the committed list is held to its own record: data/held-out.json names
+     the minors it holds ("minors", a subset of "ids"), and rule 5's id test, which runs
+     everywhere, keeps every one of them out of every data file. What CI cannot do is
+     notice a NEW minor: that needs birth years, which are not committed.
   6  every person the archive names has a page (each relationship edge resolves to
      a record, and each record has a built page)
   7  NO BIRTH YEAR OF A PERSON WITH NO DEATH IS PUBLISHED ANYWHERE (25 October 2026):
@@ -72,6 +84,7 @@ import outdir as _outdir  # noqa: E402
 
 PLANT_YEAR = 1799                       # no living person can have this
 CHILD_AGE = 18                          # a child is under 18 by year (estate standard)
+PARENT_FLOOR = 1975                     # an undated person whose parent was born in or after this year may be a child (rule 8; this file's own number)
 YEAR = re.compile(r"\b(1[5-9]\d\d|20\d\d)\b")
 NOINDEX = re.compile(r'<meta[^>]+name=["\']robots["\'][^>]*noindex', re.I)
 LDJSON = re.compile(r'application/ld\+json', re.I)
@@ -294,6 +307,24 @@ class Gate:
             if lr.is_held_out(x, i["by"], i["dead"], i["cites"], pl, (), self.today, young.get(x),
                               undated_dead=i["flag"]):
                 held_now.add(x)
+        # POSSIBLE MINORS (David, 25 October 2026) replace the 16 October exemption of a child with a known birth
+        # year. Recomputed here, with this file's own constants and no call into tools/living_v2.py.
+        floor = self.today - CHILD_AGE
+        minors_now = set()
+        for x, i in info.items():
+            if i["dead"]:
+                continue
+            if i["by"] is not None:
+                if i["by"] >= floor:
+                    minors_now.add(x)
+            elif not i["flag"] and any((info[q]["by"] or 0) >= PARENT_FLOOR for q in i["parents"]):
+                minors_now.add(x)
+        self.minors_ged = sorted(minors_now)
+        self.minors_dated = sorted(x for x in minors_now if info[x]["by"] is not None)
+        self.minors_undated = sorted(x for x in minors_now if info[x]["by"] is None)
+        held_now |= minors_now
+        living_now -= minors_now
+        self.child_ids = []
         self.recent_parent_ids = sorted(x for x in living_now if info[x]["by"] is None)
         self.no_twin = {x for x in I if len(twins.get(name_key(x), [])) == 1}
         exempt = mism = 0
@@ -313,24 +344,10 @@ class Gate:
                 else:
                     mism += 1
                     self.fail(2, f"{x}: the rule says living={want}, the data says {bool(p.get('living'))}")
-        # A CHILD WITH A KNOWN BIRTH YEAR IS NOT HELD OUT (David, 16 October 2026): every
-        # child under 18 by year follows the same standard as any living person, so is
-        # published with a page. Only an undated person with a living parent is held out.
-        kids = {x for x in living_now if info[x]["by"] and self.today - info[x]["by"] < CHILD_AGE}
-        self.child_ids = sorted(kids)
-        for x in sorted(kids):
-            if x not in self.by_id:
-                self.fail(6, f"{x} is a dated child (under 18 by year) with no record: a known child "
-                             "is published like any living person, not held out")
-            elif not self.by_id[x].get("living"):
-                self.fail(2, f"{x} is a dated child but is not flagged living")
         for x in sorted(self.held_ids - held_now):
             self.fail(5, f"{x} is recorded as held out but the rule publishes them "
                          "(held out is only an undated person with a living parent)")
-        undated_held = [x for x in held_now if not info[x]["by"]]
-        if len(undated_held) != len(held_now):
-            self.fail(5, "a person with a birth year is held out by the rule: only the undated are")
-        self.info["dated_children_published"] = len([x for x in kids if x in self.by_id])
+        self.info["possible_minors_in_gedcom"] = len(minors_now)
         rp = [x for x in self.recent_parent_ids if x in self.by_id]
         self.info["undated_parents_living_by_recent_child"] = len(rp)
         for x in rp:
@@ -348,6 +365,23 @@ class Gate:
             self.fail(5, f"{len(missing)} held-out id(s) are not recorded in data/held-out.json: {sorted(missing)[:6]}")
         self.held_names = [re.sub(r"\s+", " ", re.sub(r"/", " ", kid(I[x], "NAME")["val"])).strip()
                            for x in held_now if kid(I[x], "NAME")]
+        # a minor is also named by first given name + surname, and a pair of siblings by "A and B" (rule 8)
+        self.minor_names = []
+        fam_of = {}
+        for x in minors_now:
+            nm = re.sub(r"\s+", " ", re.sub(r"/", " ", kid(I[x], "NAME")["val"] if kid(I[x], "NAME") else "")).strip()
+            self.minor_names.append(nm)
+            toks = nm.split()
+            if len(toks) >= 3:
+                self.minor_names.append(toks[0] + " " + toks[-1])
+            fc = kid(I[x], "FAMC")
+            if fc and toks:
+                fam_of.setdefault(fc["val"], []).append(toks[0])
+        for fam, firsts in fam_of.items():
+            for a_ in firsts:
+                for b_ in firsts:
+                    if a_ != b_:
+                        self.minor_names += [f"{a_} and {b_}", f"{a_} & {b_}"]
         # kept for rule 7: who the export says is 80 or younger with no death, by name and year
         self.window = []
         for x, i in info.items():
@@ -704,6 +738,65 @@ class Gate:
         self.info["year_text_hits"] = f"b. {hits_b} · namesake {hits_ns} · name+year {hits_nm}" + \
             ("" if names else " (name+year needs the private export; runs locally)")
 
+    # ----------------------------------------------------------------- rule 8
+    def rule8_minors(self):
+        """No possible minor is published (25 October 2026). See the header."""
+        rec = self.held.get("minors")
+        if not rec:
+            self.fail(8, "data/held-out.json records no 'minors': the file is not being written by the generator that "
+                         "holds possible minors out (tools/living_v2.py possible_minors), or it holds none, and this "
+                         "archive has some")
+            rec = []
+        for m in rec:
+            if m not in self.held_ids:
+                self.fail(8, f"{m} is recorded as a minor but is not in the held-out ids")
+            if m in self.by_id:
+                self.fail(8, f"{m} is a recorded possible minor and is published in people.json")
+        ged = getattr(self, "minors_ged", None)
+        if ged is None:
+            self.info["minors"] = f"{len(rec)} recorded, none recomputed (needs the private GEDCOM; runs locally)"
+            return
+        for x in ged:
+            if x not in self.held_ids:
+                self.fail(8, f"{x} is a possible minor by the GEDCOM (under 18 by year, or undated with a parent born in "
+                             f"{PARENT_FLOOR} or later) and is not held out")
+            elif x not in rec:
+                self.fail(8, f"{x} is a possible minor by the GEDCOM and is held out, but is not recorded in 'minors'")
+            if x in self.by_id:
+                self.fail(8, f"{x} is a possible minor by the GEDCOM and is published in people.json")
+        for m in rec:
+            if m not in ged:
+                self.fail(8, f"{m} is recorded as a minor but the GEDCOM does not make them one")
+        # names: full name, first given + surname, and a pair of siblings' given names, on every built page and
+        # every data file the site ships. A name a published person also bears cannot be told apart and is counted.
+        dead_names = {re.sub(r"\s+", " ", p["name"]).lower() for p in self.people}
+        names = sorted({n for n in self.minor_names if len(n.split()) >= 2})
+        shared = [n for n in names if n.lower() in dead_names]
+        names = [n for n in names if n.lower() not in dead_names]
+        hits = 0
+        if names:
+            rx = re.compile("|".join(re.escape(n) for n in sorted(names, key=len, reverse=True)), re.I)
+            # a minor's short name can sit inside a PUBLISHED person's longer name (a middle name and a surname):
+            # those longer names are blanked before the search, and only they
+            longer = sorted({pn for pn in dead_names if any(n.lower() in pn for n in names)}, key=len, reverse=True)
+            cover = re.compile("|".join(re.escape(n) for n in longer), re.I) if longer else None
+            def seen(text):
+                return rx.search(cover.sub(" ", text) if cover else text)
+            for rel, path in self.pages.items():
+                t = open(path, encoding="utf-8", errors="replace").read()
+                if seen(re.sub(r"<[^>]+>", " ", re.sub(r"(?is)<script.*?</script>", " ", t))):
+                    hits += 1
+                    self.fail(8, f"a possible minor's name appears on the built page /{rel}/")
+            files = [os.path.join(self.data, f) for f in os.listdir(self.data) if f.endswith(".json")]
+            for dp, _, fns in os.walk(self.dist):
+                files += [os.path.join(dp, f) for f in fns if f.endswith((".json", ".xml", ".txt"))]
+            for path in files:
+                if seen(open(path, encoding="utf-8", errors="replace").read()):
+                    hits += 1
+                    self.fail(8, f"a possible minor's name appears in {os.path.relpath(path, os.path.dirname(self.data))}")
+        self.info["minors"] = (f"{len(ged)} by the GEDCOM, {len(rec)} recorded; names scanned {len(names)} "
+                               f"({len(shared)} shared with a published person, not scannable); hits {hits}")
+
     def run(self):
         self.load()
         self.rule1_empty()
@@ -714,6 +807,7 @@ class Gate:
             self.rule5_held()
             self.rule6_pages_for_named()
             self.rule7_years()
+            self.rule8_minors()
         return self.fails
 
 
@@ -749,8 +843,7 @@ def report(g, quiet=False):
         print(f"        control (not-living pages sampled): {i.get('control_dead_pages')}")
         print(f"        classification: {i.get('published_as_dead_but_living_by_rule')} published as dead but "
               f"living by rule · GEDCOM: {i.get('ged')}")
-        print(f"        dated children (under 18 by year) published with a page: "
-              f"{i.get('dated_children_published', 'not checked (needs the private GEDCOM)')}")
+        print(f"        possible minors (rule 8): {i.get('minors')}")
         print(f"        undated parents of a recent child, living by the rule: "
               f"{i.get('undated_parents_living_by_recent_child', 'not checked (needs the private GEDCOM)')}")
         print(f"        no birth year of a person with no death (rule 7): rows naming a living person "
@@ -952,17 +1045,54 @@ def selftest(dist, data_dir, root, ged):
             write(os.path.join(s2, "stats.json"),
                   open(os.path.join(s2, "stats.json"), encoding="utf-8").read()[:-1] + f', "planted": "{nm}"}}')
         add(5, "a held-out name in a shipped data file (GEDCOM)", f_held_name_json, True)
-        def kid_ids():
-            ids = getattr(base, "child_ids", [])
+        # ---- rule 8: possible minors (25 October 2026)
+        def hp(): return os.path.join(r2, "data", "held-out.json")
+        def minors_rec(): return jload(hp()).get("minors", [])
+        def f_drop_minor(pick):
+            def go():
+                ids = pick()
+                doc = jload(hp())
+                doc["ids"] = [i for i in doc["ids"] if i != ids]
+                doc["minors"] = [i for i in doc.get("minors", []) if i != ids]
+                write(hp(), json.dumps(doc))
+            return go
+        def dated_minor():
+            ids = [x for x in getattr(base, "minors_dated", []) if x in minors_rec()]
             if not ids:
                 raise StopIteration
             return ids[0]
-        add(5, "a known child wrongly held out (GEDCOM)",
-            lambda: write(os.path.join(r2, "data", "held-out.json"),
-                          json.dumps({**jload(os.path.join(r2, "data", "held-out.json")),
-                                      "ids": jload(os.path.join(r2, "data", "held-out.json"))["ids"] + [kid_ids()]})), True)
-        add(6, "a dated child with no page (GEDCOM)",
-            lambda: edit_people(lambda d: [d.remove(x) for x in [next(y for y in d if y["id"] == kid_ids())]]), True)
+        def undated_minor():
+            ids = [x for x in getattr(base, "minors_undated", []) if x in minors_rec()]
+            if not ids:
+                raise StopIteration
+            return ids[0]
+        def minor_name_phrases():
+            _dead = {re.sub(r"\s+", " ", p["name"]).lower() for p in base.people}
+            return [n for n in sorted(base.minor_names) if len(n.split()) >= 2 and n.lower() not in _dead]
+        add(8, "the record of minors removed from data/held-out.json",
+            lambda: write(hp(), json.dumps({k: v for k, v in jload(hp()).items() if k != "minors"})))
+        add(8, "a recorded minor published (id in people.json)",
+            lambda: edit_people(lambda d: d.append({**d[0], "id": minors_rec()[0], "slug": "planted-minor"})))
+        add(8, "a recorded minor that is not a held-out id",
+            lambda: write(hp(), json.dumps({**jload(hp()), "minors": minors_rec() + ["@PLANTED@"]})))
+        add(8, "a dated child (under 18 by year) dropped from the held-out list (GEDCOM)", f_drop_minor(dated_minor), True)
+        add(8, "an undated person with a parent born in 1975 or later dropped from the held-out list (GEDCOM)",
+            f_drop_minor(undated_minor), True)
+        def f_minor_fullname():
+            nm = next(n for n in minor_name_phrases() if len(n.split()) >= 3)
+            path = os.path.join(d2, "about", "index.html")
+            write(path, open(path, encoding="utf-8").read().replace("</main>", f"<p>{nm}</p></main>"))
+        add(8, "a possible minor's full name on a built page (GEDCOM)", f_minor_fullname, True)
+        def f_minor_short():
+            nm = next(n for n in minor_name_phrases() if len(n.split()) == 2 and " and " not in n and " & " not in n)
+            write(os.path.join(s2, "stats.json"),
+                  open(os.path.join(s2, "stats.json"), encoding="utf-8").read()[:-1] + f', "planted": "{nm}"}}')
+        add(8, "a possible minor's first name and surname in a shipped data file (GEDCOM)", f_minor_short, True)
+        def f_minor_pair():
+            nm = next(n for n in minor_name_phrases() if " and " in n)
+            path = os.path.join(d2, "about", "index.html")
+            write(path, open(path, encoding="utf-8").read().replace("</main>", f"<p>An ancestor of {nm}</p></main>"))
+        add(8, "two siblings who are possible minors named as a pair on a built page (GEDCOM)", f_minor_pair, True)
         def recent_parent():
             ids = [x for x in getattr(base, "recent_parent_ids", []) if x in getattr(base, "no_twin", set())
                    and x in base.by_id]

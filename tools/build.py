@@ -178,11 +178,13 @@ def death_kind(x):
 #            record source (FamilySearch, MyHeritage records, Findmypast...).
 #            A person with no birth year cannot be shown to be 80 or younger, so
 #            is not living by this test.
-#   held out an undated person with a living parent (not recorded dead, no public
-#            source, no birth year): they might be a child. Not published at all:
-#            no page, and no name as anyone's relative. A child with a KNOWN birth
-#            year is NOT held out (David, 16 October 2026): they are living, like
-#            anyone else 80 or younger, and are published with a page.
+#   held out a possible minor: an undated person with a living parent (the kit's
+#            test), or (David, 25 October 2026, tools/living_v2.py possible_minors)
+#            a person under 18 by year with no death recorded, or an undated person
+#            whose parent was born in 1975 or later. Not published at all: no page,
+#            no name as anyone's relative, no photograph. The 16 October ruling that
+#            a child with a KNOWN birth year follows the living standard and has a
+#            page is superseded; the kit's rule still carries it (kit gap, reported).
 #
 # This replaces `datesHidden` (the 80-year test on the tree alone, which began
 # here on 10 September), `presumedLiving` (true of 280 plainly dead people
@@ -723,6 +725,7 @@ for x in people_ids:
         "parents": sorted({canonical.get(q) for z in _orig for q in parents(z)} - {None, x}),
     }
 LIVING, HELD = LV.classify(_status_in, THIS_YEAR)
+MINORS = LV.possible_minors(_status_in, THIS_YEAR)      # the part of HELD this archive adds to the kit's test
 PUBLIC_SOURCE = {x for x in people_ids if lr.public_source(_status_in[x]["cites"])}
 print(f"  living {len(LIVING)}  held out {len(HELD)}  "
       f"(of {len(people_ids)} people; {len(PUBLIC_SOURCE)} carry a public-source citation)")
@@ -967,7 +970,7 @@ for r in records:
             if r["living"] or e["slug"] in _living_slugs:
                 e.pop("via", None)
 
-# THE HELD-OUT, BY ID. An undated person with a living parent is not published, so the only thing this
+# THE HELD-OUT, BY ID. A possible minor is not published, so the only thing this
 # repository may say about them is that a GEDCOM id is withheld: no name, no year,
 # no slug. tools/check_living_v2.py reads this file to prove none of them appears
 # anywhere, and (with the private GEDCOM, locally) recomputes the list from scratch
@@ -976,12 +979,14 @@ for r in records:
 _hp = "data/held-out.json"
 _prev = json.load(open(_hp)) if os.path.exists(_hp) else {}
 json.dump({
-    "_why": ["Ids of people the archive does not publish at all: undated people with a living parent, under the estate's "
-             "living-people standard v2 (16 October 2026). By id and never by name.",
+    "_why": ["Ids of people the archive does not publish at all: possible minors, under the estate's "
+             "living-people standard v2 (16 October 2026) and David's ruling of 25 October 2026. By id and never by name.",
              "A held-out person has no page, is nobody's relative here, and has no entry in "
              "site/src/data/person-slugs.json. Recomputed by tools/living_v2.py on every build."],
-    "rule": "not recorded dead, no public-source citation, no birth year, and a living parent",
+    "rule": "not recorded dead, and either (kit) no public-source citation, no birth year and a living parent, or "
+            "(minors) born 18 years ago or less, or undated with a parent born in 1975 or later",
     "ids": sorted(HELD),
+    "minors": sorted(MINORS),
     "proseMentionsAllowed": _prev.get("proseMentionsAllowed", 0),
 }, open(_hp, "w"), indent=1)
 

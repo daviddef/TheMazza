@@ -15,7 +15,7 @@
   "file": "README.md",
   "phrase": "rocco mazza",
   "year": "1920",
-  "reason": "the years are the birth years of the proband's four grandparents, all dead, in a sentence about the quarters of the tree; none is a date of the named person (tree id @I364@)"
+  "reason": "the years are the birth years of the proband's four grandparents, all dead, in a sentence about the quarters of the tree; none is a date of the named person (tree id @I26@)"
  },
  {
   "file": "data/documented-joins.tsv",
@@ -75,7 +75,7 @@
   "file": "data/questions.tsv",
   "phrase": "rocco mazza",
   "year": "2026",
-  "reason": "the date the question was answered; 'aged' is the age of a father named in an 1873 birth act; the named person (tree id @I364@) is mentioned only as a descendant"
+  "reason": "the date the question was answered; 'aged' is the age of a father named in an 1873 birth act; the named person (tree id @I26@) is mentioned only as a descendant"
  },
  {
   "file": "data/read-people.tsv",
@@ -117,7 +117,7 @@
   "file": "data/searched.tsv",
   "phrase": "rocco mazza",
   "year": "2026",
-  "reason": "the date a search was recorded; the other years are the earliest years each of the four lines reaches; the named person (tree id @I364@) is given no date"
+  "reason": "the date a search was recorded; the other years are the earliest years each of the four lines reaches; the named person (tree id @I26@) is given no date"
  },
  {
   "file": "data/sources.tsv",

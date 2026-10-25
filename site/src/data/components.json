@@ -1,7 +1,7 @@
 [
  {
   "comp": 1,
-  "n": 560,
+  "n": 555,
   "earliest": 1697,
   "latest": 1970,
   "dated": 201,
@@ -16,7 +16,7 @@
    },
    {
     "name": "Brisbane, Queensland, Australia",
-    "n": 55
+    "n": 51
    },
    {
     "name": "Piedimonte Etneo, Catania, Sicily",
@@ -26,7 +26,7 @@
   "surnames": [
    {
     "name": "Mazza",
-    "n": 115
+    "n": 113
    },
    {
     "name": "Prostamo",
@@ -57,7 +57,7 @@
     "n": 12
    }
   ],
-  "onSpine": 61,
+  "onSpine": 59,
   "people": [
    {
     "slug": "franco-antonino-prostamo",
@@ -3390,15 +3390,6 @@
     "birthPlace": ""
    },
    {
-    "slug": "jack-carmelo-calahorra",
-    "name": "Jack Carmelo Calahorra",
-    "surname": "Calahorra",
-    "born": null,
-    "died": null,
-    "living": true,
-    "birthPlace": "Brisbane, Queensland, Australia"
-   },
-   {
     "slug": "jiani-mazza",
     "name": "Jiani Mazza",
     "surname": "Mazza",
@@ -3442,15 +3433,6 @@
     "died": null,
     "living": true,
     "birthPlace": "Lismore, New South Wales, Australia"
-   },
-   {
-    "slug": "josef-muller",
-    "name": "Josef Muller",
-    "surname": "Muller",
-    "born": null,
-    "died": null,
-    "living": true,
-    "birthPlace": "Brisbane, Queensland, Australia"
    },
    {
     "slug": "josephine-falco",
@@ -3622,15 +3604,6 @@
     "died": null,
     "living": true,
     "birthPlace": "Melbourne, Victoria, Australia"
-   },
-   {
-    "slug": "luca-francesco-calahorra",
-    "name": "Luca Francesco Calahorra",
-    "surname": "Calahorra",
-    "born": null,
-    "died": null,
-    "living": true,
-    "birthPlace": "Parkville Vic Australia"
    },
    {
     "slug": "lucia-mazza",
@@ -3991,15 +3964,6 @@
     "died": null,
     "living": false,
     "birthPlace": ""
-   },
-   {
-    "slug": "mia-josephine-mazza",
-    "name": "Mia Josephine Mazza",
-    "surname": "Mazza",
-    "born": null,
-    "died": null,
-    "living": true,
-    "birthPlace": "Brisbane, Queensland, Australia"
    },
    {
     "slug": "micelle-donato",
@@ -4455,15 +4419,6 @@
     "slug": "rocco-armanno",
     "name": "Rocco Armanno",
     "surname": "Armanno",
-    "born": null,
-    "died": null,
-    "living": true,
-    "birthPlace": "Brisbane, Queensland, Australia"
-   },
-   {
-    "slug": "rocco-francesco-mazza",
-    "name": "Rocco Francesco Mazza",
-    "surname": "Mazza",
     "born": null,
     "died": null,
     "living": true,
@@ -5222,37 +5177,6 @@
   ]
  },
  {
-  "comp": 4,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [
-   {
-    "name": "Brisbane, Queensland, Australia",
-    "n": 1
-   }
-  ],
-  "surnames": [
-   {
-    "name": "Mazza",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "jack-mazza",
-    "name": "Jack Mazza",
-    "surname": "Mazza",
-    "born": null,
-    "died": null,
-    "living": true,
-    "birthPlace": "Brisbane, Queensland, Australia"
-   }
-  ]
- },
- {
   "comp": 5,
   "n": 1,
   "earliest": null,
@@ -5301,37 +5225,6 @@
     "died": null,
     "living": false,
     "birthPlace": ""
-   }
-  ]
- },
- {
-  "comp": 7,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [
-   {
-    "name": "Toowoomba, Queensland, Australia",
-    "n": 1
-   }
-  ],
-  "surnames": [
-   {
-    "name": "Ericksen",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "noah-ericksen",
-    "name": "Noah Ericksen",
-    "surname": "Ericksen",
-    "born": null,
-    "died": null,
-    "living": true,
-    "birthPlace": "Toowoomba, Queensland, Australia"
    }
   ]
  },
@@ -5389,37 +5282,6 @@
     "died": null,
     "living": true,
     "birthPlace": "Brisbane, Queensland, Australia"
-   }
-  ]
- },
- {
-  "comp": 10,
-  "n": 1,
-  "earliest": null,
-  "latest": null,
-  "dated": 0,
-  "towns": [
-   {
-    "name": "Toowoomba, Queensland, Australia",
-    "n": 1
-   }
-  ],
-  "surnames": [
-   {
-    "name": "Eriksen",
-    "n": 1
-   }
-  ],
-  "onSpine": 0,
-  "people": [
-   {
-    "slug": "ty-eriksen",
-    "name": "Ty Eriksen",
-    "surname": "Eriksen",
-    "born": null,
-    "died": null,
-    "living": true,
-    "birthPlace": "Toowoomba, Queensland, Australia"
    }
   ]
  }

@@ -67,7 +67,7 @@ const ARG = people.filter((p) => (p.birthPlace || "").includes("Buenos Aires"));
 
   {main.map((c) => (
     <section class="blk">
-      <div class="lab">Component {c.comp}{c.onSpine ? " · the line that reaches Mia and Rocco" : " · joined to nothing"}</div>
+      <div class="lab">Component {c.comp}{c.onSpine ? " · the line that reaches the two children" : " · joined to nothing"}</div>
       <h2 style="margin-top:.4rem;font-size:28px">
         {c.n} {c.n === 1 ? "person" : "people"}
         {c.towns.length ? <span style="color:var(--ink-3)"> — {c.towns[0].name}</span> : null}
