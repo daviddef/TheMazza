@@ -590,7 +590,21 @@ reg_pid = {r["name"].strip(): "@R" + kebab(_reg.clean(r["name"])) + "@"
 # same person. Two rows whose names differ only inside the parenthesis would
 # kebab to one id, so the clash is resolved here and recorded, never guessed.
 _seen_pid = {}
+# LEDGER-AWARE NUMBERING (18 October 2026). Clash ids used to be numbered by NAME
+# ORDER alone, so every new namesake had to be given a parenthesis that sorted AFTER its
+# namesakes or it shifted a published page address: eleven renames in a week. A name the
+# ledger already owns now keeps its id; only NEW names take the next free number, in name
+# order. The guard below still fails the build if an id's owner ever changes.
+_owned = {v: k for k, v in (_ledger_doc.get("names") or {}).items()}
+for r in _REG_NEW:
+    _nm = r["name"].strip()
+    _pid = _owned.get(_nm)
+    if _pid and _pid.startswith(reg_pid[_nm][:-1]):
+        reg_pid[_nm] = _pid
+        _seen_pid[_pid] = _nm
 for r in sorted(_REG_NEW, key=lambda z: z["name"]):
+    if r["name"].strip() in _seen_pid.values():
+        continue
     base_pid = reg_pid[r["name"].strip()]
     if base_pid in _seen_pid:
         n = 2

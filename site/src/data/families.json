@@ -14,6 +14,20 @@
   ]
  },
  {
+  "surname": "Nicotra",
+  "n": 108,
+  "dead": 108,
+  "living": 0,
+  "first": 1740,
+  "last": 1963,
+  "places": [
+   "Giarre",
+   "Riposto",
+   "Mascali",
+   "Piedimonte Etneo, Catania, Sicily"
+  ]
+ },
+ {
   "surname": "Prostamo",
   "n": 79,
   "dead": 50,
@@ -25,20 +39,6 @@
    "Buenos Aires, Argentina",
    "Italy",
    "Pizzo, Vibo Valentia, Calabria"
-  ]
- },
- {
-  "surname": "Nicotra",
-  "n": 77,
-  "dead": 77,
-  "living": 0,
-  "first": 1740,
-  "last": 1963,
-  "places": [
-   "Giarre",
-   "Riposto",
-   "Mascali",
-   "Piedimonte Etneo, Catania, Sicily"
   ]
  },
  {
@@ -83,16 +83,16 @@
  },
  {
   "surname": "Cavallaro",
-  "n": 15,
-  "dead": 13,
+  "n": 16,
+  "dead": 14,
   "living": 2,
   "first": 1805,
   "last": 2013,
   "places": [
    "Mascali, Catania, Sicily",
    "Piedimonte Etneo, Catania, Sicily",
-   "Catania, Sicily",
-   "Giarre"
+   "Giarre",
+   "Catania, Sicily"
   ]
  },
  {
@@ -462,6 +462,18 @@
   ]
  },
  {
+  "surname": "Morabito",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": 1818,
+  "last": 1818,
+  "places": [
+   "Scilla",
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Micale",
   "n": 2,
   "dead": 1,
@@ -709,17 +721,6 @@
   "last": 1848,
   "places": [
    "Riposto"
-  ]
- },
- {
-  "surname": "Morabito",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Scilla"
   ]
  },
  {
@@ -1563,6 +1564,17 @@
   ]
  },
  {
+  "surname": "Pappalardo",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1827,
+  "last": 1827,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Giomingo",
   "n": 1,
   "dead": 1,
@@ -1864,6 +1876,17 @@
   "last": null,
   "places": [
    "Scilla"
+  ]
+ },
+ {
+  "surname": "Finocchiaro",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1834,
+  "last": 1834,
+  "places": [
+   "Giarre"
   ]
  },
  {

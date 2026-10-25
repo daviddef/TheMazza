@@ -38752,6 +38752,65 @@
   "ancGen": null
  },
  {
+  "id": "@Randrea-nicotra@",
+  "slug": "andrea-nicotra",
+  "name": "Andrea Nicotra",
+  "key": "Andrea Nicotra (b. 1863, of Giuseppe and Filippa Cavallaro)",
+  "given": "Andrea",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1863,
+  "died": null,
+  "bornText": "14 July 1863",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "14 July 1863",
+    "year": 1863,
+    "place": "Giarre",
+    "text": "14 July 1863"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1863 atto 144, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-9@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1840-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippa-cavallaro@",
+    "name": "Filippa Cavallaro",
+    "slug": "filippa-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rangela-aiello@",
   "slug": "angela-aiello",
   "name": "Angela Aiello",
@@ -39140,8 +39199,140 @@
     "slug": "rosaria-nicotra-1837",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-nicotra-4@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra-1829",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippa-nicotra-2@",
+    "name": "Filippa Nicotra",
+    "slug": "filippa-nicotra-1833",
+    "living": false,
+    "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rangela-nicotra-2@",
+  "slug": "angela-nicotra-1857",
+  "name": "Angela Nicotra",
+  "key": "Angela Nicotra (b. 1857, of Rosario and Venera Morabito)",
+  "given": "Angela",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1857,
+  "died": null,
+  "bornText": "20 December 1857",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "20 December 1857",
+    "year": 1857,
+    "place": "Giarre",
+    "text": "20 December 1857"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1857 atto 202, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-nicotra-7@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1809",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-morabito@",
+    "name": "Venera Morabito",
+    "slug": "venera-morabito",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rangela-nicotra-3@",
+  "slug": "angela-nicotra-1858",
+  "name": "Angela Nicotra",
+  "key": "Angela Nicotra (b. 1858, of Salvadore and Venera Finocchiaro)",
+  "given": "Angela",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1858,
+  "died": null,
+  "bornText": "6 September 1858",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "6 September 1858",
+    "year": 1858,
+    "place": "Giarre",
+    "text": "6 September 1858"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1858 atto 131 (Tavola)"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-13@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1827-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-finocchiaro@",
+    "name": "Venera Finocchiaro",
+    "slug": "venera-finocchiaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -39807,6 +39998,20 @@
     "slug": "maria-nicotra-1824",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rsanto-nicotra-2@",
+    "name": "Santo Nicotra",
+    "slug": "santo-nicotra-1837",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-nicotra-2@",
+    "name": "Concetta Nicotra",
+    "slug": "concetta-nicotra-1839",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -40195,6 +40400,65 @@
   "registerGen": "—",
   "photos": [],
   "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rantonina-nicotra@",
+  "slug": "antonina-nicotra-1860",
+  "name": "Antonina Nicotra",
+  "key": "Antonina Nicotra (b. 1860, of Salvadore and Venera Finocchiaro)",
+  "given": "Antonina",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1860,
+  "died": null,
+  "bornText": "20 August 1860",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "20 August 1860",
+    "year": 1860,
+    "place": "Giarre",
+    "text": "20 August 1860"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1860 atto 159, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-13@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1827-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-finocchiaro@",
+    "name": "Venera Finocchiaro",
+    "slug": "venera-finocchiaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [],
   "spouses": [],
   "siblings": [],
@@ -40786,6 +41050,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rcarmela-nicotra-3@",
+  "slug": "carmela-nicotra-1857",
+  "name": "Carmela Nicotra",
+  "key": "Carmela Nicotra (b. 1857, of Filippo and Giuseppa Nicolosi)",
+  "given": "Carmela",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1857,
+  "died": null,
+  "bornText": "29 August 1857",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "29 August 1857",
+    "year": 1857,
+    "place": "Giarre",
+    "text": "29 August 1857"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1857 atto 136 (Tavola)"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rfilippo-nicotra@",
+    "name": "Filippo Nicotra",
+    "slug": "filippo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-nicolosi@",
+    "name": "Giuseppa Nicolosi",
+    "slug": "giuseppa-nicolosi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rcarmela-nicotra@",
   "slug": "carmela-nicotra",
   "name": "Carmela Nicotra",
@@ -41254,6 +41577,27 @@
     "slug": "maria-nicotra-1842",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-7@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1840",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmauro-nicotra@",
+    "name": "Mauro Nicotra",
+    "slug": "mauro-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvadore-nicotra-8@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1848",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -41384,6 +41728,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rconcetta-nicotra-2@",
+  "slug": "concetta-nicotra-1839",
+  "name": "Concetta Nicotra",
+  "key": "Concetta Nicotra (b. 1839, of Salvadore and Anna Costa)",
+  "given": "Concetta",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1839,
+  "died": null,
+  "bornText": "12 or 17 August 1839",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "12 or 17 August 1839",
+    "year": 1839,
+    "place": "Giarre",
+    "text": "12 or 17 August 1839"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1839 atto 85 (Tavola)"
+  ],
+  "registerNote": "A different Concetta from the daughter of Alfio and Lucia Bella. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-3@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-costa@",
+    "name": "Anna Costa",
+    "slug": "anna-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rconcetta-nicotra@",
   "slug": "concetta-nicotra",
   "name": "Concetta Nicotra",
@@ -41395,16 +41798,16 @@
   "fromRegister": true,
   "born": 1823,
   "died": null,
-  "bornText": "c. 1823",
+  "bornText": "13 May 1823",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1823",
+    "date": "13 May 1823",
     "year": 1823,
     "place": "Giarre",
-    "text": "c. 1823"
+    "text": "13 May 1823"
    }
   ],
   "birthPlace": "Giarre",
@@ -41413,7 +41816,8 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Macchia, Matrimoni 1849 atto 31, read in the original"
+   "Macchia, Matrimoni 1849 atto 31, read in the original",
+   "Macchia, Nati 1823 atto 66 (Tavola)"
   ],
   "registerNote": "Born at MILO; married FRANCESCO CATALANO, 28, born at Macchia, bracciale of Milo, son of Rosario Catalano (55) and Giuseppa Torrisi (56). Her mother Lucia di Bello was 60 and living; her father was dead. A sister of Giuseppe (b. about 1810), Vincenza (d. 1832) and Salvadore (d. 1843). MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
   "registerGen": "—",
@@ -41430,6 +41834,131 @@
     "id": "@Rlucia-bella@",
     "name": "Lucia Bella",
     "slug": "lucia-bella",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rconcetta-pappalardo@",
+  "slug": "concetta-pappalardo",
+  "name": "Concetta Pappalardo",
+  "key": "Concetta Pappalardo (wife of Ferdinando Nicotra)",
+  "given": "Concetta",
+  "surname": "Pappalardo",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1827,
+  "died": null,
+  "bornText": "c. 1827",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1827",
+    "year": 1827,
+    "place": "Giarre",
+    "text": "c. 1827"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1853 atto 155 and 1860 atto 54, read in the original"
+  ],
+  "registerNote": "Mother of David (1853), Vito (1856) and Salvadore (1860). MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rdavid-nicotra@",
+    "name": "David Nicotra",
+    "slug": "david-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvito-nicotra@",
+    "name": "Vito Nicotra",
+    "slug": "vito-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvadore-nicotra-12@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1860",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rdavid-nicotra@",
+  "slug": "david-nicotra",
+  "name": "David Nicotra",
+  "key": "David Nicotra (b. 1853, of Ferdinando and Concetta Pappalardo)",
+  "given": "David",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1853,
+  "died": null,
+  "bornText": "11 November 1853",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "11 November 1853",
+    "year": 1853,
+    "place": "Giarre",
+    "text": "11 November 1853"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1853 atto 155, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rferdinando-nicotra@",
+    "name": "Ferdinando Nicotra",
+    "slug": "ferdinando-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-pappalardo@",
+    "name": "Concetta Pappalardo",
+    "slug": "concetta-pappalardo",
     "living": false,
     "via": "read"
    }
@@ -42099,6 +42628,191 @@
   "ancGen": null
  },
  {
+  "id": "@Rferdinando-nicotra@",
+  "slug": "ferdinando-nicotra",
+  "name": "Ferdinando Nicotra",
+  "key": "Ferdinando Nicotra (Don, of Macchia, husband of Concetta Pappalardo)",
+  "given": "Ferdinando",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1819,
+  "died": null,
+  "bornText": "c. 1819",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1819",
+    "year": 1819,
+    "place": "Giarre",
+    "text": "c. 1819"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "Don",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1853 atto 155 and 1860 atto 54, read in the original",
+   "Nati 1856 atto 35 (Tavola)"
+  ],
+  "registerNote": "A «Don» (the act writes Dr. D.) living at MACCHIA, not at Milo; three children found. His parents are not named. NOT LINKED to the Milo families. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rdavid-nicotra@",
+    "name": "David Nicotra",
+    "slug": "david-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvito-nicotra@",
+    "name": "Vito Nicotra",
+    "slug": "vito-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvadore-nicotra-12@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1860",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfilippa-cavallaro@",
+  "slug": "filippa-cavallaro",
+  "name": "Filippa Cavallaro",
+  "key": "Filippa Cavallaro (wife of Giuseppe Nicotra, the younger of Milo)",
+  "given": "Filippa",
+  "surname": "Cavallaro",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1842,
+  "died": null,
+  "bornText": "c. 1842",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1842",
+    "year": 1842,
+    "place": "Giarre",
+    "text": "c. 1842"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1863 atto 144 and 1865 atto 138, read in the original"
+  ],
+  "registerNote": "The Tavola of 1863 reads her Giuseppa; the act reads Filippa. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Randrea-nicotra@",
+    "name": "Andrea Nicotra",
+    "slug": "andrea-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-nicotra-4@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1865",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfilippa-nicotra-2@",
+  "slug": "filippa-nicotra-1833",
+  "name": "Filippa Nicotra",
+  "key": "Filippa Nicotra (b. 1833, of Giacomo and Angela Grasso)",
+  "given": "Filippa",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1833,
+  "died": null,
+  "bornText": "19 October 1833",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "19 October 1833",
+    "year": 1833,
+    "place": "Giarre",
+    "text": "19 October 1833"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1833 atto 86 (Tavola)"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiacomo-nicotra@",
+    "name": "Giacomo Nicotra",
+    "slug": "giacomo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-grasso@",
+    "name": "Angela Grasso",
+    "slug": "angela-grasso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rfilippa-nicotra@",
   "slug": "filippa-nicotra",
   "name": "Filippa Nicotra",
@@ -42413,6 +43127,20 @@
     "slug": "giuseppa-nicotra-1851",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rsalvadore-nicotra-9@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1853",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcarmela-nicotra-3@",
+    "name": "Carmela Nicotra",
+    "slug": "carmela-nicotra-1857",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -42540,7 +43268,7 @@
   "key": "Francesca Giomingo (third wife of Giuseppe Nicotra, the Milo pecoraio)",
   "given": "Francesca",
   "surname": "Giomingo",
-  "sex": "",
+  "sex": "F",
   "living": false,
   "fromRegister": true,
   "born": 1827,
@@ -42569,7 +43297,22 @@
   "registerGen": "—",
   "photos": [],
   "parents": [],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rsalvadore-nicotra-11@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1858",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-8@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1860",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -42944,6 +43687,65 @@
     "id": "@Rmaria-martello@",
     "name": "Maria Martello",
     "slug": "maria-martello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfrancesco-nicotra-2@",
+  "slug": "francesco-nicotra-1852",
+  "name": "Francesco Nicotra",
+  "key": "Francesco Nicotra (b. 1852, of Rosario and Venera Morabito)",
+  "given": "Francesco",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1852,
+  "died": null,
+  "bornText": "29 February 1852",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "29 February 1852",
+    "year": 1852,
+    "place": "Giarre",
+    "text": "29 February 1852"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1852 atto 48 (Tavola)"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-nicotra-7@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1809",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-morabito@",
+    "name": "Venera Morabito",
+    "slug": "venera-morabito",
     "living": false,
     "via": "read"
    }
@@ -43386,18 +44188,18 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": 1835,
+  "born": 1834,
   "died": null,
-  "bornText": "c. 1835",
+  "bornText": "20 May 1834",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1835",
-    "year": 1835,
+    "date": "20 May 1834",
+    "year": 1834,
     "place": "Giarre",
-    "text": "c. 1835"
+    "text": "20 May 1834"
    }
   ],
   "birthPlace": "Giarre",
@@ -43406,7 +44208,8 @@
   "trade": "bracciale",
   "sources": [],
   "registerSources": [
-   "Macchia, Matrimoni 1866 act 9, read in the original"
+   "Macchia, Matrimoni 1866 act 9, read in the original",
+   "Macchia, Nati 1834 atto 62 (Tavola)"
   ],
   "registerNote": "A witness, domiciled and living at MILO, «figlio di fu SALVADORE e di GIUSEPPA STRANO, d'anni sessanta, domiciliata in borgata Milo». The fourth child known of Salvadore Nicotra and Giuseppa Strano, born the year the 1835 act shows Salvadore at 70. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
   "registerGen": "—",
@@ -43574,6 +44377,65 @@
   "ancGen": 9
  },
  {
+  "id": "@Rgiacomo-nicotra-2@",
+  "slug": "giacomo-nicotra-1863",
+  "name": "Giacomo Nicotra",
+  "key": "Giacomo Nicotra (b. 1863, of Salvadore and Venera Finocchiaro)",
+  "given": "Giacomo",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1863,
+  "died": null,
+  "bornText": "10 April 1863",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "10 April 1863",
+    "year": 1863,
+    "place": "Giarre",
+    "text": "10 April 1863"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1863 atto 81, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-13@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1827-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-finocchiaro@",
+    "name": "Venera Finocchiaro",
+    "slug": "venera-finocchiaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiacomo-nicotra@",
   "slug": "giacomo-nicotra",
   "name": "Giacomo Nicotra",
@@ -43654,8 +44516,81 @@
     "slug": "rosaria-nicotra-1837",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-nicotra-4@",
+    "name": "Giuseppa Nicotra",
+    "slug": "giuseppa-nicotra-1829",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippa-nicotra-2@",
+    "name": "Filippa Nicotra",
+    "slug": "filippa-nicotra-1833",
+    "living": false,
+    "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiovanna-nicotra@",
+  "slug": "giovanna-nicotra",
+  "name": "Giovanna Nicotra",
+  "key": "Giovanna Nicotra (b. 1850, of Rosario and Venera Morabito)",
+  "given": "Giovanna",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1850,
+  "died": null,
+  "bornText": "10 December 1850",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "10 December 1850",
+    "year": 1850,
+    "place": "Giarre",
+    "text": "10 December 1850"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1850 atto 159, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-nicotra-7@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1809",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-morabito@",
+    "name": "Venera Morabito",
+    "slug": "venera-morabito",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -43874,8 +44809,81 @@
     "slug": "giuseppa-nicotra-1851",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rsalvadore-nicotra-9@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1853",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcarmela-nicotra-3@",
+    "name": "Carmela Nicotra",
+    "slug": "carmela-nicotra-1857",
+    "living": false,
+    "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppa-nicotra-4@",
+  "slug": "giuseppa-nicotra-1829",
+  "name": "Giuseppa Nicotra",
+  "key": "Giuseppa Nicotra (b. 1829, of Giacomo and Angela Grasso)",
+  "given": "Giuseppa",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1829,
+  "died": null,
+  "bornText": "20 March 1829",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "20 March 1829",
+    "year": 1829,
+    "place": "Giarre",
+    "text": "20 March 1829"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1829 atto 42 (Tavola)"
+  ],
+  "registerNote": "Her parents married at Giarre in 1825. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiacomo-nicotra@",
+    "name": "Giacomo Nicotra",
+    "slug": "giacomo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-grasso@",
+    "name": "Angela Grasso",
+    "slug": "angela-grasso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -44021,16 +45029,16 @@
   "fromRegister": true,
   "born": 1851,
   "died": 1855,
-  "bornText": "c. 1851",
+  "bornText": "28 March 1851",
   "diedText": "13 January 1855",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1851",
+    "date": "28 March 1851",
     "year": 1851,
     "place": "Giarre",
-    "text": "c. 1851"
+    "text": "28 March 1851"
    },
    {
     "what": "died",
@@ -44047,7 +45055,8 @@
   "trade": "lattante",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1855 atto 3, read in the original"
+   "Macchia, Morti 1855 atto 3, read in the original",
+   "Macchia, Nati 1851 atto 62 (Tavola)"
   ],
   "registerNote": "Born at Milo; the act calls her a lattante at four, which is the clerk's printed profession column and not a reading of her age.",
   "registerGen": "—",
@@ -44207,6 +45216,20 @@
     "id": "@Rgaetano-nicotra-4@",
     "name": "Gaetano Nicotra",
     "slug": "gaetano-nicotra-1835",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-7@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rpalma-nicotra@",
+    "name": "Palma Nicotra",
+    "slug": "palma-nicotra",
     "living": false,
     "via": "read"
    }
@@ -44577,6 +45600,124 @@
   "ancGen": null
  },
  {
+  "id": "@Rgiuseppe-nicotra-7@",
+  "slug": "giuseppe-nicotra-1840",
+  "name": "Giuseppe Nicotra",
+  "key": "Giuseppe Nicotra (b. 1840, of Cirino and Rosa Russo)",
+  "given": "Giuseppe",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1840,
+  "died": null,
+  "bornText": "9 June 1840",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "9 June 1840",
+    "year": 1840,
+    "place": "Giarre",
+    "text": "9 June 1840"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1840 atto 68 (Tavola)"
+  ],
+  "registerNote": "Not seen again. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rcirino-nicotra@",
+    "name": "Cirino Nicotra",
+    "slug": "cirino-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-russo@",
+    "name": "Rosa Russo",
+    "slug": "rosa-russo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppe-nicotra-8@",
+  "slug": "giuseppe-nicotra-1860",
+  "name": "Giuseppe Nicotra",
+  "key": "Giuseppe Nicotra (b. 1860, of Giuseppe and Francesca Giomingo)",
+  "given": "Giuseppe",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1860,
+  "died": null,
+  "bornText": "30 April 1860",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "30 April 1860",
+    "year": 1860,
+    "place": "Giarre",
+    "text": "30 April 1860"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1860 atto 104, read in the original"
+  ],
+  "registerNote": "Named for his father; the older Giuseppe died in 1870. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-6@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1810",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesca-giomingo@",
+    "name": "Francesca Giomingo",
+    "slug": "francesca-giomingo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiuseppe-nicotra@",
   "slug": "giuseppe-nicotra",
   "name": "Giuseppe Nicotra",
@@ -44922,7 +46063,7 @@
   "key": "Giuseppe Nicotra (the old Milo bracciale d. 1870, son of Alfio and Lucia Bella)",
   "given": "Giuseppe",
   "surname": "Nicotra",
-  "sex": "",
+  "sex": "M",
   "living": false,
   "fromRegister": true,
   "born": 1810,
@@ -44974,7 +46115,88 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rnunzio-nicotra@",
+    "name": "Nunzio Nicotra",
+    "slug": "nunzio-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvadore-nicotra-11@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1858",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-8@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1860",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppe-nicotra-9@",
+  "slug": "giuseppe-nicotra-1840-2",
+  "name": "Giuseppe Nicotra",
+  "key": "Giuseppe Nicotra (the younger Milo bracciale, husband of Filippa Cavallaro)",
+  "given": "Giuseppe",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1840,
+  "died": null,
+  "bornText": "c. 1840",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1840",
+    "year": 1840,
+    "place": "Giarre",
+    "text": "c. 1840"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1863 atto 144 and 1865 atto 138, read in the original"
+  ],
+  "registerNote": "A bracciale of MILO, a generation younger than the Giuseppe who married Giomingo. His parents are not named; he may be a son of the older Giuseppe by his first marriage (1841) or of Filippo or Salvadore, which no act says. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Randrea-nicotra@",
+    "name": "Andrea Nicotra",
+    "slug": "andrea-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-nicotra-4@",
+    "name": "Rosa Nicotra",
+    "slug": "rosa-nicotra-1865",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -46404,6 +47626,124 @@
   "ancGen": null
  },
  {
+  "id": "@Rmaria-nicotra-7@",
+  "slug": "maria-nicotra-1828",
+  "name": "Maria Nicotra",
+  "key": "Maria Nicotra (b. 1828, of Salvadore and Giuseppa Strano)",
+  "given": "Maria",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1828,
+  "died": null,
+  "bornText": "18 August 1828",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "18 August 1828",
+    "year": 1828,
+    "place": "Giarre",
+    "text": "18 August 1828"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1828 atto 81 (Tavola)"
+  ],
+  "registerNote": "The second Maria of this household; the first died in 1822. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-2@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1784",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-strano@",
+    "name": "Giuseppa Strano",
+    "slug": "giuseppa-strano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rmaria-nicotra-8@",
+  "slug": "maria-nicotra-1864",
+  "name": "Maria Nicotra",
+  "key": "Maria Nicotra (b. 1864, of Salvadore and Venera Finocchiaro)",
+  "given": "Maria",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1864,
+  "died": null,
+  "bornText": "9 November 1864",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "9 November 1864",
+    "year": 1864,
+    "place": "Giarre",
+    "text": "9 November 1864"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1864 atto 183 (Tavola)"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-13@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1827-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-finocchiaro@",
+    "name": "Venera Finocchiaro",
+    "slug": "venera-finocchiaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rmaria-nicotra@",
   "slug": "maria-nicotra-1",
   "name": "Maria Nicotra",
@@ -46591,18 +47931,18 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1822,
   "died": 1822,
-  "bornText": "",
+  "bornText": "c. August 1822",
   "diedText": "1822",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "c. August 1822",
+    "year": 1822,
     "place": "Giarre",
-    "text": ""
+    "text": "c. August 1822"
    },
    {
     "what": "died",
@@ -46619,7 +47959,8 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1822 atto 52 (Tavola)"
+   "Macchia, Morti 1822 atto 52 (Tavola)",
+   "Macchia, Nati 1822 atto 77 (Tavola)"
   ],
   "registerNote": "READ FROM THE TAVOLA, NOT THE ACT: the annual index gives patria Giarre, the parents and the entry; the day and month were not secured. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map.",
   "registerGen": "—",
@@ -46658,18 +47999,18 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": 1842,
+  "born": 1843,
   "died": 1844,
-  "bornText": "c. 1842",
+  "bornText": "3 March 1843",
   "diedText": "9 December 1844",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1842",
-    "year": 1842,
+    "date": "3 March 1843",
+    "year": 1843,
     "place": "Giarre",
-    "text": "c. 1842"
+    "text": "3 March 1843"
    },
    {
     "what": "died",
@@ -46686,7 +48027,8 @@
   "trade": "lattante",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1844 atto 70, read in the original"
+   "Macchia, Morti 1844 atto 70, read in the original",
+   "Macchia, Nati 1843 atto 31, read in the original"
   ],
   "registerNote": "The third child of this couple to die. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map.",
   "registerGen": "—",
@@ -46727,16 +48069,16 @@
   "fromRegister": true,
   "born": 1824,
   "died": null,
-  "bornText": "c. 1824",
+  "bornText": "c. 28 June 1824",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1824",
+    "date": "c. 28 June 1824",
     "year": 1824,
     "place": "Giarre",
-    "text": "c. 1824"
+    "text": "c. 28 June 1824"
    }
   ],
   "birthPlace": "Giarre",
@@ -46745,7 +48087,8 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Macchia, Matrimoni 1858 atto 5, read in the original"
+   "Macchia, Matrimoni 1858 atto 5, read in the original",
+   "Macchia, Nati 1824 atto 71 (Tavola)"
   ],
   "registerNote": "Born at MILO; married SALVADORE SORBELLO, 32, born at Macchia, son of Alfio (70, bracciale) and Agata Sorbello; promise 31 January, church 8 February 1858. Her parents were then both living at Milo, Salvadore 60 and Anna Costa 60. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia, Milo and Sant'Alfio are not on the map.",
   "registerGen": "—",
@@ -46781,7 +48124,7 @@
   "key": "Maria Patti (wife of Giuseppe Nicotra, of Milo)",
   "given": "Maria",
   "surname": "Patti",
-  "sex": "F",
+  "sex": "",
   "living": false,
   "fromRegister": true,
   "born": null,
@@ -46806,19 +48149,11 @@
   "registerSources": [
    "Macchia, Morti 1851 atto 61, read in the original"
   ],
-  "registerNote": "Of Milo.",
+  "registerNote": "Of Milo. UPDATE: almost certainly the same woman as MARIA VASTI (second wife of Giuseppe Nicotra), whom the marriage act of 9 February 1851 and the birth Tavola of September 1851 both name: the death act of 26 September 1851 is the only place that writes Patti. Left as a separate row until an act is read again.",
   "registerGen": "—",
   "photos": [],
   "parents": [],
-  "children": [
-   {
-    "id": "@Rrosario-nicotra-3@",
-    "name": "Rosario Nicotra",
-    "slug": "rosario-nicotra-1851",
-    "living": false,
-    "via": "read"
-   }
-  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -46953,7 +48288,7 @@
   "key": "Maria Vasti (second wife of Giuseppe Nicotra, the Milo pecoraio)",
   "given": "Maria",
   "surname": "Vasti",
-  "sex": "",
+  "sex": "F",
   "living": false,
   "fromRegister": true,
   "born": 1814,
@@ -46990,7 +48325,22 @@
   "registerGen": "—",
   "photos": [],
   "parents": [],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rrosario-nicotra-3@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1851",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rnunzio-nicotra@",
+    "name": "Nunzio Nicotra",
+    "slug": "nunzio-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -47493,6 +48843,65 @@
   "ancGen": 7
  },
  {
+  "id": "@Rmauro-nicotra@",
+  "slug": "mauro-nicotra",
+  "name": "Mauro Nicotra",
+  "key": "Mauro Nicotra (b. 1845, of Cirino and Rosa Russo)",
+  "given": "Mauro",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1845,
+  "died": null,
+  "bornText": "27 July 1845",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "27 July 1845",
+    "year": 1845,
+    "place": "Giarre",
+    "text": "27 July 1845"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1845 atto 70, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rcirino-nicotra@",
+    "name": "Cirino Nicotra",
+    "slug": "cirino-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-russo@",
+    "name": "Rosa Russo",
+    "slug": "rosa-russo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rmichele-donato@",
   "slug": "michele-donato-1814",
   "name": "Michele Donato",
@@ -47539,6 +48948,65 @@
     "id": "@Rmarta-paladino@",
     "name": "Marta Paladino",
     "slug": "marta-paladino",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rnunzio-nicotra@",
+  "slug": "nunzio-nicotra",
+  "name": "Nunzio Nicotra",
+  "key": "Nunzio Nicotra (b. 1853, of Giuseppe and Maria Vasti)",
+  "given": "Nunzio",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1853,
+  "died": null,
+  "bornText": "24 March 1853",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "24 March 1853",
+    "year": 1853,
+    "place": "Giarre",
+    "text": "24 March 1853"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1853 atto 60, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-6@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1810",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-vasti@",
+    "name": "Maria Vasti",
+    "slug": "maria-vasti",
     "living": false,
     "via": "read"
    }
@@ -47649,6 +49117,65 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 8
+ },
+ {
+  "id": "@Rpalma-nicotra@",
+  "slug": "palma-nicotra",
+  "name": "Palma Nicotra",
+  "key": "Palma Nicotra (b. 1832, of Salvadore and Giuseppa Strano)",
+  "given": "Palma",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1832,
+  "died": null,
+  "bornText": "21 March 1832",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "21 March 1832",
+    "year": 1832,
+    "place": "Giarre",
+    "text": "21 March 1832"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1832 atto 23 (Tavola)"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-2@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1784",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-strano@",
+    "name": "Giuseppa Strano",
+    "slug": "giuseppa-strano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rpaola-previtera@",
@@ -48477,6 +50004,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rrosa-nicotra-4@",
+  "slug": "rosa-nicotra-1865",
+  "name": "Rosa Nicotra",
+  "key": "Rosa Nicotra (b. 1865, of Giuseppe and Filippa Cavallaro)",
+  "given": "Rosa",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1865,
+  "died": null,
+  "bornText": "25 August 1865",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "25 August 1865",
+    "year": 1865,
+    "place": "Giarre",
+    "text": "25 August 1865"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1865 atto 138, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-9@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1840-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippa-cavallaro@",
+    "name": "Filippa Cavallaro",
+    "slug": "filippa-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rrosa-nicotra@",
   "slug": "rosa-nicotra-1847",
   "name": "Rosa Nicotra",
@@ -48727,6 +50313,27 @@
     "slug": "maria-nicotra-1842",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-7@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1840",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmauro-nicotra@",
+    "name": "Mauro Nicotra",
+    "slug": "mauro-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvadore-nicotra-8@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1848",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -48841,9 +50448,11 @@
   "trade": "contadina",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1841 atto 25, read in the original"
+   "Macchia, Morti 1841 atto 25, read in the original",
+   "Macchia, Nati 1837 atto 93 (Tavola",
+   "the day is not secured)"
   ],
-  "registerNote": "Born and living at Milo. The Tavola gives the date as the 13th, which is the registration; she died on the 12th. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map.",
+  "registerNote": "Born and living at Milo. The Tavola gives the date as the 13th, which is the registration; she died on the 12th. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map.  Birth Tavola of 1837 lists a Rosario/Rosaria of this couple at atto 93, about August 1837; the death act of 1841 says four years, so one of the two is loose.",
   "registerGen": "—",
   "photos": [],
   "parents": [
@@ -48882,16 +50491,16 @@
   "fromRegister": true,
   "born": 1836,
   "died": 1836,
-  "bornText": "c. April 1836",
+  "bornText": "26 March 1836",
   "diedText": "9 July 1836",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. April 1836",
+    "date": "26 March 1836",
     "year": 1836,
     "place": "Giarre",
-    "text": "c. April 1836"
+    "text": "26 March 1836"
    },
    {
     "what": "died",
@@ -48908,7 +50517,8 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1836 atto 37, read in the original"
+   "Macchia, Morti 1836 atto 37, read in the original",
+   "Macchia, Nati 1836 atto 42 (Tavola)"
   ],
   "registerNote": "Three months old, born at Macchia. The Tavola numbers her entry 34; the act is 37.",
   "registerGen": "—",
@@ -48949,16 +50559,16 @@
   "fromRegister": true,
   "born": 1837,
   "died": 1838,
-  "bornText": "c. 1837",
+  "bornText": "c. September 1837",
   "diedText": "6 July 1838",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1837",
+    "date": "c. September 1837",
     "year": 1837,
     "place": "Giarre",
-    "text": "c. 1837"
+    "text": "c. September 1837"
    },
    {
     "what": "died",
@@ -48975,7 +50585,8 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1838 atto 37, read in the original"
+   "Macchia, Morti 1838 atto 37, read in the original",
+   "Macchia, Nati 1837 atto 101 (Tavola)"
   ],
   "registerNote": "The third Rosaria of this household. The Tavola numbers her 77; the act is 37.",
   "registerGen": "—",
@@ -49208,6 +50819,80 @@
   "ancGen": null
  },
  {
+  "id": "@Rrosario-nicotra-7@",
+  "slug": "rosario-nicotra-1809",
+  "name": "Rosario Nicotra",
+  "key": "Rosario Nicotra (the Milo bracciale, husband of Venera Morabito)",
+  "given": "Rosario",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1809,
+  "died": null,
+  "bornText": "c. 1809",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1809",
+    "year": 1809,
+    "place": "Giarre",
+    "text": "c. 1809"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1850 atto 159, 1855 atto 6 and 1857 atto 202, read in the original",
+   "Nati 1852 atto 48 (Tavola)"
+  ],
+  "registerNote": "A bracciale domiciled at MILO, who declared four children's births between 1850 and 1857. THE STRONG CANDIDATE FOR THE ROSARIO NICOTRA OF THE SIMONE LINE: the 1872 marriage papers of Giovanni Nicotra name his parents ROSARIO NICOTRA and VENERA MURABITO (a bracciante, living at Mascali), and this man's wife is VENERA MORABITO, 32 in 1850, 36 in 1855 and 40 in 1857; a Giovanni born about 1841 fits her age. AGAINST: the Rosario of the 1890 death act was «about ninety» (born about 1800), and his ages here run 42-48; and no Giovanni is in the Macchia birth registers of 1841 or 1847 (the 1872 certificate says Giarre). NOT CLAIMED AS THE SAME MAN; the test is the Giarre or Mascali record that links the two, and Rosario's own parents, which none of these acts names. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rgiovanna-nicotra@",
+    "name": "Giovanna Nicotra",
+    "slug": "giovanna-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-nicotra-2@",
+    "name": "Francesco Nicotra",
+    "slug": "francesco-nicotra-1852",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvadore-nicotra-10@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1855",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-nicotra-2@",
+    "name": "Angela Nicotra",
+    "slug": "angela-nicotra-1857",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rrosario-nicotra-3@",
   "slug": "rosario-nicotra-1851",
   "name": "Rosario Nicotra",
@@ -49219,16 +50904,16 @@
   "fromRegister": true,
   "born": 1851,
   "died": 1851,
-  "bornText": "c. 24 September 1851",
+  "bornText": "24 September 1851",
   "diedText": "26 September 1851",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 24 September 1851",
+    "date": "24 September 1851",
     "year": 1851,
     "place": "Giarre",
-    "text": "c. 24 September 1851"
+    "text": "24 September 1851"
    },
    {
     "what": "died",
@@ -49245,9 +50930,10 @@
   "trade": "lattante",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1851 atto 61, read in the original"
+   "Macchia, Morti 1851 atto 61, read in the original",
+   "Macchia, Nati 1851 atto 140 (Tavola)"
   ],
-  "registerNote": "Two days old, born at Milo. The Tavola writes the day as the 17th; the act is dated the 27th.",
+  "registerNote": "Two days old, born at Milo. The Tavola writes the day as the 17th; the act is dated the 27th. UPDATE: the birth Tavola and the marriage of February 1851 give his mother as MARIA VASTI; the death act's «Maria Patti» is almost certainly a misreading of Vasti, so he is attached to Maria Vasti's row, not to the Patti row.",
   "registerGen": "—",
   "photos": [],
   "parents": [
@@ -49259,9 +50945,9 @@
     "via": "read"
    },
    {
-    "id": "@Rmaria-patti@",
-    "name": "Maria Patti",
-    "slug": "maria-patti",
+    "id": "@Rmaria-vasti@",
+    "name": "Maria Vasti",
+    "slug": "maria-vasti",
     "living": false,
     "via": "read"
    }
@@ -49513,6 +51199,301 @@
   "ancGen": null
  },
  {
+  "id": "@Rsalvadore-nicotra-8@",
+  "slug": "salvadore-nicotra-1848",
+  "name": "Salvadore Nicotra",
+  "key": "Salvadore Nicotra (b. 1848, of Cirino and Rosa Russo)",
+  "given": "Salvadore",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1848,
+  "died": null,
+  "bornText": "3 August 1848",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "3 August 1848",
+    "year": 1848,
+    "place": "Giarre",
+    "text": "3 August 1848"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1848 atto 109, read in the original"
+  ],
+  "registerNote": "The second child of this couple named Salvadore: the first lived fifteen days in 1836. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rcirino-nicotra@",
+    "name": "Cirino Nicotra",
+    "slug": "cirino-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-russo@",
+    "name": "Rosa Russo",
+    "slug": "rosa-russo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsalvadore-nicotra-9@",
+  "slug": "salvadore-nicotra-1853",
+  "name": "Salvadore Nicotra",
+  "key": "Salvadore Nicotra (b. 1853, of Filippo and Giuseppa Nicolosi)",
+  "given": "Salvadore",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1853,
+  "died": null,
+  "bornText": "18 November 1853",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "18 November 1853",
+    "year": 1853,
+    "place": "Giarre",
+    "text": "18 November 1853"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1853 atto 162, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rfilippo-nicotra@",
+    "name": "Filippo Nicotra",
+    "slug": "filippo-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-nicolosi@",
+    "name": "Giuseppa Nicolosi",
+    "slug": "giuseppa-nicolosi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsalvadore-nicotra-10@",
+  "slug": "salvadore-nicotra-1855",
+  "name": "Salvadore Nicotra",
+  "key": "Salvadore Nicotra (b. 1855, of Rosario and Venera Morabito)",
+  "given": "Salvadore",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1855,
+  "died": null,
+  "bornText": "25 January 1855",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "25 January 1855",
+    "year": 1855,
+    "place": "Giarre",
+    "text": "25 January 1855"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1855 atto 6, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-nicotra-7@",
+    "name": "Rosario Nicotra",
+    "slug": "rosario-nicotra-1809",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-morabito@",
+    "name": "Venera Morabito",
+    "slug": "venera-morabito",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsalvadore-nicotra-11@",
+  "slug": "salvadore-nicotra-1858",
+  "name": "Salvadore Nicotra",
+  "key": "Salvadore Nicotra (b. 1858, of Giuseppe and Francesca Giomingo)",
+  "given": "Salvadore",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1858,
+  "died": null,
+  "bornText": "26 March 1858",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "26 March 1858",
+    "year": 1858,
+    "place": "Giarre",
+    "text": "26 March 1858"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1858 atto 56, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-6@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1810",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesca-giomingo@",
+    "name": "Francesca Giomingo",
+    "slug": "francesca-giomingo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsalvadore-nicotra-12@",
+  "slug": "salvadore-nicotra-1860",
+  "name": "Salvadore Nicotra",
+  "key": "Salvadore Nicotra (b. 1860, of Ferdinando and Concetta Pappalardo)",
+  "given": "Salvadore",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1860,
+  "died": null,
+  "bornText": "25 February 1860",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "25 February 1860",
+    "year": 1860,
+    "place": "Giarre",
+    "text": "25 February 1860"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1860 atto 54, read in the original"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rferdinando-nicotra@",
+    "name": "Ferdinando Nicotra",
+    "slug": "ferdinando-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-pappalardo@",
+    "name": "Concetta Pappalardo",
+    "slug": "concetta-pappalardo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rsalvadore-nicotra@",
   "slug": "salvadore-nicotra",
   "name": "Salvadore Nicotra",
@@ -49689,6 +51670,94 @@
     "slug": "gaetano-nicotra-1835",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-7@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rpalma-nicotra@",
+    "name": "Palma Nicotra",
+    "slug": "palma-nicotra",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsalvadore-nicotra-13@",
+  "slug": "salvadore-nicotra-1827-2",
+  "name": "Salvadore Nicotra",
+  "key": "Salvadore Nicotra (of Macchia, husband of Venera Finocchiaro)",
+  "given": "Salvadore",
+  "surname": "Nicotra",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1827,
+  "died": null,
+  "bornText": "c. 1827",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1827",
+    "year": 1827,
+    "place": "Giarre",
+    "text": "c. 1827"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "pecoraio",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1860 atto 159 and 1863 atto 81, read in the original",
+   "Nati 1858 atto 131 and 1864 atto 183 (Tavola)"
+  ],
+  "registerNote": "A man of MACCHIA, a pecoraio (the word is not secure), father of four children born 1858-64. A different Salvadore from the Salvadores of Strano and of Costa; NOT LINKED to either. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rangela-nicotra-3@",
+    "name": "Angela Nicotra",
+    "slug": "angela-nicotra-1858",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonina-nicotra@",
+    "name": "Antonina Nicotra",
+    "slug": "antonina-nicotra-1860",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiacomo-nicotra-2@",
+    "name": "Giacomo Nicotra",
+    "slug": "giacomo-nicotra-1863",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-8@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1864",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -49768,6 +51837,20 @@
     "id": "@Rmaria-nicotra-6@",
     "name": "Maria Nicotra",
     "slug": "maria-nicotra-1824",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanto-nicotra-2@",
+    "name": "Santo Nicotra",
+    "slug": "santo-nicotra-1837",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-nicotra-2@",
+    "name": "Concetta Nicotra",
+    "slug": "concetta-nicotra-1839",
     "living": false,
     "via": "read"
    }
@@ -49856,18 +51939,18 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1823,
   "died": 1824,
-  "bornText": "",
+  "bornText": "12 October 1823",
   "diedText": "14 February 1824",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "12 October 1823",
+    "year": 1823,
     "place": "Giarre",
-    "text": ""
+    "text": "12 October 1823"
    },
    {
     "what": "died",
@@ -49884,7 +51967,8 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1824 atto 7 (Tavola)"
+   "Macchia, Morti 1824 atto 7 (Tavola)",
+   "Macchia, Nati 1823 atto 96 (Tavola)"
   ],
   "registerNote": "READ FROM THE TAVOLA, NOT THE ACT. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map.",
   "registerGen": "—",
@@ -49951,7 +52035,8 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Macchia, Morti 1836 atto 22, read in the original"
+   "Macchia, Morti 1836 atto 22, read in the original",
+   "Macchia, Nati 1836 atto 54 (Tavola, 11 April 1836, the registration)"
   ],
   "registerNote": "Fifteen days old, born at Milo. MACCHIA, a comune beside Giarre later absorbed into it; the place is filed under Giarre because Macchia and its hamlets Milo and Dagala are not on the map.",
   "registerGen": "—",
@@ -50293,6 +52378,65 @@
   "registerGen": "8",
   "photos": [],
   "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsanto-nicotra-2@",
+  "slug": "santo-nicotra-1837",
+  "name": "Santo Nicotra",
+  "key": "Santo Nicotra (b. 1837, of Salvadore and Anna Costa)",
+  "given": "Santo",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1837,
+  "died": null,
+  "bornText": "c. 15 March 1837",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 15 March 1837",
+    "year": 1837,
+    "place": "Giarre",
+    "text": "c. 15 March 1837"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1837 atto 56 (Tavola)"
+  ],
+  "registerNote": "Not seen again, and no death found. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvadore-nicotra-3@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-costa@",
+    "name": "Anna Costa",
+    "slug": "anna-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [],
   "spouses": [],
   "siblings": [],
@@ -51039,6 +53183,152 @@
   "ancGen": null
  },
  {
+  "id": "@Rvenera-finocchiaro@",
+  "slug": "venera-finocchiaro",
+  "name": "Venera Finocchiaro",
+  "key": "Venera Finocchiaro (wife of Salvadore Nicotra, of Macchia)",
+  "given": "Venera",
+  "surname": "Finocchiaro",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1834,
+  "died": null,
+  "bornText": "c. 1834",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1834",
+    "year": 1834,
+    "place": "Giarre",
+    "text": "c. 1834"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1860 atto 159 and 1863 atto 81, read in the original"
+  ],
+  "registerNote": "Mother of Angela (1858), Antonina (1860), Giacomo (1863) and Maria (1864). MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rangela-nicotra-3@",
+    "name": "Angela Nicotra",
+    "slug": "angela-nicotra-1858",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonina-nicotra@",
+    "name": "Antonina Nicotra",
+    "slug": "antonina-nicotra-1860",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiacomo-nicotra-2@",
+    "name": "Giacomo Nicotra",
+    "slug": "giacomo-nicotra-1863",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-nicotra-8@",
+    "name": "Maria Nicotra",
+    "slug": "maria-nicotra-1864",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rvenera-morabito@",
+  "slug": "venera-morabito",
+  "name": "Venera Morabito",
+  "key": "Venera Morabito (wife of Rosario Nicotra, of Milo)",
+  "given": "Venera",
+  "surname": "Morabito",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1818,
+  "died": null,
+  "bornText": "c. 1818",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1818",
+    "year": 1818,
+    "place": "Giarre",
+    "text": "c. 1818"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1850 atto 159, 1855 atto 6 and 1857 atto 202, read in the original"
+  ],
+  "registerNote": "Written MORABITO at Macchia and MURABITO in the 1872 and 1890 acts; wife of Rosario Nicotra at Milo, mother of at least four children born 1850-57. The Venera Murabito of the 1872 papers is a bracciante living at Mascali. MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rgiovanna-nicotra@",
+    "name": "Giovanna Nicotra",
+    "slug": "giovanna-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-nicotra-2@",
+    "name": "Francesco Nicotra",
+    "slug": "francesco-nicotra-1852",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvadore-nicotra-10@",
+    "name": "Salvadore Nicotra",
+    "slug": "salvadore-nicotra-1855",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-nicotra-2@",
+    "name": "Angela Nicotra",
+    "slug": "angela-nicotra-1857",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rvenera-murabito@",
   "slug": "venera-murabito",
   "name": "Venera Murabito",
@@ -51288,6 +53578,65 @@
     "id": "@Rlucia-bella@",
     "name": "Lucia Bella",
     "slug": "lucia-bella",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rvito-nicotra@",
+  "slug": "vito-nicotra",
+  "name": "Vito Nicotra",
+  "key": "Vito Nicotra (b. 1856, of Ferdinando and Concetta Pappalardo)",
+  "given": "Vito",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1856,
+  "died": null,
+  "bornText": "4 March 1856",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "4 March 1856",
+    "year": 1856,
+    "place": "Giarre",
+    "text": "4 March 1856"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Macchia, Nati 1856 atto 35 (Tavola)"
+  ],
+  "registerNote": "MACCHIA, a comune beside Giarre later absorbed into it; filed under Giarre because Macchia and Milo are not on the map.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rferdinando-nicotra@",
+    "name": "Ferdinando Nicotra",
+    "slug": "ferdinando-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-pappalardo@",
+    "name": "Concetta Pappalardo",
+    "slug": "concetta-pappalardo",
     "living": false,
     "via": "read"
    }

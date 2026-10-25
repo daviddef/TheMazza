@@ -28,6 +28,11 @@ const MMARR = (nic.byComuneSeries["Macchia"] || {})["Matrimoni"] || [];
 const marRead = MMARR.filter((r) => r.entries !== "\u2014" && r.entries !== "absent");
 const marAbsent = MMARR.filter((r) => r.entries === "absent").length;
 const marPartly = MMARR.filter((r) => r.entries === "\u2014").length;
+/* MACCHIA'S BIRTHS, counted the same way. */
+const MNATI = (nic.byComuneSeries["Macchia"] || {})["Nati"] || [];
+const natRead = MNATI.filter((r) => r.entries !== "\u2014" && r.entries !== "absent");
+const natUnread = MNATI.filter((r) => r.entries === "\u2014").map((r) => r.year);
+const natWith = MNATI.filter((r) => ["one","two","three","four","five"].includes(r.entries));
 const marWith = MMARR.filter((r) => ["one","two","three","four","five"].includes(r.entries));
 const mWith = MDEATHS.filter((r) => ["one","two","three","four","five","six","seven"].includes(r.entries));
 const mSpan = mRead.length
@@ -246,7 +251,7 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
     <p class="note" style="margin-top:12px"><strong>Macchia is a comune this archive holds and has
     only begun to open.</strong> Those {MACCHIA_N} registers are counted to Macchia and no longer to Giarre, which is
     the correct attribution and also means they have had no page of their own until their deaths were swept, below. <strong>{mRead.length} Macchia <em>Morti</em> years, {mSpan}, are now read</strong>
-    — see the section below. Everything else Macchia holds (its births and marriages, and its deaths
+    — see the section below. Everything else Macchia holds (its births after 1865, its marriages after 1867 and its deaths
     after 1875) is unexplored, and the count of {MACCHIA_N} is a count of rows this archive holds rather than a
     listing verified against the archive's own catalogue, which is why its coverage status stays open.</p>
     <p class="note" style="margin-top:12px"><strong>What it cost.</strong> Giarre's own
@@ -299,6 +304,35 @@ const HOUSE = (nic.housesByComune["Giarre"] || [])[0] || {};
         <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
         <tbody>
           {MMARR.map((r) => (
+            <tr>
+              <td class="m"><strong>{r.year}</strong></td>
+              <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
+              <td class="small">{r.note}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="blk">
+    <h2>Macchia's births, swept for a Nicotra</h2>
+    <p class="dek" style="margin:.7rem 0 1.2rem">A birth Tavola names both parents, so it can place a
+    household in a year. <strong>{natRead.length} years, {natRead.length ? `${natRead[0].year}\u2013${natRead[natRead.length - 1].year}` : "\u2014"}, are read</strong>
+    at the N section ({natWith.length} hold a Nicotra) and, for Marianna Daidone, the D section;
+    {natUnread.length} years have no Tavola and were not read ({natUnread.join(", ")}). <strong>No Daidone, and no
+    child of Simone and Marianna,</strong> appears. What the births do is name the Milo households year by year —
+    the Salvadore × Strano and Salvadore × Costa families, Cirino × Rosa Russo, Giacomo × Grasso, Filippo, and three
+    households not seen before (Ferdinando × Pappalardo, Salvadore × Finocchiaro, a younger Giuseppe × Cavallaro). One
+    household is worth a separate look: <strong>Rosario Nicotra and Venera Morabito of Milo</strong>, whose four
+    children were born between 1850 and 1857. The 1872 marriage papers of Giovanni Nicotra name his parents as Rosario
+    Nicotra and Venera Murabito. It is a candidate and not an identification: Rosario&rsquo;s ages here do not match
+    the &laquo;about ninety&raquo; of his 1890 death act, and Giovanni himself is not in these registers.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th class="m">Year</th><th class="m">N entries</th><th>What is there</th></tr></thead>
+        <tbody>
+          {MNATI.map((r) => (
             <tr>
               <td class="m"><strong>{r.year}</strong></td>
               <td class="m small">{r.entries === "absent" ? <em style="color:var(--terra)">no volume</em> : r.entries === "\u2014" ? <em>unread</em> : r.entries}</td>
