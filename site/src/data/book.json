@@ -5,6 +5,7 @@
     "intro": "How to read this book, and the rules it keeps.",
     "chapters": [
       { "path": "/", "title": "The cover", "blurb": "Three towns, one strait, and a suburb of Brisbane." },
+      { "path": "/story/", "title": "The story", "blurb": "Start here: the Mazza name line told once as a short book, from a day-labourer at the foot of Etna to Brisbane, with every paragraph marked for how well it is known." },
       { "path": "/about/", "title": "About", "blurb": "Every claim carries one of five words, every correction is published, and living people are named with their relationships and place, and nothing more." },
       { "path": "/method/", "title": "Method", "blurb": "Which claims are documents, which are inferences, and which are things the family remembers: the rules." }
     ]
