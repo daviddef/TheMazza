@@ -82,7 +82,7 @@
     "check:familyribbon": "python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilyribbon.py --families src/data/family-lines.json --direct src/data/direct-line.json --story src/data/story.json --dist ${ARCHIVE_OUT:-dist} --lines src/data/lines.json && python3 node_modules/@daviddef/archive-kit/kit/tools/checkfamilyribbon.py --selftest"
   },
   "dependencies": {
-    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#d88b11e914e433d9d2c6bd750b8d8e707d1a0b65",
+    "@daviddef/archive-kit": "github:daviddef/TheArchiveKit#1fa6b54e9168e271c6fff24bf5b8f32b73f92e20",
     "astro": "^5.18.2"
   },
   "devDependencies": {
