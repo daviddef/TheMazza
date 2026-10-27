@@ -8,6 +8,7 @@ import focus from "../data/focus.json";
 import additions from "../data/additions.json";
 import nameEvidence from "../data/name-evidence.json";
 import { words } from "../lib/words.js";
+import FamilyLine from "../components/FamilyLine.astro";
 const A = focus.Arena;
 const g = A.groups[0];
 const rest = A.groups.slice(1);
@@ -49,6 +50,8 @@ const line = [
 ---
 <Base title="The Arena" eyebrow={`${A.total} in the tree, and ${arenaAdds.length} the registers add`}
       dek="The Arena of Scilla were sailors for at least four generations. The family tree has two of those generations and the wrong father at the top of them — the registers have the rest.">
+
+  <FamilyLine family="arena" />
 
   <section class="blk">
     <div class="grid g3">

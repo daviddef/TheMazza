@@ -1,0 +1,940 @@
+{
+ "_note": "Made by tools/build_family_lines.py from people.json, quarters.json, lines.json, walls.json, the story and direct-line.json; do not edit by hand. The contract is kit/docs/family-ribbon.md.",
+ "families": [
+  {
+   "id": "arena",
+   "title": "Arena",
+   "page": "/arena/",
+   "status": "documented",
+   "statusNote": "the oldest generation drawn is itself on a document",
+   "span": [
+    1830,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Filippo Arena",
+     "years": "d. before 1830",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Santa Ungaro",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "filippo-arena-1830",
+     "title": "Filippo Arena: born Scilla; died before 12 July 1830",
+     "spousePerson": "santa-ungaro"
+    },
+    {
+     "name": "Orazio Arena",
+     "years": "c. 1751 – 1830",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Litteria Morabito",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "orazio-arena-1751",
+     "title": "Orazio Arena: born Scilla c. 1751; died 12 July 1830",
+     "spousePerson": "litteria-morabito"
+    },
+    {
+     "name": "Filippo Arena",
+     "years": "b. 1793",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Domenica Costa",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "filippo-arena",
+     "title": "Filippo Arena: born Scilla 25 March 1793",
+     "spousePerson": "domenica-costa"
+    },
+    {
+     "name": "Francesco Antonio Arena",
+     "years": "1819–1901",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Serafina Arlotta",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "francesco-antonio-arena",
+     "title": "Francesco Antonio Arena: born Scilla 25 November 1819; died 29 August 1901",
+     "spousePerson": "serafina-arlotta"
+    },
+    {
+     "name": "Giovanni Arena",
+     "years": "b. 1870",
+     "origin": "Scilla",
+     "originGrade": "lore",
+     "spouse": "Concetta Russo",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giovanni-arena",
+     "title": "Giovanni Arena: born Scilla 1870",
+     "spousePerson": "concetta-russo"
+    },
+    {
+     "name": "Giuseppe Arena",
+     "years": "1892–1984",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Anna Arena",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giuseppe-arena",
+     "title": "Giuseppe Arena: born Scilla 1892; died Scilla 1984",
+     "spousePerson": "anna-arena"
+    },
+    {
+     "name": "Rocco Arena",
+     "years": "1924–1999",
+     "origin": "Scilla",
+     "originGrade": "lore",
+     "spouse": "Angela Polistena",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "Brisbane",
+     "atYear": "1999",
+     "living": false,
+     "person": "rocco-arena-1924",
+     "title": "Rocco Arena: born Scilla 1924; died Brisbane 1999",
+     "spousePerson": "angela-polistena"
+    }
+   ],
+   "notConnected": {
+    "why": "The Arena meet the Mazza name line only in its living generations, which a family page does not name."
+   }
+  },
+  {
+   "id": "nicotra",
+   "title": "Nicotra",
+   "page": "/nicotra/",
+   "status": "documented",
+   "statusNote": "the oldest generation drawn is itself on a document",
+   "span": [
+    1890,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Simone Nicotra",
+     "years": "d. before 1890",
+     "origin": "Giarre",
+     "originGrade": "doc",
+     "spouse": "Marianna Musumeci",
+     "spouseOrigin": "of Giarre",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "simone-nicotra",
+     "title": "Simone Nicotra: born Giarre; died before 4 April 1890",
+     "spousePerson": "marianna-musumeci"
+    },
+    {
+     "name": "Rosario Nicotra",
+     "years": "c. 1800 – 1890",
+     "origin": "Giarre",
+     "originGrade": "doc",
+     "spouse": "Venera Murabito",
+     "spouseOrigin": "of Mascali",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "rosario-nicotra-1872",
+     "title": "Rosario Nicotra: born Giarre c. 1800; died 4 April 1890",
+     "spousePerson": "venera-murabito"
+    },
+    {
+     "name": "John Nicotra",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "lore",
+     "spouse": "Venera Cassaneti",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "john-nicotra",
+     "title": "John Nicotra: no date and no place in the archive",
+     "spousePerson": "venera-cassaneti"
+    },
+    {
+     "name": "Maria Nicotra",
+     "years": "1875–1963",
+     "origin": "Mascali",
+     "originGrade": "doc",
+     "spouse": "Salvatore Mazza",
+     "spouseOrigin": "of Piedimonte Etneo",
+     "atPlace": "Brisbane",
+     "atYear": "1963",
+     "living": false,
+     "person": "maria-nicotra",
+     "title": "Maria Nicotra: born Piedimonte Etneo 1875; died Brisbane 1963",
+     "spousePerson": "salvatore-mazza"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "salvatore-mazza",
+     "ourGeneration": 3,
+     "ourName": "Salvatore Mazza",
+     "theirSlug": "maria-nicotra",
+     "theirName": "Maria Nicotra",
+     "theirOrigin": "of Mascali",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#salvatore",
+     "note": "Married 25 April 1898 in the parish of Piedimonte Etneo"
+    },
+    {
+     "ourSlug": "sebastiano-mazza",
+     "ourGeneration": 4,
+     "ourName": "Sebastiano Mazza",
+     "theirSlug": "maria-nicotra",
+     "theirName": "Maria Nicotra",
+     "theirOrigin": "of Mascali",
+     "relation": "son of",
+     "grade": "inf",
+     "storyHref": "/story/#sebastiano",
+     "note": "An index names Maria Nicotra as his mother."
+    }
+   ]
+  },
+  {
+   "id": "prostamo",
+   "title": "Prostamo",
+   "page": "/prostamo/",
+   "status": "inferred",
+   "statusNote": "2 generations above the oldest documented person are on the family's tree alone",
+   "span": [
+    1760,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Franco Antonino Prostamo",
+     "years": "b. 1697",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Agnere Polito",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "franco-antonino-prostamo",
+     "title": "Franco Antonino Prostamo: born Briatico 1697",
+     "spousePerson": "agnere-polito"
+    },
+    {
+     "name": "Antonino Prostamo",
+     "years": "b. 1726",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Caterina Scangiaterra",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "antonino-prostamo",
+     "title": "Antonino Prostamo: born Briatico 1726",
+     "spousePerson": "caterina-scangiaterra"
+    },
+    {
+     "name": "Pasquale Prostamo",
+     "years": "1760–1829",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Caterina Di Meio",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "Pizzo",
+     "atYear": "1829",
+     "living": false,
+     "person": "pasquale-prostamo",
+     "title": "Pasquale Prostamo: born Briatico 1760; died Pizzo 1829",
+     "spousePerson": "caterina-di-meio"
+    },
+    {
+     "name": "Antonino Prostamo",
+     "years": "b. 1785",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Maria Fragala",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "antonino-prostamo-1785",
+     "title": "Antonino Prostamo: born Briatico 1785",
+     "spousePerson": "maria-fragala"
+    },
+    {
+     "name": "Domenico Prostamo",
+     "years": "b. 1820",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Giovanna Ventrice",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "domenico-prostamo-1820",
+     "title": "Domenico Prostamo: born Briatico 1820",
+     "spousePerson": "giovanna-ventrice"
+    },
+    {
+     "name": "Alfonso Prostamo",
+     "years": "b. 1858",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Caterina Melluso",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "alfonso-prostamo",
+     "title": "Alfonso Prostamo: born Briatico 1858",
+     "spousePerson": "caterina-melluso"
+    },
+    {
+     "name": "Francessco Prostamo",
+     "years": "1900–1983",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Maria Rosa Melluso",
+     "spouseOrigin": "of New York",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "francessco-prostamo",
+     "title": "Francessco Prostamo: born Briatico 1900; died Briatico 1983",
+     "spousePerson": "maria-rosa-melluso-1907"
+    },
+    {
+     "name": "Domenica Prostamo",
+     "years": "1928–2010",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Sebastiano Mazza",
+     "spouseOrigin": "of Piedimonte Etneo",
+     "atPlace": "Brisbane",
+     "atYear": "2010",
+     "living": false,
+     "person": "domenica-prostamo",
+     "title": "Domenica Prostamo: born Briatico 1928; died Brisbane 2010",
+     "spousePerson": "sebastiano-mazza"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "sebastiano-mazza",
+     "ourGeneration": 4,
+     "ourName": "Sebastiano Mazza",
+     "theirSlug": "domenica-prostamo",
+     "theirName": "Domenica Prostamo",
+     "theirOrigin": "of Briatico",
+     "relation": "married",
+     "grade": "doc",
+     "storyHref": "/story/#sebastiano",
+     "note": "Naturalisation file: NAA: J25, 1971/1074 — «Mazza, Sebastiano; wife Domenica [nee Prostamo]», 1950-1971"
+    }
+   ]
+  },
+  {
+   "id": "polistena",
+   "title": "Polistena",
+   "page": "/polistena/",
+   "status": "documented",
+   "statusNote": "the oldest generation drawn is itself on a document",
+   "span": [
+    1883,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Antonio Polistena",
+     "years": "",
+     "origin": "Scilla",
+     "originGrade": "lore",
+     "spouse": "Giovanna Pontillo",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "antonio-polistena-2",
+     "title": "Antonio Polistena: born Scilla",
+     "spousePerson": "giovanna-pontillo"
+    },
+    {
+     "name": "Giovanni Polistena",
+     "years": "b. 1883",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Nunnziata Donato",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giovanni-polistena",
+     "title": "Giovanni Polistena: born Scilla 1883",
+     "spousePerson": "nunnziata-donato"
+    },
+    {
+     "name": "Angela Polistena",
+     "years": "1925–2018",
+     "origin": "Scilla",
+     "originGrade": "lore",
+     "spouse": "Rocco Arena",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "Brisbane",
+     "atYear": "2018",
+     "living": false,
+     "person": "angela-polistena",
+     "title": "Angela Polistena: born Scilla 1925; died Brisbane 2018",
+     "spousePerson": "rocco-arena-1924"
+    }
+   ],
+   "notConnected": {
+    "why": "The Polistena meet the Mazza name line only in its living generations, which a family page does not name."
+   }
+  },
+  {
+   "id": "donato",
+   "title": "Donato",
+   "page": "/donato/",
+   "status": "origin-unknown",
+   "statusNote": "the registers stop at Candeloro Donato",
+   "span": [
+    1783,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Candeloro Donato",
+     "years": "b. c. 1783",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Marta Paladino",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "candeloro-donato",
+     "title": "Candeloro Donato: born Scilla c. 1783; alive at Scilla, July 1844",
+     "spousePerson": "marta-paladino"
+    },
+    {
+     "name": "Domenico Donato",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "lore",
+     "spouse": "Annunziata Sofi",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "domenico-donato-2",
+     "title": "Domenico Donato: no date and no place in the archive",
+     "spousePerson": "annunziata-sofi"
+    },
+    {
+     "name": "Michele Donato",
+     "years": "b. 1851",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Maria Sofi",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "michele-donato",
+     "title": "Michele Donato: born Scilla 1851",
+     "spousePerson": "maria-sofi"
+    },
+    {
+     "name": "Nunnziata Donato",
+     "years": "b. 1892",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Giovanni Polistena",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "nunnziata-donato",
+     "title": "Nunnziata Donato: born Scilla 1892",
+     "spousePerson": "giovanni-polistena"
+    }
+   ],
+   "notConnected": {
+    "why": "No Donato married a man of the Mazza name line or was a parent of one or of his wife: the Donato come into the children's descent through Angela Polistena, whose side meets that line only in its living generations. Nunnziata Donato is the mother of Angela Polistena."
+   }
+  },
+  {
+   "id": "melluso",
+   "title": "Melluso",
+   "page": "/melluso/",
+   "status": "family-lore",
+   "statusNote": "every generation drawn here rests on the family's tree",
+   "cards": [
+    {
+     "name": "Fillipo Melluso",
+     "years": "b. 1855",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Rosa Vitrale",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "fillipo-melluso",
+     "title": "Fillipo Melluso: born Briatico 1855",
+     "spousePerson": "rosa-vitrale"
+    },
+    {
+     "name": "Domenico Melluso",
+     "years": "1875–1919",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Domenica Anile",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "domenico-melluso",
+     "title": "Domenico Melluso: born Briatico 1875; died Briatico 1919",
+     "spousePerson": "domenica-anile"
+    },
+    {
+     "name": "Maria Rosa Melluso",
+     "years": "1907–1994",
+     "origin": "New York",
+     "originGrade": "lore",
+     "spouse": "Francessco Prostamo",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "Briatico",
+     "atYear": "1994",
+     "living": false,
+     "person": "maria-rosa-melluso-1907",
+     "title": "Maria Rosa Melluso: born New York 1907; died Briatico 1994",
+     "spousePerson": "francessco-prostamo"
+    }
+   ],
+   "connections": [
+    {
+     "ourSlug": "sebastiano-mazza",
+     "ourGeneration": 4,
+     "ourName": "Sebastiano Mazza",
+     "theirSlug": "domenica-prostamo",
+     "theirName": "Domenica Prostamo",
+     "theirOrigin": "daughter of Maria Rosa Melluso",
+     "relation": "married",
+     "grade": "lore",
+     "storyHref": "/story/#sebastiano",
+     "note": "By the family's tree, Maria Rosa Melluso is her mother. The marriage: naturalisation file: NAA: J25, 1971/1074 — «Mazza, Sebastiano; wife Domenica [nee Prostamo]», 1950-1971"
+    }
+   ]
+  },
+  {
+   "id": "anile",
+   "title": "Anile",
+   "page": "/anile/",
+   "status": "inferred",
+   "statusNote": "3 generations above the oldest documented person are on the family's tree alone",
+   "span": [
+    1880,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Fortunato Anile",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "lore",
+     "spouse": "Antonia Grasso",
+     "spouseOrigin": "of Mandaradoni (Briatico)",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "fortunato-anile-2",
+     "title": "Fortunato Anile: no date and no place in the archive",
+     "spousePerson": "antonia-grasso"
+    },
+    {
+     "name": "Antonio Anile",
+     "years": "",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Carmela Collia",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "antonio-anile-3",
+     "title": "Antonio Anile: born Briatico",
+     "spousePerson": "carmela-collia"
+    },
+    {
+     "name": "Francesco Anile",
+     "years": "b. 1843",
+     "origin": "Potenzoni (Briatico)",
+     "originGrade": "lore",
+     "spouse": "Saveria Barbuto",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "francesco-anile",
+     "title": "Francesco Anile: born Potenzoni (Briatico) 1843",
+     "spousePerson": "saveria-barbuto"
+    },
+    {
+     "name": "Domenica Anile",
+     "years": "1880–1970",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Domenico Melluso",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "domenica-anile",
+     "title": "Domenica Anile: born Briatico 1880; died Briatico 1970",
+     "spousePerson": "domenico-melluso"
+    }
+   ],
+   "notConnected": {
+    "why": "No Anile married a man of the Mazza name line or was a parent of one or of his wife: the Anile come into the children's descent further back. Domenica Anile is the mother of Maria Rosa Melluso, the mother of Domenica Prostamo. Domenica Prostamo married Sebastiano Mazza."
+   }
+  },
+  {
+   "id": "costa",
+   "title": "Costa",
+   "page": "/costa/",
+   "status": "documented",
+   "statusNote": "the oldest generation drawn is itself on a document",
+   "span": [
+    1790,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Giuseppe Costa",
+     "years": "d. before 1790",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Giacoma Turco",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giuseppe-costa",
+     "title": "Giuseppe Costa: born Scilla; died before 29 March 1790",
+     "spousePerson": "giacoma-turco"
+    },
+    {
+     "name": "Giovanni Costa",
+     "years": "c. 1750 – 1790",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Marta Alfonzetti",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giovanni-costa",
+     "title": "Giovanni Costa: born Scilla c. 1750; died 29 March 1790",
+     "spousePerson": "marta-alfonzetti"
+    },
+    {
+     "name": "Domenica Costa",
+     "years": "b. 1787",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Filippo Arena",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "domenica-costa",
+     "title": "Domenica Costa: born Scilla 16 June 1787",
+     "spousePerson": "filippo-arena"
+    }
+   ],
+   "notConnected": {
+    "why": "No Costa married a man of the Mazza name line or was a parent of one or of his wife: the Costa come into the children's descent through Rocco Arena, whose side meets that line only in its living generations. Domenica Costa is the mother of Francesco Antonio Arena, the father of Giovanni Arena, the father of Giuseppe Arena, the father of Rocco Arena."
+   }
+  },
+  {
+   "id": "arlotta",
+   "title": "Arlotta",
+   "page": "/arlotta/",
+   "status": "documented",
+   "statusNote": "the oldest generation drawn is itself on a document",
+   "span": [
+    1779,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Domenico Arlotta",
+     "years": "before 1779 – before 1828",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Anna Barbaro",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "domenico-arlotta",
+     "title": "Domenico Arlotta: born Scilla before 1779; died before 30 August 1828",
+     "spousePerson": "anna-barbaro"
+    },
+    {
+     "name": "Giovanni Arlotta",
+     "years": "b. c. 1800",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Maria Costa",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giovanni-arlotta",
+     "title": "Giovanni Arlotta: born Scilla c. 1800",
+     "spousePerson": "maria-costa"
+    },
+    {
+     "name": "Serafina Arlotta",
+     "years": "1830–1908",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Francesco Antonio Arena",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "serafina-arlotta",
+     "title": "Serafina Arlotta: born Scilla 13 June 1830; died 24 April 1908",
+     "spousePerson": "francesco-antonio-arena"
+    }
+   ],
+   "notConnected": {
+    "why": "No Arlotta married a man of the Mazza name line or was a parent of one or of his wife: the Arlotta come into the children's descent through Rocco Arena, whose side meets that line only in its living generations. Serafina Arlotta is the mother of Giovanni Arena, the father of Giuseppe Arena, the father of Rocco Arena."
+   }
+  },
+  {
+   "id": "pontillo",
+   "title": "Pontillo",
+   "page": "/pontillo/",
+   "status": "inferred",
+   "statusNote": "1 generation above the oldest documented person is on the family's tree alone",
+   "cards": [
+    {
+     "name": "Giuseppi Pontillo",
+     "years": "",
+     "origin": "Scilla",
+     "originGrade": "lore",
+     "spouse": "Nunziatta Pontillo",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giuseppi-pontillo",
+     "title": "Giuseppi Pontillo: born Scilla",
+     "spousePerson": "nunziatta-pontillo"
+    },
+    {
+     "name": "Giovanna Pontillo",
+     "years": "",
+     "origin": "Scilla",
+     "originGrade": "lore",
+     "spouse": "Antonio Polistena",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giovanna-pontillo",
+     "title": "Giovanna Pontillo: born Scilla",
+     "spousePerson": "antonio-polistena-2"
+    }
+   ],
+   "notConnected": {
+    "why": "No Pontillo married a man of the Mazza name line or was a parent of one or of his wife: the Pontillo come into the children's descent through Angela Polistena, whose side meets that line only in its living generations. Giovanna Pontillo is the mother of Giovanni Polistena, the father of Angela Polistena."
+   }
+  },
+  {
+   "id": "ventrice",
+   "title": "Ventrice",
+   "page": "/ventrice/",
+   "status": "family-lore",
+   "statusNote": "every generation drawn here rests on the family's tree",
+   "cards": [
+    {
+     "name": "Giovanna Ventrice",
+     "years": "b. 1825",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Domenico Prostamo",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giovanna-ventrice",
+     "title": "Giovanna Ventrice: born Briatico 1825",
+     "spousePerson": "domenico-prostamo-1820"
+    }
+   ],
+   "notConnected": {
+    "why": "No Ventrice married a man of the Mazza name line or was a parent of one or of his wife: the Ventrice come into the children's descent further back. Giovanna Ventrice is the mother of Alfonso Prostamo, the father of Francessco Prostamo, the father of Domenica Prostamo. Domenica Prostamo married Sebastiano Mazza."
+   }
+  },
+  {
+   "id": "sofi",
+   "title": "Sofi",
+   "page": "/sofi/",
+   "status": "documented",
+   "statusNote": "the oldest generation drawn is itself on a document",
+   "span": [
+    1780,
+    null
+   ],
+   "cards": [
+    {
+     "name": "Pasquale Sofi",
+     "years": "b. c. 1780",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Maria de Amico",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "pasquale-sofi",
+     "title": "Pasquale Sofi: born Scilla c. 1780; alive at Scilla, July 1844",
+     "spousePerson": "maria-de-amico"
+    },
+    {
+     "name": "Annunziata Sofi",
+     "years": "",
+     "origin": "place not known",
+     "originGrade": "lore",
+     "spouse": "Domenico Donato",
+     "spouseOrigin": "place not known",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "annunziata-sofi",
+     "title": "Annunziata Sofi: no date and no place in the archive",
+     "spousePerson": "domenico-donato-2"
+    }
+   ],
+   "notConnected": {
+    "why": "No Sofi married a man of the Mazza name line or was a parent of one or of his wife: the Sofi come into the children's descent through Angela Polistena, whose side meets that line only in its living generations. Annunziata Sofi is the mother of Michele Donato, the father of Nunnziata Donato, the mother of Angela Polistena."
+   }
+  },
+  {
+   "id": "barbuto",
+   "title": "Barbuto",
+   "page": "/barbuto/",
+   "status": "family-lore",
+   "statusNote": "every generation drawn here rests on the family's tree",
+   "cards": [
+    {
+     "name": "Giuseppe Barbuto",
+     "years": "",
+     "origin": "Potenzioni",
+     "originGrade": "lore",
+     "spouse": "Saveria Lesto",
+     "spouseOrigin": "of Potenzoni (Briatico)",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "giuseppe-barbuto",
+     "title": "Giuseppe Barbuto: born Potenzioni",
+     "spousePerson": "saveria-lesto"
+    },
+    {
+     "name": "Antonio Barbuto",
+     "years": "1806–1876",
+     "origin": "Potenzoni (Briatico)",
+     "originGrade": "lore",
+     "spouse": "Domenica Birroca",
+     "spouseOrigin": "of Briatico",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "antonio-barbuto",
+     "title": "Antonio Barbuto: born Potenzoni (Briatico) 1806; died Potenzoni (Briatico) 1876",
+     "spousePerson": "domenica-birroca"
+    },
+    {
+     "name": "Saveria Barbuto",
+     "years": "1845–1892",
+     "origin": "Briatico",
+     "originGrade": "lore",
+     "spouse": "Francesco Anile",
+     "spouseOrigin": "of Potenzoni (Briatico)",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "saveria-barbuto",
+     "title": "Saveria Barbuto: born Briatico 1845; died Briatico 1892",
+     "spousePerson": "francesco-anile"
+    }
+   ],
+   "notConnected": {
+    "why": "No Barbuto married a man of the Mazza name line or was a parent of one or of his wife: the Barbuto come into the children's descent further back. Saveria Barbuto is the mother of Domenica Anile, the mother of Maria Rosa Melluso, the mother of Domenica Prostamo. Domenica Prostamo married Sebastiano Mazza."
+   }
+  },
+  {
+   "id": "russo",
+   "title": "Russo",
+   "page": "/russo/",
+   "status": "documented",
+   "statusNote": "the oldest generation drawn is itself on a document",
+   "cards": [
+    {
+     "name": "Leonardo Russo",
+     "years": "",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Angela Bagnato",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "leonardo-russo",
+     "title": "Leonardo Russo: born Scilla",
+     "spousePerson": "angela-bagnato"
+    },
+    {
+     "name": "Concetta Russo",
+     "years": "",
+     "origin": "Scilla",
+     "originGrade": "lore",
+     "spouse": "Giovanni Arena",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "concetta-russo",
+     "title": "Concetta Russo: born Scilla",
+     "spousePerson": "giovanni-arena"
+    }
+   ],
+   "notConnected": {
+    "why": "No Russo married a man of the Mazza name line or was a parent of one or of his wife: the Russo come into the children's descent through Rocco Arena, whose side meets that line only in its living generations. Concetta Russo is the mother of Giuseppe Arena, the father of Rocco Arena."
+   }
+  }
+ ]
+}

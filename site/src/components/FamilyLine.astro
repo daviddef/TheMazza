@@ -1,0 +1,21 @@
+---
+/* THE FAMILY RIBBON AT THE TOP OF A FAMILY PAGE (David, 27 October 2026): the family's own generations as the story's
+   ribbon draws ours, smaller, and under it how our line connects. The drawing is the kit's (FamilyRibbon.astro,
+   kit/docs/family-ribbon.md); the data is src/data/family-lines.json, which tools/build_family_lines.py makes from the
+   archive's own data, and src/data/direct-line.json, which the kit makes from the story. Nothing here is typed.
+
+   The story's own marriages are NOT passed as `derived`: tools/build_family_lines.py states every connection itself,
+   and leaves out any whose party is living, because a family page names no living person (tools/check_familypages.py
+   rule 4). The kit's marriageConnections() would put the living generations' marriages back. */
+import FamilyRibbon from "@daviddef/archive-kit/components/FamilyRibbon.astro";
+import familyLines from "../data/family-lines.json";
+import directLine from "../data/direct-line.json";
+import { u } from "../lib/url.js";
+const { family } = Astro.props;
+const fam = familyLines.families.find((f) => f.id === family);
+---
+{fam && (
+  <section class="blk">
+    <FamilyRibbon family={fam} directLine={directLine} personHref={(s) => u(`/people/${s}/`)} u={u} />
+  </section>
+)}

@@ -16,6 +16,7 @@ import additions from "../data/additions.json";
 import nic from "../data/nicotra.json";
 import Rec from "../components/Rec.astro";
 import Cites from "../components/Cites.astro";
+import FamilyLine from "../components/FamilyLine.astro";
 
 const adds = additions.filter((a) => /Nicotra|Cassaniti|Murabito|Currenti/.test(a.name));
 
@@ -38,6 +39,8 @@ const marrLeft = MARR.reduce((n, c) => n + unreadOf(c, "Matrimoni").length, 0);
       dek="Three days ago this line was two names on a Queensland death certificate. It now reaches generation six on both sides, crosses four comuni — and the man it is named for is still missing."
 
 >
+  <FamilyLine family="nicotra" />
+
   <section class="blk">
     <h2>Where it started</h2>
     <div class="prose" style="margin-top:1rem">

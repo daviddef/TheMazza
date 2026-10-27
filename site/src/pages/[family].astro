@@ -15,6 +15,7 @@ import { BUILT } from "../lib/familylist.js";
 import { buildFamily } from "../lib/families.js";
 import Descent from "@daviddef/archive-kit/components/Descent.astro";
 import { LADDERS } from "../lib/descent.js";
+import FamilyLine from "../components/FamilyLine.astro";
 
 export function getStaticPaths() {
   return BUILT.map((spec) => ({ params: { family: spec.slug }, props: { f: buildFamily(spec) } }));
@@ -35,6 +36,8 @@ const ROWS = 12;
 <Base title={`The ${f.surname}`}
       eyebrow={[...f.topPlaces, years].filter(Boolean).join(" · ")}
       dek={`${many(f.dead, "person", "people")} called ${nameList} ${f.dead === 1 ? "is" : "are"} published in this archive${years ? `, from ${f.first} to ${f.last}` : ""}. This page gathers them under the name, and shows how they are — and are not — joined to one another and to the other families.`}>
+
+  <FamilyLine family={Astro.params.family} />
 
   <section class="blk">
     <div class="grid g3">
