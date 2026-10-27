@@ -4,6 +4,7 @@ import P from "../components/P.astro";
 import Spine from "@daviddef/archive-kit/components/Spine.astro";
 import { u } from "../lib/url.js";
 import spineData from "../data/spine.json";
+import directLine from "../data/direct-line.json";
 const spine = spineData.spine;
 /* The two children are possible minors: held out, not named, not in spine.json (tools/living_v2.py possible_minors). */
 
@@ -14,6 +15,7 @@ const spine = spineData.spine;
 const UNSOURCED = new Set([6, 7, 8, 9]);
 const rows = spineData.spine.map((g, i) => ({
   gen: g.gen, name: g.name,
+  person: g.slug,          /* the tint: a row of someone on the story's line (src/data/direct-line.json) */
   href: `/people/${g.slug}`,
   living: !!g.living,
   born: g.born, bornPlace: g.birthPlace,
@@ -49,7 +51,7 @@ const rows = spineData.spine.map((g, i) => ({
   tree alone. <a href={u("/briatico-tested/")}>Testing the 1697 →</a></p>
 
   <div class="stack" style="margin-top:38px">
-    <Spine rows={rows} u={u} archiveKey="mazza" />
+    <Spine rows={rows} u={u} archiveKey="mazza" directLine={directLine} />
 
     <div class="linerow">
       <div>

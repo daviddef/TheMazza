@@ -8,6 +8,7 @@ import walls from "../data/walls.json";
 import { FURTHEST_KM } from "../lib/distance.js";
 import { words, Words } from "../lib/words.js";
 import BranchRivers from "@daviddef/archive-kit/components/BranchRivers.astro";
+import directLine from "../data/direct-line.json";
 import { ledger } from "@daviddef/archive-kit/lib/lines.js";
 import lines from "../data/lines.json";
 import people from "../data/people.json";
@@ -36,7 +37,7 @@ const collateral = people.filter((p) => !p.living).length - L.peopleOnLanes - L.
     <div class="lab">The lines, drawn</div>
     <h2 style="margin-top:.4rem">How far back each line is proved</h2>
     <figure class="rivers" style="margin:1rem 0 0">
-      <BranchRivers rivers={lines} title={lines.title} caption={lines.caption} names={names} />
+      <BranchRivers rivers={lines} title={lines.title} caption={lines.caption} names={names} directLine={directLine} />
     </figure>
     <p class="small" style="margin-top:.8rem;color:var(--ink-2)">{Words(L.lanes)} lines drawn, with {L.peopleOnLanes} people on them
     and {L.peopleInPens} more in the pens under them. The other {collateral} people who have died are in the archive but not on this drawing: a line is a

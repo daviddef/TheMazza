@@ -48,6 +48,7 @@ import nudgee from "../../data/nudgee.json";
 import ships from "../../data/ships.json";
 import components from "../../data/components.json";
 import eraSnapshot from "../../data/era-snapshot.json";
+import directLine from "../../data/direct-line.json";
 
 export function getStaticPaths() {
   /* Everyone in the tree gets a page. The living standard (v2) decides what a living person's page holds;
@@ -138,7 +139,7 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
 <Base title={meta.title} dek={meta.description} noindex={meta.noindex} person={meta.about ? about : undefined} ownHeading>
 
   <PersonPage person={person} peopleHref={u("/people/")} edgeLevel={false} palette={palette}
-              stubNote={stubNote}>
+              stubNote={stubNote} directLine={directLine} slug={p.slug} storyHref={u("/story/")}>
 
     <Fragment slot="chart-notes">
       {nothing && (

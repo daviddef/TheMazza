@@ -93,11 +93,11 @@ const BANDS = ['parents', 'spouses', 'children', 'siblings'];
 function row(e, page, { quiet }) {
   const rec = bySlug.get(e.slug);
   const href = u('/people/' + e.slug);
-  if (rec.living) return { id: rec.id, name: rec.name, href, saidLiving: true, source: 'tree' };
+  if (rec.living) return { id: rec.id, slug: rec.slug, name: rec.name, href, saidLiving: true, source: 'tree' };
   const f = ruleFields(rec);
   const dis = !page.living && (disputed[page.slug] || {})[e.slug];
   return {
-    id: rec.id, name: rec.name, href,
+    id: rec.id, slug: rec.slug, name: rec.name, href,
     ...f, ...(quiet ? { born: undefined, died: undefined } : {}),
     source: dis ? 'disputed' : wordOf(rec),
     line: !!rec.onSpine,

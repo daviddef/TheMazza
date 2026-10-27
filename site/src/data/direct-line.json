@@ -1,0 +1,44 @@
+{
+ "_note": "Made by kit/tools/directline.py from the story's ribbon; do not edit by hand.",
+ "generationLabel": "generation",
+ "people": [
+  {
+   "slug": "mariano-mazza-1809",
+   "generation": 1,
+   "storyChapter": "mariano",
+   "name": "Mariano Mazza"
+  },
+  {
+   "slug": "rosario-mazza",
+   "generation": 2,
+   "storyChapter": "rosario",
+   "name": "Rosario Mazza"
+  },
+  {
+   "slug": "salvatore-mazza",
+   "generation": 3,
+   "storyChapter": "salvatore",
+   "name": "Salvatore Mazza"
+  },
+  {
+   "slug": "sebastiano-mazza",
+   "generation": 4,
+   "storyChapter": "sebastiano",
+   "name": "Sebastiano Mazza"
+  },
+  {
+   "slug": "frank-mazza",
+   "generation": 5,
+   "storyChapter": "brisbane",
+   "name": "Frank"
+  },
+  {
+   "slug": "michael-rocco-mazza",
+   "generation": 6,
+   "storyChapter": "brisbane",
+   "name": "Michael"
+  }
+ ],
+ "partners": [],
+ "unlinked": []
+}
