@@ -52,6 +52,8 @@ HAND_EDITED = {
     "data/pe-volumes.json",          # register volumes and their arks, filled in by hand as they are found
     "site/src/data/book.json",       # the book's order: part titles, intros and one-line blurbs, written by hand
     "site/src/data/errands.json",    # the letters and orders this archive still needs: written by hand
+    "site/src/data/flag-countries.json",  # the ribbon flags' --countries: a card's place -> today's country, each with its evidence
+    "site/src/data/flag-places.json",     # the ribbon flags' --alias: a card's place -> the era table's text, each with its evidence
     "site/src/data/place-spellings.json",   # misspellings of place names, each with a note
     "site/src/data/story.json",      # the family story (/story/): a short book, written by hand to the kit's contract
     "site/src/data/the-110.json",    # the join of the hundred and ten: a page's text, written by hand
@@ -78,10 +80,10 @@ GENERATED_PREFIXES = (
 GENERATED_SITE = {
     "additions", "ancestors", "arneytown", "audit-negatives", "australia-graves", "briatico-line", "burials",
     "census", "components", "corrections", "coverage", "crossings", "direct-line", "disputed", "documented-line", "era-places", "era-snapshot",
-    "documented-parents", "ellis", "families", "family-lines", "findmypast", "focus", "holdings", "households", "instruments",
+    "documented-parents", "ellis", "families", "family-flags", "family-lines", "findmypast", "focus", "holdings", "households", "instruments",
     "lines", "living", "mazza-births", "name-evidence", "namefold", "nicotra", "nudgee", "ny-children", "people",
     "person-slugs", "places", "qld-bdm", "quarters", "questions", "read-names", "reads", "records", "scilla-matr-1913", "scilla-reads",
-    "searched", "ships", "sicilian-acts", "sicily-reads", "sicily-spine", "sources", "spine", "stats", "trove",
+    "searched", "ships", "sicilian-acts", "sicily-reads", "sicily-spine", "sources", "spine", "stats", "story-flags", "trove",
     "unresolved", "walls",
 }
 

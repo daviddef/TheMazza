@@ -1,0 +1,5 @@
+{
+  "_about": "The ribbon flags' --countries table (kit/tools/ribbonflags.py, kit/docs/ribbon-flags.md): card place text -> the ISO code of the country it is in today, for a place neither the era snapshot nor the kit's place table can place. Written by hand; each entry's evidence is beside it. A place two countries could hold, or one not known, is not here and gets no flag.",
+  "_New York": "people.json: every place that begins 'New York' is 'New York, New York' (17) or 'New York, New York, United States' (4), the city in the State of New York; the Melluso and Anile children born there and the Arena crossings through Ellis Island, New York (ellis.json).",
+  "New York": "US"
+}

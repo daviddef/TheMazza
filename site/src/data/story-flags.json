@@ -1,0 +1,248 @@
+{
+  "_note": "Made by tools/build_ribbon_flags.py from story.json's ribbon cards, then given each card's `flags` by the kit's ribbonflags.py (npm run ribbonflags); do not edit by hand. src/pages/story.astro reads the flags from here.",
+  "ribbon": {
+    "cards": [
+      {
+        "name": "Mariano Mazza",
+        "years": "c. 1809 – after 1871",
+        "origin": "Piedimonte Etneo",
+        "originGrade": "inf",
+        "spouse": "Maria Catalano",
+        "spouseOrigin": "place not known",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "mariano",
+        "person": "mariano-mazza-1809",
+        "spousePerson": "maria-catalano",
+        "title": "A bracciale at Piedimonte Etneo in 1845 and still living there in 1871; born there if he is the groom of 1836",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Piedimonte Etneo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "from Piedimonte Etneo: Italy today",
+            "grade": "inf"
+          }
+        ]
+      },
+      {
+        "name": "Rosario Mazza",
+        "years": "1845–1924",
+        "origin": "Piedimonte Etneo",
+        "originGrade": "doc",
+        "spouse": "Leonarda Bonanno",
+        "spouseOrigin": "of Piedimonte Etneo",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "rosario",
+        "person": "rosario-mazza",
+        "spousePerson": "leonarda",
+        "title": "Born at Piedimonte Etneo, 2 June 1845; died there, at Presa, 15 November 1924",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Piedimonte Etneo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "from Piedimonte Etneo: Italy today",
+            "grade": "doc"
+          },
+          {
+            "kind": "today",
+            "line": "spouse",
+            "place": "Piedimonte Etneo",
+            "svg": "italy-flags--era-1946.svg",
+            "flag": "italy-flags--era-1946",
+            "country": "IT",
+            "year": null,
+            "label": "spouse of Piedimonte Etneo: Italy today",
+            "grade": "doc"
+          }
+        ]
+      },
+      {
+        "name": "Salvatore Mazza",
+        "years": "1873–1929",
+        "origin": "Piedimonte Etneo",
+        "originGrade": "doc",
+        "spouse": "Maria Nicotra",
+        "spouseOrigin": "of Mascali",
+        "atPlace": "",
+        "atYear": "",
+        "living": false,
+        "chapter": "salvatore",
+        "person": "salvatore-mazza",
+        "spousePerson": "maria-nicotra",
+        "title": "Born in Contrada Terremorte, 5 January 1873; died in the frazione of Vena, 19 September 1929",
+        "flags": [
+          {
+            "kind": "era",
+            "line": "from",
+            "place": "Piedimonte Etneo",
+            "svg": "italy-flags--era-1861.svg",
+            "flag": "italy-flags--era-1861",
+            "era": "sicily--era-1861",
+            "year": 1873,
+            "label": "from Piedimonte Etneo, 1873: Italy then",
+            "grade": "doc",
+            "assessed": true
+          },
+          {
+            "kind": "era",
+            "line": "spouse",
+            "place": "Mascali",
+            "svg": "italy-flags--era-1861.svg",
+            "flag": "italy-flags--era-1861",
+            "era": "sicily--era-1861",
+            "year": 1873,
+            "label": "spouse of Mascali, 1873: Italy then",
+            "grade": "doc",
+            "assessed": true
+          }
+        ]
+      },
+      {
+        "name": "Sebastiano Mazza",
+        "years": "1920–2002",
+        "origin": "Piedimonte Etneo",
+        "originGrade": "lore",
+        "spouse": "Domenica Prostamo",
+        "spouseOrigin": "of Briatico",
+        "atPlace": "Wacol, Brisbane",
+        "atYear": "1959",
+        "living": false,
+        "chapter": "sebastiano",
+        "person": "sebastiano-mazza",
+        "spousePerson": "domenica-prostamo",
+        "title": "Born 22 October 1920, at Piedimonte Etneo by the family's tree; on the Toscana from Genoa in 1949; at Wacol in 1959",
+        "flags": [
+          {
+            "kind": "era",
+            "line": "from",
+            "place": "Piedimonte Etneo",
+            "svg": "italy-flags--era-1861.svg",
+            "flag": "italy-flags--era-1861",
+            "era": "sicily--era-1861",
+            "year": 1920,
+            "label": "from Piedimonte Etneo, 1920: Italy then",
+            "grade": "lore",
+            "assessed": true
+          },
+          {
+            "kind": "era",
+            "line": "at",
+            "place": "Wacol, Brisbane",
+            "svg": "australia-flags--era-1901.svg",
+            "flag": "australia-flags--era-1901",
+            "era": "queensland--era-1901",
+            "year": 1959,
+            "label": "at Wacol, Brisbane, 1959: Australia then",
+            "grade": "lore",
+            "assessed": true
+          },
+          {
+            "kind": "era",
+            "line": "spouse",
+            "place": "Briatico",
+            "svg": "italy-flags--era-1861.svg",
+            "flag": "italy-flags--era-1861",
+            "era": "calabria--era-1861",
+            "year": 1920,
+            "label": "spouse of Briatico, 1920: Italy then",
+            "grade": "lore",
+            "assessed": true
+          }
+        ]
+      },
+      {
+        "name": "Frank",
+        "years": "",
+        "origin": "Brisbane",
+        "originGrade": "lore",
+        "spouse": "Nancy",
+        "spouseOrigin": "of Brisbane",
+        "atPlace": "",
+        "atYear": "",
+        "living": true,
+        "chapter": "brisbane",
+        "person": "frank-mazza",
+        "spousePerson": "nancy-arena",
+        "spouseLiving": true,
+        "title": "Living: named with a relationship and a town, nothing more",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Brisbane",
+            "svg": "australia-flags--era-1901.svg",
+            "flag": "australia-flags--era-1901",
+            "country": "AU",
+            "year": null,
+            "label": "from Brisbane: Australia today",
+            "grade": "lore"
+          },
+          {
+            "kind": "today",
+            "line": "spouse",
+            "place": "Brisbane",
+            "svg": "australia-flags--era-1901.svg",
+            "flag": "australia-flags--era-1901",
+            "country": "AU",
+            "year": null,
+            "label": "spouse of Brisbane: Australia today",
+            "grade": "lore"
+          }
+        ]
+      },
+      {
+        "name": "Michael",
+        "years": "",
+        "origin": "Brisbane",
+        "originGrade": "lore",
+        "spouse": "Stefanie",
+        "spouseOrigin": "of Brisbane",
+        "atPlace": "",
+        "atYear": "",
+        "living": true,
+        "chapter": "brisbane",
+        "person": "michael-rocco-mazza",
+        "spousePerson": "stefanie-darcy",
+        "spouseLiving": true,
+        "title": "Living: named with a relationship and a town, nothing more",
+        "flags": [
+          {
+            "kind": "today",
+            "line": "from",
+            "place": "Brisbane",
+            "svg": "australia-flags--era-1901.svg",
+            "flag": "australia-flags--era-1901",
+            "country": "AU",
+            "year": null,
+            "label": "from Brisbane: Australia today",
+            "grade": "lore"
+          },
+          {
+            "kind": "today",
+            "line": "spouse",
+            "place": "Brisbane",
+            "svg": "australia-flags--era-1901.svg",
+            "flag": "australia-flags--era-1901",
+            "country": "AU",
+            "year": null,
+            "label": "spouse of Brisbane: Australia today",
+            "grade": "lore"
+          }
+        ]
+      }
+    ]
+  }
+}

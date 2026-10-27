@@ -113,6 +113,30 @@ FORBIDDEN_KEYS = {"born", "died", "bornText", "diedText", "events", "sources",
 # year below. kit/tools/checkfamilystory.py (npm run check:story) holds the same rows to the living rule a second time.
 STORY_KEYS = {"origin", "originGrade", "spouseOrigin", "atPlace", "chapter", "person", "spousePerson", "spouseLiving",
               "title", "minor"}
+# THE RIBBON FLAGS (kit/docs/ribbon-flags.md; kit/tools/ribbonflags.py writes a card's «flags»): a living card may carry
+# TODAY's country flag of a place it names, and nothing else: no era flag (which says "in that year") and no year anywhere
+# in a flag. That is a place, so it is allowed on a ribbon card (story-flags.json, family-flags.json) under exactly that shape,
+# and fails here otherwise. kit/tools/checkribbonflags.py (R5) holds the same rows to it a second time.
+FLAG_FILES = {"story-flags.json", "family-flags.json"}
+# story-flags.json is story.json's ribbon cards copied by tools/build_ribbon_flags.py, so its living rows are held to the same keys.
+STORY_FILES = {"story.json", "story-flags.json"}
+
+
+def living_flag_problem(v):
+    """None if «flags» on a living card is today's flags only, with no year; else what is wrong."""
+    if not isinstance(v, list):
+        return "is not a list"
+    for f in v:
+        if not isinstance(f, dict):
+            return "holds something that is not a flag"
+        if f.get("kind") != "today":
+            return "holds an era flag (a year's state), not only today's country"
+        if f.get("year") not in (None, ""):
+            return "holds a year"
+        for k, x in f.items():
+            if isinstance(x, str) and k not in ("svg", "flag") and YEAR.search(x):
+                return "has a year in «%s»" % k
+    return None
 
 
 def jload(path):
@@ -413,7 +437,11 @@ class Gate:
                         continue
                     if k in FORBIDDEN_KEYS:
                         self.fail(3, f"{fn}: a living row carries «{k}»")
-                    elif k not in ALLOWED_KEYS and not (fn == "story.json" and k in STORY_KEYS):
+                    elif k == "flags" and fn in FLAG_FILES:
+                        why = living_flag_problem(v)
+                        if why:
+                            self.fail(3, f"{fn}: a living card's «flags» {why}")
+                    elif k not in ALLOWED_KEYS and not (fn in STORY_FILES and k in STORY_KEYS):
                         self.fail(3, f"{fn}: a living row carries the field «{k}», which is not name, "
                                      "relationship or place")
                     elif k in ("birthPlace", "place") and isinstance(v, str):
@@ -959,6 +987,20 @@ def selftest(dist, data_dir, root, ged):
         add(3, "a year in a living slug",
             lambda: edit_people(lambda d: next(x for x in d if x["id"] == L["id"]).update(
                 {"slug": L["slug"] + f"-{PLANT_YEAR}"})))
+        def f_story_living_flag(change):
+            def plant():
+                sp = os.path.join(s2, "story-flags.json")
+                doc = jload(sp)
+                card = next(r for r in rows_in(doc) if r.get("living") is True and "origin" in r)
+                card["flags"] = [change({"kind": "today", "line": "from", "place": card.get("origin") or "Planted",
+                                         "svg": "planted.svg", "flag": "planted", "year": None,
+                                         "label": "from Planted: Planted today", "grade": "doc"})]
+                write(sp, json.dumps(doc, ensure_ascii=False))
+            return plant
+        add(3, "an era flag on a living story card",
+            f_story_living_flag(lambda f: dict(f, kind="era", year=PLANT_YEAR)))
+        add(3, "a year in a living story card's flag label",
+            f_story_living_flag(lambda f: dict(f, label=f"from Planted, {PLANT_YEAR}: Planted today")))
         add(4, "a living page without noindex",
             lambda: write(lp(L), re.sub(r'<meta[^>]*name="robots"[^>]*>', "", open(lp(L), encoding="utf-8").read())))
         add(4, "a living page in the sitemap",

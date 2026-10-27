@@ -1,0 +1,15 @@
+{
+  "_about": "The ribbon flags' --alias table (kit/tools/ribbonflags.py, kit/docs/ribbon-flags.md): a ribbon card prints only the first part of a place (tools/build_family_lines.py head()), and the era snapshot holds the place as people.json prints it in full. Card text -> the place as src/data/era-places.json prints it. Written by hand; each entry's evidence is beside it. A name whose full form varies across people.json is not here.",
+  "_Briatico": "people.json: every birth, death and marriage place that begins 'Briatico' is 'Briatico, Vibo Valentia, Calabria' (101) or the same with ', Italy' (13); era-places.json holds the first.",
+  "Briatico": "Briatico, Vibo Valentia, Calabria",
+  "_Brisbane": "people.json: every place that begins 'Brisbane' is 'Brisbane, Queensland' (29) or 'Brisbane, Queensland, Australia' (52); era-places.json holds the first.",
+  "Brisbane": "Brisbane, Queensland",
+  "_Wacol, Brisbane": "story.json, chapter of 1959: the Queensland electoral roll of 1959 has Progress Road, Wacol, sub-district of Inala, 'on Brisbane's south-west edge'; Wacol is a suburb of Brisbane, so the era table's Brisbane, Queensland.",
+  "Wacol, Brisbane": "Brisbane, Queensland",
+  "_Potenzoni (Briatico)": "people.json: all six places that begin 'Potenzoni (Briatico)' are 'Potenzoni (Briatico), Vibo Valentia, Calabria', a frazione of Briatico.",
+  "Potenzoni (Briatico)": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+  "_Mandaradoni (Briatico)": "people.json: the one place that begins 'Mandaradoni (Briatico)' is 'Mandaradoni (Briatico), Vibo Valentia, Calabria', a frazione of Briatico.",
+  "Mandaradoni (Briatico)": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
+  "_Potenzioni": "people.json: the one place that begins 'Potenzioni' is 'Potenzioni, Catanzaro Calabria, Italy' (the export's spelling of Potenzoni; Briatico was in Catanzaro province until 1996); era-places.json holds it.",
+  "Potenzioni": "Potenzioni, Catanzaro Calabria, Italy"
+}

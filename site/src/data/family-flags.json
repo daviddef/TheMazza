@@ -1,0 +1,1937 @@
+{
+  "_note": "Made by tools/build_ribbon_flags.py from family-lines.json's cards, then given each card's `flags` by the kit's ribbonflags.py (npm run ribbonflags); do not edit by hand. src/components/FamilyLine.astro reads the flags from here.",
+  "families": [
+    {
+      "id": "arena",
+      "cards": [
+        {
+          "name": "Filippo Arena",
+          "years": "d. before 1830",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Santa Ungaro",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "filippo-arena-1830",
+          "title": "Filippo Arena: born Scilla; died before 12 July 1830",
+          "spousePerson": "santa-ungaro",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Orazio Arena",
+          "years": "c. 1751 – 1830",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Litteria Morabito",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "orazio-arena-1751",
+          "title": "Orazio Arena: born Scilla c. 1751; died 12 July 1830",
+          "spousePerson": "litteria-morabito",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Filippo Arena",
+          "years": "b. 1793",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Domenica Costa",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "filippo-arena",
+          "title": "Filippo Arena: born Scilla 25 March 1793",
+          "spousePerson": "domenica-costa",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Francesco Antonio Arena",
+          "years": "1819–1901",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Serafina Arlotta",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "francesco-antonio-arena",
+          "title": "Francesco Antonio Arena: born Scilla 25 November 1819; died 29 August 1901",
+          "spousePerson": "serafina-arlotta",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Giovanni Arena",
+          "years": "b. 1870",
+          "origin": "Scilla",
+          "originGrade": "lore",
+          "spouse": "Concetta Russo",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giovanni-arena",
+          "title": "Giovanni Arena: born Scilla 1870",
+          "spousePerson": "concetta-russo",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Giuseppe Arena",
+          "years": "1892–1984",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Anna Arena",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giuseppe-arena",
+          "title": "Giuseppe Arena: born Scilla 1892; died Scilla 1984",
+          "spousePerson": "anna-arena",
+          "flags": [
+            {
+              "kind": "era",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "calabria--era-1861",
+              "year": 1892,
+              "label": "from Scilla, 1892: Italy then",
+              "grade": "doc",
+              "assessed": true
+            },
+            {
+              "kind": "era",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "calabria--era-1861",
+              "year": 1892,
+              "label": "spouse of Scilla, 1892: Italy then",
+              "grade": "doc",
+              "assessed": true
+            }
+          ]
+        },
+        {
+          "name": "Rocco Arena",
+          "years": "1924–1999",
+          "origin": "Scilla",
+          "originGrade": "lore",
+          "spouse": "Angela Polistena",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "Brisbane",
+          "atYear": "1999",
+          "living": false,
+          "person": "rocco-arena-1924",
+          "title": "Rocco Arena: born Scilla 1924; died Brisbane 1999",
+          "spousePerson": "angela-polistena",
+          "flags": [
+            {
+              "kind": "era",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1922.svg",
+              "flag": "italy-flags--era-1922",
+              "era": "calabria--era-1861",
+              "year": 1924,
+              "label": "from Scilla, 1924: Italy then",
+              "grade": "lore",
+              "assessed": true
+            },
+            {
+              "kind": "today",
+              "line": "at",
+              "place": "Brisbane",
+              "svg": "australia-flags--era-1901.svg",
+              "flag": "australia-flags--era-1901",
+              "country": "AU",
+              "year": null,
+              "label": "at Brisbane: Australia today",
+              "grade": "lore"
+            },
+            {
+              "kind": "era",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1922.svg",
+              "flag": "italy-flags--era-1922",
+              "era": "calabria--era-1861",
+              "year": 1924,
+              "label": "spouse of Scilla, 1924: Italy then",
+              "grade": "lore",
+              "assessed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nicotra",
+      "cards": [
+        {
+          "name": "Simone Nicotra",
+          "years": "d. before 1890",
+          "origin": "Giarre",
+          "originGrade": "doc",
+          "spouse": "Marianna Musumeci",
+          "spouseOrigin": "of Giarre",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "simone-nicotra",
+          "title": "Simone Nicotra: born Giarre; died before 4 April 1890",
+          "spousePerson": "marianna-musumeci",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Giarre",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Giarre: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Giarre",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Giarre: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Rosario Nicotra",
+          "years": "c. 1800 – 1890",
+          "origin": "Giarre",
+          "originGrade": "doc",
+          "spouse": "Venera Murabito",
+          "spouseOrigin": "of Mascali",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "rosario-nicotra-1872",
+          "title": "Rosario Nicotra: born Giarre c. 1800; died 4 April 1890",
+          "spousePerson": "venera-murabito",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Giarre",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Giarre: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Mascali",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Mascali: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "John Nicotra",
+          "years": "",
+          "origin": "place not known",
+          "originGrade": "lore",
+          "spouse": "Venera Cassaneti",
+          "spouseOrigin": "place not known",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "john-nicotra",
+          "title": "John Nicotra: no date and no place in the archive",
+          "spousePerson": "venera-cassaneti"
+        },
+        {
+          "name": "Maria Nicotra",
+          "years": "1875–1963",
+          "origin": "Mascali",
+          "originGrade": "doc",
+          "spouse": "Salvatore Mazza",
+          "spouseOrigin": "of Piedimonte Etneo",
+          "atPlace": "Brisbane",
+          "atYear": "1963",
+          "living": false,
+          "person": "maria-nicotra",
+          "title": "Maria Nicotra: born Piedimonte Etneo 1875; died Brisbane 1963",
+          "spousePerson": "salvatore-mazza",
+          "flags": [
+            {
+              "kind": "era",
+              "line": "from",
+              "place": "Mascali",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "sicily--era-1861",
+              "year": 1875,
+              "label": "from Mascali, 1875: Italy then",
+              "grade": "doc",
+              "assessed": true
+            },
+            {
+              "kind": "era",
+              "line": "at",
+              "place": "Brisbane",
+              "svg": "australia-flags--era-1901.svg",
+              "flag": "australia-flags--era-1901",
+              "era": "queensland--era-1901",
+              "year": 1963,
+              "label": "at Brisbane, 1963: Australia then",
+              "grade": "doc",
+              "assessed": true
+            },
+            {
+              "kind": "era",
+              "line": "spouse",
+              "place": "Piedimonte Etneo",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "sicily--era-1861",
+              "year": 1875,
+              "label": "spouse of Piedimonte Etneo, 1875: Italy then",
+              "grade": "doc",
+              "assessed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prostamo",
+      "cards": [
+        {
+          "name": "Franco Antonino Prostamo",
+          "years": "b. 1697",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Agnere Polito",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "franco-antonino-prostamo",
+          "title": "Franco Antonino Prostamo: born Briatico 1697",
+          "spousePerson": "agnere-polito",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Antonino Prostamo",
+          "years": "b. 1726",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Caterina Scangiaterra",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "antonino-prostamo",
+          "title": "Antonino Prostamo: born Briatico 1726",
+          "spousePerson": "caterina-scangiaterra",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Pasquale Prostamo",
+          "years": "1760–1829",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Caterina Di Meio",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "Pizzo",
+          "atYear": "1829",
+          "living": false,
+          "person": "pasquale-prostamo",
+          "title": "Pasquale Prostamo: born Briatico 1760; died Pizzo 1829",
+          "spousePerson": "caterina-di-meio",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "at",
+              "place": "Pizzo",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "at Pizzo: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Antonino Prostamo",
+          "years": "b. 1785",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Maria Fragala",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "antonino-prostamo-1785",
+          "title": "Antonino Prostamo: born Briatico 1785",
+          "spousePerson": "maria-fragala",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Domenico Prostamo",
+          "years": "b. 1820",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Giovanna Ventrice",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "domenico-prostamo-1820",
+          "title": "Domenico Prostamo: born Briatico 1820",
+          "spousePerson": "giovanna-ventrice",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Alfonso Prostamo",
+          "years": "b. 1858",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Caterina Melluso",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "alfonso-prostamo",
+          "title": "Alfonso Prostamo: born Briatico 1858",
+          "spousePerson": "caterina-melluso",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Francessco Prostamo",
+          "years": "1900–1983",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Maria Rosa Melluso",
+          "spouseOrigin": "of New York",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "francessco-prostamo",
+          "title": "Francessco Prostamo: born Briatico 1900; died Briatico 1983",
+          "spousePerson": "maria-rosa-melluso-1907",
+          "flags": [
+            {
+              "kind": "era",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "calabria--era-1861",
+              "year": 1900,
+              "label": "from Briatico, 1900: Italy then",
+              "grade": "lore",
+              "assessed": true
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "New York",
+              "svg": "united-states-flags--era-1960.svg",
+              "flag": "united-states-flags--era-1960",
+              "country": "US",
+              "year": null,
+              "label": "spouse of New York: the United States today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Domenica Prostamo",
+          "years": "1928–2010",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Sebastiano Mazza",
+          "spouseOrigin": "of Piedimonte Etneo",
+          "atPlace": "Brisbane",
+          "atYear": "2010",
+          "living": false,
+          "person": "domenica-prostamo",
+          "title": "Domenica Prostamo: born Briatico 1928; died Brisbane 2010",
+          "spousePerson": "sebastiano-mazza",
+          "flags": [
+            {
+              "kind": "era",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1922.svg",
+              "flag": "italy-flags--era-1922",
+              "era": "calabria--era-1861",
+              "year": 1928,
+              "label": "from Briatico, 1928: Italy then",
+              "grade": "lore",
+              "assessed": true
+            },
+            {
+              "kind": "today",
+              "line": "at",
+              "place": "Brisbane",
+              "svg": "australia-flags--era-1901.svg",
+              "flag": "australia-flags--era-1901",
+              "country": "AU",
+              "year": null,
+              "label": "at Brisbane: Australia today",
+              "grade": "lore"
+            },
+            {
+              "kind": "era",
+              "line": "spouse",
+              "place": "Piedimonte Etneo",
+              "svg": "italy-flags--era-1922.svg",
+              "flag": "italy-flags--era-1922",
+              "era": "sicily--era-1861",
+              "year": 1928,
+              "label": "spouse of Piedimonte Etneo, 1928: Italy then",
+              "grade": "lore",
+              "assessed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polistena",
+      "cards": [
+        {
+          "name": "Antonio Polistena",
+          "years": "",
+          "origin": "Scilla",
+          "originGrade": "lore",
+          "spouse": "Giovanna Pontillo",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "antonio-polistena-2",
+          "title": "Antonio Polistena: born Scilla",
+          "spousePerson": "giovanna-pontillo",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Giovanni Polistena",
+          "years": "b. 1883",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Nunnziata Donato",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giovanni-polistena",
+          "title": "Giovanni Polistena: born Scilla 1883",
+          "spousePerson": "nunnziata-donato",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Angela Polistena",
+          "years": "1925–2018",
+          "origin": "Scilla",
+          "originGrade": "lore",
+          "spouse": "Rocco Arena",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "Brisbane",
+          "atYear": "2018",
+          "living": false,
+          "person": "angela-polistena",
+          "title": "Angela Polistena: born Scilla 1925; died Brisbane 2018",
+          "spousePerson": "rocco-arena-1924",
+          "flags": [
+            {
+              "kind": "era",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1922.svg",
+              "flag": "italy-flags--era-1922",
+              "era": "calabria--era-1861",
+              "year": 1925,
+              "label": "from Scilla, 1925: Italy then",
+              "grade": "lore",
+              "assessed": true
+            },
+            {
+              "kind": "today",
+              "line": "at",
+              "place": "Brisbane",
+              "svg": "australia-flags--era-1901.svg",
+              "flag": "australia-flags--era-1901",
+              "country": "AU",
+              "year": null,
+              "label": "at Brisbane: Australia today",
+              "grade": "lore"
+            },
+            {
+              "kind": "era",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1922.svg",
+              "flag": "italy-flags--era-1922",
+              "era": "calabria--era-1861",
+              "year": 1925,
+              "label": "spouse of Scilla, 1925: Italy then",
+              "grade": "lore",
+              "assessed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "donato",
+      "cards": [
+        {
+          "name": "Candeloro Donato",
+          "years": "b. c. 1783",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Marta Paladino",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "candeloro-donato",
+          "title": "Candeloro Donato: born Scilla c. 1783; alive at Scilla, July 1844",
+          "spousePerson": "marta-paladino",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Domenico Donato",
+          "years": "",
+          "origin": "place not known",
+          "originGrade": "lore",
+          "spouse": "Annunziata Sofi",
+          "spouseOrigin": "place not known",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "domenico-donato-2",
+          "title": "Domenico Donato: no date and no place in the archive",
+          "spousePerson": "annunziata-sofi"
+        },
+        {
+          "name": "Michele Donato",
+          "years": "b. 1851",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Maria Sofi",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "michele-donato",
+          "title": "Michele Donato: born Scilla 1851",
+          "spousePerson": "maria-sofi",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Nunnziata Donato",
+          "years": "b. 1892",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Giovanni Polistena",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "nunnziata-donato",
+          "title": "Nunnziata Donato: born Scilla 1892",
+          "spousePerson": "giovanni-polistena",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "melluso",
+      "cards": [
+        {
+          "name": "Fillipo Melluso",
+          "years": "b. 1855",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Rosa Vitrale",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "fillipo-melluso",
+          "title": "Fillipo Melluso: born Briatico 1855",
+          "spousePerson": "rosa-vitrale",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Domenico Melluso",
+          "years": "1875–1919",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Domenica Anile",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "domenico-melluso",
+          "title": "Domenico Melluso: born Briatico 1875; died Briatico 1919",
+          "spousePerson": "domenica-anile",
+          "flags": [
+            {
+              "kind": "era",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "calabria--era-1861",
+              "year": 1875,
+              "label": "from Briatico, 1875: Italy then",
+              "grade": "lore",
+              "assessed": true
+            },
+            {
+              "kind": "era",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "calabria--era-1861",
+              "year": 1875,
+              "label": "spouse of Briatico, 1875: Italy then",
+              "grade": "lore",
+              "assessed": true
+            }
+          ]
+        },
+        {
+          "name": "Maria Rosa Melluso",
+          "years": "1907–1994",
+          "origin": "New York",
+          "originGrade": "lore",
+          "spouse": "Francessco Prostamo",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "Briatico",
+          "atYear": "1994",
+          "living": false,
+          "person": "maria-rosa-melluso-1907",
+          "title": "Maria Rosa Melluso: born New York 1907; died Briatico 1994",
+          "spousePerson": "francessco-prostamo",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "New York",
+              "svg": "united-states-flags--era-1960.svg",
+              "flag": "united-states-flags--era-1960",
+              "country": "US",
+              "year": null,
+              "label": "from New York: the United States today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "at",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "at Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "era",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "calabria--era-1861",
+              "year": 1907,
+              "label": "spouse of Briatico, 1907: Italy then",
+              "grade": "lore",
+              "assessed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anile",
+      "cards": [
+        {
+          "name": "Fortunato Anile",
+          "years": "",
+          "origin": "place not known",
+          "originGrade": "lore",
+          "spouse": "Antonia Grasso",
+          "spouseOrigin": "of Mandaradoni (Briatico)",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "fortunato-anile-2",
+          "title": "Fortunato Anile: no date and no place in the archive",
+          "spousePerson": "antonia-grasso",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Mandaradoni (Briatico)",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Mandaradoni (Briatico): Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Antonio Anile",
+          "years": "",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Carmela Collia",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "antonio-anile-3",
+          "title": "Antonio Anile: born Briatico",
+          "spousePerson": "carmela-collia",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Francesco Anile",
+          "years": "b. 1843",
+          "origin": "Potenzoni (Briatico)",
+          "originGrade": "lore",
+          "spouse": "Saveria Barbuto",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "francesco-anile",
+          "title": "Francesco Anile: born Potenzoni (Briatico) 1843",
+          "spousePerson": "saveria-barbuto",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Potenzoni (Briatico)",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Potenzoni (Briatico): Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Domenica Anile",
+          "years": "1880–1970",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Domenico Melluso",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "domenica-anile",
+          "title": "Domenica Anile: born Briatico 1880; died Briatico 1970",
+          "spousePerson": "domenico-melluso",
+          "flags": [
+            {
+              "kind": "era",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "calabria--era-1861",
+              "year": 1880,
+              "label": "from Briatico, 1880: Italy then",
+              "grade": "lore",
+              "assessed": true
+            },
+            {
+              "kind": "era",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1861.svg",
+              "flag": "italy-flags--era-1861",
+              "era": "calabria--era-1861",
+              "year": 1880,
+              "label": "spouse of Briatico, 1880: Italy then",
+              "grade": "lore",
+              "assessed": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costa",
+      "cards": [
+        {
+          "name": "Giuseppe Costa",
+          "years": "d. before 1790",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Giacoma Turco",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giuseppe-costa",
+          "title": "Giuseppe Costa: born Scilla; died before 29 March 1790",
+          "spousePerson": "giacoma-turco",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Giovanni Costa",
+          "years": "c. 1750 – 1790",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Marta Alfonzetti",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giovanni-costa",
+          "title": "Giovanni Costa: born Scilla c. 1750; died 29 March 1790",
+          "spousePerson": "marta-alfonzetti",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Domenica Costa",
+          "years": "b. 1787",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Filippo Arena",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "domenica-costa",
+          "title": "Domenica Costa: born Scilla 16 June 1787",
+          "spousePerson": "filippo-arena",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arlotta",
+      "cards": [
+        {
+          "name": "Domenico Arlotta",
+          "years": "before 1779 – before 1828",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Anna Barbaro",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "domenico-arlotta",
+          "title": "Domenico Arlotta: born Scilla before 1779; died before 30 August 1828",
+          "spousePerson": "anna-barbaro",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Giovanni Arlotta",
+          "years": "b. c. 1800",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Maria Costa",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giovanni-arlotta",
+          "title": "Giovanni Arlotta: born Scilla c. 1800",
+          "spousePerson": "maria-costa",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Serafina Arlotta",
+          "years": "1830–1908",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Francesco Antonio Arena",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "serafina-arlotta",
+          "title": "Serafina Arlotta: born Scilla 13 June 1830; died 24 April 1908",
+          "spousePerson": "francesco-antonio-arena",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pontillo",
+      "cards": [
+        {
+          "name": "Giuseppi Pontillo",
+          "years": "",
+          "origin": "Scilla",
+          "originGrade": "lore",
+          "spouse": "Nunziatta Pontillo",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giuseppi-pontillo",
+          "title": "Giuseppi Pontillo: born Scilla",
+          "spousePerson": "nunziatta-pontillo",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Giovanna Pontillo",
+          "years": "",
+          "origin": "Scilla",
+          "originGrade": "lore",
+          "spouse": "Antonio Polistena",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giovanna-pontillo",
+          "title": "Giovanna Pontillo: born Scilla",
+          "spousePerson": "antonio-polistena-2",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "lore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ventrice",
+      "cards": [
+        {
+          "name": "Giovanna Ventrice",
+          "years": "b. 1825",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Domenico Prostamo",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giovanna-ventrice",
+          "title": "Giovanna Ventrice: born Briatico 1825",
+          "spousePerson": "domenico-prostamo-1820",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sofi",
+      "cards": [
+        {
+          "name": "Pasquale Sofi",
+          "years": "b. c. 1780",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Maria de Amico",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "pasquale-sofi",
+          "title": "Pasquale Sofi: born Scilla c. 1780; alive at Scilla, July 1844",
+          "spousePerson": "maria-de-amico",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Annunziata Sofi",
+          "years": "",
+          "origin": "place not known",
+          "originGrade": "lore",
+          "spouse": "Domenico Donato",
+          "spouseOrigin": "place not known",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "annunziata-sofi",
+          "title": "Annunziata Sofi: no date and no place in the archive",
+          "spousePerson": "domenico-donato-2"
+        }
+      ]
+    },
+    {
+      "id": "barbuto",
+      "cards": [
+        {
+          "name": "Giuseppe Barbuto",
+          "years": "",
+          "origin": "Potenzioni",
+          "originGrade": "lore",
+          "spouse": "Saveria Lesto",
+          "spouseOrigin": "of Potenzoni (Briatico)",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "giuseppe-barbuto",
+          "title": "Giuseppe Barbuto: born Potenzioni",
+          "spousePerson": "saveria-lesto",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Potenzioni",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Potenzioni: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Potenzoni (Briatico)",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Potenzoni (Briatico): Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Antonio Barbuto",
+          "years": "1806–1876",
+          "origin": "Potenzoni (Briatico)",
+          "originGrade": "lore",
+          "spouse": "Domenica Birroca",
+          "spouseOrigin": "of Briatico",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "antonio-barbuto",
+          "title": "Antonio Barbuto: born Potenzoni (Briatico) 1806; died Potenzoni (Briatico) 1876",
+          "spousePerson": "domenica-birroca",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Potenzoni (Briatico)",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Potenzoni (Briatico): Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Briatico: Italy today",
+              "grade": "lore"
+            }
+          ]
+        },
+        {
+          "name": "Saveria Barbuto",
+          "years": "1845–1892",
+          "origin": "Briatico",
+          "originGrade": "lore",
+          "spouse": "Francesco Anile",
+          "spouseOrigin": "of Potenzoni (Briatico)",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "saveria-barbuto",
+          "title": "Saveria Barbuto: born Briatico 1845; died Briatico 1892",
+          "spousePerson": "francesco-anile",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Briatico",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Briatico: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Potenzoni (Briatico)",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Potenzoni (Briatico): Italy today",
+              "grade": "lore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "russo",
+      "cards": [
+        {
+          "name": "Leonardo Russo",
+          "years": "",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Angela Bagnato",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "leonardo-russo",
+          "title": "Leonardo Russo: born Scilla",
+          "spousePerson": "angela-bagnato",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Concetta Russo",
+          "years": "",
+          "origin": "Scilla",
+          "originGrade": "lore",
+          "spouse": "Giovanni Arena",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "concetta-russo",
+          "title": "Concetta Russo: born Scilla",
+          "spousePerson": "giovanni-arena",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "lore"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

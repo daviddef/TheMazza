@@ -9,13 +9,27 @@
    rule 4). The kit's marriageConnections() would put the living generations' marriages back. */
 import FamilyRibbon from "@daviddef/archive-kit/components/FamilyRibbon.astro";
 import familyLines from "../data/family-lines.json";
+import familyFlags from "../data/family-flags.json";
 import directLine from "../data/direct-line.json";
 import { u } from "../lib/url.js";
 const { family } = Astro.props;
-const fam = familyLines.families.find((f) => f.id === family);
+/* The cards' mini flags (kit/docs/ribbon-flags.md) are kept out of family-lines.json, whose contract has no `flags`: the
+   kit's ribbonflags.py writes them into src/data/family-flags.json, a copy of the cards (tools/build_ribbon_flags.py). A card
+   takes its flags only from the copy of ITSELF (same name, slug and places); `npm run check:ribbonflags` fails a stale copy. */
+const same = (a, b) => !!a && !!b && ["name", "slug", "origin", "atPlace", "spouseOrigin"].every((k) => (a[k] ?? "") === (b[k] ?? ""));
+const bare = familyLines.families.find((f) => f.id === family);
+const flagged = familyFlags.families.find((f) => f.id === family)?.cards ?? [];
+const fam = bare && { ...bare, cards: (bare.cards ?? []).map((c, i) =>
+  same(c, flagged[i]) && flagged[i].flags?.length ? { ...c, flags: flagged[i].flags } : c) };
 ---
 {fam && (
   <section class="blk">
     <FamilyRibbon family={fam} directLine={directLine} personHref={(s) => u(`/people/${s}/`)} u={u} />
   </section>
 )}
+<style is:global>
+  /* The ribbon flags' key and credit line (kit/docs/ribbon-flags.md): kit 1fa6b54's FamilyRibbon builds with no space between
+     "(hover for which place)." and "Flags: Flags Atlas, ..." (the story's ribbon keeps it). A space before the credit, here,
+     until the kit keeps its own; once it does, the two collapse into one. */
+  .fr-fl .flag-credit::before { content: " "; }
+</style>

@@ -7,10 +7,18 @@
    this archive holds several men of each name. */
 import Base from "../layouts/Base.astro";
 import StoryBook from "@daviddef/archive-kit/components/StoryBook.astro";
-import book from "../data/story.json";
+import story from "../data/story.json";
+import storyFlags from "../data/story-flags.json";
 import directLine from "../data/direct-line.json";
 import { u } from "../lib/url.js";
 const personHref = (slug) => u(`/people/${slug}/`);
+/* The ribbon's mini flags (kit/docs/ribbon-flags.md) are kept out of story.json, whose contract has no `flags`: the kit's
+   ribbonflags.py writes them into src/data/story-flags.json, a copy of the ribbon cards (tools/build_ribbon_flags.py). A card
+   takes its flags only from the copy of ITSELF (same name, person and places); `npm run check:ribbonflags` fails a stale copy. */
+const same = (a, b) => !!a && !!b && ["name", "person", "origin", "atPlace", "spouseOrigin"].every((k) => (a[k] ?? "") === (b[k] ?? ""));
+const flagged = (storyFlags.ribbon?.cards ?? []);
+const book = { ...story, ribbon: { ...story.ribbon, cards: story.ribbon.cards.map((c, i) =>
+  same(c, flagged[i]) && flagged[i].flags?.length ? { ...c, flags: flagged[i].flags } : c) } };
 ---
 <Base title={book.title} eyebrow={book.eyebrow} dek={book.dek}>
   <StoryBook book={book} personHref={personHref} u={u} directLine={directLine} />
