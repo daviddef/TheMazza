@@ -38343,6 +38343,65 @@
   "siblings": []
  },
  {
+  "id": "@Ragostino-nicotra@",
+  "slug": "agostino-nicotra",
+  "name": "Agostino Nicotra",
+  "key": "Agostino Nicotra (b. 1854, of Giuseppe and Angela Autieri)",
+  "given": "Agostino",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1854,
+  "died": null,
+  "bornText": "7 October 1854",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "7 October 1854",
+    "year": 1854,
+    "place": "Riposto",
+    "text": "7 October 1854"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Nati 1854 atto 158 (Tavola)"
+  ],
+  "registerNote": "Registered at Riposto on 7 October 1854. Index only; the act was not opened. His father died on 26 February 1856, so he was fifteen months old and the youngest of the household's surviving children when Angela became a widow.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-3@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1811",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-autieri@",
+    "name": "Angela Autieri",
+    "slug": "angela-autieri",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Ralfia-cannavò@",
   "slug": "alfia-cannavò",
   "name": "Alfia Cannavò",
@@ -38931,6 +38990,27 @@
     "id": "@Rleonarda-nicotra-2@",
     "name": "Leonarda Nicotra",
     "slug": "leonarda-nicotra-1853",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmarco-nicotra@",
+    "name": "Marco Nicotra",
+    "slug": "marco-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosaria-nicotra-5@",
+    "name": "Rosaria Nicotra",
+    "slug": "rosaria-nicotra-1851",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragostino-nicotra@",
+    "name": "Agostino Nicotra",
+    "slug": "agostino-nicotra",
     "living": false,
     "via": "read"
    }
@@ -45927,6 +46007,27 @@
     "slug": "leonarda-nicotra-1853",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmarco-nicotra@",
+    "name": "Marco Nicotra",
+    "slug": "marco-nicotra",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosaria-nicotra-5@",
+    "name": "Rosaria Nicotra",
+    "slug": "rosaria-nicotra-1851",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragostino-nicotra@",
+    "name": "Agostino Nicotra",
+    "slug": "agostino-nicotra",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -46929,6 +47030,65 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rmarco-nicotra@",
+  "slug": "marco-nicotra",
+  "name": "Marco Nicotra",
+  "key": "Marco Nicotra (b. 1849, of Giuseppe and Angela Autieri)",
+  "given": "Marco",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1849,
+  "died": null,
+  "bornText": "17 December 1849",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "17 December 1849",
+    "year": 1849,
+    "place": "Riposto",
+    "text": "17 December 1849"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Nati 1849 (Tavola)"
+  ],
+  "registerNote": "Registered at Riposto on 17 December 1849, in the Tavola of the year only; the act was not opened and the act number is too faint to read. The mother's surname reads like Auteri. No death for him has been found in the Riposto death sweep (1850-1875), which proves nothing: it records Nicotra deaths only by the index and the register's tail.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-3@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1811",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-autieri@",
+    "name": "Angela Autieri",
+    "slug": "angela-autieri",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -50398,6 +50558,65 @@
     "id": "@Rsebastiana-testa@",
     "name": "Sebastiana Testa",
     "slug": "sebastiana-testa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rrosaria-nicotra-5@",
+  "slug": "rosaria-nicotra-1851",
+  "name": "Rosaria Nicotra",
+  "key": "Rosaria Nicotra (b. 1851, of Giuseppe and Angela Autieri)",
+  "given": "Rosaria",
+  "surname": "Nicotra",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1851,
+  "died": null,
+  "bornText": "25 September 1851",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "25 September 1851",
+    "year": 1851,
+    "place": "Riposto",
+    "text": "25 September 1851"
+   }
+  ],
+  "birthPlace": "Riposto",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Riposto, Nati 1851 atto 165 (Tavola)"
+  ],
+  "registerNote": "Registered at Riposto on 25 September 1851. Index only; the act was not opened.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-nicotra-3@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1811",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-autieri@",
+    "name": "Angela Autieri",
+    "slug": "angela-autieri",
     "living": false,
     "via": "read"
    }
