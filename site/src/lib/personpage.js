@@ -53,7 +53,7 @@ function citationsOf(p) {
 
 /* A recorded death or burial, dated or not: the tree's died or buried event, a death text, a place of death
    or burial, or a record this archive has read of that kind. */
-function deadRecorded(p) {
+export function deadRecorded(p) {
   if (p.died || (p.diedText && !/^alive/i.test(p.diedText)) || p.deathPlace || p.burialPlace) return true;
   if ((p.events || []).some((e) => e.what === 'died' || e.what === 'buried')) return true;
   return (p.records || []).some((r) => DEATHISH.test(String(r.kind || '')));

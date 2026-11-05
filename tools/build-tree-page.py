@@ -283,6 +283,13 @@ def add_routes(t, people):
         p["route"] = stops; n += 1
     print("routes: %d people carry a whole route" % n)
 
+def write_roots_links(tree):
+    """site/public/roots-links.json: the people Roots & Routes DRAWS (one id each). A person page in story mode offers 'Where they lived' only for those."""
+    ids = sorted(p["id"] for p in jl(tree)["people"])
+    out = {"note": "The people Roots & Routes draws, by person id. Made by tools/build-tree-page.py; do not edit by hand.", "people": ids}
+    io.open(os.path.join(ROOT, "site", "public", "roots-links.json"), "w", encoding="utf-8").write(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
+    print("roots-links: %d people" % len(ids))
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true")
@@ -297,6 +304,7 @@ def main():
     run([sys.executable, os.path.join(TP, "build_atlas_data.py"), "--atlas", atlas_path(), "--tree", tree, "--place-map", pm, "--out", ad])
     t = jl(tree); t["meta"]["inputs"] = inputs_hash()
     io.open(tree, "w", encoding="utf-8").write(json.dumps(t, ensure_ascii=False, separators=(",", ":")))
+    write_roots_links(tree)
     tpl = os.path.join(TP, "tree-views.template.html")
     run([sys.executable, os.path.join(TP, "build_page.py"), "--template", tpl, "--tree", tree, "--atlas-data", ad, "--out", page, "--ext", EXT])
     embed = os.path.join(OUT, "roots.embed.html")
