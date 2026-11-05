@@ -1,0 +1,497 @@
+{
+ "Bagnara Calabra, Calabria, Italy": {
+  "name": "Bagnara Calabra",
+  "lat": 38.28847,
+  "lon": 15.8078,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "bagnara-calabra",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Bagnara Calabra, Reggio Calabria, Calabria, 89011, Italy); country by the Atlas's geo.country_of"
+ },
+ "Bergamo, Lombardia, Italy": {
+  "name": "Bergamo",
+  "lat": 45.75666,
+  "lon": 9.75422,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "bergamo",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Bergamo, Lombardy, Italy); country by the Atlas's geo.country_of"
+ },
+ "Briatico, Vibo Valentia, Calabria": {
+  "name": "Briatico",
+  "lat": 38.72525,
+  "lon": 16.03237,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "briatico",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Briatico, Vibo Valentia, Calabria, 89817, Italy); country by the Atlas's geo.country_of"
+ },
+ "Brisbane, Queensland": {
+  "name": "Brisbane",
+  "lat": -27.46896,
+  "lon": 153.0235,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "brisbane",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Brisbane, Queensland, Australia); country by the Atlas's geo.country_of"
+ },
+ "Buenos Aires, Argentina": {
+  "name": "Buenos Aires",
+  "lat": -34.60956,
+  "lon": -58.38879,
+  "country": "Argentina",
+  "iso": "AR",
+  "atlas_id": "buenos-aires",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Buenos Aires, Comuna 1, Autonomous City of Buenos Aires, Argentina); country by the Atlas's geo.country_of"
+ },
+ "Catania, Sicily": {
+  "name": "Catania",
+  "lat": 37.50236,
+  "lon": 15.08737,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "catania",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Catania, Sicily, Italy); country by the Atlas's geo.country_of"
+ },
+ "Catanzaro, Calabria": {
+  "name": "Catanzaro",
+  "lat": 38.82996,
+  "lon": 16.43156,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Catanzaro, Calabria, Italy); country by the Atlas's geo.country_of"
+ },
+ "Cosenza, Calabria, Italy": {
+  "name": "Cosenza",
+  "lat": 39.59669,
+  "lon": 16.33306,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Cosenza, Calabria, Italy); country by the Atlas's geo.country_of"
+ },
+ "Fremantle, Western Australia": {
+  "name": "Fremantle",
+  "lat": -32.05341,
+  "lon": 115.75862,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "fremantle",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Fremantle, Western Australia, 6160, Australia); country by the Atlas's geo.country_of"
+ },
+ "Giarre": {
+  "name": "Giarre",
+  "lat": 37.726857,
+  "lon": 15.187688,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "giarre",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Giarre, Catania, Sicilia, 95014, Italia); country by the Atlas's geo.country_of"
+ },
+ "Giarre, Catania, Sicily": {
+  "name": "Giarre",
+  "lat": 37.72686,
+  "lon": 15.18769,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "giarre",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Giarre, Catania, Sicily, 95014, Italy); country by the Atlas's geo.country_of"
+ },
+ "Lismore NSW": {
+  "name": "Lismore",
+  "lat": -28.81354,
+  "lon": 153.2773,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "lismore",
+  "how": "the string names Lismore, New South Wales (NSW is the abbreviation); the gazetteer's answer is that town but is marked approx only because of the abbreviation. Point: the Record Atlas place Lismore"
+ },
+ "Lismore, Lismore City, New South Wales, Australia": {
+  "name": "Lismore",
+  "lat": -28.81354,
+  "lon": 153.2773,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "lismore",
+  "how": "the same town as the row «Lismore NSW», written in full (Lismore City is its council area); the gazetteer does not hold the long form. Point: the Record Atlas place Lismore"
+ },
+ "Mandaradoni (Briatico), Vibo Valentia, Calabria": {
+  "name": "Mandaradoni",
+  "lat": 38.68312,
+  "lon": 15.98498,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Mandaradoni, Briatico, Vibo Valentia, Calabria, 89817, Italy); country by the Atlas's geo.country_of"
+ },
+ "Mascali": {
+  "name": "Mascali",
+  "lat": 37.7602846,
+  "lon": 15.1974313,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "mascali",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Mascali, Catania, Sicilia, 95016, Italia); country by the Atlas's geo.country_of"
+ },
+ "Mascali, Catania, Sicily": {
+  "name": "Mascali",
+  "lat": 37.76028,
+  "lon": 15.19743,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "mascali",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Mascali, Catania, Sicily, 95016, Italy); country by the Atlas's geo.country_of"
+ },
+ "Melbourne, Victoria": {
+  "name": "Melbourne",
+  "lat": -37.81425,
+  "lon": 144.96317,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "melbourne",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Melbourne, Victoria, Australia); country by the Atlas's geo.country_of"
+ },
+ "Miami, Florida, USA": {
+  "name": "Miami",
+  "lat": 25.77416,
+  "lon": -80.1936,
+  "country": "United States of America",
+  "iso": "US",
+  "atlas_id": "miami",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Miami, Miami-Dade County, Florida, United States); country by the Atlas's geo.country_of"
+ },
+ "Mirabella Eclano, Avellino, Campania, Italy": {
+  "name": "Mirabella Eclano",
+  "lat": 41.04492,
+  "lon": 14.99874,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "mirabella-eclano",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Mirabella Eclano, Avellino, Campania, 83036, Italy); country by the Atlas's geo.country_of"
+ },
+ "Murwillumbah NSW": {
+  "name": "Murwillumbah",
+  "lat": -28.32676,
+  "lon": 153.39715,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "murwillumbah-nsw",
+  "how": "the string names Murwillumbah, New South Wales; the gazetteer's answer is that town but is marked approx only because of the abbreviation. Point: the Record Atlas place Murwillumbah NSW"
+ },
+ "New Orleans, Louisiana": {
+  "name": "New Orleans",
+  "lat": 29.95614,
+  "lon": -90.07339,
+  "country": "United States of America",
+  "iso": "US",
+  "atlas_id": "new-orleans",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: New Orleans, Orleans Parish, Louisiana, United States); country by the Atlas's geo.country_of"
+ },
+ "New York, New York": {
+  "name": "New York",
+  "lat": 40.71273,
+  "lon": -74.00602,
+  "country": "United States of America",
+  "iso": "US",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: New York, United States); country by the Atlas's geo.country_of"
+ },
+ "Newcastle, New South Wales, Australia": {
+  "name": "Newcastle",
+  "lat": -32.92729,
+  "lon": 151.78125,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "newcastle",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Newcastle, Newcastle-Maitland, New South Wales, 2300, Australia); country by the Atlas's geo.country_of"
+ },
+ "Nudgee, Brisbane, Queensland": {
+  "name": "Nudgee",
+  "lat": -27.3691,
+  "lon": 153.0847,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "nudgee",
+  "how": "the string names Nudgee, a suburb of Brisbane. The gazetteer has no Nudgee and falls back to Brisbane (data/era-ground.tsv uses the Brisbane point for the region), which would draw it in the wrong place; the Record Atlas holds Nudgee at its own point"
+ },
+ "Piedimonte Etneo": {
+  "name": "Piedimonte Etneo",
+  "lat": 37.80671,
+  "lon": 15.17819,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "piedimonte-etneo",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Piedimonte Etneo, Catania, Sicily, 95017, Italy); country by the Atlas's geo.country_of"
+ },
+ "Piedimonte Etneo, Catania, Sicily": {
+  "name": "Piedimonte Etneo",
+  "lat": 37.80671,
+  "lon": 15.17819,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "piedimonte-etneo",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Piedimonte Etneo, Catania, Sicily, 95017, Italy); country by the Atlas's geo.country_of"
+ },
+ "Pizzo": {
+  "name": "Pizzo",
+  "lat": 38.73567,
+  "lon": 16.16229,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "pizzo",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Pizzo, Vibo Valentia, Calabria, 89812, Italy); country by the Atlas's geo.country_of"
+ },
+ "Pizzo, Vibo Valentia, Calabria": {
+  "name": "Pizzo",
+  "lat": 38.73567,
+  "lon": 16.16229,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "pizzo",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Pizzo, Vibo Valentia, Calabria, 89812, Italy); country by the Atlas's geo.country_of"
+ },
+ "Postuman, Veneto, Italy": {
+  "name": "Postuman",
+  "lat": 45.49917,
+  "lon": 11.119,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Postuman, Mezzane di Sotto, Verona, Veneto, 37030, Italy); country by the Atlas's geo.country_of"
+ },
+ "Potenzoni (Briatico), Vibo Valentia, Calabria": {
+  "name": "Potenzoni",
+  "lat": 38.69041,
+  "lon": 16.00359,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Potenzoni, San Costantino, Briatico, Vibo Valentia, Calabria, 89817, I); country by the Atlas's geo.country_of"
+ },
+ "Reggio Calabria, Città Metropolitana di Reggio Calabria, Calabria, Italy": {
+  "name": "Reggio Calabria",
+  "lat": 38.10354,
+  "lon": 15.63976,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "reggio-calabria",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Reggio Calabria, Calabria, Italy); country by the Atlas's geo.country_of"
+ },
+ "Riposto": {
+  "name": "Riposto",
+  "lat": 37.7318901,
+  "lon": 15.2042214,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Riposto, Catania, Sicilia, 95018, Italia); country by the Atlas's geo.country_of"
+ },
+ "Scilla": {
+  "name": "Scilla",
+  "lat": 38.25067,
+  "lon": 15.71899,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "scilla",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Scilla, Reggio Calabria, Calabria, 89058, Italy); country by the Atlas's geo.country_of"
+ },
+ "Scilla, Reggio Calabria": {
+  "name": "Scilla",
+  "lat": 38.25067,
+  "lon": 15.71899,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "scilla",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Scilla, Reggio Calabria, Calabria, 89058, Italy); country by the Atlas's geo.country_of"
+ },
+ "Scillla": {
+  "name": "Scilla",
+  "lat": 38.25067,
+  "lon": 15.71899,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "scilla",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Scilla, Reggio Calabria, Calabria, 89058, Italy); country by the Atlas's geo.country_of"
+ },
+ "Serrata, Città Metropolitana di Reggio Calabria, Calabria, Italy": {
+  "name": "Serrata",
+  "lat": 38.51288,
+  "lon": 16.1007,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "serrata",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Serrata, Reggio Calabria, Calabria, 89020, Italy); country by the Atlas's geo.country_of"
+ },
+ "Sorianno Calabro": {
+  "name": "Soriano Calabro",
+  "lat": 38.59693,
+  "lon": 16.23036,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "soriano-calabro",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Soriano Calabro, Vibo Valentia, Calabria, 89831, Italy); country by the Atlas's geo.country_of"
+ },
+ "Sydney, New South Wales": {
+  "name": "Sydney",
+  "lat": -33.86984,
+  "lon": 151.20828,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "sydney",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Sydney, New South Wales, Australia); country by the Atlas's geo.country_of"
+ },
+ "Tully, Queensland": {
+  "name": "Tully",
+  "lat": -17.93403,
+  "lon": 145.92323,
+  "country": "Australia",
+  "iso": "AU",
+  "atlas_id": "tully",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Tully, Queensland, 4854, Australia); country by the Atlas's geo.country_of"
+ },
+ "Zambrone": {
+  "name": "Zambrone",
+  "lat": 38.6991424,
+  "lon": 15.9900684,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Zambrone, Vibo Valentia, Calabria, 89868, Italia); country by the Atlas's geo.country_of"
+ },
+ "Queensland": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "queensland",
+    "name": "Queensland",
+    "country": "AU",
+    "lat": -22.16468,
+    "lon": 144.58449
+   },
+   {
+    "atlas_id": "queensland-au",
+    "name": "Queensland",
+    "country": "AU",
+    "lat": -26.5238,
+    "lon": 152.3838
+   }
+  ]
+ },
+ "Sicily": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "sicily",
+    "name": "Sicily",
+    "country": "IT",
+    "lat": 37.47428,
+    "lon": 14.13853
+   }
+  ]
+ },
+ "Italy": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "italy",
+    "name": "Italy",
+    "country": "IT",
+    "lat": 42.63843,
+    "lon": 12.6743
+   }
+  ]
+ },
+ "Jackson, Ocean, New Jersey": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "jackson",
+    "name": "Jackson",
+    "country": "US",
+    "lat": 32.2988,
+    "lon": -90.1848
+   }
+  ]
+ },
+ "America": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "america",
+    "name": "America",
+    "country": "US",
+    "lat": 39.78373,
+    "lon": -100.44588
+   }
+  ]
+ },
+ "Austria": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": [
+   {
+    "atlas_id": "austria",
+    "name": "Austria",
+    "country": "AT",
+    "lat": 47.59397,
+    "lon": 14.12456
+   }
+  ]
+ },
+ "Potenzioni, Catanzaro Calabria, Italy": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ },
+ "Township of Washington, New Jersey": {
+  "name": null,
+  "lat": null,
+  "lon": null,
+  "country": null,
+  "iso": null,
+  "atlas_id": null,
+  "note": "TODO: copy one suggestion (or give coordinates) once you have checked the country; never guessed",
+  "suggest": []
+ }
+}

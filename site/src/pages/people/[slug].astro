@@ -24,6 +24,11 @@
    record, two children who share a name, the names this archive refuses to merge, and the edges a record
    contradicts. They are the archive's own prose, moved into the chart's notes slot unchanged.
 
+   STORY MODE (4 November 2026, PERSON-PAGE-SPEC.md section 2a; src/lib/storymode.js). A person who is not living and whose story holds something (a parent, a brother or sister,
+   a child, or a note) is told on the kit's timeline instead of drawn as a chart: «Where they came from» is the family, and no chart is drawn. The stops are the kit's and
+   are built from people.json alone; the only prose the archive holds about a person, the note it wrote on reading a register, moves into the story's last stop. A person
+   with nothing to tell stays a chart, and a living person is never in story mode. The words that said «the chart» on a story page say «the story».
+
    WHAT IS THIS ARCHIVE'S OWN: «Why this person is here», «The burial» and «The crossing» are drawn after the
    six shared sections as kind="more" (the page labels them «this archive only»).
 
@@ -49,6 +54,11 @@ import ships from "../../data/ships.json";
 import components from "../../data/components.json";
 import eraSnapshot from "../../data/era-snapshot.json";
 import directLine from "../../data/direct-line.json";
+import PersonStory from "@daviddef/archive-kit/components/PersonStory.astro";
+import PersonRootsViews from "@daviddef/archive-kit/components/PersonRootsViews.astro";
+import { GRADE_SAY } from "@daviddef/archive-kit/lib/personstory.js";
+import { storyOfPerson } from "../../lib/storymode.js";
+import rootsLinks from "../../../public/roots-links.json";
 
 export function getStaticPaths() {
   /* Everyone in the tree gets a page. The living standard (v2) decides what a living person's page holds;
@@ -73,6 +83,12 @@ const asserted = edges.length - provedEdges;
    people.json for this page to leave out, and the kit is the second lock, not the first. An undated person
    with a living parent is not published at all: there is no page for them and they are nobody's relative. */
 const living = !!p.living;
+/* STORY MODE: told on the timeline, or (nothing to tell, or living) the chart */
+const ST = living ? null : storyOfPerson(p);
+const story = !!ST;
+const treeId = String(p.id).replace(/@/g, "");
+const inRoots = story && (rootsLinks.people || []).includes(treeId);
+const DRAWN = story ? "named" : "drawn";
 const home = p.birthPlace || p.deathPlace || p.burialPlace || "";
 const EV = { born: "Born", died: "Died", buried: "Buried", baptised: "Baptised",
              christened: "Christened", lived: "Lived", arrival: "Arrived", departure: "Left" };
@@ -140,6 +156,9 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
 
   <PersonPage person={person} peopleHref={u("/people/")} edgeLevel={false} palette={palette}
               stubNote={stubNote} directLine={directLine} slug={p.slug} storyHref={u("/story/")}>
+
+    {story && <Fragment slot="story"><PersonStory stages={ST.stages} md={(x) => md(x)} gradeSay={GRADE_SAY} u={u} /></Fragment>}
+    {inRoots && <Fragment slot="where"><PersonRootsViews pid={treeId} u={u} /></Fragment>}
 
     <Fragment slot="chart-notes">
       {nothing && (
@@ -259,14 +278,14 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
             because the claim was written twice and only one copy was counted. */}
         {edges.length
           ? provedEdges === 0
-            ? <span><strong>All {edges.length}</strong> of the relationships drawn above come from
+            ? <span><strong>All {edges.length}</strong> of the relationships {DRAWN} above come from
               <strong> Michael Mazza's family tree</strong>, and none of them has been proved by a
               record this archive has read.</span>
             : provedEdges === edges.length
-              ? <span><strong>All {edges.length}</strong> of the relationships drawn above have been
+              ? <span><strong>All {edges.length}</strong> of the relationships {DRAWN} above have been
                 <strong> proved by a record</strong> this archive has read, rather than taken from
                 the family tree.</span>
-              : <span><strong>{provedEdges} of the {edges.length}</strong> relationships drawn above
+              : <span><strong>{provedEdges} of the {edges.length}</strong> relationships {DRAWN} above
                 have been <strong>proved by a record</strong> this archive has read. The other
                 {" " + asserted} come from
                 <strong> Michael Mazza's family tree</strong> and have not.</span>
@@ -298,7 +317,7 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
         the default slot, which PersonPage draws after the first three in the order they are written here:
         the same ids and the same headings as the kit's slots, only present when there is something to say. */}
     {sameName.length > 0 && (
-    <PersonSection kind="namesakes">
+    <Fragment slot="namesakes">
       <p class="small">These three towns repeat their names relentlessly — this
       archive holds four men called Rosario Mazza and four called Giuseppe Arena.
       <strong> These are different people, kept apart on purpose rather than merged into one.</strong>
@@ -311,7 +330,7 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
               {q.birthPlace ? `, ${q.birthPlace}` : ""}{q.living || q.comp == null ? "" : `, component ${q.comp}`}</span></li>
         ))}
       </ul>
-    </PersonSection>
+    </Fragment>
     )}
 
     {/* NO IMAGE IS RENDERED LARGER THAN IT IS.
@@ -332,7 +351,7 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
         NO PHOTOGRAPH OF A LIVING PERSON (16 October 2026): a living person has no photographs in people.json
         at all, the files themselves are withdrawn from the build, and the kit does not draw the slot. */}
     {!living && p.photos && p.photos.length > 0 && (
-    <PersonSection kind="media">
+    <Fragment slot="media">
       <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(190px,1fr))">
         {p.photos.map((f) => {
           const wh = (p.photoSize || {})[f];
@@ -352,25 +371,61 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
       </div>
       <p class="cap">From the family's own tree, contributed by Michael Mazza and relatives. Almost
       none are captioned — <strong>identifications are the most valuable thing you can send.</strong></p>
-    </PersonSection>
+    </Fragment>
     )}
 
     {hasCorrections && (
-    <PersonSection kind="notes">
+    <Fragment slot="notes">
       <div class="note" id="disputed">
         <strong>What a register says about this person, which the tree does not.</strong>
         {p.corrections.map((c) => <p style="margin-top:.5rem">{c}</p>)}
-        <p style="margin-top:.5rem" class="small">Where the two disagree, <strong>the chart above
-        still draws the tree as it stands</strong>. This archive does not silently rewrite what it
+        <p style="margin-top:.5rem" class="small">Where the two disagree, <strong>the {story ? "story" : "chart"} above
+        still {story ? "names the family" : "draws the tree"} as it stands</strong>. This archive does not silently rewrite what it
         was given — <a href={u("/scilla/")}>the acts are here</a>.</p>
       </div>
-    </PersonSection>
+    </Fragment>
+    )}
+
+    {/* STORY MODE: the chart's own notes and the disputed edges have no chart to sit under, so they are said here, in the archive's words (only «chart» becomes «story»).
+        The counted sentence about proved and asserted relationships is already in «Where this comes from». */}
+    {story && (nothing || clashChildren.length > 0 || clashOther.length > 0 || Object.keys(dis).length > 0) && (
+      <PersonSection kind="more" title="About these relationships">
+        {nothing && (
+          <p class="warn">No family record in this archive names this person &mdash; not as a
+          child, not as a spouse, not as a parent. They are held here because the
+          tree holds them, and no relationship of theirs is recorded to draw.</p>
+        )}
+        {clashChildren.length ? (
+          <p class="warn"><strong>Two children here carry one name</strong> — {clashChildren.join(", ")}.
+          In these towns that is usually not an error: <strong>a child who died was very often replaced
+          by a later child given the same name.</strong> It is also exactly how a records-matcher invents
+          one person out of two, which is why they are kept apart here and the reader is told.</p>
+        ) : null}
+        {clashOther.length ? (
+          <p class="warn"><strong>More than one person in this row carries the same name</strong> —
+          {" " + clashOther.join(", ")}. That is what the source says. <strong>This archive does not merge
+          records on a name</strong>, so they are drawn separately even where one duplicated entry is the
+          likelier explanation. <a href={u("/open-questions/")}>The 58 names it refuses to merge →</a></p>
+        ) : null}
+        {Object.keys(dis).length ? (
+          <div class="disputed-note">
+            <strong>One or more of the lines above is contradicted by a record this archive has read.</strong>
+            <ul>
+              {Object.entries(dis).map(([slug, d]) => (
+                <li><a href={u("/people/" + slug)}>{slug.replace(/-/g, " ")}</a> — {d.why}</li>
+              ))}
+            </ul>
+            <p>The story still names the family exactly as it was given. This archive does not
+            silently rewrite someone else's research — it marks the edge and shows its working.</p>
+          </div>
+        ) : null}
+      </PersonSection>
     )}
 
     {/* The archive's own sections, drawn after the six the kit shares (kind="more": the page labels
         each «this archive only»). A living person has none: the kit does not draw the default slot for
         them, and `grave`, `fixes` and `ship` are null for them in any case. */}
-    {p.registerNote && (
+    {p.registerNote && !story && (
       <PersonSection kind="more" title="Why this person is here">
         <p class="small" style="white-space:pre-line" set:html={md(p.registerNote)} />
       </PersonSection>

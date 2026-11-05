@@ -1,0 +1,50 @@
+{
+ "_about": "Place strings decided by hand, each with its reason. `places` is merged over what the gazetteer answers by tools/build-tree-page.py; `refused` lists strings that are deliberately NOT placed (a country, a state, an island, or several places), with the reason. A string in neither, and not placed by the gazetteer, is listed in tree.report.json under places.unplaced. Nothing here is a guess: a point is the Record Atlas's own for the named place.",
+ "places": {
+  "Nudgee, Brisbane, Queensland": {
+   "name": "Nudgee",
+   "lat": -27.3691,
+   "lon": 153.0847,
+   "country": "Australia",
+   "iso": "AU",
+   "atlas_id": "nudgee",
+   "how": "the string names Nudgee, a suburb of Brisbane. The gazetteer has no Nudgee and falls back to Brisbane (data/era-ground.tsv uses the Brisbane point for the region), which would draw it in the wrong place; the Record Atlas holds Nudgee at its own point"
+  },
+  "Lismore NSW": {
+   "name": "Lismore",
+   "lat": -28.81354,
+   "lon": 153.2773,
+   "country": "Australia",
+   "iso": "AU",
+   "atlas_id": "lismore",
+   "how": "the string names Lismore, New South Wales (NSW is the abbreviation); the gazetteer's answer is that town but is marked approx only because of the abbreviation. Point: the Record Atlas place Lismore"
+  },
+  "Lismore, Lismore City, New South Wales, Australia": {
+   "name": "Lismore",
+   "lat": -28.81354,
+   "lon": 153.2773,
+   "country": "Australia",
+   "iso": "AU",
+   "atlas_id": "lismore",
+   "how": "the same town as the row «Lismore NSW», written in full (Lismore City is its council area); the gazetteer does not hold the long form. Point: the Record Atlas place Lismore"
+  },
+  "Murwillumbah NSW": {
+   "name": "Murwillumbah",
+   "lat": -28.32676,
+   "lon": 153.39715,
+   "country": "Australia",
+   "iso": "AU",
+   "atlas_id": "murwillumbah-nsw",
+   "how": "the string names Murwillumbah, New South Wales; the gazetteer's answer is that town but is marked approx only because of the abbreviation. Point: the Record Atlas place Murwillumbah NSW"
+  }
+ },
+ "refused": {
+  "Italy": "a country, not a place: a dot would be an invented town",
+  "America": "a country (the United States) or a continent, not a place",
+  "Austria": "a country, not a place",
+  "Sicily": "the whole island, not a town; the gazetteer's point is the centre of the island",
+  "Queensland": "a state, not a town; the gazetteer's point is the centre of the state",
+  "Queensland, Australia": "a state, not a town; the gazetteer's point is the centre of the state",
+  "Township of Washington, New Jersey": "several townships of this name in New Jersey (Bergen, Burlington, Gloucester, Hunterdon, Mercer, Morris, Warren...) and the string gives no county; the gazetteer picked Bergen County, which nothing here supports"
+ }
+}

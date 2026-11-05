@@ -1,0 +1,15 @@
+---
+/* Roots & Routes: built by tools/build-tree-page.py from people.json (no living person is read) and rendered here inside the site layout (header, menu,
+   footer). The fragment carries its own scoped styles and script (every selector under #rr). Rebuild with `python3 tools/build-tree-page.py`; see
+   data/tree-page/README.md. A standalone copy of the page is kept at data/tree-page/roots.html. */
+import Base from "../../layouts/Base.astro";
+import page from "../../../../data/tree-page/roots.embed.html?raw";
+import { meta } from "../../../../data/tree-page/tree.json";
+---
+<Base title={meta.title} dek={meta.sub}>
+  <Fragment set:html={page} />
+</Base>
+<style is:global>
+  /* The shared viewer draws Kinship's path map at least 420px wide (tools/tree-page/tree-views.template.html), which is wider than a 375px phone: let the map scroll inside its own box rather than widen the page. */
+  #rr .kinmap { overflow-x: auto; max-width: 100%; }
+</style>

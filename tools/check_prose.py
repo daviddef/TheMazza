@@ -49,6 +49,8 @@ TYPED_DIRS = ("data", "site/src/data")
 HAND_EDITED = {
     "data/gazetteer-local.json",     # coordinates set by hand, each with its reason
     "data/living-year-allow.json",   # the few lines allowed to carry an in-window year because a death is recorded beside it
+    "data/tree-page/README.md",      # how the Roots & Routes page is built and what its numbers mean: written by hand
+    "data/tree-page/place-additions.json",  # Roots & Routes: places placed or refused by hand, each with its reason
     "data/pe-volumes.json",          # register volumes and their arks, filled in by hand as they are found
     "site/src/data/book.json",       # the book's order: part titles, intros and one-line blurbs, written by hand
     "site/src/data/errands.json",    # the letters and orders this archive still needs: written by hand
@@ -72,6 +74,12 @@ GENERATED = {
     "data/nudgee-search.json",       # tools/nudgee.py
     "data/photo-manifest.json",      # tools/fetch_photos.py, tools/build.py
     "data/scilla-targets.json",      # tools/scilla_targets.py
+    "data/tree-page/atlas-data.json",    # tools/build-tree-page.py (the vendored build_page.py): the Atlas's places, flags and regimes
+    "data/tree-page/place_map.json",     # tools/build-tree-page.py: place string -> Atlas place, seeded from the archive's own tables
+    "data/tree-page/roots.embed.html",   # tools/build-tree-page.py: the page's embed form
+    "data/tree-page/roots.html",         # tools/build-tree-page.py: the page's stand-alone form
+    "data/tree-page/tree.json",          # tools/build-tree-page.py: the tree the page draws (non-living only, by id)
+    "data/tree-page/tree.report.json",   # tools/build-tree-page.py: what was and was not drawn, and why
     "data/pe-nati-1879-ids.txt",     # a list of image ids fetched from Antenati
 }
 GENERATED_PREFIXES = (

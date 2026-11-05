@@ -1,0 +1,104 @@
+{
+ "individuals": 688,
+ "kept": 450,
+ "living": 208,
+ "living_policy": "omit",
+ "undated_dropped": 40,
+ "birth_year_estimated": 277,
+ "death_year_estimated": 341,
+ "placed_from_relative": 55,
+ "dropped_unplaced": 18,
+ "unresolved_places": {
+  "Italy": 7,
+  "Sicily": 2,
+  "Austria": 2,
+  "Township of Washington, New Jersey": 2,
+  "Queensland": 1,
+  "Jackson, Ocean, New Jersey": 1,
+  "America": 1,
+  "Potenzioni, Catanzaro Calabria, Italy": 1
+ },
+ "focus": "I2",
+ "conflicts": [
+  {
+   "id": "I359",
+   "slug": "venera-cassaneti",
+   "born": 1808,
+   "died": 1925
+  },
+  {
+   "id": "Rgiuseppe-arena-2",
+   "slug": "giuseppe-arena-1925",
+   "born": 1811,
+   "died": 1925
+  }
+ ],
+ "places": {
+  "from_gazetteer": 36,
+  "from_additions": 4,
+  "refused": {
+   "America": "a country (the United States) or a continent, not a place",
+   "Austria": "a country, not a place",
+   "Italy": "a country, not a place: a dot would be an invented town",
+   "Queensland": "a state, not a town; the gazetteer's point is the centre of the state",
+   "Queensland, Australia": "a state, not a town; the gazetteer's point is the centre of the state",
+   "Sicily": "the whole island, not a town; the gazetteer's point is the centre of the island",
+   "Township of Washington, New Jersey": "several townships of this name in New Jersey (Bergen, Burlington, Gloucester, Hunterdon, Mercer, Morris, Warren...) and the string gives no county; the gazetteer picked Bergen County, which nothing here supports"
+  },
+  "unplaced": {
+   "Arneytown, Burlington County, New Jersey": "the gazetteer has no exact answer (none)",
+   "Jackson, Ocean, New Jersey": "the gazetteer has no exact answer (none)",
+   "Potenzioni, Catanzaro Calabria, Italy": "the gazetteer has no exact answer (approx)"
+  }
+ },
+ "people_json": {
+  "in_file": 820,
+  "living_not_read": 132,
+  "not_living_read": 688
+ },
+ "catalogue": {
+  "people_coloured_by_a_catalogued_family": 57,
+  "catalogue_families_present": [
+   "mazza",
+   "morabito",
+   "polistena"
+  ],
+  "colours": [
+   {
+    "name": "Nicotra",
+    "from_catalogue": false,
+    "people": 101
+   },
+   {
+    "name": "Prostamo",
+    "from_catalogue": false,
+    "people": 37
+   },
+   {
+    "name": "Arena",
+    "from_catalogue": false,
+    "people": 36
+   },
+   {
+    "name": "Polistena",
+    "from_catalogue": true,
+    "people": 30
+   },
+   {
+    "name": "Mazza",
+    "from_catalogue": true,
+    "people": 23
+   },
+   {
+    "name": "Donato",
+    "from_catalogue": false,
+    "people": 19
+   },
+   {
+    "name": "Anile",
+    "from_catalogue": false,
+    "people": 12
+   }
+  ]
+ }
+}
