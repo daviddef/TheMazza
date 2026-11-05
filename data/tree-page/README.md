@@ -21,7 +21,7 @@ python3 tools/build-tree-page.py --check   # exit 1 if the page is older than th
 ```
 
 Needs the Record Atlas checkout (`RECORD_ATLAS`, default `~/Projects/Family Projects/Record Atlas`), read only, and `npm ci` in `site/` (it reads the kit's gazetteer, as
-`tools/build_era.py` does). The skill's scripts are vendored in `tools/tree-page/` (the family-tree-page skill, template 1.6.0), so CI and other sessions do not depend
+`tools/build_era.py` does). The skill's scripts are vendored in `tools/tree-page/` (the family-tree-page skill, template 1.7.0), so CI and other sessions do not depend
 on `~/.claude`.
 
 ## What is and is not on the page
@@ -45,5 +45,5 @@ on `~/.claude`.
   a burial place and no death place is placed at the burial place.
 - **A route** (three or more places) is carried whole only where every stop between birth and death is a dated arrival or residence in the archive: four people (Fremantle,
   then Brisbane). A stop with no year is never guessed into the order.
-- **Unrecorded sex.** 106 of the people drawn have no sex recorded in the archive. The shared page's template has two states (it draws anyone not recorded female as male in
-  its relationship words and glyphs); the archive's data is not changed to hide that. A neutral state belongs in the shared template, not here.
+- **Unrecorded sex.** 106 of the 448 people drawn have no sex recorded in the archive (170 men, 172 women). They are drawn as `u`: the page says parent, child, spouse,
+  sibling, "uncle or aunt" for them, and no sex is inferred from a given name. The GEDCOM written from `people.json` carries a `SEX` line only where the archive has one.
