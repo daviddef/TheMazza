@@ -4,7 +4,10 @@ import Base from "../layouts/Base.astro";
 import Searched from "@daviddef/archive-kit/components/Searched.astro";
 import { u } from "../lib/url.js";
 import searched from "../data/searched.json";
-const done = searched.filter((r) => r.status === "done").map((r) => [r.when, r.source, r.scope, r.result]);
+// searched.json carries `when` as ISO for the Record Atlas tracker; the page shows the day as it was always written
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const day = (iso) => { const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(iso || ""); return m ? `${+m[3]} ${MON[+m[2] - 1]} ${m[1]}` : (iso || ""); };
+const done = searched.filter((r) => r.status === "done").map((r) => [day(r.when), r.source, r.scope, r.result]);
 const notyet = searched.filter((r) => r.status !== "done").map((r) => [r.source, r.scope, r.result]);
 import fmp from "../data/findmypast.json";
 import coverage from "../data/coverage.json";
@@ -165,7 +168,7 @@ const LABEL = { open: "reachable", partial: "listing incomplete",
     every search, negatives included.</p>
     <Searched u={u} nil={["not-yet", "outstanding"]}
       rows={searched.map((r) => ({
-        when: r.when, src: r.source, what: md(r.scope), got: md(r.result), outcome: r.status,
+        when: day(r.when), src: r.source, what: md(r.scope), got: md(r.result), outcome: r.status,
       }))} />
     <p style="margin-top:24px"><a href={u("/open-questions/")}>The questions each of these would answer →</a></p>
   </section>
