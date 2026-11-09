@@ -13,7 +13,7 @@ twenty-four outstanding searches. The key lives in the TSV, which is the
 record, and is passed through untouched — never recomputed, so editing a scope
 or a result cannot move it, and never reused when a row is retired.
 """
-import csv, json, os, re
+import csv, glob, json, os, re
 from collections import Counter
 
 # the build runs this from site/, so anchor on the repo root
@@ -32,6 +32,12 @@ rows = list(csv.DictReader(open("data/searched.tsv", encoding="utf-8"), delimite
 #            holds none, and a guessed one would be a claim.
 #   tags     the family surnames (people.json, three or more people) the row's own
 #            text names; Mazza when it names none.
+#   url, Antenati rows: the register itself (…/ark:/12657/an_uaNNNN/) when the row's
+#            own text cites an ark that data/*arks*.tsv lists, so the Atlas can mark
+#            which registers were opened. Only for a row that happened (not
+#            `outstanding` / `not-yet`); an id no ark table holds is not guessed at
+#            (it stays on the home page). A row citing several keeps the first in
+#            `url` and all of them in `urls`.
 #   waypoint / pages / walked are NOT derived. Nothing in the TSV states them.
 MONTHS = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
@@ -55,6 +61,20 @@ FAMILIES = sorted((n for n, c in _names.items() if c >= 3 and len(n) > 3), key=l
 FAMILY_RE = re.compile(r"\b(" + "|".join(re.escape(n) for n in FAMILIES) + r")\b")
 
 
+KNOWN_ARKS = set()
+for _f in glob.glob("data/*arks*.tsv"):
+    KNOWN_ARKS |= set(re.findall(r"an_ua\d+", open(_f, encoding="utf-8").read()))
+NOT_HAPPENED = {"outstanding", "not-yet"}
+
+
+def registers(r):
+    """The register arks this row's text cites and an ark table confirms, in order."""
+    if r["status"] in NOT_HAPPENED:
+        return []
+    cited = re.findall(r"an_ua\d+", " ".join([r["source"], r["scope"], r["result"]]))
+    return [a for a in dict.fromkeys(cited) if a in KNOWN_ARKS]
+
+
 def iso(when):
     m = DMY.match(when.strip())
     mo = m and MONTHS.get(m.group(2)[:3].lower())
@@ -66,6 +86,10 @@ for r in rows:
     r["outcome"] = "blocked" if r["status"] == "wall" else r["status"]
     tail = r["key"].split("/", 1)[-1]
     r["url"] = next((u for pre, u in PROVIDERS if tail.startswith(pre)), "")
+    arks = registers(r) if r["url"].startswith("https://antenati.") else []
+    if arks:
+        r["url"] = f"https://antenati.cultura.gov.it/ark:/12657/{arks[0]}/"
+        r["urls"] = [f"https://antenati.cultura.gov.it/ark:/12657/{a}/" for a in arks]
     text = " ".join([r["source"], r["scope"], r["result"]])
     r["tags"] = list(dict.fromkeys(FAMILY_RE.findall(text))) or ["Mazza"]
 json.dump(rows, open("site/src/data/searched.json", "w"), indent=1, ensure_ascii=False)
