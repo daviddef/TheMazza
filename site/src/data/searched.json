@@ -7321,5 +7321,57 @@
    "Mazza",
    "Barbagallo"
   ]
+ },
+ {
+  "key": "src/antenati-piedimonte-nati-1862-d107a8",
+  "status": "done",
+  "when": "2026-11-11",
+  "source": "Antenati — Piedimonte Etneo, Nati 1862 (restaurazione)",
+  "scope": "an_ua72408, images 210-215: no alphabetical index in this register; the year's closing table of births (lines 1-205, 2 January to 31 December 1862) read line by line for the Mazza surnames (Mazza, Marza), for the given name Venerando and for parents Salvatore and Patane Leonarda. Lines 18-105 and 114-205 were read at zoom; lines 1-17 and 106-113 at register scale only.",
+  "result": "Not found: no child named Venerando and no parents Salvatore - Patane Leonarda among the 205 lines. Venerando was born on 11 December 1861 (Nati 1861, an_ua72407 atto 201). FOUND on the name: line 44, Mazza Vincenza, 9 March 1862, parents Pasquale and Greco Concetta (table line only, the act was not opened; these are the parents named at Antonino Mazza's birth in 1877). Not counted (a different surname): Patane as a child's surname (lines 114, 163, 197) and as a mother's (lines 79, 102, 151, 162, 195, 205); none of those mothers is a Leonarda. Read as a closing table of acts: the acts themselves were not opened.",
+  "outcome": "done",
+  "pages": "210-215",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua72408/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72408/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72407/"
+  ],
+  "tags": [
+   "Mazza"
+  ]
+ },
+ {
+  "key": "src/antenati-piedimonte-nati-1861-ce6226",
+  "status": "done",
+  "when": "2026-11-11",
+  "source": "Antenati — Piedimonte Etneo, Nati 1861, second volume (restaurazione)",
+  "scope": "an_ua72407, images 13 and 21-22: act 201 read at zoom; the closing table of births, lines 191-206 (7 to 26 December 1861), read for the Mazza surnames (Mazza, Marza) and for the given name Venerando.",
+  "result": "FOUND: Marza Venerando, born 11 December 1861, parents Marza Salvatore and Patane Leonarda (table line 201, image 22; act 201, image 13, recorded in pe-mazza-acts.tsv). Written Marza in the table and in the act. No other Mazza or Marza line among lines 191-206. The images between 14 and 20 (acts 202-206) were not opened.",
+  "outcome": "found",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua72407/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72407/"
+  ],
+  "tags": [
+   "Mazza"
+  ]
+ },
+ {
+  "key": "src/antenati-piedimonte-nati-1861-4d5a4d",
+  "status": "part",
+  "when": "2026-11-11",
+  "source": "Antenati — Piedimonte Etneo, Nati 1861, first volume (restaurazione)",
+  "scope": "an_ua72406, images 193-197: the year's closing table of births. Lines 119-190 (26 July to 29 November 1861) read at zoom; lines 58-118 (21 April to 25 July) looked at at register scale without zoom; lines 1-57 (January to April) not looked at.",
+  "result": "No Mazza or Marza child in the lines read. A mother Mazza Venera appears on two lines (130, 11 August: Alesi Paola; 169, 22 October: Cannavo Salvatore), a different woman's name and not a Mazza birth. Venerando is in the other volume (Nati 1861, an_ua72407 atto 201, 11 December). This row is partial: January to July 1861 has not been read for Mazza.",
+  "outcome": "done",
+  "pages": "193-197",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua72406/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72406/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72407/"
+  ],
+  "tags": [
+   "Mazza"
+  ]
  }
 ]
