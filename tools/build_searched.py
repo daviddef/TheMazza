@@ -38,7 +38,13 @@ rows = list(csv.DictReader(open("data/searched.tsv", encoding="utf-8"), delimite
 #            `outstanding` / `not-yet`); an id no ark table holds is not guessed at
 #            (it stays on the home page). A row citing several keeps the first in
 #            `url` and all of them in `urls`.
-#   waypoint / pages / walked are NOT derived. Nothing in the TSV states them.
+#   pages    the images read, from a scope that opens «an_ua12345, images 101-105:».
+#   outcome  for a register row, the verdict its result opens with: FOUND... is
+#            `found`; anything else on a row that happened is `done` (searched,
+#            which says only that the search was made; the text says how far it
+#            got), and a row that is `not-yet` stays `not-yet`.
+#   waypoint / walked are NOT derived. Nothing in the TSV states them, and an
+#   index read is never «every entry read», so no row claims `walked`.
 MONTHS = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"], 1)}
 DMY = re.compile(r"^(\d{1,2})\s+([A-Za-z]{3,9})\.?\s+((?:19|20)\d{2})$")
@@ -75,6 +81,10 @@ def registers(r):
     return [a for a in dict.fromkeys(cited) if a in KNOWN_ARKS]
 
 
+ARK_ROW = re.compile(r"^an_ua\d+")
+PAGES = re.compile(r"^an_ua\d+, images ([\d, -]+?):")
+
+
 def iso(when):
     m = DMY.match(when.strip())
     mo = m and MONTHS.get(m.group(2)[:3].lower())
@@ -84,6 +94,12 @@ def iso(when):
 for r in rows:
     r["when"] = iso(r["when"])
     r["outcome"] = "blocked" if r["status"] == "wall" else r["status"]
+    pg = PAGES.match(r["scope"])
+    if pg:
+        r["pages"] = pg.group(1)
+    if ARK_ROW.match(r["scope"]):
+        r["outcome"] = ("found" if r["result"].startswith("FOUND") else
+                        "not-yet" if r["status"] == "not-yet" else "done")
     tail = r["key"].split("/", 1)[-1]
     r["url"] = next((u for pre, u in PROVIDERS if tail.startswith(pre)), "")
     arks = registers(r) if r["url"].startswith("https://antenati.") else []
