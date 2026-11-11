@@ -7306,5 +7306,20 @@
    "Mazza",
    "Nicotra"
   ]
+ },
+ {
+  "key": "src/antenati-linguaglossa-matrimoni-1887-ea4522",
+  "status": "done",
+  "when": "2026-11-11",
+  "source": "Antenati — Linguaglossa, Matrimoni 1887 (Italian era)",
+  "scope": "an_ua81298, images 39-40: annual index read for the Mazza surnames (Mazza, Marza); act 38 read on image 23.",
+  "result": "FOUND: Mazza Venerando - Fichera Domenica (groom M, bride Fichera) = act 38 (images 39 and 40, the M block; the index is one spread with the right page under a scanner card on image 39 and the left page under one on image 40). The act itself is on image 23 (5 September 1887) and is recorded in pe-mazza-acts.tsv. Only the M entries and the bride lines of the grooms read were looked at: no other Mazza or Marza line, and no other groom with a bride Fichera, among the lines read (Mazzitte? Ignazio - Nilepi? Angela 39, Masalito? Venerando - Pennisi Gioachina 54 and Maccarone Salvatore - Barbagallo Maria 18 are different names and are not counted). Terms searched: Mazza, Marza (surname_variants.py terms); the index is not read line by line for any other surname, so the register is not walked.",
+  "outcome": "found",
+  "pages": "39-40",
+  "url": "https://antenati.cultura.gov.it/",
+  "tags": [
+   "Mazza",
+   "Barbagallo"
+  ]
  }
 ]
