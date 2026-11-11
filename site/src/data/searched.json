@@ -7373,5 +7373,33 @@
   "tags": [
    "Mazza"
   ]
+ },
+ {
+  "key": "src/antenati-linguaglossa-matrimoni-1886-35a8f1",
+  "status": "done",
+  "when": "2026-11-11",
+  "source": "Antenati — Linguaglossa, Matrimoni 1886 (Italian era)",
+  "scope": "an_ua81297, images 48-49: annual index read for the Mazza surnames (Mazza, Marza) and the bride surnames Faro and Fara; act 45 read on image 28.",
+  "result": "FOUND: Mazza Venerando - Faro Concetta = act 45 (image 48, the M block). The act itself is on image 28 (24 July 1886) and is recorded in pe-mazza-acts.tsv. The index is one spread; image 48 shows its left and middle pages (the right page is under a scanner card) and image 49 the right page (N-V and Part II; the left page is under the card there). No other Mazza or Marza line and no other bride Faro or Fara among the lines read. Not counted (different surnames): Maccaronio? Egidio 51, Masalito? Sebastiano 25 (read Masalito), Mirenda and Musumeci lines. Index read for the M lines only for the surnames above; the other lines were looked at at register scale, not zoomed, so the register is not walked.",
+  "outcome": "found",
+  "pages": "48-49",
+  "url": "https://antenati.cultura.gov.it/",
+  "tags": [
+   "Mazza"
+  ]
+ },
+ {
+  "key": "src/antenati-linguaglossa-matrimoni-1885-cdd1d1",
+  "status": "done",
+  "when": "2026-11-11",
+  "source": "Antenati — Linguaglossa, Matrimoni 1885 (Italian era)",
+  "scope": "an_ua81296, image 47: annual index read for the Mazza surnames (Mazza, Marza) and the bride surnames Faro and Fara.",
+  "result": "Not found: no groom Mazza or Marza on the M lines (Musumeci Francesco - Previtera Carmela 32, Mirenda Giovanni - Raiti Rosa 50, Nicotra? Gaetano - Finocchiaro? Rosa 74 are the only M lines) and no bride Faro or Fara on any line read. The index is one spread, legible in full on image 47 (A-O left, P-V right, Part II three lines); read at register scale, not zoomed. Terms typed: Mazza, Marza, Faro, Fara. Reach: one volume, one record type, one year of Linguaglossa's civil register, so this says nothing about other years or comuni; Venerando and Concetta married in July 1886.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/",
+  "tags": [
+   "Mazza",
+   "Nicotra"
+  ]
  }
 ]
