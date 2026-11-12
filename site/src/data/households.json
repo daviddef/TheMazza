@@ -3515,7 +3515,7 @@
    }
   ],
   "place": "Linguaglossa",
-  "born": 1867
+  "born": 1866
  },
  {
   "name": "Giovanni Arena & Concetta Russo",
@@ -11551,13 +11551,6 @@
   "spouse": null,
   "children": [
    {
-    "id": "@Rconcetta-faro@",
-    "name": "Concetta Faro",
-    "slug": "concetta-faro",
-    "living": false,
-    "via": "read"
-   },
-   {
     "id": "@Rvincenzo-lo-faro@",
     "name": "Vincenzo Lo Faro",
     "slug": "vincenzo-lo-faro",
@@ -11984,13 +11977,6 @@
   "headId": "@Rmaria-ragusa@",
   "spouse": null,
   "children": [
-   {
-    "id": "@Rconcetta-faro@",
-    "name": "Concetta Faro",
-    "slug": "concetta-faro",
-    "living": false,
-    "via": "read"
-   },
    {
     "id": "@Rvincenzo-lo-faro@",
     "name": "Vincenzo Lo Faro",
