@@ -17137,5 +17137,383 @@
    "Mazza",
    "Patane"
   ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1821-f96fae",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1821 (Bourbon era)",
+  "scope": "an_ua19993187: (12 images) no annual tavola in this register (Sept-Dec 1821 only, acts 1-17); every act read for decedent, parents and spouse at page level. Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. No tavola exists. I read every act (1-17, images 3-11, full-page level) for decedent, parents and spouse: no Catalano, Cardillo, Mazza, Marza, Suderi/Sudero; Patane only as above (none is Alfio b.~1800 or Maria Suderi). Image 1 returned an error stub (cover, not re-fetched). Marked partial per rule (no tavola), effectively nil for these names at page-reading resolution. Seen, not counted: act 3 (image 4, 1 Oct 1821): Giuseppe Patane (22, calzolaio) is a declarant only; act 4 (image 5, 8 Oct): infant of Giuseppe Cantarella? and Angela Patane (mother, doubtful reading), not Alfio/Suderi; act 8 (image 7, 18 Oct): Concetta Lo Faro (8 months), daughter of Venerando Lo Faro and Anna Patane",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993187/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993187/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1822-b50abc",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1822 (Bourbon era)",
+  "scope": "an_ua19993188: (36 images) annual tavola on images 34-36, deceased's surname initial (annual tavola: n. d'ordine, morti, patria, genitori, giorno, folio), 60 acts. Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola on images 34-36 (B,C,E,F,G,L,M,N,O,P,R,S,T,U). Zoomed C (Catalano line), M and P blocks and the S/R area; parents columns scanned: no Carlo Catalano, no Cardillo, no Alfio Patane/Suderi, no Mazza/Marza. Only Catalano and Patane lines are the ones above. Seen, not counted: C block, no. ? : Catalano? Giuseppe, patria Giarre, son of Catalano? Gaetano and Coco Agata, died 26 Oct 1822, f.22 retro (letters 'Caralano/Cavalano?' doubtful; not Carlo x Cardillo; act on about image 25-26 not opened); P block no. 40: Patane Antonio, son of Patane Antonio and Finocchiaro Agata, d",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993188/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993188/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Coco"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1823-e35b95",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1823 (Bourbon era)",
+  "scope": "an_ua19993189: (38 images) annual tavola on images 36-38, deceased's surname initial (annual tavola, 65 acts; A-F image 36, F-R image 37, S-Z image 38). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Complete tavola on images 36-38 read; zoomed the P block. No Catalano line at all (C block: Calabretta, Calì, Cannavò, Calabiano, Cavallaro), no Cardillo/Suderi parent, no Mazza/Marza (M block: Marano, Maccarrone, Marabito, Messina, Mazumeci x4, Mangano). Seen, not counted: P block no. 44: Patane Angela, daughter of Patane Salvatore and Mazumeci? Rosaria, died 1 Aug 1823, f.24 (not Alfio x Suderi; not opened); P block no. 45: Patane Maria, daughter of Patane Michele and Catarina, died 12 Aug 1823, f.24 retro (not Alfio x Suderi; not opened); A block no. 60: Arcidiacono",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993189/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993189/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1824-bcd7c0",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1824 (Bourbon era)",
+  "scope": "an_ua19993190: (59 images) annual tavola on images 57-59, deceased's surname initial (annual tavola, 105 acts; A-C image 57 right, C-R image 58, R-T image 59 left, late acts 88-105 image 59 right). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Complete tavola read on images 57-59; zoomed A/B, C, M, P blocks and the S/T and late-addition columns. No deceased Catalano, Patane child of Alfio x Suderi, Mazza or Marza. Catalano, Cardillo and Suderi appear only as mothers' maiden names of unrelated families (listed in near_not_counted). Seen, not counted: C block no. 82 (image 58): Cavallaro Rosaria, patria Reale?, daughter of Carmelo Cavallaro and Giuseppa Cardillo (Cardillo only as a mother's maiden name; father is Cavallaro, not Catalano), died 8 Nov 1824, f.42: not Carlo Catalano x Maria Cardillo; act not opened; S block no. 12 (image 59, matchin",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993190/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993190/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1825-d363a3",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1825 (Bourbon era)",
+  "scope": "an_ua19993191: (44 images) annual tavola on images 41-44, deceased's surname initial (annual tavola, about 70 acts: A-C image 41 right, C-M image 42, M-T image 43, last line (Tomarchio Salvatore no. 70) and 'Fine' image 44). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Complete tavola read on images 41-44; zoomed the M-P block on image 43. No Catalano line (C block: Cali, Cannavo, Cuccuba, Cavallaro, Contarino), no Cardillo parent, no Alfio Patane x Suderi child, no Mazza/Marza. Suderi and Patane appear only in unrelated families (above). Seen, not counted: P block no. 18 (image 43): Patane Anna, daughter of Filippo Patane and Maria Anna Patane, died 5 Apr 1825, f.18 r (not Alfio x Suderi; not opened); Patane only as a mother's maiden name: Mumeci Sebastiano (no. 69, Stefano Mumeci x Catarina Patane, 18 Dec, f.30?), Sorbello Sebastiano (no. 47, Giusepp",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993191/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993191/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro",
+   "Sorbello"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1826-b92c45",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1826 (Bourbon era)",
+  "scope": "an_ua19993192: (52 images) annual tavola on images 50-52, deceased's surname initial (annual tavola, about 91 acts: A-C image 50 right, C-N image 51, P-Z image 52). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Complete tavola read on images 50-52; zoomed C (Cardillo), M, P and S blocks. No Catalano line, no Alfio Patane x Suderi child, no Mazza/Marza. Cardillo appears as a deceased (Giuseppe, no. 80) and as a mother's surname (Prima Alfio); Suderi only as mother of Spina Maria. Seen, not counted: C block no. 80 (image 51 left): CARDILLO Giuseppe, patria Giarre, son of Antonino Cardillo and Maria Grasso, died 4 Dec 1826 (Cardillo as the deceased's own surname; not Maria Cardillo; possibly a Cardillo family member, act not opened); P block no. 75 (image 52 left): Prima Alfio, son of Giuseppe P",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993192/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993192/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Grasso"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1827-043818",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1827 (Bourbon era)",
+  "scope": "an_ua19993193: (39 images) annual tavola on images 37-39, deceased's surname initial (annual tavola, 65 acts, parents as 'fu' lines; A-C image 37 right, E-R image 38, R-V image 39 left); closing act on image 36. Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Complete tavola on images 37-39 read; zoomed the C, A/B, M-P and G blocks. No Carlo Catalano, no Cardillo parent, no Alfio Patane x Suderi child, no Mazza/Marza. One Catalano line (Maria, dau. of Alfio Catalano x Maria Fresta) recorded for reference. Image 36 is the closing act (65 acts, 33 folios). Seen, not counted: C block no. 40 (image 37): CATALANO Maria, patria Giarre, daughter of Mro Alfio Catalano and Maria Fresta, died 19 Jul 1827 (a Catalano line, but parents Alfio x Maria Fresta, not Carlo x Cardillo; age/spouse not known; act not opened); P block no. 19: Patane Isidoro, son of Giuseppe Patane and Matt",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993193/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993193/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1828-61f6f0",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1828 (Bourbon era)",
+  "scope": "an_ua19993194: (35 images) annual tavola on images 33-35, deceased's surname initial (annual tavola, 58 acts; A-C image 33 right, F-S image 34, S-Z image 35 left); closing act on image 32. Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Complete tavola on images 33-35 read; zoomed the L-P and S blocks. No Catalano line (C block: Carbone, Cavallaro, Cali x3, Calabiano, Coco, Cannavo, Caprina), no Cardillo parent, no Alfio Patane x Suderi child, no Mazza/Marza. Sudero (not Suderi) appears as a deceased surname once. Seen, not counted: S block no. 32 (image 34 right): SUDERO Salvadore, patria Giarre, son of Santo Sudero and Agata Mumeci, died 10 May 1828 (Sudero as the deceased's own surname; parents are not Alfio Patane x Maria Suderi; act not opened); P block no. 46 (image 34 left): Patane Rosa, daughter of Andrea Patane and Mar",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993194/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993194/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro",
+   "Coco"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1829-50e7d8",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1829 (Bourbon era)",
+  "scope": "an_ua19993195: (41 images) annual tavola on images 39-41, deceased's surname initial (annual tavola, 68 acts; A-F image 39 right, G-S image 40, S-V image 41 left); closing act on image 38. Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Complete tavola on images 39-41 read; zoomed the L-P and R-S blocks. No Catalano line (C block: Cali x5, Cavallaro x2, Cannavo, Coco, Cazella, Cesaro), no Cardillo or Suderi/Sudero anywhere, no Alfio Patane x Suderi child, no Mazza/Marza. Seen, not counted: L block no. 7 (image 40): Leonardi Venerando, son of Giovanni Leonardi and Rosaria Patane (Patane as mother's maiden name), died 16 Jan 1829: not Alfio x Suderi; not opened; M block: Marano Giuseppe, Mangano Venera, Mumeci Michele/Giorgio/Rosa/Raffaello (parents Mumeci or Cavallaro/Grasso/Arcidiacon",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993195/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993195/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro",
+   "Coco",
+   "Grasso"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1830-b376dd",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1830 (Bourbon era)",
+  "scope": "an_ua19993196: (27 images) annual tavola on images 25-27, deceased's surname initial (annual tavola, about 41 acts; A-C image 25 right, F-S image 26, T-V image 27 left); closing act on image 24. Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Complete tavola on images 25-27 read; zoomed the F-P block. No Catalano line (C block: Cazella x2, Cavallaro, Calabiano), no Cardillo, no Patane deceased or Patane parent, no Mazza/Marza. Only Suderi? as mother of Framingo Rosaria. Seen, not counted: F block no. 27 (image 26 left): Framingo Rosaria, daughter of Giuseppe Framingo and Lucia Suderi? (reads 'Sudieri/Suderi', Suderi only as mother's maiden name), died 9 Oct 1830: not Maria Suderi wife of Alfio Patane; act not opened; M block: Mangeri Santo (no. 6), Mangano Rosaria (no. 29), Messina S",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993196/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993196/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1831-2e0ce9",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1831 (Bourbon era)",
+  "scope": "an_ua19993197: (54 images) annual tavola on images 51-54, annual tavola by surname initial (img 51 right page = A..C, 52 = C..P, 53 = P..S, 54 left = S..Z; img 50 blank, 54 right blank). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola read at 1800px full pages plus zooms of C and M blocks; no Carlo Catalano x Maria Cardillo, no Patane/Suderi, no Mazza/Marza line. Seen, not counted: Marano Anna, Masina Caterina, Mangano Maria, Mangeri Santa (M block, no Mazza/Marza)",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993197/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993197/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1832-7a06d9",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1832 (Bourbon era)",
+  "scope": "an_ua19993198: (47 images) annual tavola on images 45-47, annual tavola by surname initial (img 45 right page = A..C, 46 = C..M, 47 left = M..S, 47 right = S..T; img 44 blank, 45 left blank form). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola read at 1800px full pages, zooms on C, M and P blocks. No Carlo Catalano x Maria Cardillo, no Alfio Patane x Suderi/Sudero, no Mazza/Marza line; no Suderi/Cardillo in parents columns. Seen, not counted: Mignesi/Mugnisi Giuseppe x2 (img 46, M block, parents Mugnisi Rosario / Pappalardo Maria etc): not Mazza",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993198/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993198/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1833-0892ef",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1833 (Bourbon era)",
+  "scope": "an_ua19993199: (48 images) annual tavola on images 45-48, annual tavola by surname initial (img 45 right page = A..B, 46 = C..L, 47 = M..S, 48 left = S..Z; 48 right blank). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola read at 1800px full pages with zooms on M, P, S blocks. The C block of 1833 holds no Catalano deceased (Conti, Cannavo, Cantarella, Cali). No Carlo Catalano x Maria Cardillo, no Alfio Patane x Suderi, no Mazza/Marza line. Seen, not counted: Mugumeci/Mugnemeci x5 (img 47, M block; Mugnemeci Maria is mother of Parisi Mariano): not Mazza/Marza",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993199/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993199/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1834-652e77",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1834 (Bourbon era)",
+  "scope": "an_ua19993200: (63 images) annual tavola on images 60-63, annual tavola by surname initial (img 60 right page = A..C, 61 = C..P, 62 = P..S, 63 left = S..Z; 63 right blank; img 60 left blank form). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola read at 1800px full pages plus zooms on C, M, P blocks; no Suderi/Sudero in S block or parents, no Mazza/Marza line, no Carlo Catalano x Maria Cardillo. Alignment of the two-line parents cells makes the Patane Sebastiano parents uncertain (doubt), but he is not in the target family by surname of parents seen. Seen, not counted: Mazzarone Domenico (img 61, parents Mazzarone Salvatore / Tomarchio Giuseppa): different surname; Marano, Mangano, Messina entries in M block (img 61)",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993200/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993200/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1835-8892c1",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1835 (Bourbon era)",
+  "scope": "an_ua19993201: (41 images) annual tavola on images 39-41, annual tavola by surname initial (img 39 right page = A..C, 40 left = C..M, 40 right = N..S, 41 left = S..Z; 41 right blank; img 38 blank form). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola read at 1800px full pages plus zooms on C, N-P blocks. No Carlo Catalano x Maria Cardillo, no Alfio Patane x Suderi/Sudero, no Mazza/Marza line. S block (Sapienza, Sorbello, Spina, Tomarchio) has no Suderi. Seen, not counted: Mugnesi/Mignesi Anna, Serafina, Rosa (img 40, M block): not Mazza/Marza; Calabriano (several) vs Catalano - Calabriano Giuseppa, Calabriano Sor Maria Concetta",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993201/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993201/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Sorbello"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1836-9bf953",
+  "status": "done",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1836 (Bourbon era)",
+  "scope": "an_ua19993202: (41 images) annual tavola on images 39-41, annual tavola by GIVEN NAME initial, entries written 'Given-name Surname' with patria Macchia/Milo/Dagala (img 39 right page = A, C; 40 left = F, G, L; 40 right = M, P, R; 41 left = R, S, T, V; 41 right = one late entry Giuseppe Zappala n.31). Register is the 1836 Macchia 'quartiere Macchia ed aggregati' book (eletto particolare), about 69 acts.. Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; every line of the tavola scanned, parents column included.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Unlike 1831-35 this tavola is ordered by given name, so the surname blocks do not exist; I read every line on img 39 right, 40, 41 (about 69 entries, numbers up to 69 accounted for as far as legible) and scanned the parents column for Catalano, Cardillo, Patane, Suderi/Sudero, Mazza/Marza. None present. Seen, not counted: Scuderi/Scaderra surname (also 1833 Scaderi Antonio): possible spelling of Suderi, not confirmed; Maria Torrisi, Maria Cavallaro, Maria Cassella, Maria Leonardi, Maria Licciardello (img 40 right, M block): no Cardillo/Catalano/Patane/Mazza",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993202/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993202/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1837-7dd961",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1837 (Bourbon era)",
+  "scope": "an_ua19993203: (53 images) annual tavola on images 51-53, annual tavola by surname initial (img 51 right page = B, C; 52 left = C, D, E, F, G; 52 right = L, M, N, P; 53 left = P, S; 53 right = S, T, V; imgs 50 and 51 left blank forms). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola read at 1800px full pages plus zooms on C, F, P, S, T blocks. No Catalano deceased in the 1837 C block (Calabriano, Cavallaro, Calo, Cannavo), no Carlo Catalano x Maria Cardillo, no Alfio Patane x Suderi child, no Mazza/Marza line. Seen, not counted: Murabito Giuseppe, Messina Rosa, Marano Filippo (M block): no Mazza/Marza; Patti Venerando (img 53 left) is Patti not Patane; Scuderi/Scaderi forms recur in 1833, 1836, 1837 in this register family, not confirmed as Suderi",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993203/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993203/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1838-0fc587",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1838 (Bourbon era)",
+  "scope": "an_ua19993204: (45 images) annual tavola on images 43-45, annual tavola by surname initial (img 43 right page = A, B, C, D; 44 left = E, F, G, L; 44 right = L, M, N, P; 45 left = P, S, T; 45 right = V, Z; img 42 and 43 left are blank forms). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola read at 1800px full pages plus zooms on M and P blocks. The C block of 1838 has no Catalano (Cappella, Caruso, Cavallaro, Coco, Caramma, Cirapolo); no Cardillo, no Suderi in S block or parents; no Mazza/Marza line. Seen, not counted: Mazzarone Salvadore (n.25, img 44, Milo, parents Mazzarone Rosario / Quattrocchi Agata, 2 May): Mazzarone is a different surname; Mangeri Carmela, Molesi/Moleri Antonia, Messina Orazia, Mangano Salvadore (M block): no Mazza/Marza",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993204/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993204/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro",
+   "Coco"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1839-1d2631",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1839 (Bourbon era)",
+  "scope": "an_ua19993205: (43 images) annual tavola on images 41-43, annual tavola by surname initial (img 41 right page = A, B, C, D; 42 left = F, G, L; 42 right = M, P; 43 left = S, T, V, Z; 43 right blank; img 40 and 41 left are blank/end-of-acts forms). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola read at 1800px full pages plus zooms on M, P, S blocks. No Catalano deceased in C block (Cantarella, Cammaro, Carbone, Cavallaro, Cali, Caruso), no Cardillo, no Mazza/Marza, no Patane child of Alfio x Suderi/Sudero. Seen, not counted: Mazzarone Concetta, Mazzarone Alfio, Mazzarone Carmela (img 42, M block): Mazzarone is a different surname; Mangano Anna also M block; Patti Filippo (img 42) is Patti not Patane",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993205/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993205/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Cavallaro"
+  ]
+ },
+ {
+  "key": "src/antenati-macchia-morti-1840-6c5fdc",
+  "status": "part",
+  "when": "2026-11-12",
+  "source": "Antenati — Macchia (Giarre), Morti 1840 (Bourbon era)",
+  "scope": "an_ua19993206: (66 images) annual tavola on images 62-66, annual tavola by surname initial (img 62 right page = A, B, C; 63 = C, D, F, G, L, M; 64 = N, P, R; 65 = S, T, V; 66 left = Z (one entry); img 61 and 62 left blank forms). Terms typed: Mazza, Marza, Patane, Sudero, Suderi, and Catalano and Cardillo as parents (Massa is case-by-case; Mazzarone and Mazzei are different names). Read by a delegated reader; C, M, P and S blocks zoomed, other letters at page level only, so a Patane or Suderi parent under another child's surname is not excluded.",
+  "result": "No Mazza or Marza line, no Catalano son of Carlo and Maria Cardillo, and no Patane child of Alfio Patane and Maria Suderi was read in this table. Tavola read at 1800px full pages plus zooms on C and P blocks. Within the 1840 tavola the parents cells show the second line first in places, so parents were matched by surname. No Carlo Catalano x Maria Cardillo, no Alfio Patane x Suderi/Sudero child, no Suderi-type surname in the S block, no Mazza/Marza line. Seen, not counted: Spina Angela (img 65): parents Spina Giovanni / Mazzarone Maria: Mazzarone, not Mazza; Marano Maria, Messina Orazia, Murabito Giuseppe (img 63, M block): no Mazza/Marza",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993206/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993206/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
  }
 ]
