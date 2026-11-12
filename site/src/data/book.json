@@ -103,6 +103,10 @@
       "title": "How we know, and what is missing",
       "intro": "What this archive rests on, and for every line of it whether the document itself has been read or only an index to it. The investigations come next: the Sicilian and Queensland registers, the audit of searches that proved to be open, and the test of the claim that runs to 1697. Last come what has been read, the questions that remain, where a document and the family tree disagree, and what is being done as opposed to what is known.",
       "chapters": [
+        { "path": "/research/", "title": "Research", "blurb": "How this archive works in the open: what is to do, what is new, and what it stands on." },
+        { "path": "/research/to-do/", "title": "To do", "blurb": "Open questions, errands and the work list." },
+        { "path": "/research/sources-and-method/", "title": "Sources & method", "blurb": "What this archive stands on, how it reads a register, and the long studies that sit beside them." },
+        { "path": "/research/checks/", "title": "Checks", "blurb": "The archive checking itself: the audit of its negatives." },
         { "path": "/sources/", "title": "Sources", "blurb": "What this archive rests on, and whether the document itself has been read or only an index to it.", "group": "What it rests on" },
         { "path": "/documents/", "title": "Documents", "blurb": "The photographs and papers held in the family's own tree, saved down before the links expired." },
         { "path": "/register-1879/", "title": "The Sicilian Registers", "blurb": "Nine annual indexes and six acts, hunting one man who is still missing.", "group": "Investigations" },
