@@ -11,16 +11,22 @@
                  group of Research (it is also the pulse button), so it was not lost.
      The families (The Marriages, The Hundred and Ten, The Pieces): The Marriages is People > Lists; the other two are Places & families.
      People & places is split: the five lists and Blood relatives are People; Places and the five place pages are Places & families.
-     The name    had sixteen entries and keeps two (The Name, The Mazza). The other fourteen are family pages and are Places & families >
-                 Families. There is no /families/ index in this archive, so none of the fourteen can leave the menu in this change.
-   The family pages come from lib/familylist.js (FAMILY_MENU); "The Mazza" is its first entry and stays under The name.
-   Carried over from the old Base.astro: the landing page at defranceski.com built its chips for this archive from the family pages in
-   the menu, so a family page that is not in the menu did not appear there. They are in the menu still, under Places & families > Families. */
+     The name    had sixteen entries and keeps one (The Name). Mazza joined the family entries (Places & families > Families, first, as
+                 "Mazza"); the other fourteen are family pages there too. There is no /families/ index in this archive, so none of the
+                 fifteen can leave the menu. The family labels are the bare surname and the order is Mazza, then A to Z (12 November 2026).
+     Places      is a link as well as a sub-head, so the list no longer repeats "Places" under itself.
+   The family pages come from lib/familylist.js (FAMILY_MENU).
+   (The old Base.astro said the landing page at defranceski.com builds its chips for this archive from the family pages in the menu. It does
+   not: those chips are fixed links on a hand-written page, so no menu group name or order matters to it.) */
 import { navGroups } from "./research-menu.js";
 import { FAMILY_MENU } from "./familylist.js";
 
-/* the family pages other than The Mazza, which belongs with The Name */
-const [MAZZA, ...OTHER_FAMILIES] = FAMILY_MENU;
+/* THE FAMILY ENTRIES (the family-menu rule, David, 12 November 2026: "own line first then A to Z"): the label is the bare surname (Arena,
+   not The Arena), the archive's own line (Mazza) comes first, and the other surnames follow A to Z. familylist.js keeps its own labels
+   ("The Arena") for the pages that use them; only the menu reads them bare. */
+const bare = ([href, label]) => [href, label.replace(/^The /, "")];
+const [MAZZA, ...REST] = FAMILY_MENU.map(bare);
+const FAMILIES = [MAZZA, ...REST.sort((a, b) => a[1].localeCompare(b[1], "en", { sensitivity: "base" }))];
 
 export const MENU = [
   ["Start", [
@@ -43,14 +49,14 @@ export const MENU = [
     { head: "The families", items: [
       ["/lines/", "The Four Quarters"], ["/the-hundred-and-ten/", "The Hundred and Ten"], ["/components/", "The Pieces"],
     ] },
-    { head: "Places", items: [
-      ["/places/", "Places"], ["/atlas/", "The Atlas"], ["/nudgee/", "Nudgee"], ["/piedimonte-etneo/", "Piedimonte Etneo"],
+    { head: "Places", href: "/places/", items: [
+      ["/atlas/", "The Atlas"], ["/nudgee/", "Nudgee"], ["/piedimonte-etneo/", "Piedimonte Etneo"],
       ["/briatico/", "Briatico"], ["/scilla/", "Scilla"], ["/brisbane/", "Brisbane"],
     ] },
-    { head: "Families", items: OTHER_FAMILIES },
+    { head: "Families", items: FAMILIES },
   ]],
   ["The name", [
-    ["/name/", "The Name"], MAZZA,
+    ["/name/", "The Name"],
   ]],
   ["Research", navGroups],
 ];
