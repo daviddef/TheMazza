@@ -245,7 +245,8 @@ for r in rows:
 # Mascali man. A free-text place would silently stop matching the gazetteer and
 # the marker would vanish without anything failing, so the spellings are closed.
 PLACES = {"Scilla", "Piedimonte Etneo", "Briatico", "Zambrone", "Pizzo",
-          "Mascali", "Giarre", "Riposto", "Potenzoni", "San Costantino Calabro"}
+          "Mascali", "Giarre", "Riposto", "Potenzoni", "San Costantino Calabro",
+          "Linguaglossa"}
 for r in rows:
     p = (r.get("place") or "").strip()
     if p in BLANK:

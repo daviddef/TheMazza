@@ -1,16 +1,16 @@
 [
  {
   "surname": "Mazza",
-  "n": 118,
-  "dead": 105,
+  "n": 163,
+  "dead": 150,
   "living": 13,
-  "first": 1809,
+  "first": 1748,
   "last": 2012,
   "places": [
+   "Piedimonte Etneo",
    "Piedimonte Etneo, Catania, Sicily",
    "Catania, Sicily",
-   "Piedimonte Etneo",
-   "Brisbane, Queensland"
+   "Linguaglossa"
   ]
  },
  {
@@ -83,8 +83,8 @@
  },
  {
   "surname": "Cavallaro",
-  "n": 16,
-  "dead": 14,
+  "n": 17,
+  "dead": 15,
   "living": 2,
   "first": 1805,
   "last": 2013,
@@ -92,7 +92,7 @@
    "Mascali, Catania, Sicily",
    "Piedimonte Etneo, Catania, Sicily",
    "Giarre",
-   "Catania, Sicily"
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -129,6 +129,19 @@
   "places": [
    "Briatico, Vibo Valentia, Calabria",
    "Potenzoni (Briatico), Vibo Valentia, Calabria"
+  ]
+ },
+ {
+  "surname": "Patane",
+  "n": 12,
+  "dead": 12,
+  "living": 0,
+  "first": 1766,
+  "last": 1865,
+  "places": [
+   "Mascali",
+   "Piedimonte Etneo",
+   "Giarre"
   ]
  },
  {
@@ -178,6 +191,20 @@
   "places": [
    "Briatico, Vibo Valentia, Calabria",
    "Buenos Aires, Argentina"
+  ]
+ },
+ {
+  "surname": "Russo",
+  "n": 6,
+  "dead": 6,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla, Reggio Calabria",
+   "Piedimonte Etneo",
+   "Scilla",
+   "Giarre"
   ]
  },
  {
@@ -293,6 +320,19 @@
   ]
  },
  {
+  "surname": "Grasso",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1776,
+  "last": 1928,
+  "places": [
+   "Giarre",
+   "Briatico, Vibo Valentia, Calabria",
+   "Mandaradoni (Briatico), Vibo Valentia, Calabria"
+  ]
+ },
+ {
   "surname": "Ventrice",
   "n": 4,
   "dead": 4,
@@ -305,16 +345,27 @@
   ]
  },
  {
-  "surname": "Russo",
+  "surname": "Raiti",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1827,
+  "last": 1854,
+  "places": [
+   "Piedimonte Etneo",
+   "Piedimonte Etneo, Catania, Sicily"
+  ]
+ },
+ {
+  "surname": "Barbagallo",
   "n": 4,
   "dead": 4,
   "living": 0,
   "first": null,
   "last": null,
   "places": [
-   "Scilla, Reggio Calabria",
-   "Scilla",
-   "Giarre"
+   "Riposto",
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -327,6 +378,40 @@
   "places": []
  },
  {
+  "surname": "Fichera",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1829,
+  "last": 1863,
+  "places": [
+   "Linguaglossa"
+  ]
+ },
+ {
+  "surname": "Catalano",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1809,
+  "last": 1821,
+  "places": [
+   "Giarre",
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Sorbello",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1809,
+  "last": 1826,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Turner",
   "n": 3,
   "dead": 0,
@@ -334,6 +419,18 @@
   "first": null,
   "last": null,
   "places": []
+ },
+ {
+  "surname": "Pennisi",
+  "n": 3,
+  "dead": 2,
+  "living": 1,
+  "first": 1830,
+  "last": 1830,
+  "places": [
+   "Piedimonte Etneo",
+   "Giarre"
+  ]
  },
  {
   "surname": "Pellagrini",
@@ -366,19 +463,6 @@
   "first": null,
   "last": null,
   "places": []
- },
- {
-  "surname": "Grasso",
-  "n": 3,
-  "dead": 3,
-  "living": 0,
-  "first": 1809,
-  "last": 1928,
-  "places": [
-   "Briatico, Vibo Valentia, Calabria",
-   "Mandaradoni (Briatico), Vibo Valentia, Calabria",
-   "Giarre"
-  ]
  },
  {
   "surname": "Ottaviano",
@@ -451,14 +535,36 @@
   "places": []
  },
  {
-  "surname": "Barbagallo",
+  "surname": "Pulvirenti",
   "n": 3,
   "dead": 3,
   "living": 0,
-  "first": null,
-  "last": null,
+  "first": 1775,
+  "last": 1843,
   "places": [
-   "Riposto"
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Sciacca",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": 1826,
+  "last": 1867,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Domenica",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": 1815,
+  "last": 1876,
+  "places": [
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -482,17 +588,6 @@
   "last": 2016,
   "places": [
    "Giarre, Catania, Sicily"
-  ]
- },
- {
-  "surname": "Pennisi",
-  "n": 2,
-  "dead": 1,
-  "living": 1,
-  "first": null,
-  "last": null,
-  "places": [
-   "Giarre"
   ]
  },
  {
@@ -624,14 +719,15 @@
   ]
  },
  {
-  "surname": "Raiti",
+  "surname": "Marza",
   "n": 2,
   "dead": 2,
   "living": 0,
-  "first": null,
-  "last": null,
+  "first": 1851,
+  "last": 1893,
   "places": [
-   "Piedimonte Etneo, Catania, Sicily"
+   "Linguaglossa",
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -668,6 +764,18 @@
   ]
  },
  {
+  "surname": "Sapienza",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Mascali",
+   "Riposto"
+  ]
+ },
+ {
   "surname": "Tomarchio",
   "n": 2,
   "dead": 2,
@@ -690,6 +798,28 @@
   ]
  },
  {
+  "surname": "Faro",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1867,
+  "last": 1887,
+  "places": [
+   "Linguaglossa"
+  ]
+ },
+ {
+  "surname": "Greco",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1830,
+  "last": 1830,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
   "surname": "Bassi",
   "n": 2,
   "dead": 2,
@@ -698,18 +828,6 @@
   "last": 1828,
   "places": [
    "Mascali"
-  ]
- },
- {
-  "surname": "Catalano",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": 1809,
-  "last": 1821,
-  "places": [
-   "Giarre",
-   "Piedimonte Etneo"
   ]
  },
  {
@@ -1432,6 +1550,17 @@
   "places": []
  },
  {
+  "surname": "Toscano",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1825,
+  "last": 1825,
+  "places": [
+   "Linguaglossa"
+  ]
+ },
+ {
   "surname": "Cannavò",
   "n": 1,
   "dead": 1,
@@ -1550,6 +1679,17 @@
   "last": null,
   "places": [
    "Zambrone"
+  ]
+ },
+ {
+  "surname": "Suderi",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1761,
+  "last": 1761,
+  "places": [
+   "Giarre"
   ]
  },
  {
@@ -1696,6 +1836,17 @@
   ]
  },
  {
+  "surname": "Cardillo",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1776,
+  "last": 1776,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Currenti",
   "n": 1,
   "dead": 1,
@@ -1760,14 +1911,25 @@
   ]
  },
  {
-  "surname": "Sapienza",
+  "surname": "Ragusa",
   "n": 1,
   "dead": 1,
   "living": 0,
   "first": null,
   "last": null,
   "places": [
-   "Riposto"
+   "Linguaglossa"
+  ]
+ },
+ {
+  "surname": "Sudero",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1801,
+  "last": 1801,
+  "places": [
+   "Giarre"
   ]
  },
  {
@@ -1835,14 +1997,14 @@
   ]
  },
  {
-  "surname": "Sorbello",
+  "surname": "Rosa",
   "n": 1,
   "dead": 1,
   "living": 0,
-  "first": 1826,
-  "last": 1826,
+  "first": 1819,
+  "last": 1889,
   "places": [
-   "Giarre"
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -1865,6 +2027,17 @@
   "last": null,
   "places": [
    "Riposto"
+  ]
+ },
+ {
+  "surname": "Lo Coco",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Giarre"
   ]
  },
  {
@@ -1898,6 +2071,28 @@
   "last": null,
   "places": [
    "Mascali"
+  ]
+ },
+ {
+  "surname": "Vaglia?",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1766,
+  "last": 1766,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
+  "surname": "Lo Faro",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1857,
+  "last": 1857,
+  "places": [
+   "Linguaglossa"
   ]
  },
  {

@@ -185,6 +185,58 @@
   "born": 1746
  },
  {
+  "name": "Ignazio Mazza",
+  "head": "ignazio-mazza-1887",
+  "headId": "@Rignazio-mazza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmariano-mazza-2@",
+    "name": "Mariano Mazza",
+    "slug": "mariano-mazza-1809",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rinnocenzio-mazza@",
+    "name": "Innocenzio Mazza",
+    "slug": "innocenzio-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-mazza-2@",
+    "name": "Giuseppe Mazza",
+    "slug": "giuseppe-mazza-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica@",
+    "name": "Domenica",
+    "slug": "domenica",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfia-mazza@",
+    "name": "Alfia Mazza",
+    "slug": "alfia-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa@",
+    "name": "Rosa",
+    "slug": "rosa-1819",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1748
+ },
+ {
   "name": "Giovanni Costa",
   "head": "giovanni-costa",
   "headId": "@Rgiovanni-costa@",
@@ -303,6 +355,23 @@
   "born": 1760
  },
  {
+  "name": "Antonino Suderi",
+  "head": "antonino-suderi",
+  "headId": "@Rantonino-suderi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-sudero@",
+    "name": "Maria Sudero",
+    "slug": "maria-sudero",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1761
+ },
+ {
   "name": "Caterina Di Meio & Pasquale Prostamo",
   "head": "caterina-di-meio",
   "headId": "@I222@",
@@ -349,6 +418,40 @@
   "born": 1765
  },
  {
+  "name": "Rosario Patane",
+  "head": "rosario-patane",
+  "headId": "@Rrosario-patane@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ralfio-patane@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1766
+ },
+ {
+  "name": "Venera Vaglia?",
+  "head": "venera-vaglia",
+  "headId": "@Rvenera-vaglia@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-sudero@",
+    "name": "Maria Sudero",
+    "slug": "maria-sudero",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1766
+ },
+ {
   "name": "Nicola Prostamo & Giuseppa Muzzi",
   "head": "nicola-prostamo",
   "headId": "@I228@",
@@ -383,6 +486,85 @@
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
   "born": 1768
+ },
+ {
+  "name": "Giuseppa Pulvirenti",
+  "head": "giuseppa-pulvirenti",
+  "headId": "@Rgiuseppa-pulvirenti@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmariano-mazza-2@",
+    "name": "Mariano Mazza",
+    "slug": "mariano-mazza-1809",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-mazza-2@",
+    "name": "Giuseppe Mazza",
+    "slug": "giuseppe-mazza-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica@",
+    "name": "Domenica",
+    "slug": "domenica",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfia-mazza@",
+    "name": "Alfia Mazza",
+    "slug": "alfia-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa@",
+    "name": "Rosa",
+    "slug": "rosa-1819",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1775
+ },
+ {
+  "name": "Maria Cardillo",
+  "head": "maria-cardillo",
+  "headId": "@Rmaria-cardillo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-catalano@",
+    "name": "Maria Catalano",
+    "slug": "maria-catalano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1776
+ },
+ {
+  "name": "Venera Grasso",
+  "head": "venera-grasso",
+  "headId": "@Rvenera-grasso@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ralfio-patane@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1776
  },
  {
   "name": "Pasquale Sofi",
@@ -802,6 +984,72 @@
   "born": 1796
  },
  {
+  "name": "Innocenzio Mazza",
+  "head": "innocenzio-mazza",
+  "headId": "@Rinnocenzio-mazza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvatore-mazza@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1841",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonino-mazza-2@",
+    "name": "Antonino Mazza",
+    "slug": "antonino-mazza-1843",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-mazza@",
+    "name": "Giuseppe Mazza",
+    "slug": "giuseppe-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragata-mazza@",
+    "name": "Agata Mazza",
+    "slug": "agata-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-mazza@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-1839",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-mazza@",
+    "name": "Alfio Mazza",
+    "slug": "alfio-mazza-1845",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsebastiana-mazza@",
+    "name": "Sebastiana Mazza",
+    "slug": "sebastiana-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcarmela-marza@",
+    "name": "Carmela Marza",
+    "slug": "carmela-marza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1796
+ },
+ {
   "name": "Sebastiana Nicotra",
   "head": "sebastiana-nicotra",
   "headId": "@Rsebastiana-nicotra@",
@@ -884,6 +1132,72 @@
   ],
   "place": "Pizzo, Vibo Valentia, Calabria",
   "born": 1799
+ },
+ {
+  "name": "Alfio Patane",
+  "head": "alfio-patane",
+  "headId": "@Ralfio-patane@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiovanni-patane@",
+    "name": "Giovanni Patane",
+    "slug": "giovanni-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-patane@",
+    "name": "Leonarda Patane",
+    "slug": "leonarda-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-patane-2@",
+    "name": "Leonarda Patane",
+    "slug": "leonarda-patane-1834",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-patane-2@",
+    "name": "Rosa Patane",
+    "slug": "rosa-patane-1838",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-patane@",
+    "name": "Venera Patane",
+    "slug": "venera-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-patane@",
+    "name": "Giuseppa Patane",
+    "slug": "giuseppa-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-patane@",
+    "name": "Rosa Patane",
+    "slug": "rosa-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1800
  },
  {
   "name": "Giovanni Arlotta",
@@ -969,6 +1283,72 @@
    }
   ],
   "place": "",
+  "born": 1801
+ },
+ {
+  "name": "Maria Sudero",
+  "head": "maria-sudero",
+  "headId": "@Rmaria-sudero@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiovanni-patane@",
+    "name": "Giovanni Patane",
+    "slug": "giovanni-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-patane@",
+    "name": "Leonarda Patane",
+    "slug": "leonarda-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-patane-2@",
+    "name": "Leonarda Patane",
+    "slug": "leonarda-patane-1834",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-patane-2@",
+    "name": "Rosa Patane",
+    "slug": "rosa-patane-1838",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-patane@",
+    "name": "Venera Patane",
+    "slug": "venera-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-patane@",
+    "name": "Giuseppa Patane",
+    "slug": "giuseppa-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosa-patane@",
+    "name": "Rosa Patane",
+    "slug": "rosa-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
   "born": 1801
  },
  {
@@ -1163,6 +1543,20 @@
     "slug": "rosario-mazza",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-2@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1841-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Piedimonte Etneo",
@@ -1178,6 +1572,20 @@
     "id": "@I23@",
     "name": "Rosario Mazza",
     "slug": "rosario-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-2@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1841-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza",
     "living": false,
     "via": "read"
    }
@@ -1253,6 +1661,30 @@
   ],
   "place": "Giarre",
   "born": 1810
+ },
+ {
+  "name": "Giuseppe Mazza",
+  "head": "giuseppe-mazza-2",
+  "headId": "@Rgiuseppe-mazza-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsanto-mazza@",
+    "name": "Santo Mazza",
+    "slug": "santo-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-mazza@",
+    "name": "Giuseppa Mazza",
+    "slug": "giuseppa-mazza-1837",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1811
  },
  {
   "name": "Giuseppe Nicotra",
@@ -1615,6 +2047,30 @@
   "born": 1821
  },
  {
+  "name": "Giovanni Patane",
+  "head": "giovanni-patane",
+  "headId": "@Rgiovanni-patane@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ralfio-patane-2@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1863",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-patane@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1822
+ },
+ {
   "name": "Giovanna Ventrice & Domenico Prostamo",
   "head": "giovanna-ventrice",
   "headId": "@I218@",
@@ -1716,6 +2172,37 @@
   "born": 1825
  },
  {
+  "name": "Agata Toscano",
+  "head": "agata-toscano",
+  "headId": "@Ragata-toscano@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenica-fichera@",
+    "name": "Domenica Fichera",
+    "slug": "domenica-fichera",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-fichera@",
+    "name": "Salvatore Fichera",
+    "slug": "salvatore-fichera",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-fichera-2@",
+    "name": "Salvatore Fichera",
+    "slug": "salvatore-fichera-1859",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Linguaglossa",
+  "born": 1825
+ },
+ {
   "name": "Foca Prostamo & Maria Teresa Fragala",
   "head": "foca-prostamo",
   "headId": "@I343@",
@@ -1749,6 +2236,23 @@
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1826
+ },
+ {
+  "name": "Antonino Sciacca",
+  "head": "antonino-sciacca",
+  "headId": "@Rantonino-sciacca@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rconcetta-sciacca@",
+    "name": "Concetta Sciacca",
+    "slug": "concetta-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": 1826
  },
  {
@@ -1860,6 +2364,23 @@
   "born": 1827
  },
  {
+  "name": "Giuseppe Raiti",
+  "head": "giuseppe-raiti",
+  "headId": "@Rgiuseppe-raiti@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rrosa-raiti@",
+    "name": "Rosa Raiti",
+    "slug": "rosa-raiti",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1827
+ },
+ {
   "name": "Salvadore Nicotra",
   "head": "salvadore-nicotra-1827-2",
   "headId": "@Rsalvadore-nicotra-13@",
@@ -1896,6 +2417,89 @@
   ],
   "place": "Giarre",
   "born": 1827
+ },
+ {
+  "name": "Antonio Fichera",
+  "head": "antonio-fichera",
+  "headId": "@Rantonio-fichera@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenica-fichera@",
+    "name": "Domenica Fichera",
+    "slug": "domenica-fichera",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-fichera@",
+    "name": "Salvatore Fichera",
+    "slug": "salvatore-fichera",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-fichera-2@",
+    "name": "Salvatore Fichera",
+    "slug": "salvatore-fichera-1859",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Linguaglossa",
+  "born": 1829
+ },
+ {
+  "name": "Pasquale Mazza",
+  "head": "pasquale-mazza",
+  "headId": "@Rpasquale-mazza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rantonino-mazza@",
+    "name": "Antonino Mazza",
+    "slug": "antonino-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosaria-mazza@",
+    "name": "Rosaria Mazza",
+    "slug": "rosaria-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-5@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1869",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-mazza@",
+    "name": "Francesco Mazza",
+    "slug": "francesco-mazza-1870",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-mazza-3@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-1873",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgrazia-mazza@",
+    "name": "Grazia Mazza",
+    "slug": "grazia-mazza-1876",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1829
  },
  {
   "name": "Giovanna Perri & Sebastiano Prostamo",
@@ -1953,6 +2557,40 @@
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1830
+ },
+ {
+  "name": "Agata Pennisi",
+  "head": "agata-pennisi",
+  "headId": "@Ragata-pennisi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rrosa-raiti@",
+    "name": "Rosa Raiti",
+    "slug": "rosa-raiti",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1830
+ },
+ {
+  "name": "Rosaria Greco",
+  "head": "rosaria-greco",
+  "headId": "@Rrosaria-greco@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rconcetta-sciacca@",
+    "name": "Concetta Sciacca",
+    "slug": "concetta-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": 1830
  },
  {
@@ -2025,6 +2663,68 @@
   "born": 1834
  },
  {
+  "name": "Leonarda Patane",
+  "head": "leonarda-patane",
+  "headId": "@Rleonarda-patane@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rvenerando-mazza@",
+    "name": "Venerando Mazza",
+    "slug": "venerando-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-mazza-2@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-1864",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-mazza-2@",
+    "name": "Giuseppa Mazza",
+    "slug": "giuseppa-mazza-1871",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-mazza-3@",
+    "name": "Alfio Mazza",
+    "slug": "alfio-mazza-1868",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1836
+ },
+ {
+  "name": "Venera Mazza",
+  "head": "venera-mazza",
+  "headId": "@Rvenera-mazza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ralfio-patane-2@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1863",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-patane@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Linguaglossa",
+  "born": 1837
+ },
+ {
   "name": "Antonio Costa",
   "head": "antonio-costa",
   "headId": "@Rantonio-costa@",
@@ -2064,6 +2764,103 @@
   ],
   "place": "Giarre",
   "born": 1840
+ },
+ {
+  "name": "Salvatore Mazza",
+  "head": "salvatore-mazza-1841",
+  "headId": "@Rsalvatore-mazza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rvenerio-mazza@",
+    "name": "Venerio Mazza",
+    "slug": "venerio-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-mazza-2@",
+    "name": "Alfio Mazza",
+    "slug": "alfio-mazza-1888",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-3@",
+    "name": "Domenica",
+    "slug": "domenica-1876-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosaria-mazza-2@",
+    "name": "Rosaria Mazza",
+    "slug": "rosaria-mazza-1883",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza-2@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza-1883",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonino-mazza-3@",
+    "name": "Antonino Mazza",
+    "slug": "antonino-mazza-1885",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsebastiano-mazza@",
+    "name": "Sebastiano Mazza",
+    "slug": "sebastiano-mazza-1892",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1841
+ },
+ {
+  "name": "Salvatore Mazza",
+  "head": "salvatore-mazza-1841-2",
+  "headId": "@Rsalvatore-mazza-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rvenerando-mazza@",
+    "name": "Venerando Mazza",
+    "slug": "venerando-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-mazza-2@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-1864",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-mazza-2@",
+    "name": "Giuseppa Mazza",
+    "slug": "giuseppa-mazza-1871",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-mazza-3@",
+    "name": "Alfio Mazza",
+    "slug": "alfio-mazza-1868",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1841
  },
  {
   "name": "Filippa Cavallaro",
@@ -2158,6 +2955,37 @@
    }
   ],
   "place": "Potenzoni (Briatico), Vibo Valentia, Calabria",
+  "born": 1843
+ },
+ {
+  "name": "Antonino Mazza",
+  "head": "antonino-mazza-1843",
+  "headId": "@Rantonino-mazza-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenica-2@",
+    "name": "Domenica",
+    "slug": "domenica-1876",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragata-mazza-2@",
+    "name": "Agata Mazza",
+    "slug": "agata-mazza-1882",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsenzio-mazza@",
+    "name": "Senzio Mazza",
+    "slug": "senzio-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": 1843
  },
  {
@@ -2325,6 +3153,37 @@
   "born": 1851
  },
  {
+  "name": "Rosa Raiti",
+  "head": "rosa-raiti",
+  "headId": "@Rrosa-raiti@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenica-2@",
+    "name": "Domenica",
+    "slug": "domenica-1876",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragata-mazza-2@",
+    "name": "Agata Mazza",
+    "slug": "agata-mazza-1882",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsenzio-mazza@",
+    "name": "Senzio Mazza",
+    "slug": "senzio-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1854
+ },
+ {
   "name": "Fillipo Melluso & Rosa Vitrale",
   "head": "fillipo-melluso",
   "headId": "@I410@",
@@ -2345,6 +3204,65 @@
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
   "born": 1855
+ },
+ {
+  "name": "Concetta Sciacca",
+  "head": "concetta-sciacca",
+  "headId": "@Rconcetta-sciacca@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rvenerio-mazza@",
+    "name": "Venerio Mazza",
+    "slug": "venerio-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-mazza-2@",
+    "name": "Alfio Mazza",
+    "slug": "alfio-mazza-1888",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-3@",
+    "name": "Domenica",
+    "slug": "domenica-1876-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosaria-mazza-2@",
+    "name": "Rosaria Mazza",
+    "slug": "rosaria-mazza-1883",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza-2@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza-1883",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonino-mazza-3@",
+    "name": "Antonino Mazza",
+    "slug": "antonino-mazza-1885",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsebastiano-mazza@",
+    "name": "Sebastiano Mazza",
+    "slug": "sebastiano-mazza-1892",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1856
  },
  {
   "name": "Alfonso Prostamo & Caterina Melluso",
@@ -2526,6 +3444,78 @@
   ],
   "place": "Scilla",
   "born": 1861
+ },
+ {
+  "name": "Venerando Mazza",
+  "head": "venerando-mazza",
+  "headId": "@Rvenerando-mazza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvatore-mazza-3@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1887",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-4@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1888",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-marza@",
+    "name": "Alfio Marza",
+    "slug": "alfio-marza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1861
+ },
+ {
+  "name": "Domenica Fichera",
+  "head": "domenica-fichera",
+  "headId": "@Rdomenica-fichera@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvatore-mazza-4@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1888",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-marza@",
+    "name": "Alfio Marza",
+    "slug": "alfio-marza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Linguaglossa",
+  "born": 1863
+ },
+ {
+  "name": "Concetta Faro",
+  "head": "concetta-faro",
+  "headId": "@Rconcetta-faro@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvatore-mazza-3@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1887",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Linguaglossa",
+  "born": 1867
  },
  {
   "name": "Giovanni Arena & Concetta Russo",
@@ -9701,6 +10691,23 @@
   "born": null
  },
  {
+  "name": "Agata Barbagallo",
+  "head": "agata-barbagallo",
+  "headId": "@Ragata-barbagallo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppa-pulvirenti@",
+    "name": "Giuseppa Pulvirenti",
+    "slug": "giuseppa-pulvirenti",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
   "name": "Alfia Cannavò",
   "head": "alfia-cannavò",
   "headId": "@Ralfia-cannavò@",
@@ -9921,6 +10928,23 @@
   "born": null
  },
  {
+  "name": "Angela Pulvirenti",
+  "head": "angela-pulvirenti",
+  "headId": "@Rangela-pulvirenti@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rinnocenzio-mazza@",
+    "name": "Innocenzio Mazza",
+    "slug": "innocenzio-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
   "name": "Anna Arlotta",
   "head": "anna-arlotta",
   "headId": "@Ranna-arlotta@",
@@ -10055,6 +11079,23 @@
   "born": null
  },
  {
+  "name": "Antonia Sapienza",
+  "head": "antonia-sapienza",
+  "headId": "@Rantonia-sapienza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rignazio-mazza@",
+    "name": "Ignazio Mazza",
+    "slug": "ignazio-mazza-1887",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Mascali",
+  "born": null
+ },
+ {
   "name": "Antonio Nicotra",
   "head": "antonio-nicotra",
   "headId": "@Rantonio-nicotra@",
@@ -10072,6 +11113,23 @@
   "born": null
  },
  {
+  "name": "Carlo Catalano",
+  "head": "carlo-catalano",
+  "headId": "@Rcarlo-catalano@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-catalano@",
+    "name": "Maria Catalano",
+    "slug": "maria-catalano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
   "name": "Carmela Maria Borello",
   "head": "carmela-maria-borello",
   "headId": "@Rcarmela-maria-borello@",
@@ -10086,6 +11144,124 @@
    }
   ],
   "place": "",
+  "born": null
+ },
+ {
+  "name": "Concetta Greco",
+  "head": "concetta-greco",
+  "headId": "@Rconcetta-greco@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rantonino-mazza@",
+    "name": "Antonino Mazza",
+    "slug": "antonino-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosaria-mazza@",
+    "name": "Rosaria Mazza",
+    "slug": "rosaria-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-5@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1869",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-mazza@",
+    "name": "Francesco Mazza",
+    "slug": "francesco-mazza-1870",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-mazza-3@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-1873",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgrazia-mazza@",
+    "name": "Grazia Mazza",
+    "slug": "grazia-mazza-1876",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
+  "name": "Domenica Cavallaro",
+  "head": "domenica-cavallaro",
+  "headId": "@Rdomenica-cavallaro@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvatore-mazza@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1841",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonino-mazza-2@",
+    "name": "Antonino Mazza",
+    "slug": "antonino-mazza-1843",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-mazza@",
+    "name": "Giuseppe Mazza",
+    "slug": "giuseppe-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragata-mazza@",
+    "name": "Agata Mazza",
+    "slug": "agata-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-mazza@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-1839",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-mazza@",
+    "name": "Alfio Mazza",
+    "slug": "alfio-mazza-1845",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsebastiana-mazza@",
+    "name": "Sebastiana Mazza",
+    "slug": "sebastiana-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcarmela-marza@",
+    "name": "Carmela Marza",
+    "slug": "carmela-marza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": null
  },
  {
@@ -10137,6 +11313,23 @@
    }
   ],
   "place": "Mascali",
+  "born": null
+ },
+ {
+  "name": "Domenico Mazza",
+  "head": "domenico-mazza",
+  "headId": "@Rdomenico-mazza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpasquale-mazza-2@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza-1889",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": null
  },
  {
@@ -10328,6 +11521,54 @@
   "born": null
  },
  {
+  "name": "Gioachino Sorbello",
+  "head": "gioachino-sorbello",
+  "headId": "@Rgioachino-sorbello@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpietro-sorbello@",
+    "name": "Pietro Sorbello",
+    "slug": "pietro-sorbello",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmariano-sorbello@",
+    "name": "Mariano Sorbello",
+    "slug": "mariano-sorbello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
+  "name": "Giovanni Faro",
+  "head": "giovanni-faro",
+  "headId": "@Rgiovanni-faro@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rconcetta-faro@",
+    "name": "Concetta Faro",
+    "slug": "concetta-faro",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvincenzo-lo-faro@",
+    "name": "Vincenzo Lo Faro",
+    "slug": "vincenzo-lo-faro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Linguaglossa",
+  "born": null
+ },
+ {
   "name": "Giuseppa Vitale",
   "head": "giuseppa-vitale",
   "headId": "@Rgiuseppa-vitale@",
@@ -10461,6 +11702,40 @@
    }
   ],
   "place": "Giarre",
+  "born": null
+ },
+ {
+  "name": "Giuseppe Sciacca",
+  "head": "giuseppe-sciacca",
+  "headId": "@Rgiuseppe-sciacca@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rantonino-sciacca@",
+    "name": "Antonino Sciacca",
+    "slug": "antonino-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
+  "name": "Innocenzio Mazza",
+  "head": "innocenzio-mazza-1828",
+  "headId": "@Rinnocenzio-mazza-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rignazio-mazza@",
+    "name": "Ignazio Mazza",
+    "slug": "ignazio-mazza-1887",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Mascali",
   "born": null
  },
  {
@@ -10704,6 +11979,47 @@
   "born": null
  },
  {
+  "name": "Maria Ragusa",
+  "head": "maria-ragusa",
+  "headId": "@Rmaria-ragusa@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rconcetta-faro@",
+    "name": "Concetta Faro",
+    "slug": "concetta-faro",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvincenzo-lo-faro@",
+    "name": "Vincenzo Lo Faro",
+    "slug": "vincenzo-lo-faro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Linguaglossa",
+  "born": null
+ },
+ {
+  "name": "Maria Russo",
+  "head": "maria-russo-1",
+  "headId": "@Rmaria-russo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpasquale-mazza-2@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza-1889",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
   "name": "Maria Sapienza",
   "head": "maria-sapienza",
   "headId": "@Rmaria-sapienza@",
@@ -10773,6 +12089,23 @@
    }
   ],
   "place": "Giarre",
+  "born": null
+ },
+ {
+  "name": "Mariano Pulvirenti",
+  "head": "mariano-pulvirenti",
+  "headId": "@Rmariano-pulvirenti@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppa-pulvirenti@",
+    "name": "Giuseppa Pulvirenti",
+    "slug": "giuseppa-pulvirenti",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": null
  },
  {
@@ -10965,6 +12298,23 @@
   "born": null
  },
  {
+  "name": "Rosaria Russo",
+  "head": "rosaria-russo",
+  "headId": "@Rrosaria-russo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rantonino-sciacca@",
+    "name": "Antonino Sciacca",
+    "slug": "antonino-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
   "name": "Salvadore Nicotra",
   "head": "salvadore-nicotra",
   "headId": "@Rsalvadore-nicotra@",
@@ -11133,6 +12483,30 @@
   "born": null
  },
  {
+  "name": "Serafina Lo Coco",
+  "head": "serafina-lo-coco",
+  "headId": "@Rserafina-lo-coco@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpietro-sorbello@",
+    "name": "Pietro Sorbello",
+    "slug": "pietro-sorbello",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmariano-sorbello@",
+    "name": "Mariano Sorbello",
+    "slug": "mariano-sorbello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
   "name": "Simone Nicotra",
   "head": "simone-nicotra",
   "headId": "@Rsimone-nicotra@",
@@ -11181,6 +12555,30 @@
    }
   ],
   "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Venera Catalano",
+  "head": "venera-catalano",
+  "headId": "@Rvenera-catalano@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsanto-mazza@",
+    "name": "Santo Mazza",
+    "slug": "santo-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-mazza@",
+    "name": "Giuseppa Mazza",
+    "slug": "giuseppa-mazza-1837",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": null
  },
  {

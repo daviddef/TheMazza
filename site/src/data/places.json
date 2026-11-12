@@ -53,7 +53,7 @@
  },
  {
   "name": "Giarre",
-  "born": 108,
+  "born": 121,
   "died": 0,
   "buried": 0,
   "lived": 0,
@@ -65,6 +65,7 @@
    "alfio-nicotra",
    "alfio-nicotra-1796",
    "alfio-nicotra-1783",
+   "alfio-patane",
    "andrea-nicotra",
    "angela-caruso",
    "angela-costa",
@@ -76,6 +77,8 @@
    "angelo-nicotra",
    "anna-costa",
    "antonina-nicotra-1860",
+   "antonino-suderi",
+   "carlo-catalano",
    "carmela-nicotra-1857",
    "carmela-nicotra-1820",
    "caterina-nicotra",
@@ -96,12 +99,9 @@
    "francesco-nicotra",
    "gaetano-nicotra-1835",
    "giacomo-nicotra-1863",
-   "giacomo-nicotra",
-   "giovanna-nicotra",
-   "giuseppa-nicolosi",
-   "giuseppa-nicotra-1829"
+   "giacomo-nicotra"
   ],
-  "n": 108
+  "n": 121
  },
  {
   "name": "Briatico, Vibo Valentia, Calabria",
@@ -154,6 +154,58 @@
    "caterina-scangiaterra"
   ],
   "n": 104
+ },
+ {
+  "name": "Piedimonte Etneo",
+  "born": 76,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1748,
+  "last": 1892,
+  "who": [
+   "agata-barbagallo",
+   "agata-mazza",
+   "agata-mazza-1882",
+   "agata-pennisi",
+   "alfia-mazza",
+   "alfio-mazza-1845",
+   "alfio-mazza-1868",
+   "alfio-mazza-1888",
+   "alfio-patane-1863",
+   "angela-pulvirenti",
+   "anna-cavallaro-1805",
+   "antonino-mazza",
+   "antonino-mazza-1885",
+   "antonino-mazza-1843",
+   "antonino-sciacca",
+   "carmela-marza",
+   "concetta-greco",
+   "concetta-sciacca",
+   "domenica",
+   "domenica-1876",
+   "domenica-1876-2",
+   "domenica-cavallaro",
+   "domenico-mazza",
+   "francesco-mazza-1870",
+   "gaetano-bonanno",
+   "gaetano-cassaniti",
+   "gaetano-mazza",
+   "giovanni-mazza-1875",
+   "giuseppa-mazza-1837",
+   "giuseppa-pulvirenti",
+   "giuseppa-ragonesi",
+   "giuseppe-mazza",
+   "giuseppe-mazza-2",
+   "giuseppe-raiti",
+   "giuseppe-sciacca",
+   "grazia-mazza-1876",
+   "ignazio-mazza-1886",
+   "ignazio-mazza-1887",
+   "innocenzio-mazza",
+   "leonarda-patane"
+  ],
+  "n": 76
  },
  {
   "name": "Piedimonte Etneo, Catania, Sicily",
@@ -333,6 +385,35 @@
   "n": 24
  },
  {
+  "name": "Mascali",
+  "born": 17,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1827,
+  "last": 1840,
+  "who": [
+   "angela-dajdone",
+   "angela-nicotra-1851",
+   "antonia-sapienza",
+   "carmela-nicotra",
+   "carmelo-tomarchio",
+   "catarina-tomarchio",
+   "domenico-bassi",
+   "giuseppa-patane",
+   "giuseppe-patane",
+   "innocenzio-mazza-1828",
+   "leonarda-patane-1834",
+   "margherita-bassi",
+   "maria-nicotra-1",
+   "rosa-patane-1838",
+   "santa-dajdone",
+   "venera-murabito",
+   "venera-patane"
+  ],
+  "n": 17
+ },
+ {
   "name": "Pizzo, Vibo Valentia, Calabria",
   "born": 4,
   "died": 8,
@@ -384,6 +465,31 @@
   "n": 13
  },
  {
+  "name": "Linguaglossa",
+  "born": 13,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1825,
+  "last": 1891,
+  "who": [
+   "agata-toscano",
+   "alfio-marza",
+   "antonio-fichera",
+   "concetta-faro",
+   "domenica-fichera",
+   "giovanni-faro",
+   "giuseppa-mazza-1871",
+   "maria-ragusa",
+   "rosario-mazza-1883",
+   "salvatore-fichera",
+   "salvatore-fichera-1859",
+   "venera-mazza",
+   "vincenzo-lo-faro"
+  ],
+  "n": 13
+ },
+ {
   "name": "Buenos Aires, Argentina",
   "born": 10,
   "died": 2,
@@ -426,50 +532,6 @@
    "striglia",
    "rosaria-malerba",
    "maria-antonia-la-valle"
-  ],
-  "n": 10
- },
- {
-  "name": "Mascali",
-  "born": 10,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": null,
-  "last": null,
-  "who": [
-   "angela-dajdone",
-   "angela-nicotra-1851",
-   "carmela-nicotra",
-   "carmelo-tomarchio",
-   "catarina-tomarchio",
-   "domenico-bassi",
-   "margherita-bassi",
-   "maria-nicotra-1",
-   "santa-dajdone",
-   "venera-murabito"
-  ],
-  "n": 10
- },
- {
-  "name": "Piedimonte Etneo",
-  "born": 10,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1805,
-  "last": 1880,
-  "who": [
-   "anna-cavallaro-1805",
-   "gaetano-bonanno",
-   "gaetano-cassaniti",
-   "gaetano-mazza",
-   "giuseppa-ragonesi",
-   "maria-catalano",
-   "maria-currenti",
-   "mariano-mazza-1872",
-   "mariano-mazza-1809",
-   "teresa-nicotra"
   ],
   "n": 10
  },

@@ -62,5 +62,19 @@
   "conf": "exact",
   "matched": "Zambrone, Vibo Valentia, Calabria, 89868, Italia",
   "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim, which returns the comune boundary. UNLIKE the Soriano Calabro entry above, this one does NOT correct a collision: the bare-name query «Zambrone, Italy» returns the SAME coordinate, so the automatic answer would have been right. It is here only because the shared gazetteer does not carry the name, and this archive needed it on the Ventrice line, whose people are documented additions and so were never on the map."
+ },
+ "linguaglossa": {
+  "lat": 37.8409138,
+  "lon": 15.1437161,
+  "conf": "exact",
+  "matched": "Linguaglossa, Catania, Sicilia, 95015, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim on 11 November 2026, which returns the comune boundary. Needed for the Linguaglossa marriages of 1886 and 1887 and the birthplaces of Venera Mazza and the Faro and Fichera families."
+ },
+ "linguaglossa catania": {
+  "lat": 37.8409138,
+  "lon": 15.1437161,
+  "conf": "exact",
+  "matched": "Linguaglossa, Catania, Sicilia, 95015, Italia",
+  "why": "Not in the estate gazetteer. Looked up against OpenStreetMap Nominatim on 11 November 2026, which returns the comune boundary. Needed for the Linguaglossa marriages of 1886 and 1887 and the birthplaces of Venera Mazza and the Faro and Fichera families."
  }
 }

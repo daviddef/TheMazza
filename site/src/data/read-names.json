@@ -39,27 +39,6 @@
    ]
   },
   {
-   "name": "Agata Pennisi",
-   "slug": "agata-pennisi",
-   "aliases": [],
-   "records": [
-    {
-     "as": "parent",
-     "role": "mother of the bride",
-     "of": "Rosa Raiti",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1874",
-     "no": "26",
-     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
-     "ark": "an_ua83395",
-     "age": "",
-     "trade": "",
-     "page": "/register-1879/#the-finding"
-    }
-   ]
-  },
-  {
    "name": "Angela De Franco",
    "slug": "angela-de-franco",
    "aliases": [],
@@ -311,43 +290,6 @@
    ]
   },
   {
-   "name": "Antonino Mazza",
-   "slug": "antonino-mazza",
-   "aliases": [
-    "Mazza Antonino"
-   ],
-   "records": [
-    {
-     "as": "groom",
-     "role": "groom",
-     "of": "Rosa Raiti",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1874",
-     "no": "26",
-     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
-     "ark": "an_ua83395",
-     "age": "31",
-     "trade": "bracciante",
-     "page": "/register-1879/#the-finding"
-    },
-    {
-     "as": "child",
-     "role": "child born, son of",
-     "of": "Pasquale Mazza and Concetta Greco",
-     "comune": "Piedimonte Etneo",
-     "kind": "Nati",
-     "year": "1877",
-     "no": "164",
-     "act": "Piedimonte Etneo, Nati 1877, atto 164",
-     "ark": "an_ua83490",
-     "age": "",
-     "trade": "",
-     "page": "/register-1879/#the-finding"
-    }
-   ]
-  },
-  {
    "name": "Antonino Satriano",
    "slug": "antonino-satriano",
    "aliases": [],
@@ -365,27 +307,6 @@
      "age": "",
      "trade": "",
      "page": "/briatico/"
-    }
-   ]
-  },
-  {
-   "name": "Antonino Sciacca",
-   "slug": "antonino-sciacca",
-   "aliases": [],
-   "records": [
-    {
-     "as": "parent",
-     "role": "father (already dead) of the bride",
-     "of": "Concetta Sciacca",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1876",
-     "no": "5",
-     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
-     "ark": "an_ua83397",
-     "age": "",
-     "trade": "",
-     "page": "/register-1879/#the-finding"
     }
    ]
   },
@@ -758,43 +679,6 @@
    ]
   },
   {
-   "name": "Concetta Greco",
-   "slug": "concetta-greco",
-   "aliases": [
-    "Greco Concetta"
-   ],
-   "records": [
-    {
-     "as": "parent",
-     "role": "mother of",
-     "of": "Antonino Mazza (the child)",
-     "comune": "Piedimonte Etneo",
-     "kind": "Nati",
-     "year": "1877",
-     "no": "164",
-     "act": "Piedimonte Etneo, Nati 1877, atto 164",
-     "ark": "an_ua83490",
-     "age": "",
-     "trade": "contadina",
-     "page": "/register-1879/#the-finding"
-    },
-    {
-     "as": "parent",
-     "role": "mother of",
-     "of": "Rosaria Mazza (the child)",
-     "comune": "Piedimonte Etneo",
-     "kind": "Nati",
-     "year": "1879",
-     "no": "167",
-     "act": "Piedimonte Etneo, Nati 1879, atto 167",
-     "ark": "an_ua83492",
-     "age": "",
-     "trade": "industriosa",
-     "page": "/register-1879/"
-    }
-   ]
-  },
-  {
    "name": "Concetta Leotta",
    "slug": "concetta-leotta",
    "aliases": [],
@@ -860,43 +744,6 @@
    ]
   },
   {
-   "name": "Concetta Sciacca",
-   "slug": "concetta-sciacca",
-   "aliases": [
-    "Sciacca Concetta"
-   ],
-   "records": [
-    {
-     "as": "bride",
-     "role": "bride of",
-     "of": "the person the act concerns",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1876",
-     "no": "5",
-     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
-     "ark": "an_ua83397",
-     "age": "19",
-     "trade": "",
-     "page": "/register-1879/#the-finding"
-    },
-    {
-     "as": "parent",
-     "role": "mother of",
-     "of": "Venerio Mazza (the child)",
-     "comune": "Piedimonte Etneo",
-     "kind": "Nati",
-     "year": "1879",
-     "no": "205",
-     "act": "Piedimonte Etneo, Nati 1879, atto 205",
-     "ark": "an_ua83493",
-     "age": "",
-     "trade": "industriosa",
-     "page": "/register-1879/"
-    }
-   ]
-  },
-  {
    "name": "Cosmo Arena",
    "slug": "cosmo-arena",
    "aliases": [
@@ -937,43 +784,6 @@
      "age": "",
      "trade": "",
      "page": "/scilla/"
-    }
-   ]
-  },
-  {
-   "name": "Domenica Cavallaro",
-   "slug": "domenica-cavallaro",
-   "aliases": [
-    "Cavallaro Domenica"
-   ],
-   "records": [
-    {
-     "as": "parent",
-     "role": "mother of the groom",
-     "of": "Antonino Mazza",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1874",
-     "no": "26",
-     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
-     "ark": "an_ua83395",
-     "age": "",
-     "trade": "industriosa",
-     "page": "/register-1879/#the-finding"
-    },
-    {
-     "as": "parent",
-     "role": "mother of the groom",
-     "of": "the person the act concerns",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1876",
-     "no": "5",
-     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
-     "ark": "an_ua83397",
-     "age": "",
-     "trade": "",
-     "page": "/register-1879/#the-finding"
     }
    ]
   },
@@ -2283,27 +2093,6 @@
    ]
   },
   {
-   "name": "Giuseppa Pulvirenti",
-   "slug": "giuseppa-pulvirenti",
-   "aliases": [],
-   "records": [
-    {
-     "as": "parent",
-     "role": "mother of the groom, aged sixty,",
-     "of": "Mariano Mazza",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1836",
-     "no": "17",
-     "act": "Piedimonte Etneo, Matrimoni 1836, atto 17",
-     "ark": "an_ua72256",
-     "age": "60",
-     "trade": "",
-     "page": "/mazza/#piedimonte-1871-1845"
-    }
-   ]
-  },
-  {
    "name": "Giuseppe Arlotta",
    "slug": "giuseppe-arlotta",
    "aliases": [
@@ -2536,27 +2325,6 @@
    ]
   },
   {
-   "name": "Giuseppe Raiti",
-   "slug": "giuseppe-raiti",
-   "aliases": [],
-   "records": [
-    {
-     "as": "parent",
-     "role": "father of the bride",
-     "of": "Rosa Raiti",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1874",
-     "no": "26",
-     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
-     "ark": "an_ua83395",
-     "age": "",
-     "trade": "",
-     "page": "/register-1879/#the-finding"
-    }
-   ]
-  },
-  {
    "name": "Guglielmo Zagari",
    "slug": "guglielmo-zagari",
    "aliases": [],
@@ -2662,41 +2430,6 @@
      "age": "58",
      "trade": "becchino",
      "page": "/scilla/"
-    }
-   ]
-  },
-  {
-   "name": "Innocenzio Mazza",
-   "slug": "innocenzio-mazza",
-   "aliases": [],
-   "records": [
-    {
-     "as": "parent",
-     "role": "father of the groom",
-     "of": "Antonino Mazza",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1874",
-     "no": "26",
-     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
-     "ark": "an_ua83395",
-     "age": "",
-     "trade": "bracciante",
-     "page": "/register-1879/#the-finding"
-    },
-    {
-     "as": "parent",
-     "role": "father (written \"Senzio\" in this act) of the groom",
-     "of": "the person the act concerns",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1876",
-     "no": "5",
-     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
-     "ark": "an_ua83397",
-     "age": "",
-     "trade": "",
-     "page": "/register-1879/#the-finding"
     }
    ]
   },
@@ -3382,41 +3115,6 @@
    ]
   },
   {
-   "name": "Pasquale Mazza",
-   "slug": "pasquale-mazza",
-   "aliases": [],
-   "records": [
-    {
-     "as": "parent",
-     "role": "father of",
-     "of": "Antonino Mazza (the child)",
-     "comune": "Piedimonte Etneo",
-     "kind": "Nati",
-     "year": "1877",
-     "no": "164",
-     "act": "Piedimonte Etneo, Nati 1877, atto 164",
-     "ark": "an_ua83490",
-     "age": "48",
-     "trade": "bracciante",
-     "page": "/register-1879/#the-finding"
-    },
-    {
-     "as": "parent",
-     "role": "father of",
-     "of": "Rosaria Mazza (the child)",
-     "comune": "Piedimonte Etneo",
-     "kind": "Nati",
-     "year": "1879",
-     "no": "167",
-     "act": "Piedimonte Etneo, Nati 1879, atto 167",
-     "ark": "an_ua83492",
-     "age": "50",
-     "trade": "bracciante",
-     "page": "/register-1879/"
-    }
-   ]
-  },
-  {
    "name": "Raffaela Arena",
    "slug": "raffaela-arena",
    "aliases": [
@@ -3759,48 +3457,6 @@
    ]
   },
   {
-   "name": "Rosa Raiti",
-   "slug": "rosa-raiti",
-   "aliases": [],
-   "records": [
-    {
-     "as": "bride",
-     "role": "bride of",
-     "of": "Antonino Mazza",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1874",
-     "no": "26",
-     "act": "Piedimonte Etneo, Matrimoni 1874, atto 26",
-     "ark": "an_ua83395",
-     "age": "20",
-     "trade": "",
-     "page": "/register-1879/#the-finding"
-    }
-   ]
-  },
-  {
-   "name": "Rosaria Greco",
-   "slug": "rosaria-greco",
-   "aliases": [],
-   "records": [
-    {
-     "as": "parent",
-     "role": "mother of the bride",
-     "of": "Concetta Sciacca",
-     "comune": "Piedimonte Etneo",
-     "kind": "Matrimoni",
-     "year": "1876",
-     "no": "5",
-     "act": "Piedimonte Etneo, Matrimoni 1876, atto 5",
-     "ark": "an_ua83397",
-     "age": "",
-     "trade": "",
-     "page": "/register-1879/#the-finding"
-    }
-   ]
-  },
-  {
    "name": "Rosaria Longordo",
    "slug": "rosaria-longordo",
    "aliases": [
@@ -3820,29 +3476,6 @@
      "age": "",
      "trade": "",
      "page": "/scilla/#nati-1859-act-46"
-    }
-   ]
-  },
-  {
-   "name": "Rosaria Mazza",
-   "slug": "rosaria-mazza",
-   "aliases": [
-    "Mazza Rosaria"
-   ],
-   "records": [
-    {
-     "as": "child",
-     "role": "child born, daughter of",
-     "of": "Pasquale Mazza and Concetta Greco",
-     "comune": "Piedimonte Etneo",
-     "kind": "Nati",
-     "year": "1879",
-     "no": "167",
-     "act": "Piedimonte Etneo, Nati 1879, atto 167",
-     "ark": "an_ua83492",
-     "age": "",
-     "trade": "",
-     "page": "/register-1879/"
     }
    ]
   },
@@ -4208,29 +3841,6 @@
      "age": "",
      "trade": "",
      "page": "/mascali/"
-    }
-   ]
-  },
-  {
-   "name": "Venerio Mazza",
-   "slug": "venerio-mazza",
-   "aliases": [
-    "Mazza Venerio"
-   ],
-   "records": [
-    {
-     "as": "child",
-     "role": "child born, son of",
-     "of": "the person the act concerns",
-     "comune": "Piedimonte Etneo",
-     "kind": "Nati",
-     "year": "1879",
-     "no": "205",
-     "act": "Piedimonte Etneo, Nati 1879, atto 205",
-     "ark": "an_ua83493",
-     "age": "",
-     "trade": "",
-     "page": "/register-1879/"
     }
    ]
   },

@@ -172,7 +172,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 28,
-   "bought": 0,
+   "bought": 28,
    "indexed": 0,
    "noindex": 0
   },
@@ -216,7 +216,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 29,
-   "bought": 0,
+   "bought": 29,
    "indexed": 0,
    "noindex": 0
   },
@@ -238,7 +238,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 37,
-   "bought": 0,
+   "bought": 37,
    "indexed": 0,
    "noindex": 0
   },
@@ -304,7 +304,7 @@
    "from": 1820,
    "to": 1860,
    "volumes": 45,
-   "bought": 41,
+   "bought": 45,
    "indexed": 0,
    "noindex": 0
   },
@@ -315,7 +315,7 @@
    "from": 1820,
    "to": 1860,
    "volumes": 47,
-   "bought": 29,
+   "bought": 47,
    "indexed": 0,
    "noindex": 0
   },
@@ -568,7 +568,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 29,
-   "bought": 28,
+   "bought": 29,
    "indexed": 0,
    "noindex": 0
   },
@@ -590,7 +590,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 28,
-   "bought": 5,
+   "bought": 28,
    "indexed": 0,
    "noindex": 0
   },
@@ -678,7 +678,7 @@
    "from": 1820,
    "to": 1865,
    "volumes": 45,
-   "bought": 9,
+   "bought": 45,
    "indexed": 0,
    "noindex": 0
   },
@@ -744,7 +744,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 29,
-   "bought": 6,
+   "bought": 29,
    "indexed": 0,
    "noindex": 0
   },
@@ -755,7 +755,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 26,
-   "bought": 2,
+   "bought": 4,
    "indexed": 0,
    "noindex": 0
   },
@@ -766,7 +766,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 28,
-   "bought": 1,
+   "bought": 4,
    "indexed": 0,
    "noindex": 0
   },
@@ -777,7 +777,7 @@
    "from": 1870,
    "to": 1893,
    "volumes": 22,
-   "bought": 2,
+   "bought": 4,
    "indexed": 0,
    "noindex": 0
   },
@@ -788,7 +788,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 28,
-   "bought": 5,
+   "bought": 28,
    "indexed": 0,
    "noindex": 0
   },
@@ -799,7 +799,7 @@
    "from": 1869,
    "to": 1893,
    "volumes": 22,
-   "bought": 0,
+   "bought": 4,
    "indexed": 0,
    "noindex": 0
   },
@@ -810,7 +810,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 29,
-   "bought": 15,
+   "bought": 29,
    "indexed": 0,
    "noindex": 0
   },
@@ -821,7 +821,7 @@
    "from": 1871,
    "to": 1893,
    "volumes": 10,
-   "bought": 0,
+   "bought": 2,
    "indexed": 0,
    "noindex": 0
   },
@@ -843,7 +843,7 @@
    "from": 1820,
    "to": 1865,
    "volumes": 46,
-   "bought": 21,
+   "bought": 46,
    "indexed": 0,
    "noindex": 0
   },
@@ -854,7 +854,7 @@
    "from": 1841,
    "to": 1845,
    "volumes": 5,
-   "bought": 0,
+   "bought": 5,
    "indexed": 0,
    "noindex": 0
   },
@@ -865,7 +865,7 @@
    "from": 1841,
    "to": 1860,
    "volumes": 20,
-   "bought": 0,
+   "bought": 20,
    "indexed": 0,
    "noindex": 0
   },
@@ -887,7 +887,7 @@
    "from": 1820,
    "to": 1865,
    "volumes": 50,
-   "bought": 0,
+   "bought": 50,
    "indexed": 0,
    "noindex": 0
   },
@@ -898,7 +898,7 @@
    "from": 1820,
    "to": 1865,
    "volumes": 53,
-   "bought": 23,
+   "bought": 53,
    "indexed": 0,
    "noindex": 0
   },
@@ -1301,7 +1301,7 @@
  ],
  "total": {
   "volumes": 2601,
-  "bought": 743,
+  "bought": 1122,
   "indexed": 3,
   "noindex": 7,
   "comuni": 8
