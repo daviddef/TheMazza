@@ -14,6 +14,7 @@
    hundred acts at four comuni and reached the 1720s. A sources page that
    undersells itself is not modesty. */
 import Base from "../layouts/Base.astro";
+import AtlasNote from "../components/AtlasNote.astro";
 import Sources from "@daviddef/archive-kit/components/Sources.astro";
 import { u } from "../lib/url.js";
 import stats from "../data/stats.json";
@@ -55,6 +56,18 @@ const reachable = sources.groups.flatMap((g) => g.rows).filter((r) => r.url).len
 <Base title="Sources" eyebrow={`${sources.total} sources, ${n("act")} of them read in the original`}
       dek="What this archive rests on — and, for every line of it, whether the document itself has been read or only an index to it.">
 
+  {/* 12 November 2026 (the research-menu trial, wave 4): a short note and the deep-dive links, added at the top; nothing below was removed. */}
+  <AtlasNote
+    only={[["Every source, with the tier it earned", "#sources", "read in the original, index only, or hearsay"],
+           ["What is not here yet", "#not-yet", "the gaps that are left, and who holds them"]]}
+    atlasHead="The sources on the Atlas"
+    atlas={[["The sources, as the Atlas lists them", "https://recordatlas.org/providers/"],
+            ["Surname spellings (the Mazza family of forms)", "https://recordatlas.org/surname/mazza/"],
+            ["What the map does not know", "https://recordatlas.org/coverage/"]]}
+    para="The Atlas lists these providers and volumes for every family archive, and marks the ones that have been searched; what this archive read in them, at which image and act, and what that was worth is only here. See the"
+    tail="for the shared list. The page below is this archive's own, in full." />
+  <p class="cap" style="margin:-14px 0 26px">Deep dives, three long studies that sit beside the sources: <a href={u("/register-1879/")}>The Sicilian Registers</a>, <a href={u("/queensland/")}>The Queensland Register</a> and <a href={u("/briatico-tested/")}>Testing the 1697</a>. The rest of <a href={u("/research/sources-and-method/")}>Sources &amp; method</a>.</p>
+
   <section class="blk">
     <div class="grid g3">
       <div class="stat"><div class="n">{n("act")}</div><div class="l">read in the original</div></div>
@@ -72,11 +85,11 @@ const reachable = sources.groups.flatMap((g) => g.rows).filter((r) => r.url).len
     because a link would say they had been reached.</p>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="sources">
     <Sources groups={groups} u={u} html={false} />
   </section>
 
-  <section class="blk" style="border-bottom:0">
+  <section class="blk" id="not-yet" style="border-bottom:0">
     <h2>What is not here yet</h2>
     <div class="prose" style="margin-top:1rem">
       <p>This section used to begin <em>“No Italian civil register has been read for this family. That

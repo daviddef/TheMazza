@@ -1,6 +1,7 @@
 ---
 import { md } from "@daviddef/archive-kit/lib/md.js";
 import Base from "../layouts/Base.astro";
+import AtlasNote from "../components/AtlasNote.astro";
 import Searched from "@daviddef/archive-kit/components/Searched.astro";
 import { u } from "../lib/url.js";
 import searched from "../data/searched.json";
@@ -23,6 +24,19 @@ const LABEL = { open: "reachable", partial: "listing incomplete",
 ---
 <Base title="What Has Been Read" eyebrow="And what has not"
       dek="A search that found nothing is still a result: it stops the next person repeating it. This page records both what has been done and what is still outstanding.">
+
+  {/* 12 November 2026 (the research-menu trial, wave 4): a short note, added at the top; nothing below it was removed or shortened. */}
+  <AtlasNote
+    only={[["Every search, with the exact terms typed", "#everything", "and the image and act numbers it was read at"],
+           ["Done, or only part", "#everything", "what was left unread is said in the row, not rounded up"],
+           ["What each search found, or did not", "#everything", "the finding, negatives included"],
+           ["What the archives hold, against what has been listed", "#holdings", "whether the record could have been there at all"]]}
+    atlasHead="What the Atlas keeps"
+    atlas={[["The marks on the map, for every family archive", "https://recordatlas.org/my-research/"],
+            ["What the map does not know", "https://recordatlas.org/coverage/"],
+            ["Surname spellings (the Mazza family of forms)", "https://recordatlas.org/surname/mazza/"]]}
+    para="The Atlas has a mark for each register and volume that has been searched, and the spellings that were tried. What was typed, at which image and act, what was left unread, and what turned up is only here. See the"
+    tail="for the shared marks. The page below is this archive's own account, in full." />
 
   <section class="blk">
     <div class="lab">FindMyPast — a six-day trial, spent</div>
@@ -69,7 +83,7 @@ const LABEL = { open: "reachable", partial: "listing incomplete",
     </div>
   </section>
 
-  <section class="blk">
+  <section class="blk" id="holdings">
     <div class="lab">Coverage</div>
     <h2 style="margin-top:.4rem">What the archives hold, against what this one has listed</h2>
     <div class="prose" style="margin-top:1rem">
@@ -160,7 +174,7 @@ const LABEL = { open: "reachable", partial: "listing incomplete",
     negative.</p>
   </section>
 
-  <section class="blk" style="border-bottom:0">
+  <section class="blk" id="everything" style="border-bottom:0">
     <h2>Everything read, and everything still to read</h2>
     <p class="dek" style="margin:.7rem 0 0">This page opened with the sentence <em>“no Italian civil
     register has been opened for this family”</em>, and that was the honest headline on the day the

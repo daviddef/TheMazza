@@ -1,0 +1,11 @@
+{
+ "token_swaps": [],
+ "accepted": [],
+ "snapshot_pages": {},
+ "site_changes": [
+  {"page": "/part/how-we-know/", "why": "the book's part page lists the four new Research chapters (Research, To do, Sources & method, Checks) at the head of the part; the twelve existing entries are all still there, renumbered vi.5 to vi.16, and the part's 'start reading' link now opens at Research instead of Sources"},
+  {"page": "/contents/", "why": "the contents lists the same four new Research chapters; the twelve existing entries are renumbered, none removed"},
+  {"page": "/sources/", "why": "added at the top: the short Atlas note (what only this archive holds / the Atlas) and the line linking the three deep dives; ids added to two sections; nothing removed"},
+  {"page": "/searched/", "why": "added at the top: the short Atlas note (what the archive holds that the Atlas marks do not: terms typed, image and act, done or part, the finding); ids added to two sections; nothing removed"}
+ ]
+}
