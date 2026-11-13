@@ -1892,10 +1892,10 @@
   {
    "n": 204,
    "what": "ANTENATI NAME INDEX: one query per surname for every comune that has indexed acts",
-   "state": "next",
+   "state": "done",
    "owner": "this archive",
    "since": "2026-11-11",
-   "note": "**Some comuni have their acts name-indexed with parents and spouse, so one query replaces a volume sweep.** Run Mazza, Marza, Patane, Catalano, Faro, Fichera, Sudero and Ragusa across Catania province (Piedimonte, Linguaglossa, Castiglione, Fiumefreddo, Giarre, Mascali, Riposto) and record which comuni answer. Every hit is a lead and is opened by zoom before it becomes a row. || 12 Nov 2026: not started; the name-index queries load HTML pages and share the lookup budget, so they follow the container lookups."
+   "note": "**Some comuni have their acts name-indexed with parents and spouse, so one query replaces a volume sweep.** Run Mazza, Marza, Patane, Catalano, Faro, Fichera, Sudero and Ragusa across Catania province (Piedimonte, Linguaglossa, Castiglione, Fiumefreddo, Giarre, Mascali, Riposto) and record which comuni answer. Every hit is a lead and is opened by zoom before it becomes a row. || 13 Nov 2026: DONE. None of Piedimonte Etneo, Linguaglossa, Giarre, Mascali, Riposto, Fiumefreddo di Sicilia or Castiglione di Sicilia has an indexed act (each localita query returns the index's own 'only part of the registers is indexed' notice; the Scilla and Catania controls answer). Surname queries without a locality (Patane, Mazza, Marza, Sudero, Suderi) answer only from other places; Patane gave a Carmelo Patane, born at Riposto, died at Genoa 29 Sept 1884, son of Salvatore and Maria Picciotto (lead only). The index is not a shortcut for this part of Sicily; volume sweeps stay the route. One row in searched.json."
   },
   {
    "n": 205,

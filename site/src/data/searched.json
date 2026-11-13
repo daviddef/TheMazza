@@ -19956,5 +19956,21 @@
    "Pulvirenti",
    "Barbagallo"
   ]
+ },
+ {
+  "key": "src/antenati-name-index-catan-2b822a",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati name index — the Catania-province comuni: no indexed act at Piedimonte Etneo, Linguaglossa, Giarre, Mascali, Riposto, Fiumefreddo or Castiglione di Sicilia",
+  "scope": "Antenati's «cerca per nome» index (/search-nominative/), one same-origin GET per query, 13 Nov 2026, paced about 4 s apart, every answer read for a 403 page before it was counted (none was). (1) localita= alone, no surname, for Scilla (control: returns indexed persons), Linguaglossa, Giarre, Mascali, Riposto, Fiumefreddo di Sicilia and Castiglione di Sicilia, and cognome=Mazza with localita=Piedimonte Etneo. (2) cognome= alone, no locality, s_size=100: Patane, Mazza, Marza, Sudero, Suderi. (3) localita=Catania as a second control (returns 100). Terms typed: Mazza, Marza, Patane, Sudero, Suderi. Catalano, Faro, Fara, Fichera and Ragusa were NOT typed as surnames: the first test (no indexed person at all in these localities) makes a surname query there empty by construction. The index is a partial one by its own words («solo una parte dei registri disponibili è stata completamente indicizzata»), and localita= matches where the act was registered, not where the person was born. Reach: the index as it stood on 13 Nov 2026.",
+  "result": "The index holds NO persons for any of the seven comuni: each localita query came back with the page's own «only part of the registers is indexed» notice and no result, while the Scilla and Catania controls answered. So a name query cannot replace a register sweep for any of them, and the Antenati index is not a route to the Mazza, Patane, Catalano, Faro or Fichera acts of this part of Sicily. Surname queries without a locality answered from elsewhere: Suderi none; Sudero 47 persons (none in these comuni); Mazza and Marza 100 each (the cap; none in these comuni apart from three Castiglione delle Stiviere in Lombardy, a different place); Patane 100 (the cap), of which one is in these comuni's area: a Carmelo Patane, born at Riposto, died at Genoa on 29 Sept 1884, son of Salvatore and Maria Picciotto (a lead only; his act is a Genoa death and he is not tied to any line here). Because three surname answers were capped at 100 this is a partial result, not a nil for those surnames anywhere.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/",
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Fichera"
+  ]
  }
 ]
