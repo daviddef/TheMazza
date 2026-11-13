@@ -38886,6 +38886,58 @@
   "ancGen": null
  },
  {
+  "id": "@Ralfio-grasso@",
+  "slug": "alfio-grasso",
+  "name": "Alfio Grasso",
+  "key": "Alfio Grasso (father of Venera Grasso)",
+  "given": "Alfio",
+  "surname": "Grasso",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "read as maniscalco or manifattore, not settled",
+  "sources": [],
+  "registerSources": [
+   "San Giovanni (Giarre), Morti 1838 atto 1 (an_ua19994254, image 3), the death act of his daughter Venera Grasso, opened and re-zoomed by the session"
+  ],
+  "registerNote": "Named only in his daughter's death act, which gives «figlia di fu Alfio, di professione [maniscalco?], domiciliato ivi» - the surname is not repeated there and is taken from hers. Dead before January 1838. His grandson Alfio Patane appears to be named for him, which fits the Sicilian custom but proves nothing on its own. Nothing else is known and nothing has been sought: Sicily has no civil register before 1820, so his own birth, marriage and death are a question for the parish books of Giarre, not for Antenati.",
+  "registerGen": "8",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rvenera-grasso@",
+    "name": "Venera Grasso",
+    "slug": "venera-grasso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Ralfio-marza@",
   "slug": "alfio-marza",
   "name": "Alfio Marza",
@@ -39522,7 +39574,7 @@
    "Piedimonte Etneo, Matrimoni 1860 atti 30 and 31",
    "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43, the 'atto della solenne promessa'), read by a delegated reader and re-zoomed by the session"
   ],
-  "registerNote": "Father of Leonarda and Giovanni Patane. His children's birthplaces differ: Giovanni at GIARRE (about 1822), Leonarda at PIEDIMONTE (about 1837), so the family moved in between. READ 12 NOV 2026: HE WAS BORN AT GIARRE and married there. The promise of 4 March 1821 (celebration noted for 5 April?) names him as a contadino of the quarter 'Maurizio?' of Giarre, son of Rosario Patane (55, contadino) and Venera Grasso (45), and his bride as Maria Suderi (20), daughter of Antonino Suderi (60, contadino) and Venera Vaglia? (55), of the parish of S. Giovanni Battista. Witnesses Giuseppe Patane (25, contadino), Giuseppe Grasso (24, contadino), Isidoro Mangano (45, calzolaio) and Sebastiano Nicotra (30, contadino). So the Patane line goes back one generation to Giarre, and the marriage was in 1821, a year before Giovanni's birth.",
+  "registerNote": "Father of Leonarda and Giovanni Patane. His children's birthplaces differ: Giovanni at GIARRE (about 1822), Leonarda at PIEDIMONTE (about 1837), so the family moved in between. READ 12 NOV 2026: HE WAS BORN AT GIARRE and married there. The promise of 4 March 1821 (celebration noted for 5 April?) names him as a contadino of the quarter 'Maurizio?' of Giarre, son of Rosario Patane (55, contadino) and Venera Grasso (45), and his bride as Maria Suderi (20), daughter of Antonino Suderi (60, contadino) and Venera Vaglia? (55), of the parish of S. Giovanni Battista. Witnesses Giuseppe Patane (25, contadino), Giuseppe Grasso (24, contadino), Isidoro Mangano (45, calzolaio) and Sebastiano Nicotra (30, contadino). So the Patane line goes back one generation to Giarre, and the marriage was in 1821, a year before Giovanni's birth. 13 NOV 2026: S. Giovanni's own registers begin in 1822, so the 1821 marriage could not have been kept there, and Giarre's is the only copy; but the births of the couple's children between 1822 and the move to Mascali about 1832 belong in the San Giovanni series, which this archive had never seen.",
   "registerGen": "6",
   "photos": [],
   "parents": [
@@ -39595,6 +39647,20 @@
     "id": "@Rrosa-patane@",
     "name": "Rosa Patane",
     "slug": "rosa-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosario-patane-2@",
+    "name": "Rosario Patane",
+    "slug": "rosario-patane-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-patane@",
+    "name": "Angela Patane",
+    "slug": "angela-patane",
     "living": false,
     "via": "read"
    }
@@ -40264,6 +40330,66 @@
     "id": "@Ralfio-nicotra-2@",
     "name": "Alfio Nicotra",
     "slug": "alfio-nicotra-1796",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rangela-patane@",
+  "slug": "angela-patane",
+  "name": "Angela Patane",
+  "key": "Angela Patane (b. 1830, of Alfio and Maria Suderi)",
+  "given": "Angela",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1830,
+  "died": null,
+  "bornText": "27 April 1830",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "27 April 1830",
+    "year": 1830,
+    "place": "Giarre",
+    "text": "27 April 1830"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "San Giovanni, Nati 1830 atto 42 (an_ua19994287, image 45)",
+   "the year has NO annual tavola, so the register's 117 acts were walked one by one by a delegated reader and the act re-zoomed by the session"
+  ],
+  "registerNote": "A CHILD OF ALFIO PATANE AND MARIA SUDERI THIS ARCHIVE DID NOT KNOW, and the only one that no index would ever have given up: 1830 is the single year of the San Giovanni birth run with no annual table, and she was found by reading all 117 acts. A girl, presented at fifteen o'clock by her father Alfio Patane, 29, bracciale, of the quarter; the mother is written «Maria Sudero», 28; the baptism column names her «Angela Patane» and dates the baptism the same day. Witnesses read at medium zoom only and not settled: a Giuseppe Patane?, 30?, and Mastro Angelo Cavallaro, 24, both marinaio. Nothing is known of her after this act; no death has been sought. She is the fourth child of the couple found at San Giovanni, after Giovanni (1822), Venera (1825) and Rosario (1828).",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Ralfio-patane@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-sudero@",
+    "name": "Maria Sudero",
+    "slug": "maria-sudero",
     "living": false,
     "via": "read"
    }
@@ -44403,6 +44529,58 @@
   "ancGen": null
  },
  {
+  "id": "@Rdomenica-vasta@",
+  "slug": "domenica-vasta",
+  "name": "Domenica Vasta",
+  "key": "Domenica Vasta (mother of Venera Grasso)",
+  "given": "Domenica",
+  "surname": "Vasta",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "San Giovanni (Giarre), Morti 1838 atto 1 (an_ua19994254, image 3), the death act of her daughter Venera Grasso, opened and re-zoomed by the session"
+  ],
+  "registerNote": "Named only in her daughter's death act: «e di fu Domenica Vasta, domiciliata ivi pure». Dead before January 1838. VASTA is a surname new to this archive. Nothing else is known and nothing has been sought; before 1820 there is no civil register in Sicily and the parish books of Giarre are the only route.",
+  "registerGen": "8",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rvenera-grasso@",
+    "name": "Venera Grasso",
+    "slug": "venera-grasso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rdomenico-arena@",
   "slug": "domenico-arena",
   "name": "Domenico Arena",
@@ -47239,9 +47417,10 @@
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1860 atto 31",
    "table line 31",
-   "Matrimoni processetti 1860 (an_ua72236), image 211: birth extract, Giarre 1822 atto 50"
+   "Matrimoni processetti 1860 (an_ua72236), image 211: birth extract, Giarre 1822 atto 50",
+   "San Giovanni, Nati 1822 atto 50 (an_ua19994279, image 52, the register's own act), with the annual tavola at image 117 ('Patane Giovanni, f.o d'Alfio e di Maria Sudero, 1822 22 Giugno')"
   ],
-  "registerNote": "Husband of Venera Mazza and brother of Leonarda Patane (wife of Salvatore Mazza). Born at GIARRE, so the Patane family came to Piedimonte from there. CHECK OPEN (12 Nov 2026): the Giarre Nati 1822 table (an_ua68980) carries no Patani Giovanni, and its act 50 is a Grasso girl declared 17 July 1822, so the extract's year or number needs re-reading before this birth is tied to a register line. CHECKED AT THE IMAGES 12 NOV 2026 (session): in the Giarre Nati 1822 register itself (an_ua68980) one act runs to an image (act 1 is image 3, 2 January; act 10 image 12; act 14 image 16; act 28 image 30), so act 47 (image 50, 8 June), act 48 (image 51, 25 June, a girl of Antonino Papisarda? and Maria Barbagallo) and act 50 (image 53, a Grasso girl born 6 June) are the whole of June to early July: no act of 22 June, and none for Alfio Patane. The extract itself (an_ua72236 image 211) reads Num. d'ordine 'cinquantesimo', the year 'milleottocento ventidue', 22 June, 1 pm, and names an officer (Don Michele ...) who is not the acting mayor of the register (Don Paolo Mugumeci, second elect), so it was drawn from another series or copy, not from this one; the Giarre 1822 'Diversi' volume (an_ua68778, container not yet looked up) is the next place to look; the 1821 marriage of his parents settles the family regardless. READ 11 NOV 2026: the Giarre extract spells the mother SUDERI (not Sudero); it fixes his parents and the family at San Giovanni di Giarre in 1822.",
+  "registerNote": "Husband of Venera Mazza and brother of Leonarda Patane (wife of Salvatore Mazza). Born at GIARRE, so the Patane family came to Piedimonte from there. CHECK OPEN (12 Nov 2026): the Giarre Nati 1822 table (an_ua68980) carries no Patani Giovanni, and its act 50 is a Grasso girl declared 17 July 1822, so the extract's year or number needs re-reading before this birth is tied to a register line. CHECKED AT THE IMAGES 12 NOV 2026 (session): in the Giarre Nati 1822 register itself (an_ua68980) one act runs to an image (act 1 is image 3, 2 January; act 10 image 12; act 14 image 16; act 28 image 30), so act 47 (image 50, 8 June), act 48 (image 51, 25 June, a girl of Antonino Papisarda? and Maria Barbagallo) and act 50 (image 53, a Grasso girl born 6 June) are the whole of June to early July: no act of 22 June, and none for Alfio Patane. The extract itself (an_ua72236 image 211) reads Num. d'ordine 'cinquantesimo', the year 'milleottocento ventidue', 22 June, 1 pm, and names an officer (Don Michele ...) who is not the acting mayor of the register (Don Paolo Mugumeci, second elect), so it was drawn from another series or copy, not from this one; the Giarre 1822 'Diversi' volume (an_ua68778, container not yet looked up) is the next place to look; the 1821 marriage of his parents settles the family regardless. READ 11 NOV 2026: the Giarre extract spells the mother SUDERI (not Sudero); it fixes his parents and the family at San Giovanni di Giarre in 1822. FOUND 13 NOV 2026, AND THE PUZZLE IS ANSWERED: the act is not in Giarre's own Nati 1822 because S. GIOVANNI KEPT ITS OWN REGISTERS, which Antenati lists under a separate comune 'San Giovanni' (Stato civile della restaurazione, Catania, 155 registers, 1822-1865). The act is there, atto 50 of 1822, with the officer the extract names - the archdeacon and parish priest of S. Giovanni and S. Alfio, acting as civil officer - which is exactly why the officer did not match Giarre's mayor. Witnesses Lorenzo Sanzeri (28) and Giuseppe Patane (about 28), the latter almost certainly the Giuseppe Patane (25, of S. Giovanni Battista) who witnessed his parents' marriage the year before. The register's annual tavola names the child and both parents, and spells the mother SUDERO where the act writes SUDERI. 13 NOV 2026 (later), WHAT THE SERIES IS - and this archive has now had to soften the claim twice, so it is put here at the strength the acts support and no higher. Antenati catalogues «San Giovanni» as a series in its own right (fondo 63946, serie 73630), beside Giarre (68775) and Macchia (69905); in the Catania archive the year 1830 alone has 51 such series, several of them places that are frazioni today. The officer of these acts is the ELETTO PARTICOLARE of the quarters of S. Giovanni e S. Alfio - an archdeacon in the 1820s, and by 1834 a GIUSEPPE PATANÈ who signs «L'Eletto Particolare». AND THE COMUNE NAMED IN THE ACTS CHANGES: 1822 and 1825 say «del Comune di GIARRE», 1828, 1830 and 1834 say «del Comune di DETTI QUARTIERI». So the quarters kept their own register under their own officer, and between 1825 and 1828 the clerk stopped naming Giarre; whether they were ever a comune in their own right is NOT established and is claimed neither way. What is settled, and is why this birth looked unregistered for two days, is that an act of these quarters is in this series and NOT in Giarre's own volumes. Anyone working the Giarre-Mascali-Riposto corner of Catania should enumerate the archive's series for the year before writing a nil on a comune.",
   "registerGen": "5",
   "photos": [],
   "parents": [
@@ -52455,6 +52634,20 @@
     "slug": "rosa-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rrosario-patane-2@",
+    "name": "Rosario Patane",
+    "slug": "rosario-patane-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-patane@",
+    "name": "Angela Patane",
+    "slug": "angela-patane",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -56415,6 +56608,66 @@
   "ancGen": null
  },
  {
+  "id": "@Rrosario-patane-2@",
+  "slug": "rosario-patane-1828",
+  "name": "Rosario Patane",
+  "key": "Rosario Patane (b. 1828, of Alfio and Maria Suderi)",
+  "given": "Rosario",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1828,
+  "died": null,
+  "bornText": "23 August 1828",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "23 August 1828",
+    "year": 1828,
+    "place": "Giarre",
+    "text": "23 August 1828"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "San Giovanni, Nati 1828 atto 68 (an_ua19994285, image 71), with the annual tavola at image 110 («Patane Rosario, d'Alfio e di Maria Sudero»)",
+   "read by a delegated reader and re-zoomed by the session"
+  ],
+  "registerNote": "A CHILD OF ALFIO PATANE AND MARIA SUDERI THIS ARCHIVE DID NOT KNOW. Born 23 August 1828 and declared the same day at sixteen o'clock by his father Alfio Patane, 30, contadino, living in the quarter of S. Giovanni; the mother is written «Maria Sudero». Baptised the same day by the parish priest of Giarre and S. Giovanni; the document is at folio 121. The witnesses are faint and not settled (a Salvadore Andriano?, 43 or 44, calzolaio, and a Mastro Salvadore whose surname is unread). He is named for his paternal grandfather Rosario Patane. Nothing is known of him after this act: he is not the Rosario Patane who appears at Piedimonte in 1860 as the son of a Giuseppe, and no death has been sought.",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Ralfio-patane@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-sudero@",
+    "name": "Maria Sudero",
+    "slug": "maria-sudero",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rrosario-patane@",
   "slug": "rosario-patane",
   "name": "Rosario Patane",
@@ -56427,7 +56680,7 @@
   "born": 1766,
   "died": null,
   "bornText": "c. 1766",
-  "diedText": "",
+  "diedText": "before 2 January 1838 (his widow's death act of that day calls her «moglie del fu Rosario Patanè»): so between 4 March 1821, when he was alive and fifty-five, and the first days of 1838",
   "events": [
    {
     "what": "born",
@@ -56436,6 +56689,14 @@
     "year": 1766,
     "place": "Giarre",
     "text": "c. 1766"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 2 January 1838 (his widow's death act of that day calls her «moglie del fu Rosario Patanè»): so between 4 March 1821, when he was alive and fifty-five, and the first days of 1838"
    }
   ],
   "birthPlace": "Giarre",
@@ -56444,9 +56705,10 @@
   "trade": "contadino",
   "sources": [],
   "registerSources": [
-   "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)"
+   "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)",
+   "San Giovanni (Giarre), Morti 1838 atto 1 (an_ua19994254, image 3), his widow's death act, which names him as already dead"
   ],
-  "registerNote": "Father of Alfio Patane, from the 1821 Giarre marriage promise: «Rosario, di anni cinquantacinque, contadino», domiciled at Giarre. Husband of Venera Grasso. His own birth, marriage and death are not sought.",
+  "registerNote": "Father of Alfio Patane, from the 1821 Giarre marriage promise: «Rosario, di anni cinquantacinque, contadino», domiciled at Giarre. Husband of Venera Grasso. HIS DEATH IS NOW BOUNDED, 13 NOV 2026: his wife's death act of 2 January 1838 calls her «moglie del FU Rosario Patanè», so he died between March 1821 and the end of 1837. He is NOT in the San Giovanni death registers of 1822-1834, which were read in full, nor in 1835-1848, so either he died in one of the two years whose tavole are incomplete (1849 starts after P, 1850 begins at C - but both are after her death and so impossible), or he died elsewhere, or his act is in a year of this series not yet read. The San Giovanni Morti read so far are 1822-1851. His own birth and marriage are still not sought.",
   "registerGen": "7",
   "photos": [],
   "parents": [],
@@ -59631,9 +59893,9 @@
   "living": false,
   "fromRegister": true,
   "born": 1776,
-  "died": null,
+  "died": 1838,
   "bornText": "c. 1776",
-  "diedText": "",
+  "diedText": "2 January 1838 (San Giovanni, Giarre, Morti 1838 atto 1, an_ua19994254, image 3, «di anni ottanta»)",
   "events": [
    {
     "what": "born",
@@ -59642,20 +59904,44 @@
     "year": 1776,
     "place": "Giarre",
     "text": "c. 1776"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "2 January 1838 (San Giovanni, Giarre, Morti 1838 atto 1, an_ua19994254, image 3, «di anni ottanta»)",
+    "year": 1838,
+    "place": "",
+    "text": "2 January 1838 (San Giovanni, Giarre, Morti 1838 atto 1, an_ua19994254, image 3, «di anni ottanta»)"
    }
   ],
   "birthPlace": "Giarre",
   "deathPlace": "",
   "burialPlace": "",
-  "trade": "",
+  "trade": "filatrice",
   "sources": [],
   "registerSources": [
-   "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)"
+   "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)",
+   "San Giovanni (Giarre), Morti 1838 atto 1 (an_ua19994254, image 3), found in the annual tavola by a delegated reader and opened and re-zoomed by the session"
   ],
-  "registerNote": "Mother of Alfio Patane, wife of Rosario Patane, domiciled at Giarre (1821 promise). Not otherwise sought.",
+  "registerNote": "Mother of Alfio Patane, wife of Rosario Patane, domiciled at Giarre (1821 promise). HER DEATH ACT WAS FOUND 13 NOV 2026 and it is the first act of the San Giovanni death register of 1838: she died in her own house at ten o'clock on 2 January 1838, «Venera Grasso di anni ottanta, moglie del fu Rosario Patanè», born at S. Giovanni, a filatrice, living there. IT CARRIES TWO THINGS NOTHING ELSE HERE DOES. First, «fu Rosario Patanè» puts her husband's death BEFORE 2 January 1838 - he was alive in March 1821, so the window is 1821 to 1837. Second, it names HER OWN PARENTS, both already dead: «figlia di fu Alfio, di professione [read maniscalco or manifattore, not settled], e di fu Domenica Vasta», which takes this line back a generation. That her son Alfio carries her father's name fits the Sicilian naming custom and is a quiet corroboration, not a proof. The identification rests on the name, the dead husband Rosario Patanè and the place agreeing, and on no second Venera Grasso married to a Rosario Patanè appearing in any San Giovanni register read (Morti 1822-1851, Nati 1822-1832). The age is the one field that does not fit; see her birth note.",
   "registerGen": "7",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Ralfio-grasso@",
+    "name": "Alfio Grasso",
+    "slug": "alfio-grasso",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-vasta@",
+    "name": "Domenica Vasta",
+    "slug": "domenica-vasta",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@Ralfio-patane@",
@@ -60084,18 +60370,18 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": 1827,
+  "born": 1825,
   "died": 1840,
-  "bornText": "c. 1827",
+  "bornText": "31 August 1825",
   "diedText": "12 December 1840 (Mascali Morti 1840 atto 112, an_ua70214, image 59, aged 'anni tredici')",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1827",
-    "year": 1827,
-    "place": "Mascali",
-    "text": "c. 1827"
+    "date": "31 August 1825",
+    "year": 1825,
+    "place": "Giarre",
+    "text": "31 August 1825"
    },
    {
     "what": "died",
@@ -60106,15 +60392,17 @@
     "text": "12 December 1840 (Mascali Morti 1840 atto 112, an_ua70214, image 59, aged 'anni tredici')"
    }
   ],
-  "birthPlace": "Mascali",
+  "birthPlace": "Giarre",
   "deathPlace": "",
   "burialPlace": "",
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Mascali Morti 1840 atto 112 (an_ua70214, image 59 left page), found in the annual table by a delegated reader and re-zoomed by the session"
+   "Mascali Morti 1840 atto 112 (an_ua70214, image 59 left page), found in the annual table by a delegated reader and re-zoomed by the session",
+   "San Giovanni, Nati 1825 atto 43 (an_ua19994282, image 45, the act",
+   "the annual tavola at image 85 gives «31. Ag.» and folio 43)"
   ],
-  "registerNote": "Died at 11 in the morning of 12 December 1840 in the quarter Nunziata, declared at 4 in the afternoon before the sindaco Raffaello Macherone by Salvatore Finocchiaro (40, bracciale, strada Santa Maria la Grazia) and Antonino Fresta (32, becchino). The eldest child of Alfio and Maria found, born about six years after the 1821 marriage; she and baby Giuseppa died a month apart in 1840.",
+  "registerNote": "Died at 11 in the morning of 12 December 1840 in the quarter Nunziata, declared at 4 in the afternoon before the sindaco Raffaello Macherone by Salvatore Finocchiaro (40, bracciale, strada Santa Maria la Grazia) and Antonino Fresta (32, becchino). The eldest child of Alfio and Maria found, born about six years after the 1821 marriage; she and baby Giuseppa died a month apart in 1840. 13 NOV 2026: her birth act is found, at San Giovanni, and it moves her birth from about 1827 to 31 August 1825 and her birthplace from Mascali to Giarre. Witnesses: Mastro Santo Scilio, 34, falegname, and Mastro Giuseppe Patane, 32?, both of the quarter - the same Giuseppe Patane who witnessed her parents' marriage in 1821 and her brother Giovanni's birth in 1822.",
   "registerGen": "5",
   "photos": [],
   "parents": [

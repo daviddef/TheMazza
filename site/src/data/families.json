@@ -109,6 +109,19 @@
   ]
  },
  {
+  "surname": "Patane",
+  "n": 14,
+  "dead": 14,
+  "living": 0,
+  "first": 1766,
+  "last": 1865,
+  "places": [
+   "Giarre",
+   "Piedimonte Etneo",
+   "Mascali"
+  ]
+ },
+ {
   "surname": "Bova",
   "n": 13,
   "dead": 11,
@@ -129,19 +142,6 @@
   "places": [
    "Briatico, Vibo Valentia, Calabria",
    "Potenzoni (Briatico), Vibo Valentia, Calabria"
-  ]
- },
- {
-  "surname": "Patane",
-  "n": 12,
-  "dead": 12,
-  "living": 0,
-  "first": 1766,
-  "last": 1865,
-  "places": [
-   "Mascali",
-   "Piedimonte Etneo",
-   "Giarre"
   ]
  },
  {
@@ -263,6 +263,19 @@
   ]
  },
  {
+  "surname": "Grasso",
+  "n": 5,
+  "dead": 5,
+  "living": 0,
+  "first": 1776,
+  "last": 1928,
+  "places": [
+   "Giarre",
+   "Briatico, Vibo Valentia, Calabria",
+   "Mandaradoni (Briatico), Vibo Valentia, Calabria"
+  ]
+ },
+ {
   "surname": "Sanfedele",
   "n": 5,
   "dead": 1,
@@ -317,19 +330,6 @@
   "last": 1801,
   "places": [
    "Scilla, Reggio Calabria"
-  ]
- },
- {
-  "surname": "Grasso",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": 1776,
-  "last": 1928,
-  "places": [
-   "Giarre",
-   "Briatico, Vibo Valentia, Calabria",
-   "Mandaradoni (Briatico), Vibo Valentia, Calabria"
   ]
  },
  {
@@ -1710,6 +1710,17 @@
   "living": 0,
   "first": 1827,
   "last": 1827,
+  "places": [
+   "Giarre"
+  ]
+ },
+ {
+  "surname": "Vasta",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
   "places": [
    "Giarre"
   ]

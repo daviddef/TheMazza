@@ -1194,6 +1194,20 @@
     "slug": "rosa-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rrosario-patane-2@",
+    "name": "Rosario Patane",
+    "slug": "rosario-patane-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-patane@",
+    "name": "Angela Patane",
+    "slug": "angela-patane",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -1344,6 +1358,20 @@
     "id": "@Rrosa-patane@",
     "name": "Rosa Patane",
     "slug": "rosa-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosario-patane-2@",
+    "name": "Rosario Patane",
+    "slug": "rosario-patane-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rangela-patane@",
+    "name": "Angela Patane",
+    "slug": "angela-patane",
     "living": false,
     "via": "read"
    }
@@ -10749,6 +10777,23 @@
   "born": null
  },
  {
+  "name": "Alfio Grasso",
+  "head": "alfio-grasso",
+  "headId": "@Ralfio-grasso@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rvenera-grasso@",
+    "name": "Venera Grasso",
+    "slug": "venera-grasso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
   "name": "Alfio Nicotra",
   "head": "alfio-nicotra",
   "headId": "@Ralfio-nicotra@",
@@ -11262,6 +11307,23 @@
    }
   ],
   "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
+  "name": "Domenica Vasta",
+  "head": "domenica-vasta",
+  "headId": "@Rdomenica-vasta@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rvenera-grasso@",
+    "name": "Venera Grasso",
+    "slug": "venera-grasso",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
   "born": null
  },
  {

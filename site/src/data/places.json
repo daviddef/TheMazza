@@ -53,7 +53,7 @@
  },
  {
   "name": "Giarre",
-  "born": 121,
+  "born": 126,
   "died": 0,
   "buried": 0,
   "lived": 0,
@@ -62,6 +62,7 @@
   "who": [
    "alfia-cannavò",
    "alfia-cavallaro",
+   "alfio-grasso",
    "alfio-nicotra",
    "alfio-nicotra-1796",
    "alfio-nicotra-1783",
@@ -72,6 +73,7 @@
    "angela-grasso",
    "angela-nicotra-1857",
    "angela-nicotra-1858",
+   "angela-patane",
    "angela-spoto",
    "angela-torrisi",
    "angelo-nicotra",
@@ -88,6 +90,7 @@
    "concetta-nicotra",
    "concetta-pappalardo",
    "david-nicotra",
+   "domenica-vasta",
    "ferdinando-nicotra",
    "filippa-cavallaro",
    "filippa-nicotra-1833",
@@ -96,12 +99,9 @@
    "francesca-grimaldi",
    "francesco-catalano",
    "francesco-nicotra-1852",
-   "francesco-nicotra",
-   "gaetano-nicotra-1835",
-   "giacomo-nicotra-1863",
-   "giacomo-nicotra"
+   "francesco-nicotra"
   ],
-  "n": 121
+  "n": 126
  },
  {
   "name": "Briatico, Vibo Valentia, Calabria",
@@ -386,11 +386,11 @@
  },
  {
   "name": "Mascali",
-  "born": 17,
+  "born": 16,
   "died": 0,
   "buried": 0,
   "lived": 0,
-  "first": 1827,
+  "first": 1832,
   "last": 1840,
   "who": [
    "angela-dajdone",
@@ -408,10 +408,9 @@
    "maria-nicotra-1",
    "rosa-patane-1838",
    "santa-dajdone",
-   "venera-murabito",
-   "venera-patane"
+   "venera-murabito"
   ],
-  "n": 17
+  "n": 16
  },
  {
   "name": "Pizzo, Vibo Valentia, Calabria",

@@ -20,6 +20,22 @@ import { FURTHEST_KM } from "../lib/distance.js";
 import { people } from "../lib/people.js";
 
 const p = (n) => places.find((x) => x.name.startsWith(n)) || { n: 0 };
+/* COUNTED THE WAY THE PAGE IT LINKS TO COUNTS. This row used to read
+   «{stats.families} families named» and point at /families/. stats.families is
+   the number of FAM records in the export (212); /families/ lists the fifteen
+   surname lines that have a page of their own, and /marriages/ shows 161
+   couples. So the figure belonged to neither page, and whichever a reader
+   clicked, the number they had just read was not there. Derive it here by the
+   same rule /marriages/ uses — a spouse pair, counted once — and send them
+   there. */
+const nCouples = (() => {
+  const by = new Map(people.map((x) => [x.id, x]));
+  const seen = new Set();
+  for (const x of people)
+    for (const c of x.spouses || [])
+      if (by.has(c.id)) seen.add([x.id, c.id].sort().join("|"));
+  return seen.size;
+})();
 /* DERIVED, NOT TYPED. This line read «Sixty-two people ... five per cent» until
    11 October 2026, when the ancestors data said 93 and the seventh generation
    was 16 of 128. A number written into prose goes stale the next time the
@@ -264,7 +280,7 @@ const spineRows = mazzaRows;
     [stats.people, "people published across the four quarters", u("/people/")],
     [stats.earliest, "the earliest year this archive reaches — and it rests on a tree, not a register", u("/briatico-tested/")],
     [stats.households, "households reconstructed", u("/households/")],
-    [stats.families, "families named", u("/families/")],
+    [nCouples, "couples, husband and wife both named", u("/marriages/")],
     [places.length, atlas.stats.unplaced
       ? `places named, ${atlas.places.length} of them on the map`
       : `places named, every one of them on the map \u2014 ${atlas.stats.approx} on an approximate coordinate`,
