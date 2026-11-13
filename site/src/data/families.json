@@ -101,7 +101,7 @@
   "dead": 15,
   "living": 0,
   "first": 1766,
-  "last": 1865,
+  "last": 1889,
   "places": [
    "Giarre",
    "Piedimonte Etneo",
@@ -379,6 +379,17 @@
   "places": []
  },
  {
+  "surname": "Sciacca",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1826,
+  "last": 1867,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
   "surname": "Fichera",
   "n": 4,
   "dead": 4,
@@ -542,17 +553,6 @@
   "living": 0,
   "first": 1775,
   "last": 1843,
-  "places": [
-   "Piedimonte Etneo"
-  ]
- },
- {
-  "surname": "Sciacca",
-  "n": 3,
-  "dead": 3,
-  "living": 0,
-  "first": 1826,
-  "last": 1867,
   "places": [
    "Piedimonte Etneo"
   ]
@@ -1860,6 +1860,17 @@
  },
  {
   "surname": "Currenti",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "La Spina",
   "n": 1,
   "dead": 1,
   "living": 0,
