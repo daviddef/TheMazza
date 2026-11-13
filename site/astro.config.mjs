@@ -26,11 +26,11 @@ export default defineConfig({
 
   build: { format: 'directory' },
   /* /families/ was a census: all 123 surnames with a count against each and no
-     claim about any of them. It is now a section of /marriages/, where each
-     surname is placed by descent and the page can finally say WHY the name is
-     here — that a person married a person, and which person. The old address
-     has been published, so it redirects rather than 404s. */
-  redirects: { '/families': '/marriages',
+     claim about any of them. It became a section of /marriages/ and the old address
+     redirected there. On 13 November 2026 the address was given to the new /families/
+     index (every family page, own line first, then A to Z), so the redirect is gone:
+     the census content is still in /marriages/ and is not the index. */
+  redirects: {
     /* 9 October 2026: the estate's address for this page is /changes/. */
     '/what-changed': '/changes/' },
 });

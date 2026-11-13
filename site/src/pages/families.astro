@@ -1,0 +1,50 @@
+---
+/* THE FAMILIES: the index of every family page this archive has (added 13 November 2026).
+   One row per page, drawn with the kit's Families row, from the same list the menu reads (lib/familylist.js), so a new
+   family page appears here by adding a row there and nothing else. The counts are the people in people.json who carry
+   the surname or one of its listed spellings, as /name/ counts them; they may include living people, who are counted
+   and never named. Nothing here is typed, and no page is edited by this one: it only links to them. */
+import Base from "../layouts/Base.astro";
+import Families from "@daviddef/archive-kit/components/Families.astro";
+import { u } from "../lib/url.js";
+import people from "../data/people.json";
+import { HAND_BUILT, BUILT } from "../lib/familylist.js";
+
+const bearing = (names) => people.filter((p) => names.includes(p.surname)).length;
+const plural = (k, one, many) => (k === 1 ? one : many);
+const row = (f, own, hand) => {
+  const n = bearing([f.surname, ...(f.also || [])]);
+  return {
+    slug: f.slug,
+    label: f.surname,
+    count: n,
+    countLabel: plural(n, "person", "people"),
+    gloss: own
+      ? "This archive's own line, with the family's own story."
+      : hand
+        ? "A page written by hand, with the family's own story."
+        : "A page built from the people the archive publishes under the name.",
+    facts: (f.also || []).length ? [["Also written", f.also.join(" · ")]] : [],
+    href: f.href || "/" + f.slug + "/",
+    hrefLabel: "The family page",
+  };
+};
+const own = HAND_BUILT[0];
+const rows = [row(own, true, true), ...[...HAND_BUILT.slice(1), ...BUILT]
+  .map((f) => row(f, false, HAND_BUILT.includes(f)))
+  .sort((a, b) => a.label.localeCompare(b.label, "en", { sensitivity: "base" }))];
+const groups = [{ label: "", note: "", rows }];
+---
+<Base title="The Families" eyebrow={`${rows.length} families with a page`}
+      dek="Every family this archive has a page for: this archive's own line first, then the others A to Z. A family here is a name — the people who carry it or were born to it — and a shared surname is not a relationship.">
+
+  <section class="blk">
+    <Families groups={groups} u={u} />
+  </section>
+
+  <section class="blk">
+    <p class="note">The other names, and what they mean, are on <a href={u("/name/")}>The Name</a>. The people themselves are on
+    <a href={u("/people/")}>The People</a>.</p>
+  </section>
+
+</Base>

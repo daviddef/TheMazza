@@ -9,7 +9,9 @@ The family pages /prostamo/, /polistena/ ... are one template (site/src/pages/[f
 site/src/lib/familylist.js and site/src/lib/families.js. What can go wrong, and what this refuses:
 
   1  a family in familylist.js has no built page, or its page is noindex, has no canonical, or is not in the sitemap
-  2  a family page is missing from the menu ("The name" group, which the landing page builds its chips from)
+  2  a family page is linked from neither the menu nor the /families/ index (the estate's one family-gate rule, 13 Nov 2026:
+     a family page is reachable from the menu OR from the /families/ index), or the menu links no /families/, or /families/
+     is not built. It used to be "in the menu AND on /name/"; /name/ is no longer required, and nothing else was loosened
   3  a page does not link every DEAD bearer of the name (people.json: the surname or a listed spelling, not living)
   4  a page links a LIVING person's page, or prints a living person's full name that no dead person shares.
      A family page is indexed; a living person's own page is not. The page may count the living and never name one.
@@ -78,6 +80,12 @@ def run(dist, quiet=False, namesrc_path=None):
     if os.path.exists(np):
         namepage = open(np, encoding="utf-8").read()
     home = open(os.path.join(dist, "index.html"), encoding="utf-8").read() if os.path.exists(os.path.join(dist, "index.html")) else ""
+    ip = os.path.join(dist, "families", "index.html")
+    index = open(ip, encoding="utf-8").read() if os.path.exists(ip) else ""
+    if not index:
+        fails.append("no built /families/ index page")
+    if 'href="/families/"' not in home:
+        fails.append("the menu on the home page links no /families/")
 
     for slug, surname, also in fam:
         page = os.path.join(dist, slug, "index.html")
@@ -91,9 +99,8 @@ def run(dist, quiet=False, namesrc_path=None):
             fails.append("%s: the page has no canonical" % surname)
         if "/%s/</loc>" % slug not in sitemap:
             fails.append("%s: /%s/ is not in the sitemap" % (surname, slug))
-        for where, doc in (("menu on the home page", home), ("menu on /name/", namepage)):
-            if 'href="/%s/"' % slug not in doc:
-                fails.append("%s: /%s/ is not in the %s" % (surname, slug, where))
+        if 'href="/%s/"' % slug not in home and 'href="/%s/"' % slug not in index:
+            fails.append("%s: /%s/ is in neither the menu on the home page nor the /families/ index" % (surname, slug))
         names = {surname, *also}
         dead = [p for p in people if p.get("surname") in names and not p.get("living")]
         links = set(re.findall(r'href="/people/([^"/?#]+)/?"', raw))
@@ -163,7 +170,12 @@ def selftest(dist):
     trial("page removed", lambda cp: shutil.rmtree(os.path.join(cp, slug)))
     trial("page made noindex", lambda cp: edit(pg(cp), lambda s: s.replace("</head>", '<meta name="robots" content="noindex"></head>', 1)))
     trial("page dropped from the sitemap", lambda cp: edit(os.path.join(cp, "sitemap.xml"), lambda s: s.replace("/%s/</loc>" % slug, "/x-%s/</loc>" % slug)))
-    trial("page dropped from the menu", lambda cp: edit(os.path.join(cp, "index.html"), lambda s: s.replace('href="/%s/"' % slug, 'href="/x/"')))
+    def drop_from_both(cp):
+        edit(os.path.join(cp, "index.html"), lambda s: s.replace('href="/%s/"' % slug, 'href="/x/"'))
+        edit(os.path.join(cp, "families", "index.html"), lambda s: s.replace('href="/%s/"' % slug, 'href="/x/"'))
+    trial("page in neither the menu nor the /families/ index", drop_from_both)
+    trial("the menu links no /families/", lambda cp: edit(os.path.join(cp, "index.html"), lambda s: s.replace('href="/families/"', 'href="/x-families/"')))
+    trial("no /families/ index built", lambda cp: shutil.rmtree(os.path.join(cp, "families")))
     trial("a dead bearer not linked", lambda cp: edit(pg(cp), lambda s: re.sub(r'href="/people/%s/?"' % re.escape(dead["slug"]), 'href="/people/x"', s)))
     trial("a living person's page linked", lambda cp: edit(pg(cp), lambda s: s.replace("</main>", '<a href="/people/%s/">x</a></main>' % living_slug, 1)))
     trial("a living person's name printed", lambda cp: edit(pg(cp), lambda s: s.replace("</main>", "<p>%s</p></main>" % living_name, 1)))
