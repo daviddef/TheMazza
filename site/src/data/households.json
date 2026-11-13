@@ -366,6 +366,13 @@
     "slug": "maria-sudero",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-suderi@",
+    "name": "Giuseppa Suderi",
+    "slug": "giuseppa-suderi",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -429,6 +436,13 @@
     "slug": "alfio-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane-2@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane-1806",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -444,6 +458,13 @@
     "id": "@Rmaria-sudero@",
     "name": "Maria Sudero",
     "slug": "maria-sudero",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-suderi@",
+    "name": "Giuseppa Suderi",
+    "slug": "giuseppa-suderi",
     "living": false,
     "via": "read"
    }
@@ -559,6 +580,13 @@
     "id": "@Ralfio-patane@",
     "name": "Alfio Patane",
     "slug": "alfio-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane-2@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane-1806",
     "living": false,
     "via": "read"
    }

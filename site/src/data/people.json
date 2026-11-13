@@ -41957,7 +41957,7 @@
   "born": 1761,
   "died": null,
   "bornText": "c. 1761",
-  "diedText": "",
+  "diedText": "before 23 June 1830 (his daughter Giuseppa's promise of that day calls her «figlia DEL FU Antonio», and the session re-zoomed the phrase)",
   "events": [
    {
     "what": "born",
@@ -41966,6 +41966,14 @@
     "year": 1761,
     "place": "Giarre",
     "text": "c. 1761"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 23 June 1830 (his daughter Giuseppa's promise of that day calls her «figlia DEL FU Antonio», and the session re-zoomed the phrase)"
    }
   ],
   "birthPlace": "Giarre",
@@ -41974,9 +41982,10 @@
   "trade": "contadino",
   "sources": [],
   "registerSources": [
-   "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)"
+   "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)",
+   "San Giovanni (Giarre), Matrimoni 1830 atto 12 (an_ua19994204, image 25), which names him as already dead"
   ],
-  "registerNote": "Father of Maria Suderi, from the 1821 Giarre marriage promise; domiciled at Giarre. Husband of Venera Vaglia?. A different Antonino Suderi is the father of Giuseppa Suderi (Giarre 1823, table line 8), whose mother was Angela Marano; not the same wife, not joined.",
+  "registerNote": "Father of Maria Suderi, from the 1821 Giarre marriage promise; domiciled at Giarre. Husband of Venera Vaglia?. A different Antonino Suderi is the father of Giuseppa Suderi (Giarre 1823, table line 8), whose mother was Angela Marano; not the same wife, not joined. DEAD BY 23 JUNE 1830, established 14 Nov 2026 from the promise of a second daughter, Giuseppa Suderi, which reads «figlia del fu Antonio di anni sessanta, di professione contadino, domiciliato in detto S. Giovanni». The clerk filled the age box anyway, as these forms often do for a dead parent, so «sessanta» is not evidence of his age in 1830. AND HIS DEATH IS NOT IN THE SAN GIOVANNI DEATH REGISTERS. Those run from 1822 and all thirty volumes to 1862 have now been read; he is in none of them. So either he died BEFORE the series begins in 1822 - which, since Sicily has no civil registration before 1820, would leave only the parish books of Giarre - or he died outside these quarters. That is the next question on his side of the family.",
   "registerGen": "7",
   "photos": [],
   "parents": [],
@@ -41985,6 +41994,13 @@
     "id": "@Rmaria-sudero@",
     "name": "Maria Sudero",
     "slug": "maria-sudero",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-suderi@",
+    "name": "Giuseppa Suderi",
+    "slug": "giuseppa-suderi",
     "living": false,
     "via": "read"
    }
@@ -45867,6 +45883,50 @@
   "ancGen": 6
  },
  {
+  "id": "@Rfrancesco-barbagallo@",
+  "slug": "francesco-barbagallo",
+  "name": "Francesco Barbagallo",
+  "key": "Francesco Barbagallo (b. c. 1810, husband of Giuseppa Suderi)",
+  "given": "Francesco",
+  "surname": "Barbagallo",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1810,
+  "died": null,
+  "bornText": "c. 1810",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1810",
+    "year": 1810,
+    "place": "Giarre",
+    "text": "c. 1810"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "contadino",
+  "sources": [],
+  "registerSources": [
+   "San Giovanni (Giarre), Matrimoni 1830 atto 12 (an_ua19994204, image 25), the solemne promessa of 23 June 1830, found in the tavola by a delegated reader and opened and re-zoomed by the session"
+  ],
+  "registerNote": "Husband of Giuseppa Suderi, Maria Suderi's sister, married at S. Giovanni on 23 June 1830 with the church celebration on the 24th. The act gives his parents as a father of seventy, a contadino of Giarre whose given name reads Civino or Girino and is not settled, and a mother of sixty whose surname reads Arbanega or Albanese and is not settled either; neither is entered here as a person, because a name that cannot be read is not a name. He is recorded because he marries into this family, not for his own line.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rfrancesco-catalano@",
   "slug": "francesco-catalano",
   "name": "Francesco Catalano",
@@ -48230,6 +48290,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rgiuseppa-suderi@",
+  "slug": "giuseppa-suderi",
+  "name": "Giuseppa Suderi",
+  "key": "Giuseppa Suderi (b. c. 1810, of Antonino and Venera Vasta)",
+  "given": "Giuseppa",
+  "surname": "Suderi",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1810,
+  "died": null,
+  "bornText": "c. 1810",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1810",
+    "year": 1810,
+    "place": "Giarre",
+    "text": "c. 1810"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "San Giovanni (Giarre), Matrimoni 1830 atto 12 (an_ua19994204, image 25), the solemne promessa of 23 June 1830, found in the tavola by a delegated reader and opened and re-zoomed by the session"
+  ],
+  "registerNote": "A SISTER OF MARIA SUDERI, and the first of her family found besides her. «e Giuseppa Suderi di anni venti, nata in detto S. Giovanni, domiciliata ivi, figlia del fu Antonio di anni sessanta, di professione contadino, domiciliato in detto S. Giovanni, e di Venera Vasta di anni sessanta, domiciliata ivi» - the same parents the 1821 promise gives for Maria, which confirms that couple independently and from a second child. She married FRANCESCO BARBAGALLO, 20, a contadino born at Giarre, on 23 June 1830; the church celebration followed on the 24th, by the parroco of Giarre. Her father was already dead. Nothing is known of her afterwards and nothing has been sought.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rantonino-suderi@",
+    "name": "Antonino Suderi",
+    "slug": "antonino-suderi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-vaglia@",
+    "name": "Venera Vaglia?",
+    "slug": "venera-vaglia",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiuseppa-vitale@",
   "slug": "giuseppa-vitale",
   "name": "Giuseppa Vitale",
@@ -49402,6 +49521,65 @@
     "id": "@Rmaria-sudero@",
     "name": "Maria Sudero",
     "slug": "maria-sudero",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppe-patane-2@",
+  "slug": "giuseppe-patane-1806",
+  "name": "Giuseppe Patane",
+  "key": "Giuseppe Patane (b. c. 1806, of Rosario and Venera Grasso)",
+  "given": "Giuseppe",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1806,
+  "died": null,
+  "bornText": "c. 1806",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1806",
+    "year": 1806,
+    "place": "Giarre",
+    "text": "c. 1806"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "contadino",
+  "sources": [],
+  "registerSources": [
+   "San Giovanni (Giarre), Matrimoni 1830 atto 13 (an_ua19994204, image 27), the solemne promessa of 21 July 1830, found in the tavola by a delegated reader and opened and re-zoomed by the session"
+  ],
+  "registerNote": "A BROTHER OF ALFIO PATANE, and the first sibling of his found. «Giuseppe Patanè di anni ventiquattro, nato in detto S. Giovanni, di professione contadino, domiciliato in detto S. Giovanni, figlio del fu Rosario di anni sessantotto?, e di Venera Grasso di anni sessantasei, domiciliata ivi» - the same parents the 1821 promise gives for Alfio. He married MARIANNA, read Pennisi or Parisi and not settled, 21, daughter of Mariano and Angela Coco, on 21 July 1830, celebrated in church on the 26th by the parroco of Giarre. HE IS NOT, ON THIS EVIDENCE, THE GIUSEPPE PATANÈ WHO WAS ELETTO PARTICOLARE of these quarters in 1834 and still in 1851, and the two should not be merged: that officer's namesake, a Mastro Giuseppe Patane who witnessed Alfio's marriage in 1821 and the births of 1822 and 1825, was about twenty-five in 1821 and so born about 1796, ten years before this man. Patane is the commonest surname in these registers.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-patane@",
+    "name": "Rosario Patane",
+    "slug": "rosario-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-grasso@",
+    "name": "Venera Grasso",
+    "slug": "venera-grasso",
     "living": false,
     "via": "read"
    }
@@ -52559,7 +52737,7 @@
    "Piedimonte Etneo, Matrimoni 1860 atti 30 and 31",
    "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43, the 'atto della solenne promessa'), read by a delegated reader and re-zoomed by the session"
   ],
-  "registerNote": "Wife of Alfio Patane and mother of Giovanni and Leonarda. Surname read as 'Sudero' in the parties paragraph and the table; to be re-read in a later act that names her. READ 12 NOV 2026: the surname is SUDERI (the 1821 promise and its table both write it so), born at Giarre in the parish of S. Giovanni Battista, daughter of Antonino Suderi (60, contadino) and Venera Vaglia? (55; the surname is doubtful).",
+  "registerNote": "Wife of Alfio Patane and mother of Giovanni and Leonarda. Surname read as 'Sudero' in the parties paragraph and the table; to be re-read in a later act that names her. READ 12 NOV 2026: the surname is SUDERI (the 1821 promise and its table both write it so), born at Giarre in the parish of S. Giovanni Battista, daughter of Antonino Suderi (60, contadino) and Venera Vaglia? (55; the surname is doubtful). 14 NOV 2026: HER MOTHER'S SURNAME IS VASTA, not the «Vaglia?» read from the 1821 promise - see that person's note - and SHE HAS A SISTER: GIUSEPPA SUDERI, who married Francesco Barbagallo at S. Giovanni on 23 June 1830, the act naming the same parents. Her father Antonino was dead by then.",
   "registerGen": "6",
   "photos": [],
   "parents": [
@@ -56680,7 +56858,7 @@
   "born": 1766,
   "died": null,
   "bornText": "c. 1766",
-  "diedText": "before 2 January 1838 (his widow's death act of that day calls her «moglie del fu Rosario Patanè»): so between 4 March 1821, when he was alive and fifty-five, and the first days of 1838",
+  "diedText": "before 21 July 1830 (his son Giuseppe's promise of that day reads «figlio del fu Rosario»; re-zoomed by the session). He was alive and fifty-five in March 1821, so he died between those two dates.",
   "events": [
    {
     "what": "born",
@@ -56696,7 +56874,7 @@
     "date": "",
     "year": null,
     "place": "",
-    "text": "before 2 January 1838 (his widow's death act of that day calls her «moglie del fu Rosario Patanè»): so between 4 March 1821, when he was alive and fifty-five, and the first days of 1838"
+    "text": "before 21 July 1830 (his son Giuseppe's promise of that day reads «figlio del fu Rosario»; re-zoomed by the session). He was alive and fifty-five in March 1821, so he died between those two dates."
    }
   ],
   "birthPlace": "Giarre",
@@ -56706,9 +56884,10 @@
   "sources": [],
   "registerSources": [
    "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)",
-   "San Giovanni (Giarre), Morti 1838 atto 1 (an_ua19994254, image 3), his widow's death act, which names him as already dead"
+   "San Giovanni (Giarre), Morti 1838 atto 1 (an_ua19994254, image 3), his widow's death act, which names him as already dead",
+   "San Giovanni (Giarre), Matrimoni 1830 atto 13 (an_ua19994204, image 27), the solemne promessa of 21 July 1830, found in the tavola by a delegated reader and opened and re-zoomed by the session"
   ],
-  "registerNote": "Father of Alfio Patane, from the 1821 Giarre marriage promise: «Rosario, di anni cinquantacinque, contadino», domiciled at Giarre. Husband of Venera Grasso. HIS DEATH IS NOW BOUNDED, 13 NOV 2026: his wife's death act of 2 January 1838 calls her «moglie del FU Rosario Patanè», so he died between March 1821 and the end of 1837. He is NOT in the San Giovanni death registers of 1822-1834, which were read in full, nor in 1835-1848, so either he died in one of the two years whose tavole are incomplete (1849 starts after P, 1850 begins at C - but both are after her death and so impossible), or he died elsewhere, or his act is in a year of this series not yet read. The San Giovanni Morti read so far are 1822-1851. His own birth and marriage are still not sought.",
+  "registerNote": "Father of Alfio Patane, from the 1821 Giarre marriage promise: «Rosario, di anni cinquantacinque, contadino», domiciled at Giarre. Husband of Venera Grasso. HIS DEATH IS NOW BOUNDED, 13 NOV 2026: his wife's death act of 2 January 1838 calls her «moglie del FU Rosario Patanè», so he died between March 1821 and the end of 1837. He is NOT in the San Giovanni death registers of 1822-1834, which were read in full, nor in 1835-1848, so either he died in one of the two years whose tavole are incomplete (1849 starts after P, 1850 begins at C - but both are after her death and so impossible), or he died elsewhere, or his act is in a year of this series not yet read. The San Giovanni Morti read so far are 1822-1851. His own birth and marriage are still not sought. TIGHTENED 14 NOV 2026, from «before January 1838» to BEFORE 21 JULY 1830: the promise of his son Giuseppe Patanè of that date reads «figlio del fu Rosario, di anni sessantotto?», the age being the clerk's formulaic fill for a dead parent. The window is now March 1821 to July 1830, and his death is in none of the San Giovanni death registers, which have been read in full for those years. So he died outside these quarters, or his act is in Giarre's own series or Macchia's.",
   "registerGen": "7",
   "photos": [],
   "parents": [],
@@ -56717,6 +56896,13 @@
     "id": "@Ralfio-patane@",
     "name": "Alfio Patane",
     "slug": "alfio-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane-2@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane-1806",
     "living": false,
     "via": "read"
    }
@@ -59921,9 +60107,10 @@
   "sources": [],
   "registerSources": [
    "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)",
-   "San Giovanni (Giarre), Morti 1838 atto 1 (an_ua19994254, image 3), found in the annual tavola by a delegated reader and opened and re-zoomed by the session"
+   "San Giovanni (Giarre), Morti 1838 atto 1 (an_ua19994254, image 3), found in the annual tavola by a delegated reader and opened and re-zoomed by the session",
+   "San Giovanni (Giarre), Matrimoni 1830 atto 13 (an_ua19994204, image 27), the solemne promessa of 21 July 1830, found in the tavola by a delegated reader and opened and re-zoomed by the session"
   ],
-  "registerNote": "Mother of Alfio Patane, wife of Rosario Patane, domiciled at Giarre (1821 promise). HER DEATH ACT WAS FOUND 13 NOV 2026 and it is the first act of the San Giovanni death register of 1838: she died in her own house at ten o'clock on 2 January 1838, «Venera Grasso di anni ottanta, moglie del fu Rosario Patanè», born at S. Giovanni, a filatrice, living there. IT CARRIES TWO THINGS NOTHING ELSE HERE DOES. First, «fu Rosario Patanè» puts her husband's death BEFORE 2 January 1838 - he was alive in March 1821, so the window is 1821 to 1837. Second, it names HER OWN PARENTS, both already dead: «figlia di fu Alfio, di professione [read maniscalco or manifattore, not settled], e di fu Domenica Vasta», which takes this line back a generation. That her son Alfio carries her father's name fits the Sicilian naming custom and is a quiet corroboration, not a proof. The identification rests on the name, the dead husband Rosario Patanè and the place agreeing, and on no second Venera Grasso married to a Rosario Patanè appearing in any San Giovanni register read (Morti 1822-1851, Nati 1822-1832). The age is the one field that does not fit; see her birth note.",
+  "registerNote": "Mother of Alfio Patane, wife of Rosario Patane, domiciled at Giarre (1821 promise). HER DEATH ACT WAS FOUND 13 NOV 2026 and it is the first act of the San Giovanni death register of 1838: she died in her own house at ten o'clock on 2 January 1838, «Venera Grasso di anni ottanta, moglie del fu Rosario Patanè», born at S. Giovanni, a filatrice, living there. IT CARRIES TWO THINGS NOTHING ELSE HERE DOES. First, «fu Rosario Patanè» puts her husband's death BEFORE 2 January 1838 - he was alive in March 1821, so the window is 1821 to 1837. Second, it names HER OWN PARENTS, both already dead: «figlia di fu Alfio, di professione [read maniscalco or manifattore, not settled], e di fu Domenica Vasta», which takes this line back a generation. That her son Alfio carries her father's name fits the Sicilian naming custom and is a quiet corroboration, not a proof. The identification rests on the name, the dead husband Rosario Patanè and the place agreeing, and on no second Venera Grasso married to a Rosario Patanè appearing in any San Giovanni register read (Morti 1822-1851, Nati 1822-1832). The age is the one field that does not fit; see her birth note. 14 NOV 2026: she is ALIVE and sixty-six in July 1830, when her son Giuseppe marries - «e di Venera Grasso di anni sessantasei, domiciliata ivi» - and a widow by then, since the same act calls Rosario «fu». That act is also the second of her children to be documented, after Alfio.",
   "registerGen": "7",
   "photos": [],
   "parents": [
@@ -59947,6 +60134,13 @@
     "id": "@Ralfio-patane@",
     "name": "Alfio Patane",
     "slug": "alfio-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane-2@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane-1806",
     "living": false,
     "via": "read"
    }
@@ -60459,9 +60653,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)"
+   "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)",
+   "San Giovanni (Giarre), Matrimoni 1830 atto 12 (an_ua19994204, image 25), where a second daughter marries and both parents are named again"
   ],
-  "registerNote": "Mother of Maria Suderi, wife of Antonino Suderi (1821 promise). Her surname reads Vaglia or Vagla and is not settled.",
+  "registerNote": "Mother of Maria Suderi, wife of Antonino Suderi (1821 promise). Her surname reads Vaglia or Vagla and is not settled. THE SURNAME IS VASTA, NOT VAGLIA (14 Nov 2026). It was read «Vaglia?» from the 1821 Giarre promise and flagged doubtful ever since. The 1830 promise of her daughter Giuseppa, in a clearer hand and re-zoomed by the session, writes «e di VENERA VASTA di anni sessanta, domiciliata ivi»: there is no «g» descender, and the letters are plainly -sta. The archive's own name for her is left as it was so that nothing already published breaks, but VASTA is the reading to search on. AND THE OBVIOUS OBJECTION IS ANSWERED, NOT DUCKED: a VAGLIA family does live in these quarters - a Salvatore Vaglia is a party to act 6 of the 1831 marriages - so «Vaglia» in 1821 was not a reading of an impossible name, and the two acts simply disagree. The 1830 act is preferred because its hand is clearer and because the session read it at full magnification itself, not because Vaglia is unavailable. If a third act ever names her, it decides. Note, and do not make more of it than this: VASTA is also the surname of DOMENICA VASTA, the mother of Venera Grasso on the other side of the family. Two Vasta women marrying into the two halves of one marriage is worth noticing and is NOT evidence of kinship; the surname is common in these quarters and no act links them.",
   "registerGen": "7",
   "photos": [],
   "parents": [],
@@ -60470,6 +60665,13 @@
     "id": "@Rmaria-sudero@",
     "name": "Maria Sudero",
     "slug": "maria-sudero",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-suderi@",
+    "name": "Giuseppa Suderi",
+    "slug": "giuseppa-suderi",
     "living": false,
     "via": "read"
    }

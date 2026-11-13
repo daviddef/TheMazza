@@ -96,6 +96,19 @@
   ]
  },
  {
+  "surname": "Patane",
+  "n": 15,
+  "dead": 15,
+  "living": 0,
+  "first": 1766,
+  "last": 1865,
+  "places": [
+   "Giarre",
+   "Piedimonte Etneo",
+   "Mascali"
+  ]
+ },
+ {
   "surname": "Melluso",
   "n": 14,
   "dead": 14,
@@ -106,19 +119,6 @@
    "Briatico, Vibo Valentia, Calabria",
    "New York, New York",
    "Buenos Aires, Argentina"
-  ]
- },
- {
-  "surname": "Patane",
-  "n": 14,
-  "dead": 14,
-  "living": 0,
-  "first": 1766,
-  "last": 1865,
-  "places": [
-   "Giarre",
-   "Piedimonte Etneo",
-   "Mascali"
   ]
  },
  {
@@ -287,6 +287,19 @@
   ]
  },
  {
+  "surname": "Barbagallo",
+  "n": 5,
+  "dead": 5,
+  "living": 0,
+  "first": 1810,
+  "last": 1810,
+  "places": [
+   "Riposto",
+   "Piedimonte Etneo",
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Armanno",
   "n": 4,
   "dead": 1,
@@ -354,18 +367,6 @@
   "places": [
    "Piedimonte Etneo",
    "Piedimonte Etneo, Catania, Sicily"
-  ]
- },
- {
-  "surname": "Barbagallo",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Riposto",
-   "Piedimonte Etneo"
   ]
  },
  {
@@ -773,6 +774,17 @@
   "places": [
    "Mascali",
    "Riposto"
+  ]
+ },
+ {
+  "surname": "Suderi",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1761,
+  "last": 1810,
+  "places": [
+   "Giarre"
   ]
  },
  {
@@ -1679,17 +1691,6 @@
   "last": null,
   "places": [
    "Zambrone"
-  ]
- },
- {
-  "surname": "Suderi",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": 1761,
-  "last": 1761,
-  "places": [
-   "Giarre"
   ]
  },
  {
