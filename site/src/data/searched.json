@@ -21417,5 +21417,24 @@
    "Patane",
    "Catalano"
   ]
+ },
+ {
+  "key": "src/antenati-giarre-diversi-1822-2001bb",
+  "status": "done",
+  "when": "2026-11-14",
+  "source": "Antenati — Giarre, Atti diversi 1822 (restaurazione), the whole register: no Patane, so the 1822 birth extract is not here",
+  "scope": "an_ua68778 (container 5YGZaa1, 4 images, segnatura 16112), every image looked at: 1 cover (a catalogue label 'Giar. atti div. 1822'), 2 title page ('Registro degli atti diversi', Giarre, 1822), 3 the only act, 4 the end of that act and a blank act form. The act (no. 1, 5 July 1822, before the sindaco, an 'atto di adesione') is a late declaration of a child's birth by a Contarino father with two witnesses; the register closes with a note that the book of adoption and recognition acts holds this one act. Terms typed: Patane, Patani, Suderi, Sudero, Mazza, Marza, Catalano. Looked for because the certified birth extract of Giovanni Patane (Giarre Nati 1822 atto 50) is not in the Giarre Nati 1822 register (an_ua68980).",
+  "result": "No Patane, Suderi, Sudero, Mazza, Marza or Catalano in the register: its one act concerns another family. So the extract's act is not in the Giarre 1822 Atti diversi either. What this does NOT settle: where the 1822 birth of Giovanni Patane (son of Alfio Patane and Maria Suderi) is registered. The Giarre Nati 1822 register has no act of 22 June and no Patane (read at the images on 12 Nov), the Atti diversi has one act; the year or the number on the extract may be misread, or the act may be in another comune's register (Macchia, Riposto, Mascali) or a supplement. Reach: the whole of this four-image register.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua68778/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua68778/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua68980/"
+  ],
+  "tags": [
+   "Patane",
+   "Mazza",
+   "Catalano"
+  ]
  }
 ]
