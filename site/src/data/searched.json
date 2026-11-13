@@ -19972,5 +19972,25 @@
    "Catalano",
    "Fichera"
   ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1891-8c1828",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1891 (Italian era), the DUPLICATA register: annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano; the original register is not on the film",
+  "scope": "an_ua81738 (container 5YGXyxE, 55 images, segnatura 8862, stamped DUPLICATA): the annual Indice (images 52-54: image 53 is a second exposure of the opening on 52; 54 holds the S to Z tail and the Parte II list; 55 is the back cover) read at the M, P, S and C blocks; acts opened by zoom on images 18, 20 and 29 (acts 45-48, 53-56, 77-80) to test the index against the acts. an_ua81739 (container wO4AYOM) holds only 2 images: the front cover and the blank printed title page; none of its acts is on the film. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a parent was looked for in the acts opened only). Not read: the acts themselves (a black card lies over many right-hand pages, as on images 20 and 29), and the part of the index under that card (the A to G names on the left page, the given names of two Catalano lines).",
+  "result": "No Mazza, Marza, Suderi or Sudero in the legible index (M, P, S and the S to Z tail), in Parte I or in the short Parte II list. Three Patane lines are indexed (children of a Salvatore, a Michele and a Salvatore; acts 13, 88, 100 by the index's numbers); none is shown to be a child of Alfio Patane and Maria Suderi, and none was opened. Two Catalano lines are indexed (the name of one is partly under the black card, the other reads Catalano Sebastiano, son of a father whose name is cut off); neither is shown to be Carlo Catalano and Maria Cardillo's family, and neither was opened. CAUTION: the index's numbers do not match the act numbers on the frames (an act numbered 77 for a Castorina on image 29 stands in the index at 59), so the index may be of a different count or hand; an index hit here could not be located by its number, and this index is therefore a pointer, not a nil. Catalano, Patane and Cardillo appear as parents, witnesses or wives in acts of 1891 opened by chance (act 53, a Catalano mother; act 54, a Catalano mother and a Patane witness; act 48, a Cardillo husband), which shows only that the names are common at Mascali. So: this is a partial reading. It does not show the death of the husband of Sebastiana Barbagallo at Mascali in 1891, and does not rule it out.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81738/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81738/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81739/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Barbagallo"
+  ]
  }
 ]
