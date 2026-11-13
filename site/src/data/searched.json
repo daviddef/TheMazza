@@ -19992,5 +19992,517 @@
    "Catalano",
    "Barbagallo"
   ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1866-50a0f6",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1866 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81713 (container LpAxBWM, 32 images, segnatura 8837): the annual Indice (images 30-31) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: nothing over the index; a DUPLICATA label card lies on the blank right page of image 29 (after act 96), not on the index. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index is by GIVEN NAME initial, so every surname was read down all letters (A,C,D,F,G,I,L,M,N,P,R,S,V). No Mazza, Marza, Suderi, Sudero, Catalano or Cardillo-mother. Two Patane lines (14, 41) opened: not Alfio/Maria Suderi family. Acts matched index numbers at 6-10, 12, 14, 41-45, 96. Register is a DUPLICATA copy. Act 12 (Salvatore Lo Mura) has a Patane mother, Santa fu Giuseppe: noted, not a target. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81713/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81713/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1867-1445e4",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1867 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81714 (container w68jkA6, 40 images, segnatura 8838): the annual Indice (images 38-39) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: A black card lies over part of the register pages on images 22 (left page, acts ~56-58), 23 (right page, acts ~62-68), 26 (right page) and 27 (left page); the openings are photographed twice (26/27) so the card covers different halves; the index pages 38-39 ar. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: found. Lines flagged: Mariano Patane 61 (act 61). Not re-zoomed by the session. Reader's note: Index by given-name initial; whole index read at zoom (A,C,D,F,G,L,M,N,O,P,R,S,T,V). No Mazza, Marza, Suderi, Sudero, no Catalano child of Carlo. One Alfio-as-father line: act 61 Mariano Patane (17 days old, so a younger Alfio, not the b.1800 Alfio). Index numbers matched the acts at 13-17, 22, 25, 59, 61, 70-76, 100. Card hides some act pages on 22/23/26/27 (second exposures on 26-27 supply the other half); acts 56-58 and 62-68 not fully read. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81714/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81714/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1868-343eaf",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1868 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81715 (container w1p6VPO, 42 images, segnatura 8839): the annual Indice (images 39-40-41) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Nothing covers the index pages. On the act pages a black card lies over the left page of image 38 (acts ~123-126 end) and over the right page of image 37 (act ~127 end); the two exposures show the other half of each; act 124 read on image 37. Left page of imag. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index by given-name initial, read at zoom across A..V on both exposures. No Mazza, Marza, Suderi, Sudero line. The only 'Alfio Patane' (84) is a one-year-old son of Filippo, so not the b.~1800 Alfio; Patane lines 24,43,44,71,118 and Catalano 29,81,92,114 were not opened because the index line gives no father/husband clue (state is nil for the targets, not for every Patane/Catalano). Index numbers matched acts 84-90 and 124-127. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81715/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81715/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1869-6b2053",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1869 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81716 (container LoY2BlG, 48 images, segnatura 8840): the annual Indice (images 45-46-47) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: A black card lies over the right half of the I..V index opening on image 46 and over the left half on image 47 (the two exposures together show every line). On act pages the card covers parts of images 38, 39(right), 40(left), 41(right), 42(left); acts 123-126. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: found. Lines flagged: Alfio Patane 124 (act 124). The session re-zoomed act 124 (image 39, page soft): Alfio Patane, 'anni ventidue', celibe, lavorante, born at Mascali, son of the late Giovanni and of Santa Marano?, died about 29 Nov 1869 at contrada Monte Leonessa?; declarants Gioachino Lo Po and Antonio Vojo?. A LEAD only: a father 'fu Giovanni' would fit a grandson of Alfio Patane through Giovanni b. 1822, but nothing in the act names Alfio senior or Maria Suderi, and the age and mother are blurred. Reader's note: Index by given-name initial read at zoom, both card exposures, no Mazza/Marza/Suderi/Sudero line anywhere. One target-family candidate: act 124 Alfio Patane, a celibe young man, son of fu Giovanni and Santa Marano?, which would fit a grandson of Alfio Patane through Giovanni b.1822 but is only a candidate: the page is blurred and nothing names Alfio senior or Maria Suderi. Index numbers matched acts at 25-27, 52-57, 124-134. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81716/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81716/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1870-7ba3f0",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1870 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81717 (container 04aW3g9, 42 images, segnatura 8841): the annual Indice (images 40-41) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Nothing covers the index (image 40 left page is blank; image 41 right page is blank). A black card covers the left page of images 5 and 6 (acts 1-3 on that page; image 6 also carries a DUPLICATA label on it); right pages of the same openings are readable.. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index by given-name initial, both pages read at zoom (A..V). No Mazza, Marza, Suderi, Sudero, Cardillo-mother line. No Alfio Patane. Patane lines: 3, 6, 10, 13, 27, 60, 114; only 10 and 13 (Venera, Rosa, both children of Santo) and 3 (infant) were looked at, at page scale. Index numbers matched acts at 4-5, 10-18. Cards over the left pages of images 5-6 hide acts 1-3 only. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81717/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81717/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1871-b5707e",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1871 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81718 (container wjPaBxr, 34 images, segnatura 8842): the annual Indice (images 32-33) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Nothing covers the index (image 32 left page blank, image 33 right page blank). A DUPLICATA label lies on the blank lower right of image 31 (after act 98). No card over any act page seen.. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index by given-name initial, both pages read at zoom across A..V. No Mazza, Marza, Suderi, Sudero, Catalano, no Alfio Patane. Three Patane lines (Carmelo 10, 35; Gaetano 62) carry no clue and were not opened. Index numbers matched acts at 6-9 and 96-98. Cardillo seen as a surname only for Agata 8, Giuseppe 9. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81718/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81718/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1872-aa60bf",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1872 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81719 (container LDmX9oj, 44 images, segnatura 8843): the annual Indice (images 39-43) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Black card over the right page of image 40 (P,R,S block) and over the left page of images 41 and 42 (F..N block); the three exposures cover each other, so every index line was read on one clear exposure (F,G,M,N on image 40 left page; P,R,S on image 41 right p. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index read at M, P, S, C blocks on clear exposures at zoom 1700; no Mazza, Marza, Suderi, Sudero or Catalano line. Index tested against acts: act 104 (Francesco Bonanno, 24 Dec) matches the index line 104 and the register end note. Image 38 is the last act page with the stamp and DUPLICATA label. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81719/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81719/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1873-2770d0",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1873 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81720 (container wRGnWZe, 50 images, segnatura 8844): the annual Indice (images 45-49) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Black card over the right page of images 46 and 47 (N,P,R,S block) and over the left page of image 48 (G,L,M block): the two exposures cover each other, so every index line was read on a clear exposure. Image 44 (last act page, act 113 Leonardo Strano) has a c. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: found. Lines flagged: S block, index image 48 right page: '40 Scuderi? Palma, 22 maggio (1873), father Filippo' (index spells it with a c: 'Scuderi?') (act 40 (margin label 'Suderi Palma'; act body 'Palma Suderi/Scuderi?')). The session re-zoomed act 40 (image 15, 22 May 1873): the margin reads Suderi Palma; the body (Palma Suderi? or Scuderi?), aged 54, born and living at Mascali, daughter of the late Filippo and the late Giuseppa Grasso, widow of the late Giovanni Cardillo. A Suderi-type name at Mascali, not shown to be Maria Suderi's family (a lead only). Reader's note: Index read at M, P, S, C blocks on clear exposures at zoom 1700. One Suderi-type line: act 40 Palma Suderi/Scuderi?, widow of Giovanni Cardillo: spelling unsettled, and not the Patane wife Maria Suderi. No Mazza, Marza or Catalano. Index tested against acts 40, 75, 78 and 113: numbers and names match, so the index is a reliable pointer. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81720/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81720/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Grasso"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1874-b20140",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1874 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81721 (container wWG8ezm, 41 images, segnatura 8845): the annual Indice (images 38-40) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: No card on the index images 38-40. A black card lies over the left page of image 37 (acts 109-111, not needed). Nothing hidden over the M, P, S, C index blocks. Image 40 line 104 in the Z block has no surname written (dots).. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: found. Lines flagged: P block, index image 39: '29 Patane Sac. Giovanni, 29 (March), father Francesco' (act 29); act 21 (index B block: Barbagallo Gioachina, 16 March, fu Lorenzo) (act 21). Not re-zoomed by the session. Reader's note: Index read at M, P, S, C blocks at zoom 1700 on clear images. No Mazza, Marza, Sudero or true Suderi line, no Catalano deceased. Two ties noted, neither a target match: act 29 (Patane priest, mother Carmela Cardillo) and act 21 (Barbagallo widow of Salvatore Catalano). Index tested against acts 21, 24, 29, 30 and 111: numbers and names match. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81721/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81721/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Barbagallo"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1875-944355",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1875 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81722 (container LzE9Nv1, 54 images, segnatura 8846): the annual Indice (images 52-53) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Two exposures of the same index opening with a black filming card in different places: p52 card covers most of the RIGHT page (N-S-T-Z block), p53 card covers most of the LEFT page (A-M block). Between them every line of both pages is visible; p52 gives the wh. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: partial. Lines flagged: Scuderi? / Suderi? Salvatore (act 97). The session re-zoomed act 97 (image 38): a six-year-old, son of a Salvatore and a Carmela Amante; the heading reads Suderi or Scuderi, the parents are not the Patane-Suderi family, so it is a near-name, not counted. Reader's note: Index (123 acts) read at zoom at C, M, P, S blocks: no Mazza, Marza, Sudero, no Catalano/Cardillo target. One S-block line, 'Salvatore ?uderi' act 97, was opened: heading and body read Scuderi (S-c ligature uncertain) and the parents are Salvatore and Carmela Amante, so it is probably Scuderi and not our Suderi, but the first letters were not certain enough to write nil; treat as unresolved or as near-name. Cross-check: acts 105 Sciuti Domenico, 106 Catalano Carmela, 107 Nicotra Orazia, 108 Grasso Giuseppa (p41), 97 and 99 and 100 (p38-39), 101-104 (p40), 121-123 (p48) match the index. p49 bla So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81722/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81722/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Nicotra",
+   "Grasso"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1876-8b4913",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1876 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81723 (container 5dZABYY, 51 images, segnatura 8847): the annual Indice (images 49-50) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Nothing hidden over the index (no card). Acts: a black card covers parts of act pages in some exposures (p7 right page, p8 left page, p9 right page); the same openings are photographed twice (p7/p8) so the other exposure shows the text.. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index (109 acts in Parte I + 2 in Parte II) read at zoom at C, M, P, S blocks: no Mazza, Marza, Suderi, Sudero. Cross-check against acts: act 12 (Patane Solano Giovanni), 13 Zappala Luigi, 14 Nicotra Maria, 15 Caterina Salvatore, 16 Gulijano Carmela, 17 Cristaldi Carmela, 18 Garozzo Michele, 20 Patane Giuseppe, and Parte II no.2 Adorno Ascenzio all match index numbers. p47 is the Parte II cover of a DUPLICATA register (stamp 'DUPLICATA'); p48 has the two Parte II acts. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81723/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81723/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Nicotra"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1877-e43c2a",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1877 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81724 (container wRGnW94, 67 images, segnatura 8848): the annual Indice (images 64-65-66) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Two exposures of the same two-page index spread (p64, p65) with the black filming card in different places: on p64 it covers the right page (columns 3-4) from the top to near the bottom, on p65 it covers the left page (columns 1-2) except the very top and bott. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index (133 acts Parte I + Parte II acts) read at zoom for M, P, S, C blocks; no Mazza, Marza, Suderi, Sudero, Catalano. Cross-check: p4 acts 1 Pistorio Leonardo, 3 Fichera Alfia, 4 Gulijano Carmela match the index (act 2 'Patane G...' partly under card, index says Patane Gaetano 2); p62 is the end of Parte II with the closing note signed by Mariano Marano as officer. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81724/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81724/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Fichera"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1878-25db6b",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1878 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81725 (container 0A4YyGD, 67 images, segnatura 8849): the annual Indice (images 64-65-66) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Black filming card: p64 none over the index (left page of p64 is blank); p65 the card covers the RIGHT page (S-V columns), p66 the card covers the LEFT page (L-S) while showing the right page (S, T, V, Fine). p65 shows the left page (L-S) in full and p66 the r. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index (about 137 acts) read at zoom for M, P, S, C blocks: no Mazza, Marza, Suderi, Sudero. The S-block lines 'Scuderi' were checked against act 4, which is written Scuderi in margin and body (a different name). Cross-check against acts: p4 acts 1 (Muirdello?/Mincardello? Giuseppa), 2 Pugliisi Giuseppa, 3 Garozzo Sebastiano, 4 Scuderi Santa all match the index numbers and names. The index gives fathers (fu X) for most lines. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81725/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81725/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1879-02de6e",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1879 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81726 (container 5xepBmo, 44 images, segnatura 8850): the annual Indice (images 41-42-43) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Black filming card with a DUPLICATA tag, three exposures of the same index opening: p41 card over the RIGHT page (left page A-M fully visible); p42 and p43 card over the LEFT page (right page M-Z fully visible). Between p41 and p42 every line of both pages is . Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index (about 102 acts) read at zoom for M, P, S, C blocks: no Mazza, Marza, Suderi, Sudero. Catalano lines carry no father in this index so the Carlo/Cardillo question is not settled by the index; none opened. Cross-check against acts: p20 acts 61 Vadala fu Raffaele, 62 Romeo Lucia, 63 Patane Carmela, 64 Pagano Michele and p18 acts 53 Caruso Maria, 54 Lizzio fu Leonardo, 55 Greco Angela, 56 Patane Venera Concetta match the index, except Patane Venera is act 56, not 55 as the index number appeared to read. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81726/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81726/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Pagano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1880-5af503",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1880 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81727 (container 5gKnBAp, 57 images, segnatura 8851): the annual Indice (images 54-55-56) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Black filming card: p54 (index start A-L on the right page, left page blank) is clear. p55 shows the left page (L-S) in full and has the card over the RIGHT page; p56 has the card over the LEFT page and shows the right page (S end, T, U, V, Z, Fine). Together . Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index (about 137 acts) read at zoom for M, P, S, C blocks: no Mazza, Marza, Suderi, Sudero, Catalano. Cross-check against acts: p5 acts 9 (Tornatore Giovanni), 10 Rametta Francesco, 11 Capone Francesco, 12 Raiti Mariano match the index. The 'Scuderi? Rosaria 75' line was not opened (same Scuderi name checked in 1878 act 4). So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81727/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81727/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Raiti"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1881-002878",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1881 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81728 (container LPR9gW8, 63 images, segnatura 8852): the annual Indice (images 60-61-62) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Black filming card, two exposures of the same index spread: p61 shows the whole LEFT page (A-M) and has the card over the right page; p62 shows the whole RIGHT page (M-Z, Fine) and has the card over the left page. Every line visible in one of the two. Nothing . Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index (about 124 acts plus Parte 2a lines) read at zoom for M, P, S, C blocks: no Mazza, Marza, Suderi, Sudero. Cross-check against acts: p8 acts 5 Patane Rosa, 6 Bonaventura, 7 Coco Santa, 8 Giardina Giuseppa; p13 acts 21 Sorbello Giuseppe, 22 Re di Mariano, 23 Strano Leonardo, 24 Catalano Maria all match the index numbers and names. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81728/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81728/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Coco",
+   "Sorbello"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1882-0a7e7f",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1882 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81729 (container 0JbrlJG, 53 images, segnatura 8853): the annual Indice (images 50-51-52) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Black filming card with a DUPLICATA tag: p50 and p51 show the whole LEFT page (A-P start) and have the card over the right page; p52 shows the whole RIGHT page (P-Z) and has the card over the left page. Every line visible in one exposure or the other. Nothing . Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index (about 126 acts plus Parte seconda lines) read at zoom for M, P, S, C blocks: no Mazza, Marza, Suderi, Sudero, Cardillo mother. Cross-check against acts: p38 acts 109 Cardillo Rosa, 110 Patane Leonardo, 111 Militano Leonardo, 112 Cardillo Giuseppe; p40 acts 117 Raiti Nunzia and 118 Patane Francesco; p42 acts 119 Catalano Maria and 120 Giambattista Fiannino? all match the index. p41 is a 'Parte I' cover page, so the later images carry a second section. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81729/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81729/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Raiti"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1883-bb90e9",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1883 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81730 (container 5KMjn4P, 52 images, segnatura 8854): the annual Indice (images 49-50-51) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: On the index, the card covers the right page in p50 and the left page in p51; the other exposure shows each page clear, so nothing is hidden in both. On act image p20 the card covers the right-hand page (acts 63-64 body); p21 is the clear exposure.. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index fully read at M, P, S, C blocks over two complementary exposures; no Mazza/Marza, no Suderi/Sudero/Scuderi, no Catalano. Only target-name line is Patane Alfio 64, opened: a 14-year-old, not the Alfio of c.1800. Index numbers match acts (57-60 on p19, 64 on p21). So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81730/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81730/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1884-c73621",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1884 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81731 (container LydA2Eq, 41 images, segnatura 8855): the annual Indice (images 39-40) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Img 39: black card over most of the right index page; img 40: black card over most of the left index page. Each page is clear in the other exposure, so nothing is left unread. Img 41 is the back cover (labels PAG. ONDULATE etc.).. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: 1884 DUPLICATA: 96-ish acts. M block (Macarrone, Marano, Mugumeci, Mercurio, Nicolosi, Neri) contains no Mazza or Marza; P block Patane Giuseppe 15, Santo 32, Santa 53, Salvatore 88; no Alfio/Giovanni/Venera Patane; S block has Scuderi (not Suderi) Carmela 8, Spina, Strazzo?, Sorbello, Scandura, Strano, Spiro/Stiro; C block has only Catalano Leonarda 95 (daughter of Giuseppe) and Cardillo Leonardo/Agata, none Carlo/Maria. Index checked against acts: 8, 9-12, 85-88, 93-96 all matched index numbers. Act image = about 4 acts per opening, img 5 = acts 9-12, img 27 = 85-88, img 29 = 93-96. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81731/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81731/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Sorbello"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1885-f766a2",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1885 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81732 (container 0M9yEM7, 51 images, segnatura 8856): the annual Indice (images 49-50) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Img 49: black card over most of the right index page; img 50: card over most of the left index page; each page legible in the other image, so no index line is unread. Acts of 17-20, 105-108 also have a card in one exposure but a second exposure is clear (imgs . Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: 1885 DUPLICATA, 118 numbered acts plus a few 'P.S.' (Parte 2a) lines. Index read legibly at M (Murabito, Mauro, Mugumeci, Marino, Mugumeci, Muscolino?, Melita, Muganto, Marano, Marotta, Mu?ara, Mauro), P (Panebianco, Petrina, Patane x5, Pennisi, Pulvirenti, Patti), S (Sorbello, Sciacca x4, Spina, Scandura, Sp?? Rosa 105) and C (Catto, Chiappa, Cali, Casterina, Cicala, Contarino, Catalano Salvatore 22, Cambise, Cavallaro, Crisafulli, Cardillo Grazia 51, Caruso, Cristaldi): no Mazza, Marza, Suderi, Sudero, Cardillo as target. Index checked against acts 17-24, 61-64, 73-80, 89-100, 105-108: numbe So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81732/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81732/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Pennisi",
+   "Pulvirenti",
+   "Sorbello",
+   "Sciacca",
+   "Cavallaro"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1886-0d6f7b",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1886 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81733 (container wbryY2X, 51 images, segnatura 8857): the annual Indice (images 49-50) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: true for 12 of 13 numbers tested (53, 54, 56, 65-68, 69-72, 73-76 matched); Trefiletti Sebastiana is indexed 61 but its act head reads about 55 (index misnumber or misread)). Hidden or unreadable: Img 49 card covers the right index page; img 50 card covers the left page. Every page legible in one of the two images. Imgs 27/28/29 are repeat exposures of acts 69-72 with a card.. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: 1886 DUPLICATA, about 114 acts. Index read at C (Cicala, Cristaldi, Cali, Cantarino, Coco, Catanzaro Santa 47, Cappani, Cavallaro, Crisafulli, Cuscinetta, Castorina, Cannavo, Cardillo x2 ... no Catalano at all), M (Melita, Maganto, Mugumeci, Mauro, Mercurio, Marano, Messina, Mu?ara, Murabito, Macarrone: no Mazza or Marza), P (Pugliesi Venera 4, Previtera, Patane Giuseppa 40, Orazia 48, Francesca 59, Concetta 78, Carmela 86, Santa 96, Ponticello, Patti, Po, Pezzino P.S.: no Alfio, Giovanni or Venera Patane) and S (Scaglio, Sorbello, Sgroi, Strano, Scuderi Sebastiana 75, Sciacca, Spina): no Mazz So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81733/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81733/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Coco",
+   "Cavallaro",
+   "Sorbello",
+   "Sciacca"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1887-cff6e5",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1887 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81734 (container wRGnXv3, 67 images, segnatura 8858): the annual Indice (images 63-64-65-66) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: A black card covers the right page on img 63 and the left page on img 64, each page is clear in the other image. Imgs 65/66: right-hand page is black (blank end of volume). Acts also have a card over the left page on some exposures (imgs 8, 10, 14); the act 20. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: 1887 DUPLICATA. Whole index legible across imgs 63-66. C block: Catalano appears once (Giuseppe 20, a 3-year-old boy); P block Patane several but no Alfio, Giovanni or Venera; S block (Sgroi 6, Scandura 27, Spina 41, Sciacca 68, Spina 82, Spina Mariano 117) has no Suderi or Sudero; M block has no Mazza or Marza. Index numbers matched acts 16-35 (imgs 8-14). So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81734/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81734/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Sciacca"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1888-9c4bae",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1888 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81735 (container 0A4YxWW, 58 images, segnatura 8859): the annual Indice (images 55-56-57) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Card covers the right page on img 55 and the left page on img 56 (each page legible in the other image). Img 57 has show-through ghosting over the blank half; V block barely legible there but V is not a target letter.. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: found. Lines flagged: Mazza Salvatore fu Leonardo (act 90). The session re-zoomed act 90 (image 38, 4 Nov 1888): Salvatore Mazza, aged 67, trafficante, resident and died at Mascali, born at Catania, son of the late Leonardo and the late Carmela Vitale? (surname doubtful), husband of Francesca Musumeci; declarants Carmelo Tripellino and Giuseppe Rajti, witnesses Salvatore Marano and Gioacchino Lo Po. His wife is not Sebastiana Barbagallo, so he is NOT the Salvatore of the Barbagallo marriage: a lead for another Mazza line at Mascali (born Catania about 1821), not a tie. Reader's note: 1888: one Mazza: Salvatore Mazza fu Leonardo, act 90, 4 Nov 1888, aged 67, born Catania, husband of Francesca Mugumeci; not the Barbagallo marriage. No Marza, Suderi or Sudero in the S block (Strano, Spina, Terrantino, Sparta, Samperi, Sciacca, Sgroi, Sorgentano) or anywhere. Index checked against acts 1-8, 57-60, 81-92: numbers match (acts 5-8 on img 5, 57-60 on img 26, 81-84 on img 34, 85-88 on img 37, 89-92 on img 38). So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81735/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81735/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Barbagallo",
+   "Sciacca"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1889-4eb569",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1889 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81736 (container LPR98Kd, 59 images, segnatura 8860): the annual Indice (images 57-58) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: not tested (no act opened)). Hidden or unreadable: Card over most of the right page on img 57 and over most of the left page on img 58; each page is legible in the other image. Img 59 = back cover with filming labels.. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: 1889: no Mazza, Marza, Suderi or Sudero in the index. M block (Mauro, Mugolino, Marano x3, Mastrocci, Messina, Macarrone, Manafi) zoomed on img 58; S block (Spina, Scandura, Serda, Terrantino, Sorbello, Sciacca, Scarcella) zoomed on img 58; P block zoomed on img 58; C block zoomed on img 57. Catalano appears five times with no parent shown; they were not opened (the brief says open only lines whose index gives a matching father), so a Catalano child of Carlo and Maria Cardillo is not excluded by the index alone. Index numbers were not checked against an act image in this register (no act was o So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81736/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81736/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Sorbello",
+   "Sciacca"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1890-3a3295",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1890 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81737 (container wO4AYvG, 87 images, segnatura 8861): the annual Indice (images 84-85-86) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Img 84: black card covers the right half of the right page (M-Z start of the right pair); img 85 is the second exposure of the same opening with the card over the LEFT page, right page clear (M and P blocks read there). Img 86 final index page (R-Z) clear; img. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: M block (img 85 left page), P block (img 85 right page), C block (img 84 left page) and S block (img 86) all zoomed and legible. No Mazza, Marza, Suderi, Sudero line. Index checked against acts: acts 41, 42, 43 on img 18 match index numbers (Maugeri Mariano 41, Patane Alfio 42, Patane Leonarda 43). Act 42 opened and is not the target family. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81737/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81737/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1892-8741a7",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1892 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81740 (container LeG9XVx, 68 images, segnatura 8863): the annual Indice (images 65-66-67) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Img 65: card over the right page; left page (A-G) clear. Img 66: second exposure of the same opening, card over the LEFT page; right page (Parte lists, L, M, N, P, R) clear. Img 67: S-Z left page clear (right page blank). Img 68 back cover. Nothing hidden over. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: Index read at C, M, P, S blocks, all zoomed and legible: no Mazza, Marza, Suderi, Sudero, no Catalano with father Carlo or Mariano or Salvatore (only Catalano Emilio di Alfio 86, not opened), no Cardillo as mother. M block lists Maccarrone, Musumeci, Mignemi, Mauro, Magauto?, Militano, Muleti?, Marano, Melita, Messina, Milesi?, none Mazza. Index checked against acts on img 3 and 4: act 2 Patane Serafina, act 5 Correnti Tereja, act 6 Strano Nunzio, act 7 Maccarrone Rosario all match index numbers. Act 2 seen at page scale, not zoomed. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81740/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81740/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
+ },
+ {
+  "key": "src/antenati-mascali-morti-1893-62c942",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — Mascali, Morti 1893 (Italian era): annual index read for Mazza, Marza, Suderi, Sudero, Patane, Catalano",
+  "scope": "an_ua81741 (container 0JbrlQB, 67 images, segnatura 8864): the annual Indice (images 64-65-66) read by a delegated reader, who opened the acts the index flagged and tested the index numbers against the acts (matches: True). Hidden or unreadable: Img 64: card over the right page; left page (A-G) clear. Img 65: second exposure of the same opening, card over the LEFT page; right page (G-R) clear. Img 66: R tail, S, T, U, V, Z on the left page, clear; right page blank. Img 67 back cover. C block read on i. Terms typed: Mazza, Marza, Suderi, Sudero, Patane, Catalano (Cardillo as a mother). The acts were NOT walked, and the session re-zoomed only what is named below; all else is the reader's report.",
+  "result": "Reader's state: nil. Lines flagged: none. Not re-zoomed by the session. Reader's note: C, M, P, S blocks of the index all zoomed and legible with nothing hidden over them: no Mazza, Marza, Suderi, Sudero; no Catalano whose index line gives Carlo, Alfio-as-father (none) or Mariano; no Patane with father Alfio. Patane lines with father Salvatore (5, 49, 91) opened at page scale: a family of sisters (fu Salvatore, mothers Contarino Grazia and Previtera Caterina) unrelated to Alfio Patane and Maria Suderi, no Mazza named. Index checked against acts 1-8, 41-44, 45-52, 65-68, 85-92: numbers match. Act texts were read at page scale (1200 px) not zoomed, so witness names are doubtful. So this is a partial reading (an index, not a walk): it does not rule out a death registered under a spelling or hand the index misses.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81741/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81741/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano"
+  ]
  }
 ]
