@@ -51,6 +51,7 @@ HAND_EDITED = {
     "data/living-year-allow.json",   # the few lines allowed to carry an in-window year because a death is recorded beside it
     "data/tree-page/README.md",      # how the Roots & Routes page is built and what its numbers mean: written by hand
     "data/tree-page/place-additions.json",  # Roots & Routes: places placed or refused by hand, each with its reason
+    "data/searched-links.json",      # the pages a found searched row went into (ev, for, logOnly, nobody), by row key: written by hand
     "data/pe-volumes.json",          # register volumes and their arks, filled in by hand as they are found
     "site/src/data/book.json",       # the book's order: part titles, intros and one-line blurbs, written by hand
     "site/src/data/errands.json",    # the letters and orders this archive still needs: written by hand

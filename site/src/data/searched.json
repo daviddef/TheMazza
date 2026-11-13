@@ -21436,5 +21436,40 @@
    "Mazza",
    "Catalano"
   ]
+ },
+ {
+  "key": "src/antenati-sangiovanni-nati-1822-e740f2",
+  "status": "part",
+  "when": "2026-11-13",
+  "source": "Antenati — San Giovanni (the Giarre office of S. Giovanni and S. Alfio), Nati 1822 (restaurazione): the act of 22 June 1822 found",
+  "scope": "an_ua19994279, images 28, 40, 50-52: Antenati lists this register under the separate comune «San Giovanni» (Catania, Stato civile della restaurazione, segnatura 16157/1, container wQjVWOz, 118 images). Terms typed: Patane, Patani, Suderi, Sudero, Mazza, Marza, Catalano; only the Patane act and its neighbours were read.",
+  "result": "FOUND: atto 50 (cinquantesimo), 22 June 1822, image 52, the ORIGINAL of the birth extract of Giovanni Patane (the extract is in the 1860 Piedimonte marriage bundle an_ua72236). The act is headed «Comune di Giarre, Distretto di Catania» and made before the archdeacon, parish priest of S. Giovanni and S. Alfio, as civil officer. Alfio Patane, contadino, living in S. Giovanni, presented a male child born at eight o'clock that day «da Maria Suderi sua moglie», aged 21 (read ventuno), living with him; the child is named Giovanni and baptised in the church of S. Giovanni; the baptism column in the margin reads «Giovanni Patane fo di Alfio e di Maria Suderi, nel giorno 22 Giugno 1822». The father's age is not settled: the word is 'venti-?' with 'no' on the next line (the extract read 26?). Witnesses: Lorenzo Sanzeri (28, living in S. Giovanni) and Giuseppe Patane (about 28, a smith?, living in the same quarter); the extract's witness «Domenico Mazzolino? (45)» is not what the original shows. Opened and zoomed: images 50 (atto 48, 17 June), 51 (atto 49, 17 June: Vincenzo Patane, son of Saverio Patane, 36, and Maria Patane, 32, another Patane household of S. Giovanni, not tied), 52 (atto 50), also 28 (March) and 40 (atto 39, 27 April) to place the date; one act to an opening, so atto N is about image N+2. Reach: five of 118 images; the act is read in full (names, ages, witnesses, margin) but the rest of the register, its index (if any) and the S. Giovanni Morti (an_ua19994238) and Matrimoni (an_ua19994196) of 1822 are unread. It settles where Giovanni Patane's birth is registered: not in the Giarre office's Nati 1822 (an_ua68980) but in this separate S. Giovanni register. It does NOT settle the father's age or birth year (about 1800 comes from later acts), Maria Suderi's parents, or whether Giuseppe Patane the witness is a relative.",
+  "outcome": "found",
+  "pages": "28, 40, 50-52",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19994279/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994279/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72236/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994238/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994196/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua68980/"
+  ],
+  "tags": [
+   "Patane",
+   "Mazza",
+   "Catalano"
+  ],
+  "ev": [
+   [
+    "/searched/",
+    "What was searched"
+   ]
+  ],
+  "for": [
+   [
+    "/people/giovanni-patane/",
+    "Giovanni Patane"
+   ]
+  ]
  }
 ]

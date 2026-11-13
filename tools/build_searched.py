@@ -108,6 +108,21 @@ for r in rows:
         r["urls"] = [f"https://antenati.cultura.gov.it/ark:/12657/{a}/" for a in arks]
     text = " ".join([r["source"], r["scope"], r["result"]])
     r["tags"] = list(dict.fromkeys(FAMILY_RE.findall(text))) or ["Mazza"]
+# data/searched-links.json: the fields a found row must carry (kit check_row_pages) that the
+# TSV has no column for, keyed by the row's key: "ev": [["/page/", "label"]], "logOnly": true,
+# "for": [["/people/slug/", "Name"]], "nobody": true. Merged here, never invented; an unknown
+# key stops the build so a typo cannot silently drop the link.
+LINKS = "data/searched-links.json"
+if os.path.exists(LINKS):
+    _links = json.load(open(LINKS, encoding="utf-8"))
+    _by_key = {r["key"]: r for r in rows}
+    for _k, _v in _links.items():
+        if _k not in _by_key:
+            raise SystemExit(f"{LINKS}: key {_k} is not a row of searched.tsv")
+        bad = set(_v) - {"ev", "logOnly", "for", "nobody"}
+        if bad:
+            raise SystemExit(f"{LINKS}: {_k}: unknown field(s) {sorted(bad)}")
+        _by_key[_k].update(_v)
 json.dump(rows, open("site/src/data/searched.json", "w"), indent=1, ensure_ascii=False)
 done = [r for r in rows if r["status"] == "done"]
 print(f"{len(rows)} searches: {len(done)} done, {len(rows)-len(done)} outstanding")
