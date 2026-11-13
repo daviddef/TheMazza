@@ -21,12 +21,14 @@
 import { navGroups } from "./research-menu.js";
 import { FAMILY_MENU } from "./familylist.js";
 
+/* 13 November 2026: the Families group now begins with a link to the new /families/ index (every family page, own line first, then A to Z), then
+   the entries below. No entry was removed: the index is an addition, and every family page is still in this menu as well as on the index. */
 /* THE FAMILY ENTRIES (the family-menu rule, David, 12 November 2026: "own line first then A to Z"): the label is the bare surname (Arena,
    not The Arena), the archive's own line (Mazza) comes first, and the other surnames follow A to Z. familylist.js keeps its own labels
    ("The Arena") for the pages that use them; only the menu reads them bare. */
 const bare = ([href, label]) => [href, label.replace(/^The /, "")];
 const [MAZZA, ...REST] = FAMILY_MENU.map(bare);
-const FAMILIES = [MAZZA, ...REST.sort((a, b) => a[1].localeCompare(b[1], "en", { sensitivity: "base" }))];
+const FAMILIES = [["/families/", "All the families"], MAZZA, ...REST.sort((a, b) => a[1].localeCompare(b[1], "en", { sensitivity: "base" }))];
 
 export const MENU = [
   ["Start", [

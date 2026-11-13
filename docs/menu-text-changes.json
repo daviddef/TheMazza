@@ -2,5 +2,10 @@
  "token_swaps": [],
  "accepted": [],
  "snapshot_pages": {},
- "site_changes": []
+ "site_changes": [
+  {
+   "page": "/families/",
+   "why": "the address was a redirect stub to /marriages/ (the old census page, whose content is in /marriages/ and unchanged); it is now the new index of every family page, own line first then A to Z. The redirect was removed from astro.config.mjs. No other page changed"
+  }
+ ]
 }
