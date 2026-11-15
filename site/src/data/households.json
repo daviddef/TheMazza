@@ -94,6 +94,23 @@
   "born": 1726
  },
  {
+  "name": "Paolo Sciacca",
+  "head": "paolo-sciacca",
+  "headId": "@Rpaolo-sciacca@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsanto-sciacca@",
+    "name": "Santo Sciacca",
+    "slug": "santo-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1729
+ },
+ {
   "name": "Cirino Nicotra",
   "head": "cirino-nicotra-1740",
   "headId": "@Rcirino-nicotra-2@",
@@ -1408,6 +1425,23 @@
   "born": 1801
  },
  {
+  "name": "Santo Sciacca",
+  "head": "santo-sciacca",
+  "headId": "@Rsanto-sciacca@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-sciacca@",
+    "name": "Maria Sciacca",
+    "slug": "maria-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1801
+ },
+ {
   "name": "Caterina Marmorato & Antonino Prostamo",
   "head": "caterina-marmorato",
   "headId": "@I234@",
@@ -1480,6 +1514,23 @@
   ],
   "place": "Scilla",
   "born": 1802
+ },
+ {
+  "name": "Antonia Bonaventura",
+  "head": "antonia-bonaventura",
+  "headId": "@Rantonia-bonaventura@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-sciacca@",
+    "name": "Maria Sciacca",
+    "slug": "maria-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1803
  },
  {
   "name": "Angela Costa",
@@ -1566,6 +1617,23 @@
   "born": 1806
  },
  {
+  "name": "Filippo Spina",
+  "head": "filippo-spina",
+  "headId": "@Rfilippo-spina@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1808
+ },
+ {
   "name": "Antonia Grasso & Fortunato Anile",
   "head": "antonia-grasso",
   "headId": "@I379@",
@@ -1585,6 +1653,23 @@
    }
   ],
   "place": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
+  "born": 1809
+ },
+ {
+  "name": "Concetta Russo",
+  "head": "concetta-russo-1809",
+  "headId": "@Rconcetta-russo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": 1809
  },
  {
@@ -12371,6 +12456,23 @@
    }
   ],
   "place": "Giarre",
+  "born": null
+ },
+ {
+  "name": "Rosaria Lisinco",
+  "head": "rosaria-lisinco",
+  "headId": "@Rrosaria-lisinco@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsanto-sciacca@",
+    "name": "Santo Sciacca",
+    "slug": "santo-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": null
  },
  {

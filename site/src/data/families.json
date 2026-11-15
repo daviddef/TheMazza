@@ -182,6 +182,20 @@
   ]
  },
  {
+  "surname": "Russo",
+  "n": 7,
+  "dead": 7,
+  "living": 0,
+  "first": 1809,
+  "last": 1809,
+  "places": [
+   "Piedimonte Etneo",
+   "Scilla, Reggio Calabria",
+   "Scilla",
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Napoli",
   "n": 6,
   "dead": 2,
@@ -191,20 +205,6 @@
   "places": [
    "Briatico, Vibo Valentia, Calabria",
    "Buenos Aires, Argentina"
-  ]
- },
- {
-  "surname": "Russo",
-  "n": 6,
-  "dead": 6,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Scilla, Reggio Calabria",
-   "Piedimonte Etneo",
-   "Scilla",
-   "Giarre"
   ]
  },
  {
@@ -228,6 +228,17 @@
   "last": 1840,
   "places": [
    "Scilla"
+  ]
+ },
+ {
+  "surname": "Sciacca",
+  "n": 6,
+  "dead": 6,
+  "living": 0,
+  "first": 1729,
+  "last": 1867,
+  "places": [
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -377,17 +388,6 @@
   "first": 1898,
   "last": 1989,
   "places": []
- },
- {
-  "surname": "Sciacca",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": 1826,
-  "last": 1867,
-  "places": [
-   "Piedimonte Etneo"
-  ]
  },
  {
   "surname": "Fichera",
@@ -782,7 +782,7 @@
   "dead": 2,
   "living": 0,
   "first": 1761,
-  "last": 1810,
+  "last": 1872,
   "places": [
    "Giarre"
   ]
@@ -1694,6 +1694,17 @@
   ]
  },
  {
+  "surname": "Bonaventura",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1803,
+  "last": 1803,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
   "surname": "Majo",
   "n": 1,
   "dead": 1,
@@ -1724,6 +1735,17 @@
   "last": null,
   "places": [
    "Giarre"
+  ]
+ },
+ {
+  "surname": "Spina",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1808,
+  "last": 1808,
+  "places": [
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -1874,8 +1896,8 @@
   "n": 1,
   "dead": 1,
   "living": 0,
-  "first": null,
-  "last": null,
+  "first": 1834,
+  "last": 1834,
   "places": [
    "Piedimonte Etneo"
   ]
@@ -1950,7 +1972,7 @@
   "dead": 1,
   "living": 0,
   "first": 1801,
-  "last": 1801,
+  "last": 1872,
   "places": [
    "Giarre"
   ]
@@ -2026,6 +2048,17 @@
   "living": 0,
   "first": 1819,
   "last": 1889,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Lisinco",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
   "places": [
    "Piedimonte Etneo"
   ]
