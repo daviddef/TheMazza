@@ -405,5 +405,65 @@
     "Santo Patane"
    ]
   ]
+ },
+ "src/antenati-piedimonte-matrimoni-1854c-b7e4e3": {
+  "ev": [
+   [
+    "/people/angela-patane/",
+    "Angela Patane"
+   ],
+   [
+    "/people/maria-patane-1824/",
+    "Maria Patane"
+   ],
+   [
+    "/people/angelo-trovato/",
+    "Angelo Trovato"
+   ]
+  ],
+  "for": [
+   [
+    "/people/angela-patane/",
+    "Angela Patane"
+   ],
+   [
+    "/people/maria-patane-1824/",
+    "Maria Patane"
+   ],
+   [
+    "/people/angelo-trovato/",
+    "Angelo Trovato"
+   ]
+  ]
+ },
+ "src/antenati-piedimonte-morti-1881c-3beeef": {
+  "ev": [
+   [
+    "/people/venera-mazza/",
+    "Venera Mazza"
+   ],
+   [
+    "/people/orazia-patane/",
+    "Orazia Patane"
+   ],
+   [
+    "/people/maria-patane-1867/",
+    "Maria Patane"
+   ],
+   [
+    "/people/santa-patane/",
+    "Santa Patane"
+   ]
+  ],
+  "for": [
+   [
+    "/people/venera-mazza/",
+    "Venera Mazza"
+   ],
+   [
+    "/people/orazia-patane/",
+    "Orazia Patane"
+   ]
+  ]
  }
 }

@@ -83,8 +83,8 @@
  },
  {
   "surname": "Patane",
-  "n": 23,
-  "dead": 23,
+  "n": 25,
+  "dead": 25,
   "living": 0,
   "first": 1766,
   "last": 1889,
@@ -751,6 +751,18 @@
   "last": 1813,
   "places": [
    "Scilla"
+  ]
+ },
+ {
+  "surname": "Trovato",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1830,
+  "last": 1830,
+  "places": [
+   "Piedimonte Etneo",
+   "Giarre"
   ]
  },
  {
@@ -1988,17 +2000,6 @@
  },
  {
   "surname": "Musumeci",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Giarre"
-  ]
- },
- {
-  "surname": "Trovato",
   "n": 1,
   "dead": 1,
   "living": 0,
