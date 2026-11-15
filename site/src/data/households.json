@@ -111,6 +111,23 @@
   "born": 1729
  },
  {
+  "name": "Sebastiano Sorbello",
+  "head": "sebastiano-sorbello",
+  "headId": "@Rsebastiano-sorbello@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiachino-sorbello@",
+    "name": "Giachino Sorbello",
+    "slug": "giachino-sorbello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1738
+ },
+ {
   "name": "Cirino Nicotra",
   "head": "cirino-nicotra-1740",
   "headId": "@Rcirino-nicotra-2@",
@@ -612,6 +629,40 @@
   "born": 1776
  },
  {
+  "name": "Serafina Coco",
+  "head": "serafina-coco",
+  "headId": "@Rserafina-coco@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvatore-sorbello@",
+    "name": "Salvatore Sorbello",
+    "slug": "salvatore-sorbello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1777
+ },
+ {
+  "name": "Giachino Sorbello",
+  "head": "giachino-sorbello",
+  "headId": "@Rgiachino-sorbello@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvatore-sorbello@",
+    "name": "Salvatore Sorbello",
+    "slug": "salvatore-sorbello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1780
+ },
+ {
   "name": "Pasquale Sofi",
   "head": "pasquale-sofi",
   "headId": "@Rpasquale-sofi@",
@@ -842,6 +893,23 @@
   "born": 1789
  },
  {
+  "name": "Francesco Trovato",
+  "head": "francesco-trovato",
+  "headId": "@Rfrancesco-trovato@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rangelo-trovato@",
+    "name": "Angelo Trovato",
+    "slug": "angelo-trovato",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1790
+ },
+ {
   "name": "Giuseppa Strano",
   "head": "giuseppa-strano",
   "headId": "@Rgiuseppa-strano@",
@@ -891,6 +959,23 @@
    }
   ],
   "place": "Giarre",
+  "born": 1790
+ },
+ {
+  "name": "Giuseppe Ventrice",
+  "head": "giuseppe-ventrice",
+  "headId": "@Rgiuseppe-ventrice@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfrancesco-ventrice@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
   "born": 1790
  },
  {
@@ -950,6 +1035,23 @@
   ],
   "place": "Scilla",
   "born": 1793
+ },
+ {
+  "name": "Giuseppa Trovato",
+  "head": "giuseppa-trovato",
+  "headId": "@Rgiuseppa-trovato@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rangelo-trovato@",
+    "name": "Angelo Trovato",
+    "slug": "angelo-trovato",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1794
  },
  {
   "name": "Rosario Nicotra",
@@ -1110,6 +1212,23 @@
   ],
   "place": "Giarre",
   "born": 1796
+ },
+ {
+  "name": "Caterina Cichello",
+  "head": "caterina-cichello",
+  "headId": "@Rcaterina-cichello@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfrancesco-ventrice@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": 1798
  },
  {
   "name": "Giuseppe Polistena",
@@ -2241,6 +2360,41 @@
     "slug": "orazia-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rsanta-patane-2@",
+    "name": "Santa Patane",
+    "slug": "santa-patane-1867",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcarmelo-patane@",
+    "name": "Carmelo Patane",
+    "slug": "carmelo-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-patane-3@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane-1871",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-patane-3@",
+    "name": "Leonarda Patane",
+    "slug": "leonarda-patane-1873",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsenzia-patane@",
+    "name": "Senzia Patane",
+    "slug": "senzia-patane",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -2606,6 +2760,27 @@
     "slug": "anna-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane-3@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane-1863",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-patane-4@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1865",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonardo-patane@",
+    "name": "Leonardo Patane",
+    "slug": "leonardo-patane",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -2829,6 +3004,27 @@
     "slug": "anna-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane-3@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane-1863",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-patane-4@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1865",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonardo-patane@",
+    "name": "Leonardo Patane",
+    "slug": "leonardo-patane",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Piedimonte Etneo",
@@ -2874,6 +3070,27 @@
     "slug": "santo-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Ranna-patane-3@",
+    "name": "Anna Patane",
+    "slug": "anna-patane-1864",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-patane@",
+    "name": "Domenica Patane",
+    "slug": "domenica-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgrazia-patane@",
+    "name": "Grazia Patane",
+    "slug": "grazia-patane",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Mascali",
@@ -2917,6 +3134,27 @@
     "id": "@Rsanto-patane@",
     "name": "Santo Patane",
     "slug": "santo-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-patane-3@",
+    "name": "Anna Patane",
+    "slug": "anna-patane-1864",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-patane@",
+    "name": "Domenica Patane",
+    "slug": "domenica-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgrazia-patane@",
+    "name": "Grazia Patane",
+    "slug": "grazia-patane",
     "living": false,
     "via": "read"
    }
@@ -3038,6 +3276,34 @@
     "id": "@Rorazia-patane@",
     "name": "Orazia Patane",
     "slug": "orazia-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanta-patane-2@",
+    "name": "Santa Patane",
+    "slug": "santa-patane-1867",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-patane-3@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane-1871",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-patane-3@",
+    "name": "Leonarda Patane",
+    "slug": "leonarda-patane-1873",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsenzia-patane@",
+    "name": "Senzia Patane",
+    "slug": "senzia-patane",
     "living": false,
     "via": "read"
    }
@@ -11070,6 +11336,23 @@
   "born": null
  },
  {
+  "name": "Alfio Coco",
+  "head": "alfio-coco",
+  "headId": "@Ralfio-coco@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rserafina-coco@",
+    "name": "Serafina Coco",
+    "slug": "serafina-coco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
   "name": "Alfio Grasso",
   "head": "alfio-grasso",
   "headId": "@Ralfio-grasso@",
@@ -11485,6 +11768,23 @@
   "born": null
  },
  {
+  "name": "Caterina Mannella",
+  "head": "caterina-mannella",
+  "headId": "@Rcaterina-mannella@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiacomo-comerci@",
+    "name": "Giacomo Comerci",
+    "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
+  "born": null
+ },
+ {
   "name": "Concetta Greco",
   "head": "concetta-greco",
   "headId": "@Rconcetta-greco@",
@@ -11743,6 +12043,23 @@
    }
   ],
   "place": "Zambrone",
+  "born": null
+ },
+ {
+  "name": "Francesco Comerci",
+  "head": "francesco-comerci",
+  "headId": "@Rfrancesco-comerci@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiacomo-comerci@",
+    "name": "Giacomo Comerci",
+    "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
   "born": null
  },
  {
@@ -12464,6 +12781,23 @@
    }
   ],
   "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Nunzia Coco",
+  "head": "nunzia-coco",
+  "headId": "@Rnunzia-coco@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rserafina-coco@",
+    "name": "Serafina Coco",
+    "slug": "serafina-coco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
   "born": null
  },
  {

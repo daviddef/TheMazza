@@ -38886,6 +38886,67 @@
   "ancGen": null
  },
  {
+  "id": "@Ralfio-coco@",
+  "slug": "alfio-coco",
+  "name": "Alfio Coco",
+  "key": "Alfio Coco (father of Serafina Coco)",
+  "given": "Alfio",
+  "surname": "Coco",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 6 August 1847 (her death act calls him «fu»)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 6 August 1847 (her death act calls him «fu»)"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni processetti 1852, the fascicolo of promessa 37 (an_ua72228, images 217-224, read by a delegated reader",
+   "images 220 and 223 re-zoomed by the session)"
+  ],
+  "registerNote": "Named only in his daughter's death act of 1847 as «fu Alfio» and, with his wife Nunzia Coco, as a dead parent. Nothing else is known and nothing has been sought. Placed at Giarre because the act says S. Alfio, which may be the quarter of S. Giovanni e S. Alfio of Giarre or the separate comune of Sant'Alfio; that is not settled.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rserafina-coco@",
+    "name": "Serafina Coco",
+    "slug": "serafina-coco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Ralfio-grasso@",
   "slug": "alfio-grasso",
   "name": "Alfio Grasso",
@@ -39542,6 +39603,65 @@
   "ancGen": null
  },
  {
+  "id": "@Ralfio-patane-4@",
+  "slug": "alfio-patane-1865",
+  "name": "Alfio Patane",
+  "key": "Alfio Patane (b. 1865, of Rosario Patane and Maria Sciacca)",
+  "given": "Alfio",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1865,
+  "died": null,
+  "bornText": "7 February 1865",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "7 February 1865",
+    "year": 1865,
+    "place": "Piedimonte Etneo",
+    "text": "7 February 1865"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1865, atto 25 (an_ua72188, image 27), found in the annual tavola by a delegated reader"
+  ],
+  "registerNote": "«Rosario Patane, 36, bracciale», and «Maria Sciacca, 36». Named for Rosario's father Alfio.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-patane-2@",
+    "name": "Rosario Patane",
+    "slug": "rosario-patane-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-sciacca@",
+    "name": "Maria Sciacca",
+    "slug": "maria-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Ralfio-patane@",
   "slug": "alfio-patane",
   "name": "Alfio Patane",
@@ -39700,16 +39820,16 @@
   "fromRegister": true,
   "born": 1862,
   "died": null,
-  "bornText": "c. 1862",
+  "bornText": "12 October 1862",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1862",
+    "date": "12 October 1862",
     "year": 1862,
     "place": "Piedimonte Etneo",
-    "text": "c. 1862"
+    "text": "12 October 1862"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -39720,9 +39840,10 @@
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1885 atto 57 (an_ua83406, image 55",
    "the index digit looked like 53), found in the annual index by a delegated reader",
-   "the party lines re-zoomed by the session"
+   "the party lines re-zoomed by the session",
+   "Piedimonte Etneo, Nati 1862, atto 163 (an_ua72408, image 166), found in the annual tavola by a delegated reader"
   ],
-  "registerNote": "Married MARIA CURRENTI, about 21, daughter of Antonino and Maria (surname read Branti?), on 22 December 1885. «Figlio di GIUSEPPE e di LA SPINA MARIA»: named for his grandfather Alfio Patane. A NAMESAKE and first cousin of Alfio Patane (b. 1863, of Giovanni Patane and Venera Mazza); the two are different men, born within a year of each other.",
+  "registerNote": "Married MARIA CURRENTI, about 21, daughter of Antonino and Maria (surname read Branti?), on 22 December 1885. «Figlio di GIUSEPPE e di LA SPINA MARIA»: named for his grandfather Alfio Patane. A NAMESAKE and first cousin of Alfio Patane (b. 1863, of Giovanni Patane and Venera Mazza); the two are different men, born within a year of each other. HIS BIRTH ACT, found 15 Nov 2026: Piedimonte Nati 1862 atto 163, born 12 October 1862 (declared the 13th), son of Giuseppe Patane, bracciale, and Maria La Spina.",
   "registerGen": "4",
   "photos": [],
   "parents": [
@@ -40795,16 +40916,16 @@
   "fromRegister": true,
   "born": 1830,
   "died": null,
-  "bornText": "c. 1830",
+  "bornText": "11 February 1830",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1830",
+    "date": "11 February 1830",
     "year": 1830,
     "place": "Piedimonte Etneo",
-    "text": "c. 1830"
+    "text": "11 February 1830"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -40814,12 +40935,28 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1854 atto 20 (an_ua72274, images 41-43, re-zoomed by the session)",
-   "Matrimoni 1890 atto 28 (an_ua83411, image 31, re-zoomed by the session)"
+   "Matrimoni 1890 atto 28 (an_ua83411, image 31, re-zoomed by the session)",
+   "Piedimonte Etneo, Matrimoni processetti 1854, the fascicolo of promessa 20 (an_ua72230, images 128-132, read by a delegated reader)"
   ],
-  "registerNote": "Born at Piedimonte, son of fu FRANCESCO Trovato and GIUSEPPA TROVATO (sixty and living in 1854, dead by 1890), so his mother's maiden name is also Trovato as the acts write it. Married ANGELA PATANE on 23 November 1854. Angela died on 3 February 1889; on 11 September 1890 an Angelo Trovato of the same age and the same parents married CATERINA DELPOPOLO, 24, born at Linguaglossa, daughter of Francesco and Carmela Petrocitto (spelling read), both living at Linguaglossa. The 1890 act does not say widower; the identity of the two men is a very strong inference from father, mother and age. His father's death act is one of the documents of the 1854 bundle (foglio 20, not yet opened).",
+  "registerNote": "Born at Piedimonte, son of fu FRANCESCO Trovato and GIUSEPPA TROVATO (sixty and living in 1854, dead by 1890), so his mother's maiden name is also Trovato as the acts write it. Married ANGELA PATANE on 23 November 1854. Angela died on 3 February 1889; on 11 September 1890 an Angelo Trovato of the same age and the same parents married CATERINA DELPOPOLO, 24, born at Linguaglossa, daughter of Francesco and Carmela Petrocitto (spelling read), both living at Linguaglossa. The 1890 act does not say widower; the identity of the two men is a very strong inference from father, mother and age. 15 NOV 2026, THE 1854 BUNDLE OPENED (foglio 20 = promessa 20, images 128-132): it holds three documents and no more, his civil birth extract (Piedimonte Nati 1830 atto 23, 11 February 1830, presented by Francesco Trovato, 32, macellajo, and Giuseppa Trovato, 36), Angela's civil birth extract (Sei Quartieri / San Giovanni, Nati 1830 atto 42, 26 April 1830) and the DEATH ACT OF FRANCESCO TROVATO (Piedimonte Morti 1850 atto 86). So his birth date is now known, and the Angelo of 1890, said to be sixty, was in fact sixty in 1890 to the year. A witness to his 1830 birth is written Lorenzo Suderi? or Sudiero?, a bracciante: a Suderi at Piedimonte in 1830, whom no one has tied to Maria Suderi's family.",
   "registerGen": "5",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rfrancesco-trovato@",
+    "name": "Francesco Trovato",
+    "slug": "francesco-trovato",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-trovato@",
+    "name": "Giuseppa Trovato",
+    "slug": "giuseppa-trovato",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [],
   "spouses": [],
   "siblings": [],
@@ -41380,6 +41517,65 @@
   "ancGen": null
  },
  {
+  "id": "@Ranna-patane-3@",
+  "slug": "anna-patane-1864",
+  "name": "Anna Patane",
+  "key": "Anna Patane (b. 1864, of Giuseppe Patane and Maria La Spina)",
+  "given": "Anna",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1864,
+  "died": null,
+  "bornText": "6 December 1864",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "6 December 1864",
+    "year": 1864,
+    "place": "Piedimonte Etneo",
+    "text": "6 December 1864"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1864, atto 199 (an_ua72186, image 21, the supplement to the 1864 births), found in the annual tavola by a delegated reader"
+  ],
+  "registerNote": "«Giuseppe Patane, 28, bracciale», and «Maria La Spina, 28». THE FIRST ANNA: a second Anna was born to the same parents on 3 April 1866 (Nati 1866 atto 58), which means the first had very probably died, but her death has not been found.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Ranna-patane@",
   "slug": "anna-patane",
   "name": "Anna Patane",
@@ -41391,16 +41587,16 @@
   "fromRegister": true,
   "born": 1861,
   "died": null,
-  "bornText": "c. 1861",
+  "bornText": "30 July 1861",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1861",
+    "date": "30 July 1861",
     "year": 1861,
     "place": "Piedimonte Etneo",
-    "text": "c. 1861"
+    "text": "30 July 1861"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -41410,9 +41606,10 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1883 atto 4 (an_ua83404, image 5), found in the annual index by a delegated reader",
-   "the party lines re-zoomed by the session"
+   "the party lines re-zoomed by the session",
+   "Piedimonte Etneo, Nati 1861, atto 122 (an_ua72406, image 124), found in the annual tavola by a delegated reader"
   ],
-  "registerNote": "Married SEBASTIANO SORBELLO, 29, bracciante, born at Giarre, son of fu Michele and Filippa (surname read Pittera?), on 29 January 1883. She is «figlia di ROSARIO e di SCIACCA MARIA», both living and both at Piedimonte: a daughter of Rosario Patane (b. 1828) and Maria Sciacca, whose marriage of 1858 this archive holds, and so a granddaughter of Alfio Patane and Maria Suderi. Her father died on 7 August 1886. The act says the documents are in the volume of allegati of the 1883 register, not yet opened. Her birth and death have not been sought.",
+  "registerNote": "Married SEBASTIANO SORBELLO, 29, bracciante, born at Giarre, son of fu Michele and Filippa (surname read Pittera?), on 29 January 1883. She is «figlia di ROSARIO e di SCIACCA MARIA», both living and both at Piedimonte: a daughter of Rosario Patane (b. 1828) and Maria Sciacca, whose marriage of 1858 this archive holds, and so a granddaughter of Alfio Patane and Maria Suderi. Her father died on 7 August 1886. The act says the documents are in the volume of allegati of the 1883 register, not yet opened. Her birth and death have not been sought. HER BIRTH ACT, found 15 Nov 2026: Piedimonte Nati 1861 atto 122, born 30 July 1861, daughter of Rosario Patane, 30, bracciale, and Maria Sciacca, 28 (her given name is taken from the tavola, the act foot was not zoomed). The father's 30 is three years under the 33 his birth of 1828 gives, which is ordinary.",
   "registerGen": "4",
   "photos": [],
   "parents": [
@@ -41449,18 +41646,18 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": 1867,
+  "born": 1866,
   "died": null,
-  "bornText": "c. 1867",
+  "bornText": "3 April 1866",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1867",
-    "year": 1867,
+    "date": "3 April 1866",
+    "year": 1866,
     "place": "Piedimonte Etneo",
-    "text": "c. 1867"
+    "text": "3 April 1866"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -41470,9 +41667,10 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1885 atto 14 (an_ua83406, image 13), found in the annual index by a delegated reader",
-   "the party lines re-zoomed by the session"
+   "the party lines re-zoomed by the session",
+   "Piedimonte Etneo, Nati 1866, atto 58 (an_ua83479, image 23), found in the annual index by a delegated reader"
   ],
-  "registerNote": "Married SANTO LICCIARDELLO, 25, bracciante, born at Giarre, son of fu Alfio and fu Concetta (surname read Leonardi?), on 22 March 1885. «Figlia di GIUSEPPE e di LA SPINA MARIA». NOT the Anna Patane of Rosario Patane and Maria Sciacca, who married in 1883: two cousins of the same name.",
+  "registerNote": "Married SANTO LICCIARDELLO, 25, bracciante, born at Giarre, son of fu Alfio and fu Concetta (surname read Leonardi?), on 22 March 1885. «Figlia di GIUSEPPE e di LA SPINA MARIA». NOT the Anna Patane of Rosario Patane and Maria Sciacca, who married in 1883: two cousins of the same name. HER BIRTH ACT, found 15 Nov 2026: Piedimonte Nati 1866 atto 58, born 3 April 1866, daughter of Giuseppe Patane di Alfio, 30, bracciale, in contrada San Basilio, and Maria Spina di Filippo (the La dropped in the act). An earlier Anna was born to the same parents on 6 December 1864 (Nati 1864 atto 199), so this is the second Anna.",
   "registerGen": "4",
   "photos": [],
   "parents": [
@@ -42289,7 +42487,7 @@
    "Giarre, Matrimoni 1821 atto 20 (an_ua68849, images 41-43)",
    "San Giovanni (Giarre), Matrimoni 1830 atto 12 (an_ua19994204, image 25), which names him as already dead"
   ],
-  "registerNote": "Father of Maria Suderi, from the 1821 Giarre marriage promise; domiciled at Giarre. Husband of Venera Vaglia?. A different Antonino Suderi is the father of Giuseppa Suderi (Giarre 1823, table line 8), whose mother was Angela Marano; not the same wife, not joined. DEAD BY 23 JUNE 1830, established 14 Nov 2026 from the promise of a second daughter, Giuseppa Suderi, which reads «figlia del fu Antonio di anni sessanta, di professione contadino, domiciliato in detto S. Giovanni». The clerk filled the age box anyway, as these forms often do for a dead parent, so «sessanta» is not evidence of his age in 1830. AND HIS DEATH IS NOT IN THE SAN GIOVANNI DEATH REGISTERS. Those run from 1822 and all thirty volumes to 1862 have now been read; he is in none of them. So either he died BEFORE the series begins in 1822 - which, since Sicily has no civil registration before 1820, would leave only the parish books of Giarre - or he died outside these quarters. That is the next question on his side of the family.",
+  "registerNote": "Father of Maria Suderi, from the 1821 Giarre marriage promise; domiciled at Giarre. Husband of Venera Vaglia?. A different Antonino Suderi is the father of Giuseppa Suderi (Giarre 1823, table line 8), whose mother was Angela Marano; not the same wife, not joined. DEAD BY 23 JUNE 1830, established 14 Nov 2026 from the promise of a second daughter, Giuseppa Suderi, which reads «figlia del fu Antonio di anni sessanta, di professione contadino, domiciliato in detto S. Giovanni». The clerk filled the age box anyway, as these forms often do for a dead parent, so «sessanta» is not evidence of his age in 1830. AND HIS DEATH IS NOT IN THE SAN GIOVANNI DEATH REGISTERS. Those run from 1822 and all thirty volumes to 1862 have now been read; he is in none of them. So either he died BEFORE the series begins in 1822 - which, since Sicily has no civil registration before 1820, would leave only the parish books of Giarre - or he died outside these quarters. That is the next question on his side of the family. 15 NOV 2026: GIARRE'S OWN DEATH REGISTERS ARE NOW READ and he is not in them. The Giarre death years 1820-1842 were read from their tavole (1820 and 1830 re-read whole, and the 1821 register walked act by act because its tavola covers only about 135 of 228 acts), and no Antonino Suderi, no Venera Vasta and no Mazza died there. So he died before 1820, when there is no civil act in Sicily and only the parish books of Giarre can name him, or in a comune not yet read.",
   "registerGen": "7",
   "photos": [],
   "parents": [],
@@ -43194,6 +43392,58 @@
   "ancGen": null
  },
  {
+  "id": "@Rcarmelo-patane@",
+  "slug": "carmelo-patane",
+  "name": "Carmelo Patane",
+  "key": "Carmelo Patane (b. 1869, son of Giovanni Patane)",
+  "given": "Carmelo",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1869,
+  "died": null,
+  "bornText": "23 June 1869",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "23 June 1869",
+    "year": 1869,
+    "place": "Piedimonte Etneo",
+    "text": "23 June 1869"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1869, atto 128 (an_ua83482, image 44), found in the annual index by a delegated reader"
+  ],
+  "registerNote": "THE MOTHER'S NAME IS LEFT BLANK IN THE ACT («dalla di lui moglie ____ seco lui domiciliata»), so only the father identifies him: «Giovanni Patane di Alfio, 40, bracciante», the patronymic that matches this archive's Giovanni, and the same address as the family. Taken as a son of Giovanni and Venera Mazza on that basis and given no mother. The father's age is 40 here, 43 in 1868 and 46 in 1871, which is the usual drift. Nothing is known of what became of him.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiovanni-patane@",
+    "name": "Giovanni Patane",
+    "slug": "giovanni-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rcarmelo-tomarchio@",
   "slug": "carmelo-tomarchio",
   "name": "Carmelo Tomarchio",
@@ -43304,7 +43554,7 @@
   "key": "Caterina Cichello",
   "given": "Caterina",
   "surname": "Cichello",
-  "sex": "",
+  "sex": "F",
   "living": false,
   "fromRegister": true,
   "born": 1798,
@@ -43336,9 +43586,10 @@
   "sources": [],
   "registerSources": [
    "Zambrone, Matrimoni 1824, atto 2",
-   "Briatico, Matrimoni 1849, atto 1"
+   "Briatico, Matrimoni 1849, atto 1",
+   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session)"
   ],
-  "registerNote": "GIOVANNA VENTRICE'S MOTHER, and now with parents. She married GIUSEPPE VENTRICE at ZAMBRONE on 2 MARCH 1824, and the act names her «figlia DEL FU FRANCESCO e DELLA FU VITTORIA MOLLO» -- both already dead when she married at twenty-six. She was widowed in June 1831, eighteen years before she appears alive at Briatico in her daughter's marriage papers of 1849.",
+  "registerNote": "GIOVANNA VENTRICE'S MOTHER, and now with parents. She married GIUSEPPE VENTRICE at ZAMBRONE on 2 MARCH 1824, and the act names her «figlia DEL FU FRANCESCO e DELLA FU VITTORIA MOLLO» -- both already dead when she married at twenty-six. She was widowed in June 1831, eighteen years before she appears alive at Briatico in her daughter's marriage papers of 1849. SHE MARRIED AGAIN, at Briatico on 1 OCTOBER 1838 (promise act no. 2, the notice posted Sunday 2 September 1838): GIACOMO COMERCI, 53, a miller (magnaio), born Briatico. The act names her «Caterina Cichello», aged «quaran[ta]…» (the number is not completed), «nata in Zambrone», domiciled at Briatico, «figlia di Francesco Cichello, bracciale, defunto, e di Vittoria Mollo (written Mollo/Molto), defunta», so the same two parents as in 1824, and no other Caterina Cichello fits them. The act does not say «vedova»; she was Giuseppe Ventrice's widow by the death act of June 1831. Giacomo Comerci is the miller who DECLARED Giuseppe Ventrice's death in 1831. Witnesses Giuseppe Lia and Antonio Orlando. Nothing is known of whether she had further children.",
   "registerGen": "7",
   "photos": [],
   "parents": [
@@ -43357,7 +43608,15 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rfrancesco-ventrice@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -43410,6 +43669,66 @@
   "photos": [],
   "parents": [],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rcaterina-mannella@",
+  "slug": "caterina-mannella",
+  "name": "Caterina Mannella",
+  "key": "Caterina Mannella",
+  "given": "Caterina",
+  "surname": "Mannella",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 1 October 1838 («defunta» in her son's marriage act)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Briatico",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 1 October 1838 («defunta» in her son's marriage act)"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session)"
+  ],
+  "registerNote": "Mother of Giacomo Comerci, named in his marriage act of 1 October 1838 as dead. Nothing else is known and nothing has been sought.",
+  "registerGen": "8",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rgiacomo-comerci@",
+    "name": "Giacomo Comerci",
+    "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -44850,6 +45169,65 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rdomenica-patane@",
+  "slug": "domenica-patane",
+  "name": "Domenica Patane",
+  "key": "Domenica Patane (b. 1873, of Giuseppe Patane and Maria La Spina)",
+  "given": "Domenica",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1873,
+  "died": null,
+  "bornText": "1 July 1873",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "1 July 1873",
+    "year": 1873,
+    "place": "Piedimonte Etneo",
+    "text": "1 July 1873"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1873, atto 79 (an_ua83486, image 26), found in the annual index by a delegated reader"
+  ],
+  "registerNote": "«Giuseppe Patane di Alfio, 40, bracciante», and «Maria Spina di Filippo».",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -46441,6 +46819,66 @@
   "ancGen": null
  },
  {
+  "id": "@Rfrancesco-comerci@",
+  "slug": "francesco-comerci",
+  "name": "Francesco Comerci",
+  "key": "Francesco Comerci",
+  "given": "Francesco",
+  "surname": "Comerci",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 1 October 1838 («defunto» in his son's marriage act)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Briatico",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 1 October 1838 («defunto» in his son's marriage act)"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session)"
+  ],
+  "registerNote": "Father of Giacomo Comerci, named in his son's marriage act of 1 October 1838 as dead, «domiciliato idem defonto». Nothing else is known and nothing has been sought. His trade is not read.",
+  "registerGen": "8",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rgiacomo-comerci@",
+    "name": "Giacomo Comerci",
+    "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rfrancesco-crupi@",
   "slug": "francesco-crupi",
   "name": "Francesco Crupi",
@@ -46728,6 +47166,133 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfrancesco-trovato@",
+  "slug": "francesco-trovato",
+  "name": "Francesco Trovato",
+  "key": "Francesco Trovato (father of Angelo Trovato)",
+  "given": "Francesco",
+  "surname": "Trovato",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1790,
+  "died": 1850,
+  "bornText": "c. 1790-1798",
+  "diedText": "9 December 1850, ten at night, Piedimonte Etneo (Morti 1850 atto 86, dated the 10th), aged sixty",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1790-1798",
+    "year": 1790,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1790-1798"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "9 December 1850, ten at night, Piedimonte Etneo (Morti 1850 atto 86, dated the 10th), aged sixty",
+    "year": 1850,
+    "place": "",
+    "text": "9 December 1850, ten at night, Piedimonte Etneo (Morti 1850 atto 86, dated the 10th), aged sixty"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "macellajo (butcher) in 1830; bracciale in 1850",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni processetti 1854, the fascicolo of promessa 20 (an_ua72230, images 128-132, read by a delegated reader)"
+  ],
+  "registerNote": "Husband of Giuseppa Trovato, BORN AT PIEDIMONTE OF UNKNOWN PARENTS: his death act says «figlio di Padre Ignoto e di Madre Ignota», so he was a foundling or a child of unrecorded parentage and NO GENERATION ABOVE HIM CAN COME FROM THIS FILE. The death act was copied for the 1854 marriage of his son Angelo to Angela Patane by the Cancelliere Archivario Domenico Lamonaca; the declarants were Salvatore Barbagallo, 39, bracciale, and Domenico Turco?, 56, a shepherd. Married Giuseppa Trovato, so wife and husband bear one surname, which is what the acts write; the wife may have been a foundling given the same name.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rangelo-trovato@",
+    "name": "Angelo Trovato",
+    "slug": "angelo-trovato",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfrancesco-ventrice@",
+  "slug": "francesco-ventrice",
+  "name": "Francesco Ventrice",
+  "key": "Francesco Ventrice (infant son of Giuseppe Ventrice)",
+  "given": "Francesco",
+  "surname": "Ventrice",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1825,
+  "died": 1825,
+  "bornText": "early 1825?",
+  "diedText": "February 1825 (or 1826), aged twelve days; the day is overwritten, read 4 or 8",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "early 1825?",
+    "year": 1825,
+    "place": "Zambrone",
+    "text": "early 1825?"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "February 1825 (or 1826), aged twelve days; the day is overwritten, read 4 or 8",
+    "year": 1825,
+    "place": "",
+    "text": "February 1825 (or 1826), aged twelve days; the day is overwritten, read 4 or 8"
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Zambrone, Morti Tavola on image 103 of an_ua37932358 (entry 3), read at the image by the session"
+  ],
+  "registerNote": "A CHILD OF GIUSEPPE VENTRICE AND CATERINA CICHELLO, new to this archive and the first of their children after the marriage of 2 March 1824, older than Giovanna (b. June 1828). The annual alphabetical Tavola of the dead of Zambrone lists him third, «età tenera», with the parents «Giuseppe, e Catarina Cichello». Only the Tavola was read, not the act itself, which is the next thing to open. Nothing else is known of him. Not to be confused with the Francesco Ventrice, a contadino «fu Paolo», who died at Zambrone on 17 February 1833 (the same Tavola series, image 173): his mother is not named, and Domenico Ventrice's father was also a Paolo, so he may be Domenico's brother, which is a lead and not a finding.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-ventrice@",
+    "name": "Giuseppe Ventrice",
+    "slug": "giuseppe-ventrice",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-cichello@",
+    "name": "Caterina Cichello",
+    "slug": "caterina-cichello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -47242,6 +47807,75 @@
   "ancGen": null
  },
  {
+  "id": "@Rgiachino-sorbello@",
+  "slug": "giachino-sorbello",
+  "name": "Giachino Sorbello",
+  "key": "Giachino Sorbello (father of Salvatore Sorbello)",
+  "given": "Giachino",
+  "surname": "Sorbello",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1780,
+  "died": 1852,
+  "bornText": "c. 1780",
+  "diedText": "13 September 1852, nine in the morning, Piedimonte Etneo (Morti 1852 atto 73), aged seventy-two, two months before his son's promise",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1780",
+    "year": 1780,
+    "place": "Giarre",
+    "text": "c. 1780"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "13 September 1852, nine in the morning, Piedimonte Etneo (Morti 1852 atto 73), aged seventy-two, two months before his son's promise",
+    "year": 1852,
+    "place": "",
+    "text": "13 September 1852, nine in the morning, Piedimonte Etneo (Morti 1852 atto 73), aged seventy-two, two months before his son's promise"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni processetti 1852, the fascicolo of promessa 37 (an_ua72228, images 217-224, read by a delegated reader",
+   "images 220 and 223 re-zoomed by the session)"
+  ],
+  "registerNote": "«Giachino Sorbello, di anni settantadue, vedovo di Serafina Coco, nato in Giarre, bracciale, domiciliato ivi, figlio dei fu SEBASTIANO e della fu NUNZIA ARMANDO? (or Ormando?)»; declarants Ignazio Spina, 29, and Domenico Inocchiano?, 29, both bracciale. The mother's name is read with a query and is not given a row. Lived at Piedimonte Etneo in 1852 (place column holds the birthplace).",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsebastiano-sorbello@",
+    "name": "Sebastiano Sorbello",
+    "slug": "sebastiano-sorbello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [
+   {
+    "id": "@Rsalvatore-sorbello@",
+    "name": "Salvatore Sorbello",
+    "slug": "salvatore-sorbello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiacoma-turco@",
   "slug": "giacoma-turco",
   "name": "Giacoma Turco",
@@ -47300,6 +47934,65 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 9
+ },
+ {
+  "id": "@Rgiacomo-comerci@",
+  "slug": "giacomo-comerci",
+  "name": "Giacomo Comerci",
+  "key": "Giacomo Comerci (second husband of Caterina Cichello)",
+  "given": "Giacomo",
+  "surname": "Comerci",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1785,
+  "died": null,
+  "bornText": "c. 1785",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1785",
+    "year": 1785,
+    "place": "Briatico",
+    "text": "c. 1785"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "magnaio (miller)",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session)"
+  ],
+  "registerNote": "Caterina Cichello's SECOND HUSBAND, married at Briatico on 1 October 1838. He is the miller who declared Giuseppe Ventrice's death in 1831 (Briatico Morti 1831, atto 12), so he knew the family already. Nothing is known of his death or of any children, and none has been sought. Placed at Briatico, where he was born and lived.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rfrancesco-comerci@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-mannella@",
+    "name": "Caterina Mannella",
+    "slug": "caterina-mannella",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rgiacomo-nicotra-2@",
@@ -47951,6 +48644,41 @@
     "id": "@Rorazia-patane@",
     "name": "Orazia Patane",
     "slug": "orazia-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanta-patane-2@",
+    "name": "Santa Patane",
+    "slug": "santa-patane-1867",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcarmelo-patane@",
+    "name": "Carmelo Patane",
+    "slug": "carmelo-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-patane-3@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane-1871",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-patane-3@",
+    "name": "Leonarda Patane",
+    "slug": "leonarda-patane-1873",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsenzia-patane@",
+    "name": "Senzia Patane",
+    "slug": "senzia-patane",
     "living": false,
     "via": "read"
    }
@@ -48790,6 +49518,66 @@
    }
   ],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppa-trovato@",
+  "slug": "giuseppa-trovato",
+  "name": "Giuseppa Trovato",
+  "key": "Giuseppa Trovato (mother of Angelo Trovato)",
+  "given": "Giuseppa",
+  "surname": "Trovato",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1794,
+  "died": null,
+  "bornText": "c. 1794",
+  "diedText": "after 1854 and before 11 September 1890 (dead in her son's second marriage act)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1794",
+    "year": 1794,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1794"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "after 1854 and before 11 September 1890 (dead in her son's second marriage act)"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni processetti 1854, the fascicolo of promessa 20 (an_ua72230, images 128-132, read by a delegated reader)"
+  ],
+  "registerNote": "Wife of Francesco Trovato, mother of Angelo (b. 1830) and living at Piedimonte at his marriage in 1854, giving her consent with the bride's parents. Her parents are not named in anything seen.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rangelo-trovato@",
+    "name": "Angelo Trovato",
+    "slug": "angelo-trovato",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -50011,8 +50799,88 @@
     "slug": "santo-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Ranna-patane-3@",
+    "name": "Anna Patane",
+    "slug": "anna-patane-1864",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-patane@",
+    "name": "Domenica Patane",
+    "slug": "domenica-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgrazia-patane@",
+    "name": "Grazia Patane",
+    "slug": "grazia-patane",
+    "living": false,
+    "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppe-patane-3@",
+  "slug": "giuseppe-patane-1863",
+  "name": "Giuseppe Patane",
+  "key": "Giuseppe Patane (b. 1863, of Rosario Patane and Maria Sciacca)",
+  "given": "Giuseppe",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1863,
+  "died": null,
+  "bornText": "17 December 1863",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "17 December 1863",
+    "year": 1863,
+    "place": "Piedimonte Etneo",
+    "text": "17 December 1863"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1863, atto 217 (an_ua72409, image 29, the second container of the year), found in the annual tavola by a delegated reader"
+  ],
+  "registerNote": "«Rosario Patane, 33, bracciale», and «Maria Sciacca, 33». The ages are two years under what the birth years give, which is ordinary here.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-patane-2@",
+    "name": "Rosario Patane",
+    "slug": "rosario-patane-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-sciacca@",
+    "name": "Maria Sciacca",
+    "slug": "maria-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -50273,7 +51141,7 @@
   "key": "Giuseppe Ventrice",
   "given": "Giuseppe",
   "surname": "Ventrice",
-  "sex": "",
+  "sex": "M",
   "living": false,
   "fromRegister": true,
   "born": 1790,
@@ -50327,7 +51195,15 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rfrancesco-ventrice@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -50382,6 +51258,65 @@
     "id": "@Rconcetta-greco@",
     "name": "Concetta Greco",
     "slug": "concetta-greco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgrazia-patane@",
+  "slug": "grazia-patane",
+  "name": "Grazia Patane",
+  "key": "Grazia Patane (b. 1877, of Giuseppe Patane and Maria La Spina)",
+  "given": "Grazia",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1877,
+  "died": null,
+  "bornText": "16 April 1877",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "16 April 1877",
+    "year": 1877,
+    "place": "Piedimonte Etneo",
+    "text": "16 April 1877"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1877, atto 65 (an_ua83490, image 31), found in the annual index by a delegated reader"
+  ],
+  "registerNote": "The father's age is read «quaranta» (a birth of 1832 gives 45), and the mother is Maria La Spina, contadina. The witness is Antonino Larocca. The couple's last child found so far.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
     "living": false,
     "via": "read"
    }
@@ -51082,6 +52017,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rleonarda-patane-3@",
+  "slug": "leonarda-patane-1873",
+  "name": "Leonarda Patane",
+  "key": "Leonarda Patane (b. 1873, of Giovanni Patane and Venera Mazza)",
+  "given": "Leonarda",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1873,
+  "died": null,
+  "bornText": "5 November 1873",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "5 November 1873",
+    "year": 1873,
+    "place": "Piedimonte Etneo",
+    "text": "5 November 1873"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1873, atto 138 (an_ua83486, image 44), found in the annual index by a delegated reader"
+  ],
+  "registerNote": "«Giovanni Patane di Alfio, 46, bracciante», and «Venera Mazza di Mariano». The name is the one Giovanni's sister Leonarda Patane bore (b. about 1836, mother of Venerando Mazza).",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiovanni-patane@",
+    "name": "Giovanni Patane",
+    "slug": "giovanni-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rleonarda-patane@",
   "slug": "leonarda-patane",
   "name": "Leonarda Patane",
@@ -51225,6 +52219,65 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rleonardo-patane@",
+  "slug": "leonardo-patane",
+  "name": "Leonardo Patane",
+  "key": "Leonardo Patane (b. 1869, of Rosario Patane and Maria Sciacca)",
+  "given": "Leonardo",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1869,
+  "died": null,
+  "bornText": "27 July 1869",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "27 July 1869",
+    "year": 1869,
+    "place": "Piedimonte Etneo",
+    "text": "27 July 1869"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1869, atto 98 (an_ua83482, image 34), found in the annual index by a delegated reader"
+  ],
+  "registerNote": "The father is written «Rosario Patane, 37, figlio di Alfio, bracciante», so the patronymic names Alfio; the mother is read «Maria Sciacca?» and «fu Santo» (two letters of the surname unclear), and Maria Sciacca was Santo Sciacca's daughter. Both parents therefore fit.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-patane-2@",
+    "name": "Rosario Patane",
+    "slug": "rosario-patane-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-sciacca@",
+    "name": "Maria Sciacca",
+    "slug": "maria-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -52178,6 +53231,27 @@
     "slug": "santo-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Ranna-patane-3@",
+    "name": "Anna Patane",
+    "slug": "anna-patane-1864",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-patane@",
+    "name": "Domenica Patane",
+    "slug": "domenica-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgrazia-patane@",
+    "name": "Grazia Patane",
+    "slug": "grazia-patane",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -53090,16 +54164,16 @@
   "fromRegister": true,
   "born": 1824,
   "died": null,
-  "bornText": "c. 1824",
+  "bornText": "6 January 1824",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1824",
+    "date": "6 January 1824",
     "year": 1824,
     "place": "Giarre",
-    "text": "c. 1824"
+    "text": "6 January 1824"
    }
   ],
   "birthPlace": "Giarre",
@@ -53108,9 +54182,11 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Piedimonte Etneo, Matrimoni 1852 atto 37 (an_ua72272, images 77-79, re-zoomed by the session), found in the annual table by a delegated reader"
+   "Piedimonte Etneo, Matrimoni 1852 atto 37 (an_ua72272, images 77-79, re-zoomed by the session), found in the annual table by a delegated reader",
+   "Piedimonte Etneo, Matrimoni processetti 1852, the fascicolo of promessa 37 (an_ua72228, images 217-224",
+   "the Latin baptism on image 220 re-zoomed by the session)"
   ],
-  "registerNote": "A DAUGHTER OF ALFIO PATANE AND MARIA SUDERI THIS ARCHIVE DID NOT KNOW, the eldest found, and the sister of Giovanni (b. 1822), Rosario (b. 1828), Angela (b. 1830), Giuseppe (b. 1832), Leonarda (b. 1836) and Rosa (b. 1838). The promise of 26 November 1852 at one in the morning, the church celebration on 27 November: SALVATORE SORBELLO, 37, bracciale, born at Giarre, living at Piedimonte, son of fu Giachino and fu Serafina Loco, marries «MARIA PATANÈ, ventotto, nata in Giarre, domiciliata in Piedimonte, figlia di ALFIO, cinquanta, bracciale, e di MARIA SUDERI, cinquanta»: both of her parents alive. The documents are listed as the birth acts of both spouses and the death acts of the groom's father Giachino Sorbello, mother Serafina Loco and paternal grandfather SEBASTIANO SORBELLO, the volume of documents at foglio 32 (the second digit unclear), not yet opened. Her birth would be in the San Giovanni register of 1824 (about); it has not been looked for. A SORBELLO LINK: her second-generation descendants may include the Sorbello who married Patane women in 1883 and 1886; no link is claimed.",
+  "registerNote": "A DAUGHTER OF ALFIO PATANE AND MARIA SUDERI THIS ARCHIVE DID NOT KNOW, the eldest found, and the sister of Giovanni (b. 1822), Rosario (b. 1828), Angela (b. 1830), Giuseppe (b. 1832), Leonarda (b. 1836) and Rosa (b. 1838). The promise of 26 November 1852 at one in the morning, the church celebration on 27 November: SALVATORE SORBELLO, 37, bracciale, born at Giarre, living at Piedimonte, son of fu Giachino and fu Serafina Loco, marries «MARIA PATANÈ, ventotto, nata in Giarre, domiciliata in Piedimonte, figlia di ALFIO, cinquanta, bracciale, e di MARIA SUDERI, cinquanta»: both of her parents alive. The documents are listed as the birth acts of both spouses and the death acts of the groom's father Giachino Sorbello, mother Serafina Loco and paternal grandfather SEBASTIANO SORBELLO, the volume of documents at foglio 32 (the second digit unclear), not yet opened. Her birth would be in the San Giovanni register of 1824 (about); it has not been looked for. A SORBELLO LINK: her second-generation descendants may include the Sorbello who married Patane women in 1883 and 1886; no link is claimed. 15 NOV 2026, HER BAPTISM FOUND IN THE 1852 BUNDLE, and it is a PARISH document, not a civil one: «Anno Domini millesimo octingentesimo vigesimo quarto, die sexto Januarii 1824. Ego Sac. D. Joseph Spina, Coadjutor Ecclesiae S. Joannis Baptistae ... et quarterii S. Joannis, baptizavi infantem hodie natam ex ALPHIO PATANE et MARIA SUDIERE jugalibus, cui impositum fuit nomen MARIA. Matrina fuit Josepha ... uxor Angeli? Patane», certified at Giarre in July 1852 by the archpriest Don Salvator Fiamingo (surname read) and vidimated on 11 October 1852 by the Eletto Particolare. THE GODMOTHER'S SURNAME AND THE WORD BEFORE «Patane» ARE NOT SETTLED. WHY THE SAN GIOVANNI CIVIL REGISTER DID NOT GIVE HER UP: the annual tavola of San Giovanni Nati 1824 was read in full for this couple and was nil, so the civil act of a child baptised on 6 January 1824 is either absent from that year or filed under another name; the parish book is the only witness found. The foglio of the bundle is NOT 32 as the 1852 promise was read: it is the fascicolo of promessa 37 (images 217-224), the marginal label reading «Salvatore Sorbello, Maria Patane». Her husband's side is documented in the same bundle, see Salvatore Sorbello.",
   "registerGen": "5",
   "photos": [],
   "parents": [
@@ -53170,7 +54246,7 @@
    "Piedimonte Etneo, Matrimoni 1884 atto 12 (an_ua83405, image 13), found in the annual index by a delegated reader",
    "the party lines re-zoomed by the session"
   ],
-  "registerNote": "Married SALVATORE ZAPPALA, 26, bracciante, son of fu Alfio and fu Caterina Casella, on 29 March 1884; a sister of Salvatore Patane (b. c. 1858, of Giuseppe) who married six weeks earlier. «Figlia di GIUSEPPE e di LA SPINA MARIA». NOT the Maria Patane of Giovanni Patane and Venera Mazza (see the row for her): two cousins of the same name.",
+  "registerNote": "Married SALVATORE ZAPPALA, 26, bracciante, son of fu Alfio and fu Caterina Casella, on 29 March 1884; a sister of Salvatore Patane (b. c. 1858, of Giuseppe) who married six weeks earlier. «Figlia di GIUSEPPE e di LA SPINA MARIA». NOT the Maria Patane of Giovanni Patane and Venera Mazza (see the row for her): two cousins of the same name. HER BIRTH IS NOT IN PIEDIMONTE'S BIRTH REGISTERS 1861-1881 (read 15 Nov 2026, every Patane child's act opened): the c. 1862 rests on her marriage age alone, and she was born before 1861, or elsewhere, or under another name.",
   "registerGen": "4",
   "photos": [],
   "parents": [
@@ -53207,18 +54283,18 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": 1867,
+  "born": 1868,
   "died": null,
-  "bornText": "c. 1867",
+  "bornText": "12 January 1868",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1867",
-    "year": 1867,
+    "date": "12 January 1868",
+    "year": 1868,
     "place": "Piedimonte Etneo",
-    "text": "c. 1867"
+    "text": "12 January 1868"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -53228,9 +54304,10 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1889 atto 7 (an_ua83410, image 8), found in the annual index by a delegated reader",
-   "the party lines re-zoomed by the session"
+   "the party lines re-zoomed by the session",
+   "Piedimonte Etneo, Nati 1868, atto 8 (an_ua83481, image 5), found in the annual index by a delegated reader"
   ],
-  "registerNote": "Married CARMELO MACAUTO (read; Macaluso? not excluded), 31, bracciante, born at Linguaglossa, son of fu Antonino and Antonia Bonaventura, on 11 February 1889 at half past four. She is «figlia del fu GIOVANNI e del fu MAZZA VENERA»: BOTH PARENTS DEAD, which is right: her mother Venera Mazza had died on 19 August 1881 (Morti 1881 atto 85) and her father on 4 April 1885. A WRONG INFERENCE OF THIS ARCHIVE'S OWN, MADE AND WITHDRAWN THE SAME DAY: reading Santa's marriage act of July 1886 as saying the mother was then living, it put Venera's death in 1886-1889; the act simply omits «fu», and her death act was found in 1881. The witnesses were Tommaso Raganese, 32, calzolaio, and Giuseppe Grasso. The allegati of the 1889 register are not yet opened. NOT the Maria Patane of Giuseppe Patane and Maria La Spina who married in 1884.",
+  "registerNote": "Married CARMELO MACAUTO (read; Macaluso? not excluded), 31, bracciante, born at Linguaglossa, son of fu Antonino and Antonia Bonaventura, on 11 February 1889 at half past four. She is «figlia del fu GIOVANNI e del fu MAZZA VENERA»: BOTH PARENTS DEAD, which is right: her mother Venera Mazza had died on 19 August 1881 (Morti 1881 atto 85) and her father on 4 April 1885. A WRONG INFERENCE OF THIS ARCHIVE'S OWN, MADE AND WITHDRAWN THE SAME DAY: reading Santa's marriage act of July 1886 as saying the mother was then living, it put Venera's death in 1886-1889; the act simply omits «fu», and her death act was found in 1881. The witnesses were Tommaso Raganese, 32, calzolaio, and Giuseppe Grasso. The allegati of the 1889 register are not yet opened. NOT the Maria Patane of Giuseppe Patane and Maria La Spina who married in 1884. HER BIRTH ACT, found 15 Nov 2026: Piedimonte Nati 1868 atto 8, born 12 January 1868 in contrada Archi, daughter of Giovanni Patane di Alfio, 43, bracciale, and Venera Mazza (the surname read Marza or Mazza) di Mariano. The 21 of her 1889 marriage promise fits.",
   "registerGen": "4",
   "photos": [],
   "parents": [
@@ -53527,6 +54604,27 @@
     "id": "@Ranna-patane@",
     "name": "Anna Patane",
     "slug": "anna-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane-3@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane-1863",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-patane-4@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1865",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonardo-patane@",
+    "name": "Leonardo Patane",
+    "slug": "leonardo-patane",
     "living": false,
     "via": "read"
    }
@@ -54584,6 +55682,67 @@
   "ancGen": null
  },
  {
+  "id": "@Rnunzia-coco@",
+  "slug": "nunzia-coco",
+  "name": "Nunzia Coco",
+  "key": "Nunzia Coco (mother of Serafina Coco)",
+  "given": "Nunzia",
+  "surname": "Coco",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 6 August 1847 (her daughter's death act calls her «fu»)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Giarre",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 6 August 1847 (her daughter's death act calls her «fu»)"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni processetti 1852, the fascicolo of promessa 37 (an_ua72228, images 217-224, read by a delegated reader",
+   "images 220 and 223 re-zoomed by the session)"
+  ],
+  "registerNote": "Named only in her daughter's death act of 1847. Nothing else is known and nothing has been sought. Placed at Giarre because the act says S. Alfio, which may be the quarter of S. Giovanni e S. Alfio of Giarre or the separate comune of Sant'Alfio; that is not settled.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rserafina-coco@",
+    "name": "Serafina Coco",
+    "slug": "serafina-coco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rnunzio-nicotra@",
   "slug": "nunzio-nicotra",
   "name": "Nunzio Nicotra",
@@ -54654,16 +55813,16 @@
   "fromRegister": true,
   "born": 1881,
   "died": 1881,
-  "bornText": "c. May 1881",
+  "bornText": "28 May 1881",
   "diedText": "31 July 1881, in Via Borgo, Piedimonte Etneo (Morti 1881 atto 69), aged two months",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. May 1881",
+    "date": "28 May 1881",
     "year": 1881,
     "place": "Piedimonte Etneo",
-    "text": "c. May 1881"
+    "text": "28 May 1881"
    },
    {
     "what": "died",
@@ -54681,9 +55840,11 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Morti 1881 atto 69 (an_ua83454, image 33), found by a delegated reader walking the margins of the unindexed 1881 register",
-   "the parents' lines only were read, not her age or the declarants"
+   "the parents' lines only were read, not her age or the declarants",
+   "Piedimonte Etneo, Nati 1881, atto 88 (an_ua83495, image 38), found in the annual index by a delegated reader",
+   "re-zoomed by the session"
   ],
-  "registerNote": "The last child of Giovanni Patane and Venera Mazza found, born when her mother was about forty-five and dead nineteen days before her mother (Venera, Morti 1881 atto 85). Sister of Santa, Alfio, Salvatore and Maria. Only the parents' lines of her act have been read by this archive; the act itself should be re-zoomed for her age and the declarants.",
+  "registerNote": "The last child of Giovanni Patane and Venera Mazza found, born when her mother was about forty-five and dead nineteen days before her mother (Venera, Morti 1881 atto 85). Sister of Santa, Alfio, Salvatore and Maria. Only the parents' lines of her act have been read by this archive; the act itself should be re-zoomed for her age and the declarants. BIRTH ACT FOUND 15 Nov 2026, with a name that differs: Piedimonte Nati 1881 atto 88, a daughter born 28 May 1881 at 6.30 am in Via Borgo to Giovanni Patane, 53, bracciante, and Venera Mazza (written Marra), contadina, named GRAZIA, in the act, the margin and the index, read at the image by the session. The date fits the two months of the death act of 31 July 1881 and the parents are the same, so she is taken as the same child, with the name unsettled between Grazia (the birth) and Orazia (this archive's reading of the death act, which has not been re-zoomed for the name). No other Patane child of these parents was born in 1881.",
   "registerGen": "4",
   "photos": [],
   "parents": [
@@ -57900,6 +59061,27 @@
     "slug": "anna-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-patane-3@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane-1863",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-patane-4@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1865",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonardo-patane@",
+    "name": "Leonardo Patane",
+    "slug": "leonardo-patane",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -57951,7 +59133,7 @@
    "San Giovanni (Giarre), Morti 1838 atto 1 (an_ua19994254, image 3), his widow's death act, which names him as already dead",
    "San Giovanni (Giarre), Matrimoni 1830 atto 13 (an_ua19994204, image 27), the solemne promessa of 21 July 1830, found in the tavola by a delegated reader and opened and re-zoomed by the session"
   ],
-  "registerNote": "Father of Alfio Patane, from the 1821 Giarre marriage promise: «Rosario, di anni cinquantacinque, contadino», domiciled at Giarre. Husband of Venera Grasso. HIS DEATH IS NOW BOUNDED, 13 NOV 2026: his wife's death act of 2 January 1838 calls her «moglie del FU Rosario Patanè», so he died between March 1821 and the end of 1837. He is NOT in the San Giovanni death registers of 1822-1834, which were read in full, nor in 1835-1848, so either he died in one of the two years whose tavole are incomplete (1849 starts after P, 1850 begins at C - but both are after her death and so impossible), or he died elsewhere, or his act is in a year of this series not yet read. The San Giovanni Morti read so far are 1822-1851. His own birth and marriage are still not sought. TIGHTENED 14 NOV 2026, from «before January 1838» to BEFORE 21 JULY 1830: the promise of his son Giuseppe Patanè of that date reads «figlio del fu Rosario, di anni sessantotto?», the age being the clerk's formulaic fill for a dead parent. The window is now March 1821 to July 1830, and his death is in none of the San Giovanni death registers, which have been read in full for those years. So he died outside these quarters, or his act is in Giarre's own series or Macchia's.",
+  "registerNote": "Father of Alfio Patane, from the 1821 Giarre marriage promise: «Rosario, di anni cinquantacinque, contadino», domiciled at Giarre. Husband of Venera Grasso. HIS DEATH IS NOW BOUNDED, 13 NOV 2026: his wife's death act of 2 January 1838 calls her «moglie del FU Rosario Patanè», so he died between March 1821 and the end of 1837. He is NOT in the San Giovanni death registers of 1822-1834, which were read in full, nor in 1835-1848, so either he died in one of the two years whose tavole are incomplete (1849 starts after P, 1850 begins at C - but both are after her death and so impossible), or he died elsewhere, or his act is in a year of this series not yet read. The San Giovanni Morti read so far are 1822-1851. His own birth and marriage are still not sought. TIGHTENED 14 NOV 2026, from «before January 1838» to BEFORE 21 JULY 1830: the promise of his son Giuseppe Patanè of that date reads «figlio del fu Rosario, di anni sessantotto?», the age being the clerk's formulaic fill for a dead parent. The window is now March 1821 to July 1830, and his death is in none of the San Giovanni death registers, which have been read in full for those years. So he died outside these quarters, or his act is in Giarre's own series or Macchia's. 15 NOV 2026: GIARRE'S OWN DEATH REGISTERS 1820-1842 ARE NOW READ and he is not in them either. The 1821 register was walked act by act (an older Rosario Patane's widow Rosaria?, 80, died on 9 June 1821 at act 121: not Venera Grasso, who lived to 1838); 1820 and 1830 were re-read whole. His death is therefore before 1820 in the parish books, or in a comune not yet read.",
   "registerGen": "7",
   "photos": [],
   "parents": [],
@@ -59667,6 +60849,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rsalvatore-patane-3@",
+  "slug": "salvatore-patane-1871",
+  "name": "Salvatore Patane",
+  "key": "Salvatore Patane (b. 1871, of Giovanni Patane and Venera Mazza)",
+  "given": "Salvatore",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1871,
+  "died": null,
+  "bornText": "7 December 1871",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "7 December 1871",
+    "year": 1871,
+    "place": "Piedimonte Etneo",
+    "text": "7 December 1871"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1871, atto 158 (an_ua83484, image 57), found in the annual index by a delegated reader"
+  ],
+  "registerNote": "A SECOND SALVATORE: the first was born on 11 August 1865 (Nati 1865 atto 123) and the name was given again, which usually means the first died, though his death has not been found. «Giovanni Patane di Alfio, 46, bracciante», and «Venera Mazza di Mariano».",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiovanni-patane@",
+    "name": "Giovanni Patane",
+    "slug": "giovanni-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rsalvatore-patane-2@",
   "slug": "salvatore-patane-1858",
   "name": "Salvatore Patane",
@@ -59714,6 +60955,66 @@
     "id": "@Rmaria-la-spina@",
     "name": "Maria La Spina",
     "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsalvatore-sorbello@",
+  "slug": "salvatore-sorbello",
+  "name": "Salvatore Sorbello",
+  "key": "Salvatore Sorbello (husband of Maria Patane b. 1824)",
+  "given": "Salvatore",
+  "surname": "Sorbello",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1815,
+  "died": null,
+  "bornText": "16 June 1815",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "16 June 1815",
+    "year": 1815,
+    "place": "Giarre",
+    "text": "16 June 1815"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni processetti 1852, the fascicolo of promessa 37 (an_ua72228, images 217-224, read by a delegated reader",
+   "images 220 and 223 re-zoomed by the session)"
+  ],
+  "registerNote": "Married MARIA PATANE, daughter of Alfio Patane and Maria Suderi, by the promise of 26 November 1852 (midnight, Piedimonte Matrimoni 1852 atto 37) and the church celebration of the 27th. His parents and his paternal grandfather were all dead, which is why the bundle holds three death acts, of Giachino, Serafina and Sebastiano. A SECOND SORBELLO FASCICOLO, promessa 26 (images 153-160), is that of a brother Giuseppe Sorbello and was only glanced at. A Salvatore Sorbello of this village married a Patane woman again in 1883 and 1886; no link is claimed. Lived at Piedimonte Etneo in 1852 (place column holds the birthplace).",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiachino-sorbello@",
+    "name": "Giachino Sorbello",
+    "slug": "giachino-sorbello",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rserafina-coco@",
+    "name": "Serafina Coco",
+    "slug": "serafina-coco",
     "living": false,
     "via": "read"
    }
@@ -59787,6 +61088,66 @@
   "ancGen": null
  },
  {
+  "id": "@Rsanta-patane-2@",
+  "slug": "santa-patane-1867",
+  "name": "Santa Patane",
+  "key": "Santa Patane (b. 1867, of Giovanni Patane and Venera Mazza)",
+  "given": "Santa",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1867,
+  "died": null,
+  "bornText": "8 January 1867",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "8 January 1867",
+    "year": 1867,
+    "place": "Piedimonte Etneo",
+    "text": "8 January 1867"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1867, atto 5 (an_ua83480, image 4), found in the annual index by a delegated reader",
+   "the act re-zoomed by the session"
+  ],
+  "registerNote": "A SECOND SANTA. The act reads Giovanni Patanè di Alfio, 41, bracciale, and his wife «Venera Marra di Mariano», the clerk's Marra for Mazza, as in the 1881 act. The first Santa was born on 22 October 1861 (Nati 1861 atto 170); two girls of one name in one house means the first had died, but her death has not been found and the 1886 marriage of a Santa Patane may be either of them (see the older Santa's row).",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiovanni-patane@",
+    "name": "Giovanni Patane",
+    "slug": "giovanni-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rsanta-patane@",
   "slug": "santa-patane",
   "name": "Santa Patane",
@@ -59796,18 +61157,18 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": 1862,
+  "born": 1861,
   "died": null,
-  "bornText": "c. 1862",
+  "bornText": "22 October 1861",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1862",
-    "year": 1862,
+    "date": "22 October 1861",
+    "year": 1861,
     "place": "Piedimonte Etneo",
-    "text": "c. 1862"
+    "text": "22 October 1861"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -59817,9 +61178,10 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1886 atto 28 (an_ua83407, image 26), found in the annual index by a delegated reader",
-   "the party lines re-zoomed by the session"
+   "the party lines re-zoomed by the session",
+   "Piedimonte Etneo, Nati 1861, atto 170 (an_ua72406, image 172), found in the annual tavola by a delegated reader"
   ],
-  "registerNote": "Married IGNAZIO SORBELLO, 25, bracciante, son of fu Giuseppe and PATANE MARIA, on 10 July 1886. She is «figlia del fu GIOVANNI e di MAZZA VENERA», the mother's name written without «fu» although SHE HAD ALREADY BEEN DEAD FIVE YEARS (died 19 August 1881, Morti 1881 atto 85) and her father dead sixteen months: the 1886 clerk's silence is the clerk's formula, and an absent «fu» is not proof that a parent was alive: the daughter of the double in-laws' marriage of 27 August 1860, and so the sister of Alfio (b. 1863) and Salvatore (b. 1865). THE GROOM'S MOTHER IS ALSO A PATANE MARIA; whether that is a Patane woman of this family is not established and is not claimed. She is the sister of Maria Patane (b. c. 1867), who married in 1889.",
+  "registerNote": "Married IGNAZIO SORBELLO, 25, bracciante, son of fu Giuseppe and PATANE MARIA, on 10 July 1886. She is «figlia del fu GIOVANNI e di MAZZA VENERA», the mother's name written without «fu» although SHE HAD ALREADY BEEN DEAD FIVE YEARS (died 19 August 1881, Morti 1881 atto 85) and her father dead sixteen months: the 1886 clerk's silence is the clerk's formula, and an absent «fu» is not proof that a parent was alive: the daughter of the double in-laws' marriage of 27 August 1860, and so the sister of Alfio (b. 1863) and Salvatore (b. 1865). THE GROOM'S MOTHER IS ALSO A PATANE MARIA; whether that is a Patane woman of this family is not established and is not claimed. She is the sister of Maria Patane (b. c. 1867), who married in 1889. HER BIRTH ACT, found 15 Nov 2026: Piedimonte Nati 1861 atto 170, born 22 October 1861, daughter of Giovanni Patane (written 36 or 39, the digit not read) and Venera Mazza, 24. The 24 of her marriage promise (July 1886) fits October 1861. A SECOND daughter Santa was born on 8 January 1867 (Nati 1867 atto 5), so the first Santa may have died young; the marriage act of 1886 does not say which of them married, and the age points to the first.",
   "registerGen": "4",
   "photos": [],
   "parents": [
@@ -60202,16 +61564,16 @@
   "fromRegister": true,
   "born": 1868,
   "died": null,
-  "bornText": "c. 1868",
+  "bornText": "11 August 1868",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1868",
+    "date": "11 August 1868",
     "year": 1868,
     "place": "Piedimonte Etneo",
-    "text": "c. 1868"
+    "text": "11 August 1868"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -60221,9 +61583,10 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1893 atto 42 (an_ua83414, image 46), found in the annual index by a delegated reader",
-   "the party lines re-zoomed by the session"
+   "the party lines re-zoomed by the session",
+   "Piedimonte Etneo, Nati 1868, atto 111 (an_ua83481, image 43), found in the annual index by a delegated reader"
   ],
-  "registerNote": "Married GIUSEPPA MESSINA, 18, contadina, daughter of Leonardo and Antonina Currenti, in November 1893. «Figlio di GIUSEPPE e di LA SPINA MARIA», both living: so Giuseppe Patane (b. 1832) and Maria La Spina were alive in November 1893, the latest date either has. The youngest child of theirs found, and the last of five (Salvatore, Maria, Anna, Alfio, Santo).",
+  "registerNote": "Married GIUSEPPA MESSINA, 18, contadina, daughter of Leonardo and Antonina Currenti, in November 1893. «Figlio di GIUSEPPE e di LA SPINA MARIA», both living: so Giuseppe Patane (b. 1832) and Maria La Spina were alive in November 1893, the latest date either has. The youngest child of theirs found, and the last of five (Salvatore, Maria, Anna, Alfio, Santo). HIS BIRTH ACT, found 15 Nov 2026: Piedimonte Nati 1868 atto 111, born 11 August 1868 at 2 am in contrada San Basilio, written Santi, son of Giuseppe Patane di Alfio, 32, bracciale, and Maria Spina di Filippo.",
   "registerGen": "4",
   "photos": [],
   "parents": [
@@ -60558,6 +61921,128 @@
   "ancGen": null
  },
  {
+  "id": "@Rsebastiano-sorbello@",
+  "slug": "sebastiano-sorbello",
+  "name": "Sebastiano Sorbello",
+  "key": "Sebastiano Sorbello (paternal grandfather of Salvatore Sorbello)",
+  "given": "Sebastiano",
+  "surname": "Sorbello",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1738,
+  "died": 1803,
+  "bornText": "c. 1738",
+  "diedText": "16 March 1803, buried the same day (Giarre parish burial, Latin), aged over 65",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1738",
+    "year": 1738,
+    "place": "Giarre",
+    "text": "c. 1738"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "16 March 1803, buried the same day (Giarre parish burial, Latin), aged over 65",
+    "year": 1803,
+    "place": "",
+    "text": "16 March 1803, buried the same day (Giarre parish burial, Latin), aged over 65"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni processetti 1852, the fascicolo of promessa 37 (an_ua72228, images 217-224, read by a delegated reader",
+   "images 220 and 223 re-zoomed by the session)",
+   "the burial extract on image 223 re-zoomed by the session"
+  ],
+  "registerNote": "A PRE-CIVIL DEATH, the oldest dated one in this archive on any Patane side: «Anno Domini millesimo octingentesimo tertio, die decimo sexto Martii 1803. Sebastianus Sorbello sponsus Stallae? et supra annos 65 vixit domi in C.S.M.E. (in communione Sanctae Matris Ecclesiae), animam Deo reddidit, munitus debitis Sacramentis, cujus corpus associatum fuit per me Sacerdotem D. Philippum Vaccitti? ... et in eadem sepultus est die quo supra», certified at Giarre on 22 (month illegible) 1852 by the archpriest and vidimated in October. THE WIFE'S NAME IS READ «Stallae» or «Stellae?» AND IS NOT SETTLED. It is a proof that the Giarre parish books of the late eighteenth century survive and can be certified: the extract was made to prove a death for a marriage, which is the route by which a pre-1820 act reached a civil file.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rgiachino-sorbello@",
+    "name": "Giachino Sorbello",
+    "slug": "giachino-sorbello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsenzia-patane@",
+  "slug": "senzia-patane",
+  "name": "Senzia Patane",
+  "key": "Senzia Patane (b. 1876, of Giovanni Patane and Venera Mazza)",
+  "given": "Senzia",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1876,
+  "died": null,
+  "bornText": "7 November 1876",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "7 November 1876",
+    "year": 1876,
+    "place": "Piedimonte Etneo",
+    "text": "7 November 1876"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1876, atto 169 (an_ua83489, image 79), found in the annual index by a delegated reader",
+   "the act re-zoomed by the session"
+  ],
+  "registerNote": "Read at the image: «Patanè Senzia» in the margin, the father «Giovanni Patanè, di anni cinquanta, bracciante», «Venera Mazza sua moglie, cucitrice». The name is Senzia in the act, which is a short form (Crescenzia or Vincenzia); it is kept as written. Witnesses Rosario Cassaniti, 40, a bracciante, and Giuseppe Cardile, 60, a muratore.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiovanni-patane@",
+    "name": "Giovanni Patane",
+    "slug": "giovanni-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rsenzio-mazza@",
   "slug": "senzio-mazza",
   "name": "Senzio Mazza",
@@ -60810,6 +62295,82 @@
   ],
   "onSpine": true,
   "ancGen": 6
+ },
+ {
+  "id": "@Rserafina-coco@",
+  "slug": "serafina-coco",
+  "name": "Serafina Coco",
+  "key": "Serafina Coco (mother of Salvatore Sorbello)",
+  "given": "Serafina",
+  "surname": "Coco",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1777,
+  "died": 1847,
+  "bornText": "c. 1777",
+  "diedText": "6 August 1847, midnight, Piedimonte Etneo (Morti 1847 atto 77, dated the 7th), aged seventy",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1777",
+    "year": 1777,
+    "place": "Giarre",
+    "text": "c. 1777"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "6 August 1847, midnight, Piedimonte Etneo (Morti 1847 atto 77, dated the 7th), aged seventy",
+    "year": 1847,
+    "place": "",
+    "text": "6 August 1847, midnight, Piedimonte Etneo (Morti 1847 atto 77, dated the 7th), aged seventy"
+   }
+  ],
+  "birthPlace": "Giarre",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "giornaliera",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni processetti 1852, the fascicolo of promessa 37 (an_ua72228, images 217-224, read by a delegated reader",
+   "images 220 and 223 re-zoomed by the session)"
+  ],
+  "registerNote": "«Serafina Coco, di anni settanta, moglie di Giachino Sorbello, nata in S. ALFIO, giornaliera, figlia dei fu ALFIO e della fu NUNZIA COCO»: both her parents dead by 1847, and, as in the other acts, the mother's surname is the father's. Declarants Ignazio La Spina, 27, and Santo Mazzano? or Mazzaro?, 50, whose surname is read with a query and is not claimed as Mazza. Born «in S. Alfio»: the quarter of S. Giovanni e S. Alfio of Giarre or the comune of Sant'Alfio, not settled; she died at Piedimonte.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Ralfio-coco@",
+    "name": "Alfio Coco",
+    "slug": "alfio-coco",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rnunzia-coco@",
+    "name": "Nunzia Coco",
+    "slug": "nunzia-coco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [
+   {
+    "id": "@Rsalvatore-sorbello@",
+    "name": "Salvatore Sorbello",
+    "slug": "salvatore-sorbello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rserafina-lo-coco@",
@@ -61624,6 +63185,34 @@
     "id": "@Rorazia-patane@",
     "name": "Orazia Patane",
     "slug": "orazia-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanta-patane-2@",
+    "name": "Santa Patane",
+    "slug": "santa-patane-1867",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-patane-3@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane-1871",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-patane-3@",
+    "name": "Leonarda Patane",
+    "slug": "leonarda-patane-1873",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsenzia-patane@",
+    "name": "Senzia Patane",
+    "slug": "senzia-patane",
     "living": false,
     "via": "read"
    }

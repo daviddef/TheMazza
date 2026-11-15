@@ -69,6 +69,19 @@
   ]
  },
  {
+  "surname": "Patane",
+  "n": 36,
+  "dead": 36,
+  "living": 0,
+  "first": 1766,
+  "last": 1889,
+  "places": [
+   "Piedimonte Etneo",
+   "Giarre",
+   "Mascali"
+  ]
+ },
+ {
   "surname": "Donato",
   "n": 25,
   "dead": 25,
@@ -79,19 +92,6 @@
    "Scilla, Reggio Calabria",
    "Scilla",
    "New York, New York"
-  ]
- },
- {
-  "surname": "Patane",
-  "n": 25,
-  "dead": 25,
-  "living": 0,
-  "first": 1766,
-  "last": 1889,
-  "places": [
-   "Piedimonte Etneo",
-   "Giarre",
-   "Mascali"
   ]
  },
  {
@@ -158,6 +158,18 @@
   ]
  },
  {
+  "surname": "Coco",
+  "n": 8,
+  "dead": 6,
+  "living": 2,
+  "first": 1777,
+  "last": 1945,
+  "places": [
+   "Giarre",
+   "Sicily"
+  ]
+ },
+ {
   "surname": "Mazzitelli",
   "n": 8,
   "dead": 8,
@@ -192,6 +204,17 @@
    "Piedimonte Etneo",
    "Scilla, Reggio Calabria",
    "Scilla",
+   "Giarre"
+  ]
+ },
+ {
+  "surname": "Sorbello",
+  "n": 7,
+  "dead": 7,
+  "living": 0,
+  "first": 1738,
+  "last": 1852,
+  "places": [
    "Giarre"
   ]
  },
@@ -251,17 +274,6 @@
   "places": []
  },
  {
-  "surname": "Coco",
-  "n": 5,
-  "dead": 3,
-  "living": 2,
-  "first": 1910,
-  "last": 1945,
-  "places": [
-   "Sicily"
-  ]
- },
- {
   "surname": "Giammona",
   "n": 5,
   "dead": 4,
@@ -284,6 +296,18 @@
    "Giarre",
    "Briatico, Vibo Valentia, Calabria",
    "Mandaradoni (Briatico), Vibo Valentia, Calabria"
+  ]
+ },
+ {
+  "surname": "Ventrice",
+  "n": 5,
+  "dead": 5,
+  "living": 0,
+  "first": 1757,
+  "last": 1831,
+  "places": [
+   "Zambrone",
+   "Briatico, Vibo Valentia, Calabria"
   ]
  },
  {
@@ -357,18 +381,6 @@
   ]
  },
  {
-  "surname": "Ventrice",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": 1757,
-  "last": 1831,
-  "places": [
-   "Zambrone",
-   "Briatico, Vibo Valentia, Calabria"
-  ]
- },
- {
   "surname": "Raiti",
   "n": 4,
   "dead": 4,
@@ -378,6 +390,18 @@
   "places": [
    "Piedimonte Etneo",
    "Piedimonte Etneo, Catania, Sicily"
+  ]
+ },
+ {
+  "surname": "Trovato",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1790,
+  "last": 1850,
+  "places": [
+   "Piedimonte Etneo",
+   "Giarre"
   ]
  },
  {
@@ -410,17 +434,6 @@
   "places": [
    "Giarre",
    "Piedimonte Etneo"
-  ]
- },
- {
-  "surname": "Sorbello",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": 1809,
-  "last": 1826,
-  "places": [
-   "Giarre"
   ]
  },
  {
@@ -754,18 +767,6 @@
   ]
  },
  {
-  "surname": "Trovato",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": 1830,
-  "last": 1830,
-  "places": [
-   "Piedimonte Etneo",
-   "Giarre"
-  ]
- },
- {
   "surname": "Romano",
   "n": 2,
   "dead": 2,
@@ -852,6 +853,17 @@
   "last": 1828,
   "places": [
    "Mascali"
+  ]
+ },
+ {
+  "surname": "Comerci",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1785,
+  "last": 1785,
+  "places": [
+   "Briatico"
   ]
  },
  {
@@ -1725,6 +1737,17 @@
   "last": null,
   "places": [
    "Pizzo"
+  ]
+ },
+ {
+  "surname": "Mannella",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Briatico"
   ]
  },
  {

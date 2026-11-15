@@ -83,8 +83,8 @@
    "type": "Matrimoni",
    "from": 1816,
    "to": 1858,
-   "volumes": 33,
-   "bought": 31,
+   "volumes": 45,
+   "bought": 43,
    "indexed": 0,
    "noindex": 0
   },
@@ -381,7 +381,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 28,
-   "bought": 0,
+   "bought": 11,
    "indexed": 0,
    "noindex": 0
   },
@@ -986,7 +986,7 @@
    "from": 1866,
    "to": 1893,
    "volumes": 28,
-   "bought": 10,
+   "bought": 20,
    "indexed": 0,
    "noindex": 0
   },
@@ -1300,8 +1300,8 @@
   }
  ],
  "total": {
-  "volumes": 2601,
-  "bought": 1187,
+  "volumes": 2613,
+  "bought": 1220,
   "indexed": 3,
   "noindex": 7,
   "comuni": 8
