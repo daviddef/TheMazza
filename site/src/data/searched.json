@@ -24488,7 +24488,7 @@
   "when": "2026-11-15",
   "source": "Antenati — Piedimonte Etneo, Morti 1866: read FOR PATANE AND SUDERI, which no earlier sweep of this register had done",
   "scope": "an_ua83439 (46 images): the annual index or the year's chronological table read by a delegated reader, flagged acts opened. Looked for ALFIO PATANE (born about 1800, bracciante) and MARIA SUDERI (also Sudero, Scuderi, and recorded at her death as MARUZZA), and for their children. Both were alive at Piedimonte in July 1862; Maria died there on 28 June 1872 and Alfio was still alive that day; he is «fu» by 5 April 1885. Terms typed: PATANE, PATANÈ, SUDERI, SUDERO, SCUDERI, LO SUDERO. These registers had been swept before, but ONLY for MAZZA, NICOTRA and CASSANITI - 171 of this archive's 268 Piedimonte rows say so in their own words - so PATANE and SUDERI had never been typed in them. This is a first reading for those names, not a re-reading. METHOD: the Italian-era volumes are DUPLICATA copies filmed in PAIRS, each opening photographed twice with the black card moved, so an obscured page is half of a pair and its neighbour shows it.",
-  "result": "NIL: no Alfio Patane and no Suderi at all in the index (images 44-45).",
+  "result": "NIL: every entry of the index (images 44-45) read, and it holds no Alfio Patane and no Suderi at all — a fact about this year's register, not about the reading.",
   "outcome": "done",
   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83439/",
   "urls": [
@@ -24820,6 +24820,23 @@
   ],
   "tags": [
    "Mazza"
+  ]
+ },
+ {
+  "key": "src/antenati-giarre-morti-1827-withdrawn-455615",
+  "status": "done",
+  "when": "2026-11-15",
+  "source": "Antenati — Giarre, Morti 1827 atto 112: the candidate for Alfio Patane's father, RE-READ AT THE PLATE AND WITHDRAWN",
+  "scope": "an_ua68897, image 60, left-hand act. Six further crops at 1200-1800 by the session, aimed one line at a time at the words after the deceased's age, which an earlier pass of this same session had been unable to read and had recorded as «the spouse line is illegible - re-read it at the plate, and nothing else». This is that re-read.",
+  "result": "THE LINE RESOLVES, AND IT IS NOT HIM. After the age the act reads «...MARITO DI VE-» and then, carried to the next line, a single word read as SCIERDETTO or SCIARDELLO - a surname beginning with a looped capital and ending -etto. So the dead man is a Rosario Patane, husband of a VENERA whose surname is not Grasso. OUR ROSARIO PATANE'S WIFE IS VENERA GRASSO, and she is named on three independent documents: the Giarre marriage promise of 4 March 1821, the San Giovanni marriage of their son Giuseppe on 21 July 1830, and her own death act at San Giovanni on 2 January 1838. She was alive in 1827 and died eleven years later. A Rosario Patane married to a different Venera in October 1827 is a different man. THE CANDIDATE IS THEREFORE WITHDRAWN and should not be revived: it was the most seductive thing this archive met in two days - right name, right trade, right comune, inside the proved window, and his own father also a Rosario, which would have carried the line a generation further. Everything fitted except the one field that decides, and the field that decides is the WIFE, as it was with the Alfio Patanè of Piedimonte 1874 whose mother was Maria Calì. In this corner of Catania the given names repeat endlessly and only the SPOUSE OR THE PARENT settles an identity. The age, which this session earlier read as sixty-eight or seventy-eight, now reads «trentotto» or «sessantotto» and is still not fixed - but it no longer matters, because the marriage does. WHAT REMAINS TRUE: Rosario Patane, father of Alfio, died between 4 March 1821 and 21 July 1830 and his death act is in NONE of the twenty-three Giarre death registers of 1820-1842 nor in any of the thirty San Giovanni ones of 1822-1862. He died elsewhere, or before the Giarre series opens in 1820, or his act is in a year of some third office nobody has looked at.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua68897/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua68897/"
+  ],
+  "tags": [
+   "Patane",
+   "Grasso"
   ]
  }
 ]
