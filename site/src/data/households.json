@@ -2206,6 +2206,20 @@
     "slug": "salvatore-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rsanta-patane@",
+    "name": "Santa Patane",
+    "slug": "santa-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-patane-2@",
+    "name": "Maria Patane",
+    "slug": "maria-patane-1867",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -2560,6 +2574,23 @@
   "born": 1827
  },
  {
+  "name": "Rosario Patane",
+  "head": "rosario-patane-1828",
+  "headId": "@Rrosario-patane-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ranna-patane@",
+    "name": "Anna Patane",
+    "slug": "anna-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": 1828
+ },
+ {
   "name": "Antonio Fichera",
   "head": "antonio-fichera",
   "headId": "@Rantonio-fichera@",
@@ -2766,6 +2797,113 @@
   "born": 1830
  },
  {
+  "name": "Maria Sciacca",
+  "head": "maria-sciacca",
+  "headId": "@Rmaria-sciacca@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ranna-patane@",
+    "name": "Anna Patane",
+    "slug": "anna-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1831
+ },
+ {
+  "name": "Giuseppe Patane",
+  "head": "giuseppe-patane",
+  "headId": "@Rgiuseppe-patane@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvatore-patane-2@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane-1858",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-patane@",
+    "name": "Maria Patane",
+    "slug": "maria-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-patane-2@",
+    "name": "Anna Patane",
+    "slug": "anna-patane-1867",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-patane-3@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1862",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanto-patane@",
+    "name": "Santo Patane",
+    "slug": "santo-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Mascali",
+  "born": 1832
+ },
+ {
+  "name": "Maria La Spina",
+  "head": "maria-la-spina",
+  "headId": "@Rmaria-la-spina@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsalvatore-patane-2@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane-1858",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-patane@",
+    "name": "Maria Patane",
+    "slug": "maria-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-patane-2@",
+    "name": "Anna Patane",
+    "slug": "anna-patane-1867",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-patane-3@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1862",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanto-patane@",
+    "name": "Santo Patane",
+    "slug": "santo-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1834
+ },
+ {
   "name": "Venera Finocchiaro",
   "head": "venera-finocchiaro",
   "headId": "@Rvenera-finocchiaro@",
@@ -2858,6 +2996,20 @@
     "id": "@Rsalvatore-patane@",
     "name": "Salvatore Patane",
     "slug": "salvatore-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanta-patane@",
+    "name": "Santa Patane",
+    "slug": "santa-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-patane-2@",
+    "name": "Maria Patane",
+    "slug": "maria-patane-1867",
     "living": false,
     "via": "read"
    }

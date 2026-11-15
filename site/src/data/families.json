@@ -82,6 +82,19 @@
   ]
  },
  {
+  "surname": "Patane",
+  "n": 23,
+  "dead": 23,
+  "living": 0,
+  "first": 1766,
+  "last": 1889,
+  "places": [
+   "Piedimonte Etneo",
+   "Giarre",
+   "Mascali"
+  ]
+ },
+ {
   "surname": "Cavallaro",
   "n": 17,
   "dead": 15,
@@ -93,19 +106,6 @@
    "Piedimonte Etneo, Catania, Sicily",
    "Giarre",
    "Piedimonte Etneo"
-  ]
- },
- {
-  "surname": "Patane",
-  "n": 15,
-  "dead": 15,
-  "living": 0,
-  "first": 1766,
-  "last": 1889,
-  "places": [
-   "Giarre",
-   "Piedimonte Etneo",
-   "Mascali"
   ]
  },
  {

@@ -39682,6 +39682,67 @@
   "ancGen": null
  },
  {
+  "id": "@Ralfio-patane-3@",
+  "slug": "alfio-patane-1862",
+  "name": "Alfio Patane",
+  "key": "Alfio Patane (b. c. 1862, of Giuseppe Patane and Maria La Spina)",
+  "given": "Alfio",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1862,
+  "died": null,
+  "bornText": "c. 1862",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1862",
+    "year": 1862,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1862"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1885 atto 57 (an_ua83406, image 55",
+   "the index digit looked like 53), found in the annual index by a delegated reader",
+   "the party lines re-zoomed by the session"
+  ],
+  "registerNote": "Married MARIA CURRENTI, about 21, daughter of Antonino and Maria (surname read Branti?), on 22 December 1885. «Figlio di GIUSEPPE e di LA SPINA MARIA»: named for his grandfather Alfio Patane. A NAMESAKE and first cousin of Alfio Patane (b. 1863, of Giovanni Patane and Venera Mazza); the two are different men, born within a year of each other.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Randrea-nicotra@",
   "slug": "andrea-nicotra",
   "name": "Andrea Nicotra",
@@ -40393,7 +40454,7 @@
    "the year has NO annual tavola, so the register's 117 acts were walked one by one by a delegated reader and the act re-zoomed by the session",
    "Piedimonte Etneo, Morti 1889 atto 14 (an_ua83462, image 7, left-hand lower act), found in the annual index by a delegated reader and opened and re-zoomed by the session"
   ],
-  "registerNote": "A CHILD OF ALFIO PATANE AND MARIA SUDERI THIS ARCHIVE DID NOT KNOW, and the only one that no index would ever have given up: 1830 is the single year of the San Giovanni birth run with no annual table, and she was found by reading all 117 acts. A girl, presented at fifteen o'clock by her father Alfio Patane, 29, bracciale, of the quarter; the mother is written «Maria Sudero», 28; the baptism column names her «Angela Patane» and dates the baptism the same day. Witnesses read at medium zoom only and not settled: a Giuseppe Patane?, 30?, and Mastro Angelo Cavallaro, 24, both marinaio. Nothing is known of her after this act; no death has been sought. She is the fourth child of the couple found at San Giovanni, after Giovanni (1822), Venera (1825) and Rosario (1828). HER DEATH IS FOUND, 14 Nov 2026, AND THE AGE FITS EXACTLY. «è morta PATANÈ ANGELA di anni CINQUANTOTTO, industriosa, residente in questo Comune, NATA IN GIARRE, da FU ALFIO, e da FU SCUDERI MARIA, MOGLIE DI TROVATO ANGELO». Fifty-eight in February 1889 means born in 1830 - and her birth act, found this morning in a year that has no index and had to be walked act by act, is 27 April 1830. The two agree to the year, which is rare in these registers and is the strongest corroboration this archive has for any of today's finds. She married ANGELO TROVATO and lived at Piedimonte Etneo. NOTE THE MOTHER'S SURNAME: this act writes SCUDERI where her brothers' acts of 1885 and 1886 write SUDERI. Same woman, same husband, three children; the clerk's hand differs. Scuderi is also a real and separate surname in these same registers, so it has gone into the Atlas catalogue as a case-by-case form, to be judged act by act and never assumed.",
+  "registerNote": "A CHILD OF ALFIO PATANE AND MARIA SUDERI THIS ARCHIVE DID NOT KNOW, and the only one that no index would ever have given up: 1830 is the single year of the San Giovanni birth run with no annual table, and she was found by reading all 117 acts. A girl, presented at fifteen o'clock by her father Alfio Patane, 29, bracciale, of the quarter; the mother is written «Maria Sudero», 28; the baptism column names her «Angela Patane» and dates the baptism the same day. Witnesses read at medium zoom only and not settled: a Giuseppe Patane?, 30?, and Mastro Angelo Cavallaro, 24, both marinaio. Nothing is known of her after this act; no death has been sought. She is the fourth child of the couple found at San Giovanni, after Giovanni (1822), Venera (1825) and Rosario (1828). HER DEATH IS FOUND, 14 Nov 2026, AND THE AGE FITS EXACTLY. «è morta PATANÈ ANGELA di anni CINQUANTOTTO, industriosa, residente in questo Comune, NATA IN GIARRE, da FU ALFIO, e da FU SCUDERI MARIA, MOGLIE DI TROVATO ANGELO». Fifty-eight in February 1889 means born in 1830 - and her birth act, found this morning in a year that has no index and had to be walked act by act, is 27 April 1830. The two agree to the year, which is rare in these registers and is the strongest corroboration this archive has for any of today's finds. She married ANGELO TROVATO and lived at Piedimonte Etneo. NOTE THE MOTHER'S SURNAME: this act writes SCUDERI where her brothers' acts of 1885 and 1886 write SUDERI. Same woman, same husband, three children; the clerk's hand differs. Scuderi is also a real and separate surname in these same registers, so it has gone into the Atlas catalogue as a case-by-case form, to be judged act by act and never assumed. A LEAD FOR HER HUSBAND, 15 NOV 2026, NOT A FINDING: Piedimonte Etneo, Matrimoni 1890 atto 28 (an_ua83411, image 31, re-zoomed by the session), 11 September 1890: ANGELO TROVATO, sixty, macellaio, born and living at Piedimonte, son of fu Francesco and fu Giuseppa Trovato, marries Caterina Delpopolo, 24, of Linguaglossa. Nineteen months after Angela's death, and the age fits a man born about 1830 like her. The act does not say widower and names no first wife, so the identity rests on the circumstance alone. HER OWN MARRIAGE TO ANGELO TROVATO IS NOT IN THE PIEDIMONTE MARRIAGE INDEXES OF 1876-1893 (read for Patane and Trovato, all eighteen years), so she married before 1876 or somewhere else.",
   "registerGen": "5",
   "photos": [],
   "parents": [
@@ -41259,6 +41320,126 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Ranna-patane@",
+  "slug": "anna-patane",
+  "name": "Anna Patane",
+  "key": "Anna Patane (b. c. 1861, of Rosario Patane and Maria Sciacca)",
+  "given": "Anna",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1861,
+  "died": null,
+  "bornText": "c. 1861",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1861",
+    "year": 1861,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1861"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1883 atto 4 (an_ua83404, image 5), found in the annual index by a delegated reader",
+   "the party lines re-zoomed by the session"
+  ],
+  "registerNote": "Married SEBASTIANO SORBELLO, 29, bracciante, born at Giarre, son of fu Michele and Filippa (surname read Pittera?), on 29 January 1883. She is «figlia di ROSARIO e di SCIACCA MARIA», both living and both at Piedimonte: a daughter of Rosario Patane (b. 1828) and Maria Sciacca, whose marriage of 1858 this archive holds, and so a granddaughter of Alfio Patane and Maria Suderi. Her father died on 7 August 1886. The act says the documents are in the volume of allegati of the 1883 register, not yet opened. Her birth and death have not been sought.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-patane-2@",
+    "name": "Rosario Patane",
+    "slug": "rosario-patane-1828",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-sciacca@",
+    "name": "Maria Sciacca",
+    "slug": "maria-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Ranna-patane-2@",
+  "slug": "anna-patane-1867",
+  "name": "Anna Patane",
+  "key": "Anna Patane (b. c. 1867, of Giuseppe Patane and Maria La Spina)",
+  "given": "Anna",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1867,
+  "died": null,
+  "bornText": "c. 1867",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1867",
+    "year": 1867,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1867"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1885 atto 14 (an_ua83406, image 13), found in the annual index by a delegated reader",
+   "the party lines re-zoomed by the session"
+  ],
+  "registerNote": "Married SANTO LICCIARDELLO, 25, bracciante, born at Giarre, son of fu Alfio and fu Concetta (surname read Leonardi?), on 22 March 1885. «Figlia di GIUSEPPE e di LA SPINA MARIA». NOT the Anna Patane of Rosario Patane and Maria Sciacca, who married in 1883: two cousins of the same name.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -47699,6 +47880,20 @@
     "slug": "salvatore-patane",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rsanta-patane@",
+    "name": "Santa Patane",
+    "slug": "santa-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-patane-2@",
+    "name": "Maria Patane",
+    "slug": "maria-patane-1867",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -49676,7 +49871,7 @@
   "key": "Giuseppe Patane (b. 1832, of Alfio and Maria Suderi)",
   "given": "Giuseppe",
   "surname": "Patane",
-  "sex": "",
+  "sex": "M",
   "living": false,
   "fromRegister": true,
   "born": 1832,
@@ -49722,7 +49917,43 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rsalvatore-patane-2@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane-1858",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-patane@",
+    "name": "Maria Patane",
+    "slug": "maria-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-patane-2@",
+    "name": "Anna Patane",
+    "slug": "anna-patane-1867",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-patane-3@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1862",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanto-patane@",
+    "name": "Santo Patane",
+    "slug": "santo-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -51806,7 +52037,7 @@
   "key": "Maria La Spina (wife of Giuseppe Patane b. 1832)",
   "given": "Maria",
   "surname": "La Spina",
-  "sex": "",
+  "sex": "F",
   "living": false,
   "fromRegister": true,
   "born": 1834,
@@ -51853,7 +52084,43 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rsalvatore-patane-2@",
+    "name": "Salvatore Patane",
+    "slug": "salvatore-patane-1858",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-patane@",
+    "name": "Maria Patane",
+    "slug": "maria-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-patane-2@",
+    "name": "Anna Patane",
+    "slug": "anna-patane-1867",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ralfio-patane-3@",
+    "name": "Alfio Patane",
+    "slug": "alfio-patane-1862",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanto-patane@",
+    "name": "Santo Patane",
+    "slug": "santo-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -52753,6 +53020,126 @@
   "ancGen": null
  },
  {
+  "id": "@Rmaria-patane@",
+  "slug": "maria-patane",
+  "name": "Maria Patane",
+  "key": "Maria Patane (b. c. 1862, of Giuseppe Patane and Maria La Spina)",
+  "given": "Maria",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1862,
+  "died": null,
+  "bornText": "c. 1862",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1862",
+    "year": 1862,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1862"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1884 atto 12 (an_ua83405, image 13), found in the annual index by a delegated reader",
+   "the party lines re-zoomed by the session"
+  ],
+  "registerNote": "Married SALVATORE ZAPPALA, 26, bracciante, son of fu Alfio and fu Caterina Casella, on 29 March 1884; a sister of Salvatore Patane (b. c. 1858, of Giuseppe) who married six weeks earlier. «Figlia di GIUSEPPE e di LA SPINA MARIA». NOT the Maria Patane of Giovanni Patane and Venera Mazza (see the row for her): two cousins of the same name.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rmaria-patane-2@",
+  "slug": "maria-patane-1867",
+  "name": "Maria Patane",
+  "key": "Maria Patane (b. c. 1867, of Giovanni Patane and Venera Mazza)",
+  "given": "Maria",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1867,
+  "died": null,
+  "bornText": "c. 1867",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1867",
+    "year": 1867,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1867"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1889 atto 7 (an_ua83410, image 8), found in the annual index by a delegated reader",
+   "the party lines re-zoomed by the session"
+  ],
+  "registerNote": "Married CARMELO MACAUTO (read; Macaluso? not excluded), 31, bracciante, born at Linguaglossa, son of fu Antonino and Antonia Bonaventura, on 11 February 1889 at half past four. She is «figlia del fu GIOVANNI e del fu MAZZA VENERA»: BOTH PARENTS DEAD, so Venera Mazza died between the marriage of her daughter Santa in July 1886, when she was living, and February 1889. HER DEATH WINDOW IS THEREFORE JULY 1886 TO FEBRUARY 1889 and is the thing to look for at Piedimonte Morti 1886-1889. The witnesses were Tommaso Raganese, 32, calzolaio, and Giuseppe Grasso. The allegati of the 1889 register are not yet opened. NOT the Maria Patane of Giuseppe Patane and Maria La Spina who married in 1884.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiovanni-patane@",
+    "name": "Giovanni Patane",
+    "slug": "giovanni-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rmaria-patti@",
   "slug": "maria-patti",
   "name": "Maria Patti",
@@ -52970,7 +53357,7 @@
   "key": "Maria Sciacca (wife of Rosario Patane)",
   "given": "Maria",
   "surname": "Sciacca",
-  "sex": "",
+  "sex": "F",
   "living": false,
   "fromRegister": true,
   "born": 1831,
@@ -53017,7 +53404,15 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Ranna-patane@",
+    "name": "Anna Patane",
+    "slug": "anna-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -57247,7 +57642,7 @@
   "key": "Rosario Patane (b. 1828, of Alfio and Maria Suderi)",
   "given": "Rosario",
   "surname": "Patane",
-  "sex": "",
+  "sex": "M",
   "living": false,
   "fromRegister": true,
   "born": 1828,
@@ -57305,7 +57700,15 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Ranna-patane@",
+    "name": "Anna Patane",
+    "slug": "anna-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -59071,6 +59474,66 @@
   "ancGen": null
  },
  {
+  "id": "@Rsalvatore-patane-2@",
+  "slug": "salvatore-patane-1858",
+  "name": "Salvatore Patane",
+  "key": "Salvatore Patane (b. c. 1858, of Giuseppe Patane and Maria La Spina)",
+  "given": "Salvatore",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1858,
+  "died": null,
+  "bornText": "c. 1858",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1858",
+    "year": 1858,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1858"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1884 atto 5 (an_ua83405, image 7), found in the annual index by a delegated reader",
+   "the party lines re-zoomed by the session"
+  ],
+  "registerNote": "Married SANTA RUSSO, about 18, daughter of Salvatore and Ignazia (surname read Sambianco?), on 11 February 1884. He is «figlio di GIUSEPPE e di LA SPINA MARIA», both living: the son of the Giuseppe Patane who married Maria La Spina in 1855, and so a grandson of Alfio Patane. Born about a year after the 1855 marriage if his age of twenty-five is right. A NAMESAKE of Salvatore Patane (b. 1865, of Giovanni Patane and Venera Mazza), his first cousin; the two are different men. The allegati of the 1884 register are not yet opened.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rsanta-dajdone@",
   "slug": "santa-dajdone",
   "name": "Santa Dajdone",
@@ -59123,6 +59586,66 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsanta-patane@",
+  "slug": "santa-patane",
+  "name": "Santa Patane",
+  "key": "Santa Patane (b. c. 1862, of Giovanni Patane and Venera Mazza)",
+  "given": "Santa",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1862,
+  "died": null,
+  "bornText": "c. 1862",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1862",
+    "year": 1862,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1862"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1886 atto 28 (an_ua83407, image 26), found in the annual index by a delegated reader",
+   "the party lines re-zoomed by the session"
+  ],
+  "registerNote": "Married IGNAZIO SORBELLO, 25, bracciante, son of fu Giuseppe and PATANE MARIA, on 10 July 1886. She is «figlia del fu GIOVANNI e di MAZZA VENERA», the mother living and her father dead sixteen months: the daughter of the double in-laws' marriage of 27 August 1860, and so the sister of Alfio (b. 1863) and Salvatore (b. 1865). THE GROOM'S MOTHER IS ALSO A PATANE MARIA; whether that is a Patane woman of this family is not established and is not claimed. She is the sister of Maria Patane (b. c. 1867), who married in 1889.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiovanni-patane@",
+    "name": "Giovanni Patane",
+    "slug": "giovanni-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -59467,6 +59990,66 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsanto-patane@",
+  "slug": "santo-patane",
+  "name": "Santo Patane",
+  "key": "Santo Patane (b. c. 1868, of Giuseppe Patane and Maria La Spina)",
+  "given": "Santo",
+  "surname": "Patane",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1868,
+  "died": null,
+  "bornText": "c. 1868",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1868",
+    "year": 1868,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1868"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1893 atto 42 (an_ua83414, image 46), found in the annual index by a delegated reader",
+   "the party lines re-zoomed by the session"
+  ],
+  "registerNote": "Married GIUSEPPA MESSINA, 18, contadina, daughter of Leonardo and Antonina Currenti, in November 1893. «Figlio di GIUSEPPE e di LA SPINA MARIA», both living: so Giuseppe Patane (b. 1832) and Maria La Spina were alive in November 1893, the latest date either has. The youngest child of theirs found, and the last of five (Salvatore, Maria, Anna, Alfio, Santo).",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-patane@",
+    "name": "Giuseppe Patane",
+    "slug": "giuseppe-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-la-spina@",
+    "name": "Maria La Spina",
+    "slug": "maria-la-spina",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -60819,6 +61402,20 @@
     "id": "@Rsalvatore-patane@",
     "name": "Salvatore Patane",
     "slug": "salvatore-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanta-patane@",
+    "name": "Santa Patane",
+    "slug": "santa-patane",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-patane-2@",
+    "name": "Maria Patane",
+    "slug": "maria-patane-1867",
     "living": false,
     "via": "read"
    }
