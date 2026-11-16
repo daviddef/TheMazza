@@ -59,9 +59,10 @@
  "canvas_extras": {
   "undrawn_detailed": 27,
   "undrawn_without_dates_conflict": 7,
-  "living_nodes_file": 345,
+  "name_only_cards": 345,
   "living": 132,
-  "no_death_recent_or_undated": 213
+  "no_death_recent_or_undated": 213,
+  "placeholders": 33
  },
  "catalogue": {
   "people_coloured_by_a_catalogued_family": 250,

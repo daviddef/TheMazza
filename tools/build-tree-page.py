@@ -297,24 +297,29 @@ def canvas_extras(t, allp, people, slugs):
     t["undrawn"] = und
     ok_all = public | bid
     nodes = []
+    def stub(p):                                # a stand-in record: no given name or no surname, or the entry says so in its name
+        nm = ((p.get("given") or "") + " " + (p.get("surname") or "")).strip().lower()
+        if p.get("living") is True: return False     # a living person with no surname recorded is a person, not a stand-in
+        return (not (p.get("given") or "").strip()) or (not (p.get("surname") or "").strip()) or bool(re.search(r"unknow|placeholder|\b(wife|husband)\b", nm))
     for p in sorted(B, key=lambda p: (p.get("surname") or "", p.get("given") or "", p["id"])):
         i = bare(p["id"]); f, m, sp, kids = kin(p, ok_all)
-        nodes.append({"id": i, "sex": sx.get(p.get("sex"), "u"), "given": p.get("given") or "", "sur": p.get("surname") or "", "father": f, "mother": m,
-                      "spouse": sp, "kids": kids, "page": "/people/%s/" % p["slug"]})
+        lv = p.get("living") is True
+        e = {"id": i, "name": ((p.get("given") or "") + " " + (p.get("surname") or "")).strip(), "sex": sx.get(p.get("sex"), "u"), "given": p.get("given") or "",
+             "sur": p.get("surname") or "", "why": "year", "father": f, "mother": m, "spouse": sp, "kids": kids, "living": lv}
+        if not lv: e["href"] = "/people/%s/" % p["slug"]       # a living person has no page link; the dead and the not-yet-known have theirs
+        if stub(p): e["placeholder"] = True
+        nodes.append(e)
     for n in nodes:
-        assert not any(n.get(k) not in (None, "", [], {}) for k in LIVING_BANNED), "a living node carries a forbidden field"
-        assert n["id"] not in drawn and n["id"] not in aid, "a living node is also drawn on the public page"
-    out = {"generated": datetime.date.today().isoformat(),
-           "rule": "name and relationship links only: no dates, no places, no occupation, no sources. Not served, not indexed, not copied into site/, not read by any built page.",
-           "protection": "What this file buys is NON-INDEXABILITY, not secrecy. Every name in it is already on that person's own page, and the people.json that holds them is committed. The point is that /roots/ is in the sitemap and embeds its tree data, so a name that reached it would become searchable. Do not relax anything else on the belief that this file is hidden.",
-           "who": "The people the build holds as LIVING (living-people standard v2, tools/living_v2.py), plus every published person with no death recorded who is born in 1917 or later or has no birth year (the converter's floor holds them as possibly living). The second group is not asserted to be living: it is a person whose death this archive has not recorded, drawn without dates. The held-out possible minors are in neither this file nor people.json.",
-           "sex_note": "`sex` is only what the archive records (m, f); `u` for everyone else. A parent's role (father, mother) is taken from the parent's recorded sex only, never from a given name; a parent of unrecorded sex is left out of the card's links.",
-           "counts": {"living": sum(1 for p in allp if p.get("living") is True), "not_living_no_death_recent_or_undated": len(B) - sum(1 for p in allp if p.get("living") is True)},
-           "people": nodes}
-    io.open(os.path.join(OUT, "living-nodes.json"), "w", encoding="utf-8").write(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
-    ex = {"undrawn_detailed": len(und), "undrawn_without_dates_conflict": sum(1 for u in und if u["by"] is None and u["dy"] is None), "living_nodes_file": len(nodes),
-          "living": out["counts"]["living"], "no_death_recent_or_undated": out["counts"]["not_living_no_death_recent_or_undated"]}
-    print("canvas extras: %d undrawn people with details in tree.json; %d name-and-family nodes in the unserved living-nodes.json" % (len(und), len(nodes)))
+        assert not any(n.get(k) not in (None, "", [], {}) for k in LIVING_BANNED), "a name-only card carries a forbidden field"
+        assert n["id"] not in drawn and n["id"] not in aid, "a name-only card is also drawn"
+    byid = {bare(p["id"]): p for p in allp}
+    for q in t["people"]:                         # the drawn stand-ins too, so the canvas can mark every one
+        if stub(byid[q["id"]]): q["placeholder"] = True
+    t["undrawn"] = und + nodes                  # David, 17 Nov 2026: everyone the archive registers is in tree.json. This reverses his 15 Nov rule for the 132 living and the 213 with no death recorded.
+    nliv = sum(1 for n in nodes if n["living"])
+    ex = {"undrawn_detailed": len(und), "undrawn_without_dates_conflict": sum(1 for u in und if u["by"] is None and u["dy"] is None), "name_only_cards": len(nodes),
+          "living": nliv, "no_death_recent_or_undated": len(nodes) - nliv, "placeholders": sum(1 for n in nodes if n.get("placeholder")) + sum(1 for q in t["people"] if q.get("placeholder"))}
+    print("canvas extras: %d undrawn people with details and %d name-and-family cards (%d living) in tree.json" % (len(und), len(nodes), nliv))
     return ex
 
 def drop_conflicts(t, tree):
