@@ -382,14 +382,14 @@
   "gen": "7",
   "born": "c. 1798",
   "bornNote": "TWENTY-SIX at her marriage on 2 March 1824, and BORN AT ZAMBRONE — so born about 1798, which agrees with the about-1799 this archive already had from her daughter's marriage bundle.",
-  "died": "alive at Briatico, June 1849",
+  "died": "alive at Briatico, 10 November 1849",
   "trade": "—",
   "father": "Francesco Cichello",
   "mother": "Vittoria Mollo",
   "inTree": "—",
   "place": "Zambrone",
-  "source": "Zambrone, Matrimoni 1824, atto 2; Briatico, Matrimoni 1849, atto 1; Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session)",
-  "note": "GIOVANNA VENTRICE'S MOTHER, and now with parents. She married GIUSEPPE VENTRICE at ZAMBRONE on 2 MARCH 1824, and the act names her «figlia DEL FU FRANCESCO e DELLA FU VITTORIA MOLLO» -- both already dead when she married at twenty-six. She was widowed in June 1831, eighteen years before she appears alive at Briatico in her daughter's marriage papers of 1849. SHE MARRIED AGAIN, at Briatico on 1 OCTOBER 1838 (promise act no. 2, the notice posted Sunday 2 September 1838): GIACOMO COMERCI, 53, a miller (magnaio), born Briatico. The act names her «Caterina Cichello», aged «quaran[ta]…» (the number is not completed), «nata in Zambrone», domiciled at Briatico, «figlia di Francesco Cichello, bracciale, defunto, e di Vittoria Mollo (written Mollo/Molto), defunta», so the same two parents as in 1824, and no other Caterina Cichello fits them. The act does not say «vedova»; she was Giuseppe Ventrice's widow by the death act of June 1831. Giacomo Comerci is the miller who DECLARED Giuseppe Ventrice's death in 1831. Witnesses Giuseppe Lia and Antonio Orlando. Nothing is known of whether she had further children."
+  "source": "Zambrone, Matrimoni 1824, atto 2; Briatico, Matrimoni 1849, atto 1; Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session); Briatico, Morti 1849, atto 21 (an_ua87707, image 12, read at the image by the session)",
+  "note": "GIOVANNA VENTRICE'S MOTHER, and now with parents. She married GIUSEPPE VENTRICE at ZAMBRONE on 2 MARCH 1824, and the act names her «figlia DEL FU FRANCESCO e DELLA FU VITTORIA MOLLO» -- both already dead when she married at twenty-six. She was widowed in June 1831, eighteen years before she appears alive at Briatico in her daughter's marriage papers of 1849. SHE MARRIED AGAIN, at Briatico on 1 OCTOBER 1838 (promise act no. 2, the notice posted Sunday 2 September 1838): GIACOMO COMERCI, 53, a miller (magnaio), born Briatico. The act names her «Caterina Cichello», aged «quaran[ta]…» (the number is not completed), «nata in Zambrone», domiciled at Briatico, «figlia di Francesco Cichello, bracciale, defunto, e di Vittoria Mollo (written Mollo/Molto), defunta», so the same two parents as in 1824, and no other Caterina Cichello fits them. The act does not say «vedova»; she was Giuseppe Ventrice's widow by the death act of June 1831. Giacomo Comerci is the miller who DECLARED Giuseppe Ventrice's death in 1831. Witnesses Giuseppe Lia and Antonio Orlando. Nothing is known of whether she had further children. ALIVE ON 10 NOVEMBER 1849, five months after that marriage: her son Giovanni's death act names her, with no «fu», as «domiciliata in Briatico» (Morti 1849, atto 21), and her second husband Giacomo Comerci had died on 24 May 1848 (Morti 1848, atto 6), so she is a widow twice over by then. Her own death is not in the Briatico death books of 1840-58 (1849 and 1850-58 read, three of them thin); it falls after November 1849, and after 1858 nothing is on Antenati for Briatico."
  },
  {
   "name": "Caterina Majo",
@@ -5752,5 +5752,19 @@
   "place": "Piedimonte Etneo",
   "source": "Piedimonte Etneo, Nati 1877, atto 65 (an_ua83490, image 31), found in the annual index by a delegated reader",
   "note": "The father's age is read «quaranta» (a birth of 1832 gives 45), and the mother is Maria La Spina, contadina. The witness is Antonino Larocca. The couple's last child found so far."
+ },
+ {
+  "name": "Giovanni Ventrice (died unmarried, 1849)",
+  "gen": "6",
+  "born": "c. 1827",
+  "bornNote": "TWENTY-TWO at his death («di anni ventidue», the second digit not certain at the image), so born about 1827: after the marriage of 2 March 1824 and before his sister Giovanna (b. 23 June 1828), and BORN AT BRIATICO. His birth act has not been looked for.",
+  "died": "10 November 1849, at Briatico",
+  "trade": "bracciale (day labourer)",
+  "father": "Giuseppe Ventrice",
+  "mother": "Caterina Cichello",
+  "inTree": "—",
+  "place": "Briatico",
+  "source": "Briatico, Morti 1849, atto 21 (an_ua87707, image 12, right page, read at the image by the session)",
+  "note": "A SON OF GIUSEPPE VENTRICE AND CATERINA CICHELLO, new to this archive and the first of their children found at Briatico after Francesco (Zambrone, 1825/26) and before Giovanna (b. 1828). He died at ten o'clock on 10 November 1849 in his own house, «celibe» (unmarried), domiciled at Briatico, five months after his sister's marriage; the act names his father as «Giuseppe Ventrice, bracciale, defunto» and his mother as «Caterina Cichello», domiciled at Briatico, so she was alive. Declarants: Antonino Comerci, 30, a «magnaio», and Francesco Zurago(?), 40, a bracciale, both of Briatico (the Comerci may be a relation of her second husband; nothing says so). The Tavola line reads «Giovanni Ventrice | Giuseppe, di Caterina Cichello | 10 novembre»."
  }
 ]

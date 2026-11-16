@@ -691,6 +691,22 @@
   "n": 4
  },
  {
+  "name": "Briatico",
+  "born": 4,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1778,
+  "last": 1827,
+  "who": [
+   "caterina-mannella",
+   "francesco-comerci",
+   "giacomo-comerci",
+   "giovanni-ventrice"
+  ],
+  "n": 4
+ },
+ {
   "name": "Melbourne, Victoria",
   "born": 1,
   "died": 2,
@@ -702,21 +718,6 @@
    "carmela-mazza",
    "franco-pellagrini",
    "franco-pellagrini"
-  ],
-  "n": 3
- },
- {
-  "name": "Briatico",
-  "born": 3,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1778,
-  "last": 1778,
-  "who": [
-   "caterina-mannella",
-   "francesco-comerci",
-   "giacomo-comerci"
   ],
   "n": 3
  },

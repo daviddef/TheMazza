@@ -1,6 +1,6 @@
 {
- "individuals": 836,
- "kept": 598,
+ "individuals": 837,
+ "kept": 599,
  "living": 208,
  "living_policy": "omit",
  "undated_dropped": 40,
@@ -52,9 +52,9 @@
   }
  },
  "people_json": {
-  "in_file": 968,
+  "in_file": 969,
   "living_not_read": 132,
-  "not_living_read": 836
+  "not_living_read": 837
  },
  "catalogue": {
   "people_coloured_by_a_catalogued_family": 250,

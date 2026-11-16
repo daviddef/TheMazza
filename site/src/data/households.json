@@ -973,6 +973,13 @@
     "slug": "francesco-ventrice",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiovanni-ventrice@",
+    "name": "Giovanni Ventrice",
+    "slug": "giovanni-ventrice",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Zambrone",
@@ -1223,6 +1230,13 @@
     "id": "@Rfrancesco-ventrice@",
     "name": "Francesco Ventrice",
     "slug": "francesco-ventrice",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiovanni-ventrice@",
+    "name": "Giovanni Ventrice",
+    "slug": "giovanni-ventrice",
     "living": false,
     "via": "read"
    }

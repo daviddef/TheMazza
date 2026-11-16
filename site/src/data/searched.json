@@ -25709,5 +25709,59 @@
    "Barbuto",
    "Domenica"
   ]
+ },
+ {
+  "key": "src/antenati-briatico-morti-1849-2aa29b",
+  "status": "part",
+  "when": "2026-11-16",
+  "source": "Antenati — Briatico Morti 1849, the whole year (26 acts) read for Caterina Cichello and the Comerci: a new son, Giovanni Ventrice, died 10 November 1849 and she was alive that day",
+  "scope": "Briatico (Vibo Valentia), Archivio di Stato di Catanzaro, Stato civile della restaurazione, Morti 1849, an_ua87707 (17 images). The annual Tavola on images 16-17 was read at every one of its 26 lines; act 21 was opened in full and read again at the image by the session; the heads of acts 20-26 were checked against the Tavola; acts 11-19 were not opened because their Tavola lines name no target surname, and images 1-11 were not viewed. Terms typed: Cichello, Ciccello, Cicello, Comerci, Ventrice, Prostamo, Fragala, Mollo, Melluso, Anile, Barbuto, Potenzoni.",
+  "result": "FOUND. Briatico Morti 1849 atto 21 (right page of image 12): GIOVANNI VENTRICE died at ten o'clock on 10 November 1849 in his own house, aged twenty-two («ventidue», the second digit not certain), unmarried, a bracciale, son of «Giuseppe Ventrice, bracciale, defunto» and of «Caterina Cichello», domiciled at Briatico, so his mother was ALIVE that day. He is a child of this couple new to the archive; his birth act has not been looked for. Declarants Antonino Comerci, 30, a miller, and Francesco Zurago(?), 40. NOT FOUND: Caterina Cichello's own death, which is after 10 November 1849; Giacomo Comerci is not among the 1849 dead (he died on 24 May 1848). NO Prostamo, Fragala, Mollo, Anile, Barbuto or Potenzoni among the 26 dead of 1849. Counted, not told: a Giuseppe Comerci, 40, a bracciale, as a declarant on act 22.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/",
+  "tags": [
+   "Ventrice",
+   "Prostamo",
+   "Melluso",
+   "Anile",
+   "Barbuto"
+  ],
+  "for": [
+   [
+    "/people/giovanni-ventrice/",
+    "Giovanni Ventrice"
+   ],
+   [
+    "/people/caterina-cichello/",
+    "Caterina Cichello"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/giovanni-ventrice/",
+    "Giovanni Ventrice"
+   ],
+   [
+    "/people/caterina-cichello/",
+    "Caterina Cichello"
+   ]
+  ]
+ },
+ {
+  "key": "src/antenati-pizzo-morti-1849-1859-a2540a",
+  "status": "part",
+  "when": "2026-11-16",
+  "source": "Antenati — Pizzo Morti 1849-59 (four volumes), the annual Tavolas read for Maria Fragalà, widow of Antonino Prostamo: not in 1853-59; 1849, 1850, 1851 and 1852 are unfinished because their Tavolas are blank",
+  "scope": "Pizzo (Vibo Valentia), Archivio di Stato di Catanzaro, Stato civile della restaurazione, Morti: 1849-51 an_ua37926993 (382 images), 1852-54 an_ua37927012 (387), 1855-56 an_ua37927026 (378), 1857-59 an_ua37927044 (357). Read by delegated readers, who sampled acts to calibrate act number to image. The Tavola was read at every line for 1853 (206 entries), 1854 (228), 1855 (400), 1856 (207), 1857 (187), 1858 (206) and 1859 (entries 18-192; acts 1-17 and 193-195 read as acts instead). The Tavolas of 1849, 1850, 1851 and 1852 are BLANK printed forms, and the roughly 182, 85, 105 and 152 acts of those years were not walked: those four years are unfinished, NOT nil. These Tavolas run in order of death, not alphabetical, so every line had to be read. Terms typed: Fragala, Fragalà, Prostamo, Muso, Ventrice.",
+  "result": "NOT FOUND in 1853-59: no Maria Fragalà, no line that reads «vedova di Antonino Prostamo», and no Prostamo or Fragala who is a person of this family. Her death, if it was at Pizzo after 14 June 1849, therefore lies in the unwalked acts of 1849-52 (about 520 acts) or after 1859, which is not on Antenati. Counted, not told, and tied to nobody: Filippo Fragala, about 60, son of the late Francesco, husband of Anna D'Jorghi, died 12 February 1853 (a possible brother of Maria, nothing shows it); Fragala children in 1853, 1855 and 1858; a Prostamo infant Caterina in 1855 (born to a mariner Foca Prostamo and Maria Teresa Fragalà, an unplaced couple), Francesco Antonio Prostamo, 60, mariner, died 24 December 1854 (son of the late Giorgio and Rosaria Majo, husband of Carmela Callipo, not the man of 1837); Ventrice appears only as a declarant.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua37926993/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua37926993/"
+  ],
+  "tags": [
+   "Prostamo",
+   "Ventrice"
+  ]
  }
 ]
