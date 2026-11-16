@@ -315,7 +315,8 @@ def canvas_extras(t, allp, people, slugs):
     byid = {bare(p["id"]): p for p in allp}
     for q in t["people"]:                         # the drawn stand-ins too, so the canvas can mark every one
         if stub(byid[q["id"]]): q["placeholder"] = True
-    t["undrawn"] = und + nodes                  # David, 17 Nov 2026: everyone the archive registers is in tree.json. This reverses his 15 Nov rule for the 132 living and the 213 with no death recorded.
+    t["undrawn"] = und + nodes
+    t.setdefault("meta", {})["livingNames"] = "name-and-family-only"      # the 132 living cards in undrawn carry a name and family links and nothing else (as Booyzen does)                  # David, 17 Nov 2026: everyone the archive registers is in tree.json. This reverses his 15 Nov rule for the 132 living and the 213 with no death recorded.
     nliv = sum(1 for n in nodes if n["living"])
     ex = {"undrawn_detailed": len(und), "undrawn_without_dates_conflict": sum(1 for u in und if u["by"] is None and u["dy"] is None), "name_only_cards": len(nodes),
           "living": nliv, "no_death_recent_or_undated": len(nodes) - nliv, "placeholders": sum(1 for n in nodes if n.get("placeholder")) + sum(1 for q in t["people"] if q.get("placeholder"))}
