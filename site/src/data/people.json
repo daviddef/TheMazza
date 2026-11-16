@@ -47945,29 +47945,38 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": 1785,
-  "died": null,
-  "bornText": "c. 1785",
-  "diedText": "",
+  "born": 1778,
+  "died": 1848,
+  "bornText": "c. 1778",
+  "diedText": "24 May 1848, at Briatico",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1785",
-    "year": 1785,
+    "date": "c. 1778",
+    "year": 1778,
     "place": "Briatico",
-    "text": "c. 1785"
+    "text": "c. 1778"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "24 May 1848, at Briatico",
+    "year": 1848,
+    "place": "",
+    "text": "24 May 1848, at Briatico"
    }
   ],
   "birthPlace": "Briatico",
   "deathPlace": "",
   "burialPlace": "",
-  "trade": "magnaio (miller)",
+  "trade": "bracciale (day labourer) at his death; magnaio (miller) at his marriage",
   "sources": [],
   "registerSources": [
-   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session)"
+   "Briatico, Morti 1848, atto 6 (an_ua87706, image 5, left page, read at the image by the session)",
+   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3)"
   ],
-  "registerNote": "Caterina Cichello's SECOND HUSBAND, married at Briatico on 1 October 1838. He is the miller who declared Giuseppe Ventrice's death in 1831 (Briatico Morti 1831, atto 12), so he knew the family already. Nothing is known of his death or of any children, and none has been sought. Placed at Briatico, where he was born and lived.",
+  "registerNote": "Caterina Cichello's SECOND HUSBAND, married at Briatico on 1 October 1838, and DEAD BY 24 MAY 1848: his death act (atto 6, noon, in his own house, declared by Vincenzo Artesi and Antonio Mannella) calls him «marito di Catarina Cichello», with no «fu», so she was alive on that day, and names his parents as Francesco Comerci, bracciale, «defunto», and Catarina Mannella, «defunta». That confirms them both dead by 1848. He is the miller who declared Giuseppe Ventrice's death in 1831 (Briatico Morti 1831, atto 12), so he knew the family already. Nothing is known of any children, and none has been sought. A Rosario Comerci, 50, son of the late Francesco Comerci and the late Catarina Mannella, died at Briatico on 3 February 1845 (Morti 1845, atto 2, read by a delegated reader, not yet checked at the image): probably his brother, not added as a person. Placed at Briatico, where he was born and lived.",
   "registerGen": "7",
   "photos": [],
   "parents": [
