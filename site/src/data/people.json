@@ -244,10 +244,16 @@
     "kind": "naturalisation file",
     "what": "NAA: J25, 1971/1074 — «Mazza, Sebastiano; wife Domenica [nee Prostamo]», 1950-1971",
     "href": "/queensland"
+   },
+   {
+    "kind": "documented",
+    "what": "NAA passenger arrivals, K269, 4 October 1949 TOSCANA, item 9243236, image 10 (line 464)",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "THE FILE THE 1959 ELECTORAL ROLL SAID MUST EXIST. Brisbane, paper, and «not yet examined», so it needs an access request before anyone can read it. Its date range covers the whole of their Australian lives to 1971."
+   "THE FILE THE 1959 ELECTORAL ROLL SAID MUST EXIST. Brisbane, paper, and «not yet examined», so it needs an access request before anyone can read it. Its date range covers the whole of their Australian lives to 1971.",
+   "Port — THE TOSCANA'S OWN MASTER LIST SAYS BRISBANE. Lloyd Triestino's typed list for the voyage (NAA K269, 4 October 1949 TOSCANA, item 9243236, image 10, line 464) reads «Mazza, Sebastiano, 1920, S., Brisbane.»: born 1920, which is the birth year the tree has, the letter S for SYDNEY as the port of debarkation, and «Brisbane» as his address in Australia, not a street, not a person. The ship made Fremantle first (the list is headed «at FREMANTLE», the 3rd or 4th of October), and the passengers marked F landed there; he was not one of them. The index's Melbourne is therefore not where he landed either. Read at the image by the session. The other Mazza lines on the same list are not him: Ilario, 1923, c/o Crisera?, Koorlong, Victoria, and Pietro, 1907, marked F, Yarloop, Western Australia."
   ],
   "onSpine": true,
   "ancGen": 3
@@ -3237,6 +3243,11 @@
     "kind": "documented",
     "what": "NAA: J1737, MAZZA R (item 6305636); against NAA: MP1103/1, Q8110",
     "href": "/corrections"
+   },
+   {
+    "kind": "probable",
+    "what": "NAA passenger arrivals, K269, 21 April 1925 PALERMO, item 12260784, image 31 (line 593)",
+    "href": "/corrections"
    }
   ],
   "corrections": [
@@ -3244,7 +3255,8 @@
    "The Queensland security file that sits behind the internment. Open, at Brisbane, not digitised.",
    "WHAT HAPPENED AFTER THE CAMP. Interned Italians were released into the Civil Aliens Corps and put to labouring work. Open, at Brisbane.",
    "Birth date — BORN 20 FEBRUARY 1899. Given in the NAA's description of his internment dossier: «Prisoner of War/Internee: Mazza, Rosario; Date of birth - 20 February 1899; Nationality - Italian».",
-   "After the camp — HE WENT INTO THE CIVIL ALIENS CORPS. NAA: J1737, MAZZA R: «Mazza Rosario, CAS 15000 - CIVIL ALIENS CORPS (CAC)», Brisbane, 1944, ACCESS OPEN. The CAC was the labour corps that interned Italians were released into rather than freed -- road and timber work under military administration -- and CAS 15000 is his service number in it. This archive had his internment dossier, MP1103/1 Q8110, and then a silence. IT ALSO SITS BESIDE THE OTHER TWO. Mario Crupi was at Loveday from August 1942 and released on 30 December 1943; Antonino Crupi came out on 22 October 1943. Rosario's Corps file is 1944. The three men were moving through the same system within months of each other."
+   "After the camp — HE WENT INTO THE CIVIL ALIENS CORPS. NAA: J1737, MAZZA R: «Mazza Rosario, CAS 15000 - CIVIL ALIENS CORPS (CAC)», Brisbane, 1944, ACCESS OPEN. The CAC was the labour corps that interned Italians were released into rather than freed -- road and timber work under military administration -- and CAS 15000 is his service number in it. This archive had his internment dossier, MP1103/1 Q8110, and then a silence. IT ALSO SITS BESIDE THE OTHER TWO. Mario Crupi was at Loveday from August 1942 and released on 30 December 1943; Antonino Crupi came out on 22 October 1943. Rosario's Corps file is 1944. The three men were moving through the same system within months of each other.",
+   "In Queensland by 1925 — A «Mazza Rosario» was the person in Australia that Michele Mazza, aged about sixteen, was sent to in April 1925, at REDLYNCH near CAIRNS, in the sugar country of North Queensland. If he is Michele's brother Rosario (b. 20 February 1899, interned 1942, buried at Nudgee), as is likely from the name and the family, then HE WAS ALREADY IN QUEENSLAND AND IN THE NORTH IN 1925, at twenty-six, and his arrival and his years before the camps are earlier than anything this archive holds. It is a name on one line, not a relationship: no other Rosario Mazza is known to this archive in Queensland, which is the only reason it is not left open. THE SAME HOST IS NAMED FOR A CRUPI: line 487 of the same report, a FRANCESCO CRUPI out of Messina, is bound for «Mrs. Rosario Mazzeo — Redlynch — Cairns N.Q.», the same man with the surname typed Mazzeo (see the Crupi row). Angela Crupi, who came out in 1937 and married Rosario b. 1899, is the daughter of a Francesco Crupi."
   ],
   "onSpine": false,
   "ancGen": null
@@ -3363,10 +3375,16 @@
     "kind": "documented",
     "what": "NAA passenger arrivals index",
     "href": "/corrections"
+   },
+   {
+    "kind": "documented",
+    "what": "NAA passenger arrivals, K269, 21 April 1925 PALERMO, item 12260784, image 31 (line 593)",
+    "href": "/corrections"
    }
   ],
   "corrections": [
-   "Port — Arrived BRISBANE, 21 April 1925, on the Palermo out of MESSINA."
+   "Port — Arrived BRISBANE, 21 April 1925, on the Palermo out of MESSINA.",
+   "Destination — HE WAS BOUND FOR NORTH QUEENSLAND, to «Mrs. Mazza Rosario — Redlynch — Cairns N.Q.»: the address in Australia typed against line 593 of the Quarantine Service report of the PALERMO, which embarked him at MESSINA and landed him at BRISBANE on 21 April 1925. Read at the image by the session (NAA K269, item 12260784, image 31; the line before is «Filippo Cantarella, c/o Nicotra, Innisfail», the line after «Santo Scandurra, Ingham»). The report gives no age, trade or relationship, only the name, the ports and the address; the «Mrs.» is the typist's habit on every line of the list, not a statement about the person. A Rosario Mazza, his brother, is the obvious reading (see the next row), and nothing in the report says so."
   ],
   "onSpine": false,
   "ancGen": null
@@ -41395,6 +41413,13 @@
     "slug": "giuseppe-ventrice",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-ventrice-3@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice-1825",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -41690,6 +41715,67 @@
    }
   ],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Ranna-polito@",
+  "slug": "anna-polito-1825",
+  "name": "Anna Polito",
+  "key": "Anna Polito",
+  "given": "Anna",
+  "surname": "Polito",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 16 February 1825 («defonta» in her daughter's death act)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Briatico",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 16 February 1825 («defonta» in her daughter's death act)"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1825, atto 6 (an_ua87683, image 5, left page",
+   "read at the image by the session)"
+  ],
+  "registerNote": "Mother of Caterina Mannella, named in her death act of 16 February 1825 as dead. Nothing else is known of her.",
+  "registerGen": "9",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rcaterina-mannella@",
+    "name": "Caterina Mannella",
+    "slug": "caterina-mannella",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -42033,6 +42119,67 @@
   "ancGen": 8
  },
  {
+  "id": "@Rantonia-votano@",
+  "slug": "antonia-votano",
+  "name": "Antonia Votano",
+  "key": "Antonia Votano",
+  "given": "Antonia",
+  "surname": "Votano",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1809,
+  "died": null,
+  "bornText": "c. 1809",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1809",
+    "year": 1809,
+    "place": "Briatico",
+    "text": "c. 1809"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1825, atto 7 (an_ua87683, image 5, right page",
+   "read at the image by the session)",
+   "Briatico, Nati 1829, atto 24 (an_ua87731, image 25, read at the image)"
+  ],
+  "registerNote": "Wife of Rosario Comerci and mother of the infant Nicola, who died on 27 February 1825. Named in that act and in her daughter's birth act of 1829; her own parents, age and death are not known.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rnicola-comerci@",
+    "name": "Nicola Comerci",
+    "slug": "nicola-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-comerci@",
+    "name": "Caterina Comerci",
+    "slug": "caterina-comerci",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rantonina-nicotra@",
   "slug": "antonina-nicotra-1860",
   "name": "Antonina Nicotra",
@@ -42079,6 +42226,74 @@
     "id": "@Rvenera-finocchiaro@",
     "name": "Venera Finocchiaro",
     "slug": "venera-finocchiaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rantonino-comerci@",
+  "slug": "antonino-comerci",
+  "name": "Antonino Comerci",
+  "key": "Antonino Comerci (twin son of Giacomo Comerci)",
+  "given": "Antonino",
+  "surname": "Comerci",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": 1819,
+  "bornText": "about 13 November 1819",
+  "diedText": "18 November 1819, at Briatico, aged five days",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Briatico",
+    "text": "about 13 November 1819"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "18 November 1819, at Briatico, aged five days",
+    "year": 1819,
+    "place": "",
+    "text": "18 November 1819, at Briatico, aged five days"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1819, atto 10 (an_ua87677, image 7",
+   "read by a delegated reader, not checked at the image)"
+  ],
+  "registerNote": "A twin («gemello», added in the margin). The Tavola calls him «bracciale», which is the clerk's error. Not to be confused with the Antonino Comerci of thirty who declared a death in 1849.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiacomo-comerci@",
+    "name": "Giacomo Comerci",
+    "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-polito@",
+    "name": "Caterina Polito",
+    "slug": "caterina-polito",
     "living": false,
     "via": "read"
    }
@@ -42154,6 +42369,67 @@
    }
   ],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rantonino-mannella@",
+  "slug": "antonino-mannella",
+  "name": "Antonino Mannella",
+  "key": "Antonino Mannella",
+  "given": "Antonino",
+  "surname": "Mannella",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 16 February 1825 («defonto» in his daughter's death act)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Briatico",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 16 February 1825 («defonto» in his daughter's death act)"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1825, atto 6 (an_ua87683, image 5, left page",
+   "read at the image by the session)"
+  ],
+  "registerNote": "Father of Caterina Mannella, named in her death act of 16 February 1825 as dead. Nothing else is known of him, and the act does not say where he lived.",
+  "registerGen": "9",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rcaterina-mannella@",
+    "name": "Caterina Mannella",
+    "slug": "caterina-mannella",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -42783,6 +43059,67 @@
   "ancGen": null
  },
  {
+  "id": "@Rantonio-lucifaro@",
+  "slug": "antonio-lucifaro",
+  "name": "Antonio Lucifaro",
+  "key": "Antonio Lucifaro",
+  "given": "Antonio",
+  "surname": "Lucifaro",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1762,
+  "died": 1818,
+  "bornText": "c. 1762",
+  "diedText": "29 March 1818, at Briatico",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1762",
+    "year": 1762,
+    "place": "Briatico",
+    "text": "c. 1762"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "29 March 1818, at Briatico",
+    "year": 1818,
+    "place": "",
+    "text": "29 March 1818, at Briatico"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "molinaro (miller)",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1817, atto 39 (an_ua87675, image 21, read at the image by the session)",
+   "Briatico, Morti 1818, atto 10 (an_ua87676, image 7, read by a delegated reader, not checked at the image)"
+  ],
+  "registerNote": "Father of Saveria Lucifaro and father-in-law of Giacomo Comerci, who declared his death as «genero». Husband of Domenica (surname read Margiafani?), and son of the late Francesco Lucifaro and Caterina Giorchi, on the delegated reading of his 1818 act.",
+  "registerGen": "8",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rsaveria-lucifaro@",
+    "name": "Saveria Lucifaro",
+    "slug": "saveria-lucifaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rantonio-nicotra@",
   "slug": "antonio-nicotra",
   "name": "Antonio Nicotra",
@@ -42827,6 +43164,75 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rarcangelo-comerci@",
+  "slug": "arcangelo-comerci",
+  "name": "Arcangelo Comerci",
+  "key": "Arcangelo Comerci (brother of Giacomo Comerci)",
+  "given": "Arcangelo",
+  "surname": "Comerci",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1791,
+  "died": 1817,
+  "bornText": "c. 1791",
+  "diedText": "15 September 1817, at Briatico",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1791",
+    "year": 1791,
+    "place": "Briatico",
+    "text": "c. 1791"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "15 September 1817, at Briatico",
+    "year": 1817,
+    "place": "",
+    "text": "15 September 1817, at Briatico"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "vetturale (carrier; read «vaticale»)",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1817, atto 26 or 28 (an_ua87675, image 16, LEFT page",
+   "the number is overwritten",
+   "read at the image by the session)"
+  ],
+  "registerNote": "A BROTHER OF GIACOMO COMERCI, found in the oldest Briatico death book read so far. Died at seven in the morning of 15 September 1817 in his own house «sotto la Piazza», «figlio del fu Francesco Comerci e di Catarina Mannella» (no «fu» before the mother). The declarants were Rosario Comerci, 28, a tavern-keeper(?), and Pasquale d'Elia, a cotton-worker, neither able to write. The act does not call Rosario his brother, but he has the same surname and his own death act of 1845 names the same two parents. This is the third child of Francesco Comerci and Caterina Mannella the archive holds, after Giacomo and Rosario. Not in the family tree.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rfrancesco-comerci@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-mannella@",
+    "name": "Caterina Mannella",
+    "slug": "caterina-mannella",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -43623,8 +44029,75 @@
     "slug": "giovanni-ventrice",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-ventrice-2@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice-1830",
+    "living": false,
+    "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rcaterina-comerci@",
+  "slug": "caterina-comerci",
+  "name": "Caterina Comerci",
+  "key": "Caterina Comerci (daughter of Rosario Comerci)",
+  "given": "Caterina",
+  "surname": "Comerci",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1829,
+  "died": null,
+  "bornText": "14 October 1829",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "14 October 1829",
+    "year": 1829,
+    "place": "Briatico",
+    "text": "14 October 1829"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Nati 1829, atto 24 (an_ua87731, image 25",
+   "read at the image by the session)"
+  ],
+  "registerNote": "Born at Briatico at sixteen o'clock on 14 October 1829 and named Caterina, her paternal grandmother's first name (Caterina Mannella). The act is annotated that the parish of S. Nicola returned the baptism note on the same day, 14 October. Her death and any marriage are not known.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-comerci@",
+    "name": "Rosario Comerci",
+    "slug": "rosario-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonia-votano@",
+    "name": "Antonia Votano",
+    "slug": "antonia-votano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -43694,26 +44167,26 @@
   "sex": "F",
   "living": false,
   "fromRegister": true,
-  "born": null,
-  "died": null,
-  "bornText": "",
-  "diedText": "before 1 October 1838 («defunta» in her son's marriage act)",
+  "born": 1761,
+  "died": 1825,
+  "bornText": "c. 1761",
+  "diedText": "16 February 1825, at Briatico",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "c. 1761",
+    "year": 1761,
     "place": "Briatico",
-    "text": ""
+    "text": "c. 1761"
    },
    {
     "what": "died",
     "tag": "DEAT",
-    "date": "",
-    "year": null,
+    "date": "16 February 1825, at Briatico",
+    "year": 1825,
     "place": "",
-    "text": "before 1 October 1838 («defunta» in her son's marriage act)"
+    "text": "16 February 1825, at Briatico"
    }
   ],
   "birthPlace": "Briatico",
@@ -43722,17 +44195,49 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session)"
+   "Briatico, Morti 1825, atto 6 (an_ua87683, image 5, LEFT page",
+   "read at the image by the session)",
+   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3)",
+   "Briatico, Morti 1817 (an_ua87675, image 16)"
   ],
-  "registerNote": "Mother of Giacomo Comerci, named in his marriage act of 1 October 1838 as dead. Nothing else is known and nothing has been sought.",
+  "registerNote": "FOUND: DIED 16 FEBRUARY 1825 AT BRIATICO, aged sixty-four, in the house of her son Rosario Comerci. Act 6 of Briatico Morti 1825, read at the image, calls her «figlia di Antonino [Mannella], defonto, e di Anna Polito, defonta»: BOTH HER PARENTS ARE NAMED, which gives this line a generation it did not have. She is the mother of Giacomo Comerci, Rosario Comerci and Arcangelo Comerci (her son Arcangelo's death act of 15 September 1817 names her with no «fu», so she was alive then, and Giacomo's marriage act of 1838 and death act of 1848 call her «defunta»). The act does not name her husband Francesco Comerci. Of the Mannella deaths read in Briatico in 1818 (Antonino, 22, son of Francesco Mannella and the late Concetta Lauda; Giuseppa, 50, daughter of the late Vincenzo Mannella; the child Vincenzo), none is shown to belong to her family and none is claimed.",
   "registerGen": "8",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rantonino-mannella@",
+    "name": "Antonino Mannella",
+    "slug": "antonino-mannella",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-polito@",
+    "name": "Anna Polito",
+    "slug": "anna-polito-1825",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@Rgiacomo-comerci@",
     "name": "Giacomo Comerci",
     "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosario-comerci@",
+    "name": "Rosario Comerci",
+    "slug": "rosario-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rarcangelo-comerci@",
+    "name": "Arcangelo Comerci",
+    "slug": "arcangelo-comerci",
     "living": false,
     "via": "read"
    }
@@ -43797,6 +44302,66 @@
    }
   ],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rcaterina-polito@",
+  "slug": "caterina-polito",
+  "name": "Caterina Polito",
+  "key": "Caterina Polito (wife of Giacomo Comerci)",
+  "given": "Caterina",
+  "surname": "Polito",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Briatico",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1819, atti 10 and 11 (an_ua87677, image 7",
+   "read by a delegated reader, not checked at the image)"
+  ],
+  "registerNote": "Named as the mother of the twin sons born to Giacomo Comerci in November 1819, who died at five days old. Whether she is a second wife after Saveria Lucifaro (d. December 1817) or a different man of the same name's wife is not proved. Her own death is not known.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rantonino-comerci@",
+    "name": "Antonino Comerci",
+    "slug": "antonino-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-comerci@",
+    "name": "Giuseppe Comerci",
+    "slug": "giuseppe-comerci",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -45765,6 +46330,13 @@
     "slug": "giuseppe-ventrice",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-ventrice-3@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice-1825",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -46839,7 +47411,7 @@
   "born": null,
   "died": null,
   "bornText": "",
-  "diedText": "before 1 October 1838 («defunto» in his son's marriage act)",
+  "diedText": "before 15 September 1817 («del fu Francesco Comerci» in his son Arcangelo's death act)",
   "events": [
    {
     "what": "born",
@@ -46855,7 +47427,7 @@
     "date": "",
     "year": null,
     "place": "",
-    "text": "before 1 October 1838 («defunto» in his son's marriage act)"
+    "text": "before 15 September 1817 («del fu Francesco Comerci» in his son Arcangelo's death act)"
    }
   ],
   "birthPlace": "Briatico",
@@ -46864,9 +47436,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session)"
+   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3, read at the image by the session)",
+   "Briatico, Morti 1817 (an_ua87675, image 16, read at the image by the session)"
   ],
-  "registerNote": "Father of Giacomo Comerci, named in his son's marriage act of 1 October 1838 as dead, «domiciliato idem defonto». Nothing else is known and nothing has been sought. His trade is not read.",
+  "registerNote": "Father of Giacomo Comerci, named in his son's marriage act of 1 October 1838 as dead, «domiciliato idem defonto», and called «fu» in the death act of his son Arcangelo on 15 September 1817 and «defunto» in the death act of his son Rosario in 1845. His wife was Caterina Mannella, who died on 16 February 1825. DEAD BY SEPTEMBER 1817, and his death has not been found: it is not in the acts of Briatico Morti 1816 (19 acts, from 3 April) or 1817 (40 acts), which were read for it, so it is before that, in 1809-15 or in the first months of 1816, if Briatico recorded it. His trade is «bracciale» in his son Rosario's death act of 1845.",
   "registerGen": "8",
   "photos": [],
   "parents": [],
@@ -46877,8 +47450,90 @@
     "slug": "giacomo-comerci",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rrosario-comerci@",
+    "name": "Rosario Comerci",
+    "slug": "rosario-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rarcangelo-comerci@",
+    "name": "Arcangelo Comerci",
+    "slug": "arcangelo-comerci",
+    "living": false,
+    "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfrancesco-comerci-2@",
+  "slug": "francesco-comerci-1827",
+  "name": "Francesco Comerci",
+  "key": "Francesco Comerci (miller, son of Giacomo Comerci)",
+  "given": "Francesco",
+  "surname": "Comerci",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": 1827,
+  "bornText": "",
+  "diedText": "7 September 1827, at Briatico",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Briatico",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "7 September 1827, at Briatico",
+    "year": 1827,
+    "place": "",
+    "text": "7 September 1827, at Briatico"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "mugnajo (miller)",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1827, atto 21 (an_ua87685, image 13, right page",
+   "read at the image by the session)"
+  ],
+  "registerNote": "Died at twenty o'clock in his own house, «nato in Briatico», a miller like his father, «figlio di Giacomo Comerci, mugnajo, e di Saveria Lucifero», both domiciled at Briatico. NO AGE IS GIVEN. The declarants were Domenico Morello? (24, bracciale) and a second Domenico, 26?, a shoemaker, whose surname is not read. The son's own name is written by a second hand across the act. He is the first child of Giacomo Comerci and Saveria Lucifaro found; her death is December 1817, so he was born before that if she is his mother, as the parents' names say.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiacomo-comerci@",
+    "name": "Giacomo Comerci",
+    "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsaveria-lucifaro@",
+    "name": "Saveria Lucifaro",
+    "slug": "saveria-lucifaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -47234,6 +47889,142 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfrancesco-ventrice-2@",
+  "slug": "francesco-ventrice-1830",
+  "name": "Francesco Ventrice",
+  "key": "Francesco Ventrice (b. 1830, son of Giuseppe Ventrice)",
+  "given": "Francesco",
+  "surname": "Ventrice",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1830,
+  "died": 1834,
+  "bornText": "29 September 1830",
+  "diedText": "15 September 1834, at Briatico, aged four",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "29 September 1830",
+    "year": 1830,
+    "place": "Briatico",
+    "text": "29 September 1830"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "15 September 1834, at Briatico, aged four",
+    "year": 1834,
+    "place": "",
+    "text": "15 September 1834, at Briatico, aged four"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Nati 1830, atto 17 (an_ua87732, image 19, read at the image by the session)",
+   "Briatico, Morti 1834, atto 14 (an_ua87692, image 9, left page, read at the image by the session)"
+  ],
+  "registerNote": "THE LAST CHILD OF THE MARRIAGE, born nine months before his father died (21 June 1831), and the SECOND Francesco: the first, born at Zambrone in 1825 or 1826, lived twelve days. HE DIED AT FOUR. Briatico Morti 1834 atto 14, read at the image: at seven in the evening of 15 September 1834 «Francesco Ventrice di anni quattro», a boy («ragazzo»), born and living at Briatico, died in his own bed, «figlio di Giuseppe Ventrice, bracciale, domiciliato idem defonto, e di Catarina Cichello, domiciliata in Briatico»: his mother alive, his father dead; declared on the 16th at noon by Antonino Ventrice (about 28, miller) and Antonio Vallone (22, miller), neither able to write. Antonino Ventrice is very probably the miller of that name who died at Briatico on 20 September 1836, about forty, son of the late Francesco Ventrice and a Francesca, husband of Giuseppa Giacco (Morti 1836, atto 24, read by a delegated reader, not checked at the image). Nothing read shows him related to Giuseppe Ventrice, whose father was Domenico, son of Paolo: the surname is all that is shared. His mother married Giacomo Comerci four years later, in 1838.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-ventrice@",
+    "name": "Giuseppe Ventrice",
+    "slug": "giuseppe-ventrice",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-cichello@",
+    "name": "Caterina Cichello",
+    "slug": "caterina-cichello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfrancesco-ventrice-3@",
+  "slug": "francesco-ventrice-1825",
+  "name": "Francesco Ventrice",
+  "key": "Francesco Ventrice (brother of Giuseppe Ventrice)",
+  "given": "Francesco",
+  "surname": "Ventrice",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": 1825,
+  "bornText": "",
+  "diedText": "10 October 1825, at Briatico",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Zambrone",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "10 October 1825, at Briatico",
+    "year": 1825,
+    "place": "",
+    "text": "10 October 1825, at Briatico"
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1825, atto 24 (an_ua87683, image 16, left page",
+   "read at the image by the session)"
+  ],
+  "registerNote": "BORN AT ZAMBRONE, living at Briatico, and called «figlio del fu Domenico [Ventrice]» and of «Anna Hampti?» of Zambrone, whose surname is read with doubt (Fama is not excluded by the hand, and Domenico's wife was Anna Fama). That makes him VERY PROBABLY A BROTHER OF GIUSEPPE VENTRICE, and a younger brother if Domenico died in 1815. Declarants Matteo Francesco Triparni (32, tailor) and Gennaro Bongiovanni (34, servo). No age is given; the act number is overwritten. Not to be confused with the Francesco Ventrice «fu Paolo» who died at Zambrone on 17 February 1833.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rdomenico-ventrice@",
+    "name": "Domenico Ventrice",
+    "slug": "domenico-ventrice",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-fama@",
+    "name": "Anna Fama",
+    "slug": "anna-fama",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -47950,7 +48741,7 @@
   "key": "Giacomo Comerci (second husband of Caterina Cichello)",
   "given": "Giacomo",
   "surname": "Comerci",
-  "sex": "",
+  "sex": "M",
   "living": false,
   "fromRegister": true,
   "born": 1778,
@@ -47982,9 +48773,13 @@
   "sources": [],
   "registerSources": [
    "Briatico, Morti 1848, atto 6 (an_ua87706, image 5, left page, read at the image by the session)",
-   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3)"
+   "Briatico, Matrimoni 1838, atto 2 (an_ua87652, image 3)",
+   "Briatico, Morti 1817, atto 39 (an_ua87675, image 21)",
+   "Briatico, Morti 1818, atto 10 (an_ua87676, image 7)",
+   "Briatico, Morti 1819, atti 10 and 11 (an_ua87677, image 7)",
+   "Briatico, Morti 1827, atto 21 (an_ua87685, image 13)"
   ],
-  "registerNote": "Caterina Cichello's SECOND HUSBAND, married at Briatico on 1 October 1838, and DEAD BY 24 MAY 1848: his death act (atto 6, noon, in his own house, declared by Vincenzo Artesi and Antonio Mannella) calls him «marito di Catarina Cichello», with no «fu», so she was alive on that day, and names his parents as Francesco Comerci, bracciale, «defunto», and Catarina Mannella, «defunta». That confirms them both dead by 1848. He is the miller who declared Giuseppe Ventrice's death in 1831 (Briatico Morti 1831, atto 12), so he knew the family already. Nothing is known of any children, and none has been sought. A Rosario Comerci, 50, son of the late Francesco Comerci and the late Catarina Mannella, died at Briatico on 3 February 1845 (Morti 1845, atto 2, read by a delegated reader, not yet checked at the image): probably his brother, not added as a person. Placed at Briatico, where he was born and lived.",
+  "registerNote": "Caterina Cichello's SECOND HUSBAND, married at Briatico on 1 October 1838, and DEAD BY 24 MAY 1848: his death act (atto 6, noon, in his own house, declared by Vincenzo Artesi and Antonio Mannella) calls him «marito di Catarina Cichello», with no «fu», so she was alive on that day, and names his parents as Francesco Comerci, bracciale, «defunto», and Catarina Mannella, «defunta». That confirms them both dead by 1848. He is the miller who declared Giuseppe Ventrice's death in 1831 (Briatico Morti 1831, atto 12), so he knew the family already. Nothing is known of any children, and none has been sought. A Rosario Comerci, 50, son of the late Francesco Comerci and the late Catarina Mannella, died at Briatico on 3 February 1845 (Morti 1845, atto 2, read by a delegated reader, not yet checked at the image): probably his brother, not added as a person. Placed at Briatico, where he was born and lived. HIS FIRST WIFE WAS SAVERIA LUCIFARO, who died on 16 December 1817 (Briatico Morti 1817, atto 39, image 21, read at the image): the act names the husband only as «Comerci», but Giacomo Comerci, 36, miller, signs as «marito della difonta», and her father Antonio Lucifaro, 56, a miller, is the other declarant. When Antonio Lucifaro himself died on 29 March 1818 (Morti 1818, atto 10, read by a delegated reader) Giacomo Comerci, 37, miller, declared it as «genero del defunto». By November 1819 he was a «vaticale» of 34 with a wife Caterina Polito and newborn twin sons who both died at five days. TWO MEN OF THE NAME LIVED IN BRIATICO in 1817-18, a «maggiore» of about sixty and a «minore»; the miller is the «minore», and his age fits this man, who died in 1848 at about seventy. The ages of one man swing between thirty-four and thirty-seven in three years, and nothing in the acts proves the 1817 husband of Saveria is the same man as the 1838 bridegroom beyond the name, the trade and the age. HIS SON FRANCESCO, a miller born at Briatico, died on 7 September 1827 (Briatico Morti 1827, atto 21, an_ua87685, image 13, read at the image): «figlio di Giacomo Comerci, mugnajo, e di Saveria Lucifero», which proves the miller of 1817 and this family are one household.",
   "registerGen": "7",
   "photos": [],
   "parents": [
@@ -48003,7 +48798,29 @@
     "via": "read"
    }
   ],
-  "children": [],
+  "children": [
+   {
+    "id": "@Rantonino-comerci@",
+    "name": "Antonino Comerci",
+    "slug": "antonino-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-comerci@",
+    "name": "Giuseppe Comerci",
+    "slug": "giuseppe-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-comerci-2@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci-1827",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -48717,18 +49534,18 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": 1827,
+  "born": 1826,
   "died": 1849,
-  "bornText": "c. 1827",
+  "bornText": "24 June 1826",
   "diedText": "10 November 1849, at Briatico",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1827",
-    "year": 1827,
+    "date": "24 June 1826",
+    "year": 1826,
     "place": "Briatico",
-    "text": "c. 1827"
+    "text": "24 June 1826"
    },
    {
     "what": "died",
@@ -48745,9 +49562,10 @@
   "trade": "bracciale (day labourer)",
   "sources": [],
   "registerSources": [
-   "Briatico, Morti 1849, atto 21 (an_ua87707, image 12, right page, read at the image by the session)"
+   "Briatico, Morti 1849, atto 21 (an_ua87707, image 12, right page, read at the image by the session)",
+   "Briatico, Nati 1826, atto 21 (an_ua87728, image 22, read at the image by the session)"
   ],
-  "registerNote": "A SON OF GIUSEPPE VENTRICE AND CATERINA CICHELLO, new to this archive and the first of their children found at Briatico after Francesco (Zambrone, 1825/26) and before Giovanna (b. 1828). He died at ten o'clock on 10 November 1849 in his own house, «celibe» (unmarried), domiciled at Briatico, five months after his sister's marriage; the act names his father as «Giuseppe Ventrice, bracciale, defunto» and his mother as «Caterina Cichello», domiciled at Briatico, so she was alive. Declarants: Antonino Comerci, 30, a «magnaio», and Francesco Zurago(?), 40, a bracciale, both of Briatico (the Comerci may be a relation of her second husband; nothing says so). The Tavola line reads «Giovanni Ventrice | Giuseppe, di Caterina Cichello | 10 novembre».",
+  "registerNote": "A SON OF GIUSEPPE VENTRICE AND CATERINA CICHELLO, new to this archive, and now with his birth act: the first of their children found at Briatico, after the infant Francesco of Zambrone (1825 or 1826) and before Giovanna (b. 1828) and a second Francesco (b. 1830). He died at ten o'clock on 10 November 1849 in his own house, «celibe» (unmarried), domiciled at Briatico, five months after his sister's marriage; the act names his father as «Giuseppe Ventrice, bracciale, defunto» and his mother as «Caterina Cichello», domiciled at Briatico, so she was alive. Declarants: Antonino Comerci, 30, a «magnaio», and Francesco Zurago(?), 40, a bracciale, both of Briatico (the Comerci may be a relation of her second husband; nothing says so). The Tavola line reads «Giovanni Ventrice | Giuseppe, di Caterina Cichello | 10 novembre».",
   "registerGen": "6",
   "photos": [],
   "parents": [
@@ -49908,6 +50726,74 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgiuseppe-comerci@",
+  "slug": "giuseppe-comerci",
+  "name": "Giuseppe Comerci",
+  "key": "Giuseppe Comerci (twin son of Giacomo Comerci)",
+  "given": "Giuseppe",
+  "surname": "Comerci",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": 1819,
+  "bornText": "about 13 November 1819",
+  "diedText": "18 November 1819, at Briatico, aged five days",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Briatico",
+    "text": "about 13 November 1819"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "18 November 1819, at Briatico, aged five days",
+    "year": 1819,
+    "place": "",
+    "text": "18 November 1819, at Briatico, aged five days"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1819, atto 11 (an_ua87677, image 7",
+   "read by a delegated reader, not checked at the image)"
+  ],
+  "registerNote": "The other twin, dead on the same day as Antonino, with the same declarants.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiacomo-comerci@",
+    "name": "Giacomo Comerci",
+    "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-polito@",
+    "name": "Caterina Polito",
+    "slug": "caterina-polito",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -51291,6 +52177,13 @@
     "id": "@Rgiovanni-ventrice@",
     "name": "Giovanni Ventrice",
     "slug": "giovanni-ventrice",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-ventrice-2@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice-1830",
     "living": false,
     "via": "read"
    }
@@ -55773,6 +56666,74 @@
   "ancGen": null
  },
  {
+  "id": "@Rnicola-comerci@",
+  "slug": "nicola-comerci",
+  "name": "Nicola Comerci",
+  "key": "Nicola Comerci (infant son of Rosario Comerci)",
+  "given": "Nicola",
+  "surname": "Comerci",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": 1825,
+  "bornText": "",
+  "diedText": "27 February 1825, at Briatico, an infant",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Briatico",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "27 February 1825, at Briatico, an infant",
+    "year": 1825,
+    "place": "",
+    "text": "27 February 1825, at Briatico, an infant"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1825, atto 7 (an_ua87683, image 5, right page",
+   "read at the image by the session)"
+  ],
+  "registerNote": "Died eleven days after his grandmother Caterina Mannella, who had died in his father's house. Called «figlio di Rosario Comerci, servo, e di Antonia Votano». His age is not stated in the notes taken from the act, which say only that he was an infant, so no birth date is claimed.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-comerci@",
+    "name": "Rosario Comerci",
+    "slug": "rosario-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonia-votano@",
+    "name": "Antonia Votano",
+    "slug": "antonia-votano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rnunzia-coco@",
   "slug": "nunzia-coco",
   "name": "Nunzia Coco",
@@ -58553,6 +59514,92 @@
     "id": "@Rantonino-sciacca@",
     "name": "Antonino Sciacca",
     "slug": "antonino-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rrosario-comerci@",
+  "slug": "rosario-comerci",
+  "name": "Rosario Comerci",
+  "key": "Rosario Comerci (brother of Giacomo Comerci)",
+  "given": "Rosario",
+  "surname": "Comerci",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1795,
+  "died": 1845,
+  "bornText": "c. 1795",
+  "diedText": "early February 1845, at Briatico",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1795",
+    "year": 1795,
+    "place": "Briatico",
+    "text": "c. 1795"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "early February 1845, at Briatico",
+    "year": 1845,
+    "place": "",
+    "text": "early February 1845, at Briatico"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "vetturale (carrier; the word is read «vaticale», doubtful)",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1845, atto 2 (an_ua87703, image 4, LEFT page",
+   "read at the image by the session)",
+   "Briatico, Morti 1817 (an_ua87675, image 16)",
+   "Briatico, Morti 1825, atti 6 and 7 (an_ua87683, image 5)",
+   "Briatico, Nati 1829, atto 24 (an_ua87731, image 25)"
+  ],
+  "registerNote": "GIACOMO COMERCI'S BROTHER, on the one fact the act gives: he is called son of «Francesco Comerci, bracciale, defunto» and «Catarina Mannella, defonta», the same two parents as in Giacomo's marriage act of 1838 and death act of 1848. Died at one o'clock in the night, in his own house, at fifty, born and living at Briatico. The day is written «due» or «tre» (February 1845): doubtful, and the reader had 3 February. Declarants Giuseppe Artesi (30) and Giovanni Maggi? (40), both braccianti of Briatico, who could not sign. His wife is not named in the act. A Giacomo Comerci, a vetturale who died at Briatico in 1840, is called son of a Rosario Comerci and Nicolina Bongiovanni: very probably this man's son, but nothing in either act says so, and it is not claimed. HE IS ALSO THE DECLARANT OF HIS OWN BROTHER ARCANGELO'S DEATH on 15 September 1817 (Morti 1817, an_ua87675, image 16), giving his age as twenty-eight, which is about 1789, against the fifty of his death act of 1845 (about 1795): a six-year disagreement between two clerks' figures. Not in the family tree. HIS WIFE WAS ANTONIA VOTANO, and he was a «servo» in 1825: Briatico Morti 1825, atto 6 (an_ua87683, image 5, left page, read at the image) is his own mother's death, who died in his house on 16 February 1825, and atto 7 on the same opening is the death of their infant son Nicola, on 27 February, «figlio di Rosario Comerci, servo, e di Antonia Votano». His trades differ from act to act (a tavern-keeper? in 1817, a servo in 1825, a carrier in 1845). IN OCTOBER 1829 HE HAD A DAUGHTER, CATERINA, born at Briatico at sixteen o'clock on 14 October, to Rosario Comerci, a «vaticale», and Antonia Votano, aged twenty (Briatico Nati 1829, atto 24, an_ua87731, image 25, read at the image). His own age there is read «trentaquattro» (thirty-four, the first letters are heavy), which agrees with the thirty-six of March 1832 (Morti 1832, atto 9, where he declared a death) and the fifty of 1845 and against the twenty-eight of 1817, which is the outlier.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rfrancesco-comerci@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-mannella@",
+    "name": "Caterina Mannella",
+    "slug": "caterina-mannella",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [
+   {
+    "id": "@Rnicola-comerci@",
+    "name": "Nicola Comerci",
+    "slug": "nicola-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-comerci@",
+    "name": "Caterina Comerci",
+    "slug": "caterina-comerci",
     "living": false,
     "via": "read"
    }
@@ -61769,6 +62816,74 @@
     "id": "@Rmaria-sciacca@",
     "name": "Maria Sciacca",
     "slug": "maria-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsaveria-lucifaro@",
+  "slug": "saveria-lucifaro",
+  "name": "Saveria Lucifaro",
+  "key": "Saveria Lucifaro (first wife of Giacomo Comerci)",
+  "given": "Saveria",
+  "surname": "Lucifaro",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1787,
+  "died": 1817,
+  "bornText": "c. 1787",
+  "diedText": "16 December 1817, at Briatico",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1787",
+    "year": 1787,
+    "place": "Briatico",
+    "text": "c. 1787"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "16 December 1817, at Briatico",
+    "year": 1817,
+    "place": "",
+    "text": "16 December 1817, at Briatico"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "filatrice (spinner)",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Morti 1817, atto 39 (an_ua87675, image 21, read at the image by the session)"
+  ],
+  "registerNote": "Died in her own house in the «strada dietro la Chiesa», «figlia di Antonio Lucifaro ed [di] Domenica», «moglie di ___ Comerci»: the husband's forename is left blank, and the declarant Giacomo Comerci, 36, a miller, is called «marito della difonta». The first name is read «Saverda» (Saveria) and is doubtful. Her mother's surname is not given.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rantonio-lucifaro@",
+    "name": "Antonio Lucifaro",
+    "slug": "antonio-lucifaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [
+   {
+    "id": "@Rfrancesco-comerci-2@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci-1827",
     "living": false,
     "via": "read"
    }

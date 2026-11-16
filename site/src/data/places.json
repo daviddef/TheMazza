@@ -385,6 +385,36 @@
   "n": 24
  },
  {
+  "name": "Briatico",
+  "born": 18,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1761,
+  "last": 1830,
+  "who": [
+   "anna-polito-1825",
+   "antonia-votano",
+   "antonino-comerci",
+   "antonino-mannella",
+   "antonio-lucifaro",
+   "arcangelo-comerci",
+   "caterina-comerci",
+   "caterina-mannella",
+   "caterina-polito",
+   "francesco-comerci",
+   "francesco-comerci-1827",
+   "francesco-ventrice-1830",
+   "giacomo-comerci",
+   "giovanni-ventrice",
+   "giuseppe-comerci",
+   "nicola-comerci",
+   "rosario-comerci",
+   "saveria-lucifaro"
+  ],
+  "n": 18
+ },
+ {
   "name": "Mascali",
   "born": 16,
   "died": 0,
@@ -535,6 +565,28 @@
   "n": 10
  },
  {
+  "name": "Zambrone",
+  "born": 10,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1757,
+  "last": 1825,
+  "who": [
+   "anna-fama",
+   "anna-pappa",
+   "caterina-cichello",
+   "domenico-ventrice",
+   "francesco-cichello",
+   "francesco-ventrice-1825",
+   "francesco-ventrice",
+   "giuseppe-ventrice",
+   "paolo-ventrice",
+   "vittoria-mollo"
+  ],
+  "n": 10
+ },
+ {
   "name": "Genoa, Liguria",
   "born": 0,
   "died": 0,
@@ -594,27 +646,6 @@
    "peppina-cavallaro",
    "vita-cavallaro",
    "vernera-cavallaro"
-  ],
-  "n": 9
- },
- {
-  "name": "Zambrone",
-  "born": 9,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1757,
-  "last": 1825,
-  "who": [
-   "anna-fama",
-   "anna-pappa",
-   "caterina-cichello",
-   "domenico-ventrice",
-   "francesco-cichello",
-   "francesco-ventrice",
-   "giuseppe-ventrice",
-   "paolo-ventrice",
-   "vittoria-mollo"
   ],
   "n": 9
  },
@@ -687,22 +718,6 @@
    "peter-calarco",
    "rosa-curcuruto-mazza",
    "angela-mazza-2"
-  ],
-  "n": 4
- },
- {
-  "name": "Briatico",
-  "born": 4,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1778,
-  "last": 1827,
-  "who": [
-   "caterina-mannella",
-   "francesco-comerci",
-   "giacomo-comerci",
-   "giovanni-ventrice"
   ],
   "n": 4
  },

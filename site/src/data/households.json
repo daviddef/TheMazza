@@ -337,6 +337,13 @@
     "slug": "giuseppe-ventrice",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-ventrice-3@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice-1825",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Zambrone",
@@ -413,6 +420,37 @@
   "born": 1761
  },
  {
+  "name": "Caterina Mannella",
+  "head": "caterina-mannella",
+  "headId": "@Rcaterina-mannella@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiacomo-comerci@",
+    "name": "Giacomo Comerci",
+    "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosario-comerci@",
+    "name": "Rosario Comerci",
+    "slug": "rosario-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rarcangelo-comerci@",
+    "name": "Arcangelo Comerci",
+    "slug": "arcangelo-comerci",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
+  "born": 1761
+ },
+ {
   "name": "Caterina Di Meio & Pasquale Prostamo",
   "head": "caterina-di-meio",
   "headId": "@I222@",
@@ -442,6 +480,23 @@
   "born": 1762
  },
  {
+  "name": "Antonio Lucifaro",
+  "head": "antonio-lucifaro",
+  "headId": "@Rantonio-lucifaro@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsaveria-lucifaro@",
+    "name": "Saveria Lucifaro",
+    "slug": "saveria-lucifaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
+  "born": 1762
+ },
+ {
   "name": "Anna Fama",
   "head": "anna-fama",
   "headId": "@Ranna-fama@",
@@ -451,6 +506,13 @@
     "id": "@Rgiuseppe-ventrice@",
     "name": "Giuseppe Ventrice",
     "slug": "giuseppe-ventrice",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-ventrice-3@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice-1825",
     "living": false,
     "via": "read"
    }
@@ -644,6 +706,37 @@
   ],
   "place": "Giarre",
   "born": 1777
+ },
+ {
+  "name": "Giacomo Comerci",
+  "head": "giacomo-comerci",
+  "headId": "@Rgiacomo-comerci@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rantonino-comerci@",
+    "name": "Antonino Comerci",
+    "slug": "antonino-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-comerci@",
+    "name": "Giuseppe Comerci",
+    "slug": "giuseppe-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-comerci-2@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci-1827",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
+  "born": 1778
  },
  {
   "name": "Giachino Sorbello",
@@ -871,6 +964,23 @@
   "born": 1787
  },
  {
+  "name": "Saveria Lucifaro",
+  "head": "saveria-lucifaro",
+  "headId": "@Rsaveria-lucifaro@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rfrancesco-comerci-2@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci-1827",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
+  "born": 1787
+ },
+ {
   "name": "Maria Fragala & Antonino Prostamo",
   "head": "maria-fragala",
   "headId": "@I220@",
@@ -978,6 +1088,13 @@
     "id": "@Rgiovanni-ventrice@",
     "name": "Giovanni Ventrice",
     "slug": "giovanni-ventrice",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-ventrice-2@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice-1830",
     "living": false,
     "via": "read"
    }
@@ -1099,6 +1216,30 @@
    }
   ],
   "place": "Giarre",
+  "born": 1795
+ },
+ {
+  "name": "Rosario Comerci",
+  "head": "rosario-comerci",
+  "headId": "@Rrosario-comerci@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rnicola-comerci@",
+    "name": "Nicola Comerci",
+    "slug": "nicola-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-comerci@",
+    "name": "Caterina Comerci",
+    "slug": "caterina-comerci",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
   "born": 1795
  },
  {
@@ -1237,6 +1378,13 @@
     "id": "@Rgiovanni-ventrice@",
     "name": "Giovanni Ventrice",
     "slug": "giovanni-ventrice",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-ventrice-2@",
+    "name": "Francesco Ventrice",
+    "slug": "francesco-ventrice-1830",
     "living": false,
     "via": "read"
    }
@@ -1800,6 +1948,30 @@
    }
   ],
   "place": "Mandaradoni (Briatico), Vibo Valentia, Calabria",
+  "born": 1809
+ },
+ {
+  "name": "Antonia Votano",
+  "head": "antonia-votano",
+  "headId": "@Rantonia-votano@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rnicola-comerci@",
+    "name": "Nicola Comerci",
+    "slug": "nicola-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-comerci@",
+    "name": "Caterina Comerci",
+    "slug": "caterina-comerci",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
   "born": 1809
  },
  {
@@ -11714,6 +11886,23 @@
   "born": null
  },
  {
+  "name": "Anna Polito",
+  "head": "anna-polito-1825",
+  "headId": "@Ranna-polito@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rcaterina-mannella@",
+    "name": "Caterina Mannella",
+    "slug": "caterina-mannella",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
+  "born": null
+ },
+ {
   "name": "Antonia Sapienza",
   "head": "antonia-sapienza",
   "headId": "@Rantonia-sapienza@",
@@ -11728,6 +11917,23 @@
    }
   ],
   "place": "Mascali",
+  "born": null
+ },
+ {
+  "name": "Antonino Mannella",
+  "head": "antonino-mannella",
+  "headId": "@Rantonino-mannella@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rcaterina-mannella@",
+    "name": "Caterina Mannella",
+    "slug": "caterina-mannella",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Briatico",
   "born": null
  },
  {
@@ -11782,15 +11988,22 @@
   "born": null
  },
  {
-  "name": "Caterina Mannella",
-  "head": "caterina-mannella",
-  "headId": "@Rcaterina-mannella@",
+  "name": "Caterina Polito",
+  "head": "caterina-polito",
+  "headId": "@Rcaterina-polito@",
   "spouse": null,
   "children": [
    {
-    "id": "@Rgiacomo-comerci@",
-    "name": "Giacomo Comerci",
-    "slug": "giacomo-comerci",
+    "id": "@Rantonino-comerci@",
+    "name": "Antonino Comerci",
+    "slug": "antonino-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-comerci@",
+    "name": "Giuseppe Comerci",
+    "slug": "giuseppe-comerci",
     "living": false,
     "via": "read"
    }
@@ -12069,6 +12282,20 @@
     "id": "@Rgiacomo-comerci@",
     "name": "Giacomo Comerci",
     "slug": "giacomo-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrosario-comerci@",
+    "name": "Rosario Comerci",
+    "slug": "rosario-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rarcangelo-comerci@",
+    "name": "Arcangelo Comerci",
+    "slug": "arcangelo-comerci",
     "living": false,
     "via": "read"
    }
