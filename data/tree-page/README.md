@@ -34,6 +34,10 @@ on `~/.claude`.
   `people.json`'s own `bornText` / `diedText`, byte for byte, which is the string the person page prints after "Born" / "died": `"14 January 1838"` (`D Month YYYY`, English month name in full,
   day not zero-padded). It is present only when the whole string is a bare full date: «c. 1830», «about 1772», «before 7 January 1834», a year alone, a month and year, and a date followed by
   a note in brackets («2 May 1867 (2 p.m., ...)») get no field; `by` / `dy` with `bye` / `dye` carry those. Regex: `^\d{1,2} <Month> \d{4}$`.
+- **Corrections count, `cx` (added 16 November 2026).** Optional integer >= 1 per person in `tree.json`: the number of register readings that disagree with the family tree's account, which is
+  the "N readings" the person page prints (`people.json` `corrections`, so the two cannot differ). A count only, never what a correction says; absent when 0; never a living person. The Atlas
+  Tree Canvas shows it as a pencil mark linking to `/corrections/`, which lists the table rows (fewer than this count for some people, because the person page also carries the readings
+  from `documented-additions.tsv`).
 - **Colour is the Record Atlas surname catalogue's family**, read only (`surname_variants.py` lookup), and, where the catalogue has no entry for a surname, the surname as
   the archive writes it with typography folded. Today the catalogue holds Mazza, Polistena and Morabito; Nicotra, Prostamo, Arena, Donato, Anile and the rest are colours
   by their written surname and are not in the catalogue. Nothing here lists spellings.

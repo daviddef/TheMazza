@@ -230,6 +230,9 @@ def build(a):
         if s.get("living") is False:
             if FULLDATE.match(s.get("bornText") or ""): p["bd"] = s["bornText"]
             if FULLDATE.match(s.get("diedText") or ""): p["dd"] = s["diedText"]
+            # CORRECTIONS COUNT (cx): how many register readings the person page says disagree with the tree ("N readings", the block under «A register contradicts what is
+            # written above»). people.json `corrections` is that list, so the number cannot drift from the page. A count only, never the text. Absent when 0; never for a living person.
+            if s.get("corrections"): p["cx"] = len(s["corrections"])
     t["lines"] = [{"sur": label[k], "host": HOST} for k in order] + [{"sur": "Other", "host": HOST}]
     t["meta"].update({"rowLabel": "Family line", "lineLabel": "Family line"})
     drop_conflicts(t, tree)
