@@ -10,6 +10,7 @@ place lanes, eras, lifespans, an Orphans tab, and the five animated views (Night
 | `place-additions.json` | `places`: strings decided by hand, each with its reason; `refused`: strings deliberately not placed, each with its reason | yes, with a reason |
 | `atlas-data.json` | the Record Atlas slice: outlines, regimes, flags, events, collections | no, generated |
 | `roots.html`, `roots.embed.html` | the page, whole and as a fragment for the site layout | no, generated |
+| `living-nodes.json` | NAME-AND-FAMILY-ONLY cards for the people the build holds as living, and for every published person with no death recorded who is born 1917 or later or undated. **Not served, not indexed, not copied into `site/`.** The Atlas Tree Canvas reads it from a local clone | no, generated |
 | `tree.report.json` | counts, the people whose dates are not one life, the places not placed and why | read it |
 | `people.ged`, `slugs.json` | intermediates, not committed (gitignored) | no |
 
@@ -55,3 +56,8 @@ on `~/.claude`.
   then Brisbane). A stop with no year is never guessed into the order.
 - **Unrecorded sex.** 106 of the 448 people drawn have no sex recorded in the archive (170 men, 172 women). They are drawn as `u`: the page says parent, child, spouse,
   sibling, "uncle or aunt" for them, and no sex is inferred from a given name. The GEDCOM written from `people.json` carries a `SEX` line only where the archive has one.
+- **Everyone this archive publishes is on the Atlas Tree Canvas (17 November 2026; David: «split by evidence»).** The maps cannot draw a person with no year or no place, so the rest reach the
+  canvas two ways. (1) `tree.json` `undrawn`: people with a RECORDED death («before ...» counts; «after ...» and «alive at ...» do not) or a birth in 1916 or earlier, as unplaced cards with
+  details and a link to their page (`href`). These pages are public already. (2) `living-nodes.json`, UNSERVED: the living and the no-death-recent-or-undated people as name-and-family cards,
+  no year, place, occupation or source. `/roots/` is indexed and embeds `tree.json`, so a name there becomes searchable; this file is the 15 November decision kept. It buys non-indexability,
+  not secrecy: every name in it is on the person's own page. The held-out possible minors are in neither. The Tree Canvas's `fetch_corpus.py` `LIVING_FILES` needs a Mazza entry to read it.

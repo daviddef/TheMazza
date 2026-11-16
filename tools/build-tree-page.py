@@ -29,7 +29,7 @@ the person is drawn at a relative's birth place (said on the page) or not at all
 A ROUTE (three or more places) is carried whole where the archive records dated arrivals or residences: birth place, each dated arrival/residence in year order, death
 place. A stop with no year is never guessed into the order, so a person with an undated arrival has no route.
 """
-import argparse, collections, hashlib, io, json, math, os, re, subprocess, sys, unicodedata
+import argparse, datetime, collections, hashlib, io, json, math, os, re, subprocess, sys, unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "site", "src", "data")
@@ -238,12 +238,84 @@ def build(a):
     drop_conflicts(t, tree)
     keep_death_place(t, people)
     add_routes(t, people)
+    extras = canvas_extras(t, allp, people, slugs)
     io.open(tree, "w", encoding="utf-8").write(json.dumps(t, ensure_ascii=False, separators=(",", ":")))
     rep_path = os.path.join(OUT, "tree.report.json"); rep = jl(rep_path)
     rep["places"] = prep
     rep["people_json"] = {"in_file": len(allp), "living_not_read": len(allp) - len(people), "not_living_read": len(people)}
+    rep["canvas_extras"] = extras
     rep["catalogue"] = {"people_coloured_by_a_catalogued_family": sum(1 for k in keyed.values() if k[2]), "catalogue_families_present": sorted(k for k in cnt if not k.startswith("~")), "colours": [{"name": label[k], "from_catalogue": not k.startswith("~"), "people": cnt[k]} for k in order]}
     io.open(rep_path, "w", encoding="utf-8").write(json.dumps(rep, indent=1, ensure_ascii=False))
+
+# ---------------------------------------------------------------- everyone this archive publishes, for the Atlas Tree Canvas (17 Nov 2026)
+# David's instruction (17 Nov): "if it's in the archive it must be shown in the canvas". The Roots & Routes maps cannot draw a person with no year or no place, so the people
+# the maps skip reach the canvas two ways, and the split is David's («split by evidence», 17 Nov):
+#   (1) UNDRAWN, in the public tree.json (embedded in /roots/): a person with a RECORDED DEATH, or a birth in 1916 or earlier. They carry their details (given, sur, by, dy,
+#       parents, spouses, children) as unplaced cards. Their pages are public and indexed already, and nothing here is about a person who may be living.
+#   (2) living-nodes.json, UNSERVED (data/tree-page/, never copied into site/): the 132 people the build holds as living, and every published person with no death recorded who is
+#       born in 1917 or later or has no birth year at all (the converter's floor holds those as possibly living). NAME AND FAMILY ONLY: no year, no place, no occupation, no
+#       source. David's 15 Nov decision, unchanged: /roots/ is indexed and embeds tree.json, so a name that reached it would become searchable; the Tree Canvas reads this file from
+#       a local clone (scripts/fetch_corpus.py LIVING_FILES), never over the network. What the file buys is NON-INDEXABILITY, not secrecy: every name in it is already on that
+#       person's own page. A person the archive does not name anywhere (the held-out possible minors) is not in people.json and so is in neither.
+LIVING_BANNED = ("by", "dy", "bye", "dye", "bp", "dp", "route", "occ", "born", "died", "place", "birthPlace", "deathPlace", "srcs", "sources", "grade")
+def canvas_extras(t, allp, people, slugs):
+    drawn = {p["id"] for p in t["people"]}
+    conflict = {c["id"] for c in jl(os.path.join(OUT, "tree.report.json")).get("conflicts", [])}
+    bare = lambda i: (i or "").strip("@")
+    sx = {"M": "m", "F": "f"}
+    def yr(v): return v if isinstance(v, int) else None
+    dead_not_drawn = [p for p in people if bare(p["id"]) not in drawn]
+    def detailed(p):
+        dt = str(p.get("diedText") or "").strip().lower()
+        if str(p.get("died") or "").strip() or (dt and not dt.startswith(("after", "alive"))): return True   # a death is recorded ("before ..." is one; "after ..." and "alive at ..." are not)
+        b = yr(p.get("born")); return b is not None and b <= 1916
+    A = [p for p in dead_not_drawn if detailed(p)]
+    B = [p for p in dead_not_drawn if not detailed(p)] + [p for p in allp if p.get("living") is True]
+    aid = {bare(p["id"]) for p in A}; bid = {bare(p["id"]) for p in B}
+    public = drawn | aid
+    def role(refs, ok):
+        f = next((bare(r["id"]) for r in refs if r.get("sex") == "M" and bare(r["id"]) in ok), None)
+        m = next((bare(r["id"]) for r in refs if r.get("sex") == "F" and bare(r["id"]) in ok), None)
+        return f, m
+    sexof = {bare(p["id"]): p.get("sex") for p in allp}
+    def kin(p, ok):
+        refs = [{"id": r.get("id"), "sex": sexof.get(bare(r.get("id")))} for r in p.get("parents") or []]
+        f, m = role(refs, ok)
+        return f, m, [bare(r["id"]) for r in p.get("spouses") or [] if bare(r.get("id")) in ok], [bare(r["id"]) for r in p.get("children") or [] if bare(r.get("id")) in ok]
+    und = []
+    for p in sorted(A, key=lambda p: (p.get("surname") or "", p.get("given") or "", p["id"])):
+        i = bare(p["id"]); f, m, sp, kids = kin(p, public)
+        bad = i in conflict                      # a death before the birth, or over 110 years after it: not one life, so no dates are carried
+        by = None if bad else yr(p.get("born")); dy = None if bad else yr(p.get("died"))
+        e = {"id": i, "name": ((p.get("given") or "") + " " + (p.get("surname") or "")).strip(), "href": "/people/%s/" % p["slug"],
+             "b": by, "place": p.get("birthPlace") or p.get("deathPlace") or None, "why": "year" if by is None else "place",
+             "given": p.get("given") or "", "sur": p.get("surname") or "", "sex": sx.get(p.get("sex"), "u"), "by": by, "dy": dy,
+             "father": f, "mother": m, "spouse": sp, "kids": kids}
+        if by is not None and est_text(p.get("bornText")): e["bye"] = True
+        if dy is not None and (est_text(p.get("diedText")) or (p.get("diedText") or "").lower().startswith(("before", "after"))): e["dye"] = True
+        und.append(e)
+    t["undrawn"] = und
+    ok_all = public | bid
+    nodes = []
+    for p in sorted(B, key=lambda p: (p.get("surname") or "", p.get("given") or "", p["id"])):
+        i = bare(p["id"]); f, m, sp, kids = kin(p, ok_all)
+        nodes.append({"id": i, "sex": sx.get(p.get("sex"), "u"), "given": p.get("given") or "", "sur": p.get("surname") or "", "father": f, "mother": m,
+                      "spouse": sp, "kids": kids, "page": "/people/%s/" % p["slug"]})
+    for n in nodes:
+        assert not any(n.get(k) not in (None, "", [], {}) for k in LIVING_BANNED), "a living node carries a forbidden field"
+        assert n["id"] not in drawn and n["id"] not in aid, "a living node is also drawn on the public page"
+    out = {"generated": datetime.date.today().isoformat(),
+           "rule": "name and relationship links only: no dates, no places, no occupation, no sources. Not served, not indexed, not copied into site/, not read by any built page.",
+           "protection": "What this file buys is NON-INDEXABILITY, not secrecy. Every name in it is already on that person's own page, and the people.json that holds them is committed. The point is that /roots/ is in the sitemap and embeds its tree data, so a name that reached it would become searchable. Do not relax anything else on the belief that this file is hidden.",
+           "who": "The people the build holds as LIVING (living-people standard v2, tools/living_v2.py), plus every published person with no death recorded who is born in 1917 or later or has no birth year (the converter's floor holds them as possibly living). The second group is not asserted to be living: it is a person whose death this archive has not recorded, drawn without dates. The held-out possible minors are in neither this file nor people.json.",
+           "sex_note": "`sex` is only what the archive records (m, f); `u` for everyone else. A parent's role (father, mother) is taken from the parent's recorded sex only, never from a given name; a parent of unrecorded sex is left out of the card's links.",
+           "counts": {"living": sum(1 for p in allp if p.get("living") is True), "not_living_no_death_recent_or_undated": len(B) - sum(1 for p in allp if p.get("living") is True)},
+           "people": nodes}
+    io.open(os.path.join(OUT, "living-nodes.json"), "w", encoding="utf-8").write(json.dumps(out, ensure_ascii=False, indent=1) + "\n")
+    ex = {"undrawn_detailed": len(und), "undrawn_without_dates_conflict": sum(1 for u in und if u["by"] is None and u["dy"] is None), "living_nodes_file": len(nodes),
+          "living": out["counts"]["living"], "no_death_recent_or_undated": out["counts"]["not_living_no_death_recent_or_undated"]}
+    print("canvas extras: %d undrawn people with details in tree.json; %d name-and-family nodes in the unserved living-nodes.json" % (len(und), len(nodes)))
+    return ex
 
 def drop_conflicts(t, tree):
     """A person whose recorded death comes before their birth, or more than 110 years after it, is not one life. They are not drawn, they are named in tree.report.json (conflicts)
