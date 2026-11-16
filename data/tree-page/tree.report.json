@@ -1,11 +1,11 @@
 {
- "individuals": 688,
- "kept": 450,
+ "individuals": 836,
+ "kept": 598,
  "living": 208,
  "living_policy": "omit",
  "undated_dropped": 40,
- "birth_year_estimated": 277,
- "death_year_estimated": 341,
+ "birth_year_estimated": 302,
+ "death_year_estimated": 448,
  "placed_from_relative": 55,
  "dropped_unplaced": 18,
  "unresolved_places": {
@@ -34,7 +34,7 @@
   }
  ],
  "places": {
-  "from_gazetteer": 36,
+  "from_gazetteer": 38,
   "from_additions": 4,
   "refused": {
    "America": "a country (the United States) or a continent, not a place",
@@ -52,27 +52,43 @@
   }
  },
  "people_json": {
-  "in_file": 820,
+  "in_file": 968,
   "living_not_read": 132,
-  "not_living_read": 688
+  "not_living_read": 836
  },
  "catalogue": {
-  "people_coloured_by_a_catalogued_family": 57,
+  "people_coloured_by_a_catalogued_family": 250,
   "catalogue_families_present": [
+   "cassaniti",
+   "faro",
    "mazza",
    "morabito",
-   "polistena"
+   "nicotra",
+   "patane",
+   "polistena",
+   "suderi",
+   "vasta"
   ],
   "colours": [
    {
     "name": "Nicotra",
-    "from_catalogue": false,
+    "from_catalogue": true,
     "people": 101
+   },
+   {
+    "name": "Mazza",
+    "from_catalogue": true,
+    "people": 70
    },
    {
     "name": "Prostamo",
     "from_catalogue": false,
     "people": 37
+   },
+   {
+    "name": "Patane",
+    "from_catalogue": true,
+    "people": 36
    },
    {
     "name": "Arena",
@@ -85,19 +101,9 @@
     "people": 30
    },
    {
-    "name": "Mazza",
-    "from_catalogue": true,
-    "people": 23
-   },
-   {
     "name": "Donato",
     "from_catalogue": false,
     "people": 19
-   },
-   {
-    "name": "Anile",
-    "from_catalogue": false,
-    "people": 12
    }
   ]
  }

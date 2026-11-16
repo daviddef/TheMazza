@@ -30,6 +30,10 @@ on `~/.claude`.
   looks at a single field), and the 25 held out as possible minors are not in `people.json` at all. `presumedLiving` is gone from this archive and is not read. The
   converter then adds its own, stricter floor: nobody with no death recorded and a birth year in the last 110 years, or no birth year at all, is drawn (208 people: no death recorded, and a birth that is after 1916 or
   that not even a relative's dates can place). The page's own check fails the build on a living person's name.
+- **Full dates, `bd` and `dd` (added 16 November 2026).** Optional per-person strings in `tree.json`, for the DEAD people the page draws only (a living person is never read). The value is
+  `people.json`'s own `bornText` / `diedText`, byte for byte, which is the string the person page prints after "Born" / "died": `"14 January 1838"` (`D Month YYYY`, English month name in full,
+  day not zero-padded). It is present only when the whole string is a bare full date: «c. 1830», «about 1772», «before 7 January 1834», a year alone, a month and year, and a date followed by
+  a note in brackets («2 May 1867 (2 p.m., ...)») get no field; `by` / `dy` with `bye` / `dye` carry those. Regex: `^\d{1,2} <Month> \d{4}$`.
 - **Colour is the Record Atlas surname catalogue's family**, read only (`surname_variants.py` lookup), and, where the catalogue has no entry for a surname, the surname as
   the archive writes it with typography folded. Today the catalogue holds Mazza, Polistena and Morabito; Nicotra, Prostamo, Arena, Donato, Anile and the rest are colours
   by their written surname and are not in the catalogue. Nothing here lists spellings.

@@ -68,6 +68,9 @@ def km(a, b, c, d):
     return 12742 * math.asin(math.sqrt(x))
 
 # ---------------------------------------------------------------- people.json -> a small GEDCOM
+# FULL DATES (bd, dd): this archive's person page prints bornText / diedText as written, e.g. "14 January 1838". Only a string that IS a bare full date
+# gets the field: no "c.", "about", "before", no parenthesis or note after it, no month-only or year-only. The string is carried byte for byte.
+FULLDATE = re.compile(r"^\d{1,2} (?:January|February|March|April|May|June|July|August|September|October|November|December) \d{4}$")
 def est_text(t): return bool(re.match(r"^\s*(c\.|ca\.?|circa|about|abt)\b", t or "", re.I))
 def write_ged(people, path):
     ids = {p["id"] for p in people}
@@ -223,6 +226,10 @@ def build(a):
         if p["page"] is None: p.pop("page")
         s = src.get(p["id"]) or {}
         if est_text(s.get("bornText")): p["bye"] = True
+        # `src` is built from `people` (living is False only), and the converter has already dropped anyone it would not draw, so a living person never reaches here.
+        if s.get("living") is False:
+            if FULLDATE.match(s.get("bornText") or ""): p["bd"] = s["bornText"]
+            if FULLDATE.match(s.get("diedText") or ""): p["dd"] = s["diedText"]
     t["lines"] = [{"sur": label[k], "host": HOST} for k in order] + [{"sur": "Other", "host": HOST}]
     t["meta"].update({"rowLabel": "Family line", "lineLabel": "Family line"})
     drop_conflicts(t, tree)

@@ -17,6 +17,15 @@
   "atlas_id": "bergamo",
   "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Bergamo, Lombardy, Italy); country by the Atlas's geo.country_of"
  },
+ "Briatico": {
+  "name": "Briatico",
+  "lat": 38.72525,
+  "lon": 16.03237,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": "briatico",
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Briatico, Vibo Valentia, Calabria, 89817, Italy); country by the Atlas's geo.country_of"
+ },
  "Briatico, Vibo Valentia, Calabria": {
   "name": "Briatico",
   "lat": 38.72525,
@@ -97,6 +106,15 @@
   "iso": "IT",
   "atlas_id": "giarre",
   "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Giarre, Catania, Sicily, 95014, Italy); country by the Atlas's geo.country_of"
+ },
+ "Linguaglossa": {
+  "name": "Linguaglossa",
+  "lat": 37.8409138,
+  "lon": 15.1437161,
+  "country": "Italy",
+  "iso": "IT",
+  "atlas_id": null,
+  "how": "data/era-ground.tsv has a row; the archive's gazetteer holds this name (exact: Linguaglossa, Catania, Sicilia, 95015, Italia); country by the Atlas's geo.country_of"
  },
  "Lismore NSW": {
   "name": "Lismore",
