@@ -26773,5 +26773,60 @@
    "Collia",
    "Anile"
   ]
+ },
+ {
+  "key": "src/antenati-piedimonte-morti-1891-atto-118-agata-catalano-b307f6",
+  "status": "done",
+  "when": "2026-11-17",
+  "source": "Antenati — Piedimonte Etneo (Catania), Archivio di Stato di Catania, Stato civile italiano, Morti 1891 (an_ua83464, image 36, atto 118)",
+  "scope": "Piedimonte Etneo, Morti 1891, the act found from the annual index (Catalano Agata fu Carlo, 118) by a delegated reader and then read at the image by the session: margin, date, hour, street, age, birthplace, both parents, the widow's line, declarants and witnesses. Looking for the death of Mariano Mazza's widow, known as Agata in 1836 and 1887 and as Maria in 1845, 1860 and 1871. Terms typed: Catalano, Mazza, Marza (Marza is catalogued as seen on this line's records; Catalano is not in the Atlas catalogue: cover exit 0).",
+  "result": "Found: atto 118, declared 19 December 1891, she died at 7 p.m. on 18 December in via Rocca Campana aged eighty-three, born at Giarre, daughter of the late Carlo and the late Maria Cardillo, widow of Mariano Marza (Mazza); the margin reads Catalano Maria Agata. So the Agata of the 1836 marriage and 1887 death and the Maria of 1845, 1860 and 1871 are one woman, and her parents are stated by her own act. Her death is not in the 1887-1890 indexes.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83464/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83464/"
+  ],
+  "tags": [
+   "Catalano",
+   "Mazza"
+  ],
+  "for": [
+   [
+    "/people/maria-catalano/",
+    "Maria Catalano"
+   ],
+   [
+    "/people/carlo-catalano/",
+    "Carlo Catalano"
+   ],
+   [
+    "/people/mariano-mazza-1809/",
+    "Mariano Mazza"
+   ]
+  ],
+  "ev": [
+   "/people/maria-catalano/",
+   "/people/carlo-catalano/"
+  ]
+ },
+ {
+  "key": "src/antenati-piedimonte-morti-1871-1893-indexes-mazza-catalano-59ed68",
+  "status": "part",
+  "when": "2026-11-17",
+  "source": "Antenati — Piedimonte Etneo (Catania), Archivio di Stato di Catania, Stato civile italiano, Morti 1871, 1872, 1874, 1878, 1881 to 1893 (an_ua83444, 83445, 83447, 83451, 83454 to 83466)",
+  "scope": "Piedimonte Etneo, Morti: the annual alphabetical index read for the Mazza and Catalano blocks in 1871, 1872, 1874, 1878 and 1882 to 1893 (fifteen years); 1881 has no index (the volume has Parte I and II and no Indice) and was not margin-swept; every fu-line and every old-age Mazza line opened, the 'di' lines (father living) counted and not opened. Looking for Mariano Mazza's death (the 1887 act was already known) and his widow's. Terms typed: Mazza, Marza, Masano (a near-name), Catalano.",
+  "result": "Mariano Mazza's 1887 act (atto 10, 9 February 1887, aged eighty, son of the late Orazio Mazza and the late Giuseppa Pulvirenti, husband of Catalano Agata) read again by the delegated reader and agrees with the earlier reading; his widow's act is atto 118 of 1891 (own row). Four more deaths of daughters of the late Orazio Mazza and Giuseppa Pulvirenti turned up in the same index lines, as leads and not read at the image by the session: Domenica 1872 atto 61 (aged 50, wife of Pietro Sorbello), Alfia 1883 atto 17 (aged 70, widow of Giacomo Cesa?), Maria Catena 1885 atto 69 (aged 104, nubile, born at Zafferana Etnea) and Rosa 1889 atto 7 (aged 70, widow of Mariano Mangano, margin spelled Massa); the ages are as written, not corrected. Infants Mariano (1872 atto 22) and Santo (1882 atto 100) of Rosario Mazza and Leonarda Bonanno are listed. Not counted, read on the page: Masano (1871 atto 8, a Mariano Masano, 80, widower of Angela Currenti), Salvatore, Alfio, Pasquale and Antonino Mazza whose fathers were living, and other Catalano lines (Santa 1882, Antonino 1889, four di Rosario in 1892, Giuseppa 1893), not opened. Not established: 1881.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83444/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83444/"
+  ],
+  "tags": [
+   "Mazza",
+   "Catalano",
+   "Pulvirenti",
+   "Domenica",
+   "Sorbello"
+  ]
  }
 ]

@@ -1362,5 +1362,25 @@
   "ev": [
    "/people/santa-romano/"
   ]
+ },
+ "src/antenati-piedimonte-morti-1891-atto-118-agata-catalano-b307f6": {
+  "for": [
+   [
+    "/people/maria-catalano/",
+    "Maria Catalano"
+   ],
+   [
+    "/people/carlo-catalano/",
+    "Carlo Catalano"
+   ],
+   [
+    "/people/mariano-mazza-1809/",
+    "Mariano Mazza"
+   ]
+  ],
+  "ev": [
+   "/people/maria-catalano/",
+   "/people/carlo-catalano/"
+  ]
  }
 }
