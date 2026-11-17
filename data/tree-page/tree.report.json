@@ -1,6 +1,6 @@
 {
- "individuals": 894,
- "kept": 656,
+ "individuals": 895,
+ "kept": 657,
  "living": 209,
  "living_policy": "omit",
  "undated_dropped": 40,
@@ -46,9 +46,9 @@
   }
  },
  "people_json": {
-  "in_file": 1026,
+  "in_file": 1027,
   "living_not_read": 132,
-  "not_living_read": 894
+  "not_living_read": 895
  },
  "canvas_extras": {
   "undrawn_detailed": 25,
@@ -59,7 +59,7 @@
   "placeholders": 33
  },
  "catalogue": {
-  "people_coloured_by_a_catalogued_family": 261,
+  "people_coloured_by_a_catalogued_family": 262,
   "catalogue_families_present": [
    "cassaniti",
    "collia",

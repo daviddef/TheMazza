@@ -27728,5 +27728,40 @@
    "Domenica"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/familysearch-catanzaro-civil-registration-index-zambrone-collia-anile-cb39f4",
+  "status": "done",
+  "when": "2026-11-18",
+  "source": "FamilySearch — Italy, Catanzaro, Civil Registration (State Archive), 1809-1865 (collection 1937913): the name index, searched for Collia, Anile, Casuscelli and the place Mandaradoni; and the Zambrone microfilm 2014189 (DGS 4861623), item list and viewer",
+  "scope": "Zambrone births 1813 to 1821, which Antenati's Zambrone volume lacks: whether FamilySearch's copy of the film can be read, and what its name index (which needs no image) says for the Collia and Anile of the 1836 Zambrone marriage; the signed-in browser pane, one searcher on the account.",
+  "result": "THE IMAGES: no. The catalogue entry (Registri dello stato civile di Zambrone, 1811-1910, film 2014189, DGS 4861623, items 2 to 4, Nati 1811-1858 and the rest) says some years are missing, and the viewer answers Image Restricted for this film (a FamilySearch Center or affiliate library only), so the film cannot be read from here and nothing was tried to get round that; the Tribunale collection starts in 1861. THE INDEX, which is open: the 1836 marriage (14 June 1836, Zambrone) is indexed with the groom Antonino Anile, born 1812 at Mandaradoni, son of Gaetano Anile and Anna di Gaetano, and the bride Carmela Collia, born 1818 at Zambrone, daughter of Francesco Collia and Catarina CASUSCELLI: an independent reading of the act that agrees on every name but the bride's mother's surname, where the archive's reading was Capucetti. The session re-read that surname at the image (reads like Capuscelli, second letter group doubtful): the Casuscelli family is large in these comuni (467 index entries). The index also holds a Teresa Collia, dead at Zambrone on 7 April 1825, born about 1821, daughter of Francesco Collia and Catarina Casuscelli, a probable sister. No Zambrone birth of 1813 to 1821 with a full date was found for any Collia (the index has 1811 and 1812, then 1823), which fits the gap but is not a nil for the register. Mandaradoni: 52 index entries name it, none as the place where an event was registered, so it has no register of its own in this collection. Terms typed: Collia, Anile, Casuscelli, Mandaradoni (Collia family in the Atlas catalogue, Casuscelli added locally this session with Cosuscelli, Casascelli, Casupelli, Capescelli attested and Capuscelli a lead; Anile and Mandaradoni not catalogued). Index results are the indexers' readings, not the acts.",
+  "outcome": "done",
+  "url": "https://www.familysearch.org/",
+  "tags": [
+   "Collia",
+   "Anile"
+  ],
+  "for": [
+   [
+    "/people/carmela-collia-1818/",
+    "Carmela Collia"
+   ],
+   [
+    "/people/catarina-capucetti/",
+    "Catarina Capucetti"
+   ],
+   [
+    "/people/antonino-anile/",
+    "Antonino Anile"
+   ],
+   [
+    "/people/teresa-collia/",
+    "Teresa Collia"
+   ]
+  ],
+  "ev": [
+   "/people/carmela-collia-1818/"
+  ]
  }
 ]

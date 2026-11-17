@@ -415,6 +415,35 @@
   "n": 18
  },
  {
+  "name": "Zambrone",
+  "born": 17,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1757,
+  "last": 1825,
+  "who": [
+   "anna-fama",
+   "anna-pappa",
+   "anna-di-gaetano",
+   "antonino-anile",
+   "carmela-collia-1818",
+   "catarina-capucetti",
+   "caterina-cichello",
+   "domenico-ventrice",
+   "francesco-cichello",
+   "francesco-collia",
+   "francesco-ventrice-1825",
+   "francesco-ventrice",
+   "gaetano-anile",
+   "giuseppe-ventrice",
+   "paolo-ventrice",
+   "teresa-collia",
+   "vittoria-mollo"
+  ],
+  "n": 17
+ },
+ {
   "name": "Mascali",
   "born": 16,
   "died": 0,
@@ -439,34 +468,6 @@
    "rosa-patane-1838",
    "santa-dajdone",
    "venera-murabito"
-  ],
-  "n": 16
- },
- {
-  "name": "Zambrone",
-  "born": 16,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1757,
-  "last": 1825,
-  "who": [
-   "anna-fama",
-   "anna-pappa",
-   "anna-di-gaetano",
-   "antonino-anile",
-   "carmela-collia-1818",
-   "catarina-capucetti",
-   "caterina-cichello",
-   "domenico-ventrice",
-   "francesco-cichello",
-   "francesco-collia",
-   "francesco-ventrice-1825",
-   "francesco-ventrice",
-   "gaetano-anile",
-   "giuseppe-ventrice",
-   "paolo-ventrice",
-   "vittoria-mollo"
   ],
   "n": 16
  },

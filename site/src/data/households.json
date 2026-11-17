@@ -12515,6 +12515,13 @@
     "slug": "carmela-collia-1818",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rteresa-collia@",
+    "name": "Teresa Collia",
+    "slug": "teresa-collia",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Zambrone",
@@ -12798,6 +12805,13 @@
     "id": "@Rcarmela-collia@",
     "name": "Carmela Collia",
     "slug": "carmela-collia-1818",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-collia@",
+    "name": "Teresa Collia",
+    "slug": "teresa-collia",
     "living": false,
     "via": "read"
    }

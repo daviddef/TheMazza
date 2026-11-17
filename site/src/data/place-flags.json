@@ -168,32 +168,6 @@
   },
   "eras": []
  },
- "Mascali": {
-  "today": {
-   "svg": "italy-flags--era-1946.svg",
-   "label": "Italy"
-  },
-  "eras": [
-   [
-    1867,
-    1922,
-    "italy-flags--era-1861.svg",
-    "Italy"
-   ],
-   [
-    1922,
-    1941,
-    "italy-flags--era-1922.svg",
-    "Italy"
-   ],
-   [
-    1952,
-    1990,
-    "italy-flags--era-1946.svg",
-    "Italy"
-   ]
-  ]
- },
  "Zambrone": {
   "today": {
    "svg": "italy-flags--era-1946.svg",
@@ -220,6 +194,32 @@
    ],
    [
     1946,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Mascali": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
     1990,
     "italy-flags--era-1946.svg",
     "Italy"
