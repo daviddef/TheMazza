@@ -1680,6 +1680,44 @@
       "id": "sofi",
       "cards": [
         {
+          "name": "Rocco Sofi",
+          "years": "b. c. 1754",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Nunzia Galli",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "rocco-sofi",
+          "title": "Rocco Sofi: born Scilla c. 1754",
+          "spousePerson": "nunzia-galli",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
           "name": "Pasquale Sofi",
           "years": "b. c. 1780",
           "origin": "Scilla",

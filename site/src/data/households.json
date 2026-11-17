@@ -326,6 +326,23 @@
   "born": 1751
  },
  {
+  "name": "Rocco Sofi",
+  "head": "rocco-sofi",
+  "headId": "@Rrocco-sofi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpasquale-sofi@",
+    "name": "Pasquale Sofi",
+    "slug": "pasquale-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1754
+ },
+ {
   "name": "Domenico Ventrice",
   "head": "domenico-ventrice",
   "headId": "@Rdomenico-ventrice@",
@@ -393,6 +410,23 @@
    }
   ],
   "place": "Briatico, Vibo Valentia, Calabria",
+  "born": 1760
+ },
+ {
+  "name": "Nunzia Galli",
+  "head": "nunzia-galli",
+  "headId": "@Rnunzia-galli@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpasquale-sofi@",
+    "name": "Pasquale Sofi",
+    "slug": "pasquale-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": 1760
  },
  {
@@ -519,6 +553,23 @@
   ],
   "place": "Zambrone",
   "born": 1765
+ },
+ {
+  "name": "Angela di Tuzzo",
+  "head": "angela-di-tuzzo",
+  "headId": "@Rangela-di-tuzzo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-de-amico@",
+    "name": "Maria de Amico",
+    "slug": "maria-de-amico",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1766
  },
  {
   "name": "Rosario Patane",
@@ -13625,6 +13676,23 @@
     "id": "@Rcandida-costa@",
     "name": "Candida Costa",
     "slug": "candida-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
+  "name": "Rocco d'Amico",
+  "head": "rocco-damico",
+  "headId": "@Rrocco-damico@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rmaria-de-amico@",
+    "name": "Maria de Amico",
+    "slug": "maria-de-amico",
     "living": false,
     "via": "read"
    }

@@ -83,8 +83,8 @@
  },
  {
   "surname": "Donato",
-  "n": 30,
-  "dead": 30,
+  "n": 31,
+  "dead": 31,
   "living": 0,
   "first": 1783,
   "last": 1937,
@@ -159,6 +159,18 @@
   ]
  },
  {
+  "surname": "Sofi",
+  "n": 9,
+  "dead": 9,
+  "living": 0,
+  "first": 1754,
+  "last": 1834,
+  "places": [
+   "Scilla",
+   "Scilla, Reggio Calabria"
+  ]
+ },
+ {
   "surname": "Comerci",
   "n": 9,
   "dead": 9,
@@ -216,18 +228,6 @@
   "last": 1918,
   "places": [
    "Scilla"
-  ]
- },
- {
-  "surname": "Sofi",
-  "n": 7,
-  "dead": 7,
-  "living": 0,
-  "first": 1780,
-  "last": 1834,
-  "places": [
-   "Scilla",
-   "Scilla, Reggio Calabria"
   ]
  },
  {
@@ -1701,6 +1701,17 @@
   ]
  },
  {
+  "surname": "di Tuzzo",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1766,
+  "last": 1766,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
   "surname": "Barbaro",
   "n": 1,
   "dead": 1,
@@ -2126,6 +2137,17 @@
   ]
  },
  {
+  "surname": "Galli",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1760,
+  "last": 1760,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
   "surname": "Previtera",
   "n": 1,
   "dead": 1,
@@ -2143,6 +2165,17 @@
   "living": 0,
   "first": null,
   "last": null,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "d'Amico",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1808,
+  "last": 1808,
   "places": [
    "Scilla"
   ]

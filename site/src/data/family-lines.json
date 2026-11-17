@@ -805,10 +805,24 @@
    "status": "documented",
    "statusNote": "the oldest generation drawn is itself on a document",
    "span": [
-    1780,
+    1754,
     null
    ],
    "cards": [
+    {
+     "name": "Rocco Sofi",
+     "years": "b. c. 1754",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Nunzia Galli",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "rocco-sofi",
+     "title": "Rocco Sofi: born Scilla c. 1754",
+     "spousePerson": "nunzia-galli"
+    },
     {
      "name": "Pasquale Sofi",
      "years": "b. c. 1780",

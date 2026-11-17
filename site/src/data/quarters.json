@@ -397,17 +397,17 @@
    "spouseSlug": "rocco-arena-1924"
   },
   "town": "Scilla, Reggio Calabria",
-  "depth": 6,
-  "reach": 1780,
+  "depth": 7,
+  "reach": 1754,
   "line": [
    {
     "gen": 0,
-    "id": "@Rcandeloro-donato@",
-    "slug": "candeloro-donato",
-    "name": "Candeloro Donato",
-    "surname": "Donato",
+    "id": "@Rrocco-sofi@",
+    "slug": "rocco-sofi",
+    "name": "Rocco Sofi",
+    "surname": "Sofi",
     "living": false,
-    "born": 1783,
+    "born": 1754,
     "died": null,
     "birthPlace": "Scilla",
     "deathPlace": "",
@@ -417,21 +417,36 @@
    },
    {
     "gen": 1,
-    "id": "@I355@",
-    "slug": "domenico-donato-2",
-    "name": "Domenico Donato",
-    "surname": "Donato",
+    "id": "@Rpasquale-sofi@",
+    "slug": "pasquale-sofi",
+    "name": "Pasquale Sofi",
+    "surname": "Sofi",
+    "living": false,
+    "born": 1780,
+    "died": null,
+    "birthPlace": "Scilla",
+    "deathPlace": "",
+    "burialPlace": "",
+    "spouse": "",
+    "spouseSlug": ""
+   },
+   {
+    "gen": 2,
+    "id": "@I356@",
+    "slug": "annunziata-sofi",
+    "name": "Annunziata Sofi",
+    "surname": "Sofi",
     "living": false,
     "born": null,
     "died": null,
     "birthPlace": "",
     "deathPlace": "",
     "burialPlace": "",
-    "spouse": "Annunziata Sofi",
-    "spouseSlug": "annunziata-sofi"
+    "spouse": "Domenico Donato",
+    "spouseSlug": "domenico-donato-2"
    },
    {
-    "gen": 2,
+    "gen": 3,
     "id": "@I122@",
     "slug": "michele-donato",
     "name": "Michele Donato",
@@ -446,7 +461,7 @@
     "spouseSlug": "maria-sofi"
    },
    {
-    "gen": 3,
+    "gen": 4,
     "id": "@I121@",
     "slug": "nunnziata-donato",
     "name": "Nunnziata Donato",
@@ -461,7 +476,7 @@
     "spouseSlug": "giovanni-polistena"
    },
    {
-    "gen": 4,
+    "gen": 5,
     "id": "@I29@",
     "slug": "angela-polistena",
     "name": "Angela Polistena",

@@ -271,15 +271,17 @@
    "label": "Scilla — Angela Polistena",
    "href": "/polistena/",
    "read": "The Polistena page →",
-   "status": "origin-unknown",
+   "status": "documented",
    "statusNote": "Candeloro's birth and marriage pre-date Scilla's registers",
    "span": [
-    1783,
+    1754,
     null
    ],
-   "statusWhy": "the oldest person on the chain is the person a wall in walls.json names: origin-unknown. Source: Candeloro Donato's own birth and marriage pre-date Scilla's registers (walls.json)",
+   "statusWhy": "the oldest person on the chain is itself on a document and no wall names them: documented. Source: Candeloro Donato's own birth and marriage pre-date Scilla's registers (walls.json)",
    "members": [
-    "pasquale-sofi",
+    "nunzia-galli",
+    "angela-di-tuzzo",
+    "candeloro-donato",
     "concetta-pontello",
     "marta-paladino",
     "domenico-romano",
@@ -287,30 +289,38 @@
     "domenico-sofi",
     "santa-romano",
     "giovanni-polistena",
-    "annunziata-sofi",
     "antonio-polistena-2",
+    "domenico-donato-2",
     "giovanna-pontillo",
     "giuseppi-pontillo",
     "maria-sofi",
-    "nunziatta-pontillo"
+    "nunziatta-pontillo",
+    "rocco-damico"
    ],
    "nodes": [
     {
-     "place": "Candeloro",
-     "year": "c. 1783",
-     "why": "Candeloro Donato: born Scilla c. 1783; alive at Scilla, July 1844",
-     "person": "candeloro-donato",
+     "place": "Rocco",
+     "year": "c. 1754",
+     "why": "Rocco Sofi: born Scilla c. 1754",
+     "person": "rocco-sofi",
      "evidence": "read"
     },
     {
-     "place": "Domenico",
+     "place": "Pasquale",
+     "year": "c. 1780",
+     "why": "Pasquale Sofi: born Scilla c. 1780; alive at Scilla, July 1844",
+     "person": "pasquale-sofi",
+     "evidence": "read"
+    },
+    {
+     "place": "Annunziata",
      "year": "",
-     "why": "Domenico Donato: no date and no place in the archive",
-     "person": "domenico-donato-2",
+     "why": "Annunziata Sofi: no date and no place in the archive",
+     "person": "annunziata-sofi",
      "evidence": "read"
     },
     {
-     "place": "Michele",
+     "place": "Michele Donato",
      "year": "1851",
      "why": "Michele Donato: born Scilla 1851",
      "person": "michele-donato",
@@ -339,7 +349,7 @@
    "id": "register-alone",
    "kind": "not-yet-placed",
    "head": "Proved by a register, in groups joined to nothing",
-   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 89 small groups, 51 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
+   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 91 small groups, 53 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
    "members": [
     "agostino-nicotra",
     "alfia-cannavò",
@@ -375,6 +385,7 @@
     "anna-pontillo",
     "anna-di-gaetano",
     "annunziata-polistina",
+    "annunziata-sofi-1801",
     "annunziato-romano",
     "antonia-arena",
     "antonia-musolino",
@@ -399,6 +410,7 @@
     "carmela-nicotra-1820",
     "carmela-nicotra-1857",
     "carmelo-tomarchio",
+    "carmine-donato",
     "catarina-capucetti",
     "catarina-tomarchio",
     "caterina-cichello",
@@ -615,7 +627,7 @@
     "vito-nicotra",
     "vittoria-mollo"
    ],
-   "count": 273
+   "count": 275
   },
   {
    "id": "tree-only",

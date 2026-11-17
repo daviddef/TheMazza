@@ -1382,5 +1382,52 @@
    "/people/maria-catalano/",
    "/people/carlo-catalano/"
   ]
+ },
+ "src/antenati-scilla-matrimoni-1816-atto-20-sofi-damico-893f17": {
+  "for": [
+   [
+    "/people/pasquale-sofi/",
+    "Pasquale Sofi"
+   ],
+   [
+    "/people/maria-de-amico/",
+    "Maria de Amico"
+   ],
+   [
+    "/people/rocco-sofi/",
+    "Rocco Sofi"
+   ],
+   [
+    "/people/nunzia-galli/",
+    "Nunzia Galli"
+   ],
+   [
+    "/people/rocco-damico/",
+    "Rocco d'Amico"
+   ],
+   [
+    "/people/angela-di-tuzzo/",
+    "Angela di Tuzzo"
+   ]
+  ],
+  "ev": [
+   "/people/pasquale-sofi/",
+   "/people/maria-de-amico/"
+  ]
+ },
+ "src/antenati-scilla-matrimoni-1827-atto-22-donato-sofi-bebdea": {
+  "for": [
+   [
+    "/people/carmine-donato/",
+    "Carmine Donato"
+   ],
+   [
+    "/people/annunziata-sofi-1801/",
+    "Annunziata Sofi"
+   ]
+  ],
+  "ev": [
+   "/people/carmine-donato/"
+  ]
  }
 }

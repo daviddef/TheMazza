@@ -26828,5 +26828,117 @@
    "Domenica",
    "Sorbello"
   ]
+ },
+ {
+  "key": "src/antenati-scilla-matrimoni-1816-atto-20-sofi-damico-893f17",
+  "status": "done",
+  "when": "2026-11-17",
+  "source": "Antenati — Scilla (Reggio Calabria), Archivio di Stato di Reggio Calabria, Stato civile della restaurazione, Matrimoni 1816 (an_ua2002512, images 23-24, atto 20)",
+  "scope": "Scilla, Matrimoni 1816: the head of every one of the 40 acts read by a delegated reader looking for Pasquale Sofi and Maria d'Amico (parents of Nunziata, b. 1818), and atto 20 opened and the first half read at the image by the session (date, groom, groom's parents, bride, bride's father). Terms typed: Sofi, d'Amico, De Amico, Amico (none of Sofi, d'Amico is in the Atlas catalogue: cover exit 0).",
+  "result": "Found: atto 20, 29 August 1816, Pasquale Sofi, marinaro, eldest son of Rocco Sofi (62, marinaro) and Nunzia Galli (56), promises marriage to Maria d'Amico (25, filatrice), eldest daughter of the late Rocco d'Amico (died at Pistone in Sicily, 2 December 1808) and of Angela di Tuzzo (50; surname reading uncertain); witnesses Francesco Principato, Francesco Ragusa, Domenico Antonio Fulco and Fortunato Panella; the groom signs Pascale Sofi; the foot note gives the church wedding in early September 1816 (day word doubtful). The groom's age is overwritten (read thirty). Read by the delegated reader and not re-zoomed: the witnesses, the foot note and the bride's mother's name. A Caterina d'Amico, daughter of a Rocco d'Amico and an Angela di Tuzzo, married Fortunato Catalano in atto 5 of the same year and is probably Maria's sister.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002512/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002512/"
+  ],
+  "tags": [
+   "Sofi",
+   "Panella",
+   "Catalano"
+  ],
+  "for": [
+   [
+    "/people/pasquale-sofi/",
+    "Pasquale Sofi"
+   ],
+   [
+    "/people/maria-de-amico/",
+    "Maria de Amico"
+   ],
+   [
+    "/people/rocco-sofi/",
+    "Rocco Sofi"
+   ],
+   [
+    "/people/nunzia-galli/",
+    "Nunzia Galli"
+   ],
+   [
+    "/people/rocco-damico/",
+    "Rocco d'Amico"
+   ],
+   [
+    "/people/angela-di-tuzzo/",
+    "Angela di Tuzzo"
+   ]
+  ],
+  "ev": [
+   "/people/pasquale-sofi/",
+   "/people/maria-de-amico/"
+  ]
+ },
+ {
+  "key": "src/antenati-scilla-matrimoni-1827-atto-22-donato-sofi-bebdea",
+  "status": "done",
+  "when": "2026-11-17",
+  "source": "Antenati — Scilla (Reggio Calabria), Archivio di Stato di Reggio Calabria, Stato civile della restaurazione, Matrimoni 1827 (an_ua2002542, images 25-26, atto 22)",
+  "scope": "Scilla, Matrimoni 1827: atto 22 found from the annual Tavola by a delegated reader looking for the marriage of Carmine Donato and a Nunziata Sofi (children from 1828), and read at the image by the session (the promise of 22 November 1827 and the foot note of the celebration). Terms typed: Donato, Sofi (neither in the Atlas catalogue: cover exit 0).",
+  "result": "Found: Carmine Donato, 22, marinaro, born at Scilla, son of the late Candeloro Donato and Giovanna Vita, and Nunziata Sofi, 26, born at Scilla, daughter of the late Domenico Sofi and Angela Longordo; promise 22 November 1827, church wedding 30 November 1827 before D. Rocco Chilinge? and Gennaro Sofi. This is a different Nunziata Sofi from Michele Donato's mother (born 1818 to Pasquale Sofi and Maria d'Amico), and a different Candeloro Donato from Michele's grandfather (alive in 1845). Not read by the session: the witnesses of the promise. Candida Donato (daughter of the late Candeloro Donato and Giovanna Vita) x Domenico Vita, 15 September 1834 atto 28, was seen in the Tavola and not opened.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002542/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002542/"
+  ],
+  "tags": [
+   "Donato",
+   "Sofi"
+  ],
+  "for": [
+   [
+    "/people/carmine-donato/",
+    "Carmine Donato"
+   ],
+   [
+    "/people/annunziata-sofi-1801/",
+    "Annunziata Sofi"
+   ]
+  ],
+  "ev": [
+   "/people/carmine-donato/"
+  ]
+ },
+ {
+  "key": "src/antenati-scilla-matrimoni-1816-1835-romano-pontillo-sofi-c834cf",
+  "status": "part",
+  "when": "2026-11-17",
+  "source": "Antenati — Scilla (Reggio Calabria), Archivio di Stato di Reggio Calabria, Stato civile della restaurazione, Matrimoni 1816 to 1835 (an_ua2002512, 2002514, 2002516 to 2002564, twenty volumes)",
+  "scope": "Scilla, Matrimoni 1816 and 1817 (no Tavola: the head of every act read, 40 and 39 acts) and 1818 to 1835 (the annual Tavola read in full): looking for the marriage of Domenico Romano and Concetta Pontillo (parents of Santa Romano, born 1831), of Pasquale Sofi and Maria d'Amico, and of Carmine Donato and Nunziata Sofi. Terms typed: Romano, Pontello, Pontillo, Sofi, Donato (Pontillo is catalogued as attested for the Pontello family: cover exit 0). The head crops of 1816-17 stop near the bride's parents, so a bride's mother's line was cut off in some acts; a Pontello or Pontillo bride's own name would still have shown.",
+  "result": "Domenico Romano and Concetta Pontillo's marriage is not in 1816-1835: no Romano groom marries a Pontello, Pontillo or Concetta in 1816-17, and the Romano grooms in the Tavolas (Cosimo 1818, Francesco and Pietro 1821, Giuseppe 1827) are not he. He was 43 in 1831, so the marriage is before 1816 or in another comune. Not a general nil: 1810-1815 are not in these volumes. Other Sofi grooms seen, none Pasquale: Ferdinando 1822, Rocco 1825 (son of the late Michele and Antonia Calarco), Bruno 1826 and 1833, Giorgio 1827 and 1832, Gennaro 1834. Not counted, read on the page: Romeo.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002512/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002512/"
+  ],
+  "tags": [
+   "Romano",
+   "Pontillo",
+   "Sofi",
+   "Donato",
+   "Calarco"
+  ]
+ },
+ {
+  "key": "src/antenati-daffina-nati-1846-1859-anile-collia-b622ae",
+  "status": "part",
+  "when": "2026-11-17",
+  "source": "Antenati — Daffina (Zambrone, Vibo Valentia), Archivio di Stato di Catanzaro, Nati 1846 to 1859 (an_ua37922713, 283 images) and nine single-act supplements 1839 to 1851 (an_ua37923170 to 37923416)",
+  "scope": "The 1846-1859 volume, which holds both Zambrone's own registers (mothers with maiden names) and Daffina's (mother given only as sua moglie to about 1855), every act read; the Tavola filled for 1848B, 1850B, 1852B, 1857B, 1858B and 1859B only; the supplements are single-leaf baptism certificates and are not a year's worth of acts. Looking for an Anile father, a Collia mother, Antonino Anile, Carmela Collia, Gaetano Anile. Terms typed: Anile, Anili, Collia, Colia, Coglia (neither Anile nor Collia is in the Atlas catalogue: cover exit 0). Not counted, read on the page: Conca, Conia, Callaca, Giungi.",
+  "result": "No Anile in any role and no Carmela Collia in any act of the ten volumes; Mandaradoni occurs in no act. Nine Collia mothers or fathers, all of Daffina or Daffinacello families, none tied to an Anile; a Francesco Collia (son of the late Domenico, 32) with a wife Rosa Grillo in 1858 is not Carmela's father (her mother is read Capucetti). Partial for the Daffina register in 1846, 1847, 1849, 1851, 1854 and 1855, where the mother has no surname and the Tavola is blank, so a Collia mother would not show. Daffina was a village of Dinami on the supplement covers (the 1841 reading doubtful). The manifest labels call all ten volumes Daffina although the large one is mostly Zambrone's own register.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/",
+  "tags": [
+   "Anile",
+   "Collia"
+  ]
  }
 ]
