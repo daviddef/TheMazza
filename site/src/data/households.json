@@ -958,6 +958,34 @@
     "slug": "francesco-antonio-arena",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiovanni-arena@",
+    "name": "Giovanni Arena",
+    "slug": "giovanni-arena-1821",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rletteria-arena@",
+    "name": "Letteria Arena",
+    "slug": "letteria-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rnunziata-arena@",
+    "name": "Nunziata Arena",
+    "slug": "nunziata-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-arena-3@",
+    "name": "Domenico Arena",
+    "slug": "domenico-arena-1827",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Scilla",
@@ -1138,6 +1166,34 @@
     "slug": "francesco-antonio-arena",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiovanni-arena@",
+    "name": "Giovanni Arena",
+    "slug": "giovanni-arena-1821",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rletteria-arena@",
+    "name": "Letteria Arena",
+    "slug": "letteria-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rnunziata-arena@",
+    "name": "Nunziata Arena",
+    "slug": "nunziata-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-arena-3@",
+    "name": "Domenico Arena",
+    "slug": "domenico-arena-1827",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Scilla",
@@ -1175,6 +1231,37 @@
    }
   ],
   "place": "Piedimonte Etneo",
+  "born": 1794
+ },
+ {
+  "name": "Giuseppe Arena",
+  "head": "giuseppe-arena-1794",
+  "headId": "@Rgiuseppe-arena@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I371@",
+    "name": "Orazio Arena",
+    "slug": "orazio-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rraffaele-arena@",
+    "name": "Raffaele Arena",
+    "slug": "raffaele-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rraffaele-camillo-arena@",
+    "name": "Raffaele Camillo Arena",
+    "slug": "raffaele-camillo-arena",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": 1794
  },
  {
@@ -1547,6 +1634,23 @@
   "born": 1800
  },
  {
+  "name": "Domenico Arena",
+  "head": "domenico-arena-2",
+  "headId": "@Rdomenico-arena-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppe-arena-2@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-1925",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1800
+ },
+ {
   "name": "Giovanni Arlotta",
   "head": "giovanni-arlotta",
   "headId": "@Rgiovanni-arlotta@",
@@ -1577,6 +1681,37 @@
     "id": "@Rgiuseppe-antonio-arlotta@",
     "name": "Giuseppe Antonio Arlotta",
     "slug": "giuseppe-antonio-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1800
+ },
+ {
+  "name": "Maria Teresa Polistina",
+  "head": "maria-teresa-polistina",
+  "headId": "@Rmaria-teresa-polistina@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I371@",
+    "name": "Orazio Arena",
+    "slug": "orazio-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rraffaele-arena@",
+    "name": "Raffaele Arena",
+    "slug": "raffaele-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rraffaele-camillo-arena@",
+    "name": "Raffaele Camillo Arena",
+    "slug": "raffaele-camillo-arena",
     "living": false,
     "via": "read"
    }
@@ -1734,6 +1869,23 @@
    }
   ],
   "place": "Piedimonte Etneo",
+  "born": 1801
+ },
+ {
+  "name": "Teresa Polistina",
+  "head": "teresa-polistina",
+  "headId": "@Rteresa-polistina@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiuseppe-arena-2@",
+    "name": "Giuseppe Arena",
+    "slug": "giuseppe-arena-1925",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": 1801
  },
  {
@@ -3498,6 +3650,23 @@
   "born": 1837
  },
  {
+  "name": "Giuseppe Arena",
+  "head": "giuseppe-arena-1925",
+  "headId": "@Rgiuseppe-arena-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rteresa-arena-2@",
+    "name": "Teresa Arena",
+    "slug": "teresa-arena-1943",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "",
+  "born": 1839
+ },
+ {
   "name": "Antonio Costa",
   "head": "antonio-costa",
   "headId": "@Rantonio-costa@",
@@ -3833,6 +4002,23 @@
   "born": 1845
  },
  {
+  "name": "Giuseppe Arena",
+  "head": "giuseppe-arena-1848",
+  "headId": "@Rgiuseppe-arena-3@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rorazio-arena-2@",
+    "name": "Orazio Arena",
+    "slug": "orazio-arena-1878",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1848
+ },
+ {
   "name": "Rosario Mazza & Leonarda",
   "head": "rosario-mazza",
   "headId": "@I23@",
@@ -4036,6 +4222,23 @@
   ],
   "place": "Piedimonte Etneo",
   "born": 1856
+ },
+ {
+  "name": "Fortunata Maria Pontillo",
+  "head": "fortunata-maria-pontillo",
+  "headId": "@Rfortunata-maria-pontillo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rorazio-arena-2@",
+    "name": "Orazio Arena",
+    "slug": "orazio-arena-1878",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1857
  },
  {
   "name": "Alfonso Prostamo & Caterina Melluso",
@@ -4570,6 +4773,23 @@
   "born": 1878
  },
  {
+  "name": "Orazio Arena",
+  "head": "orazio-arena-1878",
+  "headId": "@Rorazio-arena-2@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenico-arena-4@",
+    "name": "Domenico Arena",
+    "slug": "domenico-arena-1923",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1878
+ },
+ {
   "name": "Salvatore Mazza & Maria Nicotra",
   "head": "salvatore-mazza",
   "headId": "@I4@",
@@ -4624,6 +4844,23 @@
    }
   ],
   "place": "Piedimonte Etneo, Catania, Sicily",
+  "born": 1879
+ },
+ {
+  "name": "Antonia Musolino",
+  "head": "antonia-musolino",
+  "headId": "@Rantonia-musolino@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenico-arena-4@",
+    "name": "Domenico Arena",
+    "slug": "domenico-arena-1923",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": 1879
  },
  {
@@ -11937,6 +12174,23 @@
   "born": null
  },
  {
+  "name": "Antonino Musolino",
+  "head": "antonino-musolino",
+  "headId": "@Rantonino-musolino@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rantonia-musolino@",
+    "name": "Antonia Musolino",
+    "slug": "antonia-musolino",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
   "name": "Antonio Nicotra",
   "head": "antonio-nicotra",
   "headId": "@Rantonio-nicotra@",
@@ -12144,23 +12398,6 @@
    }
   ],
   "place": "Giarre",
-  "born": null
- },
- {
-  "name": "Domenico Arena",
-  "head": "domenico-arena-2",
-  "headId": "@Rdomenico-arena-2@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rgiuseppe-arena-2@",
-    "name": "Giuseppe Arena",
-    "slug": "giuseppe-arena-1925",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Scilla",
   "born": null
  },
  {
@@ -12492,23 +12729,6 @@
   "born": null
  },
  {
-  "name": "Giuseppe Arena",
-  "head": "giuseppe-arena-1925",
-  "headId": "@Rgiuseppe-arena-2@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rteresa-arena-2@",
-    "name": "Teresa Arena",
-    "slug": "teresa-arena-1943",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "",
-  "born": null
- },
- {
   "name": "Giuseppe Costa",
   "head": "giuseppe-costa",
   "headId": "@Rgiuseppe-costa@",
@@ -12800,6 +13020,23 @@
    }
   ],
   "place": "Riposto",
+  "born": null
+ },
+ {
+  "name": "Maria Cotroneo",
+  "head": "maria-cotroneo",
+  "headId": "@Rmaria-cotroneo@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rantonia-musolino@",
+    "name": "Antonia Musolino",
+    "slug": "antonia-musolino",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": null
  },
  {
@@ -13471,23 +13708,6 @@
    }
   ],
   "place": "Piedimonte Etneo",
-  "born": null
- },
- {
-  "name": "Teresa Polistina",
-  "head": "teresa-polistina",
-  "headId": "@Rteresa-polistina@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rgiuseppe-arena-2@",
-    "name": "Giuseppe Arena",
-    "slug": "giuseppe-arena-1925",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Scilla",
   "born": null
  },
  {

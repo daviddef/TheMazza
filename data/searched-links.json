@@ -945,5 +945,203 @@
  "src/antenati-pizzo-morti-1849-1851-2b61b9": {
   "nobody": true,
   "logOnly": true
+ },
+ "src/antenati-mascali-morti-1883-1893-indexes-946989": {
+  "nobody": true,
+  "logOnly": true
+ },
+ "src/antenati-zambrone-matrimoni-1811-1834-f19ab7": {
+  "nobody": true,
+  "logOnly": true
+ },
+ "src/antenati-scilla-matrimoni-1866-1902-indexes-f3f6bb": {
+  "nobody": true,
+  "logOnly": true
+ },
+ "src/antenati-scilla-matrimoni-1903-1912-indexes-92f429": {
+  "for": [
+   [
+    "/people/orazio-arena-1878/",
+    "Orazio Arena"
+   ],
+   [
+    "/people/antonia-musolino/",
+    "Antonia Musolino"
+   ],
+   [
+    "/people/antonino-musolino/",
+    "Antonino Musolino"
+   ],
+   [
+    "/people/maria-cotroneo/",
+    "Maria Cotroneo"
+   ],
+   [
+    "/people/fortunata-maria-pontillo/",
+    "Fortunata Maria Pontillo"
+   ],
+   [
+    "/people/giuseppe-arena-1848/",
+    "Giuseppe Arena"
+   ],
+   [
+    "/people/domenico-arena-1923/",
+    "Domenico Arena"
+   ],
+   [
+    "/people/francesco-arena-1/",
+    "Francesco Arena"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/orazio-arena-1878/",
+    "Orazio Arena"
+   ],
+   [
+    "/people/antonia-musolino/",
+    "Antonia Musolino"
+   ],
+   [
+    "/people/antonino-musolino/",
+    "Antonino Musolino"
+   ],
+   [
+    "/people/maria-cotroneo/",
+    "Maria Cotroneo"
+   ],
+   [
+    "/people/fortunata-maria-pontillo/",
+    "Fortunata Maria Pontillo"
+   ],
+   [
+    "/people/giuseppe-arena-1848/",
+    "Giuseppe Arena"
+   ],
+   [
+    "/people/domenico-arena-1923/",
+    "Domenico Arena"
+   ],
+   [
+    "/people/francesco-arena-1/",
+    "Francesco Arena"
+   ]
+  ]
+ },
+ "src/antenati-scilla-morti-1923-domenico-arena-78579a": {
+  "for": [
+   [
+    "/people/domenico-arena-1923/",
+    "Domenico Arena"
+   ],
+   [
+    "/people/orazio-arena-1878/",
+    "Orazio Arena"
+   ],
+   [
+    "/people/antonia-musolino/",
+    "Antonia Musolino"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/domenico-arena-1923/",
+    "Domenico Arena"
+   ],
+   [
+    "/people/orazio-arena-1878/",
+    "Orazio Arena"
+   ],
+   [
+    "/people/antonia-musolino/",
+    "Antonia Musolino"
+   ]
+  ]
+ },
+ "src/antenati-scilla-nati-arena-1821-1839-09a698": {
+  "for": [
+   [
+    "/people/orazio-arena/",
+    "Orazio Arena"
+   ],
+   [
+    "/people/giuseppe-arena-1925/",
+    "Giuseppe Arena"
+   ],
+   [
+    "/people/domenico-arena-2/",
+    "Domenico Arena"
+   ],
+   [
+    "/people/teresa-polistina/",
+    "Teresa Polistina"
+   ],
+   [
+    "/people/raffaele-arena/",
+    "Raffaele Arena"
+   ],
+   [
+    "/people/raffaele-camillo-arena/",
+    "Raffaele Camillo Arena"
+   ],
+   [
+    "/people/giovanni-arena-1821/",
+    "Giovanni Arena"
+   ],
+   [
+    "/people/letteria-arena/",
+    "Letteria Arena"
+   ],
+   [
+    "/people/nunziata-arena/",
+    "Nunziata Arena"
+   ],
+   [
+    "/people/domenico-arena-1827/",
+    "Domenico Arena"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/orazio-arena/",
+    "Orazio Arena"
+   ],
+   [
+    "/people/giuseppe-arena-1925/",
+    "Giuseppe Arena"
+   ],
+   [
+    "/people/domenico-arena-2/",
+    "Domenico Arena"
+   ],
+   [
+    "/people/teresa-polistina/",
+    "Teresa Polistina"
+   ],
+   [
+    "/people/raffaele-arena/",
+    "Raffaele Arena"
+   ],
+   [
+    "/people/raffaele-camillo-arena/",
+    "Raffaele Camillo Arena"
+   ],
+   [
+    "/people/giovanni-arena-1821/",
+    "Giovanni Arena"
+   ],
+   [
+    "/people/letteria-arena/",
+    "Letteria Arena"
+   ],
+   [
+    "/people/nunziata-arena/",
+    "Nunziata Arena"
+   ],
+   [
+    "/people/domenico-arena-1827/",
+    "Domenico Arena"
+   ]
+  ]
  }
 }

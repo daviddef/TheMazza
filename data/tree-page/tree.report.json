@@ -1,11 +1,11 @@
 {
- "individuals": 852,
- "kept": 614,
- "living": 208,
+ "individuals": 866,
+ "kept": 627,
+ "living": 209,
  "living_policy": "omit",
- "undated_dropped": 40,
- "birth_year_estimated": 307,
- "death_year_estimated": 451,
+ "undated_dropped": 41,
+ "birth_year_estimated": 306,
+ "death_year_estimated": 462,
  "placed_from_relative": 55,
  "dropped_unplaced": 18,
  "unresolved_places": {
@@ -24,12 +24,6 @@
    "id": "I359",
    "slug": "venera-cassaneti",
    "born": 1808,
-   "died": 1925
-  },
-  {
-   "id": "Rgiuseppe-arena-2",
-   "slug": "giuseppe-arena-1925",
-   "born": 1811,
    "died": 1925
   }
  ],
@@ -52,16 +46,16 @@
   }
  },
  "people_json": {
-  "in_file": 984,
+  "in_file": 998,
   "living_not_read": 132,
-  "not_living_read": 852
+  "not_living_read": 866
  },
  "canvas_extras": {
-  "undrawn_detailed": 27,
-  "undrawn_without_dates_conflict": 7,
-  "name_only_cards": 345,
+  "undrawn_detailed": 26,
+  "undrawn_without_dates_conflict": 6,
+  "name_only_cards": 346,
   "living": 132,
-  "no_death_recent_or_undated": 213,
+  "no_death_recent_or_undated": 214,
   "placeholders": 33
  },
  "catalogue": {
@@ -89,6 +83,11 @@
     "people": 70
    },
    {
+    "name": "Arena",
+    "from_catalogue": false,
+    "people": 45
+   },
+   {
     "name": "Prostamo",
     "from_catalogue": false,
     "people": 37
@@ -96,11 +95,6 @@
    {
     "name": "Patane",
     "from_catalogue": true,
-    "people": 36
-   },
-   {
-    "name": "Arena",
-    "from_catalogue": false,
     "people": 36
    },
    {

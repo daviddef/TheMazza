@@ -43,8 +43,8 @@
  },
  {
   "surname": "Arena",
-  "n": 65,
-  "dead": 62,
+  "n": 75,
+  "dead": 72,
   "living": 3,
   "first": 1743,
   "last": 2012,
@@ -310,6 +310,18 @@
   ]
  },
  {
+  "surname": "Pontillo",
+  "n": 5,
+  "dead": 5,
+  "living": 0,
+  "first": 1801,
+  "last": 1857,
+  "places": [
+   "Scilla, Reggio Calabria",
+   "Scilla"
+  ]
+ },
+ {
   "surname": "Grasso",
   "n": 5,
   "dead": 5,
@@ -379,17 +391,6 @@
   "last": 2021,
   "places": [
    "Bagnara Calabra, Calabria, Italy"
-  ]
- },
- {
-  "surname": "Pontillo",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": 1801,
-  "last": 1801,
-  "places": [
-   "Scilla, Reggio Calabria"
   ]
  },
  {
@@ -786,6 +787,17 @@
   "living": 0,
   "first": 1853,
   "last": 1853,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Musolino",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1879,
+  "last": 1879,
   "places": [
    "Scilla"
   ]
@@ -1937,6 +1949,17 @@
   "last": 1776,
   "places": [
    "Giarre"
+  ]
+ },
+ {
+  "surname": "Cotroneo",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
   ]
  },
  {

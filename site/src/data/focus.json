@@ -2738,10 +2738,10 @@
  },
  "Arena": {
   "surname": "Arena",
-  "total": 65,
+  "total": 75,
   "groups": [
    {
-    "n": 47,
+    "n": 56,
     "earliest": 1751,
     "latest": 1937,
     "towns": [
@@ -2816,6 +2816,24 @@
       "comp": 0
      },
      {
+      "id": "@Rdomenico-arena-2@",
+      "slug": "domenico-arena-2",
+      "name": "Domenico Arena",
+      "surname": "Arena",
+      "born": 1800,
+      "died": null,
+      "bornText": "c. 1800",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1838 atto 20",
+       "Tavola annuale 1838"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
       "id": "@Rfrancesco-antonio-arena@",
       "slug": "francesco-antonio-arena",
       "name": "Francesco Antonio Arena",
@@ -2832,6 +2850,158 @@
       "living": false,
       "birthPlace": "Scilla",
       "comp": 0
+     },
+     {
+      "id": "@Rgiovanni-arena@",
+      "slug": "giovanni-arena-1821",
+      "name": "Giovanni Arena",
+      "surname": "Arena",
+      "born": 1821,
+      "died": null,
+      "bornText": "18 October 1821",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1821 atto 125, read in the original (image 72)"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@I371@",
+      "slug": "orazio-arena",
+      "name": "Orazio Arena",
+      "surname": "Arena",
+      "born": 1821,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "living": false,
+      "birthPlace": "Scilla, Reggio Calabria",
+      "comp": 1
+     },
+     {
+      "id": "@Rletteria-arena@",
+      "slug": "letteria-arena",
+      "name": "Letteria Arena",
+      "surname": "Arena",
+      "born": 1823,
+      "died": null,
+      "bornText": "15 October 1823",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1823 atto 157, read in the original (image 80)",
+       "index image 106"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rraffaele-arena@",
+      "slug": "raffaele-arena",
+      "name": "Raffaele Arena",
+      "surname": "Arena",
+      "born": 1824,
+      "died": null,
+      "bornText": "31 July 1824",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1824 atto 156, read in the original (image 82)",
+       "the supplement's index (image 13)"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rnunziata-arena@",
+      "slug": "nunziata-arena",
+      "name": "Nunziata Arena",
+      "surname": "Arena",
+      "born": 1825,
+      "died": null,
+      "bornText": "6 March 1825",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1825 atto 49, read in the original (image 28)"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rdomenico-arena-3@",
+      "slug": "domenico-arena-1827",
+      "name": "Domenico Arena",
+      "surname": "Arena",
+      "born": 1827,
+      "died": null,
+      "bornText": "5 March 1827",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1827 atto 42, read in the original (image 24)"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rraffaele-camillo-arena@",
+      "slug": "raffaele-camillo-arena",
+      "name": "Raffaele Camillo Arena",
+      "surname": "Arena",
+      "born": 1827,
+      "died": null,
+      "bornText": "29 March 1827",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1827 atto 63, read in the original (image 34)"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rgiuseppe-arena-2@",
+      "slug": "giuseppe-arena-1925",
+      "name": "Giuseppe Arena",
+      "surname": "Arena",
+      "born": 1839,
+      "died": 1925,
+      "bornText": "4 June 1839",
+      "diedText": "27 March 1925",
+      "fromRegister": true,
+      "registerSources": [
+       "Antenati name index, Scilla deaths: «Giuseppe Arena, Morte: Scilla 27/03/1925, Padre Domenico, Madre Teresa Polistena, Coniuge Serafina Vita»",
+       "Scilla, Nati 1839 atto 85, read in the original (image 45)"
+      ],
+      "living": false,
+      "birthPlace": "",
+      "comp": 0
+     },
+     {
+      "id": "@I373@",
+      "slug": "guiseppe-arena",
+      "name": "Guiseppe Arena",
+      "surname": "Arena",
+      "born": 1847,
+      "died": 1922,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
+      "living": false,
+      "birthPlace": "Scilla, Reggio Calabria",
+      "comp": 1
      },
      {
       "id": "@Rfilippo-arena-3@",
@@ -3201,24 +3371,6 @@
       "comp": 1
      },
      {
-      "id": "@Rdomenico-arena-2@",
-      "slug": "domenico-arena-2",
-      "name": "Domenico Arena",
-      "surname": "Arena",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": true,
-      "registerSources": [
-       "Scilla, Matrimoni 1838 atto 20",
-       "Tavola annuale 1838"
-      ],
-      "living": false,
-      "birthPlace": "Scilla",
-      "comp": 0
-     },
-     {
       "id": "@Rfilippo-arena-2@",
       "slug": "filippo-arena-1830",
       "name": "Filippo Arena",
@@ -3296,21 +3448,19 @@
       "comp": 1
      },
      {
-      "id": "@Rgiuseppe-arena-2@",
-      "slug": "giuseppe-arena-1925",
+      "id": "@I372@",
+      "slug": "giuseppe-arena-3",
       "name": "Giuseppe Arena",
       "surname": "Arena",
       "born": null,
-      "died": 1925,
+      "died": null,
       "bornText": "",
-      "diedText": "27 March 1925",
-      "fromRegister": true,
-      "registerSources": [
-       "Antenati name index, Scilla deaths: «Giuseppe Arena, Morte: Scilla 27/03/1925, Padre Domenico, Madre Teresa Polistena, Coniuge Serafina Vita»"
-      ],
+      "diedText": "",
+      "fromRegister": false,
+      "registerSources": [],
       "living": false,
-      "birthPlace": "",
-      "comp": 0
+      "birthPlace": "Scilla, Reggio Calabria",
+      "comp": 1
      },
      {
       "id": "@I465@",
@@ -3498,58 +3648,66 @@
    },
    {
     "n": 3,
-    "earliest": 1821,
-    "latest": 1847,
+    "earliest": 1848,
+    "latest": 1923,
     "towns": [
-     "Scilla, Reggio Calabria"
+     "Scilla"
     ],
-    "component": 1,
+    "component": 0,
     "onSpine": [],
     "people": [
      {
-      "id": "@I371@",
-      "slug": "orazio-arena",
-      "name": "Orazio Arena",
-      "surname": "Arena",
-      "born": 1821,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "living": false,
-      "birthPlace": "Scilla, Reggio Calabria",
-      "comp": 1
-     },
-     {
-      "id": "@I373@",
-      "slug": "guiseppe-arena",
-      "name": "Guiseppe Arena",
-      "surname": "Arena",
-      "born": 1847,
-      "died": 1922,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
-      "living": false,
-      "birthPlace": "Scilla, Reggio Calabria",
-      "comp": 1
-     },
-     {
-      "id": "@I372@",
-      "slug": "giuseppe-arena-3",
+      "id": "@Rgiuseppe-arena-3@",
+      "slug": "giuseppe-arena-1848",
       "name": "Giuseppe Arena",
       "surname": "Arena",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": false,
-      "registerSources": [],
+      "born": 1848,
+      "died": 1922,
+      "bornText": "c. 1848",
+      "diedText": "1922",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1876 atto 18, read in the original (image 11)",
+       "the Antenati name index, Scilla deaths (1922)"
+      ],
       "living": false,
-      "birthPlace": "Scilla, Reggio Calabria",
-      "comp": 1
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rorazio-arena-2@",
+      "slug": "orazio-arena-1878",
+      "name": "Orazio Arena",
+      "surname": "Arena",
+      "born": 1878,
+      "died": null,
+      "bornText": "c. 1878",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1906 atto 42, read in the original (image 22)"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     },
+     {
+      "id": "@Rdomenico-arena-4@",
+      "slug": "domenico-arena-1923",
+      "name": "Domenico Arena",
+      "surname": "Arena",
+      "born": 1923,
+      "died": 1923,
+      "bornText": "c. September 1923",
+      "diedText": "30 December 1923",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Morti 1923 atto 125, read in the original (an_ua16598704, image 66)",
+       "the Antenati name index"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
      }
     ]
    },
@@ -3790,6 +3948,35 @@
       "fromRegister": true,
       "registerSources": [
        "Scilla, Morti 1891, atto 134"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
+     }
+    ]
+   },
+   {
+    "n": 1,
+    "earliest": null,
+    "latest": null,
+    "towns": [
+     "Scilla"
+    ],
+    "component": 0,
+    "onSpine": [],
+    "people": [
+     {
+      "id": "@Rfrancesco-arena@",
+      "slug": "francesco-arena-1",
+      "name": "Francesco Arena",
+      "surname": "Arena",
+      "born": null,
+      "died": null,
+      "bornText": "",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Matrimoni 1907 atto 41, read in the original (image 23)"
       ],
       "living": false,
       "birthPlace": "Scilla",
