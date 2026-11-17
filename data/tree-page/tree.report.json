@@ -1,11 +1,11 @@
 {
- "individuals": 866,
- "kept": 627,
+ "individuals": 871,
+ "kept": 633,
  "living": 209,
  "living_policy": "omit",
- "undated_dropped": 41,
+ "undated_dropped": 40,
  "birth_year_estimated": 306,
- "death_year_estimated": 462,
+ "death_year_estimated": 467,
  "placed_from_relative": 55,
  "dropped_unplaced": 18,
  "unresolved_places": {
@@ -46,12 +46,12 @@
   }
  },
  "people_json": {
-  "in_file": 998,
+  "in_file": 1003,
   "living_not_read": 132,
-  "not_living_read": 866
+  "not_living_read": 871
  },
  "canvas_extras": {
-  "undrawn_detailed": 26,
+  "undrawn_detailed": 25,
   "undrawn_without_dates_conflict": 6,
   "name_only_cards": 346,
   "living": 132,
@@ -105,7 +105,7 @@
    {
     "name": "Donato",
     "from_catalogue": false,
-    "people": 19
+    "people": 25
    }
   ]
  }

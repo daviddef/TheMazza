@@ -43447,6 +43447,27 @@
     "slug": "michele-donato-1814",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmaria-donato-2@",
+    "name": "Maria Donato",
+    "slug": "maria-donato-1823",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvittoria-donato@",
+    "name": "Vittoria Donato",
+    "slug": "vittoria-donato",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-donato@",
+    "name": "Teresa Donato",
+    "slug": "teresa-donato-1824",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -49826,6 +49847,50 @@
   "ancGen": null
  },
  {
+  "id": "@Rgiovanni-maria-donato@",
+  "slug": "giovanni-maria-donato",
+  "name": "Giovanni Maria Donato",
+  "key": "Giovanni Maria Donato",
+  "given": "Giovanni",
+  "surname": "Donato",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1858,
+  "died": null,
+  "bornText": "6 April 1858",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "6 April 1858",
+    "year": 1858,
+    "place": "Scilla",
+    "text": "6 April 1858"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1858 atto 50, read in the original (an_ua2002925, image 28)"
+  ],
+  "registerNote": "A SON OF DOMENICO DONATO AND NUNZIATA SOFI, found in the 1858 birth index and read at the image: Giovanni Maria, born at Scilla on 6 April 1858, declared by the midwife Teresa Arena, daughter of the late Domenico, sixty; the parents' ages are written as 42 and 41, within the error these acts allow. Named for neither grandfather, so the naming custom does not explain him; Giovanni Maria is not found again (no death or marriage read), so he may have died young. A brother of Michele Donato (b. 3 October 1855) and of Pasquale (b. 1860).",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiovanni-mazza@",
   "slug": "giovanni-mazza-1875",
   "name": "Giovanni Mazza",
@@ -54827,6 +54892,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rmaria-donato-2@",
+  "slug": "maria-donato-1823",
+  "name": "Maria Donato",
+  "key": "Maria Donato (b. 1823)",
+  "given": "Maria",
+  "surname": "Donato",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1823,
+  "died": null,
+  "bornText": "9 March 1823",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "9 March 1823",
+    "year": 1823,
+    "place": "Scilla",
+    "text": "9 March 1823"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1823 atto 58, read in the original (an_ua2002818, image 31, the page photographed upside down)"
+  ],
+  "registerNote": "A DAUGHTER OF CANDELORO DONATO AND HIS PALADINO WIFE, and a sister of Domenico (b. 1816) and of the Michele born at Messina: declared by Candeloro, 38, a marinaio, who gives the baby the name MARIA, which is the name the 1844 Tavola gives Domenico's mother, so the paternal grandmother's name was probably used for her. THE MOTHER'S FIRST NAME IS STILL THREE WAYS: «Mar-ta» in Domenico's own birth act of 1816, «Maria» in the 1844 marriage Tavola, and «Santa» as the annual indexes of 1818, 1823 and 1824 and the 1823 act itself seem to read it (a cursive M and a cursive S are close in these hands); the act of 1823 (atto 58), read at the image, is written «Santa Paladino» with the first letter doubtful, and her age is thirty-eight. Not found again (no death or marriage read). TWO DIFFERENT PEOPLE from the Maria Donato who died in 1891, daughter of Michele Donato and Maria Sofi.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rcandeloro-donato@",
+    "name": "Candeloro Donato",
+    "slug": "candeloro-donato",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmarta-paladino@",
+    "name": "Marta Paladino",
+    "slug": "marta-paladino",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rmaria-la-spina@",
   "slug": "maria-la-spina",
   "name": "Maria La Spina",
@@ -57260,6 +57384,27 @@
     "slug": "michele-donato-1814",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmaria-donato-2@",
+    "name": "Maria Donato",
+    "slug": "maria-donato-1823",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvittoria-donato@",
+    "name": "Vittoria Donato",
+    "slug": "vittoria-donato",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-donato@",
+    "name": "Teresa Donato",
+    "slug": "teresa-donato-1824",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -58230,11 +58375,19 @@
   "sex": "",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1860,
   "died": 1937,
-  "bornText": "",
+  "bornText": "27 May 1860",
   "diedText": "20 April 1937",
   "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "27 May 1860",
+    "year": 1860,
+    "place": "Scilla",
+    "text": "27 May 1860"
+   },
    {
     "what": "died",
     "tag": "DEAT",
@@ -58244,15 +58397,16 @@
     "text": "20 April 1937"
    }
   ],
-  "birthPlace": "",
+  "birthPlace": "Scilla",
   "deathPlace": "",
   "burialPlace": "",
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Antenati name index, Scilla, atto di morte 20 April 1937"
+   "Antenati name index, Scilla, atto di morte 20 April 1937",
+   "Scilla, Nati 1860 atto 98, read in the original (an_ua2002931, image 52)"
   ],
-  "registerNote": "THE CHILD THE NAMING CUSTOM PREDICTED, FOUND. Row 4 of the work list reasoned that Domenico Donato and Nunziata Sofi should have a PASQUALE for the maternal grandfather Pasquale Sofi. Here he is, with both parents named on his death act, and a wife: GENEROSA COSTA.",
+  "registerNote": "THE CHILD THE NAMING CUSTOM PREDICTED, FOUND. Row 4 of the work list reasoned that Domenico Donato and Nunziata Sofi should have a PASQUALE for the maternal grandfather Pasquale Sofi. Here he is, with both parents named on his death act, and a wife: GENEROSA COSTA. UPDATE 17 NOVEMBER 2026: HIS BIRTH ACT, and the naming prediction was right to the day it was made: Pasquale, born at Scilla on 27 May 1860 to Domenico Donato, a marinaio, and Annunziata Sofi (the act's ages are 32 for each, which cannot be right for a man born in 1816: the ages in these acts are not relied on); declared by the midwife Giuseppa de Girolamo, the witnesses Epifanio d'Amico and Giuseppe Idone. He died at seventy-six on 20 April 1937. A PASQUALE born in 1849 to a Domenico Donato (the index reads the mother Sofi Lucia?, an Annunziata misread, and the act was not opened) is probably an earlier Pasquale who died young, since the name was given again in 1860; not claimed.",
   "registerGen": "5",
   "photos": [],
   "parents": [],
@@ -59135,6 +59289,50 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 8
+ },
+ {
+  "id": "@Rrocco-donato@",
+  "slug": "rocco-donato-1852",
+  "name": "Rocco Donato",
+  "key": "Rocco Donato (b. 1852)",
+  "given": "Rocco",
+  "surname": "Donato",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1852,
+  "died": null,
+  "bornText": "c. 22 September 1852",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 22 September 1852",
+    "year": 1852,
+    "place": "Scilla",
+    "text": "c. 22 September 1852"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1852, annual index (an_ua2002907, the 1852 supplement's Tavola)"
+  ],
+  "registerNote": "A SON OF DOMENICO DONATO AND NUNZIATA SOFI, from the index alone: Rocco, born at Scilla about 22 September 1852, act 234, the month read with a query by the reader and the act not opened. The index names both parents with their usual forms (Dom.co and Sofi Annunziata), which is why he is listed; he is held as an index reading until the act is opened. A brother of Candeloro (b. 1847), Michele (b. 1855) and Pasquale (b. 1860). TWO DIFFERENT PEOPLE from the tree's Rocco Donato, son of Michele Donato and Cosima Perina, and from the Rocco Donato born in 1861 to Santo and Santa Barbera (read from an index).",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rrocco-polistina@",
@@ -64805,6 +65003,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rteresa-donato@",
+  "slug": "teresa-donato-1824",
+  "name": "Teresa Donato",
+  "key": "Teresa Donato (b. 1824)",
+  "given": "Teresa",
+  "surname": "Donato",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1824,
+  "died": null,
+  "bornText": "c. 22 October 1824",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 22 October 1824",
+    "year": 1824,
+    "place": "Scilla",
+    "text": "c. 22 October 1824"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1824, annual index (an_ua2002823, image 16)"
+  ],
+  "registerNote": "A SISTER OF DOMENICO DONATO FROM THE INDEX ALONE: Teresa, born at Scilla about 22 October 1824 to Candeloro Donato and a Paladino wife (written Santa), the last child of the couple so far found. THE MOTHER'S FIRST NAME IS STILL THREE WAYS: «Mar-ta» in Domenico's own birth act of 1816, «Maria» in the 1844 marriage Tavola, and «Santa» as the annual indexes of 1818, 1823 and 1824 and the 1823 act itself seem to read it (a cursive M and a cursive S are close in these hands); the act of 1823 (atto 58), read at the image, is written «Santa Paladino» with the first letter doubtful, and her age is thirty-eight. TWO DIFFERENT PEOPLE from the tree's Teresa Donato (no dates), who has no parents in the tree. Held as an index reading until the act is opened.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rcandeloro-donato@",
+    "name": "Candeloro Donato",
+    "slug": "candeloro-donato",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmarta-paladino@",
+    "name": "Marta Paladino",
+    "slug": "marta-paladino",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rteresa-nicotra@",
   "slug": "teresa-nicotra",
   "name": "Teresa Nicotra",
@@ -66111,6 +66368,66 @@
     "id": "@Rconcetta-pappalardo@",
     "name": "Concetta Pappalardo",
     "slug": "concetta-pappalardo",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rvittoria-donato@",
+  "slug": "vittoria-donato",
+  "name": "Vittoria Donato",
+  "key": "Vittoria Donato (b. c. 1818)",
+  "given": "Vittoria",
+  "surname": "Donato",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1818,
+  "died": null,
+  "bornText": "c. May 1818",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. May 1818",
+    "year": 1818,
+    "place": "Scilla",
+    "text": "c. May 1818"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1818, annual index (an_ua2002805, image 110)",
+   "no act-number column in that index"
+  ],
+  "registerNote": "A SISTER OF DOMENICO DONATO FROM THE INDEX ALONE: Vittoria, born at Scilla about 3 May 1818 to Candeloro Donato and a Paladino wife (the index writes Santa), the first child recorded after Domenico (b. 18 December 1816). THE MOTHER'S FIRST NAME IS STILL THREE WAYS: «Mar-ta» in Domenico's own birth act of 1816, «Maria» in the 1844 marriage Tavola, and «Santa» as the annual indexes of 1818, 1823 and 1824 and the 1823 act itself seem to read it (a cursive M and a cursive S are close in these hands); the act of 1823 (atto 58), read at the image, is written «Santa Paladino» with the first letter doubtful, and her age is thirty-eight. Held as an index reading until the act is opened (the 1818 index prints no act number, so it has to be found by its date).",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rcandeloro-donato@",
+    "name": "Candeloro Donato",
+    "slug": "candeloro-donato",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmarta-paladino@",
+    "name": "Marta Paladino",
+    "slug": "marta-paladino",
     "living": false,
     "via": "read"
    }
