@@ -774,6 +774,27 @@
     "slug": "domenico-sofi",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rvittoria-sofi@",
+    "name": "Vittoria Sofi",
+    "slug": "vittoria-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-sofi@",
+    "name": "Teresa Sofi",
+    "slug": "teresa-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrachele-sofi@",
+    "name": "Rachele Sofi",
+    "slug": "rachele-sofi",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Scilla",
@@ -861,6 +882,23 @@
   ],
   "place": "Scilla",
   "born": 1783
+ },
+ {
+  "name": "Concetta Pontello",
+  "head": "concetta-pontello",
+  "headId": "@Rconcetta-pontello@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsanta-romano@",
+    "name": "Santa Romano",
+    "slug": "santa-romano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1784
  },
  {
   "name": "Salvadore Nicotra",
@@ -1056,6 +1094,23 @@
   ],
   "place": "Briatico",
   "born": 1787
+ },
+ {
+  "name": "Domenico Romano",
+  "head": "domenico-romano",
+  "headId": "@Rdomenico-romano@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsanta-romano@",
+    "name": "Santa Romano",
+    "slug": "santa-romano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1788
  },
  {
   "name": "Maria Fragala & Antonino Prostamo",
@@ -1265,6 +1320,27 @@
     "id": "@Rdomenico-sofi@",
     "name": "Domenico Sofi",
     "slug": "domenico-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvittoria-sofi@",
+    "name": "Vittoria Sofi",
+    "slug": "vittoria-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-sofi@",
+    "name": "Teresa Sofi",
+    "slug": "teresa-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrachele-sofi@",
+    "name": "Rachele Sofi",
+    "slug": "rachele-sofi",
     "living": false,
     "via": "read"
    }
@@ -12442,23 +12518,6 @@
   "born": null
  },
  {
-  "name": "Concetta Pontello",
-  "head": "concetta-pontello",
-  "headId": "@Rconcetta-pontello@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rsanta-romano@",
-    "name": "Santa Romano",
-    "slug": "santa-romano",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Scilla",
-  "born": null
- },
- {
   "name": "Domenica Cavallaro",
   "head": "domenica-cavallaro",
   "headId": "@Rdomenica-cavallaro@",
@@ -12590,23 +12649,6 @@
    }
   ],
   "place": "Piedimonte Etneo",
-  "born": null
- },
- {
-  "name": "Domenico Romano",
-  "head": "domenico-romano",
-  "headId": "@Rdomenico-romano@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rsanta-romano@",
-    "name": "Santa Romano",
-    "slug": "santa-romano",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Scilla",
   "born": null
  },
  {

@@ -905,11 +905,12 @@
      "surname": "Romano",
      "born": 1831,
      "died": null,
-     "bornText": "c. 1831",
+     "bornText": "13 October 1831",
      "diedText": "",
      "fromRegister": true,
      "registerSources": [
-      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+      "Scilla, Nati 1831, atto 173 (an_ua2002841, image 99, read at the image)"
      ],
      "living": false,
      "birthPlace": "Scilla",
@@ -954,11 +955,12 @@
      "surname": "Sofi",
      "born": 1827,
      "died": null,
-     "bornText": "c. 1827",
+     "bornText": "5 August 1827",
      "diedText": "",
      "fromRegister": true,
      "registerSources": [
-      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+      "Scilla, Nati 1827, atto 128 (an_ua2002831, image 68, read at the image)"
      ],
      "living": false,
      "birthPlace": "Scilla",
@@ -1305,13 +1307,14 @@
      "slug": "concetta-pontello",
      "name": "Concetta Pontello",
      "surname": "Pontello",
-     "born": null,
+     "born": 1784,
      "died": null,
-     "bornText": "",
+     "bornText": "c. 1784",
      "diedText": "",
      "fromRegister": true,
      "registerSources": [
-      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+      "Scilla, Nati 1831, atto 173 (an_ua2002841, image 99, read at the image)"
      ],
      "living": false,
      "birthPlace": "Scilla",
@@ -1355,13 +1358,14 @@
      "slug": "domenico-romano",
      "name": "Domenico Romano",
      "surname": "Romano",
-     "born": null,
+     "born": 1788,
      "died": null,
-     "bornText": "",
+     "bornText": "c. 1788",
      "diedText": "",
      "fromRegister": true,
      "registerSources": [
-      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+      "Scilla, Nati 1831, atto 173 (an_ua2002841, image 99, read at the image)"
      ],
      "living": false,
      "birthPlace": "Scilla",

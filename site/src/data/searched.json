@@ -26672,5 +26672,89 @@
   "tags": [
    "Nicotra"
   ]
+ },
+ {
+  "key": "src/antenati-scilla-nati-1829-1834-tavole-santa-romano-6eec01",
+  "status": "done",
+  "when": "2026-11-17",
+  "source": "Antenati — Scilla (Reggio Calabria), Archivio di Stato di Reggio Calabria, Stato civile della restaurazione, Nati 1829 to 1834 (an_ua2002837, 2002840, 2002841, 2002844, 2002847, 2002850) and the single acts of 1822 (an_ua2002816), 1827 (an_ua2002831) and 1831",
+  "scope": "Scilla, Nati, the annual Tavola of each year 1829 to 1834 read line by line at native resolution (six volumes), looking for the birth of Santa Romano (daughter of Domenico Romano and Concetta Pontello, named in her 1855 marriage promise) and for every child of a Pontillo or Pontello mother; and the four births of Pasquale Sofi and Maria d'Amico (1822, 1827, 1831, 1834) opened at the image. Terms typed: Romano, Pontillo, Pontello, Sofi; Pontillo is now catalogued as attested for the Pontello family (cover exit 0). Not counted, read on the page: Romeo (a Romeo Rosa 1830 and Romeo Giovanna 1832, father Domenico, mother Parisi).",
+  "result": "Santa Romano's birth act found: Scilla Nati 1831 atto 173 (image 99), born 13 October 1831, declared on the 14th, to Domenico Romano, 43, marinaro, and Concetta Pontillo (written Pontilo), 47; she is the only Romano girl named Santa in the six years and the only child of a Concetta Pontillo. The act spells the mother's name Pontillo, the 1855 promise Pontello. Four births of Pasquale Sofi and Maria d'Amico read: Vittoria 1822 atto 211, Domenico 5 August 1827 atto 128, Teresa 1831 atto 86, Rachele 28 February 1834 atto 39 (the Tavola reads 27 Febbraio; the act and its margin say the 28th). Pontillo mothers of other first names (Teresa, Camilla, Santa, Anna) and an Antonia Romano married to a Santo Pontillo are listed as leads, not read. Tavola of 1827 and 1822 not re-read for Romano.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002837/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002837/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002816/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002831/"
+  ],
+  "tags": [
+   "Romano",
+   "Pontillo",
+   "Sofi"
+  ],
+  "for": [
+   [
+    "/people/santa-romano/",
+    "Santa Romano"
+   ],
+   [
+    "/people/domenico-romano/",
+    "Domenico Romano"
+   ],
+   [
+    "/people/concetta-pontello/",
+    "Concetta Pontello"
+   ],
+   [
+    "/people/domenico-sofi/",
+    "Domenico Sofi"
+   ],
+   [
+    "/people/vittoria-sofi/",
+    "Vittoria Sofi"
+   ],
+   [
+    "/people/teresa-sofi/",
+    "Teresa Sofi"
+   ],
+   [
+    "/people/rachele-sofi/",
+    "Rachele Sofi"
+   ]
+  ],
+  "ev": [
+   "/people/santa-romano/"
+  ]
+ },
+ {
+  "key": "src/antenati-zambrone-nati-1811-1839-anile-collia-4f3b2e",
+  "status": "part",
+  "when": "2026-11-17",
+  "source": "Antenati — Zambrone (Vibo Valentia), Archivio di Stato di Catanzaro, Stato civile napoleonico, Nati 1811 to 1839 (an_ua37932933, 420 images)",
+  "scope": "Zambrone, Nati 1811-1839: 1811 (29 acts, no Tavola) and 1812 (Tavola and hit acts) and 1822 (Tavola and hit acts) and 1837, 1838, 1839 (every act of 1837 and 1838 read, their Tavolas blank; 1839 by Tavola and the hit acts) read. Looking for the births of Antonino Anile (about 1813-16), Carmela Collia (about 1817-18), any child of an Anile father and a Collia mother, and a Fortunato Anile in 1838. Years 1813-1821 are not in the volume (it passes from the 1812 Tavola to the 1822 title leaf) and 1823-1836 were not read. Terms typed: Anile, Collia (neither is in the Atlas catalogue: cover exit 0). Not counted, read on the page: Colaci, Casusceli, Cicchetto.",
+  "result": "No Anile birth, no Carmela Collia and no child of an Anile father and a Collia mother in the years read; no Fortunato Anile at Zambrone in 1838. This is not a nil for the family: 1813-1821 (where both births fall) are not in this volume and 1823-1836 were not read. Leads, not findings: a Marianna Anile, 27, mother of a daughter at act 22 of 1812; Francesco Collia (31 or 24, and 30) married to a Casusceli in 1811 and 1812, where the 1836 marriage has the bride's mother as Catarina Capucetti, so Cas- against Cap- on that marriage image must be checked before anyone is called her mother. Mandaradoni is never named as a place in the volume, only as a surname of people domiciled at Zambrone.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua37932933/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua37932933/"
+  ],
+  "tags": [
+   "Anile",
+   "Collia"
+  ]
+ },
+ {
+  "key": "src/antenati-zambrone-nati-1840-1858-anile-collia-de9f06",
+  "status": "part",
+  "when": "2026-11-17",
+  "source": "Antenati — Zambrone (Vibo Valentia), Archivio di Stato di Catanzaro, Stato civile della restaurazione, Nati 1840 to 1858 (an_ua37933178, 328 images)",
+  "scope": "Zambrone, Nati 1840-1858, every act of nineteen years read for child, father and mother surnames (the Tavola is filled for 1840 only and blank after); witnesses read only in the acts opened; every act with a Collia mother opened. Terms typed: Anile, Anili, Collia (neither surname is in the Atlas catalogue: cover exit 0). Not counted, read on the page: Colaci (common), Incollo, Incolla, Iacolla, Grillo, Prillo.",
+  "result": "No Anile (Anile, Anili or any near form) in any role in any act 1840-1858, and no child of an Anile father and a Collia mother; Carmela Collia is not a mother in any act. Antonino Anile (about 1812-16) and Carmela Collia (about 1817-18) were born before the volume starts, so their births are not looked for here. Every parent in every act is domiciled at Zambrone; Mandaradoni occurs only as a surname.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/",
+  "tags": [
+   "Collia",
+   "Anile"
+  ]
  }
 ]

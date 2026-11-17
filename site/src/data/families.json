@@ -219,6 +219,18 @@
   ]
  },
  {
+  "surname": "Sofi",
+  "n": 7,
+  "dead": 7,
+  "living": 0,
+  "first": 1780,
+  "last": 1834,
+  "places": [
+   "Scilla",
+   "Scilla, Reggio Calabria"
+  ]
+ },
+ {
   "surname": "Russo",
   "n": 7,
   "dead": 7,
@@ -395,18 +407,6 @@
   ]
  },
  {
-  "surname": "Sofi",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": 1780,
-  "last": 1827,
-  "places": [
-   "Scilla",
-   "Scilla, Reggio Calabria"
-  ]
- },
- {
   "surname": "Polito",
   "n": 4,
   "dead": 4,
@@ -448,7 +448,7 @@
   "n": 4,
   "dead": 4,
   "living": 0,
-  "first": 1831,
+  "first": 1788,
   "last": 1853,
   "places": [
    "Scilla"
@@ -1826,8 +1826,8 @@
   "n": 1,
   "dead": 1,
   "living": 0,
-  "first": null,
-  "last": null,
+  "first": 1784,
+  "last": 1784,
   "places": [
    "Scilla"
   ]

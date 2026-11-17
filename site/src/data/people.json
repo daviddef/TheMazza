@@ -45350,18 +45350,18 @@
   "sex": "F",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1784,
   "died": null,
-  "bornText": "",
+  "bornText": "c. 1784",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "c. 1784",
+    "year": 1784,
     "place": "Scilla",
-    "text": ""
+    "text": "c. 1784"
    }
   ],
   "birthPlace": "Scilla",
@@ -45370,9 +45370,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+   "Scilla, Nati 1831, atto 173 (an_ua2002841, image 99, read at the image)"
   ],
-  "registerNote": "Mother of Santa Romano, who married Domenico Sofi in 1855; the surname is read Pontello at the image (the Pontillo of this archive's other pages is a candidate for the same family, not asserted). Not in the family tree.",
+  "registerNote": "Mother of Santa Romano, who married Domenico Sofi in 1855; the surname is read Pontello at the image (the Pontillo of this archive's other pages is a candidate for the same family, not asserted). Not in the family tree. The 1831 birth act and Tavola write the surname PONTILLO (Pontilo); the 1855 promise reads Pontello. The Atlas catalogue holds Pontillo as a lead and Pontello as attested, and the register of 1831 now supports Pontillo as the same family's own spelling.",
   "registerGen": "7",
   "photos": [],
   "parents": [],
@@ -46893,18 +46894,18 @@
   "sex": "M",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1788,
   "died": null,
-  "bornText": "",
+  "bornText": "c. 1788",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "c. 1788",
+    "year": 1788,
     "place": "Scilla",
-    "text": ""
+    "text": "c. 1788"
    }
   ],
   "birthPlace": "Scilla",
@@ -46913,9 +46914,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+   "Scilla, Nati 1831, atto 173 (an_ua2002841, image 99, read at the image)"
   ],
-  "registerNote": "Father of Santa Romano (b. c. 1831), who married Domenico Sofi; dead by July 1855. Not in the family tree. Nothing else is known of him.",
+  "registerNote": "Father of Santa Romano (b. c. 1831), who married Domenico Sofi; dead by July 1855. Not in the family tree. Nothing else is known of him. Alive in 1831 and signed his own name on the act; dead by July 1855.",
   "registerGen": "7",
   "photos": [],
   "parents": [],
@@ -46947,16 +46949,16 @@
   "fromRegister": true,
   "born": 1827,
   "died": null,
-  "bornText": "c. 1827",
+  "bornText": "5 August 1827",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1827",
+    "date": "5 August 1827",
     "year": 1827,
     "place": "Scilla",
-    "text": "c. 1827"
+    "text": "5 August 1827"
    }
   ],
   "birthPlace": "Scilla",
@@ -46965,9 +46967,10 @@
   "trade": "marinaro (sailor)",
   "sources": [],
   "registerSources": [
-   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+   "Scilla, Nati 1827, atto 128 (an_ua2002831, image 68, read at the image)"
   ],
-  "registerNote": "MARIA SOFI'S FATHER, AND MICHELE DONATO'S MOTHER'S BROTHER. His own marriage act of 1855 names his parents PASQUALE SOFI (a marinaro, alive in 1855) and MARIA D'AMICO, the very pair the 1844 marriage papers name as the parents of Nunziata Sofi, Michele Donato's mother. So Domenico is Nunziata's brother, and MICHELE DONATO MARRIED HIS FIRST COUSIN, Domenico's daughter Maria. He married Santa Romano on 10 September 1855 (the promise was made on 6 July). NOT the Domenico Sofi who married Angela Violante in 1862 (son of the late Bruno and Giuseppa Buetto), a different man, nor the Domenico Sofi of 1872 (Brigante). Not in the family tree.",
+  "registerNote": "MARIA SOFI'S FATHER, AND MICHELE DONATO'S MOTHER'S BROTHER. His own marriage act of 1855 names his parents PASQUALE SOFI (a marinaro, alive in 1855) and MARIA D'AMICO, the very pair the 1844 marriage papers name as the parents of Nunziata Sofi, Michele Donato's mother. So Domenico is Nunziata's brother, and MICHELE DONATO MARRIED HIS FIRST COUSIN, Domenico's daughter Maria. He married Santa Romano on 10 September 1855 (the promise was made on 6 July). NOT the Domenico Sofi who married Angela Violante in 1862 (son of the late Bruno and Giuseppa Buetto), a different man, nor the Domenico Sofi of 1872 (Brigante). Not in the family tree. Witnesses at his birth: Don Mariano Randazzo (proprietario) and Giuseppe Pizzarello (ferraro).",
   "registerGen": "6",
   "photos": [],
   "parents": [
@@ -57368,6 +57371,27 @@
     "slug": "domenico-sofi",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rvittoria-sofi@",
+    "name": "Vittoria Sofi",
+    "slug": "vittoria-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-sofi@",
+    "name": "Teresa Sofi",
+    "slug": "teresa-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrachele-sofi@",
+    "name": "Rachele Sofi",
+    "slug": "rachele-sofi",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -59157,6 +59181,27 @@
     "slug": "domenico-sofi",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rvittoria-sofi@",
+    "name": "Vittoria Sofi",
+    "slug": "vittoria-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-sofi@",
+    "name": "Teresa Sofi",
+    "slug": "teresa-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrachele-sofi@",
+    "name": "Rachele Sofi",
+    "slug": "rachele-sofi",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -59458,6 +59503,65 @@
   "registerGen": "6",
   "photos": [],
   "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rrachele-sofi@",
+  "slug": "rachele-sofi",
+  "name": "Rachele Sofi",
+  "key": "Rachele Sofi",
+  "given": "Rachele",
+  "surname": "Sofi",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1834,
+  "died": null,
+  "bornText": "28 February 1834",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "28 February 1834",
+    "year": 1834,
+    "place": "Scilla",
+    "text": "28 February 1834"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1834, atto 39 (an_ua2002850, image 22)"
+  ],
+  "registerNote": "Sister of Nunziata Sofi and Domenico Sofi. Witnesses: D. Rocco Federici and D. Rocco Idà (proprietari). Not in the family tree.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-sofi@",
+    "name": "Pasquale Sofi",
+    "slug": "pasquale-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-de-amico@",
+    "name": "Maria de Amico",
+    "slug": "maria-de-amico",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [],
   "spouses": [],
   "siblings": [],
@@ -64055,16 +64159,16 @@
   "fromRegister": true,
   "born": 1831,
   "died": null,
-  "bornText": "c. 1831",
+  "bornText": "13 October 1831",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1831",
+    "date": "13 October 1831",
     "year": 1831,
     "place": "Scilla",
-    "text": "c. 1831"
+    "text": "13 October 1831"
    }
   ],
   "birthPlace": "Scilla",
@@ -64073,9 +64177,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+   "Scilla, Nati 1831, atto 173 (an_ua2002841, image 99, read at the image)"
   ],
-  "registerNote": "MARIA SOFI'S MOTHER. Married Domenico Sofi, son of Pasquale Sofi and Maria D'Amico, on 10 September 1855 at Scilla; her father Domenico Romano was dead by July 1855 and her mother Concetta Pontello (the surname read Pontello, which may be the family this archive writes Pontillo) was alive and present at the promise. She and her mother could not write, as the act says of the parents. Not in the family tree. A different Santa Romano married Rocco Scarfone in February 1852 (a daughter of Rocco and Natalina), and a Santa Romano married a Domenico whose surname is unreadable in 1850 (daughter of the late Cosimo): neither is she.",
+  "registerNote": "MARIA SOFI'S MOTHER. Married Domenico Sofi, son of Pasquale Sofi and Maria D'Amico, on 10 September 1855 at Scilla; her father Domenico Romano was dead by July 1855 and her mother Concetta Pontello (the surname read Pontello, which may be the family this archive writes Pontillo) was alive and present at the promise. She and her mother could not write, as the act says of the parents. Not in the family tree. A different Santa Romano married Rocco Scarfone in February 1852 (a daughter of Rocco and Natalina), and a Santa Romano married a Domenico whose surname is unreadable in 1850 (daughter of the late Cosimo): neither is she. HER BIRTH ACT NAMES THE SAME PARENTS AS THE 1855 MARRIAGE: Domenico Romano, 43, marinaro, alive in 1831 and able to sign, and Concetta Pontillo (written Pontilo), 47, his lawful wife; witnesses Domenico Cacciola (fornaio) and Francesco Principato (tessitore). The 1831 Tavola line reads 'Romano Santa, Dom.co e Pontillo Concetta, 13 Ottobre'. Her mother's surname is therefore written Pontillo in the register of her birth and Pontello in her marriage promise.",
   "registerGen": "6",
   "photos": [],
   "parents": [
@@ -65848,6 +65953,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rteresa-sofi@",
+  "slug": "teresa-sofi",
+  "name": "Teresa Sofi",
+  "key": "Teresa Sofi",
+  "given": "Teresa",
+  "surname": "Sofi",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1831,
+  "died": null,
+  "bornText": "6 May 1831",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "6 May 1831",
+    "year": 1831,
+    "place": "Scilla",
+    "text": "6 May 1831"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1831, atto 86 (an_ua2002841, image 53)"
+  ],
+  "registerNote": "Sister of Nunziata Sofi and Domenico Sofi. Witnesses: Rocco Floccari (macellaro) and Don Rocco Idà (proprietario). Not in the family tree.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-sofi@",
+    "name": "Pasquale Sofi",
+    "slug": "pasquale-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-de-amico@",
+    "name": "Maria de Amico",
+    "slug": "maria-de-amico",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rvenera-catalano@",
   "slug": "venera-catalano",
   "name": "Venera Catalano",
@@ -67160,6 +67324,65 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rvittoria-sofi@",
+  "slug": "vittoria-sofi",
+  "name": "Vittoria Sofi",
+  "key": "Vittoria Sofi",
+  "given": "Vittoria",
+  "surname": "Sofi",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1822,
+  "died": null,
+  "bornText": "21 December 1822",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "21 December 1822",
+    "year": 1822,
+    "place": "Scilla",
+    "text": "21 December 1822"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1822, atto 211 (an_ua2002816, image 109)"
+  ],
+  "registerNote": "Sister of Nunziata Sofi and Domenico Sofi. Witnesses: Pietro Romano (marinaro, 29) and Mariano Arlotta (marinaro, 22); nothing shows Pietro Romano is kin of Santa Romano. Not in the family tree.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-sofi@",
+    "name": "Pasquale Sofi",
+    "slug": "pasquale-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-de-amico@",
+    "name": "Maria de Amico",
+    "slug": "maria-de-amico",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
