@@ -27132,5 +27132,25 @@
    "Catalano",
    "Raiti"
   ]
+ },
+ {
+  "key": "src/antenati-scilla-italiano-register-list-years-e70eb6",
+  "status": "done",
+  "when": "2026-11-18",
+  "source": "Antenati — Scilla, Archivio di Stato di Reggio Calabria, Stato civile italiano: the register list (search-registry, localita=Scilla, s_size=500), 466 registers in all",
+  "scope": "Which years of the Italian-era Scilla Nati, Matrimoni and Morti exist on Antenati, to find where each of three open questions can still be answered: the Donato children born 1888-1900, the Nunziata Donato x Giovanni Polistena marriage of about 1916, and the deaths of the Sofi and Romano families.",
+  "result": "THE LIST, READ FROM THE PORTAL ITSELF: Nati 1866 to 1900 (39 volumes, an_ua16601227 to an_ua16601265, two in 1866, 1875, 1884 and 1885) and NOTHING AFTER 1900; Morti 1866 to 1887, 1889 to 1908, 1910 and 1911 to 1943, with NO 1888 AND NO 1909; Matrimoni 1866 to 1913 only, and the marriage publications also stop in 1913; decennial indexes exist for 1866-1875 only (Morti an_ua16601225, Matrimoni an_ua16601223). So the Nunziata Donato x Giovanni Polistena marriage of about 1916 is NOT ON ANTENATI AT ALL (Scilla marriages end in 1913): it has to be found where they lived after 1908 or in a record the Italian archive does not publish, and work list row 71 cannot be closed from this portal. A Scilla death register for 1888 is absent from the portal, so deaths of that year cannot be searched here. The containers of Nati 1888-1900 and of Morti 1866-1887 and 1894 were looked up in the browser and are banked in data/scilla-arks-nati-italiano.tsv and data/scilla-arks-italiano.tsv; Morti 1895, 1896, 1910 and the 1866-75 decennial index are not yet looked up (the portal answered a bare HTTP 400 on the fourth request of a paced run and the lookups were stopped there, not retried in a loop). Control: the parameter localita returns 466 registers, citta returns none.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua16601227/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16601227/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16601265/"
+  ],
+  "tags": [
+   "Donato",
+   "Polistena",
+   "Sofi",
+   "Romano"
+  ]
  }
 ]
