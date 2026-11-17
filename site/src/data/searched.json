@@ -1844,6 +1844,7 @@
   "outcome": "part",
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
+   "Romano",
    "Russo",
    "Pontillo",
    "Arena",
@@ -2036,6 +2037,7 @@
    "Costa",
    "Donato",
    "Polistena",
+   "Romano",
    "Pontillo",
    "Arena",
    "Bova"
@@ -2384,7 +2386,8 @@
    "Pontillo",
    "Poleo",
    "Polistina",
-   "Arena"
+   "Arena",
+   "Romano"
   ]
  },
  {
@@ -2422,6 +2425,7 @@
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
    "Polistena",
+   "Romano",
    "Arlotta",
    "Costa"
   ]
@@ -8055,7 +8059,8 @@
    "Mazza",
    "Patane",
    "Cavallaro",
-   "Pulvirenti"
+   "Pulvirenti",
+   "Romano"
   ]
  },
  {
@@ -26073,7 +26078,8 @@
    "Nicotra",
    "Zirilli",
    "Pontillo",
-   "Costa"
+   "Costa",
+   "Romano"
   ],
   "nobody": true,
   "logOnly": true
@@ -26403,6 +26409,52 @@
    [
     "/people/pasquale-donato/",
     "Pasquale Donato"
+   ]
+  ]
+ },
+ {
+  "key": "src/antenati-scilla-matrimoni-1887-donato-sofi-3859c4",
+  "status": "found",
+  "when": "2026-11-17",
+  "source": "Antenati — Scilla (Reggio Calabria), Archivio di Stato di Reggio Calabria, Stato civile italiano, Matrimoni 1887 (an_ua16595008), Parte I, image 29",
+  "scope": "Scilla, Matrimoni 1887, act 56 of Parte I (17 December 1887), found by the Donato/Sofi line of the volume's index, then the act opened and read at the image on both pages of the opening, the groom's and bride's lines and the witnesses zoomed. Terms typed: Donato, Sofi (not counted, read on the page: the act above, number 55, Cambareri and Papalia, who share the opening).",
+  "result": "MARIA SOFI'S PARENTS FOUND (row 72). Michele Donato, 32, marinaio, born and living at Scilla, son of Domenico and Annunziata Sofi, married Maria Sofi, 21, filatrice, born and living at Scilla, daughter of Domenico Sofi and Santa Romano, both living at Scilla. Witnesses Felice Sisinni (30, civile) and Filippo Pambianco (52, pittore); the bride was illiterate. The index number reads 5 but the act is number 56, the last of Parte I. The groom's mother and the bride's father share the surname Sofi; the act does not say whether they were related, and none is claimed.",
+  "outcome": "found",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua16595008/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16595008/"
+  ],
+  "tags": [
+   "Donato",
+   "Sofi",
+   "Romano"
+  ],
+  "for": [
+   [
+    "/people/maria-sofi/",
+    "Maria Sofi"
+   ],
+   [
+    "/people/domenico-sofi/",
+    "Domenico Sofi"
+   ],
+   [
+    "/people/santa-romano/",
+    "Santa Romano"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/maria-sofi/",
+    "Maria Sofi"
+   ],
+   [
+    "/people/domenico-sofi/",
+    "Domenico Sofi"
+   ],
+   [
+    "/people/santa-romano/",
+    "Santa Romano"
    ]
   ]
  }

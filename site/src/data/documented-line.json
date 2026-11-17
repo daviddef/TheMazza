@@ -621,6 +621,36 @@
   ],
   "down": []
  },
+ "maria-sofi": {
+  "anchor": "Maria Sofi",
+  "exportName": "Maria Sofi",
+  "ancGen": 5,
+  "up": [
+   {
+    "name": "Domenico Sofi",
+    "rel": "father",
+    "depth": 1,
+    "gen": "6",
+    "born": "—",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni 1887, atto 56",
+    "note": "MARIA SOFI'S FATHER, husband of Santa Romano, living at Scilla in 1887. Not in the family tree. NOT the same man as Pasquale Sofi, Nunziata Sofi's father (b. c. 1780): a different given name and a generation too late. Nothing else is known of him yet; Domenico is a common name at Scilla and no other Domenico Sofi is claimed here."
+   },
+   {
+    "name": "Santa Romano",
+    "rel": "mother",
+    "depth": 1,
+    "gen": "6",
+    "born": "—",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni 1887, atto 56",
+    "note": "MARIA SOFI'S MOTHER, wife of Domenico Sofi, living at Scilla in 1887. Not in the family tree. Romano is a Scilla family this archive has already met (Giovanna Romano, Domenica Romano, Maria Donato's mother); whether she belongs to any of them is not shown by the act."
+   }
+  ],
+  "down": []
+ },
  "giovanna-zirilli": {
   "anchor": "Giovanna Zirilli",
   "exportName": "Giovanna Zirilli",
@@ -653,23 +683,6 @@
     "died": "—",
     "trade": "—",
     "source": "Scilla, Matrimoni 1907 atto 41, read in the original (image 23)"
-   }
-  ]
- },
- "maria-sofi": {
-  "anchor": "Maria Sofi",
-  "exportName": "Maria Sofi",
-  "ancGen": 5,
-  "up": [],
-  "down": [
-   {
-    "name": "Maria Donato",
-    "rel": "mother",
-    "gen": "4",
-    "born": "c. October 1888",
-    "died": "16 February 1891",
-    "trade": "—",
-    "source": "Scilla, Morti 1891, atto 22"
    }
   ]
  }

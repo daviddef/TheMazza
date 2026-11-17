@@ -394,6 +394,18 @@
   ]
  },
  {
+  "surname": "Sofi",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1780,
+  "last": 1780,
+  "places": [
+   "Scilla",
+   "Scilla, Reggio Calabria"
+  ]
+ },
+ {
   "surname": "Polito",
   "n": 4,
   "dead": 4,
@@ -495,18 +507,6 @@
   ]
  },
  {
-  "surname": "Sofi",
-  "n": 3,
-  "dead": 3,
-  "living": 0,
-  "first": 1780,
-  "last": 1780,
-  "places": [
-   "Scilla, Reggio Calabria",
-   "Scilla"
-  ]
- },
- {
   "surname": "Whitaker",
   "n": 3,
   "dead": 0,
@@ -594,6 +594,17 @@
   "last": 1843,
   "places": [
    "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Romano",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": 1853,
+  "last": 1853,
+  "places": [
+   "Scilla"
   ]
  },
  {
@@ -776,17 +787,6 @@
   "living": 0,
   "first": 1793,
   "last": 1813,
-  "places": [
-   "Scilla"
-  ]
- },
- {
-  "surname": "Romano",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": 1853,
-  "last": 1853,
   "places": [
    "Scilla"
   ]

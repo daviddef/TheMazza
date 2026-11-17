@@ -12494,6 +12494,23 @@
   "born": null
  },
  {
+  "name": "Domenico Sofi",
+  "head": "domenico-sofi",
+  "headId": "@Rdomenico-sofi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I123@",
+    "name": "Maria Sofi",
+    "slug": "maria-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
   "name": "Filippo Arena",
   "head": "filippo-arena-1830",
   "headId": "@Rfilippo-arena-2@",
@@ -13641,6 +13658,23 @@
    }
   ],
   "place": "Mascali",
+  "born": null
+ },
+ {
+  "name": "Santa Romano",
+  "head": "santa-romano",
+  "headId": "@Rsanta-romano@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I123@",
+    "name": "Maria Sofi",
+    "slug": "maria-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": null
  },
  {

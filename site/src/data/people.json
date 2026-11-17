@@ -8463,7 +8463,22 @@
   "sources": [],
   "photos": [],
   "photoSize": {},
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rdomenico-sofi@",
+    "name": "Domenico Sofi",
+    "slug": "domenico-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsanta-romano@",
+    "name": "Santa Romano",
+    "slug": "santa-romano",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@I258@",
@@ -8517,6 +8532,11 @@
     "href": "/scilla"
    },
    {
+    "kind": "documented addition",
+    "what": "Scilla, Matrimoni 1887, atto 56 (an_ua16595008, image 29, read in the original)",
+    "href": "/corrections"
+   },
+   {
     "kind": "documented",
     "what": "Scilla, Nati 1892, atto 162",
     "href": "/corrections"
@@ -8524,6 +8544,7 @@
   ],
   "corrections": [
    "Named twice, sixteen years and one ocean apart: as the mother in act 162 of 1892, and as 'Wife Maria Sofi, Via Grotte, Scilla' on her husband's 1908 New Orleans manifest.",
+   "MICHELE DONATO'S WIFE, AND HER PARENTS AT LAST. The tree and the 1892 birth act gave her no parents; her marriage act names them, DOMENICO SOFI and SANTA ROMANO, both living at Scilla in 1887. The groom, Michele Donato, 32, marinaio, son of Domenico and Annunziata SOFI: so Michele's mother and Maria's father carry the same surname, and the act does not say how, if at all, they were related (not asserted). Witnesses Felice Sisinni (30, civile) and Filippo Pambianco (52, pittore). The index number reads 5 but the act is number 56, the last of Parte I. Row 72 of the work list: her parents are now found, by the marriage act and not by the index.",
    "Trade -- missing entirely — FILATRICE, a spinner."
   ],
   "onSpine": true,
@@ -46589,6 +46610,58 @@
   "ancGen": null
  },
  {
+  "id": "@Rdomenico-sofi@",
+  "slug": "domenico-sofi",
+  "name": "Domenico Sofi",
+  "key": "Domenico Sofi",
+  "given": "Domenico",
+  "surname": "Sofi",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Scilla",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Matrimoni 1887, atto 56"
+  ],
+  "registerNote": "MARIA SOFI'S FATHER, husband of Santa Romano, living at Scilla in 1887. Not in the family tree. NOT the same man as Pasquale Sofi, Nunziata Sofi's father (b. c. 1780): a different given name and a generation too late. Nothing else is known of him yet; Domenico is a common name at Scilla and no other Domenico Sofi is claimed here.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@I123@",
+    "name": "Maria Sofi",
+    "slug": "maria-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": true,
+  "ancGen": 6
+ },
+ {
   "id": "@Rdomenico-ventrice@",
   "slug": "domenico-ventrice",
   "name": "Domenico Ventrice",
@@ -63510,6 +63583,58 @@
   "corrections": [],
   "onSpine": false,
   "ancGen": null
+ },
+ {
+  "id": "@Rsanta-romano@",
+  "slug": "santa-romano",
+  "name": "Santa Romano",
+  "key": "Santa Romano",
+  "given": "Santa",
+  "surname": "Romano",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Scilla",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Matrimoni 1887, atto 56"
+  ],
+  "registerNote": "MARIA SOFI'S MOTHER, wife of Domenico Sofi, living at Scilla in 1887. Not in the family tree. Romano is a Scilla family this archive has already met (Giovanna Romano, Domenica Romano, Maria Donato's mother); whether she belongs to any of them is not shown by the act.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@I123@",
+    "name": "Maria Sofi",
+    "slug": "maria-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": true,
+  "ancGen": 6
  },
  {
   "id": "@Rsanta-ungaro@",

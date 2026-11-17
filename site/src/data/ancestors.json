@@ -596,7 +596,7 @@
   {
    "gen": 6,
    "possible": 64,
-   "found": 22,
+   "found": 24,
    "people": [
     {
      "id": "@I370@",
@@ -899,6 +899,23 @@
      "comp": 1
     },
     {
+     "id": "@Rsanta-romano@",
+     "slug": "santa-romano",
+     "name": "Santa Romano",
+     "surname": "Romano",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1887, atto 56"
+     ],
+     "living": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
      "id": "@Rleonardo-russo@",
      "slug": "leonardo-russo",
      "name": "Leonardo Russo",
@@ -929,6 +946,23 @@
      "living": false,
      "birthPlace": "",
      "comp": 1
+    },
+    {
+     "id": "@Rdomenico-sofi@",
+     "slug": "domenico-sofi",
+     "name": "Domenico Sofi",
+     "surname": "Sofi",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1887, atto 56"
+     ],
+     "living": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     },
     {
      "id": "@I218@",
@@ -964,7 +998,7 @@
    "towns": [
     {
      "name": "Scilla",
-     "n": 6
+     "n": 8
     },
     {
      "name": "Briatico, Vibo Valentia, Calabria",
@@ -1853,6 +1887,6 @@
    ]
   }
  ],
- "total": 101,
+ "total": 103,
  "deepest": 10
 }
