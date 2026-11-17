@@ -4,6 +4,11 @@ import { u } from "../lib/url.js";
 import Corrections from "@daviddef/archive-kit/components/Corrections.astro";
 import corrections from "../data/corrections.json";
 import additions from "../data/additions.json";
+import people from "../data/people.json";
+import placeRows from "../data/place-rows.json";
+import placeFlags from "../data/place-flags.json";
+import { corrIdMap } from "@daviddef/archive-kit/lib/corrections.js";
+import { placeIndex } from "@daviddef/archive-kit/lib/placelinks.js";
 const allRows = corrections.groups.flatMap((g) => g.rows);
 const lev = (k) => allRows.filter((r) => r.confidence === k).length;
 /* Counted, not written down. The sentence below said "three of the twenty-seven"
@@ -19,7 +24,20 @@ const inTree = additions.filter((a) => a.inTree !== "\u2014");
    above the other instead of in two columns, because these are sentences.
    The citation travels with every line; it is the whole point of the page. */
 const esc = (t) => String(t ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;");
-const fixes = allRows.map((r) => ({
+/* WHO a correction is about: only the people this archive already publishes, from the row's own `slug`, and never a living one (people.json
+   carries `living`; the held-out are not in it at all). A row naming two people, or none, has no slug and so names nobody here. */
+const peopleList = Array.isArray(people) ? people : Object.values(people);
+const bySlug = new Map(peopleList.map((p) => [p.slug, p]));
+const aboutOf = (r) => {
+  const p = r.slug && r.slug !== "\u2014" ? bySlug.get(r.slug) : null;
+  return p && !p.living ? [["/people/" + p.slug + "/", p.name]] : [];
+};
+/* The anchors: this archive's corrections are undated, so a row's id is the hash of its headline, in FILE order (lib/corrections.js corrIdMap);
+   the rows are not sorted here, and a page with no dates keeps this order. What's new does not take these rows, so the id is for a link in. */
+const keyed = allRows.map((r) => ({ what: r.who + ": " + r.treeSays }));
+const ids = corrIdMap(keyed);
+const places = placeIndex(placeRows, placeFlags, (svg) => u("/flags/" + svg));
+const fixes = allRows.map((r, i) => ({
   who: r.slug && r.slug !== "\u2014"
     ? `<a href="${u("/people/" + r.slug)}">${esc(r.who)}</a>`
     : esc(r.who),
@@ -28,6 +46,8 @@ const fixes = allRows.map((r) => ({
   was: esc(r.treeSays),
   now: esc(r.recordSays),
   extra: r.source ? `<span class="dim">${esc(r.source)}</span>` : "",
+  id: ids.get(keyed[i]),
+  about: aboutOf(r),
 }));
 ---
 <Base title="For Michael" eyebrow={corrections.count + " things the records say differently"}
@@ -59,7 +79,7 @@ const fixes = allRows.map((r) => ({
   </section>
 
   <section class="blk">
-    <Corrections rows={fixes} u={u}
+    <Corrections rows={fixes} u={u} places={places}
       kindLabel="About" sevLabel="How well it is held" />
   </section>
 

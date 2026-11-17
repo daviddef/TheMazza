@@ -1,0 +1,453 @@
+{
+ "Scilla": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Giarre": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Briatico": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1943,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1945,
+    1946,
+    "italy-flags--era-1945.svg",
+    "Italy"
+   ],
+   [
+    1946,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Piedimonte Etneo": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Brisbane": {
+  "today": {
+   "svg": "australia-flags--era-1901.svg",
+   "label": "Australia"
+  },
+  "eras": [
+   [
+    1843,
+    1854,
+    "uk-flags--era-1801.svg",
+    "Britain and its colonies"
+   ],
+   [
+    1865,
+    1896,
+    "uk-flags--era-1801.svg",
+    "Britain and its colonies"
+   ],
+   [
+    1907,
+    1990,
+    "australia-flags--era-1901.svg",
+    "Australia"
+   ]
+  ]
+ },
+ "Riposto": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "New York": {
+  "today": {
+   "svg": "united-states-flags--era-1960.svg",
+   "label": "the United States"
+  },
+  "eras": []
+ },
+ "Mascali": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1941,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1952,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Zambrone": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1943,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1945,
+    1946,
+    "italy-flags--era-1945.svg",
+    "Italy"
+   ],
+   [
+    1946,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Pizzo": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1943,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1945,
+    1946,
+    "italy-flags--era-1945.svg",
+    "Italy"
+   ],
+   [
+    1946,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Buenos Aires": {
+  "today": {
+   "svg": "argentina-flags--era-1861.svg",
+   "label": "Argentina"
+  },
+  "eras": []
+ },
+ "Italy": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": []
+ },
+ "Potenzoni (Briatico)": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1943,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1945,
+    1946,
+    "italy-flags--era-1945.svg",
+    "Italy"
+   ],
+   [
+    1946,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Sydney": {
+  "today": {
+   "svg": "australia-flags--era-1901.svg",
+   "label": "Australia"
+  },
+  "eras": []
+ },
+ "Melbourne": {
+  "today": {
+   "svg": "australia-flags--era-1901.svg",
+   "label": "Australia"
+  },
+  "eras": []
+ },
+ "Palermo": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": []
+ },
+ "Sicily": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": []
+ },
+ "Austria": {
+  "today": {
+   "svg": "austria-flags--era-1955.svg",
+   "label": "Austria"
+  },
+  "eras": []
+ },
+ "Naples": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": []
+ },
+ "Queensland": {
+  "today": {
+   "svg": "australia-flags--era-1901.svg",
+   "label": "Australia"
+  },
+  "eras": [
+   [
+    1843,
+    1854,
+    "uk-flags--era-1801.svg",
+    "Britain and its colonies"
+   ],
+   [
+    1865,
+    1896,
+    "uk-flags--era-1801.svg",
+    "Britain and its colonies"
+   ],
+   [
+    1907,
+    1990,
+    "australia-flags--era-1901.svg",
+    "Australia"
+   ]
+  ]
+ },
+ "Reggio Calabria": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": []
+ },
+ "Messina": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": []
+ },
+ "Mandaradoni (Briatico)": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1943,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1945,
+    1946,
+    "italy-flags--era-1945.svg",
+    "Italy"
+   ],
+   [
+    1946,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ },
+ "Potenzioni": {
+  "today": {
+   "svg": "italy-flags--era-1946.svg",
+   "label": "Italy"
+  },
+  "eras": [
+   [
+    1867,
+    1922,
+    "italy-flags--era-1861.svg",
+    "Italy"
+   ],
+   [
+    1922,
+    1943,
+    "italy-flags--era-1922.svg",
+    "Italy"
+   ],
+   [
+    1945,
+    1946,
+    "italy-flags--era-1945.svg",
+    "Italy"
+   ],
+   [
+    1946,
+    1990,
+    "italy-flags--era-1946.svg",
+    "Italy"
+   ]
+  ]
+ }
+}
