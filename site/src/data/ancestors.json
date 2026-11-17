@@ -903,13 +903,13 @@
      "slug": "santa-romano",
      "name": "Santa Romano",
      "surname": "Romano",
-     "born": null,
+     "born": 1831,
      "died": null,
-     "bornText": "",
+     "bornText": "c. 1831",
      "diedText": "",
      "fromRegister": true,
      "registerSources": [
-      "Scilla, Matrimoni 1887, atto 56"
+      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
      ],
      "living": false,
      "birthPlace": "Scilla",
@@ -952,13 +952,13 @@
      "slug": "domenico-sofi",
      "name": "Domenico Sofi",
      "surname": "Sofi",
-     "born": null,
+     "born": 1827,
      "died": null,
-     "bornText": "",
+     "bornText": "c. 1827",
      "diedText": "",
      "fromRegister": true,
      "registerSources": [
-      "Scilla, Matrimoni 1887, atto 56"
+      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
      ],
      "living": false,
      "birthPlace": "Scilla",
@@ -1029,7 +1029,7 @@
   {
    "gen": 7,
    "possible": 128,
-   "found": 20,
+   "found": 22,
    "people": [
     {
      "id": "@I375@",
@@ -1301,6 +1301,23 @@
      "comp": 0
     },
     {
+     "id": "@Rconcetta-pontello@",
+     "slug": "concetta-pontello",
+     "name": "Concetta Pontello",
+     "surname": "Pontello",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+     ],
+     "living": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
      "id": "@I219@",
      "slug": "antonino-prostamo-1785",
      "name": "Antonino Prostamo",
@@ -1331,6 +1348,23 @@
      ],
      "living": false,
      "birthPlace": "Piedimonte Etneo",
+     "comp": 0
+    },
+    {
+     "id": "@Rdomenico-romano@",
+     "slug": "domenico-romano",
+     "name": "Domenico Romano",
+     "surname": "Romano",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+     ],
+     "living": false,
+     "birthPlace": "Scilla",
      "comp": 0
     },
     {
@@ -1373,7 +1407,7 @@
    "towns": [
     {
      "name": "Scilla",
-     "n": 8
+     "n": 10
     },
     {
      "name": "Briatico, Vibo Valentia, Calabria",
@@ -1887,6 +1921,6 @@
    ]
   }
  ],
- "total": 103,
+ "total": 105,
  "deepest": 10
 }

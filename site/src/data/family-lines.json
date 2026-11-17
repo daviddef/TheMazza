@@ -824,22 +824,36 @@
      "spousePerson": "maria-de-amico"
     },
     {
-     "name": "Annunziata Sofi",
-     "years": "",
-     "origin": "place not known",
-     "originGrade": "lore",
-     "spouse": "Domenico Donato",
-     "spouseOrigin": "place not known",
+     "name": "Domenico Sofi",
+     "years": "b. c. 1827",
+     "origin": "Scilla",
+     "originGrade": "doc",
+     "spouse": "Santa Romano",
+     "spouseOrigin": "of Scilla",
      "atPlace": "",
      "atYear": "",
      "living": false,
-     "person": "annunziata-sofi",
-     "title": "Annunziata Sofi: no date and no place in the archive",
-     "spousePerson": "domenico-donato-2"
+     "person": "domenico-sofi",
+     "title": "Domenico Sofi: born Scilla c. 1827",
+     "spousePerson": "santa-romano"
+    },
+    {
+     "name": "Maria Sofi",
+     "years": "",
+     "origin": "Scilla",
+     "originGrade": "lore",
+     "spouse": "Michele Donato",
+     "spouseOrigin": "of Scilla",
+     "atPlace": "",
+     "atYear": "",
+     "living": false,
+     "person": "maria-sofi",
+     "title": "Maria Sofi: born Scilla",
+     "spousePerson": "michele-donato"
     }
    ],
    "notConnected": {
-    "why": "No Sofi married a man of the Mazza name line or was a parent of one or of his wife: the Sofi come into the children's descent through Angela Polistena, whose side meets that line only in its living generations. Annunziata Sofi is the mother of Michele Donato, the father of Nunnziata Donato, the mother of Angela Polistena."
+    "why": "No Sofi married a man of the Mazza name line or was a parent of one or of his wife: the Sofi come into the children's descent through Angela Polistena, whose side meets that line only in its living generations. Maria Sofi is the mother of Nunnziata Donato, the mother of Angela Polistena."
    }
   },
   {

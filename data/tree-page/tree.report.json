@@ -1,11 +1,11 @@
 {
- "individuals": 873,
- "kept": 635,
+ "individuals": 881,
+ "kept": 643,
  "living": 209,
  "living_policy": "omit",
  "undated_dropped": 40,
- "birth_year_estimated": 308,
- "death_year_estimated": 469,
+ "birth_year_estimated": 312,
+ "death_year_estimated": 477,
  "placed_from_relative": 55,
  "dropped_unplaced": 18,
  "unresolved_places": {
@@ -46,9 +46,9 @@
   }
  },
  "people_json": {
-  "in_file": 1005,
+  "in_file": 1013,
   "living_not_read": 132,
-  "not_living_read": 873
+  "not_living_read": 881
  },
  "canvas_extras": {
   "undrawn_detailed": 25,

@@ -1,15 +1,15 @@
 {
  "exported": 614,
- "people": 1005,
+ "people": 1013,
  "duplicates": 14,
  "unresolvedNames": 50,
  "livingRule": "80 or younger by year, no death or burial recorded",
  "living": 132,
  "heldOut": 25,
- "written": 873,
+ "written": 881,
  "withDeath": 190,
  "ageThreshold": 80,
- "deceased": 873,
+ "deceased": 881,
  "families": 212,
  "sources": 39,
  "components": [
@@ -27,11 +27,11 @@
  "photos": 56,
  "photosHeld": 82,
  "earliest": 1697,
- "noDeathRecord": 594,
+ "noDeathRecord": 602,
  "places": 54,
- "surnames": 206,
+ "surnames": 209,
  "crossings": 20,
  "burials": 20,
- "households": 457,
+ "households": 463,
  "nudgee": 13
 }

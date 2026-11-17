@@ -1718,18 +1718,80 @@
           ]
         },
         {
-          "name": "Annunziata Sofi",
-          "years": "",
-          "origin": "place not known",
-          "originGrade": "lore",
-          "spouse": "Domenico Donato",
-          "spouseOrigin": "place not known",
+          "name": "Domenico Sofi",
+          "years": "b. c. 1827",
+          "origin": "Scilla",
+          "originGrade": "doc",
+          "spouse": "Santa Romano",
+          "spouseOrigin": "of Scilla",
           "atPlace": "",
           "atYear": "",
           "living": false,
-          "person": "annunziata-sofi",
-          "title": "Annunziata Sofi: no date and no place in the archive",
-          "spousePerson": "domenico-donato-2"
+          "person": "domenico-sofi",
+          "title": "Domenico Sofi: born Scilla c. 1827",
+          "spousePerson": "santa-romano",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "doc"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "doc"
+            }
+          ]
+        },
+        {
+          "name": "Maria Sofi",
+          "years": "",
+          "origin": "Scilla",
+          "originGrade": "lore",
+          "spouse": "Michele Donato",
+          "spouseOrigin": "of Scilla",
+          "atPlace": "",
+          "atYear": "",
+          "living": false,
+          "person": "maria-sofi",
+          "title": "Maria Sofi: born Scilla",
+          "spousePerson": "michele-donato",
+          "flags": [
+            {
+              "kind": "today",
+              "line": "from",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "from Scilla: Italy today",
+              "grade": "lore"
+            },
+            {
+              "kind": "today",
+              "line": "spouse",
+              "place": "Scilla",
+              "svg": "italy-flags--era-1946.svg",
+              "flag": "italy-flags--era-1946",
+              "country": "IT",
+              "year": null,
+              "label": "spouse of Scilla: Italy today",
+              "grade": "lore"
+            }
+          ]
         }
       ]
     },

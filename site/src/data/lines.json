@@ -282,15 +282,17 @@
     "pasquale-sofi",
     "marta-paladino",
     "maria-de-amico",
+    "domenico-sofi",
+    "santa-romano",
     "giovanni-polistena",
     "annunziata-sofi",
     "antonio-polistena-2",
-    "domenico-sofi",
+    "concetta-pontello",
+    "domenico-romano",
     "giovanna-pontillo",
     "giuseppi-pontillo",
     "maria-sofi",
-    "nunziatta-pontillo",
-    "santa-romano"
+    "nunziatta-pontillo"
    ],
    "nodes": [
     {
@@ -337,7 +339,7 @@
    "id": "register-alone",
    "kind": "not-yet-placed",
    "head": "Proved by a register, in groups joined to nothing",
-   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 87 small groups, 51 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
+   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 89 small groups, 51 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
    "members": [
     "agostino-nicotra",
     "alfia-cannavò",
@@ -371,12 +373,14 @@
     "anna-pappa",
     "anna-polito-1825",
     "anna-pontillo",
+    "anna-di-gaetano",
     "annunziata-polistina",
     "annunziato-romano",
     "antonia-arena",
     "antonia-musolino",
     "antonia-votano",
     "antonina-nicotra-1860",
+    "antonino-anile",
     "antonino-comerci",
     "antonino-crupi",
     "antonino-mannella",
@@ -389,11 +393,13 @@
     "arcangelo-comerci",
     "candeloro-donato-1847",
     "carlo-arena",
+    "carmela-collia-1818",
     "carmela-maria-borello",
     "carmela-nicotra",
     "carmela-nicotra-1820",
     "carmela-nicotra-1857",
     "carmelo-tomarchio",
+    "catarina-capucetti",
     "catarina-tomarchio",
     "caterina-cichello",
     "caterina-comerci",
@@ -431,6 +437,7 @@
     "francesco-barbagallo",
     "francesco-catalano",
     "francesco-cichello",
+    "francesco-collia",
     "francesco-comerci",
     "francesco-comerci-1827",
     "francesco-crupi",
@@ -442,6 +449,7 @@
     "francesco-ventrice",
     "francesco-ventrice-1825",
     "francesco-ventrice-1830",
+    "gaetano-anile",
     "gaetano-bonanno",
     "gaetano-mazza",
     "gaetano-nicotra",
@@ -607,7 +615,7 @@
     "vito-nicotra",
     "vittoria-mollo"
    ],
-   "count": 267
+   "count": 273
   },
   {
    "id": "tree-only",

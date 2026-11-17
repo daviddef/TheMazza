@@ -8544,7 +8544,7 @@
   ],
   "corrections": [
    "Named twice, sixteen years and one ocean apart: as the mother in act 162 of 1892, and as 'Wife Maria Sofi, Via Grotte, Scilla' on her husband's 1908 New Orleans manifest.",
-   "MICHELE DONATO'S WIFE, AND HER PARENTS AT LAST. The tree and the 1892 birth act gave her no parents; her marriage act names them, DOMENICO SOFI and SANTA ROMANO, both living at Scilla in 1887. The groom, Michele Donato, 32, marinaio, son of Domenico and Annunziata SOFI: so Michele's mother and Maria's father carry the same surname, and the act does not say how, if at all, they were related (not asserted). Witnesses Felice Sisinni (30, civile) and Filippo Pambianco (52, pittore). The index number reads 5 but the act is number 56, the last of Parte I. Row 72 of the work list: her parents are now found, by the marriage act and not by the index.",
+   "MICHELE DONATO'S WIFE, AND HER PARENTS AT LAST. The tree and the 1892 birth act gave her no parents; her marriage act names them, DOMENICO SOFI and SANTA ROMANO, both living at Scilla in 1887. The groom, Michele Donato, 32, marinaio, son of Domenico and Annunziata SOFI. HER PARENTS' OWN MARRIAGE, found the same day: Domenico Sofi (son of Pasquale Sofi and Maria D'Amico) married Santa Romano at Scilla on 10 September 1855, so Maria's father is the BROTHER of Michele's mother Nunziata Sofi and Maria and Michele were FIRST COUSINS. Witnesses Felice Sisinni (30, civile) and Filippo Pambianco (52, pittore). The index number reads 5 but the act is number 56, the last of Parte I. Row 72 of the work list: her parents are now found, by the marriage act and not by the index.",
    "Trade -- missing entirely — FILATRICE, a spinner."
   ],
   "onSpine": true,
@@ -41900,6 +41900,58 @@
   "ancGen": null
  },
  {
+  "id": "@Ranna-di-gaetano@",
+  "slug": "anna-di-gaetano",
+  "name": "Anna di Gaetano",
+  "key": "Anna di Gaetano",
+  "given": "Anna",
+  "surname": "di Gaetano",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Zambrone",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Zambrone, Matrimoni 1836, atto 2 (an_ua37928578, image 99, read in the original)"
+  ],
+  "registerNote": "Mother of Antonino Anile (m. 1836). The act writes «Anna di Gaetano»; whether the second word is her surname or a repeated patronymic is not settled at the image.",
+  "registerGen": "8",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rantonino-anile@",
+    "name": "Antonino Anile",
+    "slug": "antonino-anile",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rannunziata-polistina@",
   "slug": "annunziata-polistina",
   "name": "Annunziata Polistina",
@@ -42334,6 +42386,65 @@
     "id": "@Rvenera-finocchiaro@",
     "name": "Venera Finocchiaro",
     "slug": "venera-finocchiaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rantonino-anile@",
+  "slug": "antonino-anile",
+  "name": "Antonino Anile",
+  "key": "Antonino Anile (m. 1836)",
+  "given": "Antonino",
+  "surname": "Anile",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1812,
+  "died": null,
+  "bornText": "c. 1812, at Mandaradoni",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1812, at Mandaradoni",
+    "year": 1812,
+    "place": "Zambrone",
+    "text": "c. 1812, at Mandaradoni"
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "massaro (farmer)",
+  "sources": [],
+  "registerSources": [
+   "Zambrone, Matrimoni 1836, atto 2 (an_ua37928578, image 99, read in the original)"
+  ],
+  "registerNote": "A CANDIDATE FOR THE TREE'S ANTONIO ANILE (Briatico), and NOT YET JOINED TO HIM. Antonio Anile and CARMELA COLLIA are the parents the family tree gives Francesco Anile (b. about 1843 at Potenzoni, Briatico), and this act marries an ANTONINO ANILE to a CARMELA COLLIA seven years earlier, at Zambrone, with the first-born Fortunato b. 1838 in the tree fitting the date. Collia is a rare name, so the match is strong. BUT THE PARENTS DISAGREE: the act names the groom's parents as GAETANO (a massaro) and ANNA «di Gaetano» (the surname after the name is read doubtfully), where the tree gives Antonio's parents as Fortunato Anile and Antonia Grasso. Either the tree has the wrong parents or there were two couples. A birth act of one of their children (Briatico Nati or Zambrone Nati, 1837-50) naming BOTH parents would join them or part them; until then they are two entries. Witnesses of the promise: Giuseppe Morello, Francesco Collia, Domenico Pulicari and Gioacchino Trasopoli; the church certificate is witnessed by an Andrea Sambiasi and a Gaetano (surname unread).",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgaetano-anile@",
+    "name": "Gaetano Anile",
+    "slug": "gaetano-anile",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ranna-di-gaetano@",
+    "name": "Anna di Gaetano",
+    "slug": "anna-di-gaetano",
     "living": false,
     "via": "read"
    }
@@ -43706,6 +43817,65 @@
   "ancGen": 7
  },
  {
+  "id": "@Rcarmela-collia@",
+  "slug": "carmela-collia-1818",
+  "name": "Carmela Collia",
+  "key": "Carmela Collia (m. 1836)",
+  "given": "Carmela",
+  "surname": "Collia",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1818,
+  "died": null,
+  "bornText": "c. 1818, at Zambrone",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1818, at Zambrone",
+    "year": 1818,
+    "place": "Zambrone",
+    "text": "c. 1818, at Zambrone"
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Zambrone, Matrimoni 1836, atto 2 (an_ua37928578, image 99, read in the original)"
+  ],
+  "registerNote": "A CANDIDATE FOR THE TREE'S CARMELA COLLIA, Antonio Anile's wife (see Antonino Anile, m. 1836, for the whole argument and why they are not yet joined). Her father Francesco was dead in June 1836. The tree has her born at Briatico; this act has her born at Zambrone. Her mother's surname is read «Capucetti» with doubt.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rfrancesco-collia@",
+    "name": "Francesco Collia",
+    "slug": "francesco-collia",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcatarina-capucetti@",
+    "name": "Catarina Capucetti",
+    "slug": "catarina-capucetti",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rcarmela-maria-borello@",
   "slug": "carmela-maria-borello",
   "name": "Carmela Maria Borello",
@@ -44083,6 +44253,58 @@
   "photos": [],
   "parents": [],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rcatarina-capucetti@",
+  "slug": "catarina-capucetti",
+  "name": "Catarina Capucetti",
+  "key": "Catarina Capucetti",
+  "given": "Catarina",
+  "surname": "Capucetti",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Zambrone",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Zambrone, Matrimoni 1836, atto 2 (an_ua37928578, image 99, read in the original)"
+  ],
+  "registerNote": "Mother of Carmela Collia (m. 1836). The surname is read Capucetti with doubt (it may be Capuccetti or Capocetti).",
+  "registerGen": "8",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rcarmela-collia@",
+    "name": "Carmela Collia",
+    "slug": "carmela-collia-1818",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -45117,6 +45339,58 @@
   "corrections": [],
   "onSpine": false,
   "ancGen": null
+ },
+ {
+  "id": "@Rconcetta-pontello@",
+  "slug": "concetta-pontello",
+  "name": "Concetta Pontello",
+  "key": "Concetta Pontello",
+  "given": "Concetta",
+  "surname": "Pontello",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Scilla",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+  ],
+  "registerNote": "Mother of Santa Romano, who married Domenico Sofi in 1855; the surname is read Pontello at the image (the Pontillo of this archive's other pages is a candidate for the same family, not asserted). Not in the family tree.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rsanta-romano@",
+    "name": "Santa Romano",
+    "slug": "santa-romano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": true,
+  "ancGen": 7
  },
  {
   "id": "@Rconcetta-russo@",
@@ -46610,12 +46884,12 @@
   "ancGen": null
  },
  {
-  "id": "@Rdomenico-sofi@",
-  "slug": "domenico-sofi",
-  "name": "Domenico Sofi",
-  "key": "Domenico Sofi",
+  "id": "@Rdomenico-romano@",
+  "slug": "domenico-romano",
+  "name": "Domenico Romano",
+  "key": "Domenico Romano",
   "given": "Domenico",
-  "surname": "Sofi",
+  "surname": "Romano",
   "sex": "M",
   "living": false,
   "fromRegister": true,
@@ -46639,12 +46913,79 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Scilla, Matrimoni 1887, atto 56"
+   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
   ],
-  "registerNote": "MARIA SOFI'S FATHER, husband of Santa Romano, living at Scilla in 1887. Not in the family tree. NOT the same man as Pasquale Sofi, Nunziata Sofi's father (b. c. 1780): a different given name and a generation too late. Nothing else is known of him yet; Domenico is a common name at Scilla and no other Domenico Sofi is claimed here.",
-  "registerGen": "6",
+  "registerNote": "Father of Santa Romano (b. c. 1831), who married Domenico Sofi; dead by July 1855. Not in the family tree. Nothing else is known of him.",
+  "registerGen": "7",
   "photos": [],
   "parents": [],
+  "children": [
+   {
+    "id": "@Rsanta-romano@",
+    "name": "Santa Romano",
+    "slug": "santa-romano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": true,
+  "ancGen": 7
+ },
+ {
+  "id": "@Rdomenico-sofi@",
+  "slug": "domenico-sofi",
+  "name": "Domenico Sofi",
+  "key": "Domenico Sofi",
+  "given": "Domenico",
+  "surname": "Sofi",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": 1827,
+  "died": null,
+  "bornText": "c. 1827",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1827",
+    "year": 1827,
+    "place": "Scilla",
+    "text": "c. 1827"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "marinaro (sailor)",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
+  ],
+  "registerNote": "MARIA SOFI'S FATHER, AND MICHELE DONATO'S MOTHER'S BROTHER. His own marriage act of 1855 names his parents PASQUALE SOFI (a marinaro, alive in 1855) and MARIA D'AMICO, the very pair the 1844 marriage papers name as the parents of Nunziata Sofi, Michele Donato's mother. So Domenico is Nunziata's brother, and MICHELE DONATO MARRIED HIS FIRST COUSIN, Domenico's daughter Maria. He married Santa Romano on 10 September 1855 (the promise was made on 6 July). NOT the Domenico Sofi who married Angela Violante in 1862 (son of the late Bruno and Giuseppa Buetto), a different man, nor the Domenico Sofi of 1872 (Brigante). Not in the family tree.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-sofi@",
+    "name": "Pasquale Sofi",
+    "slug": "pasquale-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-de-amico@",
+    "name": "Maria de Amico",
+    "slug": "maria-de-amico",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@I123@",
@@ -47921,6 +48262,58 @@
   "ancGen": null
  },
  {
+  "id": "@Rfrancesco-collia@",
+  "slug": "francesco-collia",
+  "name": "Francesco Collia",
+  "key": "Francesco Collia",
+  "given": "Francesco",
+  "surname": "Collia",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Zambrone",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Zambrone, Matrimoni 1836, atto 2 (an_ua37928578, image 99, read in the original)"
+  ],
+  "registerNote": "Father of Carmela Collia (m. 1836), dead by 8 June 1836. The act does not say he is the same man as the witness Francesco Collia, who is more likely a namesake relative.",
+  "registerGen": "8",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rcarmela-collia@",
+    "name": "Carmela Collia",
+    "slug": "carmela-collia-1818",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rfrancesco-comerci@",
   "slug": "francesco-comerci",
   "name": "Francesco Comerci",
@@ -48614,6 +49007,58 @@
    }
   ],
   "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rgaetano-anile@",
+  "slug": "gaetano-anile",
+  "name": "Gaetano Anile",
+  "key": "Gaetano Anile",
+  "given": "Gaetano",
+  "surname": "Anile",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Zambrone",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "massaro (farmer)",
+  "sources": [],
+  "registerSources": [
+   "Zambrone, Matrimoni 1836, atto 2 (an_ua37928578, image 99, read in the original)"
+  ],
+  "registerNote": "Father of Antonino Anile (m. 1836), living at Mandaradoni in June 1836. Not in the family tree, which gives the tree's Antonio Anile a father called Fortunato; see the note on Antonino Anile.",
+  "registerGen": "8",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rantonino-anile@",
+    "name": "Antonino Anile",
+    "slug": "antonino-anile",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -56916,6 +57361,13 @@
     "slug": "annunziata-sofi",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rdomenico-sofi@",
+    "name": "Domenico Sofi",
+    "slug": "domenico-sofi",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -58696,6 +59148,13 @@
     "id": "@I356@",
     "name": "Annunziata Sofi",
     "slug": "annunziata-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-sofi@",
+    "name": "Domenico Sofi",
+    "slug": "domenico-sofi",
     "living": false,
     "via": "read"
    }
@@ -63594,18 +64053,18 @@
   "sex": "F",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1831,
   "died": null,
-  "bornText": "",
+  "bornText": "c. 1831",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "c. 1831",
+    "year": 1831,
     "place": "Scilla",
-    "text": ""
+    "text": "c. 1831"
    }
   ],
   "birthPlace": "Scilla",
@@ -63614,12 +64073,27 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Scilla, Matrimoni 1887, atto 56"
+   "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)"
   ],
-  "registerNote": "MARIA SOFI'S MOTHER, wife of Domenico Sofi, living at Scilla in 1887. Not in the family tree. Romano is a Scilla family this archive has already met (Giovanna Romano, Domenica Romano, Maria Donato's mother); whether she belongs to any of them is not shown by the act.",
+  "registerNote": "MARIA SOFI'S MOTHER. Married Domenico Sofi, son of Pasquale Sofi and Maria D'Amico, on 10 September 1855 at Scilla; her father Domenico Romano was dead by July 1855 and her mother Concetta Pontello (the surname read Pontello, which may be the family this archive writes Pontillo) was alive and present at the promise. She and her mother could not write, as the act says of the parents. Not in the family tree. A different Santa Romano married Rocco Scarfone in February 1852 (a daughter of Rocco and Natalina), and a Santa Romano married a Domenico whose surname is unreadable in 1850 (daughter of the late Cosimo): neither is she.",
   "registerGen": "6",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rdomenico-romano@",
+    "name": "Domenico Romano",
+    "slug": "domenico-romano",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-pontello@",
+    "name": "Concetta Pontello",
+    "slug": "concetta-pontello",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@I123@",

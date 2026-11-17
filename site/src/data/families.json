@@ -122,6 +122,19 @@
   ]
  },
  {
+  "surname": "Anile",
+  "n": 14,
+  "dead": 14,
+  "living": 0,
+  "first": 1812,
+  "last": 1980,
+  "places": [
+   "Briatico, Vibo Valentia, Calabria",
+   "Potenzoni (Briatico), Vibo Valentia, Calabria",
+   "Zambrone"
+  ]
+ },
+ {
   "surname": "Bova",
   "n": 13,
   "dead": 11,
@@ -130,18 +143,6 @@
   "last": 2000,
   "places": [
    "Scilla, Reggio Calabria"
-  ]
- },
- {
-  "surname": "Anile",
-  "n": 12,
-  "dead": 12,
-  "living": 0,
-  "first": 1838,
-  "last": 1980,
-  "places": [
-   "Briatico, Vibo Valentia, Calabria",
-   "Potenzoni (Briatico), Vibo Valentia, Calabria"
   ]
  },
  {
@@ -399,7 +400,7 @@
   "dead": 4,
   "living": 0,
   "first": 1780,
-  "last": 1780,
+  "last": 1827,
   "places": [
    "Scilla",
    "Scilla, Reggio Calabria"
@@ -440,6 +441,17 @@
   "places": [
    "Piedimonte Etneo",
    "Giarre"
+  ]
+ },
+ {
+  "surname": "Romano",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": 1831,
+  "last": 1853,
+  "places": [
+   "Scilla"
   ]
  },
  {
@@ -565,6 +577,18 @@
   "places": []
  },
  {
+  "surname": "Collia",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": 1818,
+  "last": 1818,
+  "places": [
+   "Zambrone",
+   "Briatico, Vibo Valentia, Calabria"
+  ]
+ },
+ {
   "surname": "Scura",
   "n": 3,
   "dead": 3,
@@ -594,17 +618,6 @@
   "last": 1843,
   "places": [
    "Piedimonte Etneo"
-  ]
- },
- {
-  "surname": "Romano",
-  "n": 3,
-  "dead": 3,
-  "living": 0,
-  "first": 1853,
-  "last": 1853,
-  "places": [
-   "Scilla"
   ]
  },
  {
@@ -1464,17 +1477,6 @@
   "places": []
  },
  {
-  "surname": "Collia",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Briatico, Vibo Valentia, Calabria"
-  ]
- },
- {
   "surname": "Birroca",
   "n": 1,
   "dead": 1,
@@ -1754,6 +1756,17 @@
   ]
  },
  {
+  "surname": "di Gaetano",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Zambrone"
+  ]
+ },
+ {
   "surname": "Bonaventura",
   "n": 1,
   "dead": 1,
@@ -1776,6 +1789,17 @@
   ]
  },
  {
+  "surname": "Capucetti",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Zambrone"
+  ]
+ },
+ {
   "surname": "Majo",
   "n": 1,
   "dead": 1,
@@ -1795,6 +1819,17 @@
   "last": 1827,
   "places": [
    "Giarre"
+  ]
+ },
+ {
+  "surname": "Pontello",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
   ]
  },
  {

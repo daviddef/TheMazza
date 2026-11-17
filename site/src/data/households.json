@@ -767,6 +767,13 @@
     "slug": "annunziata-sofi",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rdomenico-sofi@",
+    "name": "Domenico Sofi",
+    "slug": "domenico-sofi",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Scilla",
@@ -1251,6 +1258,13 @@
     "id": "@I356@",
     "name": "Annunziata Sofi",
     "slug": "annunziata-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-sofi@",
+    "name": "Domenico Sofi",
+    "slug": "domenico-sofi",
     "living": false,
     "via": "read"
    }
@@ -3019,6 +3033,23 @@
   "born": 1827
  },
  {
+  "name": "Domenico Sofi",
+  "head": "domenico-sofi",
+  "headId": "@Rdomenico-sofi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I123@",
+    "name": "Maria Sofi",
+    "slug": "maria-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1827
+ },
+ {
   "name": "Filippo Nicotra",
   "head": "filippo-nicotra",
   "headId": "@Rfilippo-nicotra@",
@@ -3408,6 +3439,23 @@
    }
   ],
   "place": "Piedimonte Etneo",
+  "born": 1831
+ },
+ {
+  "name": "Santa Romano",
+  "head": "santa-romano",
+  "headId": "@Rsanta-romano@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I123@",
+    "name": "Maria Sofi",
+    "slug": "maria-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": 1831
  },
  {
@@ -12182,6 +12230,23 @@
   "born": null
  },
  {
+  "name": "Anna di Gaetano",
+  "head": "anna-di-gaetano",
+  "headId": "@Ranna-di-gaetano@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rantonino-anile@",
+    "name": "Antonino Anile",
+    "slug": "antonino-anile",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": null
+ },
+ {
   "name": "Antonia Sapienza",
   "head": "antonia-sapienza",
   "headId": "@Rantonia-sapienza@",
@@ -12284,6 +12349,23 @@
   "born": null
  },
  {
+  "name": "Catarina Capucetti",
+  "head": "catarina-capucetti",
+  "headId": "@Rcatarina-capucetti@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rcarmela-collia@",
+    "name": "Carmela Collia",
+    "slug": "carmela-collia-1818",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": null
+ },
+ {
   "name": "Caterina Polito",
   "head": "caterina-polito",
   "headId": "@Rcaterina-polito@",
@@ -12357,6 +12439,23 @@
    }
   ],
   "place": "Piedimonte Etneo",
+  "born": null
+ },
+ {
+  "name": "Concetta Pontello",
+  "head": "concetta-pontello",
+  "headId": "@Rconcetta-pontello@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rsanta-romano@",
+    "name": "Santa Romano",
+    "slug": "santa-romano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": null
  },
  {
@@ -12494,15 +12593,15 @@
   "born": null
  },
  {
-  "name": "Domenico Sofi",
-  "head": "domenico-sofi",
-  "headId": "@Rdomenico-sofi@",
+  "name": "Domenico Romano",
+  "head": "domenico-romano",
+  "headId": "@Rdomenico-romano@",
   "spouse": null,
   "children": [
    {
-    "id": "@I123@",
-    "name": "Maria Sofi",
-    "slug": "maria-sofi",
+    "id": "@Rsanta-romano@",
+    "name": "Santa Romano",
+    "slug": "santa-romano",
     "living": false,
     "via": "read"
    }
@@ -12561,6 +12660,23 @@
     "id": "@Rcaterina-cichello@",
     "name": "Caterina Cichello",
     "slug": "caterina-cichello",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": null
+ },
+ {
+  "name": "Francesco Collia",
+  "head": "francesco-collia",
+  "headId": "@Rfrancesco-collia@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rcarmela-collia@",
+    "name": "Carmela Collia",
+    "slug": "carmela-collia-1818",
     "living": false,
     "via": "read"
    }
@@ -12652,6 +12768,23 @@
    }
   ],
   "place": "Giarre",
+  "born": null
+ },
+ {
+  "name": "Gaetano Anile",
+  "head": "gaetano-anile",
+  "headId": "@Rgaetano-anile@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rantonino-anile@",
+    "name": "Antonino Anile",
+    "slug": "antonino-anile",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
   "born": null
  },
  {
@@ -13658,23 +13791,6 @@
    }
   ],
   "place": "Mascali",
-  "born": null
- },
- {
-  "name": "Santa Romano",
-  "head": "santa-romano",
-  "headId": "@Rsanta-romano@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@I123@",
-    "name": "Maria Sofi",
-    "slug": "maria-sofi",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Scilla",
   "born": null
  },
  {

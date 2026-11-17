@@ -631,22 +631,66 @@
     "rel": "father",
     "depth": 1,
     "gen": "6",
-    "born": "—",
+    "born": "c. 1827",
+    "died": "—",
+    "trade": "marinaro (sailor)",
+    "source": "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+    "note": "MARIA SOFI'S FATHER, AND MICHELE DONATO'S MOTHER'S BROTHER. His own marriage act of 1855 names his parents PASQUALE SOFI (a marinaro, alive in 1855) and MARIA D'AMICO, the very pair the 1844 marriage papers name as the parents of Nunziata Sofi, Michele Donato's mother. So Domenico is Nunziata's brother, and MICHELE DONATO MARRIED HIS FIRST COUSIN, Domenico's daughter Maria. He married Santa Romano on 10 September 1855 (the promise was made on 6 July). NOT the Domenico Sofi who married Angela Violante in 1862 (son of the late Bruno and Giuseppa Buetto), a different man, nor the Domenico Sofi of 1872 (Brigante). Not in the family tree."
+   },
+   {
+    "name": "Pasquale Sofi",
+    "rel": "father of Domenico Sofi",
+    "depth": 2,
+    "gen": "7",
+    "born": "c. 1780",
+    "died": "alive at Scilla, July 1844",
+    "trade": "marinaro (sailor)",
+    "source": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129)",
+    "note": "NUNZIATA SOFI'S FATHER, and a sailor like the Donato men he married into. Alive in July 1844: his daughter's marriage bundle holds no death certificate for him. Not in the family tree."
+   },
+   {
+    "name": "Maria de Amico",
+    "rel": "mother of Domenico Sofi",
+    "depth": 2,
+    "gen": "7",
+    "born": "c. 1793",
     "died": "—",
     "trade": "—",
-    "source": "Scilla, Matrimoni 1887, atto 56",
-    "note": "MARIA SOFI'S FATHER, husband of Santa Romano, living at Scilla in 1887. Not in the family tree. NOT the same man as Pasquale Sofi, Nunziata Sofi's father (b. c. 1780): a different given name and a generation too late. Nothing else is known of him yet; Domenico is a common name at Scilla and no other Domenico Sofi is claimed here."
+    "source": "Scilla, Matrimoni processetti 1842-1845, fascicolo 20 (Nati 1816 atto 207; Nati 1818 atto 129); Matrimoni 1844, Tavola entry 17",
+    "note": "Nunziata Sofi's mother. Not in the family tree. HER NAME IS CONFIRMED TWICE, by her daughter's birth act of 1818 and by the 1844 Tavola independently, which is why the Tavola's reading of the OTHER mother in the same entry is a question rather than a verdict -- see [[Marta Paladino]]. NOTE A COINCIDENCE, NOT A JOIN: the Michele Donato of act 31 of 1845 married an ANGELA DE AMICO. De Amico is common at Scilla and nothing yet connects the two women."
    },
    {
     "name": "Santa Romano",
     "rel": "mother",
     "depth": 1,
     "gen": "6",
+    "born": "c. 1831",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+    "note": "MARIA SOFI'S MOTHER. Married Domenico Sofi, son of Pasquale Sofi and Maria D'Amico, on 10 September 1855 at Scilla; her father Domenico Romano was dead by July 1855 and her mother Concetta Pontello (the surname read Pontello, which may be the family this archive writes Pontillo) was alive and present at the promise. She and her mother could not write, as the act says of the parents. Not in the family tree. A different Santa Romano married Rocco Scarfone in February 1852 (a daughter of Rocco and Natalina), and a Santa Romano married a Domenico whose surname is unreadable in 1850 (daughter of the late Cosimo): neither is she."
+   },
+   {
+    "name": "Domenico Romano",
+    "rel": "father of Santa Romano",
+    "depth": 2,
+    "gen": "7",
     "born": "—",
     "died": "—",
     "trade": "—",
-    "source": "Scilla, Matrimoni 1887, atto 56",
-    "note": "MARIA SOFI'S MOTHER, wife of Domenico Sofi, living at Scilla in 1887. Not in the family tree. Romano is a Scilla family this archive has already met (Giovanna Romano, Domenica Romano, Maria Donato's mother); whether she belongs to any of them is not shown by the act."
+    "source": "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+    "note": "Father of Santa Romano (b. c. 1831), who married Domenico Sofi; dead by July 1855. Not in the family tree. Nothing else is known of him."
+   },
+   {
+    "name": "Concetta Pontello",
+    "rel": "mother of Santa Romano",
+    "depth": 2,
+    "gen": "7",
+    "born": "—",
+    "died": "—",
+    "trade": "—",
+    "source": "Scilla, Matrimoni 1855, atto 29 (an_ua2002628, image 34, read in the original)",
+    "note": "Mother of Santa Romano, who married Domenico Sofi in 1855; the surname is read Pontello at the image (the Pontillo of this archive's other pages is a candidate for the same family, not asserted). Not in the family tree."
    }
   ],
   "down": []
