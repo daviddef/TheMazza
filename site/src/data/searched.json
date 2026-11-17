@@ -26414,12 +26414,12 @@
  },
  {
   "key": "src/antenati-scilla-matrimoni-1887-donato-sofi-3859c4",
-  "status": "found",
+  "status": "done",
   "when": "2026-11-17",
   "source": "Antenati — Scilla (Reggio Calabria), Archivio di Stato di Reggio Calabria, Stato civile italiano, Matrimoni 1887 (an_ua16595008), Parte I, image 29",
   "scope": "Scilla, Matrimoni 1887, act 56 of Parte I (17 December 1887), found by the Donato/Sofi line of the volume's index, then the act opened and read at the image on both pages of the opening, the groom's and bride's lines and the witnesses zoomed. Terms typed: Donato, Sofi (not counted, read on the page: the act above, number 55, Cambareri and Papalia, who share the opening).",
   "result": "MARIA SOFI'S PARENTS FOUND (row 72). Michele Donato, 32, marinaio, born and living at Scilla, son of Domenico and Annunziata Sofi, married Maria Sofi, 21, filatrice, born and living at Scilla, daughter of Domenico Sofi and Santa Romano, both living at Scilla. Witnesses Felice Sisinni (30, civile) and Filippo Pambianco (52, pittore); the bride was illiterate. The index number reads 5 but the act is number 56, the last of Parte I. The groom's mother and the bride's father share the surname Sofi; the act does not say whether they were related, and none is claimed.",
-  "outcome": "found",
+  "outcome": "done",
   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua16595008/",
   "urls": [
    "https://antenati.cultura.gov.it/ark:/12657/an_ua16595008/"
@@ -26456,6 +26456,25 @@
     "/people/santa-romano/",
     "Santa Romano"
    ]
+  ]
+ },
+ {
+  "key": "src/antenati-scilla-morti-maria-sofi-name-index-f07964",
+  "status": "part",
+  "when": "2026-11-17",
+  "source": "Antenati — Scilla (Reggio Calabria), Stato civile italiano, Morti 1911-1943, the name index (search by name), and Morti 1913 (an_ua16595672), image 48",
+  "scope": "The Antenati name index for Scilla, searched for the surname Sofi with the forename Maria: seven records, which are four deaths (1913, 1930, 1931, 1941) and three records in which a Maria Sofi is named as a spouse or mother in someone else's act (1915, 1917, 1936). The 1913 death (act 90, 4 August 1913) was opened and read at the image. The index holds only deaths from 1911 to 1943, and Scilla deaths of 1894 to 1910 are not name-indexed here. Terms typed: Sofi (the Atlas catalogue has no variants for it: cover exit 0).",
+  "result": "NOT MICHELE DONATO'S WIFE: none of the four deaths is her. The 1913 Maria Sofi (act 90) was eighty, a factory worker (fabbricatrice), born at Santa Eufemia, and her parents are not named; the 1930 death names Antonio and Mariantonia Perina, the 1931 death Placido and Vittoria Defranco, and the 1941 death Rosario and Santa Sanfedele, none of them Domenico Sofi and Santa Romano. So the Maria Sofi who married Michele Donato in 1887 (aged 21, born at Scilla) does not die at Scilla between 1911 and 1943 under this name by the index, which leaves a death between 1888 and 1910, a death elsewhere, or a death after 1943.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua16595672/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16595672/"
+  ],
+  "tags": [
+   "Sofi",
+   "Sanfedele",
+   "Romano",
+   "Donato"
   ]
  }
 ]
