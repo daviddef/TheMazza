@@ -26631,5 +26631,46 @@
     "Concetta Pontello"
    ]
   ]
+ },
+ {
+  "key": "src/ellis-ellis-island-new-orleans-liguria-1908-donato-polistena-8ab4c3",
+  "status": "part",
+  "when": "2026-11-17",
+  "source": "Statue of Liberty-Ellis Island Foundation passenger search (Louisiana, New Orleans Passenger Lists 1820-1945, image T905-19-763; ids KTRR-127, KTRR-12W, KTRR-124; index W1ZD-3ZZM)",
+  "scope": "Michele Donato and variants (Di, De, Donati, Donado, Domato), all years 1790-1974 (357 records, every page read) and 1909-1935 (146 records, every page read); Giovanni Polistena, all years. Read through the browser, no sign-in. Terms typed: Donato, Di Donato, De Donato, Donati, Donado, Domato; Polistena (neither surname is in the Atlas catalogue).",
+  "result": "The 1908 crossing is on one New Orleans page: the Liguria, 1908 (no day or month in the index), Michele Donato aged 52 (so born about 1856, the tree has 1851), Giovanni Polistena aged 24 (born about 1884, NAA BP9/3 has 1883) and a Giuseppe Polistena aged 34 beside them; last residence is N/A on all three, so Scilla is not shown and rests on the ship, the page and the ages. No second US arrival for Michele in any spelling; about 15 arrivals 1910-1924 opened and all give ages 16-28. Three records not opened (1911 Anglia Q23G-3T18, 1906 Q23V-K6P8, 1923 crewman Q29W-FHWN). This index is US arrivals only, so no return voyage is not the same as no return: his death at Scilla in 1936 shows he came back. Not established: the day of arrival, and who Giuseppe Polistena is.",
+  "outcome": "part",
+  "url": "",
+  "tags": [
+   "Donato",
+   "Polistena"
+  ]
+ },
+ {
+  "key": "src/naa-naa-recordsearch-polistena-bp9-3-and-palermo-1925-206f39",
+  "status": "part",
+  "when": "2026-11-17",
+  "source": "National Archives of Australia RecordSearch, guest search in the browser (items 3458957 and 12260784)",
+  "scope": "Item 3458957 (BP9/3 ITALIAN POLISTENA G.) and item 12260784 (incoming passenger list, Palermo, Fremantle 21 April 1925). Catalogue entries only; no copy requested.",
+  "result": "BP9/3 item 3458957 is titled Polistena, Giovanni born 1883, Italian, arrived Brisbane on the ORMONDE 21 February 1928; open, not digitised (copy on request only), birthplace not given. Item 12260784 is series K269, control symbol 21 APR 1925 PALERMO, an incoming list (Palermo is the ship, Fremantle the port, no departure port), digitised; the passenger list was not opened so no Mazza is confirmed on it.",
+  "outcome": "part",
+  "url": "https://recordsearch.naa.gov.au/",
+  "tags": [
+   "Polistena",
+   "Mazza"
+  ]
+ },
+ {
+  "key": "src/queensland-qsa-s6220-nicotra-wills-townsville-67ea92",
+  "status": "part",
+  "when": "2026-11-17",
+  "source": "Queensland State Archives ArchivesSearch, guest, series S6220 Supreme Court (Northern) Ecclesiastical Files (Wills)",
+  "scope": "Keyword NICOTRA across open items; the four S6220 wills and the other hits listed, without opening any file.",
+  "result": "Four will files at Townsville, all open access, none digitised, reading room or digital copy by login only: ITM938108 (1955, agency no. 244), ITM939896 (1962, 168), ITM940644 (1965, 56), ITM940991 (1966, 90); the dates are file years, not death dates, and no residence appears. One more hit, ITM187933, a Lands Department selection file at Stanthorpe 1931-1966 naming Giuseppe and Rosina Nicotra with Stanley Roy Scells, availability to be decided by an archivist. Not established: whose wills these are and whether any belongs to this archive's Nicotra line.",
+  "outcome": "part",
+  "url": "",
+  "tags": [
+   "Nicotra"
+  ]
  }
 ]
