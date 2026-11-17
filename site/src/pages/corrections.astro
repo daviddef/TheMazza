@@ -7,11 +7,8 @@ import additions from "../data/additions.json";
 import people from "../data/people.json";
 import placeRows from "../data/place-rows.json";
 import placeFlags from "../data/place-flags.json";
-import fs from "node:fs";
-import path from "node:path";
 import { corrIdMap } from "@daviddef/archive-kit/lib/corrections.js";
 import { placeIndex } from "@daviddef/archive-kit/lib/placelinks.js";
-import { nameIndex } from "@daviddef/archive-kit/lib/namelinks.js";
 const allRows = corrections.groups.flatMap((g) => g.rows);
 const lev = (k) => allRows.filter((r) => r.confidence === k).length;
 /* Counted, not written down. The sentence below said "three of the twenty-seven"
@@ -39,10 +36,6 @@ const aboutOf = (r) => {
    the rows are not sorted here, and a page with no dates keeps this order. What's new does not take these rows, so the id is for a link in. */
 const keyed = allRows.map((r) => ({ what: r.who + ": " + r.treeSays }));
 const ids = corrIdMap(keyed);
-const readJson = (p, d) => { try { return JSON.parse(fs.readFileSync(p, "utf8")); } catch { return d; } };
-const autolinkIndex = readJson(path.join(process.cwd(), ".autolink", "names-index.json"), null);
-const livingNames = (readJson(path.join(process.cwd(), "..", "private", "living.json"), {}).names) || [];
-const names = autolinkIndex ? nameIndex(autolinkIndex, { avoid: livingNames }) : null;
 const places = placeIndex(placeRows, placeFlags, (svg) => u("/flags/" + svg));
 const fixes = allRows.map((r, i) => ({
   who: r.slug && r.slug !== "\u2014"
@@ -86,7 +79,7 @@ const fixes = allRows.map((r, i) => ({
   </section>
 
   <section class="blk">
-    <Corrections rows={fixes} u={u} places={places} names={names}
+    <Corrections rows={fixes} u={u} places={places}
       kindLabel="About" sevLabel="How well it is held" />
   </section>
 
