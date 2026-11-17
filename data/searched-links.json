@@ -1429,5 +1429,190 @@
   "ev": [
    "/people/carmine-donato/"
   ]
+ },
+ "src/antenati-scilla-nati-1849-atto-186-pasquale-donato-0ef606": {
+  "for": [
+   [
+    "/people/pasquale-donato-1849/",
+    "Pasquale Donato"
+   ]
+  ],
+  "ev": [
+   "/people/pasquale-donato-1849/",
+   "/people/pasquale-donato/"
+  ]
+ },
+ "src/antenati-scilla-nati-1816-atto-207-reread-9bf267": {
+  "ev": [
+   "/people/domenico-donato-2/",
+   "/people/candeloro-donato/"
+  ]
+ },
+ "src/antenati-scilla-nati-1888-atto-229-maria-donato-16eb34": {
+  "for": [
+   [
+    "/people/maria-donato/",
+    "Maria Donato"
+   ]
+  ],
+  "ev": [
+   "/people/maria-donato/"
+  ]
+ },
+ "src/antenati-scilla-nati-1892-atto-162-annunziata-donato-436681": {
+  "for": [
+   [
+    "/people/nunnziata-donato/",
+    "Nunnziata Donato"
+   ]
+  ],
+  "ev": [
+   "/people/nunnziata-donato/"
+  ]
+ },
+ "src/antenati-scilla-nati-1895-atto-70-santa-donato-3135ee": {
+  "for": [
+   [
+    "/people/santa-donato-1895/",
+    "Santa Donato"
+   ]
+  ],
+  "ev": [
+   "/people/santa-donato-1895/"
+  ]
+ },
+ "src/antenati-scilla-nati-1896-atto-225-domenico-donato-6327fd": {
+  "for": [
+   [
+    "/people/domenico-donato/",
+    "Domenico Donato"
+   ]
+  ],
+  "ev": [
+   "/people/domenico-donato/"
+  ]
+ },
+ "src/antenati-scilla-nati-1900-atto-65-santa-donato-449409": {
+  "for": [
+   [
+    "/people/santa-donato/",
+    "Santa Donato"
+   ]
+  ],
+  "ev": [
+   "/people/santa-donato/"
+  ]
+ },
+ "src/antenati-scilla-morti-1897-atto-55-domenico-sofi-5c80a4": {
+  "for": [
+   [
+    "/people/domenico-sofi/",
+    "Domenico Sofi"
+   ],
+   [
+    "/people/pasquale-sofi/",
+    "Pasquale Sofi"
+   ],
+   [
+    "/people/maria-de-amico/",
+    "Maria de Amico"
+   ],
+   [
+    "/people/santa-romano/",
+    "Santa Romano"
+   ]
+  ],
+  "ev": [
+   "/people/domenico-sofi/"
+  ]
+ },
+ "src/antenati-scilla-morti-1901-atto-74-annunziata-sofi-161225": {
+  "for": [
+   [
+    "/people/annunziata-sofi/",
+    "Annunziata Sofi"
+   ]
+  ],
+  "ev": [
+   "/people/annunziata-sofi/"
+  ]
+ },
+ "src/antenati-scilla-morti-1902-atto-63-annunziato-romano-2a17bc": {
+  "for": [
+   [
+    "/people/annunziato-romano-1816/",
+    "Annunziato Romano"
+   ],
+   [
+    "/people/domenico-romano/",
+    "Domenico Romano"
+   ],
+   [
+    "/people/concetta-pontello/",
+    "Concetta Pontello"
+   ]
+  ],
+  "ev": [
+   "/people/annunziato-romano-1816/"
+  ]
+ },
+ "src/antenati-scilla-morti-1869-atto-47-santa-romano-e50176": {
+  "for": [
+   [
+    "/people/santa-romano/",
+    "Santa Romano"
+   ],
+   [
+    "/people/concetta-pontello/",
+    "Concetta Pontello"
+   ]
+  ],
+  "ev": [
+   "/people/santa-romano/"
+  ]
+ },
+ "src/antenati-scilla-morti-1870-atto-152-concetta-pontillo-73a63f": {
+  "for": [
+   [
+    "/people/concetta-pontello/",
+    "Concetta Pontello"
+   ],
+   [
+    "/people/domenico-romano/",
+    "Domenico Romano"
+   ]
+  ],
+  "ev": [
+   "/people/concetta-pontello/"
+  ]
+ },
+ "src/antenati-scilla-morti-1872-atto-53-cosma-romano-438efd": {
+  "for": [
+   [
+    "/people/cosma-romano/",
+    "Cosma Romano"
+   ]
+  ],
+  "ev": [
+   "/people/cosma-romano/"
+  ]
+ },
+ "src/antenati-scilla-morti-1873-atti-89-163-sofi-d-amico-be7ae1": {
+  "for": [
+   [
+    "/people/pasquale-sofi/",
+    "Pasquale Sofi"
+   ],
+   [
+    "/people/maria-de-amico/",
+    "Maria de Amico"
+   ]
+  ],
+  "ev": [
+   "/people/pasquale-sofi/"
+  ]
+ },
+ "src/antenati-scilla-morti-1866-1887-1894-indexes-sofi-romano-3c81a5": {
+  "nobody": true
  }
 }

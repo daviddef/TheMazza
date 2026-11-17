@@ -308,7 +308,7 @@
     {
      "place": "Pasquale",
      "year": "c. 1780",
-     "why": "Pasquale Sofi: born Scilla c. 1780; alive at Scilla, July 1844",
+     "why": "Pasquale Sofi: born Scilla c. 1780; died 3 July 1873, at Acquagrande, Scilla (Morti 1873 atto 89)",
      "person": "pasquale-sofi",
      "evidence": "read"
     },
@@ -349,7 +349,7 @@
    "id": "register-alone",
    "kind": "not-yet-placed",
    "head": "Proved by a register, in groups joined to nothing",
-   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 91 small groups, 53 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
+   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 93 small groups, 55 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
    "members": [
     "agostino-nicotra",
     "alfia-cannavò",
@@ -552,6 +552,7 @@
     "paolo-nicotra",
     "paolo-ventrice",
     "pasquale-donato",
+    "pasquale-donato-1849",
     "pasquale-mazza",
     "pasquale-mazza-1889",
     "pietro-crupi",
@@ -602,6 +603,7 @@
     "salvatore-mazza-1873",
     "salvatore-sorbello",
     "santa-dajdone",
+    "santa-donato-1895",
     "santo-arena",
     "santo-mazza-1882",
     "santo-nicotra",
@@ -627,7 +629,7 @@
     "vito-nicotra",
     "vittoria-mollo"
    ],
-   "count": 275
+   "count": 277
   },
   {
    "id": "tree-only",

@@ -1,11 +1,11 @@
 {
- "individuals": 890,
- "kept": 652,
+ "individuals": 894,
+ "kept": 656,
  "living": 209,
  "living_policy": "omit",
  "undated_dropped": 40,
  "birth_year_estimated": 311,
- "death_year_estimated": 484,
+ "death_year_estimated": 481,
  "placed_from_relative": 55,
  "dropped_unplaced": 18,
  "unresolved_places": {
@@ -46,9 +46,9 @@
   }
  },
  "people_json": {
-  "in_file": 1022,
+  "in_file": 1026,
   "living_not_read": 132,
-  "not_living_read": 890
+  "not_living_read": 894
  },
  "canvas_extras": {
   "undrawn_detailed": 25,
@@ -59,9 +59,10 @@
   "placeholders": 33
  },
  "catalogue": {
-  "people_coloured_by_a_catalogued_family": 256,
+  "people_coloured_by_a_catalogued_family": 261,
   "catalogue_families_present": [
    "cassaniti",
+   "collia",
    "faro",
    "mazza",
    "morabito",
@@ -69,6 +70,7 @@
    "patane",
    "polistena",
    "pontello",
+   "raiti",
    "suderi",
    "vasta"
   ],
@@ -106,7 +108,7 @@
    {
     "name": "Donato",
     "from_catalogue": false,
-    "people": 26
+    "people": 28
    }
   ]
  }

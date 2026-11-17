@@ -4990,17 +4990,114 @@
   "Scilla|Nati|1865": [
    "an_ua2002943"
   ],
+  "Scilla|Nati|1866": [
+   "an_ua16601227",
+   "an_ua16601228"
+  ],
+  "Scilla|Nati|1867": [
+   "an_ua16601229"
+  ],
+  "Scilla|Nati|1868": [
+   "an_ua16601230"
+  ],
+  "Scilla|Nati|1869": [
+   "an_ua16601231"
+  ],
   "Scilla|Nati|1870": [
    "an_ua16601232"
   ],
+  "Scilla|Nati|1871": [
+   "an_ua16601233"
+  ],
+  "Scilla|Nati|1872": [
+   "an_ua16601234"
+  ],
+  "Scilla|Nati|1873": [
+   "an_ua16601235"
+  ],
+  "Scilla|Nati|1874": [
+   "an_ua16601236"
+  ],
+  "Scilla|Nati|1875": [
+   "an_ua16601237",
+   "an_ua16601238"
+  ],
+  "Scilla|Nati|1876": [
+   "an_ua16601239"
+  ],
+  "Scilla|Nati|1877": [
+   "an_ua16601240"
+  ],
+  "Scilla|Nati|1878": [
+   "an_ua16601241"
+  ],
+  "Scilla|Nati|1879": [
+   "an_ua16601242"
+  ],
+  "Scilla|Nati|1880": [
+   "an_ua16601243"
+  ],
+  "Scilla|Nati|1881": [
+   "an_ua16601244"
+  ],
+  "Scilla|Nati|1882": [
+   "an_ua16601245"
+  ],
   "Scilla|Nati|1883": [
    "an_ua16601246"
+  ],
+  "Scilla|Nati|1884": [
+   "an_ua16601247",
+   "an_ua16601248"
+  ],
+  "Scilla|Nati|1885": [
+   "an_ua16601249",
+   "an_ua16601250"
+  ],
+  "Scilla|Nati|1886": [
+   "an_ua16601251"
+  ],
+  "Scilla|Nati|1887": [
+   "an_ua16601252"
+  ],
+  "Scilla|Nati|1888": [
+   "an_ua16601253"
+  ],
+  "Scilla|Nati|1889": [
+   "an_ua16601254"
+  ],
+  "Scilla|Nati|1890": [
+   "an_ua16601255"
+  ],
+  "Scilla|Nati|1891": [
+   "an_ua16601256"
   ],
   "Scilla|Nati|1892": [
    "an_ua16601257"
   ],
   "Scilla|Nati|1893": [
    "an_ua16601258"
+  ],
+  "Scilla|Nati|1894": [
+   "an_ua16601259"
+  ],
+  "Scilla|Nati|1895": [
+   "an_ua16601260"
+  ],
+  "Scilla|Nati|1896": [
+   "an_ua16601261"
+  ],
+  "Scilla|Nati|1897": [
+   "an_ua16601262"
+  ],
+  "Scilla|Nati|1898": [
+   "an_ua16601263"
+  ],
+  "Scilla|Nati|1899": [
+   "an_ua16601264"
+  ],
+  "Scilla|Nati|1900": [
+   "an_ua16601265"
   ],
   "Scilla|Processetti|1832": [
    "an_ua2002465"
@@ -5805,35 +5902,197 @@
    "tipologia": "Morti",
    "year": "1910"
   },
+  "an_ua16601223": {
+   "from": "searched.tsv",
+   "comune": "",
+   "tipologia": "",
+   "year": ""
+  },
+  "an_ua16601225": {
+   "from": "searched.tsv",
+   "comune": "",
+   "tipologia": "",
+   "year": ""
+  },
+  "an_ua16601227": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1866"
+  },
+  "an_ua16601228": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1866"
+  },
+  "an_ua16601229": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1867"
+  },
+  "an_ua16601230": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1868"
+  },
+  "an_ua16601231": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1869"
+  },
   "an_ua16601232": {
    "from": "scilla-arks-nati-italiano.tsv",
    "comune": "Scilla",
    "tipologia": "Nati",
    "year": "1870"
   },
+  "an_ua16601233": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1871"
+  },
+  "an_ua16601234": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1872"
+  },
   "an_ua16601235": {
-   "from": "scilla-reads.tsv",
-   "comune": "",
-   "tipologia": "",
-   "year": "1875"
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1873"
+  },
+  "an_ua16601236": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1874"
   },
   "an_ua16601237": {
-   "from": "scilla-reads.tsv",
-   "comune": "",
-   "tipologia": "",
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
    "year": "1875"
   },
   "an_ua16601238": {
-   "from": "scilla-reads.tsv",
-   "comune": "",
-   "tipologia": "",
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
    "year": "1875"
+  },
+  "an_ua16601239": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1876"
+  },
+  "an_ua16601240": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1877"
+  },
+  "an_ua16601241": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1878"
+  },
+  "an_ua16601242": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1879"
+  },
+  "an_ua16601243": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1880"
+  },
+  "an_ua16601244": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1881"
+  },
+  "an_ua16601245": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1882"
   },
   "an_ua16601246": {
    "from": "scilla-arks-nati-italiano.tsv",
    "comune": "Scilla",
    "tipologia": "Nati",
    "year": "1883"
+  },
+  "an_ua16601247": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1884"
+  },
+  "an_ua16601248": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1884"
+  },
+  "an_ua16601249": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1885"
+  },
+  "an_ua16601250": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1885"
+  },
+  "an_ua16601251": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1886"
+  },
+  "an_ua16601252": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1887"
+  },
+  "an_ua16601253": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1888"
+  },
+  "an_ua16601254": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1889"
+  },
+  "an_ua16601255": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1890"
+  },
+  "an_ua16601256": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1891"
   },
   "an_ua16601257": {
    "from": "scilla-arks-nati-italiano.tsv",
@@ -5846,6 +6105,48 @@
    "comune": "Scilla",
    "tipologia": "Nati",
    "year": "1893"
+  },
+  "an_ua16601259": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1894"
+  },
+  "an_ua16601260": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1895"
+  },
+  "an_ua16601261": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1896"
+  },
+  "an_ua16601262": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1897"
+  },
+  "an_ua16601263": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1898"
+  },
+  "an_ua16601264": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1899"
+  },
+  "an_ua16601265": {
+   "from": "scilla-arks-nati-italiano.tsv",
+   "comune": "Scilla",
+   "tipologia": "Nati",
+   "year": "1900"
   },
   "an_ua1999": {
    "from": "searched.tsv",

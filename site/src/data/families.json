@@ -83,8 +83,8 @@
  },
  {
   "surname": "Donato",
-  "n": 31,
-  "dead": 31,
+  "n": 33,
+  "dead": 33,
   "living": 0,
   "first": 1783,
   "last": 1937,
@@ -164,7 +164,7 @@
   "dead": 9,
   "living": 0,
   "first": 1754,
-  "last": 1834,
+  "last": 1897,
   "places": [
    "Scilla",
    "Scilla, Reggio Calabria"
@@ -286,6 +286,17 @@
   "living": 0,
   "first": 1800,
   "last": 1840,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Romano",
+  "n": 6,
+  "dead": 6,
+  "living": 0,
+  "first": 1788,
+  "last": 1902,
   "places": [
    "Scilla"
   ]
@@ -441,17 +452,6 @@
   "places": [
    "Piedimonte Etneo",
    "Giarre"
-  ]
- },
- {
-  "surname": "Romano",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": 1788,
-  "last": 1853,
-  "places": [
-   "Scilla"
   ]
  },
  {
@@ -799,7 +799,7 @@
   "dead": 2,
   "living": 0,
   "first": 1793,
-  "last": 1813,
+  "last": 1873,
   "places": [
    "Scilla"
   ]
@@ -1838,7 +1838,7 @@
   "dead": 1,
   "living": 0,
   "first": 1784,
-  "last": 1784,
+  "last": 1870,
   "places": [
    "Scilla"
   ]

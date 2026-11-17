@@ -946,6 +946,20 @@
     "slug": "santa-romano",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rannunziato-romano-2@",
+    "name": "Annunziato Romano",
+    "slug": "annunziato-romano-1816",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcosma-romano@",
+    "name": "Cosma Romano",
+    "slug": "cosma-romano",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Scilla",
@@ -1156,6 +1170,20 @@
     "id": "@Rsanta-romano@",
     "name": "Santa Romano",
     "slug": "santa-romano",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rannunziato-romano-2@",
+    "name": "Annunziato Romano",
+    "slug": "annunziato-romano-1816",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcosma-romano@",
+    "name": "Cosma Romano",
+    "slug": "cosma-romano",
     "living": false,
     "via": "read"
    }
@@ -4315,14 +4343,14 @@
     "name": "Domenico Donato",
     "slug": "domenico-donato",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I257@",
     "name": "Santa Donato",
     "slug": "santa-donato",
     "living": false,
-    "via": "tree"
+    "via": "read"
    }
   ],
   "place": "Scilla, Reggio Calabria",
@@ -8692,14 +8720,14 @@
     "name": "Domenico Donato",
     "slug": "domenico-donato",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I257@",
     "name": "Santa Donato",
     "slug": "santa-donato",
     "living": false,
-    "via": "tree"
+    "via": "read"
    }
   ],
   "place": "Scilla, Reggio Calabria",
