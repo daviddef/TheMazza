@@ -1,8 +1,8 @@
 [
  {
   "surname": "Mazza",
-  "n": 163,
-  "dead": 150,
+  "n": 167,
+  "dead": 154,
   "living": 13,
   "first": 1748,
   "last": 2012,
@@ -159,6 +159,17 @@
   ]
  },
  {
+  "surname": "Comerci",
+  "n": 10,
+  "dead": 10,
+  "living": 0,
+  "first": 1778,
+  "last": 1848,
+  "places": [
+   "Briatico"
+  ]
+ },
+ {
   "surname": "Sofi",
   "n": 9,
   "dead": 9,
@@ -171,14 +182,16 @@
   ]
  },
  {
-  "surname": "Comerci",
+  "surname": "Ventrice",
   "n": 9,
   "dead": 9,
   "living": 0,
-  "first": 1778,
-  "last": 1848,
+  "first": 1757,
+  "last": 1849,
   "places": [
-   "Briatico"
+   "Zambrone",
+   "Briatico",
+   "Briatico, Vibo Valentia, Calabria"
   ]
  },
  {
@@ -191,19 +204,6 @@
   "places": [
    "Giarre",
    "Sicily"
-  ]
- },
- {
-  "surname": "Ventrice",
-  "n": 8,
-  "dead": 8,
-  "living": 0,
-  "first": 1757,
-  "last": 1849,
-  "places": [
-   "Zambrone",
-   "Briatico",
-   "Briatico, Vibo Valentia, Calabria"
   ]
  },
  {
@@ -383,6 +383,17 @@
   ]
  },
  {
+  "surname": "Fichera",
+  "n": 5,
+  "dead": 5,
+  "living": 0,
+  "first": 1829,
+  "last": 1863,
+  "places": [
+   "Linguaglossa"
+  ]
+ },
+ {
   "surname": "Armanno",
   "n": 4,
   "dead": 1,
@@ -474,17 +485,6 @@
   "first": 1898,
   "last": 1989,
   "places": []
- },
- {
-  "surname": "Fichera",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": 1829,
-  "last": 1863,
-  "places": [
-   "Linguaglossa"
-  ]
  },
  {
   "surname": "Catalano",
@@ -1745,6 +1745,17 @@
   ]
  },
  {
+  "surname": "Accorinti",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1823,
+  "last": 1823,
+  "places": [
+   "Briatico"
+  ]
+ },
+ {
   "surname": "Melidoni",
   "n": 1,
   "dead": 1,
@@ -1844,6 +1855,17 @@
   ]
  },
  {
+  "surname": "Valeri",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Zambrone"
+  ]
+ },
+ {
   "surname": "Vasta",
   "n": 1,
   "dead": 1,
@@ -1852,6 +1874,17 @@
   "last": null,
   "places": [
    "Giarre"
+  ]
+ },
+ {
+  "surname": "Santinelli",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1824,
+  "last": 1824,
+  "places": [
+   "Briatico"
   ]
  },
  {

@@ -1,10 +1,10 @@
 {
  "Mazza": {
   "surname": "Mazza",
-  "total": 163,
+  "total": 167,
   "groups": [
    {
-    "n": 139,
+    "n": 140,
     "earliest": 1748,
     "latest": 1952,
     "towns": [
@@ -212,7 +212,8 @@
       "diedText": "",
       "fromRegister": true,
       "registerSources": [
-       "Piedimonte Etneo, Nati 1839 row 40"
+       "Piedimonte Etneo, Nati 1839 row 40",
+       "Piedimonte Etneo, Matrimoni 1873 atto 28 (an_ua83394, image 26)"
       ],
       "living": false,
       "birthPlace": "Piedimonte Etneo",
@@ -353,6 +354,23 @@
       "fromRegister": true,
       "registerSources": [
        "Piedimonte Etneo, Nati 1864 row 35 (table)"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
+      "id": "@Rmariano-mazza-3@",
+      "slug": "mariano-mazza-1866",
+      "name": "Mariano Mazza",
+      "surname": "Mazza",
+      "born": 1866,
+      "died": null,
+      "bornText": "5 September 1866",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Nati 1866 atto 145 (an_ua83479, image 45)"
       ],
       "living": false,
       "birthPlace": "Piedimonte Etneo",
@@ -2189,9 +2207,9 @@
     ]
    },
    {
-    "n": 7,
+    "n": 12,
     "earliest": 1829,
-    "latest": 1879,
+    "latest": 1891,
     "towns": [
      "Piedimonte Etneo"
     ],
@@ -2211,6 +2229,58 @@
       "registerSources": [
        "Piedimonte Etneo, Nati 1877 atto 164",
        "Nati 1879 atto 167"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
+      "id": "@Rdomenico-mazza@",
+      "slug": "domenico-mazza",
+      "name": "Domenico Mazza",
+      "surname": "Mazza",
+      "born": 1861,
+      "died": null,
+      "bornText": "c. 1861",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Nati 1889 atto 126",
+       "Morti 1889 atto 101"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
+      "id": "@Rvincenza-mazza@",
+      "slug": "vincenza-mazza",
+      "name": "Vincenza Mazza",
+      "surname": "Mazza",
+      "born": 1862,
+      "died": null,
+      "bornText": "c. 1862",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Matrimoni 1883 atto 31 (an_ua83404, image 28)"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
+      "id": "@Rfrancesca-mazza@",
+      "slug": "francesca-mazza-1866",
+      "name": "Francesca Mazza",
+      "surname": "Mazza",
+      "born": 1866,
+      "died": null,
+      "bornText": "15 October 1866",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Nati 1866 atto 169 (an_ua83479, image 54)"
       ],
       "living": false,
       "birthPlace": "Piedimonte Etneo",
@@ -2317,6 +2387,40 @@
       "living": false,
       "birthPlace": "Piedimonte Etneo",
       "comp": 0
+     },
+     {
+      "id": "@Rpasquale-mazza-2@",
+      "slug": "pasquale-mazza-1889",
+      "name": "Pasquale Mazza",
+      "surname": "Mazza",
+      "born": 1889,
+      "died": 1889,
+      "bornText": "2 July 1889",
+      "diedText": "13 September 1889 (Piedimonte Morti 1889 atto 101, via Terremorte, aged two months)",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Nati 1889 atto 126"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
+      "id": "@Rsalvatore-mazza-7@",
+      "slug": "salvatore-mazza-1891",
+      "name": "Salvatore Mazza",
+      "surname": "Mazza",
+      "born": 1891,
+      "died": null,
+      "bornText": "26 June 1891",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Nati 1891 atto 110 (an_ua83505, image 63)"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
      }
     ]
    },
@@ -2402,53 +2506,6 @@
       "living": false,
       "birthPlace": "",
       "comp": 1
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "earliest": 1889,
-    "latest": 1889,
-    "towns": [
-     "Piedimonte Etneo"
-    ],
-    "component": 0,
-    "onSpine": [],
-    "people": [
-     {
-      "id": "@Rpasquale-mazza-2@",
-      "slug": "pasquale-mazza-1889",
-      "name": "Pasquale Mazza",
-      "surname": "Mazza",
-      "born": 1889,
-      "died": 1889,
-      "bornText": "2 July 1889",
-      "diedText": "13 September 1889 (Piedimonte Morti 1889 atto 101, via Terremorte, aged two months)",
-      "fromRegister": true,
-      "registerSources": [
-       "Piedimonte Etneo, Nati 1889 atto 126"
-      ],
-      "living": false,
-      "birthPlace": "Piedimonte Etneo",
-      "comp": 0
-     },
-     {
-      "id": "@Rdomenico-mazza@",
-      "slug": "domenico-mazza",
-      "name": "Domenico Mazza",
-      "surname": "Mazza",
-      "born": null,
-      "died": null,
-      "bornText": "",
-      "diedText": "",
-      "fromRegister": true,
-      "registerSources": [
-       "Piedimonte Etneo, Nati 1889 atto 126",
-       "Morti 1889 atto 101"
-      ],
-      "living": false,
-      "birthPlace": "Piedimonte Etneo",
-      "comp": 0
      }
     ]
    },

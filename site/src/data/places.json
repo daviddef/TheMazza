@@ -105,7 +105,7 @@
  },
  {
   "name": "Piedimonte Etneo",
-  "born": 107,
+  "born": 111,
   "died": 0,
   "buried": 0,
   "lived": 0,
@@ -146,14 +146,14 @@
    "domenica-patane",
    "domenico-mazza",
    "filippo-spina",
+   "francesca-mazza-1866",
    "francesco-mazza-1870",
    "francesco-trovato",
    "gaetano-bonanno",
    "gaetano-cassaniti",
-   "gaetano-mazza",
-   "giovanni-mazza-1875"
+   "gaetano-mazza"
   ],
-  "n": 107
+  "n": 111
  },
  {
   "name": "Briatico, Vibo Valentia, Calabria",
@@ -386,13 +386,14 @@
  },
  {
   "name": "Briatico",
-  "born": 18,
+  "born": 21,
   "died": 0,
   "buried": 0,
   "lived": 0,
   "first": 1761,
   "last": 1830,
   "who": [
+   "anna-maria-accorinti",
    "anna-polito-1825",
    "antonia-votano",
    "antonino-comerci",
@@ -402,7 +403,9 @@
    "caterina-comerci",
    "caterina-mannella",
    "caterina-polito",
+   "elisa-santinelli",
    "francesco-comerci",
+   "francesco-comerci-1826",
    "francesco-comerci-1827",
    "francesco-ventrice-1830",
    "giacomo-comerci",
@@ -412,11 +415,11 @@
    "rosario-comerci",
    "saveria-lucifaro"
   ],
-  "n": 18
+  "n": 21
  },
  {
   "name": "Zambrone",
-  "born": 17,
+  "born": 19,
   "died": 0,
   "buried": 0,
   "lived": 0,
@@ -430,7 +433,9 @@
    "carmela-collia-1818",
    "catarina-capucetti",
    "caterina-cichello",
+   "domenica-valeri",
    "domenico-ventrice",
+   "domenico-ventrice-1818",
    "francesco-cichello",
    "francesco-collia",
    "francesco-ventrice-1825",
@@ -441,7 +446,7 @@
    "teresa-collia",
    "vittoria-mollo"
   ],
-  "n": 17
+  "n": 19
  },
  {
   "name": "Mascali",
@@ -498,6 +503,32 @@
   "n": 14
  },
  {
+  "name": "Linguaglossa",
+  "born": 14,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1825,
+  "last": 1891,
+  "who": [
+   "agata-toscano",
+   "alfio-marza",
+   "antonio-fichera",
+   "concetta-faro",
+   "domenica-fichera",
+   "giovanni-faro",
+   "giuseppa-mazza-1871",
+   "leonardo-fichera",
+   "maria-ragusa",
+   "rosario-mazza-1883",
+   "salvatore-fichera",
+   "salvatore-fichera-1859",
+   "venera-mazza",
+   "vincenzo-lo-faro"
+  ],
+  "n": 14
+ },
+ {
   "name": "Nudgee, Brisbane, Queensland",
   "born": 0,
   "died": 0,
@@ -519,31 +550,6 @@
    "maria-mazza",
    "mario-salvatore-arena",
    "antonio-micale"
-  ],
-  "n": 13
- },
- {
-  "name": "Linguaglossa",
-  "born": 13,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1825,
-  "last": 1891,
-  "who": [
-   "agata-toscano",
-   "alfio-marza",
-   "antonio-fichera",
-   "concetta-faro",
-   "domenica-fichera",
-   "giovanni-faro",
-   "giuseppa-mazza-1871",
-   "maria-ragusa",
-   "rosario-mazza-1883",
-   "salvatore-fichera",
-   "salvatore-fichera-1859",
-   "venera-mazza",
-   "vincenzo-lo-faro"
   ],
   "n": 13
  },

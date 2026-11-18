@@ -1308,6 +1308,13 @@
     "slug": "francesco-ventrice-1830",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rdomenico-ventrice-2@",
+    "name": "Domenico Ventrice",
+    "slug": "domenico-ventrice-1818",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Zambrone",
@@ -1533,6 +1540,13 @@
     "id": "@Rcaterina-comerci@",
     "name": "Caterina Comerci",
     "slug": "caterina-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-comerci-3@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci-1826",
     "living": false,
     "via": "read"
    }
@@ -2332,6 +2346,13 @@
     "slug": "caterina-comerci",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-comerci-3@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci-1826",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Briatico",
@@ -3057,6 +3078,13 @@
   "spouse": null,
   "children": [
    {
+    "id": "@Rleonardo-fichera@",
+    "name": "Leonardo Fichera",
+    "slug": "leonardo-fichera",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rdomenica-fichera@",
     "name": "Domenica Fichera",
     "slug": "domenica-fichera",
@@ -3359,6 +3387,13 @@
   "spouse": null,
   "children": [
    {
+    "id": "@Rleonardo-fichera@",
+    "name": "Leonardo Fichera",
+    "slug": "leonardo-fichera",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rdomenica-fichera@",
     "name": "Domenica Fichera",
     "slug": "domenica-fichera",
@@ -3389,6 +3424,20 @@
   "headId": "@Rpasquale-mazza@",
   "spouse": null,
   "children": [
+   {
+    "id": "@Rdomenico-mazza@",
+    "name": "Domenico Mazza",
+    "slug": "domenico-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvincenza-mazza@",
+    "name": "Vincenza Mazza",
+    "slug": "vincenza-mazza",
+    "living": false,
+    "via": "read"
+   },
    {
     "id": "@Rantonino-mazza@",
     "name": "Antonino Mazza",
@@ -3428,6 +3477,13 @@
     "id": "@Rgrazia-mazza@",
     "name": "Grazia Mazza",
     "slug": "grazia-mazza-1876",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesca-mazza@",
+    "name": "Francesca Mazza",
+    "slug": "francesca-mazza-1866",
     "living": false,
     "via": "read"
    }
@@ -3816,6 +3872,13 @@
     "slug": "alfio-mazza-1868",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmariano-mazza-3@",
+    "name": "Mariano Mazza",
+    "slug": "mariano-mazza-1866",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Piedimonte Etneo",
@@ -4042,6 +4105,13 @@
     "id": "@Ralfio-mazza-3@",
     "name": "Alfio Mazza",
     "slug": "alfio-mazza-1868",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmariano-mazza-3@",
+    "name": "Mariano Mazza",
+    "slug": "mariano-mazza-1866",
     "living": false,
     "via": "read"
    }
@@ -4647,6 +4717,30 @@
    }
   ],
   "place": "Scilla, Reggio Calabria",
+  "born": 1861
+ },
+ {
+  "name": "Domenico Mazza",
+  "head": "domenico-mazza",
+  "headId": "@Rdomenico-mazza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpasquale-mazza-2@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza-1889",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-7@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1891",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
   "born": 1861
  },
  {
@@ -12558,6 +12652,20 @@
   "spouse": null,
   "children": [
    {
+    "id": "@Rdomenico-mazza@",
+    "name": "Domenico Mazza",
+    "slug": "domenico-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvincenza-mazza@",
+    "name": "Vincenza Mazza",
+    "slug": "vincenza-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rantonino-mazza@",
     "name": "Antonino Mazza",
     "slug": "antonino-mazza",
@@ -12596,6 +12704,13 @@
     "id": "@Rgrazia-mazza@",
     "name": "Grazia Mazza",
     "slug": "grazia-mazza-1876",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesca-mazza@",
+    "name": "Francesca Mazza",
+    "slug": "francesca-mazza-1866",
     "living": false,
     "via": "read"
    }
@@ -12670,6 +12785,23 @@
   "born": null
  },
  {
+  "name": "Domenica Valeri",
+  "head": "domenica-valeri",
+  "headId": "@Rdomenica-valeri@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenico-ventrice-2@",
+    "name": "Domenico Ventrice",
+    "slug": "domenico-ventrice-1818",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Zambrone",
+  "born": null
+ },
+ {
   "name": "Domenica Vasta",
   "head": "domenica-vasta",
   "headId": "@Rdomenica-vasta@",
@@ -12718,23 +12850,6 @@
    }
   ],
   "place": "Mascali",
-  "born": null
- },
- {
-  "name": "Domenico Mazza",
-  "head": "domenico-mazza",
-  "headId": "@Rdomenico-mazza@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rpasquale-mazza-2@",
-    "name": "Pasquale Mazza",
-    "slug": "pasquale-mazza-1889",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Piedimonte Etneo",
   "born": null
  },
  {
@@ -13475,6 +13590,13 @@
     "id": "@Rpasquale-mazza-2@",
     "name": "Pasquale Mazza",
     "slug": "pasquale-mazza-1889",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-7@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1891",
     "living": false,
     "via": "read"
    }

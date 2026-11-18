@@ -1649,5 +1649,110 @@
  },
  "src/antenati-san-costantino-morti-1813-1827-ventrice-fama-cichello-bc58fd": {
   "nobody": true
+ },
+ "src/antenati-briatico-matrimoni-1843-1849-prostamo-ventrice-comerci-3ee802": {
+  "for": [
+   [
+    "/people/domenico-ventrice-1818/",
+    "Domenico Ventrice"
+   ],
+   [
+    "/people/francesco-comerci-1826/",
+    "Francesco Comerci"
+   ],
+   [
+    "/people/domenica-valeri/",
+    "Domenica Valeri"
+   ],
+   [
+    "/people/anna-maria-accorinti/",
+    "Anna Maria Accorinti"
+   ],
+   [
+    "/people/elisa-santinelli/",
+    "Elisa Santinelli"
+   ]
+  ],
+  "ev": [
+   "/people/domenico-ventrice-1818/",
+   "/people/francesco-comerci-1826/"
+  ]
+ },
+ "src/antenati-briatico-matrimoni-1853-1858-promises-prostamo-cichello-30fd92": {
+  "nobody": true
+ },
+ "src/antenati-piedimonte-nati-1866-1879-indexes-patane-suderi-marra-2c90fc": {
+  "for": [
+   [
+    "/people/mariano-mazza-1866/",
+    "Mariano Mazza"
+   ],
+   [
+    "/people/francesca-mazza-1866/",
+    "Francesca Mazza"
+   ]
+  ],
+  "ev": [
+   "/people/mariano-mazza-1866/",
+   "/people/francesca-mazza-1866/"
+  ]
+ },
+ "src/antenati-piedimonte-nati-1880-1893-indexes-patane-suderi-mazza-ab2f3f": {
+  "for": [
+   [
+    "/people/salvatore-mazza-1891/",
+    "Salvatore Mazza"
+   ]
+  ],
+  "ev": [
+   "/people/salvatore-mazza-1891/"
+  ]
+ },
+ "src/antenati-piedimonte-matrimoni-1866-1893-indexes-patane-suderi-faro-fichera-mazza-98b161": {
+  "for": [
+   [
+    "/people/maria-mazza-1839/",
+    "Maria Mazza"
+   ],
+   [
+    "/people/domenico-mazza/",
+    "Domenico Mazza"
+   ],
+   [
+    "/people/vincenza-mazza/",
+    "Vincenza Mazza"
+   ],
+   [
+    "/people/pasquale-mazza/",
+    "Pasquale Mazza"
+   ],
+   [
+    "/people/concetta-greco/",
+    "Concetta Greco"
+   ],
+   [
+    "/people/maria-russo-1/",
+    "Maria Russo"
+   ]
+  ],
+  "ev": [
+   "/people/maria-mazza-1839/",
+   "/people/domenico-mazza/",
+   "/people/vincenza-mazza/",
+   "/people/pasquale-mazza/",
+   "/people/concetta-greco/",
+   "/people/maria-russo-1/"
+  ]
+ },
+ "src/antenati-linguaglossa-nati-1845-1859-tavole-faro-ragusa-fichera-toscano-mazza-3b45ed": {
+  "for": [
+   [
+    "/people/leonardo-fichera/",
+    "Leonardo Fichera"
+   ]
+  ],
+  "ev": [
+   "/people/leonardo-fichera/"
+  ]
  }
 }

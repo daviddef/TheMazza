@@ -38692,6 +38692,13 @@
   "parents": [],
   "children": [
    {
+    "id": "@Rleonardo-fichera@",
+    "name": "Leonardo Fichera",
+    "slug": "leonardo-fichera",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rdomenica-fichera@",
     "name": "Domenica Fichera",
     "slug": "domenica-fichera",
@@ -41545,6 +41552,51 @@
   "ancGen": null
  },
  {
+  "id": "@Ranna-maria-accorinti@",
+  "slug": "anna-maria-accorinti",
+  "name": "Anna Maria Accorinti",
+  "key": "Anna Maria Accorinti",
+  "given": "Anna",
+  "surname": "Accorinti",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1823,
+  "died": null,
+  "bornText": "c. 1823, at Parghelia",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1823, at Parghelia",
+    "year": 1823,
+    "place": "Briatico",
+    "text": "c. 1823, at Parghelia"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Matrimoni 1845, atto 6 (an_ua87659, image 7",
+   "the promise of marriage of 8 November 1845, read at the image by the session)"
+  ],
+  "registerNote": "Wife of Domenico Ventrice (b. c. 1818). Daughter of the late Silvestro Accorinti, a bracciale, and of Maria Giacco, living at Briatico. The children of this marriage have not been sought.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Ranna-melidoni@",
   "slug": "anna-melidoni",
   "name": "Anna Melidoni",
@@ -42513,6 +42565,13 @@
     "id": "@Rcaterina-comerci@",
     "name": "Caterina Comerci",
     "slug": "caterina-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-comerci-3@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci-1826",
     "living": false,
     "via": "read"
    }
@@ -43494,6 +43553,13 @@
   "photos": [],
   "parents": [],
   "children": [
+   {
+    "id": "@Rleonardo-fichera@",
+    "name": "Leonardo Fichera",
+    "slug": "leonardo-fichera",
+    "living": false,
+    "via": "read"
+   },
    {
     "id": "@Rdomenica-fichera@",
     "name": "Domenica Fichera",
@@ -45345,6 +45411,20 @@
   "parents": [],
   "children": [
    {
+    "id": "@Rdomenico-mazza@",
+    "name": "Domenico Mazza",
+    "slug": "domenico-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvincenza-mazza@",
+    "name": "Vincenza Mazza",
+    "slug": "vincenza-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rantonino-mazza@",
     "name": "Antonino Mazza",
     "slug": "antonino-mazza",
@@ -45383,6 +45463,13 @@
     "id": "@Rgrazia-mazza@",
     "name": "Grazia Mazza",
     "slug": "grazia-mazza-1876",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesca-mazza@",
+    "name": "Francesca Mazza",
+    "slug": "francesca-mazza-1866",
     "living": false,
     "via": "read"
    }
@@ -46674,6 +46761,67 @@
   "ancGen": null
  },
  {
+  "id": "@Rdomenica-valeri@",
+  "slug": "domenica-valeri",
+  "name": "Domenica Valeri",
+  "key": "Domenica Valeri",
+  "given": "Domenica",
+  "surname": "Valeri",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "before 8 November 1845 («defonta» in her son's promise of marriage)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Zambrone",
+    "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "",
+    "year": null,
+    "place": "",
+    "text": "before 8 November 1845 («defonta» in her son's promise of marriage)"
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Matrimoni 1845, atto 6 (an_ua87659, image 7",
+   "the promise of marriage of 8 November 1845, read at the image by the session)"
+  ],
+  "registerNote": "Named only as Domenico Ventrice's mother, dead by 8 November 1845. Whether she was the wife of Giuseppe Ventrice before Caterina Cichello is an inference from the son's age (about 27) and the 1824 marriage, not read. Valeri is also a Briatico family name (a Teresa Valeri married Michele Melluso in 1845, Matrimoni 1845 atto 10).",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rdomenico-ventrice-2@",
+    "name": "Domenico Ventrice",
+    "slug": "domenico-ventrice-1818",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rdomenica-vasta@",
   "slug": "domenica-vasta",
   "name": "Domenica Vasta",
@@ -47170,18 +47318,18 @@
   "sex": "M",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1861,
   "died": null,
-  "bornText": "",
+  "bornText": "c. 1861",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "c. 1861",
+    "year": 1861,
     "place": "Piedimonte Etneo",
-    "text": ""
+    "text": "c. 1861"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -47191,17 +47339,40 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Nati 1889 atto 126",
-   "Morti 1889 atto 101"
+   "Morti 1889 atto 101",
+   "Piedimonte Etneo, Matrimoni 1888 atto 10 (an_ua83409, image 10)"
   ],
-  "registerNote": "A Piedimonte Mazza household not joined to the spine: 29 (read 29?) in July 1889. His parentage is not stated in the births; no brotherhood to anyone here is claimed.",
+  "registerNote": "MARRIED MARIA RUSSO on 29 January 1888 at 6.30 in the evening (Matrimoni 1888 atto 10, an_ua83409, image 10; read at the image by the session): he is Mazza Domenico, 27, bracciante, born and living at Piedimonte, «figlio di Pasquale» and of Greco Concetta; she is Russo Maria, about 18 (the word is hard to read), contadina, daughter of Salvatore and of Panebianco Ignazia. Pasquale Mazza x Concetta Greco are the parents named in the marriage act of his sister Vincenza (1883), so the two are brother and sister. The 1888 act does not give the grandfather; the household is still not joined to the spine and no kinship to Mariano or Innocenzio is claimed. Father of Pasquale (b. 1889) and Salvatore (b. 1891).",
   "registerGen": "—",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-mazza@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-greco@",
+    "name": "Concetta Greco",
+    "slug": "concetta-greco",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@Rpasquale-mazza-2@",
     "name": "Pasquale Mazza",
     "slug": "pasquale-mazza-1889",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-7@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1891",
     "living": false,
     "via": "read"
    }
@@ -47439,6 +47610,111 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rdomenico-ventrice-2@",
+  "slug": "domenico-ventrice-1818",
+  "name": "Domenico Ventrice",
+  "key": "Domenico Ventrice (b. c. 1818, of Giuseppe Ventrice and Domenica Valeri)",
+  "given": "Domenico",
+  "surname": "Ventrice",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1818,
+  "died": null,
+  "bornText": "c. 1818, at Zambrone",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1818, at Zambrone",
+    "year": 1818,
+    "place": "Zambrone",
+    "text": "c. 1818, at Zambrone"
+   }
+  ],
+  "birthPlace": "Zambrone",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Matrimoni 1845, atto 6 (an_ua87659, image 7",
+   "the promise of marriage of 8 November 1845, read at the image by the session)"
+  ],
+  "registerNote": "A SON OF GIUSEPPE VENTRICE BY ANOTHER WIFE THAN CATERINA CICHELLO, AND THE FIRST CHILD OF THAT FIRST MARRIAGE FOUND. The act calls his father «Giuseppe Ventrice, di professione bracciale, defonto» and his mother «Domenica Valeri, defonta», both dead in November 1845, and the promise is with Anna Maria Accorinti, 22, born at Parghelia, daughter of the late Silvestro Accorinti and of Maria Giacco. Giuseppe married Caterina Cichello on 2 March 1824, at about thirty-four; a son born about 1818 of a Domenica Valeri fits a first marriage before that, but nothing read says the two women were Giuseppe's wives in that order, and Domenica's death date is not known. He is half-brother, on this reading, to Giovanna Ventrice, who married Domenico Prostamo in 1849. The celebration of the marriage and his own birth act (Zambrone Nati, which has a gap 1813-21) are not read.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiuseppe-ventrice@",
+    "name": "Giuseppe Ventrice",
+    "slug": "giuseppe-ventrice",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-valeri@",
+    "name": "Domenica Valeri",
+    "slug": "domenica-valeri",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Relisa-santinelli@",
+  "slug": "elisa-santinelli",
+  "name": "Elisa Santinelli",
+  "key": "Elisa Santinelli",
+  "given": "Elisa",
+  "surname": "Santinelli",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1824,
+  "died": null,
+  "bornText": "c. 1824, at Monteleone",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1824, at Monteleone",
+    "year": 1824,
+    "place": "Briatico",
+    "text": "c. 1824, at Monteleone"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Matrimoni 1845, atto 8 (an_ua87659, image 9",
+   "the promise of marriage of November 1845, head read at the image by the session)"
+  ],
+  "registerNote": "A FOUNDLING: the act gives her parents as unknown, 'perche ritrovata nella Ruota de' projetti di Monteleone' (the surname Santinelli is as written; Pontinelli is another reading). Wife-to-be of Francesco Comerci (b. c. 1826). Living at Briatico.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -48333,6 +48609,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rfrancesca-mazza@",
+  "slug": "francesca-mazza-1866",
+  "name": "Francesca Mazza",
+  "key": "Francesca Mazza (b. 1866, of Pasquale and Concetta Greco)",
+  "given": "Francesca",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1866,
+  "died": null,
+  "bornText": "15 October 1866",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "15 October 1866",
+    "year": 1866,
+    "place": "Piedimonte Etneo",
+    "text": "15 October 1866"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1866 atto 169 (an_ua83479, image 54)"
+  ],
+  "registerNote": "THE ELDEST CHILD OF PASQUALE AND CONCETTA GRECO FOUND SO FAR (the others: Salvatore 1869, Francesco 1870, Maria 1873, Grazia 1876, Antonino 1877, Rosaria 1879). Pasquale is again written MARRA, 'di Senzio' (Innocenzio), 34 in 1866, which is the father this archive already holds as Pasquale Mazza b. c. 1829. Her death and marriage have not been sought.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-mazza@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-greco@",
+    "name": "Concetta Greco",
+    "slug": "concetta-greco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rfrancesco-antonio-arena@",
   "slug": "francesco-antonio-arena",
   "name": "Francesco Antonio Arena",
@@ -48750,6 +49085,66 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfrancesco-comerci-3@",
+  "slug": "francesco-comerci-1826",
+  "name": "Francesco Comerci",
+  "key": "Francesco Comerci (b. c. 1826, of Rosario Comerci and Antonia Votano)",
+  "given": "Francesco",
+  "surname": "Comerci",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1826,
+  "died": null,
+  "bornText": "c. 1826, at Briatico",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1826, at Briatico",
+    "year": 1826,
+    "place": "Briatico",
+    "text": "c. 1826, at Briatico"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "servo (servant)",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Matrimoni 1845, atto 8 (an_ua87659, image 9",
+   "the promise of marriage of November 1845, head read at the image by the session)"
+  ],
+  "registerNote": "THE SON OF ROSARIO COMERCI AND ANTONIA VOTANO WHO WAS NOT YET HELD (Nicola died an infant in 1825, Caterina was born in 1829). His father is «defonto» in the act, which fits Rosario's death in early February 1845, and the documents the promise lists include his father's death certificate. His bride is ELISA SANTINELLI (written Pontinelli by another reading), 21, a foundling of Monteleone's Ruota dei projetti. The delegated reader gave Giacomo Comerci as a witness: the session read the witness block on the left page and the four witnesses are Pasquale Lombardi, Nicola Console, Leonardo Salviani and Francesco Francica?, so there is no Comerci among them. The celebration of the marriage and any children have not been sought.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rrosario-comerci@",
+    "name": "Rosario Comerci",
+    "slug": "rosario-comerci",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rantonia-votano@",
+    "name": "Antonia Votano",
+    "slug": "antonia-votano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -53718,6 +54113,13 @@
     "slug": "francesco-ventrice-1830",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rdomenico-ventrice-2@",
+    "name": "Domenico Ventrice",
+    "slug": "domenico-ventrice-1818",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -54673,6 +55075,13 @@
     "slug": "alfio-mazza-1868",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmariano-mazza-3@",
+    "name": "Mariano Mazza",
+    "slug": "mariano-mazza-1866",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -54735,6 +55144,65 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rleonardo-fichera@",
+  "slug": "leonardo-fichera",
+  "name": "Leonardo Fichera",
+  "key": "Leonardo Fichera (b. 1856, son of Antonio Fichera and Agata Toscano)",
+  "given": "Leonardo",
+  "surname": "Fichera",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1856,
+  "died": null,
+  "bornText": "14 November 1856",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "14 November 1856",
+    "year": 1856,
+    "place": "Linguaglossa",
+    "text": "14 November 1856"
+   }
+  ],
+  "birthPlace": "Linguaglossa",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Linguaglossa Nati 1856 atto 173"
+  ],
+  "registerNote": "A full brother of Domenica Fichera (b. 3 January 1863) and of the two Salvatore, the first dead at one month in 1855 and the second born in 1859. The father is written Antonino, as in the other acts of this couple. Agata is written 32 here and 36 in 1859, which do not agree; neither is preferred. His death is not found.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rantonio-fichera@",
+    "name": "Antonio Fichera",
+    "slug": "antonio-fichera",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragata-toscano@",
+    "name": "Agata Toscano",
+    "slug": "agata-toscano",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -56082,9 +56550,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Piedimonte Etneo, Nati 1839 row 40"
+   "Piedimonte Etneo, Nati 1839 row 40",
+   "Piedimonte Etneo, Matrimoni 1873 atto 28 (an_ua83394, image 26)"
   ],
-  "registerNote": "NOT CONNECTED TO THE SPINE: a child of the Innocenzio Mazza / Domenica Cavallaro household of Piedimonte, found on the closing annual table of the births; the act is not opened. Date as read from the table; a later fate (marriage, death) is not sought. His/her father is the Innocenzio ('Senzio') who died in 1876, son of Orazio: the household is joined to the spine by the death act of 19 June 1876.",
+  "registerNote": "NOT CONNECTED TO THE SPINE: a child of the Innocenzio Mazza / Domenica Cavallaro household of Piedimonte, found on the closing annual table of the births; the act is not opened. Date as read from the table; a later fate (marriage, death) is not sought. His/her father is the Innocenzio ('Senzio') who died in 1876, son of Orazio: the household is joined to the spine by the death act of 19 June 1876. MARRIED MARIANO CARUSO, 34, bracciante, born and living at Mascali, son of the late Sebastiano and of the living Catarina Lizzio, on 4 September 1873 at 8 in the evening (Matrimoni 1873 atto 28, an_ua83394, image 26; read at the image by the session, the party lines legible: she is 34, donna di casa, daughter of Innocenzio, bracciante, and of Domenica Cavallaro, both living in Piedimonte). The age of 34 agrees with the birth of 2 April 1839. Witnesses Alfio Scandura fu Giovanni and Giambattista Durso fu Mariano, 52, sarto; the spouses could not write. A later fate is not sought.",
   "registerGen": "5",
   "photos": [],
   "parents": [
@@ -57159,9 +57628,10 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Nati 1889 atto 126",
-   "Morti 1889 atto 101"
+   "Morti 1889 atto 101",
+   "Piedimonte Etneo, Matrimoni 1888 atto 10 (an_ua83409, image 10)"
   ],
-  "registerNote": "Wife of Domenico Mazza; her surname is written Russo.",
+  "registerNote": "Wife of Domenico Mazza. At the marriage of 29 January 1888 she is Russo Maria, about 18, contadina, born and living at Piedimonte, daughter of Salvatore and of Panebianco Ignazia (the mother's surname read as Panebianco; the same couple is named as the parents of Salvatore Russo in his marriage of 11 December 1892).",
   "registerGen": "—",
   "photos": [],
   "parents": [],
@@ -57170,6 +57640,13 @@
     "id": "@Rpasquale-mazza-2@",
     "name": "Pasquale Mazza",
     "slug": "pasquale-mazza-1889",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-7@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1891",
     "living": false,
     "via": "read"
    }
@@ -57852,6 +58329,65 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 7
+ },
+ {
+  "id": "@Rmariano-mazza-3@",
+  "slug": "mariano-mazza-1866",
+  "name": "Mariano Mazza",
+  "key": "Mariano Mazza (b. 1866, of Salvatore and Leonarda Patane)",
+  "given": "Mariano",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1866,
+  "died": null,
+  "bornText": "5 September 1866",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "5 September 1866",
+    "year": 1866,
+    "place": "Piedimonte Etneo",
+    "text": "5 September 1866"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1866 atto 145 (an_ua83479, image 45)"
+  ],
+  "registerNote": "VENERANDO'S BROTHER, A SECOND ONE (Venerando 1861, Maria 1864, MARIANO 1866, Alfio 1868, Giuseppa 1871). The same couple as Alfio's act of 1868 (Nati 1868 atto 138), and here the clerk writes the surname MARRA in the body and in the margin, not Mazza or Marza: the family is told by the father's father (Mariano) and the mother (Leonarda Patane di Alfio), not by the surname, so the 1866 and 1868 indexes sit under Marra. His death has not been sought.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rsalvatore-mazza-2@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1841-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rleonarda-patane@",
+    "name": "Leonarda Patane",
+    "slug": "leonarda-patane",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rmariano-mazza@",
@@ -59554,13 +60090,29 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Nati 1877 atto 164",
-   "Nati 1879 atto 167"
+   "Nati 1879 atto 167",
+   "Piedimonte Etneo, Matrimoni 1883 atto 31 (an_ua83404, image 28)",
+   "Matrimoni 1888 atto 10 (an_ua83409, image 10)"
   ],
-  "registerNote": "NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed. Husband of Concetta Greco; father of Antonino (1877) and Rosaria (1879), of via Cappello Campagna. Whether he is a brother or cousin of the Innocenzio or Mariano households is not known. IN 1872 HE DECLARES THE DEATH OF DOMENICA, WIFE OF PIETRO SORBELLO (Orazio's daughter), relationship unstated: a LEAD that he is kin of Orazio's family (a nephew through Innocenzio?), not a finding; his father is written 'Lenzio'/'Aprenzio?'.",
+  "registerNote": "NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed. Husband of Concetta Greco; father of Antonino (1877) and Rosaria (1879), of via Cappello Campagna. Whether he is a brother or cousin of the Innocenzio or Mariano households is not known. IN 1872 HE DECLARES THE DEATH OF DOMENICA, WIFE OF PIETRO SORBELLO (Orazio's daughter), relationship unstated: a LEAD that he is kin of Orazio's family (a nephew through Innocenzio?), not a finding; his father is written 'Lenzio'/'Aprenzio?'. FATHER OF DOMENICO (married 1888) AND VINCENZA (married 1883), both named as the children of Pasquale and Concetta Greco in their own marriage acts (read at the image by the session); two more children, Salvatore (1869) and Maria (1873), are held in this file under the same parents. The household stays unjoined to the spine.",
   "registerGen": "—",
   "photos": [],
   "parents": [],
   "children": [
+   {
+    "id": "@Rdomenico-mazza@",
+    "name": "Domenico Mazza",
+    "slug": "domenico-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvincenza-mazza@",
+    "name": "Vincenza Mazza",
+    "slug": "vincenza-mazza",
+    "living": false,
+    "via": "read"
+   },
    {
     "id": "@Rantonino-mazza@",
     "name": "Antonino Mazza",
@@ -59600,6 +60152,13 @@
     "id": "@Rgrazia-mazza@",
     "name": "Grazia Mazza",
     "slug": "grazia-mazza-1876",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfrancesca-mazza@",
+    "name": "Francesca Mazza",
+    "slug": "francesca-mazza-1866",
     "living": false,
     "via": "read"
    }
@@ -62021,6 +62580,13 @@
     "slug": "caterina-comerci",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rfrancesco-comerci-3@",
+    "name": "Francesco Comerci",
+    "slug": "francesco-comerci-1826",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -64098,6 +64664,13 @@
     "slug": "alfio-mazza-1868",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmariano-mazza-3@",
+    "name": "Mariano Mazza",
+    "slug": "mariano-mazza-1866",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -64334,6 +64907,65 @@
     "id": "@Rdomenica-fichera@",
     "name": "Domenica Fichera",
     "slug": "domenica-fichera",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rsalvatore-mazza-7@",
+  "slug": "salvatore-mazza-1891",
+  "name": "Salvatore Mazza",
+  "key": "Salvatore Mazza (b. 1891, of Domenico and Maria Russo)",
+  "given": "Salvatore",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1891,
+  "died": null,
+  "bornText": "26 June 1891",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "26 June 1891",
+    "year": 1891,
+    "place": "Piedimonte Etneo",
+    "text": "26 June 1891"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1891 atto 110 (an_ua83505, image 63)"
+  ],
+  "registerNote": "THE SECOND CHILD OF DOMENICO MAZZA AND MARIA RUSSO (Pasquale 1889 died at two months; this boy was named Salvatore, not Pasquale). Domenico is 31 here and was 21 in the act of 1889: the two declared ages differ by ten years and both are the clerks' statements; neither is preferred here. His marriage to Angela Sorbello (1920) is known only from the margin of this act; the marriage act has not been opened.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rdomenico-mazza@",
+    "name": "Domenico Mazza",
+    "slug": "domenico-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-russo@",
+    "name": "Maria Russo",
+    "slug": "maria-russo-1",
     "living": false,
     "via": "read"
    }
@@ -67685,6 +68317,65 @@
     "id": "@Rconcetta-sciacca@",
     "name": "Concetta Sciacca",
     "slug": "concetta-sciacca",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rvincenza-mazza@",
+  "slug": "vincenza-mazza",
+  "name": "Vincenza Mazza",
+  "key": "Vincenza Mazza (b. c. 1862, of Pasquale and Concetta Greco)",
+  "given": "Vincenza",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1862,
+  "died": null,
+  "bornText": "c. 1862",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1862",
+    "year": 1862,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1862"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1883 atto 31 (an_ua83404, image 28)"
+  ],
+  "registerNote": "MARRIED ALFIO COSTA, born at Giarre and living at Piedimonte, bracciante, «figlio di Giovanni» and of a mother who is dead (her given name is very faint, perhaps Agata), on 21 July 1883 at 10 minutes past 8 in the evening (Matrimoni 1883 atto 31, an_ua83404, image 28; read at the image by the session: the bride is Mazza Vincenza, about 21, born and living at Piedimonte, «figlia di Pasquale» and of Greco Concetta; witnesses Giuseppe Amante and Ignazio Cannavo, the groom's age not read). A sister of Domenico Mazza (married 1888). The household is not joined to the spine.",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-mazza@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-greco@",
+    "name": "Concetta Greco",
+    "slug": "concetta-greco",
     "living": false,
     "via": "read"
    }
