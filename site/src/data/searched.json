@@ -28073,5 +28073,24 @@
    "Patane",
    "Catalano"
   ]
+ },
+ {
+  "key": "src/antenati-queensland-state-archives-wills-aliens-catalogue-nicotra-mazza-crupi-18f4b5",
+  "status": "part",
+  "when": "2026-11-22",
+  "source": "Queensland State Archives — ArchivesSearch catalogue (guest JSON endpoints): Supreme Court Northern wills series S6220, Aliens Forms 3 series S13411, Police Commissioner internment of aliens series S16865",
+  "scope": "Catalogue entries only; no file was opened and none has a digital copy. Surnames typed one at a time: Nicotra, Cassaniti, Mazza, Marza, Prostamo, Melluso, Polistena and Crupi as written. The NAA RecordSearch pages were blocked to the reader (Cloudflare), so the Crupi files and the J25 file were not re-seen; the Trove article text was not reachable; the Townsville cemetery PDFs refused.",
+  "result": "FOUND four Nicotra will files at Townsville, all with Open Access and paper copies only (series S6220, ecclesiastical wills): items 938108 (a Salvatore Philip, file year 1955), 939896 (a Leonarda, 1962), 940644 (a Vincenzo, 1965) and 940991 (a Filippo, 1966); the series lists 1951-84 by testator name, so these are the only Nicotra wills at Townsville in those years (1924-50 cannot be searched by name online). Matching a will to this family is NOT established: the given names agree with a Filippo and a Leonarda of the Tully and Innisfail area in the archive's own Findmypast data, which is a candidate tie only. Also FOUND in S13411 (Aliens Forms 3, applications to hold real property by aliens) item 3296417, titled for a Sebastiano Mazza, 24 Feb to 13 Apr 1959, Open Access, no digital copy: a man needing that permit in 1959 was still an alien, so if he is the Wacol Sebastiano Mazza the 1959 roll does not prove naturalisation; the title carries no birth date or address, so identity is not established. QSA keyword searches for Prostamo, Melluso, Polistena and Marza returned nothing (a keyword search of a catalogue is not a nil for the family). CORRECTION to row 185: the two Cardwell Shire files titled Nicotra Parish are a land parish name and name no person; the one file that names Nicotras (Giuseppe and Rosina) is at Stanthorpe, not the north. Copies cost 1.95 dollars a page and take 20 working days through an ArchivesSearch login.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/",
+  "tags": [
+   "Nicotra",
+   "Mazza",
+   "Prostamo",
+   "Melluso",
+   "Polistena",
+   "Crupi"
+  ],
+  "nobody": true
  }
 ]
