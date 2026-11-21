@@ -28279,5 +28279,29 @@
    "Mazzitelli"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-briatico-nati-1816-1830-tavole-and-potenzoni-bundle-melluso-prostamo-vitrale-399e2d",
+  "status": "part",
+  "when": "2026-11-22",
+  "source": "Antenati — Briatico (Vibo Valentia), Archivio di Stato di Catanzaro, Stato civile della restaurazione, Nati 1816-1830 (an_ua87718 to an_ua87732), the Potenzoni-labelled bundle 1812-1837 (an_ua37927182), and the Pizzo, Zambrone and Daffina death bundles (an_ua37926878, an_ua37926974, an_ua37932358, an_ua37921999): annual Tavole and chosen acts",
+  "scope": "TAVOLA LEVEL, partly mapped, and not a basis for a nil. The fifteen Briatico Nati volumes of 1816-1830 were read through their Tavole except 1816 and 1817, which have none, and 1823, which has only a blank form. The Potenzoni-labelled bundle (which holds one register a year, with a Briatico-titled register near image 106) has a filled Tavola for only some years (1818-20, 1823, 1825-29, 1832-34, 1836, 1837); the other years have none found. The Pizzo Morti 1829-31 and 1845-48, the Zambrone Morti 1811-39 and the Daffina bundle 1811-40 were located by contact sheets and not read for the surnames, so no nil is claimed for them. Terms typed: Melluso, Meluso, Prostamo, Vitrale. Near-names not counted: Valeri, Melana, Savella.",
+  "result": "FOUND six Briatico births of the Melluso surname by act, read at Tavola line and act by a delegated reader, none tied to a person in the archive: Antonia (8 March 1820, atto 4) and Giuseppe (19 March 1825, atto 11), children of Leone Melluso and Annunciata Mannella; Catarina (4 October 1828, atto 19) and probably Giuseppa (29 August 1830, atto 14), children of a Paolo Melluso and Elisabetta Sorrentino; and Leone (10 June 1830, atto 10), son of Domenico Melluso and Rosa Fabiano. A Leone and a Domenico Melluso also stand as witnesses in a 1829 act. The ages of Leone Melluso run 36, 46 and 50 between 1820 and 1829, so they cannot be used to date him. No Prostamo or Vitrale was seen in any Tavola read. Work-list belief corrected: the Zambrone Morti bundle an_ua37932358 ends in 1839, not 1844.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua87718/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua87718/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua87732/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua37927182/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua37926878/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua37926974/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua37932358/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua37921999/"
+  ],
+  "tags": [
+   "Melluso",
+   "Prostamo"
+  ],
+  "nobody": true
  }
 ]
