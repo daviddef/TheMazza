@@ -28174,12 +28174,12 @@
   "nobody": true
  },
  {
-  "key": "src/antenati-piedimonte-etneo-matrimoni-1851-1860-tavole-and-two-processetti-mazza-patane-1669ff",
+  "key": "src/antenati-piedimonte-etneo-matrimoni-1851-1860-tavole-and-two-processetti-mazza-patane-fcec0e",
   "status": "part",
   "when": "2026-11-22",
   "source": "Antenati — Piedimonte Etneo (Catania), Archivio di Stato di Catania, Stato civile della restaurazione, Matrimoni 1851-1860 (an_ua72271 to an_ua72280) and processetti (an_ua72227 to an_ua72236): annual Tavole, two processetti bundles",
   "scope": "TAVOLA LEVEL for ten years, two processetti bundles opened (1854 atto 20 and 1855 atto 19, with a consent for 1855 atto 18); eight bundles not opened. The Tavola here is a chronological table, not an alphabetical index, and rows dated 'detto' take the month of the row above. Terms typed: Mazza, Marza, Massa, Patane, Suderi, Catalano. Near-names not counted: Pafumi, Patone, Catabiano, Mazzaglia, Scandura.",
-  "result": "FOUND in the Tavole three families of Mazza at Piedimonte not yet in the archive, read at Tavola level only and not yet opened in a bundle: a Pasquale Mazza x Concetta Greco marriage of 25 July 1858 (atto 19, parents Innocenzio Mazza and Domenica Cavallaro for him, Domenico Greco and Vincenza Cardile for her), three marriages of 1859 of children of Innocenzio Mazza and Domenica Cavallaro or of Orazio Mazza and Giuseppa Pulvirenti (atti 6, 16, 22), and the two 1860 marriages already known (atti 30 and 31, parents Mariano Mazza and Maria Catalano). Two processetti bundles were read: 1854 atto 20, a marriage of Angelo Trovato to Angela Patane, daughter of Alfio Patane and Maria Suderi, with her Giarre birth act of 27 April 1830 (the same couple as the later children of 1822, 1824 and 1832), and 1855 atto 19, a Patane bride whose father Rosario died in 1845 and was the son of Sebastiano Patane and Serafina Catalano, a different Rosario from the son of Alfio. No Tavola row names Mariano Mazza as a groom, and not a nil, since eight bundles were not opened.",
+  "result": "Tavola rows read for the Mazza families already known at Piedimonte, none new to the archive: the Pasquale Mazza x Concetta Greco marriage of 25 July 1858 (atto 19, spelling read Mazza, Magra or Marza), the 1859 marriages of children of Innocenzio Mazza and Domenica Cavallaro and of Orazio Mazza and Giuseppa Pulvirenti (atti 6, 16, 22) and the two 1860 marriages (atti 30 and 31, parents Mariano Mazza and Maria Catalano). The bundles for 1858 atto 19 and 1859 atti 6, 16, 22 and 39 are still unopened. Two processetti bundles were read: 1854 atto 20, a marriage of Angelo Trovato to Angela Patane, daughter of Alfio Patane and Maria Suderi, with her Giarre birth act of 27 April 1830, and 1855 atto 19, a Patane bride whose father Rosario died in 1845 and was the son of Sebastiano Patane and Serafina Catalano, a different Rosario from the son of Alfio. No Tavola row names Mariano Mazza as a groom, and not a nil, since eight bundles were not opened.",
   "outcome": "part",
   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua72271/",
   "urls": [
@@ -28200,12 +28200,12 @@
   "nobody": true
  },
  {
-  "key": "src/antenati-giarre-morti-1866-1893-indexes-mazza-marza-patane-suderi-catalano-bda5fb",
+  "key": "src/antenati-giarre-morti-1866-1893-indexes-mazza-marza-patane-suderi-catalano-97f902",
   "status": "part",
   "when": "2026-11-22",
   "source": "Antenati — Giarre (Catania), Archivio di Stato di Catania, Stato civile italiano, Morti 1866-1893 (an_ua80855 to an_ua80883): annual indexes where present",
   "scope": "PARTLY READ, and not a basis for a nil. An annual index exists only for 1872, 1879-1882, 1884 and 1890-1893; 1866-1871, 1873-1878, 1883 and 1885-1889 have none or none seen, and were not read. In the indexed years the M and P blocks were read for 1872 and 1879-1884, the C and S blocks for some years only, and 1892 and 1893 were not read; Nati 1882-1893 were not read at all. Acts were opened only for hits. Terms typed: Mazza, Marza, Massa, Patane, Suderi, Scuderi, Catalano. Near-names not counted: Mosca, Musumeci, Magazzu.",
-  "result": "FOUND three deaths of children of a Mazza or Marza couple of Giarre, Francesco and Giuseppa Fresta, read in acts by a delegated reader and not yet re-read by this session: Paolo Marza aged about two on 25 February 1872 (atto 46), Paolo Mazza aged six on 13 January 1879 (atto 9) and Alfio Mazza aged eight months on 21 January 1879 (atto 17). The reader's inference that the 1879 Paolo was a later son given the name of the first is from ages only. No death was seen in the index blocks read for Alfio Patane, Maria Suderi or Maria Catalano, which is not a nil for any volume.",
+  "result": "RE-FOUND, nothing new: the three deaths of children of the Giarre couple Francesco Mazza and Giuseppa Fresta (Paolo Marza aged about two on 25 February 1872 atto 46; Paolo Mazza aged six on 13 January 1879 atto 9; Alfio Mazza aged eight months on 21 January 1879 atto 17) were already recorded from earlier sweeps of these volumes, and the delegated reader's independent read of the indexes agreed with them. The reader's inference that the 1879 Paolo was a later son given the first one's name rests on ages only. No death was seen in the index blocks read for Alfio Patane, Maria Suderi or Maria Catalano, which is not a nil for any volume. NEW as coverage only: which Giarre Morti years have an annual index at all (see the scope).",
   "outcome": "part",
   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua80855/",
   "urls": [
@@ -28232,6 +28232,51 @@
    "Arena",
    "Costa",
    "Donato"
+  ],
+  "nobody": true
+ },
+ {
+  "key": "src/antenati-piedimonte-etneo-morti-1866-1893-indexes-reread-mazza-patane-suderi-catalano-374446",
+  "status": "part",
+  "when": "2026-11-22",
+  "source": "Antenati — Piedimonte Etneo (Catania), Archivio di Stato di Catania, Stato civile italiano, Morti 1866-1893 (an_ua83439 to an_ua83466): annual indexes of 28 volumes, read a second time by delegated readers",
+  "scope": "A SECOND READ of volumes already swept for these names, and not a basis for a nil. Every volume has an annual index except 1881, which has none usable; the indexes were read for the surnames Mazza and Marza, Patane, Suderi and Scuderi, and Catalano, and acts were opened only for hits. The 1873, 1875 and 1877 volumes were read from the index alone, and some Patane lines of 1873-1888 were counted and not opened. Terms typed: Mazza, Marza, Massa, Patane, Suderi, Scuderi, Sudero, Catalano. Near-names not counted: Masano, Marano, Mazzaglia, Mazzone, Pafumi, Scandura, Catanzaro.",
+  "result": "Nothing new for the Mazza line: the deaths found (Mariano Mazza on 9 February 1887, Maria Catalano as Agata Catalano on 18 December 1891, Maruzza Suderi as wife of Alfio Patane on 28 June 1872, Innocenzio Mazza on 19 June 1876, a daughter of Orazio Mazza and wife of a Sorbello on 30 July 1872, a daughter of Orazio Mazza on 20 January 1889, a son of Innocenzio Mazza on 22 October 1890, and the two children of Venerando Mazza of 1893) are all in the archive already. Two acts were looked at again at the image: Maria Catalano's death (1891 atto 118, widow of Mariano Marza, 83, born at Giarre, daughter of the late Carlo and Maria Cardillo) is confirmed, and an Alfio Patane who died on 26 May 1874 aged seventy (atto 38, image 17) is a DIFFERENT man, since the act makes him the son of the late Rosario and Maria Cali and the widower of Venera Scuderi, while the Alfio sought is the son of Rosario and Venera Grasso and was married to Maria Suderi, alive on 28 June 1872. The death of that Alfio is therefore still not found; the window stays 1872 to April 1885.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83439/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83439/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83466/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Sorbello",
+   "Grasso"
+  ],
+  "nobody": true
+ },
+ {
+  "key": "src/antenati-riposto-morti-1866-1893-and-matrimoni-1890-1893-indexes-mazza-patane-suderi-862251",
+  "status": "part",
+  "when": "2026-11-22",
+  "source": "Antenati — Riposto (Catania), Archivio di Stato di Catania, Stato civile italiano, Morti 1866-1885 and 1890-1893 (an_ua83906 to an_ua83933) and Matrimoni 1890-1893 (an_ua83888 to an_ua83891): annual indexes only",
+  "scope": "INDEXES ONLY, partly legible, and not a basis for a nil. The Morti indexes are alphabetical but in almost every volume only the M, P and S blocks were read; the C blocks (Catalano) were not read in any volume; some indexes are on tipped-in slips or partly behind cards (1869, 1871, 1872, 1884, 1885 and 1892 Matrimoni); 1876 has no index. The Matrimoni indexes list each marriage under the groom, so a Mazza, Patane, Suderi or Catalano bride is seen only where her husband's block was read. Acts opened: three. Terms typed: Mazza, Marza, Patane, Suderi, Sudero, Scuderi. Near-names not counted: Mazzana, Mazzarone, Mazzullo, Mazzitelli, Mangano.",
+  "result": "Two Mazza deaths of a Riposto line not in the archive: Antonino Mazza, 50, marinaro, unmarried, born and living at Riposto, son of the late Pietro (12 April 1875, atto 52), and Angela Marza, 70, a widow, born at Riposto, daughter of the late Pietro (7 June 1890, atto 201); the mother's name is read as Giovanna with a doubtful surname, so the two are probably a brother and sister. No tie to the Piedimonte or Linguaglossa Mazza is shown. No Suderi line and no Patane line fu Alfio was seen; Patane children 'di Alfio' of 1881 and 1882 point to a different Alfio Patane at Riposto, alive then, whose acts were not opened.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83906/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83906/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83933/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83888/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83891/"
+  ],
+  "tags": [
+   "Catalano",
+   "Mazza",
+   "Patane",
+   "Mazzitelli"
   ],
   "nobody": true
  }
