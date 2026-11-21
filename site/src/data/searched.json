@@ -28303,5 +28303,41 @@
    "Prostamo"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-piedimonte-matrimoni-processetti-1858-1860-pasquale-mazza-concetta-greco-and-two-patane-mazza-acts-d863f2",
+  "status": "part",
+  "when": "2026-11-22",
+  "source": "Antenati — Piedimonte Etneo (Catania), Archivio di Stato di Catania, Stato civile della restaurazione, Matrimoni processetti 1858 (an_ua72234, act 19) and 1860 (an_ua72236, acts 30 and 31), the groom's and bride's own birth acts",
+  "scope": "THREE BUNDLES' WORTH OF ACTS OPENED, not a sweep. The 1858 bundle was read for act 19 only and the 1860 bundle for acts 30 and 31 only. The 1859 bundle (an_ua72235) is not a Piedimonte bundle: its wrapper says Piedimonte 1859 but 41 images sampled across 459 were all Randazzo documents, so acts 6, 16, 22 and 39 of 1859 could not be found there and are not read (not a nil).",
+  "result": "FOUND the birth act of Pasquale Mazza, husband of Concetta Greco: Piedimonte no. 53, born at six in the morning on 20 April 1829, declared by his father Innocenzio Mazza, 28, bracciale, with the mother Domenica Cavallaro, 26, and the child named Pasquale (image 124, right page, re-read at the image by this session). So Pasquale is a son of Innocenzio and a brother of Salvatore and Antonino, not a separate Mazza line. The bride's birth act is in the same bundle: Concetta Greco, 25 February 1837 (no. 35), daughter of Domenico Greco and Vincenza Cardile. The promise is dated 13 July 1858 and says it was notified on a Sunday 6 June, which disagrees; the index gives the marriage as 25 July. The 1860 acts 30 and 31 restated what the archive already held: Salvatore Mazza born 29 January 1841 to Mariano Mazza and Maria Catalano, Leonarda Patane born at Mascali on 3 September 1836 although her promise says Piedimonte, Giovanni Patane born at Giarre on 22 June 1822 and Venera Mazza baptised at Linguaglossa on 2 December 1837.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua72234/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72234/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72236/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72235/"
+  ],
+  "tags": [
+   "Mazza",
+   "Domenica",
+   "Cavallaro",
+   "Catalano",
+   "Patane"
+  ],
+  "for": [
+   [
+    "/people/pasquale-mazza/",
+    "Pasquale Mazza"
+   ],
+   [
+    "/people/concetta-greco/",
+    "Concetta Greco"
+   ]
+  ],
+  "ev": [
+   "/people/pasquale-mazza/",
+   "/people/concetta-greco/"
+  ]
  }
 ]
