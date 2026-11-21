@@ -1623,82 +1623,79 @@
    "street": "Giarre",
    "date": "12 July 1866",
    "note": "GIARRE: Matrimoni 1866 ATTO 13 (an_ua80805, image 10 right page, continuing on image 11; margin heading 'Francesco Mazza e Giuseppa Fre?ta'), found by a delegated reader walking the register by its margin headings and re-zoomed by the session. Before Domenico Cannavo, assessore and officer of the civil state by delegation, on 12 July 1866 at 7 in the evening (the day is read from cursive; the act before is 7 July, the act after 21 July). Groom Francesco Mazza, 27, 'industrioso', BORN AT SAPONARA, resident at Giarre, son of PAOLO (bracciale, resident at Giarre) and of Concetta Vuggeri (Ruggeri?), resident at Giarre. Bride Giuseppa Fresta (the cursive reads Fre?ta / Fresa), 21, born at Giarre, daughter of Giuseppe (bordonaro, muleteer) and of the late Pierra (Sierra?) Maccarrone. Witnesses Alfio Vita (50, bordonaro) and Mariano Arcidiacono (46, a secolare). THIS SETTLES THE GIARRE MAZZA HOUSEHOLD: the parents of the births of 1869 (Paolo, died 1872), 1881 (Giuseppe) and 1884 (Rosa) and of the deaths of 1872 and 1879 (Paolo and Alfia): Francesco, born about 1839 at Saponara (father Paolo; the 1869 child Paolo is named for him), married Giuseppa Fresta, born about 1845, in July 1866. Saponara is in the province of Messina, so this Mazza family came to Giarre from the Messina side; no Mazza of Saponara is yet linked to the Piedimonte or Linguaglossa lines. UNCONNECTED; no link is claimed."
+  },
+  {
+   "kind": "marriage",
+   "year": "1826",
+   "act": "23",
+   "ark": "an_ua72246",
+   "img": "47",
+   "subject": "Innocenzio Mazza & Domenica Cavallaro",
+   "father": "Orazio Mazza",
+   "fatherAge": "70",
+   "mother": "Pulvirenti Giuseppa",
+   "street": "—",
+   "date": "25 September 1826 (promise); celebrated 26 September 1826",
+   "note": "PIEDIMONTE ETNEO, Matrimoni 1826 ATTO 23 (an_ua72246, image 47, right page; the Bourbon-era 'Atto della solenne promessa', numero d'ordine 23; read at the image by the session, parties paragraph zoomed). Innocenzio Mazza, 25, born at Trecastagni, bracciale, son of Orazio (70, bracciale) and Giuseppa Pulvirenti (60); bride Domenica Cavallaro, 23, born at Aci Sant'Antonio, daughter of Antonino (castaldo) and Agata Leonardi (62). Promise before Santo Lo Turco, second elect acting as sindaco. The same parents as Mariano Mazza's of 1836 (atto 17): the two are brothers. Found by a delegated reader through the closing Tavola (row 23), then read by the session."
+  },
+  {
+   "kind": "birth",
+   "year": "1827",
+   "act": "124",
+   "ark": "an_ua72368",
+   "img": "126",
+   "subject": "Salvatore Mazza",
+   "father": "Innocenzio Mazza",
+   "fatherAge": "—",
+   "mother": "Cavallaro Leonarda (age 22; the same Domenica, probably)",
+   "street": "campagna di questo territorio",
+   "date": "20 November 1827",
+   "note": "PIEDIMONTE ETNEO, Nati 1827 ATTO 124 (an_ua72368, image 126, right page), read at the image by the session. Born 20 November, declared 21 November before Domenico Voce, sindaco, by Innocenzio Mazza, bracciale, domiciled in the campagna of the territory. The mother's first name is written Leonarda (22) where the couple's marriage and the other children's acts write Domenica."
+  },
+  {
+   "kind": "birth",
+   "year": "1830",
+   "act": "109",
+   "ark": "an_ua72371",
+   "img": "111",
+   "subject": "Maria Mazza",
+   "father": "Innocenzio Mazza",
+   "fatherAge": "32",
+   "mother": "Cavallaro Domenica (28)",
+   "street": "—",
+   "date": "19 September 1830",
+   "note": "PIEDIMONTE ETNEO, Nati 1830 ATTO 109 (an_ua72371, image 111, right page), read at the image by the session. Born and declared 19 September before Salvatore Dr Patane, elected sindaco. The father line reads 'detto Epifanio Castro', copied from the act above (108); the declarant and the signature paragraph say Mazza Innocenzio."
+  },
+  {
+   "kind": "birth",
+   "year": "1832",
+   "act": "97",
+   "ark": "an_ua72373",
+   "img": "101",
+   "subject": "Giuseppa Mazza",
+   "father": "Innocenzio Mazza",
+   "fatherAge": "30",
+   "mother": "Cavallaro Domenica (26)",
+   "street": "Borgata dell'ex feudo di San Basilio",
+   "date": "12 October 1832",
+   "note": "PIEDIMONTE ETNEO, Nati 1832 ATTO 97 (an_ua72373, image 101, right page), read at the image by the session. Born and declared 12 October before Domenico Voce, sindaco (the closing table was read as 17 October; the act says dodici)."
+  },
+  {
+   "kind": "birth",
+   "year": "1834",
+   "act": "50",
+   "ark": "an_ua72375",
+   "img": "53",
+   "subject": "Filippa Mazza",
+   "father": "Innocenzio Mazza",
+   "fatherAge": "40",
+   "mother": "Cavallaro Domenica (age faint)",
+   "street": "S. Basilio",
+   "date": "19 April 1834",
+   "note": "PIEDIMONTE ETNEO, Nati 1834 ATTO 50 (an_ua72375, image 53, left page of the opening's right-hand act), read at the image by the session. Born and declared 19 April; the father's age (quaranta) and the domicile are faint."
   }
  ],
  "households": [
-  {
-   "father": "Innocenzio Mazza",
-   "mother": "Cavallaro Domenica",
-   "occupations": [],
-   "fatherBorn": "",
-   "streets": [],
-   "children": [
-    {
-     "name": "Giuseppe Mazza",
-     "date": "12 February 1836",
-     "act": "20",
-     "year": "1836",
-     "ark": "an_ua72377",
-     "note": "PIEDIMONTE ETNEO, Nati 1836, ROW 20 OF THE CLOSING TABLE (an_ua72377, image 129, left page). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened. The act number is the table's own row number. «Mazza Giuseppe», parents «Mazza Senzio» (the contracted Innocenzio, as in the 1876 marriage act and the 1841 table) and «Cavallaro Dom.ca», born 'a 12' after row 19 of 11 February, so 12 FEBRUARY 1836. The OLDEST CHILD YET FOUND OF THE INNOCENZIO MAZZA / DOMENICA CAVALLARO HOUSEHOLD. Not a child of Mariano Mazza, who married in September 1836. RE-CHECKED AGAINST THE IMAGE 12 Nov 2026 (delegated reader, then the session): matches the table row; the father is written 'Mazza Senzio' (or 'Sengio'), a short form, not 'Innocenzio' spelt out."
-    },
-    {
-     "name": "Agata Mazza",
-     "date": "14 January 1838",
-     "act": "6",
-     "year": "1838",
-     "ark": "an_ua72379",
-     "note": "PIEDIMONTE ETNEO, Nati 1838, ROW 6 OF THE CLOSING TABLE (an_ua72379, image 149). TABLE-ONLY: read from the closing annual table by a delegated reader, who zoomed the row; NOT re-zoomed by the session and the act itself NOT opened. The act number is the table's own row number. «Mazza? Agata», parents «Mazza? Ignazio?/Senzio» (written ?ensio) and «Cavallaro Dom.ca», 14 January 1838 (month from 'ditto' under row 1, January). The child's surname is faint cursive (Mazza or Marza). A daughter of the Innocenzio / Domenica Cavallaro household, born sixteen months after Giuseppe (1836). RE-CHECKED AGAINST THE IMAGE 12 Nov 2026 (delegated reader, then the session): the first entry on this page (no. 1) is dated '9 Gen. 1836' although the register is 1838; read as a clerk's slip, because the same mother's son Giuseppe is born 12 February 1836 (Nati 1836 row 20) and two births 29 days apart are impossible. The father is written 'Mazza Senzio' (a short form of Innocenzio), the mother 'Cavallaro Dom.ca', the day '14'."
-    },
-    {
-     "name": "Maria Mazza",
-     "date": "2 April 1839",
-     "act": "40",
-     "year": "1839",
-     "ark": "an_ua72380",
-     "note": "PIEDIMONTE ETNEO, Nati 1839, ROW 40 OF THE CLOSING TABLE (an_ua72380, image 128, right page). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened, so the father's age and trade, the street, the witnesses and any marginal annotation are not read. The act number is the table's own row number. «Mazza Maria», parents «Mazza Innocenzio» and «Cavallaro Domenica», born 2 April (row 39 is 30 March), so 2 APRIL 1839. A DAUGHTER OF THE INNOCENZIO MAZZA / DOMENICA CAVALLARO HOUSEHOLD, born between the births of Salvatore and Antonino's marriage-age cohort (Antonino b. c. 1843, Salvatore 17 June 1841, Carmela 5 March 1851): this household now has four children on the tables. Not a child of Mariano Mazza."
-    },
-    {
-     "name": "Salvatore Mazza",
-     "date": "17 June 1841",
-     "act": "66",
-     "year": "1841",
-     "ark": "an_ua72382",
-     "note": "PIEDIMONTE ETNEO, Nati 1841, ROW 66 OF THE CLOSING TABLE (an_ua72382, image 139, right page). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened, so the father's age and trade, the street, the witnesses and any marginal annotation are not read. The act number is the table's own row number. «Mazza Salvatore», parents «Mazza Senzio» (the contracted form of Innocenzio that the 1876 marriage act uses, read as 'Sergio' by one reader; zoomed: it is the same contraction) and «Cavallaro Domenica», born 'A 17' after row 65 of 13 June, so 17 JUNE 1841. THE NAMESAKE: a SECOND Salvatore Mazza born in 1841 in the same town, five months after the son of Mariano Mazza (row 15, 30 January). This one is the son of Innocenzio and Domenica Cavallaro, the man who married Concetta Sciacca in 1876 (34 in January 1876, which fits a June 1841 birth). The Mazza Salvatore, 46, who declared the deaths of May and June 1887 is 46 years 3 months old if he is the January Salvatore and 45 years 11 months if he is the June one: that favours the son of Mariano by a few months but does not settle it. RE-CHECKED AGAINST THE IMAGE 12 Nov 2026 (delegated reader, then the session): matches the table row; the father is written 'Mazza Senzio' (or 'Sengio'), a short form, not 'Innocenzio' spelt out."
-    },
-    {
-     "name": "Antonino Marza",
-     "date": "4 May 1843",
-     "act": "55",
-     "year": "1843",
-     "ark": "an_ua72385",
-     "note": "PIEDIMONTE ETNEO, Nati 1843, ROW 55 OF THE CLOSING TABLE (an_ua72385, image 126, left page). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened. The act number is the table's own row number. «Marza Antonino», parents «Marza Innocenzio» and «Cavallaro Domenica», 'a 4 detto' after row 54 of 1 May, so 4 MAY 1843. THE SURNAME IS WRITTEN MARZA in both lines. THIS IS ANTONINO, the Antonino Mazza who was 31 at his marriage to Rosa Raiti on 19 July 1874 (Matrimoni 1874 atto 26): the parents' names are the same and the age fits (31 in 1874 gives 1843); the identification rests on that, no act says so."
-    },
-    {
-     "name": "Alfio Mazza",
-     "date": "18 August 1845",
-     "act": "90",
-     "year": "1845",
-     "ark": "an_ua72387",
-     "note": "PIEDIMONTE ETNEO, Nati 1845, ROW 90 OF THE CLOSING TABLE (an_ua72387, image 152, right page; row 64 of the same table is Rosario Mazza of Mariano, the control). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened. The act number is the table's own row number. «Mazza Alfio», parents «Mazza Innocenzo» and «Cavallaro Domenica», 'a 18' (rows 87-88 are 15 August, so 18 AUGUST 1845), eleven weeks after Rosario Mazza's birth to Mariano Mazza (row 64, 2 June 1845): TWO MAZZA HOUSEHOLDS WERE HAVING CHILDREN IN THE SAME MONTHS, the exact namesake trap of this archive."
-    },
-    {
-     "name": "Sebastiana Mazza",
-     "date": "25 February 1847",
-     "act": "31",
-     "year": "1847",
-     "ark": "an_ua72389",
-     "note": "PIEDIMONTE ETNEO, Nati 1847, ROW 31 OF THE CLOSING TABLE (an_ua72389, image 122). TABLE-ONLY: read from the closing annual table by a delegated reader, who zoomed the row; NOT re-zoomed by the session and the act itself NOT opened. The act number is the table's own row number. «Mazza Sebastiana», parents «Mazza Innocenzio» and «Cavallaro Domenica», 25 February 1847 ('a 25, do'). The seventh child of the Innocenzio household found on the tables."
-    },
-    {
-     "name": "Carmela Marza",
-     "date": "5 March 1851",
-     "act": "41",
-     "year": "1851",
-     "ark": "an_ua72394",
-     "note": "PIEDIMONTE ETNEO, Nati 1851, ROW 41 OF THE CLOSING TABLE (an_ua72394, image 175, right page), read by a delegated reader and then zoomed by the session on the row: «Marza Carmela», patria 'idem' (Piedimonte), parents «Mazza Innocenzio» and «Cavallaro Domenica», born the 5th (the 'a 5 detto' follows row 39 of 1 March, so 5 MARCH 1851). The child's surname is written MARZA and the father's MAZZA in the same row; the father's given name reads Innocenzio plainly enough here, the mother's Cavallaro Domenica. THE ACT ITSELF WAS NOT OPENED, so the father's age, trade, the street, the witnesses and any marginal annotation are not read. WHY IT MATTERS: this is a CHILD OF THE INNOCENZIO MAZZA / DOMENICA CAVALLARO HOUSEHOLD (parents of Salvatore b. c. 1842 and Antonino b. c. 1843, Matrimoni 1874 atto 26 and 1876 atto 5), a daughter born about eight years after Antonino. It is also the first Marza spelling of a surname in the Bourbon table of 1851. It is not a child of Mariano Mazza and Maria Catalano. Act number taken from the table's own row number (the margin heading of the act itself was not checked)."
-    }
-   ]
-  },
   {
    "father": "Giuseppe Mazza",
    "mother": "Catalano Venera",
@@ -1784,6 +1781,131 @@
      "year": "1893",
      "ark": "an_ua80941",
      "note": "GIARRE: Nati 1893 ATTO 250 (an_ua80941, image 89 left page), found through the annual index (index images 144-149) by a delegated reader and re-zoomed by the session. Registered 16 August 1893 at 11:05 in the morning before Giuseppe Rapisardi?, segretario capo delegated. Declarant Giovanni Mazza, aged read 'ventisei?' (26? or 28?, not settled), bracciale, domiciled at Giarre, who declares a female born on the 13th at 8:15 in the morning in via Carolina of Maria Camiolo, his wife, cohabiting; named Sebastiana. Witnesses Mariano La Spina (30, bracciale) and Giuseppe Castorina (29, bracciale). PROBABLY A CHILD OF THE 1892 MARRIAGE (Matrimoni 1892 atto 87: Giovanni Mazza, son of the late Salvatore and Sebastiana Barbagallo, x Maria Camiolo, 20 November 1892), her name matches that of the father's mother, Sebastiana Barbagallo (a naming habit, not proof of the link). UNCONNECTED to the Piedimonte or Linguaglossa lines."
+    }
+   ]
+  },
+  {
+   "father": "Innocenzio Mazza",
+   "mother": "Cavallaro Leonarda",
+   "occupations": [
+    "age 22; the same Domenica, probably"
+   ],
+   "fatherBorn": "",
+   "streets": [
+    "campagna di questo territorio"
+   ],
+   "children": [
+    {
+     "name": "Salvatore Mazza",
+     "date": "20 November 1827",
+     "act": "124",
+     "year": "1827",
+     "ark": "an_ua72368",
+     "note": "PIEDIMONTE ETNEO, Nati 1827 ATTO 124 (an_ua72368, image 126, right page), read at the image by the session. Born 20 November, declared 21 November before Domenico Voce, sindaco, by Innocenzio Mazza, bracciale, domiciled in the campagna of the territory. The mother's first name is written Leonarda (22) where the couple's marriage and the other children's acts write Domenica."
+    }
+   ]
+  },
+  {
+   "father": "Innocenzio Mazza",
+   "mother": "Cavallaro Domenica",
+   "occupations": [
+    "26",
+    "28",
+    "age faint"
+   ],
+   "fatherBorn": "c. 1794–1802",
+   "streets": [
+    "Borgata dell'ex feudo di San Basilio",
+    "S. Basilio"
+   ],
+   "children": [
+    {
+     "name": "Maria Mazza",
+     "date": "19 September 1830",
+     "act": "109",
+     "year": "1830",
+     "ark": "an_ua72371",
+     "note": "PIEDIMONTE ETNEO, Nati 1830 ATTO 109 (an_ua72371, image 111, right page), read at the image by the session. Born and declared 19 September before Salvatore Dr Patane, elected sindaco. The father line reads 'detto Epifanio Castro', copied from the act above (108); the declarant and the signature paragraph say Mazza Innocenzio."
+    },
+    {
+     "name": "Giuseppa Mazza",
+     "date": "12 October 1832",
+     "act": "97",
+     "year": "1832",
+     "ark": "an_ua72373",
+     "note": "PIEDIMONTE ETNEO, Nati 1832 ATTO 97 (an_ua72373, image 101, right page), read at the image by the session. Born and declared 12 October before Domenico Voce, sindaco (the closing table was read as 17 October; the act says dodici)."
+    },
+    {
+     "name": "Filippa Mazza",
+     "date": "19 April 1834",
+     "act": "50",
+     "year": "1834",
+     "ark": "an_ua72375",
+     "note": "PIEDIMONTE ETNEO, Nati 1834 ATTO 50 (an_ua72375, image 53, left page of the opening's right-hand act), read at the image by the session. Born and declared 19 April; the father's age (quaranta) and the domicile are faint."
+    },
+    {
+     "name": "Giuseppe Mazza",
+     "date": "12 February 1836",
+     "act": "20",
+     "year": "1836",
+     "ark": "an_ua72377",
+     "note": "PIEDIMONTE ETNEO, Nati 1836, ROW 20 OF THE CLOSING TABLE (an_ua72377, image 129, left page). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened. The act number is the table's own row number. «Mazza Giuseppe», parents «Mazza Senzio» (the contracted Innocenzio, as in the 1876 marriage act and the 1841 table) and «Cavallaro Dom.ca», born 'a 12' after row 19 of 11 February, so 12 FEBRUARY 1836. The OLDEST CHILD YET FOUND OF THE INNOCENZIO MAZZA / DOMENICA CAVALLARO HOUSEHOLD. Not a child of Mariano Mazza, who married in September 1836. RE-CHECKED AGAINST THE IMAGE 12 Nov 2026 (delegated reader, then the session): matches the table row; the father is written 'Mazza Senzio' (or 'Sengio'), a short form, not 'Innocenzio' spelt out."
+    },
+    {
+     "name": "Agata Mazza",
+     "date": "14 January 1838",
+     "act": "6",
+     "year": "1838",
+     "ark": "an_ua72379",
+     "note": "PIEDIMONTE ETNEO, Nati 1838, ROW 6 OF THE CLOSING TABLE (an_ua72379, image 149). TABLE-ONLY: read from the closing annual table by a delegated reader, who zoomed the row; NOT re-zoomed by the session and the act itself NOT opened. The act number is the table's own row number. «Mazza? Agata», parents «Mazza? Ignazio?/Senzio» (written ?ensio) and «Cavallaro Dom.ca», 14 January 1838 (month from 'ditto' under row 1, January). The child's surname is faint cursive (Mazza or Marza). A daughter of the Innocenzio / Domenica Cavallaro household, born sixteen months after Giuseppe (1836). RE-CHECKED AGAINST THE IMAGE 12 Nov 2026 (delegated reader, then the session): the first entry on this page (no. 1) is dated '9 Gen. 1836' although the register is 1838; read as a clerk's slip, because the same mother's son Giuseppe is born 12 February 1836 (Nati 1836 row 20) and two births 29 days apart are impossible. The father is written 'Mazza Senzio' (a short form of Innocenzio), the mother 'Cavallaro Dom.ca', the day '14'."
+    },
+    {
+     "name": "Maria Mazza",
+     "date": "2 April 1839",
+     "act": "40",
+     "year": "1839",
+     "ark": "an_ua72380",
+     "note": "PIEDIMONTE ETNEO, Nati 1839, ROW 40 OF THE CLOSING TABLE (an_ua72380, image 128, right page). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened, so the father's age and trade, the street, the witnesses and any marginal annotation are not read. The act number is the table's own row number. «Mazza Maria», parents «Mazza Innocenzio» and «Cavallaro Domenica», born 2 April (row 39 is 30 March), so 2 APRIL 1839. A DAUGHTER OF THE INNOCENZIO MAZZA / DOMENICA CAVALLARO HOUSEHOLD, born between the births of Salvatore and Antonino's marriage-age cohort (Antonino b. c. 1843, Salvatore 17 June 1841, Carmela 5 March 1851): this household now has four children on the tables. Not a child of Mariano Mazza."
+    },
+    {
+     "name": "Salvatore Mazza",
+     "date": "17 June 1841",
+     "act": "66",
+     "year": "1841",
+     "ark": "an_ua72382",
+     "note": "PIEDIMONTE ETNEO, Nati 1841, ROW 66 OF THE CLOSING TABLE (an_ua72382, image 139, right page). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened, so the father's age and trade, the street, the witnesses and any marginal annotation are not read. The act number is the table's own row number. «Mazza Salvatore», parents «Mazza Senzio» (the contracted form of Innocenzio that the 1876 marriage act uses, read as 'Sergio' by one reader; zoomed: it is the same contraction) and «Cavallaro Domenica», born 'A 17' after row 65 of 13 June, so 17 JUNE 1841. THE NAMESAKE: a SECOND Salvatore Mazza born in 1841 in the same town, five months after the son of Mariano Mazza (row 15, 30 January). This one is the son of Innocenzio and Domenica Cavallaro, the man who married Concetta Sciacca in 1876 (34 in January 1876, which fits a June 1841 birth). The Mazza Salvatore, 46, who declared the deaths of May and June 1887 is 46 years 3 months old if he is the January Salvatore and 45 years 11 months if he is the June one: that favours the son of Mariano by a few months but does not settle it. RE-CHECKED AGAINST THE IMAGE 12 Nov 2026 (delegated reader, then the session): matches the table row; the father is written 'Mazza Senzio' (or 'Sengio'), a short form, not 'Innocenzio' spelt out."
+    },
+    {
+     "name": "Antonino Marza",
+     "date": "4 May 1843",
+     "act": "55",
+     "year": "1843",
+     "ark": "an_ua72385",
+     "note": "PIEDIMONTE ETNEO, Nati 1843, ROW 55 OF THE CLOSING TABLE (an_ua72385, image 126, left page). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened. The act number is the table's own row number. «Marza Antonino», parents «Marza Innocenzio» and «Cavallaro Domenica», 'a 4 detto' after row 54 of 1 May, so 4 MAY 1843. THE SURNAME IS WRITTEN MARZA in both lines. THIS IS ANTONINO, the Antonino Mazza who was 31 at his marriage to Rosa Raiti on 19 July 1874 (Matrimoni 1874 atto 26): the parents' names are the same and the age fits (31 in 1874 gives 1843); the identification rests on that, no act says so."
+    },
+    {
+     "name": "Alfio Mazza",
+     "date": "18 August 1845",
+     "act": "90",
+     "year": "1845",
+     "ark": "an_ua72387",
+     "note": "PIEDIMONTE ETNEO, Nati 1845, ROW 90 OF THE CLOSING TABLE (an_ua72387, image 152, right page; row 64 of the same table is Rosario Mazza of Mariano, the control). TABLE-ONLY: read from the closing annual table of the register and zoomed by the session on the row; the act itself was NOT opened. The act number is the table's own row number. «Mazza Alfio», parents «Mazza Innocenzo» and «Cavallaro Domenica», 'a 18' (rows 87-88 are 15 August, so 18 AUGUST 1845), eleven weeks after Rosario Mazza's birth to Mariano Mazza (row 64, 2 June 1845): TWO MAZZA HOUSEHOLDS WERE HAVING CHILDREN IN THE SAME MONTHS, the exact namesake trap of this archive."
+    },
+    {
+     "name": "Sebastiana Mazza",
+     "date": "25 February 1847",
+     "act": "31",
+     "year": "1847",
+     "ark": "an_ua72389",
+     "note": "PIEDIMONTE ETNEO, Nati 1847, ROW 31 OF THE CLOSING TABLE (an_ua72389, image 122). TABLE-ONLY: read from the closing annual table by a delegated reader, who zoomed the row; NOT re-zoomed by the session and the act itself NOT opened. The act number is the table's own row number. «Mazza Sebastiana», parents «Mazza Innocenzio» and «Cavallaro Domenica», 25 February 1847 ('a 25, do'). The seventh child of the Innocenzio household found on the tables."
+    },
+    {
+     "name": "Carmela Marza",
+     "date": "5 March 1851",
+     "act": "41",
+     "year": "1851",
+     "ark": "an_ua72394",
+     "note": "PIEDIMONTE ETNEO, Nati 1851, ROW 41 OF THE CLOSING TABLE (an_ua72394, image 175, right page), read by a delegated reader and then zoomed by the session on the row: «Marza Carmela», patria 'idem' (Piedimonte), parents «Mazza Innocenzio» and «Cavallaro Domenica», born the 5th (the 'a 5 detto' follows row 39 of 1 March, so 5 MARCH 1851). The child's surname is written MARZA and the father's MAZZA in the same row; the father's given name reads Innocenzio plainly enough here, the mother's Cavallaro Domenica. THE ACT ITSELF WAS NOT OPENED, so the father's age, trade, the street, the witnesses and any marginal annotation are not read. WHY IT MATTERS: this is a CHILD OF THE INNOCENZIO MAZZA / DOMENICA CAVALLARO HOUSEHOLD (parents of Salvatore b. c. 1842 and Antonino b. c. 1843, Matrimoni 1874 atto 26 and 1876 atto 5), a daughter born about eight years after Antonino. It is also the first Marza spelling of a surname in the Bourbon table of 1851. It is not a child of Mariano Mazza and Maria Catalano. Act number taken from the table's own row number (the margin heading of the act itself was not checked)."
     }
    ]
   },

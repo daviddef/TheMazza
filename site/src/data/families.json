@@ -1,8 +1,8 @@
 [
  {
   "surname": "Mazza",
-  "n": 167,
-  "dead": 154,
+  "n": 171,
+  "dead": 158,
   "living": 13,
   "first": 1748,
   "last": 2012,
@@ -96,16 +96,16 @@
  },
  {
   "surname": "Cavallaro",
-  "n": 17,
-  "dead": 15,
+  "n": 18,
+  "dead": 16,
   "living": 2,
-  "first": 1805,
+  "first": 1803,
   "last": 2013,
   "places": [
    "Mascali, Catania, Sicily",
+   "Piedimonte Etneo",
    "Piedimonte Etneo, Catania, Sicily",
-   "Giarre",
-   "Piedimonte Etneo"
+   "Giarre"
   ]
  },
  {
@@ -899,7 +899,7 @@
   "dead": 2,
   "living": 0,
   "first": 1830,
-  "last": 1830,
+  "last": 1837,
   "places": [
    "Piedimonte Etneo"
   ]
@@ -1622,6 +1622,17 @@
   "first": null,
   "last": null,
   "places": []
+ },
+ {
+  "surname": "Leonardi",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1764,
+  "last": 1764,
+  "places": [
+   "Piedimonte Etneo"
+  ]
  },
  {
   "surname": "Toscano",

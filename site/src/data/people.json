@@ -38484,6 +38484,58 @@
   "ancGen": 8
  },
  {
+  "id": "@Ragata-leonardi@",
+  "slug": "agata-leonardi",
+  "name": "Agata Leonardi",
+  "key": "Agata Leonardi (wife of Antonino Cavallaro)",
+  "given": "Agata",
+  "surname": "Leonardi",
+  "sex": "F",
+  "living": false,
+  "fromRegister": true,
+  "born": 1764,
+  "died": null,
+  "bornText": "c. 1764",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1764",
+    "year": 1764,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1764"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1826 atto 23 (an_ua72246, image 47)"
+  ],
+  "registerNote": "Named as the bride's mother, «Agata Leonardi, di anni sessantadue, domiciliata ivi», at the marriage of Innocenzio Mazza and Domenica Cavallaro, 1826. Nothing else is known of her here.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rdomenica-cavallaro@",
+    "name": "Domenica Cavallaro",
+    "slug": "domenica-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Ragata-mazza@",
   "slug": "agata-mazza",
   "name": "Agata Mazza",
@@ -39314,7 +39366,7 @@
   "registerSources": [
    "Piedimonte Etneo, Nati 1888 atto 133"
   ],
-  "registerNote": "NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed. NOT the Alfio Marza who died at Linguaglossa in September 1893 'di Venerando': a different child of a different father.",
+  "registerNote": "JOINED TO THE SPINE: Innocenzio Mazza's own marriage act (Piedimonte, Matrimoni 1826 atto 23, read at the image on 22 Nov 2026) names Orazio Mazza and Giuseppa Pulvirenti as his parents, the same couple as Mariano Mazza's (b. c. 1809), so this is the household of Mariano's brother. NOT the Alfio Marza who died at Linguaglossa in September 1893 'di Venerando': a different child of a different father.",
   "registerGen": "4",
   "photos": [],
   "parents": [
@@ -40704,7 +40756,7 @@
   "key": "Angela Pulvirenti (named as mother of Innocenzio Mazza in his 1876 death act)",
   "given": "Angela",
   "surname": "Pulvirenti",
-  "sex": "F",
+  "sex": "",
   "living": false,
   "fromRegister": true,
   "born": null,
@@ -40737,19 +40789,11 @@
   "registerSources": [
    "Piedimonte Etneo, Morti 1876 atto 43"
   ],
-  "registerNote": "HER FORENAME IS A PROBLEM: the death act of Innocenzio Mazza (19 June 1876), re-zoomed by the session, reads his mother as 'fu Angela Pulvirenti'. Mariano's, Domenica's, Alfia's and Rosa's acts all read the mother Giuseppa Pulvirenti. Either the clerk wrote Angela for Giuseppa, or Orazio had an earlier wife of the same surname. Nothing here decides it; the row stays apart from Giuseppa Pulvirenti so that no mother= resolves to the wrong woman.",
+  "registerNote": "HER FORENAME IS A PROBLEM: the death act of Innocenzio Mazza (19 June 1876), re-zoomed by the session, reads his mother as 'fu Angela Pulvirenti'. Mariano's, Domenica's, Alfia's and Rosa's acts all read the mother Giuseppa Pulvirenti. Either the clerk wrote Angela for Giuseppa, or Orazio had an earlier wife of the same surname. 22 NOV 2026: Innocenzio's own marriage act of 26 September 1826 (Matrimoni 1826 atto 23) names his mother GIUSEPPA Pulvirenti, so 'Angela' in the 1876 death act is most probably the clerk's slip; the row is kept, no mother= points to it now, and it is not merged.",
   "registerGen": "7",
   "photos": [],
   "parents": [],
-  "children": [
-   {
-    "id": "@Rinnocenzio-mazza@",
-    "name": "Innocenzio Mazza",
-    "slug": "innocenzio-mazza",
-    "living": false,
-    "via": "read"
-   }
-  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -42703,6 +42747,58 @@
   "ancGen": null
  },
  {
+  "id": "@Rantonino-cavallaro@",
+  "slug": "antonino-cavallaro",
+  "name": "Antonino Cavallaro",
+  "key": "Antonino Cavallaro (castaldo, father of Domenica Cavallaro)",
+  "given": "Antonino",
+  "surname": "Cavallaro",
+  "sex": "M",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Piedimonte Etneo",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "castaldo",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Matrimoni 1826 atto 23 (an_ua72246, image 47)"
+  ],
+  "registerNote": "Named as the bride's father at the marriage of Innocenzio Mazza and Domenica Cavallaro, 25-26 September 1826: «Antonino, di professione castaldo, domiciliato ivi», and alive then. Nothing else is known of him here.",
+  "registerGen": "7",
+  "photos": [],
+  "parents": [],
+  "children": [
+   {
+    "id": "@Rdomenica-cavallaro@",
+    "name": "Domenica Cavallaro",
+    "slug": "domenica-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rantonino-comerci@",
   "slug": "antonino-comerci",
   "name": "Antonino Comerci",
@@ -42933,7 +43029,7 @@
   "registerSources": [
    "Piedimonte Etneo, Nati 1877 atto 164"
   ],
-  "registerNote": "NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed. Married Rosaria Russo di Salvatore on 12 January 1905 (marginal note).",
+  "registerNote": "JOINED TO THE SPINE: Innocenzio Mazza's own marriage act (Piedimonte, Matrimoni 1826 atto 23, read at the image on 22 Nov 2026) names Orazio Mazza and Giuseppa Pulvirenti as his parents, the same couple as Mariano Mazza's (b. c. 1809), so this is the household of Mariano's brother. Married Rosaria Russo di Salvatore on 12 January 1905 (marginal note).",
   "registerGen": "—",
   "photos": [],
   "parents": [
@@ -43062,7 +43158,7 @@
    "Matrimoni 1874 atto 26 file (an_ua83315, 83338, 83365)",
    "Morti 1890 atto 152"
   ],
-  "registerNote": "SON OF INNOCENZIO ('SENZIO'), GRANDSON OF ORAZIO: his death act (22 October 1890, an_ua83463 image 49; read by a delegated reader, the session has not re-zoomed it) names him 'Antonino Marza', 'fu Innocenzo' and 'fu Domenica Cavallaro'. NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed. Married Rosa Raiti, 20, daughter of Giuseppe Raiti and Agata Pennisi. A witness (Antonino Mazza, 35) at his nephew Venerio's birth in 1879 is probably this man. THE 1874 FILE IS READ: his birth extract (Nati 1843 act 55, 4 May 1843, father Innocenzio 40 and mother Domenica Cavallaro 35) and his bride's, with no death acts (both sets of parents living).",
+  "registerNote": "SON OF INNOCENZIO ('SENZIO'), GRANDSON OF ORAZIO: his death act (22 October 1890, an_ua83463 image 49; read by a delegated reader, the session has not re-zoomed it) names him 'Antonino Marza', 'fu Innocenzo' and 'fu Domenica Cavallaro'. JOINED TO THE SPINE: Innocenzio Mazza's own marriage act (Piedimonte, Matrimoni 1826 atto 23, read at the image on 22 Nov 2026) names Orazio Mazza and Giuseppa Pulvirenti as his parents, the same couple as Mariano Mazza's (b. c. 1809), so this is the household of Mariano's brother. Married Rosa Raiti, 20, daughter of Giuseppe Raiti and Agata Pennisi. A witness (Antonino Mazza, 35) at his nephew Venerio's birth in 1879 is probably this man. THE 1874 FILE IS READ: his birth extract (Nati 1843 act 55, 4 May 1843, father Innocenzio 40 and mother Domenica Cavallaro 35) and his bride's, with no death acts (both sets of parents living).",
   "registerGen": "5",
   "photos": [],
   "parents": [
@@ -45382,18 +45478,18 @@
   "sex": "F",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1837,
   "died": null,
-  "bornText": "",
+  "bornText": "25 February 1837",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "25 February 1837",
+    "year": 1837,
     "place": "Piedimonte Etneo",
-    "text": ""
+    "text": "25 February 1837"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -45403,9 +45499,10 @@
   "sources": [],
   "registerSources": [
    "Piedimonte Etneo, Nati 1877 atto 164",
-   "Nati 1879 atto 167"
+   "Nati 1879 atto 167",
+   "Matrimoni 1858 atto 19 and its processetti (an_ua72234, images 123-125)"
   ],
-  "registerNote": "Wife of Pasquale Mazza.",
+  "registerNote": "Wife of Pasquale Mazza. 22 NOV 2026: her birth act is in the 1858 marriage bundle: born 25 February 1837, daughter of Domenico Greco (37) and Vincenza Cardile (31); the promise of 13 July 1858 names her parents as Domenico Greco (58) and Vincenza Cardile (53), and her brother Salvatore Greco married a Mazza daughter of Innocenzio in 1859.",
   "registerGen": "—",
   "photos": [],
   "parents": [],
@@ -46391,18 +46488,18 @@
   "sex": "F",
   "living": false,
   "fromRegister": true,
-  "born": null,
+  "born": 1803,
   "died": null,
-  "bornText": "",
+  "bornText": "c. 1803",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "",
-    "year": null,
+    "date": "c. 1803",
+    "year": 1803,
     "place": "Piedimonte Etneo",
-    "text": ""
+    "text": "c. 1803"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -46411,13 +46508,29 @@
   "trade": "industriosa",
   "sources": [],
   "registerSources": [
-   "Piedimonte Etneo, Matrimoni 1874 atto 26",
+   "Piedimonte Etneo, Matrimoni 1826 atto 23",
+   "Matrimoni 1874 atto 26",
    "Matrimoni 1876 atto 5"
   ],
-  "registerNote": "NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed. Wife of Innocenzio Mazza and mother of Salvatore and Antonino. Wife of Innocenzio ('Senzio') Mazza, who is a son of Orazio (his death act of 19 June 1876); mother of Salvatore and Antonino, and of the children born 1836-1851. Her death has not been sought, but her son Antonino's death act (22 October 1890) calls her 'fu', so she died before then.",
+  "registerNote": "22 NOV 2026: HER MARRIAGE IS FOUND, 26 September 1826 (Matrimoni 1826 atto 23, an_ua72246): born at Aci Sant'Antonio, daughter of Antonino Cavallaro, castaldo, and Agata Leonardi, both living at Piedimonte in 1826. JOINED TO THE SPINE: Innocenzio Mazza's own marriage act (Piedimonte, Matrimoni 1826 atto 23, read at the image on 22 Nov 2026) names Orazio Mazza and Giuseppa Pulvirenti as his parents, the same couple as Mariano Mazza's (b. c. 1809), so this is the household of Mariano's brother. Wife of Innocenzio Mazza and mother of Salvatore and Antonino. Wife of Innocenzio ('Senzio') Mazza, who is a son of Orazio (his death act of 19 June 1876); mother of Salvatore and Antonino, and of the children born 1836-1851. Her death has not been sought, but her son Antonino's death act (22 October 1890) calls her 'fu', so she died before then.",
   "registerGen": "—",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rantonino-cavallaro@",
+    "name": "Antonino Cavallaro",
+    "slug": "antonino-cavallaro",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragata-leonardi@",
+    "name": "Agata Leonardi",
+    "slug": "agata-leonardi",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@Rsalvatore-mazza@",
@@ -46430,6 +46543,13 @@
     "id": "@Rantonino-mazza-2@",
     "name": "Antonino Mazza",
     "slug": "antonino-mazza-1843",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rpasquale-mazza@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza",
     "living": false,
     "via": "read"
    },
@@ -46472,6 +46592,34 @@
     "id": "@Rcarmela-marza@",
     "name": "Carmela Marza",
     "slug": "carmela-marza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-8@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1827",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-mazza-4@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-1830",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-mazza-3@",
+    "name": "Giuseppa Mazza",
+    "slug": "giuseppa-mazza-1832",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippa-mazza@",
+    "name": "Filippa Mazza",
+    "slug": "filippa-mazza",
     "living": false,
     "via": "read"
    }
@@ -47841,6 +47989,65 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rfilippa-mazza@",
+  "slug": "filippa-mazza",
+  "name": "Filippa Mazza",
+  "key": "Filippa Mazza (b. 1834, of Innocenzio and Domenica Cavallaro)",
+  "given": "Filippa",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1834,
+  "died": null,
+  "bornText": "19 April 1834",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "19 April 1834",
+    "year": 1834,
+    "place": "Piedimonte Etneo",
+    "text": "19 April 1834"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale (the father)",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1834 atto 50"
+  ],
+  "registerNote": "Father Innocenzio Mazza, forty (quaranta, faint), bracciale, of San Basilio; mother Domenica Cavallaro, her age faint. Her death has not been sought.",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rinnocenzio-mazza@",
+    "name": "Innocenzio Mazza",
+    "slug": "innocenzio-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-cavallaro@",
+    "name": "Domenica Cavallaro",
+    "slug": "domenica-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -51427,6 +51634,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rgiuseppa-mazza-3@",
+  "slug": "giuseppa-mazza-1832",
+  "name": "Giuseppa Mazza",
+  "key": "Giuseppa Mazza (b. 1832, of Innocenzio and Domenica Cavallaro)",
+  "given": "Giuseppa",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1832,
+  "died": null,
+  "bornText": "12 October 1832",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "12 October 1832",
+    "year": 1832,
+    "place": "Piedimonte Etneo",
+    "text": "12 October 1832"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale (the father)",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1832 atto 97"
+  ],
+  "registerNote": "Father Innocenzio Mazza, 30, bracciale, 'domiciliato nella Borgata dell'ex feudo di San Basilio'; mother Domenica Cavallaro, 26. Her death has not been sought.",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rinnocenzio-mazza@",
+    "name": "Innocenzio Mazza",
+    "slug": "innocenzio-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-cavallaro@",
+    "name": "Domenica Cavallaro",
+    "slug": "domenica-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiuseppa-mazza@",
   "slug": "giuseppa-mazza-1837",
   "name": "Giuseppa Mazza",
@@ -51998,6 +52264,13 @@
     "id": "@Rmariano-mazza-2@",
     "name": "Mariano Mazza",
     "slug": "mariano-mazza-1809",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rinnocenzio-mazza@",
+    "name": "Innocenzio Mazza",
+    "slug": "innocenzio-mazza",
     "living": false,
     "via": "read"
    },
@@ -54549,18 +54822,18 @@
   "sex": "M",
   "living": false,
   "fromRegister": true,
-  "born": 1796,
+  "born": 1801,
   "died": 1876,
-  "bornText": "c. 1796",
+  "bornText": "c. 1801",
   "diedText": "19 June 1876 (Piedimonte Morti 1876 atto 43, via Terremorte n. 18)",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1796",
-    "year": 1796,
+    "date": "c. 1801",
+    "year": 1801,
     "place": "Piedimonte Etneo",
-    "text": "c. 1796"
+    "text": "c. 1801"
    },
    {
     "what": "died",
@@ -54577,11 +54850,13 @@
   "trade": "bracciante",
   "sources": [],
   "registerSources": [
-   "Piedimonte Etneo, Matrimoni 1874 atto 26",
+   "Piedimonte Etneo, Matrimoni 1826 atto 23",
+   "Matrimoni 1874 atto 26",
    "Matrimoni 1876 atto 5 («Senzio», the contracted form)",
-   "Morti 1876 atto 43"
+   "Morti 1876 atto 43",
+   "Nati 1827 atto 124, 1830 atto 109, 1832 atto 97, 1834 atto 50"
   ],
-  "registerNote": "MARIANO MAZZA'S BROTHER, FOUND IN HIS OWN DEATH ACT. Morti 1876 atto 43, 19 June 1876 (re-zoomed): «Senzio Mazza» (short for Innocenzio), eighty, died in via Terremorte n. 18, 'fu Orazio' and 'fu Angela Pulvirenti', husband of Domenica Cavallaro. The 1841 and 1843 birth tables write the father of Salvatore and Antonino 'Mazza Senzio', wife Domenica Cavallaro: the same man. He is therefore a son of the Orazio Mazza who died in 1828 (and the grandson of the Innocenzio of that act), and the brother of Mariano (b. c. 1809), Giuseppe, Domenica, Alfia and Rosa. THE MOTHER'S FORENAME IS A PROBLEM: the act writes ANGELA Pulvirenti, where Mariano's, Domenica's and Alfia's acts write GIUSEPPA. See the row for Angela Pulvirenti; this archive does not decide between a slip and an earlier wife. THE AGE: 80 in 1876 against 30-40 in 1841-43. The 1874 and 1876 marriage files (father of Salvatore, 34 in 1876, and Antonino, 31 in 1874) agree with the sons' births; the 1876 act writes his name «Senzio», which this archive once misread as Venerio.",
+  "registerNote": "22 NOV 2026, HIS OWN MARRIAGE ACT IS FOUND AND SETTLES HIS MOTHER: Matrimoni 1826 atto 23 (an_ua72246, images 47-49; promise of 25 September 1826 before Santo Lo Turco, second elect acting as sindaco; celebrated 26 September; read at the image): «Innocenzio Mazza, anni venticinque, nato in Trecastagni, bracciale, domiciliato in questo territorio, figlio di Orazio, di anni settanta, bracciale, e di GIUSEPPA PULVIRENTI, di anni sessanta» marries «Domenica Cavallaro, anni ventitre, nata in Aci Sant'Antonio, figlia di Antonino (castaldo) e di Agata Leonardi, di anni sessantadue». So his mother is GIUSEPPA, as for his brothers, and the 'Angela' of his death act is the clerk's slip; Orazio was seventy in 1826, which fits the eighty of his 1828 death extract only loosely. Four more children of this couple are found in the births of 1827-1834 (see their rows). MARIANO MAZZA'S BROTHER, FOUND IN HIS OWN DEATH ACT. Morti 1876 atto 43, 19 June 1876 (re-zoomed): «Senzio Mazza» (short for Innocenzio), eighty, died in via Terremorte n. 18, 'fu Orazio' and 'fu Angela Pulvirenti', husband of Domenica Cavallaro. The 1841 and 1843 birth tables write the father of Salvatore and Antonino 'Mazza Senzio', wife Domenica Cavallaro: the same man. He is therefore a son of the Orazio Mazza who died in 1828 (and the grandson of the Innocenzio of that act), and the brother of Mariano (b. c. 1809), Giuseppe, Domenica, Alfia and Rosa. THE MOTHER'S FORENAME IS A PROBLEM: the act writes ANGELA Pulvirenti, where Mariano's, Domenica's and Alfia's acts write GIUSEPPA. See the row for Angela Pulvirenti; this archive does not decide between a slip and an earlier wife. THE AGE: 80 in 1876 against 30-40 in 1841-43. The 1874 and 1876 marriage files (father of Salvatore, 34 in 1876, and Antonino, 31 in 1874) agree with the sons' births; the 1876 act writes his name «Senzio», which this archive once misread as Venerio.",
   "registerGen": "6",
   "photos": [],
   "parents": [
@@ -54593,9 +54868,9 @@
     "via": "read"
    },
    {
-    "id": "@Rangela-pulvirenti@",
-    "name": "Angela Pulvirenti",
-    "slug": "angela-pulvirenti",
+    "id": "@Rgiuseppa-pulvirenti@",
+    "name": "Giuseppa Pulvirenti",
+    "slug": "giuseppa-pulvirenti",
     "living": false,
     "via": "read"
    }
@@ -54612,6 +54887,13 @@
     "id": "@Rantonino-mazza-2@",
     "name": "Antonino Mazza",
     "slug": "antonino-mazza-1843",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rpasquale-mazza@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza",
     "living": false,
     "via": "read"
    },
@@ -54654,6 +54936,34 @@
     "id": "@Rcarmela-marza@",
     "name": "Carmela Marza",
     "slug": "carmela-marza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-8@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1827",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-mazza-4@",
+    "name": "Maria Mazza",
+    "slug": "maria-mazza-1830",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-mazza-3@",
+    "name": "Giuseppa Mazza",
+    "slug": "giuseppa-mazza-1832",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippa-mazza@",
+    "name": "Filippa Mazza",
+    "slug": "filippa-mazza",
     "living": false,
     "via": "read"
    }
@@ -56513,6 +56823,65 @@
     "via": "read"
    }
   ],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rmaria-mazza-4@",
+  "slug": "maria-mazza-1830",
+  "name": "Maria Mazza",
+  "key": "Maria Mazza (b. 1830, of Innocenzio and Domenica Cavallaro)",
+  "given": "Maria",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1830,
+  "died": null,
+  "bornText": "19 September 1830",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "19 September 1830",
+    "year": 1830,
+    "place": "Piedimonte Etneo",
+    "text": "19 September 1830"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale (the father)",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1830 atto 109"
+  ],
+  "registerNote": "Father Innocenzio Mazza, 32, bracciale, mother Domenica Cavallaro, 28. THE CLERK'S SLIP: the father line of the act reads «detto Epifanio Castro», copied from the act above it (act 108), while the declarant, the signature paragraph and the closing table all say Mazza Innocenzio. A second Maria is born to the couple in 1839, so this one probably died before; her death has not been sought.",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rinnocenzio-mazza@",
+    "name": "Innocenzio Mazza",
+    "slug": "innocenzio-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-cavallaro@",
+    "name": "Domenica Cavallaro",
+    "slug": "domenica-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
   "spouses": [],
   "siblings": [],
   "records": [],
@@ -60071,16 +60440,16 @@
   "fromRegister": true,
   "born": 1829,
   "died": null,
-  "bornText": "c. 1829",
+  "bornText": "20 April 1829",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1829",
+    "date": "20 April 1829",
     "year": 1829,
     "place": "Piedimonte Etneo",
-    "text": "c. 1829"
+    "text": "20 April 1829"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -60092,12 +60461,28 @@
    "Piedimonte Etneo, Nati 1877 atto 164",
    "Nati 1879 atto 167",
    "Piedimonte Etneo, Matrimoni 1883 atto 31 (an_ua83404, image 28)",
-   "Matrimoni 1888 atto 10 (an_ua83409, image 10)"
+   "Matrimoni 1888 atto 10 (an_ua83409, image 10)",
+   "Piedimonte Etneo, Matrimoni 1858 atto 19 and its processetti (an_ua72234, images 123-125)"
   ],
-  "registerNote": "NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed. Husband of Concetta Greco; father of Antonino (1877) and Rosaria (1879), of via Cappello Campagna. Whether he is a brother or cousin of the Innocenzio or Mariano households is not known. IN 1872 HE DECLARES THE DEATH OF DOMENICA, WIFE OF PIETRO SORBELLO (Orazio's daughter), relationship unstated: a LEAD that he is kin of Orazio's family (a nephew through Innocenzio?), not a finding; his father is written 'Lenzio'/'Aprenzio?'. FATHER OF DOMENICO (married 1888) AND VINCENZA (married 1883), both named as the children of Pasquale and Concetta Greco in their own marriage acts (read at the image by the session); two more children, Salvatore (1869) and Maria (1873), are held in this file under the same parents. The household stays unjoined to the spine.",
+  "registerNote": "22 NOV 2026, HE IS A SON OF INNOCENZIO MAZZA AND DOMENICA CAVALLARO, READ IN HIS OWN BIRTH ACT: the extract in his marriage bundle (Matrimoni 1858 atto 19) is Piedimonte no. 53 of 20 April 1829, declared by Innocenzio Mazza, 28, bracciale, living in the campagna of the territory, with the mother Domenica Cavallaro, 26, and the child named Pasquale; the promise of 13 July 1858 says the same (Pasquale 29, son of Innocenzio, 58, and Domenica Cavallaro, 55). So his father is Innocenzio, the «Lenzio» or «Senzio» of the later acts, and he is a brother of Salvatore (b. 1841) and Antonino (b. 1843), the other sons of that household. Innocenzio’s age runs 28 in 1829, 58 in 1858 and 80 in 1876, so he was born between 1796 and 1801. HE IS JOINED TO THE SPINE (22 Nov 2026): Innocenzio’s own marriage act (Matrimoni 1826 atto 23, read at the image) names his parents as Orazio Mazza and Giuseppa Pulvirenti, the same couple as Mariano Mazza’s (b. c. 1809), so Innocenzio and Mariano are brothers and Pasquale is Mariano’s nephew. The bride’s birth act of 25 February 1837 (Piedimonte no. 35, declared by Domenico Greco, 37, with the mother Vincenza Cardile, 31) is read in the same bundle. EARLIER NOTE, NOW SUPERSEDED ABOVE: Husband of Concetta Greco; father of Antonino (1877) and Rosaria (1879), of via Cappello Campagna. (Superseded: he is Innocenzio’s son, so a nephew of Mariano.) IN 1872 HE DECLARES THE DEATH OF DOMENICA, WIFE OF PIETRO SORBELLO (Orazio's daughter), relationship unstated: a LEAD that he is kin of Orazio's family (a nephew through Innocenzio?), not a finding; his father is written 'Lenzio'/'Aprenzio?'. FATHER OF DOMENICO (married 1888) AND VINCENZA (married 1883), both named as the children of Pasquale and Concetta Greco in their own marriage acts (read at the image by the session); two more children, Salvatore (1869) and Maria (1873), are held in this file under the same parents. The household is joined to the spine through Innocenzio (see above).",
   "registerGen": "—",
   "photos": [],
-  "parents": [],
+  "parents": [
+   {
+    "id": "@Rinnocenzio-mazza@",
+    "name": "Innocenzio Mazza",
+    "slug": "innocenzio-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-cavallaro@",
+    "name": "Domenica Cavallaro",
+    "slug": "domenica-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
   "children": [
    {
     "id": "@Rdomenico-mazza@",
@@ -62026,7 +62411,7 @@
   "registerSources": [
    "Piedimonte Etneo, Nati 1879 atto 167"
   ],
-  "registerNote": "NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed.",
+  "registerNote": "JOINED TO THE SPINE: Innocenzio Mazza's own marriage act (Piedimonte, Matrimoni 1826 atto 23, read at the image on 22 Nov 2026) names Orazio Mazza and Giuseppa Pulvirenti as his parents, the same couple as Mariano Mazza's (b. c. 1809), so this is the household of Mariano's brother.",
   "registerGen": "—",
   "photos": [],
   "parents": [
@@ -64470,6 +64855,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rsalvatore-mazza-8@",
+  "slug": "salvatore-mazza-1827",
+  "name": "Salvatore Mazza",
+  "key": "Salvatore Mazza (b. 1827, of Innocenzio and Domenica Cavallaro)",
+  "given": "Salvatore",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1827,
+  "died": null,
+  "bornText": "20 November 1827",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "20 November 1827",
+    "year": 1827,
+    "place": "Piedimonte Etneo",
+    "text": "20 November 1827"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "bracciale (the father)",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1827 atto 124"
+  ],
+  "registerNote": "THE FIRST SALVATORE, born fourteen months after his parents' marriage; the second Salvatore of this couple is born in 1841, so the name was given again after this one died or, as often, in memory of him; his own death has not been sought. THE MOTHER'S FIRST NAME IS WRITTEN LEONARDA in the act (age 22) where every other act of the couple writes Domenica (23 in 1826, 26 in 1829): probably the clerk's slip, perhaps from her mother's surname Leonardi; the act is otherwise the same couple (the father, bracciale, 'domiciliato nella campagna di questo territorio', the same words as at the birth of 1829).",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rinnocenzio-mazza@",
+    "name": "Innocenzio Mazza",
+    "slug": "innocenzio-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-cavallaro@",
+    "name": "Domenica Cavallaro",
+    "slug": "domenica-cavallaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rsalvatore-mazza@",
   "slug": "salvatore-mazza-1841",
   "name": "Salvatore Mazza",
@@ -64505,7 +64949,7 @@
    "Nati 1841 row 66 (table)",
    "Matrimoni 1876 atto 5 file (an_ua83317, 83340, 83367)"
   ],
-  "registerNote": "NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed. THE NAMESAKE OF SALVATORE MAZZA (b. 30 January 1841, of Mariano): two men called Salvatore Mazza, born FIVE MONTHS APART in 1841 in the same town (this one 17 June, the other 30 January), each a bracciante. The Mazza Salvatore, 46, who declared the deaths of 1887 at Piedimonte may be either, and no act says which. THE 1876 FILE IS READ: his birth extract (Nati 1841 act 66, 17 June 1841: «Senzio Mazza», 30, bracciale, and Domenica Cavallaro, 28) agrees with the table. THE FATHER'S AGE DOES NOT AGREE ACROSS ACTS: 30 in June 1841, 40 in May 1843.",
+  "registerNote": "JOINED TO THE SPINE: Innocenzio Mazza's own marriage act (Piedimonte, Matrimoni 1826 atto 23, read at the image on 22 Nov 2026) names Orazio Mazza and Giuseppa Pulvirenti as his parents, the same couple as Mariano Mazza's (b. c. 1809), so this is the household of Mariano's brother. THE NAMESAKE OF SALVATORE MAZZA (b. 30 January 1841, of Mariano): two men called Salvatore Mazza, born FIVE MONTHS APART in 1841 in the same town (this one 17 June, the other 30 January), each a bracciante. The Mazza Salvatore, 46, who declared the deaths of 1887 at Piedimonte may be either, and no act says which. THE 1876 FILE IS READ: his birth extract (Nati 1841 act 66, 17 June 1841: «Senzio Mazza», 30, bracciale, and Domenica Cavallaro, 28) agrees with the table. THE FATHER'S AGE DOES NOT AGREE ACROSS ACTS: 30 in June 1841, 40 in May 1843.",
   "registerGen": "5",
   "photos": [],
   "parents": [
@@ -68347,7 +68791,7 @@
   "registerSources": [
    "Piedimonte Etneo, Nati 1879 atto 205"
   ],
-  "registerNote": "NOT CONNECTED TO THE SPINE: a Piedimonte Mazza household this archive reads but cannot yet join to Mariano Mazza (b. c. 1809); no brotherhood or cousinhood is claimed. Married Rosaria Greco di Carmelo on 16 November 1908 (marginal note on the birth act). NOT Venerando: the contracted «Senzio» in his father's marriage act is what once made this archive read the grandfather as Venerio.",
+  "registerNote": "JOINED TO THE SPINE: Innocenzio Mazza's own marriage act (Piedimonte, Matrimoni 1826 atto 23, read at the image on 22 Nov 2026) names Orazio Mazza and Giuseppa Pulvirenti as his parents, the same couple as Mariano Mazza's (b. c. 1809), so this is the household of Mariano's brother. Married Rosaria Greco di Carmelo on 16 November 1908 (marginal note on the birth act). NOT Venerando: the contracted «Senzio» in his father's marriage act is what once made this archive read the grandfather as Venerio.",
   "registerGen": "4",
   "photos": [],
   "parents": [
