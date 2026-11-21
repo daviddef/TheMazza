@@ -28339,5 +28339,30 @@
    "/people/pasquale-mazza/",
    "/people/concetta-greco/"
   ]
+ },
+ {
+  "key": "src/antenati-mascali-matrimoni-1866-1893-and-macchia-matrimoni-morti-italian-era-indexes-mazza-patane-suderi-catalano-3ae0f3",
+  "status": "part",
+  "when": "2026-11-22",
+  "source": "Antenati — Mascali (Catania), Archivio di Stato di Catania, Stato civile italiano, Matrimoni 1866-1893 (an_ua81681 to an_ua81709), and Macchia (Giarre), Matrimoni 1866-1867 and 1878-1893 (an_ua19994578 to an_ua19994595) and Morti 1876-1885 (an_ua19994609 to an_ua19994619): annual indexes and chosen acts",
+  "scope": "PARTLY READ, and not a basis for a nil. The Mascali marriage indexes (printed, listing both spouses and no ages) were read for 27 of 29 volumes; 1874 has no index on its images (acts 1-22 unread) and the second volume of 1888 has none (two acts read), and a loose sheet in the first 1888 volume was not read. The Macchia marriage indexes 1878-1893 were read, but 1866 and 1867 have no index and were read only in part. The Macchia Morti of 1876, 1877 and the 1877 supplement have no index and all their acts were read; for 1878-1885 the index lists the deceased only, with no parents or spouses, so a Mazza named only as a parent, spouse or declarant could never be found by it. In most volumes the Patane, Suderi and Catalano lines were counted from the index and not opened. Terms typed: Mazza, Marza, Patane, Suderi, Scuderi, Sudero, Catalano. Near-names not counted: Mazzarra, Mazzella, Massimino, Marzullo, Mazzullo.",
+  "result": "NO Mazza or Marza line in any index read, and no act opened names Alfio Patane and Maria Suderi, Mariano Mazza and Maria Catalano, or any of their children; a statement about the pages read, not a nil for any volume. Every act opened for a Patane, Suderi or Catalano aged over fifty belonged to other families (a Patane family of Milo, a Suderi family of Macchia whose father is an Alfio married to an Angela Grasso, and a Catalano family of Macchia), none shown to be kin of the family sought; the Suderi father named Alfio is a lead only. A Leonarda Patane born at Mascali in 1836 was not found as a person in these indexes, which hold marriages and deaths, not births.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81681/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81681/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81709/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994578/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994595/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994609/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994619/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Catalano",
+   "Grasso"
+  ],
+  "nobody": true
  }
 ]
