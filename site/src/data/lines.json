@@ -307,8 +307,8 @@
     },
     {
      "place": "Pasquale",
-     "year": "c. 1780",
-     "why": "Pasquale Sofi: born Scilla c. 1780; died 3 July 1873, at Acquagrande, Scilla (Morti 1873 atto 89)",
+     "year": "1786",
+     "why": "Pasquale Sofi: born Scilla 4 June 1786; died 3 July 1873, at Acquagrande, Scilla (Morti 1873 atto 89)",
      "person": "pasquale-sofi",
      "evidence": "read"
     },
@@ -349,7 +349,7 @@
    "id": "register-alone",
    "kind": "not-yet-placed",
    "head": "Proved by a register, in groups joined to nothing",
-   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 95 small groups, 59 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
+   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 97 small groups, 61 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
    "members": [
     "agostino-nicotra",
     "alfia-cannavò",
@@ -445,6 +445,7 @@
     "fortunata-maria-pontillo",
     "fortunata-polistina",
     "fortunato-arena",
+    "fortunato-catalano",
     "francesca-giomingo",
     "francesca-grimaldi",
     "francesco-arena-1",
@@ -540,6 +541,7 @@
     "mariano-sorbello",
     "mariano-trovato",
     "mario-crupi",
+    "mattia-delia",
     "mauro-nicotra",
     "nicola-comerci",
     "nunzia-coco",
@@ -626,7 +628,7 @@
     "vito-nicotra",
     "vittoria-mollo"
    ],
-   "count": 274
+   "count": 276
   },
   {
    "id": "tree-only",

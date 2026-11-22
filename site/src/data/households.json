@@ -344,6 +344,13 @@
     "slug": "pasquale-sofi",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgennaro-sofi@",
+    "name": "Gennaro Sofi",
+    "slug": "gennaro-sofi",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Scilla",
@@ -429,6 +436,13 @@
     "id": "@Rpasquale-sofi@",
     "name": "Pasquale Sofi",
     "slug": "pasquale-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgennaro-sofi@",
+    "name": "Gennaro Sofi",
+    "slug": "gennaro-sofi",
     "living": false,
     "via": "read"
    }
@@ -588,6 +602,13 @@
     "id": "@Rmaria-de-amico@",
     "name": "Maria de Amico",
     "slug": "maria-de-amico",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-damico@",
+    "name": "Caterina d'Amico",
+    "slug": "caterina-damico",
     "living": false,
     "via": "read"
    }
@@ -845,51 +866,6 @@
   "born": 1780
  },
  {
-  "name": "Pasquale Sofi",
-  "head": "pasquale-sofi",
-  "headId": "@Rpasquale-sofi@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@I356@",
-    "name": "Annunziata Sofi",
-    "slug": "annunziata-sofi",
-    "living": false,
-    "via": "read"
-   },
-   {
-    "id": "@Rdomenico-sofi@",
-    "name": "Domenico Sofi",
-    "slug": "domenico-sofi",
-    "living": false,
-    "via": "read"
-   },
-   {
-    "id": "@Rvittoria-sofi@",
-    "name": "Vittoria Sofi",
-    "slug": "vittoria-sofi",
-    "living": false,
-    "via": "read"
-   },
-   {
-    "id": "@Rteresa-sofi@",
-    "name": "Teresa Sofi",
-    "slug": "teresa-sofi",
-    "living": false,
-    "via": "read"
-   },
-   {
-    "id": "@Rrachele-sofi@",
-    "name": "Rachele Sofi",
-    "slug": "rachele-sofi",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Scilla",
-  "born": 1780
- },
- {
   "name": "Alfio Nicotra",
   "head": "alfio-nicotra-1783",
   "headId": "@Ralfio-nicotra-4@",
@@ -1137,6 +1113,51 @@
   "born": 1786
  },
  {
+  "name": "Pasquale Sofi",
+  "head": "pasquale-sofi",
+  "headId": "@Rpasquale-sofi@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I356@",
+    "name": "Annunziata Sofi",
+    "slug": "annunziata-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-sofi@",
+    "name": "Domenico Sofi",
+    "slug": "domenico-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvittoria-sofi@",
+    "name": "Vittoria Sofi",
+    "slug": "vittoria-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-sofi@",
+    "name": "Teresa Sofi",
+    "slug": "teresa-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrachele-sofi@",
+    "name": "Rachele Sofi",
+    "slug": "rachele-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1786
+ },
+ {
   "name": "Domenica Costa",
   "head": "domenica-costa",
   "headId": "@Rdomenica-costa@",
@@ -1359,6 +1380,51 @@
   "born": 1790
  },
  {
+  "name": "Maria de Amico",
+  "head": "maria-de-amico",
+  "headId": "@Rmaria-de-amico@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@I356@",
+    "name": "Annunziata Sofi",
+    "slug": "annunziata-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenico-sofi@",
+    "name": "Domenico Sofi",
+    "slug": "domenico-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvittoria-sofi@",
+    "name": "Vittoria Sofi",
+    "slug": "vittoria-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rteresa-sofi@",
+    "name": "Teresa Sofi",
+    "slug": "teresa-sofi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rrachele-sofi@",
+    "name": "Rachele Sofi",
+    "slug": "rachele-sofi",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1791
+ },
+ {
   "name": "Paola Previtera",
   "head": "paola-previtera",
   "headId": "@Rpaola-previtera@",
@@ -1420,51 +1486,6 @@
     "id": "@Rdomenico-arena-3@",
     "name": "Domenico Arena",
     "slug": "domenico-arena-1827",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Scilla",
-  "born": 1793
- },
- {
-  "name": "Maria de Amico",
-  "head": "maria-de-amico",
-  "headId": "@Rmaria-de-amico@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@I356@",
-    "name": "Annunziata Sofi",
-    "slug": "annunziata-sofi",
-    "living": false,
-    "via": "read"
-   },
-   {
-    "id": "@Rdomenico-sofi@",
-    "name": "Domenico Sofi",
-    "slug": "domenico-sofi",
-    "living": false,
-    "via": "read"
-   },
-   {
-    "id": "@Rvittoria-sofi@",
-    "name": "Vittoria Sofi",
-    "slug": "vittoria-sofi",
-    "living": false,
-    "via": "read"
-   },
-   {
-    "id": "@Rteresa-sofi@",
-    "name": "Teresa Sofi",
-    "slug": "teresa-sofi",
-    "living": false,
-    "via": "read"
-   },
-   {
-    "id": "@Rrachele-sofi@",
-    "name": "Rachele Sofi",
-    "slug": "rachele-sofi",
     "living": false,
     "via": "read"
    }
@@ -13965,6 +13986,13 @@
     "id": "@Rmaria-de-amico@",
     "name": "Maria de Amico",
     "slug": "maria-de-amico",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rcaterina-damico@",
+    "name": "Caterina d'Amico",
+    "slug": "caterina-damico",
     "living": false,
     "via": "read"
    }

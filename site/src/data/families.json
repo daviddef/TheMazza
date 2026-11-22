@@ -159,6 +159,18 @@
   ]
  },
  {
+  "surname": "Sofi",
+  "n": 10,
+  "dead": 10,
+  "living": 0,
+  "first": 1754,
+  "last": 1897,
+  "places": [
+   "Scilla",
+   "Scilla, Reggio Calabria"
+  ]
+ },
+ {
   "surname": "Comerci",
   "n": 10,
   "dead": 10,
@@ -167,18 +179,6 @@
   "last": 1848,
   "places": [
    "Briatico"
-  ]
- },
- {
-  "surname": "Sofi",
-  "n": 9,
-  "dead": 9,
-  "living": 0,
-  "first": 1754,
-  "last": 1897,
-  "places": [
-   "Scilla",
-   "Scilla, Reggio Calabria"
   ]
  },
  {
@@ -394,6 +394,19 @@
   ]
  },
  {
+  "surname": "Catalano",
+  "n": 5,
+  "dead": 5,
+  "living": 0,
+  "first": 1787,
+  "last": 1891,
+  "places": [
+   "Giarre",
+   "Piedimonte Etneo",
+   "Scilla"
+  ]
+ },
+ {
   "surname": "Armanno",
   "n": 4,
   "dead": 1,
@@ -485,18 +498,6 @@
   "first": 1898,
   "last": 1989,
   "places": []
- },
- {
-  "surname": "Catalano",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": 1809,
-  "last": 1891,
-  "places": [
-   "Giarre",
-   "Piedimonte Etneo"
-  ]
  },
  {
   "surname": "Turner",
@@ -798,7 +799,7 @@
   "n": 2,
   "dead": 2,
   "living": 0,
-  "first": 1793,
+  "first": 1791,
   "last": 1873,
   "places": [
    "Scilla"
@@ -880,6 +881,17 @@
   "last": 1798,
   "places": [
    "Zambrone"
+  ]
+ },
+ {
+  "surname": "d'Amico",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1785,
+  "last": 1808,
+  "places": [
+   "Scilla"
   ]
  },
  {
@@ -2181,6 +2193,17 @@
   ]
  },
  {
+  "surname": "d'Elia",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": 1783,
+  "last": 1783,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
   "surname": "Galli",
   "n": 1,
   "dead": 1,
@@ -2209,17 +2232,6 @@
   "living": 0,
   "first": null,
   "last": null,
-  "places": [
-   "Scilla"
-  ]
- },
- {
-  "surname": "d'Amico",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": 1808,
-  "last": 1808,
   "places": [
    "Scilla"
   ]

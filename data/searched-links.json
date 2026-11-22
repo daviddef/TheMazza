@@ -1911,5 +1911,34 @@
   "ev": [
    "/people/maria-catena-mazza/"
   ]
+ },
+ "src/antenati-scilla-matrimoni-1809-1830-and-processetti-1816-sofi-de-amico-baptisms-donato-paladino-28989a": {
+  "for": [
+   [
+    "/people/pasquale-sofi/",
+    "Pasquale Sofi"
+   ],
+   [
+    "/people/maria-de-amico/",
+    "Maria de Amico"
+   ],
+   [
+    "/people/gennaro-sofi/",
+    "Gennaro Sofi"
+   ],
+   [
+    "/people/caterina-damico/",
+    "Caterina d'Amico"
+   ]
+  ],
+  "ev": [
+   "/people/pasquale-sofi/",
+   "/people/maria-de-amico/",
+   "/people/gennaro-sofi/",
+   "/people/caterina-damico/"
+  ]
+ },
+ "src/antenati-pizzo-morti-1829-31-zambrone-morti-daffina-and-potenzoni-tavolas-prostamo-majo-anile-barbuto-aaf420": {
+  "nobody": true
  }
 }
