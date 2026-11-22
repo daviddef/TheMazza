@@ -46145,6 +46145,50 @@
   "ancGen": null
  },
  {
+  "id": "@Rconcetta-strano@",
+  "slug": "concetta-strano",
+  "name": "Concetta Strano",
+  "key": "Concetta Strano (wife of Ignazio Mazza, daughter of Leonardo)",
+  "given": "Concetta",
+  "surname": "Strano",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Piedimonte Etneo",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1886 atto 195, marginal note (an_ua83500, image 93, read at the image by the session)"
+  ],
+  "registerNote": "MARRIED IGNAZIO MAZZA (b. 1886) in January 1910 at Piedimonte, by the marginal note of his birth act (Piedimonte Nati 1886 atto 195): «Strano Concetta di fu Leonardo», so her father was dead by then. The marriage act (Piedimonte Matrimoni 1910, no. 10) is not yet opened.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rcosma-romano@",
   "slug": "cosma-romano",
   "name": "Cosma Romano",
@@ -51653,9 +51697,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Piedimonte Etneo, Nati 1875 atto 64"
+   "Piedimonte Etneo, Nati 1875 atto 64",
+   "the marginal note of the same act (an_ua83488, image 31, read at the image by the session)"
   ],
-  "registerNote": "Via Archi n. 15. His death has not been sought.",
+  "registerNote": "MARRIED, by the margin of his own birth act: «Unito in matrimonio con Costanzo Maria di Vincenzo con atto del 13 luglio 902, inscritto in Piedmonte [Piedimonte], Catania 2-2-903»: MARIA COSTANZO, daughter of a Vincenzo, on 13 JULY 1902, registered at Piedimonte, the note entered at Catania on 2 February 1903 (read at the image; the marriage act itself is not yet opened). Via Archi n. 15. His death has not been sought.",
   "registerGen": "4",
   "photos": [],
   "parents": [],
@@ -54877,9 +54922,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Piedimonte Etneo, Nati 1886 atto 195"
+   "Piedimonte Etneo, Nati 1886 atto 195",
+   "the marginal note of the same act (an_ua83500, image 93, read at the image by the session)"
   ],
-  "registerNote": "Via S. Basilio Sottano n. 40. Rosario is a contadino domiciled in the comune; the family was at Linguaglossa in 1883 (Rosario Marza's son) and is back at Piedimonte by 1886. His death has not been sought.",
+  "registerNote": "Via S. Basilio Sottano n. 40. Rosario is a contadino domiciled in the comune; the family was at Linguaglossa in 1883 (Rosario Marza's son) and is back at Piedimonte by 1886. His death has not been sought.MARRIED, by the margin of his own birth act: «Unito in matrimonio con Strano Concetta di fu Leonardo con atto del 21.1.910 [the day reads 21, possibly 31], inscritto in Piedmonte N° 10», the note entered at Catania on 7 July 1910: CONCETTA STRANO, daughter of the late Leonardo, in JANUARY 1910, at Piedimonte (act no. 10 of that year's marriage register). His death has not been sought.",
   "registerGen": "4",
   "photos": [],
   "parents": [],
@@ -56709,6 +56755,50 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 7
+ },
+ {
+  "id": "@Rmaria-costanzo@",
+  "slug": "maria-costanzo",
+  "name": "Maria Costanzo",
+  "key": "Maria Costanzo (wife of Giovanni Mazza, daughter of Vincenzo)",
+  "given": "Maria",
+  "surname": "Costanzo",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Piedimonte Etneo",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1875 atto 64, marginal note (an_ua83488, image 31, read at the image by the session)"
+  ],
+  "registerNote": "MARRIED GIOVANNI MAZZA (b. 1875) on 13 July 1902, by the marginal note of his birth act (Piedimonte Nati 1875 atto 64), where she is «Costanzo Maria di Vincenzo»; her father's surname is understood to be Costanzo but her own birth and parents have not been sought. The marriage act (Piedimonte Matrimoni 1902) is not yet opened.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rmaria-cotroneo@",
@@ -60320,9 +60410,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Piedimonte Etneo, Nati 1877 atto 168"
+   "Piedimonte Etneo, Nati 1877 atto 168",
+   "the marginal notes of the same act (an_ua83490, image 76, read at the image by the session)"
   ],
-  "registerNote": "Born at Piedimonte, via Grotta Nicodemo (Nati 1877 atto 168, already in the acts file). Whether he is the Orazio Mazza of the family tree is not claimed: the tree's Orazio is born 1883, and nothing here joins the two. His death has not been sought.",
+  "registerNote": "Born at Piedimonte, via Grotta Nicodemo (Nati 1877 atto 168, already in the acts file). Whether he is the Orazio Mazza of the family tree is not claimed: the tree's Orazio is born 1883, and nothing here joins the two. His death has not been sought.TWICE MARRIED, by the margin of his own birth act: «Unito in matrimonio con Curcuruto Rosa di Leonardo con atto del 26 Genn.° 905, inscritto in Linguaglossa», the note entered at Catania on 7 February 1905; and a later printed ANNOTAZIONE: he «ha contratto matrimonio con» a woman whose name reads MANGANO? MARIA «in Fiumefreddo?» (reading uncertain) by an act of 22 FEBRUARY 1927, the note entered at Catania on 25 May 1927. So the first wife was Rosa Curcuruto, married at LINGUAGLOSSA on 26 January 1905. Whether the first marriage had ended by 1927 is not stated. His death has not been sought.",
   "registerGen": "4",
   "photos": [],
   "parents": [],
@@ -62051,6 +62142,50 @@
     "via": "read"
    }
   ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rrosa-curcuruto@",
+  "slug": "rosa-curcuruto",
+  "name": "Rosa Curcuruto",
+  "key": "Rosa Curcuruto (first wife of Orazio Mazza, daughter of Leonardo)",
+  "given": "Rosa",
+  "surname": "Curcuruto",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Linguaglossa",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Linguaglossa",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1877 atto 168, marginal note (an_ua83490, image 76, read at the image by the session)"
+  ],
+  "registerNote": "MARRIED ORAZIO MAZZA (b. 1877) at LINGUAGLOSSA on 26 January 1905, by the marginal note of his birth act (Piedimonte Nati 1877 atto 168): «Curcuruto Rosa di Leonardo». The marriage act (Linguaglossa Matrimoni 1905) is not yet opened; it should name both sets of parents. Curcuruto is also a Piedimonte surname, and the 1875 birth register's index lists a Curcuruto family there.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [],
   "children": [],
   "spouses": [],
   "siblings": [],

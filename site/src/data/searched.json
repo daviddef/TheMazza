@@ -29347,5 +29347,58 @@
   "ev": [
    "/people/agata-suderi/"
   ]
+ },
+ {
+  "key": "src/antenati-piedimonte-nati-1875-1877-1886-marginal-marriage-notes-mazza-giovanni-orazio-ignazio-cf2558",
+  "status": "done",
+  "when": "2026-11-22",
+  "source": "Antenati — Piedimonte Etneo, Nati 1875 (an_ua83488, images 18, 27, 30, 31 and the index at 100-101), Nati 1877 (an_ua83490, image 76) and Nati 1886 (an_ua83500, image 93), Archivio di Stato di Catania, Stato civile italiano",
+  "scope": "Re-opening, at the image, three Mazza birth acts that a delegated reader had opened from the annual index and the session had not re-zoomed: Giovanni (1875 atto 64), Orazio (1877 atto 168) and Ignazio (1886 atto 195), sons of Rosario Mazza and Leonarda Bonanno, to read the marginal notes of later marriages. Read: the three acts whole, and the 1875 index entry for Mazza. NOT opened: Salvatore's act of 1873 (the margin falls on the next image, and a pasted black patch covers part of the opening), the death and marriage registers themselves. The marriage acts of 1902, 1905 and 1910 are past the last year (1893) that the Piedimonte and Linguaglossa Italian-era series on Antenati reach, so they are not available there.",
+  "result": "THREE MARRIAGES READ IN THE MARGINS, AT THE IMAGE BY THE SESSION. Giovanni Mazza (b. 28 April 1875, act 64 confirmed against the index) married Maria Costanzo, daughter of Vincenzo, on 13 July 1902, registered at Piedimonte. Orazio Mazza (b. 21 October 1877) married Rosa Curcuruto, daughter of Leonardo, at Linguaglossa on 26 January 1905, and a later printed annotation records a second marriage on 22 February 1927 to a woman whose name reads Mangano? Maria, at Fiumefreddo? (reading uncertain). Ignazio Mazza (b. 3 September 1886) married Concetta Strano, daughter of the late Leonardo, in January 1910 at Piedimonte (the day reads 21, possibly 31). The act-head details of Giovanni's birth (7.22 in the evening of 28 April, via Archi 15, witnesses Giovanni Gavozzo and Carmelo Russo) are now read by the session. The three wives are new; their own parents and the marriage acts are not yet read.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83488/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83488/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83490/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83500/"
+  ],
+  "tags": [
+   "Mazza",
+   "Russo"
+  ],
+  "for": [
+   [
+    "/people/giovanni-mazza-1875/",
+    "Giovanni Mazza"
+   ],
+   [
+    "/people/orazio-mazza-1877/",
+    "Orazio Mazza"
+   ],
+   [
+    "/people/ignazio-mazza-1886/",
+    "Ignazio Mazza"
+   ],
+   [
+    "/people/maria-costanzo/",
+    "Maria Costanzo"
+   ],
+   [
+    "/people/rosa-curcuruto/",
+    "Rosa Curcuruto"
+   ],
+   [
+    "/people/concetta-strano/",
+    "Concetta Strano"
+   ]
+  ],
+  "ev": [
+   "/people/giovanni-mazza-1875/",
+   "/people/orazio-mazza-1877/",
+   "/people/ignazio-mazza-1886/",
+   "/people/maria-costanzo/",
+   "/people/rosa-curcuruto/",
+   "/people/concetta-strano/"
+  ]
  }
 ]

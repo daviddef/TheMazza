@@ -105,7 +105,7 @@
  },
  {
   "name": "Piedimonte Etneo",
-  "born": 118,
+  "born": 120,
   "died": 0,
   "buried": 0,
   "lived": 0,
@@ -141,6 +141,7 @@
    "concetta-greco",
    "concetta-russo-1809",
    "concetta-sciacca",
+   "concetta-strano",
    "domenica",
    "domenica-1876",
    "domenica-1876-2",
@@ -150,10 +151,9 @@
    "filippa-mazza",
    "filippo-spina",
    "francesca-mazza-1866",
-   "francesco-mazza-1870",
-   "francesco-trovato"
+   "francesco-mazza-1870"
   ],
-  "n": 118
+  "n": 120
  },
  {
   "name": "Briatico, Vibo Valentia, Calabria",
@@ -478,6 +478,33 @@
   "n": 17
  },
  {
+  "name": "Linguaglossa",
+  "born": 15,
+  "died": 0,
+  "buried": 0,
+  "lived": 0,
+  "first": 1825,
+  "last": 1891,
+  "who": [
+   "agata-toscano",
+   "alfio-marza",
+   "antonio-fichera",
+   "concetta-faro",
+   "domenica-fichera",
+   "giovanni-faro",
+   "giuseppa-mazza-1871",
+   "leonardo-fichera",
+   "maria-ragusa",
+   "rosa-curcuruto",
+   "rosario-mazza-1883",
+   "salvatore-fichera",
+   "salvatore-fichera-1859",
+   "venera-mazza",
+   "vincenzo-lo-faro"
+  ],
+  "n": 15
+ },
+ {
   "name": "Pizzo, Vibo Valentia, Calabria",
   "born": 4,
   "died": 8,
@@ -500,32 +527,6 @@
    "giorgio-prostamo-di-maio",
    "domenico-prostamo",
    "domenico-prostamo"
-  ],
-  "n": 14
- },
- {
-  "name": "Linguaglossa",
-  "born": 14,
-  "died": 0,
-  "buried": 0,
-  "lived": 0,
-  "first": 1825,
-  "last": 1891,
-  "who": [
-   "agata-toscano",
-   "alfio-marza",
-   "antonio-fichera",
-   "concetta-faro",
-   "domenica-fichera",
-   "giovanni-faro",
-   "giuseppa-mazza-1871",
-   "leonardo-fichera",
-   "maria-ragusa",
-   "rosario-mazza-1883",
-   "salvatore-fichera",
-   "salvatore-fichera-1859",
-   "venera-mazza",
-   "vincenzo-lo-faro"
   ],
   "n": 14
  },

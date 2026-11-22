@@ -1951,5 +1951,41 @@
   "ev": [
    "/people/agata-suderi/"
   ]
+ },
+ "src/antenati-piedimonte-nati-1875-1877-1886-marginal-marriage-notes-mazza-giovanni-orazio-ignazio-cf2558": {
+  "for": [
+   [
+    "/people/giovanni-mazza-1875/",
+    "Giovanni Mazza"
+   ],
+   [
+    "/people/orazio-mazza-1877/",
+    "Orazio Mazza"
+   ],
+   [
+    "/people/ignazio-mazza-1886/",
+    "Ignazio Mazza"
+   ],
+   [
+    "/people/maria-costanzo/",
+    "Maria Costanzo"
+   ],
+   [
+    "/people/rosa-curcuruto/",
+    "Rosa Curcuruto"
+   ],
+   [
+    "/people/concetta-strano/",
+    "Concetta Strano"
+   ]
+  ],
+  "ev": [
+   "/people/giovanni-mazza-1875/",
+   "/people/orazio-mazza-1877/",
+   "/people/ignazio-mazza-1886/",
+   "/people/maria-costanzo/",
+   "/people/rosa-curcuruto/",
+   "/people/concetta-strano/"
+  ]
  }
 }

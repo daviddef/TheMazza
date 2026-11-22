@@ -918,6 +918,18 @@
   ]
  },
  {
+  "surname": "Strano",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1790,
+  "last": 1790,
+  "places": [
+   "Piedimonte Etneo",
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Bassi",
   "n": 2,
   "dead": 2,
@@ -2000,17 +2012,6 @@
   ]
  },
  {
-  "surname": "Strano",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": 1790,
-  "last": 1790,
-  "places": [
-   "Giarre"
-  ]
- },
- {
   "surname": "Vitale",
   "n": 1,
   "dead": 1,
@@ -2052,6 +2053,17 @@
   "last": 1776,
   "places": [
    "Giarre"
+  ]
+ },
+ {
+  "surname": "Costanzo",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -2246,6 +2258,17 @@
   "last": 1889,
   "places": [
    "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Curcuruto",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Linguaglossa"
   ]
  },
  {
