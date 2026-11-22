@@ -106,6 +106,7 @@
         { "path": "/research/to-do/", "title": "To do", "blurb": "Open questions, errands and the work list." },
         { "path": "/research/sources-and-method/", "title": "Sources & method", "blurb": "What this archive stands on, how it reads a register, and the long studies that sit beside them." },
         { "path": "/research/checks/", "title": "Checks", "blurb": "The archive checking itself: the audit of its negatives." },
+        { "path": "/research/deep-dives/", "title": "Deep dives", "blurb": "The long studies, each of one set of registers or one proposition: the Sicilian registers, the Queensland register and the test of the 1697." },
         { "path": "/sources/", "title": "Sources", "blurb": "What this archive rests on, and whether the document itself has been read or only an index to it.", "group": "What it rests on" },
         { "path": "/documents/", "title": "Documents", "blurb": "The photographs and papers held in the family's own tree, saved down before the links expired." },
         { "path": "/register-1879/", "title": "The Sicilian Registers", "blurb": "Nine annual indexes and six acts, hunting one man who is still missing.", "group": "Investigations" },
@@ -129,6 +130,7 @@
   "outside": [
     "/search/", "/privacy/", "/whats-new/",
     "/families/",
+    "/drawn/",
     "/what-changed/"
   ]
 }

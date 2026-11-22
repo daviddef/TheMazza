@@ -1,0 +1,22 @@
+---
+/* DEEP DIVES: the hub for the archive's long studies, each of one set of registers or one proposition (added 23 November 2026, the estate
+   clean-up). The list is the Deep dives sub-group of lib/research-menu.js, the same that draws the Research menu, so the menu and this page
+   cannot disagree; the audit of negatives, the one check, is listed after them. Every study keeps its own address. */
+import Base from "../../../layouts/Base.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { u } from "../../../lib/url.js";
+import { RESEARCH } from "../../../lib/research-menu.js";
+import { blurbOf } from "../../../lib/research-counts.js";
+const dd = RESEARCH.flatMap((g) => g.items).find((x) => x.id === "deep-dives");
+const checks = RESEARCH.find((g) => g.id === "checks");
+const as = (x) => ({ href: x.href, label: x.label, blurb: blurbOf(x) });
+---
+<Base title="Deep dives" eyebrow="Research · the long studies" dek={dd.note}>
+  <section class="blk">
+    <ResearchList items={dd.items.map(as)} />
+    <h2 id="checks" style="font-size:24px;margin-top:34px"><a href={u(checks.href)}>{checks.head}</a></h2>
+    <p class="cap">{checks.dek}</p>
+    <ResearchList items={checks.items.map(as)} />
+    <p class="cap" style="margin-top:22px">The rest of Research: <a href={u("/research/to-do/")}>To do</a> · <a href={u("/whats-new/")}>What's new</a> · <a href={u("/research/sources-and-method/")}>Sources &amp; method</a> · <a href={u("/research/")}>all of it on one page</a>.</p>
+  </section>
+</Base>

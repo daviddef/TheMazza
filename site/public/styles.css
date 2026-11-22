@@ -825,3 +825,7 @@ div.wl-one div.wl-note>:is(table,.scroll){max-width:none}
    "Open Roots & Routes on this person" on a person's page has nowhere to go. The panels above it (the frames served from
    /roots/view.html) stay; only that link is hidden, from this side, because the Kit draws it. */
 .rv .rv-open { display: none !important; }
+
+/* 23 November 2026: a sub-group heading in a menu (Research > Deep dives) is a link to its hub page. */
+.topnav .panel a.ps:hover,.drawer a.ps:hover,.topnav .panel a.ps.on,.drawer a.ps.on{color:var(--ink)}
+.drawer a.ps{display:block}
