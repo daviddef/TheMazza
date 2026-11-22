@@ -29659,5 +29659,26 @@
    "Patane"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-scilla-nati-1883-1892-1893-margins-of-polistena-arena-and-donato-births-3f4204",
+  "status": "part",
+  "when": "2026-11-22",
+  "source": "Antenati — Scilla Nati 1883 (an_ua16601246, image 73), 1892 (an_ua16601257, images 56 and 79) and 1893 (an_ua16601258, image 9), Archivio di Stato di Reggio Calabria, the margin beside four birth acts",
+  "scope": "Reading, at the image, the margin of four Italian-era Scilla birth acts already in the archive, to see whether a clerk had noted a later marriage: Giovanni Polistena 1883 (act 206, for the marriage to Nunziata Donato of about 1916 in row 71), Annunziata Donato 1892 (act 162), Giuseppe Arena 1892 (act 230, both pages of the opening) and Anna Arena 1893 (act 22). Not read: the marriage acts, which are past the end of the Scilla marriage series on Antenati.",
+  "result": "NO MARRIAGE NOTE ON ANY OF THE FOUR. The margins of Polistena 1883, Arena Giuseppe 1892 and Arena Anna 1893 are empty. Annunziata Donato 1892 carries only a printed death stamp, which at the zoom reads that she died at Scilla on 26 August 1975, death act 30 of that year; the year reads 1975 on both the date line and the Anno line, so the death date the archive already holds is confirmed from the stamp but not from the death act. Row 71 is therefore not closed by a margin. Neighbouring acts on the same images carry notes (1892 acts 163 and 164, 231) that are not ours.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua16601246/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16601246/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16601257/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16601258/"
+  ],
+  "tags": [
+   "Polistena",
+   "Donato",
+   "Arena"
+  ],
+  "nobody": true
  }
 ]
