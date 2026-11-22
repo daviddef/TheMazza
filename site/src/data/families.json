@@ -207,6 +207,20 @@
   ]
  },
  {
+  "surname": "Russo",
+  "n": 8,
+  "dead": 8,
+  "living": 0,
+  "first": 1809,
+  "last": 1809,
+  "places": [
+   "Piedimonte Etneo",
+   "Scilla, Reggio Calabria",
+   "Scilla",
+   "Giarre"
+  ]
+ },
+ {
   "surname": "Mazzitelli",
   "n": 8,
   "dead": 8,
@@ -228,20 +242,6 @@
   "last": 1918,
   "places": [
    "Scilla"
-  ]
- },
- {
-  "surname": "Russo",
-  "n": 7,
-  "dead": 7,
-  "living": 0,
-  "first": 1809,
-  "last": 1809,
-  "places": [
-   "Piedimonte Etneo",
-   "Scilla, Reggio Calabria",
-   "Scilla",
-   "Giarre"
   ]
  },
  {
@@ -634,6 +634,17 @@
   ]
  },
  {
+  "surname": "Greco",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": 1830,
+  "last": 1837,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
   "surname": "Domenica",
   "n": 3,
   "dead": 3,
@@ -642,6 +653,18 @@
   "last": 1876,
   "places": [
    "Piedimonte Etneo"
+  ]
+ },
+ {
+  "surname": "Murabito",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Piedimonte Etneo",
+   "Mascali"
   ]
  },
  {
@@ -904,17 +927,6 @@
   "last": 1887,
   "places": [
    "Linguaglossa"
-  ]
- },
- {
-  "surname": "Greco",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": 1830,
-  "last": 1837,
-  "places": [
-   "Piedimonte Etneo"
   ]
  },
  {
@@ -1935,6 +1947,17 @@
   ]
  },
  {
+  "surname": "Bonaccorso",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Piedimonte Etneo"
+  ]
+ },
+ {
   "surname": "Giomingo",
   "n": 1,
   "dead": 1,
@@ -2020,6 +2043,17 @@
   "last": null,
   "places": [
    "Giarre"
+  ]
+ },
+ {
+  "surname": "Monforte",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Piedimonte Etneo"
   ]
  },
  {
@@ -2338,14 +2372,14 @@
   ]
  },
  {
-  "surname": "Murabito",
+  "surname": "Lizzio",
   "n": 1,
   "dead": 1,
   "living": 0,
   "first": null,
   "last": null,
   "places": [
-   "Mascali"
+   "Giarre"
   ]
  },
  {

@@ -185,7 +185,8 @@
   "outcome": "outstanding",
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
-   "Mazza"
+   "Mazza",
+   "Greco"
   ]
  },
  {
@@ -3093,6 +3094,7 @@
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
    "Pagano",
+   "Greco",
    "Trovato",
    "Cavallaro",
    "Pennisi",
@@ -3178,7 +3180,8 @@
   "outcome": "part",
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
-   "Nicotra"
+   "Nicotra",
+   "Murabito"
   ]
  },
  {
@@ -3194,7 +3197,8 @@
    "Ventrice",
    "Mazza",
    "Catalano",
-   "Nicotra"
+   "Nicotra",
+   "Murabito"
   ]
  },
  {
@@ -3220,7 +3224,8 @@
   "outcome": "part",
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
-   "Nicotra"
+   "Nicotra",
+   "Murabito"
   ]
  },
  {
@@ -3234,6 +3239,7 @@
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
    "Nicotra",
+   "Murabito",
    "Patane"
   ]
  },
@@ -3376,6 +3382,7 @@
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
    "Nicotra",
+   "Murabito",
    "Barbagallo"
   ]
  },
@@ -3415,7 +3422,8 @@
   "outcome": "outstanding",
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
-   "Nicotra"
+   "Nicotra",
+   "Murabito"
   ]
  },
  {
@@ -3520,6 +3528,7 @@
   ],
   "tags": [
    "Pennisi",
+   "Murabito",
    "Nicotra"
   ]
  },
@@ -3567,6 +3576,7 @@
    "https://antenati.cultura.gov.it/ark:/12657/an_ua81728/"
   ],
   "tags": [
+   "Murabito",
    "Nicotra"
   ]
  },
@@ -3616,7 +3626,8 @@
    "https://antenati.cultura.gov.it/ark:/12657/an_ua68995/"
   ],
   "tags": [
-   "Nicotra"
+   "Nicotra",
+   "Murabito"
   ]
  },
  {
@@ -3629,7 +3640,8 @@
   "outcome": "done",
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
-   "Nicotra"
+   "Nicotra",
+   "Murabito"
   ]
  },
  {
@@ -3971,7 +3983,8 @@
    "Grasso",
    "Russo",
    "Cavallaro",
-   "Morabito"
+   "Morabito",
+   "Murabito"
   ]
  },
  {
@@ -3984,7 +3997,8 @@
   "outcome": "part",
   "url": "https://antenati.cultura.gov.it/",
   "tags": [
-   "Nicotra"
+   "Nicotra",
+   "Murabito"
   ]
  },
  {
@@ -5118,6 +5132,7 @@
   "tags": [
    "Mazza",
    "Patane",
+   "Greco",
    "Catalano"
   ]
  },
@@ -5585,7 +5600,8 @@
   ],
   "tags": [
    "Mazza",
-   "Nicotra"
+   "Nicotra",
+   "Greco"
   ]
  },
  {
@@ -7067,7 +7083,8 @@
    "Nicotra",
    "Grasso",
    "Cavallaro",
-   "Domenica"
+   "Domenica",
+   "Greco"
   ]
  },
  {
@@ -7088,6 +7105,7 @@
    "Nicotra",
    "Cavallaro",
    "Domenica",
+   "Greco",
    "Pulvirenti"
   ]
  },
@@ -7518,7 +7536,8 @@
   ],
   "tags": [
    "Mazza",
-   "Patane"
+   "Patane",
+   "Greco"
   ]
  },
  {
@@ -7793,6 +7812,7 @@
   "tags": [
    "Mazza",
    "Patane",
+   "Greco",
    "Catalano",
    "Cavallaro",
    "Domenica",
@@ -8149,6 +8169,7 @@
   "tags": [
    "Mazza",
    "Patane",
+   "Greco",
    "Barbagallo"
   ]
  },
@@ -8434,6 +8455,7 @@
   "tags": [
    "Mazza",
    "Patane",
+   "Greco",
    "Cavallaro"
   ]
  },
@@ -8453,6 +8475,7 @@
   "tags": [
    "Mazza",
    "Patane",
+   "Greco",
    "Cavallaro",
    "Sciacca"
   ]
@@ -8473,6 +8496,7 @@
   "tags": [
    "Mazza",
    "Patane",
+   "Greco",
    "Pagano"
   ]
  },
@@ -8493,7 +8517,8 @@
   "tags": [
    "Mazza",
    "Patane",
-   "Domenica"
+   "Domenica",
+   "Greco"
   ]
  },
  {
@@ -8813,7 +8838,8 @@
   "tags": [
    "Mazza",
    "Fichera",
-   "Patane"
+   "Patane",
+   "Murabito"
   ]
  },
  {
@@ -8831,7 +8857,8 @@
   "tags": [
    "Mazza",
    "Fichera",
-   "Patane"
+   "Patane",
+   "Murabito"
   ]
  },
  {
@@ -9454,6 +9481,7 @@
    "Mazza",
    "Fichera",
    "Patane",
+   "Greco",
    "Costa"
   ]
  },
@@ -9473,6 +9501,7 @@
    "Mazza",
    "Fichera",
    "Patane",
+   "Greco",
    "Nicotra"
   ]
  },
@@ -9566,6 +9595,7 @@
    "Mazza",
    "Fichera",
    "Patane",
+   "Greco",
    "Cavallaro"
   ]
  },
@@ -9645,6 +9675,7 @@
    "Patane",
    "Cavallaro",
    "Coco",
+   "Greco",
    "Pagano"
   ]
  },
@@ -9665,6 +9696,7 @@
    "Fichera",
    "Patane",
    "Barbagallo",
+   "Murabito",
    "Pagano"
   ]
  },
@@ -10179,7 +10211,8 @@
    "https://antenati.cultura.gov.it/ark:/12657/an_ua81349/"
   ],
   "tags": [
-   "Mazza"
+   "Mazza",
+   "Greco"
   ]
  },
  {
@@ -10530,7 +10563,8 @@
    "https://antenati.cultura.gov.it/ark:/12657/an_ua80808/"
   ],
   "tags": [
-   "Mazza"
+   "Mazza",
+   "Greco"
   ]
  },
  {
@@ -10580,6 +10614,7 @@
   ],
   "tags": [
    "Mazza",
+   "Greco",
    "Patane"
   ]
  },
@@ -11471,6 +11506,7 @@
   ],
   "tags": [
    "Mazza",
+   "Murabito",
    "Barbagallo",
    "Patane"
   ]
@@ -11526,7 +11562,8 @@
    "https://antenati.cultura.gov.it/ark:/12657/an_ua80829/"
   ],
   "tags": [
-   "Mazza"
+   "Mazza",
+   "Murabito"
   ]
  },
  {
@@ -13025,7 +13062,8 @@
   "tags": [
    "Mazza",
    "Catalano",
-   "Fichera"
+   "Fichera",
+   "Greco"
   ]
  },
  {
@@ -15402,6 +15440,7 @@
    "Patane",
    "Suderi",
    "Barbagallo",
+   "Greco",
    "Domenica"
   ]
  },
@@ -17026,7 +17065,8 @@
   ],
   "tags": [
    "Mazza",
-   "Catalano"
+   "Catalano",
+   "Murabito"
   ]
  },
  {
@@ -17651,7 +17691,8 @@
    "Patane",
    "Suderi",
    "Catalano",
-   "Cavallaro"
+   "Cavallaro",
+   "Murabito"
   ]
  },
  {
@@ -17711,7 +17752,8 @@
    "Mazza",
    "Patane",
    "Suderi",
-   "Catalano"
+   "Catalano",
+   "Murabito"
   ]
  },
  {
@@ -18302,7 +18344,8 @@
    "Mazza",
    "Patane",
    "Suderi",
-   "Catalano"
+   "Catalano",
+   "Murabito"
   ]
  },
  {
@@ -18359,7 +18402,8 @@
    "Mazza",
    "Patane",
    "Suderi",
-   "Catalano"
+   "Catalano",
+   "Murabito"
   ]
  },
  {
@@ -18473,7 +18517,8 @@
    "Mazza",
    "Patane",
    "Suderi",
-   "Catalano"
+   "Catalano",
+   "Murabito"
   ]
  },
  {
@@ -20169,6 +20214,7 @@
    "Suderi",
    "Catalano",
    "Pulvirenti",
+   "Greco",
    "Cavallaro"
   ]
  },
@@ -20585,7 +20631,8 @@
    "Suderi",
    "Patane",
    "Catalano",
-   "Pagano"
+   "Pagano",
+   "Greco"
   ]
  },
  {
@@ -20705,6 +20752,7 @@
    "Suderi",
    "Patane",
    "Catalano",
+   "Murabito",
    "Pennisi",
    "Pulvirenti",
    "Sorbello",
@@ -20731,6 +20779,7 @@
    "Catalano",
    "Coco",
    "Cavallaro",
+   "Murabito",
    "Sorbello",
    "Sciacca"
   ]
@@ -21030,6 +21079,7 @@
    "Russo",
    "Cavallaro",
    "Grasso",
+   "Greco",
    "Fichera"
   ]
  },
@@ -21275,7 +21325,8 @@
    "Patane",
    "Catalano",
    "Trovato",
-   "Morabito"
+   "Morabito",
+   "Greco"
   ]
  },
  {
@@ -21365,6 +21416,7 @@
    "Patane",
    "Catalano",
    "Pennisi",
+   "Greco",
    "Grasso",
    "Barbagallo",
    "Russo",
@@ -21390,6 +21442,8 @@
    "Catalano",
    "Cavallaro",
    "Barbagallo",
+   "Greco",
+   "Murabito",
    "Fichera",
    "Costa",
    "Pulvirenti",
@@ -22336,7 +22390,8 @@
    "Patane",
    "Suderi",
    "Grasso",
-   "Mazza"
+   "Mazza",
+   "Greco"
   ]
  },
  {
@@ -26558,7 +26613,9 @@
   ],
   "tags": [
    "Nicotra",
+   "Murabito",
    "Morabito",
+   "Greco",
    "Sorbello"
   ],
   "nobody": true,
@@ -27499,6 +27556,7 @@
    "Barbagallo",
    "Grasso",
    "Domenica",
+   "Greco",
    "Sorbello"
   ]
  },
@@ -27775,6 +27833,7 @@
    "https://antenati.cultura.gov.it/ark:/12657/an_ua81738/"
   ],
   "tags": [
+   "Murabito",
    "Nicotra",
    "Morabito"
   ]
@@ -27792,6 +27851,7 @@
    "https://antenati.cultura.gov.it/ark:/12657/an_ua80880/"
   ],
   "tags": [
+   "Murabito",
    "Nicotra",
    "Morabito",
    "Fichera"
@@ -27812,6 +27872,7 @@
    "https://antenati.cultura.gov.it/ark:/12657/an_ua80883/"
   ],
   "tags": [
+   "Murabito",
    "Nicotra",
    "Morabito"
   ]
@@ -28251,6 +28312,7 @@
    "https://antenati.cultura.gov.it/ark:/12657/an_ua83933/"
   ],
   "tags": [
+   "Murabito",
    "Morabito",
    "Nicotra"
   ],
@@ -28441,6 +28503,7 @@
    "Fichera",
    "Mazza",
    "Nicotra",
+   "Greco",
    "Raiti",
    "Sciacca"
   ],
@@ -28513,6 +28576,7 @@
    "Catalano",
    "Fichera",
    "Mazza",
+   "Greco",
    "Russo",
    "Costa",
    "Domenica",
@@ -28742,6 +28806,7 @@
    "Patane",
    "Suderi",
    "Catalano",
+   "Greco",
    "Domenica",
    "Cavallaro",
    "Pulvirenti",
@@ -28873,6 +28938,7 @@
   ],
   "tags": [
    "Mazza",
+   "Greco",
    "Domenica",
    "Cavallaro",
    "Catalano",
@@ -29399,6 +29465,120 @@
    "/people/maria-costanzo/",
    "/people/rosa-curcuruto/",
    "/people/concetta-strano/"
+  ]
+ },
+ {
+  "key": "src/antenati-piedimonte-and-linguaglossa-nati-1871-1892-marginal-marriage-notes-on-thirty-seven-mazza-births-51a138",
+  "status": "done",
+  "when": "2026-11-22",
+  "source": "Antenati — Piedimonte Etneo Nati 1875-1892 (an_ua83488, an_ua83489, an_ua83490, an_ua83492, an_ua83493, an_ua83494, an_ua83496, an_ua83497, an_ua83499, an_ua83501, an_ua83502, an_ua83503, an_ua83506), Linguaglossa Nati 1871, 1883 and 1891 (an_ua81366, an_ua81378, an_ua81386) and Giarre Nati 1869-1893, Archivio di Stato di Catania, the margin beside 37 Mazza birth acts",
+  "scope": "Reading the MARGIN beside 37 Italian-era birth acts of children named Mazza or Marza (already known to the archive), where a clerk noted the child's later marriage («Unito in matrimonio con ... con atto del ...») or a stamped annotation. Read: all 37 margins by a delegated reader, and the margin and the act re-read at the image by the session for eleven of them (Antonino 1877, Rosaria 1879, Senzio 1879, Rosaria 1883, Rosario 1883, Antonino 1885, Senzio 1887, Sebastiano 1892, and Maria Nicotra 1875). NOT re-read by the session: the margins of Giuseppa Mazza 1871 and Giuseppe Strano 1890 (Giarre) and the 24 margins found empty. The marriage acts themselves (1902 to 1919) are past the end (1893) of the Piedimonte, Linguaglossa and Giarre series on Antenati, so none was opened.",
+  "result": "EIGHT MARRIAGES READ IN MARGINS, AT THE IMAGE BY THE SESSION: Antonino Mazza (b. 1877) married Rosaria Russo, daughter of Salvatore, on 12 January 1905; Rosaria Mazza (b. 1879) married Giuseppe Monforte, son of the late Salvatore, on 26 April 1902; Senzio Mazza (b. 1879, whose row here is misnamed Venerio: the act reads Senzio) married Rosaria Greco, daughter of Carmelo, on 16 November 1908; Rosaria Mazza (b. 1883) married Sebastiano Murabito on 12 November 1912; Rosario Mazza (b. 1883, born at Linguaglossa) married a Grazia, daughter of the late Giuseppe, whose surname reads Barberino or Barbarino, on 11 September 1911; Antonino Mazza (b. 1885) married Venera Lizzio on 17 July 1913, registered at Macchia; Senzio Mazza (b. 1887) married Francesca Bonaccorso, daughter of the late Luciano, on 1 June 1911; Sebastiano Mazza (b. 1892) married Grazia Murabito on 18 December 1919. One more is read by the delegated reader only: Giuseppa Mazza (b. 1871) married a Filippo (surname doubtful) in November 1907. A Maria Nicotra of 1875 (daughter of Alfio Nicotra and Angela Trovatore) married a Giuseppe, son of the late Vincenzo, in 1911; she is not the Maria Nicotra of the family and is not added. Twenty-four margins were empty. Seven new spouses added; their parents and the marriage acts are not yet read.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83488/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83488/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83489/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83490/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83492/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83493/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83494/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83496/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83497/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83499/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83501/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83502/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83503/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83506/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81366/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81378/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81386/"
+  ],
+  "tags": [
+   "Mazza",
+   "Nicotra",
+   "Russo",
+   "Greco",
+   "Murabito"
+  ],
+  "for": [
+   [
+    "/people/antonino-mazza/",
+    "Antonino Mazza"
+   ],
+   [
+    "/people/rosaria-mazza/",
+    "Rosaria Mazza"
+   ],
+   [
+    "/people/venerio-mazza/",
+    "Venerio Mazza"
+   ],
+   [
+    "/people/senzio-mazza/",
+    "Senzio Mazza"
+   ],
+   [
+    "/people/rosaria-mazza-1883/",
+    "Rosaria Mazza"
+   ],
+   [
+    "/people/antonino-mazza-1885/",
+    "Antonino Mazza"
+   ],
+   [
+    "/people/sebastiano-mazza-1892/",
+    "Sebastiano Mazza"
+   ],
+   [
+    "/people/rosario-mazza-1883/",
+    "Rosario Mazza"
+   ],
+   [
+    "/people/rosaria-russo-1/",
+    "Rosaria Russo"
+   ],
+   [
+    "/people/giuseppe-monforte/",
+    "Giuseppe Monforte"
+   ],
+   [
+    "/people/rosaria-greco-1/",
+    "Rosaria Greco"
+   ],
+   [
+    "/people/francesca-bonaccorso/",
+    "Francesca Bonaccorso"
+   ],
+   [
+    "/people/sebastiano-murabito/",
+    "Sebastiano Murabito"
+   ],
+   [
+    "/people/venera-lizzio/",
+    "Venera Lizzio"
+   ],
+   [
+    "/people/grazia-murabito/",
+    "Grazia Murabito"
+   ]
+  ],
+  "ev": [
+   "/people/antonino-mazza/",
+   "/people/rosaria-mazza/",
+   "/people/venerio-mazza/",
+   "/people/senzio-mazza/",
+   "/people/rosaria-mazza-1883/",
+   "/people/antonino-mazza-1885/",
+   "/people/sebastiano-mazza-1892/",
+   "/people/rosario-mazza-1883/",
+   "/people/rosaria-russo-1/",
+   "/people/giuseppe-monforte/",
+   "/people/rosaria-greco-1/",
+   "/people/francesca-bonaccorso/",
+   "/people/sebastiano-murabito/",
+   "/people/venera-lizzio/",
+   "/people/grazia-murabito/"
   ]
  }
 ]
