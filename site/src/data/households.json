@@ -469,6 +469,13 @@
     "slug": "giuseppa-suderi",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Ragata-suderi@",
+    "name": "Agata Suderi",
+    "slug": "agata-suderi",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -657,6 +664,13 @@
     "id": "@Rgiuseppa-suderi@",
     "name": "Giuseppa Suderi",
     "slug": "giuseppa-suderi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragata-suderi@",
+    "name": "Agata Suderi",
+    "slug": "agata-suderi",
     "living": false,
     "via": "read"
    }

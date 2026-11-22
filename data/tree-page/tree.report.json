@@ -1,6 +1,6 @@
 {
- "individuals": 917,
- "kept": 678,
+ "individuals": 918,
+ "kept": 679,
  "living": 209,
  "living_policy": "omit",
  "undated_dropped": 41,
@@ -46,9 +46,9 @@
   }
  },
  "people_json": {
-  "in_file": 1049,
+  "in_file": 1050,
   "living_not_read": 132,
-  "not_living_read": 917
+  "not_living_read": 918
  },
  "canvas_extras": {
   "undrawn_detailed": 26,
@@ -59,7 +59,7 @@
   "placeholders": 33
  },
  "catalogue": {
-  "people_coloured_by_a_catalogued_family": 272,
+  "people_coloured_by_a_catalogued_family": 273,
   "catalogue_families_present": [
    "cassaniti",
    "casuscelli",

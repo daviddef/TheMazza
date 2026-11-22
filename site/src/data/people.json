@@ -38706,6 +38706,74 @@
   "ancGen": null
  },
  {
+  "id": "@Ragata-suderi@",
+  "slug": "agata-suderi",
+  "name": "Agata Suderi",
+  "key": "Agata Suderi (d. 1850, of Antonino and Venera Vasta)",
+  "given": "Agata",
+  "surname": "Suderi",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1798,
+  "died": 1850,
+  "bornText": "c. 1798",
+  "diedText": "20 May 1850, at 8 in the morning, in her own house in the contrada «Gisternoli?» (reading uncertain), Mascali (Morti 1850 atto 49, an_ua70226, image 27)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1798",
+    "year": 1798,
+    "place": "Mascali",
+    "text": "c. 1798"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "20 May 1850, at 8 in the morning, in her own house in the contrada «Gisternoli?» (reading uncertain), Mascali (Morti 1850 atto 49, an_ua70226, image 27)",
+    "year": 1850,
+    "place": "",
+    "text": "20 May 1850, at 8 in the morning, in her own house in the contrada «Gisternoli?» (reading uncertain), Mascali (Morti 1850 atto 49, an_ua70226, image 27)"
+   }
+  ],
+  "birthPlace": "Mascali",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "braciaiera (day labourer)",
+  "sources": [],
+  "registerSources": [
+   "Mascali, Morti 1850, atto 49 (an_ua70226, image 27, right page",
+   "found in the annual Tavola by a delegated reader and the act read at the image by the session)"
+  ],
+  "registerNote": "A PROBABLE SISTER OF MARIA AND GIUSEPPA SUDERI, FOUND 22 NOV 2026. «Agata Suderi di anni cinquantadue, moglie di Giuseppe Grasso», braciaiera, born and domiciled at Mascali, «figlia di fu Antonino ... e di fu Venera Vasta». Declared by Giuseppe Buda (60, bracciale, strada delle Carceri) and Antonino Lo Presti (40, becchino, strada S. Antonino) before Mariano Notar Patane, second elected acting as sindaco; the declarants could not sign. THE LINK TO MARIA'S PARENTS RESTS ON TWO GIVEN NAMES AND THE RARE SURNAME VASTA ONLY: the act does not say this Antonino is the Giarre contadino of the 1821 promise, and the register of Mascali does not name her mother's family beyond Vasta. It does not give Antonino's or Venera's death. Her husband Giuseppe Grasso may be the Giuseppe Grasso (24, contadino) who witnessed the 1821 marriage, not proven. The only other Agata Suderi in this archive is the Piedimonte woman of 1878, daughter of Paolo, a different person.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rantonino-suderi@",
+    "name": "Antonino Suderi",
+    "slug": "antonino-suderi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-vaglia@",
+    "name": "Venera Vaglia?",
+    "slug": "venera-vaglia",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Ragata-toscano@",
   "slug": "agata-toscano",
   "name": "Agata Toscano",
@@ -43406,6 +43474,13 @@
     "id": "@Rgiuseppa-suderi@",
     "name": "Giuseppa Suderi",
     "slug": "giuseppa-suderi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragata-suderi@",
+    "name": "Agata Suderi",
+    "slug": "agata-suderi",
     "living": false,
     "via": "read"
    }
@@ -68990,6 +69065,13 @@
     "id": "@Rgiuseppa-suderi@",
     "name": "Giuseppa Suderi",
     "slug": "giuseppa-suderi",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Ragata-suderi@",
+    "name": "Agata Suderi",
+    "slug": "agata-suderi",
     "living": false,
     "via": "read"
    }

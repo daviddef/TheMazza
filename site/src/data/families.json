@@ -611,6 +611,18 @@
   "places": []
  },
  {
+  "surname": "Suderi",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": 1761,
+  "last": 1872,
+  "places": [
+   "Giarre",
+   "Mascali"
+  ]
+ },
+ {
   "surname": "Pulvirenti",
   "n": 3,
   "dead": 3,
@@ -837,17 +849,6 @@
   "last": 1825,
   "places": [
    "Briatico"
-  ]
- },
- {
-  "surname": "Suderi",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": 1761,
-  "last": 1872,
-  "places": [
-   "Giarre"
   ]
  },
  {
