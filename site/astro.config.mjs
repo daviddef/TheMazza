@@ -32,5 +32,10 @@ export default defineConfig({
      the census content is still in /marriages/ and is not the index. */
   redirects: {
     /* 9 October 2026: the estate's address for this page is /changes/. */
-    '/what-changed': '/changes/' },
+    '/what-changed': '/changes/',
+    /* 23 November 2026: Roots & Routes (the archive's own page at /roots/) was removed; the Tree Canvas on recordatlas.org replaced it
+       estate-wide. The old address answers with a redirect to the archive's own trees page, and the redirect is not in the sitemap.
+       /roots/view.html is NOT retired: it is the viewer the person pages frame (the Kit's PersonRootsViews), a different file in the
+       same folder. */
+    '/roots': '/trees/' },
 });

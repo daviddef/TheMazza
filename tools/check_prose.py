@@ -77,7 +77,6 @@ GENERATED = {
     "data/scilla-targets.json",      # tools/scilla_targets.py
     "data/tree-page/atlas-data.json",    # tools/build-tree-page.py (the vendored build_page.py): the Atlas's places, flags and regimes
     "data/tree-page/place_map.json",     # tools/build-tree-page.py: place string -> Atlas place, seeded from the archive's own tables
-    "data/tree-page/roots.embed.html",   # tools/build-tree-page.py: the page's embed form
     "data/tree-page/roots.html",         # tools/build-tree-page.py: the page's stand-alone form
     "data/tree-page/tree.json",          # tools/build-tree-page.py: the tree the page draws (non-living only, by id)
     "data/tree-page/tree.report.json",   # tools/build-tree-page.py: what was and was not drawn, and why
