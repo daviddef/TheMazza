@@ -20,7 +20,7 @@
  *         y  year                           a  act number (for the title only)
  *         ark | fs | own                    as above
  *         href  an address on Antenati (the portal's search for a place), FamilySearch, the National Archives of Australia
- *               (RecordSearch), Queensland's BDM index, Trove, or this archive's repository,
+ *               (RecordSearch), Queensland's BDM index or Trove (not GitHub: no public page links to it, 23 Nov 2026),
  *               for a citation of a series rather than one record ("Antenati has 57 volumes"); nothing else is accepted
  *         title  the link's tooltip, when the record the link goes to is not the record the text names (a death of
  *               1975 is on no public site; its entry is in the margin of the 1892 birth act, and the tooltip says so)
@@ -39,9 +39,9 @@ if (!what && ark && records.ark[ark]) {
 let href = null, via = null, title = null;
 const fail = (m) => { if (soft) return null; throw new Error(m); };
 if (out) {
-  const ok = /^https:\/\/(antenati\.cultura\.gov\.it\/|www\.familysearch\.org\/|recordsearch\.naa\.gov\.au\/|www\.familyhistory\.bdm\.qld\.gov\.au\/|trove\.nla\.gov\.au\/|github\.com\/daviddef\/)/.test(out);
-  if (!ok) fail(`<Rec href="${out}">: only Antenati, FamilySearch, the NAA, Queensland BDM, Trove and this archive's repository`);
-  else { href = out; via = out.includes("familysearch") ? "familysearch" : out.includes("github") ? "repository" : out.includes("naa.gov.au") ? "naa" : out.includes("bdm.qld") ? "bdm" : out.includes("trove") ? "trove" : "antenati"; title = what; }
+  const ok = /^https:\/\/(antenati\.cultura\.gov\.it\/|www\.familysearch\.org\/|recordsearch\.naa\.gov\.au\/|www\.familyhistory\.bdm\.qld\.gov\.au\/|trove\.nla\.gov\.au\/)/.test(out);
+  if (!ok) fail(`<Rec href="${out}">: only Antenati, FamilySearch, the NAA, Queensland BDM and Trove`);
+  else { href = out; via = out.includes("familysearch") ? "familysearch" : out.includes("naa.gov.au") ? "naa" : out.includes("bdm.qld") ? "bdm" : out.includes("trove") ? "trove" : "antenati"; title = what; }
 } else if (own) {
   href = u(own); via = "own"; title = `This archive's own record of ${what}`;
 } else if (fs) {
