@@ -52301,6 +52301,13 @@
     "slug": "rosa-1819",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmaria-catena-mazza@",
+    "name": "Maria Catena Mazza",
+    "slug": "maria-catena-mazza",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -54743,6 +54750,13 @@
     "slug": "rosa-1819",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmaria-catena-mazza@",
+    "name": "Maria Catena Mazza",
+    "slug": "maria-catena-mazza",
+    "living": false,
+    "via": "read"
    }
   ],
   "spouses": [],
@@ -56285,6 +56299,73 @@
   "corrections": [],
   "onSpine": true,
   "ancGen": 6
+ },
+ {
+  "id": "@Rmaria-catena-mazza@",
+  "slug": "maria-catena-mazza",
+  "name": "Maria Catena Mazza",
+  "key": "Maria Catena Mazza (d. 1885, of Orazio and Giuseppa Pulvirenti)",
+  "given": "Maria",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1781,
+  "died": 1885,
+  "bornText": "c. 1781",
+  "diedText": "23 July 1885 (at 8.30 in the evening, via Formaggio, Piedimonte; Morti 1885 atto 69, an_ua83458 image 36, read at the image on 22 Nov 2026)",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "c. 1781",
+    "year": 1781,
+    "place": "Piedimonte Etneo",
+    "text": "c. 1781"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "23 July 1885 (at 8.30 in the evening, via Formaggio, Piedimonte; Morti 1885 atto 69, an_ua83458 image 36, read at the image on 22 Nov 2026)",
+    "year": 1885,
+    "place": "",
+    "text": "23 July 1885 (at 8.30 in the evening, via Formaggio, Piedimonte; Morti 1885 atto 69, an_ua83458 image 36, read at the image on 22 Nov 2026)"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "povera (a pauper)",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Morti 1885 atto 69"
+  ],
+  "registerNote": "SAID TO BE A SISTER OF INNOCENZIO AND MARIANO MAZZA, ON HER OWN DEATH ACT: «Mazza Maria Catena, di anni centoquattro, povera, residente in questo Comune, nata in Zafferana Etnea, da fu Orazio e da fu Pulvirenti Giuseppa, nubile» (unmarried), died at half past eight in the evening of the day before the act of 24 July 1885. The declarants were Concetto Pagano (36) and Alfio Stiro (38), both of Piedimonte (their trades are not read), and the witnesses Gaetano Costantino (45) and Francesco Pagano (50), braccianti. Found by a delegated reader in the death index and read at the image. THE BIRTHPLACE IS NEW: her father Orazio is born at Mascali in his 1828 death extract, and a birth at Zafferana Etnea would put the family there around 1781. Her birth has not been sought and nothing in the registers read says she is one of the children named in her brothers' acts; she is a daughter of the same named parents and is filed as such.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rignazio-mazza@",
+    "name": "Ignazio Mazza",
+    "slug": "ignazio-mazza-1887",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppa-pulvirenti@",
+    "name": "Giuseppa Pulvirenti",
+    "slug": "giuseppa-pulvirenti",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
  },
  {
   "id": "@Rmaria-costa@",
@@ -60972,9 +61053,9 @@
   "living": false,
   "fromRegister": true,
   "born": 1834,
-  "died": null,
+  "died": 1834,
   "bornText": "28 February 1834",
-  "diedText": "",
+  "diedText": "25 November 1834 (at 8 in the evening, aged nine months; Scilla Morti 1834 atto 169, an_ua2002707 image 92, read at the image)",
   "events": [
    {
     "what": "born",
@@ -60983,6 +61064,14 @@
     "year": 1834,
     "place": "Scilla",
     "text": "28 February 1834"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "25 November 1834 (at 8 in the evening, aged nine months; Scilla Morti 1834 atto 169, an_ua2002707 image 92, read at the image)",
+    "year": 1834,
+    "place": "",
+    "text": "25 November 1834 (at 8 in the evening, aged nine months; Scilla Morti 1834 atto 169, an_ua2002707 image 92, read at the image)"
    }
   ],
   "birthPlace": "Scilla",
@@ -60991,9 +61080,10 @@
   "trade": "",
   "sources": [],
   "registerSources": [
-   "Scilla, Nati 1834, atto 39 (an_ua2002850, image 22)"
+   "Scilla, Nati 1834, atto 39 (an_ua2002850, image 22)",
+   "Scilla, Morti 1834, atto 169 (an_ua2002707, image 92)"
   ],
-  "registerNote": "Sister of Nunziata Sofi and Domenico Sofi. Witnesses: D. Rocco Federici and D. Rocco Idà (proprietari). Not in the family tree.",
+  "registerNote": "Sister of Nunziata Sofi and Domenico Sofi. Witnesses: D. Rocco Federici and D. Rocco Idà (proprietari). Not in the family tree. DIED AT NINE MONTHS, found 22 Nov 2026 by a reader and read at the image by the session: «Rachele Sofi, nata in questo Comune, di mesi nove, figlia di Pasquale Sofi, marinaro, e di Maria de Amico», died in her own house at 20 hours on 25 November 1834; the declarants were Rocco Sofi (38, marinaro) and Domenico Zerina (57, marinaro). The Tavola's order number is not the act number.",
   "registerGen": "6",
   "photos": [],
   "parents": [

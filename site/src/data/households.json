@@ -265,6 +265,13 @@
     "slug": "rosa-1819",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rmaria-catena-mazza@",
+    "name": "Maria Catena Mazza",
+    "slug": "maria-catena-mazza",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Piedimonte Etneo",
@@ -717,6 +724,13 @@
     "id": "@Rrosa@",
     "name": "Rosa",
     "slug": "rosa-1819",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-catena-mazza@",
+    "name": "Maria Catena Mazza",
+    "slug": "maria-catena-mazza",
     "living": false,
     "via": "read"
    }

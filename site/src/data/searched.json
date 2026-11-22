@@ -28618,5 +28618,67 @@
    "Prostamo"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-scilla-morti-1828-1844-tavolas-donato-paladino-sofi-de-amico-rachele-sofi-death-827422",
+  "status": "done",
+  "when": "2026-11-22",
+  "source": "Antenati — Scilla (Reggio di Calabria), Archivio di Stato di Reggio Calabria, Stato civile della restaurazione, Morti 1828-1836 and 1838-1844 (16 volumes, an_ua2002690 to an_ua2002732): the annual Tavolas, and the acts chosen from them",
+  "scope": "Looking for the deaths of Candeloro Donato, Santa (Marta) Paladino, Pasquale Sofi, Maria de Amico, Domenico Donato, Nunziata Sofi and their children. Sixteen of 51 volumes were read: the A, D, P and S sections of each Tavola and the acts that looked plausible, so this is a Tavola read with selected acts and not a walk of the registers. NOT read: 1817-1827, 1837 and 1845-1865 (35 volumes; no container ids were available), the faded S rows of 1842 (image 84) and the faded D and S rows of 1844. Terms typed: Donato, Paladino, Sofi, de Amico. Near-names not counted: Marino, Famà, Foti, Bova, Martello, Pizzaro.",
+  "result": "ONE DEATH FOUND AND READ AT THE IMAGE BY THE SESSION: Rachele Sofi, nine months old, daughter of Pasquale Sofi, marinaro, and Maria de Amico, died at 8 in the evening of 25 November 1834 (Morti 1834 atto 169, an_ua2002707, image 92); the declarants were Rocco Sofi (38) and Domenico Zerina (57). She is the Rachele born on 28 February 1834. None of the other people sought is in the Tavolas read. The reader also found three deaths of Donato children and men of a different line, that of Carmine Donato (son of a Candeloro Donato and Giovanna Vita) and Annunziata Sofi: a child of 1832, Rosario in 1841, and Rosario Donato, 27, in 1840, whose act says his father Candeloro Donato was already dead by 25 August 1840. A Candeloro Donato of 53 was a living declarant in 1839, so the Candeloro of this archive (wife Santa Paladino, alive in 1844) is a different man from the one married to Giovanna Vita; the two lines were already filed apart.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002690/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002690/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002732/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002707/"
+  ],
+  "tags": [
+   "Donato",
+   "Sofi",
+   "Bova"
+  ],
+  "for": [
+   [
+    "/people/rachele-sofi/",
+    "Rachele Sofi"
+   ]
+  ],
+  "ev": [
+   "/people/rachele-sofi/"
+  ]
+ },
+ {
+  "key": "src/antenati-piedimonte-morti-1873-1888-and-riposto-morti-1881-1882-alfio-patane-death-maria-catena-mazza-4f5d9f",
+  "status": "done",
+  "when": "2026-11-22",
+  "source": "Antenati — Piedimonte Etneo (Catania), Archivio di Stato di Catania, Stato civile italiano, Morti 1873, 1875, 1877, 1881, 1882, 1885, 1887 and 1888 (an_ua83446 to an_ua83461), and Riposto Morti 1881 and 1882 (an_ua83921, an_ua83922): the annual indexes and the acts chosen from them",
+  "scope": "Looking for the death of Alfio Patane (the husband of Maria Suderi, who must have died between 29 June 1872 and 4 April 1885) and for any Mazza death. The indexes of 1873, 1875, 1877, 1882, 1885, 1887 and 1888 were read, and about 35 acts opened from them; 1881 has no usable index (the act heads of images 3-82 were walked, but the reader's notes of that walk were lost, so it is not recorded as read); the Riposto index of 1881 was read for the letter P only. Not read: 1877, 1882 and 1888 index lines left unopened (Raciti, Scuderi), the C and S sections of 1887 beyond the left pages, 1879-1880, 1883-1884, 1886 and 1889-1893. Terms typed: Patane, Mazza, Marza, Suderi, Scuderi, Catalano, Raiti. Near-names not counted: Patania, Raciti, Mazzara.",
+  "result": "NO DEATH OF ALFIO PATANE in any act opened, and no nil for any volume. The Giovanni Patane who died on 4 April 1885 (Morti 1885 atto 35, aged about 60, a widower of Venera Mazza, born at San Giovanni) is again named a son of Alfio and Maria Suderi, both dead, so Alfio died before that day, as already held. The Riposto Alfio Patane of 1881-1882 (a barrel-maker and later a sea captain, with a wife Ferdinanda Platania and infants of 1875-1882) is a younger man and not the Piedimonte widower. ONE NEW MAZZA DEATH, READ AT THE IMAGE BY THE SESSION: Morti 1885 atto 69, Maria Catena Mazza, said to be 104, unmarried and a pauper, born at Zafferana Etnea, daughter of the late Orazio and the late Giuseppa Pulvirenti, who died on 23 July 1885 in via Formaggio; those are the parents of Innocenzio and Mariano Mazza, so she is a probable sister, an inference from the named parents only. A Patane born of Santi and Venera Grasso who died in 1885 (aged 73) has the right mother's name and the wrong father and is not shown to be kin.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83446/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83446/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83461/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83921/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83922/"
+  ],
+  "tags": [
+   "Patane",
+   "Mazza",
+   "Catalano",
+   "Raiti",
+   "Pulvirenti",
+   "Grasso"
+  ],
+  "for": [
+   [
+    "/people/maria-catena-mazza/",
+    "Maria Catena Mazza"
+   ]
+  ],
+  "ev": [
+   "/people/maria-catena-mazza/"
+  ]
  }
 ]

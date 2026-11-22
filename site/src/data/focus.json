@@ -1,10 +1,10 @@
 {
  "Mazza": {
   "surname": "Mazza",
-  "total": 171,
+  "total": 172,
   "groups": [
    {
-    "n": 156,
+    "n": 157,
     "earliest": 1748,
     "latest": 1952,
     "towns": [
@@ -37,6 +37,23 @@
       "registerSources": [
        "Piedimonte Etneo, Matrimoni 1836 atto 17 (Ignazio)",
        "Morti 1887 atto 10 (Orazio)"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
+      "id": "@Rmaria-catena-mazza@",
+      "slug": "maria-catena-mazza",
+      "name": "Maria Catena Mazza",
+      "surname": "Mazza",
+      "born": 1781,
+      "died": 1885,
+      "bornText": "c. 1781",
+      "diedText": "23 July 1885 (at 8.30 in the evening, via Formaggio, Piedimonte; Morti 1885 atto 69, an_ua83458 image 36, read at the image on 22 Nov 2026)",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo, Morti 1885 atto 69"
       ],
       "living": false,
       "birthPlace": "Piedimonte Etneo",
