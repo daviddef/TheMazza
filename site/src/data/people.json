@@ -53278,6 +53278,50 @@
   "ancGen": null
  },
  {
+  "id": "@Rgiuseppe-cavallaro@",
+  "slug": "giuseppe-cavallaro",
+  "name": "Giuseppe Cavallaro",
+  "key": "Giuseppe Cavallaro (husband of Maria Patane, married 1915)",
+  "given": "Giuseppe",
+  "surname": "Cavallaro",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": null,
+  "died": null,
+  "bornText": "",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Piedimonte Etneo",
+    "text": ""
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo, Nati 1868 atto 8, stamped annotation (an_ua83481, image 5, read at the image)"
+  ],
+  "registerNote": "MARRIED MARIA PATANE (b. 1868, of Giovanni Patane and Venera Mazza) in September 1915 by the annotation in the margin of her birth act: «Cavallaro Giuseppe», no father named, the day of the act read 1, 2 or 7. His own birth and the marriage act are not read, and nothing says whether he had been married before.",
+  "registerGen": "4",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rgiuseppe-comerci@",
   "slug": "giuseppe-comerci",
   "name": "Giuseppe Comerci",
@@ -58390,9 +58434,10 @@
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1889 atto 7 (an_ua83410, image 8), found in the annual index by a delegated reader",
    "the party lines re-zoomed by the session",
-   "Piedimonte Etneo, Nati 1868, atto 8 (an_ua83481, image 5), found in the annual index by a delegated reader"
+   "Piedimonte Etneo, Nati 1868, atto 8 (an_ua83481, image 5), found in the annual index by a delegated reader",
+   "the stamped ANNOTAZIONE beside the same act (an_ua83481, image 5, read at the image 22 November 2026)"
   ],
-  "registerNote": "Married CARMELO MACAUTO (read; Macaluso? not excluded), 31, bracciante, born at Linguaglossa, son of fu Antonino and Antonia Bonaventura, on 11 February 1889 at half past four. She is «figlia del fu GIOVANNI e del fu MAZZA VENERA»: BOTH PARENTS DEAD, which is right: her mother Venera Mazza had died on 19 August 1881 (Morti 1881 atto 85) and her father on 4 April 1885. A WRONG INFERENCE OF THIS ARCHIVE'S OWN, MADE AND WITHDRAWN THE SAME DAY: reading Santa's marriage act of July 1886 as saying the mother was then living, it put Venera's death in 1886-1889; the act simply omits «fu», and her death act was found in 1881. The witnesses were Tommaso Raganese, 32, calzolaio, and Giuseppe Grasso. The allegati of the 1889 register are not yet opened. NOT the Maria Patane of Giuseppe Patane and Maria La Spina who married in 1884. HER BIRTH ACT, found 15 Nov 2026: Piedimonte Nati 1868 atto 8, born 12 January 1868 in contrada Archi, daughter of Giovanni Patane di Alfio, 43, bracciale, and Venera Mazza (the surname read Marza or Mazza) di Mariano. The 21 of her 1889 marriage promise fits.",
+  "registerNote": "Married CARMELO MACAUTO (read; Macaluso? not excluded), 31, bracciante, born at Linguaglossa, son of fu Antonino and Antonia Bonaventura, on 11 February 1889 at half past four. She is «figlia del fu GIOVANNI e del fu MAZZA VENERA»: BOTH PARENTS DEAD, which is right: her mother Venera Mazza had died on 19 August 1881 (Morti 1881 atto 85) and her father on 4 April 1885. A WRONG INFERENCE OF THIS ARCHIVE'S OWN, MADE AND WITHDRAWN THE SAME DAY: reading Santa's marriage act of July 1886 as saying the mother was then living, it put Venera's death in 1886-1889; the act simply omits «fu», and her death act was found in 1881. The witnesses were Tommaso Raganese, 32, calzolaio, and Giuseppe Grasso. The allegati of the 1889 register are not yet opened. NOT the Maria Patane of Giuseppe Patane and Maria La Spina who married in 1884. HER BIRTH ACT, found 15 Nov 2026: Piedimonte Nati 1868 atto 8, born 12 January 1868 in contrada Archi, daughter of Giovanni Patane di Alfio, 43, bracciale, and Venera Mazza (the surname read Marza or Mazza) di Mariano. The 21 of her 1889 marriage promise fits. A LATER MARRIAGE, from the stamped ANNOTAZIONE in the margin of her birth act: «ha contratto matrimonio con Cavallaro Giuseppe giusta atto del ?.9.1915 (the day reads 1, 2 or 7), reg.to al N. 33 (?), Catania 28-9-19?? (the last digits smudged)». Her husband of 1889 is not known to have died; she was 47 in 1915, so this is probably a second marriage, but the annotation says only that she married. His birth and the marriage act are not read. The stamp is a printed form with filled-in words, so it is a later clerk's entry, not part of the 1868 act.",
   "registerGen": "4",
   "photos": [],
   "parents": [

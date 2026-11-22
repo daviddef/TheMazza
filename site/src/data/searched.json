@@ -29611,5 +29611,36 @@
   "ev": [
    "/people/carmelo-patane/"
   ]
+ },
+ {
+  "key": "src/antenati-piedimonte-nati-1868-annual-index-and-act-8-margin-maria-patane-d02c2d",
+  "status": "done",
+  "when": "2026-11-22",
+  "source": "Antenati — Piedimonte Etneo Nati 1868 (an_ua83481), Archivio di Stato di Catania, the annual index (P entries) and the margin of act 8",
+  "scope": "Reading the P entries of the 1868 annual index of Piedimonte Etneo births (images 71-72) to find the birth acts of the children of Giovanni Patane and Giuseppe Patane born in 1868, then the act and its margin for the one the index gave: act 8, Patane Maria, at image 5. The Patane entries read in the index are Maria 8, Salvatore 23, Rosaria 35 and Francesco Paolo 62; no Santo Patane is among them, so his 1868 birth is not found in this volume and no nil is written for it (the other Patane entries were not opened, and he may have been registered under another spelling or elsewhere).",
+  "result": "ONE LATER MARRIAGE FOUND: the stamped ANNOTAZIONE beside act 8 (Maria Patane, born 12 January 1868, daughter of Giovanni Patane di Alfio and Venera Marza di Mariano) says she married Giuseppe Cavallaro by an act of September 1915 (the day reads 1, 2 or 7), registered N. 33 with a Catania entry of 28-9-1915 or 1916 (smudged). She already has a marriage of 11 February 1889 in the archive, so this is probably a second marriage, which the annotation does not say. Her husband is added from the margin alone, with no father and no birth.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83481/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83481/"
+  ],
+  "tags": [
+   "Patane",
+   "Cavallaro"
+  ],
+  "for": [
+   [
+    "/people/maria-patane-1867/",
+    "Maria Patane"
+   ],
+   [
+    "/people/giuseppe-cavallaro/",
+    "Giuseppe Cavallaro"
+   ]
+  ],
+  "ev": [
+   "/people/maria-patane-1867/",
+   "/people/giuseppe-cavallaro/"
+  ]
  }
 ]
