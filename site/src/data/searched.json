@@ -29870,5 +29870,56 @@
     "Giovanni Nicotra (John)"
    ]
   ]
+ },
+ {
+  "key": "src/antenati-antenati-san-giovanni-nati-1840-and-1842-the-nicotra-entries-and-maria-nicotra-born-3-april-1842-83a6f7",
+  "status": "done",
+  "when": "2026-11-23",
+  "source": "Antenati - San Giovanni (restaurazione) Nati 1840 (an_ua19994297, Tavola on images 98-100) and Nati 1842 (an_ua19994300, Tavola on image 101, act 24 on image 27)",
+  "scope": "Looking for the brothers and sisters of Giovanni (John) Nicotra, born at San Giovanni on 7 January 1841 of Rosario Nicotra and Venera Murabito, in the births of the year before and the year after; the N section of each Tavola read whole and the one entry that named Rosario and Venera opened at the image. Not read: 1839 and earlier, 1843 and later, the second 1841 volume (an_ua19994299), the San Giovanni Matrimoni (the 1840 volume was opened at its last two images only and nothing is claimed for it), the Morti.",
+  "result": "1840: no Nicotra in the N section (three Nucifora, a near-name not counted). 1842: FOUND Maria Nicotra, born 3 April 1842, act 24, of Rosario Nicotra (aged thirty as read, bracciale, domiciled at S. Giovanni) and Venera Morabito. A father of thirty makes him the Milo bracciale of the Macchia acts of 1850-57 and not the older Rosarios; the household is the same as the four children born at Macchia 1850-57. Two other Nicotra entries of 1842 (Vincenzo of Giuseppe and Cavallaro Sebastiana; Gaetano of another Rosario and Spina Rosa, S. Alfio) are not this family and were not opened.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19994297/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994297/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994300/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994299/"
+  ],
+  "tags": [
+   "Nicotra",
+   "Murabito",
+   "Morabito",
+   "Cavallaro"
+  ],
+  "for": [
+   [
+    "/people/john-nicotra/",
+    "Giovanni Nicotra (John)"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/john-nicotra/",
+    "Giovanni Nicotra (John)"
+   ]
+  ]
+ },
+ {
+  "key": "src/antenati-antenati-san-giovanni-nati-1843-the-nicotra-entries-no-child-of-rosario-and-venera-6b4528",
+  "status": "part",
+  "when": "2026-11-23",
+  "source": "Antenati - San Giovanni (restaurazione) Nati 1843 (an_ua19994301, Tavola on images 105-109, N section on image 107)",
+  "scope": "Reading the N section of the 1843 Tavola for any further child of Rosario Nicotra and Venera Morabito after Giovanni (1841) and Maria (1842). Not read: the acts of the two Nicotra entries, the births of 1844-1849, the second volumes.",
+  "result": "Two Nicotra entries (Giuseppe, 8 May; Salvatore, July), neither naming Rosario or Venera: no child of this couple was registered at San Giovanni in 1843 (terms typed: Nicotra; Nucifora is a near-name, not counted).",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19994301/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994301/"
+  ],
+  "tags": [
+   "Nicotra",
+   "Morabito"
+  ],
+  "nobody": true
  }
 ]
