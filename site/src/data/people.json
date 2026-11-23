@@ -23406,7 +23406,7 @@
     "name": "Venera Nicotra",
     "slug": "venera-nicotra",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I527@",
@@ -23533,7 +23533,7 @@
     "name": "Venera Nicotra",
     "slug": "venera-nicotra",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I527@",
@@ -33164,14 +33164,14 @@
     "name": "John Nicotra",
     "slug": "john-nicotra",
     "living": false,
-    "via": "tree"
+    "via": "read"
    },
    {
     "id": "@I359@",
     "name": "Venera Cassaneti",
     "slug": "venera-cassaneti",
     "living": false,
-    "via": "tree"
+    "via": "read"
    }
   ],
   "children": [],
