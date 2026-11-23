@@ -30266,5 +30266,23 @@
    "Domenica"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-giarre-nati-1885-1886-tails-annual-index-check-83497e",
+  "status": "part",
+  "when": "2026-11-24",
+  "source": "Antenati, Giarre Stato civile italiano Nati 1885 and 1886 (an_ua80931, an_ua80932), last images of each volume",
+  "scope": "Row 208: whether the annual indexes of the Giarre Nati 1885 and 1886 can be read for Mazza and Marza.",
+  "result": "No usable index in either. 1885 (173 images): the last images 162-165 are birth acts and image 166 is a Parte II title page followed by more acts, so there is no index at the tail. 1886 (171 images): an Indice annuale form on images 167-170 holds only a few handwritten lines under a handful of letters (A two, B eight, C two, E and L a few, P four, nothing visible under M) against some two hundred and fifty acts, so it is an unfinished index and proves nothing about a surname. Nothing read for Mazza or Marza; not a nil. Giarre Nati 1887-1893 tails not opened.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua80931/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua80931/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua80932/"
+  ],
+  "tags": [
+   "Mazza"
+  ],
+  "nobody": true
  }
 ]
