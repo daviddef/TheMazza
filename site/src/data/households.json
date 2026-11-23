@@ -94,6 +94,23 @@
   "born": 1726
  },
  {
+  "name": "Domenico Arlotta",
+  "head": "domenico-arlotta",
+  "headId": "@Rdomenico-arlotta@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiovanni-arlotta@",
+    "name": "Giovanni Arlotta",
+    "slug": "giovanni-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1728
+ },
+ {
   "name": "Paolo Sciacca",
   "head": "paolo-sciacca",
   "headId": "@Rpaolo-sciacca@",
@@ -12930,6 +12947,23 @@
   "born": null
  },
  {
+  "name": "Arlotta, Antonio",
+  "head": "arlotta-antonio",
+  "headId": "@Rarlotta-antonio@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenico-arlotta@",
+    "name": "Domenico Arlotta",
+    "slug": "domenico-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
   "name": "Carlo Catalano",
   "head": "carlo-catalano",
   "headId": "@Rcarlo-catalano@",
@@ -13012,6 +13046,23 @@
   "born": null
  },
  {
+  "name": "Domenica Cosentino",
+  "head": "domenica-cosentino",
+  "headId": "@Rdomenica-cosentino@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rdomenico-arlotta@",
+    "name": "Domenico Arlotta",
+    "slug": "domenico-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": null
+ },
+ {
   "name": "Domenica Valeri",
   "head": "domenica-valeri",
   "headId": "@Rdomenica-valeri@",
@@ -13043,23 +13094,6 @@
    }
   ],
   "place": "Giarre",
-  "born": null
- },
- {
-  "name": "Domenico Arlotta",
-  "head": "domenico-arlotta",
-  "headId": "@Rdomenico-arlotta@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rgiovanni-arlotta@",
-    "name": "Giovanni Arlotta",
-    "slug": "giovanni-arlotta",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Scilla",
   "born": null
  },
  {

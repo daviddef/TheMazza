@@ -189,6 +189,7 @@
    ],
    "statusWhy": "the oldest person on the chain is itself on a document and no wall names them: documented. Source: to Filippo Arena, named in his son Orazio's death act (documented-line.json, Scilla Morti 1830 atto 64)",
    "members": [
+    "domenico-arlotta",
     "giovanni-costa",
     "domenica-costa",
     "giovanni-arlotta",
@@ -200,8 +201,9 @@
     "angela-bagnato",
     "anna-arlotta",
     "anna-barbaro",
+    "arlotta-antonio",
     "concetta-russo",
-    "domenico-arlotta",
+    "domenica-cosentino",
     "generosa-costa",
     "giacoma-turco",
     "giuseppe-costa",
@@ -349,7 +351,7 @@
    "id": "register-alone",
    "kind": "not-yet-placed",
    "head": "Proved by a register, in groups joined to nothing",
-   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 111 small groups, 74 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
+   "note": "A register act this archive has read names each of them, and none is joined by a parent, child or marriage link to anyone in the export. They sit in 112 small groups, 75 of them one person. They are real people the archive has not yet placed, and none is drawn on a line until an act joins them to one.",
    "members": [
     "agostino-nicotra",
     "alfia-cannavò",
@@ -452,6 +454,7 @@
     "francesca-bonaccorso",
     "francesca-giomingo",
     "francesca-grimaldi",
+    "francesca-paladino",
     "francesco-arena-1",
     "francesco-barbagallo",
     "francesco-catalano",
@@ -646,7 +649,7 @@
     "vito-nicotra",
     "vittoria-mollo"
    ],
-   "count": 294
+   "count": 295
   },
   {
    "id": "tree-only",

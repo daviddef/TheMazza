@@ -238,7 +238,7 @@
   "n": 8,
   "dead": 8,
   "living": 0,
-  "first": 1800,
+  "first": 1728,
   "last": 1918,
   "places": [
    "Scilla"
@@ -615,6 +615,17 @@
   ]
  },
  {
+  "surname": "Paladino",
+  "n": 3,
+  "dead": 3,
+  "living": 0,
+  "first": 1786,
+  "last": 1786,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
   "surname": "Mazzaro",
   "n": 3,
   "dead": 3,
@@ -807,17 +818,6 @@
   "first": null,
   "last": null,
   "places": []
- },
- {
-  "surname": "Paladino",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": 1786,
-  "last": 1786,
-  "places": [
-   "Scilla"
-  ]
  },
  {
   "surname": "Marza",
@@ -1861,6 +1861,17 @@
   ]
  },
  {
+  "surname": "Antonio",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
   "surname": "Capucetti",
   "n": 1,
   "dead": 1,
@@ -1900,6 +1911,17 @@
   "living": 0,
   "first": 1784,
   "last": 1870,
+  "places": [
+   "Scilla"
+  ]
+ },
+ {
+  "surname": "Cosentino",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
   "places": [
    "Scilla"
   ]

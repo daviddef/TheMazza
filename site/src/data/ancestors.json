@@ -1492,13 +1492,14 @@
      "slug": "domenico-arlotta",
      "name": "Domenico Arlotta",
      "surname": "Arlotta",
-     "born": null,
-     "died": null,
-     "bornText": "before 1779",
-     "diedText": "before 30 August 1828",
+     "born": 1728,
+     "died": 1823,
+     "bornText": "c. 1728",
+     "diedText": "17 March 1823",
      "fromRegister": true,
      "registerSources": [
-      "Scilla, Nati 1854, atto 76"
+      "Scilla, Morti 1823 atto 27 (an_ua2002677, image 15, right page",
+      "Tavola 1823 entry 2 on image 68)"
      ],
      "living": false,
      "birthPlace": "Scilla",
@@ -1532,7 +1533,8 @@
      "diedText": "",
      "fromRegister": true,
      "registerSources": [
-      "Scilla, Matrimoni 1828 atto 28"
+      "Scilla, Matrimoni 1828 atto 28",
+      "Scilla, Morti 1823 atto 27"
      ],
      "living": false,
      "birthPlace": "Scilla",
@@ -1837,8 +1839,25 @@
   {
    "gen": 9,
    "possible": 512,
-   "found": 6,
+   "found": 8,
    "people": [
+    {
+     "id": "@Rarlotta-antonio@",
+     "slug": "arlotta-antonio",
+     "name": "Arlotta, Antonio",
+     "surname": "Antonio",
+     "born": null,
+     "died": null,
+     "bornText": "before 1728",
+     "diedText": "before 17 March 1823",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Morti 1823 atto 27"
+     ],
+     "living": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
     {
      "id": "@Rfilippo-arena-2@",
      "slug": "filippo-arena-1830",
@@ -1851,6 +1870,23 @@
      "fromRegister": true,
      "registerSources": [
       "Scilla, Morti 1830 atto 64"
+     ],
+     "living": false,
+     "birthPlace": "Scilla",
+     "comp": 0
+    },
+    {
+     "id": "@Rdomenica-cosentino@",
+     "slug": "domenica-cosentino",
+     "name": "Domenica Cosentino",
+     "surname": "Cosentino",
+     "born": null,
+     "died": null,
+     "bornText": "before 1728",
+     "diedText": "before 17 March 1823",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Morti 1823 atto 27"
      ],
      "living": false,
      "birthPlace": "Scilla",
@@ -1941,7 +1977,7 @@
    "towns": [
     {
      "name": "Scilla",
-     "n": 4
+     "n": 6
     },
     {
      "name": "Briatico, Vibo Valentia, Calabria",
@@ -1993,6 +2029,6 @@
    ]
   }
  ],
- "total": 109,
+ "total": 111,
  "deepest": 10
 }

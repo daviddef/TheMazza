@@ -170,16 +170,16 @@
  {
   "name": "Domenico Arlotta",
   "gen": "8",
-  "born": "before 1779",
-  "bornNote": "Not sought. Scilla's civil registration begins in 1809, so his birth is pre-civil and would be a parish record.",
-  "died": "before 30 August 1828",
-  "trade": "—",
-  "father": "—",
-  "mother": "—",
+  "born": "c. 1728",
+  "bornNote": "NINETY-FIVE at his death on 17 March 1823 («di anni novantacinque», Scilla Morti 1823 atto 27, read at the image), so born about 1727-28; a stated age, so only about. Pre-civil: his baptism would be a parish record.",
+  "died": "17 March 1823",
+  "trade": "marinaro (sailor)",
+  "father": "Arlotta, Antonio (father of Domenico Arlotta, d. before 1823)",
+  "mother": "Domenica Cosentino (mother of Domenico Arlotta, d. before 1823)",
   "inTree": "—",
   "place": "Scilla",
-  "source": "Scilla, Nati 1854, atto 76",
-  "note": "THE DEEPEST PERSON THIS ARCHIVE HAS REACHED ON THE CALABRIAN SIDE. Named only as 'il fu Domenico' in his son Giovanni Arlotta's own words, in the birth act of his great-grandson Giovanni Arena, 30 April 1854. A great-great-great-great-great-grandfather of the two children. ENTIRELY ABSENT FROM THE FAMILY TREE. TIGHTENED BY TWENTY-SIX YEARS: he is «FU Domenico Arlotta» in his son's marriage act of 30 AUGUST 1828, so dead before then, not merely before April 1854. AND HE HAS A WIFE NOW: ANNA BARBARO, who was alive at that wedding."
+  "source": "Scilla, Morti 1823 atto 27 (an_ua2002677, image 15, right page; Tavola 1823 entry 2 on image 68); Scilla, Matrimoni 1828 atto 28; Nati 1854 atto 76",
+  "note": "FOUND: DOMENICO ARLOTTA DIED AT SCILLA ON 17 MARCH 1823, in his own house at ten in the morning, a marinaro born at Scilla, «vedovo di Francesca Paladino» and husband of Anna Barbaro (Morti 1823 atto 27, declared at two in the afternoon of the same day by Francesco Messina (about forty, marinaro) and Pietro Bova (about thirty-three, industriante), both of Scilla), son of the late Antonio Arlotta and the late Domenica Cosentino. The identification with Giovanni Arlotta's father rests on the name, the trade, the date (dead before 30 August 1828) and above all his wife Anna Barbaro, who is the mother named in Giovanni's marriage act; he is the only Arlotta Domenico in the 1823 Tavola. His age (95) sits awkwardly beside a son born about 1779 (75 in 1854) or about 1800 (28 in 1828) -- 51 or 72 at the birth -- and a first wife Francesca Paladino, so Anna Barbaro was probably a second wife; the age is the clerk's and is not settled. EARLIER NOTE KEPT: he is «fu Domenico Arlotta» in his son's marriage act of 30 August 1828 and was named in his grandson's birth act of 30 April 1854. Read 24 Nov 2026; the Tavolas of 1819, 1822, 1824, 1826, 1827 and 1828 hold no Domenico Arlotta."
  },
  {
   "name": "Concetta Russo",
@@ -1158,8 +1158,8 @@
   "mother": "—",
   "inTree": "—",
   "place": "Scilla",
-  "source": "Scilla, Matrimoni 1828 atto 28",
-  "note": "GIOVANNI ARLOTTA'S MOTHER, and ALIVE at her son's wedding on 30 August 1828 -- «domiciliata ivi», where her husband is «fu». A name this archive has never held. She is Serafina Arlotta's grandmother and a great-great-great-great-great-grandmother of the two children. BARBARO is a Scilla surname in its own right -- an Antonio Barbaro marries there the following year."
+  "source": "Scilla, Matrimoni 1828 atto 28; Scilla, Morti 1823 atto 27",
+  "note": "GIOVANNI ARLOTTA'S MOTHER, and ALIVE at her son's wedding on 30 August 1828 -- «domiciliata ivi», where her husband is «fu». A name this archive has never held. She is Serafina Arlotta's grandmother and a great-great-great-great-great-grandmother of the two children. BARBARO is a Scilla surname in its own right -- an Antonio Barbaro marries there the following year. HER HUSBAND'S DEATH ACT NOW FOUND: Domenico Arlotta died 17 March 1823 aged ninety-five, «vedovo di Francesca Paladino, e marito di Anna Barbaro» (Morti 1823 atto 27, read at the image), so she was his second wife and a widow by 1823; the 1828 act's «domiciliata ivi» is hers. Her own age and parents are not given there."
  },
  {
   "name": "Rocco Costa",
@@ -7278,5 +7278,47 @@
   "place": "Briatico",
   "source": "Briatico, Nati 1857, atto 4 (an_ua37922795, image 36; Tavola entry 4 on image 58)",
   "note": "The act names Domenico as the son of Antonino, which agrees with his 1849 marriage and his 1814 birth at Pizzo. Domenico is «quaranta» in both 1855 and 1857, so he is carried at forty as the clerk wrote it, not as his born 1814 would make him (forty-one and forty-two). THE TREE GIVES THESE PARENTS A SON PASQUALE BORN 1857, AND THE 1857 BRIATICO TAVOLA HOLDS NO PROSTAMO BUT MARIA (41 births, all read): either Pasquale is not 1857 or he was not registered at Briatico. Read 24 Nov 2026."
+ },
+ {
+  "name": "Arlotta, Antonio (father of Domenico Arlotta, d. before 1823)",
+  "gen": "9",
+  "born": "before 1728",
+  "bornNote": "Not sought. Pre-civil (his son was about ninety-five in 1823).",
+  "died": "before 17 March 1823",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "inTree": "—",
+  "place": "Scilla",
+  "source": "Scilla, Morti 1823 atto 27",
+  "note": "DOMENICO ARLOTTA'S FATHER, «Antonio Arlotta, defunto» in his son's death act of 17 March 1823. Named once; no trade, age or other fact. Read 24 Nov 2026."
+ },
+ {
+  "name": "Domenica Cosentino (mother of Domenico Arlotta, d. before 1823)",
+  "gen": "9",
+  "born": "before 1728",
+  "bornNote": "Not sought. Pre-civil.",
+  "died": "before 17 March 1823",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "inTree": "—",
+  "place": "Scilla",
+  "source": "Scilla, Morti 1823 atto 27",
+  "note": "DOMENICO ARLOTTA'S MOTHER, «Domenica Cosentina, defunta» in her son's death act of 17 March 1823 (the surname read Cosentino here, written -a by the clerk). Named once. Read 24 Nov 2026."
+ },
+ {
+  "name": "Francesca Paladino (first wife of Domenico Arlotta, d. before 1823)",
+  "gen": "8",
+  "born": "—",
+  "bornNote": "Not sought.",
+  "died": "before 17 March 1823",
+  "trade": "—",
+  "father": "—",
+  "mother": "—",
+  "inTree": "—",
+  "place": "Scilla",
+  "source": "Scilla, Morti 1823 atto 27",
+  "note": "DOMENICO ARLOTTA'S FIRST WIFE, named as the woman he was «vedovo» of in his death act of 17 March 1823. NOT the mother of Giovanni Arlotta (that is Anna Barbaro, alive in 1828), so a half-line only. Paladino is the surname of the Donato line's Marta Paladino at Scilla; no link is claimed. Read 24 Nov 2026."
  }
 ]
