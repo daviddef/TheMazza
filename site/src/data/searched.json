@@ -30195,5 +30195,19 @@
    "Murabito"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-nicotra-giarre-morti-giuseppe-nicotra-decedent-check-e29978",
+  "status": "part",
+  "when": "2026-11-23",
+  "source": "This archive's own recorded sweeps of Giarre Morti 1820-1875 (data/nicotra-sweeps.tsv), re-read for a decedent called Giuseppe Nicotra",
+  "scope": "Row 186: the Giuseppe Nicotra of Giarre who was the father of Alfio (born about 1796). Nothing new opened; the 56 recorded N-section rows were searched for a Giuseppe Nicotra as decedent.",
+  "result": "No decedent Giuseppe Nicotra in the recorded Giarre N sections 1820-1875; Mascali Morti 1831 stays unread. So his death is before 1820 or elsewhere.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/",
+  "tags": [
+   "Nicotra"
+  ],
+  "nobody": true
  }
 ]
