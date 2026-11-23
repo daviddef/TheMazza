@@ -32,6 +32,7 @@ import os
 import re
 import sys
 import unicodedata
+from urllib.parse import unquote
 
 SECTION = "others-of-this-name"
 
@@ -147,7 +148,7 @@ def check(pages, sitemap):
         if not tgt:
             findings.append("stub: %s is a redirect with no target" % r)
             continue
-        path, _, frag = tgt.partition("#")
+        path, _, frag = unquote(tgt).partition("#")   # Astro writes an accent in a slug percent-encoded
         if path not in persons:
             findings.append("stub: %s lands on %s, which is not a built person page" % (r, path))
             continue

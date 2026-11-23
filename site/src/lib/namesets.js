@@ -60,12 +60,10 @@ export const whoTargets = (people, base = "") => [...nameSets(people)].map(([key
   return { key, slug: to.slug, to: `${base}/people/${to.slug}/` + (hasSection(set, to) ? `#${SECTION_ID}` : "") };
 });
 
-/* astro.config.mjs `redirects`. A person whose slug is not plain ASCII (one today, a woman whose name ends in o grave) cannot use them:
-   Astro writes the target percent-encoded, and the kit's checkbook looks the target up in dist as written, so a stub that is correct
-   for every browser fails the gate. Those are drawn by pages/who/[slug].astro from rawStubs, with the target as the folder is named. */
+/* astro.config.mjs `redirects`: every old /who/<name>/ address, a person whose slug carries an accent included (Astro writes that
+   target percent-encoded, and the Kit's gates read it decoded since TheArchiveKit #22 and #25). */
 export const whoRedirects = (people, base = "") => Object.fromEntries(
-  whoTargets(people, base).filter((t) => /^[\x20-\x7e]*$/.test(t.slug)).map((t) => [`/who/${t.key}`, t.to]));
-export const rawStubs = (people) => whoTargets(people).filter((t) => !/^[\x20-\x7e]*$/.test(t.slug));
+  whoTargets(people, base).map((t) => [`/who/${t.key}`, t.to]));
 
 /* the other people of p's name: not p, oldest first */
 export function othersOf(p, sets) {
