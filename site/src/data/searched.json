@@ -29840,5 +29840,35 @@
    "Arena"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-antenati-san-giovanni-nati-1841-giovanni-john-nicotra-born-7-january-1841-act-3-c29368",
+  "status": "done",
+  "when": "2026-11-23",
+  "source": "Antenati - San Giovanni (a frazione of Giarre, its own civil registers) Nati 1841 (an_ua19994298, Tavola on image 64, act 3 on image 5)",
+  "scope": "Looking for the birth of Giovanni (John) Nicotra, whose 1872 marriage papers say born at Giarre, son of Rosario Nicotra and Venera Murabito, after eleven Giarre birth years and the Macchia register had not held him. San Giovanni is a separate Antenati series; the Tavola N section was read whole and act 3 opened at the image. Not read: the second 1841 volume (an_ua19994299), other San Giovanni years, the father's age and trade (not legible in the image).",
+  "result": "FOUND. Tavola: Nicotra Giovanni, Rosario / Murabito Venera, 7 Genn 1841. Act 3 is dated the seventh of January 1841 and names Venera Murabito, aged thirty, as the mother; the baptism return reads Giovanni Nicotra. The 'nato a Giarre' of the 1872 certificate is San Giovanni. Which Rosario is the father is still open (the Rosario of S. Giovanni b. c. 1794 with wife Paola Previtera, or the Simone line).",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19994298/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994298/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994299/"
+  ],
+  "tags": [
+   "Nicotra",
+   "Murabito"
+  ],
+  "for": [
+   [
+    "/people/john-nicotra/",
+    "Giovanni Nicotra (John)"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/john-nicotra/",
+    "Giovanni Nicotra (John)"
+   ]
+  ]
  }
 ]

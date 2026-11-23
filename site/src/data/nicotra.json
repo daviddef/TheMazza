@@ -3497,6 +3497,13 @@
    "series": "Nati",
    "entries": "one",
    "note": "ONE NICOTRA, act 138, OPENED: ROSA, of GIUSEPPE NICOTRA (24, Milo) and FILIPPA CAVALLARO (22), born 25 August 1865 at six in the evening. Incidental: Cattabiano × NICOTRA PALMA (act 198, Alfio). Swept for SIMONE NICOTRA (born about 1776) and MARIANNA DAIDONE (D section for her maiden name), and for any Nicotra child. MACCHIA, NOT GIARRE (Patria Macchia, Milo, Dagala). The Tavola is by the CHILD'S surname with both parents named, so a Nicotra MOTHER is not found by the N section; incidental sightings are noted. In this hand R is written like V (Vosario = Rosario) and Nicotra can look like Nicolosi. Container verified against its manifest label as Macchia. TAVOLA ONLY unless the note says an act was opened."
+  },
+  {
+   "comune": "San Giovanni",
+   "year": "1841",
+   "series": "Nati",
+   "entries": "four",
+   "note": "THE BIRTH OF GIOVANNI (JOHN) NICOTRA: «3. Nicotra Giovanni — Rosario / Murabito Venera — 7 Genn° 1841». SAN GIOVANNI is a separate Antenati series from Giarre and Macchia (Catania, Stato civile della restaurazione > San Giovanni > 1841, an_ua19994298, container LyR7Q7K, 65 images); Tavola on image 64, act 3 on image 5, read at the image. N section: four Nicotra entries (Giovanni, Salvadore, Mariano, Rosario) and two Nucifora; only Giovanni is the child of Rosario and Venera Murabito, the others not opened. Act 3: Venera Murabito «di anni trenta»; the father's age and trade and the hour not legible. A second 1841 volume (an_ua19994299, supplement) is not read."
   }
  ],
  "byComune": {
@@ -6978,6 +6985,15 @@
     "series": "Nati",
     "entries": "one",
     "note": "ONE NICOTRA, act 138, OPENED: ROSA, of GIUSEPPE NICOTRA (24, Milo) and FILIPPA CAVALLARO (22), born 25 August 1865 at six in the evening. Incidental: Cattabiano × NICOTRA PALMA (act 198, Alfio). Swept for SIMONE NICOTRA (born about 1776) and MARIANNA DAIDONE (D section for her maiden name), and for any Nicotra child. MACCHIA, NOT GIARRE (Patria Macchia, Milo, Dagala). The Tavola is by the CHILD'S surname with both parents named, so a Nicotra MOTHER is not found by the N section; incidental sightings are noted. In this hand R is written like V (Vosario = Rosario) and Nicotra can look like Nicolosi. Container verified against its manifest label as Macchia. TAVOLA ONLY unless the note says an act was opened."
+   }
+  ],
+  "San Giovanni": [
+   {
+    "comune": "San Giovanni",
+    "year": "1841",
+    "series": "Nati",
+    "entries": "four",
+    "note": "THE BIRTH OF GIOVANNI (JOHN) NICOTRA: «3. Nicotra Giovanni — Rosario / Murabito Venera — 7 Genn° 1841». SAN GIOVANNI is a separate Antenati series from Giarre and Macchia (Catania, Stato civile della restaurazione > San Giovanni > 1841, an_ua19994298, container LyR7Q7K, 65 images); Tavola on image 64, act 3 on image 5, read at the image. N section: four Nicotra entries (Giovanni, Salvadore, Mariano, Rosario) and two Nucifora; only Giovanni is the child of Rosario and Venera Murabito, the others not opened. Act 3: Venera Murabito «di anni trenta»; the father's age and trade and the hour not legible. A second 1841 volume (an_ua19994299, supplement) is not read."
    }
   ]
  },
@@ -10485,6 +10501,17 @@
      "note": "ONE NICOTRA, act 138, OPENED: ROSA, of GIUSEPPE NICOTRA (24, Milo) and FILIPPA CAVALLARO (22), born 25 August 1865 at six in the evening. Incidental: Cattabiano × NICOTRA PALMA (act 198, Alfio). Swept for SIMONE NICOTRA (born about 1776) and MARIANNA DAIDONE (D section for her maiden name), and for any Nicotra child. MACCHIA, NOT GIARRE (Patria Macchia, Milo, Dagala). The Tavola is by the CHILD'S surname with both parents named, so a Nicotra MOTHER is not found by the N section; incidental sightings are noted. In this hand R is written like V (Vosario = Rosario) and Nicotra can look like Nicolosi. Container verified against its manifest label as Macchia. TAVOLA ONLY unless the note says an act was opened."
     }
    ]
+  },
+  "San Giovanni": {
+   "Nati": [
+    {
+     "comune": "San Giovanni",
+     "year": "1841",
+     "series": "Nati",
+     "entries": "four",
+     "note": "THE BIRTH OF GIOVANNI (JOHN) NICOTRA: «3. Nicotra Giovanni — Rosario / Murabito Venera — 7 Genn° 1841». SAN GIOVANNI is a separate Antenati series from Giarre and Macchia (Catania, Stato civile della restaurazione > San Giovanni > 1841, an_ua19994298, container LyR7Q7K, 65 images); Tavola on image 64, act 3 on image 5, read at the image. N section: four Nicotra entries (Giovanni, Salvadore, Mariano, Rosario) and two Nucifora; only Giovanni is the child of Rosario and Venera Murabito, the others not opened. Act 3: Venera Murabito «di anni trenta»; the father's age and trade and the hour not legible. A second 1841 volume (an_ua19994299, supplement) is not read."
+    }
+   ]
   }
  },
  "households": [
@@ -10901,8 +10928,8 @@
   "Nicotra": 18,
   "Murabito": 7
  },
- "read": 444,
+ "read": 445,
  "unread": 21,
  "absent": 31,
- "withEntries": 204
+ "withEntries": 205
 }
