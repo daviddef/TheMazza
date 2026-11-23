@@ -1,10 +1,10 @@
 {
  "Mazza": {
   "surname": "Mazza",
-  "total": 172,
+  "total": 175,
   "groups": [
    {
-    "n": 157,
+    "n": 160,
     "earliest": 1748,
     "latest": 1952,
     "towns": [
@@ -428,13 +428,30 @@
       "comp": 1
      },
      {
+      "id": "@Rsenzio-mazza-2@",
+      "slug": "senzio-mazza-1859",
+      "name": "Senzio Mazza",
+      "surname": "Mazza",
+      "born": 1859,
+      "died": null,
+      "bornText": "17 April 1859",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo Nati 1859 atto 68 (an_ua72403, image 70)"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
       "id": "@Rdomenico-mazza@",
       "slug": "domenico-mazza",
       "name": "Domenico Mazza",
       "surname": "Mazza",
-      "born": 1861,
+      "born": 1860,
       "died": null,
-      "bornText": "c. 1861",
+      "bornText": "22 April 1860",
       "diedText": "",
       "fromRegister": true,
       "registerSources": [
@@ -481,6 +498,23 @@
       "comp": 0
      },
      {
+      "id": "@Rdomenica-mazza@",
+      "slug": "domenica-mazza",
+      "name": "Domenica Mazza",
+      "surname": "Mazza",
+      "born": 1863,
+      "died": null,
+      "bornText": "12 August 1863",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo Nati 1863 atto 144 (an_ua72410, image 148)"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
       "id": "@Rmaria-mazza-2@",
       "slug": "maria-mazza-1864",
       "name": "Maria Mazza",
@@ -492,6 +526,23 @@
       "fromRegister": true,
       "registerSources": [
        "Piedimonte Etneo, Nati 1864 row 35 (table)"
+      ],
+      "living": false,
+      "birthPlace": "Piedimonte Etneo",
+      "comp": 0
+     },
+     {
+      "id": "@Rvenera-mazza-3@",
+      "slug": "venera-mazza-1865",
+      "name": "Venera Mazza",
+      "surname": "Mazza",
+      "born": 1865,
+      "died": null,
+      "bornText": "13 March 1865",
+      "diedText": "",
+      "fromRegister": true,
+      "registerSources": [
+       "Piedimonte Etneo Nati 1865 atto 51 (an_ua72188, image 53)"
       ],
       "living": false,
       "birthPlace": "Piedimonte Etneo",

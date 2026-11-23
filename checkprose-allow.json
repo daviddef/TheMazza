@@ -25,12 +25,6 @@
  },
  {
   "file": "data/findmypast.tsv",
-  "phrase": "domenica mazza",
-  "year": "1928",
-  "reason": "the years are the life span of a dead woman whose married name equals the name of a living namesake (tree id @I42@); the row reads a Findmypast search on that name"
- },
- {
-  "file": "data/findmypast.tsv",
   "phrase": "michael mazza",
   "year": "1920",
   "reason": "the years are the life span of the named person's grandfather (dead) and the year of an electoral roll that lists him; the named person (tree id @I20@) is mentioned only as his grandchild"
@@ -124,12 +118,6 @@
   "phrase": "michael mazza",
   "year": "2026",
   "reason": "the date the MyHeritage export was made, beside the tree's contributor (tree id @I20@); a document date, not a life date"
- },
- {
-  "file": "notes/findings.md",
-  "phrase": "domenica mazza",
-  "year": "1928",
-  "reason": "the dates are the life span of a dead woman buried at Nudgee, entered in the cemetery register under a name that equals a living namesake (tree id @I42@)"
  },
  {
   "file": "notes/findings.md",

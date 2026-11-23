@@ -45708,6 +45708,27 @@
     "via": "read"
    },
    {
+    "id": "@Rsenzio-mazza-2@",
+    "name": "Senzio Mazza",
+    "slug": "senzio-mazza-1859",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-mazza@",
+    "name": "Domenica Mazza",
+    "slug": "domenica-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza-3@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza-1865",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rfrancesca-mazza@",
     "name": "Francesca Mazza",
     "slug": "francesca-mazza-1866",
@@ -46994,6 +47015,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rdomenica-mazza@",
+  "slug": "domenica-mazza",
+  "name": "Domenica Mazza",
+  "key": "Domenica Mazza (b. 1863, of Pasquale and Concetta Greco)",
+  "given": "Domenica",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1863,
+  "died": null,
+  "bornText": "12 August 1863",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "12 August 1863",
+    "year": 1863,
+    "place": "Piedimonte Etneo",
+    "text": "12 August 1863"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo Nati 1863 atto 144 (an_ua72410, image 148)"
+  ],
+  "registerNote": "Sister of Domenico (b. 1860), Vincenza (b. c. 1862) and Venera (b. 1865). Nothing later is known of her (not looked for).",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-mazza@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-greco@",
+    "name": "Concetta Greco",
+    "slug": "concetta-greco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rdomenica-patane@",
   "slug": "domenica-patane",
   "name": "Domenica Patane",
@@ -47654,18 +47734,18 @@
   "sex": "M",
   "living": false,
   "fromRegister": true,
-  "born": 1861,
+  "born": 1860,
   "died": null,
-  "bornText": "c. 1861",
+  "bornText": "22 April 1860",
   "diedText": "",
   "events": [
    {
     "what": "born",
     "tag": "BIRT",
-    "date": "c. 1861",
-    "year": 1861,
+    "date": "22 April 1860",
+    "year": 1860,
     "place": "Piedimonte Etneo",
-    "text": "c. 1861"
+    "text": "22 April 1860"
    }
   ],
   "birthPlace": "Piedimonte Etneo",
@@ -47676,9 +47756,10 @@
   "registerSources": [
    "Piedimonte Etneo, Nati 1889 atto 126",
    "Morti 1889 atto 101",
-   "Piedimonte Etneo, Matrimoni 1888 atto 10 (an_ua83409, image 10)"
+   "Piedimonte Etneo, Matrimoni 1888 atto 10 (an_ua83409, image 10)",
+   "Piedimonte Etneo Nati 1860 atto 82 (an_ua72404, image 84)"
   ],
-  "registerNote": "MARRIED MARIA RUSSO on 29 January 1888 at 6.30 in the evening (Matrimoni 1888 atto 10, an_ua83409, image 10; read at the image by the session): he is Mazza Domenico, 27, bracciante, born and living at Piedimonte, «figlio di Pasquale» and of Greco Concetta; she is Russo Maria, about 18 (the word is hard to read), contadina, daughter of Salvatore and of Panebianco Ignazia. Pasquale Mazza x Concetta Greco are the parents named in the marriage act of his sister Vincenza (1883), so the two are brother and sister. The 1888 act does not give the grandfather; the household is still not joined to the spine and no kinship to Mariano or Innocenzio is claimed. Father of Pasquale (b. 1889) and Salvatore (b. 1891).",
+  "registerNote": "MARRIED MARIA RUSSO on 29 January 1888 at 6.30 in the evening (Matrimoni 1888 atto 10, an_ua83409, image 10; read at the image by the session): he is Mazza Domenico, 27, bracciante, born and living at Piedimonte, «figlio di Pasquale» and of Greco Concetta; she is Russo Maria, about 18 (the word is hard to read), contadina, daughter of Salvatore and of Panebianco Ignazia. Pasquale Mazza x Concetta Greco are the parents named in the marriage act of his sister Vincenza (1883), so the two are brother and sister. The 1888 act does not give the grandfather; Pasquale is a son of Innocenzio Mazza (see Pasquale's row), so Domenico is a great-nephew of Mariano and the household is joined to the spine. Father of Pasquale (b. 1889) and Salvatore (b. 1891).",
   "registerGen": "—",
   "photos": [],
   "parents": [
@@ -61190,6 +61271,27 @@
     "via": "read"
    },
    {
+    "id": "@Rsenzio-mazza-2@",
+    "name": "Senzio Mazza",
+    "slug": "senzio-mazza-1859",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-mazza@",
+    "name": "Domenica Mazza",
+    "slug": "domenica-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza-3@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza-1865",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rfrancesca-mazza@",
     "name": "Francesca Mazza",
     "slug": "francesca-mazza-1866",
@@ -67764,6 +67866,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rsenzio-mazza-2@",
+  "slug": "senzio-mazza-1859",
+  "name": "Senzio Mazza",
+  "key": "Senzio Mazza (b. 1859, of Pasquale and Concetta Greco)",
+  "given": "Senzio",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1859,
+  "died": null,
+  "bornText": "17 April 1859",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "17 April 1859",
+    "year": 1859,
+    "place": "Piedimonte Etneo",
+    "text": "17 April 1859"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo Nati 1859 atto 68 (an_ua72403, image 70)"
+  ],
+  "registerNote": "The first child of the couple found, and named for his father's father, Innocenzio, whose short form «Senzio» is used for him in the register. The annual index and a delegated reader had him as Saverio; the act says Senzio. Nothing later is known of him (not looked for).",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-mazza@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-greco@",
+    "name": "Concetta Greco",
+    "slug": "concetta-greco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rsenzio-mazza@",
   "slug": "senzio-mazza",
   "name": "Senzio Mazza",
@@ -68986,6 +69147,65 @@
   "ancGen": null
  },
  {
+  "id": "@Rvenera-mazza-3@",
+  "slug": "venera-mazza-1865",
+  "name": "Venera Mazza",
+  "key": "Venera Mazza (b. 1865, of Pasquale and Concetta Greco)",
+  "given": "Venera",
+  "surname": "Mazza",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1865,
+  "died": null,
+  "bornText": "13 March 1865",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "13 March 1865",
+    "year": 1865,
+    "place": "Piedimonte Etneo",
+    "text": "13 March 1865"
+   }
+  ],
+  "birthPlace": "Piedimonte Etneo",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Piedimonte Etneo Nati 1865 atto 51 (an_ua72188, image 53)"
+  ],
+  "registerNote": "Sister of Domenico (b. 1860), Vincenza (b. c. 1862) and Domenica (b. 1863). Nothing later is known of her (not looked for).",
+  "registerGen": "—",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rpasquale-mazza@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rconcetta-greco@",
+    "name": "Concetta Greco",
+    "slug": "concetta-greco",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rvenera-mazza-2@",
   "slug": "venera-mazza-1883",
   "name": "Venera Mazza",
@@ -69756,7 +69976,7 @@
   "registerSources": [
    "Piedimonte Etneo, Matrimoni 1883 atto 31 (an_ua83404, image 28)"
   ],
-  "registerNote": "MARRIED ALFIO COSTA, born at Giarre and living at Piedimonte, bracciante, «figlio di Giovanni» and of a mother who is dead (her given name is very faint, perhaps Agata), on 21 July 1883 at 10 minutes past 8 in the evening (Matrimoni 1883 atto 31, an_ua83404, image 28; read at the image by the session: the bride is Mazza Vincenza, about 21, born and living at Piedimonte, «figlia di Pasquale» and of Greco Concetta; witnesses Giuseppe Amante and Ignazio Cannavo, the groom's age not read). A sister of Domenico Mazza (married 1888). The household is not joined to the spine.",
+  "registerNote": "MARRIED ALFIO COSTA, born at Giarre and living at Piedimonte, bracciante, «figlio di Giovanni» and of a mother who is dead (her given name is very faint, perhaps Agata), on 21 July 1883 at 10 minutes past 8 in the evening (Matrimoni 1883 atto 31, an_ua83404, image 28; read at the image by the session: the bride is Mazza Vincenza, about 21, born and living at Piedimonte, «figlia di Pasquale» and of Greco Concetta; witnesses Giuseppe Amante and Ignazio Cannavo, the groom's age not read). A sister of Domenico Mazza (married 1888). The household is joined to the spine through Pasquale's father Innocenzio (see Pasquale's row).",
   "registerGen": "—",
   "photos": [],
   "parents": [

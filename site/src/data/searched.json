@@ -29761,5 +29761,63 @@
    "Mazza"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-antenati-piedimonte-nati-1859-1860-1863-1865-the-four-births-of-pasquale-mazza-and-concetta-greco-opened-ba54ed",
+  "status": "done",
+  "when": "2026-11-23",
+  "source": "Antenati - Piedimonte Etneo Nati 1859 (an_ua72403, image 70), 1860 (an_ua72404, image 84), 1863 (an_ua72410, image 148) and 1865 (an_ua72188, image 53)",
+  "scope": "Opening at the image the four acts of Pasquale Mazza and Concetta Greco that had been read only from the closing tables (Senzio 1859 atto 68, Domenico 1860 atto 82, Domenica 1863 atto 144, Venera 1865 atto 51), to get the parents' ages and the witnesses, settle the doubtful names and day, and test whether the household is the one already joined to the spine. Not read: later margins (the printed form of these years has no column for them).",
+  "result": "ALL FOUR OPENED AND READ. Senzio, not Saverio, born 17 April 1859 (father 30, mother 22); Domenico born 22 April 1860, the day settled, and he is the Domenico Mazza who married Maria Russo in 1888 aged 27; Domenica born 12 August 1863 (father 34, mother 26); Venera born 13 March 1865, the surname written Marra in act and baptism return (father 35, mother 28). The ages fit Pasquale (b. 20 April 1829) and Concetta (b. 25 February 1837), whose own birth acts are already in the archive, so the household is the one joined to the spine through Pasquale's father Innocenzio; the earlier lines that called it not yet connected are withdrawn. Senzio is named for that grandfather, whose short form is Senzio.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua72403/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72403/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72404/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72410/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua72188/"
+  ],
+  "tags": [
+   "Mazza",
+   "Greco",
+   "Domenica",
+   "Russo"
+  ],
+  "for": [
+   [
+    "/people/senzio-mazza-1859/",
+    "Senzio Mazza"
+   ],
+   [
+    "/people/domenico-mazza/",
+    "Domenico Mazza"
+   ],
+   [
+    "/people/domenica-mazza/",
+    "Domenica Mazza"
+   ],
+   [
+    "/people/venera-mazza-1865/",
+    "Venera Mazza"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/senzio-mazza-1859/",
+    "Senzio Mazza"
+   ],
+   [
+    "/people/domenico-mazza/",
+    "Domenico Mazza"
+   ],
+   [
+    "/people/domenica-mazza/",
+    "Domenica Mazza"
+   ],
+   [
+    "/people/venera-mazza-1865/",
+    "Venera Mazza"
+   ]
+  ]
  }
 ]

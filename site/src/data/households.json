@@ -3690,6 +3690,27 @@
     "via": "read"
    },
    {
+    "id": "@Rsenzio-mazza-2@",
+    "name": "Senzio Mazza",
+    "slug": "senzio-mazza-1859",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-mazza@",
+    "name": "Domenica Mazza",
+    "slug": "domenica-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza-3@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza-1865",
+    "living": false,
+    "via": "read"
+   },
+   {
     "id": "@Rfrancesca-mazza@",
     "name": "Francesca Mazza",
     "slug": "francesca-mazza-1866",
@@ -4152,6 +4173,27 @@
     "id": "@Rgrazia-mazza@",
     "name": "Grazia Mazza",
     "slug": "grazia-mazza-1876",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsenzio-mazza-2@",
+    "name": "Senzio Mazza",
+    "slug": "senzio-mazza-1859",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rdomenica-mazza@",
+    "name": "Domenica Mazza",
+    "slug": "domenica-mazza",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rvenera-mazza-3@",
+    "name": "Venera Mazza",
+    "slug": "venera-mazza-1865",
     "living": false,
     "via": "read"
    },
@@ -4966,6 +5008,30 @@
   "born": 1860
  },
  {
+  "name": "Domenico Mazza",
+  "head": "domenico-mazza",
+  "headId": "@Rdomenico-mazza@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rpasquale-mazza-2@",
+    "name": "Pasquale Mazza",
+    "slug": "pasquale-mazza-1889",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsalvatore-mazza-7@",
+    "name": "Salvatore Mazza",
+    "slug": "salvatore-mazza-1891",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Piedimonte Etneo",
+  "born": 1860
+ },
+ {
   "name": "Rocco Arena & Generosa Costa",
   "head": "rocco-arena",
   "headId": "@I248@",
@@ -4999,30 +5065,6 @@
    }
   ],
   "place": "Scilla, Reggio Calabria",
-  "born": 1861
- },
- {
-  "name": "Domenico Mazza",
-  "head": "domenico-mazza",
-  "headId": "@Rdomenico-mazza@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rpasquale-mazza-2@",
-    "name": "Pasquale Mazza",
-    "slug": "pasquale-mazza-1889",
-    "living": false,
-    "via": "read"
-   },
-   {
-    "id": "@Rsalvatore-mazza-7@",
-    "name": "Salvatore Mazza",
-    "slug": "salvatore-mazza-1891",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Piedimonte Etneo",
   "born": 1861
  },
  {
