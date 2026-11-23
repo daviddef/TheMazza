@@ -11,23 +11,17 @@ import Base from "../../layouts/Base.astro";
 import ReadName from "../../components/ReadName.astro";
 import { u } from "../../lib/url.js";
 import readNames from "../../data/read-names.json";
-import people from "../../data/people.json";
 import { SETS } from "../../lib/namesakes.js";
-import { rawStubs } from "../../lib/namesets.js";
 
 export function getStaticPaths() {
   /* a read name whose slug a person's name already has would be a redirect, not a page here (check_read_names.py forbids it) */
   return [
     ...readNames.names.filter((n) => !SETS.has(n.slug)).map((n) => ({ params: { slug: n.slug }, props: { name: n.name, read: n } })),
-    /* a redirect Astro's own `redirects` would write percent-encoded (see rawStubs in lib/namesets.js) */
-    ...rawStubs(people).map((t) => ({ params: { slug: t.key }, props: { stub: t.to } })),
   ];
 }
 
-const { name, read, stub } = Astro.props;
-const site = "https://mazza.defranceski.com";
+const { name, read } = Astro.props;
 ---
-{stub ? (<><title>Redirecting to: {stub}</title><meta http-equiv="refresh" content={`0;url=${stub}`}><meta name="robots" content="noindex"><link rel="canonical" href={site + stub}></>) : (
 <Base title={name}
       eyebrow="A name read from the registers"
       dek={`${name} is in a register act and in no family file here. This page says where the name was read.`}>
@@ -37,4 +31,3 @@ const site = "https://mazza.defranceski.com";
     are one man or one woman — see <a href={u("/method/#ladder")}>how this archive grades what it says</a>.</p>
   </section>
 </Base>
-)}
