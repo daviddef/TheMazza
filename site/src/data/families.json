@@ -383,6 +383,19 @@
   ]
  },
  {
+  "surname": "Murabito",
+  "n": 5,
+  "dead": 5,
+  "living": 0,
+  "first": 1845,
+  "last": 1845,
+  "places": [
+   "Giarre",
+   "Piedimonte Etneo",
+   "Mascali"
+  ]
+ },
+ {
   "surname": "Fichera",
   "n": 5,
   "dead": 5,
@@ -498,19 +511,6 @@
   "first": 1898,
   "last": 1989,
   "places": []
- },
- {
-  "surname": "Murabito",
-  "n": 4,
-  "dead": 4,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Piedimonte Etneo",
-   "Giarre",
-   "Mascali"
-  ]
  },
  {
   "surname": "Turner",

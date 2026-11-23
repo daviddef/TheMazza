@@ -3553,7 +3553,21 @@
   "inTree": "—",
   "place": "Giarre",
   "source": "San Giovanni, Matrimoni 1839 atto 11 (Antenati an_ua19994213, image 23, its Tavola on images 31-32), read in the original",
-  "note": "Named in his daughter's marriage act as «il fu SALVADORE», father of Venera Murabito (22), whose mother is «[Sebastiana] SPINA» (first name read, not certain). Dead by September 1839. Nothing else is known of him; the Murabito and Morabito of this archive are the same name written two ways (the catalogue holds Murabito as a lead, not a proven spelling)."
+  "note": "Named in his daughter's marriage act as «il fu SALVADORE», father of Venera Murabito (22), whose mother is «[Sebastiana] SPINA» (first name read, not certain). Dead by September 1839. Nothing else is known of him; the Murabito and Morabito of this archive are the same name written two ways (the catalogue holds Murabito as a lead, not a proven spelling). UPDATE 23 NOVEMBER 2026: A SON, ALFIO MURABITO, found in the San Giovanni deaths of 1845, died 10 July 1845, son of the late Salvadore and the late Sebastiana Spina; probably Venera's brother (see Alfio Murabito)."
+ },
+ {
+  "name": "Alfio Murabito (probable brother of Venera Murabito)",
+  "gen": "6",
+  "born": "—",
+  "bornNote": "Aged «trentasette» or «ventisette» at death in July 1845 (the number word is ambiguous at the image), so born about 1808 or 1818.",
+  "died": "10 July 1845",
+  "trade": "bracciale",
+  "father": "Salvadore Murabito (father of Venera Murabito, dead by 1839)",
+  "mother": "Sebastiana Spina",
+  "inTree": "—",
+  "place": "Giarre",
+  "source": "San Giovanni, Morti 1845 atto 45 (Antenati an_ua19994262, image 25, right page; Tavola entry on image 41), read in the original",
+  "note": "A MURABITO OF SAN GIOVANNI WHOSE PARENTS ARE THE PARENTS NAMED IN VENERA MURABITO'S MARRIAGE ACT. Act 45, 10 July 1845, quartieri S. Giovanni and S. Alfio of the Comune di Giarre: «Alfio Murabito», born and domiciled at San Giovanni, bracciale, son of the late Salvadore and of the late Sebastiana Spina, died in his own house (the declarants are a bottegaio of San Giovanni, Filippo [surname not settled], aged forty, and a carpenter, aged fifty; neither is a Nicotra or a Murabito). Venera Murabito married Rosario Nicotra at San Giovanni in September 1839 as the daughter of the late Salvadore and a Spina (San Giovanni Matrimoni 1839 atto 11), so Alfio is very probably her brother: the same father's name, the same mother's surname, the same quarter, the same trade. The act does not say so and no sibling is named in it, so this is PROBABLE, NOT PROVED. Nothing else is known of him."
  },
  {
   "name": "Marianna Daidone (wife of Simone Nicotra)",
@@ -3567,7 +3581,7 @@
   "inTree": "—",
   "place": "Giarre",
   "source": "San Giovanni, Matrimoni 1839 atto 11 (Antenati an_ua19994213, image 23, its Tavola on images 31-32), read in the original",
-  "note": "Named in her son's marriage act as the mother of Rosario Nicotra, «MARIANNA DAIDONE», alive in 1839 and domiciled at San Giovanni. The death act of Rosario (Mascali 1890) calls her «Musumeci Marianna»; the two do not agree and neither is preferred."
+  "note": "Named in her son's marriage act as the mother of Rosario Nicotra, «MARIANNA DAIDONE», alive in 1839 and domiciled at San Giovanni. The death act of Rosario (Mascali 1890) calls her «Musumeci Marianna»; the two do not agree and neither is preferred. UPDATE 23 NOVEMBER 2026: A DAIDONE WOMAN OF THE SAME QUARTER, NOT SHOWN TO BE KIN. San Giovanni Morti 1841 atto 3 (Antenati an_ua19994257, image 4, right page), 16 January 1841: «Angela Daidone», aged sixty-three (as read), born and domiciled at S. Alfio, contadina, daughter of the late Giuseppe [Daidone] and the late Venera Patane, died in her own house. The surname, the quarter and the generation (born about 1778; Marianna about 1780) fit a sister, but the act names no sibling and no Nicotra, so it is a lead and nothing more. Marianna's own death was not found in the San Giovanni Tavole of 1840-1846 (see data/nicotra-sweeps.tsv)."
  },
  {
   "name": "Giovanna Nicotra (b. 1850, of Rosario and Venera Morabito)",

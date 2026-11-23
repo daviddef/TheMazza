@@ -14185,6 +14185,23 @@
   "born": null
  },
  {
+  "name": "Salvadore Murabito",
+  "head": "salvadore-murabito",
+  "headId": "@Rsalvadore-murabito@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ralfio-murabito@",
+    "name": "Alfio Murabito",
+    "slug": "alfio-murabito",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Giarre",
+  "born": null
+ },
+ {
   "name": "Salvadore Nicotra",
   "head": "salvadore-nicotra",
   "headId": "@Rsalvadore-nicotra@",
