@@ -29680,5 +29680,27 @@
    "Arena"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-piedimonte-nati-1866-1867-1871-margins-of-four-mazza-and-patane-births-all-empty-290f92",
+  "status": "part",
+  "when": "2026-11-23",
+  "source": "Antenati - Piedimonte Etneo Nati 1866 (an_ua83479, images 45 and 54), 1867 (an_ua83480, image 4) and 1871 (an_ua83484, image 57), Archivio di Stato di Catania, the margin beside four birth acts",
+  "scope": "Reading, at the image, the margin of four Italian-era Piedimonte birth acts of the Mazza and Patane lines whose image lists could not be fetched on 22 November: Mariano (written Marra) of Salvatore and Leonarda Patane, 1866 atto 145; Francesca (written Marra) of Pasquale and Concetta Greco, 1866 atto 169, which sits in the supplement register after the duplicate title leaf; Santa Patane, 1867 atto 5; Salvatore Patane, 1871 atto 158. Image lists were taken from the manifest the portal loads in its own viewer, because a scripted request for the manifest returns 403. Not read here: the marriage acts, which are past the end of the Piedimonte series on Antenati.",
+  "result": "NO NOTE ON ANY OF THE FOUR. Each margin is blank from the name down to the foot of the page at the zoom (1866 atto 145 on image 45, atto 169 on image 54, 1867 atto 5 on image 4, 1871 atto 158 on image 57). Neighbouring acts on the same images do carry notes that are not ours, among them a stamped marriage annotation on a 1866 act on image 46 and a 1866 act on image 44. The fifth margin left over from 22 November, Salvatore Mazza 1891 atto 110, had already been read at image 63 of an_ua83505 and holds the 1920 marriage note. Mariano Marra and Francesca Marra rest on the 18 November index readings; the act headings were seen at the image but the acts were not re-read in full.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83479/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83479/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83480/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83484/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83505/"
+  ],
+  "tags": [
+   "Mazza",
+   "Patane",
+   "Greco"
+  ],
+  "nobody": true
  }
 ]
