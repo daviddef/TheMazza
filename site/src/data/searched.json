@@ -29702,5 +29702,28 @@
    "Greco"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-antenati-margin-checks-giuseppa-mazza-1871-giuseppe-strano-1890-and-scilla-donato-1895-1896-455f8f",
+  "status": "part",
+  "when": "2026-11-23",
+  "source": "Antenati - Linguaglossa Nati 1871 (an_ua81366, image 62), Giarre Nati 1890 (an_ua80937, image 151), Piedimonte Etneo Nati 1870 (an_ua83483, images 62-63) and Scilla Nati 1895 and 1896 (an_ua16601260 image 25, an_ua16601261 image 76)",
+  "scope": "Re-reading at the image two marriage notes that a delegated reader had given with doubts and the session had not re-zoomed (Giuseppa Mazza, Linguaglossa 1871 atto 173; Giuseppe Strano, Giarre 1890 atto 411, mother written Marza), checking one margin the reader had called empty where the act runs over a page (Francesco Mazza, Piedimonte 1870 atto 164), and reading the margins of two Scilla births already in the archive (Santa Donato 1895 atto 70, Domenico Donato 1896 atto 225). Not read: the marriage acts themselves.",
+  "result": "TWO NOTES SETTLED, THREE MARGINS EMPTY. Giuseppa Mazza: the note reads that she was united in marriage with Pagano(?) Filippo, late Venera's son, by an act of Nov 1907, entered at Piedimonte tomo no. 60, with a Catania entry dated 15 and a month 1907; the year is clear and the earlier reading of 1904 is dropped, the husband's first letter could be S. Giuseppe Strano: united in marriage with Messina Vita by an act of 22.2.913 (22 February 1913), entered at Giarre no. 12. Francesco Mazza 1870: the note on image 63 belongs to the next act (165), not to his, so his margin stays empty. Santa Donato 1895 and Domenico Donato 1896: margins empty at the zoom.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua81366/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua81366/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua80937/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83483/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16601260/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16601261/"
+  ],
+  "tags": [
+   "Mazza",
+   "Donato",
+   "Pagano"
+  ],
+  "nobody": true
  }
 ]
