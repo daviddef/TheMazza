@@ -30347,12 +30347,12 @@
  },
  {
   "key": "src/antenati-scilla-morti-annual-tavole-1819-1828-arlotta-domenico-death-878ab2",
-  "status": "found",
+  "status": "done",
   "when": "2026-11-24",
   "source": "Antenati, Scilla Stato civile della restaurazione, Morti 1819, 1822, 1823, 1824, 1826, 1827 and 1828 (an_ua2002666, 2674, 2677, 2680, 2686, 2687, 2690), annual alphabetical Tavole, A section; and Morti 1823 atto 27",
   "scope": "Row 85: Domenico Arlotta, Giovanni Arlotta's father, dead before 30 August 1828, sought in the Scilla Morti annual Tavole (terms typed: Arlotta, Arlotta Domenico).",
   "result": "FOUND in the 1823 Tavola (entry 2) and opened at the image: Morti 1823 atto 27 (an_ua2002677, image 15 right page), Domenico Arlotta died at Scilla at ten in the morning of 17 March 1823, a marinaro aged ninety-five (stated), widower of Francesca Paladino and husband of Anna Barbaro, son of the late Antonio Arlotta and the late Domenica Cosentino; declared by Francesco Messina and Pietro Bova. The Tavolas of 1819, 1822, 1824, 1826, 1827 and 1828 hold no Domenico Arlotta. Not read: Morti 1817, 1818, 1820, 1821, 1825 and the napoleonic 1809-1815 (not needed once found). Identification with Giovanni Arlotta's father rests on name, trade, date and Anna Barbaro; his age of ninety-five is the clerk's.",
-  "outcome": "found",
+  "outcome": "done",
   "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002666/",
   "urls": [
    "https://antenati.cultura.gov.it/ark:/12657/an_ua2002666/",
@@ -30365,6 +30365,16 @@
    "Bova"
   ],
   "for": [
+   [
+    "/people/domenico-arlotta/",
+    "Domenico Arlotta"
+   ],
+   [
+    "/people/anna-barbaro/",
+    "Anna Barbaro"
+   ]
+  ],
+  "ev": [
    [
     "/people/domenico-arlotta/",
     "Domenico Arlotta"
