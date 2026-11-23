@@ -30284,5 +30284,33 @@
    "Mazza"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-briatico-nati-1855-1858-tavole-melluso-vitrale-prostamo-af13cb",
+  "status": "part",
+  "when": "2026-11-24",
+  "source": "Antenati, Briatico Stato civile della restaurazione Nati 1855 (an_ua87756) and 1856-1858 (an_ua37922795), annual Tavole and the acts they pointed to",
+  "scope": "Rows 44 and 166: whether a Melluso or Vitrale child, or a Prostamo child, is entered in the Briatico Nati Tavole of 1855, 1856, 1857 and 1858 (terms typed: Melluso, Vitrale, Prostamo, Ventrice).",
+  "result": "Two Prostamo children of Domenico Prostamo and Giovanna Ventrice read at the act: Alfonso born 20 July 1855 (1855 atto 21) and Maria born 8 February 1857 (1857 atto 4); both added as documented additions, the Alfonso kept apart from the tree's Alfonso (tree b. 1858, ages in 1886-87 imply about 1862) until the 1887 marriage act or the Briatico registers of 1859-1862 settle it. No Melluso or Vitrale child is entered as a child in any of the four Tavole (a Melluso appears once as a mother, 1857 entry 40, a lead only); the 1858 Tavola was read to entry 26 only. Briatico civil registers on Antenati stop at 1858 and resume 1911, so 1860 is not available there. Not a proof of absence for any year.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua37922795/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua37922795/"
+  ],
+  "tags": [
+   "Melluso",
+   "Prostamo",
+   "Ventrice"
+  ],
+  "for": [
+   [
+    "/people/domenico-prostamo-1820/",
+    "Domenico Prostamo"
+   ],
+   [
+    "/people/giovanna-ventrice/",
+    "Giovanna Ventrice"
+   ]
+  ]
  }
 ]

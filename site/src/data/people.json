@@ -40140,6 +40140,51 @@
   "ancGen": null
  },
  {
+  "id": "@Ralfonso-prostamo@",
+  "slug": "alfonso-prostamo-1855",
+  "name": "Alfonso Prostamo",
+  "key": "Alfonso Prostamo (b. 20 July 1855, of Domenico Prostamo and Giovanna Ventrice)",
+  "given": "Alfonso",
+  "surname": "Prostamo",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1855,
+  "died": null,
+  "bornText": "20 July 1855",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "20 July 1855",
+    "year": 1855,
+    "place": "Briatico",
+    "text": "20 July 1855"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Nati 1855, atto 21 (an_ua87756, image 22",
+   "Tavola entry 21 on image 47)"
+  ],
+  "registerNote": "A SECOND ALFONSO, OR THE FIRST ONE WITH A WRONG DATE: NOT DECIDED. The tree's Alfonso Prostamo (the one who married Caterina Melluso on 21 May 1887) is entered as born 1858, and the ages recorded for him, 24 in January 1886 and 25 in May 1887, point to about 1862. This act gives a child of the SAME PARENTS named Alfonso on 20 July 1855, which would make that man thirty-one and thirty-two in 1886-87. Either the 1855 child died young and a later son (about 1861-62) took the name, as families did, or he is the same man and both ages are wrong by six or seven years. No death of a Prostamo child is in the Briatico Tavole of 1855-58 (the 1855, 1857 and 1858 death volumes are partial) and the registers for 1859-1862 are not on Antenati, so the choice needs the 1887 marriage act itself (it names his parents and his age) or the Briatico Nati and Morti of 1859-1862 on FamilySearch. Kept apart from the tree's Alfonso until then; nothing merged. Read 24 Nov 2026.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Randrea-nicotra@",
   "slug": "andrea-nicotra",
   "name": "Andrea Nicotra",
@@ -58766,6 +58811,51 @@
   ],
   "registerNote": "Of Milo. UPDATE: almost certainly the same woman as MARIA VASTI (second wife of Giuseppe Nicotra), whom the marriage act of 9 February 1851 and the birth Tavola of September 1851 both name: the death act of 26 September 1851 is the only place that writes Patti. Left as a separate row until an act is read again.",
   "registerGen": "—",
+  "photos": [],
+  "parents": [],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
+  "id": "@Rmaria-prostamo@",
+  "slug": "maria-prostamo-1857",
+  "name": "Maria Prostamo",
+  "key": "Maria Prostamo (b. 8 February 1857, of Domenico Prostamo and Giovanna Ventrice)",
+  "given": "Maria",
+  "surname": "Prostamo",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1857,
+  "died": null,
+  "bornText": "8 February 1857",
+  "diedText": "",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "8 February 1857",
+    "year": 1857,
+    "place": "Briatico",
+    "text": "8 February 1857"
+   }
+  ],
+  "birthPlace": "Briatico",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Briatico, Nati 1857, atto 4 (an_ua37922795, image 36",
+   "Tavola entry 4 on image 58)"
+  ],
+  "registerNote": "The act names Domenico as the son of Antonino, which agrees with his 1849 marriage and his 1814 birth at Pizzo. Domenico is «quaranta» in both 1855 and 1857, so he is carried at forty as the clerk wrote it, not as his born 1814 would make him (forty-one and forty-two). THE TREE GIVES THESE PARENTS A SON PASQUALE BORN 1857, AND THE 1857 BRIATICO TAVOLA HOLDS NO PROSTAMO BUT MARIA (41 births, all read): either Pasquale is not 1857 or he was not registered at Briatico. Read 24 Nov 2026.",
+  "registerGen": "6",
   "photos": [],
   "parents": [],
   "children": [],

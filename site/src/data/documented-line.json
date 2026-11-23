@@ -1303,5 +1303,57 @@
     "source": "Scilla, Matrimoni 1907 atto 41, read in the original (image 23)"
    }
   ]
+ },
+ "domenico-prostamo-1820": {
+  "anchor": "Domenico Prostamo",
+  "exportName": "Domenico Prostamo",
+  "ancGen": 6,
+  "up": [],
+  "down": [
+   {
+    "name": "Alfonso Prostamo (b. 20 July 1855, of Domenico Prostamo and Giovanna Ventrice)",
+    "rel": "father",
+    "gen": "6",
+    "born": "20 July 1855",
+    "died": "—",
+    "trade": "—",
+    "source": "Briatico, Nati 1855, atto 21 (an_ua87756, image 22; Tavola entry 21 on image 47)"
+   },
+   {
+    "name": "Maria Prostamo (b. 8 February 1857, of Domenico Prostamo and Giovanna Ventrice)",
+    "rel": "father",
+    "gen": "6",
+    "born": "8 February 1857",
+    "died": "—",
+    "trade": "—",
+    "source": "Briatico, Nati 1857, atto 4 (an_ua37922795, image 36; Tavola entry 4 on image 58)"
+   }
+  ]
+ },
+ "giovanna-ventrice": {
+  "anchor": "Giovanna Ventrice",
+  "exportName": "Giovanna Ventrice",
+  "ancGen": 6,
+  "up": [],
+  "down": [
+   {
+    "name": "Alfonso Prostamo (b. 20 July 1855, of Domenico Prostamo and Giovanna Ventrice)",
+    "rel": "mother",
+    "gen": "6",
+    "born": "20 July 1855",
+    "died": "—",
+    "trade": "—",
+    "source": "Briatico, Nati 1855, atto 21 (an_ua87756, image 22; Tavola entry 21 on image 47)"
+   },
+   {
+    "name": "Maria Prostamo (b. 8 February 1857, of Domenico Prostamo and Giovanna Ventrice)",
+    "rel": "mother",
+    "gen": "6",
+    "born": "8 February 1857",
+    "died": "—",
+    "trade": "—",
+    "source": "Briatico, Nati 1857, atto 4 (an_ua37922795, image 36; Tavola entry 4 on image 58)"
+   }
+  ]
  }
 }
