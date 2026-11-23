@@ -24,7 +24,8 @@ WHAT IT ENFORCES (and why each part can fail)
                                            digit and no institution in the place)
   4  a living person's page is noindex, is not in the sitemap or the search index,
      has no Person (or any) JSON-LD, no table, no image, and no year of their own;
-     a name page whose every bearer is living is noindex and names no canonical
+     a name address (a redirect since 23 Nov 2026, one page per person) whose every bearer is
+     living is noindex and carries only the canonical of the page it redirects to
   5  a held-out person appears nowhere: not by id in any data file, not as a page,
      not by name in a built page or data file (the name test needs the GEDCOM, so
      it runs locally; the id test runs everywhere). Held out is a possible minor:
@@ -532,7 +533,9 @@ class Gate:
                 counts["years"] += 1
                 self.fail(4, f"/people/{p['slug']}/ has a date on its own chart node")
         self.info["living_pages"] = dict(counts, total=len(self.living))
-        # name pages: every bearer living -> noindex and no canonical elsewhere
+        # name addresses: every bearer living -> noindex. ONE PAGE PER PERSON (23 Nov 2026): /who/<name>/ is no longer a name page, it is
+        # a static redirect to a person's page, and a redirect stub carries a canonical to its target by construction. That is the one
+        # canonical allowed here: it must be on a stub that says noindex, and lead to a built /people/ page (a living page, noindex).
         by_name = {}
         for p in self.people:
             by_name.setdefault(_slugify(p["name"]), []).append(p)
@@ -541,15 +544,20 @@ class Gate:
         for k in allliving:
             h = self.page(f"who/{k}")
             if h is None:
-                self.fail(6, f"no name page for /who/{k}/")
+                self.fail(6, f"no name address for /who/{k}/")
                 continue
             c = CANON.search(h)
+            stub = 'http-equiv="refresh"' in h[:700]
+            tgt = re.search(r'http-equiv="refresh" content="0;url=(/people/[^"#]+)/?(?:#[^"]*)?"', h[:900]) if stub else None
             if not NOINDEX.search(h[:6000]):
                 bad += 1
                 self.fail(4, f"/who/{k}/ names only living people and is not noindex")
-            if c and not c.group(1).rstrip("/").endswith("/who/" + k):
+            if not (stub and tgt and self.page(tgt.group(1).strip("/")) is not None):
                 bad += 1
-                self.fail(4, f"/who/{k}/ names a canonical elsewhere")
+                self.fail(4, f"/who/{k}/ names only living people and is not a redirect to a built /people/ page")
+            elif c and not c.group(1).rstrip("/").endswith(tgt.group(1).rstrip("/")):
+                bad += 1
+                self.fail(4, f"/who/{k}/ names a canonical elsewhere than the page it redirects to")
         self.info["name_pages_all_living"] = len(allliving)
         self.info["name_pages_all_living_bad"] = bad
         # POSITIVE CONTROL: the same checks on ordinary pages give the opposite
@@ -867,7 +875,7 @@ def report(g, quiet=False):
               f"{lp.get('in_sitemap')} · in search index {lp.get('in_search')} · JSON-LD {lp.get('jsonld')} · "
               f"tables {lp.get('tables')} · images {lp.get('images')} · years {lp.get('years')}")
         print(f"        with a town and country {i.get('living_with_place')} · no place {i.get('living_without_place')} "
-              f"· all-living name pages {i.get('name_pages_all_living')} (noindex, none canonical elsewhere)")
+              f"· all-living name addresses {i.get('name_pages_all_living')} (noindex redirects, canonical only to their target)")
         print(f"        control (not-living pages sampled): {i.get('control_dead_pages')}")
         print(f"        classification: {i.get('published_as_dead_but_living_by_rule')} published as dead but "
               f"living by rule · GEDCOM: {i.get('ged')}")

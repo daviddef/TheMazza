@@ -1,4 +1,6 @@
 import { defineConfig } from 'astro/config';
+import { readFileSync } from 'node:fs';
+import { whoRedirects } from './src/lib/namesets.js';
 
 // Custom domain, from 12 October 2026: https://mazza.defranceski.com/
 // Served by GitHub Pages from this project repo. `base` is '/' because every
@@ -8,6 +10,14 @@ import { defineConfig } from 'astro/config';
 // serves a 404. The DNS was already right long before this: mazza.defranceski.com
 // has pointed at daviddef.github.io and the four GitHub Pages addresses all along,
 // and the only thing missing was this file and this line.
+/* ONE PAGE PER PERSON (23 November 2026). A name used to have a page, /who/<name>/, beside the person's page. It does not any more:
+   every one of those addresses is a static redirect (a meta refresh and a canonical, noindex, not in the sitemap). A name one person
+   bears goes to that person's page; a name several bear goes to its first bearer's page at #others-of-this-name, the section that
+   lists the others (src/lib/namesets.js: the earliest born who is not living, else slug order). The names READ from register acts and
+   held in no family file keep their own page, so they are not here. */
+const people = JSON.parse(readFileSync(new URL('./src/data/people.json', import.meta.url), 'utf8'));
+const whoRedirect = whoRedirects(people);
+
 export default defineConfig({
   site: 'https://mazza.defranceski.com',
   base: '/',
@@ -37,5 +47,6 @@ export default defineConfig({
        estate-wide. The old address answers with a redirect to the archive's own trees page, and the redirect is not in the sitemap.
        /roots/view.html is NOT retired: it is the viewer the person pages frame (the Kit's PersonRootsViews), a different file in the
        same folder. */
-    '/roots': '/trees/' },
+    '/roots': '/trees/',
+    ...whoRedirect },
 });
