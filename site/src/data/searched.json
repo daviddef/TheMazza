@@ -30209,5 +30209,23 @@
    "Nicotra"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-piedimonte-nati-1882-1886-index-mazza-rosario-sons-91ec7f",
+  "status": "part",
+  "when": "2026-11-23",
+  "source": "Antenati, Piedimonte Etneo Nati 1882-1886 (an_ua83496 to an_ua83500), annual indexes and the acts for Santo (1882 atto 75) and Ignazio (1886 atto 195)",
+  "scope": "Row 91: the annual indexes of Piedimonte Nati 1882-1886 swept for Mazza births in Rosario Mazza's household; Santo's act number checked at the image; Ignazio's act opened and its margin read.",
+  "result": "Two births in the household: Santo (1882 atto 75, the number is 75 not 85) and Ignazio (1886 atto 195, margin: married Concetta Strano, January 1910). Nothing for Rosario's household in 1883-85; 1882 atto 24 is a different Mazza household and was unreadable under a scanner card. 1887-93 indexes not swept.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua83496/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83496/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua83500/"
+  ],
+  "tags": [
+   "Mazza"
+  ],
+  "nobody": true
  }
 ]
