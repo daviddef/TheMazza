@@ -1,0 +1,17 @@
+---
+/* DRAWN: the hub for the pages that draw the archive (added 23 November 2026, the estate clean-up). They left the People menu, which now has
+   one link here, and every one is listed below with a line saying what it shows. The list is lib/drawn.js and the sentences are the book's. */
+import Base from "../layouts/Base.astro";
+import ResearchList from "@daviddef/archive-kit/components/ResearchList.astro";
+import { u } from "../lib/url.js";
+import { DRAWN } from "../lib/drawn.js";
+import { blurbOf } from "../lib/research-counts.js";
+const items = DRAWN.map((x) => ({ href: x.href, label: x.label, blurb: blurbOf(x) }));
+---
+<Base title="Drawn" eyebrow="People · the archive as pictures"
+      dek="The pages that draw the family instead of listing it: the line as one chart, the four families as four trees, the relatives around one person, the years in order, and the longest descent. None of them says more than the lists do; they show it differently.">
+  <section class="blk">
+    <ResearchList items={items} />
+    <p class="cap" style="margin-top:22px">The lists the pictures are drawn from: <a href={u("/people/")}>The People</a> · <a href={u("/who/")}>Every Name</a> · <a href={u("/register/")}>The Register</a> · <a href={u("/marriages/")}>The Marriages</a>.</p>
+  </section>
+</Base>

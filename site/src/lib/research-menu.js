@@ -4,7 +4,10 @@
    is renamed or removed: every item keeps the address it had, and the labels of the eight pages the estate's Evidence canon names
    (kit data/evidence-menu.json) are unchanged. `asks` is the canon's question for those pages. The three long studies (the Sicilian
    registers, the Queensland register, the test of the 1697) are deep dives under Sources & method, and are linked from /sources/ too.
-   Checks is its own group so it is easy to fold elsewhere (into Sources & method, or into What's new) if the trial prefers. */
+   Checks is its own group so it is easy to fold elsewhere (into Sources & method, or into What's new) if the trial prefers.
+   23 November 2026 (the estate clean-up): the "Deep dives" sub-heading is a link to a hub page, /research/deep-dives/, which lists every local
+   study with its blurb. The three studies stay in the menu under it (the menu ends at 13 links, inside the estate's 12 to 14), and a fourth
+   study added later goes in the list below and appears in the menu and on the hub together. */
 export const RESEARCH = [
   { id: "to-do", head: "To do", href: "/research/to-do/",
     dek: "What is not known yet, what has been asked of other people, and what is being worked on.",
@@ -26,7 +29,7 @@ export const RESEARCH = [
       { href: "/sources/", label: "Sources", asks: "What does this stand on, and where do I check?" },
       { href: "/method/", label: "Method", asks: "What would make you believe or not believe this?" },
       { href: "/documents/", label: "Documents", asks: "Which papers and images does this stand on, and can I see them?" },
-      { sub: "Deep dives", id: "deep-dives",
+      { sub: "Deep dives", id: "deep-dives", href: "/research/deep-dives/",
         note: "Long studies, each of one set of registers or one proposition. They are linked from the Sources page too.",
         items: [
           { href: "/register-1879/", label: "The Sicilian Registers" },
@@ -43,5 +46,5 @@ export const RESEARCH = [
 /* the header menu's shape: [group, ...] with { head, href, items: [[href, label] | { sub }] } */
 export const navGroups = RESEARCH.map((g) => ({
   head: g.head, href: g.href,
-  items: g.items.flatMap((x) => x.sub ? [{ sub: x.sub }, ...x.items.map((y) => [y.href, y.label])] : [[x.href, x.label]]),
+  items: g.items.flatMap((x) => x.sub ? [{ sub: x.sub, href: x.href }, ...x.items.map((y) => [y.href, y.label])] : [[x.href, x.label]]),
 }));

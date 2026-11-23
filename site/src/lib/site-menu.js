@@ -1,3 +1,15 @@
+/* 23 NOVEMBER 2026 (the estate clean-up). Three changes, all in this file's groups and none of them removes a page from reach:
+     People > Drawn      was a column of five links (Our line drawn, The trees, Roots & Routes, The Timeline, Blood relatives drawn); it is ONE link
+                         to the hub /drawn/ (lib/drawn.js), which lists the four that stay with a line each, and The Spine. Roots & Routes was removed
+                         (/roots/ redirects to /trees/).
+     Families            was the hub link and fifteen family pages; it is the hub link /families/ ("All the families") and four named families: the
+                         archive's own line first (Mazza), then Arena, Nicotra and Prostamo, A to Z. /families/ links all fifteen (it reads lib/familylist.js,
+                         as the menu did), so the eleven that left the menu are one click away; docs/menu-reach.md proves it.
+     Research > Deep dives  is a link to /research/deep-dives/ (lib/research-menu.js).
+   THE FAMILIES THAT STAY NAMED, and why these: the three pages written by hand, each with its own argument (Mazza, Arena, Nicotra), and the first of
+   the data-built pages in familylist.js, which that file orders by direct-line ancestors and published people (Prostamo). David's 12 Nov rule holds:
+   own line first, then A to Z.
+   THE 12 NOVEMBER NOTE, kept below. */
 /* THE WHOLE MENU, one list. 12 November 2026 (the menu regroup, PR A, menu only): the five groups other than Research are five again,
    but filled differently, and Research (lib/research-menu.js, unchanged) is the sixth. The header menu and the drawer read THIS list
    (layouts/Base.astro does), so there is one place to change a label or move a page. No page was renamed, no page was merged and no
@@ -21,13 +33,14 @@
 import { navGroups } from "./research-menu.js";
 import { FAMILY_MENU } from "./familylist.js";
 
-/* 13 November 2026: the Families group now begins with a link to the new /families/ index (every family page, own line first, then A to Z), then
-   the entries below. No entry was removed: the index is an addition, and every family page is still in this menu as well as on the index. */
+/* 13 November 2026: the Families group began with a link to the new /families/ index (every family page, own line first, then A to Z). 23 November 2026:
+   the entries after it are cut to the four NAMED below; the index links every family page, so none is out of reach. */
 /* THE FAMILY ENTRIES (the family-menu rule, David, 12 November 2026: "own line first then A to Z"): the label is the bare surname (Arena,
    not The Arena), the archive's own line (Mazza) comes first, and the other surnames follow A to Z. familylist.js keeps its own labels
    ("The Arena") for the pages that use them; only the menu reads them bare. */
 const bare = ([href, label]) => [href, label.replace(/^The /, "")];
-const [MAZZA, ...REST] = FAMILY_MENU.map(bare);
+const NAMED = ["/mazza/", "/arena/", "/nicotra/", "/prostamo/"];   /* the archive's own line first; the rest A to Z */
+const [MAZZA, ...REST] = FAMILY_MENU.map(bare).filter(([href]) => NAMED.includes(href));
 const FAMILIES = [["/families/", "All the families"], MAZZA, ...REST.sort((a, b) => a[1].localeCompare(b[1], "en", { sensitivity: "base" }))];
 
 export const MENU = [
@@ -42,10 +55,7 @@ export const MENU = [
       ["/people/", "The People"], ["/who/", "Every Name"], ["/register/", "The Register"], ["/households/", "Households"],
       ["/marriages/", "The Marriages"],
     ] },
-    { head: "Drawn", items: [
-      ["/tree/", "Our line, drawn"], ["/trees/", "The trees"], ["/roots/", "Roots & Routes"], ["/timeline/", "The Timeline"],
-      ["/bloodline/", "Blood relatives, drawn"],
-    ] },
+    { head: "Drawn", href: "/drawn/", items: [] },
   ]],
   ["Places & families", [
     { head: "The families", items: [

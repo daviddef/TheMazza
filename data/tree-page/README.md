@@ -1,7 +1,7 @@
 # Roots & Routes (the tree page)
 
 Ten views of everyone in the archive who has died and whose life can be drawn: hourglass, fan, whole-tree and close-family maps, Atlas map, movements, kinship,
-place lanes, eras, lifespans, an Orphans tab, and the five animated views (Night sky, Ink ledger, Household, Generations, Where they lived). It is served at `/roots/`.
+place lanes, eras, lifespans, an Orphans tab, and the five animated views (Night sky, Ink ledger, Household, Generations, Where they lived). The `/roots/` page itself was removed on 23 November 2026 (the Tree Canvas replaced it; `/roots/` now redirects to `/trees/`). What stays: `roots.html` is still served bare at `/roots/view.html` for the per-person panels (the Kit's PersonRootsViews on a person page), and `tree.json` is still read by the Tree Canvas.
 
 | File | What it is | Edit by hand? |
 |---|---|---|
@@ -9,7 +9,7 @@ place lanes, eras, lifespans, an Orphans tab, and the five animated views (Night
 | `place_map.json` | each place string with coordinates, country and Record Atlas id | no, generated |
 | `place-additions.json` | `places`: strings decided by hand, each with its reason; `refused`: strings deliberately not placed, each with its reason | yes, with a reason |
 | `atlas-data.json` | the Record Atlas slice: outlines, regimes, flags, events, collections | no, generated |
-| `roots.html`, `roots.embed.html` | the page, whole and as a fragment for the site layout | no, generated |
+| `roots.html` | the viewer, whole; served at `/roots/view.html` for the person-page panels (`roots.embed.html`, the fragment for the removed page, is gone) | no, generated |
 | `living-nodes.json` | NAME-AND-FAMILY-ONLY cards for the people the build holds as living, and for every published person with no death recorded who is born 1917 or later or undated. **Not served, not indexed, not copied into `site/`.** The Atlas Tree Canvas reads it from a local clone | no, generated |
 | `tree.report.json` | counts, the people whose dates are not one life, the places not placed and why | read it |
 | `people.ged`, `slugs.json` | intermediates, not committed (gitignored) | no |
