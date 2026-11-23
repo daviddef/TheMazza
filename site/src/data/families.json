@@ -500,6 +500,19 @@
   "places": []
  },
  {
+  "surname": "Murabito",
+  "n": 4,
+  "dead": 4,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Piedimonte Etneo",
+   "Giarre",
+   "Mascali"
+  ]
+ },
+ {
   "surname": "Turner",
   "n": 3,
   "dead": 0,
@@ -656,15 +669,15 @@
   ]
  },
  {
-  "surname": "Murabito",
+  "surname": "Daidone",
   "n": 3,
   "dead": 3,
   "living": 0,
-  "first": null,
-  "last": null,
+  "first": 1848,
+  "last": 1848,
   "places": [
-   "Piedimonte Etneo",
-   "Mascali"
+   "Riposto",
+   "Giarre"
   ]
  },
  {
@@ -950,17 +963,6 @@
   "last": 1828,
   "places": [
    "Mascali"
-  ]
- },
- {
-  "surname": "Daidone",
-  "n": 2,
-  "dead": 2,
-  "living": 0,
-  "first": 1848,
-  "last": 1848,
-  "places": [
-   "Riposto"
   ]
  },
  {
