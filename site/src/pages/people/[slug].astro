@@ -46,7 +46,9 @@ import "@daviddef/archive-kit/styles/persontree.css";
 import "@daviddef/archive-kit/styles/personpage.css";
 import Base from "../../layouts/Base.astro";
 import { u } from "../../lib/url.js";
-import { people, norm } from "../../lib/people.js";
+import { people } from "../../lib/people.js";
+import OthersOfThisName from "../../components/OthersOfThisName.astro";
+import { othersFor, SECTION_ID } from "../../lib/namesakes.js";
 import { kitPerson, agreeWithGenerator } from "../../lib/personpage.js";
 import disputed from "../../data/disputed.json";
 import nudgee from "../../data/nudgee.json";
@@ -71,7 +73,10 @@ const grave = p.living ? null : nudgee.burials.find((b) => b.slug === p.slug);
 const fixes = p.living ? [] : nudgee.corrections.filter((c) => c.slug === p.slug);
 const ship = p.living ? null : ships.find((s) => s.slug === p.slug);
 const comp = components.find((c) => c.comp === p.comp);
-const sameName = people.filter((q) => q.slug !== p.slug && norm(q.name) === norm(p.name));
+/* THE OTHER PEOPLE OF THIS NAME (one page per person, 23 November 2026): the people the old /who/<name>/ page listed besides this one,
+   each a link to their own page; none when nobody shares the name. lib/namesets.js says who shares a name (the rule the name pages
+   used: accents and case folded). The kit draws the section for everyone but a living person. */
+const sameName = othersFor(p);
 const edges = ["parents", "spouses", "children", "siblings"].flatMap((b) => p[b] || []);
 /* «read» is a register act, «index» an index entry; both are a record. «tree»
    is Michael's assertion, and a sibling edge carries no via at all. */
@@ -318,18 +323,7 @@ const palette = { bg: "var(--panel)", "node-bg": "var(--ground)", line: "var(--t
         the same ids and the same headings as the kit's slots, only present when there is something to say. */}
     {sameName.length > 0 && (
     <Fragment slot="namesakes">
-      <p class="small">These three towns repeat their names relentlessly — this
-      archive holds four men called Rosario Mazza and four called Giuseppe Arena.
-      <strong> These are different people, kept apart on purpose rather than merged into one.</strong>
-      <a href={u("/method/")}> Why →</a></p>
-      <ul style="margin:.8rem 0 0;padding-left:18px;font-family:var(--sans);font-size:13.5px;line-height:1.8">
-        {sameName.map((q) => (
-          <li><a href={u("/people/" + q.slug)}>{q.name}</a>
-            <span style="color:var(--ink-3)"> — {q.living ? "a living person"
-              : ([q.born, q.died].filter(Boolean).join("–") || "undated")}
-              {q.birthPlace ? `, ${q.birthPlace}` : ""}{q.living || q.comp == null ? "" : `, component ${q.comp}`}</span></li>
-        ))}
-      </ul>
+      <div id={SECTION_ID} style="scroll-margin-top:8.5rem"><OthersOfThisName others={sameName} /></div>
     </Fragment>
     )}
 

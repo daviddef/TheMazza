@@ -104,6 +104,23 @@ into any file, because every committed file here is public. `npm run build` refu
 is untrue (`check:living`, `check:living-v2` and its planted-fault self-test). A removal request is
 honoured within days, without argument and without requiring a reason.
 
+## One page per person, and the old name pages
+
+A person has one page, `/people/<slug>/`. When other people in the archive carry the same name (the rule the old name pages used, in
+`site/src/lib/namesets.js`: accents and case folded), the page has an "Others of the same name" section (`#namesakes`, the list inside
+it at `#others-of-this-name`): each a link to that person's own page, with the life span and place the name page showed. A living
+person's page has no such section, because the kit draws a living person's name, relationships and town and no other section; a living
+person is still listed, as a name and a town, on the pages of the others of their name.
+
+The old name addresses `/who/<name>/` are static redirects made by `astro.config.mjs` from the same file: a name one person bears goes
+to that person's page; a name several bear goes to its first bearer's page at `#others-of-this-name` (the earliest born who is not
+living, else slug order; a name only living people bear goes to the first of them, with no fragment). `/who/` ("Every Name") is still
+an alphabetical list of names and links each to the person page(s) of that name. What still has a page under `/who/` is a name the
+archive only READ in a register act (`site/src/data/read-names.json`): no person page exists to send it to.
+`npm run check:namesakes` (`tools/checknamesakes.py`, with its own planted faults) derives the sets again from the built person pages
+and fails when a page's list is not exactly the other bearers of its name, when an old address lands nowhere or on the wrong section,
+or when `/who/` links a name page.
+
 ## Running it
 
 ```bash

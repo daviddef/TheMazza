@@ -1,27 +1,35 @@
 ---
-/* Every name in the archive, and how many people bore it. */
+/* Every name in the archive, and how many people bore it. One page per person (23 November 2026): a name no longer has a page of its
+   own, so each entry here goes straight to the person page(s) of that name: one link for a name one person bears, and every bearer
+   listed for a name several people bear. The names READ from register acts and held in no family file keep a page each (below). */
 import Base from "../../layouts/Base.astro";
 import NameLists from "@daviddef/archive-kit/components/NameLists.astro";
 import EveryName from "@daviddef/archive-kit/components/EveryName.astro";
 import { u } from "../../lib/url.js";
-import people from "../../data/people.json";
 import readNames from "../../data/read-names.json";
+import { SETS, firstBearer, isShared, bearersOf, SECTION_ID } from "../../lib/namesakes.js";
+import { hasSection } from "../../lib/namesets.js";
 
-function slugify(s) {
-  return String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
-}
-
-const by = new Map();
-for (const p of people) {
-  if (!p.name) continue;
-  const k = slugify(p.name);
-  if (!by.has(k)) by.set(k, { name: p.name, n: 0 });
-  by.get(k).n += 1;
-}
-const names = [...by.entries()].map(([slug, v]) => ({ slug, ...v }))
-  .sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
-const shared = names.filter(n => n.n > 1);
+const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+const names = [...SETS.values()].map((s) => {
+  const first = firstBearer(s);
+  return {
+    slug: s.key, name: s.name, n: s.people.length,
+    href: u(`/people/${first.slug}/`) + (hasSection(s, first) ? `#${SECTION_ID}` : ""),
+    /* every bearer of a shared name, each a link to that person's own page, told apart by the years of their life and the place; a living
+       person is "a living person" and their town and nothing more */
+    detail: isShared(s)
+      ? bearersOf(s).map((b) => {
+          const text = b.living ? "a living person" : (b.life ? esc(b.life) : "no dates");
+          return `<a href="${esc(b.href)}">${esc(b.name)}</a> <span class="cap">${text}${b.where ? ", " + esc(b.where) : ""}</span>`;
+        }).join("<br>")
+      : "",
+  };
+}).sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
+const shared = names.filter((n) => n.n > 1);
+/* EveryName draws each name as a link to /who/<slug>/; hand it the person page instead */
+const hrefOf = new Map(names.map((n) => [`/who/${n.slug}/`, n.href]));
+const toPerson = (p) => hrefOf.get(p) ?? u(p);
 /* names read from register acts, in no family file: n is the number of ACTS, not of people */
 const read = readNames.names.map((r) => ({
   slug: r.slug, name: r.name, n: r.records.length,
@@ -30,13 +38,13 @@ const read = readNames.names.map((r) => ({
 ---
 <Base title="Every Name"
       eyebrow={`${names.length} names · ${shared.length} held by more than one person · ${read.length} more read from the registers`}
-      dek="A name is not a person. This is every name in the archive, and how many different people bore it — and, below it, the names the registers give that no family file holds.">
+      dek="A name is not a person. This is every name in the archive, and how many different people bore it. Each links to the person: a name more than one person bears lists them all — and, below it, the names the registers give that no family file holds.">
 
 <NameLists here="who" u={u} />
 
 
   <section class="blk">
-    <EveryName names={names} u={u} />
+    <EveryName names={names} u={toPerson} detailLabel="Everyone of this name" />
   </section>
 
   <section class="blk" id="read">

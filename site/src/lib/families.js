@@ -33,6 +33,7 @@
  * `living` on each row; nothing in this file decides it.
  */
 import people from "../data/people.json";
+import { byAge, SECTION_ID } from "./namesets.js";
 import quarters from "../data/quarters.json";
 import walls from "../data/walls.json";
 import questions from "../data/questions.json";
@@ -279,8 +280,10 @@ export function buildFamily(spec) {
   }
   const sharedNames = [...byName.values()].filter((l) => l.length > 1)
     .sort((a, b) => b.length - a.length || a[0].name.localeCompare(b[0].name))
+    /* ONE PAGE PER PERSON (23 November 2026): a name has no page of its own. The link goes to the oldest of this family's people of the
+       name, at the section of that page that lists everyone else who carries it (none of them is living: `dead`). */
     .map((l) => ({ name: l[0].name, n: l.length,
-      who: "/who/" + String(l[0].name).normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase() + "/" }));
+      who: "/people/" + l.slice().sort(byAge)[0].slug + "/#" + SECTION_ID }));
 
   /* ---- what the archive's own research files already say ------------------------ */
   const re = wordRe(names);

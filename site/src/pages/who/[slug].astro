@@ -1,55 +1,33 @@
 ---
-/* One page per NAME. /people/<person> is one human; this is everyone who bore
-   the name, and the two link to each other. */
+/* ONE PAGE PER PERSON (23 November 2026). A name this archive holds a person for has no page of its own any more: the person's page is
+   /people/<slug>/, it lists the other people who carry the same name, and the old address /who/<name>/ is a static redirect to it
+   (astro.config.mjs, from lib/namesets.js: one bearer -> that person's page, a shared name -> its first bearer's page at
+   #others-of-this-name).
+
+   What is still drawn here is the NAME PAGE of a person READ from register acts who is in no family file (src/data/read-names.json,
+   tools/read_names.py): there is no person page to send it to, and this page says where the name was read and never says two
+   acts are one man or one woman. */
 import Base from "../../layouts/Base.astro";
-import Namesakes from "@daviddef/archive-kit/components/Namesakes.astro";
 import ReadName from "../../components/ReadName.astro";
 import { u } from "../../lib/url.js";
-import people from "../../data/people.json";
-/* People READ from register acts who are in no family file (tools/read_names.py, data/read-names.tsv): one name
-   page each, built from the act they were read in. None of these names is borne by anyone in people.json. */
 import readNames from "../../data/read-names.json";
+import people from "../../data/people.json";
+import { SETS } from "../../lib/namesakes.js";
+import { rawStubs } from "../../lib/namesets.js";
 
 export function getStaticPaths() {
-  const slugify = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^A-Za-z0-9]+/g, "-").replace(/^-+|-+$/g, "").toLowerCase();
-  const by = new Map();
-  for (const p of people) {
-    if (!p.name || !p.slug) continue;
-    const k = slugify(p.name);
-    if (!by.has(k)) by.set(k, { name: p.name, rows: [] });
-    by.get(k).rows.push(p);
-  }
+  /* a read name whose slug a person's name already has would be a redirect, not a page here (check_read_names.py forbids it) */
   return [
-    ...[...by.entries()].map(([slug, v]) => ({ params: { slug }, props: v })),
-    ...readNames.names.map((n) => ({ params: { slug: n.slug }, props: { name: n.name, rows: [], read: n } })),
+    ...readNames.names.filter((n) => !SETS.has(n.slug)).map((n) => ({ params: { slug: n.slug }, props: { name: n.name, read: n } })),
+    /* a redirect Astro's own `redirects` would write percent-encoded (see rawStubs in lib/namesets.js) */
+    ...rawStubs(people).map((t) => ({ params: { slug: t.key }, props: { stub: t.to } })),
   ];
 }
 
-const { name, rows, read = null } = Astro.props;
-const listed = rows.map(p => ({
-  name: p.name, slug: p.slug,
-  /* A register-proved person's dates are usually a BOUND, so born/died are
-     null and this read «no dates recorded» — on a page whose entire job is
-     telling namesakes apart. There are two Rosario Nicotras now: the child of
-     1883 in the family's file, and his grandfather's generation, a bracciante
-     of Mascali whom an act of 7 October 1872 places alive on that day. Saying
-     «no dates recorded» of the second one throws away the better of the two
-     facts that distinguish them. */
-  life: [p.born, p.died].filter(Boolean).join(" – ")
-        || [p.bornText, p.diedText].filter(Boolean).join(" – "),
-  /* A LIVING PERSON SHOWS THEIR TOWN AND COUNTRY, as on their own page: the estate
-     standard is name, relationship, town and country (David, 16 October 2026). Their
-     dates are not in the data; the page below is noindex when no bearer of the name is
-     anyone else. */
-  where: p.birthPlace || p.deathPlace || p.burialPlace || "",
-}));
-/* A name page whose every bearer is living says nothing a search engine should
-   hold: it is noindex, so it is out of the sitemap and the search index, and it names
-   no canonical elsewhere. */
-const allHidden = rows.length > 0 && rows.every((p) => p.living);
+const { name, read, stub } = Astro.props;
+const site = "https://mazza.defranceski.com";
 ---
-{read ? (
+{stub ? (<><title>Redirecting to: {stub}</title><meta http-equiv="refresh" content={`0;url=${stub}`}><meta name="robots" content="noindex"><link rel="canonical" href={site + stub}></>) : (
 <Base title={name}
       eyebrow="A name read from the registers"
       dek={`${name} is in a register act and in no family file here. This page says where the name was read.`}>
@@ -57,20 +35,6 @@ const allHidden = rows.length > 0 && rows.every((p) => p.living);
     <ReadName name={name} aliases={read.aliases} records={read.records} pages={readNames.pages} />
     <p class="dek" style="margin-top:1.6rem">A name is not a person. This page does not say that the acts above
     are one man or one woman — see <a href={u("/method/#ladder")}>how this archive grades what it says</a>.</p>
-  </section>
-</Base>
-) : (
-<Base title={name}
-      noindex={allHidden}
-      eyebrow={rows.length > 1 ? `${rows.length} people of this name` : "One person of this name"}
-      dek={rows.length > 1
-        ? `${rows.length} different people in this archive were called ${name}. This page tells them apart.`
-        : `Everyone in this archive called ${name}.`}>
-  <section class="blk">
-    <Namesakes name={name} people={listed} base={u("/")} />
-    <p class="dek" style="margin-top:1.6rem">A name is not a person. Every entry above has its own
-    page, because they are different people — see <a href={u("/method/#ladder")}>how this archive
-    grades what it says</a>.</p>
   </section>
 </Base>
 )}
