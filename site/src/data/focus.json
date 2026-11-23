@@ -2938,8 +2938,8 @@
     "earliest": 1751,
     "latest": 1937,
     "towns": [
-     "Scilla, Reggio Calabria",
      "Scilla",
+     "Scilla, Reggio Calabria",
      "Brisbane, Queensland, Australia"
     ],
     "component": 1,
@@ -3178,7 +3178,7 @@
        "Scilla, Nati 1839 atto 85, read in the original (image 45)"
       ],
       "living": false,
-      "birthPlace": "",
+      "birthPlace": "Scilla",
       "comp": 0
      },
      {
@@ -3804,7 +3804,7 @@
        "Antenati name index, Scilla deaths: «Teresa Arena, Morte: Scilla 27/08/1943, Padre Giuseppe, Madre Serafina Vita, Coniuge Gaetano Cosentino»"
       ],
       "living": false,
-      "birthPlace": "",
+      "birthPlace": "Scilla",
       "comp": 0
      },
      {

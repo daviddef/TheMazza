@@ -42150,7 +42150,7 @@
     "tag": "BIRT",
     "date": "c. 1801",
     "year": 1801,
-    "place": "",
+    "place": "Scilla",
     "text": "c. 1801"
    },
    {
@@ -42162,7 +42162,7 @@
     "text": "before 23 January 1881"
    }
   ],
-  "birthPlace": "",
+  "birthPlace": "Scilla",
   "deathPlace": "",
   "burialPlace": "",
   "trade": "",
@@ -53156,6 +53156,14 @@
   "diedText": "2 June 1918",
   "events": [
    {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Scilla",
+    "text": ""
+   },
+   {
     "what": "died",
     "tag": "DEAT",
     "date": "2 June 1918",
@@ -53164,7 +53172,7 @@
     "text": "2 June 1918"
    }
   ],
-  "birthPlace": "",
+  "birthPlace": "Scilla",
   "deathPlace": "",
   "burialPlace": "",
   "trade": "",
@@ -53362,7 +53370,7 @@
     "tag": "BIRT",
     "date": "4 June 1839",
     "year": 1839,
-    "place": "",
+    "place": "Scilla",
     "text": "4 June 1839"
    },
    {
@@ -53374,7 +53382,7 @@
     "text": "27 March 1925"
    }
   ],
-  "birthPlace": "",
+  "birthPlace": "Scilla",
   "deathPlace": "",
   "burialPlace": "",
   "trade": "",
@@ -54770,7 +54778,7 @@
     "tag": "BIRT",
     "date": "c. 1798",
     "year": 1798,
-    "place": "",
+    "place": "Scilla",
     "text": "c. 1798"
    },
    {
@@ -54782,7 +54790,7 @@
     "text": "before 23 January 1881"
    }
   ],
-  "birthPlace": "",
+  "birthPlace": "Scilla",
   "deathPlace": "",
   "burialPlace": "",
   "trade": "marinaro (sailor)",
@@ -68856,6 +68864,14 @@
   "diedText": "27 August 1943",
   "events": [
    {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "",
+    "year": null,
+    "place": "Scilla",
+    "text": ""
+   },
+   {
     "what": "died",
     "tag": "DEAT",
     "date": "27 August 1943",
@@ -68864,7 +68880,7 @@
     "text": "27 August 1943"
    }
   ],
-  "birthPlace": "",
+  "birthPlace": "Scilla",
   "deathPlace": "",
   "burialPlace": "",
   "trade": "",
