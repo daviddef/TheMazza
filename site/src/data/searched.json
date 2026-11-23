@@ -29921,5 +29921,43 @@
    "Morabito"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-antenati-san-giovanni-nati-1844-1849-the-nicotra-entries-giuseppe-1845-and-sebastiano-1847-found-ab7f9a",
+  "status": "done",
+  "when": "2026-11-23",
+  "source": "Antenati - San Giovanni (restaurazione) Nati 1844-1849 (an_ua19994302 to an_ua19994307; Tavola N sections, acts 92 of 1845 and 119 of 1847 opened)",
+  "scope": "The N section of each annual Tavola for any further child of Rosario Nicotra and Venera Murabito in the gap between Maria (1842) and Giovanna (Macchia, 1850); the two entries naming them opened at the image. Not read: the other Nicotra acts, the 1841 supplement, the Matrimoni and Morti.",
+  "result": "Two further children found, Giuseppe (29 October 1845, act 92) and Sebastiano (21 December 1847, act 119); none in 1844, 1846, 1848 or 1849 (terms typed: Nicotra; Nucifora and Nicora are near-names, not counted). The acts are headed Comune di Giarre: San Giovanni is the Giarre quartieri register.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19994302/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994302/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994307/"
+  ],
+  "tags": [
+   "Nicotra",
+   "Murabito"
+  ],
+  "for": [
+   [
+    "/people/giuseppe-nicotra-1845/",
+    "Giuseppe Nicotra"
+   ],
+   [
+    "/people/sebastiano-nicotra/",
+    "Sebastiano Nicotra"
+   ]
+  ],
+  "ev": [
+   [
+    "/people/giuseppe-nicotra-1845/",
+    "Giuseppe Nicotra"
+   ],
+   [
+    "/people/sebastiano-nicotra/",
+    "Sebastiano Nicotra"
+   ]
+  ]
  }
 ]

@@ -1,11 +1,11 @@
 {
- "individuals": 933,
- "kept": 683,
+ "individuals": 935,
+ "kept": 685,
  "living": 220,
  "living_policy": "omit",
  "undated_dropped": 52,
  "birth_year_estimated": 309,
- "death_year_estimated": 504,
+ "death_year_estimated": 506,
  "placed_from_relative": 55,
  "dropped_unplaced": 18,
  "unresolved_places": {
@@ -46,9 +46,9 @@
   }
  },
  "people_json": {
-  "in_file": 1065,
+  "in_file": 1067,
   "living_not_read": 132,
-  "not_living_read": 933
+  "not_living_read": 935
  },
  "canvas_extras": {
   "undrawn_detailed": 26,
@@ -59,7 +59,7 @@
   "placeholders": 33
  },
  "catalogue": {
-  "people_coloured_by_a_catalogued_family": 277,
+  "people_coloured_by_a_catalogued_family": 279,
   "catalogue_families_present": [
    "cassaniti",
    "casuscelli",
@@ -79,7 +79,7 @@
    {
     "name": "Nicotra",
     "from_catalogue": true,
-    "people": 102
+    "people": 104
    },
    {
     "name": "Mazza",

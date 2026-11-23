@@ -2686,6 +2686,20 @@
     "slug": "maria-nicotra-1842-2",
     "living": false,
     "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-10@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1845",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsebastiano-nicotra@",
+    "name": "Sebastiano Nicotra",
+    "slug": "sebastiano-nicotra",
+    "living": false,
+    "via": "read"
    }
   ],
   "place": "Giarre",
@@ -2943,6 +2957,20 @@
     "id": "@Rmaria-nicotra-9@",
     "name": "Maria Nicotra",
     "slug": "maria-nicotra-1842-2",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rgiuseppe-nicotra-10@",
+    "name": "Giuseppe Nicotra",
+    "slug": "giuseppe-nicotra-1845",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rsebastiano-nicotra@",
+    "name": "Sebastiano Nicotra",
+    "slug": "sebastiano-nicotra",
     "living": false,
     "via": "read"
    }
