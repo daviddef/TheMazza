@@ -30157,5 +30157,26 @@
    "Morabito"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-antenati-san-giovanni-nati-1822-1830-tavole-murabito-nicotra-c83da0",
+  "status": "part",
+  "when": "2026-11-23",
+  "source": "Antenati - San Giovanni (restaurazione) Nati 1822-1829 (an_ua19994279 to 286): the Tavole read for Nicotra, Murabito, Musumeci and Daidone; 1830 (an_ua19994287) has no Tavola",
+  "scope": "Looking for births of Murabito children (Salvadore and Sebastiana Spina) and of Rosario Nicotra's brothers and sisters (Simone and Marianna Daidone). Terms typed: Nicotra, Murabito, Morabito, Musumeci, Daidone. The acts were not opened; the Tavola is by first letter only. 1830 not walked.",
+  "result": "No Murabito birth and no child of Simone and Marianna in 1822-1829, as expected: the children were born before 1820 (parish records only). Nicotra entries of other households noted as leads. Mascali Morti 1894 and 1900: no volume digitised.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19994279/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994279/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19994287/"
+  ],
+  "tags": [
+   "Nicotra",
+   "Murabito",
+   "Daidone",
+   "Morabito"
+  ],
+  "nobody": true
  }
 ]
