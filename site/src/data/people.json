@@ -41460,9 +41460,9 @@
   "living": false,
   "fromRegister": true,
   "born": null,
-  "died": null,
+  "died": 1836,
   "bornText": "",
-  "diedText": "",
+  "diedText": "2 February 1836",
   "events": [
    {
     "what": "born",
@@ -41471,6 +41471,14 @@
     "year": null,
     "place": "Scilla",
     "text": ""
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "2 February 1836",
+    "year": 1836,
+    "place": "",
+    "text": "2 February 1836"
    }
   ],
   "birthPlace": "Scilla",
@@ -41480,9 +41488,10 @@
   "sources": [],
   "registerSources": [
    "Scilla, Matrimoni 1828 atto 28",
-   "Scilla, Morti 1823 atto 27"
+   "Scilla, Morti 1823 atto 27",
+   "Scilla, Morti 1836 Tavola (image 59, row 99)"
   ],
-  "registerNote": "GIOVANNI ARLOTTA'S MOTHER, and ALIVE at her son's wedding on 30 August 1828 -- «domiciliata ivi», where her husband is «fu». A name this archive has never held. She is Serafina Arlotta's grandmother and a great-great-great-great-great-grandmother of the two children. BARBARO is a Scilla surname in its own right -- an Antonio Barbaro marries there the following year. HER HUSBAND'S DEATH ACT NOW FOUND: Domenico Arlotta died 17 March 1823 aged ninety-five, «vedovo di Francesca Paladino, e marito di Anna Barbaro» (Morti 1823 atto 27, read at the image), so she was his second wife and a widow by 1823; the 1828 act's «domiciliata ivi» is hers. Her own age and parents are not given there.",
+  "registerNote": "GIOVANNI ARLOTTA'S MOTHER, and ALIVE at her son's wedding on 30 August 1828 -- «domiciliata ivi», where her husband is «fu». A name this archive has never held. She is Serafina Arlotta's grandmother and a great-great-great-great-great-grandmother of the two children. BARBARO is a Scilla surname in its own right -- an Antonio Barbaro marries there the following year. HER HUSBAND'S DEATH ACT NOW FOUND: Domenico Arlotta died 17 March 1823 aged ninety-five, «vedovo di Francesca Paladino, e marito di Anna Barbaro» (Morti 1823 atto 27, read at the image), so she was his second wife and a widow by 1823; the 1828 act's «domiciliata ivi» is hers. Her own age and parents are not given there. HER DEATH FOUND IN THE TAVOLA, 25 Nov 2026: Scilla Morti 1836 (an_ua2002711), the Tavola on the last image (59), under V: «Varbaro Anna», patria Scilla, «Ved.a Dom.co Arlotta», 2 Febb., no age given, read at three crops. The widowhood and the husband's name agree with Domenico Arlotta's death act of 1823 (she was his second wife). ONLY THE TAVOLA IS READ: the act itself (an early-February act of 1836, probably images 4-8) has not been opened, so her age, parents and the declarants are not known. Read earlier years 1829-1835 (Tavola A/B and V pages only) for her: no widow of Domenico Arlotta, but a Varbaro Anna (1833, daughter of Giovanni and Briganti) and Varbaro Anna Maria (1833, 1834) are other women.",
   "registerGen": "8",
   "photos": [],
   "parents": [],
