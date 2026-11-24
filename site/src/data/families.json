@@ -1777,7 +1777,7 @@
   "n": 1,
   "dead": 1,
   "living": 0,
-  "first": 1836,
+  "first": 1760,
   "last": 1836,
   "places": [
    "Scilla"
@@ -1946,6 +1946,17 @@
   "last": null,
   "places": [
    "Giarre"
+  ]
+ },
+ {
+  "surname": "Varbaro",
+  "n": 1,
+  "dead": 1,
+  "living": 0,
+  "first": null,
+  "last": null,
+  "places": [
+   "Scilla"
   ]
  },
  {

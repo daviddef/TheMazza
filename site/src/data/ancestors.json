@@ -1527,9 +1527,9 @@
      "slug": "anna-barbaro",
      "name": "Anna Barbaro",
      "surname": "Barbaro",
-     "born": null,
+     "born": 1760,
      "died": 1836,
-     "bornText": "",
+     "bornText": "c. 1760",
      "diedText": "2 February 1836",
      "fromRegister": true,
      "registerSources": [
@@ -1839,7 +1839,7 @@
   {
    "gen": 9,
    "possible": 512,
-   "found": 8,
+   "found": 9,
    "people": [
     {
      "id": "@Rarlotta-antonio@",
@@ -1972,12 +1972,29 @@
      "living": false,
      "birthPlace": "Scilla",
      "comp": 0
+    },
+    {
+     "id": "@Rdomenico-varbaro@",
+     "slug": "domenico-varbaro",
+     "name": "Domenico Varbaro",
+     "surname": "Varbaro",
+     "born": null,
+     "died": null,
+     "bornText": "",
+     "diedText": "before 2 February 1836",
+     "fromRegister": true,
+     "registerSources": [
+      "Scilla, Morti 1836 atto 9 (an_ua2002711, image 7)"
+     ],
+     "living": false,
+     "birthPlace": "Scilla",
+     "comp": 0
     }
    ],
    "towns": [
     {
      "name": "Scilla",
-     "n": 6
+     "n": 7
     },
     {
      "name": "Briatico, Vibo Valentia, Calabria",
@@ -2029,6 +2046,6 @@
    ]
   }
  ],
- "total": 111,
+ "total": 112,
  "deepest": 10
 }

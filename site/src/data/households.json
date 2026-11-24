@@ -444,6 +444,23 @@
   "born": 1760
  },
  {
+  "name": "Anna Barbaro",
+  "head": "anna-barbaro",
+  "headId": "@Ranna-barbaro@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Rgiovanni-arlotta@",
+    "name": "Giovanni Arlotta",
+    "slug": "giovanni-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
+  "born": 1760
+ },
+ {
   "name": "Nunzia Galli",
   "head": "nunzia-galli",
   "headId": "@Rnunzia-galli@",
@@ -12739,23 +12756,6 @@
   "born": null
  },
  {
-  "name": "Anna Barbaro",
-  "head": "anna-barbaro",
-  "headId": "@Ranna-barbaro@",
-  "spouse": null,
-  "children": [
-   {
-    "id": "@Rgiovanni-arlotta@",
-    "name": "Giovanni Arlotta",
-    "slug": "giovanni-arlotta",
-    "living": false,
-    "via": "read"
-   }
-  ],
-  "place": "Scilla",
-  "born": null
- },
- {
   "name": "Anna Castorina",
   "head": "anna-castorina",
   "headId": "@Ranna-castorina@",
@@ -13139,6 +13139,23 @@
    }
   ],
   "place": "Mascali",
+  "born": null
+ },
+ {
+  "name": "Domenico Varbaro",
+  "head": "domenico-varbaro",
+  "headId": "@Rdomenico-varbaro@",
+  "spouse": null,
+  "children": [
+   {
+    "id": "@Ranna-barbaro@",
+    "name": "Anna Barbaro",
+    "slug": "anna-barbaro",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "place": "Scilla",
   "born": null
  },
  {
