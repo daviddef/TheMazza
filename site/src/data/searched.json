@@ -30734,5 +30734,40 @@
    "Mazza"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-giarre-nati-1886-margin-walk-mazza-marza-c05fba",
+  "status": "part",
+  "when": "2026-11-25",
+  "source": "Antenati, Giarre Stato civile italiano, Nati 1886 (an_ua80932, 171 images): images 3-166, acts 1-439 and the rectifications N.1-9",
+  "scope": "Terms typed: Mazza, Marza, Marra and Massa (the last two decided per record), also Mezza and Muzza. Whether a child named Mazza or Marza was born at Giarre in 1886, a year whose annual index is nearly empty. Walked by the child's surname in the margin of every act, both pages of every image, by a delegated reader with every M-surname and every doubtful name zoomed; the act bodies were not read, so a Mazza MOTHER is not covered.",
+  "result": "No Mazza, Marza, Marra, Massa, Mezza, Muzza, Mazzone or Marzone child. The M surnames were Musumeci, Messina, Mangano, Mignemi, Milazzo, Misiano, Morello, Mercurio, Marano (seven acts, read with an r), Maccarrone (act 202, no z-loops) and Maccherone (378, 384). Act 301 has no margin entry (298-300 and 302-304 are clear, so the register skips the number or the act is elsewhere); black masks hide a half page on about ten images but each act was clear on the next image. Covers acts 1-439 except 301; not a nil for mothers or for the margin marriage notes.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua80932/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua80932/"
+  ],
+  "tags": [
+   "Mazza"
+  ],
+  "nobody": true
+ },
+ {
+  "key": "src/antenati-giarre-nati-1889-supplement-and-1890-parte-ii-late-registrations-mazza-marza-593100",
+  "status": "part",
+  "when": "2026-11-25",
+  "source": "Antenati, Giarre Stato civile italiano, Nati 1889 supplement (an_ua80936, 35 images, tardy registrations N.17-76) and 1890 Parte II (an_ua80938, 16 images, N.25-47)",
+  "scope": "Terms typed: Mazza, Marza, Marra and Massa (the last two decided per record), also Mezza and Muzza. Whether a child named Mazza or Marza is entered among the late registrations of 1889 and 1890 at Giarre, which have no index. Walked by the child's surname in the margin of every act, both pages of every image, by a delegated reader with every M-surname and every doubtful name zoomed; the act bodies were not read, so a Mazza MOTHER is not covered.",
+  "result": "No Mazza, Marza, Marra, Massa, Mezza, Muzza, Mazzone or Marzone child in either volume. M surnames were Marano (N.40 of 1889), Monforte, Musumeci (N.75 and, in 1890, N.35, 37 and 43), Messina and Militano; a Marano appears only as a mother's surname (N.62 of 1889). The 1889 supplement starts at N.17, so N.1-16 are not in this volume, and the 1890 register covers N.25-47 only, so the earlier entries are elsewhere. Covers N.17-76 of 1889 and N.25-47 of 1890; not a nil for mothers.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua80936/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua80936/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua80938/"
+  ],
+  "tags": [
+   "Mazza"
+  ],
+  "nobody": true
  }
 ]
