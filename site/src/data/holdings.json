@@ -1184,9 +1184,9 @@
    "from": 1810,
    "to": 1815,
    "volumes": 4,
-   "bought": 0,
-   "indexed": 0,
-   "noindex": 0
+   "bought": 4,
+   "indexed": 2,
+   "noindex": 2
   },
   {
    "comune": "Scilla, Reggio Calabria",
@@ -1301,9 +1301,9 @@
  ],
  "total": {
   "volumes": 2613,
-  "bought": 1301,
-  "indexed": 49,
-  "noindex": 12,
+  "bought": 1305,
+  "indexed": 51,
+  "noindex": 14,
   "comuni": 8
  },
  "named": [

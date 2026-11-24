@@ -30988,5 +30988,22 @@
    "Mazza"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-scilla-nati-1810-1811-1812-1815-napoleonic-volumes-which-end-in-an-index-fafc25",
+  "status": "part",
+  "when": "2026-11-25",
+  "source": "Antenati, Archivio di Stato di Reggio Calabria, Stato civile napoleonico, Scilla, Nati 1810, 1811, 1812 and 1815 (an_ua2093406, 2093411, 2093413, 2093417)",
+  "scope": "No name searched: the last three images of each of the four Napoleonic birth volumes were opened as thumbnails of 480 px to see whether an index ends the volume. This finishes the map of the Scilla Nati volumes begun in the 1816-1865 row of the same day.",
+  "result": "1810 ends in a forename-ordered index by letter (103 images). 1812 ends in a forename-ordered list of the year with parents and dates, worm-eaten (106 images). 1811 (83 images) and 1815 (100 images) end in acts and have no index at the end. Containers and image counts are now in data/scilla-arks.tsv for all Scilla Nati 1810-1865. Layout only: the indexes were not read for any name.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2093406/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2093406/"
+  ],
+  "tags": [
+   "Mazza"
+  ],
+  "nobody": true
  }
 ]
