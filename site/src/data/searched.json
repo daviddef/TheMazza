@@ -30769,5 +30769,23 @@
    "Mazza"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-scilla-morti-1866-acts-12-138-143-186-all-four-arlotta-entries-read-8e2a95",
+  "status": "done",
+  "when": "2026-11-25",
+  "source": "Antenati, Scilla Stato civile italiano, Morti 1866 (an_ua16601177, 54 images): act 12 (image 43), act 138 (image 23), act 143 (images 24-25), act 186 (image 34); and the annual index, image 52",
+  "scope": "Terms typed: Arlotta, Arlotto, Orlotta. Whether the Arlotta entries of the 1866 death index include Giovanni Arlotta, son of Domenico and Anna Varbaro, last seen alive on 23 July 1865. Each of the four index entries after the first was opened at its act and the act text read at the image. Corrects the earlier 1866 row, which took acts 1-48 to be missing: they are bound after the main run, at images 40-51.",
+  "result": "Act 12 is Giovanni Arlotta, son of Giuseppe and Domenica Pizzarelli, d. 16 January 1866 aged 18: not this Giovanni. Act 138 is Rocco, 26 months, and act 143 Teresa, 7 months, children of Gaetano Arlotta and Rosa Bellantoni, d. 8 and 14 October 1866. Act 186 is Antonio, 4 months, son of Giuseppe, d. 7 December 1866. Act 1 (Rocco Arlotta, 1 January) was not read. Giovanni son of Domenico is not in the Scilla Morti of 1866. Covers the Arlotta entries of the 1866 index; 1867 onward is not read in this pass.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua16601177/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua16601177/"
+  ],
+  "tags": [
+   "Arlotta",
+   "Domenica"
+  ],
+  "nobody": true
  }
 ]
