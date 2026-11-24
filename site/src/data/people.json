@@ -44059,6 +44059,75 @@
   "ancGen": null
  },
  {
+  "id": "@Rarlotta-antonio-2@",
+  "slug": "arlotta-antonio-1834",
+  "name": "Arlotta, Antonio",
+  "key": "Arlotta, Antonio (Serafina's brother, d. 1865)",
+  "given": "Arlotta,",
+  "surname": "Antonio",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1834,
+  "died": 1865,
+  "bornText": "2 October 1834",
+  "diedText": "23 July 1865",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "2 October 1834",
+    "year": 1834,
+    "place": "Scilla",
+    "text": "2 October 1834"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "23 July 1865",
+    "year": 1865,
+    "place": "",
+    "text": "23 July 1865"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "marinaro (sailor)",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1834 atto 163",
+   "Morti 1865 atto 136 (an_ua2002795, image 78, left page",
+   "Tavola 1865 entry 136 on image 155)"
+  ],
+  "registerNote": "SERAFINA ARLOTTA'S BROTHER, ENTIRELY ABSENT FROM THE FAMILY TREE, and a fourth child of Giovanni Arlotta and Maria Costa (after Serafina 1830, Giuseppe Antonio 1833, and Anna and Domenico who are known only from their deaths). He died at Scilla at three in the night of 23 July 1865, aged thirty -- the act says so, and the birth act agrees to within a few months -- a marinaro, son of «Giovanni, marinaro» and Maria Costa, both living (no «fu» before either name). It was declared on the 24th by Francesco Santafenia (67) and Santo Giacobbe (47), both beccai. He is the seventh child of the Arlotta household this archive has opened, found by reading the A section of the 1865 death Tavola. Read at the image 24 Nov 2026.",
+  "registerGen": "6",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rgiovanni-arlotta@",
+    "name": "Giovanni Arlotta",
+    "slug": "giovanni-arlotta",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rmaria-costa@",
+    "name": "Maria Costa",
+    "slug": "maria-costa",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rarlotta-antonio@",
   "slug": "arlotta-antonio",
   "name": "Arlotta, Antonio",
@@ -48794,6 +48863,75 @@
   "ancGen": 7
  },
  {
+  "id": "@Rfilippo-arena-4@",
+  "slug": "filippo-arena-1865",
+  "name": "Filippo Arena",
+  "key": "Filippo Arena (b. 1865, an infant)",
+  "given": "Filippo",
+  "surname": "Arena",
+  "sex": "",
+  "living": false,
+  "fromRegister": true,
+  "born": 1865,
+  "died": 1865,
+  "bornText": "22 May 1865",
+  "diedText": "12 August 1865",
+  "events": [
+   {
+    "what": "born",
+    "tag": "BIRT",
+    "date": "22 May 1865",
+    "year": 1865,
+    "place": "Scilla",
+    "text": "22 May 1865"
+   },
+   {
+    "what": "died",
+    "tag": "DEAT",
+    "date": "12 August 1865",
+    "year": 1865,
+    "place": "",
+    "text": "12 August 1865"
+   }
+  ],
+  "birthPlace": "Scilla",
+  "deathPlace": "",
+  "burialPlace": "",
+  "trade": "",
+  "sources": [],
+  "registerSources": [
+   "Scilla, Nati 1865 atto 101",
+   "Morti 1865 atto 156 (an_ua2002795, image 89, left page",
+   "Tavola 1865 entry 156 on image 155)"
+  ],
+  "registerNote": "ROCCO ARENA'S YOUNGEST KNOWN SIBLING, BORN AND DEAD IN ONE SUMMER. Aged «mesi tre» in his death act, at four in the afternoon of 12 August 1865, son of Antonio, marinaro, and Serafina Arlotta; declared on the 13th. He carries the name of his brother Filippo, born 14 February 1852 (the row above), which suggests the elder Filippo was already dead, but his death has not been read and is not claimed. Rocco, born December 1861, was three and a half. Found by reading the A sections of the 1865 birth and death Tavole. Read at the image 24 Nov 2026.",
+  "registerGen": "5",
+  "photos": [],
+  "parents": [
+   {
+    "id": "@Rfrancesco-antonio-arena@",
+    "name": "Francesco Antonio Arena",
+    "slug": "francesco-antonio-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rserafina-arlotta@",
+    "name": "Serafina Arlotta",
+    "slug": "serafina-arlotta",
+    "living": false,
+    "via": "read"
+   }
+  ],
+  "children": [],
+  "spouses": [],
+  "siblings": [],
+  "records": [],
+  "corrections": [],
+  "onSpine": false,
+  "ancGen": null
+ },
+ {
   "id": "@Rfilippo-arena-2@",
   "slug": "filippo-arena-1830",
   "name": "Filippo Arena",
@@ -49608,6 +49746,13 @@
     "id": "@I247@",
     "name": "Giovanni Arena",
     "slug": "giovanni-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippo-arena-4@",
+    "name": "Filippo Arena",
+    "slug": "filippo-arena-1865",
     "living": false,
     "via": "read"
    }
@@ -51852,9 +51997,11 @@
    "Scilla, Nati 1854 atto 76",
    "Matrimoni 1851 atto 13",
    "Nati 1830 atto 2",
-   "Scilla, Matrimoni 1828 atto 28"
+   "Scilla, Matrimoni 1828 atto 28",
+   "Nati 1834 atto 163",
+   "Morti 1865 atto 136"
   ],
-  "registerNote": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor. NOW IN THREE ACTS AND DATED: the marriage act of 1851, his daughter's birth act of 1830, and the birth act of 1854 in which he appears IN PERSON, aged seventy-five, to declare his grandson -- and which names HIS OWN FATHER, Domenico.",
+  "registerNote": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor. NOW IN THREE ACTS AND DATED: the marriage act of 1851, his daughter's birth act of 1830, and the birth act of 1854 in which he appears IN PERSON, aged seventy-five, to declare his grandson -- and which names HIS OWN FATHER, Domenico. ALIVE ON 23 JULY 1865: the death act of his son Antonio Arlotta (Morti 1865 atto 136) names «Giovanni, marinaro, domiciliato in Scilla» and Maria Costa with no «fu», and the A section of the 1865 death Tavola has no Giovanni Arlotta, so his own death is after 1865 (the Italian-era Scilla deaths) -- or at Scilla after August 1865. Read 24 Nov 2026.",
   "registerGen": "7",
   "photos": [],
   "parents": [
@@ -51899,6 +52046,13 @@
     "id": "@Rgiuseppe-antonio-arlotta@",
     "name": "Giuseppe Antonio Arlotta",
     "slug": "giuseppe-antonio-arlotta",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rarlotta-antonio-2@",
+    "name": "Arlotta, Antonio",
+    "slug": "arlotta-antonio-1834",
     "living": false,
     "via": "read"
    }
@@ -57323,7 +57477,8 @@
    "Scilla, Matrimoni 1851 atto 13",
    "Nati 1830 atto 2",
    "Scilla, Nati 1830 atto 89 read in the processetti of 1851",
-   "Scilla, Matrimoni 1828 atto 28"
+   "Scilla, Matrimoni 1828 atto 28",
+   "Nati 1834 atto 163 (aged thirty there)"
   ],
   "registerNote": "Giovanni Arlotta's wife. ENTIRELY ABSENT FROM THE FAMILY TREE. NOTE THE SURNAME: she is the SECOND Costa in this generation -- Filippo Arena's wife is Domenica Costa -- and their great-grandson Rocco married a THIRD, Generosa Costa. A Lorenzo Costa was also lodging with Rocco in New York in 1900. CONFIRMED TWICE, by the 1851 marriage act and the 1830 birth act.",
   "registerGen": "7",
@@ -57370,6 +57525,13 @@
     "id": "@Rgiuseppe-antonio-arlotta@",
     "name": "Giuseppe Antonio Arlotta",
     "slug": "giuseppe-antonio-arlotta",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rarlotta-antonio-2@",
+    "name": "Arlotta, Antonio",
+    "slug": "arlotta-antonio-1834",
     "living": false,
     "via": "read"
    }
@@ -68820,6 +68982,13 @@
     "id": "@I247@",
     "name": "Giovanni Arena",
     "slug": "giovanni-arena",
+    "living": false,
+    "via": "read"
+   },
+   {
+    "id": "@Rfilippo-arena-4@",
+    "name": "Filippo Arena",
+    "slug": "filippo-arena-1865",
     "living": false,
     "via": "read"
    }

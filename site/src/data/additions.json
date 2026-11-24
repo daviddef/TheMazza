@@ -115,15 +115,15 @@
   "name": "Giovanni Arlotta",
   "gen": "7",
   "born": "c. 1800",
-  "bornNote": "TWENTY-EIGHT at his own marriage on 30 August 1828. His daughter's birth act of 1830 makes him forty and his grandson's of 1854 makes him seventy-five -- three of his own declarations, twenty-one years apart. The marriage act is preferred: it is the one where age carried legal weight and it names his parents.",
+  "bornNote": "TWENTY-EIGHT at his own marriage on 30 August 1828. His daughter's birth act of 1830 makes him forty and his grandson's of 1854 makes him seventy-five -- three of his own declarations, twenty-one years apart. The marriage act is preferred: it is the one where age carried legal weight and it names his parents. A FOURTH DECLARATION, from 24 Nov 2026: in his son Antonio's birth act of 3 October 1834 (Scilla Nati 1834 atto 163) he gives his age as forty-five, which would make him born about 1789 -- eleven years older than the marriage act's twenty-eight. The stated ages (28 in 1828, 40 in 1830, 45 in 1834, 75 in 1854) do not agree with each other; the marriage act is still preferred, and the spread is the point.",
   "died": "—",
   "trade": "marinaro (sailor)",
   "father": "Domenico Arlotta",
   "mother": "Anna Barbaro",
   "inTree": "—",
   "place": "Scilla",
-  "source": "Scilla, Nati 1854 atto 76; Matrimoni 1851 atto 13; Nati 1830 atto 2; Scilla, Matrimoni 1828 atto 28",
-  "note": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor. NOW IN THREE ACTS AND DATED: the marriage act of 1851, his daughter's birth act of 1830, and the birth act of 1854 in which he appears IN PERSON, aged seventy-five, to declare his grandson -- and which names HIS OWN FATHER, Domenico."
+  "source": "Scilla, Nati 1854 atto 76; Matrimoni 1851 atto 13; Nati 1830 atto 2; Scilla, Matrimoni 1828 atto 28; Nati 1834 atto 163; Morti 1865 atto 136",
+  "note": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor. NOW IN THREE ACTS AND DATED: the marriage act of 1851, his daughter's birth act of 1830, and the birth act of 1854 in which he appears IN PERSON, aged seventy-five, to declare his grandson -- and which names HIS OWN FATHER, Domenico. ALIVE ON 23 JULY 1865: the death act of his son Antonio Arlotta (Morti 1865 atto 136) names «Giovanni, marinaro, domiciliato in Scilla» and Maria Costa with no «fu», and the A section of the 1865 death Tavola has no Giovanni Arlotta, so his own death is after 1865 (the Italian-era Scilla deaths) -- or at Scilla after August 1865. Read 24 Nov 2026."
  },
  {
   "name": "Maria Costa",
@@ -136,7 +136,7 @@
   "mother": "Pasqualina Idone",
   "inTree": "—",
   "place": "Scilla",
-  "source": "Scilla, Matrimoni 1851 atto 13; Nati 1830 atto 2; Scilla, Nati 1830 atto 89 read in the processetti of 1851; Scilla, Matrimoni 1828 atto 28",
+  "source": "Scilla, Matrimoni 1851 atto 13; Nati 1830 atto 2; Scilla, Nati 1830 atto 89 read in the processetti of 1851; Scilla, Matrimoni 1828 atto 28; Nati 1834 atto 163 (aged thirty there)",
   "note": "Giovanni Arlotta's wife. ENTIRELY ABSENT FROM THE FAMILY TREE. NOTE THE SURNAME: she is the SECOND Costa in this generation -- Filippo Arena's wife is Domenica Costa -- and their great-grandson Rocco married a THIRD, Generosa Costa. A Lorenzo Costa was also lodging with Rocco in New York in 1900. CONFIRMED TWICE, by the 1851 marriage act and the 1830 birth act."
  },
  {
@@ -7320,5 +7320,33 @@
   "place": "Scilla",
   "source": "Scilla, Morti 1823 atto 27",
   "note": "DOMENICO ARLOTTA'S FIRST WIFE, named as the woman he was «vedovo» of in his death act of 17 March 1823. NOT the mother of Giovanni Arlotta (that is Anna Barbaro, alive in 1828), so a half-line only. Paladino is the surname of the Donato line's Marta Paladino at Scilla; no link is claimed. Read 24 Nov 2026."
+ },
+ {
+  "name": "Arlotta, Antonio (Serafina's brother, d. 1865)",
+  "gen": "6",
+  "born": "2 October 1834",
+  "bornNote": "Scilla, Nati 1834 atto 163 (an_ua2002850, image 86, right page): born at eleven in the morning of 2 October 1834 in his parents' own house, registered on the 3rd at one in the afternoon, and baptised on the 3rd as Antonio Arlotta. Entry 3 of the 1834 Tavola gives the same day. His father Giovanni Arlotta, marinaro, appears in person and gives his own age as forty-five; his mother Maria Costa is thirty. Witnesses the doctor Giovanni Zagari (37) and Camillo Furfari.",
+  "died": "23 July 1865",
+  "trade": "marinaro (sailor)",
+  "father": "Giovanni Arlotta",
+  "mother": "Maria Costa",
+  "inTree": "—",
+  "place": "Scilla",
+  "source": "Scilla, Nati 1834 atto 163; Morti 1865 atto 136 (an_ua2002795, image 78, left page; Tavola 1865 entry 136 on image 155)",
+  "note": "SERAFINA ARLOTTA'S BROTHER, ENTIRELY ABSENT FROM THE FAMILY TREE, and a fourth child of Giovanni Arlotta and Maria Costa (after Serafina 1830, Giuseppe Antonio 1833, and Anna and Domenico who are known only from their deaths). He died at Scilla at three in the night of 23 July 1865, aged thirty -- the act says so, and the birth act agrees to within a few months -- a marinaro, son of «Giovanni, marinaro» and Maria Costa, both living (no «fu» before either name). It was declared on the 24th by Francesco Santafenia (67) and Santo Giacobbe (47), both beccai. He is the seventh child of the Arlotta household this archive has opened, found by reading the A section of the 1865 death Tavola. Read at the image 24 Nov 2026."
+ },
+ {
+  "name": "Filippo Arena (b. 1865, an infant)",
+  "gen": "5",
+  "born": "22 May 1865",
+  "bornNote": "Scilla, Nati 1865 atto 101 (an_ua2002943, image 53, right page): born at five in the afternoon of 22 May 1865 in his parents' house, declared on the 23rd by the midwife Cosima Bellantoni (67, levatrice), who names the mother as Serafina Arlotta, thirty-four (exact: she was born 13 June 1830) and the father as Antonio Arena, stated forty-three, marinaro (he was forty-five).",
+  "died": "12 August 1865",
+  "trade": "—",
+  "father": "Francesco Antonio Arena",
+  "mother": "Serafina Arlotta",
+  "inTree": "—",
+  "place": "Scilla",
+  "source": "Scilla, Nati 1865 atto 101; Morti 1865 atto 156 (an_ua2002795, image 89, left page; Tavola 1865 entry 156 on image 155)",
+  "note": "ROCCO ARENA'S YOUNGEST KNOWN SIBLING, BORN AND DEAD IN ONE SUMMER. Aged «mesi tre» in his death act, at four in the afternoon of 12 August 1865, son of Antonio, marinaro, and Serafina Arlotta; declared on the 13th. He carries the name of his brother Filippo, born 14 February 1852 (the row above), which suggests the elder Filippo was already dead, but his death has not been read and is not claimed. Rocco, born December 1861, was three and a half. Found by reading the A sections of the 1865 birth and death Tavole. Read at the image 24 Nov 2026."
  }
 ]

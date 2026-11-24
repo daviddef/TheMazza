@@ -1,6 +1,6 @@
 {
- "individuals": 943,
- "kept": 690,
+ "individuals": 945,
+ "kept": 692,
  "living": 220,
  "living_policy": "omit",
  "undated_dropped": 55,
@@ -46,9 +46,9 @@
   }
  },
  "people_json": {
-  "in_file": 1075,
+  "in_file": 1077,
   "living_not_read": 132,
-  "not_living_read": 943
+  "not_living_read": 945
  },
  "canvas_extras": {
   "undrawn_detailed": 29,
@@ -89,7 +89,7 @@
    {
     "name": "Arena",
     "from_catalogue": false,
-    "people": 45
+    "people": 46
    },
    {
     "name": "Prostamo",

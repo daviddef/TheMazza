@@ -2931,10 +2931,10 @@
  },
  "Arena": {
   "surname": "Arena",
-  "total": 75,
+  "total": 76,
   "groups": [
    {
-    "n": 56,
+    "n": 57,
     "earliest": 1751,
     "latest": 1937,
     "towns": [
@@ -3244,6 +3244,24 @@
       "living": false,
       "birthPlace": "Scilla, Reggio Calabria",
       "comp": 1
+     },
+     {
+      "id": "@Rfilippo-arena-4@",
+      "slug": "filippo-arena-1865",
+      "name": "Filippo Arena",
+      "surname": "Arena",
+      "born": 1865,
+      "died": 1865,
+      "bornText": "22 May 1865",
+      "diedText": "12 August 1865",
+      "fromRegister": true,
+      "registerSources": [
+       "Scilla, Nati 1865 atto 101",
+       "Morti 1865 atto 156 (an_ua2002795, image 89, left page"
+      ],
+      "living": false,
+      "birthPlace": "Scilla",
+      "comp": 0
      },
      {
       "id": "@I247@",

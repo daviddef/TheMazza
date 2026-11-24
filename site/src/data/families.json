@@ -43,8 +43,8 @@
  },
  {
   "surname": "Arena",
-  "n": 75,
-  "dead": 72,
+  "n": 76,
+  "dead": 73,
   "living": 3,
   "first": 1743,
   "last": 2012,
@@ -896,6 +896,17 @@
   "last": 1818,
   "places": [
    "Briatico"
+  ]
+ },
+ {
+  "surname": "Antonio",
+  "n": 2,
+  "dead": 2,
+  "living": 0,
+  "first": 1834,
+  "last": 1865,
+  "places": [
+   "Scilla"
   ]
  },
  {
@@ -1858,17 +1869,6 @@
   "last": 1809,
   "places": [
    "Briatico"
-  ]
- },
- {
-  "surname": "Antonio",
-  "n": 1,
-  "dead": 1,
-  "living": 0,
-  "first": null,
-  "last": null,
-  "places": [
-   "Scilla"
   ]
  },
  {
