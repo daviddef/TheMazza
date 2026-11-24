@@ -52087,7 +52087,7 @@
    "Morti 1865 atto 136",
    "Morti 1871 atto 66 (an_ua16601183, images 13-14)"
   ],
-  "registerNote": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor. NOW IN THREE ACTS AND DATED: the marriage act of 1851, his daughter's birth act of 1830, and the birth act of 1854 in which he appears IN PERSON, aged seventy-five, to declare his grandson -- and which names HIS OWN FATHER, Domenico. ALIVE ON 23 JULY 1865: the death act of his son Antonio Arlotta (Morti 1865 atto 136) names «Giovanni, marinaro, domiciliato in Scilla» and Maria Costa with no «fu», and the A section of the 1865 death Tavola has no Giovanni Arlotta, so his own death is after 1865 (the Italian-era Scilla deaths) -- or at Scilla after August 1865. Read 24 Nov 2026. DEAD ON 25 MAY 1871: Scilla, Morti 1871 atto 66 (an_ua16601183, images 13 right page to 14 left page; found by walking the margin names of the whole volume, which has no annual index): «è morto Giovanni Arlotta dei fu Domenico ed Anna Varbaro, vedovo di Costa Maria, di anni settantacinque circa, marinaro, domiciliato e residente in Scilla», declared on 25 May 1871 at the Palazzo Municipale by Filippo Romano fu Cosmo (about 40) and Luigi Minasi di Antonino (38), mariners, who said he died at nine Italian hours that day at his house in the Centro Acquagrande quarter. The act names his father Domenico and his mother Anna Varbaro (written Varbaro, as in her own death act of 1836) and calls him the widower of Maria Costa, so her death falls before 25 May 1871. The earlier candidates in the 1866 and 1867 indexes were other men (an 18-year-old son of Giuseppe; an unmarried 54-year-old son of Antonio); 1868, 1869 and 1870 have no Giovanni.",
+  "registerNote": "Serafina Arlotta's father, so Rocco Arena's maternal grandfather. ENTIRELY ABSENT FROM THE FAMILY TREE. A sailor. NOW IN THREE ACTS AND DATED: the marriage act of 1851, his daughter's birth act of 1830, and the birth act of 1854 in which he appears IN PERSON, aged seventy-five, to declare his grandson -- and which names HIS OWN FATHER, Domenico. ALIVE ON 23 JULY 1865: the death act of his son Antonio Arlotta (Morti 1865 atto 136) names «Giovanni, marinaro, domiciliato in Scilla» and Maria Costa with no «fu», and the A section of the 1865 death Tavola has no Giovanni Arlotta, so his own death is after 1865 (the Italian-era Scilla deaths) -- or at Scilla after August 1865. Read 24 Nov 2026. DEAD ON 25 MAY 1871: Scilla, Morti 1871 atto 66 (an_ua16601183, images 13 right page to 14 left page; found by walking the margin names of the whole volume, which has no annual index): «è morto Giovanni Arlotta dei fu Domenico ed Anna Varbaro, vedovo di Costa Maria, di anni settantacinque circa, marinaro, domiciliato e residente in Scilla», declared on 25 May 1871 at the Palazzo Municipale by Filippo Romano fu Cosmo (about 40) and Luigi Minasi di Antonino (38), mariners, who said he died at nine Italian hours that day at his house in the Centro Acquagrande quarter. The act names his father Domenico and his mother Anna Varbaro (written Varbaro, as in her own death act of 1836) and calls him the widower of Maria Costa, so her death falls before 25 May 1871 (found: 31 July 1867, Morti 1867 atto 264). The earlier candidates in the 1866 and 1867 indexes were other men (an 18-year-old son of Giuseppe; an unmarried 54-year-old son of Antonio); 1868, 1869 and 1870 have no Giovanni.",
   "registerGen": "7",
   "photos": [],
   "parents": [
@@ -57533,9 +57533,9 @@
   "living": false,
   "fromRegister": true,
   "born": 1802,
-  "died": null,
+  "died": 1867,
   "bornText": "c. 1802",
-  "diedText": "before 25 May 1871",
+  "diedText": "31 July 1867",
   "events": [
    {
     "what": "born",
@@ -57548,10 +57548,10 @@
    {
     "what": "died",
     "tag": "DEAT",
-    "date": "",
-    "year": null,
+    "date": "31 July 1867",
+    "year": 1867,
     "place": "",
-    "text": "before 25 May 1871"
+    "text": "31 July 1867"
    }
   ],
   "birthPlace": "Scilla",
@@ -57564,9 +57564,10 @@
    "Nati 1830 atto 2",
    "Scilla, Nati 1830 atto 89 read in the processetti of 1851",
    "Scilla, Matrimoni 1828 atto 28",
-   "Nati 1834 atto 163 (aged thirty there)"
+   "Nati 1834 atto 163 (aged thirty there)",
+   "Morti 1867 atto 264 (an_ua16601178, image 64)"
   ],
-  "registerNote": "Giovanni Arlotta's wife. ENTIRELY ABSENT FROM THE FAMILY TREE. NOTE THE SURNAME: she is the SECOND Costa in this generation -- Filippo Arena's wife is Domenica Costa -- and their great-grandson Rocco married a THIRD, Generosa Costa. A Lorenzo Costa was also lodging with Rocco in New York in 1900. CONFIRMED TWICE, by the 1851 marriage act and the 1830 birth act. DEAD BEFORE 25 MAY 1871: her husband's death act (Scilla Morti 1871 atto 66) calls him «vedovo di Costa Maria»; her own death act has not been found (the Scilla Morti Tavole of 1855-65 and 1866-70 were read for Giovanni Arlotta, not for her).",
+  "registerNote": "Giovanni Arlotta's wife. ENTIRELY ABSENT FROM THE FAMILY TREE. NOTE THE SURNAME: she is the SECOND Costa in this generation -- Filippo Arena's wife is Domenica Costa -- and their great-grandson Rocco married a THIRD, Generosa Costa. A Lorenzo Costa was also lodging with Rocco in New York in 1900. CONFIRMED TWICE, by the 1851 marriage act and the 1830 birth act. DEAD ON 31 JULY 1867: Scilla, Morti 1867 atto 264 (an_ua16601178, image 64, right page), found through the «Costa Maria 264» entry of the 1867 index (an_ua16601179, image 36): «è morta Maria Costa, figlia dei fu Rocco e Pasqualina Idone, moglie di Giovanni Arlotta, di anni cinquantaquattro, filatrice, domiciliata e residente in Scilla», at fifteen Italian hours that day in the Centro Acquagrande quarter, declared on 31 July 1867 by Santo Giacobbe fu Domenico and Camillo Palamara fu Antonio. Both her parents are named and are the Rocco Costa and Pasqualina Idone of her 1828 marriage act, so this is certainly she. THE AGE IS ELEVEN YEARS OFF: fifty-four here against twenty-six at her marriage in 1828 (which makes her sixty-five); the marriage act is still preferred. Her husband outlived her by almost four years (his death act of 25 May 1871 calls him her widower).",
   "registerGen": "7",
   "photos": [],
   "parents": [
