@@ -30384,5 +30384,26 @@
     "Anna Barbaro"
    ]
   ]
+ },
+ {
+  "key": "src/antenati-scilla-morti-1855-1856-tavole-giovanni-arlotta-check-cdc9c3",
+  "status": "part",
+  "when": "2026-11-24",
+  "source": "Antenati, Scilla Stato civile della restaurazione, Morti 1855 (an_ua2002768) and 1856 (an_ua2002771), annual alphabetical Tavole, A section",
+  "scope": "Row 85: whether Giovanni Arlotta (alive at Scilla in April 1854, 75 by his own account) died in 1855 or 1856 (terms typed: Arlotta, Arlotta Giovanni).",
+  "result": "Not in either A section. 1855 A block: Arlotta Concetta (17 January), Arena Annunziata, Arena Luciano, Arbitrio Vittoria. 1856 A block: Arlotta Serafina (proprietaria, 15 March, atto 37) and Arlotta Fortunata (filatrice, 4 August, atto 100) only. The 1857 Tavola is a ruled form with nothing written in it, so 1857 needs the acts walked; 1858-1865 (an_ua2002776 to an_ua2002795) not opened. Not a nil for his death.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002768/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002768/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002771/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002776/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002795/"
+  ],
+  "tags": [
+   "Arlotta",
+   "Arena"
+  ],
+  "nobody": true
  }
 ]
