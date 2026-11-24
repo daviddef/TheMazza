@@ -30966,5 +30966,27 @@
    "Raiti"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-scilla-nati-1816-1865-which-years-end-in-an-annual-index-map-a97108",
+  "status": "part",
+  "when": "2026-11-25",
+  "source": "Antenati, Archivio di Stato di Reggio Calabria, Stato civile della restaurazione, Scilla, Nati 1816-1865 (an_ua2002801 to an_ua2002943, 50 volumes)",
+  "scope": "No name searched: this is a map of the volumes, not a search for anyone. For each of the 50 Nati volumes the last three images were opened (thumbnails of about 330 px, so the layout of the page and not the names was judged), and for the four years whose main volume ends in acts the supplementary register was opened too. Containers were taken from the ark pages in the open Antenati tab and the image lists from the manifests. Not done: the Napoleonic Nati of 1810, 1811, 1812 and 1815, and any check that a Tavola is complete by letter.",
+  "result": "An alphabetic Tavola of the year's births ends the volume in 1818 to 1823, 1825 to 1842, 1844 to 1848, 1850, 1851, 1853 to 1855, 1857 to 1862, 1864 and 1865. In four years the main volume ends in acts and the Tavola is in the separate supplementary register: 1824 (an_ua2002823, water-damaged), 1843 (an_ua2002877, wrinkled), 1852 (an_ua2002907) and 1856 (an_ua2002920, images 26 to 32). No Tavola at the end in 1816, 1817 (known), 1849 (known, the register stops at act 200) and 1863 (the last three images are acts and a blank page). The 1856 case corrects the worklist note that the main 1856 volume has a Tavola. The containers and image counts of 24 volumes were filled into data/scilla-arks.tsv, which is now a complete lookup for Scilla Nati.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002801/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002801/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002943/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002823/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002877/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002907/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002920/"
+  ],
+  "tags": [
+   "Mazza"
+  ],
+  "nobody": true
  }
 ]
