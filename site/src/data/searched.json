@@ -30924,5 +30924,47 @@
    "Morabito"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-giarre-nati-1888-atto-245-and-1889-atto-205-two-margin-walk-leads-zoomed-a6dea8",
+  "status": "part",
+  "when": "2026-11-25",
+  "source": "Antenati, Giarre Stato civile italiano, Nati 1888 (an_ua80934, image 88, act 245) and Nati 1889 Parte I (an_ua80935, image 73, act 205)",
+  "scope": "Terms typed: Mazza, Marza (the surname of the father in act 205) and Suderi (the mother in act 245). Two doubts left by the margin walks: whether the mother of the 1888 Marzullo child is a Suderi, the surname of the Patane line's Maria Suderi, and whether the mother's surname in Mazza Pietra's act is Fresta or Gresta. Both acts were opened at the image and zoomed.",
+  "result": "Act 245 reads: Marzullo Salvatore, a boy born at 8 in the morning of 20 July 1888 in via Flavetta, registered 25 July by the father Marzullo Giuseppe, 28, bracciale, and «Suderi Rosaria sua moglie»; the surname Suderi is plain. It is a Suderi household at Giarre in 1888 and is tied to nothing in this archive (Suderi is a common Giarre and San Giovanni name; no parent of Rosaria is named in a birth act). Act 205 (Mazza Pietra, 13 June 1889, via Villa, father Mazza Francesco, 48, vetturale): the mother's first letter is still F or G and cannot be settled from this hand, so she stays Fresta? and the household stays unjoined. Reach: these two acts only; no other act of either volume was read for the mother's surname.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua80934/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua80934/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua80935/"
+  ],
+  "tags": [
+   "Mazza",
+   "Suderi",
+   "Patane"
+  ],
+  "nobody": true
+ },
+ {
+  "key": "src/antenati-mascali-riveli-1616-index-reread-and-folios-11-and-438-opened-mazza-suderi-50d394",
+  "status": "part",
+  "when": "2026-11-25",
+  "source": "Antenati, Palermo, Tribunale del Real Patrimonio, Riveli di beni e di anime 1616, Mascali (an_ua37944845, container lGJab94, 546 images)",
+  "scope": "Terms typed: Mazza, Marza, Suderi, Sudero, Lo Sudero, Patane, Patanè, Nicotra. The forename index (images 1-27) was read a second time, every page and the foot of every page, then the two entries that name Mazza and Suderi were opened at the rivelo itself, which the 22 Nov row had not done. Folio numbers are stamped at the top right: the stamp is the image number minus 26 at folio 11 and minus 25 from about folio 403, and the left page of an image is the back of the previous folio. Not read: the rest of the 546 images, and the other riveli of the volume.",
+  "result": "The index reading of 22 Nov is confirmed: Antonino Mazza f 11, Alexandro Suderi f 438, Silvestro Nicotra f 223, Francesco and doubtful Nicolao Catalano f 506 and 508, no Patane and no Raiti. New in the folios. Folio 11 (image 37, right page) is the rivelo of Mastro Antonino Mazza of Mascali, sworn before the delegate on 9 April 1616: head of house aged thirty-five, with Geronimo Pinnisi living in his house as his boy; goods one pack horse worth 8 onze and iron wares with their shop worth 4 onze, 12 onze in all, signed Antonino Mazza. No wife or child is named, so the household is one man and a servant. Folio 438 (index entry under Alexandro Suderi; its back is the left page of image 464) lists among the stable property: Alessandro Suderi, of Aci and living there, holds five salme and some tomoli of arable land in the territory of Mascali, bounded by the land of Fabritio Patania, valued at 310 onze, and further plots; the final vowel of the surname reads as e in this hand, not settled. The front of folio 438 (image 463) is a Patania entry. Not placed: nothing here joins either man to the families of 1840 and later, and the Patania entries (about twenty in the index, Gennaro f 447, Scipione f 217, Giuseppe f 402, Ramunda f 501, Nicolo f 438) are not counted as Patane because the catalogue does not hold Patania. Near-names not counted: Patania, Raciti, Reali, Pinnisi, Lo Faro (Ottavio f 306).",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua37944845/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua37944845/"
+  ],
+  "tags": [
+   "Mazza",
+   "Suderi",
+   "Patane",
+   "Nicotra",
+   "Catalano",
+   "Raiti"
+  ],
+  "nobody": true
  }
 ]
