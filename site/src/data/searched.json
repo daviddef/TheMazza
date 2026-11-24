@@ -30504,5 +30504,25 @@
    "Cavallaro"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-scilla-morti-1859-1860-1862-tavole-a-sections-giovanni-arlotta-1feb03",
+  "status": "part",
+  "when": "2026-11-24",
+  "source": "Antenati, Scilla Stato civile della restaurazione, Morti 1859 (an_ua2002779, Tavola from image 92), 1860 (an_ua2002782, Tavola images 97-101) and 1862 (an_ua2002787, Tavola images 103-107): the A section of each annual Tavola",
+  "scope": "Row 85: whether Giovanni Arlotta died at Scilla in 1859, 1860 or 1862, by reading the A section of each year's Tavola at the image (terms typed: Arlotta, Arlotta Giovanni, Arlotto, Orlotta). The acts themselves were not walked.",
+  "result": "No Giovanni Arlotta in any of the three Tavole. 1859 A block: Arena Domenico (29), Arena Maria, Arlotta Marianna (82), Arlotta Mariangela (141), two Arena and an Andalaro, no male Arlotta. 1860 A block: Arlotta Giovanna (19), Arlotta Clem- (49, son of Bruno), no Giovanni. 1862 A block: Arlotta Agata (5), Arlotta Orazio (23 and 29, two different men, one son of Antonio and Nicolina Cavatozzolo), Arlotta Angela (65), no Giovanni. Near-names not counted: Arlotta Clem- 1860 (son of Bruno, not Giovanni). Read as Tavola A sections only, so this covers three years of the Scilla Morti series that runs from 1817 to 1865; the acts were not read, and a death entered under the wrong letter would be missed. Giovanni Arlotta was alive on 23 July 1865, so his death is after that date and the Italian-era registers from 1866 are the target.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002779/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002779/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002782/",
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002787/"
+  ],
+  "tags": [
+   "Arlotta",
+   "Arena"
+  ],
+  "nobody": true
  }
 ]
