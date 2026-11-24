@@ -30465,5 +30465,22 @@
     "Filippo Arena (b. 1865, an infant)"
    ]
   ]
+ },
+ {
+  "key": "src/antenati-scilla-morti-1857-all-acts-and-tavola-giovanni-arlotta-check-70e016",
+  "status": "done",
+  "when": "2026-11-24",
+  "source": "Antenati, Scilla Stato civile della restaurazione, Morti 1857 (an_ua2002774, 95 images): acts 1 to 168 (images 3-89) and the annual Tavola (images 91-95)",
+  "scope": "Row 85: whether Giovanni Arlotta (alive at Scilla in April 1854) died in 1857, by reading every act and the Tavola (terms typed: Arlotta, Arlotta Giovanni, Arlotto, Orlotta).",
+  "result": "No Arlotta died at Scilla in 1857. Every act from 1 to 168 (4 January to 28 December 1857, two acts to an image, no gap in the numbering) was read for the name of the deceased, and the Tavola is filled in, not blank: its A section holds three entries, all Arbitrio (41 Pietro, 44 Giacoma, 48 Maria), which agrees with the acts. This CORRECTS the earlier searched row for Morti 1855-1856, which called the 1857 table a blank ruled form; the table is on images 91-95 and was not the image looked at. Near-names not counted: act 93 (image 49), a widow of 81 described as «vedova di D. Antonio Arlotto» (the last letters read -otto or -etto, a Don, not a sailor); Arlotta is not named as a witness or declarant in any act. Read in 1857 only: the Bourbon-era Scilla Morti series runs from 1817 to 1865 and each year is its own register, so this clears one year of forty-nine. Giovanni Arlotta was alive in July 1865, so 1857 was never likely.",
+  "outcome": "done",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua2002774/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua2002774/"
+  ],
+  "tags": [
+   "Arlotta"
+  ],
+  "nobody": true
  }
 ]
