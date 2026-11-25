@@ -18,8 +18,8 @@ const soft = allRows.filter((r) => r.confidence === "candidate" || r.confidence 
 const absent = additions.filter((a) => a.inTree === "\u2014");
 const inTree = additions.filter((a) => a.inTree !== "\u2014");
 
-/* Thirty-nine tables become one list with two controls: what the correction is
-   about, and how well it is held. The pair was already the shape of every row -
+/* Thirty-nine tables become one list: each correction has a kind and a note of how
+   well it is held. The pair was already the shape of every row -
    the tree says X, the record says Y - and the shared page prints them one
    above the other instead of in two columns, because these are sentences.
    The citation travels with every line; it is the whole point of the page. */
@@ -50,7 +50,7 @@ const fixes = allRows.map((r, i) => ({
   about: aboutOf(r),
 }));
 ---
-<Base title="For Michael" eyebrow={corrections.count + " things the records say differently"}
+<Base autolink title="For Michael" eyebrow={corrections.count + " things the records say differently"}
       dek="Every place where a document and the family tree disagree, or where a document says something the tree does not say at all — with the source for each, so every line can be checked.">
 
   <section class="blk">
@@ -80,7 +80,7 @@ const fixes = allRows.map((r, i) => ({
 
   <section class="blk">
     <Corrections rows={fixes} u={u} places={places}
-      kindLabel="About" sevLabel="How well it is held" />
+      sevLabel="How well it is held" />
   </section>
 
   <section class="blk">
