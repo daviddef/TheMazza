@@ -11,6 +11,7 @@
    what this archive does not know rather than a list of what would not fit. */
 import Base from "../layouts/Base.astro";
 import AncChart from "@daviddef/archive-kit/components/AncChart.astro";
+import CanvasLink from "@daviddef/archive-kit/components/CanvasLink.astro";
 import { lineage } from "@daviddef/archive-kit/lib/ahnen.js";
 import { u } from "../lib/url.js";
 import people from "../data/people.json";
@@ -86,13 +87,13 @@ const last = gens[gens.length - 1];
 ---
 <Base title="Our line, drawn"
       eyebrow={`${drawn} people, ${deepest + 1} generations, ${walls} walls`}
-      dek="Frank Mazza's ancestry as a single chart — every branch followed to the end of what is known, with nothing cut to make it fit.">
+      dek="Frank Mazza's ancestry — every branch followed to the end of what is known, with nothing cut to make it fit. The chart is drawn on the Tree Canvas; here is where each branch ends.">
 
   <section class="blk">
     <p class="prose">The <a href={u("/direct-line/")}>direct line</a> tells this as prose and
-    <a href={u("/lines/")}>The Four Quarters</a> takes the branches one at a time. This is all
-    of it at once, which shows the thing neither of those can: how quickly a family tree stops
-    being a tree and becomes a handful of threads.</p>
+    <a href={u("/lines/")}>The Four Quarters</a> takes the branches one at a time. The Tree Canvas
+    draws all of it at once, which shows the thing neither of those can: how quickly a family tree
+    stops being a tree and becomes a handful of threads.</p>
 
     <p class="prose">There are <strong>{drawn}</strong> people here across
     <strong>{deepest + 1}</strong> generations, and <strong>{walls}</strong> branches that end.
@@ -101,7 +102,10 @@ const last = gens[gens.length - 1];
     line whose parish registers are read one book at a time.</p>
   </section>
 
-  <AncChart root={root} personHref={personHref} />
+  <CanvasLink archive="mazza" person="sebastiano-mazza" />
+
+  {/* The picture moved to the Tree Canvas (25 November 2026); what only this page held stays: where each branch ends. */}
+  <AncChart root={root} personHref={personHref} draw={false} />
 
   <section class="blk">
     <p class="prose dim">How much of each generation has been found, set against how much could
