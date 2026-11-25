@@ -31023,5 +31023,22 @@
    "Catalano"
   ],
   "nobody": true
+ },
+ {
+  "key": "src/antenati-macchia-nati-1832-1865-which-volumes-end-in-a-tavola-map-559a59",
+  "status": "part",
+  "when": "2026-11-25",
+  "source": "Antenati, Archivio di Stato di Catania, Stato civile della restaurazione, Macchia, Nati 1832 to 1865 (an_ua19993244 to 19993286)",
+  "scope": "No name searched: the last eight images of each of the 43 Macchia birth volumes of 1832 to 1865 were opened as thumbnails of 200 px to see which end in an annual Tavola. Layout only. Reach: this maps where the Tavola sits; no Tavola was read for any surname, so it says nothing about Patane, Sudero or any other name.",
+  "result": "Every full-year volume ends in a Tavola of about five to seven images (a ruled list, the last image half blank): 1832 (94 images), 1833, 1834, 1835, 1836, 1837, 1838, 1839, 1840, 1841 (both volumes, the second water-damaged and torn), 1842, 1843, 1844 (107 images), 1845 (109), 1846 to 1849, 1850 (159), 1851 to 1859, 1860 (237), 1861 (230), 1862 to 1865. The short supplementary volumes end in acts and have no Tavola: 1844 (36 and 33 images, the 36-image one has a short list at the end), 1845 (36 images), 1850 (23), 1860 (23), 1861 (18), 1863 (13) and 1864 (22). Condition notes seen: water damage 1841, 1849, 1860 supplement, tight binding and soiling in 1851 to 1865. The Tavola is not alphabetical by surname in the thumbnails, so a surname search needs every line read (as the 1836 read found). Container ids and image counts are in data/macchia-arks.tsv and the manifests.",
+  "outcome": "part",
+  "url": "https://antenati.cultura.gov.it/ark:/12657/an_ua19993244/",
+  "urls": [
+   "https://antenati.cultura.gov.it/ark:/12657/an_ua19993244/"
+  ],
+  "tags": [
+   "Patane"
+  ],
+  "nobody": true
  }
 ]
