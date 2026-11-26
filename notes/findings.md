@@ -2890,3 +2890,15 @@ about one image a year.
 **Shape of the registers here:** a small comune — 27 births a year, and *one* marriage in the whole
 of 1850, four in 1851, four in 1852, three in 1854. Whole years can be read at a glance, which makes
 this quarter cheap to sweep once started.
+
+## 26 November 2026 — Giovanna Romano's sisters, and their husbands, written down for their name pages
+
+Nothing new was searched. This copies here what the search row of 20 September 2026 (the six Scilla surnames written out in full)
+and the correction "Missing people — GIOVANNA ROMANO'S SISTERS" already record from the Antenati name index for Scilla, deaths:
+
+- **Maria Romano**, died 1917, daughter of Annunziato Romano and Angela Zirilli, wife of **Giovanni Cardona**.
+- **Concetta Romano**, died 1926, same parents, wife of Rocco Donato (she already has a name page).
+- **Mariantonia Romano**, died 1930, same parents, wife of **Matteo Bova**.
+
+Those rows record the name index; they do not record that the three death acts were opened.
+
