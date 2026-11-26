@@ -1819,6 +1819,29 @@
    ]
   },
   {
+   "name": "Giovanni Cardona",
+   "slug": "giovanni-cardona",
+   "aliases": [
+    "Cardona Giovanni"
+   ],
+   "records": [
+    {
+     "as": "other",
+     "role": "named as husband of",
+     "of": "Maria Romano",
+     "comune": "Scilla",
+     "kind": "Indice",
+     "year": "1917",
+     "no": "",
+     "act": "Antenati name index, Scilla, deaths of 1917",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": ""
+    }
+   ]
+  },
+  {
    "name": "Giovanni Cuzzo",
    "slug": "giovanni-cuzzo",
    "aliases": [],
@@ -2768,6 +2791,29 @@
    ]
   },
   {
+   "name": "Maria Romano",
+   "slug": "maria-romano",
+   "aliases": [
+    "Romano Maria"
+   ],
+   "records": [
+    {
+     "as": "deceased",
+     "role": "wife of",
+     "of": "Giovanni Cardona",
+     "comune": "Scilla",
+     "kind": "Indice",
+     "year": "1917",
+     "no": "",
+     "act": "Antenati name index, Scilla, deaths of 1917",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": ""
+    }
+   ]
+  },
+  {
    "name": "Marianna Romano",
    "slug": "marianna-romano",
    "aliases": [
@@ -2824,6 +2870,52 @@
      "age": "",
      "trade": "",
      "page": "/scilla/"
+    }
+   ]
+  },
+  {
+   "name": "Mariantonia Romano",
+   "slug": "mariantonia-romano",
+   "aliases": [
+    "Romano Mariantonia"
+   ],
+   "records": [
+    {
+     "as": "deceased",
+     "role": "wife of",
+     "of": "Matteo Bova",
+     "comune": "Scilla",
+     "kind": "Indice",
+     "year": "1930",
+     "no": "",
+     "act": "Antenati name index, Scilla, deaths of 1930",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": ""
+    }
+   ]
+  },
+  {
+   "name": "Matteo Bova",
+   "slug": "matteo-bova",
+   "aliases": [
+    "Bova Matteo"
+   ],
+   "records": [
+    {
+     "as": "other",
+     "role": "named as husband of",
+     "of": "Mariantonia Romano",
+     "comune": "Scilla",
+     "kind": "Indice",
+     "year": "1930",
+     "no": "",
+     "act": "Antenati name index, Scilla, deaths of 1930",
+     "ark": "",
+     "age": "",
+     "trade": "",
+     "page": ""
     }
    ]
   },
